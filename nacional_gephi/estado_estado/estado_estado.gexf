@@ -1,0 +1,456 @@
+<?xml version='1.0' encoding='utf-8'?>
+<gexf xmlns="http://www.gexf.net/1.2draft" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.gexf.net/1.2draft http://www.gexf.net/1.2draft/gexf.xsd" version="1.2">
+  <meta lastmodifieddate="2026-09-23">
+    <creator>NetworkX 3.7</creator>
+  </meta>
+  <graph defaultedgetype="undirected" mode="static" name="">
+    <attributes mode="static" class="node">
+      <attribute id="0" title="total_kg" type="double" />
+      <attribute id="1" title="n_sustancias" type="long" />
+      <attribute id="2" title="n_municipios" type="long" />
+      <attribute id="3" title="lat" type="double" />
+      <attribute id="4" title="lon" type="double" />
+    </attributes>
+    <nodes>
+      <node id="Aguascalientes" label="Aguascalientes">
+        <attvalues>
+          <attvalue for="0" value="22615176948.580166" />
+          <attvalue for="1" value="50" />
+          <attvalue for="2" value="7" />
+          <attvalue for="3" value="21.8853" />
+          <attvalue for="4" value="-102.2916" />
+        </attvalues>
+      </node>
+      <node id="Baja California" label="Baja California">
+        <attvalues>
+          <attvalue for="0" value="92375587963.6988" />
+          <attvalue for="1" value="53" />
+          <attvalue for="2" value="5" />
+          <attvalue for="3" value="32.6245" />
+          <attvalue for="4" value="-115.4523" />
+        </attvalues>
+      </node>
+      <node id="Baja California Sur" label="Baja California Sur">
+        <attvalues>
+          <attvalue for="0" value="26367543315.44006" />
+          <attvalue for="1" value="27" />
+          <attvalue for="2" value="4" />
+          <attvalue for="3" value="24.1426" />
+          <attvalue for="4" value="-110.3128" />
+        </attvalues>
+      </node>
+      <node id="Campeche" label="Campeche">
+        <attvalues>
+          <attvalue for="0" value="219552400935.8701" />
+          <attvalue for="1" value="34" />
+          <attvalue for="2" value="8" />
+          <attvalue for="3" value="19.8301" />
+          <attvalue for="4" value="-90.5349" />
+        </attvalues>
+      </node>
+      <node id="Chiapas" label="Chiapas">
+        <attvalues>
+          <attvalue for="0" value="22255137601.32987" />
+          <attvalue for="1" value="32" />
+          <attvalue for="2" value="24" />
+          <attvalue for="3" value="16.7528" />
+          <attvalue for="4" value="-93.1152" />
+        </attvalues>
+      </node>
+      <node id="Chihuahua" label="Chihuahua">
+        <attvalues>
+          <attvalue for="0" value="134401802570.7961" />
+          <attvalue for="1" value="53" />
+          <attvalue for="2" value="27" />
+          <attvalue for="3" value="28.6353" />
+          <attvalue for="4" value="-106.0889" />
+        </attvalues>
+      </node>
+      <node id="Ciudad de México" label="Ciudad de México">
+        <attvalues>
+          <attvalue for="0" value="17938499249.613255" />
+          <attvalue for="1" value="81" />
+          <attvalue for="2" value="15" />
+          <attvalue for="3" value="19.4326" />
+          <attvalue for="4" value="-99.1332" />
+        </attvalues>
+      </node>
+      <node id="Coahuila de Zaragoza" label="Coahuila de Zaragoza">
+        <attvalues>
+          <attvalue for="0" value="282499932815.43274" />
+          <attvalue for="1" value="66" />
+          <attvalue for="2" value="24" />
+          <attvalue for="3" value="25.4232" />
+          <attvalue for="4" value="-100.9924" />
+        </attvalues>
+      </node>
+      <node id="Colima" label="Colima">
+        <attvalues>
+          <attvalue for="0" value="47919721555.4027" />
+          <attvalue for="1" value="34" />
+          <attvalue for="2" value="8" />
+          <attvalue for="3" value="19.2433" />
+          <attvalue for="4" value="-103.725" />
+        </attvalues>
+      </node>
+      <node id="Durango" label="Durango">
+        <attvalues>
+          <attvalue for="0" value="65117412920.42731" />
+          <attvalue for="1" value="42" />
+          <attvalue for="2" value="16" />
+          <attvalue for="3" value="24.0277" />
+          <attvalue for="4" value="-104.6532" />
+        </attvalues>
+      </node>
+      <node id="Guanajuato" label="Guanajuato">
+        <attvalues>
+          <attvalue for="0" value="113877084676.6966" />
+          <attvalue for="1" value="78" />
+          <attvalue for="2" value="22" />
+          <attvalue for="3" value="21.019" />
+          <attvalue for="4" value="-101.2574" />
+        </attvalues>
+      </node>
+      <node id="Guerrero" label="Guerrero">
+        <attvalues>
+          <attvalue for="0" value="76115693167.65868" />
+          <attvalue for="1" value="34" />
+          <attvalue for="2" value="11" />
+          <attvalue for="3" value="17.5506" />
+          <attvalue for="4" value="-99.5058" />
+        </attvalues>
+      </node>
+      <node id="Hidalgo" label="Hidalgo">
+        <attvalues>
+          <attvalue for="0" value="194805624844.13416" />
+          <attvalue for="1" value="43" />
+          <attvalue for="2" value="27" />
+          <attvalue for="3" value="20.1011" />
+          <attvalue for="4" value="-98.7591" />
+        </attvalues>
+      </node>
+      <node id="Jalisco" label="Jalisco">
+        <attvalues>
+          <attvalue for="0" value="54747599557.014496" />
+          <attvalue for="1" value="67" />
+          <attvalue for="2" value="46" />
+          <attvalue for="3" value="20.6597" />
+          <attvalue for="4" value="-103.3496" />
+        </attvalues>
+      </node>
+      <node id="Michoacán de Ocampo" label="Michoacán de Ocampo">
+        <attvalues>
+          <attvalue for="0" value="100061714888.26244" />
+          <attvalue for="1" value="37" />
+          <attvalue for="2" value="30" />
+          <attvalue for="3" value="19.706" />
+          <attvalue for="4" value="-101.195" />
+        </attvalues>
+      </node>
+      <node id="Morelos" label="Morelos">
+        <attvalues>
+          <attvalue for="0" value="32821537373.07016" />
+          <attvalue for="1" value="45" />
+          <attvalue for="2" value="12" />
+          <attvalue for="3" value="18.9186" />
+          <attvalue for="4" value="-99.2342" />
+        </attvalues>
+      </node>
+      <node id="México" label="México">
+        <attvalues>
+          <attvalue for="0" value="187675156205.28027" />
+          <attvalue for="1" value="86" />
+          <attvalue for="2" value="66" />
+          <attvalue for="3" value="19.2826" />
+          <attvalue for="4" value="-99.6557" />
+        </attvalues>
+      </node>
+      <node id="Nayarit" label="Nayarit">
+        <attvalues>
+          <attvalue for="0" value="92975153.07409479" />
+          <attvalue for="1" value="22" />
+          <attvalue for="2" value="9" />
+          <attvalue for="3" value="21.5058" />
+          <attvalue for="4" value="-104.8946" />
+        </attvalues>
+      </node>
+      <node id="Nuevo León" label="Nuevo León">
+        <attvalues>
+          <attvalue for="0" value="211357620312.5701" />
+          <attvalue for="1" value="67" />
+          <attvalue for="2" value="31" />
+          <attvalue for="3" value="25.6866" />
+          <attvalue for="4" value="-100.3161" />
+        </attvalues>
+      </node>
+      <node id="Oaxaca" label="Oaxaca">
+        <attvalues>
+          <attvalue for="0" value="44604764180.79398" />
+          <attvalue for="1" value="32" />
+          <attvalue for="2" value="18" />
+          <attvalue for="3" value="17.0732" />
+          <attvalue for="4" value="-96.7266" />
+        </attvalues>
+      </node>
+      <node id="Puebla" label="Puebla">
+        <attvalues>
+          <attvalue for="0" value="669732083588.6827" />
+          <attvalue for="1" value="44" />
+          <attvalue for="2" value="40" />
+          <attvalue for="3" value="19.0414" />
+          <attvalue for="4" value="-98.2063" />
+        </attvalues>
+      </node>
+      <node id="Querétaro" label="Querétaro">
+        <attvalues>
+          <attvalue for="0" value="36140895316.62302" />
+          <attvalue for="1" value="64" />
+          <attvalue for="2" value="13" />
+          <attvalue for="3" value="20.5888" />
+          <attvalue for="4" value="-100.3899" />
+        </attvalues>
+      </node>
+      <node id="Quintana Roo" label="Quintana Roo">
+        <attvalues>
+          <attvalue for="0" value="17299747542.50842" />
+          <attvalue for="1" value="28" />
+          <attvalue for="2" value="7" />
+          <attvalue for="3" value="18.5001" />
+          <attvalue for="4" value="-88.2961" />
+        </attvalues>
+      </node>
+      <node id="San Luis Potosí" label="San Luis Potosí">
+        <attvalues>
+          <attvalue for="0" value="177841559895.86642" />
+          <attvalue for="1" value="52" />
+          <attvalue for="2" value="21" />
+          <attvalue for="3" value="22.1565" />
+          <attvalue for="4" value="-100.9855" />
+        </attvalues>
+      </node>
+      <node id="Sinaloa" label="Sinaloa">
+        <attvalues>
+          <attvalue for="0" value="42203986744.835075" />
+          <attvalue for="1" value="34" />
+          <attvalue for="2" value="12" />
+          <attvalue for="3" value="24.8091" />
+          <attvalue for="4" value="-107.394" />
+        </attvalues>
+      </node>
+      <node id="Sonora" label="Sonora">
+        <attvalues>
+          <attvalue for="0" value="145356935871.17297" />
+          <attvalue for="1" value="52" />
+          <attvalue for="2" value="29" />
+          <attvalue for="3" value="29.0729" />
+          <attvalue for="4" value="-110.9559" />
+        </attvalues>
+      </node>
+      <node id="Tabasco" label="Tabasco">
+        <attvalues>
+          <attvalue for="0" value="94217029033.17883" />
+          <attvalue for="1" value="35" />
+          <attvalue for="2" value="15" />
+          <attvalue for="3" value="17.9895" />
+          <attvalue for="4" value="-92.9475" />
+        </attvalues>
+      </node>
+      <node id="Tamaulipas" label="Tamaulipas">
+        <attvalues>
+          <attvalue for="0" value="306394377307.2142" />
+          <attvalue for="1" value="71" />
+          <attvalue for="2" value="20" />
+          <attvalue for="3" value="23.7369" />
+          <attvalue for="4" value="-99.1411" />
+        </attvalues>
+      </node>
+      <node id="Tlaxcala" label="Tlaxcala">
+        <attvalues>
+          <attvalue for="0" value="9596029125.319057" />
+          <attvalue for="1" value="46" />
+          <attvalue for="2" value="27" />
+          <attvalue for="3" value="19.3182" />
+          <attvalue for="4" value="-98.2375" />
+        </attvalues>
+      </node>
+      <node id="Veracruz de Ignacio de la Llave" label="Veracruz de Ignacio de la Llave">
+        <attvalues>
+          <attvalue for="0" value="376865802862.40204" />
+          <attvalue for="1" value="61" />
+          <attvalue for="2" value="65" />
+          <attvalue for="3" value="19.5438" />
+          <attvalue for="4" value="-96.9102" />
+        </attvalues>
+      </node>
+      <node id="Yucatán" label="Yucatán">
+        <attvalues>
+          <attvalue for="0" value="44974169677.29608" />
+          <attvalue for="1" value="34" />
+          <attvalue for="2" value="41" />
+          <attvalue for="3" value="20.9674" />
+          <attvalue for="4" value="-89.5926" />
+        </attvalues>
+      </node>
+      <node id="Zacatecas" label="Zacatecas">
+        <attvalues>
+          <attvalue for="0" value="8410339395.476315" />
+          <attvalue for="1" value="39" />
+          <attvalue for="2" value="16" />
+          <attvalue for="3" value="22.7709" />
+          <attvalue for="4" value="-102.5832" />
+        </attvalues>
+      </node>
+    </nodes>
+    <edges>
+      <edge source="Aguascalientes" target="Baja California" id="0" weight="0.83487402829774" />
+      <edge source="Aguascalientes" target="Campeche" id="1" weight="0.8344095156635986" />
+      <edge source="Aguascalientes" target="Chihuahua" id="2" weight="0.8443409954100753" />
+      <edge source="Aguascalientes" target="Coahuila de Zaragoza" id="3" weight="0.8482995953614181" />
+      <edge source="Aguascalientes" target="Hidalgo" id="4" weight="0.840708749237106" />
+      <edge source="Aguascalientes" target="Jalisco" id="5" weight="0.8282655257986388" />
+      <edge source="Aguascalientes" target="Nuevo León" id="6" weight="0.8308220684581659" />
+      <edge source="Aguascalientes" target="Puebla" id="7" weight="0.8502947611829007" />
+      <edge source="Aguascalientes" target="San Luis Potosí" id="8" weight="0.8765886270375116" />
+      <edge source="Aguascalientes" target="Sonora" id="9" weight="0.8508672348434835" />
+      <edge source="Baja California" target="Campeche" id="10" weight="0.8242431554279115" />
+      <edge source="Baja California" target="Chihuahua" id="11" weight="0.8516110088556675" />
+      <edge source="Baja California" target="Coahuila de Zaragoza" id="12" weight="0.8612798011908072" />
+      <edge source="Baja California" target="Hidalgo" id="13" weight="0.8266726499340328" />
+      <edge source="Baja California" target="Jalisco" id="14" weight="0.8717854941616141" />
+      <edge source="Baja California" target="México" id="15" weight="0.8256697172795361" />
+      <edge source="Baja California" target="Nuevo León" id="16" weight="0.8913724084316973" />
+      <edge source="Baja California" target="Puebla" id="17" weight="0.8676816127065811" />
+      <edge source="Baja California" target="San Luis Potosí" id="18" weight="0.8883384969160207" />
+      <edge source="Baja California" target="Sinaloa" id="19" weight="0.8246395518219752" />
+      <edge source="Baja California" target="Tamaulipas" id="20" weight="0.8648032465676575" />
+      <edge source="Baja California" target="Veracruz de Ignacio de la Llave" id="21" weight="0.8584690357301896" />
+      <edge source="Baja California Sur" target="Campeche" id="22" weight="0.8372233204587877" />
+      <edge source="Baja California Sur" target="Colima" id="23" weight="0.8569051858271546" />
+      <edge source="Baja California Sur" target="Guerrero" id="24" weight="0.88368699880026" />
+      <edge source="Baja California Sur" target="Michoacán de Ocampo" id="25" weight="0.8748018413386659" />
+      <edge source="Baja California Sur" target="Sinaloa" id="26" weight="0.8382519072141406" />
+      <edge source="Campeche" target="Colima" id="27" weight="0.9248207520659021" />
+      <edge source="Campeche" target="Guerrero" id="28" weight="0.8529782508149165" />
+      <edge source="Campeche" target="Hidalgo" id="29" weight="0.8461005109737411" />
+      <edge source="Campeche" target="Michoacán de Ocampo" id="30" weight="0.885346837111412" />
+      <edge source="Campeche" target="Oaxaca" id="31" weight="0.8842004234223639" />
+      <edge source="Campeche" target="Puebla" id="32" weight="0.9014126156744869" />
+      <edge source="Campeche" target="San Luis Potosí" id="33" weight="0.8436998103047026" />
+      <edge source="Campeche" target="Sinaloa" id="34" weight="0.8615795969123434" />
+      <edge source="Campeche" target="Sonora" id="35" weight="0.8513613041086345" />
+      <edge source="Campeche" target="Tabasco" id="36" weight="0.8672112878124492" />
+      <edge source="Campeche" target="Yucatán" id="37" weight="0.9035817445289539" />
+      <edge source="Chiapas" target="Tabasco" id="38" weight="0.8902813036009466" />
+      <edge source="Chihuahua" target="Ciudad de México" id="39" weight="0.8315895358269564" />
+      <edge source="Chihuahua" target="Coahuila de Zaragoza" id="40" weight="0.8473254462022214" />
+      <edge source="Chihuahua" target="Durango" id="41" weight="0.8626864110468682" />
+      <edge source="Chihuahua" target="Hidalgo" id="42" weight="0.8368447527325901" />
+      <edge source="Chihuahua" target="Jalisco" id="43" weight="0.8302954570902463" />
+      <edge source="Chihuahua" target="Nuevo León" id="44" weight="0.8850819778950509" />
+      <edge source="Chihuahua" target="Puebla" id="45" weight="0.831441527405652" />
+      <edge source="Chihuahua" target="Querétaro" id="46" weight="0.8275915360867263" />
+      <edge source="Chihuahua" target="San Luis Potosí" id="47" weight="0.914424497255805" />
+      <edge source="Chihuahua" target="Sinaloa" id="48" weight="0.825736783025622" />
+      <edge source="Chihuahua" target="Sonora" id="49" weight="0.833680833060567" />
+      <edge source="Chihuahua" target="Tamaulipas" id="50" weight="0.8501399262299065" />
+      <edge source="Ciudad de México" target="Coahuila de Zaragoza" id="51" weight="0.8677604039499491" />
+      <edge source="Ciudad de México" target="Jalisco" id="52" weight="0.8449103956370208" />
+      <edge source="Ciudad de México" target="México" id="53" weight="0.8584401993499433" />
+      <edge source="Ciudad de México" target="Nuevo León" id="54" weight="0.8607585940557549" />
+      <edge source="Ciudad de México" target="San Luis Potosí" id="55" weight="0.8618906808887811" />
+      <edge source="Coahuila de Zaragoza" target="Durango" id="56" weight="0.8239409071700831" />
+      <edge source="Coahuila de Zaragoza" target="Hidalgo" id="57" weight="0.8301288884816777" />
+      <edge source="Coahuila de Zaragoza" target="Jalisco" id="58" weight="0.8520331813628544" />
+      <edge source="Coahuila de Zaragoza" target="México" id="59" weight="0.8270024261879833" />
+      <edge source="Coahuila de Zaragoza" target="Nuevo León" id="60" weight="0.8787487825915037" />
+      <edge source="Coahuila de Zaragoza" target="Puebla" id="61" weight="0.8784401603853487" />
+      <edge source="Coahuila de Zaragoza" target="San Luis Potosí" id="62" weight="0.9057194826679994" />
+      <edge source="Coahuila de Zaragoza" target="Sonora" id="63" weight="0.8311692293239221" />
+      <edge source="Coahuila de Zaragoza" target="Tamaulipas" id="64" weight="0.8394612147024595" />
+      <edge source="Colima" target="Durango" id="65" weight="0.8312014441927527" />
+      <edge source="Colima" target="Guerrero" id="66" weight="0.9269151044743864" />
+      <edge source="Colima" target="Hidalgo" id="67" weight="0.8705543457236573" />
+      <edge source="Colima" target="Michoacán de Ocampo" id="68" weight="0.8876199048583031" />
+      <edge source="Colima" target="Oaxaca" id="69" weight="0.9083374625236307" />
+      <edge source="Colima" target="Puebla" id="70" weight="0.8624763053522904" />
+      <edge source="Colima" target="Quintana Roo" id="71" weight="0.8437346358862956" />
+      <edge source="Colima" target="San Luis Potosí" id="72" weight="0.8288044867711559" />
+      <edge source="Colima" target="Sinaloa" id="73" weight="0.8946418452059066" />
+      <edge source="Colima" target="Sonora" id="74" weight="0.8624545066284446" />
+      <edge source="Colima" target="Tabasco" id="75" weight="0.8676189368127688" />
+      <edge source="Colima" target="Yucatán" id="76" weight="0.8934983909829637" />
+      <edge source="Durango" target="Hidalgo" id="77" weight="0.8756422488088846" />
+      <edge source="Durango" target="Oaxaca" id="78" weight="0.828966605204348" />
+      <edge source="Durango" target="Puebla" id="79" weight="0.8548881991384177" />
+      <edge source="Durango" target="San Luis Potosí" id="80" weight="0.8720028496277842" />
+      <edge source="Durango" target="Sinaloa" id="81" weight="0.8540427104939782" />
+      <edge source="Durango" target="Sonora" id="82" weight="0.8399471408493078" />
+      <edge source="Durango" target="Tabasco" id="83" weight="0.8407667929991945" />
+      <edge source="Durango" target="Yucatán" id="84" weight="0.8400936479853266" />
+      <edge source="Guanajuato" target="México" id="85" weight="0.8364445091946381" />
+      <edge source="Guanajuato" target="Nuevo León" id="86" weight="0.851165384534444" />
+      <edge source="Guanajuato" target="Querétaro" id="87" weight="0.853149065317844" />
+      <edge source="Guanajuato" target="Tamaulipas" id="88" weight="0.836009596521742" />
+      <edge source="Guanajuato" target="Veracruz de Ignacio de la Llave" id="89" weight="0.8254354016847075" />
+      <edge source="Guerrero" target="Michoacán de Ocampo" id="90" weight="0.8242820907258208" />
+      <edge source="Guerrero" target="Oaxaca" id="91" weight="0.852102793657259" />
+      <edge source="Guerrero" target="Quintana Roo" id="92" weight="0.8552112986196052" />
+      <edge source="Guerrero" target="Sinaloa" id="93" weight="0.8502052444871346" />
+      <edge source="Guerrero" target="Sonora" id="94" weight="0.8253373658219272" />
+      <edge source="Guerrero" target="Yucatán" id="95" weight="0.8569877333577663" />
+      <edge source="Hidalgo" target="Jalisco" id="96" weight="0.8348818740879369" />
+      <edge source="Hidalgo" target="Michoacán de Ocampo" id="97" weight="0.8345483977954438" />
+      <edge source="Hidalgo" target="Oaxaca" id="98" weight="0.8727670717429987" />
+      <edge source="Hidalgo" target="Puebla" id="99" weight="0.8569752738108343" />
+      <edge source="Hidalgo" target="San Luis Potosí" id="100" weight="0.8960862236852376" />
+      <edge source="Hidalgo" target="Sinaloa" id="101" weight="0.8866522931162469" />
+      <edge source="Hidalgo" target="Sonora" id="102" weight="0.8571309890967731" />
+      <edge source="Hidalgo" target="Tabasco" id="103" weight="0.8491281678611122" />
+      <edge source="Hidalgo" target="Yucatán" id="104" weight="0.8801035414159147" />
+      <edge source="Hidalgo" target="Zacatecas" id="105" weight="0.8631696796779382" />
+      <edge source="Jalisco" target="México" id="106" weight="0.8350103391605433" />
+      <edge source="Jalisco" target="Nuevo León" id="107" weight="0.868417866395295" />
+      <edge source="Jalisco" target="Puebla" id="108" weight="0.8277254364532595" />
+      <edge source="Jalisco" target="San Luis Potosí" id="109" weight="0.8559115968192216" />
+      <edge source="Jalisco" target="Sonora" id="110" weight="0.8257945010719433" />
+      <edge source="Jalisco" target="Tamaulipas" id="111" weight="0.8377564077516192" />
+      <edge source="Michoacán de Ocampo" target="Oaxaca" id="112" weight="0.8501683787166692" />
+      <edge source="Michoacán de Ocampo" target="Puebla" id="113" weight="0.8723625579558029" />
+      <edge source="Michoacán de Ocampo" target="Sinaloa" id="114" weight="0.8331129929338471" />
+      <edge source="Michoacán de Ocampo" target="Tabasco" id="115" weight="0.8348777690878783" />
+      <edge source="México" target="Nuevo León" id="116" weight="0.8651881285763295" />
+      <edge source="México" target="Querétaro" id="117" weight="0.8299179647379112" />
+      <edge source="México" target="Tamaulipas" id="118" weight="0.8373048395387755" />
+      <edge source="Nuevo León" target="Puebla" id="119" weight="0.8363099946422085" />
+      <edge source="Nuevo León" target="Querétaro" id="120" weight="0.8769047578657752" />
+      <edge source="Nuevo León" target="San Luis Potosí" id="121" weight="0.8952555475878233" />
+      <edge source="Nuevo León" target="Tamaulipas" id="122" weight="0.8813670753897241" />
+      <edge source="Nuevo León" target="Veracruz de Ignacio de la Llave" id="123" weight="0.8360585337607555" />
+      <edge source="Oaxaca" target="Puebla" id="124" weight="0.8354817133421163" />
+      <edge source="Oaxaca" target="Quintana Roo" id="125" weight="0.8424982461034345" />
+      <edge source="Oaxaca" target="Sinaloa" id="126" weight="0.9080758484872468" />
+      <edge source="Oaxaca" target="Tabasco" id="127" weight="0.8708297651478033" />
+      <edge source="Oaxaca" target="Yucatán" id="128" weight="0.914542817062547" />
+      <edge source="Puebla" target="San Luis Potosí" id="129" weight="0.8944620303361379" />
+      <edge source="Puebla" target="Sinaloa" id="130" weight="0.8537784355529573" />
+      <edge source="Puebla" target="Sonora" id="131" weight="0.8434558896651722" />
+      <edge source="Puebla" target="Tabasco" id="132" weight="0.8539886382942138" />
+      <edge source="Puebla" target="Yucatán" id="133" weight="0.845055615505873" />
+      <edge source="Querétaro" target="San Luis Potosí" id="134" weight="0.869132249816757" />
+      <edge source="Querétaro" target="Tamaulipas" id="135" weight="0.8565209691083798" />
+      <edge source="San Luis Potosí" target="Sinaloa" id="136" weight="0.8583060661313903" />
+      <edge source="San Luis Potosí" target="Sonora" id="137" weight="0.8578736052749723" />
+      <edge source="San Luis Potosí" target="Tabasco" id="138" weight="0.8735668873576686" />
+      <edge source="San Luis Potosí" target="Tamaulipas" id="139" weight="0.8644550029204253" />
+      <edge source="San Luis Potosí" target="Veracruz de Ignacio de la Llave" id="140" weight="0.8464137767263781" />
+      <edge source="San Luis Potosí" target="Yucatán" id="141" weight="0.8602659189554277" />
+      <edge source="San Luis Potosí" target="Zacatecas" id="142" weight="0.8303108637215557" />
+      <edge source="Sinaloa" target="Sonora" id="143" weight="0.8272337992498615" />
+      <edge source="Sinaloa" target="Tabasco" id="144" weight="0.8488094714880576" />
+      <edge source="Sinaloa" target="Yucatán" id="145" weight="0.9033574085621319" />
+      <edge source="Sonora" target="Yucatán" id="146" weight="0.8330466146361134" />
+      <edge source="Tabasco" target="Yucatán" id="147" weight="0.880530256769989" />
+      <edge source="Tamaulipas" target="Veracruz de Ignacio de la Llave" id="148" weight="0.8355713799226884" />
+    </edges>
+  </graph>
+</gexf>

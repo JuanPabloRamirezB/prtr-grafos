@@ -1,0 +1,13 @@
+# Dataset (39 MB): not versioned. Put prtr_raw_for_stori_stori.csv here to regenerate the graphs.
+*.csv
+
+# Build output / caches
+*.class
+__pycache__/
+*.pyc
+_test/
+_shots/
+
+# The repository-level .gitignore excludes *.png, but the site needs them
+# (thumbnails, previews, downloads). A nested rule takes precedence over the parent one.
+!*.png

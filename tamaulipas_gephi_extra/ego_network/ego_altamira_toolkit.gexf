@@ -1,0 +1,476 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<gexf xmlns="http://gexf.net/1.3" version="1.3" xmlns:viz="http://gexf.net/1.3/viz" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://gexf.net/1.3 http://gexf.net/1.3/gexf.xsd">
+  <meta lastmodifieddate="2026-09-22">
+    <creator>Apache NetBeans Platform Dev (Build {0})</creator>
+    <title></title>
+    <description></description>
+  </meta>
+  <graph defaultedgetype="undirected" mode="static">
+    <attributes class="node" mode="static">
+      <attribute id="0" title="role" type="string"/>
+      <attribute id="1" title="total_kg" type="double"/>
+    </attributes>
+    <nodes>
+      <node id="Tamaulipas.Altamira" label="Tamaulipas.Altamira">
+        <attvalues>
+          <attvalue for="0" value="focal"/>
+          <attvalue for="1" value="1.78999106120657E11"/>
+        </attvalues>
+        <viz:size value="60.0"/>
+        <viz:color r="227" g="73" b="72"/>
+      </node>
+      <node id="Bióxido de carbono" label="Bióxido de carbono">
+        <attvalues>
+          <attvalue for="0" value="substance"/>
+          <attvalue for="1" value="1.7852191530219296E11"/>
+        </attvalues>
+        <viz:size value="59.88003"/>
+        <viz:position x="500.0" y="0.0"/>
+        <viz:color r="235" g="104" b="52"/>
+      </node>
+      <node id="Bióxido de nitrógeno" label="Bióxido de nitrógeno">
+        <attvalues>
+          <attvalue for="0" value="substance"/>
+          <attvalue for="1" value="2.95990801659E8"/>
+        </attvalues>
+        <viz:size value="15.074397"/>
+        <viz:position x="456.77274" y="203.36832"/>
+        <viz:color r="235" g="104" b="52"/>
+      </node>
+      <node id="Oxido nitroso" label="Oxido nitroso">
+        <attvalues>
+          <attvalue for="0" value="substance"/>
+          <attvalue for="1" value="9.88085895764883E7"/>
+        </attvalues>
+        <viz:size value="15.024826"/>
+        <viz:position x="334.5653" y="371.57242"/>
+        <viz:color r="235" g="104" b="52"/>
+      </node>
+      <node id="Metano" label="Metano">
+        <attvalues>
+          <attvalue for="0" value="substance"/>
+          <attvalue for="1" value="7.63379791603437E7"/>
+        </attvalues>
+        <viz:size value="15.0191765"/>
+        <viz:position x="154.5085" y="475.52826"/>
+        <viz:color r="235" g="104" b="52"/>
+      </node>
+      <node id="Estireno (fenil etileno)" label="Estireno (fenil etileno)">
+        <attvalues>
+          <attvalue for="0" value="substance"/>
+          <attvalue for="1" value="3333333.2869243"/>
+        </attvalues>
+        <viz:size value="15.000823"/>
+        <viz:position x="-52.264233" y="497.26096"/>
+        <viz:color r="235" g="104" b="52"/>
+      </node>
+      <node id="Formaldehido" label="Formaldehido">
+        <attvalues>
+          <attvalue for="0" value="substance"/>
+          <attvalue for="1" value="712159.6515952236"/>
+        </attvalues>
+        <viz:size value="15.000164"/>
+        <viz:position x="-250.0" y="433.0127"/>
+        <viz:color r="235" g="104" b="52"/>
+      </node>
+      <node id="Cloruro de vinilo" label="Cloruro de vinilo">
+        <attvalues>
+          <attvalue for="0" value="substance"/>
+          <attvalue for="1" value="484242.63408753206"/>
+        </attvalues>
+        <viz:size value="15.000107"/>
+        <viz:position x="-404.50848" y="293.89264"/>
+        <viz:color r="235" g="104" b="52"/>
+      </node>
+      <node id="Acrilonitrilo" label="Acrilonitrilo">
+        <attvalues>
+          <attvalue for="0" value="substance"/>
+          <attvalue for="1" value="217226.81482720003"/>
+        </attvalues>
+        <viz:size value="15.00004"/>
+        <viz:position x="-489.0738" y="103.95585"/>
+        <viz:color r="235" g="104" b="52"/>
+      </node>
+      <node id="Níquel (Compuestos solubles)" label="Níquel (Compuestos solubles)">
+        <attvalues>
+          <attvalue for="0" value="substance"/>
+          <attvalue for="1" value="162818.8457468401"/>
+        </attvalues>
+        <viz:size value="15.000027"/>
+        <viz:position x="-489.0738" y="-103.95585"/>
+        <viz:color r="235" g="104" b="52"/>
+      </node>
+      <node id="Acido sulfhídrico" label="Acido sulfhídrico">
+        <attvalues>
+          <attvalue for="0" value="substance"/>
+          <attvalue for="1" value="148595.450044"/>
+        </attvalues>
+        <viz:size value="15.000023"/>
+        <viz:position x="-404.50848" y="-293.89264"/>
+        <viz:color r="235" g="104" b="52"/>
+      </node>
+      <node id="Plomo (Compuestos solubles)" label="Plomo (Compuestos solubles)">
+        <attvalues>
+          <attvalue for="0" value="substance"/>
+          <attvalue for="1" value="129442.84453323005"/>
+        </attvalues>
+        <viz:size value="15.000018"/>
+        <viz:position x="-250.0" y="-433.0127"/>
+        <viz:color r="235" g="104" b="52"/>
+      </node>
+      <node id="Cromo (Compuestos solubles)" label="Cromo (Compuestos solubles)">
+        <attvalues>
+          <attvalue for="0" value="substance"/>
+          <attvalue for="1" value="125233.46115419005"/>
+        </attvalues>
+        <viz:size value="15.000017"/>
+        <viz:position x="-52.264233" y="-497.26096"/>
+        <viz:color r="235" g="104" b="52"/>
+      </node>
+      <node id="Butadieno" label="Butadieno">
+        <attvalues>
+          <attvalue for="0" value="substance"/>
+          <attvalue for="1" value="112930.82673870001"/>
+        </attvalues>
+        <viz:size value="15.000013"/>
+        <viz:position x="154.5085" y="-475.52826"/>
+        <viz:color r="235" g="104" b="52"/>
+      </node>
+      <node id="Benceno" label="Benceno">
+        <attvalues>
+          <attvalue for="0" value="substance"/>
+          <attvalue for="1" value="70768.29"/>
+        </attvalues>
+        <viz:size value="15.000003"/>
+        <viz:position x="334.5653" y="-371.57242"/>
+        <viz:color r="235" g="104" b="52"/>
+      </node>
+      <node id="Asbesto y sus formas (En forma de polvo, fibras o productos desmenuzables con la presión de la mano)" label="Asbesto y sus formas (En forma de polvo, fibras o productos desmenuzables con la presión de la mano)">
+        <attvalues>
+          <attvalue for="0" value="substance"/>
+          <attvalue for="1" value="58361.549999999996"/>
+        </attvalues>
+        <viz:size value="15.0"/>
+        <viz:position x="456.77274" y="-203.36832"/>
+        <viz:color r="235" g="104" b="52"/>
+      </node>
+      <node id="Tamaulipas.Matamoros" label="Tamaulipas.Matamoros">
+        <attvalues>
+          <attvalue for="0" value="peer_municipio"/>
+          <attvalue for="1" value="1.275331947461829E9"/>
+        </attvalues>
+        <viz:size value="15.320601"/>
+        <viz:position x="382.68344" y="-923.8795"/>
+        <viz:color r="42" g="120" b="214"/>
+      </node>
+      <node id="Tamaulipas.Nuevo Laredo" label="Tamaulipas.Nuevo Laredo">
+        <attvalues>
+          <attvalue for="0" value="peer_municipio"/>
+          <attvalue for="1" value="2.0139079254843743E9"/>
+        </attvalues>
+        <viz:size value="15.506278"/>
+        <viz:position x="-382.68344" y="-923.8795"/>
+        <viz:color r="42" g="120" b="214"/>
+      </node>
+      <node id="Tamaulipas.Ciudad Madero" label="Tamaulipas.Ciudad Madero">
+        <attvalues>
+          <attvalue for="0" value="peer_municipio"/>
+          <attvalue for="1" value="1.555942443814246E10"/>
+        </attvalues>
+        <viz:size value="18.911592"/>
+        <viz:position x="-382.68344" y="923.8795"/>
+        <viz:color r="42" g="120" b="214"/>
+      </node>
+      <node id="Tamaulipas.Reynosa" label="Tamaulipas.Reynosa">
+        <attvalues>
+          <attvalue for="0" value="peer_municipio"/>
+          <attvalue for="1" value="2.4784015689444317E10"/>
+        </attvalues>
+        <viz:size value="21.230637"/>
+        <viz:position x="382.68344" y="923.8795"/>
+        <viz:color r="42" g="120" b="214"/>
+      </node>
+      <node id="Tamaulipas.Valle Hermoso" label="Tamaulipas.Valle Hermoso">
+        <attvalues>
+          <attvalue for="0" value="peer_municipio"/>
+          <attvalue for="1" value="6.208714617586928E10"/>
+        </attvalues>
+        <viz:size value="30.608568"/>
+        <viz:position x="923.8795" y="382.68344"/>
+        <viz:color r="42" g="120" b="214"/>
+      </node>
+      <node id="Tamaulipas.Río Bravo" label="Tamaulipas.Río Bravo">
+        <attvalues>
+          <attvalue for="0" value="peer_municipio"/>
+          <attvalue for="1" value="1.2119708369753983E10"/>
+        </attvalues>
+        <viz:size value="18.046856"/>
+        <viz:position x="-923.8795" y="382.68344"/>
+        <viz:color r="42" g="120" b="214"/>
+      </node>
+      <node id="Tamaulipas.Victoria" label="Tamaulipas.Victoria">
+        <attvalues>
+          <attvalue for="0" value="peer_municipio"/>
+          <attvalue for="1" value="1.5502017101275453E8"/>
+        </attvalues>
+        <viz:size value="15.038957"/>
+        <viz:position x="923.8795" y="-382.68344"/>
+        <viz:color r="42" g="120" b="214"/>
+      </node>
+      <node id="Tamaulipas.El Mante" label="Tamaulipas.El Mante">
+        <attvalues>
+          <attvalue for="0" value="peer_municipio"/>
+          <attvalue for="1" value="2.319038158485244E9"/>
+        </attvalues>
+        <viz:size value="15.582987"/>
+        <viz:position x="-923.8795" y="-382.68344"/>
+        <viz:color r="42" g="120" b="214"/>
+      </node>
+    </nodes>
+    <edges>
+      <edge id="0" source="Tamaulipas.Altamira" target="Bióxido de carbono" weight="1.78521915392E11">
+        <viz:color r="137" g="135" b="129" a="0.54901963"/>
+      </edge>
+      <edge id="1" source="Tamaulipas.Altamira" target="Bióxido de nitrógeno" weight="2.95990816E8">
+        <viz:color r="137" g="135" b="129" a="0.54901963"/>
+      </edge>
+      <edge id="2" source="Tamaulipas.Altamira" target="Oxido nitroso" weight="9.8808592E7">
+        <viz:color r="137" g="135" b="129" a="0.54901963"/>
+      </edge>
+      <edge id="3" source="Tamaulipas.Altamira" target="Metano" weight="7.6337976E7">
+        <viz:color r="137" g="135" b="129" a="0.54901963"/>
+      </edge>
+      <edge id="4" source="Tamaulipas.Altamira" target="Estireno (fenil etileno)" weight="3333333.25">
+        <viz:color r="137" g="135" b="129" a="0.54901963"/>
+      </edge>
+      <edge id="5" source="Tamaulipas.Altamira" target="Formaldehido" weight="712159.625">
+        <viz:color r="137" g="135" b="129" a="0.54901963"/>
+      </edge>
+      <edge id="6" source="Tamaulipas.Altamira" target="Cloruro de vinilo" weight="484242.625">
+        <viz:color r="137" g="135" b="129" a="0.54901963"/>
+      </edge>
+      <edge id="7" source="Tamaulipas.Altamira" target="Acrilonitrilo" weight="217226.8125">
+        <viz:color r="137" g="135" b="129" a="0.54901963"/>
+      </edge>
+      <edge id="8" source="Tamaulipas.Altamira" target="Níquel (Compuestos solubles)" weight="162818.84375">
+        <viz:color r="137" g="135" b="129" a="0.54901963"/>
+      </edge>
+      <edge id="9" source="Tamaulipas.Altamira" target="Acido sulfhídrico" weight="148595.453125">
+        <viz:color r="137" g="135" b="129" a="0.54901963"/>
+      </edge>
+      <edge id="10" source="Tamaulipas.Altamira" target="Plomo (Compuestos solubles)" weight="129442.84375">
+        <viz:color r="137" g="135" b="129" a="0.54901963"/>
+      </edge>
+      <edge id="11" source="Tamaulipas.Altamira" target="Cromo (Compuestos solubles)" weight="125233.4609375">
+        <viz:color r="137" g="135" b="129" a="0.54901963"/>
+      </edge>
+      <edge id="12" source="Tamaulipas.Altamira" target="Butadieno" weight="112930.828125">
+        <viz:color r="137" g="135" b="129" a="0.54901963"/>
+      </edge>
+      <edge id="13" source="Tamaulipas.Altamira" target="Benceno" weight="70768.2890625">
+        <viz:color r="137" g="135" b="129" a="0.54901963"/>
+      </edge>
+      <edge id="14" source="Tamaulipas.Altamira" target="Asbesto y sus formas (En forma de polvo, fibras o productos desmenuzables con la presión de la mano)" weight="58361.55078125">
+        <viz:color r="137" g="135" b="129" a="0.54901963"/>
+      </edge>
+      <edge id="15" source="Bióxido de carbono" target="Tamaulipas.Matamoros" weight="1.27108672E9">
+        <viz:color r="137" g="135" b="129" a="0.54901963"/>
+      </edge>
+      <edge id="16" source="Bióxido de carbono" target="Tamaulipas.Nuevo Laredo" weight="2.004556928E9">
+        <viz:color r="137" g="135" b="129" a="0.54901963"/>
+      </edge>
+      <edge id="17" source="Bióxido de carbono" target="Tamaulipas.Ciudad Madero" weight="1.551315968E10">
+        <viz:color r="137" g="135" b="129" a="0.54901963"/>
+      </edge>
+      <edge id="18" source="Bióxido de carbono" target="Tamaulipas.Reynosa" weight="2.4617811968E10">
+        <viz:color r="137" g="135" b="129" a="0.54901963"/>
+      </edge>
+      <edge id="19" source="Bióxido de carbono" target="Tamaulipas.Valle Hermoso" weight="6.1395095552E10">
+        <viz:color r="137" g="135" b="129" a="0.54901963"/>
+      </edge>
+      <edge id="20" source="Bióxido de carbono" target="Tamaulipas.Río Bravo" weight="1.2110036992E10">
+        <viz:color r="137" g="135" b="129" a="0.54901963"/>
+      </edge>
+      <edge id="21" source="Bióxido de carbono" target="Tamaulipas.Victoria" weight="1.54137792E8">
+        <viz:color r="137" g="135" b="129" a="0.54901963"/>
+      </edge>
+      <edge id="22" source="Bióxido de carbono" target="Tamaulipas.El Mante" weight="2.319037952E9">
+        <viz:color r="137" g="135" b="129" a="0.54901963"/>
+      </edge>
+      <edge id="23" source="Bióxido de nitrógeno" target="Tamaulipas.Matamoros" weight="2863180.0">
+        <viz:color r="137" g="135" b="129" a="0.54901963"/>
+      </edge>
+      <edge id="24" source="Bióxido de nitrógeno" target="Tamaulipas.Nuevo Laredo" weight="106769.0">
+        <viz:color r="137" g="135" b="129" a="0.54901963"/>
+      </edge>
+      <edge id="25" source="Bióxido de nitrógeno" target="Tamaulipas.Reynosa" weight="8.5826584E7">
+        <viz:color r="137" g="135" b="129" a="0.54901963"/>
+      </edge>
+      <edge id="26" source="Bióxido de nitrógeno" target="Tamaulipas.Valle Hermoso" weight="6.89330048E8">
+        <viz:color r="137" g="135" b="129" a="0.54901963"/>
+      </edge>
+      <edge id="27" source="Bióxido de nitrógeno" target="Tamaulipas.Río Bravo" weight="9603110.0">
+        <viz:color r="137" g="135" b="129" a="0.54901963"/>
+      </edge>
+      <edge id="28" source="Oxido nitroso" target="Tamaulipas.Matamoros" weight="2.7100000381469727">
+        <viz:color r="137" g="135" b="129" a="0.54901963"/>
+      </edge>
+      <edge id="29" source="Oxido nitroso" target="Tamaulipas.Reynosa" weight="3850650.25">
+        <viz:color r="137" g="135" b="129" a="0.54901963"/>
+      </edge>
+      <edge id="30" source="Metano" target="Tamaulipas.Matamoros" weight="110683.28125">
+        <viz:color r="137" g="135" b="129" a="0.54901963"/>
+      </edge>
+      <edge id="31" source="Metano" target="Tamaulipas.Nuevo Laredo" weight="8980436.0">
+        <viz:color r="137" g="135" b="129" a="0.54901963"/>
+      </edge>
+      <edge id="32" source="Metano" target="Tamaulipas.Ciudad Madero" weight="4.3578872E7">
+        <viz:color r="137" g="135" b="129" a="0.54901963"/>
+      </edge>
+      <edge id="33" source="Metano" target="Tamaulipas.Reynosa" weight="7.606432E7">
+        <viz:color r="137" g="135" b="129" a="0.54901963"/>
+      </edge>
+      <edge id="34" source="Metano" target="Tamaulipas.Valle Hermoso" weight="1259023.75">
+        <viz:color r="137" g="135" b="129" a="0.54901963"/>
+      </edge>
+      <edge id="35" source="Estireno (fenil etileno)" target="Tamaulipas.Matamoros" weight="1093649.625">
+        <viz:color r="137" g="135" b="129" a="0.54901963"/>
+      </edge>
+      <edge id="36" source="Estireno (fenil etileno)" target="Tamaulipas.Reynosa" weight="299233.5">
+        <viz:color r="137" g="135" b="129" a="0.54901963"/>
+      </edge>
+      <edge id="37" source="Estireno (fenil etileno)" target="Tamaulipas.Valle Hermoso" weight="10843.83984375">
+        <viz:color r="137" g="135" b="129" a="0.54901963"/>
+      </edge>
+      <edge id="38" source="Estireno (fenil etileno)" target="Tamaulipas.Río Bravo" weight="66989.515625">
+        <viz:color r="137" g="135" b="129" a="0.54901963"/>
+      </edge>
+      <edge id="39" source="Estireno (fenil etileno)" target="Tamaulipas.Victoria" weight="118939.5625">
+        <viz:color r="137" g="135" b="129" a="0.54901963"/>
+      </edge>
+      <edge id="40" source="Formaldehido" target="Tamaulipas.Matamoros" weight="2411.39990234375">
+        <viz:color r="137" g="135" b="129" a="0.54901963"/>
+      </edge>
+      <edge id="41" source="Formaldehido" target="Tamaulipas.Nuevo Laredo" weight="44965.7734375">
+        <viz:color r="137" g="135" b="129" a="0.54901963"/>
+      </edge>
+      <edge id="42" source="Formaldehido" target="Tamaulipas.Ciudad Madero" weight="56620.1875">
+        <viz:color r="137" g="135" b="129" a="0.54901963"/>
+      </edge>
+      <edge id="43" source="Formaldehido" target="Tamaulipas.Reynosa" weight="7708.81005859375">
+        <viz:color r="137" g="135" b="129" a="0.54901963"/>
+      </edge>
+      <edge id="44" source="Formaldehido" target="Tamaulipas.Valle Hermoso" weight="383507.125">
+        <viz:color r="137" g="135" b="129" a="0.54901963"/>
+      </edge>
+      <edge id="45" source="Formaldehido" target="Tamaulipas.Victoria" weight="5849.0185546875">
+        <viz:color r="137" g="135" b="129" a="0.54901963"/>
+      </edge>
+      <edge id="46" source="Formaldehido" target="Tamaulipas.El Mante" weight="1.090973973274231">
+        <viz:color r="137" g="135" b="129" a="0.54901963"/>
+      </edge>
+      <edge id="47" source="Níquel (Compuestos solubles)" target="Tamaulipas.Matamoros" weight="6876.4833984375">
+        <viz:color r="137" g="135" b="129" a="0.54901963"/>
+      </edge>
+      <edge id="48" source="Níquel (Compuestos solubles)" target="Tamaulipas.Nuevo Laredo" weight="1302.49853515625">
+        <viz:color r="137" g="135" b="129" a="0.54901963"/>
+      </edge>
+      <edge id="49" source="Níquel (Compuestos solubles)" target="Tamaulipas.Ciudad Madero" weight="73857.1015625">
+        <viz:color r="137" g="135" b="129" a="0.54901963"/>
+      </edge>
+      <edge id="50" source="Níquel (Compuestos solubles)" target="Tamaulipas.Reynosa" weight="25975.615234375">
+        <viz:color r="137" g="135" b="129" a="0.54901963"/>
+      </edge>
+      <edge id="51" source="Níquel (Compuestos solubles)" target="Tamaulipas.Valle Hermoso" weight="228.5028839111328">
+        <viz:color r="137" g="135" b="129" a="0.54901963"/>
+      </edge>
+      <edge id="52" source="Níquel (Compuestos solubles)" target="Tamaulipas.Río Bravo" weight="655.513427734375">
+        <viz:color r="137" g="135" b="129" a="0.54901963"/>
+      </edge>
+      <edge id="53" source="Níquel (Compuestos solubles)" target="Tamaulipas.Victoria" weight="344.6531066894531">
+        <viz:color r="137" g="135" b="129" a="0.54901963"/>
+      </edge>
+      <edge id="54" source="Níquel (Compuestos solubles)" target="Tamaulipas.El Mante" weight="72.16919708251953">
+        <viz:color r="137" g="135" b="129" a="0.54901963"/>
+      </edge>
+      <edge id="55" source="Acido sulfhídrico" target="Tamaulipas.Ciudad Madero" weight="2455028.0">
+        <viz:color r="137" g="135" b="129" a="0.54901963"/>
+      </edge>
+      <edge id="56" source="Acido sulfhídrico" target="Tamaulipas.Reynosa" weight="0.2309589982032776">
+        <viz:color r="137" g="135" b="129" a="0.54901963"/>
+      </edge>
+      <edge id="57" source="Plomo (Compuestos solubles)" target="Tamaulipas.Matamoros" weight="116269.859375">
+        <viz:color r="137" g="135" b="129" a="0.54901963"/>
+      </edge>
+      <edge id="58" source="Plomo (Compuestos solubles)" target="Tamaulipas.Nuevo Laredo" weight="43502.5390625">
+        <viz:color r="137" g="135" b="129" a="0.54901963"/>
+      </edge>
+      <edge id="59" source="Plomo (Compuestos solubles)" target="Tamaulipas.Ciudad Madero" weight="33755.83203125">
+        <viz:color r="137" g="135" b="129" a="0.54901963"/>
+      </edge>
+      <edge id="60" source="Plomo (Compuestos solubles)" target="Tamaulipas.Reynosa" weight="107451.9765625">
+        <viz:color r="137" g="135" b="129" a="0.54901963"/>
+      </edge>
+      <edge id="61" source="Plomo (Compuestos solubles)" target="Tamaulipas.Valle Hermoso" weight="1067625.875">
+        <viz:color r="137" g="135" b="129" a="0.54901963"/>
+      </edge>
+      <edge id="62" source="Plomo (Compuestos solubles)" target="Tamaulipas.Río Bravo" weight="579.9647827148438">
+        <viz:color r="137" g="135" b="129" a="0.54901963"/>
+      </edge>
+      <edge id="63" source="Plomo (Compuestos solubles)" target="Tamaulipas.Victoria" weight="559.0108032226562">
+        <viz:color r="137" g="135" b="129" a="0.54901963"/>
+      </edge>
+      <edge id="64" source="Plomo (Compuestos solubles)" target="Tamaulipas.El Mante" weight="67.58830261230469">
+        <viz:color r="137" g="135" b="129" a="0.54901963"/>
+      </edge>
+      <edge id="65" source="Cromo (Compuestos solubles)" target="Tamaulipas.Matamoros" weight="15174.955078125">
+        <viz:color r="137" g="135" b="129" a="0.54901963"/>
+      </edge>
+      <edge id="66" source="Cromo (Compuestos solubles)" target="Tamaulipas.Nuevo Laredo" weight="2578.224365234375">
+        <viz:color r="137" g="135" b="129" a="0.54901963"/>
+      </edge>
+      <edge id="67" source="Cromo (Compuestos solubles)" target="Tamaulipas.Ciudad Madero" weight="25853.53515625">
+        <viz:color r="137" g="135" b="129" a="0.54901963"/>
+      </edge>
+      <edge id="68" source="Cromo (Compuestos solubles)" target="Tamaulipas.Reynosa" weight="4338.8662109375">
+        <viz:color r="137" g="135" b="129" a="0.54901963"/>
+      </edge>
+      <edge id="69" source="Cromo (Compuestos solubles)" target="Tamaulipas.Valle Hermoso" weight="2.831881046295166">
+        <viz:color r="137" g="135" b="129" a="0.54901963"/>
+      </edge>
+      <edge id="70" source="Cromo (Compuestos solubles)" target="Tamaulipas.Río Bravo" weight="405.8539123535156">
+        <viz:color r="137" g="135" b="129" a="0.54901963"/>
+      </edge>
+      <edge id="71" source="Cromo (Compuestos solubles)" target="Tamaulipas.Victoria" weight="0.0032970889005810022">
+        <viz:color r="137" g="135" b="129" a="0.54901963"/>
+      </edge>
+      <edge id="72" source="Cromo (Compuestos solubles)" target="Tamaulipas.El Mante" weight="58.23910140991211">
+        <viz:color r="137" g="135" b="129" a="0.54901963"/>
+      </edge>
+      <edge id="73" source="Benceno" target="Tamaulipas.Matamoros" weight="36191.859375">
+        <viz:color r="137" g="135" b="129" a="0.54901963"/>
+      </edge>
+      <edge id="74" source="Benceno" target="Tamaulipas.Nuevo Laredo" weight="0.15192671120166779">
+        <viz:color r="137" g="135" b="129" a="0.54901963"/>
+      </edge>
+      <edge id="75" source="Benceno" target="Tamaulipas.Ciudad Madero" weight="41062.515625">
+        <viz:color r="137" g="135" b="129" a="0.54901963"/>
+      </edge>
+      <edge id="76" source="Benceno" target="Tamaulipas.Reynosa" weight="17664.796875">
+        <viz:color r="137" g="135" b="129" a="0.54901963"/>
+      </edge>
+      <edge id="77" source="Benceno" target="Tamaulipas.Victoria" weight="756692.5">
+        <viz:color r="137" g="135" b="129" a="0.54901963"/>
+      </edge>
+      <edge id="78" source="Benceno" target="Tamaulipas.El Mante" weight="25.968379974365234">
+        <viz:color r="137" g="135" b="129" a="0.54901963"/>
+      </edge>
+      <edge id="79" source="Asbesto y sus formas (En forma de polvo, fibras o productos desmenuzables con la presión de la mano)" target="Tamaulipas.Matamoros" weight="790.0">
+        <viz:color r="137" g="135" b="129" a="0.54901963"/>
+      </edge>
+      <edge id="80" source="Asbesto y sus formas (En forma de polvo, fibras o productos desmenuzables con la presión de la mano)" target="Tamaulipas.Nuevo Laredo" weight="171417.28125">
+        <viz:color r="137" g="135" b="129" a="0.54901963"/>
+      </edge>
+    </edges>
+  </graph>
+</gexf>

@@ -1,0 +1,887 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<gexf xmlns="http://gexf.net/1.3" version="1.3" xmlns:viz="http://gexf.net/1.3/viz" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://gexf.net/1.3 http://gexf.net/1.3/gexf.xsd">
+  <meta lastmodifieddate="2026-09-23">
+    <creator>Apache NetBeans Platform Dev (Build {0})</creator>
+    <title></title>
+    <description></description>
+  </meta>
+  <graph defaultedgetype="undirected" mode="static">
+    <attributes class="node" mode="static">
+      <attribute id="0" title="total_kg" type="double"/>
+      <attribute id="1" title="n_sustancias" type="long"/>
+      <attribute id="2" title="n_municipios" type="long"/>
+      <attribute id="3" title="lat" type="double"/>
+      <attribute id="4" title="lon" type="double"/>
+      <attribute id="modularity_class" title="Modularity Class" type="integer">
+        <default>0</default>
+      </attribute>
+    </attributes>
+    <nodes>
+      <node id="Aguascalientes" label="Aguascalientes">
+        <attvalues>
+          <attvalue for="0" value="2.2615176948580166E10"/>
+          <attvalue for="1" value="50"/>
+          <attvalue for="2" value="7"/>
+          <attvalue for="3" value="21.8853"/>
+          <attvalue for="4" value="-102.2916"/>
+          <attvalue for="modularity_class" value="4"/>
+        </attvalues>
+        <viz:size value="13.254855"/>
+        <viz:position x="356.16425" y="42.464203"/>
+        <viz:color r="232" g="123" b="164"/>
+      </node>
+      <node id="Baja California" label="Baja California">
+        <attvalues>
+          <attvalue for="0" value="9.23755879636988E10"/>
+          <attvalue for="1" value="53"/>
+          <attvalue for="2" value="5"/>
+          <attvalue for="3" value="32.6245"/>
+          <attvalue for="4" value="-115.4523"/>
+          <attvalue for="modularity_class" value="3"/>
+        </attvalues>
+        <viz:size value="16.67704"/>
+        <viz:position x="263.57944" y="0.0"/>
+        <viz:color r="237" g="161" b="0"/>
+      </node>
+      <node id="Baja California Sur" label="Baja California Sur">
+        <attvalues>
+          <attvalue for="0" value="2.636754331544006E10"/>
+          <attvalue for="1" value="27"/>
+          <attvalue for="2" value="4"/>
+          <attvalue for="3" value="24.1426"/>
+          <attvalue for="4" value="-110.3128"/>
+          <attvalue for="modularity_class" value="0"/>
+        </attvalues>
+        <viz:size value="13.438932"/>
+        <viz:position x="739.37854" y="70.437744"/>
+        <viz:color r="42" g="120" b="214"/>
+      </node>
+      <node id="Campeche" label="Campeche">
+        <attvalues>
+          <attvalue for="0" value="2.195524009358701E11"/>
+          <attvalue for="1" value="34"/>
+          <attvalue for="2" value="8"/>
+          <attvalue for="3" value="19.8301"/>
+          <attvalue for="4" value="-90.5349"/>
+          <attvalue for="modularity_class" value="0"/>
+        </attvalues>
+        <viz:size value="22.915861"/>
+        <viz:position x="608.3034" y="2.9891052"/>
+        <viz:color r="42" g="120" b="214"/>
+      </node>
+      <node id="Chiapas" label="Chiapas">
+        <attvalues>
+          <attvalue for="0" value="2.225513760132987E10"/>
+          <attvalue for="1" value="32"/>
+          <attvalue for="2" value="24"/>
+          <attvalue for="3" value="16.7528"/>
+          <attvalue for="4" value="-93.1152"/>
+          <attvalue for="modularity_class" value="0"/>
+        </attvalues>
+        <viz:size value="13.237192"/>
+        <viz:position x="735.9145" y="268.06573"/>
+        <viz:color r="42" g="120" b="214"/>
+      </node>
+      <node id="Chihuahua" label="Chihuahua">
+        <attvalues>
+          <attvalue for="0" value="1.344018025707961E11"/>
+          <attvalue for="1" value="53"/>
+          <attvalue for="2" value="27"/>
+          <attvalue for="3" value="28.6353"/>
+          <attvalue for="4" value="-106.0889"/>
+          <attvalue for="modularity_class" value="4"/>
+        </attvalues>
+        <viz:size value="18.73869"/>
+        <viz:position x="307.24103" y="114.750305"/>
+        <viz:color r="232" g="123" b="164"/>
+      </node>
+      <node id="Ciudad de México" label="Ciudad de México">
+        <attvalues>
+          <attvalue for="0" value="1.7938499249613255E10"/>
+          <attvalue for="1" value="81"/>
+          <attvalue for="2" value="15"/>
+          <attvalue for="3" value="19.4326"/>
+          <attvalue for="4" value="-99.1332"/>
+          <attvalue for="modularity_class" value="4"/>
+        </attvalues>
+        <viz:size value="13.0254345"/>
+        <viz:position x="165.22113" y="155.40549"/>
+        <viz:color r="232" g="123" b="164"/>
+      </node>
+      <node id="Coahuila de Zaragoza" label="Coahuila de Zaragoza">
+        <attvalues>
+          <attvalue for="0" value="2.8249993281543274E11"/>
+          <attvalue for="1" value="66"/>
+          <attvalue for="2" value="24"/>
+          <attvalue for="3" value="25.4232"/>
+          <attvalue for="4" value="-100.9924"/>
+          <attvalue for="modularity_class" value="4"/>
+        </attvalues>
+        <viz:size value="26.003832"/>
+        <viz:position x="240.61353" y="182.22307"/>
+        <viz:color r="232" g="123" b="164"/>
+      </node>
+      <node id="Colima" label="Colima">
+        <attvalues>
+          <attvalue for="0" value="4.79197215554027E10"/>
+          <attvalue for="1" value="34"/>
+          <attvalue for="2" value="8"/>
+          <attvalue for="3" value="19.2433"/>
+          <attvalue for="4" value="-103.725"/>
+          <attvalue for="modularity_class" value="0"/>
+        </attvalues>
+        <viz:size value="14.4962015"/>
+        <viz:position x="718.46484" y="147.26028"/>
+        <viz:color r="42" g="120" b="214"/>
+      </node>
+      <node id="Durango" label="Durango">
+        <attvalues>
+          <attvalue for="0" value="6.511741292042731E10"/>
+          <attvalue for="1" value="42"/>
+          <attvalue for="2" value="16"/>
+          <attvalue for="3" value="24.0277"/>
+          <attvalue for="4" value="-104.6532"/>
+          <attvalue for="modularity_class" value="4"/>
+        </attvalues>
+        <viz:size value="15.339856"/>
+        <viz:position x="561.89417" y="215.42825"/>
+        <viz:color r="232" g="123" b="164"/>
+      </node>
+      <node id="Guanajuato" label="Guanajuato">
+        <attvalues>
+          <attvalue for="0" value="1.138770846766966E11"/>
+          <attvalue for="1" value="78"/>
+          <attvalue for="2" value="22"/>
+          <attvalue for="3" value="21.019"/>
+          <attvalue for="4" value="-101.2574"/>
+          <attvalue for="modularity_class" value="3"/>
+        </attvalues>
+        <viz:size value="17.731823"/>
+        <viz:position x="0.0" y="113.58008"/>
+        <viz:color r="237" g="161" b="0"/>
+      </node>
+      <node id="Guerrero" label="Guerrero">
+        <attvalues>
+          <attvalue for="0" value="7.611569316765868E10"/>
+          <attvalue for="1" value="34"/>
+          <attvalue for="2" value="11"/>
+          <attvalue for="3" value="17.5506"/>
+          <attvalue for="4" value="-99.5058"/>
+          <attvalue for="modularity_class" value="0"/>
+        </attvalues>
+        <viz:size value="15.879391"/>
+        <viz:position x="797.1699" y="39.628937"/>
+        <viz:color r="42" g="120" b="214"/>
+      </node>
+      <node id="Hidalgo" label="Hidalgo">
+        <attvalues>
+          <attvalue for="0" value="1.9480562484413416E11"/>
+          <attvalue for="1" value="43"/>
+          <attvalue for="2" value="27"/>
+          <attvalue for="3" value="20.1011"/>
+          <attvalue for="4" value="-98.7591"/>
+          <attvalue for="modularity_class" value="4"/>
+        </attvalues>
+        <viz:size value="21.701878"/>
+        <viz:position x="491.7741" y="110.36032"/>
+        <viz:color r="232" g="123" b="164"/>
+      </node>
+      <node id="Jalisco" label="Jalisco">
+        <attvalues>
+          <attvalue for="0" value="5.4747599557014496E10"/>
+          <attvalue for="1" value="67"/>
+          <attvalue for="2" value="46"/>
+          <attvalue for="3" value="20.6597"/>
+          <attvalue for="4" value="-103.3496"/>
+          <attvalue for="modularity_class" value="4"/>
+        </attvalues>
+        <viz:size value="14.831152"/>
+        <viz:position x="218.34515" y="83.974014"/>
+        <viz:color r="232" g="123" b="164"/>
+      </node>
+      <node id="Michoacán de Ocampo" label="Michoacán de Ocampo">
+        <attvalues>
+          <attvalue for="0" value="1.0006171488826244E11"/>
+          <attvalue for="1" value="37"/>
+          <attvalue for="2" value="30"/>
+          <attvalue for="3" value="19.706"/>
+          <attvalue for="4" value="-101.195"/>
+          <attvalue for="modularity_class" value="0"/>
+        </attvalues>
+        <viz:size value="17.054092"/>
+        <viz:position x="780.7295" y="108.08325"/>
+        <viz:color r="42" g="120" b="214"/>
+      </node>
+      <node id="Morelos" label="Morelos">
+        <attvalues>
+          <attvalue for="0" value="3.282153737307016E10"/>
+          <attvalue for="1" value="45"/>
+          <attvalue for="2" value="12"/>
+          <attvalue for="3" value="18.9186"/>
+          <attvalue for="4" value="-99.2342"/>
+          <attvalue for="modularity_class" value="1"/>
+        </attvalues>
+        <viz:size value="13.755541"/>
+        <viz:position x="1139.582" y="172.40918"/>
+        <viz:color r="235" g="104" b="52"/>
+      </node>
+      <node id="México" label="México">
+        <attvalues>
+          <attvalue for="0" value="1.8767515620528027E11"/>
+          <attvalue for="1" value="86"/>
+          <attvalue for="2" value="66"/>
+          <attvalue for="3" value="19.2826"/>
+          <attvalue for="4" value="-99.6557"/>
+          <attvalue for="modularity_class" value="3"/>
+        </attvalues>
+        <viz:size value="21.352081"/>
+        <viz:position x="66.27637" y="108.33343"/>
+        <viz:color r="237" g="161" b="0"/>
+      </node>
+      <node id="Nayarit" label="Nayarit">
+        <attvalues>
+          <attvalue for="0" value="9.297515307409479E7"/>
+          <attvalue for="1" value="22"/>
+          <attvalue for="2" value="9"/>
+          <attvalue for="3" value="21.5058"/>
+          <attvalue for="4" value="-104.8946"/>
+          <attvalue for="modularity_class" value="2"/>
+        </attvalues>
+        <viz:size value="12.15"/>
+        <viz:position x="438.30078" y="607.7988"/>
+        <viz:color r="27" g="175" b="122"/>
+      </node>
+      <node id="Nuevo León" label="Nuevo León">
+        <attvalues>
+          <attvalue for="0" value="2.113576203125701E11"/>
+          <attvalue for="1" value="67"/>
+          <attvalue for="2" value="31"/>
+          <attvalue for="3" value="25.6866"/>
+          <attvalue for="4" value="-100.3161"/>
+          <attvalue for="modularity_class" value="3"/>
+        </attvalues>
+        <viz:size value="22.513855"/>
+        <viz:position x="125.87738" y="64.9274"/>
+        <viz:color r="237" g="161" b="0"/>
+      </node>
+      <node id="Oaxaca" label="Oaxaca">
+        <attvalues>
+          <attvalue for="0" value="4.460476418079398E10"/>
+          <attvalue for="1" value="32"/>
+          <attvalue for="2" value="18"/>
+          <attvalue for="3" value="17.0732"/>
+          <attvalue for="4" value="-96.7266"/>
+          <attvalue for="modularity_class" value="0"/>
+        </attvalues>
+        <viz:size value="14.333582"/>
+        <viz:position x="730.86505" y="3.6055145"/>
+        <viz:color r="42" g="120" b="214"/>
+      </node>
+      <node id="Puebla" label="Puebla">
+        <attvalues>
+          <attvalue for="0" value="6.697320835886827E11"/>
+          <attvalue for="1" value="44"/>
+          <attvalue for="2" value="40"/>
+          <attvalue for="3" value="19.0414"/>
+          <attvalue for="4" value="-98.2063"/>
+          <attvalue for="modularity_class" value="4"/>
+        </attvalues>
+        <viz:size value="45.0"/>
+        <viz:position x="479.8745" y="18.441559"/>
+        <viz:color r="232" g="123" b="164"/>
+      </node>
+      <node id="Querétaro" label="Querétaro">
+        <attvalues>
+          <attvalue for="0" value="3.614089531662302E10"/>
+          <attvalue for="1" value="64"/>
+          <attvalue for="2" value="13"/>
+          <attvalue for="3" value="20.5888"/>
+          <attvalue for="4" value="-100.3899"/>
+          <attvalue for="modularity_class" value="3"/>
+        </attvalues>
+        <viz:size value="13.918376"/>
+        <viz:position x="96.07507" y="198.31732"/>
+        <viz:color r="237" g="161" b="0"/>
+      </node>
+      <node id="Quintana Roo" label="Quintana Roo">
+        <attvalues>
+          <attvalue for="0" value="1.729974754250842E10"/>
+          <attvalue for="1" value="28"/>
+          <attvalue for="2" value="7"/>
+          <attvalue for="3" value="18.5001"/>
+          <attvalue for="4" value="-88.2961"/>
+          <attvalue for="modularity_class" value="0"/>
+        </attvalues>
+        <viz:size value="12.9941"/>
+        <viz:position x="876.60156" y="15.737808"/>
+        <viz:color r="42" g="120" b="214"/>
+      </node>
+      <node id="San Luis Potosí" label="San Luis Potosí">
+        <attvalues>
+          <attvalue for="0" value="1.7784155989586642E11"/>
+          <attvalue for="1" value="52"/>
+          <attvalue for="2" value="21"/>
+          <attvalue for="3" value="22.1565"/>
+          <attvalue for="4" value="-100.9855"/>
+          <attvalue for="modularity_class" value="4"/>
+        </attvalues>
+        <viz:size value="20.869682"/>
+        <viz:position x="339.29846" y="208.14114"/>
+        <viz:color r="232" g="123" b="164"/>
+      </node>
+      <node id="Sinaloa" label="Sinaloa">
+        <attvalues>
+          <attvalue for="0" value="4.2203986744835075E10"/>
+          <attvalue for="1" value="34"/>
+          <attvalue for="2" value="12"/>
+          <attvalue for="3" value="24.8091"/>
+          <attvalue for="4" value="-107.394"/>
+          <attvalue for="modularity_class" value="0"/>
+        </attvalues>
+        <viz:size value="14.215809"/>
+        <viz:position x="624.3844" y="126.159836"/>
+        <viz:color r="42" g="120" b="214"/>
+      </node>
+      <node id="Sonora" label="Sonora">
+        <attvalues>
+          <attvalue for="0" value="1.4535693587117297E11"/>
+          <attvalue for="1" value="52"/>
+          <attvalue for="2" value="29"/>
+          <attvalue for="3" value="29.0729"/>
+          <attvalue for="4" value="-110.9559"/>
+          <attvalue for="modularity_class" value="4"/>
+        </attvalues>
+        <viz:size value="19.276108"/>
+        <viz:position x="486.48373" y="186.7153"/>
+        <viz:color r="232" g="123" b="164"/>
+      </node>
+      <node id="Tabasco" label="Tabasco">
+        <attvalues>
+          <attvalue for="0" value="9.421702903317883E10"/>
+          <attvalue for="1" value="35"/>
+          <attvalue for="2" value="15"/>
+          <attvalue for="3" value="17.9895"/>
+          <attvalue for="4" value="-92.9475"/>
+          <attvalue for="modularity_class" value="0"/>
+        </attvalues>
+        <viz:size value="16.767376"/>
+        <viz:position x="707.17944" y="231.02644"/>
+        <viz:color r="42" g="120" b="214"/>
+      </node>
+      <node id="Tamaulipas" label="Tamaulipas">
+        <attvalues>
+          <attvalue for="0" value="3.063943773072142E11"/>
+          <attvalue for="1" value="71"/>
+          <attvalue for="2" value="20"/>
+          <attvalue for="3" value="23.7369"/>
+          <attvalue for="4" value="-99.1411"/>
+          <attvalue for="modularity_class" value="3"/>
+        </attvalues>
+        <viz:size value="27.176004"/>
+        <viz:position x="43.93988" y="164.80086"/>
+        <viz:color r="237" g="161" b="0"/>
+      </node>
+      <node id="Tlaxcala" label="Tlaxcala">
+        <attvalues>
+          <attvalue for="0" value="9.596029125319057E9"/>
+          <attvalue for="1" value="46"/>
+          <attvalue for="2" value="27"/>
+          <attvalue for="3" value="19.3182"/>
+          <attvalue for="4" value="-98.2375"/>
+          <attvalue for="modularity_class" value="5"/>
+        </attvalues>
+        <viz:size value="12.616184"/>
+        <viz:position x="1139.582" y="607.7988"/>
+        <viz:color r="0" g="131" b="0"/>
+      </node>
+      <node id="Veracruz de Ignacio de la Llave" label="Veracruz de Ignacio de la Llave">
+        <attvalues>
+          <attvalue for="0" value="3.7686580286240204E11"/>
+          <attvalue for="1" value="61"/>
+          <attvalue for="2" value="65"/>
+          <attvalue for="3" value="19.5438"/>
+          <attvalue for="4" value="-96.9102"/>
+          <attvalue for="modularity_class" value="3"/>
+        </attvalues>
+        <viz:size value="30.63307"/>
+        <viz:position x="14.982849" y="46.5092"/>
+        <viz:color r="237" g="161" b="0"/>
+      </node>
+      <node id="Yucatán" label="Yucatán">
+        <attvalues>
+          <attvalue for="0" value="4.497416967729608E10"/>
+          <attvalue for="1" value="34"/>
+          <attvalue for="2" value="41"/>
+          <attvalue for="3" value="20.9674"/>
+          <attvalue for="4" value="-89.5926"/>
+          <attvalue for="modularity_class" value="0"/>
+        </attvalues>
+        <viz:size value="14.351704"/>
+        <viz:position x="664.39594" y="66.58859"/>
+        <viz:color r="42" g="120" b="214"/>
+      </node>
+      <node id="Zacatecas" label="Zacatecas">
+        <attvalues>
+          <attvalue for="0" value="8.410339395476315E9"/>
+          <attvalue for="1" value="39"/>
+          <attvalue for="2" value="16"/>
+          <attvalue for="3" value="22.7709"/>
+          <attvalue for="4" value="-102.5832"/>
+          <attvalue for="modularity_class" value="4"/>
+        </attvalues>
+        <viz:size value="12.558019"/>
+        <viz:position x="417.76184" y="344.81836"/>
+        <viz:color r="232" g="123" b="164"/>
+      </node>
+    </nodes>
+    <edges>
+      <edge id="0" source="Aguascalientes" target="Baja California" weight="0.8348740339279175">
+        <viz:color r="137" g="135" b="129" a="0.47058824"/>
+      </edge>
+      <edge id="1" source="Aguascalientes" target="Campeche" weight="0.8344095349311829">
+        <viz:color r="137" g="135" b="129" a="0.47058824"/>
+      </edge>
+      <edge id="2" source="Aguascalientes" target="Chihuahua" weight="0.844340980052948">
+        <viz:color r="137" g="135" b="129" a="0.47058824"/>
+      </edge>
+      <edge id="3" source="Aguascalientes" target="Coahuila de Zaragoza" weight="0.8482996225357056">
+        <viz:color r="137" g="135" b="129" a="0.47058824"/>
+      </edge>
+      <edge id="4" source="Aguascalientes" target="Hidalgo" weight="0.8407087326049805">
+        <viz:color r="137" g="135" b="129" a="0.47058824"/>
+      </edge>
+      <edge id="5" source="Aguascalientes" target="Jalisco" weight="0.8282655477523804">
+        <viz:color r="137" g="135" b="129" a="0.47058824"/>
+      </edge>
+      <edge id="6" source="Aguascalientes" target="Nuevo León" weight="0.8308220505714417">
+        <viz:color r="137" g="135" b="129" a="0.47058824"/>
+      </edge>
+      <edge id="7" source="Aguascalientes" target="Puebla" weight="0.8502947688102722">
+        <viz:color r="137" g="135" b="129" a="0.47058824"/>
+      </edge>
+      <edge id="8" source="Aguascalientes" target="San Luis Potosí" weight="0.8765886425971985">
+        <viz:color r="137" g="135" b="129" a="0.47058824"/>
+      </edge>
+      <edge id="9" source="Aguascalientes" target="Sonora" weight="0.8508672118186951">
+        <viz:color r="137" g="135" b="129" a="0.47058824"/>
+      </edge>
+      <edge id="10" source="Baja California" target="Campeche" weight="0.8242431282997131">
+        <viz:color r="137" g="135" b="129" a="0.47058824"/>
+      </edge>
+      <edge id="11" source="Baja California" target="Chihuahua" weight="0.8516110181808472">
+        <viz:color r="137" g="135" b="129" a="0.47058824"/>
+      </edge>
+      <edge id="12" source="Baja California" target="Coahuila de Zaragoza" weight="0.8612797856330872">
+        <viz:color r="137" g="135" b="129" a="0.47058824"/>
+      </edge>
+      <edge id="13" source="Baja California" target="Hidalgo" weight="0.8266726732254028">
+        <viz:color r="137" g="135" b="129" a="0.47058824"/>
+      </edge>
+      <edge id="14" source="Baja California" target="Jalisco" weight="0.8717855215072632">
+        <viz:color r="137" g="135" b="129" a="0.47058824"/>
+      </edge>
+      <edge id="15" source="Baja California" target="México" weight="0.8256697058677673">
+        <viz:color r="137" g="135" b="129" a="0.47058824"/>
+      </edge>
+      <edge id="16" source="Baja California" target="Nuevo León" weight="0.8913723826408386">
+        <viz:color r="137" g="135" b="129" a="0.47058824"/>
+      </edge>
+      <edge id="17" source="Baja California" target="Puebla" weight="0.867681622505188">
+        <viz:color r="137" g="135" b="129" a="0.47058824"/>
+      </edge>
+      <edge id="18" source="Baja California" target="San Luis Potosí" weight="0.8883385062217712">
+        <viz:color r="137" g="135" b="129" a="0.47058824"/>
+      </edge>
+      <edge id="19" source="Baja California" target="Sinaloa" weight="0.8246395587921143">
+        <viz:color r="137" g="135" b="129" a="0.47058824"/>
+      </edge>
+      <edge id="20" source="Baja California" target="Tamaulipas" weight="0.8648032546043396">
+        <viz:color r="137" g="135" b="129" a="0.47058824"/>
+      </edge>
+      <edge id="21" source="Baja California" target="Veracruz de Ignacio de la Llave" weight="0.8584690093994141">
+        <viz:color r="137" g="135" b="129" a="0.47058824"/>
+      </edge>
+      <edge id="22" source="Baja California Sur" target="Campeche" weight="0.8372232913970947">
+        <viz:color r="137" g="135" b="129" a="0.47058824"/>
+      </edge>
+      <edge id="23" source="Baja California Sur" target="Colima" weight="0.8569051623344421">
+        <viz:color r="137" g="135" b="129" a="0.47058824"/>
+      </edge>
+      <edge id="24" source="Baja California Sur" target="Guerrero" weight="0.8836870193481445">
+        <viz:color r="137" g="135" b="129" a="0.47058824"/>
+      </edge>
+      <edge id="25" source="Baja California Sur" target="Michoacán de Ocampo" weight="0.8748018145561218">
+        <viz:color r="137" g="135" b="129" a="0.47058824"/>
+      </edge>
+      <edge id="26" source="Baja California Sur" target="Sinaloa" weight="0.8382518887519836">
+        <viz:color r="137" g="135" b="129" a="0.47058824"/>
+      </edge>
+      <edge id="27" source="Campeche" target="Colima" weight="0.9248207807540894">
+        <viz:color r="137" g="135" b="129" a="0.47058824"/>
+      </edge>
+      <edge id="28" source="Campeche" target="Guerrero" weight="0.8529782295227051">
+        <viz:color r="137" g="135" b="129" a="0.47058824"/>
+      </edge>
+      <edge id="29" source="Campeche" target="Hidalgo" weight="0.8461005091667175">
+        <viz:color r="137" g="135" b="129" a="0.47058824"/>
+      </edge>
+      <edge id="30" source="Campeche" target="Michoacán de Ocampo" weight="0.8853468298912048">
+        <viz:color r="137" g="135" b="129" a="0.47058824"/>
+      </edge>
+      <edge id="31" source="Campeche" target="Oaxaca" weight="0.884200394153595">
+        <viz:color r="137" g="135" b="129" a="0.47058824"/>
+      </edge>
+      <edge id="32" source="Campeche" target="Puebla" weight="0.9014126062393188">
+        <viz:color r="137" g="135" b="129" a="0.47058824"/>
+      </edge>
+      <edge id="33" source="Campeche" target="San Luis Potosí" weight="0.8436998128890991">
+        <viz:color r="137" g="135" b="129" a="0.47058824"/>
+      </edge>
+      <edge id="34" source="Campeche" target="Sinaloa" weight="0.8615795969963074">
+        <viz:color r="137" g="135" b="129" a="0.47058824"/>
+      </edge>
+      <edge id="35" source="Campeche" target="Sonora" weight="0.8513612747192383">
+        <viz:color r="137" g="135" b="129" a="0.47058824"/>
+      </edge>
+      <edge id="36" source="Campeche" target="Tabasco" weight="0.8672112822532654">
+        <viz:color r="137" g="135" b="129" a="0.47058824"/>
+      </edge>
+      <edge id="37" source="Campeche" target="Yucatán" weight="0.9035817384719849">
+        <viz:color r="137" g="135" b="129" a="0.47058824"/>
+      </edge>
+      <edge id="38" source="Chiapas" target="Tabasco" weight="0.8902813196182251">
+        <viz:color r="137" g="135" b="129" a="0.47058824"/>
+      </edge>
+      <edge id="39" source="Chihuahua" target="Ciudad de México" weight="0.8315895199775696">
+        <viz:color r="137" g="135" b="129" a="0.47058824"/>
+      </edge>
+      <edge id="40" source="Chihuahua" target="Coahuila de Zaragoza" weight="0.8473254442214966">
+        <viz:color r="137" g="135" b="129" a="0.47058824"/>
+      </edge>
+      <edge id="41" source="Chihuahua" target="Durango" weight="0.8626863956451416">
+        <viz:color r="137" g="135" b="129" a="0.47058824"/>
+      </edge>
+      <edge id="42" source="Chihuahua" target="Hidalgo" weight="0.8368447422981262">
+        <viz:color r="137" g="135" b="129" a="0.47058824"/>
+      </edge>
+      <edge id="43" source="Chihuahua" target="Jalisco" weight="0.8302954435348511">
+        <viz:color r="137" g="135" b="129" a="0.47058824"/>
+      </edge>
+      <edge id="44" source="Chihuahua" target="Nuevo León" weight="0.8850820064544678">
+        <viz:color r="137" g="135" b="129" a="0.47058824"/>
+      </edge>
+      <edge id="45" source="Chihuahua" target="Puebla" weight="0.8314415216445923">
+        <viz:color r="137" g="135" b="129" a="0.47058824"/>
+      </edge>
+      <edge id="46" source="Chihuahua" target="Querétaro" weight="0.8275915384292603">
+        <viz:color r="137" g="135" b="129" a="0.47058824"/>
+      </edge>
+      <edge id="47" source="Chihuahua" target="San Luis Potosí" weight="0.914424479007721">
+        <viz:color r="137" g="135" b="129" a="0.47058824"/>
+      </edge>
+      <edge id="48" source="Chihuahua" target="Sinaloa" weight="0.8257367610931396">
+        <viz:color r="137" g="135" b="129" a="0.47058824"/>
+      </edge>
+      <edge id="49" source="Chihuahua" target="Sonora" weight="0.8336808085441589">
+        <viz:color r="137" g="135" b="129" a="0.47058824"/>
+      </edge>
+      <edge id="50" source="Chihuahua" target="Tamaulipas" weight="0.8501399159431458">
+        <viz:color r="137" g="135" b="129" a="0.47058824"/>
+      </edge>
+      <edge id="51" source="Ciudad de México" target="Coahuila de Zaragoza" weight="0.867760419845581">
+        <viz:color r="137" g="135" b="129" a="0.47058824"/>
+      </edge>
+      <edge id="52" source="Ciudad de México" target="Jalisco" weight="0.8449103832244873">
+        <viz:color r="137" g="135" b="129" a="0.47058824"/>
+      </edge>
+      <edge id="53" source="Ciudad de México" target="México" weight="0.8584402203559875">
+        <viz:color r="137" g="135" b="129" a="0.47058824"/>
+      </edge>
+      <edge id="54" source="Ciudad de México" target="Nuevo León" weight="0.8607586026191711">
+        <viz:color r="137" g="135" b="129" a="0.47058824"/>
+      </edge>
+      <edge id="55" source="Ciudad de México" target="San Luis Potosí" weight="0.8618906736373901">
+        <viz:color r="137" g="135" b="129" a="0.47058824"/>
+      </edge>
+      <edge id="56" source="Coahuila de Zaragoza" target="Durango" weight="0.8239409327507019">
+        <viz:color r="137" g="135" b="129" a="0.47058824"/>
+      </edge>
+      <edge id="57" source="Coahuila de Zaragoza" target="Hidalgo" weight="0.8301289081573486">
+        <viz:color r="137" g="135" b="129" a="0.47058824"/>
+      </edge>
+      <edge id="58" source="Coahuila de Zaragoza" target="Jalisco" weight="0.8520331978797913">
+        <viz:color r="137" g="135" b="129" a="0.47058824"/>
+      </edge>
+      <edge id="59" source="Coahuila de Zaragoza" target="México" weight="0.8270024061203003">
+        <viz:color r="137" g="135" b="129" a="0.47058824"/>
+      </edge>
+      <edge id="60" source="Coahuila de Zaragoza" target="Nuevo León" weight="0.8787487745285034">
+        <viz:color r="137" g="135" b="129" a="0.47058824"/>
+      </edge>
+      <edge id="61" source="Coahuila de Zaragoza" target="Puebla" weight="0.8784401416778564">
+        <viz:color r="137" g="135" b="129" a="0.47058824"/>
+      </edge>
+      <edge id="62" source="Coahuila de Zaragoza" target="San Luis Potosí" weight="0.9057194590568542">
+        <viz:color r="137" g="135" b="129" a="0.47058824"/>
+      </edge>
+      <edge id="63" source="Coahuila de Zaragoza" target="Sonora" weight="0.8311692476272583">
+        <viz:color r="137" g="135" b="129" a="0.47058824"/>
+      </edge>
+      <edge id="64" source="Coahuila de Zaragoza" target="Tamaulipas" weight="0.8394612073898315">
+        <viz:color r="137" g="135" b="129" a="0.47058824"/>
+      </edge>
+      <edge id="65" source="Colima" target="Durango" weight="0.831201434135437">
+        <viz:color r="137" g="135" b="129" a="0.47058824"/>
+      </edge>
+      <edge id="66" source="Colima" target="Guerrero" weight="0.9269151091575623">
+        <viz:color r="137" g="135" b="129" a="0.47058824"/>
+      </edge>
+      <edge id="67" source="Colima" target="Hidalgo" weight="0.8705543279647827">
+        <viz:color r="137" g="135" b="129" a="0.47058824"/>
+      </edge>
+      <edge id="68" source="Colima" target="Michoacán de Ocampo" weight="0.8876199126243591">
+        <viz:color r="137" g="135" b="129" a="0.47058824"/>
+      </edge>
+      <edge id="69" source="Colima" target="Oaxaca" weight="0.9083374738693237">
+        <viz:color r="137" g="135" b="129" a="0.47058824"/>
+      </edge>
+      <edge id="70" source="Colima" target="Puebla" weight="0.8624762892723083">
+        <viz:color r="137" g="135" b="129" a="0.47058824"/>
+      </edge>
+      <edge id="71" source="Colima" target="Quintana Roo" weight="0.843734622001648">
+        <viz:color r="137" g="135" b="129" a="0.47058824"/>
+      </edge>
+      <edge id="72" source="Colima" target="San Luis Potosí" weight="0.8288044929504395">
+        <viz:color r="137" g="135" b="129" a="0.47058824"/>
+      </edge>
+      <edge id="73" source="Colima" target="Sinaloa" weight="0.8946418166160583">
+        <viz:color r="137" g="135" b="129" a="0.47058824"/>
+      </edge>
+      <edge id="74" source="Colima" target="Sonora" weight="0.8624545335769653">
+        <viz:color r="137" g="135" b="129" a="0.47058824"/>
+      </edge>
+      <edge id="75" source="Colima" target="Tabasco" weight="0.8676189184188843">
+        <viz:color r="137" g="135" b="129" a="0.47058824"/>
+      </edge>
+      <edge id="76" source="Colima" target="Yucatán" weight="0.893498420715332">
+        <viz:color r="137" g="135" b="129" a="0.47058824"/>
+      </edge>
+      <edge id="77" source="Durango" target="Hidalgo" weight="0.8756422400474548">
+        <viz:color r="137" g="135" b="129" a="0.47058824"/>
+      </edge>
+      <edge id="78" source="Durango" target="Oaxaca" weight="0.8289666175842285">
+        <viz:color r="137" g="135" b="129" a="0.47058824"/>
+      </edge>
+      <edge id="79" source="Durango" target="Puebla" weight="0.8548882007598877">
+        <viz:color r="137" g="135" b="129" a="0.47058824"/>
+      </edge>
+      <edge id="80" source="Durango" target="San Luis Potosí" weight="0.8720028400421143">
+        <viz:color r="137" g="135" b="129" a="0.47058824"/>
+      </edge>
+      <edge id="81" source="Durango" target="Sinaloa" weight="0.8540427088737488">
+        <viz:color r="137" g="135" b="129" a="0.47058824"/>
+      </edge>
+      <edge id="82" source="Durango" target="Sonora" weight="0.8399471640586853">
+        <viz:color r="137" g="135" b="129" a="0.47058824"/>
+      </edge>
+      <edge id="83" source="Durango" target="Tabasco" weight="0.8407667875289917">
+        <viz:color r="137" g="135" b="129" a="0.47058824"/>
+      </edge>
+      <edge id="84" source="Durango" target="Yucatán" weight="0.8400936722755432">
+        <viz:color r="137" g="135" b="129" a="0.47058824"/>
+      </edge>
+      <edge id="85" source="Guanajuato" target="México" weight="0.8364444971084595">
+        <viz:color r="137" g="135" b="129" a="0.47058824"/>
+      </edge>
+      <edge id="86" source="Guanajuato" target="Nuevo León" weight="0.8511654138565063">
+        <viz:color r="137" g="135" b="129" a="0.47058824"/>
+      </edge>
+      <edge id="87" source="Guanajuato" target="Querétaro" weight="0.8531490564346313">
+        <viz:color r="137" g="135" b="129" a="0.47058824"/>
+      </edge>
+      <edge id="88" source="Guanajuato" target="Tamaulipas" weight="0.8360096216201782">
+        <viz:color r="137" g="135" b="129" a="0.47058824"/>
+      </edge>
+      <edge id="89" source="Guanajuato" target="Veracruz de Ignacio de la Llave" weight="0.8254354000091553">
+        <viz:color r="137" g="135" b="129" a="0.47058824"/>
+      </edge>
+      <edge id="90" source="Guerrero" target="Michoacán de Ocampo" weight="0.8242821097373962">
+        <viz:color r="137" g="135" b="129" a="0.47058824"/>
+      </edge>
+      <edge id="91" source="Guerrero" target="Oaxaca" weight="0.8521028161048889">
+        <viz:color r="137" g="135" b="129" a="0.47058824"/>
+      </edge>
+      <edge id="92" source="Guerrero" target="Quintana Roo" weight="0.8552113175392151">
+        <viz:color r="137" g="135" b="129" a="0.47058824"/>
+      </edge>
+      <edge id="93" source="Guerrero" target="Sinaloa" weight="0.8502052426338196">
+        <viz:color r="137" g="135" b="129" a="0.47058824"/>
+      </edge>
+      <edge id="94" source="Guerrero" target="Sonora" weight="0.8253373503684998">
+        <viz:color r="137" g="135" b="129" a="0.47058824"/>
+      </edge>
+      <edge id="95" source="Guerrero" target="Yucatán" weight="0.856987714767456">
+        <viz:color r="137" g="135" b="129" a="0.47058824"/>
+      </edge>
+      <edge id="96" source="Hidalgo" target="Jalisco" weight="0.8348819017410278">
+        <viz:color r="137" g="135" b="129" a="0.47058824"/>
+      </edge>
+      <edge id="97" source="Hidalgo" target="Michoacán de Ocampo" weight="0.8345484137535095">
+        <viz:color r="137" g="135" b="129" a="0.47058824"/>
+      </edge>
+      <edge id="98" source="Hidalgo" target="Oaxaca" weight="0.8727670907974243">
+        <viz:color r="137" g="135" b="129" a="0.47058824"/>
+      </edge>
+      <edge id="99" source="Hidalgo" target="Puebla" weight="0.856975257396698">
+        <viz:color r="137" g="135" b="129" a="0.47058824"/>
+      </edge>
+      <edge id="100" source="Hidalgo" target="San Luis Potosí" weight="0.8960862159729004">
+        <viz:color r="137" g="135" b="129" a="0.47058824"/>
+      </edge>
+      <edge id="101" source="Hidalgo" target="Sinaloa" weight="0.8866522908210754">
+        <viz:color r="137" g="135" b="129" a="0.47058824"/>
+      </edge>
+      <edge id="102" source="Hidalgo" target="Sonora" weight="0.8571310043334961">
+        <viz:color r="137" g="135" b="129" a="0.47058824"/>
+      </edge>
+      <edge id="103" source="Hidalgo" target="Tabasco" weight="0.8491281867027283">
+        <viz:color r="137" g="135" b="129" a="0.47058824"/>
+      </edge>
+      <edge id="104" source="Hidalgo" target="Yucatán" weight="0.8801035284996033">
+        <viz:color r="137" g="135" b="129" a="0.47058824"/>
+      </edge>
+      <edge id="105" source="Hidalgo" target="Zacatecas" weight="0.8631696701049805">
+        <viz:color r="137" g="135" b="129" a="0.47058824"/>
+      </edge>
+      <edge id="106" source="Jalisco" target="México" weight="0.8350103497505188">
+        <viz:color r="137" g="135" b="129" a="0.47058824"/>
+      </edge>
+      <edge id="107" source="Jalisco" target="Nuevo León" weight="0.8684178590774536">
+        <viz:color r="137" g="135" b="129" a="0.47058824"/>
+      </edge>
+      <edge id="108" source="Jalisco" target="Puebla" weight="0.8277254104614258">
+        <viz:color r="137" g="135" b="129" a="0.47058824"/>
+      </edge>
+      <edge id="109" source="Jalisco" target="San Luis Potosí" weight="0.8559116125106812">
+        <viz:color r="137" g="135" b="129" a="0.47058824"/>
+      </edge>
+      <edge id="110" source="Jalisco" target="Sonora" weight="0.825794517993927">
+        <viz:color r="137" g="135" b="129" a="0.47058824"/>
+      </edge>
+      <edge id="111" source="Jalisco" target="Tamaulipas" weight="0.8377563953399658">
+        <viz:color r="137" g="135" b="129" a="0.47058824"/>
+      </edge>
+      <edge id="112" source="Michoacán de Ocampo" target="Oaxaca" weight="0.8501684069633484">
+        <viz:color r="137" g="135" b="129" a="0.47058824"/>
+      </edge>
+      <edge id="113" source="Michoacán de Ocampo" target="Puebla" weight="0.8723625540733337">
+        <viz:color r="137" g="135" b="129" a="0.47058824"/>
+      </edge>
+      <edge id="114" source="Michoacán de Ocampo" target="Sinaloa" weight="0.8331130146980286">
+        <viz:color r="137" g="135" b="129" a="0.47058824"/>
+      </edge>
+      <edge id="115" source="Michoacán de Ocampo" target="Tabasco" weight="0.8348777890205383">
+        <viz:color r="137" g="135" b="129" a="0.47058824"/>
+      </edge>
+      <edge id="116" source="México" target="Nuevo León" weight="0.8651881217956543">
+        <viz:color r="137" g="135" b="129" a="0.47058824"/>
+      </edge>
+      <edge id="117" source="México" target="Querétaro" weight="0.8299179673194885">
+        <viz:color r="137" g="135" b="129" a="0.47058824"/>
+      </edge>
+      <edge id="118" source="México" target="Tamaulipas" weight="0.8373048305511475">
+        <viz:color r="137" g="135" b="129" a="0.47058824"/>
+      </edge>
+      <edge id="119" source="Nuevo León" target="Puebla" weight="0.8363099694252014">
+        <viz:color r="137" g="135" b="129" a="0.47058824"/>
+      </edge>
+      <edge id="120" source="Nuevo León" target="Querétaro" weight="0.8769047856330872">
+        <viz:color r="137" g="135" b="129" a="0.47058824"/>
+      </edge>
+      <edge id="121" source="Nuevo León" target="San Luis Potosí" weight="0.8952555656433105">
+        <viz:color r="137" g="135" b="129" a="0.47058824"/>
+      </edge>
+      <edge id="122" source="Nuevo León" target="Tamaulipas" weight="0.8813670873641968">
+        <viz:color r="137" g="135" b="129" a="0.47058824"/>
+      </edge>
+      <edge id="123" source="Nuevo León" target="Veracruz de Ignacio de la Llave" weight="0.8360585570335388">
+        <viz:color r="137" g="135" b="129" a="0.47058824"/>
+      </edge>
+      <edge id="124" source="Oaxaca" target="Puebla" weight="0.8354817032814026">
+        <viz:color r="137" g="135" b="129" a="0.47058824"/>
+      </edge>
+      <edge id="125" source="Oaxaca" target="Quintana Roo" weight="0.842498242855072">
+        <viz:color r="137" g="135" b="129" a="0.47058824"/>
+      </edge>
+      <edge id="126" source="Oaxaca" target="Sinaloa" weight="0.9080758690834045">
+        <viz:color r="137" g="135" b="129" a="0.47058824"/>
+      </edge>
+      <edge id="127" source="Oaxaca" target="Tabasco" weight="0.8708297610282898">
+        <viz:color r="137" g="135" b="129" a="0.47058824"/>
+      </edge>
+      <edge id="128" source="Oaxaca" target="Yucatán" weight="0.9145427942276001">
+        <viz:color r="137" g="135" b="129" a="0.47058824"/>
+      </edge>
+      <edge id="129" source="Puebla" target="San Luis Potosí" weight="0.8944620490074158">
+        <viz:color r="137" g="135" b="129" a="0.47058824"/>
+      </edge>
+      <edge id="130" source="Puebla" target="Sinaloa" weight="0.8537784218788147">
+        <viz:color r="137" g="135" b="129" a="0.47058824"/>
+      </edge>
+      <edge id="131" source="Puebla" target="Sonora" weight="0.8434559106826782">
+        <viz:color r="137" g="135" b="129" a="0.47058824"/>
+      </edge>
+      <edge id="132" source="Puebla" target="Tabasco" weight="0.8539886474609375">
+        <viz:color r="137" g="135" b="129" a="0.47058824"/>
+      </edge>
+      <edge id="133" source="Puebla" target="Yucatán" weight="0.8450556397438049">
+        <viz:color r="137" g="135" b="129" a="0.47058824"/>
+      </edge>
+      <edge id="134" source="Querétaro" target="San Luis Potosí" weight="0.8691322207450867">
+        <viz:color r="137" g="135" b="129" a="0.47058824"/>
+      </edge>
+      <edge id="135" source="Querétaro" target="Tamaulipas" weight="0.85652095079422">
+        <viz:color r="137" g="135" b="129" a="0.47058824"/>
+      </edge>
+      <edge id="136" source="San Luis Potosí" target="Sinaloa" weight="0.8583060503005981">
+        <viz:color r="137" g="135" b="129" a="0.47058824"/>
+      </edge>
+      <edge id="137" source="San Luis Potosí" target="Sonora" weight="0.8578736186027527">
+        <viz:color r="137" g="135" b="129" a="0.47058824"/>
+      </edge>
+      <edge id="138" source="San Luis Potosí" target="Tabasco" weight="0.8735668659210205">
+        <viz:color r="137" g="135" b="129" a="0.47058824"/>
+      </edge>
+      <edge id="139" source="San Luis Potosí" target="Tamaulipas" weight="0.864454984664917">
+        <viz:color r="137" g="135" b="129" a="0.47058824"/>
+      </edge>
+      <edge id="140" source="San Luis Potosí" target="Veracruz de Ignacio de la Llave" weight="0.846413791179657">
+        <viz:color r="137" g="135" b="129" a="0.47058824"/>
+      </edge>
+      <edge id="141" source="San Luis Potosí" target="Yucatán" weight="0.8602659106254578">
+        <viz:color r="137" g="135" b="129" a="0.47058824"/>
+      </edge>
+      <edge id="142" source="San Luis Potosí" target="Zacatecas" weight="0.8303108811378479">
+        <viz:color r="137" g="135" b="129" a="0.47058824"/>
+      </edge>
+      <edge id="143" source="Sinaloa" target="Sonora" weight="0.8272337913513184">
+        <viz:color r="137" g="135" b="129" a="0.47058824"/>
+      </edge>
+      <edge id="144" source="Sinaloa" target="Tabasco" weight="0.8488094806671143">
+        <viz:color r="137" g="135" b="129" a="0.47058824"/>
+      </edge>
+      <edge id="145" source="Sinaloa" target="Yucatán" weight="0.9033573865890503">
+        <viz:color r="137" g="135" b="129" a="0.47058824"/>
+      </edge>
+      <edge id="146" source="Sonora" target="Yucatán" weight="0.8330466151237488">
+        <viz:color r="137" g="135" b="129" a="0.47058824"/>
+      </edge>
+      <edge id="147" source="Tabasco" target="Yucatán" weight="0.8805302381515503">
+        <viz:color r="137" g="135" b="129" a="0.47058824"/>
+      </edge>
+      <edge id="148" source="Tamaulipas" target="Veracruz de Ignacio de la Llave" weight="0.8355714082717896">
+        <viz:color r="137" g="135" b="129" a="0.47058824"/>
+      </edge>
+    </edges>
+  </graph>
+</gexf>
