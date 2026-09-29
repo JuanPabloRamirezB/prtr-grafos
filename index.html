@@ -1,0 +1,293 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Mexico PRTR — interactive graphs</title>
+<meta name="description" content="Networks of states, municipalities and substances from Mexico's Pollutant Release and Transfer Register (PRTR), 2004–2022: bipartite graphs, similarity, year-by-year evolution, maps and centrality.">
+<meta name="theme-color" content="#2a78d6">
+<style>
+:root{color-scheme:light dark;--bg:#f9f9f7;--surface:#fcfcfb;--ink:#0b0b0b;--ink2:#52514e;--muted:#6f6d67;--line:#e1e0d9;--chip:#f2f1ec;
+--blue:#2a78d6;--orange:#eb6834;--blue-ink:#1c5cab;--focus:#2a78d6}
+@media (prefers-color-scheme:dark){:root{--bg:#0d0d0d;--surface:#1a1a19;--ink:#fff;--ink2:#c3c2b7;--muted:#a09e96;--line:#2c2c2a;--chip:#252523;
+--blue:#3987e5;--orange:#d95926;--blue-ink:#86b6ef;--focus:#86b6ef}}
+*{box-sizing:border-box}html{scroll-behavior:smooth}
+body{margin:0;background:var(--bg);color:var(--ink);font:16px/1.55 system-ui,-apple-system,"Segoe UI",Roboto,sans-serif}
+a{color:var(--blue-ink)}a:focus-visible,button:focus-visible,input:focus-visible,summary:focus-visible{outline:3px solid var(--focus);outline-offset:2px;border-radius:4px}
+.wrap{max-width:1240px;margin:0 auto;padding:0 20px}
+header.top{padding:44px 0 26px;border-bottom:1px solid var(--line);background:linear-gradient(180deg,var(--surface),var(--bg))}
+h1{font-size:clamp(1.7rem,4vw,2.5rem);line-height:1.15;margin:0 0 10px;letter-spacing:-.01em}
+.lead{max-width:70ch;color:var(--ink2);margin:0 0 22px;font-size:1.05rem}
+.stats{display:grid;grid-template-columns:repeat(auto-fit,minmax(140px,1fr));gap:12px;margin:0;padding:0;list-style:none}
+.stats li{background:var(--surface);border:1px solid var(--line);border-radius:10px;padding:12px 14px}
+.stats b{display:block;font-size:1.35rem;line-height:1.2;font-variant-numeric:tabular-nums}
+.stats span{color:var(--muted);font-size:.85rem}
+.dot{display:inline-block;width:.7em;height:.7em;border-radius:50%;margin-right:.35em;vertical-align:baseline}
+.dot.b{background:var(--blue)}.dot.o{background:var(--orange)}
+section{padding:28px 0}
+h2{font-size:1.35rem;margin:0 0 14px}
+.tools{display:flex;flex-wrap:wrap;gap:10px 18px;align-items:center;margin-bottom:18px}
+.chips{display:flex;flex-wrap:wrap;gap:6px;align-items:center}
+.chips .lbl{color:var(--muted);font-size:.85rem;margin-right:2px}
+.chip{border:1px solid var(--line);background:var(--surface);color:var(--ink);border-radius:999px;padding:5px 13px;font:inherit;font-size:.9rem;cursor:pointer}
+.chip[aria-pressed=true]{background:var(--blue);border-color:var(--blue);color:#fff}
+#q{flex:1;min-width:220px;max-width:380px;padding:9px 12px;border:1px solid var(--line);border-radius:8px;background:var(--surface);color:var(--ink);font:inherit}
+#count{color:var(--muted);font-size:.9rem;margin-left:auto}
+.grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(340px,1fr));gap:18px}
+.card{background:var(--surface);border:1px solid var(--line);border-radius:12px;overflow:hidden;display:flex;flex-direction:column}
+.card[hidden]{display:none}
+.thumb{display:block;background:#fcfcfb;border-bottom:1px solid var(--line)}
+.thumb img{display:block;width:100%;height:auto;aspect-ratio:8/5}
+.body{padding:14px 16px 16px;display:flex;flex-direction:column;gap:8px;flex:1}
+.tags{display:flex;gap:6px;flex-wrap:wrap}
+.tag{font-size:.74rem;text-transform:uppercase;letter-spacing:.04em;background:var(--chip);color:var(--ink2);border-radius:5px;padding:2px 7px}
+.tag.scope-national{background:var(--blue);color:#fff}.tag.scope-tamaulipas{background:var(--orange);color:#fff}
+.card h3{margin:0;font-size:1.08rem;line-height:1.3}.card h3 a{color:var(--ink);text-decoration:none}.card h3 a:hover{text-decoration:underline}
+.card p{margin:0;color:var(--ink2);font-size:.92rem}
+.variant{border-top:1px dashed var(--line);padding-top:8px}
+.vlabel{display:block;font-size:.78rem;color:var(--muted);margin-bottom:5px}
+.btns{display:flex;flex-wrap:wrap;gap:6px}
+.btn{display:inline-block;border:1px solid var(--line);background:var(--chip);color:var(--ink);text-decoration:none;border-radius:7px;padding:4px 10px;font-size:.85rem}
+.btn:hover{border-color:var(--blue)}
+.btn.primary{background:var(--blue);border-color:var(--blue);color:#fff;font-weight:600}
+.btn small{font-weight:400;opacity:.85}
+.frames{margin-top:4px;font-size:.85rem}.frames summary{cursor:pointer;color:var(--ink2)}
+.yrs{display:flex;flex-wrap:wrap;gap:4px;margin-top:6px}.yrs a{padding:2px 7px;border:1px solid var(--line);border-radius:5px;text-decoration:none;background:var(--chip);color:var(--ink);font-size:.8rem}
+.empty{color:var(--muted);padding:18px 0}
+details.doc{background:var(--surface);border:1px solid var(--line);border-radius:10px;padding:0 16px;margin-bottom:12px}
+details.doc summary{cursor:pointer;padding:13px 0;font-weight:600}
+details.doc .in{padding:0 0 14px;color:var(--ink2)}
+details.doc ul{margin:6px 0 0;padding-left:1.2em}details.doc li{margin:4px 0}
+code{background:var(--chip);padding:1px 5px;border-radius:4px;font-size:.88em}
+pre{background:var(--chip);padding:12px 14px;border-radius:8px;overflow:auto;font-size:.85rem}
+footer{border-top:1px solid var(--line);padding:22px 0 40px;color:var(--muted);font-size:.88rem}
+@media (max-width:520px){.grid{grid-template-columns:1fr}#count{margin-left:0}}
+</style>
+</head>
+<body>
+<header class="top"><div class="wrap">
+  <h1>Mexico PRTR — interactive graphs</h1>
+  <p class="lead">The Pollutant Release and Transfer Register (2004–2022) seen as networks: which states and municipalities
+  report which substances, which ones resemble each other, and how that changes year by year. Every graph can be opened as an interactive
+  page with a search box, or downloaded as PNG, PDF and GEXF (for Gephi).</p>
+  <ul class="stats">
+    <li><b>32</b><span>states</span></li>
+    <li><b>716</b><span>municipalities</span></li>
+    <li><b>135</b><span>substances</span></li>
+    <li><b>2004–2022</b><span>19 years</span></li>
+    <li><b>188,344</b><span>reports</span></li>
+    <li><b>3.88</b><span>trillion kg cumulative</span></li>
+  </ul>
+</div></header>
+<main class="wrap">
+<section id="graficos" aria-labelledby="h-graf">
+  <h2 id="h-graf">Graphs</h2>
+  <div class="tools">
+    <div class="chips" data-key="scope"><span class="lbl">Scope:</span><button class="chip" data-v="All" aria-pressed="true">All</button><button class="chip" data-v="National" aria-pressed="false">National</button><button class="chip" data-v="Tamaulipas" aria-pressed="false">Tamaulipas</button></div>
+    <div class="chips" data-key="type"><span class="lbl">Type:</span><button class="chip" data-v="All" aria-pressed="true">All</button><button class="chip" data-v="Similarity" aria-pressed="false">Similarity</button><button class="chip" data-v="Bipartite" aria-pressed="false">Bipartite</button><button class="chip" data-v="Map" aria-pressed="false">Map</button><button class="chip" data-v="Temporal" aria-pressed="false">Temporal</button><button class="chip" data-v="Centrality" aria-pressed="false">Centrality</button><button class="chip" data-v="Ego-network" aria-pressed="false">Ego-network</button><button class="chip" data-v="Medium" aria-pressed="false">Medium</button></div>
+    <input id="q" type="search" placeholder="Search (e.g. temporal, metals, Altamira)…" aria-label="Search graphs">
+    <span id="count" aria-live="polite"></span>
+  </div>
+  <div class="grid">
+<article class="card" data-scope="National" data-type="Similarity" data-text="states with a similar emissions profile all 32 states linked by the cosine similarity of their substance profile (kg, log scale). gephi detects the communities with modularity; states with an outlier profile stay isolated. similarity national forceatlas2 · gephi toolkit">
+  <a class="thumb" href="nacional_gephi/estado_estado/estado_estado_fa2.html" tabindex="-1" aria-hidden="true"><img src="assets/thumbs/n-estado-estado.jpg" alt="" width="640" height="400" loading="lazy"></a>
+  <div class="body">
+    <div class="tags"><span class="tag scope-national">National</span><span class="tag">Similarity</span></div>
+    <h3><a href="nacional_gephi/estado_estado/estado_estado_fa2.html">States with a similar emissions profile</a></h3>
+    <p>All 32 states linked by the cosine similarity of their substance profile (kg, log scale). Gephi detects the communities with Modularity; states with an outlier profile stay isolated.</p>
+    <div class="variant"><span class="vlabel">ForceAtlas2 · Gephi Toolkit</span><div class="btns"><a class="btn primary" href="nacional_gephi/estado_estado/estado_estado_fa2.html">Interactive</a><a class="btn" href="nacional_gephi/estado_estado/estado_estado_fa2.png" title="PNG · 245 KB">PNG</a><a class="btn" href="nacional_gephi/estado_estado/estado_estado_fa2.pdf" title="PDF · 50 KB">PDF</a><a class="btn" href="nacional_gephi/estado_estado/estado_estado_fa2.gexf" title="GEXF · 42 KB">GEXF</a></div></div>
+    
+  </div>
+</article>
+<article class="card" data-scope="National" data-type="Bipartite" data-text="state ↔ substance 167 nodes and 1,543 edges: which states report which substances. states with very broad profiles sit on the periphery with their exclusive substances; heavy metals and co₂ form the core. bipartite national forceatlas2 · gephi toolkit">
+  <a class="thumb" href="nacional_gephi/estado_sustancia/estado_sustancia_fa2.html" tabindex="-1" aria-hidden="true"><img src="assets/thumbs/n-estado-sustancia.jpg" alt="" width="640" height="400" loading="lazy"></a>
+  <div class="body">
+    <div class="tags"><span class="tag scope-national">National</span><span class="tag">Bipartite</span></div>
+    <h3><a href="nacional_gephi/estado_sustancia/estado_sustancia_fa2.html">State ↔ Substance</a></h3>
+    <p>167 nodes and 1,543 edges: which states report which substances. States with very broad profiles sit on the periphery with their exclusive substances; heavy metals and CO₂ form the core.</p>
+    <div class="variant"><span class="vlabel">ForceAtlas2 · Gephi Toolkit</span><div class="btns"><a class="btn primary" href="nacional_gephi/estado_sustancia/estado_sustancia_fa2.html">Interactive</a><a class="btn" href="nacional_gephi/estado_sustancia/estado_sustancia_fa2.png" title="PNG · 870 KB">PNG</a><a class="btn" href="nacional_gephi/estado_sustancia/estado_sustancia_fa2.pdf" title="PDF · 242 KB">PDF</a><a class="btn" href="nacional_gephi/estado_sustancia/estado_sustancia_fa2.gexf" title="GEXF · 351 KB">GEXF</a></div></div>
+    
+  </div>
+</article>
+<article class="card" data-scope="National" data-type="Bipartite" data-text="municipality ↔ substance (716 municipalities) the largest graph: 851 nodes and 10,595 edges. a dense core of municipalities linked to the most-reported substances; more specific profiles toward the periphery. tooltips on the 2,500 heaviest edges. ~2 mb page. bipartite national forceatlas2 · gephi toolkit">
+  <a class="thumb" href="nacional_gephi/municipio_sustancia/municipio_sustancia_fa2.html" tabindex="-1" aria-hidden="true"><img src="assets/thumbs/n-municipio-sustancia.jpg" alt="" width="640" height="400" loading="lazy"></a>
+  <div class="body">
+    <div class="tags"><span class="tag scope-national">National</span><span class="tag">Bipartite</span></div>
+    <h3><a href="nacional_gephi/municipio_sustancia/municipio_sustancia_fa2.html">Municipality ↔ Substance (716 municipalities)</a></h3>
+    <p>The largest graph: 851 nodes and 10,595 edges. A dense core of municipalities linked to the most-reported substances; more specific profiles toward the periphery. Tooltips on the 2,500 heaviest edges. ~2 MB page.</p>
+    <div class="variant"><span class="vlabel">ForceAtlas2 · Gephi Toolkit</span><div class="btns"><a class="btn primary" href="nacional_gephi/municipio_sustancia/municipio_sustancia_fa2.html">Interactive <small>2.4 MB</small></a><a class="btn" href="nacional_gephi/municipio_sustancia/municipio_sustancia_fa2.png" title="PNG · 2.1 MB">PNG</a><a class="btn" href="nacional_gephi/municipio_sustancia/municipio_sustancia_fa2.pdf" title="PDF · 1.4 MB">PDF</a><a class="btn" href="nacional_gephi/municipio_sustancia/municipio_sustancia_fa2.gexf" title="GEXF · 2.5 MB">GEXF</a></div></div>
+    
+  </div>
+</article>
+<article class="card" data-scope="National" data-type="Map" data-text="map: states by emissions profile the state-similarity network placed at each state capital, on a map of mexico. shows whether a similar emissions profile lines up with geographic closeness. map national real coordinates · gephi toolkit">
+  <a class="thumb" href="nacional_gephi/geografico/estado_geo.html" tabindex="-1" aria-hidden="true"><img src="assets/thumbs/n-mapa.jpg" alt="" width="640" height="400" loading="lazy"></a>
+  <div class="body">
+    <div class="tags"><span class="tag scope-national">National</span><span class="tag">Map</span></div>
+    <h3><a href="nacional_gephi/geografico/estado_geo.html">Map: states by emissions profile</a></h3>
+    <p>The state-similarity network placed at each state capital, on a map of Mexico. Shows whether a similar emissions profile lines up with geographic closeness.</p>
+    <div class="variant"><span class="vlabel">Real coordinates · Gephi Toolkit</span><div class="btns"><a class="btn primary" href="nacional_gephi/geografico/estado_geo.html">Interactive</a><a class="btn" href="nacional_gephi/geografico/estado_geo_toolkit.png" title="PNG · 419 KB">PNG</a><a class="btn" href="nacional_gephi/geografico/estado_geo_toolkit.pdf" title="PDF · 50 KB">PDF</a><a class="btn" href="nacional_gephi/geografico/estado_geo_toolkit.gexf" title="GEXF · 42 KB">GEXF</a></div></div>
+    
+  </div>
+</article>
+<article class="card" data-scope="Tamaulipas" data-type="Bipartite" data-text="municipality ↔ substance tamaulipas&#x27; 20 municipalities and the 71 substances they report, in two columns ranked by cumulative emissions. the gephi toolkit version uses the same layout with size and color driven by an attribute. bipartite tamaulipas two columns · plotly two columns · gephi toolkit">
+  <a class="thumb" href="tamaulipas_graph/tamaulipas_graph.html" tabindex="-1" aria-hidden="true"><img src="assets/thumbs/t-bipartito.jpg" alt="" width="640" height="400" loading="lazy"></a>
+  <div class="body">
+    <div class="tags"><span class="tag scope-tamaulipas">Tamaulipas</span><span class="tag">Bipartite</span></div>
+    <h3><a href="tamaulipas_graph/tamaulipas_graph.html">Municipality ↔ Substance</a></h3>
+    <p>Tamaulipas&#x27; 20 municipalities and the 71 substances they report, in two columns ranked by cumulative emissions. The Gephi Toolkit version uses the same layout with size and color driven by an attribute.</p>
+    <div class="variant"><span class="vlabel">Two columns · Plotly</span><div class="btns"><a class="btn primary" href="tamaulipas_graph/tamaulipas_graph.html">Interactive</a><a class="btn" href="tamaulipas_graph/tamaulipas_graph.png" title="PNG · 2.2 MB">PNG</a></div></div><div class="variant"><span class="vlabel">Two columns · Gephi Toolkit</span><div class="btns"><a class="btn" href="tamaulipas_graph_toolkit/tamaulipas_graph_toolkit.png" title="PNG · 1.0 MB">PNG</a><a class="btn" href="tamaulipas_graph_toolkit/tamaulipas_graph_toolkit.pdf" title="PDF · 93 KB">PDF</a><a class="btn" href="tamaulipas_graph_toolkit/tamaulipas_graph_toolkit_layout.gexf" title="GEXF · 144 KB">GEXF</a></div></div>
+    
+  </div>
+</article>
+<article class="card" data-scope="Tamaulipas" data-type="Similarity" data-text="substances reported together two substances are linked if their municipalities overlap (jaccard ≥ 0.7). the chemical families show up: chlorinated solvents, polycyclic aromatic hydrocarbons, heavy metals, aldehydes and refrigerant gases. similarity tamaulipas forceatlas2 · gephi + modularity hierarchical layout · plotly + louvain">
+  <a class="thumb" href="tamaulipas_gephi_fa2_redes/sustancia_sustancia/sustancia_sustancia_fa2.html" tabindex="-1" aria-hidden="true"><img src="assets/thumbs/t-sustancias.jpg" alt="" width="640" height="400" loading="lazy"></a>
+  <div class="body">
+    <div class="tags"><span class="tag scope-tamaulipas">Tamaulipas</span><span class="tag">Similarity</span></div>
+    <h3><a href="tamaulipas_gephi_fa2_redes/sustancia_sustancia/sustancia_sustancia_fa2.html">Substances reported together</a></h3>
+    <p>Two substances are linked if their municipalities overlap (Jaccard ≥ 0.7). The chemical families show up: chlorinated solvents, polycyclic aromatic hydrocarbons, heavy metals, aldehydes and refrigerant gases.</p>
+    <div class="variant"><span class="vlabel">ForceAtlas2 · Gephi + Modularity</span><div class="btns"><a class="btn primary" href="tamaulipas_gephi_fa2_redes/sustancia_sustancia/sustancia_sustancia_fa2.html">Interactive</a><a class="btn" href="tamaulipas_gephi_fa2_redes/sustancia_sustancia/sustancia_sustancia_fa2.png" title="PNG · 156 KB">PNG</a><a class="btn" href="tamaulipas_gephi_fa2_redes/sustancia_sustancia/sustancia_sustancia_fa2.pdf" title="PDF · 65 KB">PDF</a><a class="btn" href="tamaulipas_gephi_fa2_redes/sustancia_sustancia/sustancia_sustancia_fa2.gexf" title="GEXF · 58 KB">GEXF</a></div></div><div class="variant"><span class="vlabel">Hierarchical layout · Plotly + Louvain</span><div class="btns"><a class="btn primary" href="tamaulipas_projected_networks/sustancia_sustancia.html">Interactive</a><a class="btn" href="tamaulipas_projected_networks/sustancia_sustancia.png" title="PNG · 434 KB">PNG</a></div></div>
+    
+  </div>
+</article>
+<article class="card" data-scope="Tamaulipas" data-type="Similarity" data-text="municipalities with a similar profile municipalities are linked by the cosine similarity of their emissions profile (≥ 0.7). three groups emerge: the industrial corridor (altamira, reynosa…), an intermediate group and the rural municipalities. similarity tamaulipas forceatlas2 · gephi + modularity hierarchical layout · plotly + louvain">
+  <a class="thumb" href="tamaulipas_gephi_fa2_redes/municipio_municipio/municipio_municipio_fa2.html" tabindex="-1" aria-hidden="true"><img src="assets/thumbs/t-municipios.jpg" alt="" width="640" height="400" loading="lazy"></a>
+  <div class="body">
+    <div class="tags"><span class="tag scope-tamaulipas">Tamaulipas</span><span class="tag">Similarity</span></div>
+    <h3><a href="tamaulipas_gephi_fa2_redes/municipio_municipio/municipio_municipio_fa2.html">Municipalities with a similar profile</a></h3>
+    <p>Municipalities are linked by the cosine similarity of their emissions profile (≥ 0.7). Three groups emerge: the industrial corridor (Altamira, Reynosa…), an intermediate group and the rural municipalities.</p>
+    <div class="variant"><span class="vlabel">ForceAtlas2 · Gephi + Modularity</span><div class="btns"><a class="btn primary" href="tamaulipas_gephi_fa2_redes/municipio_municipio/municipio_municipio_fa2.html">Interactive</a><a class="btn" href="tamaulipas_gephi_fa2_redes/municipio_municipio/municipio_municipio_fa2.png" title="PNG · 272 KB">PNG</a><a class="btn" href="tamaulipas_gephi_fa2_redes/municipio_municipio/municipio_municipio_fa2.pdf" title="PDF · 33 KB">PDF</a><a class="btn" href="tamaulipas_gephi_fa2_redes/municipio_municipio/municipio_municipio_fa2.gexf" title="GEXF · 20 KB">GEXF</a></div></div><div class="variant"><span class="vlabel">Hierarchical layout · Plotly + Louvain</span><div class="btns"><a class="btn primary" href="tamaulipas_projected_networks/municipio_municipio.html">Interactive</a><a class="btn" href="tamaulipas_projected_networks/municipio_municipio.png" title="PNG · 317 KB">PNG</a></div></div>
+    
+  </div>
+</article>
+<article class="card" data-scope="Tamaulipas" data-type="Temporal" data-text="evolution by year, 2004–2022 the municipality ↔ substance bipartite graph year by year, with a play button and slider. positions are fixed, so nodes never jump; size is that year&#x27;s kg (common log scale) and gray marks no report. temporal tamaulipas forceatlas2 · gephi toolkit two columns · plotly">
+  <a class="thumb" href="tamaulipas_gephi_fa2_redes/temporal/temporal_fa2.html" tabindex="-1" aria-hidden="true"><img src="assets/thumbs/t-temporal.jpg" alt="" width="640" height="400" loading="lazy"></a>
+  <div class="body">
+    <div class="tags"><span class="tag scope-tamaulipas">Tamaulipas</span><span class="tag">Temporal</span></div>
+    <h3><a href="tamaulipas_gephi_fa2_redes/temporal/temporal_fa2.html">Evolution by year, 2004–2022</a></h3>
+    <p>The municipality ↔ substance bipartite graph year by year, with a play button and slider. Positions are fixed, so nodes never jump; size is that year&#x27;s kg (common log scale) and gray marks no report.</p>
+    <div class="variant"><span class="vlabel">ForceAtlas2 · Gephi Toolkit</span><div class="btns"><a class="btn primary" href="tamaulipas_gephi_fa2_redes/temporal/temporal_fa2.html">Interactive <small>2.7 MB</small></a><a class="btn" href="tamaulipas_gephi_fa2_redes/temporal/temporal_snapshots_fa2.png" title="PNG · 541 KB">PNG</a><a class="btn" href="tamaulipas_gephi_fa2_redes/temporal/temporal_2004_fa2.pdf" title="61 KB">PDF 2004</a><a class="btn" href="tamaulipas_gephi_fa2_redes/temporal/temporal_2010_fa2.pdf" title="67 KB">PDF 2010</a><a class="btn" href="tamaulipas_gephi_fa2_redes/temporal/temporal_2016_fa2.pdf" title="66 KB">PDF 2016</a><a class="btn" href="tamaulipas_gephi_fa2_redes/temporal/temporal_2022_fa2.pdf" title="65 KB">PDF 2022</a></div></div><div class="variant"><span class="vlabel">Two columns · Plotly</span><div class="btns"><a class="btn primary" href="tamaulipas_temporal_graph/tamaulipas_temporal.html">Interactive <small>2.7 MB</small></a><a class="btn" href="tamaulipas_temporal_graph/tamaulipas_temporal_snapshots.png" title="PNG · 1.9 MB">PNG</a></div></div>
+    <details class="frames"><summary>Frames by year (Gephi PNG)</summary><div class="yrs"><a href="tamaulipas_gephi_fa2_redes/temporal/frames/temporal_2004.png">2004</a><a href="tamaulipas_gephi_fa2_redes/temporal/frames/temporal_2005.png">2005</a><a href="tamaulipas_gephi_fa2_redes/temporal/frames/temporal_2006.png">2006</a><a href="tamaulipas_gephi_fa2_redes/temporal/frames/temporal_2007.png">2007</a><a href="tamaulipas_gephi_fa2_redes/temporal/frames/temporal_2008.png">2008</a><a href="tamaulipas_gephi_fa2_redes/temporal/frames/temporal_2009.png">2009</a><a href="tamaulipas_gephi_fa2_redes/temporal/frames/temporal_2010.png">2010</a><a href="tamaulipas_gephi_fa2_redes/temporal/frames/temporal_2011.png">2011</a><a href="tamaulipas_gephi_fa2_redes/temporal/frames/temporal_2012.png">2012</a><a href="tamaulipas_gephi_fa2_redes/temporal/frames/temporal_2013.png">2013</a><a href="tamaulipas_gephi_fa2_redes/temporal/frames/temporal_2014.png">2014</a><a href="tamaulipas_gephi_fa2_redes/temporal/frames/temporal_2015.png">2015</a><a href="tamaulipas_gephi_fa2_redes/temporal/frames/temporal_2016.png">2016</a><a href="tamaulipas_gephi_fa2_redes/temporal/frames/temporal_2017.png">2017</a><a href="tamaulipas_gephi_fa2_redes/temporal/frames/temporal_2018.png">2018</a><a href="tamaulipas_gephi_fa2_redes/temporal/frames/temporal_2019.png">2019</a><a href="tamaulipas_gephi_fa2_redes/temporal/frames/temporal_2020.png">2020</a><a href="tamaulipas_gephi_fa2_redes/temporal/frames/temporal_2021.png">2021</a><a href="tamaulipas_gephi_fa2_redes/temporal/frames/temporal_2022.png">2022</a></div></details>
+  </div>
+</article>
+<article class="card" data-scope="Tamaulipas" data-type="Centrality" data-text="centrality: who connects the most betweenness and pagerank computed by gephi. altamira, matamoros and reynosa are the biggest bridges; carbon dioxide holds most of the pagerank. in the html, node size follows centrality. centrality tamaulipas forceatlas2 · gephi toolkit two columns · gephi toolkit">
+  <a class="thumb" href="tamaulipas_gephi_extra/centralidad/centralidad_fa2.html" tabindex="-1" aria-hidden="true"><img src="assets/thumbs/t-centralidad.jpg" alt="" width="640" height="400" loading="lazy"></a>
+  <div class="body">
+    <div class="tags"><span class="tag scope-tamaulipas">Tamaulipas</span><span class="tag">Centrality</span></div>
+    <h3><a href="tamaulipas_gephi_extra/centralidad/centralidad_fa2.html">Centrality: who connects the most</a></h3>
+    <p>Betweenness and PageRank computed by Gephi. Altamira, Matamoros and Reynosa are the biggest bridges; carbon dioxide holds most of the PageRank. In the HTML, node size follows centrality.</p>
+    <div class="variant"><span class="vlabel">ForceAtlas2 · Gephi Toolkit</span><div class="btns"><a class="btn primary" href="tamaulipas_gephi_extra/centralidad/centralidad_fa2.html">Interactive</a><a class="btn" href="tamaulipas_gephi_extra/centralidad/centralidad_toolkit_fa2.png" title="PNG · 389 KB">PNG</a><a class="btn" href="tamaulipas_gephi_extra/centralidad/centralidad_toolkit_fa2.pdf" title="PDF · 98 KB">PDF</a><a class="btn" href="tamaulipas_gephi_extra/centralidad/centralidad_toolkit_fa2.gexf" title="GEXF · 176 KB">GEXF</a></div></div><div class="variant"><span class="vlabel">Two columns · Gephi Toolkit</span><div class="btns"><a class="btn primary" href="tamaulipas_gephi_extra/centralidad/centralidad.html">Interactive</a><a class="btn" href="tamaulipas_gephi_extra/centralidad/centralidad_toolkit.png" title="PNG · 908 KB">PNG</a><a class="btn" href="tamaulipas_gephi_extra/centralidad/centralidad_toolkit.pdf" title="PDF · 94 KB">PDF</a><a class="btn" href="tamaulipas_gephi_extra/centralidad/centralidad_toolkit.gexf" title="GEXF · 176 KB">GEXF</a></div></div>
+    
+  </div>
+</article>
+<article class="card" data-scope="Tamaulipas" data-type="Temporal" data-text="temporal fingerprint of each node color: the year a municipality or substance first appears (dark blue = since 2004). size: how many years it has reported. shows who is a steady reporter and who joined later. temporal tamaulipas forceatlas2 · gephi toolkit two columns · gephi toolkit">
+  <a class="thumb" href="tamaulipas_gephi_extra/timeline/timeline_fa2.html" tabindex="-1" aria-hidden="true"><img src="assets/thumbs/t-huella.jpg" alt="" width="640" height="400" loading="lazy"></a>
+  <div class="body">
+    <div class="tags"><span class="tag scope-tamaulipas">Tamaulipas</span><span class="tag">Temporal</span></div>
+    <h3><a href="tamaulipas_gephi_extra/timeline/timeline_fa2.html">Temporal fingerprint of each node</a></h3>
+    <p>Color: the year a municipality or substance first appears (dark blue = since 2004). Size: how many years it has reported. Shows who is a steady reporter and who joined later.</p>
+    <div class="variant"><span class="vlabel">ForceAtlas2 · Gephi Toolkit</span><div class="btns"><a class="btn primary" href="tamaulipas_gephi_extra/timeline/timeline_fa2.html">Interactive</a><a class="btn" href="tamaulipas_gephi_extra/timeline/timeline_toolkit_fa2.png" title="PNG · 436 KB">PNG</a><a class="btn" href="tamaulipas_gephi_extra/timeline/timeline_toolkit_fa2.pdf" title="PDF · 99 KB">PDF</a><a class="btn" href="tamaulipas_gephi_extra/timeline/timeline_toolkit_fa2.gexf" title="GEXF · 119 KB">GEXF</a></div></div><div class="variant"><span class="vlabel">Two columns · Gephi Toolkit</span><div class="btns"><a class="btn" href="tamaulipas_gephi_extra/timeline/timeline_toolkit.png" title="PNG · 980 KB">PNG</a><a class="btn" href="tamaulipas_gephi_extra/timeline/timeline_toolkit.pdf" title="PDF · 95 KB">PDF</a><a class="btn" href="tamaulipas_gephi_extra/timeline/timeline_toolkit.gexf" title="GEXF · 119 KB">GEXF</a></div></div>
+    
+  </div>
+</article>
+<article class="card" data-scope="Tamaulipas" data-type="Map" data-text="map: municipalities by emissions profile the municipality-similarity network on the real map. the border industrial towns are far apart but linked by profile; the rural group is geographically compact. map tamaulipas real coordinates · gephi toolkit">
+  <a class="thumb" href="tamaulipas_gephi_extra/geografico/municipio_geo.html" tabindex="-1" aria-hidden="true"><img src="assets/thumbs/t-mapa.jpg" alt="" width="640" height="400" loading="lazy"></a>
+  <div class="body">
+    <div class="tags"><span class="tag scope-tamaulipas">Tamaulipas</span><span class="tag">Map</span></div>
+    <h3><a href="tamaulipas_gephi_extra/geografico/municipio_geo.html">Map: municipalities by emissions profile</a></h3>
+    <p>The municipality-similarity network on the real map. The border industrial towns are far apart but linked by profile; the rural group is geographically compact.</p>
+    <div class="variant"><span class="vlabel">Real coordinates · Gephi Toolkit</span><div class="btns"><a class="btn primary" href="tamaulipas_gephi_extra/geografico/municipio_geo.html">Interactive</a><a class="btn" href="tamaulipas_gephi_extra/geografico/municipio_geo_toolkit.png" title="PNG · 207 KB">PNG</a><a class="btn" href="tamaulipas_gephi_extra/geografico/municipio_geo_toolkit.pdf" title="PDF · 34 KB">PDF</a><a class="btn" href="tamaulipas_gephi_extra/geografico/municipio_geo_toolkit.gexf" title="GEXF · 22 KB">GEXF</a></div></div>
+    
+  </div>
+</article>
+<article class="card" data-scope="Tamaulipas" data-type="Ego-network" data-text="ego-network of altamira the state&#x27;s biggest emitter: its 15 main substances and the 8 municipalities that share that profile. three substances are exclusive to altamira and hang off as leaves in the forceatlas2 version. ego-network tamaulipas forceatlas2 · gephi toolkit concentric · gephi toolkit">
+  <a class="thumb" href="tamaulipas_gephi_extra/ego_network/ego_altamira_fa2.html" tabindex="-1" aria-hidden="true"><img src="assets/thumbs/t-ego.jpg" alt="" width="640" height="400" loading="lazy"></a>
+  <div class="body">
+    <div class="tags"><span class="tag scope-tamaulipas">Tamaulipas</span><span class="tag">Ego-network</span></div>
+    <h3><a href="tamaulipas_gephi_extra/ego_network/ego_altamira_fa2.html">Ego-network of Altamira</a></h3>
+    <p>The state&#x27;s biggest emitter: its 15 main substances and the 8 municipalities that share that profile. Three substances are exclusive to Altamira and hang off as leaves in the ForceAtlas2 version.</p>
+    <div class="variant"><span class="vlabel">ForceAtlas2 · Gephi Toolkit</span><div class="btns"><a class="btn primary" href="tamaulipas_gephi_extra/ego_network/ego_altamira_fa2.html">Interactive</a><a class="btn" href="tamaulipas_gephi_extra/ego_network/ego_altamira_toolkit_fa2.png" title="PNG · 157 KB">PNG</a><a class="btn" href="tamaulipas_gephi_extra/ego_network/ego_altamira_toolkit_fa2.pdf" title="PDF · 39 KB">PDF</a><a class="btn" href="tamaulipas_gephi_extra/ego_network/ego_altamira_toolkit_fa2.gexf" title="GEXF · 24 KB">GEXF</a></div></div><div class="variant"><span class="vlabel">Concentric · Gephi Toolkit</span><div class="btns"><a class="btn primary" href="tamaulipas_gephi_extra/ego_network/ego_altamira.html">Interactive</a><a class="btn" href="tamaulipas_gephi_extra/ego_network/ego_altamira_toolkit.png" title="PNG · 170 KB">PNG</a><a class="btn" href="tamaulipas_gephi_extra/ego_network/ego_altamira_toolkit.pdf" title="PDF · 39 KB">PDF</a><a class="btn" href="tamaulipas_gephi_extra/ego_network/ego_altamira_toolkit.gexf" title="GEXF · 24 KB">GEXF</a></div></div>
+    
+  </div>
+</article>
+<article class="card" data-scope="Tamaulipas" data-type="Medium" data-text="municipality ↔ release medium substances collapsed into their release medium (air, water, soil, sewer system…): 31 nodes instead of 91. “air” holds nearly all of the volume. medium tamaulipas forceatlas2 · gephi toolkit two columns · gephi toolkit">
+  <a class="thumb" href="tamaulipas_gephi_extra/contraccion_medio/municipio_medio_fa2.html" tabindex="-1" aria-hidden="true"><img src="assets/thumbs/t-medio.jpg" alt="" width="640" height="400" loading="lazy"></a>
+  <div class="body">
+    <div class="tags"><span class="tag scope-tamaulipas">Tamaulipas</span><span class="tag">Medium</span></div>
+    <h3><a href="tamaulipas_gephi_extra/contraccion_medio/municipio_medio_fa2.html">Municipality ↔ Release medium</a></h3>
+    <p>Substances collapsed into their release medium (air, water, soil, sewer system…): 31 nodes instead of 91. “air” holds nearly all of the volume.</p>
+    <div class="variant"><span class="vlabel">ForceAtlas2 · Gephi Toolkit</span><div class="btns"><a class="btn primary" href="tamaulipas_gephi_extra/contraccion_medio/municipio_medio_fa2.html">Interactive</a><a class="btn" href="tamaulipas_gephi_extra/contraccion_medio/municipio_medio_toolkit_fa2.png" title="PNG · 333 KB">PNG</a><a class="btn" href="tamaulipas_gephi_extra/contraccion_medio/municipio_medio_toolkit_fa2.pdf" title="PDF · 43 KB">PDF</a><a class="btn" href="tamaulipas_gephi_extra/contraccion_medio/municipio_medio_toolkit_fa2.gexf" title="GEXF · 31 KB">GEXF</a></div></div><div class="variant"><span class="vlabel">Two columns · Gephi Toolkit</span><div class="btns"><a class="btn primary" href="tamaulipas_gephi_extra/contraccion_medio/municipio_medio.html">Interactive</a><a class="btn" href="tamaulipas_gephi_extra/contraccion_medio/municipio_medio_toolkit.png" title="PNG · 253 KB">PNG</a><a class="btn" href="tamaulipas_gephi_extra/contraccion_medio/municipio_medio_toolkit.pdf" title="PDF · 42 KB">PDF</a><a class="btn" href="tamaulipas_gephi_extra/contraccion_medio/municipio_medio_toolkit.gexf" title="GEXF · 30 KB">GEXF</a></div></div>
+    
+  </div>
+</article>
+  </div>
+  <p id="empty" class="empty" hidden>No graph matches the filter.</p>
+</section>
+
+<section aria-labelledby="h-leer">
+  <h2 id="h-leer">How to read the graphs</h2>
+  <details class="doc" open><summary>Colors, sizes and connections</summary><div class="in"><ul>
+    <li><span class="dot b"></span>Blue: states or municipalities. <span class="dot o"></span>Orange: substances. In the similarity networks, color marks the detected community; in the ego-network, red is the focal municipality.</li>
+    <li><b>Node size</b>: cumulative emissions 2004–2022 (the sum of every report), almost always on a log scale because totals span more than ten orders of magnitude.</li>
+    <li><b>Edges</b>: an edge exists when a municipality or state reported that substance. In the similarity networks, when two profiles are alike above a threshold (cosine or Jaccard ≥ 0.7).</li>
+  </ul></div></details>
+  <details class="doc"><summary>What you can do on the interactive pages</summary><div class="in"><ul>
+    <li><b>Tooltip</b> on any node: total and share of the country or state, ranking, years reported, main medium and sector, substances or municipalities with the most kg. Hovering the midpoint of an edge shows the detail of that relationship.</li>
+    <li><b>Search box</b> (top left): by name or chemical symbol, accent-insensitive. Picking a result zooms in, shows its card and highlights its connections.</li>
+    <li><b>Buttons and legend</b>: hide or dim a node type (or a community). Dimming also hides its labels and tooltips.</li>
+    <li>On the <b>animated</b> pages: play or drag the year slider; the search and the dim mode are kept when the year changes.</li>
+    <li>Scroll or box-select to zoom; double-click to reset.</li>
+  </ul></div></details>
+</section>
+
+<section aria-labelledby="h-notas">
+  <h2 id="h-notas">Methodology notes</h2>
+  <details class="doc"><summary>Data and units</summary><div class="in">
+    <p>The source is Mexico's PRTR, with 188,344 reports. Each report carries a kg/year value; the totals shown are the <b>sum of every report from 2004 to 2022</b>, not an annual rate.
+    States, municipalities and substances come from the <code>spatial</code> and <code>interest</code> columns. Some substances appear under several chemical forms (e.g. "Lead (compounds)" and "Lead (soluble compounds)") and are treated as distinct substances.</p></div></details>
+  <details class="doc"><summary>Methods</summary><div class="in"><ul>
+    <li><b>Similarity between municipalities or states</b>: cosine of the <code>log(1 + kg)</code> vector per substance. <b>Between substances</b>: Jaccard index over the municipalities reporting each one (corrects for very common substances co-occurring by chance).</li>
+    <li><b>ForceAtlas2</b> (Gephi Toolkit) with edge-weight influence set to 0 on the bipartite graphs: a handful of huge emitters (Altamira, carbon dioxide) weigh ~1000x more than the rest and collapsed the layout. The similarity networks do use edge weight.</li>
+    <li><b>Communities</b>: Louvain (Python) or Modularity (Gephi), depending on the graph. Centrality: Gephi's betweenness and PageRank.</li>
+    <li><b>Maps</b>: approximate municipal-seat coordinates (schematic, not for cartographic use).</li>
+  </ul></div></details>
+</section>
+
+<section aria-labelledby="h-repro">
+  <h2 id="h-repro">Reproduce</h2>
+  <details class="doc"><summary>Project structure and commands</summary><div class="in">
+    <p>Each folder holds the scripts and outputs for its graph. Shared modules live at the root: <code>prtr_hover.py</code> (tooltips), <code>prtr_i18n.py</code> (English translations for substances/media/sectors), <code>prtr_ui.py</code> and <code>ui_snippet.js</code> (search box and buttons), and <code>prtr_fa2_html.py</code>.
+    The <code>prtr_raw_for_stori_stori.csv</code> dataset is not version-controlled: place it at the root to regenerate.</p>
+<pre>pip install networkx plotly matplotlib numpy scipy pillow
+python tamaulipas_graph/build_graph.py            # and the other build_*.py, fa2_html.py, assemble_temporal.py
+python nacional_gephi/nacional_html.py
+python build_index.py                             # this page</pre>
+    <p>The Gephi-rendered images (ForceAtlas2, Modularity, PDF/PNG) are produced by the Java programs in each folder together with <code>gephi-toolkit-0.10.1-all.jar</code>. See the project's <code>README.md</code> for details.</p></div></details>
+</section>
+</main>
+<footer><div class="wrap">Generated on 2026-09-29. The interactive graphs load Plotly from a CDN and need an internet connection.</div></footer>
+<script>
+(function(){
+  var cards=[].slice.call(document.querySelectorAll('.card')), q=document.getElementById('q'), out=document.getElementById('count'), empty=document.getElementById('empty');
+  var st={scope:'All',type:'All'};
+  function norm(s){return s.normalize('NFD').replace(/[\u0300-\u036f]/g,'').toLowerCase();}
+  var texts=cards.map(function(c){return norm(c.getAttribute('data-text'));});
+  function apply(){
+    var t=norm(q.value.trim()).split(/\s+/).filter(Boolean), n=0;
+    cards.forEach(function(c,i){
+      var ok=(st.scope==='All'||c.dataset.scope===st.scope)&&(st.type==='All'||c.dataset.type===st.type)&&t.every(function(w){return texts[i].indexOf(w)>=0;});
+      c.hidden=!ok; if(ok)n++;
+    });
+    out.textContent=n+' of '+cards.length+' graphs'; empty.hidden=n>0;
+  }
+  [].forEach.call(document.querySelectorAll('.chips'),function(g){
+    g.addEventListener('click',function(e){
+      var b=e.target.closest('.chip'); if(!b)return;
+      [].forEach.call(g.querySelectorAll('.chip'),function(x){x.setAttribute('aria-pressed',x===b?'true':'false');});
+      st[g.dataset.key]=b.dataset.v; apply();
+    });
+  });
+  q.addEventListener('input',apply); apply();
+})();
+</script>
+</body>
+</html>
