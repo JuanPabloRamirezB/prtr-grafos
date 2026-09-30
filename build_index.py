@@ -17,8 +17,13 @@ from PIL import Image
 HERE = os.path.dirname(os.path.abspath(__file__))
 CSV = os.path.join(HERE, "prtr_raw_for_stori_stori.csv")
 
-N, T = "nacional_gephi", "tamaulipas_gephi_extra"
-R, G, P, TT, TK = "tamaulipas_gephi_fa2_redes", "tamaulipas_graph", "tamaulipas_projected_networks", "tamaulipas_temporal_graph", "tamaulipas_graph_toolkit"
+GP = "graphs_pollutants"
+N, T = f"{GP}/nacional_gephi", f"{GP}/tamaulipas_gephi_extra"
+R, G, P, TT, TK = (f"{GP}/tamaulipas_gephi_fa2_redes", f"{GP}/tamaulipas_graph", f"{GP}/tamaulipas_projected_networks",
+                    f"{GP}/tamaulipas_temporal_graph", f"{GP}/tamaulipas_graph_toolkit")
+
+GM = "graphs_mortality"
+MN = f"{GM}/nacional_gephi"
 
 
 def v(label, html=None, png=None, pdf=None, gexf=None, extra=None):
@@ -118,7 +123,50 @@ CARDS = [
                      f"{T}/contraccion_medio/municipio_medio_toolkit_fa2.pdf", f"{T}/contraccion_medio/municipio_medio_toolkit_fa2.gexf"),
                    v("Two columns · Gephi Toolkit", f"{T}/contraccion_medio/municipio_medio.html", f"{T}/contraccion_medio/municipio_medio_toolkit.png",
                      f"{T}/contraccion_medio/municipio_medio_toolkit.pdf", f"{T}/contraccion_medio/municipio_medio_toolkit.gexf")]),
+    # ------------------------------------------------------------------ Mortality (national only, no state-level yet)
+    dict(id="m-estado-estado", dataset="Mortality", scope="National", type="Similarity",
+         title="States with a similar cause-of-death profile",
+         desc="All 32 states linked by the cosine similarity of their mortality-cause profile (log scale). Two versions: the "
+              "23 broad ICD chapters, or the top 100 specific causes nationally by death count.",
+         thumb=f"{MN}/estado_estado/estado_estado_capitulo_fa2.png",
+         variants=[v("23 ICD chapters · ForceAtlas2", f"{MN}/estado_estado/estado_estado_capitulo_fa2.html", f"{MN}/estado_estado/estado_estado_capitulo_fa2.png",
+                     f"{MN}/estado_estado/estado_estado_capitulo_fa2.pdf", f"{MN}/estado_estado/estado_estado_capitulo_fa2.gexf"),
+                   v("Top 100 specific causes · ForceAtlas2", f"{MN}/estado_estado/estado_estado_especifico_fa2.html", f"{MN}/estado_estado/estado_estado_especifico_fa2.png",
+                     f"{MN}/estado_estado/estado_estado_especifico_fa2.pdf", f"{MN}/estado_estado/estado_estado_especifico_fa2.gexf")]),
+    dict(id="m-estado-causa", dataset="Mortality", scope="National", type="Bipartite",
+         title="State ↔ Cause of death",
+         desc="Which states record which causes of death. 23-chapter version (736 edges, near-complete coverage) or top 100 "
+              "specific ICD codes nationally by death count (3,200 edges).",
+         thumb=f"{MN}/estado_causa/estado_causa_capitulo_fa2.png",
+         variants=[v("23 ICD chapters · ForceAtlas2", f"{MN}/estado_causa/estado_causa_capitulo_fa2.html", f"{MN}/estado_causa/estado_causa_capitulo_fa2.png",
+                     f"{MN}/estado_causa/estado_causa_capitulo_fa2.pdf", f"{MN}/estado_causa/estado_causa_capitulo_fa2.gexf"),
+                   v("Top 100 specific causes · ForceAtlas2", f"{MN}/estado_causa/estado_causa_especifico_fa2.html", f"{MN}/estado_causa/estado_causa_especifico_fa2.png",
+                     f"{MN}/estado_causa/estado_causa_especifico_fa2.pdf", f"{MN}/estado_causa/estado_causa_especifico_fa2.gexf")]),
+    dict(id="m-municipio-causa", dataset="Mortality", scope="National", type="Bipartite",
+         title="Municipality ↔ Cause of death (2,378 municipalities)",
+         desc="The largest graph on the site: three versions by granularity — 23 ICD chapters (48,539 edges), the top 100 "
+              "specific causes with a >100-death threshold (17,344 edges), or all 1,511 specific causes with no cap at all "
+              "(568,317 edges, WebGL rendering, only the heaviest edges are drawn and get tooltips).",
+         thumb=f"{MN}/municipio_causa/municipio_causa_capitulo_fa2.png",
+         variants=[v("23 ICD chapters · ForceAtlas2", f"{MN}/municipio_causa/municipio_causa_capitulo_fa2.html", f"{MN}/municipio_causa/municipio_causa_capitulo_fa2.png",
+                     f"{MN}/municipio_causa/municipio_causa_capitulo_fa2.pdf", f"{MN}/municipio_causa/municipio_causa_capitulo_fa2.gexf"),
+                   v("Top 100 specific causes (>100 deaths/edge) · ForceAtlas2", f"{MN}/municipio_causa/municipio_causa_especifico_fa2.html",
+                     f"{MN}/municipio_causa/municipio_causa_especifico_fa2.png", f"{MN}/municipio_causa/municipio_causa_especifico_fa2.pdf",
+                     f"{MN}/municipio_causa/municipio_causa_especifico_fa2.gexf"),
+                   v("All 1,511 specific causes · WebGL", f"{MN}/municipio_causa/municipio_causa_especifico_completo_ligero_fa2.html",
+                     gexf=f"{MN}/municipio_causa/municipio_causa_especifico_completo_fa2.gexf")]),
+    dict(id="m-mapa", dataset="Mortality", scope="National", type="Map",
+         title="Map: states by cause-of-death profile",
+         desc="The state cause-of-death similarity network placed at each state capital, on a map of Mexico. Same two "
+              "granularities as the similarity graph above.",
+         thumb=f"{MN}/geografico/estado_geo_capitulo_toolkit.png",
+         variants=[v("23 ICD chapters · real coordinates", f"{MN}/geografico/estado_geo_capitulo.html", f"{MN}/geografico/estado_geo_capitulo_toolkit.png",
+                     f"{MN}/geografico/estado_geo_capitulo_toolkit.pdf", f"{MN}/geografico/estado_geo_capitulo_toolkit.gexf"),
+                   v("Top 100 specific causes · real coordinates", f"{MN}/geografico/estado_geo_especifico.html", f"{MN}/geografico/estado_geo_especifico_toolkit.png",
+                     f"{MN}/geografico/estado_geo_especifico_toolkit.pdf", f"{MN}/geografico/estado_geo_especifico_toolkit.gexf")]),
 ]
+for c in CARDS:
+    c.setdefault("dataset", "Pollutants")
 FRAMES = [(y, f"{R}/temporal/frames/temporal_{y}.png") for y in range(2004, 2023)]
 
 
@@ -176,11 +224,11 @@ def card_html(c):
     if c["id"] == "t-temporal":
         links = "".join(f'<a href="{esc(p)}">{y}</a>' for y, p in FRAMES)
         frames = f'<details class="frames"><summary>Frames by year (Gephi PNG)</summary><div class="yrs">{links}</div></details>'
-    text = f'{c["title"]} {c["desc"]} {c["type"]} {c["scope"]} ' + " ".join(x["label"] for x in c["variants"])
-    return f'''<article class="card" data-scope="{esc(c["scope"])}" data-type="{esc(c["type"])}" data-text="{esc(text.lower())}">
+    text = f'{c["title"]} {c["desc"]} {c["type"]} {c["scope"]} {c["dataset"]} ' + " ".join(x["label"] for x in c["variants"])
+    return f'''<article class="card" data-dataset="{esc(c["dataset"])}" data-scope="{esc(c["scope"])}" data-type="{esc(c["type"])}" data-text="{esc(text.lower())}">
   <a class="thumb" href="{esc(href)}" tabindex="-1" aria-hidden="true"><img src="assets/thumbs/{c["id"]}.jpg" alt="" width="640" height="400" loading="lazy"></a>
   <div class="body">
-    <div class="tags"><span class="tag scope-{esc(c["scope"].lower())}">{esc(c["scope"])}</span><span class="tag">{esc(c["type"])}</span></div>
+    <div class="tags"><span class="tag dataset-{esc(c["dataset"].lower())}">{esc(c["dataset"])}</span><span class="tag scope-{esc(c["scope"].lower())}">{esc(c["scope"])}</span><span class="tag">{esc(c["type"])}</span></div>
     <h3><a href="{esc(href)}">{esc(c["title"])}</a></h3>
     <p>{esc(c["desc"])}</p>
     {"".join(rows)}
@@ -225,6 +273,7 @@ h2{font-size:1.35rem;margin:0 0 14px}
 .tags{display:flex;gap:6px;flex-wrap:wrap}
 .tag{font-size:.74rem;text-transform:uppercase;letter-spacing:.04em;background:var(--chip);color:var(--ink2);border-radius:5px;padding:2px 7px}
 .tag.scope-national{background:var(--blue);color:#fff}.tag.scope-tamaulipas{background:var(--orange);color:#fff}
+.tag.dataset-pollutants{background:#1baf7a;color:#fff}.tag.dataset-mortality{background:#4a3aa7;color:#fff}
 .card h3{margin:0;font-size:1.08rem;line-height:1.3}.card h3 a{color:var(--ink);text-decoration:none}.card h3 a:hover{text-decoration:underline}
 .card p{margin:0;color:var(--ink2);font-size:.92rem}
 .variant{border-top:1px dashed var(--line);padding-top:8px}
@@ -250,13 +299,13 @@ footer{border-top:1px solid var(--line);padding:22px 0 40px;color:var(--muted);f
 JS = """
 (function(){
   var cards=[].slice.call(document.querySelectorAll('.card')), q=document.getElementById('q'), out=document.getElementById('count'), empty=document.getElementById('empty');
-  var st={scope:'All',type:'All'};
+  var st={dataset:'All',scope:'All',type:'All'};
   function norm(s){return s.normalize('NFD').replace(/[\\u0300-\\u036f]/g,'').toLowerCase();}
   var texts=cards.map(function(c){return norm(c.getAttribute('data-text'));});
   function apply(){
     var t=norm(q.value.trim()).split(/\\s+/).filter(Boolean), n=0;
     cards.forEach(function(c,i){
-      var ok=(st.scope==='All'||c.dataset.scope===st.scope)&&(st.type==='All'||c.dataset.type===st.type)&&t.every(function(w){return texts[i].indexOf(w)>=0;});
+      var ok=(st.dataset==='All'||c.dataset.dataset===st.dataset)&&(st.scope==='All'||c.dataset.scope===st.scope)&&(st.type==='All'||c.dataset.type===st.type)&&t.every(function(w){return texts[i].indexOf(w)>=0;});
       c.hidden=!ok; if(ok)n++;
     });
     out.textContent=n+' of '+cards.length+' graphs'; empty.hidden=n>0;
@@ -289,7 +338,8 @@ def main():
     for c in CARDS:
         if c["type"] not in types:
             types.append(c["type"])
-    chips = lambda key, vals: (f'<div class="chips" data-key="{key}"><span class="lbl">{"Scope" if key == "scope" else "Type"}:</span>' +
+    key_label = {"dataset": "Dataset", "scope": "Scope", "type": "Type"}
+    chips = lambda key, vals: (f'<div class="chips" data-key="{key}"><span class="lbl">{key_label[key]}:</span>' +
                                "".join(f'<button class="chip" data-v="{esc(x)}" aria-pressed="{"true" if x == "All" else "false"}">{esc(x)}</button>' for x in ["All"] + vals) + "</div>")
     total_txt = f'{s["total"] / 1e12:.2f} trillion kg' if s["total"] >= 1e12 else f'{s["total"] / 1e9:,.0f} billion kg'
     today = datetime.date.today().strftime("%Y-%m-%d")
@@ -298,30 +348,35 @@ def main():
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width,initial-scale=1">
-<title>Mexico PRTR — interactive graphs</title>
-<meta name="description" content="Networks of states, municipalities and substances from Mexico's Pollutant Release and Transfer Register (PRTR), 2004–2022: bipartite graphs, similarity, year-by-year evolution, maps and centrality.">
+<title>Mexico PRTR & Mortality — interactive graphs</title>
+<meta name="description" content="Networks of states, municipalities, substances and causes of death from two Mexican national datasets: the Pollutant Release and Transfer Register (PRTR, 2004–2022) and official mortality records (2000–2022).">
 <meta name="theme-color" content="#2a78d6">
 <style>{CSS}</style>
 </head>
 <body>
 <header class="top"><div class="wrap">
-  <h1>Mexico PRTR — interactive graphs</h1>
-  <p class="lead">The Pollutant Release and Transfer Register ({s["y0"]}–{s["y1"]}) seen as networks: which states and municipalities
-  report which substances, which ones resemble each other, and how that changes year by year. Every graph can be opened as an interactive
-  page with a search box, or downloaded as PNG, PDF and GEXF (for Gephi).</p>
+  <h1>Mexico open data — interactive graphs</h1>
+  <p class="lead">Two national datasets seen as networks. The <b>Pollutant Release and Transfer Register</b> (PRTR, {s["y0"]}–{s["y1"]}):
+  which states and municipalities report which substances, which ones resemble each other, and how that changes year by year — at national
+  and Tamaulipas-state level. And Mexico's <b>official mortality records</b> (2000–2022, 53.7M entries): which states and municipalities
+  report which causes of death, by ICD chapter or specific code — national level only for now. Every graph opens as an interactive page
+  with a search box, or downloads as PNG, PDF and GEXF (for Gephi). Use the <b>Dataset</b> and <b>Scope</b> filters below to tell them apart.</p>
   <ul class="stats">
-    <li><b>{s["estados"]}</b><span>states</span></li>
-    <li><b>{s["municipios"]:,}</b><span>municipalities</span></li>
+    <li><b>{s["estados"]}</b><span>PRTR states</span></li>
+    <li><b>{s["municipios"]:,}</b><span>PRTR municipalities</span></li>
     <li><b>{s["sustancias"]}</b><span>substances</span></li>
-    <li><b>{s["y0"]}–{s["y1"]}</b><span>{s["y1"] - s["y0"] + 1} years</span></li>
-    <li><b>{s["rows"]:,}</b><span>reports</span></li>
+    <li><b>{s["y0"]}–{s["y1"]}</b><span>PRTR years</span></li>
+    <li><b>{s["rows"]:,}</b><span>PRTR reports</span></li>
     <li><b>{total_txt.split(" ")[0]}</b><span>{" ".join(total_txt.split(" ")[1:])} cumulative</span></li>
+    <li><b>2,378</b><span>mortality municipalities</span></li>
+    <li><b>1,511</b><span>specific causes of death</span></li>
   </ul>
 </div></header>
 <main class="wrap">
 <section id="graficos" aria-labelledby="h-graf">
   <h2 id="h-graf">Graphs</h2>
   <div class="tools">
+    {chips("dataset", ["Pollutants", "Mortality"])}
     {chips("scope", ["National", "Tamaulipas"])}
     {chips("type", types)}
     <input id="q" type="search" placeholder="Search (e.g. temporal, metals, Altamira)…" aria-label="Search graphs">
@@ -360,6 +415,18 @@ def main():
     <li><b>Communities</b>: Louvain (Python) or Modularity (Gephi), depending on the graph. Centrality: Gephi's betweenness and PageRank.</li>
     <li><b>Maps</b>: approximate municipal-seat coordinates (schematic, not for cartographic use).</li>
   </ul></div></details>
+  <details class="doc"><summary>Mortality graphs: what's different</summary><div class="in">
+    <p>Built from Mexico's official mortality records (2000–2022, 53.7M entries after removing every aggregate/placeholder row — no "Total" state,
+    municipality, sex, age bracket or unlabeled cause). Node/edge size is the <b>death count</b> (not a rate: age/sex-specific rates aren't
+    additive, so counts are summed instead), and state/municipality names come from INEGI's official catalog rather than the source file's own
+    text columns, which had corrupted accented characters.</p>
+    <p>"Cause of death" comes in two granularities, shown as separate graph variants: the <b>23 ICD chapters</b> (broad categories, e.g. all
+    circulatory diseases together) with no further pruning, or the <b>top 100 specific ICD codes</b> nationally by death count (e.g. "I21 —
+    Acute myocardial infarction") — municipality-level specific-cause edges are additionally pruned to those with &gt;100 deaths accumulated
+    over the period, since the most common causes are reported almost everywhere and would otherwise produce over a million edges. The
+    municipality↔cause graph also has a third, uncapped variant with all 1,511 specific causes and every municipality (568,317 edges) — it
+    draws in WebGL and only shows rich tooltips on its 2,500 heaviest edges, since a static PNG/PDF render at that scale is not practical.
+    No state-level (Tamaulipas-style) mortality graphs exist yet.</p></div></details>
 </section>
 
 <section aria-labelledby="h-repro">
@@ -371,7 +438,10 @@ def main():
 python tamaulipas_graph/build_graph.py            # and the other build_*.py, fa2_html.py, assemble_temporal.py
 python nacional_gephi/nacional_html.py
 python build_index.py                             # this page</pre>
-    <p>The Gephi-rendered images (ForceAtlas2, Modularity, PDF/PNG) are produced by the Java programs in each folder together with <code>gephi-toolkit-0.10.1-all.jar</code>. See the project's <code>README.md</code> for details.</p></div></details>
+    <p>The Gephi-rendered images (ForceAtlas2, Modularity, PDF/PNG) are produced by the Java programs in each folder together with <code>gephi-toolkit-0.10.1-all.jar</code>. See the project's <code>README.md</code> for details.</p>
+    <p>The mortality graphs live under <code>graphs_mortality/nacional_gephi/</code>, built by <code>build_mortality_national_gexf.py</code>
+    and <code>mortality_national_html.py</code> from Mexico's raw mortality CSVs plus <code>inegi_catalogo_municipios.csv</code> (a name
+    catalog fetched from INEGI's public geostatistics API), same Gephi Toolkit pipeline as PRTR.</p></div></details>
 </section>
 </main>
 <footer><div class="wrap">Generated on {today}. The interactive graphs load Plotly from a CDN and need an internet connection.</div></footer>

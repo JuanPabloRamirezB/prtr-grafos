@@ -1,0 +1,2777 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<gexf xmlns="http://gexf.net/1.3" version="1.3" xmlns:viz="http://gexf.net/1.3/viz" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://gexf.net/1.3 http://gexf.net/1.3/gexf.xsd">
+  <meta lastmodifieddate="2026-09-29">
+    <creator>Apache NetBeans Platform Dev (Build {0})</creator>
+    <title></title>
+    <description></description>
+  </meta>
+  <graph defaultedgetype="undirected" mode="static">
+    <attributes class="node" mode="static">
+      <attribute id="0" title="type" type="string"/>
+      <attribute id="1" title="total_kg" type="double"/>
+      <attribute id="2" title="log_total" type="double"/>
+    </attributes>
+    <nodes>
+      <node id="LOC::Zacatecas" label="Zacatecas">
+        <attvalues>
+          <attvalue for="0" value="location"/>
+          <attvalue for="1" value="811492.0"/>
+          <attvalue for="2" value="5.909284777921357"/>
+        </attvalues>
+        <viz:size value="13.191872"/>
+        <viz:position x="-75.97643" y="-47.789856"/>
+        <viz:color r="42" g="120" b="214"/>
+      </node>
+      <node id="LOC::Baja California Sur" label="Baja California Sur">
+        <attvalues>
+          <attvalue for="0" value="location"/>
+          <attvalue for="1" value="275408.0"/>
+          <attvalue for="2" value="5.439978128319132"/>
+        </attvalues>
+        <viz:size value="10.417792"/>
+        <viz:position x="-12.829811" y="53.69845"/>
+        <viz:color r="42" g="120" b="214"/>
+      </node>
+      <node id="LOC::Durango" label="Durango">
+        <attvalues>
+          <attvalue for="0" value="location"/>
+          <attvalue for="1" value="818024.0"/>
+          <attvalue for="2" value="5.912766576527237"/>
+        </attvalues>
+        <viz:size value="13.225673"/>
+        <viz:position x="-36.320377" y="59.539158"/>
+        <viz:color r="42" g="120" b="214"/>
+      </node>
+      <node id="LOC::Quintana Roo" label="Quintana Roo">
+        <attvalues>
+          <attvalue for="0" value="location"/>
+          <attvalue for="1" value="482064.0"/>
+          <attvalue for="2" value="5.68310560097345"/>
+        </attvalues>
+        <viz:size value="11.487177"/>
+        <viz:position x="35.876823" y="44.49465"/>
+        <viz:color r="42" g="120" b="214"/>
+      </node>
+      <node id="LOC::Baja California" label="Baja California">
+        <attvalues>
+          <attvalue for="0" value="location"/>
+          <attvalue for="1" value="1642040.0"/>
+          <attvalue for="2" value="6.215383996785527"/>
+        </attvalues>
+        <viz:size value="17.489716"/>
+        <viz:position x="28.230486" y="67.711975"/>
+        <viz:color r="42" g="120" b="214"/>
+      </node>
+      <node id="LOC::Colima" label="Colima">
+        <attvalues>
+          <attvalue for="0" value="location"/>
+          <attvalue for="1" value="370240.0"/>
+          <attvalue for="2" value="5.568484510278071"/>
+        </attvalues>
+        <viz:size value="10.908521"/>
+        <viz:position x="-21.939243" y="11.501098"/>
+        <viz:color r="42" g="120" b="214"/>
+      </node>
+      <node id="LOC::Yucatán" label="Yucatán">
+        <attvalues>
+          <attvalue for="0" value="location"/>
+          <attvalue for="1" value="1143824.0"/>
+          <attvalue for="2" value="6.058359584467512"/>
+        </attvalues>
+        <viz:size value="14.9115925"/>
+        <viz:position x="-20.425243" y="78.932144"/>
+        <viz:color r="42" g="120" b="214"/>
+      </node>
+      <node id="LOC::Tamaulipas" label="Tamaulipas">
+        <attvalues>
+          <attvalue for="0" value="location"/>
+          <attvalue for="1" value="1686288.0"/>
+          <attvalue for="2" value="6.22693200703218"/>
+        </attvalues>
+        <viz:size value="17.718685"/>
+        <viz:position x="18.860662" y="24.901098"/>
+        <viz:color r="42" g="120" b="214"/>
+      </node>
+      <node id="LOC::Chiapas" label="Chiapas">
+        <attvalues>
+          <attvalue for="0" value="location"/>
+          <attvalue for="1" value="2182380.0"/>
+          <attvalue for="2" value="6.338930571987072"/>
+        </attvalues>
+        <viz:size value="20.285818"/>
+        <viz:position x="-29.040113" y="34.93399"/>
+        <viz:color r="42" g="120" b="214"/>
+      </node>
+      <node id="LOC::Nuevo León" label="Nuevo León">
+        <attvalues>
+          <attvalue for="0" value="location"/>
+          <attvalue for="1" value="2433148.0"/>
+          <attvalue for="2" value="6.3861687048602995"/>
+        </attvalues>
+        <viz:size value="21.58347"/>
+        <viz:position x="27.255411" y="92.82851"/>
+        <viz:color r="42" g="120" b="214"/>
+      </node>
+      <node id="LOC::Chihuahua" label="Chihuahua">
+        <attvalues>
+          <attvalue for="0" value="location"/>
+          <attvalue for="1" value="2117612.0"/>
+          <attvalue for="2" value="6.325846594429925"/>
+        </attvalues>
+        <viz:size value="19.950663"/>
+        <viz:position x="67.856125" y="15.81863"/>
+        <viz:color r="42" g="120" b="214"/>
+      </node>
+      <node id="LOC::Nayarit" label="Nayarit">
+        <attvalues>
+          <attvalue for="0" value="location"/>
+          <attvalue for="1" value="551616.0"/>
+          <attvalue for="2" value="5.741637642007845"/>
+        </attvalues>
+        <viz:size value="11.847089"/>
+        <viz:position x="3.4487922" y="-86.35981"/>
+        <viz:color r="42" g="120" b="214"/>
+      </node>
+      <node id="LOC::Guanajuato" label="Guanajuato">
+        <attvalues>
+          <attvalue for="0" value="location"/>
+          <attvalue for="1" value="2851500.0"/>
+          <attvalue for="2" value="6.4550735282249665"/>
+        </attvalues>
+        <viz:size value="23.74832"/>
+        <viz:position x="2.0746667" y="6.5177193"/>
+        <viz:color r="42" g="120" b="214"/>
+      </node>
+      <node id="LOC::Coahuila de Zaragoza" label="Coahuila de Zaragoza">
+        <attvalues>
+          <attvalue for="0" value="location"/>
+          <attvalue for="1" value="1471436.0"/>
+          <attvalue for="2" value="6.167741672390046"/>
+        </attvalues>
+        <viz:size value="16.60689"/>
+        <viz:position x="87.46244" y="-32.95858"/>
+        <viz:color r="42" g="120" b="214"/>
+      </node>
+      <node id="LOC::Hidalgo" label="Hidalgo">
+        <attvalues>
+          <attvalue for="0" value="location"/>
+          <attvalue for="1" value="1293516.0"/>
+          <attvalue for="2" value="6.111772140789459"/>
+        </attvalues>
+        <viz:size value="15.686205"/>
+        <viz:position x="51.638348" y="-71.99931"/>
+        <viz:color r="42" g="120" b="214"/>
+      </node>
+      <node id="LOC::Michoacán de Ocampo" label="Michoacán de Ocampo">
+        <attvalues>
+          <attvalue for="0" value="location"/>
+          <attvalue for="1" value="2331668.0"/>
+          <attvalue for="2" value="6.367666898712881"/>
+        </attvalues>
+        <viz:size value="21.058338"/>
+        <viz:position x="-7.2366858" y="-35.67844"/>
+        <viz:color r="42" g="120" b="214"/>
+      </node>
+      <node id="LOC::Ciudad de México" label="Ciudad de México">
+        <attvalues>
+          <attvalue for="0" value="location"/>
+          <attvalue for="1" value="6958336.0"/>
+          <attvalue for="2" value="6.842505458285704"/>
+        </attvalues>
+        <viz:size value="45.0"/>
+        <viz:position x="96.16798" y="8.606447"/>
+        <viz:color r="42" g="120" b="214"/>
+      </node>
+      <node id="LOC::Tlaxcala" label="Tlaxcala">
+        <attvalues>
+          <attvalue for="0" value="location"/>
+          <attvalue for="1" value="564452.0"/>
+          <attvalue for="2" value="5.751627785604766"/>
+        </attvalues>
+        <viz:size value="11.913511"/>
+        <viz:position x="-48.454224" y="-76.68918"/>
+        <viz:color r="42" g="120" b="214"/>
+      </node>
+      <node id="LOC::Guerrero" label="Guerrero">
+        <attvalues>
+          <attvalue for="0" value="location"/>
+          <attvalue for="1" value="1560860.0"/>
+          <attvalue for="2" value="6.193364229378339"/>
+        </attvalues>
+        <viz:size value="17.069633"/>
+        <viz:position x="34.45088" y="-22.410776"/>
+        <viz:color r="42" g="120" b="214"/>
+      </node>
+      <node id="LOC::México" label="México">
+        <attvalues>
+          <attvalue for="0" value="location"/>
+          <attvalue for="1" value="6343468.0"/>
+          <attvalue for="2" value="6.802326821847125"/>
+        </attvalues>
+        <viz:size value="41.818237"/>
+        <viz:position x="59.953262" y="40.87083"/>
+        <viz:color r="42" g="120" b="214"/>
+      </node>
+      <node id="LOC::Morelos" label="Morelos">
+        <attvalues>
+          <attvalue for="0" value="location"/>
+          <attvalue for="1" value="1026768.0"/>
+          <attvalue for="2" value="6.0114727480670185"/>
+        </attvalues>
+        <viz:size value="14.305862"/>
+        <viz:position x="-2.6326091" y="98.74502"/>
+        <viz:color r="42" g="120" b="214"/>
+      </node>
+      <node id="LOC::Sonora" label="Sonora">
+        <attvalues>
+          <attvalue for="0" value="location"/>
+          <attvalue for="1" value="1500820.0"/>
+          <attvalue for="2" value="6.1763288978742175"/>
+        </attvalues>
+        <viz:size value="16.758944"/>
+        <viz:position x="78.00906" y="60.665253"/>
+        <viz:color r="42" g="120" b="214"/>
+      </node>
+      <node id="LOC::Aguascalientes" label="Aguascalientes">
+        <attvalues>
+          <attvalue for="0" value="location"/>
+          <attvalue for="1" value="556795.0"/>
+          <attvalue for="2" value="5.745696106659676"/>
+        </attvalues>
+        <viz:size value="11.873888"/>
+        <viz:position x="-64.32769" y="-2.817719"/>
+        <viz:color r="42" g="120" b="214"/>
+      </node>
+      <node id="LOC::Puebla" label="Puebla">
+        <attvalues>
+          <attvalue for="0" value="location"/>
+          <attvalue for="1" value="3276152.0"/>
+          <attvalue for="2" value="6.515364175598799"/>
+        </attvalues>
+        <viz:size value="25.94577"/>
+        <viz:position x="69.396194" y="-53.022278"/>
+        <viz:color r="42" g="120" b="214"/>
+      </node>
+      <node id="LOC::Sinaloa" label="Sinaloa">
+        <attvalues>
+          <attvalue for="0" value="location"/>
+          <attvalue for="1" value="1389384.0"/>
+          <attvalue for="2" value="6.142822605858047"/>
+        </attvalues>
+        <viz:size value="16.182295"/>
+        <viz:position x="-45.804905" y="16.333334"/>
+        <viz:color r="42" g="120" b="214"/>
+      </node>
+      <node id="LOC::Querétaro" label="Querétaro">
+        <attvalues>
+          <attvalue for="0" value="location"/>
+          <attvalue for="1" value="883848.0"/>
+          <attvalue for="2" value="5.946378074890583"/>
+        </attvalues>
+        <viz:size value="13.566292"/>
+        <viz:position x="42.70641" y="-46.635815"/>
+        <viz:color r="42" g="120" b="214"/>
+      </node>
+      <node id="LOC::Veracruz de Ignacio de la Llave" label="Veracruz de Ignacio de la Llave">
+        <attvalues>
+          <attvalue for="0" value="location"/>
+          <attvalue for="1" value="4483856.0"/>
+          <attvalue for="2" value="6.651651753543538"/>
+        </attvalues>
+        <viz:size value="32.195286"/>
+        <viz:position x="-31.367712" y="-30.799845"/>
+        <viz:color r="42" g="120" b="214"/>
+      </node>
+      <node id="LOC::Campeche" label="Campeche">
+        <attvalues>
+          <attvalue for="0" value="location"/>
+          <attvalue for="1" value="377396.0"/>
+          <attvalue for="2" value="5.576798443553809"/>
+        </attvalues>
+        <viz:size value="10.945551"/>
+        <viz:position x="-22.054922" y="-81.12906"/>
+        <viz:color r="42" g="120" b="214"/>
+      </node>
+      <node id="LOC::Oaxaca" label="Oaxaca">
+        <attvalues>
+          <attvalue for="0" value="location"/>
+          <attvalue for="1" value="2006412.0"/>
+          <attvalue for="2" value="6.302420333051128"/>
+        </attvalues>
+        <viz:size value="19.375233"/>
+        <viz:position x="-91.51591" y="4.2346196"/>
+        <viz:color r="42" g="120" b="214"/>
+      </node>
+      <node id="LOC::San Luis Potosí" label="San Luis Potosí">
+        <attvalues>
+          <attvalue for="0" value="location"/>
+          <attvalue for="1" value="1364156.0"/>
+          <attvalue for="2" value="6.134864355884879"/>
+        </attvalues>
+        <viz:size value="16.051746"/>
+        <viz:position x="-44.093285" y="87.27602"/>
+        <viz:color r="42" g="120" b="214"/>
+      </node>
+      <node id="LOC::Tabasco" label="Tabasco">
+        <attvalues>
+          <attvalue for="0" value="location"/>
+          <attvalue for="1" value="1142408.0"/>
+          <attvalue for="2" value="6.057821615856242"/>
+        </attvalues>
+        <viz:size value="14.904265"/>
+        <viz:position x="-83.45247" y="-21.554117"/>
+        <viz:color r="42" g="120" b="214"/>
+      </node>
+      <node id="LOC::Jalisco" label="Jalisco">
+        <attvalues>
+          <attvalue for="0" value="location"/>
+          <attvalue for="1" value="4090728.0"/>
+          <attvalue for="2" value="6.611800709588092"/>
+        </attvalues>
+        <viz:size value="30.160965"/>
+        <viz:position x="30.190466" y="-90.76925"/>
+        <viz:color r="42" g="120" b="214"/>
+      </node>
+      <node id="CAU::A" label="A">
+        <attvalues>
+          <attvalue for="0" value="causa"/>
+          <attvalue for="1" value="259225.0"/>
+          <attvalue for="2" value="5.413678558503502"/>
+        </attvalues>
+        <viz:size value="10.33405"/>
+        <viz:position x="-38.96343" y="-7.0538206"/>
+        <viz:color r="235" g="104" b="52"/>
+      </node>
+      <node id="CAU::B" label="B">
+        <attvalues>
+          <attvalue for="0" value="causa"/>
+          <attvalue for="1" value="166873.0"/>
+          <attvalue for="2" value="5.222388676187103"/>
+        </attvalues>
+        <viz:size value="9.856155"/>
+        <viz:position x="50.962864" y="-3.5347817"/>
+        <viz:color r="235" g="104" b="52"/>
+      </node>
+      <node id="CAU::C" label="C">
+        <attvalues>
+          <attvalue for="0" value="causa"/>
+          <attvalue for="1" value="1747849.0"/>
+          <attvalue for="2" value="6.242504158866157"/>
+        </attvalues>
+        <viz:size value="18.037247"/>
+        <viz:position x="-53.061176" y="40.310257"/>
+        <viz:color r="235" g="104" b="52"/>
+      </node>
+      <node id="CAU::D" label="D">
+        <attvalues>
+          <attvalue for="0" value="causa"/>
+          <attvalue for="1" value="226984.0"/>
+          <attvalue for="2" value="5.35599715837166"/>
+        </attvalues>
+        <viz:size value="10.1672125"/>
+        <viz:position x="9.820023" y="-16.948933"/>
+        <viz:color r="235" g="104" b="52"/>
+      </node>
+      <node id="CAU::E" label="E">
+        <attvalues>
+          <attvalue for="0" value="causa"/>
+          <attvalue for="1" value="2448046.0"/>
+          <attvalue for="2" value="6.38881975156368"/>
+        </attvalues>
+        <viz:size value="21.66056"/>
+        <viz:position x="17.587944" y="-40.605415"/>
+        <viz:color r="235" g="104" b="52"/>
+      </node>
+      <node id="CAU::F" label="F">
+        <attvalues>
+          <attvalue for="0" value="causa"/>
+          <attvalue for="1" value="110127.0"/>
+          <attvalue for="2" value="5.041897752209658"/>
+        </attvalues>
+        <viz:size value="9.562511"/>
+        <viz:position x="0.17086077" y="-60.18238"/>
+        <viz:color r="235" g="104" b="52"/>
+      </node>
+      <node id="CAU::G" label="G">
+        <attvalues>
+          <attvalue for="0" value="causa"/>
+          <attvalue for="1" value="249212.0"/>
+          <attvalue for="2" value="5.396570693207867"/>
+        </attvalues>
+        <viz:size value="10.282236"/>
+        <viz:position x="-14.4457" y="-11.933712"/>
+        <viz:color r="235" g="104" b="52"/>
+      </node>
+      <node id="CAU::H" label="H">
+        <attvalues>
+          <attvalue for="0" value="causa"/>
+          <attvalue for="1" value="1423.0"/>
+          <attvalue for="2" value="3.1535099893008374"/>
+        </attvalues>
+        <viz:size value="9.0"/>
+        <viz:position x="26.260685" y="1.6240742"/>
+        <viz:color r="235" g="104" b="52"/>
+      </node>
+      <node id="CAU::I" label="I">
+        <attvalues>
+          <attvalue for="0" value="causa"/>
+          <attvalue for="1" value="3667290.0"/>
+          <attvalue for="2" value="6.564345372649443"/>
+        </attvalues>
+        <viz:size value="27.969795"/>
+        <viz:position x="4.1367617" y="73.15581"/>
+        <viz:color r="235" g="104" b="52"/>
+      </node>
+      <node id="CAU::J" label="J">
+        <attvalues>
+          <attvalue for="0" value="causa"/>
+          <attvalue for="1" value="1284871.0"/>
+          <attvalue for="2" value="6.108859865050553"/>
+        </attvalues>
+        <viz:size value="15.64147"/>
+        <viz:position x="59.45648" y="-28.22189"/>
+        <viz:color r="235" g="104" b="52"/>
+      </node>
+      <node id="CAU::K" label="K">
+        <attvalues>
+          <attvalue for="0" value="causa"/>
+          <attvalue for="1" value="1367863.0"/>
+          <attvalue for="2" value="6.136042919762997"/>
+        </attvalues>
+        <viz:size value="16.07093"/>
+        <viz:position x="52.917637" y="67.965935"/>
+        <viz:color r="235" g="104" b="52"/>
+      </node>
+      <node id="CAU::L" label="L">
+        <attvalues>
+          <attvalue for="0" value="causa"/>
+          <attvalue for="1" value="51469.0"/>
+          <attvalue for="2" value="4.71155416825017"/>
+        </attvalues>
+        <viz:size value="9.258973"/>
+        <viz:position x="-5.2668715" y="29.58399"/>
+        <viz:color r="235" g="104" b="52"/>
+      </node>
+      <node id="CAU::M" label="M">
+        <attvalues>
+          <attvalue for="0" value="causa"/>
+          <attvalue for="1" value="103852.0"/>
+          <attvalue for="2" value="5.016419046510284"/>
+        </attvalues>
+        <viz:size value="9.530041"/>
+        <viz:position x="85.7639" y="34.254807"/>
+        <viz:color r="235" g="104" b="52"/>
+      </node>
+      <node id="CAU::N" label="N">
+        <attvalues>
+          <attvalue for="0" value="causa"/>
+          <attvalue for="1" value="459502.0"/>
+          <attvalue for="2" value="5.662288351150188"/>
+        </attvalues>
+        <viz:size value="11.370425"/>
+        <viz:position x="43.209934" y="20.956692"/>
+        <viz:color r="235" g="104" b="52"/>
+      </node>
+      <node id="CAU::O" label="O">
+        <attvalues>
+          <attvalue for="0" value="causa"/>
+          <attvalue for="1" value="26180.0"/>
+          <attvalue for="2" value="4.417986230686384"/>
+        </attvalues>
+        <viz:size value="9.12811"/>
+        <viz:position x="25.478737" y="-65.245415"/>
+        <viz:color r="235" g="104" b="52"/>
+      </node>
+      <node id="CAU::P" label="P">
+        <attvalues>
+          <attvalue for="0" value="causa"/>
+          <attvalue for="1" value="340335.0"/>
+          <attvalue for="2" value="5.531907890248975"/>
+        </attvalues>
+        <viz:size value="10.753771"/>
+        <viz:position x="-56.606667" y="-26.300816"/>
+        <viz:color r="235" g="104" b="52"/>
+      </node>
+      <node id="CAU::Q" label="Q">
+        <attvalues>
+          <attvalue for="0" value="causa"/>
+          <attvalue for="1" value="215694.0"/>
+          <attvalue for="2" value="5.33384007789078"/>
+        </attvalues>
+        <viz:size value="10.10879"/>
+        <viz:position x="-70.9201" y="20.860987"/>
+        <viz:color r="235" g="104" b="52"/>
+      </node>
+      <node id="CAU::R" label="R">
+        <attvalues>
+          <attvalue for="0" value="causa"/>
+          <attvalue for="1" value="241241.0"/>
+          <attvalue for="2" value="5.382452920301996"/>
+        </attvalues>
+        <viz:size value="10.240989"/>
+        <viz:position x="-24.40514" y="-54.909317"/>
+        <viz:color r="235" g="104" b="52"/>
+      </node>
+      <node id="CAU::U" label="U">
+        <attvalues>
+          <attvalue for="0" value="causa"/>
+          <attvalue for="1" value="475981.0"/>
+          <attvalue for="2" value="5.677590529509392"/>
+        </attvalues>
+        <viz:size value="11.4557"/>
+        <viz:position x="-61.500412" y="66.09722"/>
+        <viz:color r="235" g="104" b="52"/>
+      </node>
+      <node id="CAU::V" label="V">
+        <attvalues>
+          <attvalue for="0" value="causa"/>
+          <attvalue for="1" value="379945.0"/>
+          <attvalue for="2" value="5.579721876699705"/>
+        </attvalues>
+        <viz:size value="10.958741"/>
+        <viz:position x="11.548726" y="48.307"/>
+        <viz:color r="235" g="104" b="52"/>
+      </node>
+      <node id="CAU::W" label="W">
+        <attvalues>
+          <attvalue for="0" value="causa"/>
+          <attvalue for="1" value="211038.0"/>
+          <attvalue for="2" value="5.324362720319847"/>
+        </attvalues>
+        <viz:size value="10.084697"/>
+        <viz:position x="-49.535313" y="-50.778362"/>
+        <viz:color r="235" g="104" b="52"/>
+      </node>
+      <node id="CAU::X" label="X">
+        <attvalues>
+          <attvalue for="0" value="causa"/>
+          <attvalue for="1" value="787448.0"/>
+          <attvalue for="2" value="5.896222435812985"/>
+        </attvalues>
+        <viz:size value="13.067451"/>
+        <viz:position x="-81.09074" y="45.10608"/>
+        <viz:color r="235" g="104" b="52"/>
+      </node>
+      <node id="CAU::Y" label="Y">
+        <attvalues>
+          <attvalue for="0" value="causa"/>
+          <attvalue for="1" value="174927.0"/>
+          <attvalue for="2" value="5.242859330760674"/>
+        </attvalues>
+        <viz:size value="9.897833"/>
+        <viz:position x="76.91399" y="-8.571579"/>
+        <viz:color r="235" g="104" b="52"/>
+      </node>
+    </nodes>
+    <edges>
+      <edge id="0" source="LOC::Zacatecas" target="CAU::A" weight="2937.0">
+        <viz:color r="137" g="135" b="129" a="0.15686275"/>
+      </edge>
+      <edge id="1" source="LOC::Zacatecas" target="CAU::B" weight="962.0">
+        <viz:color r="137" g="135" b="129" a="0.15686275"/>
+      </edge>
+      <edge id="2" source="LOC::Zacatecas" target="CAU::C" weight="23073.0">
+        <viz:color r="137" g="135" b="129" a="0.15686275"/>
+      </edge>
+      <edge id="3" source="LOC::Zacatecas" target="CAU::D" weight="3149.0">
+        <viz:color r="137" g="135" b="129" a="0.15686275"/>
+      </edge>
+      <edge id="4" source="LOC::Zacatecas" target="CAU::E" weight="29931.0">
+        <viz:color r="137" g="135" b="129" a="0.15686275"/>
+      </edge>
+      <edge id="5" source="LOC::Zacatecas" target="CAU::F" weight="1828.0">
+        <viz:color r="137" g="135" b="129" a="0.15686275"/>
+      </edge>
+      <edge id="6" source="LOC::Zacatecas" target="CAU::G" weight="3900.0">
+        <viz:color r="137" g="135" b="129" a="0.15686275"/>
+      </edge>
+      <edge id="7" source="LOC::Zacatecas" target="CAU::H" weight="16.0">
+        <viz:color r="137" g="135" b="129" a="0.15686275"/>
+      </edge>
+      <edge id="8" source="LOC::Zacatecas" target="CAU::I" weight="48715.0">
+        <viz:color r="137" g="135" b="129" a="0.15686275"/>
+      </edge>
+      <edge id="9" source="LOC::Zacatecas" target="CAU::J" weight="20234.0">
+        <viz:color r="137" g="135" b="129" a="0.15686275"/>
+      </edge>
+      <edge id="10" source="LOC::Zacatecas" target="CAU::K" weight="15524.0">
+        <viz:color r="137" g="135" b="129" a="0.15686275"/>
+      </edge>
+      <edge id="11" source="LOC::Zacatecas" target="CAU::L" weight="774.0">
+        <viz:color r="137" g="135" b="129" a="0.15686275"/>
+      </edge>
+      <edge id="12" source="LOC::Zacatecas" target="CAU::M" weight="1934.0">
+        <viz:color r="137" g="135" b="129" a="0.15686275"/>
+      </edge>
+      <edge id="13" source="LOC::Zacatecas" target="CAU::N" weight="5252.0">
+        <viz:color r="137" g="135" b="129" a="0.15686275"/>
+      </edge>
+      <edge id="14" source="LOC::Zacatecas" target="CAU::O" weight="323.0">
+        <viz:color r="137" g="135" b="129" a="0.15686275"/>
+      </edge>
+      <edge id="15" source="LOC::Zacatecas" target="CAU::P" weight="4250.0">
+        <viz:color r="137" g="135" b="129" a="0.15686275"/>
+      </edge>
+      <edge id="16" source="LOC::Zacatecas" target="CAU::Q" weight="2116.0">
+        <viz:color r="137" g="135" b="129" a="0.15686275"/>
+      </edge>
+      <edge id="17" source="LOC::Zacatecas" target="CAU::R" weight="3621.0">
+        <viz:color r="137" g="135" b="129" a="0.15686275"/>
+      </edge>
+      <edge id="18" source="LOC::Zacatecas" target="CAU::U" weight="4964.0">
+        <viz:color r="137" g="135" b="129" a="0.15686275"/>
+      </edge>
+      <edge id="19" source="LOC::Zacatecas" target="CAU::V" weight="9315.0">
+        <viz:color r="137" g="135" b="129" a="0.15686275"/>
+      </edge>
+      <edge id="20" source="LOC::Zacatecas" target="CAU::W" weight="2780.0">
+        <viz:color r="137" g="135" b="129" a="0.15686275"/>
+      </edge>
+      <edge id="21" source="LOC::Zacatecas" target="CAU::X" weight="15665.0">
+        <viz:color r="137" g="135" b="129" a="0.15686275"/>
+      </edge>
+      <edge id="22" source="LOC::Zacatecas" target="CAU::Y" weight="1610.0">
+        <viz:color r="137" g="135" b="129" a="0.15686275"/>
+      </edge>
+      <edge id="23" source="LOC::Baja California Sur" target="CAU::A" weight="1160.0">
+        <viz:color r="137" g="135" b="129" a="0.15686275"/>
+      </edge>
+      <edge id="24" source="LOC::Baja California Sur" target="CAU::B" weight="1123.0">
+        <viz:color r="137" g="135" b="129" a="0.15686275"/>
+      </edge>
+      <edge id="25" source="LOC::Baja California Sur" target="CAU::C" weight="9814.0">
+        <viz:color r="137" g="135" b="129" a="0.15686275"/>
+      </edge>
+      <edge id="26" source="LOC::Baja California Sur" target="CAU::D" weight="979.0">
+        <viz:color r="137" g="135" b="129" a="0.15686275"/>
+      </edge>
+      <edge id="27" source="LOC::Baja California Sur" target="CAU::E" weight="8854.0">
+        <viz:color r="137" g="135" b="129" a="0.15686275"/>
+      </edge>
+      <edge id="28" source="LOC::Baja California Sur" target="CAU::F" weight="415.0">
+        <viz:color r="137" g="135" b="129" a="0.15686275"/>
+      </edge>
+      <edge id="29" source="LOC::Baja California Sur" target="CAU::G" weight="1285.0">
+        <viz:color r="137" g="135" b="129" a="0.15686275"/>
+      </edge>
+      <edge id="30" source="LOC::Baja California Sur" target="CAU::H" weight="10.0">
+        <viz:color r="137" g="135" b="129" a="0.15686275"/>
+      </edge>
+      <edge id="31" source="LOC::Baja California Sur" target="CAU::I" weight="16875.0">
+        <viz:color r="137" g="135" b="129" a="0.15686275"/>
+      </edge>
+      <edge id="32" source="LOC::Baja California Sur" target="CAU::J" weight="5194.0">
+        <viz:color r="137" g="135" b="129" a="0.15686275"/>
+      </edge>
+      <edge id="33" source="LOC::Baja California Sur" target="CAU::K" weight="4913.0">
+        <viz:color r="137" g="135" b="129" a="0.15686275"/>
+      </edge>
+      <edge id="34" source="LOC::Baja California Sur" target="CAU::L" weight="246.0">
+        <viz:color r="137" g="135" b="129" a="0.15686275"/>
+      </edge>
+      <edge id="35" source="LOC::Baja California Sur" target="CAU::M" weight="445.0">
+        <viz:color r="137" g="135" b="129" a="0.15686275"/>
+      </edge>
+      <edge id="36" source="LOC::Baja California Sur" target="CAU::N" weight="1760.0">
+        <viz:color r="137" g="135" b="129" a="0.15686275"/>
+      </edge>
+      <edge id="37" source="LOC::Baja California Sur" target="CAU::O" weight="95.0">
+        <viz:color r="137" g="135" b="129" a="0.15686275"/>
+      </edge>
+      <edge id="38" source="LOC::Baja California Sur" target="CAU::P" weight="1602.0">
+        <viz:color r="137" g="135" b="129" a="0.15686275"/>
+      </edge>
+      <edge id="39" source="LOC::Baja California Sur" target="CAU::Q" weight="890.0">
+        <viz:color r="137" g="135" b="129" a="0.15686275"/>
+      </edge>
+      <edge id="40" source="LOC::Baja California Sur" target="CAU::R" weight="535.0">
+        <viz:color r="137" g="135" b="129" a="0.15686275"/>
+      </edge>
+      <edge id="41" source="LOC::Baja California Sur" target="CAU::U" weight="3430.0">
+        <viz:color r="137" g="135" b="129" a="0.15686275"/>
+      </edge>
+      <edge id="42" source="LOC::Baja California Sur" target="CAU::V" weight="3248.0">
+        <viz:color r="137" g="135" b="129" a="0.15686275"/>
+      </edge>
+      <edge id="43" source="LOC::Baja California Sur" target="CAU::W" weight="1521.0">
+        <viz:color r="137" g="135" b="129" a="0.15686275"/>
+      </edge>
+      <edge id="44" source="LOC::Baja California Sur" target="CAU::X" weight="3926.0">
+        <viz:color r="137" g="135" b="129" a="0.15686275"/>
+      </edge>
+      <edge id="45" source="LOC::Baja California Sur" target="CAU::Y" weight="532.0">
+        <viz:color r="137" g="135" b="129" a="0.15686275"/>
+      </edge>
+      <edge id="46" source="LOC::Durango" target="CAU::A" weight="2919.0">
+        <viz:color r="137" g="135" b="129" a="0.15686275"/>
+      </edge>
+      <edge id="47" source="LOC::Durango" target="CAU::B" weight="1411.0">
+        <viz:color r="137" g="135" b="129" a="0.15686275"/>
+      </edge>
+      <edge id="48" source="LOC::Durango" target="CAU::C" weight="22848.0">
+        <viz:color r="137" g="135" b="129" a="0.15686275"/>
+      </edge>
+      <edge id="49" source="LOC::Durango" target="CAU::D" weight="2316.0">
+        <viz:color r="137" g="135" b="129" a="0.15686275"/>
+      </edge>
+      <edge id="50" source="LOC::Durango" target="CAU::E" weight="29254.0">
+        <viz:color r="137" g="135" b="129" a="0.15686275"/>
+      </edge>
+      <edge id="51" source="LOC::Durango" target="CAU::F" weight="929.0">
+        <viz:color r="137" g="135" b="129" a="0.15686275"/>
+      </edge>
+      <edge id="52" source="LOC::Durango" target="CAU::G" weight="3256.0">
+        <viz:color r="137" g="135" b="129" a="0.15686275"/>
+      </edge>
+      <edge id="53" source="LOC::Durango" target="CAU::H" weight="21.0">
+        <viz:color r="137" g="135" b="129" a="0.15686275"/>
+      </edge>
+      <edge id="54" source="LOC::Durango" target="CAU::I" weight="56771.0">
+        <viz:color r="137" g="135" b="129" a="0.15686275"/>
+      </edge>
+      <edge id="55" source="LOC::Durango" target="CAU::J" weight="17857.0">
+        <viz:color r="137" g="135" b="129" a="0.15686275"/>
+      </edge>
+      <edge id="56" source="LOC::Durango" target="CAU::K" weight="15672.0">
+        <viz:color r="137" g="135" b="129" a="0.15686275"/>
+      </edge>
+      <edge id="57" source="LOC::Durango" target="CAU::L" weight="667.0">
+        <viz:color r="137" g="135" b="129" a="0.15686275"/>
+      </edge>
+      <edge id="58" source="LOC::Durango" target="CAU::M" weight="1559.0">
+        <viz:color r="137" g="135" b="129" a="0.15686275"/>
+      </edge>
+      <edge id="59" source="LOC::Durango" target="CAU::N" weight="5269.0">
+        <viz:color r="137" g="135" b="129" a="0.15686275"/>
+      </edge>
+      <edge id="60" source="LOC::Durango" target="CAU::O" weight="395.0">
+        <viz:color r="137" g="135" b="129" a="0.15686275"/>
+      </edge>
+      <edge id="61" source="LOC::Durango" target="CAU::P" weight="4858.0">
+        <viz:color r="137" g="135" b="129" a="0.15686275"/>
+      </edge>
+      <edge id="62" source="LOC::Durango" target="CAU::Q" weight="2161.0">
+        <viz:color r="137" g="135" b="129" a="0.15686275"/>
+      </edge>
+      <edge id="63" source="LOC::Durango" target="CAU::R" weight="3830.0">
+        <viz:color r="137" g="135" b="129" a="0.15686275"/>
+      </edge>
+      <edge id="64" source="LOC::Durango" target="CAU::U" weight="5521.0">
+        <viz:color r="137" g="135" b="129" a="0.15686275"/>
+      </edge>
+      <edge id="65" source="LOC::Durango" target="CAU::V" weight="7986.0">
+        <viz:color r="137" g="135" b="129" a="0.15686275"/>
+      </edge>
+      <edge id="66" source="LOC::Durango" target="CAU::W" weight="3236.0">
+        <viz:color r="137" g="135" b="129" a="0.15686275"/>
+      </edge>
+      <edge id="67" source="LOC::Durango" target="CAU::X" weight="13284.0">
+        <viz:color r="137" g="135" b="129" a="0.15686275"/>
+      </edge>
+      <edge id="68" source="LOC::Durango" target="CAU::Y" weight="2486.0">
+        <viz:color r="137" g="135" b="129" a="0.15686275"/>
+      </edge>
+      <edge id="69" source="LOC::Quintana Roo" target="CAU::A" weight="2399.0">
+        <viz:color r="137" g="135" b="129" a="0.15686275"/>
+      </edge>
+      <edge id="70" source="LOC::Quintana Roo" target="CAU::B" weight="3450.0">
+        <viz:color r="137" g="135" b="129" a="0.15686275"/>
+      </edge>
+      <edge id="71" source="LOC::Quintana Roo" target="CAU::C" weight="11635.0">
+        <viz:color r="137" g="135" b="129" a="0.15686275"/>
+      </edge>
+      <edge id="72" source="LOC::Quintana Roo" target="CAU::D" weight="1736.0">
+        <viz:color r="137" g="135" b="129" a="0.15686275"/>
+      </edge>
+      <edge id="73" source="LOC::Quintana Roo" target="CAU::E" weight="17061.0">
+        <viz:color r="137" g="135" b="129" a="0.15686275"/>
+      </edge>
+      <edge id="74" source="LOC::Quintana Roo" target="CAU::F" weight="974.0">
+        <viz:color r="137" g="135" b="129" a="0.15686275"/>
+      </edge>
+      <edge id="75" source="LOC::Quintana Roo" target="CAU::G" weight="1863.0">
+        <viz:color r="137" g="135" b="129" a="0.15686275"/>
+      </edge>
+      <edge id="76" source="LOC::Quintana Roo" target="CAU::H" weight="13.0">
+        <viz:color r="137" g="135" b="129" a="0.15686275"/>
+      </edge>
+      <edge id="77" source="LOC::Quintana Roo" target="CAU::I" weight="22221.0">
+        <viz:color r="137" g="135" b="129" a="0.15686275"/>
+      </edge>
+      <edge id="78" source="LOC::Quintana Roo" target="CAU::J" weight="8614.0">
+        <viz:color r="137" g="135" b="129" a="0.15686275"/>
+      </edge>
+      <edge id="79" source="LOC::Quintana Roo" target="CAU::K" weight="11840.0">
+        <viz:color r="137" g="135" b="129" a="0.15686275"/>
+      </edge>
+      <edge id="80" source="LOC::Quintana Roo" target="CAU::L" weight="430.0">
+        <viz:color r="137" g="135" b="129" a="0.15686275"/>
+      </edge>
+      <edge id="81" source="LOC::Quintana Roo" target="CAU::M" weight="641.0">
+        <viz:color r="137" g="135" b="129" a="0.15686275"/>
+      </edge>
+      <edge id="82" source="LOC::Quintana Roo" target="CAU::N" weight="3482.0">
+        <viz:color r="137" g="135" b="129" a="0.15686275"/>
+      </edge>
+      <edge id="83" source="LOC::Quintana Roo" target="CAU::O" weight="287.0">
+        <viz:color r="137" g="135" b="129" a="0.15686275"/>
+      </edge>
+      <edge id="84" source="LOC::Quintana Roo" target="CAU::P" weight="3638.0">
+        <viz:color r="137" g="135" b="129" a="0.15686275"/>
+      </edge>
+      <edge id="85" source="LOC::Quintana Roo" target="CAU::Q" weight="1930.0">
+        <viz:color r="137" g="135" b="129" a="0.15686275"/>
+      </edge>
+      <edge id="86" source="LOC::Quintana Roo" target="CAU::R" weight="2278.0">
+        <viz:color r="137" g="135" b="129" a="0.15686275"/>
+      </edge>
+      <edge id="87" source="LOC::Quintana Roo" target="CAU::U" weight="5627.0">
+        <viz:color r="137" g="135" b="129" a="0.15686275"/>
+      </edge>
+      <edge id="88" source="LOC::Quintana Roo" target="CAU::V" weight="3715.0">
+        <viz:color r="137" g="135" b="129" a="0.15686275"/>
+      </edge>
+      <edge id="89" source="LOC::Quintana Roo" target="CAU::W" weight="3308.0">
+        <viz:color r="137" g="135" b="129" a="0.15686275"/>
+      </edge>
+      <edge id="90" source="LOC::Quintana Roo" target="CAU::X" weight="11224.0">
+        <viz:color r="137" g="135" b="129" a="0.15686275"/>
+      </edge>
+      <edge id="91" source="LOC::Quintana Roo" target="CAU::Y" weight="2150.0">
+        <viz:color r="137" g="135" b="129" a="0.15686275"/>
+      </edge>
+      <edge id="92" source="LOC::Baja California" target="CAU::A" weight="12027.0">
+        <viz:color r="137" g="135" b="129" a="0.15686275"/>
+      </edge>
+      <edge id="93" source="LOC::Baja California" target="CAU::B" weight="9391.0">
+        <viz:color r="137" g="135" b="129" a="0.15686275"/>
+      </edge>
+      <edge id="94" source="LOC::Baja California" target="CAU::C" weight="49542.0">
+        <viz:color r="137" g="135" b="129" a="0.15686275"/>
+      </edge>
+      <edge id="95" source="LOC::Baja California" target="CAU::D" weight="4874.0">
+        <viz:color r="137" g="135" b="129" a="0.15686275"/>
+      </edge>
+      <edge id="96" source="LOC::Baja California" target="CAU::E" weight="52079.0">
+        <viz:color r="137" g="135" b="129" a="0.15686275"/>
+      </edge>
+      <edge id="97" source="LOC::Baja California" target="CAU::F" weight="2538.0">
+        <viz:color r="137" g="135" b="129" a="0.15686275"/>
+      </edge>
+      <edge id="98" source="LOC::Baja California" target="CAU::G" weight="7221.0">
+        <viz:color r="137" g="135" b="129" a="0.15686275"/>
+      </edge>
+      <edge id="99" source="LOC::Baja California" target="CAU::H" weight="37.0">
+        <viz:color r="137" g="135" b="129" a="0.15686275"/>
+      </edge>
+      <edge id="100" source="LOC::Baja California" target="CAU::I" weight="97309.0">
+        <viz:color r="137" g="135" b="129" a="0.15686275"/>
+      </edge>
+      <edge id="101" source="LOC::Baja California" target="CAU::J" weight="33056.0">
+        <viz:color r="137" g="135" b="129" a="0.15686275"/>
+      </edge>
+      <edge id="102" source="LOC::Baja California" target="CAU::K" weight="31585.0">
+        <viz:color r="137" g="135" b="129" a="0.15686275"/>
+      </edge>
+      <edge id="103" source="LOC::Baja California" target="CAU::L" weight="1480.0">
+        <viz:color r="137" g="135" b="129" a="0.15686275"/>
+      </edge>
+      <edge id="104" source="LOC::Baja California" target="CAU::M" weight="2118.0">
+        <viz:color r="137" g="135" b="129" a="0.15686275"/>
+      </edge>
+      <edge id="105" source="LOC::Baja California" target="CAU::N" weight="11024.0">
+        <viz:color r="137" g="135" b="129" a="0.15686275"/>
+      </edge>
+      <edge id="106" source="LOC::Baja California" target="CAU::O" weight="592.0">
+        <viz:color r="137" g="135" b="129" a="0.15686275"/>
+      </edge>
+      <edge id="107" source="LOC::Baja California" target="CAU::P" weight="8472.0">
+        <viz:color r="137" g="135" b="129" a="0.15686275"/>
+      </edge>
+      <edge id="108" source="LOC::Baja California" target="CAU::Q" weight="5405.0">
+        <viz:color r="137" g="135" b="129" a="0.15686275"/>
+      </edge>
+      <edge id="109" source="LOC::Baja California" target="CAU::R" weight="3438.0">
+        <viz:color r="137" g="135" b="129" a="0.15686275"/>
+      </edge>
+      <edge id="110" source="LOC::Baja California" target="CAU::U" weight="15186.0">
+        <viz:color r="137" g="135" b="129" a="0.15686275"/>
+      </edge>
+      <edge id="111" source="LOC::Baja California" target="CAU::V" weight="6043.0">
+        <viz:color r="137" g="135" b="129" a="0.15686275"/>
+      </edge>
+      <edge id="112" source="LOC::Baja California" target="CAU::W" weight="8409.0">
+        <viz:color r="137" g="135" b="129" a="0.15686275"/>
+      </edge>
+      <edge id="113" source="LOC::Baja California" target="CAU::X" weight="44427.0">
+        <viz:color r="137" g="135" b="129" a="0.15686275"/>
+      </edge>
+      <edge id="114" source="LOC::Baja California" target="CAU::Y" weight="4257.0">
+        <viz:color r="137" g="135" b="129" a="0.15686275"/>
+      </edge>
+      <edge id="115" source="LOC::Colima" target="CAU::A" weight="1425.0">
+        <viz:color r="137" g="135" b="129" a="0.15686275"/>
+      </edge>
+      <edge id="116" source="LOC::Colima" target="CAU::B" weight="1322.0">
+        <viz:color r="137" g="135" b="129" a="0.15686275"/>
+      </edge>
+      <edge id="117" source="LOC::Colima" target="CAU::C" weight="11109.0">
+        <viz:color r="137" g="135" b="129" a="0.15686275"/>
+      </edge>
+      <edge id="118" source="LOC::Colima" target="CAU::D" weight="1364.0">
+        <viz:color r="137" g="135" b="129" a="0.15686275"/>
+      </edge>
+      <edge id="119" source="LOC::Colima" target="CAU::E" weight="14143.0">
+        <viz:color r="137" g="135" b="129" a="0.15686275"/>
+      </edge>
+      <edge id="120" source="LOC::Colima" target="CAU::F" weight="697.0">
+        <viz:color r="137" g="135" b="129" a="0.15686275"/>
+      </edge>
+      <edge id="121" source="LOC::Colima" target="CAU::G" weight="1632.0">
+        <viz:color r="137" g="135" b="129" a="0.15686275"/>
+      </edge>
+      <edge id="122" source="LOC::Colima" target="CAU::H" weight="11.0">
+        <viz:color r="137" g="135" b="129" a="0.15686275"/>
+      </edge>
+      <edge id="123" source="LOC::Colima" target="CAU::I" weight="20916.0">
+        <viz:color r="137" g="135" b="129" a="0.15686275"/>
+      </edge>
+      <edge id="124" source="LOC::Colima" target="CAU::J" weight="7531.0">
+        <viz:color r="137" g="135" b="129" a="0.15686275"/>
+      </edge>
+      <edge id="125" source="LOC::Colima" target="CAU::K" weight="8242.0">
+        <viz:color r="137" g="135" b="129" a="0.15686275"/>
+      </edge>
+      <edge id="126" source="LOC::Colima" target="CAU::L" weight="428.0">
+        <viz:color r="137" g="135" b="129" a="0.15686275"/>
+      </edge>
+      <edge id="127" source="LOC::Colima" target="CAU::M" weight="515.0">
+        <viz:color r="137" g="135" b="129" a="0.15686275"/>
+      </edge>
+      <edge id="128" source="LOC::Colima" target="CAU::N" weight="2906.0">
+        <viz:color r="137" g="135" b="129" a="0.15686275"/>
+      </edge>
+      <edge id="129" source="LOC::Colima" target="CAU::O" weight="68.0">
+        <viz:color r="137" g="135" b="129" a="0.15686275"/>
+      </edge>
+      <edge id="130" source="LOC::Colima" target="CAU::P" weight="1518.0">
+        <viz:color r="137" g="135" b="129" a="0.15686275"/>
+      </edge>
+      <edge id="131" source="LOC::Colima" target="CAU::Q" weight="842.0">
+        <viz:color r="137" g="135" b="129" a="0.15686275"/>
+      </edge>
+      <edge id="132" source="LOC::Colima" target="CAU::R" weight="1630.0">
+        <viz:color r="137" g="135" b="129" a="0.15686275"/>
+      </edge>
+      <edge id="133" source="LOC::Colima" target="CAU::U" weight="2901.0">
+        <viz:color r="137" g="135" b="129" a="0.15686275"/>
+      </edge>
+      <edge id="134" source="LOC::Colima" target="CAU::V" weight="2916.0">
+        <viz:color r="137" g="135" b="129" a="0.15686275"/>
+      </edge>
+      <edge id="135" source="LOC::Colima" target="CAU::W" weight="1267.0">
+        <viz:color r="137" g="135" b="129" a="0.15686275"/>
+      </edge>
+      <edge id="136" source="LOC::Colima" target="CAU::X" weight="8345.0">
+        <viz:color r="137" g="135" b="129" a="0.15686275"/>
+      </edge>
+      <edge id="137" source="LOC::Colima" target="CAU::Y" weight="832.0">
+        <viz:color r="137" g="135" b="129" a="0.15686275"/>
+      </edge>
+      <edge id="138" source="LOC::Yucatán" target="CAU::A" weight="6128.0">
+        <viz:color r="137" g="135" b="129" a="0.15686275"/>
+      </edge>
+      <edge id="139" source="LOC::Yucatán" target="CAU::B" weight="3817.0">
+        <viz:color r="137" g="135" b="129" a="0.15686275"/>
+      </edge>
+      <edge id="140" source="LOC::Yucatán" target="CAU::C" weight="32732.0">
+        <viz:color r="137" g="135" b="129" a="0.15686275"/>
+      </edge>
+      <edge id="141" source="LOC::Yucatán" target="CAU::D" weight="4719.0">
+        <viz:color r="137" g="135" b="129" a="0.15686275"/>
+      </edge>
+      <edge id="142" source="LOC::Yucatán" target="CAU::E" weight="35511.0">
+        <viz:color r="137" g="135" b="129" a="0.15686275"/>
+      </edge>
+      <edge id="143" source="LOC::Yucatán" target="CAU::F" weight="1798.0">
+        <viz:color r="137" g="135" b="129" a="0.15686275"/>
+      </edge>
+      <edge id="144" source="LOC::Yucatán" target="CAU::G" weight="5028.0">
+        <viz:color r="137" g="135" b="129" a="0.15686275"/>
+      </edge>
+      <edge id="145" source="LOC::Yucatán" target="CAU::H" weight="44.0">
+        <viz:color r="137" g="135" b="129" a="0.15686275"/>
+      </edge>
+      <edge id="146" source="LOC::Yucatán" target="CAU::I" weight="76406.0">
+        <viz:color r="137" g="135" b="129" a="0.15686275"/>
+      </edge>
+      <edge id="147" source="LOC::Yucatán" target="CAU::J" weight="25615.0">
+        <viz:color r="137" g="135" b="129" a="0.15686275"/>
+      </edge>
+      <edge id="148" source="LOC::Yucatán" target="CAU::K" weight="32813.0">
+        <viz:color r="137" g="135" b="129" a="0.15686275"/>
+      </edge>
+      <edge id="149" source="LOC::Yucatán" target="CAU::L" weight="1407.0">
+        <viz:color r="137" g="135" b="129" a="0.15686275"/>
+      </edge>
+      <edge id="150" source="LOC::Yucatán" target="CAU::M" weight="1804.0">
+        <viz:color r="137" g="135" b="129" a="0.15686275"/>
+      </edge>
+      <edge id="151" source="LOC::Yucatán" target="CAU::N" weight="11123.0">
+        <viz:color r="137" g="135" b="129" a="0.15686275"/>
+      </edge>
+      <edge id="152" source="LOC::Yucatán" target="CAU::O" weight="460.0">
+        <viz:color r="137" g="135" b="129" a="0.15686275"/>
+      </edge>
+      <edge id="153" source="LOC::Yucatán" target="CAU::P" weight="5467.0">
+        <viz:color r="137" g="135" b="129" a="0.15686275"/>
+      </edge>
+      <edge id="154" source="LOC::Yucatán" target="CAU::Q" weight="4194.0">
+        <viz:color r="137" g="135" b="129" a="0.15686275"/>
+      </edge>
+      <edge id="155" source="LOC::Yucatán" target="CAU::R" weight="9639.0">
+        <viz:color r="137" g="135" b="129" a="0.15686275"/>
+      </edge>
+      <edge id="156" source="LOC::Yucatán" target="CAU::U" weight="8004.0">
+        <viz:color r="137" g="135" b="129" a="0.15686275"/>
+      </edge>
+      <edge id="157" source="LOC::Yucatán" target="CAU::V" weight="6542.0">
+        <viz:color r="137" g="135" b="129" a="0.15686275"/>
+      </edge>
+      <edge id="158" source="LOC::Yucatán" target="CAU::W" weight="3193.0">
+        <viz:color r="137" g="135" b="129" a="0.15686275"/>
+      </edge>
+      <edge id="159" source="LOC::Yucatán" target="CAU::X" weight="8196.0">
+        <viz:color r="137" g="135" b="129" a="0.15686275"/>
+      </edge>
+      <edge id="160" source="LOC::Yucatán" target="CAU::Y" weight="1316.0">
+        <viz:color r="137" g="135" b="129" a="0.15686275"/>
+      </edge>
+      <edge id="161" source="LOC::Tamaulipas" target="CAU::A" weight="7123.0">
+        <viz:color r="137" g="135" b="129" a="0.15686275"/>
+      </edge>
+      <edge id="162" source="LOC::Tamaulipas" target="CAU::B" weight="5368.0">
+        <viz:color r="137" g="135" b="129" a="0.15686275"/>
+      </edge>
+      <edge id="163" source="LOC::Tamaulipas" target="CAU::C" weight="53639.0">
+        <viz:color r="137" g="135" b="129" a="0.15686275"/>
+      </edge>
+      <edge id="164" source="LOC::Tamaulipas" target="CAU::D" weight="5403.0">
+        <viz:color r="137" g="135" b="129" a="0.15686275"/>
+      </edge>
+      <edge id="165" source="LOC::Tamaulipas" target="CAU::E" weight="70531.0">
+        <viz:color r="137" g="135" b="129" a="0.15686275"/>
+      </edge>
+      <edge id="166" source="LOC::Tamaulipas" target="CAU::F" weight="1364.0">
+        <viz:color r="137" g="135" b="129" a="0.15686275"/>
+      </edge>
+      <edge id="167" source="LOC::Tamaulipas" target="CAU::G" weight="6714.0">
+        <viz:color r="137" g="135" b="129" a="0.15686275"/>
+      </edge>
+      <edge id="168" source="LOC::Tamaulipas" target="CAU::H" weight="56.0">
+        <viz:color r="137" g="135" b="129" a="0.15686275"/>
+      </edge>
+      <edge id="169" source="LOC::Tamaulipas" target="CAU::I" weight="112623.0">
+        <viz:color r="137" g="135" b="129" a="0.15686275"/>
+      </edge>
+      <edge id="170" source="LOC::Tamaulipas" target="CAU::J" weight="31849.0">
+        <viz:color r="137" g="135" b="129" a="0.15686275"/>
+      </edge>
+      <edge id="171" source="LOC::Tamaulipas" target="CAU::K" weight="31190.0">
+        <viz:color r="137" g="135" b="129" a="0.15686275"/>
+      </edge>
+      <edge id="172" source="LOC::Tamaulipas" target="CAU::L" weight="1672.0">
+        <viz:color r="137" g="135" b="129" a="0.15686275"/>
+      </edge>
+      <edge id="173" source="LOC::Tamaulipas" target="CAU::M" weight="2100.0">
+        <viz:color r="137" g="135" b="129" a="0.15686275"/>
+      </edge>
+      <edge id="174" source="LOC::Tamaulipas" target="CAU::N" weight="13076.0">
+        <viz:color r="137" g="135" b="129" a="0.15686275"/>
+      </edge>
+      <edge id="175" source="LOC::Tamaulipas" target="CAU::O" weight="661.0">
+        <viz:color r="137" g="135" b="129" a="0.15686275"/>
+      </edge>
+      <edge id="176" source="LOC::Tamaulipas" target="CAU::P" weight="10115.0">
+        <viz:color r="137" g="135" b="129" a="0.15686275"/>
+      </edge>
+      <edge id="177" source="LOC::Tamaulipas" target="CAU::Q" weight="4781.0">
+        <viz:color r="137" g="135" b="129" a="0.15686275"/>
+      </edge>
+      <edge id="178" source="LOC::Tamaulipas" target="CAU::R" weight="5764.0">
+        <viz:color r="137" g="135" b="129" a="0.15686275"/>
+      </edge>
+      <edge id="179" source="LOC::Tamaulipas" target="CAU::U" weight="11318.0">
+        <viz:color r="137" g="135" b="129" a="0.15686275"/>
+      </edge>
+      <edge id="180" source="LOC::Tamaulipas" target="CAU::V" weight="13390.0">
+        <viz:color r="137" g="135" b="129" a="0.15686275"/>
+      </edge>
+      <edge id="181" source="LOC::Tamaulipas" target="CAU::W" weight="6164.0">
+        <viz:color r="137" g="135" b="129" a="0.15686275"/>
+      </edge>
+      <edge id="182" source="LOC::Tamaulipas" target="CAU::X" weight="21143.0">
+        <viz:color r="137" g="135" b="129" a="0.15686275"/>
+      </edge>
+      <edge id="183" source="LOC::Tamaulipas" target="CAU::Y" weight="5528.0">
+        <viz:color r="137" g="135" b="129" a="0.15686275"/>
+      </edge>
+      <edge id="184" source="LOC::Chiapas" target="CAU::A" weight="21034.0">
+        <viz:color r="137" g="135" b="129" a="0.15686275"/>
+      </edge>
+      <edge id="185" source="LOC::Chiapas" target="CAU::B" weight="7061.0">
+        <viz:color r="137" g="135" b="129" a="0.15686275"/>
+      </edge>
+      <edge id="186" source="LOC::Chiapas" target="CAU::C" weight="62377.0">
+        <viz:color r="137" g="135" b="129" a="0.15686275"/>
+      </edge>
+      <edge id="187" source="LOC::Chiapas" target="CAU::D" weight="10471.0">
+        <viz:color r="137" g="135" b="129" a="0.15686275"/>
+      </edge>
+      <edge id="188" source="LOC::Chiapas" target="CAU::E" weight="80253.0">
+        <viz:color r="137" g="135" b="129" a="0.15686275"/>
+      </edge>
+      <edge id="189" source="LOC::Chiapas" target="CAU::F" weight="4730.0">
+        <viz:color r="137" g="135" b="129" a="0.15686275"/>
+      </edge>
+      <edge id="190" source="LOC::Chiapas" target="CAU::G" weight="9724.0">
+        <viz:color r="137" g="135" b="129" a="0.15686275"/>
+      </edge>
+      <edge id="191" source="LOC::Chiapas" target="CAU::H" weight="59.0">
+        <viz:color r="137" g="135" b="129" a="0.15686275"/>
+      </edge>
+      <edge id="192" source="LOC::Chiapas" target="CAU::I" weight="109667.0">
+        <viz:color r="137" g="135" b="129" a="0.15686275"/>
+      </edge>
+      <edge id="193" source="LOC::Chiapas" target="CAU::J" weight="45770.0">
+        <viz:color r="137" g="135" b="129" a="0.15686275"/>
+      </edge>
+      <edge id="194" source="LOC::Chiapas" target="CAU::K" weight="54328.0">
+        <viz:color r="137" g="135" b="129" a="0.15686275"/>
+      </edge>
+      <edge id="195" source="LOC::Chiapas" target="CAU::L" weight="867.0">
+        <viz:color r="137" g="135" b="129" a="0.15686275"/>
+      </edge>
+      <edge id="196" source="LOC::Chiapas" target="CAU::M" weight="2807.0">
+        <viz:color r="137" g="135" b="129" a="0.15686275"/>
+      </edge>
+      <edge id="197" source="LOC::Chiapas" target="CAU::N" weight="20124.0">
+        <viz:color r="137" g="135" b="129" a="0.15686275"/>
+      </edge>
+      <edge id="198" source="LOC::Chiapas" target="CAU::O" weight="1754.0">
+        <viz:color r="137" g="135" b="129" a="0.15686275"/>
+      </edge>
+      <edge id="199" source="LOC::Chiapas" target="CAU::P" weight="14654.0">
+        <viz:color r="137" g="135" b="129" a="0.15686275"/>
+      </edge>
+      <edge id="200" source="LOC::Chiapas" target="CAU::Q" weight="7992.0">
+        <viz:color r="137" g="135" b="129" a="0.15686275"/>
+      </edge>
+      <edge id="201" source="LOC::Chiapas" target="CAU::R" weight="37381.0">
+        <viz:color r="137" g="135" b="129" a="0.15686275"/>
+      </edge>
+      <edge id="202" source="LOC::Chiapas" target="CAU::U" weight="6109.0">
+        <viz:color r="137" g="135" b="129" a="0.15686275"/>
+      </edge>
+      <edge id="203" source="LOC::Chiapas" target="CAU::V" weight="9182.0">
+        <viz:color r="137" g="135" b="129" a="0.15686275"/>
+      </edge>
+      <edge id="204" source="LOC::Chiapas" target="CAU::W" weight="10217.0">
+        <viz:color r="137" g="135" b="129" a="0.15686275"/>
+      </edge>
+      <edge id="205" source="LOC::Chiapas" target="CAU::X" weight="25055.0">
+        <viz:color r="137" g="135" b="129" a="0.15686275"/>
+      </edge>
+      <edge id="206" source="LOC::Chiapas" target="CAU::Y" weight="3979.0">
+        <viz:color r="137" g="135" b="129" a="0.15686275"/>
+      </edge>
+      <edge id="207" source="LOC::Nuevo León" target="CAU::A" weight="11233.0">
+        <viz:color r="137" g="135" b="129" a="0.15686275"/>
+      </edge>
+      <edge id="208" source="LOC::Nuevo León" target="CAU::B" weight="6238.0">
+        <viz:color r="137" g="135" b="129" a="0.15686275"/>
+      </edge>
+      <edge id="209" source="LOC::Nuevo León" target="CAU::C" weight="85805.0">
+        <viz:color r="137" g="135" b="129" a="0.15686275"/>
+      </edge>
+      <edge id="210" source="LOC::Nuevo León" target="CAU::D" weight="8230.0">
+        <viz:color r="137" g="135" b="129" a="0.15686275"/>
+      </edge>
+      <edge id="211" source="LOC::Nuevo León" target="CAU::E" weight="80828.0">
+        <viz:color r="137" g="135" b="129" a="0.15686275"/>
+      </edge>
+      <edge id="212" source="LOC::Nuevo León" target="CAU::F" weight="2722.0">
+        <viz:color r="137" g="135" b="129" a="0.15686275"/>
+      </edge>
+      <edge id="213" source="LOC::Nuevo León" target="CAU::G" weight="12708.0">
+        <viz:color r="137" g="135" b="129" a="0.15686275"/>
+      </edge>
+      <edge id="214" source="LOC::Nuevo León" target="CAU::H" weight="64.0">
+        <viz:color r="137" g="135" b="129" a="0.15686275"/>
+      </edge>
+      <edge id="215" source="LOC::Nuevo León" target="CAU::I" weight="170218.0">
+        <viz:color r="137" g="135" b="129" a="0.15686275"/>
+      </edge>
+      <edge id="216" source="LOC::Nuevo León" target="CAU::J" weight="53098.0">
+        <viz:color r="137" g="135" b="129" a="0.15686275"/>
+      </edge>
+      <edge id="217" source="LOC::Nuevo León" target="CAU::K" weight="47499.0">
+        <viz:color r="137" g="135" b="129" a="0.15686275"/>
+      </edge>
+      <edge id="218" source="LOC::Nuevo León" target="CAU::L" weight="3089.0">
+        <viz:color r="137" g="135" b="129" a="0.15686275"/>
+      </edge>
+      <edge id="219" source="LOC::Nuevo León" target="CAU::M" weight="4396.0">
+        <viz:color r="137" g="135" b="129" a="0.15686275"/>
+      </edge>
+      <edge id="220" source="LOC::Nuevo León" target="CAU::N" weight="18257.0">
+        <viz:color r="137" g="135" b="129" a="0.15686275"/>
+      </edge>
+      <edge id="221" source="LOC::Nuevo León" target="CAU::O" weight="748.0">
+        <viz:color r="137" g="135" b="129" a="0.15686275"/>
+      </edge>
+      <edge id="222" source="LOC::Nuevo León" target="CAU::P" weight="11015.0">
+        <viz:color r="137" g="135" b="129" a="0.15686275"/>
+      </edge>
+      <edge id="223" source="LOC::Nuevo León" target="CAU::Q" weight="9970.0">
+        <viz:color r="137" g="135" b="129" a="0.15686275"/>
+      </edge>
+      <edge id="224" source="LOC::Nuevo León" target="CAU::R" weight="5793.0">
+        <viz:color r="137" g="135" b="129" a="0.15686275"/>
+      </edge>
+      <edge id="225" source="LOC::Nuevo León" target="CAU::U" weight="22575.0">
+        <viz:color r="137" g="135" b="129" a="0.15686275"/>
+      </edge>
+      <edge id="226" source="LOC::Nuevo León" target="CAU::V" weight="12578.0">
+        <viz:color r="137" g="135" b="129" a="0.15686275"/>
+      </edge>
+      <edge id="227" source="LOC::Nuevo León" target="CAU::W" weight="6991.0">
+        <viz:color r="137" g="135" b="129" a="0.15686275"/>
+      </edge>
+      <edge id="228" source="LOC::Nuevo León" target="CAU::X" weight="29404.0">
+        <viz:color r="137" g="135" b="129" a="0.15686275"/>
+      </edge>
+      <edge id="229" source="LOC::Nuevo León" target="CAU::Y" weight="4828.0">
+        <viz:color r="137" g="135" b="129" a="0.15686275"/>
+      </edge>
+      <edge id="230" source="LOC::Chihuahua" target="CAU::A" weight="9732.0">
+        <viz:color r="137" g="135" b="129" a="0.15686275"/>
+      </edge>
+      <edge id="231" source="LOC::Chihuahua" target="CAU::B" weight="5467.0">
+        <viz:color r="137" g="135" b="129" a="0.15686275"/>
+      </edge>
+      <edge id="232" source="LOC::Chihuahua" target="CAU::C" weight="60215.0">
+        <viz:color r="137" g="135" b="129" a="0.15686275"/>
+      </edge>
+      <edge id="233" source="LOC::Chihuahua" target="CAU::D" weight="7185.0">
+        <viz:color r="137" g="135" b="129" a="0.15686275"/>
+      </edge>
+      <edge id="234" source="LOC::Chihuahua" target="CAU::E" weight="67724.0">
+        <viz:color r="137" g="135" b="129" a="0.15686275"/>
+      </edge>
+      <edge id="235" source="LOC::Chihuahua" target="CAU::F" weight="4113.0">
+        <viz:color r="137" g="135" b="129" a="0.15686275"/>
+      </edge>
+      <edge id="236" source="LOC::Chihuahua" target="CAU::G" weight="9091.0">
+        <viz:color r="137" g="135" b="129" a="0.15686275"/>
+      </edge>
+      <edge id="237" source="LOC::Chihuahua" target="CAU::H" weight="51.0">
+        <viz:color r="137" g="135" b="129" a="0.15686275"/>
+      </edge>
+      <edge id="238" source="LOC::Chihuahua" target="CAU::I" weight="131100.0">
+        <viz:color r="137" g="135" b="129" a="0.15686275"/>
+      </edge>
+      <edge id="239" source="LOC::Chihuahua" target="CAU::J" weight="41784.0">
+        <viz:color r="137" g="135" b="129" a="0.15686275"/>
+      </edge>
+      <edge id="240" source="LOC::Chihuahua" target="CAU::K" weight="40806.0">
+        <viz:color r="137" g="135" b="129" a="0.15686275"/>
+      </edge>
+      <edge id="241" source="LOC::Chihuahua" target="CAU::L" weight="1768.0">
+        <viz:color r="137" g="135" b="129" a="0.15686275"/>
+      </edge>
+      <edge id="242" source="LOC::Chihuahua" target="CAU::M" weight="2985.0">
+        <viz:color r="137" g="135" b="129" a="0.15686275"/>
+      </edge>
+      <edge id="243" source="LOC::Chihuahua" target="CAU::N" weight="13729.0">
+        <viz:color r="137" g="135" b="129" a="0.15686275"/>
+      </edge>
+      <edge id="244" source="LOC::Chihuahua" target="CAU::O" weight="983.0">
+        <viz:color r="137" g="135" b="129" a="0.15686275"/>
+      </edge>
+      <edge id="245" source="LOC::Chihuahua" target="CAU::P" weight="12240.0">
+        <viz:color r="137" g="135" b="129" a="0.15686275"/>
+      </edge>
+      <edge id="246" source="LOC::Chihuahua" target="CAU::Q" weight="5992.0">
+        <viz:color r="137" g="135" b="129" a="0.15686275"/>
+      </edge>
+      <edge id="247" source="LOC::Chihuahua" target="CAU::R" weight="7165.0">
+        <viz:color r="137" g="135" b="129" a="0.15686275"/>
+      </edge>
+      <edge id="248" source="LOC::Chihuahua" target="CAU::U" weight="12950.0">
+        <viz:color r="137" g="135" b="129" a="0.15686275"/>
+      </edge>
+      <edge id="249" source="LOC::Chihuahua" target="CAU::V" weight="15206.0">
+        <viz:color r="137" g="135" b="129" a="0.15686275"/>
+      </edge>
+      <edge id="250" source="LOC::Chihuahua" target="CAU::W" weight="7081.0">
+        <viz:color r="137" g="135" b="129" a="0.15686275"/>
+      </edge>
+      <edge id="251" source="LOC::Chihuahua" target="CAU::X" weight="64090.0">
+        <viz:color r="137" g="135" b="129" a="0.15686275"/>
+      </edge>
+      <edge id="252" source="LOC::Chihuahua" target="CAU::Y" weight="7946.0">
+        <viz:color r="137" g="135" b="129" a="0.15686275"/>
+      </edge>
+      <edge id="253" source="LOC::Nayarit" target="CAU::A" weight="2865.0">
+        <viz:color r="137" g="135" b="129" a="0.15686275"/>
+      </edge>
+      <edge id="254" source="LOC::Nayarit" target="CAU::B" weight="1999.0">
+        <viz:color r="137" g="135" b="129" a="0.15686275"/>
+      </edge>
+      <edge id="255" source="LOC::Nayarit" target="CAU::C" weight="18272.0">
+        <viz:color r="137" g="135" b="129" a="0.15686275"/>
+      </edge>
+      <edge id="256" source="LOC::Nayarit" target="CAU::D" weight="1867.0">
+        <viz:color r="137" g="135" b="129" a="0.15686275"/>
+      </edge>
+      <edge id="257" source="LOC::Nayarit" target="CAU::E" weight="19477.0">
+        <viz:color r="137" g="135" b="129" a="0.15686275"/>
+      </edge>
+      <edge id="258" source="LOC::Nayarit" target="CAU::F" weight="781.0">
+        <viz:color r="137" g="135" b="129" a="0.15686275"/>
+      </edge>
+      <edge id="259" source="LOC::Nayarit" target="CAU::G" weight="2826.0">
+        <viz:color r="137" g="135" b="129" a="0.15686275"/>
+      </edge>
+      <edge id="260" source="LOC::Nayarit" target="CAU::H" weight="16.0">
+        <viz:color r="137" g="135" b="129" a="0.15686275"/>
+      </edge>
+      <edge id="261" source="LOC::Nayarit" target="CAU::I" weight="33432.0">
+        <viz:color r="137" g="135" b="129" a="0.15686275"/>
+      </edge>
+      <edge id="262" source="LOC::Nayarit" target="CAU::J" weight="12641.0">
+        <viz:color r="137" g="135" b="129" a="0.15686275"/>
+      </edge>
+      <edge id="263" source="LOC::Nayarit" target="CAU::K" weight="10194.0">
+        <viz:color r="137" g="135" b="129" a="0.15686275"/>
+      </edge>
+      <edge id="264" source="LOC::Nayarit" target="CAU::L" weight="432.0">
+        <viz:color r="137" g="135" b="129" a="0.15686275"/>
+      </edge>
+      <edge id="265" source="LOC::Nayarit" target="CAU::M" weight="862.0">
+        <viz:color r="137" g="135" b="129" a="0.15686275"/>
+      </edge>
+      <edge id="266" source="LOC::Nayarit" target="CAU::N" weight="3771.0">
+        <viz:color r="137" g="135" b="129" a="0.15686275"/>
+      </edge>
+      <edge id="267" source="LOC::Nayarit" target="CAU::O" weight="271.0">
+        <viz:color r="137" g="135" b="129" a="0.15686275"/>
+      </edge>
+      <edge id="268" source="LOC::Nayarit" target="CAU::P" weight="1732.0">
+        <viz:color r="137" g="135" b="129" a="0.15686275"/>
+      </edge>
+      <edge id="269" source="LOC::Nayarit" target="CAU::Q" weight="1243.0">
+        <viz:color r="137" g="135" b="129" a="0.15686275"/>
+      </edge>
+      <edge id="270" source="LOC::Nayarit" target="CAU::R" weight="2255.0">
+        <viz:color r="137" g="135" b="129" a="0.15686275"/>
+      </edge>
+      <edge id="271" source="LOC::Nayarit" target="CAU::U" weight="4005.0">
+        <viz:color r="137" g="135" b="129" a="0.15686275"/>
+      </edge>
+      <edge id="272" source="LOC::Nayarit" target="CAU::V" weight="6572.0">
+        <viz:color r="137" g="135" b="129" a="0.15686275"/>
+      </edge>
+      <edge id="273" source="LOC::Nayarit" target="CAU::W" weight="2480.0">
+        <viz:color r="137" g="135" b="129" a="0.15686275"/>
+      </edge>
+      <edge id="274" source="LOC::Nayarit" target="CAU::X" weight="8760.0">
+        <viz:color r="137" g="135" b="129" a="0.15686275"/>
+      </edge>
+      <edge id="275" source="LOC::Nayarit" target="CAU::Y" weight="1151.0">
+        <viz:color r="137" g="135" b="129" a="0.15686275"/>
+      </edge>
+      <edge id="276" source="LOC::Guanajuato" target="CAU::A" weight="8922.0">
+        <viz:color r="137" g="135" b="129" a="0.15686275"/>
+      </edge>
+      <edge id="277" source="LOC::Guanajuato" target="CAU::B" weight="4086.0">
+        <viz:color r="137" g="135" b="129" a="0.15686275"/>
+      </edge>
+      <edge id="278" source="LOC::Guanajuato" target="CAU::C" weight="72461.0">
+        <viz:color r="137" g="135" b="129" a="0.15686275"/>
+      </edge>
+      <edge id="279" source="LOC::Guanajuato" target="CAU::D" weight="9574.0">
+        <viz:color r="137" g="135" b="129" a="0.15686275"/>
+      </edge>
+      <edge id="280" source="LOC::Guanajuato" target="CAU::E" weight="131821.0">
+        <viz:color r="137" g="135" b="129" a="0.15686275"/>
+      </edge>
+      <edge id="281" source="LOC::Guanajuato" target="CAU::F" weight="5426.0">
+        <viz:color r="137" g="135" b="129" a="0.15686275"/>
+      </edge>
+      <edge id="282" source="LOC::Guanajuato" target="CAU::G" weight="11057.0">
+        <viz:color r="137" g="135" b="129" a="0.15686275"/>
+      </edge>
+      <edge id="283" source="LOC::Guanajuato" target="CAU::H" weight="64.0">
+        <viz:color r="137" g="135" b="129" a="0.15686275"/>
+      </edge>
+      <edge id="284" source="LOC::Guanajuato" target="CAU::I" weight="176988.0">
+        <viz:color r="137" g="135" b="129" a="0.15686275"/>
+      </edge>
+      <edge id="285" source="LOC::Guanajuato" target="CAU::J" weight="63263.0">
+        <viz:color r="137" g="135" b="129" a="0.15686275"/>
+      </edge>
+      <edge id="286" source="LOC::Guanajuato" target="CAU::K" weight="60786.0">
+        <viz:color r="137" g="135" b="129" a="0.15686275"/>
+      </edge>
+      <edge id="287" source="LOC::Guanajuato" target="CAU::L" weight="2320.0">
+        <viz:color r="137" g="135" b="129" a="0.15686275"/>
+      </edge>
+      <edge id="288" source="LOC::Guanajuato" target="CAU::M" weight="4722.0">
+        <viz:color r="137" g="135" b="129" a="0.15686275"/>
+      </edge>
+      <edge id="289" source="LOC::Guanajuato" target="CAU::N" weight="20084.0">
+        <viz:color r="137" g="135" b="129" a="0.15686275"/>
+      </edge>
+      <edge id="290" source="LOC::Guanajuato" target="CAU::O" weight="1054.0">
+        <viz:color r="137" g="135" b="129" a="0.15686275"/>
+      </edge>
+      <edge id="291" source="LOC::Guanajuato" target="CAU::P" weight="18355.0">
+        <viz:color r="137" g="135" b="129" a="0.15686275"/>
+      </edge>
+      <edge id="292" source="LOC::Guanajuato" target="CAU::Q" weight="11821.0">
+        <viz:color r="137" g="135" b="129" a="0.15686275"/>
+      </edge>
+      <edge id="293" source="LOC::Guanajuato" target="CAU::R" weight="7005.0">
+        <viz:color r="137" g="135" b="129" a="0.15686275"/>
+      </edge>
+      <edge id="294" source="LOC::Guanajuato" target="CAU::U" weight="19125.0">
+        <viz:color r="137" g="135" b="129" a="0.15686275"/>
+      </edge>
+      <edge id="295" source="LOC::Guanajuato" target="CAU::V" weight="23795.0">
+        <viz:color r="137" g="135" b="129" a="0.15686275"/>
+      </edge>
+      <edge id="296" source="LOC::Guanajuato" target="CAU::W" weight="9609.0">
+        <viz:color r="137" g="135" b="129" a="0.15686275"/>
+      </edge>
+      <edge id="297" source="LOC::Guanajuato" target="CAU::X" weight="45418.0">
+        <viz:color r="137" g="135" b="129" a="0.15686275"/>
+      </edge>
+      <edge id="298" source="LOC::Guanajuato" target="CAU::Y" weight="5119.0">
+        <viz:color r="137" g="135" b="129" a="0.15686275"/>
+      </edge>
+      <edge id="299" source="LOC::Coahuila de Zaragoza" target="CAU::A" weight="5984.0">
+        <viz:color r="137" g="135" b="129" a="0.15686275"/>
+      </edge>
+      <edge id="300" source="LOC::Coahuila de Zaragoza" target="CAU::B" weight="2933.0">
+        <viz:color r="137" g="135" b="129" a="0.15686275"/>
+      </edge>
+      <edge id="301" source="LOC::Coahuila de Zaragoza" target="CAU::C" weight="44669.0">
+        <viz:color r="137" g="135" b="129" a="0.15686275"/>
+      </edge>
+      <edge id="302" source="LOC::Coahuila de Zaragoza" target="CAU::D" weight="4896.0">
+        <viz:color r="137" g="135" b="129" a="0.15686275"/>
+      </edge>
+      <edge id="303" source="LOC::Coahuila de Zaragoza" target="CAU::E" weight="65761.0">
+        <viz:color r="137" g="135" b="129" a="0.15686275"/>
+      </edge>
+      <edge id="304" source="LOC::Coahuila de Zaragoza" target="CAU::F" weight="1544.0">
+        <viz:color r="137" g="135" b="129" a="0.15686275"/>
+      </edge>
+      <edge id="305" source="LOC::Coahuila de Zaragoza" target="CAU::G" weight="6365.0">
+        <viz:color r="137" g="135" b="129" a="0.15686275"/>
+      </edge>
+      <edge id="306" source="LOC::Coahuila de Zaragoza" target="CAU::H" weight="35.0">
+        <viz:color r="137" g="135" b="129" a="0.15686275"/>
+      </edge>
+      <edge id="307" source="LOC::Coahuila de Zaragoza" target="CAU::I" weight="99908.0">
+        <viz:color r="137" g="135" b="129" a="0.15686275"/>
+      </edge>
+      <edge id="308" source="LOC::Coahuila de Zaragoza" target="CAU::J" weight="26341.0">
+        <viz:color r="137" g="135" b="129" a="0.15686275"/>
+      </edge>
+      <edge id="309" source="LOC::Coahuila de Zaragoza" target="CAU::K" weight="29006.0">
+        <viz:color r="137" g="135" b="129" a="0.15686275"/>
+      </edge>
+      <edge id="310" source="LOC::Coahuila de Zaragoza" target="CAU::L" weight="1260.0">
+        <viz:color r="137" g="135" b="129" a="0.15686275"/>
+      </edge>
+      <edge id="311" source="LOC::Coahuila de Zaragoza" target="CAU::M" weight="2448.0">
+        <viz:color r="137" g="135" b="129" a="0.15686275"/>
+      </edge>
+      <edge id="312" source="LOC::Coahuila de Zaragoza" target="CAU::N" weight="10953.0">
+        <viz:color r="137" g="135" b="129" a="0.15686275"/>
+      </edge>
+      <edge id="313" source="LOC::Coahuila de Zaragoza" target="CAU::O" weight="533.0">
+        <viz:color r="137" g="135" b="129" a="0.15686275"/>
+      </edge>
+      <edge id="314" source="LOC::Coahuila de Zaragoza" target="CAU::P" weight="7806.0">
+        <viz:color r="137" g="135" b="129" a="0.15686275"/>
+      </edge>
+      <edge id="315" source="LOC::Coahuila de Zaragoza" target="CAU::Q" weight="4001.0">
+        <viz:color r="137" g="135" b="129" a="0.15686275"/>
+      </edge>
+      <edge id="316" source="LOC::Coahuila de Zaragoza" target="CAU::R" weight="8024.0">
+        <viz:color r="137" g="135" b="129" a="0.15686275"/>
+      </edge>
+      <edge id="317" source="LOC::Coahuila de Zaragoza" target="CAU::U" weight="12402.0">
+        <viz:color r="137" g="135" b="129" a="0.15686275"/>
+      </edge>
+      <edge id="318" source="LOC::Coahuila de Zaragoza" target="CAU::V" weight="8572.0">
+        <viz:color r="137" g="135" b="129" a="0.15686275"/>
+      </edge>
+      <edge id="319" source="LOC::Coahuila de Zaragoza" target="CAU::W" weight="4407.0">
+        <viz:color r="137" g="135" b="129" a="0.15686275"/>
+      </edge>
+      <edge id="320" source="LOC::Coahuila de Zaragoza" target="CAU::X" weight="17565.0">
+        <viz:color r="137" g="135" b="129" a="0.15686275"/>
+      </edge>
+      <edge id="321" source="LOC::Coahuila de Zaragoza" target="CAU::Y" weight="2446.0">
+        <viz:color r="137" g="135" b="129" a="0.15686275"/>
+      </edge>
+      <edge id="322" source="LOC::Hidalgo" target="CAU::A" weight="3901.0">
+        <viz:color r="137" g="135" b="129" a="0.15686275"/>
+      </edge>
+      <edge id="323" source="LOC::Hidalgo" target="CAU::B" weight="1917.0">
+        <viz:color r="137" g="135" b="129" a="0.15686275"/>
+      </edge>
+      <edge id="324" source="LOC::Hidalgo" target="CAU::C" weight="36102.0">
+        <viz:color r="137" g="135" b="129" a="0.15686275"/>
+      </edge>
+      <edge id="325" source="LOC::Hidalgo" target="CAU::D" weight="4817.0">
+        <viz:color r="137" g="135" b="129" a="0.15686275"/>
+      </edge>
+      <edge id="326" source="LOC::Hidalgo" target="CAU::E" weight="52461.0">
+        <viz:color r="137" g="135" b="129" a="0.15686275"/>
+      </edge>
+      <edge id="327" source="LOC::Hidalgo" target="CAU::F" weight="2467.0">
+        <viz:color r="137" g="135" b="129" a="0.15686275"/>
+      </edge>
+      <edge id="328" source="LOC::Hidalgo" target="CAU::G" weight="4764.0">
+        <viz:color r="137" g="135" b="129" a="0.15686275"/>
+      </edge>
+      <edge id="329" source="LOC::Hidalgo" target="CAU::H" weight="22.0">
+        <viz:color r="137" g="135" b="129" a="0.15686275"/>
+      </edge>
+      <edge id="330" source="LOC::Hidalgo" target="CAU::I" weight="86507.0">
+        <viz:color r="137" g="135" b="129" a="0.15686275"/>
+      </edge>
+      <edge id="331" source="LOC::Hidalgo" target="CAU::J" weight="25731.0">
+        <viz:color r="137" g="135" b="129" a="0.15686275"/>
+      </edge>
+      <edge id="332" source="LOC::Hidalgo" target="CAU::K" weight="35850.0">
+        <viz:color r="137" g="135" b="129" a="0.15686275"/>
+      </edge>
+      <edge id="333" source="LOC::Hidalgo" target="CAU::L" weight="709.0">
+        <viz:color r="137" g="135" b="129" a="0.15686275"/>
+      </edge>
+      <edge id="334" source="LOC::Hidalgo" target="CAU::M" weight="2005.0">
+        <viz:color r="137" g="135" b="129" a="0.15686275"/>
+      </edge>
+      <edge id="335" source="LOC::Hidalgo" target="CAU::N" weight="9450.0">
+        <viz:color r="137" g="135" b="129" a="0.15686275"/>
+      </edge>
+      <edge id="336" source="LOC::Hidalgo" target="CAU::O" weight="566.0">
+        <viz:color r="137" g="135" b="129" a="0.15686275"/>
+      </edge>
+      <edge id="337" source="LOC::Hidalgo" target="CAU::P" weight="7336.0">
+        <viz:color r="137" g="135" b="129" a="0.15686275"/>
+      </edge>
+      <edge id="338" source="LOC::Hidalgo" target="CAU::Q" weight="3477.0">
+        <viz:color r="137" g="135" b="129" a="0.15686275"/>
+      </edge>
+      <edge id="339" source="LOC::Hidalgo" target="CAU::R" weight="3604.0">
+        <viz:color r="137" g="135" b="129" a="0.15686275"/>
+      </edge>
+      <edge id="340" source="LOC::Hidalgo" target="CAU::U" weight="10928.0">
+        <viz:color r="137" g="135" b="129" a="0.15686275"/>
+      </edge>
+      <edge id="341" source="LOC::Hidalgo" target="CAU::V" weight="9099.0">
+        <viz:color r="137" g="135" b="129" a="0.15686275"/>
+      </edge>
+      <edge id="342" source="LOC::Hidalgo" target="CAU::W" weight="6642.0">
+        <viz:color r="137" g="135" b="129" a="0.15686275"/>
+      </edge>
+      <edge id="343" source="LOC::Hidalgo" target="CAU::X" weight="11740.0">
+        <viz:color r="137" g="135" b="129" a="0.15686275"/>
+      </edge>
+      <edge id="344" source="LOC::Hidalgo" target="CAU::Y" weight="3284.0">
+        <viz:color r="137" g="135" b="129" a="0.15686275"/>
+      </edge>
+      <edge id="345" source="LOC::Michoacán de Ocampo" target="CAU::A" weight="7858.0">
+        <viz:color r="137" g="135" b="129" a="0.15686275"/>
+      </edge>
+      <edge id="346" source="LOC::Michoacán de Ocampo" target="CAU::B" weight="3531.0">
+        <viz:color r="137" g="135" b="129" a="0.15686275"/>
+      </edge>
+      <edge id="347" source="LOC::Michoacán de Ocampo" target="CAU::C" weight="67596.0">
+        <viz:color r="137" g="135" b="129" a="0.15686275"/>
+      </edge>
+      <edge id="348" source="LOC::Michoacán de Ocampo" target="CAU::D" weight="8272.0">
+        <viz:color r="137" g="135" b="129" a="0.15686275"/>
+      </edge>
+      <edge id="349" source="LOC::Michoacán de Ocampo" target="CAU::E" weight="102357.0">
+        <viz:color r="137" g="135" b="129" a="0.15686275"/>
+      </edge>
+      <edge id="350" source="LOC::Michoacán de Ocampo" target="CAU::F" weight="5278.0">
+        <viz:color r="137" g="135" b="129" a="0.15686275"/>
+      </edge>
+      <edge id="351" source="LOC::Michoacán de Ocampo" target="CAU::G" weight="9213.0">
+        <viz:color r="137" g="135" b="129" a="0.15686275"/>
+      </edge>
+      <edge id="352" source="LOC::Michoacán de Ocampo" target="CAU::H" weight="43.0">
+        <viz:color r="137" g="135" b="129" a="0.15686275"/>
+      </edge>
+      <edge id="353" source="LOC::Michoacán de Ocampo" target="CAU::I" weight="140139.0">
+        <viz:color r="137" g="135" b="129" a="0.15686275"/>
+      </edge>
+      <edge id="354" source="LOC::Michoacán de Ocampo" target="CAU::J" weight="50729.0">
+        <viz:color r="137" g="135" b="129" a="0.15686275"/>
+      </edge>
+      <edge id="355" source="LOC::Michoacán de Ocampo" target="CAU::K" weight="48166.0">
+        <viz:color r="137" g="135" b="129" a="0.15686275"/>
+      </edge>
+      <edge id="356" source="LOC::Michoacán de Ocampo" target="CAU::L" weight="1373.0">
+        <viz:color r="137" g="135" b="129" a="0.15686275"/>
+      </edge>
+      <edge id="357" source="LOC::Michoacán de Ocampo" target="CAU::M" weight="3894.0">
+        <viz:color r="137" g="135" b="129" a="0.15686275"/>
+      </edge>
+      <edge id="358" source="LOC::Michoacán de Ocampo" target="CAU::N" weight="15646.0">
+        <viz:color r="137" g="135" b="129" a="0.15686275"/>
+      </edge>
+      <edge id="359" source="LOC::Michoacán de Ocampo" target="CAU::O" weight="976.0">
+        <viz:color r="137" g="135" b="129" a="0.15686275"/>
+      </edge>
+      <edge id="360" source="LOC::Michoacán de Ocampo" target="CAU::P" weight="10296.0">
+        <viz:color r="137" g="135" b="129" a="0.15686275"/>
+      </edge>
+      <edge id="361" source="LOC::Michoacán de Ocampo" target="CAU::Q" weight="6055.0">
+        <viz:color r="137" g="135" b="129" a="0.15686275"/>
+      </edge>
+      <edge id="362" source="LOC::Michoacán de Ocampo" target="CAU::R" weight="9849.0">
+        <viz:color r="137" g="135" b="129" a="0.15686275"/>
+      </edge>
+      <edge id="363" source="LOC::Michoacán de Ocampo" target="CAU::U" weight="14115.0">
+        <viz:color r="137" g="135" b="129" a="0.15686275"/>
+      </edge>
+      <edge id="364" source="LOC::Michoacán de Ocampo" target="CAU::V" weight="17049.0">
+        <viz:color r="137" g="135" b="129" a="0.15686275"/>
+      </edge>
+      <edge id="365" source="LOC::Michoacán de Ocampo" target="CAU::W" weight="8100.0">
+        <viz:color r="137" g="135" b="129" a="0.15686275"/>
+      </edge>
+      <edge id="366" source="LOC::Michoacán de Ocampo" target="CAU::X" weight="42591.0">
+        <viz:color r="137" g="135" b="129" a="0.15686275"/>
+      </edge>
+      <edge id="367" source="LOC::Michoacán de Ocampo" target="CAU::Y" weight="9791.0">
+        <viz:color r="137" g="135" b="129" a="0.15686275"/>
+      </edge>
+      <edge id="368" source="LOC::Ciudad de México" target="CAU::A" weight="26015.0">
+        <viz:color r="137" g="135" b="129" a="0.15686275"/>
+      </edge>
+      <edge id="369" source="LOC::Ciudad de México" target="CAU::B" weight="22171.0">
+        <viz:color r="137" g="135" b="129" a="0.15686275"/>
+      </edge>
+      <edge id="370" source="LOC::Ciudad de México" target="CAU::C" weight="239160.0">
+        <viz:color r="137" g="135" b="129" a="0.15686275"/>
+      </edge>
+      <edge id="371" source="LOC::Ciudad de México" target="CAU::D" weight="27752.0">
+        <viz:color r="137" g="135" b="129" a="0.15686275"/>
+      </edge>
+      <edge id="372" source="LOC::Ciudad de México" target="CAU::E" weight="282646.0">
+        <viz:color r="137" g="135" b="129" a="0.15686275"/>
+      </edge>
+      <edge id="373" source="LOC::Ciudad de México" target="CAU::F" weight="8254.0">
+        <viz:color r="137" g="135" b="129" a="0.15686275"/>
+      </edge>
+      <edge id="374" source="LOC::Ciudad de México" target="CAU::G" weight="26798.0">
+        <viz:color r="137" g="135" b="129" a="0.15686275"/>
+      </edge>
+      <edge id="375" source="LOC::Ciudad de México" target="CAU::H" weight="162.0">
+        <viz:color r="137" g="135" b="129" a="0.15686275"/>
+      </edge>
+      <edge id="376" source="LOC::Ciudad de México" target="CAU::I" weight="444140.0">
+        <viz:color r="137" g="135" b="129" a="0.15686275"/>
+      </edge>
+      <edge id="377" source="LOC::Ciudad de México" target="CAU::J" weight="152015.0">
+        <viz:color r="137" g="135" b="129" a="0.15686275"/>
+      </edge>
+      <edge id="378" source="LOC::Ciudad de México" target="CAU::K" weight="167935.0">
+        <viz:color r="137" g="135" b="129" a="0.15686275"/>
+      </edge>
+      <edge id="379" source="LOC::Ciudad de México" target="CAU::L" weight="9325.0">
+        <viz:color r="137" g="135" b="129" a="0.15686275"/>
+      </edge>
+      <edge id="380" source="LOC::Ciudad de México" target="CAU::M" weight="16833.0">
+        <viz:color r="137" g="135" b="129" a="0.15686275"/>
+      </edge>
+      <edge id="381" source="LOC::Ciudad de México" target="CAU::N" weight="56907.0">
+        <viz:color r="137" g="135" b="129" a="0.15686275"/>
+      </edge>
+      <edge id="382" source="LOC::Ciudad de México" target="CAU::O" weight="2737.0">
+        <viz:color r="137" g="135" b="129" a="0.15686275"/>
+      </edge>
+      <edge id="383" source="LOC::Ciudad de México" target="CAU::P" weight="34853.0">
+        <viz:color r="137" g="135" b="129" a="0.15686275"/>
+      </edge>
+      <edge id="384" source="LOC::Ciudad de México" target="CAU::Q" weight="30524.0">
+        <viz:color r="137" g="135" b="129" a="0.15686275"/>
+      </edge>
+      <edge id="385" source="LOC::Ciudad de México" target="CAU::R" weight="6390.0">
+        <viz:color r="137" g="135" b="129" a="0.15686275"/>
+      </edge>
+      <edge id="386" source="LOC::Ciudad de México" target="CAU::U" weight="85786.0">
+        <viz:color r="137" g="135" b="129" a="0.15686275"/>
+      </edge>
+      <edge id="387" source="LOC::Ciudad de México" target="CAU::V" weight="22541.0">
+        <viz:color r="137" g="135" b="129" a="0.15686275"/>
+      </edge>
+      <edge id="388" source="LOC::Ciudad de México" target="CAU::W" weight="13429.0">
+        <viz:color r="137" g="135" b="129" a="0.15686275"/>
+      </edge>
+      <edge id="389" source="LOC::Ciudad de México" target="CAU::X" weight="36953.0">
+        <viz:color r="137" g="135" b="129" a="0.15686275"/>
+      </edge>
+      <edge id="390" source="LOC::Ciudad de México" target="CAU::Y" weight="26258.0">
+        <viz:color r="137" g="135" b="129" a="0.15686275"/>
+      </edge>
+      <edge id="391" source="LOC::Tlaxcala" target="CAU::A" weight="1736.0">
+        <viz:color r="137" g="135" b="129" a="0.15686275"/>
+      </edge>
+      <edge id="392" source="LOC::Tlaxcala" target="CAU::B" weight="839.0">
+        <viz:color r="137" g="135" b="129" a="0.15686275"/>
+      </edge>
+      <edge id="393" source="LOC::Tlaxcala" target="CAU::C" weight="12937.0">
+        <viz:color r="137" g="135" b="129" a="0.15686275"/>
+      </edge>
+      <edge id="394" source="LOC::Tlaxcala" target="CAU::D" weight="1895.0">
+        <viz:color r="137" g="135" b="129" a="0.15686275"/>
+      </edge>
+      <edge id="395" source="LOC::Tlaxcala" target="CAU::E" weight="29148.0">
+        <viz:color r="137" g="135" b="129" a="0.15686275"/>
+      </edge>
+      <edge id="396" source="LOC::Tlaxcala" target="CAU::F" weight="1104.0">
+        <viz:color r="137" g="135" b="129" a="0.15686275"/>
+      </edge>
+      <edge id="397" source="LOC::Tlaxcala" target="CAU::G" weight="2206.0">
+        <viz:color r="137" g="135" b="129" a="0.15686275"/>
+      </edge>
+      <edge id="398" source="LOC::Tlaxcala" target="CAU::H" weight="9.0">
+        <viz:color r="137" g="135" b="129" a="0.15686275"/>
+      </edge>
+      <edge id="399" source="LOC::Tlaxcala" target="CAU::I" weight="30586.0">
+        <viz:color r="137" g="135" b="129" a="0.15686275"/>
+      </edge>
+      <edge id="400" source="LOC::Tlaxcala" target="CAU::J" weight="13974.0">
+        <viz:color r="137" g="135" b="129" a="0.15686275"/>
+      </edge>
+      <edge id="401" source="LOC::Tlaxcala" target="CAU::K" weight="13723.0">
+        <viz:color r="137" g="135" b="129" a="0.15686275"/>
+      </edge>
+      <edge id="402" source="LOC::Tlaxcala" target="CAU::L" weight="370.0">
+        <viz:color r="137" g="135" b="129" a="0.15686275"/>
+      </edge>
+      <edge id="403" source="LOC::Tlaxcala" target="CAU::M" weight="978.0">
+        <viz:color r="137" g="135" b="129" a="0.15686275"/>
+      </edge>
+      <edge id="404" source="LOC::Tlaxcala" target="CAU::N" weight="5210.0">
+        <viz:color r="137" g="135" b="129" a="0.15686275"/>
+      </edge>
+      <edge id="405" source="LOC::Tlaxcala" target="CAU::O" weight="256.0">
+        <viz:color r="137" g="135" b="129" a="0.15686275"/>
+      </edge>
+      <edge id="406" source="LOC::Tlaxcala" target="CAU::P" weight="4291.0">
+        <viz:color r="137" g="135" b="129" a="0.15686275"/>
+      </edge>
+      <edge id="407" source="LOC::Tlaxcala" target="CAU::Q" weight="2424.0">
+        <viz:color r="137" g="135" b="129" a="0.15686275"/>
+      </edge>
+      <edge id="408" source="LOC::Tlaxcala" target="CAU::R" weight="3325.0">
+        <viz:color r="137" g="135" b="129" a="0.15686275"/>
+      </edge>
+      <edge id="409" source="LOC::Tlaxcala" target="CAU::U" weight="3875.0">
+        <viz:color r="137" g="135" b="129" a="0.15686275"/>
+      </edge>
+      <edge id="410" source="LOC::Tlaxcala" target="CAU::V" weight="4525.0">
+        <viz:color r="137" g="135" b="129" a="0.15686275"/>
+      </edge>
+      <edge id="411" source="LOC::Tlaxcala" target="CAU::W" weight="2062.0">
+        <viz:color r="137" g="135" b="129" a="0.15686275"/>
+      </edge>
+      <edge id="412" source="LOC::Tlaxcala" target="CAU::X" weight="4509.0">
+        <viz:color r="137" g="135" b="129" a="0.15686275"/>
+      </edge>
+      <edge id="413" source="LOC::Tlaxcala" target="CAU::Y" weight="1131.0">
+        <viz:color r="137" g="135" b="129" a="0.15686275"/>
+      </edge>
+      <edge id="414" source="LOC::Guerrero" target="CAU::A" weight="7730.0">
+        <viz:color r="137" g="135" b="129" a="0.15686275"/>
+      </edge>
+      <edge id="415" source="LOC::Guerrero" target="CAU::B" weight="4903.0">
+        <viz:color r="137" g="135" b="129" a="0.15686275"/>
+      </edge>
+      <edge id="416" source="LOC::Guerrero" target="CAU::C" weight="38643.0">
+        <viz:color r="137" g="135" b="129" a="0.15686275"/>
+      </edge>
+      <edge id="417" source="LOC::Guerrero" target="CAU::D" weight="6635.0">
+        <viz:color r="137" g="135" b="129" a="0.15686275"/>
+      </edge>
+      <edge id="418" source="LOC::Guerrero" target="CAU::E" weight="65309.0">
+        <viz:color r="137" g="135" b="129" a="0.15686275"/>
+      </edge>
+      <edge id="419" source="LOC::Guerrero" target="CAU::F" weight="2926.0">
+        <viz:color r="137" g="135" b="129" a="0.15686275"/>
+      </edge>
+      <edge id="420" source="LOC::Guerrero" target="CAU::G" weight="5131.0">
+        <viz:color r="137" g="135" b="129" a="0.15686275"/>
+      </edge>
+      <edge id="421" source="LOC::Guerrero" target="CAU::H" weight="40.0">
+        <viz:color r="137" g="135" b="129" a="0.15686275"/>
+      </edge>
+      <edge id="422" source="LOC::Guerrero" target="CAU::I" weight="85888.0">
+        <viz:color r="137" g="135" b="129" a="0.15686275"/>
+      </edge>
+      <edge id="423" source="LOC::Guerrero" target="CAU::J" weight="25854.0">
+        <viz:color r="137" g="135" b="129" a="0.15686275"/>
+      </edge>
+      <edge id="424" source="LOC::Guerrero" target="CAU::K" weight="29779.0">
+        <viz:color r="137" g="135" b="129" a="0.15686275"/>
+      </edge>
+      <edge id="425" source="LOC::Guerrero" target="CAU::L" weight="677.0">
+        <viz:color r="137" g="135" b="129" a="0.15686275"/>
+      </edge>
+      <edge id="426" source="LOC::Guerrero" target="CAU::M" weight="2144.0">
+        <viz:color r="137" g="135" b="129" a="0.15686275"/>
+      </edge>
+      <edge id="427" source="LOC::Guerrero" target="CAU::N" weight="11236.0">
+        <viz:color r="137" g="135" b="129" a="0.15686275"/>
+      </edge>
+      <edge id="428" source="LOC::Guerrero" target="CAU::O" weight="1324.0">
+        <viz:color r="137" g="135" b="129" a="0.15686275"/>
+      </edge>
+      <edge id="429" source="LOC::Guerrero" target="CAU::P" weight="8357.0">
+        <viz:color r="137" g="135" b="129" a="0.15686275"/>
+      </edge>
+      <edge id="430" source="LOC::Guerrero" target="CAU::Q" weight="4147.0">
+        <viz:color r="137" g="135" b="129" a="0.15686275"/>
+      </edge>
+      <edge id="431" source="LOC::Guerrero" target="CAU::R" weight="11080.0">
+        <viz:color r="137" g="135" b="129" a="0.15686275"/>
+      </edge>
+      <edge id="432" source="LOC::Guerrero" target="CAU::U" weight="11754.0">
+        <viz:color r="137" g="135" b="129" a="0.15686275"/>
+      </edge>
+      <edge id="433" source="LOC::Guerrero" target="CAU::V" weight="9161.0">
+        <viz:color r="137" g="135" b="129" a="0.15686275"/>
+      </edge>
+      <edge id="434" source="LOC::Guerrero" target="CAU::W" weight="6449.0">
+        <viz:color r="137" g="135" b="129" a="0.15686275"/>
+      </edge>
+      <edge id="435" source="LOC::Guerrero" target="CAU::X" weight="43769.0">
+        <viz:color r="137" g="135" b="129" a="0.15686275"/>
+      </edge>
+      <edge id="436" source="LOC::Guerrero" target="CAU::Y" weight="7279.0">
+        <viz:color r="137" g="135" b="129" a="0.15686275"/>
+      </edge>
+      <edge id="437" source="LOC::México" target="CAU::A" weight="21465.0">
+        <viz:color r="137" g="135" b="129" a="0.15686275"/>
+      </edge>
+      <edge id="438" source="LOC::México" target="CAU::B" weight="11427.0">
+        <viz:color r="137" g="135" b="129" a="0.15686275"/>
+      </edge>
+      <edge id="439" source="LOC::México" target="CAU::C" weight="157236.0">
+        <viz:color r="137" g="135" b="129" a="0.15686275"/>
+      </edge>
+      <edge id="440" source="LOC::México" target="CAU::D" weight="17400.0">
+        <viz:color r="137" g="135" b="129" a="0.15686275"/>
+      </edge>
+      <edge id="441" source="LOC::México" target="CAU::E" weight="311408.0">
+        <viz:color r="137" g="135" b="129" a="0.15686275"/>
+      </edge>
+      <edge id="442" source="LOC::México" target="CAU::F" weight="10979.0">
+        <viz:color r="137" g="135" b="129" a="0.15686275"/>
+      </edge>
+      <edge id="443" source="LOC::México" target="CAU::G" weight="22220.0">
+        <viz:color r="137" g="135" b="129" a="0.15686275"/>
+      </edge>
+      <edge id="444" source="LOC::México" target="CAU::H" weight="104.0">
+        <viz:color r="137" g="135" b="129" a="0.15686275"/>
+      </edge>
+      <edge id="445" source="LOC::México" target="CAU::I" weight="356153.0">
+        <viz:color r="137" g="135" b="129" a="0.15686275"/>
+      </edge>
+      <edge id="446" source="LOC::México" target="CAU::J" weight="145864.0">
+        <viz:color r="137" g="135" b="129" a="0.15686275"/>
+      </edge>
+      <edge id="447" source="LOC::México" target="CAU::K" weight="170135.0">
+        <viz:color r="137" g="135" b="129" a="0.15686275"/>
+      </edge>
+      <edge id="448" source="LOC::México" target="CAU::L" weight="5516.0">
+        <viz:color r="137" g="135" b="129" a="0.15686275"/>
+      </edge>
+      <edge id="449" source="LOC::México" target="CAU::M" weight="11962.0">
+        <viz:color r="137" g="135" b="129" a="0.15686275"/>
+      </edge>
+      <edge id="450" source="LOC::México" target="CAU::N" weight="46500.0">
+        <viz:color r="137" g="135" b="129" a="0.15686275"/>
+      </edge>
+      <edge id="451" source="LOC::México" target="CAU::O" weight="2968.0">
+        <viz:color r="137" g="135" b="129" a="0.15686275"/>
+      </edge>
+      <edge id="452" source="LOC::México" target="CAU::P" weight="45050.0">
+        <viz:color r="137" g="135" b="129" a="0.15686275"/>
+      </edge>
+      <edge id="453" source="LOC::México" target="CAU::Q" weight="23806.0">
+        <viz:color r="137" g="135" b="129" a="0.15686275"/>
+      </edge>
+      <edge id="454" source="LOC::México" target="CAU::R" weight="5206.0">
+        <viz:color r="137" g="135" b="129" a="0.15686275"/>
+      </edge>
+      <edge id="455" source="LOC::México" target="CAU::U" weight="62382.0">
+        <viz:color r="137" g="135" b="129" a="0.15686275"/>
+      </edge>
+      <edge id="456" source="LOC::México" target="CAU::V" weight="36224.0">
+        <viz:color r="137" g="135" b="129" a="0.15686275"/>
+      </edge>
+      <edge id="457" source="LOC::México" target="CAU::W" weight="24920.0">
+        <viz:color r="137" g="135" b="129" a="0.15686275"/>
+      </edge>
+      <edge id="458" source="LOC::México" target="CAU::X" weight="71312.0">
+        <viz:color r="137" g="135" b="129" a="0.15686275"/>
+      </edge>
+      <edge id="459" source="LOC::México" target="CAU::Y" weight="25630.0">
+        <viz:color r="137" g="135" b="129" a="0.15686275"/>
+      </edge>
+      <edge id="460" source="LOC::Morelos" target="CAU::A" weight="3502.0">
+        <viz:color r="137" g="135" b="129" a="0.15686275"/>
+      </edge>
+      <edge id="461" source="LOC::Morelos" target="CAU::B" weight="2915.0">
+        <viz:color r="137" g="135" b="129" a="0.15686275"/>
+      </edge>
+      <edge id="462" source="LOC::Morelos" target="CAU::C" weight="28560.0">
+        <viz:color r="137" g="135" b="129" a="0.15686275"/>
+      </edge>
+      <edge id="463" source="LOC::Morelos" target="CAU::D" weight="4389.0">
+        <viz:color r="137" g="135" b="129" a="0.15686275"/>
+      </edge>
+      <edge id="464" source="LOC::Morelos" target="CAU::E" weight="45823.0">
+        <viz:color r="137" g="135" b="129" a="0.15686275"/>
+      </edge>
+      <edge id="465" source="LOC::Morelos" target="CAU::F" weight="1967.0">
+        <viz:color r="137" g="135" b="129" a="0.15686275"/>
+      </edge>
+      <edge id="466" source="LOC::Morelos" target="CAU::G" weight="4304.0">
+        <viz:color r="137" g="135" b="129" a="0.15686275"/>
+      </edge>
+      <edge id="467" source="LOC::Morelos" target="CAU::H" weight="22.0">
+        <viz:color r="137" g="135" b="129" a="0.15686275"/>
+      </edge>
+      <edge id="468" source="LOC::Morelos" target="CAU::I" weight="58626.0">
+        <viz:color r="137" g="135" b="129" a="0.15686275"/>
+      </edge>
+      <edge id="469" source="LOC::Morelos" target="CAU::J" weight="21087.0">
+        <viz:color r="137" g="135" b="129" a="0.15686275"/>
+      </edge>
+      <edge id="470" source="LOC::Morelos" target="CAU::K" weight="26437.0">
+        <viz:color r="137" g="135" b="129" a="0.15686275"/>
+      </edge>
+      <edge id="471" source="LOC::Morelos" target="CAU::L" weight="860.0">
+        <viz:color r="137" g="135" b="129" a="0.15686275"/>
+      </edge>
+      <edge id="472" source="LOC::Morelos" target="CAU::M" weight="1552.0">
+        <viz:color r="137" g="135" b="129" a="0.15686275"/>
+      </edge>
+      <edge id="473" source="LOC::Morelos" target="CAU::N" weight="8615.0">
+        <viz:color r="137" g="135" b="129" a="0.15686275"/>
+      </edge>
+      <edge id="474" source="LOC::Morelos" target="CAU::O" weight="336.0">
+        <viz:color r="137" g="135" b="129" a="0.15686275"/>
+      </edge>
+      <edge id="475" source="LOC::Morelos" target="CAU::P" weight="4677.0">
+        <viz:color r="137" g="135" b="129" a="0.15686275"/>
+      </edge>
+      <edge id="476" source="LOC::Morelos" target="CAU::Q" weight="2939.0">
+        <viz:color r="137" g="135" b="129" a="0.15686275"/>
+      </edge>
+      <edge id="477" source="LOC::Morelos" target="CAU::R" weight="2512.0">
+        <viz:color r="137" g="135" b="129" a="0.15686275"/>
+      </edge>
+      <edge id="478" source="LOC::Morelos" target="CAU::U" weight="9484.0">
+        <viz:color r="137" g="135" b="129" a="0.15686275"/>
+      </edge>
+      <edge id="479" source="LOC::Morelos" target="CAU::V" weight="5972.0">
+        <viz:color r="137" g="135" b="129" a="0.15686275"/>
+      </edge>
+      <edge id="480" source="LOC::Morelos" target="CAU::W" weight="2597.0">
+        <viz:color r="137" g="135" b="129" a="0.15686275"/>
+      </edge>
+      <edge id="481" source="LOC::Morelos" target="CAU::X" weight="15750.0">
+        <viz:color r="137" g="135" b="129" a="0.15686275"/>
+      </edge>
+      <edge id="482" source="LOC::Morelos" target="CAU::Y" weight="3766.0">
+        <viz:color r="137" g="135" b="129" a="0.15686275"/>
+      </edge>
+      <edge id="483" source="LOC::Sonora" target="CAU::A" weight="8983.0">
+        <viz:color r="137" g="135" b="129" a="0.15686275"/>
+      </edge>
+      <edge id="484" source="LOC::Sonora" target="CAU::B" weight="4343.0">
+        <viz:color r="137" g="135" b="129" a="0.15686275"/>
+      </edge>
+      <edge id="485" source="LOC::Sonora" target="CAU::C" weight="50248.0">
+        <viz:color r="137" g="135" b="129" a="0.15686275"/>
+      </edge>
+      <edge id="486" source="LOC::Sonora" target="CAU::D" weight="6005.0">
+        <viz:color r="137" g="135" b="129" a="0.15686275"/>
+      </edge>
+      <edge id="487" source="LOC::Sonora" target="CAU::E" weight="46854.0">
+        <viz:color r="137" g="135" b="129" a="0.15686275"/>
+      </edge>
+      <edge id="488" source="LOC::Sonora" target="CAU::F" weight="2389.0">
+        <viz:color r="137" g="135" b="129" a="0.15686275"/>
+      </edge>
+      <edge id="489" source="LOC::Sonora" target="CAU::G" weight="7448.0">
+        <viz:color r="137" g="135" b="129" a="0.15686275"/>
+      </edge>
+      <edge id="490" source="LOC::Sonora" target="CAU::H" weight="40.0">
+        <viz:color r="137" g="135" b="129" a="0.15686275"/>
+      </edge>
+      <edge id="491" source="LOC::Sonora" target="CAU::I" weight="102469.0">
+        <viz:color r="137" g="135" b="129" a="0.15686275"/>
+      </edge>
+      <edge id="492" source="LOC::Sonora" target="CAU::J" weight="33144.0">
+        <viz:color r="137" g="135" b="129" a="0.15686275"/>
+      </edge>
+      <edge id="493" source="LOC::Sonora" target="CAU::K" weight="23991.0">
+        <viz:color r="137" g="135" b="129" a="0.15686275"/>
+      </edge>
+      <edge id="494" source="LOC::Sonora" target="CAU::L" weight="1522.0">
+        <viz:color r="137" g="135" b="129" a="0.15686275"/>
+      </edge>
+      <edge id="495" source="LOC::Sonora" target="CAU::M" weight="1994.0">
+        <viz:color r="137" g="135" b="129" a="0.15686275"/>
+      </edge>
+      <edge id="496" source="LOC::Sonora" target="CAU::N" weight="10082.0">
+        <viz:color r="137" g="135" b="129" a="0.15686275"/>
+      </edge>
+      <edge id="497" source="LOC::Sonora" target="CAU::O" weight="474.0">
+        <viz:color r="137" g="135" b="129" a="0.15686275"/>
+      </edge>
+      <edge id="498" source="LOC::Sonora" target="CAU::P" weight="6925.0">
+        <viz:color r="137" g="135" b="129" a="0.15686275"/>
+      </edge>
+      <edge id="499" source="LOC::Sonora" target="CAU::Q" weight="4315.0">
+        <viz:color r="137" g="135" b="129" a="0.15686275"/>
+      </edge>
+      <edge id="500" source="LOC::Sonora" target="CAU::R" weight="4051.0">
+        <viz:color r="137" g="135" b="129" a="0.15686275"/>
+      </edge>
+      <edge id="501" source="LOC::Sonora" target="CAU::U" weight="12226.0">
+        <viz:color r="137" g="135" b="129" a="0.15686275"/>
+      </edge>
+      <edge id="502" source="LOC::Sonora" target="CAU::V" weight="13839.0">
+        <viz:color r="137" g="135" b="129" a="0.15686275"/>
+      </edge>
+      <edge id="503" source="LOC::Sonora" target="CAU::W" weight="4691.0">
+        <viz:color r="137" g="135" b="129" a="0.15686275"/>
+      </edge>
+      <edge id="504" source="LOC::Sonora" target="CAU::X" weight="26064.0">
+        <viz:color r="137" g="135" b="129" a="0.15686275"/>
+      </edge>
+      <edge id="505" source="LOC::Sonora" target="CAU::Y" weight="3108.0">
+        <viz:color r="137" g="135" b="129" a="0.15686275"/>
+      </edge>
+      <edge id="506" source="LOC::Aguascalientes" target="CAU::A" weight="2069.0">
+        <viz:color r="137" g="135" b="129" a="0.15686275"/>
+      </edge>
+      <edge id="507" source="LOC::Aguascalientes" target="CAU::B" weight="1221.0">
+        <viz:color r="137" g="135" b="129" a="0.15686275"/>
+      </edge>
+      <edge id="508" source="LOC::Aguascalientes" target="CAU::C" weight="17700.0">
+        <viz:color r="137" g="135" b="129" a="0.15686275"/>
+      </edge>
+      <edge id="509" source="LOC::Aguascalientes" target="CAU::D" weight="2263.0">
+        <viz:color r="137" g="135" b="129" a="0.15686275"/>
+      </edge>
+      <edge id="510" source="LOC::Aguascalientes" target="CAU::E" weight="21980.0">
+        <viz:color r="137" g="135" b="129" a="0.15686275"/>
+      </edge>
+      <edge id="511" source="LOC::Aguascalientes" target="CAU::F" weight="1651.0">
+        <viz:color r="137" g="135" b="129" a="0.15686275"/>
+      </edge>
+      <edge id="512" source="LOC::Aguascalientes" target="CAU::G" weight="2905.0">
+        <viz:color r="137" g="135" b="129" a="0.15686275"/>
+      </edge>
+      <edge id="513" source="LOC::Aguascalientes" target="CAU::H" weight="18.0">
+        <viz:color r="137" g="135" b="129" a="0.15686275"/>
+      </edge>
+      <edge id="514" source="LOC::Aguascalientes" target="CAU::I" weight="29746.0">
+        <viz:color r="137" g="135" b="129" a="0.15686275"/>
+      </edge>
+      <edge id="515" source="LOC::Aguascalientes" target="CAU::J" weight="14831.0">
+        <viz:color r="137" g="135" b="129" a="0.15686275"/>
+      </edge>
+      <edge id="516" source="LOC::Aguascalientes" target="CAU::K" weight="12599.0">
+        <viz:color r="137" g="135" b="129" a="0.15686275"/>
+      </edge>
+      <edge id="517" source="LOC::Aguascalientes" target="CAU::L" weight="508.0">
+        <viz:color r="137" g="135" b="129" a="0.15686275"/>
+      </edge>
+      <edge id="518" source="LOC::Aguascalientes" target="CAU::M" weight="1134.0">
+        <viz:color r="137" g="135" b="129" a="0.15686275"/>
+      </edge>
+      <edge id="519" source="LOC::Aguascalientes" target="CAU::N" weight="4442.0">
+        <viz:color r="137" g="135" b="129" a="0.15686275"/>
+      </edge>
+      <edge id="520" source="LOC::Aguascalientes" target="CAU::O" weight="252.0">
+        <viz:color r="137" g="135" b="129" a="0.15686275"/>
+      </edge>
+      <edge id="521" source="LOC::Aguascalientes" target="CAU::P" weight="3759.0">
+        <viz:color r="137" g="135" b="129" a="0.15686275"/>
+      </edge>
+      <edge id="522" source="LOC::Aguascalientes" target="CAU::Q" weight="2473.0">
+        <viz:color r="137" g="135" b="129" a="0.15686275"/>
+      </edge>
+      <edge id="523" source="LOC::Aguascalientes" target="CAU::R" weight="1081.0">
+        <viz:color r="137" g="135" b="129" a="0.15686275"/>
+      </edge>
+      <edge id="524" source="LOC::Aguascalientes" target="CAU::U" weight="5379.0">
+        <viz:color r="137" g="135" b="129" a="0.15686275"/>
+      </edge>
+      <edge id="525" source="LOC::Aguascalientes" target="CAU::V" weight="5112.0">
+        <viz:color r="137" g="135" b="129" a="0.15686275"/>
+      </edge>
+      <edge id="526" source="LOC::Aguascalientes" target="CAU::W" weight="2208.0">
+        <viz:color r="137" g="135" b="129" a="0.15686275"/>
+      </edge>
+      <edge id="527" source="LOC::Aguascalientes" target="CAU::X" weight="5400.0">
+        <viz:color r="137" g="135" b="129" a="0.15686275"/>
+      </edge>
+      <edge id="528" source="LOC::Aguascalientes" target="CAU::Y" weight="819.0">
+        <viz:color r="137" g="135" b="129" a="0.15686275"/>
+      </edge>
+      <edge id="529" source="LOC::Puebla" target="CAU::A" weight="11978.0">
+        <viz:color r="137" g="135" b="129" a="0.15686275"/>
+      </edge>
+      <edge id="530" source="LOC::Puebla" target="CAU::B" weight="7360.0">
+        <viz:color r="137" g="135" b="129" a="0.15686275"/>
+      </edge>
+      <edge id="531" source="LOC::Puebla" target="CAU::C" weight="79114.0">
+        <viz:color r="137" g="135" b="129" a="0.15686275"/>
+      </edge>
+      <edge id="532" source="LOC::Puebla" target="CAU::D" weight="13775.0">
+        <viz:color r="137" g="135" b="129" a="0.15686275"/>
+      </edge>
+      <edge id="533" source="LOC::Puebla" target="CAU::E" weight="152224.0">
+        <viz:color r="137" g="135" b="129" a="0.15686275"/>
+      </edge>
+      <edge id="534" source="LOC::Puebla" target="CAU::F" weight="8236.0">
+        <viz:color r="137" g="135" b="129" a="0.15686275"/>
+      </edge>
+      <edge id="535" source="LOC::Puebla" target="CAU::G" weight="12624.0">
+        <viz:color r="137" g="135" b="129" a="0.15686275"/>
+      </edge>
+      <edge id="536" source="LOC::Puebla" target="CAU::H" weight="47.0">
+        <viz:color r="137" g="135" b="129" a="0.15686275"/>
+      </edge>
+      <edge id="537" source="LOC::Puebla" target="CAU::I" weight="188422.0">
+        <viz:color r="137" g="135" b="129" a="0.15686275"/>
+      </edge>
+      <edge id="538" source="LOC::Puebla" target="CAU::J" weight="68423.0">
+        <viz:color r="137" g="135" b="129" a="0.15686275"/>
+      </edge>
+      <edge id="539" source="LOC::Puebla" target="CAU::K" weight="92273.0">
+        <viz:color r="137" g="135" b="129" a="0.15686275"/>
+      </edge>
+      <edge id="540" source="LOC::Puebla" target="CAU::L" weight="1715.0">
+        <viz:color r="137" g="135" b="129" a="0.15686275"/>
+      </edge>
+      <edge id="541" source="LOC::Puebla" target="CAU::M" weight="5718.0">
+        <viz:color r="137" g="135" b="129" a="0.15686275"/>
+      </edge>
+      <edge id="542" source="LOC::Puebla" target="CAU::N" weight="27395.0">
+        <viz:color r="137" g="135" b="129" a="0.15686275"/>
+      </edge>
+      <edge id="543" source="LOC::Puebla" target="CAU::O" weight="1532.0">
+        <viz:color r="137" g="135" b="129" a="0.15686275"/>
+      </edge>
+      <edge id="544" source="LOC::Puebla" target="CAU::P" weight="26458.0">
+        <viz:color r="137" g="135" b="129" a="0.15686275"/>
+      </edge>
+      <edge id="545" source="LOC::Puebla" target="CAU::Q" weight="15633.0">
+        <viz:color r="137" g="135" b="129" a="0.15686275"/>
+      </edge>
+      <edge id="546" source="LOC::Puebla" target="CAU::R" weight="19244.0">
+        <viz:color r="137" g="135" b="129" a="0.15686275"/>
+      </edge>
+      <edge id="547" source="LOC::Puebla" target="CAU::U" weight="22654.0">
+        <viz:color r="137" g="135" b="129" a="0.15686275"/>
+      </edge>
+      <edge id="548" source="LOC::Puebla" target="CAU::V" weight="18911.0">
+        <viz:color r="137" g="135" b="129" a="0.15686275"/>
+      </edge>
+      <edge id="549" source="LOC::Puebla" target="CAU::W" weight="10688.0">
+        <viz:color r="137" g="135" b="129" a="0.15686275"/>
+      </edge>
+      <edge id="550" source="LOC::Puebla" target="CAU::X" weight="28293.0">
+        <viz:color r="137" g="135" b="129" a="0.15686275"/>
+      </edge>
+      <edge id="551" source="LOC::Puebla" target="CAU::Y" weight="6321.0">
+        <viz:color r="137" g="135" b="129" a="0.15686275"/>
+      </edge>
+      <edge id="552" source="LOC::Sinaloa" target="CAU::A" weight="6405.0">
+        <viz:color r="137" g="135" b="129" a="0.15686275"/>
+      </edge>
+      <edge id="553" source="LOC::Sinaloa" target="CAU::B" weight="3495.0">
+        <viz:color r="137" g="135" b="129" a="0.15686275"/>
+      </edge>
+      <edge id="554" source="LOC::Sinaloa" target="CAU::C" weight="47798.0">
+        <viz:color r="137" g="135" b="129" a="0.15686275"/>
+      </edge>
+      <edge id="555" source="LOC::Sinaloa" target="CAU::D" weight="5317.0">
+        <viz:color r="137" g="135" b="129" a="0.15686275"/>
+      </edge>
+      <edge id="556" source="LOC::Sinaloa" target="CAU::E" weight="44005.0">
+        <viz:color r="137" g="135" b="129" a="0.15686275"/>
+      </edge>
+      <edge id="557" source="LOC::Sinaloa" target="CAU::F" weight="1680.0">
+        <viz:color r="137" g="135" b="129" a="0.15686275"/>
+      </edge>
+      <edge id="558" source="LOC::Sinaloa" target="CAU::G" weight="6558.0">
+        <viz:color r="137" g="135" b="129" a="0.15686275"/>
+      </edge>
+      <edge id="559" source="LOC::Sinaloa" target="CAU::H" weight="45.0">
+        <viz:color r="137" g="135" b="129" a="0.15686275"/>
+      </edge>
+      <edge id="560" source="LOC::Sinaloa" target="CAU::I" weight="91845.0">
+        <viz:color r="137" g="135" b="129" a="0.15686275"/>
+      </edge>
+      <edge id="561" source="LOC::Sinaloa" target="CAU::J" weight="29238.0">
+        <viz:color r="137" g="135" b="129" a="0.15686275"/>
+      </edge>
+      <edge id="562" source="LOC::Sinaloa" target="CAU::K" weight="18640.0">
+        <viz:color r="137" g="135" b="129" a="0.15686275"/>
+      </edge>
+      <edge id="563" source="LOC::Sinaloa" target="CAU::L" weight="1035.0">
+        <viz:color r="137" g="135" b="129" a="0.15686275"/>
+      </edge>
+      <edge id="564" source="LOC::Sinaloa" target="CAU::M" weight="1979.0">
+        <viz:color r="137" g="135" b="129" a="0.15686275"/>
+      </edge>
+      <edge id="565" source="LOC::Sinaloa" target="CAU::N" weight="8545.0">
+        <viz:color r="137" g="135" b="129" a="0.15686275"/>
+      </edge>
+      <edge id="566" source="LOC::Sinaloa" target="CAU::O" weight="479.0">
+        <viz:color r="137" g="135" b="129" a="0.15686275"/>
+      </edge>
+      <edge id="567" source="LOC::Sinaloa" target="CAU::P" weight="5221.0">
+        <viz:color r="137" g="135" b="129" a="0.15686275"/>
+      </edge>
+      <edge id="568" source="LOC::Sinaloa" target="CAU::Q" weight="3220.0">
+        <viz:color r="137" g="135" b="129" a="0.15686275"/>
+      </edge>
+      <edge id="569" source="LOC::Sinaloa" target="CAU::R" weight="5141.0">
+        <viz:color r="137" g="135" b="129" a="0.15686275"/>
+      </edge>
+      <edge id="570" source="LOC::Sinaloa" target="CAU::U" weight="11930.0">
+        <viz:color r="137" g="135" b="129" a="0.15686275"/>
+      </edge>
+      <edge id="571" source="LOC::Sinaloa" target="CAU::V" weight="14422.0">
+        <viz:color r="137" g="135" b="129" a="0.15686275"/>
+      </edge>
+      <edge id="572" source="LOC::Sinaloa" target="CAU::W" weight="6346.0">
+        <viz:color r="137" g="135" b="129" a="0.15686275"/>
+      </edge>
+      <edge id="573" source="LOC::Sinaloa" target="CAU::X" weight="30760.0">
+        <viz:color r="137" g="135" b="129" a="0.15686275"/>
+      </edge>
+      <edge id="574" source="LOC::Sinaloa" target="CAU::Y" weight="3242.0">
+        <viz:color r="137" g="135" b="129" a="0.15686275"/>
+      </edge>
+      <edge id="575" source="LOC::Querétaro" target="CAU::A" weight="3783.0">
+        <viz:color r="137" g="135" b="129" a="0.15686275"/>
+      </edge>
+      <edge id="576" source="LOC::Querétaro" target="CAU::B" weight="1907.0">
+        <viz:color r="137" g="135" b="129" a="0.15686275"/>
+      </edge>
+      <edge id="577" source="LOC::Querétaro" target="CAU::C" weight="25006.0">
+        <viz:color r="137" g="135" b="129" a="0.15686275"/>
+      </edge>
+      <edge id="578" source="LOC::Querétaro" target="CAU::D" weight="2860.0">
+        <viz:color r="137" g="135" b="129" a="0.15686275"/>
+      </edge>
+      <edge id="579" source="LOC::Querétaro" target="CAU::E" weight="32735.0">
+        <viz:color r="137" g="135" b="129" a="0.15686275"/>
+      </edge>
+      <edge id="580" source="LOC::Querétaro" target="CAU::F" weight="2227.0">
+        <viz:color r="137" g="135" b="129" a="0.15686275"/>
+      </edge>
+      <edge id="581" source="LOC::Querétaro" target="CAU::G" weight="3859.0">
+        <viz:color r="137" g="135" b="129" a="0.15686275"/>
+      </edge>
+      <edge id="582" source="LOC::Querétaro" target="CAU::H" weight="23.0">
+        <viz:color r="137" g="135" b="129" a="0.15686275"/>
+      </edge>
+      <edge id="583" source="LOC::Querétaro" target="CAU::I" weight="50481.0">
+        <viz:color r="137" g="135" b="129" a="0.15686275"/>
+      </edge>
+      <edge id="584" source="LOC::Querétaro" target="CAU::J" weight="18147.0">
+        <viz:color r="137" g="135" b="129" a="0.15686275"/>
+      </edge>
+      <edge id="585" source="LOC::Querétaro" target="CAU::K" weight="26283.0">
+        <viz:color r="137" g="135" b="129" a="0.15686275"/>
+      </edge>
+      <edge id="586" source="LOC::Querétaro" target="CAU::L" weight="1046.0">
+        <viz:color r="137" g="135" b="129" a="0.15686275"/>
+      </edge>
+      <edge id="587" source="LOC::Querétaro" target="CAU::M" weight="1702.0">
+        <viz:color r="137" g="135" b="129" a="0.15686275"/>
+      </edge>
+      <edge id="588" source="LOC::Querétaro" target="CAU::N" weight="7195.0">
+        <viz:color r="137" g="135" b="129" a="0.15686275"/>
+      </edge>
+      <edge id="589" source="LOC::Querétaro" target="CAU::O" weight="399.0">
+        <viz:color r="137" g="135" b="129" a="0.15686275"/>
+      </edge>
+      <edge id="590" source="LOC::Querétaro" target="CAU::P" weight="6051.0">
+        <viz:color r="137" g="135" b="129" a="0.15686275"/>
+      </edge>
+      <edge id="591" source="LOC::Querétaro" target="CAU::Q" weight="3999.0">
+        <viz:color r="137" g="135" b="129" a="0.15686275"/>
+      </edge>
+      <edge id="592" source="LOC::Querétaro" target="CAU::R" weight="2962.0">
+        <viz:color r="137" g="135" b="129" a="0.15686275"/>
+      </edge>
+      <edge id="593" source="LOC::Querétaro" target="CAU::U" weight="8650.0">
+        <viz:color r="137" g="135" b="129" a="0.15686275"/>
+      </edge>
+      <edge id="594" source="LOC::Querétaro" target="CAU::V" weight="8754.0">
+        <viz:color r="137" g="135" b="129" a="0.15686275"/>
+      </edge>
+      <edge id="595" source="LOC::Querétaro" target="CAU::W" weight="4471.0">
+        <viz:color r="137" g="135" b="129" a="0.15686275"/>
+      </edge>
+      <edge id="596" source="LOC::Querétaro" target="CAU::X" weight="6971.0">
+        <viz:color r="137" g="135" b="129" a="0.15686275"/>
+      </edge>
+      <edge id="597" source="LOC::Querétaro" target="CAU::Y" weight="1451.0">
+        <viz:color r="137" g="135" b="129" a="0.15686275"/>
+      </edge>
+      <edge id="598" source="LOC::Veracruz de Ignacio de la Llave" target="CAU::A" weight="18195.0">
+        <viz:color r="137" g="135" b="129" a="0.15686275"/>
+      </edge>
+      <edge id="599" source="LOC::Veracruz de Ignacio de la Llave" target="CAU::B" weight="19186.0">
+        <viz:color r="137" g="135" b="129" a="0.15686275"/>
+      </edge>
+      <edge id="600" source="LOC::Veracruz de Ignacio de la Llave" target="CAU::C" weight="129227.0">
+        <viz:color r="137" g="135" b="129" a="0.15686275"/>
+      </edge>
+      <edge id="601" source="LOC::Veracruz de Ignacio de la Llave" target="CAU::D" weight="19894.0">
+        <viz:color r="137" g="135" b="129" a="0.15686275"/>
+      </edge>
+      <edge id="602" source="LOC::Veracruz de Ignacio de la Llave" target="CAU::E" weight="201562.0">
+        <viz:color r="137" g="135" b="129" a="0.15686275"/>
+      </edge>
+      <edge id="603" source="LOC::Veracruz de Ignacio de la Llave" target="CAU::F" weight="10398.0">
+        <viz:color r="137" g="135" b="129" a="0.15686275"/>
+      </edge>
+      <edge id="604" source="LOC::Veracruz de Ignacio de la Llave" target="CAU::G" weight="18173.0">
+        <viz:color r="137" g="135" b="129" a="0.15686275"/>
+      </edge>
+      <edge id="605" source="LOC::Veracruz de Ignacio de la Llave" target="CAU::H" weight="112.0">
+        <viz:color r="137" g="135" b="129" a="0.15686275"/>
+      </edge>
+      <edge id="606" source="LOC::Veracruz de Ignacio de la Llave" target="CAU::I" weight="289954.0">
+        <viz:color r="137" g="135" b="129" a="0.15686275"/>
+      </edge>
+      <edge id="607" source="LOC::Veracruz de Ignacio de la Llave" target="CAU::J" weight="86132.0">
+        <viz:color r="137" g="135" b="129" a="0.15686275"/>
+      </edge>
+      <edge id="608" source="LOC::Veracruz de Ignacio de la Llave" target="CAU::K" weight="113483.0">
+        <viz:color r="137" g="135" b="129" a="0.15686275"/>
+      </edge>
+      <edge id="609" source="LOC::Veracruz de Ignacio de la Llave" target="CAU::L" weight="2674.0">
+        <viz:color r="137" g="135" b="129" a="0.15686275"/>
+      </edge>
+      <edge id="610" source="LOC::Veracruz de Ignacio de la Llave" target="CAU::M" weight="6393.0">
+        <viz:color r="137" g="135" b="129" a="0.15686275"/>
+      </edge>
+      <edge id="611" source="LOC::Veracruz de Ignacio de la Llave" target="CAU::N" weight="35719.0">
+        <viz:color r="137" g="135" b="129" a="0.15686275"/>
+      </edge>
+      <edge id="612" source="LOC::Veracruz de Ignacio de la Llave" target="CAU::O" weight="1724.0">
+        <viz:color r="137" g="135" b="129" a="0.15686275"/>
+      </edge>
+      <edge id="613" source="LOC::Veracruz de Ignacio de la Llave" target="CAU::P" weight="22562.0">
+        <viz:color r="137" g="135" b="129" a="0.15686275"/>
+      </edge>
+      <edge id="614" source="LOC::Veracruz de Ignacio de la Llave" target="CAU::Q" weight="14494.0">
+        <viz:color r="137" g="135" b="129" a="0.15686275"/>
+      </edge>
+      <edge id="615" source="LOC::Veracruz de Ignacio de la Llave" target="CAU::R" weight="21698.0">
+        <viz:color r="137" g="135" b="129" a="0.15686275"/>
+      </edge>
+      <edge id="616" source="LOC::Veracruz de Ignacio de la Llave" target="CAU::U" weight="22777.0">
+        <viz:color r="137" g="135" b="129" a="0.15686275"/>
+      </edge>
+      <edge id="617" source="LOC::Veracruz de Ignacio de la Llave" target="CAU::V" weight="14851.0">
+        <viz:color r="137" g="135" b="129" a="0.15686275"/>
+      </edge>
+      <edge id="618" source="LOC::Veracruz de Ignacio de la Llave" target="CAU::W" weight="14140.0">
+        <viz:color r="137" g="135" b="129" a="0.15686275"/>
+      </edge>
+      <edge id="619" source="LOC::Veracruz de Ignacio de la Llave" target="CAU::X" weight="43836.0">
+        <viz:color r="137" g="135" b="129" a="0.15686275"/>
+      </edge>
+      <edge id="620" source="LOC::Veracruz de Ignacio de la Llave" target="CAU::Y" weight="13780.0">
+        <viz:color r="137" g="135" b="129" a="0.15686275"/>
+      </edge>
+      <edge id="621" source="LOC::Campeche" target="CAU::A" weight="1320.0">
+        <viz:color r="137" g="135" b="129" a="0.15686275"/>
+      </edge>
+      <edge id="622" source="LOC::Campeche" target="CAU::B" weight="1619.0">
+        <viz:color r="137" g="135" b="129" a="0.15686275"/>
+      </edge>
+      <edge id="623" source="LOC::Campeche" target="CAU::C" weight="10681.0">
+        <viz:color r="137" g="135" b="129" a="0.15686275"/>
+      </edge>
+      <edge id="624" source="LOC::Campeche" target="CAU::D" weight="1212.0">
+        <viz:color r="137" g="135" b="129" a="0.15686275"/>
+      </edge>
+      <edge id="625" source="LOC::Campeche" target="CAU::E" weight="14727.0">
+        <viz:color r="137" g="135" b="129" a="0.15686275"/>
+      </edge>
+      <edge id="626" source="LOC::Campeche" target="CAU::F" weight="688.0">
+        <viz:color r="137" g="135" b="129" a="0.15686275"/>
+      </edge>
+      <edge id="627" source="LOC::Campeche" target="CAU::G" weight="1408.0">
+        <viz:color r="137" g="135" b="129" a="0.15686275"/>
+      </edge>
+      <edge id="628" source="LOC::Campeche" target="CAU::H" weight="14.0">
+        <viz:color r="137" g="135" b="129" a="0.15686275"/>
+      </edge>
+      <edge id="629" source="LOC::Campeche" target="CAU::I" weight="22187.0">
+        <viz:color r="137" g="135" b="129" a="0.15686275"/>
+      </edge>
+      <edge id="630" source="LOC::Campeche" target="CAU::J" weight="7342.0">
+        <viz:color r="137" g="135" b="129" a="0.15686275"/>
+      </edge>
+      <edge id="631" source="LOC::Campeche" target="CAU::K" weight="8952.0">
+        <viz:color r="137" g="135" b="129" a="0.15686275"/>
+      </edge>
+      <edge id="632" source="LOC::Campeche" target="CAU::L" weight="355.0">
+        <viz:color r="137" g="135" b="129" a="0.15686275"/>
+      </edge>
+      <edge id="633" source="LOC::Campeche" target="CAU::M" weight="527.0">
+        <viz:color r="137" g="135" b="129" a="0.15686275"/>
+      </edge>
+      <edge id="634" source="LOC::Campeche" target="CAU::N" weight="2951.0">
+        <viz:color r="137" g="135" b="129" a="0.15686275"/>
+      </edge>
+      <edge id="635" source="LOC::Campeche" target="CAU::O" weight="168.0">
+        <viz:color r="137" g="135" b="129" a="0.15686275"/>
+      </edge>
+      <edge id="636" source="LOC::Campeche" target="CAU::P" weight="2364.0">
+        <viz:color r="137" g="135" b="129" a="0.15686275"/>
+      </edge>
+      <edge id="637" source="LOC::Campeche" target="CAU::Q" weight="1126.0">
+        <viz:color r="137" g="135" b="129" a="0.15686275"/>
+      </edge>
+      <edge id="638" source="LOC::Campeche" target="CAU::R" weight="3762.0">
+        <viz:color r="137" g="135" b="129" a="0.15686275"/>
+      </edge>
+      <edge id="639" source="LOC::Campeche" target="CAU::U" weight="3138.0">
+        <viz:color r="137" g="135" b="129" a="0.15686275"/>
+      </edge>
+      <edge id="640" source="LOC::Campeche" target="CAU::V" weight="2944.0">
+        <viz:color r="137" g="135" b="129" a="0.15686275"/>
+      </edge>
+      <edge id="641" source="LOC::Campeche" target="CAU::W" weight="1428.0">
+        <viz:color r="137" g="135" b="129" a="0.15686275"/>
+      </edge>
+      <edge id="642" source="LOC::Campeche" target="CAU::X" weight="4663.0">
+        <viz:color r="137" g="135" b="129" a="0.15686275"/>
+      </edge>
+      <edge id="643" source="LOC::Campeche" target="CAU::Y" weight="773.0">
+        <viz:color r="137" g="135" b="129" a="0.15686275"/>
+      </edge>
+      <edge id="644" source="LOC::Oaxaca" target="CAU::A" weight="11335.0">
+        <viz:color r="137" g="135" b="129" a="0.15686275"/>
+      </edge>
+      <edge id="645" source="LOC::Oaxaca" target="CAU::B" weight="5055.0">
+        <viz:color r="137" g="135" b="129" a="0.15686275"/>
+      </edge>
+      <edge id="646" source="LOC::Oaxaca" target="CAU::C" weight="52527.0">
+        <viz:color r="137" g="135" b="129" a="0.15686275"/>
+      </edge>
+      <edge id="647" source="LOC::Oaxaca" target="CAU::D" weight="10863.0">
+        <viz:color r="137" g="135" b="129" a="0.15686275"/>
+      </edge>
+      <edge id="648" source="LOC::Oaxaca" target="CAU::E" weight="83255.0">
+        <viz:color r="137" g="135" b="129" a="0.15686275"/>
+      </edge>
+      <edge id="649" source="LOC::Oaxaca" target="CAU::F" weight="7234.0">
+        <viz:color r="137" g="135" b="129" a="0.15686275"/>
+      </edge>
+      <edge id="650" source="LOC::Oaxaca" target="CAU::G" weight="8596.0">
+        <viz:color r="137" g="135" b="129" a="0.15686275"/>
+      </edge>
+      <edge id="651" source="LOC::Oaxaca" target="CAU::H" weight="63.0">
+        <viz:color r="137" g="135" b="129" a="0.15686275"/>
+      </edge>
+      <edge id="652" source="LOC::Oaxaca" target="CAU::I" weight="119084.0">
+        <viz:color r="137" g="135" b="129" a="0.15686275"/>
+      </edge>
+      <edge id="653" source="LOC::Oaxaca" target="CAU::J" weight="35591.0">
+        <viz:color r="137" g="135" b="129" a="0.15686275"/>
+      </edge>
+      <edge id="654" source="LOC::Oaxaca" target="CAU::K" weight="48421.0">
+        <viz:color r="137" g="135" b="129" a="0.15686275"/>
+      </edge>
+      <edge id="655" source="LOC::Oaxaca" target="CAU::L" weight="958.0">
+        <viz:color r="137" g="135" b="129" a="0.15686275"/>
+      </edge>
+      <edge id="656" source="LOC::Oaxaca" target="CAU::M" weight="3899.0">
+        <viz:color r="137" g="135" b="129" a="0.15686275"/>
+      </edge>
+      <edge id="657" source="LOC::Oaxaca" target="CAU::N" weight="14836.0">
+        <viz:color r="137" g="135" b="129" a="0.15686275"/>
+      </edge>
+      <edge id="658" source="LOC::Oaxaca" target="CAU::O" weight="1230.0">
+        <viz:color r="137" g="135" b="129" a="0.15686275"/>
+      </edge>
+      <edge id="659" source="LOC::Oaxaca" target="CAU::P" weight="9984.0">
+        <viz:color r="137" g="135" b="129" a="0.15686275"/>
+      </edge>
+      <edge id="660" source="LOC::Oaxaca" target="CAU::Q" weight="6661.0">
+        <viz:color r="137" g="135" b="129" a="0.15686275"/>
+      </edge>
+      <edge id="661" source="LOC::Oaxaca" target="CAU::R" weight="21035.0">
+        <viz:color r="137" g="135" b="129" a="0.15686275"/>
+      </edge>
+      <edge id="662" source="LOC::Oaxaca" target="CAU::U" weight="10925.0">
+        <viz:color r="137" g="135" b="129" a="0.15686275"/>
+      </edge>
+      <edge id="663" source="LOC::Oaxaca" target="CAU::V" weight="11867.0">
+        <viz:color r="137" g="135" b="129" a="0.15686275"/>
+      </edge>
+      <edge id="664" source="LOC::Oaxaca" target="CAU::W" weight="8358.0">
+        <viz:color r="137" g="135" b="129" a="0.15686275"/>
+      </edge>
+      <edge id="665" source="LOC::Oaxaca" target="CAU::X" weight="24654.0">
+        <viz:color r="137" g="135" b="129" a="0.15686275"/>
+      </edge>
+      <edge id="666" source="LOC::Oaxaca" target="CAU::Y" weight="5172.0">
+        <viz:color r="137" g="135" b="129" a="0.15686275"/>
+      </edge>
+      <edge id="667" source="LOC::San Luis Potosí" target="CAU::A" weight="6249.0">
+        <viz:color r="137" g="135" b="129" a="0.15686275"/>
+      </edge>
+      <edge id="668" source="LOC::San Luis Potosí" target="CAU::B" weight="2521.0">
+        <viz:color r="137" g="135" b="129" a="0.15686275"/>
+      </edge>
+      <edge id="669" source="LOC::San Luis Potosí" target="CAU::C" weight="39709.0">
+        <viz:color r="137" g="135" b="129" a="0.15686275"/>
+      </edge>
+      <edge id="670" source="LOC::San Luis Potosí" target="CAU::D" weight="5226.0">
+        <viz:color r="137" g="135" b="129" a="0.15686275"/>
+      </edge>
+      <edge id="671" source="LOC::San Luis Potosí" target="CAU::E" weight="52437.0">
+        <viz:color r="137" g="135" b="129" a="0.15686275"/>
+      </edge>
+      <edge id="672" source="LOC::San Luis Potosí" target="CAU::F" weight="3253.0">
+        <viz:color r="137" g="135" b="129" a="0.15686275"/>
+      </edge>
+      <edge id="673" source="LOC::San Luis Potosí" target="CAU::G" weight="6627.0">
+        <viz:color r="137" g="135" b="129" a="0.15686275"/>
+      </edge>
+      <edge id="674" source="LOC::San Luis Potosí" target="CAU::H" weight="34.0">
+        <viz:color r="137" g="135" b="129" a="0.15686275"/>
+      </edge>
+      <edge id="675" source="LOC::San Luis Potosí" target="CAU::I" weight="86881.0">
+        <viz:color r="137" g="135" b="129" a="0.15686275"/>
+      </edge>
+      <edge id="676" source="LOC::San Luis Potosí" target="CAU::J" weight="32387.0">
+        <viz:color r="137" g="135" b="129" a="0.15686275"/>
+      </edge>
+      <edge id="677" source="LOC::San Luis Potosí" target="CAU::K" weight="28681.0">
+        <viz:color r="137" g="135" b="129" a="0.15686275"/>
+      </edge>
+      <edge id="678" source="LOC::San Luis Potosí" target="CAU::L" weight="1311.0">
+        <viz:color r="137" g="135" b="129" a="0.15686275"/>
+      </edge>
+      <edge id="679" source="LOC::San Luis Potosí" target="CAU::M" weight="2588.0">
+        <viz:color r="137" g="135" b="129" a="0.15686275"/>
+      </edge>
+      <edge id="680" source="LOC::San Luis Potosí" target="CAU::N" weight="9680.0">
+        <viz:color r="137" g="135" b="129" a="0.15686275"/>
+      </edge>
+      <edge id="681" source="LOC::San Luis Potosí" target="CAU::O" weight="569.0">
+        <viz:color r="137" g="135" b="129" a="0.15686275"/>
+      </edge>
+      <edge id="682" source="LOC::San Luis Potosí" target="CAU::P" weight="6051.0">
+        <viz:color r="137" g="135" b="129" a="0.15686275"/>
+      </edge>
+      <edge id="683" source="LOC::San Luis Potosí" target="CAU::Q" weight="4735.0">
+        <viz:color r="137" g="135" b="129" a="0.15686275"/>
+      </edge>
+      <edge id="684" source="LOC::San Luis Potosí" target="CAU::R" weight="7746.0">
+        <viz:color r="137" g="135" b="129" a="0.15686275"/>
+      </edge>
+      <edge id="685" source="LOC::San Luis Potosí" target="CAU::U" weight="9432.0">
+        <viz:color r="137" g="135" b="129" a="0.15686275"/>
+      </edge>
+      <edge id="686" source="LOC::San Luis Potosí" target="CAU::V" weight="11573.0">
+        <viz:color r="137" g="135" b="129" a="0.15686275"/>
+      </edge>
+      <edge id="687" source="LOC::San Luis Potosí" target="CAU::W" weight="4888.0">
+        <viz:color r="137" g="135" b="129" a="0.15686275"/>
+      </edge>
+      <edge id="688" source="LOC::San Luis Potosí" target="CAU::X" weight="15539.0">
+        <viz:color r="137" g="135" b="129" a="0.15686275"/>
+      </edge>
+      <edge id="689" source="LOC::San Luis Potosí" target="CAU::Y" weight="2922.0">
+        <viz:color r="137" g="135" b="129" a="0.15686275"/>
+      </edge>
+      <edge id="690" source="LOC::Tabasco" target="CAU::A" weight="4478.0">
+        <viz:color r="137" g="135" b="129" a="0.15686275"/>
+      </edge>
+      <edge id="691" source="LOC::Tabasco" target="CAU::B" weight="5412.0">
+        <viz:color r="137" g="135" b="129" a="0.15686275"/>
+      </edge>
+      <edge id="692" source="LOC::Tabasco" target="CAU::C" weight="30731.0">
+        <viz:color r="137" g="135" b="129" a="0.15686275"/>
+      </edge>
+      <edge id="693" source="LOC::Tabasco" target="CAU::D" weight="4806.0">
+        <viz:color r="137" g="135" b="129" a="0.15686275"/>
+      </edge>
+      <edge id="694" source="LOC::Tabasco" target="CAU::E" weight="53854.0">
+        <viz:color r="137" g="135" b="129" a="0.15686275"/>
+      </edge>
+      <edge id="695" source="LOC::Tabasco" target="CAU::F" weight="1277.0">
+        <viz:color r="137" g="135" b="129" a="0.15686275"/>
+      </edge>
+      <edge id="696" source="LOC::Tabasco" target="CAU::G" weight="4755.0">
+        <viz:color r="137" g="135" b="129" a="0.15686275"/>
+      </edge>
+      <edge id="697" source="LOC::Tabasco" target="CAU::H" weight="37.0">
+        <viz:color r="137" g="135" b="129" a="0.15686275"/>
+      </edge>
+      <edge id="698" source="LOC::Tabasco" target="CAU::I" weight="66567.0">
+        <viz:color r="137" g="135" b="129" a="0.15686275"/>
+      </edge>
+      <edge id="699" source="LOC::Tabasco" target="CAU::J" weight="20828.0">
+        <viz:color r="137" g="135" b="129" a="0.15686275"/>
+      </edge>
+      <edge id="700" source="LOC::Tabasco" target="CAU::K" weight="19126.0">
+        <viz:color r="137" g="135" b="129" a="0.15686275"/>
+      </edge>
+      <edge id="701" source="LOC::Tabasco" target="CAU::L" weight="453.0">
+        <viz:color r="137" g="135" b="129" a="0.15686275"/>
+      </edge>
+      <edge id="702" source="LOC::Tabasco" target="CAU::M" weight="1456.0">
+        <viz:color r="137" g="135" b="129" a="0.15686275"/>
+      </edge>
+      <edge id="703" source="LOC::Tabasco" target="CAU::N" weight="8179.0">
+        <viz:color r="137" g="135" b="129" a="0.15686275"/>
+      </edge>
+      <edge id="704" source="LOC::Tabasco" target="CAU::O" weight="582.0">
+        <viz:color r="137" g="135" b="129" a="0.15686275"/>
+      </edge>
+      <edge id="705" source="LOC::Tabasco" target="CAU::P" weight="9745.0">
+        <viz:color r="137" g="135" b="129" a="0.15686275"/>
+      </edge>
+      <edge id="706" source="LOC::Tabasco" target="CAU::Q" weight="5710.0">
+        <viz:color r="137" g="135" b="129" a="0.15686275"/>
+      </edge>
+      <edge id="707" source="LOC::Tabasco" target="CAU::R" weight="6573.0">
+        <viz:color r="137" g="135" b="129" a="0.15686275"/>
+      </edge>
+      <edge id="708" source="LOC::Tabasco" target="CAU::U" weight="7897.0">
+        <viz:color r="137" g="135" b="129" a="0.15686275"/>
+      </edge>
+      <edge id="709" source="LOC::Tabasco" target="CAU::V" weight="12000.0">
+        <viz:color r="137" g="135" b="129" a="0.15686275"/>
+      </edge>
+      <edge id="710" source="LOC::Tabasco" target="CAU::W" weight="5052.0">
+        <viz:color r="137" g="135" b="129" a="0.15686275"/>
+      </edge>
+      <edge id="711" source="LOC::Tabasco" target="CAU::X" weight="13543.0">
+        <viz:color r="137" g="135" b="129" a="0.15686275"/>
+      </edge>
+      <edge id="712" source="LOC::Tabasco" target="CAU::Y" weight="2541.0">
+        <viz:color r="137" g="135" b="129" a="0.15686275"/>
+      </edge>
+      <edge id="713" source="LOC::Jalisco" target="CAU::A" weight="16335.0">
+        <viz:color r="137" g="135" b="129" a="0.15686275"/>
+      </edge>
+      <edge id="714" source="LOC::Jalisco" target="CAU::B" weight="12423.0">
+        <viz:color r="137" g="135" b="129" a="0.15686275"/>
+      </edge>
+      <edge id="715" source="LOC::Jalisco" target="CAU::C" weight="126683.0">
+        <viz:color r="137" g="135" b="129" a="0.15686275"/>
+      </edge>
+      <edge id="716" source="LOC::Jalisco" target="CAU::D" weight="16840.0">
+        <viz:color r="137" g="135" b="129" a="0.15686275"/>
+      </edge>
+      <edge id="717" source="LOC::Jalisco" target="CAU::E" weight="152033.0">
+        <viz:color r="137" g="135" b="129" a="0.15686275"/>
+      </edge>
+      <edge id="718" source="LOC::Jalisco" target="CAU::F" weight="8260.0">
+        <viz:color r="137" g="135" b="129" a="0.15686275"/>
+      </edge>
+      <edge id="719" source="LOC::Jalisco" target="CAU::G" weight="18953.0">
+        <viz:color r="137" g="135" b="129" a="0.15686275"/>
+      </edge>
+      <edge id="720" source="LOC::Jalisco" target="CAU::H" weight="91.0">
+        <viz:color r="137" g="135" b="129" a="0.15686275"/>
+      </edge>
+      <edge id="721" source="LOC::Jalisco" target="CAU::I" weight="244466.0">
+        <viz:color r="137" g="135" b="129" a="0.15686275"/>
+      </edge>
+      <edge id="722" source="LOC::Jalisco" target="CAU::J" weight="110707.0">
+        <viz:color r="137" g="135" b="129" a="0.15686275"/>
+      </edge>
+      <edge id="723" source="LOC::Jalisco" target="CAU::K" weight="88991.0">
+        <viz:color r="137" g="135" b="129" a="0.15686275"/>
+      </edge>
+      <edge id="724" source="LOC::Jalisco" target="CAU::L" weight="4222.0">
+        <viz:color r="137" g="135" b="129" a="0.15686275"/>
+      </edge>
+      <edge id="725" source="LOC::Jalisco" target="CAU::M" weight="7758.0">
+        <viz:color r="137" g="135" b="129" a="0.15686275"/>
+      </edge>
+      <edge id="726" source="LOC::Jalisco" target="CAU::N" weight="36104.0">
+        <viz:color r="137" g="135" b="129" a="0.15686275"/>
+      </edge>
+      <edge id="727" source="LOC::Jalisco" target="CAU::O" weight="1384.0">
+        <viz:color r="137" g="135" b="129" a="0.15686275"/>
+      </edge>
+      <edge id="728" source="LOC::Jalisco" target="CAU::P" weight="20633.0">
+        <viz:color r="137" g="135" b="129" a="0.15686275"/>
+      </edge>
+      <edge id="729" source="LOC::Jalisco" target="CAU::Q" weight="16618.0">
+        <viz:color r="137" g="135" b="129" a="0.15686275"/>
+      </edge>
+      <edge id="730" source="LOC::Jalisco" target="CAU::R" weight="7624.0">
+        <viz:color r="137" g="135" b="129" a="0.15686275"/>
+      </edge>
+      <edge id="731" source="LOC::Jalisco" target="CAU::U" weight="28532.0">
+        <viz:color r="137" g="135" b="129" a="0.15686275"/>
+      </edge>
+      <edge id="732" source="LOC::Jalisco" target="CAU::V" weight="32041.0">
+        <viz:color r="137" g="135" b="129" a="0.15686275"/>
+      </edge>
+      <edge id="733" source="LOC::Jalisco" target="CAU::W" weight="13906.0">
+        <viz:color r="137" g="135" b="129" a="0.15686275"/>
+      </edge>
+      <edge id="734" source="LOC::Jalisco" target="CAU::X" weight="44599.0">
+        <viz:color r="137" g="135" b="129" a="0.15686275"/>
+      </edge>
+      <edge id="735" source="LOC::Jalisco" target="CAU::Y" weight="13479.0">
+        <viz:color r="137" g="135" b="129" a="0.15686275"/>
+      </edge>
+    </edges>
+  </graph>
+</gexf>

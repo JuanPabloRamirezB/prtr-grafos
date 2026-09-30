@@ -1,0 +1,41 @@
+name: Publicar prtr-grafos en GitHub Pages
+
+# Publica SOLO los archivos públicos de este repositorio (HTML, PNG, PDF, GEXF, miniaturas),
+# sin scripts, código Java ni el dataset. Requiere en Settings > Pages: Source = "GitHub Actions".
+on:
+  push:
+    branches: [main]
+  workflow_dispatch:
+
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+
+concurrency:
+  group: pages
+  cancel-in-progress: true
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - uses: actions/checkout@v4
+      - name: Preparar el sitio (solo archivos públicos)
+        run: |
+          mkdir _site
+          rsync -a \
+            --exclude='.git' --exclude='.github' \
+            --exclude='*.py' --exclude='*.java' --exclude='*.class' --exclude='*.jar' --exclude='*.js' --exclude='*.csv' \
+            --exclude='__pycache__' --exclude='.gitignore' --exclude='README.md' \
+            ./ _site/
+          test -f _site/index.html
+          du -sh _site
+      - uses: actions/upload-pages-artifact@v3
+        with:
+          path: _site
+      - id: deployment
+        uses: actions/deploy-pages@v4
