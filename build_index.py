@@ -348,25 +348,25 @@ def main():
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width,initial-scale=1">
-<title>Mexico PRTR & Mortality — interactive graphs</title>
-<meta name="description" content="Networks of states, municipalities, substances and causes of death from two Mexican national datasets: the Pollutant Release and Transfer Register (PRTR, 2004–2022) and official mortality records (2000–2022).">
+<title>Mexico RECT & Mortality — interactive graphs</title>
+<meta name="description" content="Networks of states, municipalities, substances and causes of death from two Mexican national datasets: the Registro de Emisiones y Transferencias Críticas (RECT, 2004–2022) and official mortality records (2000–2022).">
 <meta name="theme-color" content="#2a78d6">
 <style>{CSS}</style>
 </head>
 <body>
 <header class="top"><div class="wrap">
   <h1>Mexico open data — interactive graphs</h1>
-  <p class="lead">Two national datasets seen as networks. The <b>Pollutant Release and Transfer Register</b> (PRTR, {s["y0"]}–{s["y1"]}):
+  <p class="lead">Two national datasets seen as networks. The <b>Registro de Emisiones y Transferencias Críticas</b> (RECT, {s["y0"]}–{s["y1"]}):
   which states and municipalities report which substances, which ones resemble each other, and how that changes year by year — at national
   and Tamaulipas-state level. And Mexico's <b>official mortality records</b> (2000–2022, 53.7M entries): which states and municipalities
   report which causes of death, by ICD chapter or specific code — national level only for now. Every graph opens as an interactive page
   with a search box, or downloads as PNG, PDF and GEXF (for Gephi). Use the <b>Dataset</b> and <b>Scope</b> filters below to tell them apart.</p>
   <ul class="stats">
-    <li><b>{s["estados"]}</b><span>PRTR states</span></li>
-    <li><b>{s["municipios"]:,}</b><span>PRTR municipalities</span></li>
+    <li><b>{s["estados"]}</b><span>RECT states</span></li>
+    <li><b>{s["municipios"]:,}</b><span>RECT municipalities</span></li>
     <li><b>{s["sustancias"]}</b><span>substances</span></li>
-    <li><b>{s["y0"]}–{s["y1"]}</b><span>PRTR years</span></li>
-    <li><b>{s["rows"]:,}</b><span>PRTR reports</span></li>
+    <li><b>{s["y0"]}–{s["y1"]}</b><span>RECT years</span></li>
+    <li><b>{s["rows"]:,}</b><span>RECT reports</span></li>
     <li><b>{total_txt.split(" ")[0]}</b><span>{" ".join(total_txt.split(" ")[1:])} cumulative</span></li>
     <li><b>2,378</b><span>mortality municipalities</span></li>
     <li><b>1,511</b><span>specific causes of death</span></li>
@@ -407,7 +407,7 @@ def main():
 <section aria-labelledby="h-notas">
   <h2 id="h-notas">Methodology notes</h2>
   <details class="doc"><summary>Data and units</summary><div class="in">
-    <p>The source is Mexico's PRTR, with {s["rows"]:,} reports. Each report carries a kg/year value; the totals shown are the <b>sum of every report from {s["y0"]} to {s["y1"]}</b>, not an annual rate.
+    <p>The source is Mexico's RECT, with {s["rows"]:,} reports. Each report carries a kg/year value; the totals shown are the <b>sum of every report from {s["y0"]} to {s["y1"]}</b>, not an annual rate.
     States, municipalities and substances come from the <code>spatial</code> and <code>interest</code> columns. Some substances appear under several chemical forms (e.g. "Lead (compounds)" and "Lead (soluble compounds)") and are treated as distinct substances.</p></div></details>
   <details class="doc"><summary>Methods</summary><div class="in"><ul>
     <li><b>Similarity between municipalities or states</b>: cosine of the <code>log(1 + kg)</code> vector per substance. <b>Between substances</b>: Jaccard index over the municipalities reporting each one (corrects for very common substances co-occurring by chance).</li>
@@ -441,7 +441,7 @@ python build_index.py                             # this page</pre>
     <p>The Gephi-rendered images (ForceAtlas2, Modularity, PDF/PNG) are produced by the Java programs in each folder together with <code>gephi-toolkit-0.10.1-all.jar</code>. See the project's <code>README.md</code> for details.</p>
     <p>The mortality graphs live under <code>graphs_mortality/nacional_gephi/</code>, built by <code>build_mortality_national_gexf.py</code>
     and <code>mortality_national_html.py</code> from Mexico's raw mortality CSVs plus <code>inegi_catalogo_municipios.csv</code> (a name
-    catalog fetched from INEGI's public geostatistics API), same Gephi Toolkit pipeline as PRTR.</p></div></details>
+    catalog fetched from INEGI's public geostatistics API), same Gephi Toolkit pipeline as RECT.</p></div></details>
 </section>
 </main>
 <footer><div class="wrap">Generated on {today}. The interactive graphs load Plotly from a CDN and need an internet connection.</div></footer>
