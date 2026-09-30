@@ -1,0 +1,11 @@
+# Static site: only the published HTML/PNG/PDF/GEXF/thumbs need to be served.
+# Mirrors the exclusions in .github/workflows/prtr-grafos-pages.yml.
+*.py
+*.java
+*.class
+*.jar
+*.js
+*.csv
+__pycache__
+.gitignore
+README.md

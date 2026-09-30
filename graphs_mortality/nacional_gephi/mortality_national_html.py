@@ -46,14 +46,13 @@ def groups_of(G, S, ids):
     return [("", ids)]
 
 
-def node_hover(n, S, level, is_bipartite, chapter):
+def node_hover(n, S, loc_level, is_bipartite, chapter):
     d = S.nodes[n]
     key = key_of(n)
     extra = node_extra(nx_dummy_get(S, n)) + []
     if is_bipartite and d.get("type") == "causa":
-        return H.hover_causa(key, chapter, desc=d.get("label"), national_total=d.get("total_kg"), extra=extra)
-    loc_level = "municipio" if "." in key else "estado"
-    return H.hover_location(key, loc_level, extra=extra)
+        return H.hover_causa(key, chapter, desc=d.get("label"), national_total=d.get("total_kg"), extra=extra, loc_level=loc_level)
+    return H.hover_location(key, loc_level, chapter, extra=extra)
 
 
 def nx_dummy_get(S, n):
@@ -76,6 +75,7 @@ def render(folder, fa2, src, out, title, label_top, mid_top, px, is_bipartite, c
                          hoverinfo="none", showlegend=False, meta=dict(role="edges"))
 
     NodeScatter = go.Scattergl if webgl else go.Scatter
+    loc_level = "municipio" if "municipio" in folder else "estado"
 
     def node_trace(sub, name):
         return NodeScatter(
@@ -83,7 +83,7 @@ def render(folder, fa2, src, out, title, label_top, mid_top, px, is_bipartite, c
             text=[disp[n] if n in top else "" for n in sub], textposition="top center", textfont=dict(size=8, color=INK),
             marker=dict(size=[max(node_min_size, G.nodes[n]["viz"]["size"] * px) for n in sub],
                         color=[rgb(G.nodes[n]["viz"]["color"]) for n in sub], line=dict(width=node_border_width, color="white"), opacity=0.92),
-            hovertext=[node_hover(n, S, None, is_bipartite, chapter) + f"<br>Connections in this network: {G.degree[n]}" for n in sub],
+            hovertext=[node_hover(n, S, loc_level, is_bipartite, chapter) + f"<br>Connections in this network: {G.degree[n]}" for n in sub],
             hoverinfo="text", meta=dict(role="nodes"))
 
     node_traces = [node_trace(sub, name) for name, sub in groups_of(G, S, ids)]
@@ -136,7 +136,7 @@ def render_geo(folder, fa2, src, out, title, chapter, placeholder=None):
             textfont=dict(size=9, color=INK), name=name, showlegend=bool(name),
             marker=dict(size=[max(8, G.nodes[n]["viz"]["size"] * 0.8) for n in sub], color=[rgb(G.nodes[n]["viz"]["color"]) for n in sub],
                         line=dict(width=1, color="white")),
-            hovertext=[node_hover(n, S, None, False, chapter) + f"<br>States with a similar cause profile: {G.degree[n]}" for n in sub],
+            hovertext=[node_hover(n, S, "estado", False, chapter) + f"<br>States with a similar cause profile: {G.degree[n]}" for n in sub],
             hoverinfo="text", meta=dict(role="nodes")))
     mids = H.edge_midpoints(list(G.edges()), lambda u, v: H.sim_edge_hover(u, v, float(S[u][v]["weight"]),
                                                                             "chapter" if chapter else "specific"),
