@@ -1,0 +1,786 @@
+<?xml version='1.0' encoding='utf-8'?>
+<gexf xmlns="http://www.gexf.net/1.2draft" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.gexf.net/1.2draft http://www.gexf.net/1.2draft/gexf.xsd" version="1.2">
+  <meta lastmodifieddate="2026-10-16">
+    <creator>NetworkX 3.7</creator>
+  </meta>
+  <graph defaultedgetype="undirected" mode="static" name="">
+    <attributes mode="static" class="node">
+      <attribute id="0" title="lat" type="double" />
+      <attribute id="1" title="lon" type="double" />
+      <attribute id="2" title="total_kg" type="double" />
+      <attribute id="3" title="community" type="long" />
+      <attribute id="4" title="color_hex" type="string" />
+    </attributes>
+    <nodes>
+      <node id="Jalisco.Acatic" label="Acatic">
+        <attvalues>
+          <attvalue for="0" value="20.4646" />
+          <attvalue for="1" value="-102.5419" />
+          <attvalue for="2" value="3549984.958" />
+          <attvalue for="3" value="1" />
+          <attvalue for="4" value="#eb6834" />
+        </attvalues>
+      </node>
+      <node id="Jalisco.Acatlán de Juárez" label="Acatlán de Juárez">
+        <attvalues>
+          <attvalue for="0" value="20.2517" />
+          <attvalue for="1" value="-103.3514" />
+          <attvalue for="2" value="657578057.197214" />
+          <attvalue for="3" value="0" />
+          <attvalue for="4" value="#2a78d6" />
+        </attvalues>
+      </node>
+      <node id="Jalisco.Amatitán" label="Amatitán">
+        <attvalues>
+          <attvalue for="0" value="20.5006" />
+          <attvalue for="1" value="-103.4348" />
+          <attvalue for="2" value="691.1537599999999" />
+          <attvalue for="3" value="2" />
+          <attvalue for="4" value="#1baf7a" />
+        </attvalues>
+      </node>
+      <node id="Jalisco.Ameca" label="Ameca">
+        <attvalues>
+          <attvalue for="0" value="20.3255" />
+          <attvalue for="1" value="-104.0235" />
+          <attvalue for="2" value="848660032.9880401" />
+          <attvalue for="3" value="1" />
+          <attvalue for="4" value="#eb6834" />
+        </attvalues>
+      </node>
+      <node id="Jalisco.Arandas" label="Arandas">
+        <attvalues>
+          <attvalue for="0" value="20.422" />
+          <attvalue for="1" value="-102.2025" />
+          <attvalue for="2" value="73936026.0654692" />
+          <attvalue for="3" value="0" />
+          <attvalue for="4" value="#2a78d6" />
+        </attvalues>
+      </node>
+      <node id="Jalisco.Atotonilco el Alto" label="Atotonilco el Alto">
+        <attvalues>
+          <attvalue for="0" value="20.3302" />
+          <attvalue for="1" value="-102.3015" />
+          <attvalue for="2" value="120964582.79063493" />
+          <attvalue for="3" value="0" />
+          <attvalue for="4" value="#2a78d6" />
+        </attvalues>
+      </node>
+      <node id="Jalisco.Autlán de Navarro" label="Autlán de Navarro">
+        <attvalues>
+          <attvalue for="0" value="19.4617" />
+          <attvalue for="1" value="-104.2155" />
+          <attvalue for="2" value="1155712340.7449841" />
+          <attvalue for="3" value="1" />
+          <attvalue for="4" value="#eb6834" />
+        </attvalues>
+      </node>
+      <node id="Jalisco.Ayotlán" label="Ayotlán">
+        <attvalues>
+          <attvalue for="0" value="20.3141" />
+          <attvalue for="1" value="-102.1942" />
+          <attvalue for="2" value="14.049499999999998" />
+          <attvalue for="3" value="2" />
+          <attvalue for="4" value="#1baf7a" />
+        </attvalues>
+      </node>
+      <node id="Jalisco.Bolaños" label="Bolaños">
+        <attvalues>
+          <attvalue for="0" value="21.4951132" />
+          <attvalue for="1" value="-103.4653399" />
+          <attvalue for="2" value="334.387944" />
+          <attvalue for="3" value="2" />
+          <attvalue for="4" value="#1baf7a" />
+        </attvalues>
+      </node>
+      <node id="Jalisco.Chapala" label="Chapala">
+        <attvalues>
+          <attvalue for="0" value="20.1736" />
+          <attvalue for="1" value="-103.1123" />
+          <attvalue for="2" value="85572818.9444293" />
+          <attvalue for="3" value="0" />
+          <attvalue for="4" value="#2a78d6" />
+        </attvalues>
+      </node>
+      <node id="Jalisco.El Arenal" label="El Arenal">
+        <attvalues>
+          <attvalue for="0" value="20.4634" />
+          <attvalue for="1" value="-103.4138" />
+          <attvalue for="2" value="2284548.0" />
+          <attvalue for="3" value="1" />
+          <attvalue for="4" value="#eb6834" />
+        </attvalues>
+      </node>
+      <node id="Jalisco.El Salto" label="El Salto">
+        <attvalues>
+          <attvalue for="0" value="20.311" />
+          <attvalue for="1" value="-103.1054" />
+          <attvalue for="2" value="2368499664.9938474" />
+          <attvalue for="3" value="0" />
+          <attvalue for="4" value="#2a78d6" />
+        </attvalues>
+      </node>
+      <node id="Jalisco.Guadalajara" label="Guadalajara">
+        <attvalues>
+          <attvalue for="0" value="20.4035" />
+          <attvalue for="1" value="-103.2032" />
+          <attvalue for="2" value="11893874016.09692" />
+          <attvalue for="3" value="0" />
+          <attvalue for="4" value="#2a78d6" />
+        </attvalues>
+      </node>
+      <node id="Jalisco.Hostotipaquillo" label="Hostotipaquillo">
+        <attvalues>
+          <attvalue for="0" value="21.0329" />
+          <attvalue for="1" value="-104.0301" />
+          <attvalue for="2" value="4.0023" />
+          <attvalue for="3" value="3" />
+          <attvalue for="4" value="#eda100" />
+        </attvalues>
+      </node>
+      <node id="Jalisco.Ixtlahuacán de los Membrillos" label="Ixtlahuacán de los Membrillos">
+        <attvalues>
+          <attvalue for="0" value="20.205689" />
+          <attvalue for="1" value="-103.1134678" />
+          <attvalue for="2" value="601482166.2154562" />
+          <attvalue for="3" value="0" />
+          <attvalue for="4" value="#2a78d6" />
+        </attvalues>
+      </node>
+      <node id="Jalisco.Jamay" label="Jamay">
+        <attvalues>
+          <attvalue for="0" value="20.1740199" />
+          <attvalue for="1" value="-102.4234981" />
+          <attvalue for="2" value="16180617.493999999" />
+          <attvalue for="3" value="1" />
+          <attvalue for="4" value="#eb6834" />
+        </attvalues>
+      </node>
+      <node id="Jalisco.Jilotlán de los Dolores" label="Jilotlán de los Dolores">
+        <attvalues>
+          <attvalue for="0" value="19.2214" />
+          <attvalue for="1" value="-103.0111" />
+          <attvalue for="2" value="577204.7232" />
+          <attvalue for="3" value="2" />
+          <attvalue for="4" value="#1baf7a" />
+        </attvalues>
+      </node>
+      <node id="Jalisco.La Barca" label="La Barca">
+        <attvalues>
+          <attvalue for="0" value="20.1725" />
+          <attvalue for="1" value="-102.3231" />
+          <attvalue for="2" value="29.491300000000003" />
+          <attvalue for="3" value="4" />
+          <attvalue for="4" value="#e87ba4" />
+        </attvalues>
+      </node>
+      <node id="Jalisco.Lagos de Moreno" label="Lagos de Moreno">
+        <attvalues>
+          <attvalue for="0" value="21.2123" />
+          <attvalue for="1" value="-101.5545" />
+          <attvalue for="2" value="2170661941.6880207" />
+          <attvalue for="3" value="0" />
+          <attvalue for="4" value="#2a78d6" />
+        </attvalues>
+      </node>
+      <node id="Jalisco.Ocotlán" label="Ocotlán">
+        <attvalues>
+          <attvalue for="0" value="20.2105" />
+          <attvalue for="1" value="-102.4605" />
+          <attvalue for="2" value="259807860.02173397" />
+          <attvalue for="3" value="0" />
+          <attvalue for="4" value="#2a78d6" />
+        </attvalues>
+      </node>
+      <node id="Jalisco.Pihuamo" label="Pihuamo">
+        <attvalues>
+          <attvalue for="0" value="19.1508781" />
+          <attvalue for="1" value="-103.2230135" />
+          <attvalue for="2" value="3978475.966050193" />
+          <attvalue for="3" value="1" />
+          <attvalue for="4" value="#eb6834" />
+        </attvalues>
+      </node>
+      <node id="Jalisco.Poncitlán" label="Poncitlán">
+        <attvalues>
+          <attvalue for="0" value="20.2253" />
+          <attvalue for="1" value="-102.5527" />
+          <attvalue for="2" value="3903248301.262361" />
+          <attvalue for="3" value="0" />
+          <attvalue for="4" value="#2a78d6" />
+        </attvalues>
+      </node>
+      <node id="Jalisco.Puerto Vallarta" label="Puerto Vallarta">
+        <attvalues>
+          <attvalue for="0" value="20.3649" />
+          <attvalue for="1" value="-105.1338" />
+          <attvalue for="2" value="12954281.008267" />
+          <attvalue for="3" value="1" />
+          <attvalue for="4" value="#eb6834" />
+        </attvalues>
+      </node>
+      <node id="Jalisco.San Juan de los Lagos" label="San Juan de los Lagos">
+        <attvalues>
+          <attvalue for="0" value="21.1452" />
+          <attvalue for="1" value="-102.1958" />
+          <attvalue for="2" value="5.3028" />
+          <attvalue for="3" value="2" />
+          <attvalue for="4" value="#1baf7a" />
+        </attvalues>
+      </node>
+      <node id="Jalisco.San Martín de Bolaños" label="San Martín de Bolaños">
+        <attvalues>
+          <attvalue for="0" value="21.4100803" />
+          <attvalue for="1" value="-103.4851116" />
+          <attvalue for="2" value="412245.81730500003" />
+          <attvalue for="3" value="5" />
+          <attvalue for="4" value="#008300" />
+        </attvalues>
+      </node>
+      <node id="Jalisco.San Miguel el Alto" label="San Miguel el Alto">
+        <attvalues>
+          <attvalue for="0" value="21.015" />
+          <attvalue for="1" value="-102.2353" />
+          <attvalue for="2" value="1283.0720000000001" />
+          <attvalue for="3" value="6" />
+          <attvalue for="4" value="#4a3aa7" />
+        </attvalues>
+      </node>
+      <node id="Jalisco.San Pedro Tlaquepaque" label="San Pedro Tlaquepaque">
+        <attvalues>
+          <attvalue for="0" value="20.3819" />
+          <attvalue for="1" value="-103.1826" />
+          <attvalue for="2" value="6117732024.511456" />
+          <attvalue for="3" value="0" />
+          <attvalue for="4" value="#2a78d6" />
+        </attvalues>
+      </node>
+      <node id="Jalisco.San Sebastián del Oeste" label="San Sebastián del Oeste">
+        <attvalues>
+          <attvalue for="0" value="20.4539" />
+          <attvalue for="1" value="-104.5106" />
+          <attvalue for="2" value="3270622.934" />
+          <attvalue for="3" value="1" />
+          <attvalue for="4" value="#eb6834" />
+        </attvalues>
+      </node>
+      <node id="Jalisco.Tala" label="Tala">
+        <attvalues>
+          <attvalue for="0" value="20.3909" />
+          <attvalue for="1" value="-103.421" />
+          <attvalue for="2" value="1419442729.7308874" />
+          <attvalue for="3" value="0" />
+          <attvalue for="4" value="#2a78d6" />
+        </attvalues>
+      </node>
+      <node id="Jalisco.Tamazula de Gordiano" label="Tamazula de Gordiano">
+        <attvalues>
+          <attvalue for="0" value="19.4035" />
+          <attvalue for="1" value="-103.15" />
+          <attvalue for="2" value="316738849.4801128" />
+          <attvalue for="3" value="1" />
+          <attvalue for="4" value="#eb6834" />
+        </attvalues>
+      </node>
+      <node id="Jalisco.Tecolotlán" label="Tecolotlán">
+        <attvalues>
+          <attvalue for="0" value="20.1213" />
+          <attvalue for="1" value="-104.0242" />
+          <attvalue for="2" value="1670524935.5322645" />
+          <attvalue for="3" value="1" />
+          <attvalue for="4" value="#eb6834" />
+        </attvalues>
+      </node>
+      <node id="Jalisco.Teocuitatlán de Corona" label="Teocuitatlán de Corona">
+        <attvalues>
+          <attvalue for="0" value="20.0536" />
+          <attvalue for="1" value="-103.2248" />
+          <attvalue for="2" value="160977.7436864" />
+          <attvalue for="3" value="1" />
+          <attvalue for="4" value="#eb6834" />
+        </attvalues>
+      </node>
+      <node id="Jalisco.Tepatitlán de Morelos" label="Tepatitlán de Morelos">
+        <attvalues>
+          <attvalue for="0" value="20.4903" />
+          <attvalue for="1" value="-102.4526" />
+          <attvalue for="2" value="5456978.7458853405" />
+          <attvalue for="3" value="1" />
+          <attvalue for="4" value="#eb6834" />
+        </attvalues>
+      </node>
+      <node id="Jalisco.Tequila" label="Tequila">
+        <attvalues>
+          <attvalue for="0" value="20.5245982" />
+          <attvalue for="1" value="-103.5008328" />
+          <attvalue for="2" value="144010011.47533095" />
+          <attvalue for="3" value="0" />
+          <attvalue for="4" value="#2a78d6" />
+        </attvalues>
+      </node>
+      <node id="Jalisco.Tlajomulco de Zúñiga" label="Tlajomulco de Zúñiga">
+        <attvalues>
+          <attvalue for="0" value="20.2825" />
+          <attvalue for="1" value="-103.2635" />
+          <attvalue for="2" value="882187099.4493308" />
+          <attvalue for="3" value="0" />
+          <attvalue for="4" value="#2a78d6" />
+        </attvalues>
+      </node>
+      <node id="Jalisco.Tolimán" label="Tolimán">
+        <attvalues>
+          <attvalue for="0" value="19.36" />
+          <attvalue for="1" value="-103.5452" />
+          <attvalue for="2" value="37.5069" />
+          <attvalue for="3" value="2" />
+          <attvalue for="4" value="#1baf7a" />
+        </attvalues>
+      </node>
+      <node id="Jalisco.Tonalá" label="Tonalá">
+        <attvalues>
+          <attvalue for="0" value="20.3724" />
+          <attvalue for="1" value="-103.1444" />
+          <attvalue for="2" value="196620.0" />
+          <attvalue for="3" value="1" />
+          <attvalue for="4" value="#eb6834" />
+        </attvalues>
+      </node>
+      <node id="Jalisco.Tonaya" label="Tonaya">
+        <attvalues>
+          <attvalue for="0" value="19.4703" />
+          <attvalue for="1" value="-103.5815" />
+          <attvalue for="2" value="4481973.7817" />
+          <attvalue for="3" value="1" />
+          <attvalue for="4" value="#eb6834" />
+        </attvalues>
+      </node>
+      <node id="Jalisco.Tototlán" label="Tototlán">
+        <attvalues>
+          <attvalue for="0" value="20.3237009" />
+          <attvalue for="1" value="-102.4721183" />
+          <attvalue for="2" value="93555720.08853039" />
+          <attvalue for="3" value="1" />
+          <attvalue for="4" value="#eb6834" />
+        </attvalues>
+      </node>
+      <node id="Jalisco.Tuxpan" label="Tuxpan">
+        <attvalues>
+          <attvalue for="0" value="19.3316" />
+          <attvalue for="1" value="-103.222" />
+          <attvalue for="2" value="869997157.5585816" />
+          <attvalue for="3" value="0" />
+          <attvalue for="4" value="#2a78d6" />
+        </attvalues>
+      </node>
+      <node id="Jalisco.Villa Corona" label="Villa Corona">
+        <attvalues>
+          <attvalue for="0" value="20.2459" />
+          <attvalue for="1" value="-103.3941" />
+          <attvalue for="2" value="71.148" />
+          <attvalue for="3" value="2" />
+          <attvalue for="4" value="#1baf7a" />
+        </attvalues>
+      </node>
+      <node id="Jalisco.Zacoalco de Torres" label="Zacoalco de Torres">
+        <attvalues>
+          <attvalue for="0" value="20.1343" />
+          <attvalue for="1" value="-103.3355" />
+          <attvalue for="2" value="282970401.70365906" />
+          <attvalue for="3" value="1" />
+          <attvalue for="4" value="#eb6834" />
+        </attvalues>
+      </node>
+      <node id="Jalisco.Zapopan" label="Zapopan">
+        <attvalues>
+          <attvalue for="0" value="20.4315463" />
+          <attvalue for="1" value="-103.2320356" />
+          <attvalue for="2" value="2256723032.962533" />
+          <attvalue for="3" value="0" />
+          <attvalue for="4" value="#2a78d6" />
+        </attvalues>
+      </node>
+      <node id="Jalisco.Zapotiltic" label="Zapotiltic">
+        <attvalues>
+          <attvalue for="0" value="19.3732" />
+          <attvalue for="1" value="-103.2445" />
+          <attvalue for="2" value="10632700644.120886" />
+          <attvalue for="3" value="1" />
+          <attvalue for="4" value="#eb6834" />
+        </attvalues>
+      </node>
+      <node id="Jalisco.Zapotlanejo" label="Zapotlanejo">
+        <attvalues>
+          <attvalue for="0" value="20.3721" />
+          <attvalue for="1" value="-103.0351" />
+          <attvalue for="2" value="5867512131.253849" />
+          <attvalue for="3" value="0" />
+          <attvalue for="4" value="#2a78d6" />
+        </attvalues>
+      </node>
+      <node id="Jalisco.Zapotlán el Grande" label="Zapotlán el Grande">
+        <attvalues>
+          <attvalue for="0" value="19.4231" />
+          <attvalue for="1" value="-103.2751" />
+          <attvalue for="2" value="8.8514" />
+          <attvalue for="3" value="2" />
+          <attvalue for="4" value="#1baf7a" />
+        </attvalues>
+      </node>
+    </nodes>
+    <edges>
+      <edge source="Jalisco.Acatic" target="Jalisco.Acatlán de Juárez" id="0" weight="0.8485546508107507" />
+      <edge source="Jalisco.Acatic" target="Jalisco.Ameca" id="1" weight="0.9429486882436873" />
+      <edge source="Jalisco.Acatic" target="Jalisco.Arandas" id="2" weight="0.700095581912544" />
+      <edge source="Jalisco.Acatic" target="Jalisco.Autlán de Navarro" id="3" weight="0.8819622269874249" />
+      <edge source="Jalisco.Acatic" target="Jalisco.El Arenal" id="4" weight="1.0" />
+      <edge source="Jalisco.Acatic" target="Jalisco.Jamay" id="5" weight="0.9665711152918102" />
+      <edge source="Jalisco.Acatic" target="Jalisco.Lagos de Moreno" id="6" weight="0.7104133819481795" />
+      <edge source="Jalisco.Acatic" target="Jalisco.Ocotlán" id="7" weight="0.703781821978562" />
+      <edge source="Jalisco.Acatic" target="Jalisco.Pihuamo" id="8" weight="0.7649853748339619" />
+      <edge source="Jalisco.Acatic" target="Jalisco.Puerto Vallarta" id="9" weight="0.8835158330524191" />
+      <edge source="Jalisco.Acatic" target="Jalisco.San Sebastián del Oeste" id="10" weight="1.0" />
+      <edge source="Jalisco.Acatic" target="Jalisco.Tamazula de Gordiano" id="11" weight="0.9166904412964857" />
+      <edge source="Jalisco.Acatic" target="Jalisco.Tecolotlán" id="12" weight="0.7634244536181489" />
+      <edge source="Jalisco.Acatic" target="Jalisco.Teocuitatlán de Corona" id="13" weight="0.9986167251090239" />
+      <edge source="Jalisco.Acatic" target="Jalisco.Tepatitlán de Morelos" id="14" weight="0.7904161815063411" />
+      <edge source="Jalisco.Acatic" target="Jalisco.Tonalá" id="15" weight="1.0" />
+      <edge source="Jalisco.Acatic" target="Jalisco.Tonaya" id="16" weight="0.9952305789236573" />
+      <edge source="Jalisco.Acatic" target="Jalisco.Tototlán" id="17" weight="0.9566967244277746" />
+      <edge source="Jalisco.Acatic" target="Jalisco.Zacoalco de Torres" id="18" weight="0.8742493859192327" />
+      <edge source="Jalisco.Acatic" target="Jalisco.Zapotiltic" id="19" weight="0.727735921850821" />
+      <edge source="Jalisco.Acatic" target="Jalisco.Zapotlanejo" id="20" weight="0.7169075334795831" />
+      <edge source="Jalisco.Acatlán de Juárez" target="Jalisco.Ameca" id="21" weight="0.9347437586110453" />
+      <edge source="Jalisco.Acatlán de Juárez" target="Jalisco.Arandas" id="22" weight="0.8782090139436037" />
+      <edge source="Jalisco.Acatlán de Juárez" target="Jalisco.Atotonilco el Alto" id="23" weight="0.8725613110781831" />
+      <edge source="Jalisco.Acatlán de Juárez" target="Jalisco.Autlán de Navarro" id="24" weight="0.8792081629774516" />
+      <edge source="Jalisco.Acatlán de Juárez" target="Jalisco.Chapala" id="25" weight="0.7872580566528401" />
+      <edge source="Jalisco.Acatlán de Juárez" target="Jalisco.El Arenal" id="26" weight="0.8485546508107507" />
+      <edge source="Jalisco.Acatlán de Juárez" target="Jalisco.Ixtlahuacán de los Membrillos" id="27" weight="0.7357421167313261" />
+      <edge source="Jalisco.Acatlán de Juárez" target="Jalisco.Jamay" id="28" weight="0.8201884152201997" />
+      <edge source="Jalisco.Acatlán de Juárez" target="Jalisco.Lagos de Moreno" id="29" weight="0.8372370857245451" />
+      <edge source="Jalisco.Acatlán de Juárez" target="Jalisco.Ocotlán" id="30" weight="0.8183704343823512" />
+      <edge source="Jalisco.Acatlán de Juárez" target="Jalisco.Pihuamo" id="31" weight="0.8045673099569173" />
+      <edge source="Jalisco.Acatlán de Juárez" target="Jalisco.Puerto Vallarta" id="32" weight="0.9574061336081391" />
+      <edge source="Jalisco.Acatlán de Juárez" target="Jalisco.San Sebastián del Oeste" id="33" weight="0.8485546508107507" />
+      <edge source="Jalisco.Acatlán de Juárez" target="Jalisco.Tala" id="34" weight="0.773172970268358" />
+      <edge source="Jalisco.Acatlán de Juárez" target="Jalisco.Tamazula de Gordiano" id="35" weight="0.9113177434684189" />
+      <edge source="Jalisco.Acatlán de Juárez" target="Jalisco.Tecolotlán" id="36" weight="0.8352865919504572" />
+      <edge source="Jalisco.Acatlán de Juárez" target="Jalisco.Teocuitatlán de Corona" id="37" weight="0.8535973802029528" />
+      <edge source="Jalisco.Acatlán de Juárez" target="Jalisco.Tepatitlán de Morelos" id="38" weight="0.7396958286219815" />
+      <edge source="Jalisco.Acatlán de Juárez" target="Jalisco.Tequila" id="39" weight="0.8728674206035837" />
+      <edge source="Jalisco.Acatlán de Juárez" target="Jalisco.Tonalá" id="40" weight="0.8485546508107505" />
+      <edge source="Jalisco.Acatlán de Juárez" target="Jalisco.Tonaya" id="41" weight="0.8517612245833317" />
+      <edge source="Jalisco.Acatlán de Juárez" target="Jalisco.Tototlán" id="42" weight="0.9047983522787415" />
+      <edge source="Jalisco.Acatlán de Juárez" target="Jalisco.Tuxpan" id="43" weight="0.8172467326776999" />
+      <edge source="Jalisco.Acatlán de Juárez" target="Jalisco.Zacoalco de Torres" id="44" weight="0.8681367259391125" />
+      <edge source="Jalisco.Acatlán de Juárez" target="Jalisco.Zapotiltic" id="45" weight="0.8111660060569694" />
+      <edge source="Jalisco.Acatlán de Juárez" target="Jalisco.Zapotlanejo" id="46" weight="0.8945705707204156" />
+      <edge source="Jalisco.Amatitán" target="Jalisco.Ayotlán" id="47" weight="0.753513125712362" />
+      <edge source="Jalisco.Amatitán" target="Jalisco.Bolaños" id="48" weight="0.7890440386198602" />
+      <edge source="Jalisco.Amatitán" target="Jalisco.Jilotlán de los Dolores" id="49" weight="0.8323177926856573" />
+      <edge source="Jalisco.Amatitán" target="Jalisco.San Juan de los Lagos" id="50" weight="0.7080771594806207" />
+      <edge source="Jalisco.Amatitán" target="Jalisco.Tolimán" id="51" weight="0.8833408586983958" />
+      <edge source="Jalisco.Amatitán" target="Jalisco.Villa Corona" id="52" weight="0.9852907464774568" />
+      <edge source="Jalisco.Ameca" target="Jalisco.Arandas" id="53" weight="0.8568073692060262" />
+      <edge source="Jalisco.Ameca" target="Jalisco.Atotonilco el Alto" id="54" weight="0.8206607424736881" />
+      <edge source="Jalisco.Ameca" target="Jalisco.Autlán de Navarro" id="55" weight="0.9135700784643557" />
+      <edge source="Jalisco.Ameca" target="Jalisco.Chapala" id="56" weight="0.7813983161340994" />
+      <edge source="Jalisco.Ameca" target="Jalisco.El Arenal" id="57" weight="0.9429486882436874" />
+      <edge source="Jalisco.Ameca" target="Jalisco.Jamay" id="58" weight="0.9114269652586502" />
+      <edge source="Jalisco.Ameca" target="Jalisco.Lagos de Moreno" id="59" weight="0.8194972182907256" />
+      <edge source="Jalisco.Ameca" target="Jalisco.Ocotlán" id="60" weight="0.7960869044455611" />
+      <edge source="Jalisco.Ameca" target="Jalisco.Pihuamo" id="61" weight="0.8383509645293994" />
+      <edge source="Jalisco.Ameca" target="Jalisco.Puerto Vallarta" id="62" weight="0.9520455091674749" />
+      <edge source="Jalisco.Ameca" target="Jalisco.San Sebastián del Oeste" id="63" weight="0.9429486882436874" />
+      <edge source="Jalisco.Ameca" target="Jalisco.Tala" id="64" weight="0.7613976228848863" />
+      <edge source="Jalisco.Ameca" target="Jalisco.Tamazula de Gordiano" id="65" weight="0.9617728886091524" />
+      <edge source="Jalisco.Ameca" target="Jalisco.Tecolotlán" id="66" weight="0.8403629212392311" />
+      <edge source="Jalisco.Ameca" target="Jalisco.Teocuitatlán de Corona" id="67" weight="0.9449784772399736" />
+      <edge source="Jalisco.Ameca" target="Jalisco.Tepatitlán de Morelos" id="68" weight="0.8146351718541429" />
+      <edge source="Jalisco.Ameca" target="Jalisco.Tequila" id="69" weight="0.8233298216089847" />
+      <edge source="Jalisco.Ameca" target="Jalisco.Tonalá" id="70" weight="0.9429486882436873" />
+      <edge source="Jalisco.Ameca" target="Jalisco.Tonaya" id="71" weight="0.9423510204489528" />
+      <edge source="Jalisco.Ameca" target="Jalisco.Tototlán" id="72" weight="0.9681428486725859" />
+      <edge source="Jalisco.Ameca" target="Jalisco.Tuxpan" id="73" weight="0.7878832672822037" />
+      <edge source="Jalisco.Ameca" target="Jalisco.Zacoalco de Torres" id="74" weight="0.9126804488308161" />
+      <edge source="Jalisco.Ameca" target="Jalisco.Zapotiltic" id="75" weight="0.8113032685515639" />
+      <edge source="Jalisco.Ameca" target="Jalisco.Zapotlanejo" id="76" weight="0.8413193085188861" />
+      <edge source="Jalisco.Arandas" target="Jalisco.Atotonilco el Alto" id="77" weight="0.9001259870270059" />
+      <edge source="Jalisco.Arandas" target="Jalisco.Autlán de Navarro" id="78" weight="0.7287917929236319" />
+      <edge source="Jalisco.Arandas" target="Jalisco.Chapala" id="79" weight="0.8328678453526773" />
+      <edge source="Jalisco.Arandas" target="Jalisco.El Arenal" id="80" weight="0.7000955819125441" />
+      <edge source="Jalisco.Arandas" target="Jalisco.Ixtlahuacán de los Membrillos" id="81" weight="0.7147224913270087" />
+      <edge source="Jalisco.Arandas" target="Jalisco.Lagos de Moreno" id="82" weight="0.8482669046682215" />
+      <edge source="Jalisco.Arandas" target="Jalisco.Ocotlán" id="83" weight="0.8332289853080695" />
+      <edge source="Jalisco.Arandas" target="Jalisco.Pihuamo" id="84" weight="0.7220077238728648" />
+      <edge source="Jalisco.Arandas" target="Jalisco.Puerto Vallarta" id="85" weight="0.8983486972197506" />
+      <edge source="Jalisco.Arandas" target="Jalisco.San Sebastián del Oeste" id="86" weight="0.7000955819125441" />
+      <edge source="Jalisco.Arandas" target="Jalisco.Tala" id="87" weight="0.7457453939698084" />
+      <edge source="Jalisco.Arandas" target="Jalisco.Tamazula de Gordiano" id="88" weight="0.8994076451524506" />
+      <edge source="Jalisco.Arandas" target="Jalisco.Tecolotlán" id="89" weight="0.851913238219822" />
+      <edge source="Jalisco.Arandas" target="Jalisco.Teocuitatlán de Corona" id="90" weight="0.7147700945532466" />
+      <edge source="Jalisco.Arandas" target="Jalisco.Tequila" id="91" weight="0.90502599175371" />
+      <edge source="Jalisco.Arandas" target="Jalisco.Tonalá" id="92" weight="0.7000955819125441" />
+      <edge source="Jalisco.Arandas" target="Jalisco.Tonaya" id="93" weight="0.7086713788525042" />
+      <edge source="Jalisco.Arandas" target="Jalisco.Tototlán" id="94" weight="0.852180879621051" />
+      <edge source="Jalisco.Arandas" target="Jalisco.Tuxpan" id="95" weight="0.8326608529640159" />
+      <edge source="Jalisco.Arandas" target="Jalisco.Zacoalco de Torres" id="96" weight="0.8230218508353327" />
+      <edge source="Jalisco.Arandas" target="Jalisco.Zapotiltic" id="97" weight="0.8283755084113316" />
+      <edge source="Jalisco.Arandas" target="Jalisco.Zapotlanejo" id="98" weight="0.9117061003759064" />
+      <edge source="Jalisco.Atotonilco el Alto" target="Jalisco.Autlán de Navarro" id="99" weight="0.803697393085359" />
+      <edge source="Jalisco.Atotonilco el Alto" target="Jalisco.Chapala" id="100" weight="0.7674566982627583" />
+      <edge source="Jalisco.Atotonilco el Alto" target="Jalisco.Guadalajara" id="101" weight="0.7053596680498722" />
+      <edge source="Jalisco.Atotonilco el Alto" target="Jalisco.Ixtlahuacán de los Membrillos" id="102" weight="0.7565305671136254" />
+      <edge source="Jalisco.Atotonilco el Alto" target="Jalisco.Lagos de Moreno" id="103" weight="0.815344686747203" />
+      <edge source="Jalisco.Atotonilco el Alto" target="Jalisco.Ocotlán" id="104" weight="0.8110793422875023" />
+      <edge source="Jalisco.Atotonilco el Alto" target="Jalisco.Pihuamo" id="105" weight="0.7300944115302964" />
+      <edge source="Jalisco.Atotonilco el Alto" target="Jalisco.Puerto Vallarta" id="106" weight="0.8684734109109472" />
+      <edge source="Jalisco.Atotonilco el Alto" target="Jalisco.San Pedro Tlaquepaque" id="107" weight="0.7039618244170927" />
+      <edge source="Jalisco.Atotonilco el Alto" target="Jalisco.Tala" id="108" weight="0.7838555990900966" />
+      <edge source="Jalisco.Atotonilco el Alto" target="Jalisco.Tamazula de Gordiano" id="109" weight="0.8005414955272785" />
+      <edge source="Jalisco.Atotonilco el Alto" target="Jalisco.Tecolotlán" id="110" weight="0.7791298796232723" />
+      <edge source="Jalisco.Atotonilco el Alto" target="Jalisco.Tequila" id="111" weight="0.8872009972226619" />
+      <edge source="Jalisco.Atotonilco el Alto" target="Jalisco.Tototlán" id="112" weight="0.7812920265620126" />
+      <edge source="Jalisco.Atotonilco el Alto" target="Jalisco.Tuxpan" id="113" weight="0.8574026622290648" />
+      <edge source="Jalisco.Atotonilco el Alto" target="Jalisco.Zacoalco de Torres" id="114" weight="0.8297963337155079" />
+      <edge source="Jalisco.Atotonilco el Alto" target="Jalisco.Zapotiltic" id="115" weight="0.7901160661101017" />
+      <edge source="Jalisco.Atotonilco el Alto" target="Jalisco.Zapotlanejo" id="116" weight="0.893783292075947" />
+      <edge source="Jalisco.Autlán de Navarro" target="Jalisco.Chapala" id="117" weight="0.7112260654244065" />
+      <edge source="Jalisco.Autlán de Navarro" target="Jalisco.El Arenal" id="118" weight="0.8819622269874249" />
+      <edge source="Jalisco.Autlán de Navarro" target="Jalisco.Ixtlahuacán de los Membrillos" id="119" weight="0.7259124751204834" />
+      <edge source="Jalisco.Autlán de Navarro" target="Jalisco.Jamay" id="120" weight="0.8675853255474726" />
+      <edge source="Jalisco.Autlán de Navarro" target="Jalisco.Lagos de Moreno" id="121" weight="0.7790917585168968" />
+      <edge source="Jalisco.Autlán de Navarro" target="Jalisco.Ocotlán" id="122" weight="0.7938729750723403" />
+      <edge source="Jalisco.Autlán de Navarro" target="Jalisco.Pihuamo" id="123" weight="0.8220044783670839" />
+      <edge source="Jalisco.Autlán de Navarro" target="Jalisco.Puerto Vallarta" id="124" weight="0.8750122228369481" />
+      <edge source="Jalisco.Autlán de Navarro" target="Jalisco.San Sebastián del Oeste" id="125" weight="0.8819622269874249" />
+      <edge source="Jalisco.Autlán de Navarro" target="Jalisco.Tala" id="126" weight="0.7753593451069509" />
+      <edge source="Jalisco.Autlán de Navarro" target="Jalisco.Tamazula de Gordiano" id="127" weight="0.8084863430639337" />
+      <edge source="Jalisco.Autlán de Navarro" target="Jalisco.Tecolotlán" id="128" weight="0.7377217131350905" />
+      <edge source="Jalisco.Autlán de Navarro" target="Jalisco.Teocuitatlán de Corona" id="129" weight="0.8807422307840438" />
+      <edge source="Jalisco.Autlán de Navarro" target="Jalisco.Tepatitlán de Morelos" id="130" weight="0.7051421981498457" />
+      <edge source="Jalisco.Autlán de Navarro" target="Jalisco.Tequila" id="131" weight="0.7926786379022732" />
+      <edge source="Jalisco.Autlán de Navarro" target="Jalisco.Tonalá" id="132" weight="0.881962226987425" />
+      <edge source="Jalisco.Autlán de Navarro" target="Jalisco.Tonaya" id="133" weight="0.8927764371998351" />
+      <edge source="Jalisco.Autlán de Navarro" target="Jalisco.Tototlán" id="134" weight="0.8439025530474213" />
+      <edge source="Jalisco.Autlán de Navarro" target="Jalisco.Tuxpan" id="135" weight="0.7598181469818095" />
+      <edge source="Jalisco.Autlán de Navarro" target="Jalisco.Zacoalco de Torres" id="136" weight="0.8775067604858897" />
+      <edge source="Jalisco.Autlán de Navarro" target="Jalisco.Zapotiltic" id="137" weight="0.7265138497061024" />
+      <edge source="Jalisco.Autlán de Navarro" target="Jalisco.Zapotlanejo" id="138" weight="0.8148410449095764" />
+      <edge source="Jalisco.Ayotlán" target="Jalisco.Villa Corona" id="139" weight="0.7632742219349884" />
+      <edge source="Jalisco.Bolaños" target="Jalisco.Jilotlán de los Dolores" id="140" weight="0.7659585274165226" />
+      <edge source="Jalisco.Bolaños" target="Jalisco.Tolimán" id="141" weight="0.8111184758006802" />
+      <edge source="Jalisco.Bolaños" target="Jalisco.Villa Corona" id="142" weight="0.8106285314590989" />
+      <edge source="Jalisco.Chapala" target="Jalisco.Ixtlahuacán de los Membrillos" id="143" weight="0.7613666189847408" />
+      <edge source="Jalisco.Chapala" target="Jalisco.Lagos de Moreno" id="144" weight="0.7912193123495683" />
+      <edge source="Jalisco.Chapala" target="Jalisco.Ocotlán" id="145" weight="0.7536606086865475" />
+      <edge source="Jalisco.Chapala" target="Jalisco.Puerto Vallarta" id="146" weight="0.8002249075890043" />
+      <edge source="Jalisco.Chapala" target="Jalisco.Tamazula de Gordiano" id="147" weight="0.8004940606539552" />
+      <edge source="Jalisco.Chapala" target="Jalisco.Tecolotlán" id="148" weight="0.7428656821564056" />
+      <edge source="Jalisco.Chapala" target="Jalisco.Tequila" id="149" weight="0.9067438331069838" />
+      <edge source="Jalisco.Chapala" target="Jalisco.Tonaya" id="150" weight="0.7126581847405856" />
+      <edge source="Jalisco.Chapala" target="Jalisco.Tototlán" id="151" weight="0.7753546464700133" />
+      <edge source="Jalisco.Chapala" target="Jalisco.Tuxpan" id="152" weight="0.7914372588688443" />
+      <edge source="Jalisco.Chapala" target="Jalisco.Zacoalco de Torres" id="153" weight="0.8654573130984021" />
+      <edge source="Jalisco.Chapala" target="Jalisco.Zapotiltic" id="154" weight="0.7748878248295554" />
+      <edge source="Jalisco.Chapala" target="Jalisco.Zapotlanejo" id="155" weight="0.8713050100050848" />
+      <edge source="Jalisco.El Arenal" target="Jalisco.Jamay" id="156" weight="0.96657111529181" />
+      <edge source="Jalisco.El Arenal" target="Jalisco.Lagos de Moreno" id="157" weight="0.7104133819481794" />
+      <edge source="Jalisco.El Arenal" target="Jalisco.Ocotlán" id="158" weight="0.703781821978562" />
+      <edge source="Jalisco.El Arenal" target="Jalisco.Pihuamo" id="159" weight="0.7649853748339619" />
+      <edge source="Jalisco.El Arenal" target="Jalisco.Puerto Vallarta" id="160" weight="0.8835158330524191" />
+      <edge source="Jalisco.El Arenal" target="Jalisco.San Sebastián del Oeste" id="161" weight="1.0" />
+      <edge source="Jalisco.El Arenal" target="Jalisco.Tamazula de Gordiano" id="162" weight="0.9166904412964857" />
+      <edge source="Jalisco.El Arenal" target="Jalisco.Tecolotlán" id="163" weight="0.7634244536181488" />
+      <edge source="Jalisco.El Arenal" target="Jalisco.Teocuitatlán de Corona" id="164" weight="0.9986167251090239" />
+      <edge source="Jalisco.El Arenal" target="Jalisco.Tepatitlán de Morelos" id="165" weight="0.790416181506341" />
+      <edge source="Jalisco.El Arenal" target="Jalisco.Tonalá" id="166" weight="1.0" />
+      <edge source="Jalisco.El Arenal" target="Jalisco.Tonaya" id="167" weight="0.9952305789236574" />
+      <edge source="Jalisco.El Arenal" target="Jalisco.Tototlán" id="168" weight="0.9566967244277746" />
+      <edge source="Jalisco.El Arenal" target="Jalisco.Zacoalco de Torres" id="169" weight="0.8742493859192327" />
+      <edge source="Jalisco.El Arenal" target="Jalisco.Zapotiltic" id="170" weight="0.7277359218508209" />
+      <edge source="Jalisco.El Arenal" target="Jalisco.Zapotlanejo" id="171" weight="0.7169075334795831" />
+      <edge source="Jalisco.El Salto" target="Jalisco.Guadalajara" id="172" weight="0.7681585902951452" />
+      <edge source="Jalisco.El Salto" target="Jalisco.Lagos de Moreno" id="173" weight="0.7629552756396032" />
+      <edge source="Jalisco.El Salto" target="Jalisco.Poncitlán" id="174" weight="0.7408971815156284" />
+      <edge source="Jalisco.El Salto" target="Jalisco.San Pedro Tlaquepaque" id="175" weight="0.7883521939624871" />
+      <edge source="Jalisco.El Salto" target="Jalisco.Tequila" id="176" weight="0.7026243132105072" />
+      <edge source="Jalisco.El Salto" target="Jalisco.Tlajomulco de Zúñiga" id="177" weight="0.7228993405659939" />
+      <edge source="Jalisco.El Salto" target="Jalisco.Tuxpan" id="178" weight="0.7111786327650307" />
+      <edge source="Jalisco.El Salto" target="Jalisco.Zapopan" id="179" weight="0.783543301139131" />
+      <edge source="Jalisco.Guadalajara" target="Jalisco.Ixtlahuacán de los Membrillos" id="180" weight="0.7193257745422159" />
+      <edge source="Jalisco.Guadalajara" target="Jalisco.Lagos de Moreno" id="181" weight="0.7416842080408106" />
+      <edge source="Jalisco.Guadalajara" target="Jalisco.Poncitlán" id="182" weight="0.7281123093069736" />
+      <edge source="Jalisco.Guadalajara" target="Jalisco.San Pedro Tlaquepaque" id="183" weight="0.7163710823339036" />
+      <edge source="Jalisco.Guadalajara" target="Jalisco.Tala" id="184" weight="0.7018246772719549" />
+      <edge source="Jalisco.Guadalajara" target="Jalisco.Tequila" id="185" weight="0.7042652006328016" />
+      <edge source="Jalisco.Guadalajara" target="Jalisco.Tlajomulco de Zúñiga" id="186" weight="0.7471914833200843" />
+      <edge source="Jalisco.Guadalajara" target="Jalisco.Zapopan" id="187" weight="0.7159221651393972" />
+      <edge source="Jalisco.Ixtlahuacán de los Membrillos" target="Jalisco.Lagos de Moreno" id="188" weight="0.787929813293672" />
+      <edge source="Jalisco.Ixtlahuacán de los Membrillos" target="Jalisco.Ocotlán" id="189" weight="0.7066848663530655" />
+      <edge source="Jalisco.Ixtlahuacán de los Membrillos" target="Jalisco.Puerto Vallarta" id="190" weight="0.7112429480666806" />
+      <edge source="Jalisco.Ixtlahuacán de los Membrillos" target="Jalisco.Tala" id="191" weight="0.7413359996069931" />
+      <edge source="Jalisco.Ixtlahuacán de los Membrillos" target="Jalisco.Tequila" id="192" weight="0.8397464148014739" />
+      <edge source="Jalisco.Ixtlahuacán de los Membrillos" target="Jalisco.Tuxpan" id="193" weight="0.7688676980097165" />
+      <edge source="Jalisco.Ixtlahuacán de los Membrillos" target="Jalisco.Zacoalco de Torres" id="194" weight="0.7700158940547547" />
+      <edge source="Jalisco.Ixtlahuacán de los Membrillos" target="Jalisco.Zapotlanejo" id="195" weight="0.7537273675268786" />
+      <edge source="Jalisco.Jamay" target="Jalisco.Lagos de Moreno" id="196" weight="0.7226838067023826" />
+      <edge source="Jalisco.Jamay" target="Jalisco.Pihuamo" id="197" weight="0.7493844246093636" />
+      <edge source="Jalisco.Jamay" target="Jalisco.Puerto Vallarta" id="198" weight="0.8539808841314493" />
+      <edge source="Jalisco.Jamay" target="Jalisco.San Sebastián del Oeste" id="199" weight="0.9665711152918101" />
+      <edge source="Jalisco.Jamay" target="Jalisco.Tamazula de Gordiano" id="200" weight="0.8860465022212856" />
+      <edge source="Jalisco.Jamay" target="Jalisco.Tecolotlán" id="201" weight="0.7379040255747349" />
+      <edge source="Jalisco.Jamay" target="Jalisco.Teocuitatlán de Corona" id="202" weight="0.9652340817376841" />
+      <edge source="Jalisco.Jamay" target="Jalisco.Tepatitlán de Morelos" id="203" weight="0.7639934501032777" />
+      <edge source="Jalisco.Jamay" target="Jalisco.Tonalá" id="204" weight="0.96657111529181" />
+      <edge source="Jalisco.Jamay" target="Jalisco.Tonaya" id="205" weight="0.9619611306427533" />
+      <edge source="Jalisco.Jamay" target="Jalisco.Tototlán" id="206" weight="0.9247202851102261" />
+      <edge source="Jalisco.Jamay" target="Jalisco.Zacoalco de Torres" id="207" weight="0.8450242039911329" />
+      <edge source="Jalisco.Jamay" target="Jalisco.Zapotiltic" id="208" weight="0.7035143774279267" />
+      <edge source="Jalisco.Jilotlán de los Dolores" target="Jalisco.Tolimán" id="209" weight="0.8661711710799799" />
+      <edge source="Jalisco.Jilotlán de los Dolores" target="Jalisco.Villa Corona" id="210" weight="0.8613672342686282" />
+      <edge source="Jalisco.Lagos de Moreno" target="Jalisco.Ocotlán" id="211" weight="0.7796221264248645" />
+      <edge source="Jalisco.Lagos de Moreno" target="Jalisco.Pihuamo" id="212" weight="0.7156207903488223" />
+      <edge source="Jalisco.Lagos de Moreno" target="Jalisco.Puerto Vallarta" id="213" weight="0.8337509311313742" />
+      <edge source="Jalisco.Lagos de Moreno" target="Jalisco.San Pedro Tlaquepaque" id="214" weight="0.8638650399025259" />
+      <edge source="Jalisco.Lagos de Moreno" target="Jalisco.San Sebastián del Oeste" id="215" weight="0.7104133819481794" />
+      <edge source="Jalisco.Lagos de Moreno" target="Jalisco.Tala" id="216" weight="0.900610583017504" />
+      <edge source="Jalisco.Lagos de Moreno" target="Jalisco.Tamazula de Gordiano" id="217" weight="0.8133346179422608" />
+      <edge source="Jalisco.Lagos de Moreno" target="Jalisco.Tecolotlán" id="218" weight="0.8391156080597164" />
+      <edge source="Jalisco.Lagos de Moreno" target="Jalisco.Teocuitatlán de Corona" id="219" weight="0.7244797491715245" />
+      <edge source="Jalisco.Lagos de Moreno" target="Jalisco.Tepatitlán de Morelos" id="220" weight="0.7041431505569556" />
+      <edge source="Jalisco.Lagos de Moreno" target="Jalisco.Tequila" id="221" weight="0.8280223903322395" />
+      <edge source="Jalisco.Lagos de Moreno" target="Jalisco.Tonalá" id="222" weight="0.7104133819481795" />
+      <edge source="Jalisco.Lagos de Moreno" target="Jalisco.Tonaya" id="223" weight="0.721621641219056" />
+      <edge source="Jalisco.Lagos de Moreno" target="Jalisco.Tototlán" id="224" weight="0.7911889601738364" />
+      <edge source="Jalisco.Lagos de Moreno" target="Jalisco.Tuxpan" id="225" weight="0.8837741022429901" />
+      <edge source="Jalisco.Lagos de Moreno" target="Jalisco.Zacoalco de Torres" id="226" weight="0.7838462949765115" />
+      <edge source="Jalisco.Lagos de Moreno" target="Jalisco.Zapopan" id="227" weight="0.7469887737240049" />
+      <edge source="Jalisco.Lagos de Moreno" target="Jalisco.Zapotiltic" id="228" weight="0.7842525857253285" />
+      <edge source="Jalisco.Lagos de Moreno" target="Jalisco.Zapotlanejo" id="229" weight="0.8573241979398243" />
+      <edge source="Jalisco.Ocotlán" target="Jalisco.Pihuamo" id="230" weight="0.7223988715286396" />
+      <edge source="Jalisco.Ocotlán" target="Jalisco.Puerto Vallarta" id="231" weight="0.8151013016306364" />
+      <edge source="Jalisco.Ocotlán" target="Jalisco.San Sebastián del Oeste" id="232" weight="0.703781821978562" />
+      <edge source="Jalisco.Ocotlán" target="Jalisco.Tala" id="233" weight="0.7092715133391884" />
+      <edge source="Jalisco.Ocotlán" target="Jalisco.Tamazula de Gordiano" id="234" weight="0.7825378630438286" />
+      <edge source="Jalisco.Ocotlán" target="Jalisco.Tecolotlán" id="235" weight="0.7487765400720993" />
+      <edge source="Jalisco.Ocotlán" target="Jalisco.Teocuitatlán de Corona" id="236" weight="0.7212007157733427" />
+      <edge source="Jalisco.Ocotlán" target="Jalisco.Tequila" id="237" weight="0.837071130255398" />
+      <edge source="Jalisco.Ocotlán" target="Jalisco.Tonalá" id="238" weight="0.703781821978562" />
+      <edge source="Jalisco.Ocotlán" target="Jalisco.Tonaya" id="239" weight="0.7207499466076217" />
+      <edge source="Jalisco.Ocotlán" target="Jalisco.Tototlán" id="240" weight="0.7680314536813032" />
+      <edge source="Jalisco.Ocotlán" target="Jalisco.Tuxpan" id="241" weight="0.7585962374847671" />
+      <edge source="Jalisco.Ocotlán" target="Jalisco.Zacoalco de Torres" id="242" weight="0.7972540601553209" />
+      <edge source="Jalisco.Ocotlán" target="Jalisco.Zapotiltic" id="243" weight="0.7012863623347889" />
+      <edge source="Jalisco.Ocotlán" target="Jalisco.Zapotlanejo" id="244" weight="0.8377862970289093" />
+      <edge source="Jalisco.Pihuamo" target="Jalisco.Puerto Vallarta" id="245" weight="0.7927028314851868" />
+      <edge source="Jalisco.Pihuamo" target="Jalisco.San Sebastián del Oeste" id="246" weight="0.7649853748339619" />
+      <edge source="Jalisco.Pihuamo" target="Jalisco.Tamazula de Gordiano" id="247" weight="0.7726393458420451" />
+      <edge source="Jalisco.Pihuamo" target="Jalisco.Tecolotlán" id="248" weight="0.7051929818684273" />
+      <edge source="Jalisco.Pihuamo" target="Jalisco.Teocuitatlán de Corona" id="249" weight="0.767242490567004" />
+      <edge source="Jalisco.Pihuamo" target="Jalisco.Tepatitlán de Morelos" id="250" weight="0.7268093126495558" />
+      <edge source="Jalisco.Pihuamo" target="Jalisco.Tequila" id="251" weight="0.7307544778672775" />
+      <edge source="Jalisco.Pihuamo" target="Jalisco.Tonalá" id="252" weight="0.7649853748339619" />
+      <edge source="Jalisco.Pihuamo" target="Jalisco.Tonaya" id="253" weight="0.7776802290424013" />
+      <edge source="Jalisco.Pihuamo" target="Jalisco.Tototlán" id="254" weight="0.7674328010816768" />
+      <edge source="Jalisco.Pihuamo" target="Jalisco.Zacoalco de Torres" id="255" weight="0.778726154764433" />
+      <edge source="Jalisco.Pihuamo" target="Jalisco.Zapotlanejo" id="256" weight="0.7284972615282662" />
+      <edge source="Jalisco.Poncitlán" target="Jalisco.Tequila" id="257" weight="0.7001998218268295" />
+      <edge source="Jalisco.Puerto Vallarta" target="Jalisco.San Sebastián del Oeste" id="258" weight="0.8835158330524191" />
+      <edge source="Jalisco.Puerto Vallarta" target="Jalisco.Tala" id="259" weight="0.7601861631087394" />
+      <edge source="Jalisco.Puerto Vallarta" target="Jalisco.Tamazula de Gordiano" id="260" weight="0.9487566906384631" />
+      <edge source="Jalisco.Puerto Vallarta" target="Jalisco.Tecolotlán" id="261" weight="0.8482900032779129" />
+      <edge source="Jalisco.Puerto Vallarta" target="Jalisco.Teocuitatlán de Corona" id="262" weight="0.8863455404405447" />
+      <edge source="Jalisco.Puerto Vallarta" target="Jalisco.Tepatitlán de Morelos" id="263" weight="0.7505363886049623" />
+      <edge source="Jalisco.Puerto Vallarta" target="Jalisco.Tequila" id="264" weight="0.8657165613337493" />
+      <edge source="Jalisco.Puerto Vallarta" target="Jalisco.Tonalá" id="265" weight="0.883515833052419" />
+      <edge source="Jalisco.Puerto Vallarta" target="Jalisco.Tonaya" id="266" weight="0.8878403146535201" />
+      <edge source="Jalisco.Puerto Vallarta" target="Jalisco.Tototlán" id="267" weight="0.9471160123890581" />
+      <edge source="Jalisco.Puerto Vallarta" target="Jalisco.Tuxpan" id="268" weight="0.8087142607551991" />
+      <edge source="Jalisco.Puerto Vallarta" target="Jalisco.Zacoalco de Torres" id="269" weight="0.878062101884133" />
+      <edge source="Jalisco.Puerto Vallarta" target="Jalisco.Zapotiltic" id="270" weight="0.8226717214278277" />
+      <edge source="Jalisco.Puerto Vallarta" target="Jalisco.Zapotlanejo" id="271" weight="0.894544296824701" />
+      <edge source="Jalisco.San Juan de los Lagos" target="Jalisco.Villa Corona" id="272" weight="0.7601301201645267" />
+      <edge source="Jalisco.San Juan de los Lagos" target="Jalisco.Zapotlán el Grande" id="273" weight="0.9095728455338656" />
+      <edge source="Jalisco.San Pedro Tlaquepaque" target="Jalisco.Tala" id="274" weight="0.7759316320134203" />
+      <edge source="Jalisco.San Pedro Tlaquepaque" target="Jalisco.Tecolotlán" id="275" weight="0.742582127660197" />
+      <edge source="Jalisco.San Pedro Tlaquepaque" target="Jalisco.Tuxpan" id="276" weight="0.7681226583687184" />
+      <edge source="Jalisco.San Pedro Tlaquepaque" target="Jalisco.Zapopan" id="277" weight="0.7914046637539047" />
+      <edge source="Jalisco.San Pedro Tlaquepaque" target="Jalisco.Zapotiltic" id="278" weight="0.7465033114904109" />
+      <edge source="Jalisco.San Pedro Tlaquepaque" target="Jalisco.Zapotlanejo" id="279" weight="0.7105049747343001" />
+      <edge source="Jalisco.San Sebastián del Oeste" target="Jalisco.Tamazula de Gordiano" id="280" weight="0.9166904412964855" />
+      <edge source="Jalisco.San Sebastián del Oeste" target="Jalisco.Tecolotlán" id="281" weight="0.7634244536181489" />
+      <edge source="Jalisco.San Sebastián del Oeste" target="Jalisco.Teocuitatlán de Corona" id="282" weight="0.9986167251090239" />
+      <edge source="Jalisco.San Sebastián del Oeste" target="Jalisco.Tepatitlán de Morelos" id="283" weight="0.7904161815063411" />
+      <edge source="Jalisco.San Sebastián del Oeste" target="Jalisco.Tonalá" id="284" weight="1.0" />
+      <edge source="Jalisco.San Sebastián del Oeste" target="Jalisco.Tonaya" id="285" weight="0.9952305789236573" />
+      <edge source="Jalisco.San Sebastián del Oeste" target="Jalisco.Tototlán" id="286" weight="0.9566967244277745" />
+      <edge source="Jalisco.San Sebastián del Oeste" target="Jalisco.Zacoalco de Torres" id="287" weight="0.8742493859192328" />
+      <edge source="Jalisco.San Sebastián del Oeste" target="Jalisco.Zapotiltic" id="288" weight="0.727735921850821" />
+      <edge source="Jalisco.San Sebastián del Oeste" target="Jalisco.Zapotlanejo" id="289" weight="0.7169075334795831" />
+      <edge source="Jalisco.Tala" target="Jalisco.Tamazula de Gordiano" id="290" weight="0.7191947685278148" />
+      <edge source="Jalisco.Tala" target="Jalisco.Tequila" id="291" weight="0.7562348108900139" />
+      <edge source="Jalisco.Tala" target="Jalisco.Tototlán" id="292" weight="0.7095993590901579" />
+      <edge source="Jalisco.Tala" target="Jalisco.Tuxpan" id="293" weight="0.759108500313285" />
+      <edge source="Jalisco.Tala" target="Jalisco.Zacoalco de Torres" id="294" weight="0.7331902743615699" />
+      <edge source="Jalisco.Tala" target="Jalisco.Zapotlanejo" id="295" weight="0.7843241356784798" />
+      <edge source="Jalisco.Tamazula de Gordiano" target="Jalisco.Tecolotlán" id="296" weight="0.8671081239239313" />
+      <edge source="Jalisco.Tamazula de Gordiano" target="Jalisco.Teocuitatlán de Corona" id="297" weight="0.9239127119182206" />
+      <edge source="Jalisco.Tamazula de Gordiano" target="Jalisco.Tepatitlán de Morelos" id="298" weight="0.8062079042581325" />
+      <edge source="Jalisco.Tamazula de Gordiano" target="Jalisco.Tequila" id="299" weight="0.8196580902879707" />
+      <edge source="Jalisco.Tamazula de Gordiano" target="Jalisco.Tonalá" id="300" weight="0.9166904412964855" />
+      <edge source="Jalisco.Tamazula de Gordiano" target="Jalisco.Tonaya" id="301" weight="0.9123183585852844" />
+      <edge source="Jalisco.Tamazula de Gordiano" target="Jalisco.Tototlán" id="302" weight="0.9888220934432863" />
+      <edge source="Jalisco.Tamazula de Gordiano" target="Jalisco.Tuxpan" id="303" weight="0.7796213735626831" />
+      <edge source="Jalisco.Tamazula de Gordiano" target="Jalisco.Zacoalco de Torres" id="304" weight="0.8845105779797847" />
+      <edge source="Jalisco.Tamazula de Gordiano" target="Jalisco.Zapotiltic" id="305" weight="0.826650564542768" />
+      <edge source="Jalisco.Tamazula de Gordiano" target="Jalisco.Zapotlanejo" id="306" weight="0.8382674647162787" />
+      <edge source="Jalisco.Tecolotlán" target="Jalisco.Teocuitatlán de Corona" id="307" weight="0.7815196386992456" />
+      <edge source="Jalisco.Tecolotlán" target="Jalisco.Tequila" id="308" weight="0.7922824038825947" />
+      <edge source="Jalisco.Tecolotlán" target="Jalisco.Tonalá" id="309" weight="0.7634244536181488" />
+      <edge source="Jalisco.Tecolotlán" target="Jalisco.Tonaya" id="310" weight="0.7667049707014626" />
+      <edge source="Jalisco.Tecolotlán" target="Jalisco.Tototlán" id="311" weight="0.8486261244988544" />
+      <edge source="Jalisco.Tecolotlán" target="Jalisco.Tuxpan" id="312" weight="0.7444367658463451" />
+      <edge source="Jalisco.Tecolotlán" target="Jalisco.Zacoalco de Torres" id="313" weight="0.7917221157179172" />
+      <edge source="Jalisco.Tecolotlán" target="Jalisco.Zapotiltic" id="314" weight="0.7528391929448461" />
+      <edge source="Jalisco.Tecolotlán" target="Jalisco.Zapotlanejo" id="315" weight="0.8098192601958685" />
+      <edge source="Jalisco.Teocuitatlán de Corona" target="Jalisco.Tepatitlán de Morelos" id="316" weight="0.7926389011448947" />
+      <edge source="Jalisco.Teocuitatlán de Corona" target="Jalisco.Tonalá" id="317" weight="0.9986167251090239" />
+      <edge source="Jalisco.Teocuitatlán de Corona" target="Jalisco.Tonaya" id="318" weight="0.9938539014531006" />
+      <edge source="Jalisco.Teocuitatlán de Corona" target="Jalisco.Tototlán" id="319" weight="0.9605472324742175" />
+      <edge source="Jalisco.Teocuitatlán de Corona" target="Jalisco.Zacoalco de Torres" id="320" weight="0.8807801961216438" />
+      <edge source="Jalisco.Teocuitatlán de Corona" target="Jalisco.Zapotiltic" id="321" weight="0.733614017537941" />
+      <edge source="Jalisco.Teocuitatlán de Corona" target="Jalisco.Zapotlanejo" id="322" weight="0.7268572663052328" />
+      <edge source="Jalisco.Tepatitlán de Morelos" target="Jalisco.Tonalá" id="323" weight="0.790416181506341" />
+      <edge source="Jalisco.Tepatitlán de Morelos" target="Jalisco.Tonaya" id="324" weight="0.7866463539111823" />
+      <edge source="Jalisco.Tepatitlán de Morelos" target="Jalisco.Tototlán" id="325" weight="0.7947073898513791" />
+      <edge source="Jalisco.Tepatitlán de Morelos" target="Jalisco.Zacoalco de Torres" id="326" weight="0.7299346091875873" />
+      <edge source="Jalisco.Tepatitlán de Morelos" target="Jalisco.Zapotiltic" id="327" weight="0.752429651198442" />
+      <edge source="Jalisco.Tequila" target="Jalisco.Tototlán" id="328" weight="0.7908282793808803" />
+      <edge source="Jalisco.Tequila" target="Jalisco.Tuxpan" id="329" weight="0.819126088934432" />
+      <edge source="Jalisco.Tequila" target="Jalisco.Zacoalco de Torres" id="330" weight="0.909820365177893" />
+      <edge source="Jalisco.Tequila" target="Jalisco.Zapotiltic" id="331" weight="0.7661574769050176" />
+      <edge source="Jalisco.Tequila" target="Jalisco.Zapotlanejo" id="332" weight="0.9033190272832436" />
+      <edge source="Jalisco.Tolimán" target="Jalisco.Villa Corona" id="333" weight="0.8893016842043497" />
+      <edge source="Jalisco.Tonalá" target="Jalisco.Tonaya" id="334" weight="0.9952305789236574" />
+      <edge source="Jalisco.Tonalá" target="Jalisco.Tototlán" id="335" weight="0.9566967244277745" />
+      <edge source="Jalisco.Tonalá" target="Jalisco.Zacoalco de Torres" id="336" weight="0.8742493859192328" />
+      <edge source="Jalisco.Tonalá" target="Jalisco.Zapotiltic" id="337" weight="0.7277359218508209" />
+      <edge source="Jalisco.Tonalá" target="Jalisco.Zapotlanejo" id="338" weight="0.716907533479583" />
+      <edge source="Jalisco.Tonaya" target="Jalisco.Tototlán" id="339" weight="0.9521543224006634" />
+      <edge source="Jalisco.Tonaya" target="Jalisco.Zacoalco de Torres" id="340" weight="0.876826558499997" />
+      <edge source="Jalisco.Tonaya" target="Jalisco.Zapotiltic" id="341" weight="0.7412430648762972" />
+      <edge source="Jalisco.Tonaya" target="Jalisco.Zapotlanejo" id="342" weight="0.7479191431079842" />
+      <edge source="Jalisco.Tototlán" target="Jalisco.Tuxpan" id="343" weight="0.7593143608519785" />
+      <edge source="Jalisco.Tototlán" target="Jalisco.Zacoalco de Torres" id="344" weight="0.8996676186789064" />
+      <edge source="Jalisco.Tototlán" target="Jalisco.Zapotiltic" id="345" weight="0.8085236645903116" />
+      <edge source="Jalisco.Tototlán" target="Jalisco.Zapotlanejo" id="346" weight="0.8166249787303491" />
+      <edge source="Jalisco.Tuxpan" target="Jalisco.Zacoalco de Torres" id="347" weight="0.7760064580086682" />
+      <edge source="Jalisco.Tuxpan" target="Jalisco.Zapotiltic" id="348" weight="0.7903269945010177" />
+      <edge source="Jalisco.Tuxpan" target="Jalisco.Zapotlanejo" id="349" weight="0.8612521597761598" />
+      <edge source="Jalisco.Zacoalco de Torres" target="Jalisco.Zapotiltic" id="350" weight="0.7777684764042283" />
+      <edge source="Jalisco.Zacoalco de Torres" target="Jalisco.Zapotlanejo" id="351" weight="0.8139911806338757" />
+      <edge source="Jalisco.Zapotiltic" target="Jalisco.Zapotlanejo" id="352" weight="0.8211836471971674" />
+    </edges>
+  </graph>
+</gexf>

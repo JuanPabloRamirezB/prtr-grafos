@@ -1,0 +1,222 @@
+<?xml version='1.0' encoding='utf-8'?>
+<gexf xmlns="http://www.gexf.net/1.2draft" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.gexf.net/1.2draft http://www.gexf.net/1.2draft/gexf.xsd" version="1.2">
+  <meta lastmodifieddate="2026-10-16">
+    <creator>NetworkX 3.7</creator>
+  </meta>
+  <graph defaultedgetype="undirected" mode="static" name="">
+    <attributes mode="static" class="node">
+      <attribute id="0" title="type" type="string" />
+      <attribute id="1" title="total_kg" type="double" />
+    </attributes>
+    <nodes>
+      <node id="LOC::Querétaro.Querétaro" label="Querétaro.Querétaro">
+        <attvalues>
+          <attvalue for="0" value="location" />
+          <attvalue for="1" value="12485031865.21839" />
+        </attvalues>
+      </node>
+      <node id="LOC::Querétaro.El Marqués" label="Querétaro.El Marqués">
+        <attvalues>
+          <attvalue for="0" value="location" />
+          <attvalue for="1" value="1915706261.5181544" />
+        </attvalues>
+      </node>
+      <node id="LOC::Querétaro.Corregidora" label="Querétaro.Corregidora">
+        <attvalues>
+          <attvalue for="0" value="location" />
+          <attvalue for="1" value="1359850846.3078823" />
+        </attvalues>
+      </node>
+      <node id="LOC::Querétaro.Pedro Escobedo" label="Querétaro.Pedro Escobedo">
+        <attvalues>
+          <attvalue for="0" value="location" />
+          <attvalue for="1" value="14640634300.41403" />
+        </attvalues>
+      </node>
+      <node id="LOC::Querétaro.San Juan del Río" label="Querétaro.San Juan del Río">
+        <attvalues>
+          <attvalue for="0" value="location" />
+          <attvalue for="1" value="4636900362.45747" />
+        </attvalues>
+      </node>
+      <node id="LOC::Querétaro.Cadereyta de Montes" label="Querétaro.Cadereyta de Montes">
+        <attvalues>
+          <attvalue for="0" value="location" />
+          <attvalue for="1" value="224849806.0305721" />
+        </attvalues>
+      </node>
+      <node id="LOC::Querétaro.Colón" label="Querétaro.Colón">
+        <attvalues>
+          <attvalue for="0" value="location" />
+          <attvalue for="1" value="99340741.8950714" />
+        </attvalues>
+      </node>
+      <node id="LOC::Querétaro.Amealco de Bonfil" label="Querétaro.Amealco de Bonfil">
+        <attvalues>
+          <attvalue for="0" value="location" />
+          <attvalue for="1" value="942000.0" />
+        </attvalues>
+      </node>
+      <node id="LOC::Querétaro.Tequisquiapan" label="Querétaro.Tequisquiapan">
+        <attvalues>
+          <attvalue for="0" value="location" />
+          <attvalue for="1" value="3.7792807999999996" />
+        </attvalues>
+      </node>
+      <node id="LOC::Querétaro.San Joaquín" label="Querétaro.San Joaquín">
+        <attvalues>
+          <attvalue for="0" value="location" />
+          <attvalue for="1" value="2034470.576120431" />
+        </attvalues>
+      </node>
+      <node id="LOC::Querétaro.Ezequiel Montes" label="Querétaro.Ezequiel Montes">
+        <attvalues>
+          <attvalue for="0" value="location" />
+          <attvalue for="1" value="64936048.464999996" />
+        </attvalues>
+      </node>
+      <node id="LOC::Querétaro.Tolimán" label="Querétaro.Tolimán">
+        <attvalues>
+          <attvalue for="0" value="location" />
+          <attvalue for="1" value="689821760.421" />
+        </attvalues>
+      </node>
+      <node id="LOC::Querétaro.Huimilpan" label="Querétaro.Huimilpan">
+        <attvalues>
+          <attvalue for="0" value="location" />
+          <attvalue for="1" value="20846849.54" />
+        </attvalues>
+      </node>
+      <node id="MED::agua" label="water">
+        <attvalues>
+          <attvalue for="0" value="medio" />
+          <attvalue for="1" value="1066894.9909851514" />
+        </attvalues>
+      </node>
+      <node id="MED::aire" label="air">
+        <attvalues>
+          <attvalue for="0" value="medio" />
+          <attvalue for="1" value="36128422094.52215" />
+        </attvalues>
+      </node>
+      <node id="MED::suelo" label="soil">
+        <attvalues>
+          <attvalue for="0" value="medio" />
+          <attvalue for="1" value="20143.861382568477" />
+        </attvalues>
+      </node>
+      <node id="MED::alcantarillado" label="sewer system">
+        <attvalues>
+          <attvalue for="0" value="medio" />
+          <attvalue for="1" value="33050.353570802705" />
+        </attvalues>
+      </node>
+      <node id="MED::coprocesamiento" label="co-processing">
+        <attvalues>
+          <attvalue for="0" value="medio" />
+          <attvalue for="1" value="403794.1690400001" />
+        </attvalues>
+      </node>
+      <node id="MED::disposicion_final" label="final disposal">
+        <attvalues>
+          <attvalue for="0" value="medio" />
+          <attvalue for="1" value="1041059.3462306001" />
+        </attvalues>
+      </node>
+      <node id="MED::incineracion" label="incineration">
+        <attvalues>
+          <attvalue for="0" value="medio" />
+          <attvalue for="1" value="156921.902" />
+        </attvalues>
+      </node>
+      <node id="MED::otros" label="other">
+        <attvalues>
+          <attvalue for="0" value="medio" />
+          <attvalue for="1" value="962624.3669882322" />
+        </attvalues>
+      </node>
+      <node id="MED::reciclado" label="recycling">
+        <attvalues>
+          <attvalue for="0" value="medio" />
+          <attvalue for="1" value="7331439.960099999" />
+        </attvalues>
+      </node>
+      <node id="MED::reutilizacion" label="reuse">
+        <attvalues>
+          <attvalue for="0" value="medio" />
+          <attvalue for="1" value="830633.5635" />
+        </attvalues>
+      </node>
+      <node id="MED::tratamiento" label="treatment">
+        <attvalues>
+          <attvalue for="0" value="medio" />
+          <attvalue for="1" value="626659.5870534738" />
+        </attvalues>
+      </node>
+    </nodes>
+    <edges>
+      <edge source="LOC::Querétaro.Querétaro" target="MED::agua" id="0" weight="59491.2409879041" />
+      <edge source="LOC::Querétaro.Querétaro" target="MED::aire" id="1" weight="12474247035.702604" />
+      <edge source="LOC::Querétaro.Querétaro" target="MED::suelo" id="2" weight="9658.666011530482" />
+      <edge source="LOC::Querétaro.Querétaro" target="MED::alcantarillado" id="3" weight="27104.700919878032" />
+      <edge source="LOC::Querétaro.Querétaro" target="MED::coprocesamiento" id="4" weight="253788.70600000003" />
+      <edge source="LOC::Querétaro.Querétaro" target="MED::disposicion_final" id="5" weight="671456.6962096" />
+      <edge source="LOC::Querétaro.Querétaro" target="MED::incineracion" id="6" weight="152143.0" />
+      <edge source="LOC::Querétaro.Querétaro" target="MED::otros" id="7" weight="958984.6388823343" />
+      <edge source="LOC::Querétaro.Querétaro" target="MED::reciclado" id="8" weight="7296104.920000001" />
+      <edge source="LOC::Querétaro.Querétaro" target="MED::reutilizacion" id="9" weight="734849.3999999999" />
+      <edge source="LOC::Querétaro.Querétaro" target="MED::tratamiento" id="10" weight="621247.5467964738" />
+      <edge source="LOC::Querétaro.El Marqués" target="MED::agua" id="11" weight="1699.1785887655005" />
+      <edge source="LOC::Querétaro.El Marqués" target="MED::aire" id="12" weight="1915416204.2929225" />
+      <edge source="LOC::Querétaro.El Marqués" target="MED::suelo" id="13" weight="7642.983213260885" />
+      <edge source="LOC::Querétaro.El Marqués" target="MED::alcantarillado" id="14" weight="2480.7419775862595" />
+      <edge source="LOC::Querétaro.El Marqués" target="MED::coprocesamiento" id="15" weight="134972.87120000002" />
+      <edge source="LOC::Querétaro.El Marqués" target="MED::disposicion_final" id="16" weight="19818.300021000003" />
+      <edge source="LOC::Querétaro.El Marqués" target="MED::incineracion" id="17" weight="4778.902" />
+      <edge source="LOC::Querétaro.El Marqués" target="MED::otros" id="18" weight="3205.129314747999" />
+      <edge source="LOC::Querétaro.El Marqués" target="MED::reciclado" id="19" weight="21489.513999999996" />
+      <edge source="LOC::Querétaro.El Marqués" target="MED::reutilizacion" id="20" weight="89617.7935" />
+      <edge source="LOC::Querétaro.El Marqués" target="MED::tratamiento" id="21" weight="4351.811416" />
+      <edge source="LOC::Querétaro.Corregidora" target="MED::agua" id="22" weight="87.01883000364994" />
+      <edge source="LOC::Querétaro.Corregidora" target="MED::aire" id="23" weight="1359813125.484859" />
+      <edge source="LOC::Querétaro.Corregidora" target="MED::suelo" id="24" weight="246.64579301460003" />
+      <edge source="LOC::Querétaro.Corregidora" target="MED::alcantarillado" id="25" weight="12.1129" />
+      <edge source="LOC::Querétaro.Corregidora" target="MED::coprocesamiento" id="26" weight="2024.0" />
+      <edge source="LOC::Querétaro.Corregidora" target="MED::disposicion_final" id="27" weight="34410.0" />
+      <edge source="LOC::Querétaro.Corregidora" target="MED::reciclado" id="28" weight="95.88" />
+      <edge source="LOC::Querétaro.Corregidora" target="MED::tratamiento" id="29" weight="845.1655" />
+      <edge source="LOC::Querétaro.Pedro Escobedo" target="MED::agua" id="30" weight="10407.130387785655" />
+      <edge source="LOC::Querétaro.Pedro Escobedo" target="MED::aire" id="31" weight="14640563061.26098" />
+      <edge source="LOC::Querétaro.Pedro Escobedo" target="MED::suelo" id="32" weight="554.8438724213999" />
+      <edge source="LOC::Querétaro.Pedro Escobedo" target="MED::disposicion_final" id="33" weight="60206.0" />
+      <edge source="LOC::Querétaro.Pedro Escobedo" target="MED::otros" id="34" weight="71.17879115" />
+      <edge source="LOC::Querétaro.San Juan del Río" target="MED::agua" id="35" weight="53140.052524193896" />
+      <edge source="LOC::Querétaro.San Juan del Río" target="MED::aire" id="36" weight="4636598080.607091" />
+      <edge source="LOC::Querétaro.San Juan del Río" target="MED::suelo" id="37" weight="1580.0356015411242" />
+      <edge source="LOC::Querétaro.San Juan del Río" target="MED::alcantarillado" id="38" weight="3451.884813338427" />
+      <edge source="LOC::Querétaro.San Juan del Río" target="MED::disposicion_final" id="39" weight="224193.725" />
+      <edge source="LOC::Querétaro.San Juan del Río" target="MED::reciclado" id="40" weight="13749.646100000002" />
+      <edge source="LOC::Querétaro.San Juan del Río" target="MED::reutilizacion" id="41" weight="6166.370000000001" />
+      <edge source="LOC::Querétaro.San Juan del Río" target="MED::tratamiento" id="42" weight="0.136341" />
+      <edge source="LOC::Querétaro.Cadereyta de Montes" target="MED::agua" id="43" weight="5.880661992" />
+      <edge source="LOC::Querétaro.Cadereyta de Montes" target="MED::aire" id="44" weight="224849563.5351" />
+      <edge source="LOC::Querétaro.Cadereyta de Montes" target="MED::suelo" id="45" weight="236.61481" />
+      <edge source="LOC::Querétaro.Colón" target="MED::agua" id="46" weight="61.89900450720002" />
+      <edge source="LOC::Querétaro.Colón" target="MED::aire" id="47" weight="99295896.33146682" />
+      <edge source="LOC::Querétaro.Colón" target="MED::suelo" id="48" weight="222.88279999999995" />
+      <edge source="LOC::Querétaro.Colón" target="MED::alcantarillado" id="49" weight="0.91296" />
+      <edge source="LOC::Querétaro.Colón" target="MED::coprocesamiento" id="50" weight="13008.591840000001" />
+      <edge source="LOC::Querétaro.Colón" target="MED::disposicion_final" id="51" weight="30972.93" />
+      <edge source="LOC::Querétaro.Colón" target="MED::otros" id="52" weight="363.42" />
+      <edge source="LOC::Querétaro.Colón" target="MED::tratamiento" id="53" weight="214.92700000000002" />
+      <edge source="LOC::Querétaro.Amealco de Bonfil" target="MED::agua" id="54" weight="942000.0" />
+      <edge source="LOC::Querétaro.Tequisquiapan" target="MED::agua" id="55" weight="2.5900000000000003" />
+      <edge source="LOC::Querétaro.Tequisquiapan" target="MED::suelo" id="56" weight="1.1892808000000001" />
+      <edge source="LOC::Querétaro.San Joaquín" target="MED::aire" id="57" weight="2034470.576120431" />
+      <edge source="LOC::Querétaro.Ezequiel Montes" target="MED::aire" id="58" weight="64936046.769999996" />
+      <edge source="LOC::Querétaro.Ezequiel Montes" target="MED::disposicion_final" id="59" weight="1.695" />
+      <edge source="LOC::Querétaro.Tolimán" target="MED::aire" id="60" weight="689821760.421" />
+      <edge source="LOC::Querétaro.Huimilpan" target="MED::aire" id="61" weight="20846849.54" />
+    </edges>
+  </graph>
+</gexf>

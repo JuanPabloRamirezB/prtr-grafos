@@ -1,0 +1,224 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<gexf xmlns="http://gexf.net/1.3" version="1.3" xmlns:viz="http://gexf.net/1.3/viz" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://gexf.net/1.3 http://gexf.net/1.3/gexf.xsd">
+  <meta lastmodifieddate="2026-10-16">
+    <creator>Apache NetBeans Platform Dev (Build {0})</creator>
+    <title></title>
+    <description></description>
+  </meta>
+  <graph defaultedgetype="undirected" mode="static">
+    <attributes class="node" mode="static">
+      <attribute id="0" title="total_kg" type="double"/>
+      <attribute id="modularity_class" title="Modularity Class" type="integer">
+        <default>0</default>
+      </attribute>
+    </attributes>
+    <nodes>
+      <node id="Durango.Cuencamé" label="Durango.Cuencamé">
+        <attvalues>
+          <attvalue for="0" value="1142419.244432878"/>
+          <attvalue for="modularity_class" value="0"/>
+        </attvalues>
+        <viz:size value="8.1009865"/>
+        <viz:position x="21.573326" y="108.45298"/>
+        <viz:color r="42" g="120" b="214"/>
+      </node>
+      <node id="Durango.San Dimas" label="Durango.San Dimas">
+        <attvalues>
+          <attvalue for="0" value="2.2136412290161733E7"/>
+          <attvalue for="modularity_class" value="0"/>
+        </attvalues>
+        <viz:size value="8.119116"/>
+        <viz:position x="0.0" y="74.63867"/>
+        <viz:color r="42" g="120" b="214"/>
+      </node>
+      <node id="Durango.Santiago Papasquiaro" label="Durango.Santiago Papasquiaro">
+        <attvalues>
+          <attvalue for="0" value="2.634418797254125E7"/>
+          <attvalue for="modularity_class" value="0"/>
+        </attvalues>
+        <viz:size value="8.122749"/>
+        <viz:position x="58.240032" y="107.144196"/>
+        <viz:color r="42" g="120" b="214"/>
+      </node>
+      <node id="Durango.Tepehuanes" label="Durango.Tepehuanes">
+        <attvalues>
+          <attvalue for="0" value="500.367903"/>
+          <attvalue for="modularity_class" value="0"/>
+        </attvalues>
+        <viz:size value="8.1"/>
+        <viz:position x="33.307114" y="71.734604"/>
+        <viz:color r="42" g="120" b="214"/>
+      </node>
+      <node id="Durango.Topia" label="Durango.Topia">
+        <attvalues>
+          <attvalue for="0" value="3.48925959994594E7"/>
+          <attvalue for="modularity_class" value="0"/>
+        </attvalues>
+        <viz:size value="8.130131"/>
+        <viz:position x="68.29921" y="67.15233"/>
+        <viz:color r="42" g="120" b="214"/>
+      </node>
+      <node id="Durango.Durango" label="Durango.Durango">
+        <attvalues>
+          <attvalue for="0" value="1.6645808194669138E10"/>
+          <attvalue for="modularity_class" value="1"/>
+        </attvalues>
+        <viz:size value="22.474127"/>
+        <viz:position x="172.04965" y="60.87029"/>
+        <viz:color r="235" g="104" b="52"/>
+      </node>
+      <node id="Durango.Gómez Palacio" label="Durango.Gómez Palacio">
+        <attvalues>
+          <attvalue for="0" value="2.5361069053065506E10"/>
+          <attvalue for="modularity_class" value="1"/>
+        </attvalues>
+        <viz:size value="30.0"/>
+        <viz:position x="152.07419" y="47.58263"/>
+        <viz:color r="235" g="104" b="52"/>
+      </node>
+      <node id="Durango.Guanaceví" label="Durango.Guanaceví">
+        <attvalues>
+          <attvalue for="0" value="622553.1152895417"/>
+          <attvalue for="modularity_class" value="2"/>
+        </attvalues>
+        <viz:size value="8.100537"/>
+        <viz:position x="29.053905" y="33.578175"/>
+        <viz:color r="27" g="175" b="122"/>
+      </node>
+      <node id="Durango.Lerdo" label="Durango.Lerdo">
+        <attvalues>
+          <attvalue for="0" value="2.2692147227077747E10"/>
+          <attvalue for="modularity_class" value="0"/>
+        </attvalues>
+        <viz:size value="27.69531"/>
+        <viz:position x="76.32493" y="30.042347"/>
+        <viz:color r="42" g="120" b="214"/>
+      </node>
+      <node id="Durango.Otáez" label="Durango.Otáez">
+        <attvalues>
+          <attvalue for="0" value="648963.9172578625"/>
+          <attvalue for="modularity_class" value="0"/>
+        </attvalues>
+        <viz:size value="8.10056"/>
+        <viz:position x="97.96196" y="89.41498"/>
+        <viz:color r="42" g="120" b="214"/>
+      </node>
+      <node id="Durango.Pánuco de Coronado" label="Durango.Pánuco de Coronado">
+        <attvalues>
+          <attvalue for="0" value="5175146.495000001"/>
+          <attvalue for="modularity_class" value="2"/>
+        </attvalues>
+        <viz:size value="8.104469"/>
+        <viz:position x="45.745163" y="0.0"/>
+        <viz:color r="27" g="175" b="122"/>
+      </node>
+      <node id="Durango.Mapimí" label="Durango.Mapimí">
+        <attvalues>
+          <attvalue for="0" value="1.659026568153603E8"/>
+          <attvalue for="modularity_class" value="0"/>
+        </attvalues>
+        <viz:size value="8.243261"/>
+        <viz:position x="116.98015" y="54.750023"/>
+        <viz:color r="42" g="120" b="214"/>
+      </node>
+    </nodes>
+    <edges>
+      <edge id="0" source="Durango.Cuencamé" target="Durango.San Dimas" weight="0.715927004814148">
+        <viz:color r="137" g="135" b="129" a="0.47058824"/>
+      </edge>
+      <edge id="1" source="Durango.Cuencamé" target="Durango.Santiago Papasquiaro" weight="0.9100757837295532">
+        <viz:color r="137" g="135" b="129" a="0.47058824"/>
+      </edge>
+      <edge id="2" source="Durango.Cuencamé" target="Durango.Tepehuanes" weight="0.7589100003242493">
+        <viz:color r="137" g="135" b="129" a="0.47058824"/>
+      </edge>
+      <edge id="3" source="Durango.Cuencamé" target="Durango.Topia" weight="0.7903023362159729">
+        <viz:color r="137" g="135" b="129" a="0.47058824"/>
+      </edge>
+      <edge id="4" source="Durango.San Dimas" target="Durango.Guanaceví" weight="0.7121962904930115">
+        <viz:color r="137" g="135" b="129" a="0.47058824"/>
+      </edge>
+      <edge id="5" source="Durango.San Dimas" target="Durango.Lerdo" weight="0.7948010563850403">
+        <viz:color r="137" g="135" b="129" a="0.47058824"/>
+      </edge>
+      <edge id="6" source="Durango.San Dimas" target="Durango.Santiago Papasquiaro" weight="0.878372848033905">
+        <viz:color r="137" g="135" b="129" a="0.47058824"/>
+      </edge>
+      <edge id="7" source="Durango.San Dimas" target="Durango.Tepehuanes" weight="0.7203857898712158">
+        <viz:color r="137" g="135" b="129" a="0.47058824"/>
+      </edge>
+      <edge id="8" source="Durango.San Dimas" target="Durango.Topia" weight="0.7292436361312866">
+        <viz:color r="137" g="135" b="129" a="0.47058824"/>
+      </edge>
+      <edge id="9" source="Durango.Santiago Papasquiaro" target="Durango.Guanaceví" weight="0.7760909795761108">
+        <viz:color r="137" g="135" b="129" a="0.47058824"/>
+      </edge>
+      <edge id="10" source="Durango.Santiago Papasquiaro" target="Durango.Lerdo" weight="0.8281344771385193">
+        <viz:color r="137" g="135" b="129" a="0.47058824"/>
+      </edge>
+      <edge id="11" source="Durango.Santiago Papasquiaro" target="Durango.Mapimí" weight="0.7629721760749817">
+        <viz:color r="137" g="135" b="129" a="0.47058824"/>
+      </edge>
+      <edge id="12" source="Durango.Santiago Papasquiaro" target="Durango.Otáez" weight="0.7666212916374207">
+        <viz:color r="137" g="135" b="129" a="0.47058824"/>
+      </edge>
+      <edge id="13" source="Durango.Santiago Papasquiaro" target="Durango.Tepehuanes" weight="0.8328128457069397">
+        <viz:color r="137" g="135" b="129" a="0.47058824"/>
+      </edge>
+      <edge id="14" source="Durango.Santiago Papasquiaro" target="Durango.Topia" weight="0.8711025714874268">
+        <viz:color r="137" g="135" b="129" a="0.47058824"/>
+      </edge>
+      <edge id="15" source="Durango.Tepehuanes" target="Durango.Guanaceví" weight="0.7689058780670166">
+        <viz:color r="137" g="135" b="129" a="0.47058824"/>
+      </edge>
+      <edge id="16" source="Durango.Tepehuanes" target="Durango.Lerdo" weight="0.8221609592437744">
+        <viz:color r="137" g="135" b="129" a="0.47058824"/>
+      </edge>
+      <edge id="17" source="Durango.Tepehuanes" target="Durango.Otáez" weight="0.818019449710846">
+        <viz:color r="137" g="135" b="129" a="0.47058824"/>
+      </edge>
+      <edge id="18" source="Durango.Tepehuanes" target="Durango.Pánuco de Coronado" weight="0.7279284596443176">
+        <viz:color r="137" g="135" b="129" a="0.47058824"/>
+      </edge>
+      <edge id="19" source="Durango.Tepehuanes" target="Durango.Topia" weight="0.848917543888092">
+        <viz:color r="137" g="135" b="129" a="0.47058824"/>
+      </edge>
+      <edge id="20" source="Durango.Topia" target="Durango.Guanaceví" weight="0.8345803618431091">
+        <viz:color r="137" g="135" b="129" a="0.47058824"/>
+      </edge>
+      <edge id="21" source="Durango.Topia" target="Durango.Lerdo" weight="0.8445998430252075">
+        <viz:color r="137" g="135" b="129" a="0.47058824"/>
+      </edge>
+      <edge id="22" source="Durango.Topia" target="Durango.Mapimí" weight="0.7199864983558655">
+        <viz:color r="137" g="135" b="129" a="0.47058824"/>
+      </edge>
+      <edge id="23" source="Durango.Topia" target="Durango.Otáez" weight="0.8106359839439392">
+        <viz:color r="137" g="135" b="129" a="0.47058824"/>
+      </edge>
+      <edge id="24" source="Durango.Topia" target="Durango.Pánuco de Coronado" weight="0.8067653775215149">
+        <viz:color r="137" g="135" b="129" a="0.47058824"/>
+      </edge>
+      <edge id="25" source="Durango.Durango" target="Durango.Gómez Palacio" weight="0.7917287945747375">
+        <viz:color r="137" g="135" b="129" a="0.47058824"/>
+      </edge>
+      <edge id="26" source="Durango.Guanaceví" target="Durango.Lerdo" weight="0.7751209139823914">
+        <viz:color r="137" g="135" b="129" a="0.47058824"/>
+      </edge>
+      <edge id="27" source="Durango.Guanaceví" target="Durango.Otáez" weight="0.7601090669631958">
+        <viz:color r="137" g="135" b="129" a="0.47058824"/>
+      </edge>
+      <edge id="28" source="Durango.Guanaceví" target="Durango.Pánuco de Coronado" weight="0.9372634887695312">
+        <viz:color r="137" g="135" b="129" a="0.47058824"/>
+      </edge>
+      <edge id="29" source="Durango.Lerdo" target="Durango.Mapimí" weight="0.7873834371566772">
+        <viz:color r="137" g="135" b="129" a="0.47058824"/>
+      </edge>
+      <edge id="30" source="Durango.Lerdo" target="Durango.Otáez" weight="0.7702139616012573">
+        <viz:color r="137" g="135" b="129" a="0.47058824"/>
+      </edge>
+      <edge id="31" source="Durango.Lerdo" target="Durango.Pánuco de Coronado" weight="0.7082635164260864">
+        <viz:color r="137" g="135" b="129" a="0.47058824"/>
+      </edge>
+    </edges>
+  </graph>
+</gexf>

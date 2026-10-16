@@ -1,0 +1,654 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<gexf xmlns="http://gexf.net/1.3" version="1.3" xmlns:viz="http://gexf.net/1.3/viz" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://gexf.net/1.3 http://gexf.net/1.3/gexf.xsd">
+  <meta lastmodifieddate="2026-10-16">
+    <creator>Apache NetBeans Platform Dev (Build {0})</creator>
+    <title></title>
+    <description></description>
+  </meta>
+  <graph defaultedgetype="undirected" mode="static">
+    <attributes class="node" mode="static">
+      <attribute id="0" title="lat" type="double"/>
+      <attribute id="1" title="lon" type="double"/>
+      <attribute id="2" title="total_kg" type="double"/>
+      <attribute id="3" title="community" type="long"/>
+      <attribute id="4" title="color_hex" type="string"/>
+    </attributes>
+    <nodes>
+      <node id="Chihuahua.Ahumada" label="Ahumada">
+        <attvalues>
+          <attvalue for="0" value="30.3703842"/>
+          <attvalue for="1" value="-106.3044695"/>
+          <attvalue for="2" value="53098.41299999999"/>
+          <attvalue for="3" value="2"/>
+          <attvalue for="4" value="#1baf7a"/>
+        </attvalues>
+        <viz:size value="20.000038"/>
+        <viz:position x="31.70678" y="640.9318"/>
+        <viz:color r="27" g="175" b="122"/>
+      </node>
+      <node id="Chihuahua.Aquiles Serdán" label="Aquiles Serdán">
+        <attvalues>
+          <attvalue for="0" value="28.3540212"/>
+          <attvalue for="1" value="-105.5314906"/>
+          <attvalue for="2" value="2.628351109886418E8"/>
+          <attvalue for="3" value="0"/>
+          <attvalue for="4" value="#2a78d6"/>
+        </attvalues>
+        <viz:size value="20.187653"/>
+        <viz:position x="266.79147" y="-32.979176"/>
+        <viz:color r="42" g="120" b="214"/>
+      </node>
+      <node id="Chihuahua.Ascensión" label="Ascensión">
+        <attvalues>
+          <attvalue for="0" value="31.0531834"/>
+          <attvalue for="1" value="-107.5945418"/>
+          <attvalue for="2" value="455906.98806616"/>
+          <attvalue for="3" value="2"/>
+          <attvalue for="4" value="#1baf7a"/>
+        </attvalues>
+        <viz:size value="20.000326"/>
+        <viz:position x="-360.64062" y="869.1377"/>
+        <viz:color r="27" g="175" b="122"/>
+      </node>
+      <node id="Chihuahua.Buenaventura" label="Buenaventura">
+        <attvalues>
+          <attvalue for="0" value="29.5036271"/>
+          <attvalue for="1" value="-107.2816731"/>
+          <attvalue for="2" value="13455.0076"/>
+          <attvalue for="3" value="2"/>
+          <attvalue for="4" value="#1baf7a"/>
+        </attvalues>
+        <viz:size value="20.00001"/>
+        <viz:position x="-265.48843" y="351.24335"/>
+        <viz:color r="27" g="175" b="122"/>
+      </node>
+      <node id="Chihuahua.Camargo" label="Camargo">
+        <attvalues>
+          <attvalue for="0" value="27.4141865"/>
+          <attvalue for="1" value="-105.1017833"/>
+          <attvalue for="2" value="6365728.006800001"/>
+          <attvalue for="3" value="0"/>
+          <attvalue for="4" value="#2a78d6"/>
+        </attvalues>
+        <viz:size value="20.004545"/>
+        <viz:position x="397.4776" y="-347.09174"/>
+        <viz:color r="42" g="120" b="214"/>
+      </node>
+      <node id="Chihuahua.Chihuahua" label="Chihuahua">
+        <attvalues>
+          <attvalue for="0" value="28.3812458"/>
+          <attvalue for="1" value="-106.0434704"/>
+          <attvalue for="2" value="4.820288512269201E10"/>
+          <attvalue for="3" value="3"/>
+          <attvalue for="4" value="#eda100"/>
+        </attvalues>
+        <viz:size value="54.414776"/>
+        <viz:position x="111.08398" y="-23.880142"/>
+        <viz:color r="237" g="161" b="0"/>
+      </node>
+      <node id="Chihuahua.Chínipas" label="Chínipas">
+        <attvalues>
+          <attvalue for="0" value="27.2334117"/>
+          <attvalue for="1" value="-108.3210425"/>
+          <attvalue for="2" value="4.2886843356130116E7"/>
+          <attvalue for="3" value="1"/>
+          <attvalue for="4" value="#eb6834"/>
+        </attvalues>
+        <viz:size value="20.030619"/>
+        <viz:position x="-581.58997" y="-407.51047"/>
+        <viz:color r="235" g="104" b="52"/>
+      </node>
+      <node id="Chihuahua.Cuauhtémoc" label="Cuauhtémoc">
+        <attvalues>
+          <attvalue for="0" value="28.2422722"/>
+          <attvalue for="1" value="-106.515776"/>
+          <attvalue for="2" value="3.8086458126194706E9"/>
+          <attvalue for="3" value="3"/>
+          <attvalue for="4" value="#eda100"/>
+        </attvalues>
+        <viz:size value="22.719208"/>
+        <viz:position x="-32.55749" y="-70.32805"/>
+        <viz:color r="237" g="161" b="0"/>
+      </node>
+      <node id="Chihuahua.Cusihuiriachi" label="Cusihuiriachi">
+        <attvalues>
+          <attvalue for="0" value="28.1428"/>
+          <attvalue for="1" value="-106.5012"/>
+          <attvalue for="2" value="0.0521816297"/>
+          <attvalue for="3" value="4"/>
+          <attvalue for="4" value="#e87ba4"/>
+        </attvalues>
+        <viz:size value="20.0"/>
+        <viz:position x="-28.12452" y="-103.57375"/>
+        <viz:color r="232" g="123" b="164"/>
+      </node>
+      <node id="Chihuahua.Delicias" label="Delicias">
+        <attvalues>
+          <attvalue for="0" value="28.1134613"/>
+          <attvalue for="1" value="-105.2815768"/>
+          <attvalue for="2" value="1.0056089783309998E10"/>
+          <attvalue for="3" value="1"/>
+          <attvalue for="4" value="#eb6834"/>
+        </attvalues>
+        <viz:size value="27.179613"/>
+        <viz:position x="342.79733" y="-113.379364"/>
+        <viz:color r="235" g="104" b="52"/>
+      </node>
+      <node id="Chihuahua.Guadalupe" label="Guadalupe">
+        <attvalues>
+          <attvalue for="0" value="31.2324385"/>
+          <attvalue for="1" value="-106.0606313"/>
+          <attvalue for="2" value="64.277"/>
+          <attvalue for="3" value="0"/>
+          <attvalue for="4" value="#2a78d6"/>
+        </attvalues>
+        <viz:size value="20.0"/>
+        <viz:position x="105.86486" y="929.0485"/>
+        <viz:color r="42" g="120" b="214"/>
+      </node>
+      <node id="Chihuahua.Guadalupe y Calvo" label="Guadalupe y Calvo">
+        <attvalues>
+          <attvalue for="0" value="26.0540257"/>
+          <attvalue for="1" value="-106.575173"/>
+          <attvalue for="2" value="3191819.01156"/>
+          <attvalue for="3" value="0"/>
+          <attvalue for="4" value="#2a78d6"/>
+        </attvalues>
+        <viz:size value="20.00228"/>
+        <viz:position x="-50.621796" y="-801.68616"/>
+        <viz:color r="42" g="120" b="214"/>
+      </node>
+      <node id="Chihuahua.Guerrero" label="Guerrero">
+        <attvalues>
+          <attvalue for="0" value="28.3253493"/>
+          <attvalue for="1" value="-107.2912925"/>
+          <attvalue for="2" value="27640.762265249952"/>
+          <attvalue for="3" value="1"/>
+          <attvalue for="4" value="#eb6834"/>
+        </attvalues>
+        <viz:size value="20.00002"/>
+        <viz:position x="-268.41394" y="-42.561928"/>
+        <viz:color r="235" g="104" b="52"/>
+      </node>
+      <node id="Chihuahua.Hidalgo del Parral" label="Hidalgo del Parral">
+        <attvalues>
+          <attvalue for="0" value="26.5519516"/>
+          <attvalue for="1" value="-105.4001716"/>
+          <attvalue for="2" value="1.2113566932856502E8"/>
+          <attvalue for="3" value="3"/>
+          <attvalue for="4" value="#eda100"/>
+        </attvalues>
+        <viz:size value="20.086485"/>
+        <viz:position x="306.7293" y="-635.2688"/>
+        <viz:color r="237" g="161" b="0"/>
+      </node>
+      <node id="Chihuahua.Jiménez" label="Jiménez">
+        <attvalues>
+          <attvalue for="0" value="27.0749977"/>
+          <attvalue for="1" value="-104.5522716"/>
+          <attvalue for="2" value="26358.468483"/>
+          <attvalue for="3" value="2"/>
+          <attvalue for="4" value="#1baf7a"/>
+        </attvalues>
+        <viz:size value="20.00002"/>
+        <viz:position x="564.5996" y="-460.45578"/>
+        <viz:color r="27" g="175" b="122"/>
+      </node>
+      <node id="Chihuahua.Juárez" label="Juárez">
+        <attvalues>
+          <attvalue for="0" value="31.4447275"/>
+          <attvalue for="1" value="-106.2906067"/>
+          <attvalue for="2" value="7.003225125781105E10"/>
+          <attvalue for="3" value="3"/>
+          <attvalue for="4" value="#eda100"/>
+        </attvalues>
+        <viz:size value="70.0"/>
+        <viz:position x="35.922848" y="1000.0"/>
+        <viz:color r="237" g="161" b="0"/>
+      </node>
+      <node id="Chihuahua.Madera" label="Madera">
+        <attvalues>
+          <attvalue for="0" value="29.1124"/>
+          <attvalue for="1" value="-108.0829"/>
+          <attvalue for="2" value="2.26328762187203E8"/>
+          <attvalue for="3" value="1"/>
+          <attvalue for="4" value="#eb6834"/>
+        </attvalues>
+        <viz:size value="20.161589"/>
+        <viz:position x="-509.16412" y="220.487"/>
+        <viz:color r="235" g="104" b="52"/>
+      </node>
+      <node id="Chihuahua.Meoqui" label="Meoqui">
+        <attvalues>
+          <attvalue for="0" value="28.1604068"/>
+          <attvalue for="1" value="-105.2849048"/>
+          <attvalue for="2" value="3.598931025066896E7"/>
+          <attvalue for="3" value="1"/>
+          <attvalue for="4" value="#eb6834"/>
+        </attvalues>
+        <viz:size value="20.025694"/>
+        <viz:position x="341.7852" y="-97.689186"/>
+        <viz:color r="235" g="104" b="52"/>
+      </node>
+      <node id="Chihuahua.Moris" label="Moris">
+        <attvalues>
+          <attvalue for="0" value="28.0854183"/>
+          <attvalue for="1" value="-108.3123655"/>
+          <attvalue for="2" value="2073418.1101041"/>
+          <attvalue for="3" value="1"/>
+          <attvalue for="4" value="#eb6834"/>
+        </attvalues>
+        <viz:size value="20.00148"/>
+        <viz:position x="-578.95105" y="-122.75192"/>
+        <viz:color r="235" g="104" b="52"/>
+      </node>
+      <node id="Chihuahua.Nuevo Casas Grandes" label="Nuevo Casas Grandes">
+        <attvalues>
+          <attvalue for="0" value="30.2450348"/>
+          <attvalue for="1" value="-107.5443571"/>
+          <attvalue for="2" value="472825.0692908495"/>
+          <attvalue for="3" value="2"/>
+          <attvalue for="4" value="#1baf7a"/>
+        </attvalues>
+        <viz:size value="20.000338"/>
+        <viz:position x="-345.37805" y="599.0374"/>
+        <viz:color r="27" g="175" b="122"/>
+      </node>
+      <node id="Chihuahua.Ocampo" label="Ocampo">
+        <attvalues>
+          <attvalue for="0" value="28.1137804"/>
+          <attvalue for="1" value="-108.2200266"/>
+          <attvalue for="2" value="4.245805348589477E8"/>
+          <attvalue for="3" value="0"/>
+          <attvalue for="4" value="#2a78d6"/>
+        </attvalues>
+        <viz:size value="20.303133"/>
+        <viz:position x="-550.8682" y="-113.27271"/>
+        <viz:color r="42" g="120" b="214"/>
+      </node>
+      <node id="Chihuahua.Ojinaga" label="Ojinaga">
+        <attvalues>
+          <attvalue for="0" value="29.3352202"/>
+          <attvalue for="1" value="-104.2456393"/>
+          <attvalue for="2" value="1.8140295504E7"/>
+          <attvalue for="3" value="0"/>
+          <attvalue for="4" value="#2a78d6"/>
+        </attvalues>
+        <viz:size value="20.01295"/>
+        <viz:position x="657.85516" y="294.9582"/>
+        <viz:color r="42" g="120" b="214"/>
+      </node>
+      <node id="Chihuahua.San Francisco del Oro" label="San Francisco del Oro">
+        <attvalues>
+          <attvalue for="0" value="26.513238"/>
+          <attvalue for="1" value="-105.5100289"/>
+          <attvalue for="2" value="1.711551901286617E8"/>
+          <attvalue for="3" value="0"/>
+          <attvalue for="4" value="#2a78d6"/>
+        </attvalues>
+        <viz:size value="20.122198"/>
+        <viz:position x="273.3186" y="-648.2077"/>
+        <viz:color r="42" g="120" b="214"/>
+      </node>
+      <node id="Chihuahua.Satevó" label="Satevó">
+        <attvalues>
+          <attvalue for="0" value="27.5721721"/>
+          <attvalue for="1" value="-106.0625935"/>
+          <attvalue for="2" value="1.21519584E7"/>
+          <attvalue for="3" value="0"/>
+          <attvalue for="4" value="#2a78d6"/>
+        </attvalues>
+        <viz:size value="20.008677"/>
+        <viz:position x="105.2681" y="-294.2896"/>
+        <viz:color r="42" g="120" b="214"/>
+      </node>
+      <node id="Chihuahua.Saucillo" label="Saucillo">
+        <attvalues>
+          <attvalue for="0" value="28.0157628"/>
+          <attvalue for="1" value="-105.1716916"/>
+          <attvalue for="2" value="3.67078657730713E7"/>
+          <attvalue for="3" value="2"/>
+          <attvalue for="4" value="#1baf7a"/>
+        </attvalues>
+        <viz:size value="20.026207"/>
+        <viz:position x="376.21652" y="-146.03226"/>
+        <viz:color r="27" g="175" b="122"/>
+      </node>
+      <node id="Chihuahua.Urique" label="Urique">
+        <attvalues>
+          <attvalue for="0" value="27.1245773"/>
+          <attvalue for="1" value="-107.5451497"/>
+          <attvalue for="2" value="9.3723445142792E8"/>
+          <attvalue for="3" value="0"/>
+          <attvalue for="4" value="#2a78d6"/>
+        </attvalues>
+        <viz:size value="20.669146"/>
+        <viz:position x="-345.61908" y="-443.88522"/>
+        <viz:color r="42" g="120" b="214"/>
+      </node>
+    </nodes>
+    <edges>
+      <edge id="0" source="Chihuahua.Ahumada" target="Chihuahua.Buenaventura" weight="0.9995067119598389">
+        <viz:color r="137" g="135" b="129" a="0.50980395"/>
+      </edge>
+      <edge id="1" source="Chihuahua.Ahumada" target="Chihuahua.Chínipas" weight="0.7375510334968567">
+        <viz:color r="137" g="135" b="129" a="0.50980395"/>
+      </edge>
+      <edge id="2" source="Chihuahua.Ahumada" target="Chihuahua.Guadalupe" weight="0.8187392354011536">
+        <viz:color r="137" g="135" b="129" a="0.50980395"/>
+      </edge>
+      <edge id="3" source="Chihuahua.Ahumada" target="Chihuahua.Guerrero" weight="0.7119090557098389">
+        <viz:color r="137" g="135" b="129" a="0.50980395"/>
+      </edge>
+      <edge id="4" source="Chihuahua.Ahumada" target="Chihuahua.Jiménez" weight="0.9359920024871826">
+        <viz:color r="137" g="135" b="129" a="0.50980395"/>
+      </edge>
+      <edge id="5" source="Chihuahua.Ahumada" target="Chihuahua.Meoqui" weight="0.8918027281761169">
+        <viz:color r="137" g="135" b="129" a="0.50980395"/>
+      </edge>
+      <edge id="6" source="Chihuahua.Ahumada" target="Chihuahua.Moris" weight="0.8521954417228699">
+        <viz:color r="137" g="135" b="129" a="0.50980395"/>
+      </edge>
+      <edge id="7" source="Chihuahua.Ahumada" target="Chihuahua.Nuevo Casas Grandes" weight="0.9854106307029724">
+        <viz:color r="137" g="135" b="129" a="0.50980395"/>
+      </edge>
+      <edge id="8" source="Chihuahua.Ahumada" target="Chihuahua.San Francisco del Oro" weight="0.7248605489730835">
+        <viz:color r="137" g="135" b="129" a="0.50980395"/>
+      </edge>
+      <edge id="9" source="Chihuahua.Ahumada" target="Chihuahua.Satevó" weight="0.7222720980644226">
+        <viz:color r="137" g="135" b="129" a="0.50980395"/>
+      </edge>
+      <edge id="10" source="Chihuahua.Ahumada" target="Chihuahua.Saucillo" weight="0.7843281030654907">
+        <viz:color r="137" g="135" b="129" a="0.50980395"/>
+      </edge>
+      <edge id="11" source="Chihuahua.Ahumada" target="Chihuahua.Urique" weight="0.7691539525985718">
+        <viz:color r="137" g="135" b="129" a="0.50980395"/>
+      </edge>
+      <edge id="12" source="Chihuahua.Aquiles Serdán" target="Chihuahua.Ocampo" weight="0.7227732539176941">
+        <viz:color r="137" g="135" b="129" a="0.50980395"/>
+      </edge>
+      <edge id="13" source="Chihuahua.Aquiles Serdán" target="Chihuahua.Ojinaga" weight="0.7311349511146545">
+        <viz:color r="137" g="135" b="129" a="0.50980395"/>
+      </edge>
+      <edge id="14" source="Chihuahua.Ascensión" target="Chihuahua.San Francisco del Oro" weight="0.7056580781936646">
+        <viz:color r="137" g="135" b="129" a="0.50980395"/>
+      </edge>
+      <edge id="15" source="Chihuahua.Ascensión" target="Chihuahua.Saucillo" weight="0.7004930973052979">
+        <viz:color r="137" g="135" b="129" a="0.50980395"/>
+      </edge>
+      <edge id="16" source="Chihuahua.Buenaventura" target="Chihuahua.Camargo" weight="0.7091179490089417">
+        <viz:color r="137" g="135" b="129" a="0.50980395"/>
+      </edge>
+      <edge id="17" source="Chihuahua.Buenaventura" target="Chihuahua.Chínipas" weight="0.7380887866020203">
+        <viz:color r="137" g="135" b="129" a="0.50980395"/>
+      </edge>
+      <edge id="18" source="Chihuahua.Buenaventura" target="Chihuahua.Guadalupe" weight="0.8363677859306335">
+        <viz:color r="137" g="135" b="129" a="0.50980395"/>
+      </edge>
+      <edge id="19" source="Chihuahua.Buenaventura" target="Chihuahua.Guerrero" weight="0.709453284740448">
+        <viz:color r="137" g="135" b="129" a="0.50980395"/>
+      </edge>
+      <edge id="20" source="Chihuahua.Buenaventura" target="Chihuahua.Jiménez" weight="0.9389302730560303">
+        <viz:color r="137" g="135" b="129" a="0.50980395"/>
+      </edge>
+      <edge id="21" source="Chihuahua.Buenaventura" target="Chihuahua.Meoqui" weight="0.8959594368934631">
+        <viz:color r="137" g="135" b="129" a="0.50980395"/>
+      </edge>
+      <edge id="22" source="Chihuahua.Buenaventura" target="Chihuahua.Moris" weight="0.8634241223335266">
+        <viz:color r="137" g="135" b="129" a="0.50980395"/>
+      </edge>
+      <edge id="23" source="Chihuahua.Buenaventura" target="Chihuahua.Nuevo Casas Grandes" weight="0.9888244867324829">
+        <viz:color r="137" g="135" b="129" a="0.50980395"/>
+      </edge>
+      <edge id="24" source="Chihuahua.Buenaventura" target="Chihuahua.San Francisco del Oro" weight="0.7337746620178223">
+        <viz:color r="137" g="135" b="129" a="0.50980395"/>
+      </edge>
+      <edge id="25" source="Chihuahua.Buenaventura" target="Chihuahua.Satevó" weight="0.7378236055374146">
+        <viz:color r="137" g="135" b="129" a="0.50980395"/>
+      </edge>
+      <edge id="26" source="Chihuahua.Buenaventura" target="Chihuahua.Saucillo" weight="0.7758774161338806">
+        <viz:color r="137" g="135" b="129" a="0.50980395"/>
+      </edge>
+      <edge id="27" source="Chihuahua.Buenaventura" target="Chihuahua.Urique" weight="0.785714864730835">
+        <viz:color r="137" g="135" b="129" a="0.50980395"/>
+      </edge>
+      <edge id="28" source="Chihuahua.Camargo" target="Chihuahua.Guadalupe" weight="0.8478541970252991">
+        <viz:color r="137" g="135" b="129" a="0.50980395"/>
+      </edge>
+      <edge id="29" source="Chihuahua.Camargo" target="Chihuahua.Guadalupe y Calvo" weight="0.703467607498169">
+        <viz:color r="137" g="135" b="129" a="0.50980395"/>
+      </edge>
+      <edge id="30" source="Chihuahua.Camargo" target="Chihuahua.Jiménez" weight="0.7024399042129517">
+        <viz:color r="137" g="135" b="129" a="0.50980395"/>
+      </edge>
+      <edge id="31" source="Chihuahua.Camargo" target="Chihuahua.Meoqui" weight="0.7297712564468384">
+        <viz:color r="137" g="135" b="129" a="0.50980395"/>
+      </edge>
+      <edge id="32" source="Chihuahua.Camargo" target="Chihuahua.Moris" weight="0.7804917097091675">
+        <viz:color r="137" g="135" b="129" a="0.50980395"/>
+      </edge>
+      <edge id="33" source="Chihuahua.Camargo" target="Chihuahua.Nuevo Casas Grandes" weight="0.7444952726364136">
+        <viz:color r="137" g="135" b="129" a="0.50980395"/>
+      </edge>
+      <edge id="34" source="Chihuahua.Camargo" target="Chihuahua.San Francisco del Oro" weight="0.7037357091903687">
+        <viz:color r="137" g="135" b="129" a="0.50980395"/>
+      </edge>
+      <edge id="35" source="Chihuahua.Camargo" target="Chihuahua.Satevó" weight="0.7479566335678101">
+        <viz:color r="137" g="135" b="129" a="0.50980395"/>
+      </edge>
+      <edge id="36" source="Chihuahua.Camargo" target="Chihuahua.Urique" weight="0.8415707945823669">
+        <viz:color r="137" g="135" b="129" a="0.50980395"/>
+      </edge>
+      <edge id="37" source="Chihuahua.Chihuahua" target="Chihuahua.Delicias" weight="0.7352422475814819">
+        <viz:color r="137" g="135" b="129" a="0.50980395"/>
+      </edge>
+      <edge id="38" source="Chihuahua.Chihuahua" target="Chihuahua.Juárez" weight="0.7849085927009583">
+        <viz:color r="137" g="135" b="129" a="0.50980395"/>
+      </edge>
+      <edge id="39" source="Chihuahua.Chínipas" target="Chihuahua.Delicias" weight="0.8176557421684265">
+        <viz:color r="137" g="135" b="129" a="0.50980395"/>
+      </edge>
+      <edge id="40" source="Chihuahua.Chínipas" target="Chihuahua.Guerrero" weight="0.9089535474777222">
+        <viz:color r="137" g="135" b="129" a="0.50980395"/>
+      </edge>
+      <edge id="41" source="Chihuahua.Chínipas" target="Chihuahua.Jiménez" weight="0.7555323243141174">
+        <viz:color r="137" g="135" b="129" a="0.50980395"/>
+      </edge>
+      <edge id="42" source="Chihuahua.Chínipas" target="Chihuahua.Madera" weight="0.9018069505691528">
+        <viz:color r="137" g="135" b="129" a="0.50980395"/>
+      </edge>
+      <edge id="43" source="Chihuahua.Chínipas" target="Chihuahua.Meoqui" weight="0.8876767158508301">
+        <viz:color r="137" g="135" b="129" a="0.50980395"/>
+      </edge>
+      <edge id="44" source="Chihuahua.Chínipas" target="Chihuahua.Moris" weight="0.8091418147087097">
+        <viz:color r="137" g="135" b="129" a="0.50980395"/>
+      </edge>
+      <edge id="45" source="Chihuahua.Chínipas" target="Chihuahua.Nuevo Casas Grandes" weight="0.7614065408706665">
+        <viz:color r="137" g="135" b="129" a="0.50980395"/>
+      </edge>
+      <edge id="46" source="Chihuahua.Chínipas" target="Chihuahua.San Francisco del Oro" weight="0.7083550691604614">
+        <viz:color r="137" g="135" b="129" a="0.50980395"/>
+      </edge>
+      <edge id="47" source="Chihuahua.Chínipas" target="Chihuahua.Saucillo" weight="0.8116894960403442">
+        <viz:color r="137" g="135" b="129" a="0.50980395"/>
+      </edge>
+      <edge id="48" source="Chihuahua.Cuauhtémoc" target="Chihuahua.Hidalgo del Parral" weight="0.7030898928642273">
+        <viz:color r="137" g="135" b="129" a="0.50980395"/>
+      </edge>
+      <edge id="49" source="Chihuahua.Cuauhtémoc" target="Chihuahua.Juárez" weight="0.7134615778923035">
+        <viz:color r="137" g="135" b="129" a="0.50980395"/>
+      </edge>
+      <edge id="50" source="Chihuahua.Delicias" target="Chihuahua.Guerrero" weight="0.708656370639801">
+        <viz:color r="137" g="135" b="129" a="0.50980395"/>
+      </edge>
+      <edge id="51" source="Chihuahua.Delicias" target="Chihuahua.Madera" weight="0.7359040379524231">
+        <viz:color r="137" g="135" b="129" a="0.50980395"/>
+      </edge>
+      <edge id="52" source="Chihuahua.Delicias" target="Chihuahua.Meoqui" weight="0.8009985685348511">
+        <viz:color r="137" g="135" b="129" a="0.50980395"/>
+      </edge>
+      <edge id="53" source="Chihuahua.Delicias" target="Chihuahua.Moris" weight="0.7367624044418335">
+        <viz:color r="137" g="135" b="129" a="0.50980395"/>
+      </edge>
+      <edge id="54" source="Chihuahua.Guadalupe" target="Chihuahua.Guadalupe y Calvo" weight="0.8297035098075867">
+        <viz:color r="137" g="135" b="129" a="0.50980395"/>
+      </edge>
+      <edge id="55" source="Chihuahua.Guadalupe" target="Chihuahua.Jiménez" weight="0.8284913897514343">
+        <viz:color r="137" g="135" b="129" a="0.50980395"/>
+      </edge>
+      <edge id="56" source="Chihuahua.Guadalupe" target="Chihuahua.Meoqui" weight="0.8141890168190002">
+        <viz:color r="137" g="135" b="129" a="0.50980395"/>
+      </edge>
+      <edge id="57" source="Chihuahua.Guadalupe" target="Chihuahua.Moris" weight="0.9106925129890442">
+        <viz:color r="137" g="135" b="129" a="0.50980395"/>
+      </edge>
+      <edge id="58" source="Chihuahua.Guadalupe" target="Chihuahua.Nuevo Casas Grandes" weight="0.8780934810638428">
+        <viz:color r="137" g="135" b="129" a="0.50980395"/>
+      </edge>
+      <edge id="59" source="Chihuahua.Guadalupe" target="Chihuahua.Ojinaga" weight="0.769331693649292">
+        <viz:color r="137" g="135" b="129" a="0.50980395"/>
+      </edge>
+      <edge id="60" source="Chihuahua.Guadalupe" target="Chihuahua.San Francisco del Oro" weight="0.7629750370979309">
+        <viz:color r="137" g="135" b="129" a="0.50980395"/>
+      </edge>
+      <edge id="61" source="Chihuahua.Guadalupe" target="Chihuahua.Satevó" weight="0.8821759819984436">
+        <viz:color r="137" g="135" b="129" a="0.50980395"/>
+      </edge>
+      <edge id="62" source="Chihuahua.Guadalupe" target="Chihuahua.Urique" weight="0.9394370317459106">
+        <viz:color r="137" g="135" b="129" a="0.50980395"/>
+      </edge>
+      <edge id="63" source="Chihuahua.Guadalupe y Calvo" target="Chihuahua.Madera" weight="0.7259009480476379">
+        <viz:color r="137" g="135" b="129" a="0.50980395"/>
+      </edge>
+      <edge id="64" source="Chihuahua.Guadalupe y Calvo" target="Chihuahua.Meoqui" weight="0.7138899564743042">
+        <viz:color r="137" g="135" b="129" a="0.50980395"/>
+      </edge>
+      <edge id="65" source="Chihuahua.Guadalupe y Calvo" target="Chihuahua.Moris" weight="0.7585628628730774">
+        <viz:color r="137" g="135" b="129" a="0.50980395"/>
+      </edge>
+      <edge id="66" source="Chihuahua.Guadalupe y Calvo" target="Chihuahua.Nuevo Casas Grandes" weight="0.728557288646698">
+        <viz:color r="137" g="135" b="129" a="0.50980395"/>
+      </edge>
+      <edge id="67" source="Chihuahua.Guadalupe y Calvo" target="Chihuahua.San Francisco del Oro" weight="0.8073186278343201">
+        <viz:color r="137" g="135" b="129" a="0.50980395"/>
+      </edge>
+      <edge id="68" source="Chihuahua.Guadalupe y Calvo" target="Chihuahua.Satevó" weight="0.7319445013999939">
+        <viz:color r="137" g="135" b="129" a="0.50980395"/>
+      </edge>
+      <edge id="69" source="Chihuahua.Guadalupe y Calvo" target="Chihuahua.Urique" weight="0.8261121511459351">
+        <viz:color r="137" g="135" b="129" a="0.50980395"/>
+      </edge>
+      <edge id="70" source="Chihuahua.Guerrero" target="Chihuahua.Jiménez" weight="0.7280969619750977">
+        <viz:color r="137" g="135" b="129" a="0.50980395"/>
+      </edge>
+      <edge id="71" source="Chihuahua.Guerrero" target="Chihuahua.Madera" weight="0.8333801627159119">
+        <viz:color r="137" g="135" b="129" a="0.50980395"/>
+      </edge>
+      <edge id="72" source="Chihuahua.Guerrero" target="Chihuahua.Meoqui" weight="0.8359600305557251">
+        <viz:color r="137" g="135" b="129" a="0.50980395"/>
+      </edge>
+      <edge id="73" source="Chihuahua.Guerrero" target="Chihuahua.Moris" weight="0.7591238021850586">
+        <viz:color r="137" g="135" b="129" a="0.50980395"/>
+      </edge>
+      <edge id="74" source="Chihuahua.Guerrero" target="Chihuahua.Nuevo Casas Grandes" weight="0.7326995134353638">
+        <viz:color r="137" g="135" b="129" a="0.50980395"/>
+      </edge>
+      <edge id="75" source="Chihuahua.Guerrero" target="Chihuahua.Saucillo" weight="0.7778194546699524">
+        <viz:color r="137" g="135" b="129" a="0.50980395"/>
+      </edge>
+      <edge id="76" source="Chihuahua.Hidalgo del Parral" target="Chihuahua.Ojinaga" weight="0.7195802330970764">
+        <viz:color r="137" g="135" b="129" a="0.50980395"/>
+      </edge>
+      <edge id="77" source="Chihuahua.Jiménez" target="Chihuahua.Meoqui" weight="0.8844769597053528">
+        <viz:color r="137" g="135" b="129" a="0.50980395"/>
+      </edge>
+      <edge id="78" source="Chihuahua.Jiménez" target="Chihuahua.Moris" weight="0.8850983381271362">
+        <viz:color r="137" g="135" b="129" a="0.50980395"/>
+      </edge>
+      <edge id="79" source="Chihuahua.Jiménez" target="Chihuahua.Nuevo Casas Grandes" weight="0.9484608173370361">
+        <viz:color r="137" g="135" b="129" a="0.50980395"/>
+      </edge>
+      <edge id="80" source="Chihuahua.Jiménez" target="Chihuahua.San Francisco del Oro" weight="0.7181318402290344">
+        <viz:color r="137" g="135" b="129" a="0.50980395"/>
+      </edge>
+      <edge id="81" source="Chihuahua.Jiménez" target="Chihuahua.Satevó" weight="0.7308751940727234">
+        <viz:color r="137" g="135" b="129" a="0.50980395"/>
+      </edge>
+      <edge id="82" source="Chihuahua.Jiménez" target="Chihuahua.Saucillo" weight="0.7065823078155518">
+        <viz:color r="137" g="135" b="129" a="0.50980395"/>
+      </edge>
+      <edge id="83" source="Chihuahua.Jiménez" target="Chihuahua.Urique" weight="0.7783372402191162">
+        <viz:color r="137" g="135" b="129" a="0.50980395"/>
+      </edge>
+      <edge id="84" source="Chihuahua.Madera" target="Chihuahua.Meoqui" weight="0.8085071444511414">
+        <viz:color r="137" g="135" b="129" a="0.50980395"/>
+      </edge>
+      <edge id="85" source="Chihuahua.Madera" target="Chihuahua.Moris" weight="0.7812739610671997">
+        <viz:color r="137" g="135" b="129" a="0.50980395"/>
+      </edge>
+      <edge id="86" source="Chihuahua.Madera" target="Chihuahua.Urique" weight="0.7101705074310303">
+        <viz:color r="137" g="135" b="129" a="0.50980395"/>
+      </edge>
+      <edge id="87" source="Chihuahua.Meoqui" target="Chihuahua.Moris" weight="0.9046441316604614">
+        <viz:color r="137" g="135" b="129" a="0.50980395"/>
+      </edge>
+      <edge id="88" source="Chihuahua.Meoqui" target="Chihuahua.Nuevo Casas Grandes" weight="0.9239043593406677">
+        <viz:color r="137" g="135" b="129" a="0.50980395"/>
+      </edge>
+      <edge id="89" source="Chihuahua.Meoqui" target="Chihuahua.San Francisco del Oro" weight="0.7197421193122864">
+        <viz:color r="137" g="135" b="129" a="0.50980395"/>
+      </edge>
+      <edge id="90" source="Chihuahua.Meoqui" target="Chihuahua.Satevó" weight="0.7182580232620239">
+        <viz:color r="137" g="135" b="129" a="0.50980395"/>
+      </edge>
+      <edge id="91" source="Chihuahua.Meoqui" target="Chihuahua.Saucillo" weight="0.7161216139793396">
+        <viz:color r="137" g="135" b="129" a="0.50980395"/>
+      </edge>
+      <edge id="92" source="Chihuahua.Meoqui" target="Chihuahua.Urique" weight="0.8464304208755493">
+        <viz:color r="137" g="135" b="129" a="0.50980395"/>
+      </edge>
+      <edge id="93" source="Chihuahua.Moris" target="Chihuahua.Nuevo Casas Grandes" weight="0.918511688709259">
+        <viz:color r="137" g="135" b="129" a="0.50980395"/>
+      </edge>
+      <edge id="94" source="Chihuahua.Moris" target="Chihuahua.Ojinaga" weight="0.7006245851516724">
+        <viz:color r="137" g="135" b="129" a="0.50980395"/>
+      </edge>
+      <edge id="95" source="Chihuahua.Moris" target="Chihuahua.San Francisco del Oro" weight="0.752112090587616">
+        <viz:color r="137" g="135" b="129" a="0.50980395"/>
+      </edge>
+      <edge id="96" source="Chihuahua.Moris" target="Chihuahua.Satevó" weight="0.8033910393714905">
+        <viz:color r="137" g="135" b="129" a="0.50980395"/>
+      </edge>
+      <edge id="97" source="Chihuahua.Moris" target="Chihuahua.Urique" weight="0.8653146624565125">
+        <viz:color r="137" g="135" b="129" a="0.50980395"/>
+      </edge>
+      <edge id="98" source="Chihuahua.Nuevo Casas Grandes" target="Chihuahua.San Francisco del Oro" weight="0.7536997199058533">
+        <viz:color r="137" g="135" b="129" a="0.50980395"/>
+      </edge>
+      <edge id="99" source="Chihuahua.Nuevo Casas Grandes" target="Chihuahua.Satevó" weight="0.77463299036026">
+        <viz:color r="137" g="135" b="129" a="0.50980395"/>
+      </edge>
+      <edge id="100" source="Chihuahua.Nuevo Casas Grandes" target="Chihuahua.Saucillo" weight="0.7465653419494629">
+        <viz:color r="137" g="135" b="129" a="0.50980395"/>
+      </edge>
+      <edge id="101" source="Chihuahua.Nuevo Casas Grandes" target="Chihuahua.Urique" weight="0.8260418772697449">
+        <viz:color r="137" g="135" b="129" a="0.50980395"/>
+      </edge>
+      <edge id="102" source="Chihuahua.Ocampo" target="Chihuahua.San Francisco del Oro" weight="0.8221330046653748">
+        <viz:color r="137" g="135" b="129" a="0.50980395"/>
+      </edge>
+      <edge id="103" source="Chihuahua.Ocampo" target="Chihuahua.Urique" weight="0.7162656784057617">
+        <viz:color r="137" g="135" b="129" a="0.50980395"/>
+      </edge>
+      <edge id="104" source="Chihuahua.Ojinaga" target="Chihuahua.Urique" weight="0.7227386832237244">
+        <viz:color r="137" g="135" b="129" a="0.50980395"/>
+      </edge>
+      <edge id="105" source="Chihuahua.San Francisco del Oro" target="Chihuahua.Urique" weight="0.742863118648529">
+        <viz:color r="137" g="135" b="129" a="0.50980395"/>
+      </edge>
+      <edge id="106" source="Chihuahua.Satevó" target="Chihuahua.Urique" weight="0.8287488222122192">
+        <viz:color r="137" g="135" b="129" a="0.50980395"/>
+      </edge>
+    </edges>
+  </graph>
+</gexf>

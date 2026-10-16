@@ -1,0 +1,136 @@
+<?xml version='1.0' encoding='utf-8'?>
+<gexf xmlns="http://www.gexf.net/1.2draft" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.gexf.net/1.2draft http://www.gexf.net/1.2draft/gexf.xsd" version="1.2">
+  <meta lastmodifieddate="2026-10-16">
+    <creator>NetworkX 3.7</creator>
+  </meta>
+  <graph defaultedgetype="undirected" mode="static" name="">
+    <attributes mode="static" class="node">
+      <attribute id="0" title="lat" type="double" />
+      <attribute id="1" title="lon" type="double" />
+      <attribute id="2" title="total_kg" type="double" />
+      <attribute id="3" title="community" type="long" />
+      <attribute id="4" title="color_hex" type="string" />
+    </attributes>
+    <nodes>
+      <node id="Guerrero.Acapulco de Juárez" label="Acapulco de Juárez">
+        <attvalues>
+          <attvalue for="0" value="16.5142721" />
+          <attvalue for="1" value="-99.5311608" />
+          <attvalue for="2" value="1396503117.9349093" />
+          <attvalue for="3" value="0" />
+          <attvalue for="4" value="#2a78d6" />
+        </attvalues>
+      </node>
+      <node id="Guerrero.Arcelia" label="Arcelia">
+        <attvalues>
+          <attvalue for="0" value="18.185697" />
+          <attvalue for="1" value="-100.1702227" />
+          <attvalue for="2" value="523.014142500155" />
+          <attvalue for="3" value="0" />
+          <attvalue for="4" value="#2a78d6" />
+        </attvalues>
+      </node>
+      <node id="Guerrero.Chilpancingo de los Bravo" label="Chilpancingo de los Bravo">
+        <attvalues>
+          <attvalue for="0" value="17.3305938" />
+          <attvalue for="1" value="-99.3003826" />
+          <attvalue for="2" value="115755.035552" />
+          <attvalue for="3" value="0" />
+          <attvalue for="4" value="#2a78d6" />
+        </attvalues>
+      </node>
+      <node id="Guerrero.Cocula" label="Cocula">
+        <attvalues>
+          <attvalue for="0" value="18.1409119" />
+          <attvalue for="1" value="-99.3940284" />
+          <attvalue for="2" value="612548123.94" />
+          <attvalue for="3" value="1" />
+          <attvalue for="4" value="#eb6834" />
+        </attvalues>
+      </node>
+      <node id="Guerrero.Cutzamala de Pinzón" label="Cutzamala de Pinzón">
+        <attvalues>
+          <attvalue for="0" value="18.275488" />
+          <attvalue for="1" value="-100.3442646" />
+          <attvalue for="2" value="1765522.5352" />
+          <attvalue for="3" value="2" />
+          <attvalue for="4" value="#1baf7a" />
+        </attvalues>
+      </node>
+      <node id="Guerrero.Eduardo Neri" label="Eduardo Neri">
+        <attvalues>
+          <attvalue for="0" value="17.391151" />
+          <attvalue for="1" value="-99.3133372" />
+          <attvalue for="2" value="445945982.5509718" />
+          <attvalue for="3" value="1" />
+          <attvalue for="4" value="#eb6834" />
+        </attvalues>
+      </node>
+      <node id="Guerrero.General Heliodoro Castillo" label="General Heliodoro Castillo">
+        <attvalues>
+          <attvalue for="0" value="17.4722013" />
+          <attvalue for="1" value="-99.5841944" />
+          <attvalue for="2" value="5.506355258" />
+          <attvalue for="3" value="3" />
+          <attvalue for="4" value="#eda100" />
+        </attvalues>
+      </node>
+      <node id="Guerrero.Iguala de la Independencia" label="Iguala de la Independencia">
+        <attvalues>
+          <attvalue for="0" value="18.2040377" />
+          <attvalue for="1" value="-99.3218126" />
+          <attvalue for="2" value="24605.561969086" />
+          <attvalue for="3" value="0" />
+          <attvalue for="4" value="#2a78d6" />
+        </attvalues>
+      </node>
+      <node id="Guerrero.La Unión de Isidoro Montes de Oca" label="La Unión de Isidoro Montes de Oca">
+        <attvalues>
+          <attvalue for="0" value="17.58564" />
+          <attvalue for="1" value="-101.4820465" />
+          <attvalue for="2" value="73653060665.49957" />
+          <attvalue for="3" value="1" />
+          <attvalue for="4" value="#eb6834" />
+        </attvalues>
+      </node>
+      <node id="Guerrero.Taxco de Alarcón" label="Taxco de Alarcón">
+        <attvalues>
+          <attvalue for="0" value="18.3326575" />
+          <attvalue for="1" value="-99.3616541" />
+          <attvalue for="2" value="35027.880000000005" />
+          <attvalue for="3" value="0" />
+          <attvalue for="4" value="#2a78d6" />
+        </attvalues>
+      </node>
+      <node id="Guerrero.Teloloapan" label="Teloloapan">
+        <attvalues>
+          <attvalue for="0" value="18.2218513" />
+          <attvalue for="1" value="-99.5210462" />
+          <attvalue for="2" value="5693838.2" />
+          <attvalue for="3" value="0" />
+          <attvalue for="4" value="#2a78d6" />
+        </attvalues>
+      </node>
+    </nodes>
+    <edges>
+      <edge source="Guerrero.Acapulco de Juárez" target="Guerrero.Arcelia" id="0" weight="0.7234444094752414" />
+      <edge source="Guerrero.Acapulco de Juárez" target="Guerrero.Chilpancingo de los Bravo" id="1" weight="0.7127266037403469" />
+      <edge source="Guerrero.Acapulco de Juárez" target="Guerrero.Iguala de la Independencia" id="2" weight="0.7341025968685162" />
+      <edge source="Guerrero.Acapulco de Juárez" target="Guerrero.Taxco de Alarcón" id="3" weight="0.7122617303910694" />
+      <edge source="Guerrero.Arcelia" target="Guerrero.Chilpancingo de los Bravo" id="4" weight="0.7901537987695859" />
+      <edge source="Guerrero.Arcelia" target="Guerrero.Iguala de la Independencia" id="5" weight="0.7862509368117142" />
+      <edge source="Guerrero.Arcelia" target="Guerrero.Taxco de Alarcón" id="6" weight="0.7901546825092725" />
+      <edge source="Guerrero.Chilpancingo de los Bravo" target="Guerrero.Cocula" id="7" weight="0.7231821101844459" />
+      <edge source="Guerrero.Chilpancingo de los Bravo" target="Guerrero.Iguala de la Independencia" id="8" weight="0.9951575845485233" />
+      <edge source="Guerrero.Chilpancingo de los Bravo" target="Guerrero.Taxco de Alarcón" id="9" weight="0.9999988815611598" />
+      <edge source="Guerrero.Chilpancingo de los Bravo" target="Guerrero.Teloloapan" id="10" weight="0.7829453405799931" />
+      <edge source="Guerrero.Cocula" target="Guerrero.Eduardo Neri" id="11" weight="0.7362606933899141" />
+      <edge source="Guerrero.Cocula" target="Guerrero.Iguala de la Independencia" id="12" weight="0.7455004471732696" />
+      <edge source="Guerrero.Cocula" target="Guerrero.La Unión de Isidoro Montes de Oca" id="13" weight="0.704266610961647" />
+      <edge source="Guerrero.Cocula" target="Guerrero.Taxco de Alarcón" id="14" weight="0.7231178454867787" />
+      <edge source="Guerrero.Iguala de la Independencia" target="Guerrero.Taxco de Alarcón" id="15" weight="0.9950595170996628" />
+      <edge source="Guerrero.Iguala de la Independencia" target="Guerrero.Teloloapan" id="16" weight="0.7790780838641477" />
+      <edge source="Guerrero.Taxco de Alarcón" target="Guerrero.Teloloapan" id="17" weight="0.7829462162574512" />
+    </edges>
+  </graph>
+</gexf>

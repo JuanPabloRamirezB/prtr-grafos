@@ -1,0 +1,199 @@
+<?xml version='1.0' encoding='utf-8'?>
+<gexf xmlns="http://www.gexf.net/1.2draft" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.gexf.net/1.2draft http://www.gexf.net/1.2draft/gexf.xsd" version="1.2">
+  <meta lastmodifieddate="2026-10-16">
+    <creator>NetworkX 3.7</creator>
+  </meta>
+  <graph defaultedgetype="undirected" mode="static" name="">
+    <attributes mode="static" class="node">
+      <attribute id="0" title="role" type="string" />
+      <attribute id="1" title="total_kg" type="double" />
+    </attributes>
+    <nodes>
+      <node id="Baja California.Mexicali" label="Baja California.Mexicali">
+        <attvalues>
+          <attvalue for="0" value="focal" />
+          <attvalue for="1" value="60793886572.50405" />
+        </attvalues>
+      </node>
+      <node id="Bióxido de carbono" label="Carbon dioxide">
+        <attvalues>
+          <attvalue for="0" value="substance" />
+          <attvalue for="1" value="60535744405.99145" />
+        </attvalues>
+      </node>
+      <node id="Acido sulfhídrico" label="Hydrogen sulfide">
+        <attvalues>
+          <attvalue for="0" value="substance" />
+          <attvalue for="1" value="130836157.95" />
+        </attvalues>
+      </node>
+      <node id="Metano" label="Methane">
+        <attvalues>
+          <attvalue for="0" value="substance" />
+          <attvalue for="1" value="118633136.93" />
+        </attvalues>
+      </node>
+      <node id="Bióxido de nitrógeno" label="Nitrogen dioxide">
+        <attvalues>
+          <attvalue for="0" value="substance" />
+          <attvalue for="1" value="2625582.8923" />
+        </attvalues>
+      </node>
+      <node id="Plomo (polvos respirables, humos o vapores)" label="Lead (respirable dust, fumes or vapors)">
+        <attvalues>
+          <attvalue for="0" value="substance" />
+          <attvalue for="1" value="2612665.4564085472" />
+        </attvalues>
+      </node>
+      <node id="Tolueno" label="Toluene">
+        <attvalues>
+          <attvalue for="0" value="substance" />
+          <attvalue for="1" value="1027467.7348839999" />
+        </attvalues>
+      </node>
+      <node id="Estireno (fenil etileno)" label="Styrene (phenylethylene)">
+        <attvalues>
+          <attvalue for="0" value="substance" />
+          <attvalue for="1" value="927563.041" />
+        </attvalues>
+      </node>
+      <node id="Plomo (compuestos)" label="Lead (compounds)">
+        <attvalues>
+          <attvalue for="0" value="substance" />
+          <attvalue for="1" value="251123.17014237787" />
+        </attvalues>
+      </node>
+      <node id="Níquel (Compuestos solubles)" label="Nickel (soluble compounds)">
+        <attvalues>
+          <attvalue for="0" value="substance" />
+          <attvalue for="1" value="207274.1640727775" />
+        </attvalues>
+      </node>
+      <node id="Níquel (polvos respirables, humos o vapores)" label="Nickel (respirable dust, fumes or vapors)">
+        <attvalues>
+          <attvalue for="0" value="substance" />
+          <attvalue for="1" value="181536.817213205" />
+        </attvalues>
+      </node>
+      <node id="Níquel (compuestos)" label="Nickel (compounds)">
+        <attvalues>
+          <attvalue for="0" value="substance" />
+          <attvalue for="1" value="177177.3843452207" />
+        </attvalues>
+      </node>
+      <node id="Cromo (Compuestos solubles)" label="Chromium (soluble compounds)">
+        <attvalues>
+          <attvalue for="0" value="substance" />
+          <attvalue for="1" value="119121.02359243999" />
+        </attvalues>
+      </node>
+      <node id="Oxido nitroso" label="Nitrous oxide">
+        <attvalues>
+          <attvalue for="0" value="substance" />
+          <attvalue for="1" value="112305.936" />
+        </attvalues>
+      </node>
+      <node id="Formaldehido" label="Formaldehyde">
+        <attvalues>
+          <attvalue for="0" value="substance" />
+          <attvalue for="1" value="93871.08122341044" />
+        </attvalues>
+      </node>
+      <node id="Cianuro inorgánico/orgánico" label="Inorganic/organic cyanide">
+        <attvalues>
+          <attvalue for="0" value="substance" />
+          <attvalue for="1" value="82573.34589866799" />
+        </attvalues>
+      </node>
+      <node id="Baja California.Tijuana" label="Baja California.Tijuana">
+        <attvalues>
+          <attvalue for="0" value="peer_municipio" />
+          <attvalue for="1" value="4663554615.548899" />
+        </attvalues>
+      </node>
+      <node id="Baja California.Tecate" label="Baja California.Tecate">
+        <attvalues>
+          <attvalue for="0" value="peer_municipio" />
+          <attvalue for="1" value="561646430.0437796" />
+        </attvalues>
+      </node>
+      <node id="Baja California.Playas de Rosarito" label="Baja California.Playas de Rosarito">
+        <attvalues>
+          <attvalue for="0" value="peer_municipio" />
+          <attvalue for="1" value="19330405173.73145" />
+        </attvalues>
+      </node>
+      <node id="Baja California.Ensenada" label="Baja California.Ensenada">
+        <attvalues>
+          <attvalue for="0" value="peer_municipio" />
+          <attvalue for="1" value="7022889593.647838" />
+        </attvalues>
+      </node>
+    </nodes>
+    <edges>
+      <edge source="Baja California.Mexicali" target="Bióxido de carbono" id="0" weight="60535744405.99145" />
+      <edge source="Baja California.Mexicali" target="Acido sulfhídrico" id="1" weight="130836157.95" />
+      <edge source="Baja California.Mexicali" target="Metano" id="2" weight="118633136.93" />
+      <edge source="Baja California.Mexicali" target="Bióxido de nitrógeno" id="3" weight="2625582.8923" />
+      <edge source="Baja California.Mexicali" target="Plomo (polvos respirables, humos o vapores)" id="4" weight="2612665.4564085472" />
+      <edge source="Baja California.Mexicali" target="Tolueno" id="5" weight="1027467.7348839999" />
+      <edge source="Baja California.Mexicali" target="Estireno (fenil etileno)" id="6" weight="927563.041" />
+      <edge source="Baja California.Mexicali" target="Plomo (compuestos)" id="7" weight="251123.17014237787" />
+      <edge source="Baja California.Mexicali" target="Níquel (Compuestos solubles)" id="8" weight="207274.1640727775" />
+      <edge source="Baja California.Mexicali" target="Níquel (polvos respirables, humos o vapores)" id="9" weight="181536.817213205" />
+      <edge source="Baja California.Mexicali" target="Níquel (compuestos)" id="10" weight="177177.3843452207" />
+      <edge source="Baja California.Mexicali" target="Cromo (Compuestos solubles)" id="11" weight="119121.02359243999" />
+      <edge source="Baja California.Mexicali" target="Oxido nitroso" id="12" weight="112305.936" />
+      <edge source="Baja California.Mexicali" target="Formaldehido" id="13" weight="93871.08122341044" />
+      <edge source="Baja California.Mexicali" target="Cianuro inorgánico/orgánico" id="14" weight="82573.34589866799" />
+      <edge source="Bióxido de carbono" target="Baja California.Tijuana" id="15" weight="4650423652.241796" />
+      <edge source="Bióxido de carbono" target="Baja California.Tecate" id="16" weight="561426694.4070001" />
+      <edge source="Bióxido de carbono" target="Baja California.Playas de Rosarito" id="17" weight="19258664813.991737" />
+      <edge source="Bióxido de carbono" target="Baja California.Ensenada" id="18" weight="7022569224.755214" />
+      <edge source="Acido sulfhídrico" target="Baja California.Tijuana" id="19" weight="1595.275" />
+      <edge source="Metano" target="Baja California.Tecate" id="20" weight="5255.0" />
+      <edge source="Metano" target="Baja California.Playas de Rosarito" id="21" weight="5368345.892" />
+      <edge source="Metano" target="Baja California.Ensenada" id="22" weight="54.0" />
+      <edge source="Bióxido de nitrógeno" target="Baja California.Tijuana" id="23" weight="1438786.27584" />
+      <edge source="Bióxido de nitrógeno" target="Baja California.Playas de Rosarito" id="24" weight="66028736.221" />
+      <edge source="Bióxido de nitrógeno" target="Baja California.Ensenada" id="25" weight="84932.489" />
+      <edge source="Plomo (polvos respirables, humos o vapores)" target="Baja California.Tijuana" id="26" weight="2477200.5786194" />
+      <edge source="Plomo (polvos respirables, humos o vapores)" target="Baja California.Playas de Rosarito" id="27" weight="57.85" />
+      <edge source="Plomo (polvos respirables, humos o vapores)" target="Baja California.Ensenada" id="28" weight="199.38001645499995" />
+      <edge source="Tolueno" target="Baja California.Tijuana" id="29" weight="562206.9019180001" />
+      <edge source="Tolueno" target="Baja California.Tecate" id="30" weight="54654.639" />
+      <edge source="Estireno (fenil etileno)" target="Baja California.Tijuana" id="31" weight="2577900.0350174396" />
+      <edge source="Estireno (fenil etileno)" target="Baja California.Tecate" id="32" weight="173.0" />
+      <edge source="Estireno (fenil etileno)" target="Baja California.Ensenada" id="33" weight="9437.25" />
+      <edge source="Plomo (compuestos)" target="Baja California.Tijuana" id="34" weight="4969215.639310038" />
+      <edge source="Plomo (compuestos)" target="Baja California.Tecate" id="35" weight="7009.815257689819" />
+      <edge source="Plomo (compuestos)" target="Baja California.Playas de Rosarito" id="36" weight="49.5296498696" />
+      <edge source="Plomo (compuestos)" target="Baja California.Ensenada" id="37" weight="3098.2975436799998" />
+      <edge source="Níquel (Compuestos solubles)" target="Baja California.Tijuana" id="38" weight="313629.01978479995" />
+      <edge source="Níquel (Compuestos solubles)" target="Baja California.Tecate" id="39" weight="14437.9246605" />
+      <edge source="Níquel (Compuestos solubles)" target="Baja California.Playas de Rosarito" id="40" weight="55423.1901196" />
+      <edge source="Níquel (Compuestos solubles)" target="Baja California.Ensenada" id="41" weight="96807.50539249997" />
+      <edge source="Níquel (polvos respirables, humos o vapores)" target="Baja California.Tijuana" id="42" weight="10879.853167199999" />
+      <edge source="Níquel (polvos respirables, humos o vapores)" target="Baja California.Tecate" id="43" weight="26143.05" />
+      <edge source="Níquel (polvos respirables, humos o vapores)" target="Baja California.Ensenada" id="44" weight="53.8229" />
+      <edge source="Níquel (compuestos)" target="Baja California.Tijuana" id="45" weight="656514.2868366757" />
+      <edge source="Níquel (compuestos)" target="Baja California.Tecate" id="46" weight="105778.028704092" />
+      <edge source="Níquel (compuestos)" target="Baja California.Playas de Rosarito" id="47" weight="10817.5851670924" />
+      <edge source="Níquel (compuestos)" target="Baja California.Ensenada" id="48" weight="35.258715280000004" />
+      <edge source="Cromo (Compuestos solubles)" target="Baja California.Tijuana" id="49" weight="59046.8491174" />
+      <edge source="Cromo (Compuestos solubles)" target="Baja California.Tecate" id="50" weight="6144.4820745000015" />
+      <edge source="Cromo (Compuestos solubles)" target="Baja California.Playas de Rosarito" id="51" weight="120262.30790459999" />
+      <edge source="Cromo (Compuestos solubles)" target="Baja California.Ensenada" id="52" weight="96291.32339999998" />
+      <edge source="Oxido nitroso" target="Baja California.Tecate" id="53" weight="0.2" />
+      <edge source="Oxido nitroso" target="Baja California.Playas de Rosarito" id="54" weight="132700.0" />
+      <edge source="Oxido nitroso" target="Baja California.Ensenada" id="55" weight="0.02" />
+      <edge source="Formaldehido" target="Baja California.Tijuana" id="56" weight="9303.611639956001" />
+      <edge source="Formaldehido" target="Baja California.Playas de Rosarito" id="57" weight="0.00074692492687" />
+      <edge source="Formaldehido" target="Baja California.Ensenada" id="58" weight="15765.212135595431" />
+      <edge source="Cianuro inorgánico/orgánico" target="Baja California.Tijuana" id="59" weight="54684.980852524604" />
+      <edge source="Cianuro inorgánico/orgánico" target="Baja California.Tecate" id="60" weight="139.49708274632178" />
+      <edge source="Cianuro inorgánico/orgánico" target="Baja California.Playas de Rosarito" id="61" weight="23967.163125242303" />
+      <edge source="Cianuro inorgánico/orgánico" target="Baja California.Ensenada" id="62" weight="13694.333520802003" />
+    </edges>
+  </graph>
+</gexf>

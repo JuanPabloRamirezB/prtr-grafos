@@ -1,0 +1,83 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<gexf xmlns="http://gexf.net/1.3" version="1.3" xmlns:viz="http://gexf.net/1.3/viz" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://gexf.net/1.3 http://gexf.net/1.3/gexf.xsd">
+  <meta lastmodifieddate="2026-10-16">
+    <creator>Apache NetBeans Platform Dev (Build {0})</creator>
+    <title></title>
+    <description></description>
+  </meta>
+  <graph defaultedgetype="undirected" mode="static">
+    <attributes class="node" mode="static">
+      <attribute id="0" title="total_kg" type="double"/>
+      <attribute id="modularity_class" title="Modularity Class" type="integer">
+        <default>0</default>
+      </attribute>
+    </attributes>
+    <nodes>
+      <node id="Baja California.Ensenada" label="Baja California.Ensenada">
+        <attvalues>
+          <attvalue for="0" value="7.023226643028638E9"/>
+          <attvalue for="modularity_class" value="0"/>
+        </attvalues>
+        <viz:size value="10.449375"/>
+        <viz:position x="22.040504" y="61.825676"/>
+        <viz:color r="42" g="120" b="214"/>
+      </node>
+      <node id="Baja California.Mexicali" label="Baja California.Mexicali">
+        <attvalues>
+          <attvalue for="0" value="6.079388657250405E10"/>
+          <attvalue for="modularity_class" value="1"/>
+        </attvalues>
+        <viz:size value="30.0"/>
+        <viz:position x="0.0" y="32.35019"/>
+        <viz:color r="235" g="104" b="52"/>
+      </node>
+      <node id="Baja California.Playas de Rosarito" label="Baja California.Playas de Rosarito">
+        <attvalues>
+          <attvalue for="0" value="1.933064002048014E10"/>
+          <attvalue for="modularity_class" value="0"/>
+        </attvalues>
+        <viz:size value="14.924261"/>
+        <viz:position x="27.504324" y="93.56974"/>
+        <viz:color r="42" g="120" b="214"/>
+      </node>
+      <node id="Baja California.Tijuana" label="Baja California.Tijuana">
+        <attvalues>
+          <attvalue for="0" value="4.666161050676274E9"/>
+          <attvalue for="modularity_class" value="1"/>
+        </attvalues>
+        <viz:size value="9.592362"/>
+        <viz:position x="33.154934" y="26.33003"/>
+        <viz:color r="235" g="104" b="52"/>
+      </node>
+      <node id="Baja California.Tecate" label="Baja California.Tecate">
+        <attvalues>
+          <attvalue for="0" value="5.616736770096923E8"/>
+          <attvalue for="modularity_class" value="1"/>
+        </attvalues>
+        <viz:size value="8.1"/>
+        <viz:position x="10.722443" y="0.0"/>
+        <viz:color r="235" g="104" b="52"/>
+      </node>
+    </nodes>
+    <edges>
+      <edge id="0" source="Baja California.Ensenada" target="Baja California.Mexicali" weight="0.7349516153335571">
+        <viz:color r="137" g="135" b="129" a="0.47058824"/>
+      </edge>
+      <edge id="1" source="Baja California.Ensenada" target="Baja California.Playas de Rosarito" weight="0.7653601765632629">
+        <viz:color r="137" g="135" b="129" a="0.47058824"/>
+      </edge>
+      <edge id="2" source="Baja California.Ensenada" target="Baja California.Tijuana" weight="0.703247606754303">
+        <viz:color r="137" g="135" b="129" a="0.47058824"/>
+      </edge>
+      <edge id="3" source="Baja California.Mexicali" target="Baja California.Tecate" weight="0.7552050352096558">
+        <viz:color r="137" g="135" b="129" a="0.47058824"/>
+      </edge>
+      <edge id="4" source="Baja California.Mexicali" target="Baja California.Tijuana" weight="0.8403553366661072">
+        <viz:color r="137" g="135" b="129" a="0.47058824"/>
+      </edge>
+      <edge id="5" source="Baja California.Tijuana" target="Baja California.Tecate" weight="0.7033740878105164">
+        <viz:color r="137" g="135" b="129" a="0.47058824"/>
+      </edge>
+    </edges>
+  </graph>
+</gexf>

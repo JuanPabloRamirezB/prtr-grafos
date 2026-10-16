@@ -1,0 +1,312 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<gexf xmlns="http://gexf.net/1.3" version="1.3" xmlns:viz="http://gexf.net/1.3/viz" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://gexf.net/1.3 http://gexf.net/1.3/gexf.xsd">
+  <meta lastmodifieddate="2026-10-16">
+    <creator>Apache NetBeans Platform Dev (Build {0})</creator>
+    <title></title>
+    <description></description>
+  </meta>
+  <graph defaultedgetype="undirected" mode="static">
+    <attributes class="node" mode="static">
+      <attribute id="0" title="type" type="string"/>
+      <attribute id="1" title="total_kg" type="double"/>
+    </attributes>
+    <nodes>
+      <node id="LOC::Aguascalientes.San Francisco de los Romo" label="Aguascalientes.San Francisco de los Romo">
+        <attvalues>
+          <attvalue for="0" value="location"/>
+          <attvalue for="1" value="1.6111686581099734E9"/>
+        </attvalues>
+        <viz:size value="14.275152"/>
+        <viz:position x="-140.98645" y="-13.357301"/>
+        <viz:color r="42" g="120" b="214"/>
+      </node>
+      <node id="LOC::Aguascalientes.Tepezalá" label="Aguascalientes.Tepezalá">
+        <attvalues>
+          <attvalue for="0" value="location"/>
+          <attvalue for="1" value="1.1643467321469532E10"/>
+        </attvalues>
+        <viz:size value="40.89541"/>
+        <viz:position x="25.331926" y="246.9053"/>
+        <viz:color r="42" g="120" b="214"/>
+      </node>
+      <node id="LOC::Aguascalientes.Aguascalientes" label="Aguascalientes.Aguascalientes">
+        <attvalues>
+          <attvalue for="0" value="location"/>
+          <attvalue for="1" value="2.8698791112353215E9"/>
+        </attvalues>
+        <viz:size value="17.615086"/>
+        <viz:position x="26.596504" y="-122.25932"/>
+        <viz:color r="42" g="120" b="214"/>
+      </node>
+      <node id="LOC::Aguascalientes.Jesús María" label="Aguascalientes.Jesús María">
+        <attvalues>
+          <attvalue for="0" value="location"/>
+          <attvalue for="1" value="1.315993128996041E9"/>
+        </attvalues>
+        <viz:size value="13.491917"/>
+        <viz:position x="-13.453704" y="-25.87487"/>
+        <viz:color r="42" g="120" b="214"/>
+      </node>
+      <node id="LOC::Aguascalientes.El Llano" label="Aguascalientes.El Llano">
+        <attvalues>
+          <attvalue for="0" value="location"/>
+          <attvalue for="1" value="395359.5864859999"/>
+        </attvalues>
+        <viz:size value="10.001037"/>
+        <viz:position x="80.364044" y="226.79837"/>
+        <viz:color r="42" g="120" b="214"/>
+      </node>
+      <node id="LOC::Aguascalientes.Rincón de Romos" label="Aguascalientes.Rincón de Romos">
+        <attvalues>
+          <attvalue for="0" value="location"/>
+          <attvalue for="1" value="2.2001928945278607E7"/>
+        </attvalues>
+        <viz:size value="10.058369"/>
+        <viz:position x="62.51491" y="101.43403"/>
+        <viz:color r="42" g="120" b="214"/>
+      </node>
+      <node id="LOC::Aguascalientes.Asientos" label="Aguascalientes.Asientos">
+        <attvalues>
+          <attvalue for="0" value="location"/>
+          <attvalue for="1" value="5.15227144023751E9"/>
+        </attvalues>
+        <viz:size value="23.67131"/>
+        <viz:position x="269.25137" y="12.253918"/>
+        <viz:color r="42" g="120" b="214"/>
+      </node>
+      <node id="MED::agua" label="water">
+        <attvalues>
+          <attvalue for="0" value="medio"/>
+          <attvalue for="1" value="28253.318077981"/>
+        </attvalues>
+        <viz:size value="10.000063"/>
+        <viz:position x="23.645794" y="167.49216"/>
+        <viz:color r="235" g="104" b="52"/>
+      </node>
+      <node id="MED::aire" label="air">
+        <attvalues>
+          <attvalue for="0" value="medio"/>
+          <attvalue for="1" value="2.2612028224343967E10"/>
+        </attvalues>
+        <viz:size value="70.0"/>
+        <viz:position x="136.39153" y="140.8024"/>
+        <viz:color r="235" g="104" b="52"/>
+      </node>
+      <node id="MED::suelo" label="soil">
+        <attvalues>
+          <attvalue for="0" value="medio"/>
+          <attvalue for="1" value="6065.822498287355"/>
+        </attvalues>
+        <viz:size value="10.000004"/>
+        <viz:position x="-46.35378" y="187.54555"/>
+        <viz:color r="235" g="104" b="52"/>
+      </node>
+      <node id="MED::alcantarillado" label="sewer system">
+        <attvalues>
+          <attvalue for="0" value="medio"/>
+          <attvalue for="1" value="4628.0315381064565"/>
+        </attvalues>
+        <viz:size value="10.0"/>
+        <viz:position x="-202.37305" y="-106.74833"/>
+        <viz:color r="235" g="104" b="52"/>
+      </node>
+      <node id="MED::coprocesamiento" label="co-processing">
+        <attvalues>
+          <attvalue for="0" value="medio"/>
+          <attvalue for="1" value="235588.26649428395"/>
+        </attvalues>
+        <viz:size value="10.000613"/>
+        <viz:position x="-152.7927" y="-191.04828"/>
+        <viz:color r="235" g="104" b="52"/>
+      </node>
+      <node id="MED::disposicion_final" label="final disposal">
+        <attvalues>
+          <attvalue for="0" value="medio"/>
+          <attvalue for="1" value="498267.48536466"/>
+        </attvalues>
+        <viz:size value="10.001309"/>
+        <viz:position x="-70.6846" y="61.318592"/>
+        <viz:color r="235" g="104" b="52"/>
+      </node>
+      <node id="MED::incineracion" label="incineration">
+        <attvalues>
+          <attvalue for="0" value="medio"/>
+          <attvalue for="1" value="9154.944"/>
+        </attvalues>
+        <viz:size value="10.000012"/>
+        <viz:position x="363.45416" y="6.790424"/>
+        <viz:color r="235" g="104" b="52"/>
+      </node>
+      <node id="MED::otros" label="other">
+        <attvalues>
+          <attvalue for="0" value="medio"/>
+          <attvalue for="1" value="9756.323663799996"/>
+        </attvalues>
+        <viz:size value="10.000013"/>
+        <viz:position x="-57.537273" y="-213.66023"/>
+        <viz:color r="235" g="104" b="52"/>
+      </node>
+      <node id="MED::reciclado" label="recycling">
+        <attvalues>
+          <attvalue for="0" value="medio"/>
+          <attvalue for="1" value="1978829.7565"/>
+        </attvalues>
+        <viz:size value="10.005239"/>
+        <viz:position x="178.79948" y="2.2365105"/>
+        <viz:color r="235" g="104" b="52"/>
+      </node>
+      <node id="MED::reutilizacion" label="reuse">
+        <attvalues>
+          <attvalue for="0" value="medio"/>
+          <attvalue for="1" value="27795.09"/>
+        </attvalues>
+        <viz:size value="10.000061"/>
+        <viz:position x="159.1452" y="-93.45765"/>
+        <viz:color r="235" g="104" b="52"/>
+      </node>
+      <node id="MED::tratamiento" label="treatment">
+        <attvalues>
+          <attvalue for="0" value="medio"/>
+          <attvalue for="1" value="350385.198065034"/>
+        </attvalues>
+        <viz:size value="10.000917"/>
+        <viz:position x="-107.59117" y="-132.99594"/>
+        <viz:color r="235" g="104" b="52"/>
+      </node>
+    </nodes>
+    <edges>
+      <edge id="0" source="LOC::Aguascalientes.San Francisco de los Romo" target="MED::agua" weight="782.6395263671875">
+        <viz:color r="137" g="135" b="129" a="0.43137255"/>
+      </edge>
+      <edge id="1" source="LOC::Aguascalientes.San Francisco de los Romo" target="MED::aire" weight="1.611148672E9">
+        <viz:color r="137" g="135" b="129" a="0.43137255"/>
+      </edge>
+      <edge id="2" source="LOC::Aguascalientes.San Francisco de los Romo" target="MED::suelo" weight="978.5883178710938">
+        <viz:color r="137" g="135" b="129" a="0.43137255"/>
+      </edge>
+      <edge id="3" source="LOC::Aguascalientes.San Francisco de los Romo" target="MED::alcantarillado" weight="2124.669921875">
+        <viz:color r="137" g="135" b="129" a="0.43137255"/>
+      </edge>
+      <edge id="4" source="LOC::Aguascalientes.San Francisco de los Romo" target="MED::coprocesamiento" weight="5646.33837890625">
+        <viz:color r="137" g="135" b="129" a="0.43137255"/>
+      </edge>
+      <edge id="5" source="LOC::Aguascalientes.San Francisco de los Romo" target="MED::disposicion_final" weight="1003.3521728515625">
+        <viz:color r="137" g="135" b="129" a="0.43137255"/>
+      </edge>
+      <edge id="6" source="LOC::Aguascalientes.San Francisco de los Romo" target="MED::otros" weight="1389.9212646484375">
+        <viz:color r="137" g="135" b="129" a="0.43137255"/>
+      </edge>
+      <edge id="7" source="LOC::Aguascalientes.San Francisco de los Romo" target="MED::reutilizacion" weight="2400.0">
+        <viz:color r="137" g="135" b="129" a="0.43137255"/>
+      </edge>
+      <edge id="8" source="LOC::Aguascalientes.San Francisco de los Romo" target="MED::tratamiento" weight="5632.9990234375">
+        <viz:color r="137" g="135" b="129" a="0.43137255"/>
+      </edge>
+      <edge id="9" source="LOC::Aguascalientes.Tepezalá" target="MED::agua" weight="14636.1181640625">
+        <viz:color r="137" g="135" b="129" a="0.43137255"/>
+      </edge>
+      <edge id="10" source="LOC::Aguascalientes.Tepezalá" target="MED::aire" weight="1.1643452416E10">
+        <viz:color r="137" g="135" b="129" a="0.43137255"/>
+      </edge>
+      <edge id="11" source="LOC::Aguascalientes.Tepezalá" target="MED::suelo" weight="6.955090522766113">
+        <viz:color r="137" g="135" b="129" a="0.43137255"/>
+      </edge>
+      <edge id="12" source="LOC::Aguascalientes.Aguascalientes" target="MED::agua" weight="12610.2705078125">
+        <viz:color r="137" g="135" b="129" a="0.43137255"/>
+      </edge>
+      <edge id="13" source="LOC::Aguascalientes.Aguascalientes" target="MED::aire" weight="2.867085056E9">
+        <viz:color r="137" g="135" b="129" a="0.43137255"/>
+      </edge>
+      <edge id="14" source="LOC::Aguascalientes.Aguascalientes" target="MED::suelo" weight="4543.1611328125">
+        <viz:color r="137" g="135" b="129" a="0.43137255"/>
+      </edge>
+      <edge id="15" source="LOC::Aguascalientes.Aguascalientes" target="MED::alcantarillado" weight="1351.3641357421875">
+        <viz:color r="137" g="135" b="129" a="0.43137255"/>
+      </edge>
+      <edge id="16" source="LOC::Aguascalientes.Aguascalientes" target="MED::coprocesamiento" weight="212055.671875">
+        <viz:color r="137" g="135" b="129" a="0.43137255"/>
+      </edge>
+      <edge id="17" source="LOC::Aguascalientes.Aguascalientes" target="MED::disposicion_final" weight="437704.125">
+        <viz:color r="137" g="135" b="129" a="0.43137255"/>
+      </edge>
+      <edge id="18" source="LOC::Aguascalientes.Aguascalientes" target="MED::otros" weight="2080.472412109375">
+        <viz:color r="137" g="135" b="129" a="0.43137255"/>
+      </edge>
+      <edge id="19" source="LOC::Aguascalientes.Aguascalientes" target="MED::reciclado" weight="1895483.5">
+        <viz:color r="137" g="135" b="129" a="0.43137255"/>
+      </edge>
+      <edge id="20" source="LOC::Aguascalientes.Aguascalientes" target="MED::reutilizacion" weight="22538.0">
+        <viz:color r="137" g="135" b="129" a="0.43137255"/>
+      </edge>
+      <edge id="21" source="LOC::Aguascalientes.Aguascalientes" target="MED::tratamiento" weight="205789.984375">
+        <viz:color r="137" g="135" b="129" a="0.43137255"/>
+      </edge>
+      <edge id="22" source="LOC::Aguascalientes.Jesús María" target="MED::agua" weight="197.74624633789062">
+        <viz:color r="137" g="135" b="129" a="0.43137255"/>
+      </edge>
+      <edge id="23" source="LOC::Aguascalientes.Jesús María" target="MED::aire" weight="1.315730688E9">
+        <viz:color r="137" g="135" b="129" a="0.43137255"/>
+      </edge>
+      <edge id="24" source="LOC::Aguascalientes.Jesús María" target="MED::suelo" weight="508.6128234863281">
+        <viz:color r="137" g="135" b="129" a="0.43137255"/>
+      </edge>
+      <edge id="25" source="LOC::Aguascalientes.Jesús María" target="MED::alcantarillado" weight="1151.99755859375">
+        <viz:color r="137" g="135" b="129" a="0.43137255"/>
+      </edge>
+      <edge id="26" source="LOC::Aguascalientes.Jesús María" target="MED::coprocesamiento" weight="17886.25390625">
+        <viz:color r="137" g="135" b="129" a="0.43137255"/>
+      </edge>
+      <edge id="27" source="LOC::Aguascalientes.Jesús María" target="MED::disposicion_final" weight="59553.0">
+        <viz:color r="137" g="135" b="129" a="0.43137255"/>
+      </edge>
+      <edge id="28" source="LOC::Aguascalientes.Jesús María" target="MED::otros" weight="6285.93017578125">
+        <viz:color r="137" g="135" b="129" a="0.43137255"/>
+      </edge>
+      <edge id="29" source="LOC::Aguascalientes.Jesús María" target="MED::reciclado" weight="37252.08984375">
+        <viz:color r="137" g="135" b="129" a="0.43137255"/>
+      </edge>
+      <edge id="30" source="LOC::Aguascalientes.Jesús María" target="MED::reutilizacion" weight="597.0900268554688">
+        <viz:color r="137" g="135" b="129" a="0.43137255"/>
+      </edge>
+      <edge id="31" source="LOC::Aguascalientes.Jesús María" target="MED::tratamiento" weight="138962.21875">
+        <viz:color r="137" g="135" b="129" a="0.43137255"/>
+      </edge>
+      <edge id="32" source="LOC::Aguascalientes.El Llano" target="MED::agua" weight="0.06853199750185013">
+        <viz:color r="137" g="135" b="129" a="0.43137255"/>
+      </edge>
+      <edge id="33" source="LOC::Aguascalientes.El Llano" target="MED::aire" weight="395359.4375">
+        <viz:color r="137" g="135" b="129" a="0.43137255"/>
+      </edge>
+      <edge id="34" source="LOC::Aguascalientes.El Llano" target="MED::suelo" weight="0.07995399832725525">
+        <viz:color r="137" g="135" b="129" a="0.43137255"/>
+      </edge>
+      <edge id="35" source="LOC::Aguascalientes.Rincón de Romos" target="MED::agua" weight="26.47479820251465">
+        <viz:color r="137" g="135" b="129" a="0.43137255"/>
+      </edge>
+      <edge id="36" source="LOC::Aguascalientes.Rincón de Romos" target="MED::aire" weight="2.2000558E7">
+        <viz:color r="137" g="135" b="129" a="0.43137255"/>
+      </edge>
+      <edge id="37" source="LOC::Aguascalientes.Rincón de Romos" target="MED::suelo" weight="28.425100326538086">
+        <viz:color r="137" g="135" b="129" a="0.43137255"/>
+      </edge>
+      <edge id="38" source="LOC::Aguascalientes.Rincón de Romos" target="MED::disposicion_final" weight="7.0">
+        <viz:color r="137" g="135" b="129" a="0.43137255"/>
+      </edge>
+      <edge id="39" source="LOC::Aguascalientes.Rincón de Romos" target="MED::reciclado" weight="1309.199951171875">
+        <viz:color r="137" g="135" b="129" a="0.43137255"/>
+      </edge>
+      <edge id="40" source="LOC::Aguascalientes.Asientos" target="MED::aire" weight="5.15221504E9">
+        <viz:color r="137" g="135" b="129" a="0.43137255"/>
+      </edge>
+      <edge id="41" source="LOC::Aguascalientes.Asientos" target="MED::incineracion" weight="9154.9443359375">
+        <viz:color r="137" g="135" b="129" a="0.43137255"/>
+      </edge>
+      <edge id="42" source="LOC::Aguascalientes.Asientos" target="MED::reciclado" weight="44785.01953125">
+        <viz:color r="137" g="135" b="129" a="0.43137255"/>
+      </edge>
+      <edge id="43" source="LOC::Aguascalientes.Asientos" target="MED::reutilizacion" weight="2260.0">
+        <viz:color r="137" g="135" b="129" a="0.43137255"/>
+      </edge>
+    </edges>
+  </graph>
+</gexf>

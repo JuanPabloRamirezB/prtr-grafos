@@ -1,0 +1,201 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<gexf xmlns="http://gexf.net/1.3" version="1.3" xmlns:viz="http://gexf.net/1.3/viz" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://gexf.net/1.3 http://gexf.net/1.3/gexf.xsd">
+  <meta lastmodifieddate="2026-10-16">
+    <creator>Apache NetBeans Platform Dev (Build {0})</creator>
+    <title></title>
+    <description></description>
+  </meta>
+  <graph defaultedgetype="undirected" mode="static">
+    <attributes class="node" mode="static">
+      <attribute id="0" title="type" type="string"/>
+      <attribute id="1" title="total_kg" type="double"/>
+    </attributes>
+    <nodes>
+      <node id="LOC::Nayarit.Xalisco" label="Nayarit.Xalisco">
+        <attvalues>
+          <attvalue for="0" value="location"/>
+          <attvalue for="1" value="484452.78022072196"/>
+        </attvalues>
+        <viz:size value="10.312744"/>
+        <viz:position x="-17.68925" y="-14.769779"/>
+        <viz:color r="42" g="120" b="214"/>
+      </node>
+      <node id="LOC::Nayarit.Tepic" label="Nayarit.Tepic">
+        <attvalues>
+          <attvalue for="0" value="location"/>
+          <attvalue for="1" value="16586.323953395986"/>
+        </attvalues>
+        <viz:size value="10.010708"/>
+        <viz:position x="117.85904" y="-69.90497"/>
+        <viz:color r="42" g="120" b="214"/>
+      </node>
+      <node id="LOC::Nayarit.Del Nayar" label="Nayarit.Del Nayar">
+        <attvalues>
+          <attvalue for="0" value="location"/>
+          <attvalue for="1" value="0.05261332273999999"/>
+        </attvalues>
+        <viz:size value="10.0"/>
+        <viz:position x="-77.04466" y="149.65395"/>
+        <viz:color r="42" g="120" b="214"/>
+      </node>
+      <node id="LOC::Nayarit.Bahía de Banderas" label="Nayarit.Bahía de Banderas">
+        <attvalues>
+          <attvalue for="0" value="location"/>
+          <attvalue for="1" value="868.3303999999999"/>
+        </attvalues>
+        <viz:size value="10.000561"/>
+        <viz:position x="-134.18047" y="-52.524456"/>
+        <viz:color r="42" g="120" b="214"/>
+      </node>
+      <node id="LOC::Nayarit.San Blas" label="Nayarit.San Blas">
+        <attvalues>
+          <attvalue for="0" value="location"/>
+          <attvalue for="1" value="1090.9144999999999"/>
+        </attvalues>
+        <viz:size value="10.000704"/>
+        <viz:position x="-23.304329" y="155.82825"/>
+        <viz:color r="42" g="120" b="214"/>
+      </node>
+      <node id="LOC::Nayarit.San Pedro Lagunillas" label="Nayarit.San Pedro Lagunillas">
+        <attvalues>
+          <attvalue for="0" value="location"/>
+          <attvalue for="1" value="9.247185756840001E7"/>
+        </attvalues>
+        <viz:size value="69.69637"/>
+        <viz:position x="42.95996" y="-13.882229"/>
+        <viz:color r="42" g="120" b="214"/>
+      </node>
+      <node id="LOC::Nayarit.Acaponeta" label="Nayarit.Acaponeta">
+        <attvalues>
+          <attvalue for="0" value="location"/>
+          <attvalue for="1" value="53.222475"/>
+        </attvalues>
+        <viz:size value="10.000034"/>
+        <viz:position x="66.04688" y="106.508675"/>
+        <viz:color r="42" g="120" b="214"/>
+      </node>
+      <node id="LOC::Nayarit.La Yesca" label="Nayarit.La Yesca">
+        <attvalues>
+          <attvalue for="0" value="location"/>
+          <attvalue for="1" value="77.50138679000001"/>
+        </attvalues>
+        <viz:size value="10.00005"/>
+        <viz:position x="-106.24353" y="103.313034"/>
+        <viz:color r="42" g="120" b="214"/>
+      </node>
+      <node id="LOC::Nayarit.Santa María del Oro" label="Nayarit.Santa María del Oro">
+        <attvalues>
+          <attvalue for="0" value="location"/>
+          <attvalue for="1" value="166.3801455592"/>
+        </attvalues>
+        <viz:size value="10.000108"/>
+        <viz:position x="-27.55298" y="-180.10008"/>
+        <viz:color r="42" g="120" b="214"/>
+      </node>
+      <node id="MED::agua" label="water">
+        <attvalues>
+          <attvalue for="0" value="medio"/>
+          <attvalue for="1" value="16132.937865827773"/>
+        </attvalues>
+        <viz:size value="10.010415"/>
+        <viz:position x="-37.902313" y="85.18908"/>
+        <viz:color r="235" g="104" b="52"/>
+      </node>
+      <node id="MED::aire" label="air">
+        <attvalues>
+          <attvalue for="0" value="medio"/>
+          <attvalue for="1" value="9.294218591678907E7"/>
+        </attvalues>
+        <viz:size value="70.0"/>
+        <viz:position x="104.421524" y="33.245644"/>
+        <viz:color r="235" g="104" b="52"/>
+      </node>
+      <node id="MED::suelo" label="soil">
+        <attvalues>
+          <attvalue for="0" value="medio"/>
+          <attvalue for="1" value="16565.500039897306"/>
+        </attvalues>
+        <viz:size value="10.0106945"/>
+        <viz:position x="-17.75098" y="-116.95407"/>
+        <viz:color r="235" g="104" b="52"/>
+      </node>
+      <node id="MED::coprocesamiento" label="co-processing">
+        <attvalues>
+          <attvalue for="0" value="medio"/>
+          <attvalue for="1" value="260.4"/>
+        </attvalues>
+        <viz:size value="10.000168"/>
+        <viz:position x="-214.39093" y="-81.44662"/>
+        <viz:color r="235" g="104" b="52"/>
+      </node>
+      <node id="MED::otros" label="other">
+        <attvalues>
+          <attvalue for="0" value="medio"/>
+          <attvalue for="1" value="8.3194"/>
+        </attvalues>
+        <viz:size value="10.000006"/>
+        <viz:position x="206.09993" y="-122.90216"/>
+        <viz:color r="235" g="104" b="52"/>
+      </node>
+    </nodes>
+    <edges>
+      <edge id="0" source="LOC::Nayarit.Xalisco" target="MED::agua" weight="5.465975284576416">
+        <viz:color r="137" g="135" b="129" a="0.43137255"/>
+      </edge>
+      <edge id="1" source="LOC::Nayarit.Xalisco" target="MED::aire" weight="484443.8125">
+        <viz:color r="137" g="135" b="129" a="0.43137255"/>
+      </edge>
+      <edge id="2" source="LOC::Nayarit.Xalisco" target="MED::suelo" weight="3.5142452716827393">
+        <viz:color r="137" g="135" b="129" a="0.43137255"/>
+      </edge>
+      <edge id="3" source="LOC::Nayarit.Tepic" target="MED::agua" weight="1.527503991383128E-5">
+        <viz:color r="137" g="135" b="129" a="0.43137255"/>
+      </edge>
+      <edge id="4" source="LOC::Nayarit.Tepic" target="MED::aire" weight="15554.1171875">
+        <viz:color r="137" g="135" b="129" a="0.43137255"/>
+      </edge>
+      <edge id="5" source="LOC::Nayarit.Tepic" target="MED::suelo" weight="1023.8877563476562">
+        <viz:color r="137" g="135" b="129" a="0.43137255"/>
+      </edge>
+      <edge id="6" source="LOC::Nayarit.Tepic" target="MED::otros" weight="8.3193998336792">
+        <viz:color r="137" g="135" b="129" a="0.43137255"/>
+      </edge>
+      <edge id="7" source="LOC::Nayarit.Del Nayar" target="MED::agua" weight="0.05261332169175148">
+        <viz:color r="137" g="135" b="129" a="0.43137255"/>
+      </edge>
+      <edge id="8" source="LOC::Nayarit.Bahía de Banderas" target="MED::agua" weight="97.49669647216797">
+        <viz:color r="137" g="135" b="129" a="0.43137255"/>
+      </edge>
+      <edge id="9" source="LOC::Nayarit.Bahía de Banderas" target="MED::suelo" weight="510.4336853027344">
+        <viz:color r="137" g="135" b="129" a="0.43137255"/>
+      </edge>
+      <edge id="10" source="LOC::Nayarit.Bahía de Banderas" target="MED::coprocesamiento" weight="260.3999938964844">
+        <viz:color r="137" g="135" b="129" a="0.43137255"/>
+      </edge>
+      <edge id="11" source="LOC::Nayarit.San Blas" target="MED::agua" weight="1090.91455078125">
+        <viz:color r="137" g="135" b="129" a="0.43137255"/>
+      </edge>
+      <edge id="12" source="LOC::Nayarit.San Pedro Lagunillas" target="MED::agua" weight="14861.2841796875">
+        <viz:color r="137" g="135" b="129" a="0.43137255"/>
+      </edge>
+      <edge id="13" source="LOC::Nayarit.San Pedro Lagunillas" target="MED::aire" weight="9.2442136E7">
+        <viz:color r="137" g="135" b="129" a="0.43137255"/>
+      </edge>
+      <edge id="14" source="LOC::Nayarit.San Pedro Lagunillas" target="MED::suelo" weight="14861.2841796875">
+        <viz:color r="137" g="135" b="129" a="0.43137255"/>
+      </edge>
+      <edge id="15" source="LOC::Nayarit.Acaponeta" target="MED::agua" weight="0.22247500717639923">
+        <viz:color r="137" g="135" b="129" a="0.43137255"/>
+      </edge>
+      <edge id="16" source="LOC::Nayarit.Acaponeta" target="MED::aire" weight="53.0">
+        <viz:color r="137" g="135" b="129" a="0.43137255"/>
+      </edge>
+      <edge id="17" source="LOC::Nayarit.La Yesca" target="MED::agua" weight="77.50138854980469">
+        <viz:color r="137" g="135" b="129" a="0.43137255"/>
+      </edge>
+      <edge id="18" source="LOC::Nayarit.Santa María del Oro" target="MED::suelo" weight="166.38014221191406">
+        <viz:color r="137" g="135" b="129" a="0.43137255"/>
+      </edge>
+    </edges>
+  </graph>
+</gexf>

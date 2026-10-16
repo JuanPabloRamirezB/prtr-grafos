@@ -8,13 +8,25 @@ Edge weight: sum of `observation` (Kg/ano) between a location and a substance,
 aggregated across all activities/years/media.
 """
 import csv
+import os
+import sys
+import unicodedata
 import networkx as nx
 
 import prtr_hover as H
 
+
+def slugify(name):
+    n = unicodedata.normalize("NFKD", name).encode("ascii", "ignore").decode()
+    return n.lower().replace(" ", "_")
+
+
 SRC = "prtr_raw_for_stori_stori.csv"
-STATE_FILTER = "Tamaulipas"
-OUT = f"prtr_municipio_sustancia_{STATE_FILTER.lower()}.gexf"
+STATE_FILTER = sys.argv[1] if len(sys.argv) > 1 else "Tamaulipas"
+OUT_DIR = sys.argv[2] if len(sys.argv) > 2 else "."
+SLUG = sys.argv[3] if len(sys.argv) > 3 else slugify(STATE_FILTER)
+OUT = os.path.join(OUT_DIR, f"prtr_municipio_sustancia_{SLUG}.gexf")
+H.configure(STATE_FILTER, "municipio")
 
 edges = {}  # (loc, sub) -> {"weight": float, "count": int}
 loc_totals = {}

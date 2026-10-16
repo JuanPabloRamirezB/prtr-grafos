@@ -1,0 +1,1276 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<gexf xmlns="http://gexf.net/1.3" version="1.3" xmlns:viz="http://gexf.net/1.3/viz" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://gexf.net/1.3 http://gexf.net/1.3/gexf.xsd">
+  <meta lastmodifieddate="2026-10-16">
+    <creator>Apache NetBeans Platform Dev (Build {0})</creator>
+    <title></title>
+    <description></description>
+  </meta>
+  <graph defaultedgetype="undirected" mode="static">
+    <attributes class="node" mode="static">
+      <attribute id="0" title="type" type="string"/>
+      <attribute id="1" title="total_kg" type="double"/>
+      <attribute id="2" title="first_year" type="long"/>
+      <attribute id="3" title="n_years_active" type="long"/>
+    </attributes>
+    <nodes>
+      <node id="LOC::Durango.Durango" label="Durango.Durango">
+        <attvalues>
+          <attvalue for="0" value="location"/>
+          <attvalue for="1" value="1.6645808194669125E10"/>
+          <attvalue for="2" value="2004"/>
+          <attvalue for="3" value="19"/>
+        </attvalues>
+        <viz:size value="50.0"/>
+        <viz:position x="-442.31644" y="344.21954"/>
+        <viz:color r="205" g="226" b="251"/>
+      </node>
+      <node id="LOC::Durango.Gómez Palacio" label="Durango.Gómez Palacio">
+        <attvalues>
+          <attvalue for="0" value="location"/>
+          <attvalue for="1" value="2.536106905306556E10"/>
+          <attvalue for="2" value="2004"/>
+          <attvalue for="3" value="19"/>
+        </attvalues>
+        <viz:size value="50.0"/>
+        <viz:position x="-55.63913" y="622.32635"/>
+        <viz:color r="205" g="226" b="251"/>
+      </node>
+      <node id="LOC::Durango.Lerdo" label="Durango.Lerdo">
+        <attvalues>
+          <attvalue for="0" value="location"/>
+          <attvalue for="1" value="2.2692147227077755E10"/>
+          <attvalue for="2" value="2006"/>
+          <attvalue for="3" value="17"/>
+        </attvalues>
+        <viz:size value="45.11111"/>
+        <viz:position x="-268.84576" y="38.582294"/>
+        <viz:color r="178" g="209" b="246"/>
+      </node>
+      <node id="LOC::Durango.San Dimas" label="Durango.San Dimas">
+        <attvalues>
+          <attvalue for="0" value="location"/>
+          <attvalue for="1" value="2.213641229016174E7"/>
+          <attvalue for="2" value="2004"/>
+          <attvalue for="3" value="16"/>
+        </attvalues>
+        <viz:size value="42.666664"/>
+        <viz:position x="-140.12701" y="-461.0569"/>
+        <viz:color r="205" g="226" b="251"/>
+      </node>
+      <node id="LOC::Durango.Santiago Papasquiaro" label="Durango.Santiago Papasquiaro">
+        <attvalues>
+          <attvalue for="0" value="location"/>
+          <attvalue for="1" value="2.6344187972541254E7"/>
+          <attvalue for="2" value="2004"/>
+          <attvalue for="3" value="18"/>
+        </attvalues>
+        <viz:size value="47.555553"/>
+        <viz:position x="71.982346" y="-423.3008"/>
+        <viz:color r="205" g="226" b="251"/>
+      </node>
+      <node id="LOC::Durango.Mapimí" label="Durango.Mapimí">
+        <attvalues>
+          <attvalue for="0" value="location"/>
+          <attvalue for="1" value="1.6590265681536034E8"/>
+          <attvalue for="2" value="2004"/>
+          <attvalue for="3" value="19"/>
+        </attvalues>
+        <viz:size value="50.0"/>
+        <viz:position x="-34.951115" y="-306.80966"/>
+        <viz:color r="205" g="226" b="251"/>
+      </node>
+      <node id="LOC::Durango.Topia" label="Durango.Topia">
+        <attvalues>
+          <attvalue for="0" value="location"/>
+          <attvalue for="1" value="3.489259599945941E7"/>
+          <attvalue for="2" value="2006"/>
+          <attvalue for="3" value="14"/>
+        </attvalues>
+        <viz:size value="37.77778"/>
+        <viz:position x="52.985962" y="-145.53325"/>
+        <viz:color r="178" g="209" b="246"/>
+      </node>
+      <node id="LOC::Durango.Guanaceví" label="Durango.Guanaceví">
+        <attvalues>
+          <attvalue for="0" value="location"/>
+          <attvalue for="1" value="622553.1152895418"/>
+          <attvalue for="2" value="2012"/>
+          <attvalue for="3" value="11"/>
+        </attvalues>
+        <viz:size value="30.444447"/>
+        <viz:position x="-60.690826" y="-162.58586"/>
+        <viz:color r="98" g="160" b="233"/>
+      </node>
+      <node id="LOC::Durango.Otáez" label="Durango.Otáez">
+        <attvalues>
+          <attvalue for="0" value="location"/>
+          <attvalue for="1" value="648963.9172578625"/>
+          <attvalue for="2" value="2004"/>
+          <attvalue for="3" value="10"/>
+        </attvalues>
+        <viz:size value="28.0"/>
+        <viz:position x="153.81937" y="-236.9583"/>
+        <viz:color r="205" g="226" b="251"/>
+      </node>
+      <node id="LOC::Durango.Tepehuanes" label="Durango.Tepehuanes">
+        <attvalues>
+          <attvalue for="0" value="location"/>
+          <attvalue for="1" value="500.36790299999996"/>
+          <attvalue for="2" value="2013"/>
+          <attvalue for="3" value="2"/>
+        </attvalues>
+        <viz:size value="8.444445"/>
+        <viz:position x="318.00058" y="-63.617985"/>
+        <viz:color r="85" g="152" b="231"/>
+      </node>
+      <node id="LOC::Durango.Pánuco de Coronado" label="Durango.Pánuco de Coronado">
+        <attvalues>
+          <attvalue for="0" value="location"/>
+          <attvalue for="1" value="5175146.495000001"/>
+          <attvalue for="2" value="2013"/>
+          <attvalue for="3" value="7"/>
+        </attvalues>
+        <viz:size value="20.666668"/>
+        <viz:position x="169.44226" y="96.224365"/>
+        <viz:color r="85" g="152" b="231"/>
+      </node>
+      <node id="LOC::Durango.Cuencamé" label="Durango.Cuencamé">
+        <attvalues>
+          <attvalue for="0" value="location"/>
+          <attvalue for="1" value="1142419.2444328777"/>
+          <attvalue for="2" value="2012"/>
+          <attvalue for="3" value="11"/>
+        </attvalues>
+        <viz:size value="30.444447"/>
+        <viz:position x="320.16663" y="-475.6901"/>
+        <viz:color r="98" g="160" b="233"/>
+      </node>
+      <node id="LOC::Durango.San Juan del Río" label="Durango.San Juan del Río">
+        <attvalues>
+          <attvalue for="0" value="location"/>
+          <attvalue for="1" value="1.4829985603335997E8"/>
+          <attvalue for="2" value="2009"/>
+          <attvalue for="3" value="12"/>
+        </attvalues>
+        <viz:size value="32.88889"/>
+        <viz:position x="418.16898" y="270.92087"/>
+        <viz:color r="138" g="184" b="239"/>
+      </node>
+      <node id="LOC::Durango.Nombre de Dios" label="Durango.Nombre de Dios">
+        <attvalues>
+          <attvalue for="0" value="location"/>
+          <attvalue for="1" value="1.3219093865080003E7"/>
+          <attvalue for="2" value="2005"/>
+          <attvalue for="3" value="16"/>
+        </attvalues>
+        <viz:size value="42.666664"/>
+        <viz:position x="462.70322" y="-306.81207"/>
+        <viz:color r="191" g="217" b="248"/>
+      </node>
+      <node id="LOC::Durango.Indé" label="Durango.Indé">
+        <attvalues>
+          <attvalue for="0" value="location"/>
+          <attvalue for="1" value="180.322005"/>
+          <attvalue for="2" value="2010"/>
+          <attvalue for="3" value="2"/>
+        </attvalues>
+        <viz:size value="8.444445"/>
+        <viz:position x="436.66217" y="-233.21085"/>
+        <viz:color r="125" g="176" b="237"/>
+      </node>
+      <node id="LOC::Durango.Tlahualilo" label="Durango.Tlahualilo">
+        <attvalues>
+          <attvalue for="0" value="location"/>
+          <attvalue for="1" value="3879.177099999999"/>
+          <attvalue for="2" value="2017"/>
+          <attvalue for="3" value="6"/>
+        </attvalues>
+        <viz:size value="18.222223"/>
+        <viz:position x="389.7882" y="64.89028"/>
+        <viz:color r="57" g="119" b="194"/>
+      </node>
+      <node id="SUB::Cromo (Compuestos solubles)" label="Chromium (soluble compounds)">
+        <attvalues>
+          <attvalue for="0" value="substance"/>
+          <attvalue for="1" value="8089.793694621345"/>
+          <attvalue for="2" value="2008"/>
+          <attvalue for="3" value="10"/>
+        </attvalues>
+        <viz:size value="28.0"/>
+        <viz:position x="28.315746" y="13.209338"/>
+        <viz:color r="151" g="193" b="242"/>
+      </node>
+      <node id="SUB::Mercurio (Compuestos solubles)" label="Mercury (soluble compounds)">
+        <attvalues>
+          <attvalue for="0" value="substance"/>
+          <attvalue for="1" value="431.2542852063199"/>
+          <attvalue for="2" value="2008"/>
+          <attvalue for="3" value="10"/>
+        </attvalues>
+        <viz:size value="28.0"/>
+        <viz:position x="-534.86255" y="-75.76488"/>
+        <viz:color r="151" g="193" b="242"/>
+      </node>
+      <node id="SUB::Níquel (Compuestos solubles)" label="Nickel (soluble compounds)">
+        <attvalues>
+          <attvalue for="0" value="substance"/>
+          <attvalue for="1" value="10120.718394157462"/>
+          <attvalue for="2" value="2008"/>
+          <attvalue for="3" value="10"/>
+        </attvalues>
+        <viz:size value="28.0"/>
+        <viz:position x="270.73288" y="21.755758"/>
+        <viz:color r="151" g="193" b="242"/>
+      </node>
+      <node id="SUB::Plomo (Compuestos solubles)" label="Lead (soluble compounds)">
+        <attvalues>
+          <attvalue for="0" value="substance"/>
+          <attvalue for="1" value="169943.62213435568"/>
+          <attvalue for="2" value="2008"/>
+          <attvalue for="3" value="10"/>
+        </attvalues>
+        <viz:size value="28.0"/>
+        <viz:position x="287.81842" y="-212.31165"/>
+        <viz:color r="151" g="193" b="242"/>
+      </node>
+      <node id="SUB::Cianuro inorgánico/orgánico" label="Inorganic/organic cyanide">
+        <attvalues>
+          <attvalue for="0" value="substance"/>
+          <attvalue for="1" value="928698.1900190245"/>
+          <attvalue for="2" value="2004"/>
+          <attvalue for="3" value="19"/>
+        </attvalues>
+        <viz:size value="50.0"/>
+        <viz:position x="418.48483" y="-116.588295"/>
+        <viz:color r="205" g="226" b="251"/>
+      </node>
+      <node id="SUB::Arsénico (polvos, respirables, vapores o humos)" label="Arsenic (respirable dust, vapors or fumes)">
+        <attvalues>
+          <attvalue for="0" value="substance"/>
+          <attvalue for="1" value="1176392.775114168"/>
+          <attvalue for="2" value="2004"/>
+          <attvalue for="3" value="17"/>
+        </attvalues>
+        <viz:size value="45.11111"/>
+        <viz:position x="-235.14024" y="-371.6276"/>
+        <viz:color r="205" g="226" b="251"/>
+      </node>
+      <node id="SUB::Cadmio (polvos, respirables, vapores o humos)" label="Cadmium (respirable dust, vapors or fumes)">
+        <attvalues>
+          <attvalue for="0" value="substance"/>
+          <attvalue for="1" value="15884.16951504594"/>
+          <attvalue for="2" value="2004"/>
+          <attvalue for="3" value="18"/>
+        </attvalues>
+        <viz:size value="47.555553"/>
+        <viz:position x="-125.11708" y="-22.021921"/>
+        <viz:color r="205" g="226" b="251"/>
+      </node>
+      <node id="SUB::Cromo (compuestos)" label="Chromium (compounds)">
+        <attvalues>
+          <attvalue for="0" value="substance"/>
+          <attvalue for="1" value="469.31599062217987"/>
+          <attvalue for="2" value="2004"/>
+          <attvalue for="3" value="9"/>
+        </attvalues>
+        <viz:size value="25.555555"/>
+        <viz:position x="-206.27913" y="-157.42581"/>
+        <viz:color r="205" g="226" b="251"/>
+      </node>
+      <node id="SUB::Níquel (compuestos)" label="Nickel (compounds)">
+        <attvalues>
+          <attvalue for="0" value="substance"/>
+          <attvalue for="1" value="11365.439350718301"/>
+          <attvalue for="2" value="2004"/>
+          <attvalue for="3" value="9"/>
+        </attvalues>
+        <viz:size value="25.555555"/>
+        <viz:position x="-177.57712" y="-270.3375"/>
+        <viz:color r="205" g="226" b="251"/>
+      </node>
+      <node id="SUB::Plomo (compuestos)" label="Lead (compounds)">
+        <attvalues>
+          <attvalue for="0" value="substance"/>
+          <attvalue for="1" value="1534473.7427104292"/>
+          <attvalue for="2" value="2004"/>
+          <attvalue for="3" value="9"/>
+        </attvalues>
+        <viz:size value="25.555555"/>
+        <viz:position x="323.83047" y="-325.7859"/>
+        <viz:color r="205" g="226" b="251"/>
+      </node>
+      <node id="SUB::Cadmio (compuestos)" label="Cadmium (compounds)">
+        <attvalues>
+          <attvalue for="0" value="substance"/>
+          <attvalue for="1" value="406.460458957783"/>
+          <attvalue for="2" value="2010"/>
+          <attvalue for="3" value="4"/>
+        </attvalues>
+        <viz:size value="13.333334"/>
+        <viz:position x="-434.58664" y="-135.0648"/>
+        <viz:color r="125" g="176" b="237"/>
+      </node>
+      <node id="SUB::Mercurio (compuestos)" label="Mercury (compounds)">
+        <attvalues>
+          <attvalue for="0" value="substance"/>
+          <attvalue for="1" value="1226.9822517865614"/>
+          <attvalue for="2" value="2004"/>
+          <attvalue for="3" value="9"/>
+        </attvalues>
+        <viz:size value="25.555555"/>
+        <viz:position x="-311.43478" y="-254.15886"/>
+        <viz:color r="205" g="226" b="251"/>
+      </node>
+      <node id="SUB::Arsénico (compuestos)" label="Arsenic (compounds)">
+        <attvalues>
+          <attvalue for="0" value="substance"/>
+          <attvalue for="1" value="111927.4732495844"/>
+          <attvalue for="2" value="2010"/>
+          <attvalue for="3" value="4"/>
+        </attvalues>
+        <viz:size value="13.333334"/>
+        <viz:position x="-387.77548" y="-349.28888"/>
+        <viz:color r="125" g="176" b="237"/>
+      </node>
+      <node id="SUB::Mercurio (polvos, respirables, vapores o humos)" label="Mercury (respirable dust, vapors or fumes)">
+        <attvalues>
+          <attvalue for="0" value="substance"/>
+          <attvalue for="1" value="1622.4853282370898"/>
+          <attvalue for="2" value="2007"/>
+          <attvalue for="3" value="13"/>
+        </attvalues>
+        <viz:size value="35.333336"/>
+        <viz:position x="18.51045" y="-540.69305"/>
+        <viz:color r="164" g="201" b="244" a="0.99607843"/>
+      </node>
+      <node id="SUB::Arsénico (Compuestos solubles)" label="Arsenic (soluble compounds)">
+        <attvalues>
+          <attvalue for="0" value="substance"/>
+          <attvalue for="1" value="6959.276820047308"/>
+          <attvalue for="2" value="2014"/>
+          <attvalue for="3" value="9"/>
+        </attvalues>
+        <viz:size value="25.555555"/>
+        <viz:position x="174.9986" y="258.38794"/>
+        <viz:color r="78" g="143" b="221"/>
+      </node>
+      <node id="SUB::Cadmio (Compuestos solubles)" label="Cadmium (soluble compounds)">
+        <attvalues>
+          <attvalue for="0" value="substance"/>
+          <attvalue for="1" value="5905.473702730435"/>
+          <attvalue for="2" value="2014"/>
+          <attvalue for="3" value="9"/>
+        </attvalues>
+        <viz:size value="25.555555"/>
+        <viz:position x="287.0648" y="147.60281"/>
+        <viz:color r="78" g="143" b="221"/>
+      </node>
+      <node id="SUB::Plomo (polvos respirables, humos o vapores)" label="Lead (respirable dust, fumes or vapors)">
+        <attvalues>
+          <attvalue for="0" value="substance"/>
+          <attvalue for="1" value="1.31022494337791E7"/>
+          <attvalue for="2" value="2014"/>
+          <attvalue for="3" value="9"/>
+        </attvalues>
+        <viz:size value="25.555555"/>
+        <viz:position x="216.27213" y="-484.4184"/>
+        <viz:color r="78" g="143" b="221"/>
+      </node>
+      <node id="SUB::Níquel (polvos respirables, humos o vapores)" label="Nickel (respirable dust, fumes or vapors)">
+        <attvalues>
+          <attvalue for="0" value="substance"/>
+          <attvalue for="1" value="1237.7892417216967"/>
+          <attvalue for="2" value="2014"/>
+          <attvalue for="3" value="8"/>
+        </attvalues>
+        <viz:size value="23.11111"/>
+        <viz:position x="-556.4617" y="555.02045"/>
+        <viz:color r="78" g="143" b="221"/>
+      </node>
+      <node id="SUB::Bifenilos policlorados" label="Polychlorinated biphenyls (PCBs)">
+        <attvalues>
+          <attvalue for="0" value="substance"/>
+          <attvalue for="1" value="2290.3029"/>
+          <attvalue for="2" value="2004"/>
+          <attvalue for="3" value="3"/>
+        </attvalues>
+        <viz:size value="10.888889"/>
+        <viz:position x="-431.9887" y="592.19775"/>
+        <viz:color r="205" g="226" b="251"/>
+      </node>
+      <node id="SUB::Cianuro de hidrógeno" label="Hydrogen cyanide">
+        <attvalues>
+          <attvalue for="0" value="substance"/>
+          <attvalue for="1" value="737.3337"/>
+          <attvalue for="2" value="2022"/>
+          <attvalue for="3" value="1"/>
+        </attvalues>
+        <viz:size value="6.0"/>
+        <viz:position x="77.779655" y="1209.0375"/>
+        <viz:color r="24" g="79" b="149"/>
+      </node>
+      <node id="SUB::Bióxido de carbono" label="Carbon dioxide">
+        <attvalues>
+          <attvalue for="0" value="substance"/>
+          <attvalue for="1" value="6.507573202248986E10"/>
+          <attvalue for="2" value="2004"/>
+          <attvalue for="3" value="19"/>
+        </attvalues>
+        <viz:size value="50.0"/>
+        <viz:position x="174.48608" y="-56.866325"/>
+        <viz:color r="205" g="226" b="251"/>
+      </node>
+      <node id="SUB::Tricloroetileno" label="Trichloroethylene">
+        <attvalues>
+          <attvalue for="0" value="substance"/>
+          <attvalue for="1" value="6880.000069"/>
+          <attvalue for="2" value="2007"/>
+          <attvalue for="3" value="6"/>
+        </attvalues>
+        <viz:size value="18.222223"/>
+        <viz:position x="-988.05634" y="451.1804"/>
+        <viz:color r="164" g="201" b="244" a="0.99607843"/>
+      </node>
+      <node id="SUB::Bióxido de nitrógeno" label="Nitrogen dioxide">
+        <attvalues>
+          <attvalue for="0" value="substance"/>
+          <attvalue for="1" value="7532909.6819"/>
+          <attvalue for="2" value="2006"/>
+          <attvalue for="3" value="8"/>
+        </attvalues>
+        <viz:size value="23.11111"/>
+        <viz:position x="498.62885" y="444.79526"/>
+        <viz:color r="178" g="209" b="246"/>
+      </node>
+      <node id="SUB::Formaldehido" label="Formaldehyde">
+        <attvalues>
+          <attvalue for="0" value="substance"/>
+          <attvalue for="1" value="4346963.267894126"/>
+          <attvalue for="2" value="2004"/>
+          <attvalue for="3" value="19"/>
+        </attvalues>
+        <viz:size value="50.0"/>
+        <viz:position x="41.375584" y="178.96324"/>
+        <viz:color r="205" g="226" b="251"/>
+      </node>
+      <node id="SUB::Acetaldehido" label="Acetaldehyde">
+        <attvalues>
+          <attvalue for="0" value="substance"/>
+          <attvalue for="1" value="8644.87919537865"/>
+          <attvalue for="2" value="2005"/>
+          <attvalue for="3" value="17"/>
+        </attvalues>
+        <viz:size value="45.11111"/>
+        <viz:position x="-438.7156" y="831.00964"/>
+        <viz:color r="191" g="217" b="248"/>
+      </node>
+      <node id="SUB::Benceno" label="Benzene">
+        <attvalues>
+          <attvalue for="0" value="substance"/>
+          <attvalue for="1" value="2942.437597831157"/>
+          <attvalue for="2" value="2005"/>
+          <attvalue for="3" value="9"/>
+        </attvalues>
+        <viz:size value="25.555555"/>
+        <viz:position x="-533.1474" y="896.7252"/>
+        <viz:color r="191" g="217" b="248"/>
+      </node>
+      <node id="SUB::Acroleina" label="Acrolein">
+        <attvalues>
+          <attvalue for="0" value="substance"/>
+          <attvalue for="1" value="675.2081292956528"/>
+          <attvalue for="2" value="2005"/>
+          <attvalue for="3" value="9"/>
+        </attvalues>
+        <viz:size value="25.555555"/>
+        <viz:position x="-583.5905" y="803.73303"/>
+        <viz:color r="191" g="217" b="248"/>
+      </node>
+      <node id="SUB::Cromo (polvos respirables, humos o vapores)" label="Chromium (respirable dust, fumes or vapors)">
+        <attvalues>
+          <attvalue for="0" value="substance"/>
+          <attvalue for="1" value="191.25551569466"/>
+          <attvalue for="2" value="2014"/>
+          <attvalue for="3" value="8"/>
+        </attvalues>
+        <viz:size value="23.11111"/>
+        <viz:position x="-648.50653" y="444.57288"/>
+        <viz:color r="78" g="143" b="221"/>
+      </node>
+      <node id="SUB::Oxido nitroso" label="Nitrous oxide">
+        <attvalues>
+          <attvalue for="0" value="substance"/>
+          <attvalue for="1" value="3058778.82117"/>
+          <attvalue for="2" value="2011"/>
+          <attvalue for="3" value="11"/>
+        </attvalues>
+        <viz:size value="30.444447"/>
+        <viz:position x="380.6905" y="484.39993"/>
+        <viz:color r="111" g="168" b="235"/>
+      </node>
+      <node id="SUB::Tolueno" label="Toluene">
+        <attvalues>
+          <attvalue for="0" value="substance"/>
+          <attvalue for="1" value="58482.543555283686"/>
+          <attvalue for="2" value="2014"/>
+          <attvalue for="3" value="9"/>
+        </attvalues>
+        <viz:size value="25.555555"/>
+        <viz:position x="185.11438" y="1130.1918"/>
+        <viz:color r="78" g="143" b="221"/>
+      </node>
+      <node id="SUB::Metano" label="Methane">
+        <attvalues>
+          <attvalue for="0" value="substance"/>
+          <attvalue for="1" value="4879171.136480001"/>
+          <attvalue for="2" value="2007"/>
+          <attvalue for="3" value="11"/>
+        </attvalues>
+        <viz:size value="30.444447"/>
+        <viz:position x="305.40976" y="496.8007"/>
+        <viz:color r="164" g="201" b="244" a="0.99607843"/>
+      </node>
+      <node id="SUB::Sulfato de cobre" label="Copper sulfate">
+        <attvalues>
+          <attvalue for="0" value="substance"/>
+          <attvalue for="1" value="7993.52658"/>
+          <attvalue for="2" value="2015"/>
+          <attvalue for="3" value="3"/>
+        </attvalues>
+        <viz:size value="10.888889"/>
+        <viz:position x="542.4035" y="-389.90945"/>
+        <viz:color r="71" g="135" b="212"/>
+      </node>
+      <node id="SUB::Dioxinas" label="Dioxins">
+        <attvalues>
+          <attvalue for="0" value="substance"/>
+          <attvalue for="1" value="1.201400003E-6"/>
+          <attvalue for="2" value="2016"/>
+          <attvalue for="3" value="7"/>
+        </attvalues>
+        <viz:size value="20.666668"/>
+        <viz:position x="-325.5657" y="912.0318"/>
+        <viz:color r="64" g="127" b="203"/>
+      </node>
+      <node id="SUB::Hidrofluorocarbonos" label="Hydrofluorocarbons">
+        <attvalues>
+          <attvalue for="0" value="substance"/>
+          <attvalue for="1" value="685.1"/>
+          <attvalue for="2" value="2021"/>
+          <attvalue for="3" value="2"/>
+        </attvalues>
+        <viz:size value="8.444445"/>
+        <viz:position x="425.8677" y="-625.2075"/>
+        <viz:color r="30" g="87" b="158"/>
+      </node>
+      <node id="SUB::Xileno (mezcla de isómeros)" label="Xylene (mixture of isomers)">
+        <attvalues>
+          <attvalue for="0" value="substance"/>
+          <attvalue for="1" value="104823.78770000002"/>
+          <attvalue for="2" value="2014"/>
+          <attvalue for="3" value="6"/>
+        </attvalues>
+        <viz:size value="18.222223"/>
+        <viz:position x="-43.180492" y="1128.0356"/>
+        <viz:color r="78" g="143" b="221"/>
+      </node>
+      <node id="SUB::Hexafluoruro de azufre" label="Sulfur hexafluoride">
+        <attvalues>
+          <attvalue for="0" value="substance"/>
+          <attvalue for="1" value="3016.0"/>
+          <attvalue for="2" value="2022"/>
+          <attvalue for="3" value="1"/>
+        </attvalues>
+        <viz:size value="6.0"/>
+        <viz:position x="-930.5359" y="531.8128"/>
+        <viz:color r="24" g="79" b="149"/>
+      </node>
+      <node id="SUB::1,1,1-Tricloroetano" label="1,1,1-Trichloroethane">
+        <attvalues>
+          <attvalue for="0" value="substance"/>
+          <attvalue for="1" value="8.6E-6"/>
+          <attvalue for="2" value="2004"/>
+          <attvalue for="3" value="1"/>
+        </attvalues>
+        <viz:size value="6.0"/>
+        <viz:position x="-874.6583" y="684.8693"/>
+        <viz:color r="205" g="226" b="251"/>
+      </node>
+      <node id="SUB::Metil paration" label="Methyl parathion">
+        <attvalues>
+          <attvalue for="0" value="substance"/>
+          <attvalue for="1" value="1212338.8000122001"/>
+          <attvalue for="2" value="2004"/>
+          <attvalue for="3" value="4"/>
+        </attvalues>
+        <viz:size value="13.333334"/>
+        <viz:position x="-44.35744" y="1227.3931"/>
+        <viz:color r="205" g="226" b="251"/>
+      </node>
+      <node id="SUB::Fenol" label="Phenol">
+        <attvalues>
+          <attvalue for="0" value="substance"/>
+          <attvalue for="1" value="3342563.2"/>
+          <attvalue for="2" value="2004"/>
+          <attvalue for="3" value="9"/>
+        </attvalues>
+        <viz:size value="25.555555"/>
+        <viz:position x="-954.2555" y="620.49115"/>
+        <viz:color r="205" g="226" b="251"/>
+      </node>
+      <node id="SUB::Asbesto y sus formas (En forma de polvo, fibras o productos desmenuzables con la presión de la mano)" label="Asbestos and its forms (as dust, fibers or friable products that crumble under hand pressure)">
+        <attvalues>
+          <attvalue for="0" value="substance"/>
+          <attvalue for="1" value="23366.6"/>
+          <attvalue for="2" value="2004"/>
+          <attvalue for="3" value="11"/>
+        </attvalues>
+        <viz:size value="30.444447"/>
+        <viz:position x="-426.36658" y="946.01935"/>
+        <viz:color r="205" g="226" b="251"/>
+      </node>
+      <node id="SUB::Estireno (fenil etileno)" label="Styrene (phenylethylene)">
+        <attvalues>
+          <attvalue for="0" value="substance"/>
+          <attvalue for="1" value="30.808999999999997"/>
+          <attvalue for="2" value="2011"/>
+          <attvalue for="3" value="3"/>
+        </attvalues>
+        <viz:size value="10.888889"/>
+        <viz:position x="76.111984" y="1109.3712"/>
+        <viz:color r="111" g="168" b="235"/>
+      </node>
+      <node id="SUB::Dibutilftalato" label="Dibutyl phthalate">
+        <attvalues>
+          <attvalue for="0" value="substance"/>
+          <attvalue for="1" value="8.85"/>
+          <attvalue for="2" value="2011"/>
+          <attvalue for="3" value="1"/>
+        </attvalues>
+        <viz:size value="6.0"/>
+        <viz:position x="-154.41069" y="1182.4059"/>
+        <viz:color r="111" g="168" b="235"/>
+      </node>
+    </nodes>
+    <edges>
+      <edge id="0" source="LOC::Durango.Durango" target="SUB::Cromo (Compuestos solubles)" weight="6735.63232421875">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+      </edge>
+      <edge id="1" source="LOC::Durango.Durango" target="SUB::Mercurio (Compuestos solubles)" weight="336.0719299316406">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+      </edge>
+      <edge id="2" source="LOC::Durango.Durango" target="SUB::Níquel (Compuestos solubles)" weight="7037.80029296875">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+      </edge>
+      <edge id="3" source="LOC::Durango.Durango" target="SUB::Plomo (Compuestos solubles)" weight="54886.78125">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+      </edge>
+      <edge id="4" source="LOC::Durango.Durango" target="SUB::Cianuro inorgánico/orgánico" weight="7056.5732421875">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+      </edge>
+      <edge id="5" source="LOC::Durango.Durango" target="SUB::Arsénico (polvos, respirables, vapores o humos)" weight="455.09521484375">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+      </edge>
+      <edge id="6" source="LOC::Durango.Durango" target="SUB::Cadmio (polvos, respirables, vapores o humos)" weight="147.34243774414062">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+      </edge>
+      <edge id="7" source="LOC::Durango.Durango" target="SUB::Plomo (compuestos)" weight="421231.625">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+      </edge>
+      <edge id="8" source="LOC::Durango.Durango" target="SUB::Níquel (compuestos)" weight="506.56561279296875">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+      </edge>
+      <edge id="9" source="LOC::Durango.Durango" target="SUB::Mercurio (compuestos)" weight="36.111324310302734">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+      </edge>
+      <edge id="10" source="LOC::Durango.Durango" target="SUB::Cadmio (compuestos)" weight="30.665218353271484">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+      </edge>
+      <edge id="11" source="LOC::Durango.Durango" target="SUB::Cromo (compuestos)" weight="230.28872680664062">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+      </edge>
+      <edge id="12" source="LOC::Durango.Durango" target="SUB::Arsénico (compuestos)" weight="6.339476108551025">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+      </edge>
+      <edge id="13" source="LOC::Durango.Durango" target="SUB::Mercurio (polvos, respirables, vapores o humos)" weight="20.580303192138672">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+      </edge>
+      <edge id="14" source="LOC::Durango.Durango" target="SUB::Arsénico (Compuestos solubles)" weight="5665.2001953125">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+      </edge>
+      <edge id="15" source="LOC::Durango.Durango" target="SUB::Cadmio (Compuestos solubles)" weight="5108.51806640625">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+      </edge>
+      <edge id="16" source="LOC::Durango.Durango" target="SUB::Plomo (polvos respirables, humos o vapores)" weight="7345.50537109375">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+      </edge>
+      <edge id="17" source="LOC::Durango.Durango" target="SUB::Níquel (polvos respirables, humos o vapores)" weight="57.366539001464844">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+      </edge>
+      <edge id="18" source="LOC::Durango.Durango" target="SUB::Bióxido de carbono" weight="1.66326784E10">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+      </edge>
+      <edge id="19" source="LOC::Durango.Durango" target="SUB::Tricloroetileno" weight="6880.0">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+      </edge>
+      <edge id="20" source="LOC::Durango.Durango" target="SUB::Formaldehido" weight="4209075.5">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+      </edge>
+      <edge id="21" source="LOC::Durango.Durango" target="SUB::Acetaldehido" weight="1071.2130126953125">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+      </edge>
+      <edge id="22" source="LOC::Durango.Durango" target="SUB::Benceno" weight="1331.249267578125">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+      </edge>
+      <edge id="23" source="LOC::Durango.Durango" target="SUB::Acroleina" weight="357.6712646484375">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+      </edge>
+      <edge id="24" source="LOC::Durango.Durango" target="SUB::Cromo (polvos respirables, humos o vapores)" weight="9.791339874267578">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+      </edge>
+      <edge id="25" source="LOC::Durango.Durango" target="SUB::Dioxinas" weight="1.400000004814217E-9">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+      </edge>
+      <edge id="26" source="LOC::Durango.Durango" target="SUB::Metano" weight="3864203.75">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+      </edge>
+      <edge id="27" source="LOC::Durango.Durango" target="SUB::Hexafluoruro de azufre" weight="3016.0">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+      </edge>
+      <edge id="28" source="LOC::Durango.Durango" target="SUB::Oxido nitroso" weight="1181039.75">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+      </edge>
+      <edge id="29" source="LOC::Durango.Durango" target="SUB::1,1,1-Tricloroetano" weight="8.600000001024455E-6">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+      </edge>
+      <edge id="30" source="LOC::Durango.Durango" target="SUB::Fenol" weight="3342563.25">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+      </edge>
+      <edge id="31" source="LOC::Durango.Durango" target="SUB::Asbesto y sus formas (En forma de polvo, fibras o productos desmenuzables con la presión de la mano)" weight="2489.0">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+      </edge>
+      <edge id="32" source="LOC::Durango.Durango" target="SUB::Bifenilos policlorados" weight="1280.0">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+      </edge>
+      <edge id="33" source="LOC::Durango.Gómez Palacio" target="SUB::Cromo (Compuestos solubles)" weight="717.78125">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+      </edge>
+      <edge id="34" source="LOC::Durango.Gómez Palacio" target="SUB::Mercurio (Compuestos solubles)" weight="83.46160125732422">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+      </edge>
+      <edge id="35" source="LOC::Durango.Gómez Palacio" target="SUB::Níquel (Compuestos solubles)" weight="1411.04443359375">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+      </edge>
+      <edge id="36" source="LOC::Durango.Gómez Palacio" target="SUB::Plomo (Compuestos solubles)" weight="8153.70849609375">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+      </edge>
+      <edge id="37" source="LOC::Durango.Gómez Palacio" target="SUB::Cianuro inorgánico/orgánico" weight="2538.8583984375">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+      </edge>
+      <edge id="38" source="LOC::Durango.Gómez Palacio" target="SUB::Arsénico (polvos, respirables, vapores o humos)" weight="93.32380676269531">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+      </edge>
+      <edge id="39" source="LOC::Durango.Gómez Palacio" target="SUB::Cadmio (polvos, respirables, vapores o humos)" weight="107.70860290527344">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+      </edge>
+      <edge id="40" source="LOC::Durango.Gómez Palacio" target="SUB::Cromo (compuestos)" weight="150.89015197753906">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+      </edge>
+      <edge id="41" source="LOC::Durango.Gómez Palacio" target="SUB::Níquel (compuestos)" weight="8542.1875">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+      </edge>
+      <edge id="42" source="LOC::Durango.Gómez Palacio" target="SUB::Plomo (compuestos)" weight="168985.78125">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+      </edge>
+      <edge id="43" source="LOC::Durango.Gómez Palacio" target="SUB::Mercurio (compuestos)" weight="1087.73876953125">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+      </edge>
+      <edge id="44" source="LOC::Durango.Gómez Palacio" target="SUB::Cadmio (compuestos)" weight="256.17376708984375">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+      </edge>
+      <edge id="45" source="LOC::Durango.Gómez Palacio" target="SUB::Mercurio (polvos, respirables, vapores o humos)" weight="177.79034423828125">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+      </edge>
+      <edge id="46" source="LOC::Durango.Gómez Palacio" target="SUB::Arsénico (compuestos)" weight="131.44140625">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+      </edge>
+      <edge id="47" source="LOC::Durango.Gómez Palacio" target="SUB::Cadmio (Compuestos solubles)" weight="275.2880554199219">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+      </edge>
+      <edge id="48" source="LOC::Durango.Gómez Palacio" target="SUB::Arsénico (Compuestos solubles)" weight="377.739990234375">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+      </edge>
+      <edge id="49" source="LOC::Durango.Gómez Palacio" target="SUB::Cianuro de hidrógeno" weight="737.3336791992188">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+      </edge>
+      <edge id="50" source="LOC::Durango.Gómez Palacio" target="SUB::Bióxido de carbono" weight="2.5350463488E10">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+      </edge>
+      <edge id="51" source="LOC::Durango.Gómez Palacio" target="SUB::Bióxido de nitrógeno" weight="5974849.5">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+      </edge>
+      <edge id="52" source="LOC::Durango.Gómez Palacio" target="SUB::Formaldehido" weight="135297.234375">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+      </edge>
+      <edge id="53" source="LOC::Durango.Gómez Palacio" target="SUB::Acetaldehido" weight="7573.666015625">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+      </edge>
+      <edge id="54" source="LOC::Durango.Gómez Palacio" target="SUB::Benceno" weight="1611.188232421875">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+      </edge>
+      <edge id="55" source="LOC::Durango.Gómez Palacio" target="SUB::Acroleina" weight="317.536865234375">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+      </edge>
+      <edge id="56" source="LOC::Durango.Gómez Palacio" target="SUB::Oxido nitroso" weight="1877600.0">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+      </edge>
+      <edge id="57" source="LOC::Durango.Gómez Palacio" target="SUB::Tolueno" weight="58482.54296875">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+      </edge>
+      <edge id="58" source="LOC::Durango.Gómez Palacio" target="SUB::Metano" weight="1014269.9375">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+      </edge>
+      <edge id="59" source="LOC::Durango.Gómez Palacio" target="SUB::Plomo (polvos respirables, humos o vapores)" weight="3377.864013671875">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+      </edge>
+      <edge id="60" source="LOC::Durango.Gómez Palacio" target="SUB::Dioxinas" weight="1.2000000424450263E-6">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+      </edge>
+      <edge id="61" source="LOC::Durango.Gómez Palacio" target="SUB::Cromo (polvos respirables, humos o vapores)" weight="74.76417541503906">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+      </edge>
+      <edge id="62" source="LOC::Durango.Gómez Palacio" target="SUB::Níquel (polvos respirables, humos o vapores)" weight="87.522705078125">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+      </edge>
+      <edge id="63" source="LOC::Durango.Gómez Palacio" target="SUB::Xileno (mezcla de isómeros)" weight="104823.7890625">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+      </edge>
+      <edge id="64" source="LOC::Durango.Gómez Palacio" target="SUB::Metil paration" weight="1212338.75">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+      </edge>
+      <edge id="65" source="LOC::Durango.Gómez Palacio" target="SUB::Asbesto y sus formas (En forma de polvo, fibras o productos desmenuzables con la presión de la mano)" weight="20877.599609375">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+      </edge>
+      <edge id="66" source="LOC::Durango.Gómez Palacio" target="SUB::Estireno (fenil etileno)" weight="30.80900001525879">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+      </edge>
+      <edge id="67" source="LOC::Durango.Gómez Palacio" target="SUB::Dibutilftalato" weight="8.850000381469727">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+      </edge>
+      <edge id="68" source="LOC::Durango.Gómez Palacio" target="SUB::Bifenilos policlorados" weight="1010.0">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+      </edge>
+      <edge id="69" source="LOC::Durango.Lerdo" target="SUB::Cromo (Compuestos solubles)" weight="116.67733001708984">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+      </edge>
+      <edge id="70" source="LOC::Durango.Lerdo" target="SUB::Mercurio (Compuestos solubles)" weight="2.8607308864593506">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+      </edge>
+      <edge id="71" source="LOC::Durango.Lerdo" target="SUB::Níquel (Compuestos solubles)" weight="261.65728759765625">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+      </edge>
+      <edge id="72" source="LOC::Durango.Lerdo" target="SUB::Plomo (Compuestos solubles)" weight="142.04766845703125">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+      </edge>
+      <edge id="73" source="LOC::Durango.Lerdo" target="SUB::Cianuro inorgánico/orgánico" weight="42.70691680908203">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+      </edge>
+      <edge id="74" source="LOC::Durango.Lerdo" target="SUB::Arsénico (polvos, respirables, vapores o humos)" weight="198.198974609375">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+      </edge>
+      <edge id="75" source="LOC::Durango.Lerdo" target="SUB::Cadmio (polvos, respirables, vapores o humos)" weight="93.70899963378906">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+      </edge>
+      <edge id="76" source="LOC::Durango.Lerdo" target="SUB::Cadmio (compuestos)" weight="9.633119583129883">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+      </edge>
+      <edge id="77" source="LOC::Durango.Lerdo" target="SUB::Cromo (compuestos)" weight="79.9272689819336">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+      </edge>
+      <edge id="78" source="LOC::Durango.Lerdo" target="SUB::Mercurio (compuestos)" weight="3.0081562995910645">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+      </edge>
+      <edge id="79" source="LOC::Durango.Lerdo" target="SUB::Níquel (compuestos)" weight="2296.821044921875">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+      </edge>
+      <edge id="80" source="LOC::Durango.Lerdo" target="SUB::Plomo (compuestos)" weight="8963.53125">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+      </edge>
+      <edge id="81" source="LOC::Durango.Lerdo" target="SUB::Arsénico (compuestos)" weight="13.454489707946777">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+      </edge>
+      <edge id="82" source="LOC::Durango.Lerdo" target="SUB::Mercurio (polvos, respirables, vapores o humos)" weight="17.056238174438477">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+      </edge>
+      <edge id="83" source="LOC::Durango.Lerdo" target="SUB::Arsénico (Compuestos solubles)" weight="57.54290008544922">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+      </edge>
+      <edge id="84" source="LOC::Durango.Lerdo" target="SUB::Cadmio (Compuestos solubles)" weight="26.949399948120117">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+      </edge>
+      <edge id="85" source="LOC::Durango.Lerdo" target="SUB::Bifenilos policlorados" weight="0.3028999865055084">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+      </edge>
+      <edge id="86" source="LOC::Durango.Lerdo" target="SUB::Bióxido de carbono" weight="2.2692132864E10">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+      </edge>
+      <edge id="87" source="LOC::Durango.Lerdo" target="SUB::Cromo (polvos respirables, humos o vapores)" weight="106.69999694824219">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+      </edge>
+      <edge id="88" source="LOC::Durango.Lerdo" target="SUB::Níquel (polvos respirables, humos o vapores)" weight="1092.9000244140625">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+      </edge>
+      <edge id="89" source="LOC::Durango.Lerdo" target="SUB::Plomo (polvos respirables, humos o vapores)" weight="19.5">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+      </edge>
+      <edge id="90" source="LOC::Durango.San Dimas" target="SUB::Cromo (Compuestos solubles)" weight="4.864505767822266">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+      </edge>
+      <edge id="91" source="LOC::Durango.San Dimas" target="SUB::Mercurio (Compuestos solubles)" weight="0.0044326698407530785">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+      </edge>
+      <edge id="92" source="LOC::Durango.San Dimas" target="SUB::Níquel (Compuestos solubles)" weight="29.213254928588867">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+      </edge>
+      <edge id="93" source="LOC::Durango.San Dimas" target="SUB::Plomo (Compuestos solubles)" weight="201.77015686035156">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+      </edge>
+      <edge id="94" source="LOC::Durango.San Dimas" target="SUB::Cianuro inorgánico/orgánico" weight="52124.72265625">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+      </edge>
+      <edge id="95" source="LOC::Durango.San Dimas" target="SUB::Arsénico (polvos, respirables, vapores o humos)" weight="2.8359217643737793">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+      </edge>
+      <edge id="96" source="LOC::Durango.San Dimas" target="SUB::Cadmio (polvos, respirables, vapores o humos)" weight="1.0703397989273071">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+      </edge>
+      <edge id="97" source="LOC::Durango.San Dimas" target="SUB::Arsénico (compuestos)" weight="1.1177724599838257">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+      </edge>
+      <edge id="98" source="LOC::Durango.San Dimas" target="SUB::Cadmio (compuestos)" weight="0.05176442116498947">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+      </edge>
+      <edge id="99" source="LOC::Durango.San Dimas" target="SUB::Cromo (compuestos)" weight="4.945567607879639">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+      </edge>
+      <edge id="100" source="LOC::Durango.San Dimas" target="SUB::Mercurio (compuestos)" weight="0.10278768837451935">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+      </edge>
+      <edge id="101" source="LOC::Durango.San Dimas" target="SUB::Plomo (compuestos)" weight="10.496381759643555">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+      </edge>
+      <edge id="102" source="LOC::Durango.San Dimas" target="SUB::Níquel (compuestos)" weight="7.190333366394043">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+      </edge>
+      <edge id="103" source="LOC::Durango.San Dimas" target="SUB::Bióxido de carbono" weight="2.208141E7">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+      </edge>
+      <edge id="104" source="LOC::Durango.San Dimas" target="SUB::Mercurio (polvos, respirables, vapores o humos)" weight="1377.199951171875">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+      </edge>
+      <edge id="105" source="LOC::Durango.San Dimas" target="SUB::Plomo (polvos respirables, humos o vapores)" weight="1236.199951171875">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+      </edge>
+      <edge id="106" source="LOC::Durango.Santiago Papasquiaro" target="SUB::Níquel (Compuestos solubles)" weight="2.4350457191467285">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+      </edge>
+      <edge id="107" source="LOC::Durango.Santiago Papasquiaro" target="SUB::Plomo (Compuestos solubles)" weight="32583.8125">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+      </edge>
+      <edge id="108" source="LOC::Durango.Santiago Papasquiaro" target="SUB::Cianuro inorgánico/orgánico" weight="58.960205078125">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+      </edge>
+      <edge id="109" source="LOC::Durango.Santiago Papasquiaro" target="SUB::Arsénico (polvos, respirables, vapores o humos)" weight="2.172919988632202">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+      </edge>
+      <edge id="110" source="LOC::Durango.Santiago Papasquiaro" target="SUB::Plomo (compuestos)" weight="5785.58251953125">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+      </edge>
+      <edge id="111" source="LOC::Durango.Santiago Papasquiaro" target="SUB::Arsénico (compuestos)" weight="1.3143668174743652">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+      </edge>
+      <edge id="112" source="LOC::Durango.Santiago Papasquiaro" target="SUB::Mercurio (compuestos)" weight="0.009606399573385715">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+      </edge>
+      <edge id="113" source="LOC::Durango.Santiago Papasquiaro" target="SUB::Níquel (compuestos)" weight="10.634286880493164">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+      </edge>
+      <edge id="114" source="LOC::Durango.Santiago Papasquiaro" target="SUB::Cromo (compuestos)" weight="0.6352872252464294">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+      </edge>
+      <edge id="115" source="LOC::Durango.Santiago Papasquiaro" target="SUB::Mercurio (polvos, respirables, vapores o humos)" weight="24.767126083374023">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+      </edge>
+      <edge id="116" source="LOC::Durango.Santiago Papasquiaro" target="SUB::Bióxido de carbono" weight="2.6304932E7">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+      </edge>
+      <edge id="117" source="LOC::Durango.Santiago Papasquiaro" target="SUB::Plomo (polvos respirables, humos o vapores)" weight="786.0">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+      </edge>
+      <edge id="118" source="LOC::Durango.Mapimí" target="SUB::Arsénico (polvos, respirables, vapores o humos)" weight="1175605.25">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+      </edge>
+      <edge id="119" source="LOC::Durango.Mapimí" target="SUB::Cianuro inorgánico/orgánico" weight="692.0166015625">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+      </edge>
+      <edge id="120" source="LOC::Durango.Mapimí" target="SUB::Cadmio (polvos, respirables, vapores o humos)" weight="15477.5869140625">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+      </edge>
+      <edge id="121" source="LOC::Durango.Mapimí" target="SUB::Mercurio (compuestos)" weight="0.003578280098736286">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+      </edge>
+      <edge id="122" source="LOC::Durango.Mapimí" target="SUB::Plomo (compuestos)" weight="922800.0">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+      </edge>
+      <edge id="123" source="LOC::Durango.Mapimí" target="SUB::Plomo (Compuestos solubles)" weight="42490.9921875">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+      </edge>
+      <edge id="124" source="LOC::Durango.Mapimí" target="SUB::Bióxido de carbono" weight="1.63251072E8">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+      </edge>
+      <edge id="125" source="LOC::Durango.Mapimí" target="SUB::Arsénico (compuestos)" weight="111773.6015625">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+      </edge>
+      <edge id="126" source="LOC::Durango.Mapimí" target="SUB::Plomo (polvos respirables, humos o vapores)" weight="380091.28125">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+      </edge>
+      <edge id="127" source="LOC::Durango.Mapimí" target="SUB::Formaldehido" weight="433.2472839355469">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+      </edge>
+      <edge id="128" source="LOC::Durango.Mapimí" target="SUB::Níquel (compuestos)" weight="0.5232945680618286">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+      </edge>
+      <edge id="129" source="LOC::Durango.Mapimí" target="SUB::Cadmio (compuestos)" weight="109.57159423828125">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+      </edge>
+      <edge id="130" source="LOC::Durango.Mapimí" target="SUB::Cromo (compuestos)" weight="0.233255535364151">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+      </edge>
+      <edge id="131" source="LOC::Durango.Mapimí" target="SUB::Mercurio (polvos, respirables, vapores o humos)" weight="0.01711796037852764">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+      </edge>
+      <edge id="132" source="LOC::Durango.Mapimí" target="SUB::Arsénico (Compuestos solubles)" weight="719.5175170898438">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+      </edge>
+      <edge id="133" source="LOC::Durango.Mapimí" target="SUB::Cadmio (Compuestos solubles)" weight="442.7799987792969">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+      </edge>
+      <edge id="134" source="LOC::Durango.Mapimí" target="SUB::Cromo (Compuestos solubles)" weight="498.12750244140625">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+      </edge>
+      <edge id="135" source="LOC::Durango.Mapimí" target="SUB::Mercurio (Compuestos solubles)" weight="8.855600357055664">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+      </edge>
+      <edge id="136" source="LOC::Durango.Mapimí" target="SUB::Níquel (Compuestos solubles)" weight="442.7799987792969">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+      </edge>
+      <edge id="137" source="LOC::Durango.Topia" target="SUB::Cromo (Compuestos solubles)" weight="0.005634000059217215">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+      </edge>
+      <edge id="138" source="LOC::Durango.Topia" target="SUB::Níquel (Compuestos solubles)" weight="0.002957849996164441">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+      </edge>
+      <edge id="139" source="LOC::Durango.Topia" target="SUB::Plomo (Compuestos solubles)" weight="241.42767333984375">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+      </edge>
+      <edge id="140" source="LOC::Durango.Topia" target="SUB::Arsénico (polvos, respirables, vapores o humos)" weight="35.88106918334961">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+      </edge>
+      <edge id="141" source="LOC::Durango.Topia" target="SUB::Cadmio (polvos, respirables, vapores o humos)" weight="55.86674499511719">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+      </edge>
+      <edge id="142" source="LOC::Durango.Topia" target="SUB::Níquel (compuestos)" weight="0.008873550221323967">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+      </edge>
+      <edge id="143" source="LOC::Durango.Topia" target="SUB::Plomo (compuestos)" weight="338.9696044921875">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+      </edge>
+      <edge id="144" source="LOC::Durango.Topia" target="SUB::Cromo (compuestos)" weight="0.016901999711990356">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+      </edge>
+      <edge id="145" source="LOC::Durango.Topia" target="SUB::Bióxido de carbono" weight="3.4891924E7">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+      </edge>
+      <edge id="146" source="LOC::Durango.Guanaceví" target="SUB::Níquel (compuestos)" weight="1.4600000381469727">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+      </edge>
+      <edge id="147" source="LOC::Durango.Guanaceví" target="SUB::Arsénico (compuestos)" weight="0.20440000295639038">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+      </edge>
+      <edge id="148" source="LOC::Durango.Guanaceví" target="SUB::Mercurio (compuestos)" weight="0.007300000172108412">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+      </edge>
+      <edge id="149" source="LOC::Durango.Guanaceví" target="SUB::Cianuro inorgánico/orgánico" weight="0.9125000238418579">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+      </edge>
+      <edge id="150" source="LOC::Durango.Guanaceví" target="SUB::Cadmio (compuestos)" weight="0.36500000953674316">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+      </edge>
+      <edge id="151" source="LOC::Durango.Guanaceví" target="SUB::Cromo (compuestos)" weight="1.4600000381469727">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+      </edge>
+      <edge id="152" source="LOC::Durango.Guanaceví" target="SUB::Plomo (compuestos)" weight="85.45999908447266">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+      </edge>
+      <edge id="153" source="LOC::Durango.Guanaceví" target="SUB::Níquel (Compuestos solubles)" weight="4.380000114440918">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+      </edge>
+      <edge id="154" source="LOC::Durango.Guanaceví" target="SUB::Plomo (Compuestos solubles)" weight="4.380000114440918">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+      </edge>
+      <edge id="155" source="LOC::Durango.Guanaceví" target="SUB::Bióxido de carbono" weight="620833.625">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+      </edge>
+      <edge id="156" source="LOC::Durango.Guanaceví" target="SUB::Formaldehido" weight="1614.9189453125">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+      </edge>
+      <edge id="157" source="LOC::Durango.Guanaceví" target="SUB::Mercurio (polvos, respirables, vapores o humos)" weight="5.067164897918701">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+      </edge>
+      <edge id="158" source="LOC::Durango.Guanaceví" target="SUB::Cadmio (polvos, respirables, vapores o humos)" weight="0.8799999952316284">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+      </edge>
+      <edge id="159" source="LOC::Durango.Otáez" target="SUB::Cromo (Compuestos solubles)" weight="6.37939977645874">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+      </edge>
+      <edge id="160" source="LOC::Durango.Otáez" target="SUB::Níquel (Compuestos solubles)" weight="21.787399291992188">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+      </edge>
+      <edge id="161" source="LOC::Durango.Otáez" target="SUB::Plomo (Compuestos solubles)" weight="10.231399536132812">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+      </edge>
+      <edge id="162" source="LOC::Durango.Otáez" target="SUB::Cadmio (Compuestos solubles)" weight="1.0110000371932983">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+      </edge>
+      <edge id="163" source="LOC::Durango.Otáez" target="SUB::Mercurio (compuestos)" weight="100.0007095336914">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+      </edge>
+      <edge id="164" source="LOC::Durango.Otáez" target="SUB::Arsénico (polvos, respirables, vapores o humos)" weight="0.04572787508368492">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+      </edge>
+      <edge id="165" source="LOC::Durango.Otáez" target="SUB::Cianuro inorgánico/orgánico" weight="7.815000135451555E-4">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+      </edge>
+      <edge id="166" source="LOC::Durango.Otáez" target="SUB::Cadmio (polvos, respirables, vapores o humos)" weight="0.0056999498046934605">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+      </edge>
+      <edge id="167" source="LOC::Durango.Otáez" target="SUB::Plomo (compuestos)" weight="4480.08740234375">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+      </edge>
+      <edge id="168" source="LOC::Durango.Otáez" target="SUB::Níquel (compuestos)" weight="0.048800498247146606">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+      </edge>
+      <edge id="169" source="LOC::Durango.Otáez" target="SUB::Cromo (compuestos)" weight="0.9188358187675476">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+      </edge>
+      <edge id="170" source="LOC::Durango.Otáez" target="SUB::Sulfato de cobre" weight="720.0">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+      </edge>
+      <edge id="171" source="LOC::Durango.Otáez" target="SUB::Bióxido de carbono" weight="643623.375">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+      </edge>
+      <edge id="172" source="LOC::Durango.Tepehuanes" target="SUB::Plomo (compuestos)" weight="7.000002861022949">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+      </edge>
+      <edge id="173" source="LOC::Durango.Tepehuanes" target="SUB::Bióxido de carbono" weight="450.0">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+      </edge>
+      <edge id="174" source="LOC::Durango.Tepehuanes" target="SUB::Cadmio (Compuestos solubles)" weight="2.0650999546051025">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+      </edge>
+      <edge id="175" source="LOC::Durango.Tepehuanes" target="SUB::Cromo (Compuestos solubles)" weight="10.325699806213379">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+      </edge>
+      <edge id="176" source="LOC::Durango.Tepehuanes" target="SUB::Níquel (Compuestos solubles)" weight="10.325699806213379">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+      </edge>
+      <edge id="177" source="LOC::Durango.Tepehuanes" target="SUB::Plomo (Compuestos solubles)" weight="20.651399612426758">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+      </edge>
+      <edge id="178" source="LOC::Durango.Pánuco de Coronado" target="SUB::Bióxido de carbono" weight="5174601.5">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+      </edge>
+      <edge id="179" source="LOC::Durango.Pánuco de Coronado" target="SUB::Formaldehido" weight="542.1599731445312">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+      </edge>
+      <edge id="180" source="LOC::Durango.Pánuco de Coronado" target="SUB::Níquel (Compuestos solubles)" weight="2.6610000133514404">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+      </edge>
+      <edge id="181" source="LOC::Durango.Cuencamé" target="SUB::Bióxido de carbono" weight="1105304.375">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+      </edge>
+      <edge id="182" source="LOC::Durango.Cuencamé" target="SUB::Hidrofluorocarbonos" weight="685.0999755859375">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+      </edge>
+      <edge id="183" source="LOC::Durango.Cuencamé" target="SUB::Mercurio (polvos, respirables, vapores o humos)" weight="0.007040000054985285">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+      </edge>
+      <edge id="184" source="LOC::Durango.Cuencamé" target="SUB::Plomo (Compuestos solubles)" weight="29166.150390625">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+      </edge>
+      <edge id="185" source="LOC::Durango.Cuencamé" target="SUB::Plomo (polvos respirables, humos o vapores)" weight="5783.0498046875">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+      </edge>
+      <edge id="186" source="LOC::Durango.Cuencamé" target="SUB::Plomo (compuestos)" weight="1480.6199951171875">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+      </edge>
+      <edge id="187" source="LOC::Durango.San Juan del Río" target="SUB::Bióxido de carbono" weight="1.46383616E8">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+      </edge>
+      <edge id="188" source="LOC::Durango.San Juan del Río" target="SUB::Bióxido de nitrógeno" weight="1558060.0">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+      </edge>
+      <edge id="189" source="LOC::Durango.San Juan del Río" target="SUB::Oxido nitroso" weight="139.02999877929688">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+      </edge>
+      <edge id="190" source="LOC::Durango.San Juan del Río" target="SUB::Metano" weight="697.3200073242188">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+      </edge>
+      <edge id="191" source="LOC::Durango.San Juan del Río" target="SUB::Níquel (Compuestos solubles)" weight="11.606800079345703">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+      </edge>
+      <edge id="192" source="LOC::Durango.San Juan del Río" target="SUB::Cianuro inorgánico/orgánico" weight="357333.0625">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+      </edge>
+      <edge id="193" source="LOC::Durango.Nombre de Dios" target="SUB::Cianuro inorgánico/orgánico" weight="508076.25">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+      </edge>
+      <edge id="194" source="LOC::Durango.Nombre de Dios" target="SUB::Níquel (Compuestos solubles)" weight="6.754899978637695">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+      </edge>
+      <edge id="195" source="LOC::Durango.Nombre de Dios" target="SUB::Plomo (Compuestos solubles)" weight="2.7016000747680664">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+      </edge>
+      <edge id="196" source="LOC::Durango.Nombre de Dios" target="SUB::Plomo (compuestos)" weight="124.5999984741211">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+      </edge>
+      <edge id="197" source="LOC::Durango.Nombre de Dios" target="SUB::Plomo (polvos respirables, humos o vapores)" weight="1.270361E7">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+      </edge>
+      <edge id="198" source="LOC::Durango.Nombre de Dios" target="SUB::Sulfato de cobre" weight="7273.5263671875">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+      </edge>
+      <edge id="199" source="LOC::Durango.Indé" target="SUB::Cianuro inorgánico/orgánico" weight="0.3220050036907196">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+      </edge>
+      <edge id="200" source="LOC::Durango.Indé" target="SUB::Plomo (compuestos)" weight="180.0">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+      </edge>
+      <edge id="201" source="LOC::Durango.Tlahualilo" target="SUB::Arsénico (Compuestos solubles)" weight="139.27639770507812">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+      </edge>
+      <edge id="202" source="LOC::Durango.Tlahualilo" target="SUB::Cadmio (Compuestos solubles)" weight="48.862300872802734">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+      </edge>
+      <edge id="203" source="LOC::Durango.Tlahualilo" target="SUB::Cianuro inorgánico/orgánico" weight="773.7999877929688">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+      </edge>
+      <edge id="204" source="LOC::Durango.Tlahualilo" target="SUB::Níquel (Compuestos solubles)" weight="878.2692260742188">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+      </edge>
+      <edge id="205" source="LOC::Durango.Tlahualilo" target="SUB::Plomo (Compuestos solubles)" weight="2038.96923828125">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+      </edge>
+    </edges>
+  </graph>
+</gexf>

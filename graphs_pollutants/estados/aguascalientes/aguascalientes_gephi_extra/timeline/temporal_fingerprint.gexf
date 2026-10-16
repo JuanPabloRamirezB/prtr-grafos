@@ -1,0 +1,615 @@
+<?xml version='1.0' encoding='utf-8'?>
+<gexf xmlns="http://www.gexf.net/1.2draft" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.gexf.net/1.2draft http://www.gexf.net/1.2draft/gexf.xsd" version="1.2">
+  <meta lastmodifieddate="2026-10-16">
+    <creator>NetworkX 3.7</creator>
+  </meta>
+  <graph defaultedgetype="undirected" mode="static" name="">
+    <attributes mode="static" class="node">
+      <attribute id="0" title="type" type="string" />
+      <attribute id="1" title="total_kg" type="double" />
+      <attribute id="2" title="first_year" type="long" />
+      <attribute id="3" title="n_years_active" type="long" />
+    </attributes>
+    <nodes>
+      <node id="LOC::Aguascalientes.San Francisco de los Romo" label="Aguascalientes.San Francisco de los Romo">
+        <attvalues>
+          <attvalue for="0" value="location" />
+          <attvalue for="1" value="1611168658.1099734" />
+          <attvalue for="2" value="2004" />
+          <attvalue for="3" value="19" />
+        </attvalues>
+      </node>
+      <node id="LOC::Aguascalientes.Tepezalá" label="Aguascalientes.Tepezalá">
+        <attvalues>
+          <attvalue for="0" value="location" />
+          <attvalue for="1" value="11643467321.469532" />
+          <attvalue for="2" value="2004" />
+          <attvalue for="3" value="14" />
+        </attvalues>
+      </node>
+      <node id="LOC::Aguascalientes.Aguascalientes" label="Aguascalientes.Aguascalientes">
+        <attvalues>
+          <attvalue for="0" value="location" />
+          <attvalue for="1" value="2869879111.2353215" />
+          <attvalue for="2" value="2004" />
+          <attvalue for="3" value="19" />
+        </attvalues>
+      </node>
+      <node id="LOC::Aguascalientes.Jesús María" label="Aguascalientes.Jesús María">
+        <attvalues>
+          <attvalue for="0" value="location" />
+          <attvalue for="1" value="1315993128.996041" />
+          <attvalue for="2" value="2004" />
+          <attvalue for="3" value="19" />
+        </attvalues>
+      </node>
+      <node id="LOC::Aguascalientes.El Llano" label="Aguascalientes.El Llano">
+        <attvalues>
+          <attvalue for="0" value="location" />
+          <attvalue for="1" value="395359.5864859999" />
+          <attvalue for="2" value="2008" />
+          <attvalue for="3" value="7" />
+        </attvalues>
+      </node>
+      <node id="LOC::Aguascalientes.Rincón de Romos" label="Aguascalientes.Rincón de Romos">
+        <attvalues>
+          <attvalue for="0" value="location" />
+          <attvalue for="1" value="22001928.945278607" />
+          <attvalue for="2" value="2004" />
+          <attvalue for="3" value="14" />
+        </attvalues>
+      </node>
+      <node id="LOC::Aguascalientes.Asientos" label="Aguascalientes.Asientos">
+        <attvalues>
+          <attvalue for="0" value="location" />
+          <attvalue for="1" value="5152271440.23751" />
+          <attvalue for="2" value="2011" />
+          <attvalue for="3" value="10" />
+        </attvalues>
+      </node>
+      <node id="SUB::Mercurio (Compuestos solubles)" label="Mercury (soluble compounds)">
+        <attvalues>
+          <attvalue for="0" value="substance" />
+          <attvalue for="1" value="223.1496602804" />
+          <attvalue for="2" value="2008" />
+          <attvalue for="3" value="4" />
+        </attvalues>
+      </node>
+      <node id="SUB::Arsénico (polvos, respirables, vapores o humos)" label="Arsenic (respirable dust, vapors or fumes)">
+        <attvalues>
+          <attvalue for="0" value="substance" />
+          <attvalue for="1" value="5610.5904701981335" />
+          <attvalue for="2" value="2004" />
+          <attvalue for="3" value="14" />
+        </attvalues>
+      </node>
+      <node id="SUB::Cromo (Compuestos solubles)" label="Chromium (soluble compounds)">
+        <attvalues>
+          <attvalue for="0" value="substance" />
+          <attvalue for="1" value="166421.42995398404" />
+          <attvalue for="2" value="2008" />
+          <attvalue for="3" value="10" />
+        </attvalues>
+      </node>
+      <node id="SUB::Níquel (Compuestos solubles)" label="Nickel (soluble compounds)">
+        <attvalues>
+          <attvalue for="0" value="substance" />
+          <attvalue for="1" value="45333.580095585996" />
+          <attvalue for="2" value="2008" />
+          <attvalue for="3" value="10" />
+        </attvalues>
+      </node>
+      <node id="SUB::Plomo (Compuestos solubles)" label="Lead (soluble compounds)">
+        <attvalues>
+          <attvalue for="0" value="substance" />
+          <attvalue for="1" value="20096.1687582888" />
+          <attvalue for="2" value="2008" />
+          <attvalue for="3" value="10" />
+        </attvalues>
+      </node>
+      <node id="SUB::Cianuro inorgánico/orgánico" label="Inorganic/organic cyanide">
+        <attvalues>
+          <attvalue for="0" value="substance" />
+          <attvalue for="1" value="40824.30059171464" />
+          <attvalue for="2" value="2004" />
+          <attvalue for="3" value="15" />
+        </attvalues>
+      </node>
+      <node id="SUB::Cadmio (polvos, respirables, vapores o humos)" label="Cadmium (respirable dust, vapors or fumes)">
+        <attvalues>
+          <attvalue for="0" value="substance" />
+          <attvalue for="1" value="1522.4417148541509" />
+          <attvalue for="2" value="2004" />
+          <attvalue for="3" value="15" />
+        </attvalues>
+      </node>
+      <node id="SUB::Mercurio (polvos, respirables, vapores o humos)" label="Mercury (respirable dust, vapors or fumes)">
+        <attvalues>
+          <attvalue for="0" value="substance" />
+          <attvalue for="1" value="3530.8042921202405" />
+          <attvalue for="2" value="2004" />
+          <attvalue for="3" value="15" />
+        </attvalues>
+      </node>
+      <node id="SUB::Perfluorocarbonos" label="Perfluorocarbons">
+        <attvalues>
+          <attvalue for="0" value="substance" />
+          <attvalue for="1" value="5.75" />
+          <attvalue for="2" value="2008" />
+          <attvalue for="3" value="1" />
+        </attvalues>
+      </node>
+      <node id="SUB::Plomo (compuestos)" label="Lead (compounds)">
+        <attvalues>
+          <attvalue for="0" value="substance" />
+          <attvalue for="1" value="441725.21758951095" />
+          <attvalue for="2" value="2004" />
+          <attvalue for="3" value="9" />
+        </attvalues>
+      </node>
+      <node id="SUB::Níquel (compuestos)" label="Nickel (compounds)">
+        <attvalues>
+          <attvalue for="0" value="substance" />
+          <attvalue for="1" value="784104.0572465855" />
+          <attvalue for="2" value="2004" />
+          <attvalue for="3" value="9" />
+        </attvalues>
+      </node>
+      <node id="SUB::Cromo (compuestos)" label="Chromium (compounds)">
+        <attvalues>
+          <attvalue for="0" value="substance" />
+          <attvalue for="1" value="1018576.3658176529" />
+          <attvalue for="2" value="2004" />
+          <attvalue for="3" value="9" />
+        </attvalues>
+      </node>
+      <node id="SUB::Arsénico (compuestos)" label="Arsenic (compounds)">
+        <attvalues>
+          <attvalue for="0" value="substance" />
+          <attvalue for="1" value="341.53596403186" />
+          <attvalue for="2" value="2007" />
+          <attvalue for="3" value="5" />
+        </attvalues>
+      </node>
+      <node id="SUB::Mercurio (compuestos)" label="Mercury (compounds)">
+        <attvalues>
+          <attvalue for="0" value="substance" />
+          <attvalue for="1" value="211.37491866952703" />
+          <attvalue for="2" value="2004" />
+          <attvalue for="3" value="9" />
+        </attvalues>
+      </node>
+      <node id="SUB::Cadmio (compuestos)" label="Cadmium (compounds)">
+        <attvalues>
+          <attvalue for="0" value="substance" />
+          <attvalue for="1" value="70.21324373664997" />
+          <attvalue for="2" value="2006" />
+          <attvalue for="3" value="5" />
+        </attvalues>
+      </node>
+      <node id="SUB::Arsénico (Compuestos solubles)" label="Arsenic (soluble compounds)">
+        <attvalues>
+          <attvalue for="0" value="substance" />
+          <attvalue for="1" value="152.1973" />
+          <attvalue for="2" value="2014" />
+          <attvalue for="3" value="9" />
+        </attvalues>
+      </node>
+      <node id="SUB::Cadmio (Compuestos solubles)" label="Cadmium (soluble compounds)">
+        <attvalues>
+          <attvalue for="0" value="substance" />
+          <attvalue for="1" value="928.7973000000001" />
+          <attvalue for="2" value="2014" />
+          <attvalue for="3" value="9" />
+        </attvalues>
+      </node>
+      <node id="SUB::Cromo (polvos respirables, humos o vapores)" label="Chromium (respirable dust, fumes or vapors)">
+        <attvalues>
+          <attvalue for="0" value="substance" />
+          <attvalue for="1" value="193526.36386325" />
+          <attvalue for="2" value="2014" />
+          <attvalue for="3" value="8" />
+        </attvalues>
+      </node>
+      <node id="SUB::Níquel (polvos respirables, humos o vapores)" label="Nickel (respirable dust, fumes or vapors)">
+        <attvalues>
+          <attvalue for="0" value="substance" />
+          <attvalue for="1" value="1061.2062167999998" />
+          <attvalue for="2" value="2014" />
+          <attvalue for="3" value="8" />
+        </attvalues>
+      </node>
+      <node id="SUB::Plomo (polvos respirables, humos o vapores)" label="Lead (respirable dust, fumes or vapors)">
+        <attvalues>
+          <attvalue for="0" value="substance" />
+          <attvalue for="1" value="98628.559" />
+          <attvalue for="2" value="2014" />
+          <attvalue for="3" value="8" />
+        </attvalues>
+      </node>
+      <node id="SUB::Bióxido de carbono" label="Carbon dioxide">
+        <attvalues>
+          <attvalue for="0" value="substance" />
+          <attvalue for="1" value="22548859954.01661" />
+          <attvalue for="2" value="2004" />
+          <attvalue for="3" value="19" />
+        </attvalues>
+      </node>
+      <node id="SUB::Bióxido de nitrógeno" label="Nitrogen dioxide">
+        <attvalues>
+          <attvalue for="0" value="substance" />
+          <attvalue for="1" value="6311389.72" />
+          <attvalue for="2" value="2007" />
+          <attvalue for="3" value="2" />
+        </attvalues>
+      </node>
+      <node id="SUB::Hidrofluorocarbonos" label="Hydrofluorocarbons">
+        <attvalues>
+          <attvalue for="0" value="substance" />
+          <attvalue for="1" value="1588.83" />
+          <attvalue for="2" value="2006" />
+          <attvalue for="3" value="7" />
+        </attvalues>
+      </node>
+      <node id="SUB::Fenol" label="Phenol">
+        <attvalues>
+          <attvalue for="0" value="substance" />
+          <attvalue for="1" value="1.63666" />
+          <attvalue for="2" value="2006" />
+          <attvalue for="3" value="7" />
+        </attvalues>
+      </node>
+      <node id="SUB::Hexafluoruro de azufre" label="Sulfur hexafluoride">
+        <attvalues>
+          <attvalue for="0" value="substance" />
+          <attvalue for="1" value="242.0" />
+          <attvalue for="2" value="2006" />
+          <attvalue for="3" value="7" />
+        </attvalues>
+      </node>
+      <node id="SUB::Formaldehido" label="Formaldehyde">
+        <attvalues>
+          <attvalue for="0" value="substance" />
+          <attvalue for="1" value="53366.52462417528" />
+          <attvalue for="2" value="2004" />
+          <attvalue for="3" value="19" />
+        </attvalues>
+      </node>
+      <node id="SUB::Benceno" label="Benzene">
+        <attvalues>
+          <attvalue for="0" value="substance" />
+          <attvalue for="1" value="26682.8682549148" />
+          <attvalue for="2" value="2004" />
+          <attvalue for="3" value="10" />
+        </attvalues>
+      </node>
+      <node id="SUB::1,1-Dicloro-1-Fluoroetano (HCFC-141b)" label="1,1-Dichloro-1-fluoroethane (HCFC-141b)">
+        <attvalues>
+          <attvalue for="0" value="substance" />
+          <attvalue for="1" value="350.0" />
+          <attvalue for="2" value="2008" />
+          <attvalue for="3" value="1" />
+        </attvalues>
+      </node>
+      <node id="SUB::2,2-Dicloro-1,1,1-Trifluoroetano (HCFC-123)" label="2,2-Dichloro-1,1,1-trifluoroethane (HCFC-123)">
+        <attvalues>
+          <attvalue for="0" value="substance" />
+          <attvalue for="1" value="826.8" />
+          <attvalue for="2" value="2008" />
+          <attvalue for="3" value="1" />
+        </attvalues>
+      </node>
+      <node id="SUB::Clorodifluorometano (HCFC-22)" label="Chlorodifluoromethane (HCFC-22)">
+        <attvalues>
+          <attvalue for="0" value="substance" />
+          <attvalue for="1" value="863.3" />
+          <attvalue for="2" value="2008" />
+          <attvalue for="3" value="5" />
+        </attvalues>
+      </node>
+      <node id="SUB::Tricloroetileno" label="Trichloroethylene">
+        <attvalues>
+          <attvalue for="0" value="substance" />
+          <attvalue for="1" value="24787.6" />
+          <attvalue for="2" value="2005" />
+          <attvalue for="3" value="3" />
+        </attvalues>
+      </node>
+      <node id="SUB::Acetaldehido" label="Acetaldehyde">
+        <attvalues>
+          <attvalue for="0" value="substance" />
+          <attvalue for="1" value="0.1511673945824" />
+          <attvalue for="2" value="2005" />
+          <attvalue for="3" value="6" />
+        </attvalues>
+      </node>
+      <node id="SUB::Acroleina" label="Acrolein">
+        <attvalues>
+          <attvalue for="0" value="substance" />
+          <attvalue for="1" value="0.006177083341999999" />
+          <attvalue for="2" value="2005" />
+          <attvalue for="3" value="4" />
+        </attvalues>
+      </node>
+      <node id="SUB::Xileno (mezcla de isómeros)" label="Xylene (mixture of isomers)">
+        <attvalues>
+          <attvalue for="0" value="substance" />
+          <attvalue for="1" value="70817.913325" />
+          <attvalue for="2" value="2014" />
+          <attvalue for="3" value="5" />
+        </attvalues>
+      </node>
+      <node id="SUB::Metano" label="Methane">
+        <attvalues>
+          <attvalue for="0" value="substance" />
+          <attvalue for="1" value="3833836.778" />
+          <attvalue for="2" value="2004" />
+          <attvalue for="3" value="4" />
+        </attvalues>
+      </node>
+      <node id="SUB::Dioxinas" label="Dioxins">
+        <attvalues>
+          <attvalue for="0" value="substance" />
+          <attvalue for="1" value="0.002800130904" />
+          <attvalue for="2" value="2013" />
+          <attvalue for="3" value="7" />
+        </attvalues>
+      </node>
+      <node id="SUB::Furanos" label="Furans">
+        <attvalues>
+          <attvalue for="0" value="substance" />
+          <attvalue for="1" value="0.000300130904" />
+          <attvalue for="2" value="2013" />
+          <attvalue for="3" value="7" />
+        </attvalues>
+      </node>
+      <node id="SUB::Tolueno diisocianato" label="Toluene diisocyanate">
+        <attvalues>
+          <attvalue for="0" value="substance" />
+          <attvalue for="1" value="2766.6924" />
+          <attvalue for="2" value="2005" />
+          <attvalue for="3" value="5" />
+        </attvalues>
+      </node>
+      <node id="SUB::Acenafteno" label="Acenaphthene">
+        <attvalues>
+          <attvalue for="0" value="substance" />
+          <attvalue for="1" value="62426.1248529808" />
+          <attvalue for="2" value="2019" />
+          <attvalue for="3" value="1" />
+        </attvalues>
+      </node>
+      <node id="SUB::Tolueno" label="Toluene">
+        <attvalues>
+          <attvalue for="0" value="substance" />
+          <attvalue for="1" value="128188.351224" />
+          <attvalue for="2" value="2019" />
+          <attvalue for="3" value="4" />
+        </attvalues>
+      </node>
+      <node id="SUB::Clorobenceno (monoclorobenceno)" label="Chlorobenzene (monochlorobenzene)">
+        <attvalues>
+          <attvalue for="0" value="substance" />
+          <attvalue for="1" value="1778.624625" />
+          <attvalue for="2" value="2022" />
+          <attvalue for="3" value="1" />
+        </attvalues>
+      </node>
+      <node id="SUB::1,2-Diclorobenceno" label="1,2-Dichlorobenzene">
+        <attvalues>
+          <attvalue for="0" value="substance" />
+          <attvalue for="1" value="2313.82425" />
+          <attvalue for="2" value="2022" />
+          <attvalue for="3" value="1" />
+        </attvalues>
+      </node>
+      <node id="SUB::Oxido nitroso" label="Nitrous oxide">
+        <attvalues>
+          <attvalue for="0" value="substance" />
+          <attvalue for="1" value="52817231.4" />
+          <attvalue for="2" value="2009" />
+          <attvalue for="3" value="5" />
+        </attvalues>
+      </node>
+      <node id="SUB::Cumeno" label="Cumene">
+        <attvalues>
+          <attvalue for="0" value="substance" />
+          <attvalue for="1" value="3629.7212" />
+          <attvalue for="2" value="2020" />
+          <attvalue for="3" value="1" />
+        </attvalues>
+      </node>
+      <node id="SUB::Dibutilftalato" label="Dibutyl phthalate">
+        <attvalues>
+          <attvalue for="0" value="substance" />
+          <attvalue for="1" value="13689.5897" />
+          <attvalue for="2" value="2020" />
+          <attvalue for="3" value="1" />
+        </attvalues>
+      </node>
+      <node id="SUB::Asbesto y sus formas (En forma de polvo, fibras o productos desmenuzables con la presión de la mano)" label="Asbestos and its forms (as dust, fibers or friable products that crumble under hand pressure)">
+        <attvalues>
+          <attvalue for="0" value="substance" />
+          <attvalue for="1" value="52661.0" />
+          <attvalue for="2" value="2004" />
+          <attvalue for="3" value="4" />
+        </attvalues>
+      </node>
+      <node id="SUB::Metileno bis(fenilisocianato)" label="Methylene bis(phenyl isocyanate) (MDI)">
+        <attvalues>
+          <attvalue for="0" value="substance" />
+          <attvalue for="1" value="18508.7" />
+          <attvalue for="2" value="2014" />
+          <attvalue for="3" value="3" />
+        </attvalues>
+      </node>
+      <node id="SUB::Diisocianato de difenilmetano polimérico" label="Polymeric diphenylmethane diisocyanate">
+        <attvalues>
+          <attvalue for="0" value="substance" />
+          <attvalue for="1" value="4288.299999999999" />
+          <attvalue for="2" value="2014" />
+          <attvalue for="3" value="3" />
+        </attvalues>
+      </node>
+      <node id="SUB::Acido sulfhídrico" label="Hydrogen sulfide">
+        <attvalues>
+          <attvalue for="0" value="substance" />
+          <attvalue for="1" value="59014.0" />
+          <attvalue for="2" value="2021" />
+          <attvalue for="3" value="1" />
+        </attvalues>
+      </node>
+      <node id="SUB::Bifenilos policlorados" label="Polychlorinated biphenyls (PCBs)">
+        <attvalues>
+          <attvalue for="0" value="substance" />
+          <attvalue for="1" value="2850.0" />
+          <attvalue for="2" value="2008" />
+          <attvalue for="3" value="1" />
+        </attvalues>
+      </node>
+    </nodes>
+    <edges>
+      <edge source="LOC::Aguascalientes.San Francisco de los Romo" target="SUB::Mercurio (Compuestos solubles)" id="0" weight="205.2882166704" />
+      <edge source="LOC::Aguascalientes.San Francisco de los Romo" target="SUB::Arsénico (polvos, respirables, vapores o humos)" id="1" weight="34.55994669059" />
+      <edge source="LOC::Aguascalientes.San Francisco de los Romo" target="SUB::Cromo (Compuestos solubles)" id="2" weight="2444.869750406" />
+      <edge source="LOC::Aguascalientes.San Francisco de los Romo" target="SUB::Níquel (Compuestos solubles)" id="3" weight="10201.784032296" />
+      <edge source="LOC::Aguascalientes.San Francisco de los Romo" target="SUB::Plomo (Compuestos solubles)" id="4" weight="545.4793277488" />
+      <edge source="LOC::Aguascalientes.San Francisco de los Romo" target="SUB::Cianuro inorgánico/orgánico" id="5" weight="677.2362054526" />
+      <edge source="LOC::Aguascalientes.San Francisco de los Romo" target="SUB::Cadmio (polvos, respirables, vapores o humos)" id="6" weight="21.806341173799996" />
+      <edge source="LOC::Aguascalientes.San Francisco de los Romo" target="SUB::Perfluorocarbonos" id="7" weight="5.75" />
+      <edge source="LOC::Aguascalientes.San Francisco de los Romo" target="SUB::Arsénico (compuestos)" id="8" weight="8.732400606310001" />
+      <edge source="LOC::Aguascalientes.San Francisco de los Romo" target="SUB::Níquel (compuestos)" id="9" weight="1275.3435223200001" />
+      <edge source="LOC::Aguascalientes.San Francisco de los Romo" target="SUB::Cromo (compuestos)" id="10" weight="924.4705613259999" />
+      <edge source="LOC::Aguascalientes.San Francisco de los Romo" target="SUB::Plomo (compuestos)" id="11" weight="659.05962018" />
+      <edge source="LOC::Aguascalientes.San Francisco de los Romo" target="SUB::Cadmio (compuestos)" id="12" weight="15.5148248" />
+      <edge source="LOC::Aguascalientes.San Francisco de los Romo" target="SUB::Plomo (polvos respirables, humos o vapores)" id="13" weight="45.75760000000001" />
+      <edge source="LOC::Aguascalientes.San Francisco de los Romo" target="SUB::Níquel (polvos respirables, humos o vapores)" id="14" weight="118.84814" />
+      <edge source="LOC::Aguascalientes.San Francisco de los Romo" target="SUB::Cromo (polvos respirables, humos o vapores)" id="15" weight="8.07036" />
+      <edge source="LOC::Aguascalientes.San Francisco de los Romo" target="SUB::Mercurio (compuestos)" id="16" weight="28.9757692812" />
+      <edge source="LOC::Aguascalientes.San Francisco de los Romo" target="SUB::Bióxido de carbono" id="17" weight="1611148332.8573546" />
+      <edge source="LOC::Aguascalientes.San Francisco de los Romo" target="SUB::Tolueno diisocianato" id="18" weight="2766.6924" />
+      <edge source="LOC::Aguascalientes.San Francisco de los Romo" target="SUB::Mercurio (polvos, respirables, vapores o humos)" id="19" weight="220.2110048" />
+      <edge source="LOC::Aguascalientes.San Francisco de los Romo" target="SUB::Arsénico (Compuestos solubles)" id="20" weight="34.683899999999994" />
+      <edge source="LOC::Aguascalientes.San Francisco de los Romo" target="SUB::Cadmio (Compuestos solubles)" id="21" weight="82.11870000000002" />
+      <edge source="LOC::Aguascalientes.Tepezalá" target="SUB::Cromo (Compuestos solubles)" id="22" weight="6.927579999999999" />
+      <edge source="LOC::Aguascalientes.Tepezalá" target="SUB::Mercurio (Compuestos solubles)" id="23" weight="0.0273572" />
+      <edge source="LOC::Aguascalientes.Tepezalá" target="SUB::Níquel (Compuestos solubles)" id="24" weight="11.536200000000001" />
+      <edge source="LOC::Aguascalientes.Tepezalá" target="SUB::Plomo (Compuestos solubles)" id="25" weight="8.342600000000001" />
+      <edge source="LOC::Aguascalientes.Tepezalá" target="SUB::Cianuro inorgánico/orgánico" id="26" weight="8317.497924500001" />
+      <edge source="LOC::Aguascalientes.Tepezalá" target="SUB::Arsénico (polvos, respirables, vapores o humos)" id="27" weight="294.23247380000004" />
+      <edge source="LOC::Aguascalientes.Tepezalá" target="SUB::Cadmio (polvos, respirables, vapores o humos)" id="28" weight="440.33233099999995" />
+      <edge source="LOC::Aguascalientes.Tepezalá" target="SUB::Plomo (compuestos)" id="29" weight="3498.1560810799997" />
+      <edge source="LOC::Aguascalientes.Tepezalá" target="SUB::Níquel (compuestos)" id="30" weight="1628.0552000000002" />
+      <edge source="LOC::Aguascalientes.Tepezalá" target="SUB::Cromo (compuestos)" id="31" weight="684.8550479999999" />
+      <edge source="LOC::Aguascalientes.Tepezalá" target="SUB::Arsénico (Compuestos solubles)" id="32" weight="1.4567" />
+      <edge source="LOC::Aguascalientes.Tepezalá" target="SUB::Cadmio (Compuestos solubles)" id="33" weight="1.6824" />
+      <edge source="LOC::Aguascalientes.Tepezalá" target="SUB::Cromo (polvos respirables, humos o vapores)" id="34" weight="3.23" />
+      <edge source="LOC::Aguascalientes.Tepezalá" target="SUB::Níquel (polvos respirables, humos o vapores)" id="35" weight="3.23" />
+      <edge source="LOC::Aguascalientes.Tepezalá" target="SUB::Plomo (polvos respirables, humos o vapores)" id="36" weight="3.23" />
+      <edge source="LOC::Aguascalientes.Tepezalá" target="SUB::Mercurio (compuestos)" id="37" weight="10.090374500000001" />
+      <edge source="LOC::Aguascalientes.Tepezalá" target="SUB::Bióxido de carbono" id="38" weight="11643452384.0" />
+      <edge source="LOC::Aguascalientes.Tepezalá" target="SUB::Mercurio (polvos, respirables, vapores o humos)" id="39" weight="24.025015600000003" />
+      <edge source="LOC::Aguascalientes.Tepezalá" target="SUB::Furanos" id="40" weight="0.0003" />
+      <edge source="LOC::Aguascalientes.Tepezalá" target="SUB::Dioxinas" id="41" weight="0.0028" />
+      <edge source="LOC::Aguascalientes.Tepezalá" target="SUB::Arsénico (compuestos)" id="42" weight="0.559149" />
+      <edge source="LOC::Aguascalientes.Aguascalientes" target="SUB::Cromo (Compuestos solubles)" id="43" weight="33533.31340757801" />
+      <edge source="LOC::Aguascalientes.Aguascalientes" target="SUB::Níquel (Compuestos solubles)" id="44" weight="25559.32857454" />
+      <edge source="LOC::Aguascalientes.Aguascalientes" target="SUB::Plomo (Compuestos solubles)" id="45" weight="656.8758345400001" />
+      <edge source="LOC::Aguascalientes.Aguascalientes" target="SUB::Cianuro inorgánico/orgánico" id="46" weight="2550.3871113648" />
+      <edge source="LOC::Aguascalientes.Aguascalientes" target="SUB::Mercurio (polvos, respirables, vapores o humos)" id="47" weight="3279.4160897200004" />
+      <edge source="LOC::Aguascalientes.Aguascalientes" target="SUB::Arsénico (polvos, respirables, vapores o humos)" id="48" weight="5273.343481985299" />
+      <edge source="LOC::Aguascalientes.Aguascalientes" target="SUB::Cadmio (polvos, respirables, vapores o humos)" id="49" weight="1015.4407951828501" />
+      <edge source="LOC::Aguascalientes.Aguascalientes" target="SUB::Mercurio (Compuestos solubles)" id="50" weight="17.75356611" />
+      <edge source="LOC::Aguascalientes.Aguascalientes" target="SUB::Arsénico (compuestos)" id="51" weight="329.26146328054995" />
+      <edge source="LOC::Aguascalientes.Aguascalientes" target="SUB::Mercurio (compuestos)" id="52" weight="171.63606264932704" />
+      <edge source="LOC::Aguascalientes.Aguascalientes" target="SUB::Plomo (compuestos)" id="53" weight="409200.7934217259" />
+      <edge source="LOC::Aguascalientes.Aguascalientes" target="SUB::Níquel (compuestos)" id="54" weight="772308.9627918185" />
+      <edge source="LOC::Aguascalientes.Aguascalientes" target="SUB::Cromo (compuestos)" id="55" weight="1007874.0894476381" />
+      <edge source="LOC::Aguascalientes.Aguascalientes" target="SUB::Cadmio (compuestos)" id="56" weight="52.554618936649995" />
+      <edge source="LOC::Aguascalientes.Aguascalientes" target="SUB::Arsénico (Compuestos solubles)" id="57" weight="100.12109999999997" />
+      <edge source="LOC::Aguascalientes.Aguascalientes" target="SUB::Cadmio (Compuestos solubles)" id="58" weight="831.3540000000002" />
+      <edge source="LOC::Aguascalientes.Aguascalientes" target="SUB::Níquel (polvos respirables, humos o vapores)" id="59" weight="837.0745957999999" />
+      <edge source="LOC::Aguascalientes.Aguascalientes" target="SUB::Bióxido de carbono" id="60" weight="2856807549.178101" />
+      <edge source="LOC::Aguascalientes.Aguascalientes" target="SUB::Bióxido de nitrógeno" id="61" weight="6311389.72" />
+      <edge source="LOC::Aguascalientes.Aguascalientes" target="SUB::Hidrofluorocarbonos" id="62" weight="1588.83" />
+      <edge source="LOC::Aguascalientes.Aguascalientes" target="SUB::Fenol" id="63" weight="1.63666" />
+      <edge source="LOC::Aguascalientes.Aguascalientes" target="SUB::Hexafluoruro de azufre" id="64" weight="242.0" />
+      <edge source="LOC::Aguascalientes.Aguascalientes" target="SUB::Formaldehido" id="65" weight="46092.003070172585" />
+      <edge source="LOC::Aguascalientes.Aguascalientes" target="SUB::Benceno" id="66" weight="26682.8682549148" />
+      <edge source="LOC::Aguascalientes.Aguascalientes" target="SUB::1,1-Dicloro-1-Fluoroetano (HCFC-141b)" id="67" weight="350.0" />
+      <edge source="LOC::Aguascalientes.Aguascalientes" target="SUB::2,2-Dicloro-1,1,1-Trifluoroetano (HCFC-123)" id="68" weight="826.8" />
+      <edge source="LOC::Aguascalientes.Aguascalientes" target="SUB::Clorodifluorometano (HCFC-22)" id="69" weight="863.3" />
+      <edge source="LOC::Aguascalientes.Aguascalientes" target="SUB::Tricloroetileno" id="70" weight="24787.6" />
+      <edge source="LOC::Aguascalientes.Aguascalientes" target="SUB::Acetaldehido" id="71" weight="0.1511673945824" />
+      <edge source="LOC::Aguascalientes.Aguascalientes" target="SUB::Acroleina" id="72" weight="0.006177083341999999" />
+      <edge source="LOC::Aguascalientes.Aguascalientes" target="SUB::Cromo (polvos respirables, humos o vapores)" id="73" weight="193510.99250325" />
+      <edge source="LOC::Aguascalientes.Aguascalientes" target="SUB::Xileno (mezcla de isómeros)" id="74" weight="70817.913325" />
+      <edge source="LOC::Aguascalientes.Aguascalientes" target="SUB::Plomo (polvos respirables, humos o vapores)" id="75" weight="33400.640699999996" />
+      <edge source="LOC::Aguascalientes.Aguascalientes" target="SUB::Metano" id="76" weight="3833836.778" />
+      <edge source="LOC::Aguascalientes.Aguascalientes" target="SUB::Dioxinas" id="77" weight="1.3090400000000002e-07" />
+      <edge source="LOC::Aguascalientes.Aguascalientes" target="SUB::Furanos" id="78" weight="1.3090400000000002e-07" />
+      <edge source="LOC::Aguascalientes.Aguascalientes" target="SUB::Tolueno" id="79" weight="128188.351224" />
+      <edge source="LOC::Aguascalientes.Aguascalientes" target="SUB::Clorobenceno (monoclorobenceno)" id="80" weight="1778.624625" />
+      <edge source="LOC::Aguascalientes.Aguascalientes" target="SUB::1,2-Diclorobenceno" id="81" weight="2313.82425" />
+      <edge source="LOC::Aguascalientes.Aguascalientes" target="SUB::Cumeno" id="82" weight="3629.7212" />
+      <edge source="LOC::Aguascalientes.Aguascalientes" target="SUB::Dibutilftalato" id="83" weight="13689.5897" />
+      <edge source="LOC::Aguascalientes.Aguascalientes" target="SUB::Asbesto y sus formas (En forma de polvo, fibras o productos desmenuzables con la presión de la mano)" id="84" weight="52115.0" />
+      <edge source="LOC::Aguascalientes.Aguascalientes" target="SUB::Acido sulfhídrico" id="85" weight="59014.0" />
+      <edge source="LOC::Aguascalientes.Aguascalientes" target="SUB::Bifenilos policlorados" id="86" weight="2850.0" />
+      <edge source="LOC::Aguascalientes.Jesús María" target="SUB::Cromo (Compuestos solubles)" id="87" weight="130434.107016" />
+      <edge source="LOC::Aguascalientes.Jesús María" target="SUB::Mercurio (Compuestos solubles)" id="88" weight="0.0805203" />
+      <edge source="LOC::Aguascalientes.Jesús María" target="SUB::Níquel (Compuestos solubles)" id="89" weight="9558.71908875" />
+      <edge source="LOC::Aguascalientes.Jesús María" target="SUB::Plomo (Compuestos solubles)" id="90" weight="333.194796" />
+      <edge source="LOC::Aguascalientes.Jesús María" target="SUB::Cianuro inorgánico/orgánico" id="91" weight="11.904899397240001" />
+      <edge source="LOC::Aguascalientes.Jesús María" target="SUB::Arsénico (polvos, respirables, vapores o humos)" id="92" weight="5.82513772225" />
+      <edge source="LOC::Aguascalientes.Jesús María" target="SUB::Cadmio (polvos, respirables, vapores o humos)" id="93" weight="42.5797774975" />
+      <edge source="LOC::Aguascalientes.Jesús María" target="SUB::Mercurio (compuestos)" id="94" weight="0.47561563900000003" />
+      <edge source="LOC::Aguascalientes.Jesús María" target="SUB::Cromo (compuestos)" id="95" weight="9088.023970688751" />
+      <edge source="LOC::Aguascalientes.Jesús María" target="SUB::Níquel (compuestos)" id="96" weight="8883.746122446999" />
+      <edge source="LOC::Aguascalientes.Jesús María" target="SUB::Plomo (compuestos)" id="97" weight="19200.505816525" />
+      <edge source="LOC::Aguascalientes.Jesús María" target="SUB::Bióxido de carbono" id="98" weight="1262910231.0706527" />
+      <edge source="LOC::Aguascalientes.Jesús María" target="SUB::Mercurio (polvos, respirables, vapores o humos)" id="99" weight="0.06726400024" />
+      <edge source="LOC::Aguascalientes.Jesús María" target="SUB::Oxido nitroso" id="100" weight="52817231.4" />
+      <edge source="LOC::Aguascalientes.Jesús María" target="SUB::Arsénico (compuestos)" id="101" weight="2.120782145" />
+      <edge source="LOC::Aguascalientes.Jesús María" target="SUB::Cadmio (compuestos)" id="102" weight="1.2700999999999998" />
+      <edge source="LOC::Aguascalientes.Jesús María" target="SUB::Cadmio (Compuestos solubles)" id="103" weight="11.430000000000001" />
+      <edge source="LOC::Aguascalientes.Jesús María" target="SUB::Plomo (polvos respirables, humos o vapores)" id="104" weight="65178.9307" />
+      <edge source="LOC::Aguascalientes.Jesús María" target="SUB::Níquel (polvos respirables, humos o vapores)" id="105" weight="102.053481" />
+      <edge source="LOC::Aguascalientes.Jesús María" target="SUB::Cromo (polvos respirables, humos o vapores)" id="106" weight="4.071" />
+      <edge source="LOC::Aguascalientes.Jesús María" target="SUB::Arsénico (Compuestos solubles)" id="107" weight="10.419300000000002" />
+      <edge source="LOC::Aguascalientes.Jesús María" target="SUB::Metileno bis(fenilisocianato)" id="108" weight="18508.7" />
+      <edge source="LOC::Aguascalientes.Jesús María" target="SUB::Diisocianato de difenilmetano polimérico" id="109" weight="4288.299999999999" />
+      <edge source="LOC::Aguascalientes.El Llano" target="SUB::Mercurio (compuestos)" id="110" weight="0.000117" />
+      <edge source="LOC::Aguascalientes.El Llano" target="SUB::Cromo (compuestos)" id="111" weight="0.0013" />
+      <edge source="LOC::Aguascalientes.El Llano" target="SUB::Cadmio (compuestos)" id="112" weight="0.013000000000000001" />
+      <edge source="LOC::Aguascalientes.El Llano" target="SUB::Arsénico (compuestos)" id="113" weight="0.001469" />
+      <edge source="LOC::Aguascalientes.El Llano" target="SUB::Cianuro inorgánico/orgánico" id="114" weight="0.0026" />
+      <edge source="LOC::Aguascalientes.El Llano" target="SUB::Plomo (compuestos)" id="115" weight="0.065" />
+      <edge source="LOC::Aguascalientes.El Llano" target="SUB::Níquel (compuestos)" id="116" weight="0.065" />
+      <edge source="LOC::Aguascalientes.El Llano" target="SUB::Bióxido de carbono" id="117" weight="395359.43799999997" />
+      <edge source="LOC::Aguascalientes.Rincón de Romos" target="SUB::Plomo (compuestos)" id="118" weight="776.7376499999999" />
+      <edge source="LOC::Aguascalientes.Rincón de Romos" target="SUB::Níquel (compuestos)" id="119" weight="7.884609999999999" />
+      <edge source="LOC::Aguascalientes.Rincón de Romos" target="SUB::Mercurio (compuestos)" id="120" weight="0.19697959999999998" />
+      <edge source="LOC::Aguascalientes.Rincón de Romos" target="SUB::Cromo (compuestos)" id="121" weight="4.92549" />
+      <edge source="LOC::Aguascalientes.Rincón de Romos" target="SUB::Arsénico (polvos, respirables, vapores o humos)" id="122" weight="2.62943" />
+      <edge source="LOC::Aguascalientes.Rincón de Romos" target="SUB::Cianuro inorgánico/orgánico" id="123" weight="7.271851" />
+      <edge source="LOC::Aguascalientes.Rincón de Romos" target="SUB::Cadmio (polvos, respirables, vapores o humos)" id="124" weight="2.28247" />
+      <edge source="LOC::Aguascalientes.Rincón de Romos" target="SUB::Bióxido de carbono" id="125" weight="22000557.84538" />
+      <edge source="LOC::Aguascalientes.Rincón de Romos" target="SUB::Arsénico (compuestos)" id="126" weight="0.8607" />
+      <edge source="LOC::Aguascalientes.Rincón de Romos" target="SUB::Cadmio (compuestos)" id="127" weight="0.8607" />
+      <edge source="LOC::Aguascalientes.Rincón de Romos" target="SUB::Mercurio (polvos, respirables, vapores o humos)" id="128" weight="7.084918" />
+      <edge source="LOC::Aguascalientes.Rincón de Romos" target="SUB::Arsénico (Compuestos solubles)" id="129" weight="5.516299999999999" />
+      <edge source="LOC::Aguascalientes.Rincón de Romos" target="SUB::Cadmio (Compuestos solubles)" id="130" weight="2.2122" />
+      <edge source="LOC::Aguascalientes.Rincón de Romos" target="SUB::Cromo (Compuestos solubles)" id="131" weight="2.2122" />
+      <edge source="LOC::Aguascalientes.Rincón de Romos" target="SUB::Níquel (Compuestos solubles)" id="132" weight="2.2122" />
+      <edge source="LOC::Aguascalientes.Rincón de Romos" target="SUB::Plomo (Compuestos solubles)" id="133" weight="2.2122" />
+      <edge source="LOC::Aguascalientes.Rincón de Romos" target="SUB::Asbesto y sus formas (En forma de polvo, fibras o productos desmenuzables con la presión de la mano)" id="134" weight="546.0" />
+      <edge source="LOC::Aguascalientes.Asientos" target="SUB::Bióxido de carbono" id="135" weight="5152145539.627103" />
+      <edge source="LOC::Aguascalientes.Asientos" target="SUB::Formaldehido" id="136" weight="7274.5215540027" />
+      <edge source="LOC::Aguascalientes.Asientos" target="SUB::Acenafteno" id="137" weight="62426.1248529808" />
+      <edge source="LOC::Aguascalientes.Asientos" target="SUB::Plomo (Compuestos solubles)" id="138" weight="18550.064000000002" />
+      <edge source="LOC::Aguascalientes.Asientos" target="SUB::Plomo (compuestos)" id="139" weight="8389.9" />
+      <edge source="LOC::Aguascalientes.Asientos" target="SUB::Cianuro inorgánico/orgánico" id="140" weight="29260.0" />
+    </edges>
+  </graph>
+</gexf>

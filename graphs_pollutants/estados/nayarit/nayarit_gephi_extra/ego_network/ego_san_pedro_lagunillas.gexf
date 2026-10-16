@@ -1,0 +1,43 @@
+<?xml version='1.0' encoding='utf-8'?>
+<gexf xmlns="http://www.gexf.net/1.2draft" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.gexf.net/1.2draft http://www.gexf.net/1.2draft/gexf.xsd" version="1.2">
+  <meta lastmodifieddate="2026-10-16">
+    <creator>NetworkX 3.7</creator>
+  </meta>
+  <graph defaultedgetype="undirected" mode="static" name="">
+    <attributes mode="static" class="node">
+      <attribute id="0" title="role" type="string" />
+      <attribute id="1" title="total_kg" type="double" />
+    </attributes>
+    <nodes>
+      <node id="Nayarit.San Pedro Lagunillas" label="Nayarit.San Pedro Lagunillas">
+        <attvalues>
+          <attvalue for="0" value="focal" />
+          <attvalue for="1" value="92471857.5684" />
+        </attvalues>
+      </node>
+      <node id="Bióxido de carbono" label="Carbon dioxide">
+        <attvalues>
+          <attvalue for="0" value="substance" />
+          <attvalue for="1" value="87164035.0" />
+        </attvalues>
+      </node>
+      <node id="Acido sulfhídrico" label="Hydrogen sulfide">
+        <attvalues>
+          <attvalue for="0" value="substance" />
+          <attvalue for="1" value="5278100.0" />
+        </attvalues>
+      </node>
+      <node id="Arsénico (Compuestos solubles)" label="Arsenic (soluble compounds)">
+        <attvalues>
+          <attvalue for="0" value="substance" />
+          <attvalue for="1" value="29722.5684" />
+        </attvalues>
+      </node>
+    </nodes>
+    <edges>
+      <edge source="Nayarit.San Pedro Lagunillas" target="Bióxido de carbono" id="0" weight="87164035.0" />
+      <edge source="Nayarit.San Pedro Lagunillas" target="Acido sulfhídrico" id="1" weight="5278100.0" />
+      <edge source="Nayarit.San Pedro Lagunillas" target="Arsénico (Compuestos solubles)" id="2" weight="29722.5684" />
+    </edges>
+  </graph>
+</gexf>

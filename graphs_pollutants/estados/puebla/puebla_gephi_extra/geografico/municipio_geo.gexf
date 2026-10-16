@@ -1,0 +1,742 @@
+<?xml version='1.0' encoding='utf-8'?>
+<gexf xmlns="http://www.gexf.net/1.2draft" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.gexf.net/1.2draft http://www.gexf.net/1.2draft/gexf.xsd" version="1.2">
+  <meta lastmodifieddate="2026-10-16">
+    <creator>NetworkX 3.7</creator>
+  </meta>
+  <graph defaultedgetype="undirected" mode="static" name="">
+    <attributes mode="static" class="node">
+      <attribute id="0" title="lat" type="double" />
+      <attribute id="1" title="lon" type="double" />
+      <attribute id="2" title="total_kg" type="double" />
+      <attribute id="3" title="community" type="long" />
+      <attribute id="4" title="color_hex" type="string" />
+    </attributes>
+    <nodes>
+      <node id="Puebla.Acajete" label="Acajete">
+        <attvalues>
+          <attvalue for="0" value="19.0617785" />
+          <attvalue for="1" value="-97.5709774" />
+          <attvalue for="2" value="5301893566.166965" />
+          <attvalue for="3" value="0" />
+          <attvalue for="4" value="#2a78d6" />
+        </attvalues>
+      </node>
+      <node id="Puebla.Ahuazotepec" label="Ahuazotepec">
+        <attvalues>
+          <attvalue for="0" value="20.0245768" />
+          <attvalue for="1" value="-98.0944451" />
+          <attvalue for="2" value="84185121.1354" />
+          <attvalue for="3" value="0" />
+          <attvalue for="4" value="#2a78d6" />
+        </attvalues>
+      </node>
+      <node id="Puebla.Amozoc" label="Amozoc">
+        <attvalues>
+          <attvalue for="0" value="19.0240606" />
+          <attvalue for="1" value="-98.0241701" />
+          <attvalue for="2" value="272732996.4611715" />
+          <attvalue for="3" value="1" />
+          <attvalue for="4" value="#eb6834" />
+        </attvalues>
+      </node>
+      <node id="Puebla.Atlixco" label="Atlixco">
+        <attvalues>
+          <attvalue for="0" value="18.5431854" />
+          <attvalue for="1" value="-98.2603003" />
+          <attvalue for="2" value="0.435292" />
+          <attvalue for="3" value="3" />
+          <attvalue for="4" value="#eda100" />
+        </attvalues>
+      </node>
+      <node id="Puebla.Atzala" label="Atzala">
+        <attvalues>
+          <attvalue for="0" value="18.3241352" />
+          <attvalue for="1" value="-98.3315393" />
+          <attvalue for="2" value="36.7452" />
+          <attvalue for="3" value="2" />
+          <attvalue for="4" value="#1baf7a" />
+        </attvalues>
+      </node>
+      <node id="Puebla.Chalchicomula de Sesma" label="Chalchicomula de Sesma">
+        <attvalues>
+          <attvalue for="0" value="18.5917736" />
+          <attvalue for="1" value="-97.2654585" />
+          <attvalue for="2" value="195.755273734" />
+          <attvalue for="3" value="2" />
+          <attvalue for="4" value="#1baf7a" />
+        </attvalues>
+      </node>
+      <node id="Puebla.Chietla" label="Chietla">
+        <attvalues>
+          <attvalue for="0" value="18.3109713" />
+          <attvalue for="1" value="-98.3442069" />
+          <attvalue for="2" value="2015075365.6295023" />
+          <attvalue for="3" value="1" />
+          <attvalue for="4" value="#eb6834" />
+        </attvalues>
+      </node>
+      <node id="Puebla.Chignautla" label="Chignautla">
+        <attvalues>
+          <attvalue for="0" value="19.4850083" />
+          <attvalue for="1" value="-97.2322523" />
+          <attvalue for="2" value="226600575.92339125" />
+          <attvalue for="3" value="1" />
+          <attvalue for="4" value="#eb6834" />
+        </attvalues>
+      </node>
+      <node id="Puebla.Coronango" label="Coronango">
+        <attvalues>
+          <attvalue for="0" value="19.0751968" />
+          <attvalue for="1" value="-98.1829065" />
+          <attvalue for="2" value="42121.015080000005" />
+          <attvalue for="3" value="0" />
+          <attvalue for="4" value="#2a78d6" />
+        </attvalues>
+      </node>
+      <node id="Puebla.Cuautinchán" label="Cuautinchán">
+        <attvalues>
+          <attvalue for="0" value="18.5720571" />
+          <attvalue for="1" value="-98.0057515" />
+          <attvalue for="2" value="15165083283.841045" />
+          <attvalue for="3" value="0" />
+          <attvalue for="4" value="#2a78d6" />
+        </attvalues>
+      </node>
+      <node id="Puebla.Cuautlancingo" label="Cuautlancingo">
+        <attvalues>
+          <attvalue for="0" value="19.0521649" />
+          <attvalue for="1" value="-98.1623916" />
+          <attvalue for="2" value="4482922732.244844" />
+          <attvalue for="3" value="1" />
+          <attvalue for="4" value="#eb6834" />
+        </attvalues>
+      </node>
+      <node id="Puebla.Huauchinango" label="Huauchinango">
+        <attvalues>
+          <attvalue for="0" value="20.1028912" />
+          <attvalue for="1" value="-98.0304824" />
+          <attvalue for="2" value="84693608.33863452" />
+          <attvalue for="3" value="1" />
+          <attvalue for="4" value="#eb6834" />
+        </attvalues>
+      </node>
+      <node id="Puebla.Huejotzingo" label="Huejotzingo">
+        <attvalues>
+          <attvalue for="0" value="19.0932379" />
+          <attvalue for="1" value="-98.2429272" />
+          <attvalue for="2" value="1331078943.3917556" />
+          <attvalue for="3" value="1" />
+          <attvalue for="4" value="#eb6834" />
+        </attvalues>
+      </node>
+      <node id="Puebla.Hueytamalco" label="Hueytamalco">
+        <attvalues>
+          <attvalue for="0" value="19.5622124" />
+          <attvalue for="1" value="-97.1720547" />
+          <attvalue for="2" value="115000005.01002368" />
+          <attvalue for="3" value="0" />
+          <attvalue for="4" value="#2a78d6" />
+        </attvalues>
+      </node>
+      <node id="Puebla.Izúcar de Matamoros" label="Izúcar de Matamoros">
+        <attvalues>
+          <attvalue for="0" value="18.3608032" />
+          <attvalue for="1" value="-98.2755463" />
+          <attvalue for="2" value="116738148.72054802" />
+          <attvalue for="3" value="1" />
+          <attvalue for="4" value="#eb6834" />
+        </attvalues>
+      </node>
+      <node id="Puebla.Nopalucan" label="Nopalucan">
+        <attvalues>
+          <attvalue for="0" value="19.1257705" />
+          <attvalue for="1" value="-97.4924736" />
+          <attvalue for="2" value="83666277.414024" />
+          <attvalue for="3" value="0" />
+          <attvalue for="4" value="#2a78d6" />
+        </attvalues>
+      </node>
+      <node id="Puebla.Oriental" label="Oriental">
+        <attvalues>
+          <attvalue for="0" value="19.2232889" />
+          <attvalue for="1" value="-97.3709663" />
+          <attvalue for="2" value="282172.0" />
+          <attvalue for="3" value="0" />
+          <attvalue for="4" value="#2a78d6" />
+        </attvalues>
+      </node>
+      <node id="Puebla.Palmar de Bravo" label="Palmar de Bravo">
+        <attvalues>
+          <attvalue for="0" value="18.5009335" />
+          <attvalue for="1" value="-97.3251024" />
+          <attvalue for="2" value="4643383773.469312" />
+          <attvalue for="3" value="0" />
+          <attvalue for="4" value="#2a78d6" />
+        </attvalues>
+      </node>
+      <node id="Puebla.Puebla" label="Puebla">
+        <attvalues>
+          <attvalue for="0" value="19.0238363" />
+          <attvalue for="1" value="-98.1150981" />
+          <attvalue for="2" value="623381329060.233" />
+          <attvalue for="3" value="1" />
+          <attvalue for="4" value="#eb6834" />
+        </attvalues>
+      </node>
+      <node id="Puebla.Rafael Lara Grajales" label="Rafael Lara Grajales">
+        <attvalues>
+          <attvalue for="0" value="19.1331383" />
+          <attvalue for="1" value="-97.4816383" />
+          <attvalue for="2" value="205377575.2817" />
+          <attvalue for="3" value="0" />
+          <attvalue for="4" value="#2a78d6" />
+        </attvalues>
+      </node>
+      <node id="Puebla.San Andrés Cholula" label="San Andrés Cholula">
+        <attvalues>
+          <attvalue for="0" value="19.0303398" />
+          <attvalue for="1" value="-98.180236" />
+          <attvalue for="2" value="661770151.4255654" />
+          <attvalue for="3" value="1" />
+          <attvalue for="4" value="#eb6834" />
+        </attvalues>
+      </node>
+      <node id="Puebla.San José Chiapa" label="San José Chiapa">
+        <attvalues>
+          <attvalue for="0" value="19.1431454" />
+          <attvalue for="1" value="-97.46078" />
+          <attvalue for="2" value="322630267.9154" />
+          <attvalue for="3" value="1" />
+          <attvalue for="4" value="#eb6834" />
+        </attvalues>
+      </node>
+      <node id="Puebla.San Martín Texmelucan" label="San Martín Texmelucan">
+        <attvalues>
+          <attvalue for="0" value="19.1658469" />
+          <attvalue for="1" value="-98.2607856" />
+          <attvalue for="2" value="5510417720.695643" />
+          <attvalue for="3" value="1" />
+          <attvalue for="4" value="#eb6834" />
+        </attvalues>
+      </node>
+      <node id="Puebla.San Miguel Xoxtla" label="San Miguel Xoxtla">
+        <attvalues>
+          <attvalue for="0" value="19.100589" />
+          <attvalue for="1" value="-98.1834916" />
+          <attvalue for="2" value="4990250195.348541" />
+          <attvalue for="3" value="1" />
+          <attvalue for="4" value="#eb6834" />
+        </attvalues>
+      </node>
+      <node id="Puebla.San Pedro Cholula" label="San Pedro Cholula">
+        <attvalues>
+          <attvalue for="0" value="19.0344943" />
+          <attvalue for="1" value="-98.1827021" />
+          <attvalue for="2" value="8626863.07201347" />
+          <attvalue for="3" value="0" />
+          <attvalue for="4" value="#2a78d6" />
+        </attvalues>
+      </node>
+      <node id="Puebla.San Salvador Huixcolotla" label="San Salvador Huixcolotla">
+        <attvalues>
+          <attvalue for="0" value="18.5514195" />
+          <attvalue for="1" value="-97.4618442" />
+          <attvalue for="2" value="40099702.6253" />
+          <attvalue for="3" value="0" />
+          <attvalue for="4" value="#2a78d6" />
+        </attvalues>
+      </node>
+      <node id="Puebla.San Salvador el Verde" label="San Salvador el Verde">
+        <attvalues>
+          <attvalue for="0" value="19.1608474" />
+          <attvalue for="1" value="-98.3101797" />
+          <attvalue for="2" value="60590.51385296" />
+          <attvalue for="3" value="0" />
+          <attvalue for="4" value="#2a78d6" />
+        </attvalues>
+      </node>
+      <node id="Puebla.Santiago Miahuatlán" label="Santiago Miahuatlán">
+        <attvalues>
+          <attvalue for="0" value="18.3311359" />
+          <attvalue for="1" value="-97.2630672" />
+          <attvalue for="2" value="42420.981468656" />
+          <attvalue for="3" value="0" />
+          <attvalue for="4" value="#2a78d6" />
+        </attvalues>
+      </node>
+      <node id="Puebla.Tecali de Herrera" label="Tecali de Herrera">
+        <attvalues>
+          <attvalue for="0" value="18.5403717" />
+          <attvalue for="1" value="-97.580889" />
+          <attvalue for="2" value="5346298.0" />
+          <attvalue for="3" value="0" />
+          <attvalue for="4" value="#2a78d6" />
+        </attvalues>
+      </node>
+      <node id="Puebla.Tehuacán" label="Tehuacán">
+        <attvalues>
+          <attvalue for="0" value="18.2743864" />
+          <attvalue for="1" value="-97.2331196" />
+          <attvalue for="2" value="128866634.58764638" />
+          <attvalue for="3" value="1" />
+          <attvalue for="4" value="#eb6834" />
+        </attvalues>
+      </node>
+      <node id="Puebla.Tepanco de López" label="Tepanco de López">
+        <attvalues>
+          <attvalue for="0" value="18.3318247" />
+          <attvalue for="1" value="-97.3341393" />
+          <attvalue for="2" value="27.365319" />
+          <attvalue for="3" value="2" />
+          <attvalue for="4" value="#1baf7a" />
+        </attvalues>
+      </node>
+      <node id="Puebla.Tepeaca" label="Tepeaca">
+        <attvalues>
+          <attvalue for="0" value="18.5758078" />
+          <attvalue for="1" value="-97.5419564" />
+          <attvalue for="2" value="24896282.5" />
+          <attvalue for="3" value="0" />
+          <attvalue for="4" value="#2a78d6" />
+        </attvalues>
+      </node>
+      <node id="Puebla.Tepeyahualco" label="Tepeyahualco">
+        <attvalues>
+          <attvalue for="0" value="19.2931221" />
+          <attvalue for="1" value="-97.2932106" />
+          <attvalue for="2" value="30295.58" />
+          <attvalue for="3" value="0" />
+          <attvalue for="4" value="#2a78d6" />
+        </attvalues>
+      </node>
+      <node id="Puebla.Teziutlán" label="Teziutlán">
+        <attvalues>
+          <attvalue for="0" value="19.4904766" />
+          <attvalue for="1" value="-97.2139159" />
+          <attvalue for="2" value="277492274.5640751" />
+          <attvalue for="3" value="0" />
+          <attvalue for="4" value="#2a78d6" />
+        </attvalues>
+      </node>
+      <node id="Puebla.Tlacotepec de Benito Juárez" label="Tlacotepec de Benito Juárez">
+        <attvalues>
+          <attvalue for="0" value="18.4057963" />
+          <attvalue for="1" value="-97.3912743" />
+          <attvalue for="2" value="1.5589215" />
+          <attvalue for="3" value="4" />
+          <attvalue for="4" value="#e87ba4" />
+        </attvalues>
+      </node>
+      <node id="Puebla.Tlahuapan" label="Tlahuapan">
+        <attvalues>
+          <attvalue for="0" value="19.1949813" />
+          <attvalue for="1" value="-98.3456636" />
+          <attvalue for="2" value="788546.8055" />
+          <attvalue for="3" value="0" />
+          <attvalue for="4" value="#2a78d6" />
+        </attvalues>
+      </node>
+      <node id="Puebla.Xicotepec" label="Xicotepec">
+        <attvalues>
+          <attvalue for="0" value="20.1633811" />
+          <attvalue for="1" value="-97.5729317" />
+          <attvalue for="2" value="53414.002" />
+          <attvalue for="3" value="0" />
+          <attvalue for="4" value="#2a78d6" />
+        </attvalues>
+      </node>
+      <node id="Puebla.Xiutetelco" label="Xiutetelco">
+        <attvalues>
+          <attvalue for="0" value="19.4745821" />
+          <attvalue for="1" value="-97.1935464" />
+          <attvalue for="2" value="234211469.371604" />
+          <attvalue for="3" value="1" />
+          <attvalue for="4" value="#eb6834" />
+        </attvalues>
+      </node>
+      <node id="Puebla.Yehualtepec" label="Yehualtepec">
+        <attvalues>
+          <attvalue for="0" value="18.4735848" />
+          <attvalue for="1" value="-97.3946331" />
+          <attvalue for="2" value="16414872.0852" />
+          <attvalue for="3" value="0" />
+          <attvalue for="4" value="#2a78d6" />
+        </attvalues>
+      </node>
+    </nodes>
+    <edges>
+      <edge source="Puebla.Acajete" target="Puebla.Ahuazotepec" id="0" weight="0.8753107077714936" />
+      <edge source="Puebla.Acajete" target="Puebla.Coronango" id="1" weight="0.7277826219484522" />
+      <edge source="Puebla.Acajete" target="Puebla.Hueytamalco" id="2" weight="0.8732870075045501" />
+      <edge source="Puebla.Acajete" target="Puebla.Nopalucan" id="3" weight="0.8752202910769582" />
+      <edge source="Puebla.Acajete" target="Puebla.Oriental" id="4" weight="0.8753107077714937" />
+      <edge source="Puebla.Acajete" target="Puebla.Palmar de Bravo" id="5" weight="0.8509407277764384" />
+      <edge source="Puebla.Acajete" target="Puebla.Rafael Lara Grajales" id="6" weight="0.8438301150366276" />
+      <edge source="Puebla.Acajete" target="Puebla.San Pedro Cholula" id="7" weight="0.8690338082090637" />
+      <edge source="Puebla.Acajete" target="Puebla.San Salvador Huixcolotla" id="8" weight="0.7920548888859835" />
+      <edge source="Puebla.Acajete" target="Puebla.San Salvador el Verde" id="9" weight="0.8758698876381112" />
+      <edge source="Puebla.Acajete" target="Puebla.Santiago Miahuatlán" id="10" weight="0.8736485227194664" />
+      <edge source="Puebla.Acajete" target="Puebla.Tecali de Herrera" id="11" weight="0.8753107077714937" />
+      <edge source="Puebla.Acajete" target="Puebla.Tepeaca" id="12" weight="0.8753107077714937" />
+      <edge source="Puebla.Acajete" target="Puebla.Tepeyahualco" id="13" weight="0.8753107077714937" />
+      <edge source="Puebla.Acajete" target="Puebla.Teziutlán" id="14" weight="0.7060883258905883" />
+      <edge source="Puebla.Acajete" target="Puebla.Tlahuapan" id="15" weight="0.7842460669497571" />
+      <edge source="Puebla.Acajete" target="Puebla.Xicotepec" id="16" weight="0.8753107077714936" />
+      <edge source="Puebla.Acajete" target="Puebla.Yehualtepec" id="17" weight="0.8736574519522959" />
+      <edge source="Puebla.Ahuazotepec" target="Puebla.Amozoc" id="18" weight="0.7425259757274656" />
+      <edge source="Puebla.Ahuazotepec" target="Puebla.Chietla" id="19" weight="0.707998288012035" />
+      <edge source="Puebla.Ahuazotepec" target="Puebla.Coronango" id="20" weight="0.8219392739936047" />
+      <edge source="Puebla.Ahuazotepec" target="Puebla.Cuautinchán" id="21" weight="0.7338370990441396" />
+      <edge source="Puebla.Ahuazotepec" target="Puebla.Hueytamalco" id="22" weight="0.9962315304750171" />
+      <edge source="Puebla.Ahuazotepec" target="Puebla.Nopalucan" id="23" weight="0.9977982960957525" />
+      <edge source="Puebla.Ahuazotepec" target="Puebla.Oriental" id="24" weight="1.0" />
+      <edge source="Puebla.Ahuazotepec" target="Puebla.Palmar de Bravo" id="25" weight="0.9626460753724138" />
+      <edge source="Puebla.Ahuazotepec" target="Puebla.Rafael Lara Grajales" id="26" weight="0.9590718260220955" />
+      <edge source="Puebla.Ahuazotepec" target="Puebla.San Andrés Cholula" id="27" weight="0.7726224130417635" />
+      <edge source="Puebla.Ahuazotepec" target="Puebla.San Miguel Xoxtla" id="28" weight="0.7700373826046215" />
+      <edge source="Puebla.Ahuazotepec" target="Puebla.San Pedro Cholula" id="29" weight="0.9865867557223574" />
+      <edge source="Puebla.Ahuazotepec" target="Puebla.San Salvador Huixcolotla" id="30" weight="0.9000089683937186" />
+      <edge source="Puebla.Ahuazotepec" target="Puebla.San Salvador el Verde" id="31" weight="0.9996735860015158" />
+      <edge source="Puebla.Ahuazotepec" target="Puebla.Santiago Miahuatlán" id="32" weight="0.9947854172101173" />
+      <edge source="Puebla.Ahuazotepec" target="Puebla.Tecali de Herrera" id="33" weight="1.0" />
+      <edge source="Puebla.Ahuazotepec" target="Puebla.Tehuacán" id="34" weight="0.7336170524334359" />
+      <edge source="Puebla.Ahuazotepec" target="Puebla.Tepeaca" id="35" weight="1.0" />
+      <edge source="Puebla.Ahuazotepec" target="Puebla.Tepeyahualco" id="36" weight="1.0" />
+      <edge source="Puebla.Ahuazotepec" target="Puebla.Teziutlán" id="37" weight="0.7950152887338962" />
+      <edge source="Puebla.Ahuazotepec" target="Puebla.Tlahuapan" id="38" weight="0.8906100766885735" />
+      <edge source="Puebla.Ahuazotepec" target="Puebla.Xicotepec" id="39" weight="1.0" />
+      <edge source="Puebla.Ahuazotepec" target="Puebla.Yehualtepec" id="40" weight="0.9977086318084561" />
+      <edge source="Puebla.Amozoc" target="Puebla.Chietla" id="41" weight="0.9129724332819663" />
+      <edge source="Puebla.Amozoc" target="Puebla.Coronango" id="42" weight="0.704835113850057" />
+      <edge source="Puebla.Amozoc" target="Puebla.Huauchinango" id="43" weight="0.7961501176107098" />
+      <edge source="Puebla.Amozoc" target="Puebla.Hueytamalco" id="44" weight="0.7606254556442202" />
+      <edge source="Puebla.Amozoc" target="Puebla.Nopalucan" id="45" weight="0.7571405515648083" />
+      <edge source="Puebla.Amozoc" target="Puebla.Oriental" id="46" weight="0.7425259757274657" />
+      <edge source="Puebla.Amozoc" target="Puebla.Palmar de Bravo" id="47" weight="0.7736297582155688" />
+      <edge source="Puebla.Amozoc" target="Puebla.Puebla" id="48" weight="0.7139138463167871" />
+      <edge source="Puebla.Amozoc" target="Puebla.Rafael Lara Grajales" id="49" weight="0.7703211578547156" />
+      <edge source="Puebla.Amozoc" target="Puebla.San Andrés Cholula" id="50" weight="0.8689868181635859" />
+      <edge source="Puebla.Amozoc" target="Puebla.San Martín Texmelucan" id="51" weight="0.8136545622574854" />
+      <edge source="Puebla.Amozoc" target="Puebla.San Pedro Cholula" id="52" weight="0.7648070815193801" />
+      <edge source="Puebla.Amozoc" target="Puebla.San Salvador Huixcolotla" id="53" weight="0.7515004786831786" />
+      <edge source="Puebla.Amozoc" target="Puebla.San Salvador el Verde" id="54" weight="0.7463207988367163" />
+      <edge source="Puebla.Amozoc" target="Puebla.Santiago Miahuatlán" id="55" weight="0.7585914786251674" />
+      <edge source="Puebla.Amozoc" target="Puebla.Tecali de Herrera" id="56" weight="0.7425259757274657" />
+      <edge source="Puebla.Amozoc" target="Puebla.Tehuacán" id="57" weight="0.7277897859882475" />
+      <edge source="Puebla.Amozoc" target="Puebla.Tepeaca" id="58" weight="0.7425259757274657" />
+      <edge source="Puebla.Amozoc" target="Puebla.Tepeyahualco" id="59" weight="0.7425259757274656" />
+      <edge source="Puebla.Amozoc" target="Puebla.Tlahuapan" id="60" weight="0.7556975962509889" />
+      <edge source="Puebla.Amozoc" target="Puebla.Xicotepec" id="61" weight="0.7425259757274656" />
+      <edge source="Puebla.Amozoc" target="Puebla.Yehualtepec" id="62" weight="0.7526357334416928" />
+      <edge source="Puebla.Atzala" target="Puebla.Chalchicomula de Sesma" id="63" weight="0.8138810298790731" />
+      <edge source="Puebla.Atzala" target="Puebla.Tepanco de López" id="64" weight="0.9252855068148536" />
+      <edge source="Puebla.Chalchicomula de Sesma" target="Puebla.Tepanco de López" id="65" weight="0.9226168966824556" />
+      <edge source="Puebla.Chietla" target="Puebla.Chignautla" id="66" weight="0.7234216739642687" />
+      <edge source="Puebla.Chietla" target="Puebla.Coronango" id="67" weight="0.7626594768468483" />
+      <edge source="Puebla.Chietla" target="Puebla.Cuautinchán" id="68" weight="0.7263313667027793" />
+      <edge source="Puebla.Chietla" target="Puebla.Huauchinango" id="69" weight="0.7548900522573889" />
+      <edge source="Puebla.Chietla" target="Puebla.Huejotzingo" id="70" weight="0.7851717692570285" />
+      <edge source="Puebla.Chietla" target="Puebla.Hueytamalco" id="71" weight="0.7339296222421264" />
+      <edge source="Puebla.Chietla" target="Puebla.Izúcar de Matamoros" id="72" weight="0.8049748585049556" />
+      <edge source="Puebla.Chietla" target="Puebla.Nopalucan" id="73" weight="0.7302918694294662" />
+      <edge source="Puebla.Chietla" target="Puebla.Oriental" id="74" weight="0.7079982880120349" />
+      <edge source="Puebla.Chietla" target="Puebla.Palmar de Bravo" id="75" weight="0.8056886445666623" />
+      <edge source="Puebla.Chietla" target="Puebla.Puebla" id="76" weight="0.8314930982473672" />
+      <edge source="Puebla.Chietla" target="Puebla.Rafael Lara Grajales" id="77" weight="0.7759028963576791" />
+      <edge source="Puebla.Chietla" target="Puebla.San Andrés Cholula" id="78" weight="0.8417436823137819" />
+      <edge source="Puebla.Chietla" target="Puebla.San Martín Texmelucan" id="79" weight="0.9177981102847517" />
+      <edge source="Puebla.Chietla" target="Puebla.San Miguel Xoxtla" id="80" weight="0.8270822579332475" />
+      <edge source="Puebla.Chietla" target="Puebla.San Pedro Cholula" id="81" weight="0.7718801400736734" />
+      <edge source="Puebla.Chietla" target="Puebla.San Salvador Huixcolotla" id="82" weight="0.7764091091251238" />
+      <edge source="Puebla.Chietla" target="Puebla.San Salvador el Verde" id="83" weight="0.7170945168008797" />
+      <edge source="Puebla.Chietla" target="Puebla.Santiago Miahuatlán" id="84" weight="0.7378913715168681" />
+      <edge source="Puebla.Chietla" target="Puebla.Tecali de Herrera" id="85" weight="0.7079982880120349" />
+      <edge source="Puebla.Chietla" target="Puebla.Tehuacán" id="86" weight="0.8985624369902292" />
+      <edge source="Puebla.Chietla" target="Puebla.Tepeaca" id="87" weight="0.707998288012035" />
+      <edge source="Puebla.Chietla" target="Puebla.Tepeyahualco" id="88" weight="0.7079982880120349" />
+      <edge source="Puebla.Chietla" target="Puebla.Teziutlán" id="89" weight="0.7815122271028302" />
+      <edge source="Puebla.Chietla" target="Puebla.Tlahuapan" id="90" weight="0.7740174750097345" />
+      <edge source="Puebla.Chietla" target="Puebla.Xicotepec" id="91" weight="0.7079982880120349" />
+      <edge source="Puebla.Chietla" target="Puebla.Yehualtepec" id="92" weight="0.7174703440992973" />
+      <edge source="Puebla.Chignautla" target="Puebla.Izúcar de Matamoros" id="93" weight="0.7425040317140312" />
+      <edge source="Puebla.Chignautla" target="Puebla.San Martín Texmelucan" id="94" weight="0.7253347180178152" />
+      <edge source="Puebla.Chignautla" target="Puebla.Tehuacán" id="95" weight="0.7748384435617426" />
+      <edge source="Puebla.Chignautla" target="Puebla.Xiutetelco" id="96" weight="0.965697050692964" />
+      <edge source="Puebla.Coronango" target="Puebla.Cuautinchán" id="97" weight="0.7229773539225137" />
+      <edge source="Puebla.Coronango" target="Puebla.Huejotzingo" id="98" weight="0.7742686861166777" />
+      <edge source="Puebla.Coronango" target="Puebla.Hueytamalco" id="99" weight="0.8365164491149777" />
+      <edge source="Puebla.Coronango" target="Puebla.Izúcar de Matamoros" id="100" weight="0.7137420958193688" />
+      <edge source="Puebla.Coronango" target="Puebla.Nopalucan" id="101" weight="0.8273829414233325" />
+      <edge source="Puebla.Coronango" target="Puebla.Oriental" id="102" weight="0.8219392739936046" />
+      <edge source="Puebla.Coronango" target="Puebla.Palmar de Bravo" id="103" weight="0.8303024195484671" />
+      <edge source="Puebla.Coronango" target="Puebla.Rafael Lara Grajales" id="104" weight="0.9293712875016672" />
+      <edge source="Puebla.Coronango" target="Puebla.San Andrés Cholula" id="105" weight="0.761713050193909" />
+      <edge source="Puebla.Coronango" target="Puebla.San José Chiapa" id="106" weight="0.7413321448945559" />
+      <edge source="Puebla.Coronango" target="Puebla.San Martín Texmelucan" id="107" weight="0.7009305260702717" />
+      <edge source="Puebla.Coronango" target="Puebla.San Miguel Xoxtla" id="108" weight="0.8002192157685388" />
+      <edge source="Puebla.Coronango" target="Puebla.San Pedro Cholula" id="109" weight="0.8334258875337758" />
+      <edge source="Puebla.Coronango" target="Puebla.San Salvador Huixcolotla" id="110" weight="0.9344598568949606" />
+      <edge source="Puebla.Coronango" target="Puebla.San Salvador el Verde" id="111" weight="0.8232004770125829" />
+      <edge source="Puebla.Coronango" target="Puebla.Santiago Miahuatlán" id="112" weight="0.8244323286252564" />
+      <edge source="Puebla.Coronango" target="Puebla.Tecali de Herrera" id="113" weight="0.8219392739936048" />
+      <edge source="Puebla.Coronango" target="Puebla.Tehuacán" id="114" weight="0.8394328350855139" />
+      <edge source="Puebla.Coronango" target="Puebla.Tepeaca" id="115" weight="0.8219392739936048" />
+      <edge source="Puebla.Coronango" target="Puebla.Tepeyahualco" id="116" weight="0.8219392739936047" />
+      <edge source="Puebla.Coronango" target="Puebla.Teziutlán" id="117" weight="0.7801702472047268" />
+      <edge source="Puebla.Coronango" target="Puebla.Tlahuapan" id="118" weight="0.9414171463991967" />
+      <edge source="Puebla.Coronango" target="Puebla.Xicotepec" id="119" weight="0.8219392739936046" />
+      <edge source="Puebla.Coronango" target="Puebla.Yehualtepec" id="120" weight="0.828486057614769" />
+      <edge source="Puebla.Cuautinchán" target="Puebla.Cuautlancingo" id="121" weight="0.7391748070669789" />
+      <edge source="Puebla.Cuautinchán" target="Puebla.Huauchinango" id="122" weight="0.7043404384735544" />
+      <edge source="Puebla.Cuautinchán" target="Puebla.Huejotzingo" id="123" weight="0.7085495273517538" />
+      <edge source="Puebla.Cuautinchán" target="Puebla.Hueytamalco" id="124" weight="0.7444321695003955" />
+      <edge source="Puebla.Cuautinchán" target="Puebla.Nopalucan" id="125" weight="0.7347160796365457" />
+      <edge source="Puebla.Cuautinchán" target="Puebla.Oriental" id="126" weight="0.7338370990441396" />
+      <edge source="Puebla.Cuautinchán" target="Puebla.Palmar de Bravo" id="127" weight="0.7962183122365475" />
+      <edge source="Puebla.Cuautinchán" target="Puebla.Puebla" id="128" weight="0.7075254247788278" />
+      <edge source="Puebla.Cuautinchán" target="Puebla.Rafael Lara Grajales" id="129" weight="0.7602364981497618" />
+      <edge source="Puebla.Cuautinchán" target="Puebla.San Miguel Xoxtla" id="130" weight="0.8646227998690226" />
+      <edge source="Puebla.Cuautinchán" target="Puebla.San Pedro Cholula" id="131" weight="0.7773386595043843" />
+      <edge source="Puebla.Cuautinchán" target="Puebla.San Salvador Huixcolotla" id="132" weight="0.7313801475452869" />
+      <edge source="Puebla.Cuautinchán" target="Puebla.San Salvador el Verde" id="133" weight="0.7385524678331319" />
+      <edge source="Puebla.Cuautinchán" target="Puebla.Santiago Miahuatlán" id="134" weight="0.7401129784651735" />
+      <edge source="Puebla.Cuautinchán" target="Puebla.Tecali de Herrera" id="135" weight="0.7338370990441396" />
+      <edge source="Puebla.Cuautinchán" target="Puebla.Tehuacán" id="136" weight="0.7493828857822903" />
+      <edge source="Puebla.Cuautinchán" target="Puebla.Tepeaca" id="137" weight="0.7338370990441395" />
+      <edge source="Puebla.Cuautinchán" target="Puebla.Tepeyahualco" id="138" weight="0.7338370990441395" />
+      <edge source="Puebla.Cuautinchán" target="Puebla.Teziutlán" id="139" weight="0.768827113399623" />
+      <edge source="Puebla.Cuautinchán" target="Puebla.Tlahuapan" id="140" weight="0.7309773815721305" />
+      <edge source="Puebla.Cuautinchán" target="Puebla.Xicotepec" id="141" weight="0.7338370990441396" />
+      <edge source="Puebla.Cuautinchán" target="Puebla.Yehualtepec" id="142" weight="0.732155608057615" />
+      <edge source="Puebla.Cuautlancingo" target="Puebla.Huejotzingo" id="143" weight="0.740149722217951" />
+      <edge source="Puebla.Cuautlancingo" target="Puebla.Puebla" id="144" weight="0.8032128785343512" />
+      <edge source="Puebla.Cuautlancingo" target="Puebla.San Martín Texmelucan" id="145" weight="0.7186517722376272" />
+      <edge source="Puebla.Cuautlancingo" target="Puebla.San Miguel Xoxtla" id="146" weight="0.7605153816823923" />
+      <edge source="Puebla.Cuautlancingo" target="Puebla.Tehuacán" id="147" weight="0.7334537824627058" />
+      <edge source="Puebla.Huauchinango" target="Puebla.Hueytamalco" id="148" weight="0.7020906447527795" />
+      <edge source="Puebla.Huauchinango" target="Puebla.Nopalucan" id="149" weight="0.7015670991380067" />
+      <edge source="Puebla.Huauchinango" target="Puebla.Palmar de Bravo" id="150" weight="0.7217538718589964" />
+      <edge source="Puebla.Huauchinango" target="Puebla.Puebla" id="151" weight="0.7090213210481752" />
+      <edge source="Puebla.Huauchinango" target="Puebla.San Andrés Cholula" id="152" weight="0.787451139103799" />
+      <edge source="Puebla.Huauchinango" target="Puebla.San Pedro Cholula" id="153" weight="0.7174153733230381" />
+      <edge source="Puebla.Huauchinango" target="Puebla.Santiago Miahuatlán" id="154" weight="0.7111284697532747" />
+      <edge source="Puebla.Huejotzingo" target="Puebla.Hueytamalco" id="155" weight="0.713536954792318" />
+      <edge source="Puebla.Huejotzingo" target="Puebla.Izúcar de Matamoros" id="156" weight="0.7252113623678124" />
+      <edge source="Puebla.Huejotzingo" target="Puebla.Nopalucan" id="157" weight="0.7018172585905833" />
+      <edge source="Puebla.Huejotzingo" target="Puebla.Palmar de Bravo" id="158" weight="0.7561501160067037" />
+      <edge source="Puebla.Huejotzingo" target="Puebla.Puebla" id="159" weight="0.7914791335059305" />
+      <edge source="Puebla.Huejotzingo" target="Puebla.Rafael Lara Grajales" id="160" weight="0.7641977408858854" />
+      <edge source="Puebla.Huejotzingo" target="Puebla.San Andrés Cholula" id="161" weight="0.7569187782556037" />
+      <edge source="Puebla.Huejotzingo" target="Puebla.San José Chiapa" id="162" weight="0.7023109080487908" />
+      <edge source="Puebla.Huejotzingo" target="Puebla.San Martín Texmelucan" id="163" weight="0.8229307983320002" />
+      <edge source="Puebla.Huejotzingo" target="Puebla.San Miguel Xoxtla" id="164" weight="0.8548072170117932" />
+      <edge source="Puebla.Huejotzingo" target="Puebla.San Pedro Cholula" id="165" weight="0.7285558551467936" />
+      <edge source="Puebla.Huejotzingo" target="Puebla.San Salvador Huixcolotla" id="166" weight="0.8027764576290322" />
+      <edge source="Puebla.Huejotzingo" target="Puebla.Santiago Miahuatlán" id="167" weight="0.703573250359578" />
+      <edge source="Puebla.Huejotzingo" target="Puebla.Tehuacán" id="168" weight="0.8667320846360116" />
+      <edge source="Puebla.Huejotzingo" target="Puebla.Teziutlán" id="169" weight="0.8364994854443601" />
+      <edge source="Puebla.Huejotzingo" target="Puebla.Tlahuapan" id="170" weight="0.7999659639239112" />
+      <edge source="Puebla.Hueytamalco" target="Puebla.Izúcar de Matamoros" id="171" weight="0.7002727148898976" />
+      <edge source="Puebla.Hueytamalco" target="Puebla.Nopalucan" id="172" weight="0.9973733329075308" />
+      <edge source="Puebla.Hueytamalco" target="Puebla.Oriental" id="173" weight="0.9962315304750172" />
+      <edge source="Puebla.Hueytamalco" target="Puebla.Palmar de Bravo" id="174" weight="0.9717234182243154" />
+      <edge source="Puebla.Hueytamalco" target="Puebla.Rafael Lara Grajales" id="175" weight="0.969210098138929" />
+      <edge source="Puebla.Hueytamalco" target="Puebla.San Andrés Cholula" id="176" weight="0.7906297248269547" />
+      <edge source="Puebla.Hueytamalco" target="Puebla.San Miguel Xoxtla" id="177" weight="0.7965819866635002" />
+      <edge source="Puebla.Hueytamalco" target="Puebla.San Pedro Cholula" id="178" weight="0.9882164881542371" />
+      <edge source="Puebla.Hueytamalco" target="Puebla.San Salvador Huixcolotla" id="179" weight="0.9227589390766546" />
+      <edge source="Puebla.Hueytamalco" target="Puebla.San Salvador el Verde" id="180" weight="0.9963680007046171" />
+      <edge source="Puebla.Hueytamalco" target="Puebla.Santiago Miahuatlán" id="181" weight="0.9932009600278553" />
+      <edge source="Puebla.Hueytamalco" target="Puebla.Tecali de Herrera" id="182" weight="0.9962315304750172" />
+      <edge source="Puebla.Hueytamalco" target="Puebla.Tehuacán" id="183" weight="0.7716712518681066" />
+      <edge source="Puebla.Hueytamalco" target="Puebla.Tepeaca" id="184" weight="0.9962315304750173" />
+      <edge source="Puebla.Hueytamalco" target="Puebla.Tepeyahualco" id="185" weight="0.9962315304750171" />
+      <edge source="Puebla.Hueytamalco" target="Puebla.Teziutlán" id="186" weight="0.8091516354177489" />
+      <edge source="Puebla.Hueytamalco" target="Puebla.Tlahuapan" id="187" weight="0.9177337023811661" />
+      <edge source="Puebla.Hueytamalco" target="Puebla.Xicotepec" id="188" weight="0.9962315304750172" />
+      <edge source="Puebla.Hueytamalco" target="Puebla.Yehualtepec" id="189" weight="0.9985695026043404" />
+      <edge source="Puebla.Izúcar de Matamoros" target="Puebla.Nopalucan" id="190" weight="0.705952763434913" />
+      <edge source="Puebla.Izúcar de Matamoros" target="Puebla.Palmar de Bravo" id="191" weight="0.7606722722587134" />
+      <edge source="Puebla.Izúcar de Matamoros" target="Puebla.Rafael Lara Grajales" id="192" weight="0.7297933039484552" />
+      <edge source="Puebla.Izúcar de Matamoros" target="Puebla.San Martín Texmelucan" id="193" weight="0.7962206565822577" />
+      <edge source="Puebla.Izúcar de Matamoros" target="Puebla.San Miguel Xoxtla" id="194" weight="0.7598952048381181" />
+      <edge source="Puebla.Izúcar de Matamoros" target="Puebla.San Pedro Cholula" id="195" weight="0.7412049763351793" />
+      <edge source="Puebla.Izúcar de Matamoros" target="Puebla.San Salvador Huixcolotla" id="196" weight="0.7129251772336038" />
+      <edge source="Puebla.Izúcar de Matamoros" target="Puebla.Santiago Miahuatlán" id="197" weight="0.722605528140688" />
+      <edge source="Puebla.Izúcar de Matamoros" target="Puebla.Tehuacán" id="198" weight="0.8503467405020074" />
+      <edge source="Puebla.Izúcar de Matamoros" target="Puebla.Teziutlán" id="199" weight="0.7253438665504873" />
+      <edge source="Puebla.Izúcar de Matamoros" target="Puebla.Tlahuapan" id="200" weight="0.7181071644315409" />
+      <edge source="Puebla.Nopalucan" target="Puebla.Oriental" id="201" weight="0.9977982960957525" />
+      <edge source="Puebla.Nopalucan" target="Puebla.Palmar de Bravo" id="202" weight="0.9684603144710351" />
+      <edge source="Puebla.Nopalucan" target="Puebla.Rafael Lara Grajales" id="203" weight="0.9638323290280727" />
+      <edge source="Puebla.Nopalucan" target="Puebla.San Andrés Cholula" id="204" weight="0.7831605012751862" />
+      <edge source="Puebla.Nopalucan" target="Puebla.San Miguel Xoxtla" id="205" weight="0.7831244674465904" />
+      <edge source="Puebla.Nopalucan" target="Puebla.San Pedro Cholula" id="206" weight="0.9893294140421399" />
+      <edge source="Puebla.Nopalucan" target="Puebla.San Salvador Huixcolotla" id="207" weight="0.9067552105155336" />
+      <edge source="Puebla.Nopalucan" target="Puebla.San Salvador el Verde" id="208" weight="0.9984132801300583" />
+      <edge source="Puebla.Nopalucan" target="Puebla.Santiago Miahuatlán" id="209" weight="0.9982405448150031" />
+      <edge source="Puebla.Nopalucan" target="Puebla.Tecali de Herrera" id="210" weight="0.9977982960957527" />
+      <edge source="Puebla.Nopalucan" target="Puebla.Tehuacán" id="211" weight="0.7605153220745592" />
+      <edge source="Puebla.Nopalucan" target="Puebla.Tepeaca" id="212" weight="0.9977982960957527" />
+      <edge source="Puebla.Nopalucan" target="Puebla.Tepeyahualco" id="213" weight="0.9977982960957525" />
+      <edge source="Puebla.Nopalucan" target="Puebla.Teziutlán" id="214" weight="0.8060230658463532" />
+      <edge source="Puebla.Nopalucan" target="Puebla.Tlahuapan" id="215" weight="0.8989348654549336" />
+      <edge source="Puebla.Nopalucan" target="Puebla.Xicotepec" id="216" weight="0.9977982960957527" />
+      <edge source="Puebla.Nopalucan" target="Puebla.Yehualtepec" id="217" weight="0.9981539619766667" />
+      <edge source="Puebla.Oriental" target="Puebla.Palmar de Bravo" id="218" weight="0.9626460753724138" />
+      <edge source="Puebla.Oriental" target="Puebla.Rafael Lara Grajales" id="219" weight="0.9590718260220955" />
+      <edge source="Puebla.Oriental" target="Puebla.San Andrés Cholula" id="220" weight="0.7726224130417634" />
+      <edge source="Puebla.Oriental" target="Puebla.San Miguel Xoxtla" id="221" weight="0.7700373826046216" />
+      <edge source="Puebla.Oriental" target="Puebla.San Pedro Cholula" id="222" weight="0.9865867557223573" />
+      <edge source="Puebla.Oriental" target="Puebla.San Salvador Huixcolotla" id="223" weight="0.9000089683937186" />
+      <edge source="Puebla.Oriental" target="Puebla.San Salvador el Verde" id="224" weight="0.9996735860015157" />
+      <edge source="Puebla.Oriental" target="Puebla.Santiago Miahuatlán" id="225" weight="0.994785417210117" />
+      <edge source="Puebla.Oriental" target="Puebla.Tecali de Herrera" id="226" weight="1.0" />
+      <edge source="Puebla.Oriental" target="Puebla.Tehuacán" id="227" weight="0.733617052433436" />
+      <edge source="Puebla.Oriental" target="Puebla.Tepeaca" id="228" weight="1.0" />
+      <edge source="Puebla.Oriental" target="Puebla.Tepeyahualco" id="229" weight="1.0" />
+      <edge source="Puebla.Oriental" target="Puebla.Teziutlán" id="230" weight="0.7950152887338962" />
+      <edge source="Puebla.Oriental" target="Puebla.Tlahuapan" id="231" weight="0.8906100766885735" />
+      <edge source="Puebla.Oriental" target="Puebla.Xicotepec" id="232" weight="1.0" />
+      <edge source="Puebla.Oriental" target="Puebla.Yehualtepec" id="233" weight="0.9977086318084561" />
+      <edge source="Puebla.Palmar de Bravo" target="Puebla.Rafael Lara Grajales" id="234" weight="0.9548043193930017" />
+      <edge source="Puebla.Palmar de Bravo" target="Puebla.San Andrés Cholula" id="235" weight="0.7939897899174013" />
+      <edge source="Puebla.Palmar de Bravo" target="Puebla.San Martín Texmelucan" id="236" weight="0.7181518688836461" />
+      <edge source="Puebla.Palmar de Bravo" target="Puebla.San Miguel Xoxtla" id="237" weight="0.8597339803949356" />
+      <edge source="Puebla.Palmar de Bravo" target="Puebla.San Pedro Cholula" id="238" weight="0.9904877005270687" />
+      <edge source="Puebla.Palmar de Bravo" target="Puebla.San Salvador Huixcolotla" id="239" weight="0.8977931595745542" />
+      <edge source="Puebla.Palmar de Bravo" target="Puebla.San Salvador el Verde" id="240" weight="0.966933214021466" />
+      <edge source="Puebla.Palmar de Bravo" target="Puebla.Santiago Miahuatlán" id="241" weight="0.9684410011968397" />
+      <edge source="Puebla.Palmar de Bravo" target="Puebla.Tecali de Herrera" id="242" weight="0.9626460753724136" />
+      <edge source="Puebla.Palmar de Bravo" target="Puebla.Tehuacán" id="243" weight="0.8388991940735454" />
+      <edge source="Puebla.Palmar de Bravo" target="Puebla.Tepeaca" id="244" weight="0.9626460753724138" />
+      <edge source="Puebla.Palmar de Bravo" target="Puebla.Tepeyahualco" id="245" weight="0.9626460753724136" />
+      <edge source="Puebla.Palmar de Bravo" target="Puebla.Teziutlán" id="246" weight="0.8222748047732159" />
+      <edge source="Puebla.Palmar de Bravo" target="Puebla.Tlahuapan" id="247" weight="0.8935807562220069" />
+      <edge source="Puebla.Palmar de Bravo" target="Puebla.Xicotepec" id="248" weight="0.9626460753724136" />
+      <edge source="Puebla.Palmar de Bravo" target="Puebla.Yehualtepec" id="249" weight="0.9641459493648588" />
+      <edge source="Puebla.Puebla" target="Puebla.San Andrés Cholula" id="250" weight="0.7790278262363808" />
+      <edge source="Puebla.Puebla" target="Puebla.San Martín Texmelucan" id="251" weight="0.8740229386281918" />
+      <edge source="Puebla.Puebla" target="Puebla.San Miguel Xoxtla" id="252" weight="0.7902417567218694" />
+      <edge source="Puebla.Puebla" target="Puebla.Tehuacán" id="253" weight="0.7852085069263668" />
+      <edge source="Puebla.Rafael Lara Grajales" target="Puebla.San Andrés Cholula" id="254" weight="0.808704618766515" />
+      <edge source="Puebla.Rafael Lara Grajales" target="Puebla.San José Chiapa" id="255" weight="0.7145654614314816" />
+      <edge source="Puebla.Rafael Lara Grajales" target="Puebla.San Martín Texmelucan" id="256" weight="0.7002930420484405" />
+      <edge source="Puebla.Rafael Lara Grajales" target="Puebla.San Miguel Xoxtla" id="257" weight="0.8344867504182445" />
+      <edge source="Puebla.Rafael Lara Grajales" target="Puebla.San Pedro Cholula" id="258" weight="0.9600590416742006" />
+      <edge source="Puebla.Rafael Lara Grajales" target="Puebla.San Salvador Huixcolotla" id="259" weight="0.9594439859688875" />
+      <edge source="Puebla.Rafael Lara Grajales" target="Puebla.San Salvador el Verde" id="260" weight="0.9590556000524025" />
+      <edge source="Puebla.Rafael Lara Grajales" target="Puebla.Santiago Miahuatlán" id="261" weight="0.9578037911474706" />
+      <edge source="Puebla.Rafael Lara Grajales" target="Puebla.Tecali de Herrera" id="262" weight="0.9590718260220955" />
+      <edge source="Puebla.Rafael Lara Grajales" target="Puebla.Tehuacán" id="263" weight="0.83172653912016" />
+      <edge source="Puebla.Rafael Lara Grajales" target="Puebla.Tepeaca" id="264" weight="0.9590718260220956" />
+      <edge source="Puebla.Rafael Lara Grajales" target="Puebla.Tepeyahualco" id="265" weight="0.9590718260220956" />
+      <edge source="Puebla.Rafael Lara Grajales" target="Puebla.Teziutlán" id="266" weight="0.8235413629827557" />
+      <edge source="Puebla.Rafael Lara Grajales" target="Puebla.Tlahuapan" id="267" weight="0.9597363763868986" />
+      <edge source="Puebla.Rafael Lara Grajales" target="Puebla.Xicotepec" id="268" weight="0.9590718260220955" />
+      <edge source="Puebla.Rafael Lara Grajales" target="Puebla.Yehualtepec" id="269" weight="0.9672578573788454" />
+      <edge source="Puebla.San Andrés Cholula" target="Puebla.San Martín Texmelucan" id="270" weight="0.8054522711410079" />
+      <edge source="Puebla.San Andrés Cholula" target="Puebla.San Miguel Xoxtla" id="271" weight="0.7317338994048348" />
+      <edge source="Puebla.San Andrés Cholula" target="Puebla.San Pedro Cholula" id="272" weight="0.789274472098247" />
+      <edge source="Puebla.San Andrés Cholula" target="Puebla.San Salvador Huixcolotla" id="273" weight="0.8100970030684788" />
+      <edge source="Puebla.San Andrés Cholula" target="Puebla.San Salvador el Verde" id="274" weight="0.7755828212552719" />
+      <edge source="Puebla.San Andrés Cholula" target="Puebla.Santiago Miahuatlán" id="275" weight="0.7806394569902562" />
+      <edge source="Puebla.San Andrés Cholula" target="Puebla.Tecali de Herrera" id="276" weight="0.7726224130417634" />
+      <edge source="Puebla.San Andrés Cholula" target="Puebla.Tehuacán" id="277" weight="0.7676859531074428" />
+      <edge source="Puebla.San Andrés Cholula" target="Puebla.Tepeaca" id="278" weight="0.7726224130417634" />
+      <edge source="Puebla.San Andrés Cholula" target="Puebla.Tepeyahualco" id="279" weight="0.7726224130417635" />
+      <edge source="Puebla.San Andrés Cholula" target="Puebla.Teziutlán" id="280" weight="0.7288267674446883" />
+      <edge source="Puebla.San Andrés Cholula" target="Puebla.Tlahuapan" id="281" weight="0.8088274752870952" />
+      <edge source="Puebla.San Andrés Cholula" target="Puebla.Xicotepec" id="282" weight="0.7726224130417634" />
+      <edge source="Puebla.San Andrés Cholula" target="Puebla.Yehualtepec" id="283" weight="0.7824480402890476" />
+      <edge source="Puebla.San José Chiapa" target="Puebla.San Miguel Xoxtla" id="284" weight="0.7486366643172153" />
+      <edge source="Puebla.San José Chiapa" target="Puebla.San Salvador Huixcolotla" id="285" weight="0.7539932714053901" />
+      <edge source="Puebla.San José Chiapa" target="Puebla.Teziutlán" id="286" weight="0.7103094890869851" />
+      <edge source="Puebla.San José Chiapa" target="Puebla.Tlahuapan" id="287" weight="0.7511280412684701" />
+      <edge source="Puebla.San Martín Texmelucan" target="Puebla.San Miguel Xoxtla" id="288" weight="0.7815155630852152" />
+      <edge source="Puebla.San Martín Texmelucan" target="Puebla.San Salvador Huixcolotla" id="289" weight="0.7315525696849019" />
+      <edge source="Puebla.San Martín Texmelucan" target="Puebla.Tehuacán" id="290" weight="0.8666725540169167" />
+      <edge source="Puebla.San Martín Texmelucan" target="Puebla.Teziutlán" id="291" weight="0.7631151348858911" />
+      <edge source="Puebla.San Martín Texmelucan" target="Puebla.Tlahuapan" id="292" weight="0.726347252409567" />
+      <edge source="Puebla.San Miguel Xoxtla" target="Puebla.San Pedro Cholula" id="293" weight="0.8225429368113178" />
+      <edge source="Puebla.San Miguel Xoxtla" target="Puebla.San Salvador Huixcolotla" id="294" weight="0.8365542170549236" />
+      <edge source="Puebla.San Miguel Xoxtla" target="Puebla.San Salvador el Verde" id="295" weight="0.7760133908885801" />
+      <edge source="Puebla.San Miguel Xoxtla" target="Puebla.Santiago Miahuatlán" id="296" weight="0.7834596955270864" />
+      <edge source="Puebla.San Miguel Xoxtla" target="Puebla.Tecali de Herrera" id="297" weight="0.7700373826046215" />
+      <edge source="Puebla.San Miguel Xoxtla" target="Puebla.Tehuacán" id="298" weight="0.8886976948487495" />
+      <edge source="Puebla.San Miguel Xoxtla" target="Puebla.Tepeaca" id="299" weight="0.7700373826046215" />
+      <edge source="Puebla.San Miguel Xoxtla" target="Puebla.Tepeyahualco" id="300" weight="0.7700373826046215" />
+      <edge source="Puebla.San Miguel Xoxtla" target="Puebla.Teziutlán" id="301" weight="0.8744948942176134" />
+      <edge source="Puebla.San Miguel Xoxtla" target="Puebla.Tlahuapan" id="302" weight="0.8367255635636474" />
+      <edge source="Puebla.San Miguel Xoxtla" target="Puebla.Xicotepec" id="303" weight="0.7700373826046216" />
+      <edge source="Puebla.San Miguel Xoxtla" target="Puebla.Yehualtepec" id="304" weight="0.7792817955308285" />
+      <edge source="Puebla.San Pedro Cholula" target="Puebla.San Salvador Huixcolotla" id="305" weight="0.8992160125171302" />
+      <edge source="Puebla.San Pedro Cholula" target="Puebla.San Salvador el Verde" id="306" weight="0.9897897125448453" />
+      <edge source="Puebla.San Pedro Cholula" target="Puebla.Santiago Miahuatlán" id="307" weight="0.9890212332491772" />
+      <edge source="Puebla.San Pedro Cholula" target="Puebla.Tecali de Herrera" id="308" weight="0.9865867557223574" />
+      <edge source="Puebla.San Pedro Cholula" target="Puebla.Tehuacán" id="309" weight="0.7998316842086886" />
+      <edge source="Puebla.San Pedro Cholula" target="Puebla.Tepeaca" id="310" weight="0.9865867557223575" />
+      <edge source="Puebla.San Pedro Cholula" target="Puebla.Tepeyahualco" id="311" weight="0.9865867557223575" />
+      <edge source="Puebla.San Pedro Cholula" target="Puebla.Teziutlán" id="312" weight="0.8214441616894197" />
+      <edge source="Puebla.San Pedro Cholula" target="Puebla.Tlahuapan" id="313" weight="0.8913582089658006" />
+      <edge source="Puebla.San Pedro Cholula" target="Puebla.Xicotepec" id="314" weight="0.9865867557223575" />
+      <edge source="Puebla.San Pedro Cholula" target="Puebla.Yehualtepec" id="315" weight="0.9856471021926506" />
+      <edge source="Puebla.San Salvador Huixcolotla" target="Puebla.San Salvador el Verde" id="316" weight="0.8997151928676737" />
+      <edge source="Puebla.San Salvador Huixcolotla" target="Puebla.Santiago Miahuatlán" id="317" weight="0.899301652882443" />
+      <edge source="Puebla.San Salvador Huixcolotla" target="Puebla.Tecali de Herrera" id="318" weight="0.9000089683937185" />
+      <edge source="Puebla.San Salvador Huixcolotla" target="Puebla.Tehuacán" id="319" weight="0.8765022102853433" />
+      <edge source="Puebla.San Salvador Huixcolotla" target="Puebla.Tepeaca" id="320" weight="0.9000089683937186" />
+      <edge source="Puebla.San Salvador Huixcolotla" target="Puebla.Tepeyahualco" id="321" weight="0.9000089683937186" />
+      <edge source="Puebla.San Salvador Huixcolotla" target="Puebla.Teziutlán" id="322" weight="0.8766721449229449" />
+      <edge source="Puebla.San Salvador Huixcolotla" target="Puebla.Tlahuapan" id="323" weight="0.994202547861071" />
+      <edge source="Puebla.San Salvador Huixcolotla" target="Puebla.Xicotepec" id="324" weight="0.9000089683937186" />
+      <edge source="Puebla.San Salvador Huixcolotla" target="Puebla.Yehualtepec" id="325" weight="0.9130684141421956" />
+      <edge source="Puebla.San Salvador el Verde" target="Puebla.Santiago Miahuatlán" id="326" weight="0.9959455494334633" />
+      <edge source="Puebla.San Salvador el Verde" target="Puebla.Tecali de Herrera" id="327" weight="0.9996735860015158" />
+      <edge source="Puebla.San Salvador el Verde" target="Puebla.Tehuacán" id="328" weight="0.7427283642866523" />
+      <edge source="Puebla.San Salvador el Verde" target="Puebla.Tepeaca" id="329" weight="0.9996735860015158" />
+      <edge source="Puebla.San Salvador el Verde" target="Puebla.Tepeyahualco" id="330" weight="0.9996735860015158" />
+      <edge source="Puebla.San Salvador el Verde" target="Puebla.Teziutlán" id="331" weight="0.7996402450676123" />
+      <edge source="Puebla.San Salvador el Verde" target="Puebla.Tlahuapan" id="332" weight="0.8903193690923514" />
+      <edge source="Puebla.San Salvador el Verde" target="Puebla.Xicotepec" id="333" weight="0.9996735860015159" />
+      <edge source="Puebla.San Salvador el Verde" target="Puebla.Yehualtepec" id="334" weight="0.9973829657446254" />
+      <edge source="Puebla.Santiago Miahuatlán" target="Puebla.Tecali de Herrera" id="335" weight="0.9947854172101173" />
+      <edge source="Puebla.Santiago Miahuatlán" target="Puebla.Tehuacán" id="336" weight="0.7645946540961897" />
+      <edge source="Puebla.Santiago Miahuatlán" target="Puebla.Tepeaca" id="337" weight="0.9947854172101172" />
+      <edge source="Puebla.Santiago Miahuatlán" target="Puebla.Tepeyahualco" id="338" weight="0.9947854172101172" />
+      <edge source="Puebla.Santiago Miahuatlán" target="Puebla.Teziutlán" id="339" weight="0.8066665269054545" />
+      <edge source="Puebla.Santiago Miahuatlán" target="Puebla.Tlahuapan" id="340" weight="0.8905908224584326" />
+      <edge source="Puebla.Santiago Miahuatlán" target="Puebla.Xicotepec" id="341" weight="0.9947854172101173" />
+      <edge source="Puebla.Santiago Miahuatlán" target="Puebla.Yehualtepec" id="342" weight="0.9934046985909687" />
+      <edge source="Puebla.Tecali de Herrera" target="Puebla.Tehuacán" id="343" weight="0.7336170524334359" />
+      <edge source="Puebla.Tecali de Herrera" target="Puebla.Tepeaca" id="344" weight="1.0" />
+      <edge source="Puebla.Tecali de Herrera" target="Puebla.Tepeyahualco" id="345" weight="1.0" />
+      <edge source="Puebla.Tecali de Herrera" target="Puebla.Teziutlán" id="346" weight="0.7950152887338962" />
+      <edge source="Puebla.Tecali de Herrera" target="Puebla.Tlahuapan" id="347" weight="0.8906100766885735" />
+      <edge source="Puebla.Tecali de Herrera" target="Puebla.Xicotepec" id="348" weight="1.0" />
+      <edge source="Puebla.Tecali de Herrera" target="Puebla.Yehualtepec" id="349" weight="0.9977086318084563" />
+      <edge source="Puebla.Tehuacán" target="Puebla.Tepeaca" id="350" weight="0.7336170524334359" />
+      <edge source="Puebla.Tehuacán" target="Puebla.Tepeyahualco" id="351" weight="0.7336170524334359" />
+      <edge source="Puebla.Tehuacán" target="Puebla.Teziutlán" id="352" weight="0.8689842933995213" />
+      <edge source="Puebla.Tehuacán" target="Puebla.Tlahuapan" id="353" weight="0.8736196902613963" />
+      <edge source="Puebla.Tehuacán" target="Puebla.Xicotepec" id="354" weight="0.7336170524334359" />
+      <edge source="Puebla.Tehuacán" target="Puebla.Xiutetelco" id="355" weight="0.739467092310372" />
+      <edge source="Puebla.Tehuacán" target="Puebla.Yehualtepec" id="356" weight="0.7517256020877435" />
+      <edge source="Puebla.Tepeaca" target="Puebla.Tepeyahualco" id="357" weight="1.0" />
+      <edge source="Puebla.Tepeaca" target="Puebla.Teziutlán" id="358" weight="0.7950152887338963" />
+      <edge source="Puebla.Tepeaca" target="Puebla.Tlahuapan" id="359" weight="0.8906100766885734" />
+      <edge source="Puebla.Tepeaca" target="Puebla.Xicotepec" id="360" weight="1.0" />
+      <edge source="Puebla.Tepeaca" target="Puebla.Yehualtepec" id="361" weight="0.997708631808456" />
+      <edge source="Puebla.Tepeyahualco" target="Puebla.Teziutlán" id="362" weight="0.7950152887338963" />
+      <edge source="Puebla.Tepeyahualco" target="Puebla.Tlahuapan" id="363" weight="0.8906100766885735" />
+      <edge source="Puebla.Tepeyahualco" target="Puebla.Xicotepec" id="364" weight="1.0" />
+      <edge source="Puebla.Tepeyahualco" target="Puebla.Yehualtepec" id="365" weight="0.9977086318084563" />
+      <edge source="Puebla.Teziutlán" target="Puebla.Tlahuapan" id="366" weight="0.8381837627279397" />
+      <edge source="Puebla.Teziutlán" target="Puebla.Xicotepec" id="367" weight="0.7950152887338962" />
+      <edge source="Puebla.Teziutlán" target="Puebla.Yehualtepec" id="368" weight="0.8016215701538175" />
+      <edge source="Puebla.Tlahuapan" target="Puebla.Xicotepec" id="369" weight="0.8906100766885734" />
+      <edge source="Puebla.Tlahuapan" target="Puebla.Yehualtepec" id="370" weight="0.9063901805963099" />
+      <edge source="Puebla.Xicotepec" target="Puebla.Yehualtepec" id="371" weight="0.9977086318084561" />
+    </edges>
+  </graph>
+</gexf>

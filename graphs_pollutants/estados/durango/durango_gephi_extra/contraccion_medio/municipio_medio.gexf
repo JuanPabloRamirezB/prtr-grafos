@@ -1,0 +1,252 @@
+<?xml version='1.0' encoding='utf-8'?>
+<gexf xmlns="http://www.gexf.net/1.2draft" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.gexf.net/1.2draft http://www.gexf.net/1.2draft/gexf.xsd" version="1.2">
+  <meta lastmodifieddate="2026-10-16">
+    <creator>NetworkX 3.7</creator>
+  </meta>
+  <graph defaultedgetype="undirected" mode="static" name="">
+    <attributes mode="static" class="node">
+      <attribute id="0" title="type" type="string" />
+      <attribute id="1" title="total_kg" type="double" />
+    </attributes>
+    <nodes>
+      <node id="LOC::Durango.Durango" label="Durango.Durango">
+        <attvalues>
+          <attvalue for="0" value="location" />
+          <attvalue for="1" value="16645808194.669125" />
+        </attvalues>
+      </node>
+      <node id="LOC::Durango.Gómez Palacio" label="Durango.Gómez Palacio">
+        <attvalues>
+          <attvalue for="0" value="location" />
+          <attvalue for="1" value="25361069053.06556" />
+        </attvalues>
+      </node>
+      <node id="LOC::Durango.Lerdo" label="Durango.Lerdo">
+        <attvalues>
+          <attvalue for="0" value="location" />
+          <attvalue for="1" value="22692147227.077755" />
+        </attvalues>
+      </node>
+      <node id="LOC::Durango.San Dimas" label="Durango.San Dimas">
+        <attvalues>
+          <attvalue for="0" value="location" />
+          <attvalue for="1" value="22136412.29016174" />
+        </attvalues>
+      </node>
+      <node id="LOC::Durango.Santiago Papasquiaro" label="Durango.Santiago Papasquiaro">
+        <attvalues>
+          <attvalue for="0" value="location" />
+          <attvalue for="1" value="26344187.972541254" />
+        </attvalues>
+      </node>
+      <node id="LOC::Durango.Mapimí" label="Durango.Mapimí">
+        <attvalues>
+          <attvalue for="0" value="location" />
+          <attvalue for="1" value="165902656.81536034" />
+        </attvalues>
+      </node>
+      <node id="LOC::Durango.Topia" label="Durango.Topia">
+        <attvalues>
+          <attvalue for="0" value="location" />
+          <attvalue for="1" value="34892595.99945941" />
+        </attvalues>
+      </node>
+      <node id="LOC::Durango.Guanaceví" label="Durango.Guanaceví">
+        <attvalues>
+          <attvalue for="0" value="location" />
+          <attvalue for="1" value="622553.1152895418" />
+        </attvalues>
+      </node>
+      <node id="LOC::Durango.Otáez" label="Durango.Otáez">
+        <attvalues>
+          <attvalue for="0" value="location" />
+          <attvalue for="1" value="648963.9172578625" />
+        </attvalues>
+      </node>
+      <node id="LOC::Durango.Tepehuanes" label="Durango.Tepehuanes">
+        <attvalues>
+          <attvalue for="0" value="location" />
+          <attvalue for="1" value="500.36790299999996" />
+        </attvalues>
+      </node>
+      <node id="LOC::Durango.Pánuco de Coronado" label="Durango.Pánuco de Coronado">
+        <attvalues>
+          <attvalue for="0" value="location" />
+          <attvalue for="1" value="5175146.495000001" />
+        </attvalues>
+      </node>
+      <node id="LOC::Durango.Cuencamé" label="Durango.Cuencamé">
+        <attvalues>
+          <attvalue for="0" value="location" />
+          <attvalue for="1" value="1142419.2444328777" />
+        </attvalues>
+      </node>
+      <node id="LOC::Durango.San Juan del Río" label="Durango.San Juan del Río">
+        <attvalues>
+          <attvalue for="0" value="location" />
+          <attvalue for="1" value="148299856.03335997" />
+        </attvalues>
+      </node>
+      <node id="LOC::Durango.Nombre de Dios" label="Durango.Nombre de Dios">
+        <attvalues>
+          <attvalue for="0" value="location" />
+          <attvalue for="1" value="13219093.865080003" />
+        </attvalues>
+      </node>
+      <node id="LOC::Durango.Indé" label="Durango.Indé">
+        <attvalues>
+          <attvalue for="0" value="location" />
+          <attvalue for="1" value="180.322005" />
+        </attvalues>
+      </node>
+      <node id="LOC::Durango.Tlahualilo" label="Durango.Tlahualilo">
+        <attvalues>
+          <attvalue for="0" value="location" />
+          <attvalue for="1" value="3879.177099999999" />
+        </attvalues>
+      </node>
+      <node id="MED::agua" label="water">
+        <attvalues>
+          <attvalue for="0" value="medio" />
+          <attvalue for="1" value="34891.3303074947" />
+        </attvalues>
+      </node>
+      <node id="MED::aire" label="air">
+        <attvalues>
+          <attvalue for="0" value="medio" />
+          <attvalue for="1" value="65091614824.84583" />
+        </attvalues>
+      </node>
+      <node id="MED::suelo" label="soil">
+        <attvalues>
+          <attvalue for="0" value="medio" />
+          <attvalue for="1" value="40446.77526481022" />
+        </attvalues>
+      </node>
+      <node id="MED::alcantarillado" label="sewer system">
+        <attvalues>
+          <attvalue for="0" value="medio" />
+          <attvalue for="1" value="4763.900578560318" />
+        </attvalues>
+      </node>
+      <node id="MED::coprocesamiento" label="co-processing">
+        <attvalues>
+          <attvalue for="0" value="medio" />
+          <attvalue for="1" value="719816.4012" />
+        </attvalues>
+      </node>
+      <node id="MED::disposicion_final" label="final disposal">
+        <attvalues>
+          <attvalue for="0" value="medio" />
+          <attvalue for="1" value="20020880.654538002" />
+        </attvalues>
+      </node>
+      <node id="MED::incineracion" label="incineration">
+        <attvalues>
+          <attvalue for="0" value="medio" />
+          <attvalue for="1" value="123132.9767" />
+        </attvalues>
+      </node>
+      <node id="MED::otros" label="other">
+        <attvalues>
+          <attvalue for="0" value="medio" />
+          <attvalue for="1" value="4199835.252356498" />
+        </attvalues>
+      </node>
+      <node id="MED::reciclado" label="recycling">
+        <attvalues>
+          <attvalue for="0" value="medio" />
+          <attvalue for="1" value="618122.8203929986" />
+        </attvalues>
+      </node>
+      <node id="MED::reutilizacion" label="reuse">
+        <attvalues>
+          <attvalue for="0" value="medio" />
+          <attvalue for="1" value="34064.07312" />
+        </attvalues>
+      </node>
+      <node id="MED::tratamiento" label="treatment">
+        <attvalues>
+          <attvalue for="0" value="medio" />
+          <attvalue for="1" value="2141.397" />
+        </attvalues>
+      </node>
+    </nodes>
+    <edges>
+      <edge source="LOC::Durango.Durango" target="MED::agua" id="0" weight="20684.447001199824" />
+      <edge source="LOC::Durango.Durango" target="MED::aire" id="1" weight="16637928379.378548" />
+      <edge source="LOC::Durango.Durango" target="MED::suelo" id="2" weight="31192.82323344801" />
+      <edge source="LOC::Durango.Durango" target="MED::alcantarillado" id="3" weight="1061.47410599072" />
+      <edge source="LOC::Durango.Durango" target="MED::coprocesamiento" id="4" weight="35339.17" />
+      <edge source="LOC::Durango.Durango" target="MED::disposicion_final" id="5" weight="7328252.446552999" />
+      <edge source="LOC::Durango.Durango" target="MED::otros" id="6" weight="4486.349700000001" />
+      <edge source="LOC::Durango.Durango" target="MED::reciclado" id="7" weight="447218.5" />
+      <edge source="LOC::Durango.Durango" target="MED::reutilizacion" id="8" weight="9780.08" />
+      <edge source="LOC::Durango.Durango" target="MED::tratamiento" id="9" weight="1800.0" />
+      <edge source="LOC::Durango.Gómez Palacio" target="MED::agua" id="10" weight="12091.648633863464" />
+      <edge source="LOC::Durango.Gómez Palacio" target="MED::aire" id="11" weight="25359492395.028736" />
+      <edge source="LOC::Durango.Gómez Palacio" target="MED::suelo" id="12" weight="1641.1762025994994" />
+      <edge source="LOC::Durango.Gómez Palacio" target="MED::alcantarillado" id="13" weight="3692.9699725696005" />
+      <edge source="LOC::Durango.Gómez Palacio" target="MED::coprocesamiento" id="14" weight="44164.62246" />
+      <edge source="LOC::Durango.Gómez Palacio" target="MED::disposicion_final" id="15" weight="67436.17086" />
+      <edge source="LOC::Durango.Gómez Palacio" target="MED::incineracion" id="16" weight="123132.9767" />
+      <edge source="LOC::Durango.Gómez Palacio" target="MED::otros" id="17" weight="1212510.0702565" />
+      <edge source="LOC::Durango.Gómez Palacio" target="MED::reciclado" id="18" weight="91307.68856000002" />
+      <edge source="LOC::Durango.Gómez Palacio" target="MED::reutilizacion" id="19" weight="20680.71312" />
+      <edge source="LOC::Durango.Lerdo" target="MED::agua" id="20" weight="1307.21035433" />
+      <edge source="LOC::Durango.Lerdo" target="MED::aire" id="21" weight="22692137184.393402" />
+      <edge source="LOC::Durango.Lerdo" target="MED::suelo" id="22" weight="2.4739926" />
+      <edge source="LOC::Durango.Lerdo" target="MED::reciclado" id="23" weight="8733.0" />
+      <edge source="LOC::Durango.San Dimas" target="MED::agua" id="24" weight="86.47996173718883" />
+      <edge source="LOC::Durango.San Dimas" target="MED::aire" id="25" weight="22081410.504799996" />
+      <edge source="LOC::Durango.San Dimas" target="MED::disposicion_final" id="26" weight="54643.723" />
+      <edge source="LOC::Durango.San Dimas" target="MED::otros" id="27" weight="271.5824" />
+      <edge source="LOC::Durango.Santiago Papasquiaro" target="MED::agua" id="28" weight="121.35860424999996" />
+      <edge source="LOC::Durango.Santiago Papasquiaro" target="MED::aire" id="29" weight="26304999.068037" />
+      <edge source="LOC::Durango.Santiago Papasquiaro" target="MED::coprocesamiento" id="30" weight="0.0017" />
+      <edge source="LOC::Durango.Santiago Papasquiaro" target="MED::disposicion_final" id="31" weight="24.765" />
+      <edge source="LOC::Durango.Santiago Papasquiaro" target="MED::reciclado" id="32" weight="38256.77919999999" />
+      <edge source="LOC::Durango.Santiago Papasquiaro" target="MED::reutilizacion" id="33" weight="786.0" />
+      <edge source="LOC::Durango.Mapimí" target="MED::agua" id="34" weight="1.2976348515859" />
+      <edge source="LOC::Durango.Mapimí" target="MED::aire" id="35" weight="163287634.04331928" />
+      <edge source="LOC::Durango.Mapimí" target="MED::suelo" id="36" weight="3251.0512281627994" />
+      <edge source="LOC::Durango.Mapimí" target="MED::coprocesamiento" id="37" weight="640088.0" />
+      <edge source="LOC::Durango.Mapimí" target="MED::disposicion_final" id="38" weight="1966159.740545" />
+      <edge source="LOC::Durango.Mapimí" target="MED::reciclado" id="39" weight="2830.282632999" />
+      <edge source="LOC::Durango.Mapimí" target="MED::reutilizacion" id="40" weight="2692.4" />
+      <edge source="LOC::Durango.Topia" target="MED::agua" id="41" weight="543.7416593999999" />
+      <edge source="LOC::Durango.Topia" target="MED::aire" id="42" weight="34891923.82" />
+      <edge source="LOC::Durango.Topia" target="MED::suelo" id="43" weight="128.4378" />
+      <edge source="LOC::Durango.Guanaceví" target="MED::agua" id="44" weight="14.629200000000004" />
+      <edge source="LOC::Durango.Guanaceví" target="MED::aire" id="45" weight="622453.6060895417" />
+      <edge source="LOC::Durango.Guanaceví" target="MED::reutilizacion" id="46" weight="84.88" />
+      <edge source="LOC::Durango.Otáez" target="MED::agua" id="47" weight="40.51725786250002" />
+      <edge source="LOC::Durango.Otáez" target="MED::aire" id="48" weight="644343.4" />
+      <edge source="LOC::Durango.Otáez" target="MED::coprocesamiento" id="49" weight="100.0" />
+      <edge source="LOC::Durango.Otáez" target="MED::reciclado" id="50" weight="4480.0" />
+      <edge source="LOC::Durango.Tepehuanes" target="MED::aire" id="51" weight="457.0" />
+      <edge source="LOC::Durango.Tepehuanes" target="MED::suelo" id="52" weight="43.367903" />
+      <edge source="LOC::Durango.Pánuco de Coronado" target="MED::aire" id="53" weight="5175143.834000001" />
+      <edge source="LOC::Durango.Pánuco de Coronado" target="MED::suelo" id="54" weight="2.661" />
+      <edge source="LOC::Durango.Cuencamé" target="MED::aire" id="55" weight="1105989.4173928779" />
+      <edge source="LOC::Durango.Cuencamé" target="MED::coprocesamiento" id="56" weight="0.00704" />
+      <edge source="LOC::Durango.Cuencamé" target="MED::disposicion_final" id="57" weight="40.0" />
+      <edge source="LOC::Durango.Cuencamé" target="MED::otros" id="58" weight="11233.25" />
+      <edge source="LOC::Durango.Cuencamé" target="MED::reciclado" id="59" weight="25116.57" />
+      <edge source="LOC::Durango.Cuencamé" target="MED::reutilizacion" id="60" weight="40.0" />
+      <edge source="LOC::Durango.San Juan del Río" target="MED::aire" id="61" weight="147942511.35156" />
+      <edge source="LOC::Durango.San Juan del Río" target="MED::suelo" id="62" weight="11.6068" />
+      <edge source="LOC::Durango.San Juan del Río" target="MED::disposicion_final" id="63" weight="356992.0" />
+      <edge source="LOC::Durango.San Juan del Río" target="MED::tratamiento" id="64" weight="341.075" />
+      <edge source="LOC::Durango.Nombre de Dios" target="MED::suelo" id="65" weight="294.0" />
+      <edge source="LOC::Durango.Nombre de Dios" target="MED::alcantarillado" id="66" weight="9.4565" />
+      <edge source="LOC::Durango.Nombre de Dios" target="MED::coprocesamiento" id="67" weight="124.6" />
+      <edge source="LOC::Durango.Nombre de Dios" target="MED::disposicion_final" id="68" weight="10247331.808580002" />
+      <edge source="LOC::Durango.Nombre de Dios" target="MED::otros" id="69" weight="2971334.0" />
+      <edge source="LOC::Durango.Indé" target="MED::suelo" id="70" weight="5e-06" />
+      <edge source="LOC::Durango.Indé" target="MED::reciclado" id="71" weight="180.0" />
+      <edge source="LOC::Durango.Indé" target="MED::tratamiento" id="72" weight="0.322" />
+      <edge source="LOC::Durango.Tlahualilo" target="MED::suelo" id="73" weight="3879.177099999999" />
+    </edges>
+  </graph>
+</gexf>

@@ -1,0 +1,666 @@
+<?xml version='1.0' encoding='utf-8'?>
+<gexf xmlns="http://www.gexf.net/1.2draft" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.gexf.net/1.2draft http://www.gexf.net/1.2draft/gexf.xsd" version="1.2">
+  <meta lastmodifieddate="2026-10-16">
+    <creator>NetworkX 3.7</creator>
+  </meta>
+  <graph defaultedgetype="undirected" mode="static" name="">
+    <attributes mode="static" class="node">
+      <attribute id="0" title="type" type="string" />
+      <attribute id="1" title="total_kg" type="double" />
+      <attribute id="2" title="first_year" type="long" />
+      <attribute id="3" title="n_years_active" type="long" />
+    </attributes>
+    <nodes>
+      <node id="LOC::Morelos.Cuernavaca" label="Morelos.Cuernavaca">
+        <attvalues>
+          <attvalue for="0" value="location" />
+          <attvalue for="1" value="866119439.9682971" />
+          <attvalue for="2" value="2004" />
+          <attvalue for="3" value="19" />
+        </attvalues>
+      </node>
+      <node id="LOC::Morelos.Yecapixtla" label="Morelos.Yecapixtla">
+        <attvalues>
+          <attvalue for="0" value="location" />
+          <attvalue for="1" value="2102497519.9259844" />
+          <attvalue for="2" value="2004" />
+          <attvalue for="3" value="19" />
+        </attvalues>
+      </node>
+      <node id="LOC::Morelos.Jiutepec" label="Morelos.Jiutepec">
+        <attvalues>
+          <attvalue for="0" value="location" />
+          <attvalue for="1" value="2116654772.5221298" />
+          <attvalue for="2" value="2004" />
+          <attvalue for="3" value="19" />
+        </attvalues>
+      </node>
+      <node id="LOC::Morelos.Emiliano Zapata" label="Morelos.Emiliano Zapata">
+        <attvalues>
+          <attvalue for="0" value="location" />
+          <attvalue for="1" value="24772449384.374886" />
+          <attvalue for="2" value="2004" />
+          <attvalue for="3" value="19" />
+        </attvalues>
+      </node>
+      <node id="LOC::Morelos.Yautepec" label="Morelos.Yautepec">
+        <attvalues>
+          <attvalue for="0" value="location" />
+          <attvalue for="1" value="7365252.614504" />
+          <attvalue for="2" value="2006" />
+          <attvalue for="3" value="12" />
+        </attvalues>
+      </node>
+      <node id="LOC::Morelos.Puente de Ixtla" label="Morelos.Puente de Ixtla">
+        <attvalues>
+          <attvalue for="0" value="location" />
+          <attvalue for="1" value="279.8599843199999" />
+          <attvalue for="2" value="2005" />
+          <attvalue for="3" value="6" />
+        </attvalues>
+      </node>
+      <node id="LOC::Morelos.Xochitepec" label="Morelos.Xochitepec">
+        <attvalues>
+          <attvalue for="0" value="location" />
+          <attvalue for="1" value="6489221.720785683" />
+          <attvalue for="2" value="2005" />
+          <attvalue for="3" value="11" />
+        </attvalues>
+      </node>
+      <node id="LOC::Morelos.Cuautla" label="Morelos.Cuautla">
+        <attvalues>
+          <attvalue for="0" value="location" />
+          <attvalue for="1" value="282588.98843390995" />
+          <attvalue for="2" value="2006" />
+          <attvalue for="3" value="9" />
+        </attvalues>
+      </node>
+      <node id="LOC::Morelos.Ayala" label="Morelos.Ayala">
+        <attvalues>
+          <attvalue for="0" value="location" />
+          <attvalue for="1" value="2945283786.725983" />
+          <attvalue for="2" value="2004" />
+          <attvalue for="3" value="19" />
+        </attvalues>
+      </node>
+      <node id="LOC::Morelos.Zacatepec" label="Morelos.Zacatepec">
+        <attvalues>
+          <attvalue for="0" value="location" />
+          <attvalue for="1" value="8.22915386" />
+          <attvalue for="2" value="2005" />
+          <attvalue for="3" value="1" />
+        </attvalues>
+      </node>
+      <node id="LOC::Morelos.Tlaltizapán de Zapata" label="Morelos.Tlaltizapán de Zapata">
+        <attvalues>
+          <attvalue for="0" value="location" />
+          <attvalue for="1" value="1676685.44" />
+          <attvalue for="2" value="2004" />
+          <attvalue for="3" value="14" />
+        </attvalues>
+      </node>
+      <node id="LOC::Morelos.Atlatlahucan" label="Morelos.Atlatlahucan">
+        <attvalues>
+          <attvalue for="0" value="location" />
+          <attvalue for="1" value="2718432.7" />
+          <attvalue for="2" value="2020" />
+          <attvalue for="3" value="1" />
+        </attvalues>
+      </node>
+      <node id="SUB::Cromo (Compuestos solubles)" label="Chromium (soluble compounds)">
+        <attvalues>
+          <attvalue for="0" value="substance" />
+          <attvalue for="1" value="9126.167779874997" />
+          <attvalue for="2" value="2008" />
+          <attvalue for="3" value="10" />
+        </attvalues>
+      </node>
+      <node id="SUB::Níquel (Compuestos solubles)" label="Nickel (soluble compounds)">
+        <attvalues>
+          <attvalue for="0" value="substance" />
+          <attvalue for="1" value="29558.695985445025" />
+          <attvalue for="2" value="2008" />
+          <attvalue for="3" value="10" />
+        </attvalues>
+      </node>
+      <node id="SUB::Plomo (Compuestos solubles)" label="Lead (soluble compounds)">
+        <attvalues>
+          <attvalue for="0" value="substance" />
+          <attvalue for="1" value="15648.803098630311" />
+          <attvalue for="2" value="2008" />
+          <attvalue for="3" value="10" />
+        </attvalues>
+      </node>
+      <node id="SUB::Cianuro inorgánico/orgánico" label="Inorganic/organic cyanide">
+        <attvalues>
+          <attvalue for="0" value="substance" />
+          <attvalue for="1" value="28189.10071032357" />
+          <attvalue for="2" value="2004" />
+          <attvalue for="3" value="18" />
+        </attvalues>
+      </node>
+      <node id="SUB::Cadmio (polvos, respirables, vapores o humos)" label="Cadmium (respirable dust, vapors or fumes)">
+        <attvalues>
+          <attvalue for="0" value="substance" />
+          <attvalue for="1" value="2885.192183667301" />
+          <attvalue for="2" value="2004" />
+          <attvalue for="3" value="19" />
+        </attvalues>
+      </node>
+      <node id="SUB::Mercurio (Compuestos solubles)" label="Mercury (soluble compounds)">
+        <attvalues>
+          <attvalue for="0" value="substance" />
+          <attvalue for="1" value="1060.1228621999999" />
+          <attvalue for="2" value="2008" />
+          <attvalue for="3" value="10" />
+        </attvalues>
+      </node>
+      <node id="SUB::Arsénico (polvos, respirables, vapores o humos)" label="Arsenic (respirable dust, vapors or fumes)">
+        <attvalues>
+          <attvalue for="0" value="substance" />
+          <attvalue for="1" value="830.6155987911358" />
+          <attvalue for="2" value="2004" />
+          <attvalue for="3" value="19" />
+        </attvalues>
+      </node>
+      <node id="SUB::Plomo (compuestos)" label="Lead (compounds)">
+        <attvalues>
+          <attvalue for="0" value="substance" />
+          <attvalue for="1" value="135221.42003329555" />
+          <attvalue for="2" value="2004" />
+          <attvalue for="3" value="9" />
+        </attvalues>
+      </node>
+      <node id="SUB::Níquel (compuestos)" label="Nickel (compounds)">
+        <attvalues>
+          <attvalue for="0" value="substance" />
+          <attvalue for="1" value="16491.605705090693" />
+          <attvalue for="2" value="2004" />
+          <attvalue for="3" value="9" />
+        </attvalues>
+      </node>
+      <node id="SUB::Mercurio (compuestos)" label="Mercury (compounds)">
+        <attvalues>
+          <attvalue for="0" value="substance" />
+          <attvalue for="1" value="76.6408338027345" />
+          <attvalue for="2" value="2004" />
+          <attvalue for="3" value="9" />
+        </attvalues>
+      </node>
+      <node id="SUB::Cromo (compuestos)" label="Chromium (compounds)">
+        <attvalues>
+          <attvalue for="0" value="substance" />
+          <attvalue for="1" value="10486.532945929295" />
+          <attvalue for="2" value="2004" />
+          <attvalue for="3" value="9" />
+        </attvalues>
+      </node>
+      <node id="SUB::Cadmio (compuestos)" label="Cadmium (compounds)">
+        <attvalues>
+          <attvalue for="0" value="substance" />
+          <attvalue for="1" value="412.55136663565" />
+          <attvalue for="2" value="2010" />
+          <attvalue for="3" value="4" />
+        </attvalues>
+      </node>
+      <node id="SUB::Arsénico (compuestos)" label="Arsenic (compounds)">
+        <attvalues>
+          <attvalue for="0" value="substance" />
+          <attvalue for="1" value="25.907341736600006" />
+          <attvalue for="2" value="2010" />
+          <attvalue for="3" value="4" />
+        </attvalues>
+      </node>
+      <node id="SUB::Mercurio (polvos, respirables, vapores o humos)" label="Mercury (respirable dust, vapors or fumes)">
+        <attvalues>
+          <attvalue for="0" value="substance" />
+          <attvalue for="1" value="3016.2210286789987" />
+          <attvalue for="2" value="2005" />
+          <attvalue for="3" value="14" />
+        </attvalues>
+      </node>
+      <node id="SUB::Arsénico (Compuestos solubles)" label="Arsenic (soluble compounds)">
+        <attvalues>
+          <attvalue for="0" value="substance" />
+          <attvalue for="1" value="2361.050997" />
+          <attvalue for="2" value="2014" />
+          <attvalue for="3" value="9" />
+        </attvalues>
+      </node>
+      <node id="SUB::Cadmio (Compuestos solubles)" label="Cadmium (soluble compounds)">
+        <attvalues>
+          <attvalue for="0" value="substance" />
+          <attvalue for="1" value="4701.982039375001" />
+          <attvalue for="2" value="2014" />
+          <attvalue for="3" value="9" />
+        </attvalues>
+      </node>
+      <node id="SUB::Plomo (polvos respirables, humos o vapores)" label="Lead (respirable dust, fumes or vapors)">
+        <attvalues>
+          <attvalue for="0" value="substance" />
+          <attvalue for="1" value="8555.93219" />
+          <attvalue for="2" value="2014" />
+          <attvalue for="3" value="8" />
+        </attvalues>
+      </node>
+      <node id="SUB::Níquel (polvos respirables, humos o vapores)" label="Nickel (respirable dust, fumes or vapors)">
+        <attvalues>
+          <attvalue for="0" value="substance" />
+          <attvalue for="1" value="45.10175" />
+          <attvalue for="2" value="2014" />
+          <attvalue for="3" value="2" />
+        </attvalues>
+      </node>
+      <node id="SUB::Cromo (polvos respirables, humos o vapores)" label="Chromium (respirable dust, fumes or vapors)">
+        <attvalues>
+          <attvalue for="0" value="substance" />
+          <attvalue for="1" value="78.79675" />
+          <attvalue for="2" value="2014" />
+          <attvalue for="3" value="9" />
+        </attvalues>
+      </node>
+      <node id="SUB::Bióxido de carbono" label="Carbon dioxide">
+        <attvalues>
+          <attvalue for="0" value="substance" />
+          <attvalue for="1" value="32811623740.4484" />
+          <attvalue for="2" value="2004" />
+          <attvalue for="3" value="19" />
+        </attvalues>
+      </node>
+      <node id="SUB::Diclorodifluorometano (CFC-12)" label="Dichlorodifluoromethane (CFC-12)">
+        <attvalues>
+          <attvalue for="0" value="substance" />
+          <attvalue for="1" value="9876.0" />
+          <attvalue for="2" value="2004" />
+          <attvalue for="3" value="10" />
+        </attvalues>
+      </node>
+      <node id="SUB::Dioxinas" label="Dioxins">
+        <attvalues>
+          <attvalue for="0" value="substance" />
+          <attvalue for="1" value="0.03960999232100001" />
+          <attvalue for="2" value="2004" />
+          <attvalue for="3" value="18" />
+        </attvalues>
+      </node>
+      <node id="SUB::Furanos" label="Furans">
+        <attvalues>
+          <attvalue for="0" value="substance" />
+          <attvalue for="1" value="0.004025769699999999" />
+          <attvalue for="2" value="2004" />
+          <attvalue for="3" value="19" />
+        </attvalues>
+      </node>
+      <node id="SUB::Benceno" label="Benzene">
+        <attvalues>
+          <attvalue for="0" value="substance" />
+          <attvalue for="1" value="45995.152904849005" />
+          <attvalue for="2" value="2004" />
+          <attvalue for="3" value="19" />
+        </attvalues>
+      </node>
+      <node id="SUB::Dioxano" label="1,4-Dioxane">
+        <attvalues>
+          <attvalue for="0" value="substance" />
+          <attvalue for="1" value="6360.57" />
+          <attvalue for="2" value="2004" />
+          <attvalue for="3" value="9" />
+        </attvalues>
+      </node>
+      <node id="SUB::Cloruro de metileno" label="Methylene chloride">
+        <attvalues>
+          <attvalue for="0" value="substance" />
+          <attvalue for="1" value="4343593.334000001" />
+          <attvalue for="2" value="2004" />
+          <attvalue for="3" value="15" />
+        </attvalues>
+      </node>
+      <node id="SUB::Hidrofluorocarbonos" label="Hydrofluorocarbons">
+        <attvalues>
+          <attvalue for="0" value="substance" />
+          <attvalue for="1" value="94732.31000000003" />
+          <attvalue for="2" value="2006" />
+          <attvalue for="3" value="13" />
+        </attvalues>
+      </node>
+      <node id="SUB::Formaldehido" label="Formaldehyde">
+        <attvalues>
+          <attvalue for="0" value="substance" />
+          <attvalue for="1" value="8966.225343782" />
+          <attvalue for="2" value="2004" />
+          <attvalue for="3" value="17" />
+        </attvalues>
+      </node>
+      <node id="SUB::Acroleina" label="Acrolein">
+        <attvalues>
+          <attvalue for="0" value="substance" />
+          <attvalue for="1" value="40.75894530400001" />
+          <attvalue for="2" value="2005" />
+          <attvalue for="3" value="7" />
+        </attvalues>
+      </node>
+      <node id="SUB::Acetaldehido" label="Acetaldehyde">
+        <attvalues>
+          <attvalue for="0" value="substance" />
+          <attvalue for="1" value="60.77265579" />
+          <attvalue for="2" value="2005" />
+          <attvalue for="3" value="7" />
+        </attvalues>
+      </node>
+      <node id="SUB::Bióxido de nitrógeno" label="Nitrogen dioxide">
+        <attvalues>
+          <attvalue for="0" value="substance" />
+          <attvalue for="1" value="4818313.164" />
+          <attvalue for="2" value="2006" />
+          <attvalue for="3" value="5" />
+        </attvalues>
+      </node>
+      <node id="SUB::Cloruro de vinilo" label="Vinyl chloride">
+        <attvalues>
+          <attvalue for="0" value="substance" />
+          <attvalue for="1" value="350.0" />
+          <attvalue for="2" value="2012" />
+          <attvalue for="3" value="2" />
+        </attvalues>
+      </node>
+      <node id="SUB::Epiclorhidrina" label="Epichlorohydrin">
+        <attvalues>
+          <attvalue for="0" value="substance" />
+          <attvalue for="1" value="12315.0" />
+          <attvalue for="2" value="2004" />
+          <attvalue for="3" value="11" />
+        </attvalues>
+      </node>
+      <node id="SUB::Acrilonitrilo" label="Acrylonitrile">
+        <attvalues>
+          <attvalue for="0" value="substance" />
+          <attvalue for="1" value="5008.0" />
+          <attvalue for="2" value="2004" />
+          <attvalue for="3" value="8" />
+        </attvalues>
+      </node>
+      <node id="SUB::Tolueno" label="Toluene">
+        <attvalues>
+          <attvalue for="0" value="substance" />
+          <attvalue for="1" value="89350.05963" />
+          <attvalue for="2" value="2016" />
+          <attvalue for="3" value="7" />
+        </attvalues>
+      </node>
+      <node id="SUB::Xileno (mezcla de isómeros)" label="Xylene (mixture of isomers)">
+        <attvalues>
+          <attvalue for="0" value="substance" />
+          <attvalue for="1" value="163297.89109999998" />
+          <attvalue for="2" value="2019" />
+          <attvalue for="3" value="4" />
+        </attvalues>
+      </node>
+      <node id="SUB::Fenol" label="Phenol">
+        <attvalues>
+          <attvalue for="0" value="substance" />
+          <attvalue for="1" value="45.256" />
+          <attvalue for="2" value="2004" />
+          <attvalue for="3" value="2" />
+        </attvalues>
+      </node>
+      <node id="SUB::Acido sulfhídrico" label="Hydrogen sulfide">
+        <attvalues>
+          <attvalue for="0" value="substance" />
+          <attvalue for="1" value="149.0" />
+          <attvalue for="2" value="2004" />
+          <attvalue for="3" value="1" />
+        </attvalues>
+      </node>
+      <node id="SUB::Metano" label="Methane">
+        <attvalues>
+          <attvalue for="0" value="substance" />
+          <attvalue for="1" value="263.0" />
+          <attvalue for="2" value="2010" />
+          <attvalue for="3" value="1" />
+        </attvalues>
+      </node>
+      <node id="SUB::Piridina" label="Pyridine">
+        <attvalues>
+          <attvalue for="0" value="substance" />
+          <attvalue for="1" value="84.64999999999999" />
+          <attvalue for="2" value="2008" />
+          <attvalue for="3" value="6" />
+        </attvalues>
+      </node>
+      <node id="SUB::Asbesto y sus formas (En forma de polvo, fibras o productos desmenuzables con la presión de la mano)" label="Asbestos and its forms (as dust, fibers or friable products that crumble under hand pressure)">
+        <attvalues>
+          <attvalue for="0" value="substance" />
+          <attvalue for="1" value="26791.0" />
+          <attvalue for="2" value="2009" />
+          <attvalue for="3" value="8" />
+        </attvalues>
+      </node>
+      <node id="SUB::Hexaclorobenceno" label="Hexachlorobenzene">
+        <attvalues>
+          <attvalue for="0" value="substance" />
+          <attvalue for="1" value="0.000346548" />
+          <attvalue for="2" value="2020" />
+          <attvalue for="3" value="3" />
+        </attvalues>
+      </node>
+      <node id="SUB::Cloroformo" label="Chloroform">
+        <attvalues>
+          <attvalue for="0" value="substance" />
+          <attvalue for="1" value="119.99200000000002" />
+          <attvalue for="2" value="2021" />
+          <attvalue for="3" value="1" />
+        </attvalues>
+      </node>
+      <node id="SUB::1,2,-Dicloroetano" label="1,2-Dichloroethane">
+        <attvalues>
+          <attvalue for="0" value="substance" />
+          <attvalue for="1" value="18910.4" />
+          <attvalue for="2" value="2016" />
+          <attvalue for="3" value="2" />
+        </attvalues>
+      </node>
+      <node id="SUB::2-Etoxietanol (Termonoetilico de etilenglicol)" label="2-Ethoxyethanol (ethylene glycol monoethyl ether)">
+        <attvalues>
+          <attvalue for="0" value="substance" />
+          <attvalue for="1" value="237.6" />
+          <attvalue for="2" value="2016" />
+          <attvalue for="3" value="2" />
+        </attvalues>
+      </node>
+    </nodes>
+    <edges>
+      <edge source="LOC::Morelos.Cuernavaca" target="SUB::Cromo (Compuestos solubles)" id="0" weight="7948.160501874997" />
+      <edge source="LOC::Morelos.Cuernavaca" target="SUB::Níquel (Compuestos solubles)" id="1" weight="8176.681539874997" />
+      <edge source="LOC::Morelos.Cuernavaca" target="SUB::Plomo (Compuestos solubles)" id="2" weight="8002.859690290297" />
+      <edge source="LOC::Morelos.Cuernavaca" target="SUB::Cianuro inorgánico/orgánico" id="3" weight="1145.9045592300001" />
+      <edge source="LOC::Morelos.Cuernavaca" target="SUB::Cadmio (polvos, respirables, vapores o humos)" id="4" weight="71.1626050273" />
+      <edge source="LOC::Morelos.Cuernavaca" target="SUB::Mercurio (Compuestos solubles)" id="5" weight="84.99411" />
+      <edge source="LOC::Morelos.Cuernavaca" target="SUB::Arsénico (polvos, respirables, vapores o humos)" id="6" weight="153.368375541" />
+      <edge source="LOC::Morelos.Cuernavaca" target="SUB::Arsénico (compuestos)" id="7" weight="9.3079725396" />
+      <edge source="LOC::Morelos.Cuernavaca" target="SUB::Plomo (compuestos)" id="8" weight="15380.349643025102" />
+      <edge source="LOC::Morelos.Cuernavaca" target="SUB::Cadmio (compuestos)" id="9" weight="354.0885128634" />
+      <edge source="LOC::Morelos.Cuernavaca" target="SUB::Níquel (compuestos)" id="10" weight="1694.7646831942" />
+      <edge source="LOC::Morelos.Cuernavaca" target="SUB::Mercurio (compuestos)" id="11" weight="15.4564251372" />
+      <edge source="LOC::Morelos.Cuernavaca" target="SUB::Cromo (compuestos)" id="12" weight="5364.9703402544" />
+      <edge source="LOC::Morelos.Cuernavaca" target="SUB::Mercurio (polvos, respirables, vapores o humos)" id="13" weight="407.80560722700005" />
+      <edge source="LOC::Morelos.Cuernavaca" target="SUB::Arsénico (Compuestos solubles)" id="14" weight="262.6989970000001" />
+      <edge source="LOC::Morelos.Cuernavaca" target="SUB::Cadmio (Compuestos solubles)" id="15" weight="2205.910939374999" />
+      <edge source="LOC::Morelos.Cuernavaca" target="SUB::Plomo (polvos respirables, humos o vapores)" id="16" weight="2194.80419" />
+      <edge source="LOC::Morelos.Cuernavaca" target="SUB::Níquel (polvos respirables, humos o vapores)" id="17" weight="45.10175" />
+      <edge source="LOC::Morelos.Cuernavaca" target="SUB::Cromo (polvos respirables, humos o vapores)" id="18" weight="19.81275" />
+      <edge source="LOC::Morelos.Cuernavaca" target="SUB::Bióxido de carbono" id="19" weight="866046637.937098" />
+      <edge source="LOC::Morelos.Cuernavaca" target="SUB::Acroleina" id="20" weight="2.006640304" />
+      <edge source="LOC::Morelos.Cuernavaca" target="SUB::Formaldehido" id="21" weight="0.751860172" />
+      <edge source="LOC::Morelos.Cuernavaca" target="SUB::Benceno" id="22" weight="18.068470849" />
+      <edge source="LOC::Morelos.Cuernavaca" target="SUB::Acetaldehido" id="23" weight="15.05628879" />
+      <edge source="LOC::Morelos.Cuernavaca" target="SUB::Tolueno" id="24" weight="3497.3444" />
+      <edge source="LOC::Morelos.Cuernavaca" target="SUB::Metano" id="25" weight="263.0" />
+      <edge source="LOC::Morelos.Cuernavaca" target="SUB::Hexaclorobenceno" id="26" weight="0.000346548" />
+      <edge source="LOC::Morelos.Cuernavaca" target="SUB::Asbesto y sus formas (En forma de polvo, fibras o productos desmenuzables con la presión de la mano)" id="27" weight="15230.0" />
+      <edge source="LOC::Morelos.Cuernavaca" target="SUB::2-Etoxietanol (Termonoetilico de etilenglicol)" id="28" weight="237.6" />
+      <edge source="LOC::Morelos.Yecapixtla" target="SUB::Cromo (Compuestos solubles)" id="29" weight="143.683642" />
+      <edge source="LOC::Morelos.Yecapixtla" target="SUB::Mercurio (Compuestos solubles)" id="30" weight="52.615535" />
+      <edge source="LOC::Morelos.Yecapixtla" target="SUB::Níquel (Compuestos solubles)" id="31" weight="1232.5788878699998" />
+      <edge source="LOC::Morelos.Yecapixtla" target="SUB::Plomo (Compuestos solubles)" id="32" weight="1342.6503757399998" />
+      <edge source="LOC::Morelos.Yecapixtla" target="SUB::Cianuro inorgánico/orgánico" id="33" weight="241.81251905200003" />
+      <edge source="LOC::Morelos.Yecapixtla" target="SUB::Arsénico (polvos, respirables, vapores o humos)" id="34" weight="298.367315508" />
+      <edge source="LOC::Morelos.Yecapixtla" target="SUB::Cadmio (polvos, respirables, vapores o humos)" id="35" weight="80.13869444" />
+      <edge source="LOC::Morelos.Yecapixtla" target="SUB::Plomo (compuestos)" id="36" weight="563.2863809999999" />
+      <edge source="LOC::Morelos.Yecapixtla" target="SUB::Níquel (compuestos)" id="37" weight="431.88202020000006" />
+      <edge source="LOC::Morelos.Yecapixtla" target="SUB::Mercurio (compuestos)" id="38" weight="6.149030534" />
+      <edge source="LOC::Morelos.Yecapixtla" target="SUB::Cromo (compuestos)" id="39" weight="398.535594" />
+      <edge source="LOC::Morelos.Yecapixtla" target="SUB::Cadmio (compuestos)" id="40" weight="31.94443575" />
+      <edge source="LOC::Morelos.Yecapixtla" target="SUB::Arsénico (compuestos)" id="41" weight="6.4568517000000005" />
+      <edge source="LOC::Morelos.Yecapixtla" target="SUB::Bióxido de carbono" id="42" weight="2102492423.5" />
+      <edge source="LOC::Morelos.Yecapixtla" target="SUB::Mercurio (polvos, respirables, vapores o humos)" id="43" weight="0.3913025" />
+      <edge source="LOC::Morelos.Yecapixtla" target="SUB::Arsénico (Compuestos solubles)" id="44" weight="8.8151" />
+      <edge source="LOC::Morelos.Yecapixtla" target="SUB::Cadmio (Compuestos solubles)" id="45" weight="257.11830000000003" />
+      <edge source="LOC::Morelos.Jiutepec" target="SUB::Níquel (Compuestos solubles)" id="46" weight="19796.735306500006" />
+      <edge source="LOC::Morelos.Jiutepec" target="SUB::Cromo (Compuestos solubles)" id="47" weight="797.70866" />
+      <edge source="LOC::Morelos.Jiutepec" target="SUB::Mercurio (Compuestos solubles)" id="48" weight="922.5131739999999" />
+      <edge source="LOC::Morelos.Jiutepec" target="SUB::Plomo (Compuestos solubles)" id="49" weight="1767.9735949999997" />
+      <edge source="LOC::Morelos.Jiutepec" target="SUB::Cianuro inorgánico/orgánico" id="50" weight="25104.328837527573" />
+      <edge source="LOC::Morelos.Jiutepec" target="SUB::Arsénico (polvos, respirables, vapores o humos)" id="51" weight="61.089315585336" />
+      <edge source="LOC::Morelos.Jiutepec" target="SUB::Cadmio (polvos, respirables, vapores o humos)" id="52" weight="2588.10036237" />
+      <edge source="LOC::Morelos.Jiutepec" target="SUB::Plomo (compuestos)" id="53" weight="79585.1507847905" />
+      <edge source="LOC::Morelos.Jiutepec" target="SUB::Níquel (compuestos)" id="54" weight="13877.261074086502" />
+      <edge source="LOC::Morelos.Jiutepec" target="SUB::Mercurio (polvos, respirables, vapores o humos)" id="55" weight="161.507325452" />
+      <edge source="LOC::Morelos.Jiutepec" target="SUB::Cromo (compuestos)" id="56" weight="4221.1088461149" />
+      <edge source="LOC::Morelos.Jiutepec" target="SUB::Arsénico (compuestos)" id="57" weight="4.737785727000001" />
+      <edge source="LOC::Morelos.Jiutepec" target="SUB::Cadmio (compuestos)" id="58" weight="22.74813802225" />
+      <edge source="LOC::Morelos.Jiutepec" target="SUB::Mercurio (compuestos)" id="59" weight="40.634593263534505" />
+      <edge source="LOC::Morelos.Jiutepec" target="SUB::Arsénico (Compuestos solubles)" id="60" weight="918.3539" />
+      <edge source="LOC::Morelos.Jiutepec" target="SUB::Cadmio (Compuestos solubles)" id="61" weight="1053.7229" />
+      <edge source="LOC::Morelos.Jiutepec" target="SUB::Bióxido de carbono" id="62" weight="2111709073.2800767" />
+      <edge source="LOC::Morelos.Jiutepec" target="SUB::Diclorodifluorometano (CFC-12)" id="63" weight="9876.0" />
+      <edge source="LOC::Morelos.Jiutepec" target="SUB::Dioxano" id="64" weight="6360.57" />
+      <edge source="LOC::Morelos.Jiutepec" target="SUB::Cloruro de metileno" id="65" weight="4343593.334000001" />
+      <edge source="LOC::Morelos.Jiutepec" target="SUB::Hidrofluorocarbonos" id="66" weight="94732.31000000003" />
+      <edge source="LOC::Morelos.Jiutepec" target="SUB::Benceno" id="67" weight="768.9907999999999" />
+      <edge source="LOC::Morelos.Jiutepec" target="SUB::Bióxido de nitrógeno" id="68" weight="47313.164" />
+      <edge source="LOC::Morelos.Jiutepec" target="SUB::Cloruro de vinilo" id="69" weight="350.0" />
+      <edge source="LOC::Morelos.Jiutepec" target="SUB::Formaldehido" id="70" weight="6557.5423228" />
+      <edge source="LOC::Morelos.Jiutepec" target="SUB::Tolueno" id="71" weight="85852.71523" />
+      <edge source="LOC::Morelos.Jiutepec" target="SUB::Xileno (mezcla de isómeros)" id="72" weight="163297.89109999998" />
+      <edge source="LOC::Morelos.Jiutepec" target="SUB::Fenol" id="73" weight="45.0" />
+      <edge source="LOC::Morelos.Jiutepec" target="SUB::Furanos" id="74" weight="1.9797e-06" />
+      <edge source="LOC::Morelos.Jiutepec" target="SUB::Dioxinas" id="75" weight="2.03232e-06" />
+      <edge source="LOC::Morelos.Jiutepec" target="SUB::Acido sulfhídrico" id="76" weight="149.0" />
+      <edge source="LOC::Morelos.Jiutepec" target="SUB::Piridina" id="77" weight="84.64999999999999" />
+      <edge source="LOC::Morelos.Jiutepec" target="SUB::Epiclorhidrina" id="78" weight="5315.0" />
+      <edge source="LOC::Morelos.Jiutepec" target="SUB::Asbesto y sus formas (En forma de polvo, fibras o productos desmenuzables con la presión de la mano)" id="79" weight="11561.0" />
+      <edge source="LOC::Morelos.Jiutepec" target="SUB::1,2,-Dicloroetano" id="80" weight="18910.4" />
+      <edge source="LOC::Morelos.Jiutepec" target="SUB::Acrilonitrilo" id="81" weight="8.0" />
+      <edge source="LOC::Morelos.Emiliano Zapata" target="SUB::Arsénico (polvos, respirables, vapores o humos)" id="82" weight="251.6428481978" />
+      <edge source="LOC::Morelos.Emiliano Zapata" target="SUB::Mercurio (polvos, respirables, vapores o humos)" id="83" weight="2446.5089999999996" />
+      <edge source="LOC::Morelos.Emiliano Zapata" target="SUB::Mercurio (compuestos)" id="84" weight="11.0117727" />
+      <edge source="LOC::Morelos.Emiliano Zapata" target="SUB::Cianuro inorgánico/orgánico" id="85" weight="25.050559800000002" />
+      <edge source="LOC::Morelos.Emiliano Zapata" target="SUB::Plomo (compuestos)" id="86" weight="5860.731162100001" />
+      <edge source="LOC::Morelos.Emiliano Zapata" target="SUB::Cromo (Compuestos solubles)" id="87" weight="59.3438" />
+      <edge source="LOC::Morelos.Emiliano Zapata" target="SUB::Plomo (Compuestos solubles)" id="88" weight="745.1738" />
+      <edge source="LOC::Morelos.Emiliano Zapata" target="SUB::Dioxinas" id="89" weight="0.03960790000000001" />
+      <edge source="LOC::Morelos.Emiliano Zapata" target="SUB::Furanos" id="90" weight="0.003983789999999999" />
+      <edge source="LOC::Morelos.Emiliano Zapata" target="SUB::Bióxido de carbono" id="91" weight="24767619310.09" />
+      <edge source="LOC::Morelos.Emiliano Zapata" target="SUB::Benceno" id="92" weight="45152.8484" />
+      <edge source="LOC::Morelos.Emiliano Zapata" target="SUB::Cadmio (polvos, respirables, vapores o humos)" id="93" weight="132.53079000000002" />
+      <edge source="LOC::Morelos.Emiliano Zapata" target="SUB::Cromo (compuestos)" id="94" weight="56.68" />
+      <edge source="LOC::Morelos.Emiliano Zapata" target="SUB::Plomo (polvos respirables, humos o vapores)" id="95" weight="1981.432" />
+      <edge source="LOC::Morelos.Emiliano Zapata" target="SUB::Cromo (polvos respirables, humos o vapores)" id="96" weight="58.98400000000001" />
+      <edge source="LOC::Morelos.Emiliano Zapata" target="SUB::Formaldehido" id="97" weight="2212.6195" />
+      <edge source="LOC::Morelos.Emiliano Zapata" target="SUB::Bióxido de nitrógeno" id="98" weight="4771000.0" />
+      <edge source="LOC::Morelos.Emiliano Zapata" target="SUB::Arsénico (compuestos)" id="99" weight="0.91467337" />
+      <edge source="LOC::Morelos.Emiliano Zapata" target="SUB::Cadmio (Compuestos solubles)" id="100" weight="14.905199999999999" />
+      <edge source="LOC::Morelos.Emiliano Zapata" target="SUB::Níquel (Compuestos solubles)" id="101" weight="63.8638" />
+      <edge source="LOC::Morelos.Yautepec" target="SUB::Cromo (Compuestos solubles)" id="102" weight="9.6e-05" />
+      <edge source="LOC::Morelos.Yautepec" target="SUB::Mercurio (Compuestos solubles)" id="103" weight="9.6e-06" />
+      <edge source="LOC::Morelos.Yautepec" target="SUB::Níquel (Compuestos solubles)" id="104" weight="0.0006912" />
+      <edge source="LOC::Morelos.Yautepec" target="SUB::Plomo (Compuestos solubles)" id="105" weight="0.0005376" />
+      <edge source="LOC::Morelos.Yautepec" target="SUB::Cianuro inorgánico/orgánico" id="106" weight="1131.7303904" />
+      <edge source="LOC::Morelos.Yautepec" target="SUB::Arsénico (polvos, respirables, vapores o humos)" id="107" weight="0.000384" />
+      <edge source="LOC::Morelos.Yautepec" target="SUB::Cadmio (polvos, respirables, vapores o humos)" id="108" weight="0.0024384000000000003" />
+      <edge source="LOC::Morelos.Yautepec" target="SUB::Níquel (compuestos)" id="109" weight="0.15797840000000002" />
+      <edge source="LOC::Morelos.Yautepec" target="SUB::Plomo (compuestos)" id="110" weight="1632.1550632" />
+      <edge source="LOC::Morelos.Yautepec" target="SUB::Cromo (compuestos)" id="111" weight="1.470294" />
+      <edge source="LOC::Morelos.Yautepec" target="SUB::Mercurio (compuestos)" id="112" weight="0.0017012000000000002" />
+      <edge source="LOC::Morelos.Yautepec" target="SUB::Bióxido de carbono" id="113" weight="7360223.66" />
+      <edge source="LOC::Morelos.Yautepec" target="SUB::Arsénico (compuestos)" id="114" weight="0.02128" />
+      <edge source="LOC::Morelos.Yautepec" target="SUB::Cadmio (compuestos)" id="115" weight="0.033639999999999996" />
+      <edge source="LOC::Morelos.Yautepec" target="SUB::Arsénico (Compuestos solubles)" id="116" weight="1131.69" />
+      <edge source="LOC::Morelos.Yautepec" target="SUB::Cadmio (Compuestos solubles)" id="117" weight="1131.69" />
+      <edge source="LOC::Morelos.Puente de Ixtla" target="SUB::Cromo (Compuestos solubles)" id="118" weight="0.01232" />
+      <edge source="LOC::Morelos.Puente de Ixtla" target="SUB::Mercurio (Compuestos solubles)" id="119" weight="3.36e-05" />
+      <edge source="LOC::Morelos.Puente de Ixtla" target="SUB::Níquel (Compuestos solubles)" id="120" weight="0.01456" />
+      <edge source="LOC::Morelos.Puente de Ixtla" target="SUB::Plomo (Compuestos solubles)" id="121" weight="0.0336" />
+      <edge source="LOC::Morelos.Puente de Ixtla" target="SUB::Cianuro inorgánico/orgánico" id="122" weight="2.9692226" />
+      <edge source="LOC::Morelos.Puente de Ixtla" target="SUB::Arsénico (polvos, respirables, vapores o humos)" id="123" weight="0.00011212" />
+      <edge source="LOC::Morelos.Puente de Ixtla" target="SUB::Cadmio (polvos, respirables, vapores o humos)" id="124" weight="0.0025424" />
+      <edge source="LOC::Morelos.Puente de Ixtla" target="SUB::Mercurio (compuestos)" id="125" weight="2.5440837000000003" />
+      <edge source="LOC::Morelos.Puente de Ixtla" target="SUB::Cromo (compuestos)" id="126" weight="1.3204600000000002" />
+      <edge source="LOC::Morelos.Puente de Ixtla" target="SUB::Níquel (compuestos)" id="127" weight="1.1996855999999998" />
+      <edge source="LOC::Morelos.Puente de Ixtla" target="SUB::Plomo (compuestos)" id="128" weight="3.2622884000000005" />
+      <edge source="LOC::Morelos.Puente de Ixtla" target="SUB::Bióxido de carbono" id="129" weight="262.77599999999995" />
+      <edge source="LOC::Morelos.Puente de Ixtla" target="SUB::Cadmio (compuestos)" id="130" weight="2.7570599999999996" />
+      <edge source="LOC::Morelos.Puente de Ixtla" target="SUB::Arsénico (compuestos)" id="131" weight="2.9680159" />
+      <edge source="LOC::Morelos.Xochitepec" target="SUB::Arsénico (compuestos)" id="132" weight="0.028276" />
+      <edge source="LOC::Morelos.Xochitepec" target="SUB::Cadmio (compuestos)" id="133" weight="0.20023000000000002" />
+      <edge source="LOC::Morelos.Xochitepec" target="SUB::Cromo (compuestos)" id="134" weight="0.40191816" />
+      <edge source="LOC::Morelos.Xochitepec" target="SUB::Mercurio (compuestos)" id="135" weight="0.0020254080000000002" />
+      <edge source="LOC::Morelos.Xochitepec" target="SUB::Níquel (compuestos)" id="136" weight="0.43393471" />
+      <edge source="LOC::Morelos.Xochitepec" target="SUB::Plomo (compuestos)" id="137" weight="1.2013984199999999" />
+      <edge source="LOC::Morelos.Xochitepec" target="SUB::Cadmio (polvos, respirables, vapores o humos)" id="138" weight="0.00026692999999999997" />
+      <edge source="LOC::Morelos.Xochitepec" target="SUB::Arsénico (polvos, respirables, vapores o humos)" id="139" weight="0.000406039" />
+      <edge source="LOC::Morelos.Xochitepec" target="SUB::Cianuro inorgánico/orgánico" id="140" weight="0.08000001400000001" />
+      <edge source="LOC::Morelos.Xochitepec" target="SUB::Bióxido de carbono" id="141" weight="6489099.38033" />
+      <edge source="LOC::Morelos.Xochitepec" target="SUB::Cloroformo" id="142" weight="119.99200000000002" />
+      <edge source="LOC::Morelos.Cuautla" target="SUB::Plomo (compuestos)" id="143" weight="20.3363902" />
+      <edge source="LOC::Morelos.Cuautla" target="SUB::Bióxido de carbono" id="144" weight="282419.28" />
+      <edge source="LOC::Morelos.Cuautla" target="SUB::Acroleina" id="145" weight="38.750405" />
+      <edge source="LOC::Morelos.Cuautla" target="SUB::Formaldehido" id="146" weight="3.67086081" />
+      <edge source="LOC::Morelos.Cuautla" target="SUB::Benceno" id="147" weight="55.225234" />
+      <edge source="LOC::Morelos.Cuautla" target="SUB::Acetaldehido" id="148" weight="45.70036700000001" />
+      <edge source="LOC::Morelos.Cuautla" target="SUB::Cromo (Compuestos solubles)" id="149" weight="2.0375" />
+      <edge source="LOC::Morelos.Cuautla" target="SUB::Cadmio (polvos, respirables, vapores o humos)" id="150" weight="0.8681108" />
+      <edge source="LOC::Morelos.Cuautla" target="SUB::Cromo (compuestos)" id="151" weight="0.5003234" />
+      <edge source="LOC::Morelos.Cuautla" target="SUB::Mercurio (compuestos)" id="152" weight="0.0198804" />
+      <edge source="LOC::Morelos.Cuautla" target="SUB::Níquel (compuestos)" id="153" weight="2.5297809" />
+      <edge source="LOC::Morelos.Cuautla" target="SUB::Arsénico (polvos, respirables, vapores o humos)" id="154" weight="0.0198804" />
+      <edge source="LOC::Morelos.Cuautla" target="SUB::Cianuro inorgánico/orgánico" id="155" weight="0.049701" />
+      <edge source="LOC::Morelos.Ayala" target="SUB::Cadmio (Compuestos solubles)" id="156" weight="38.63469999999999" />
+      <edge source="LOC::Morelos.Ayala" target="SUB::Cromo (Compuestos solubles)" id="157" weight="175.22125999999997" />
+      <edge source="LOC::Morelos.Ayala" target="SUB::Níquel (Compuestos solubles)" id="158" weight="288.8212" />
+      <edge source="LOC::Morelos.Ayala" target="SUB::Plomo (Compuestos solubles)" id="159" weight="3790.1115" />
+      <edge source="LOC::Morelos.Ayala" target="SUB::Arsénico (polvos, respirables, vapores o humos)" id="160" weight="58.12696139999999" />
+      <edge source="LOC::Morelos.Ayala" target="SUB::Mercurio (compuestos)" id="161" weight="0.8207773000000002" />
+      <edge source="LOC::Morelos.Ayala" target="SUB::Cianuro inorgánico/orgánico" id="162" weight="537.1707769999999" />
+      <edge source="LOC::Morelos.Ayala" target="SUB::Plomo (compuestos)" id="163" weight="32174.86529816" />
+      <edge source="LOC::Morelos.Ayala" target="SUB::Cromo (compuestos)" id="164" weight="441.47715000000005" />
+      <edge source="LOC::Morelos.Ayala" target="SUB::Cadmio (polvos, respirables, vapores o humos)" id="165" weight="12.3455613" />
+      <edge source="LOC::Morelos.Ayala" target="SUB::Níquel (compuestos)" id="166" weight="483.34253799999993" />
+      <edge source="LOC::Morelos.Ayala" target="SUB::Epiclorhidrina" id="167" weight="7000.0" />
+      <edge source="LOC::Morelos.Ayala" target="SUB::Acrilonitrilo" id="168" weight="5000.0" />
+      <edge source="LOC::Morelos.Ayala" target="SUB::Formaldehido" id="169" weight="185.0008" />
+      <edge source="LOC::Morelos.Ayala" target="SUB::Bióxido de carbono" id="170" weight="2945229179.04489" />
+      <edge source="LOC::Morelos.Ayala" target="SUB::Dioxinas" id="171" weight="6.0001e-08" />
+      <edge source="LOC::Morelos.Ayala" target="SUB::Furanos" id="172" weight="4e-05" />
+      <edge source="LOC::Morelos.Ayala" target="SUB::Acroleina" id="173" weight="0.0019" />
+      <edge source="LOC::Morelos.Ayala" target="SUB::Acetaldehido" id="174" weight="0.016" />
+      <edge source="LOC::Morelos.Ayala" target="SUB::Benceno" id="175" weight="0.02" />
+      <edge source="LOC::Morelos.Ayala" target="SUB::Arsénico (compuestos)" id="176" weight="1.4724865" />
+      <edge source="LOC::Morelos.Ayala" target="SUB::Mercurio (polvos, respirables, vapores o humos)" id="177" weight="0.0077935" />
+      <edge source="LOC::Morelos.Ayala" target="SUB::Cadmio (compuestos)" id="178" weight="0.77935" />
+      <edge source="LOC::Morelos.Ayala" target="SUB::Arsénico (Compuestos solubles)" id="179" weight="39.493" />
+      <edge source="LOC::Morelos.Ayala" target="SUB::Fenol" id="180" weight="0.256" />
+      <edge source="LOC::Morelos.Ayala" target="SUB::Plomo (polvos respirables, humos o vapores)" id="181" weight="4379.696" />
+      <edge source="LOC::Morelos.Zacatepec" target="SUB::Cianuro inorgánico/orgánico" id="182" weight="0.0041437" />
+      <edge source="LOC::Morelos.Zacatepec" target="SUB::Plomo (compuestos)" id="183" weight="0.081624" />
+      <edge source="LOC::Morelos.Zacatepec" target="SUB::Níquel (compuestos)" id="184" weight="0.03401" />
+      <edge source="LOC::Morelos.Zacatepec" target="SUB::Mercurio (compuestos)" id="185" weight="0.00054416" />
+      <edge source="LOC::Morelos.Zacatepec" target="SUB::Cromo (compuestos)" id="186" weight="0.06802" />
+      <edge source="LOC::Morelos.Zacatepec" target="SUB::Cadmio (polvos, respirables, vapores o humos)" id="187" weight="0.040812" />
+      <edge source="LOC::Morelos.Zacatepec" target="SUB::Arsénico (polvos, respirables, vapores o humos)" id="188" weight="8.0" />
+      <edge source="LOC::Morelos.Tlaltizapán de Zapata" target="SUB::Bióxido de carbono" id="189" weight="1676678.8" />
+      <edge source="LOC::Morelos.Tlaltizapán de Zapata" target="SUB::Formaldehido" id="190" weight="6.640000000000001" />
+      <edge source="LOC::Morelos.Atlatlahucan" target="SUB::Bióxido de carbono" id="191" weight="2718432.7" />
+    </edges>
+  </graph>
+</gexf>

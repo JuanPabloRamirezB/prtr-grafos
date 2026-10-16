@@ -1,0 +1,484 @@
+<?xml version='1.0' encoding='utf-8'?>
+<gexf xmlns="http://www.gexf.net/1.2draft" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.gexf.net/1.2draft http://www.gexf.net/1.2draft/gexf.xsd" version="1.2">
+  <meta lastmodifieddate="2026-10-16">
+    <creator>NetworkX 3.7</creator>
+  </meta>
+  <graph defaultedgetype="undirected" mode="static" name="">
+    <attributes mode="static" class="node">
+      <attribute id="0" title="role" type="string" />
+      <attribute id="1" title="total_kg" type="double" />
+    </attributes>
+    <nodes>
+      <node id="Puebla.Puebla" label="Puebla.Puebla">
+        <attvalues>
+          <attvalue for="0" value="focal" />
+          <attvalue for="1" value="623381329060.233" />
+        </attvalues>
+      </node>
+      <node id="Bióxido de carbono" label="Carbon dioxide">
+        <attvalues>
+          <attvalue for="0" value="substance" />
+          <attvalue for="1" value="623379558642.6276" />
+        </attvalues>
+      </node>
+      <node id="Metano" label="Methane">
+        <attvalues>
+          <attvalue for="0" value="substance" />
+          <attvalue for="1" value="1122058.0600960702" />
+        </attvalues>
+      </node>
+      <node id="Plomo (Compuestos solubles)" label="Lead (soluble compounds)">
+        <attvalues>
+          <attvalue for="0" value="substance" />
+          <attvalue for="1" value="209478.93640739037" />
+        </attvalues>
+      </node>
+      <node id="Xileno (mezcla de isómeros)" label="Xylene (mixture of isomers)">
+        <attvalues>
+          <attvalue for="0" value="substance" />
+          <attvalue for="1" value="88488.082" />
+        </attvalues>
+      </node>
+      <node id="Plomo (compuestos)" label="Lead (compounds)">
+        <attvalues>
+          <attvalue for="0" value="substance" />
+          <attvalue for="1" value="84560.17696167156" />
+        </attvalues>
+      </node>
+      <node id="Níquel (compuestos)" label="Nickel (compounds)">
+        <attvalues>
+          <attvalue for="0" value="substance" />
+          <attvalue for="1" value="53838.838035325" />
+        </attvalues>
+      </node>
+      <node id="Cromo (compuestos)" label="Chromium (compounds)">
+        <attvalues>
+          <attvalue for="0" value="substance" />
+          <attvalue for="1" value="52293.2608027197" />
+        </attvalues>
+      </node>
+      <node id="Cromo (Compuestos solubles)" label="Chromium (soluble compounds)">
+        <attvalues>
+          <attvalue for="0" value="substance" />
+          <attvalue for="1" value="47265.30717472155" />
+        </attvalues>
+      </node>
+      <node id="Níquel (Compuestos solubles)" label="Nickel (soluble compounds)">
+        <attvalues>
+          <attvalue for="0" value="substance" />
+          <attvalue for="1" value="46322.16206246645" />
+        </attvalues>
+      </node>
+      <node id="Asbesto y sus formas (En forma de polvo, fibras o productos desmenuzables con la presión de la mano)" label="Asbestos and its forms (as dust, fibers or friable products that crumble under hand pressure)">
+        <attvalues>
+          <attvalue for="0" value="substance" />
+          <attvalue for="1" value="41731.99900000001" />
+        </attvalues>
+      </node>
+      <node id="Plomo (polvos respirables, humos o vapores)" label="Lead (respirable dust, fumes or vapors)">
+        <attvalues>
+          <attvalue for="0" value="substance" />
+          <attvalue for="1" value="6699.4800000000005" />
+        </attvalues>
+      </node>
+      <node id="Bióxido de nitrógeno" label="Nitrogen dioxide">
+        <attvalues>
+          <attvalue for="0" value="substance" />
+          <attvalue for="1" value="3523.807" />
+        </attvalues>
+      </node>
+      <node id="Cianuro inorgánico/orgánico" label="Inorganic/organic cyanide">
+        <attvalues>
+          <attvalue for="0" value="substance" />
+          <attvalue for="1" value="3072.0261928623827" />
+        </attvalues>
+      </node>
+      <node id="Estireno (fenil etileno)" label="Styrene (phenylethylene)">
+        <attvalues>
+          <attvalue for="0" value="substance" />
+          <attvalue for="1" value="1915.0" />
+        </attvalues>
+      </node>
+      <node id="Mercurio (polvos, respirables, vapores o humos)" label="Mercury (respirable dust, vapors or fumes)">
+        <attvalues>
+          <attvalue for="0" value="substance" />
+          <attvalue for="1" value="1892.7122607789997" />
+        </attvalues>
+      </node>
+      <node id="Puebla.Tehuacán" label="Puebla.Tehuacán">
+        <attvalues>
+          <attvalue for="0" value="peer_municipio" />
+          <attvalue for="1" value="128866406.29579625" />
+        </attvalues>
+      </node>
+      <node id="Puebla.San Martín Texmelucan" label="Puebla.San Martín Texmelucan">
+        <attvalues>
+          <attvalue for="0" value="peer_municipio" />
+          <attvalue for="1" value="5510416642.899253" />
+        </attvalues>
+      </node>
+      <node id="Puebla.Cuautlancingo" label="Puebla.Cuautlancingo">
+        <attvalues>
+          <attvalue for="0" value="peer_municipio" />
+          <attvalue for="1" value="4482662043.515542" />
+        </attvalues>
+      </node>
+      <node id="Puebla.Izúcar de Matamoros" label="Puebla.Izúcar de Matamoros">
+        <attvalues>
+          <attvalue for="0" value="peer_municipio" />
+          <attvalue for="1" value="116732183.0019486" />
+        </attvalues>
+      </node>
+      <node id="Puebla.Huejotzingo" label="Puebla.Huejotzingo">
+        <attvalues>
+          <attvalue for="0" value="peer_municipio" />
+          <attvalue for="1" value="1331072365.674109" />
+        </attvalues>
+      </node>
+      <node id="Puebla.Chignautla" label="Puebla.Chignautla">
+        <attvalues>
+          <attvalue for="0" value="peer_municipio" />
+          <attvalue for="1" value="212606806.37558448" />
+        </attvalues>
+      </node>
+      <node id="Puebla.San Pedro Cholula" label="Puebla.San Pedro Cholula">
+        <attvalues>
+          <attvalue for="0" value="peer_municipio" />
+          <attvalue for="1" value="8626862.624460896" />
+        </attvalues>
+      </node>
+      <node id="Puebla.Palmar de Bravo" label="Puebla.Palmar de Bravo">
+        <attvalues>
+          <attvalue for="0" value="peer_municipio" />
+          <attvalue for="1" value="4643383772.653636" />
+        </attvalues>
+      </node>
+      <node id="Puebla.Acajete" label="Puebla.Acajete">
+        <attvalues>
+          <attvalue for="0" value="peer_municipio" />
+          <attvalue for="1" value="5301893565.784678" />
+        </attvalues>
+      </node>
+      <node id="Puebla.Coronango" label="Puebla.Coronango">
+        <attvalues>
+          <attvalue for="0" value="peer_municipio" />
+          <attvalue for="1" value="42120.7040149" />
+        </attvalues>
+      </node>
+      <node id="Puebla.Amozoc" label="Puebla.Amozoc">
+        <attvalues>
+          <attvalue for="0" value="peer_municipio" />
+          <attvalue for="1" value="272732993.4176072" />
+        </attvalues>
+      </node>
+      <node id="Puebla.San Andrés Cholula" label="Puebla.San Andrés Cholula">
+        <attvalues>
+          <attvalue for="0" value="peer_municipio" />
+          <attvalue for="1" value="661759175.2632177" />
+        </attvalues>
+      </node>
+      <node id="Puebla.Santiago Miahuatlán" label="Puebla.Santiago Miahuatlán">
+        <attvalues>
+          <attvalue for="0" value="peer_municipio" />
+          <attvalue for="1" value="42420.597541" />
+        </attvalues>
+      </node>
+      <node id="Puebla.San Miguel Xoxtla" label="Puebla.San Miguel Xoxtla">
+        <attvalues>
+          <attvalue for="0" value="peer_municipio" />
+          <attvalue for="1" value="4990250078.9288845" />
+        </attvalues>
+      </node>
+      <node id="Puebla.Teziutlán" label="Puebla.Teziutlán">
+        <attvalues>
+          <attvalue for="0" value="peer_municipio" />
+          <attvalue for="1" value="277452082.42305714" />
+        </attvalues>
+      </node>
+      <node id="Puebla.Huauchinango" label="Puebla.Huauchinango">
+        <attvalues>
+          <attvalue for="0" value="peer_municipio" />
+          <attvalue for="1" value="84670284.40332428" />
+        </attvalues>
+      </node>
+      <node id="Puebla.Hueytamalco" label="Puebla.Hueytamalco">
+        <attvalues>
+          <attvalue for="0" value="peer_municipio" />
+          <attvalue for="1" value="115000004.83908843" />
+        </attvalues>
+      </node>
+      <node id="Puebla.Chietla" label="Puebla.Chietla">
+        <attvalues>
+          <attvalue for="0" value="peer_municipio" />
+          <attvalue for="1" value="2015075104.376985" />
+        </attvalues>
+      </node>
+      <node id="Puebla.Nopalucan" label="Puebla.Nopalucan">
+        <attvalues>
+          <attvalue for="0" value="peer_municipio" />
+          <attvalue for="1" value="83666277.3199482" />
+        </attvalues>
+      </node>
+      <node id="Puebla.San José Chiapa" label="Puebla.San José Chiapa">
+        <attvalues>
+          <attvalue for="0" value="peer_municipio" />
+          <attvalue for="1" value="322616779.70640004" />
+        </attvalues>
+      </node>
+      <node id="Puebla.Tepanco de López" label="Puebla.Tepanco de López">
+        <attvalues>
+          <attvalue for="0" value="peer_municipio" />
+          <attvalue for="1" value="25.9369904" />
+        </attvalues>
+      </node>
+      <node id="Puebla.Xiutetelco" label="Puebla.Xiutetelco">
+        <attvalues>
+          <attvalue for="0" value="peer_municipio" />
+          <attvalue for="1" value="225809044.4192" />
+        </attvalues>
+      </node>
+      <node id="Puebla.Chalchicomula de Sesma" label="Puebla.Chalchicomula de Sesma">
+        <attvalues>
+          <attvalue for="0" value="peer_municipio" />
+          <attvalue for="1" value="190.323123734" />
+        </attvalues>
+      </node>
+      <node id="Puebla.Cuautinchán" label="Puebla.Cuautinchán">
+        <attvalues>
+          <attvalue for="0" value="peer_municipio" />
+          <attvalue for="1" value="15164907443.624834" />
+        </attvalues>
+      </node>
+    </nodes>
+    <edges>
+      <edge source="Puebla.Puebla" target="Bióxido de carbono" id="0" weight="623379558642.6276" />
+      <edge source="Puebla.Puebla" target="Metano" id="1" weight="1122058.0600960702" />
+      <edge source="Puebla.Puebla" target="Plomo (Compuestos solubles)" id="2" weight="209478.93640739037" />
+      <edge source="Puebla.Puebla" target="Xileno (mezcla de isómeros)" id="3" weight="88488.082" />
+      <edge source="Puebla.Puebla" target="Plomo (compuestos)" id="4" weight="84560.17696167156" />
+      <edge source="Puebla.Puebla" target="Níquel (compuestos)" id="5" weight="53838.838035325" />
+      <edge source="Puebla.Puebla" target="Cromo (compuestos)" id="6" weight="52293.2608027197" />
+      <edge source="Puebla.Puebla" target="Cromo (Compuestos solubles)" id="7" weight="47265.30717472155" />
+      <edge source="Puebla.Puebla" target="Níquel (Compuestos solubles)" id="8" weight="46322.16206246645" />
+      <edge source="Puebla.Puebla" target="Asbesto y sus formas (En forma de polvo, fibras o productos desmenuzables con la presión de la mano)" id="9" weight="41731.99900000001" />
+      <edge source="Puebla.Puebla" target="Plomo (polvos respirables, humos o vapores)" id="10" weight="6699.4800000000005" />
+      <edge source="Puebla.Puebla" target="Bióxido de nitrógeno" id="11" weight="3523.807" />
+      <edge source="Puebla.Puebla" target="Cianuro inorgánico/orgánico" id="12" weight="3072.0261928623827" />
+      <edge source="Puebla.Puebla" target="Estireno (fenil etileno)" id="13" weight="1915.0" />
+      <edge source="Puebla.Puebla" target="Mercurio (polvos, respirables, vapores o humos)" id="14" weight="1892.7122607789997" />
+      <edge source="Bióxido de carbono" target="Puebla.Tehuacán" id="15" weight="128862628.0" />
+      <edge source="Bióxido de carbono" target="Puebla.San Martín Texmelucan" id="16" weight="5510240190.567063" />
+      <edge source="Bióxido de carbono" target="Puebla.Cuautlancingo" id="17" weight="4480236073.970201" />
+      <edge source="Bióxido de carbono" target="Puebla.Izúcar de Matamoros" id="18" weight="116703679.8162" />
+      <edge source="Bióxido de carbono" target="Puebla.Huejotzingo" id="19" weight="1331068024.8243303" />
+      <edge source="Bióxido de carbono" target="Puebla.Chignautla" id="20" weight="212601908.4" />
+      <edge source="Bióxido de carbono" target="Puebla.San Pedro Cholula" id="21" weight="8626850.6" />
+      <edge source="Bióxido de carbono" target="Puebla.Palmar de Bravo" id="22" weight="4643383658.733" />
+      <edge source="Bióxido de carbono" target="Puebla.Acajete" id="23" weight="5301667053.0" />
+      <edge source="Bióxido de carbono" target="Puebla.Coronango" id="24" weight="41189.982616" />
+      <edge source="Bióxido de carbono" target="Puebla.Amozoc" id="25" weight="266447045.39" />
+      <edge source="Bióxido de carbono" target="Puebla.San Andrés Cholula" id="26" weight="661747342.7721" />
+      <edge source="Bióxido de carbono" target="Puebla.Santiago Miahuatlán" id="27" weight="42418.0" />
+      <edge source="Bióxido de carbono" target="Puebla.San Miguel Xoxtla" id="28" weight="4990242228.894157" />
+      <edge source="Bióxido de carbono" target="Puebla.Teziutlán" id="29" weight="277451931.53000003" />
+      <edge source="Bióxido de carbono" target="Puebla.Huauchinango" id="30" weight="84653195.56" />
+      <edge source="Bióxido de carbono" target="Puebla.Hueytamalco" id="31" weight="115000000.0" />
+      <edge source="Bióxido de carbono" target="Puebla.Chietla" id="32" weight="2014927881.0505" />
+      <edge source="Bióxido de carbono" target="Puebla.Nopalucan" id="33" weight="83666274.159" />
+      <edge source="Bióxido de carbono" target="Puebla.San José Chiapa" id="34" weight="322181385.7655" />
+      <edge source="Bióxido de carbono" target="Puebla.Xiutetelco" id="35" weight="225808829.1" />
+      <edge source="Bióxido de carbono" target="Puebla.Chalchicomula de Sesma" id="36" weight="0.000123734" />
+      <edge source="Bióxido de carbono" target="Puebla.Cuautinchán" id="37" weight="15164902000.0" />
+      <edge source="Metano" target="Puebla.San Martín Texmelucan" id="38" weight="45102.981900000006" />
+      <edge source="Metano" target="Puebla.Amozoc" id="39" weight="6285776.0" />
+      <edge source="Metano" target="Puebla.San Andrés Cholula" id="40" weight="11614.46" />
+      <edge source="Metano" target="Puebla.Huauchinango" id="41" weight="17013.0" />
+      <edge source="Metano" target="Puebla.Chietla" id="42" weight="143616.58" />
+      <edge source="Plomo (Compuestos solubles)" target="Puebla.Tehuacán" id="43" weight="517.07739" />
+      <edge source="Plomo (Compuestos solubles)" target="Puebla.San Martín Texmelucan" id="44" weight="976.6005999999999" />
+      <edge source="Plomo (Compuestos solubles)" target="Puebla.Cuautlancingo" id="45" weight="355273.81531" />
+      <edge source="Plomo (Compuestos solubles)" target="Puebla.Izúcar de Matamoros" id="46" weight="97.69758825" />
+      <edge source="Plomo (Compuestos solubles)" target="Puebla.Huejotzingo" id="47" weight="1636.86990881" />
+      <edge source="Plomo (Compuestos solubles)" target="Puebla.Chignautla" id="48" weight="21.634475000000002" />
+      <edge source="Plomo (Compuestos solubles)" target="Puebla.San Pedro Cholula" id="49" weight="0.247804" />
+      <edge source="Plomo (Compuestos solubles)" target="Puebla.Palmar de Bravo" id="50" weight="0.168795" />
+      <edge source="Plomo (Compuestos solubles)" target="Puebla.Acajete" id="51" weight="0.2516" />
+      <edge source="Plomo (Compuestos solubles)" target="Puebla.Coronango" id="52" weight="917.7851413" />
+      <edge source="Plomo (Compuestos solubles)" target="Puebla.Amozoc" id="53" weight="7.5900430000000005" />
+      <edge source="Plomo (Compuestos solubles)" target="Puebla.San Andrés Cholula" id="54" weight="40.588522499999996" />
+      <edge source="Plomo (Compuestos solubles)" target="Puebla.Santiago Miahuatlán" id="55" weight="0.015812" />
+      <edge source="Plomo (Compuestos solubles)" target="Puebla.San Miguel Xoxtla" id="56" weight="111.05856394999999" />
+      <edge source="Plomo (Compuestos solubles)" target="Puebla.Teziutlán" id="57" weight="42.86410000000001" />
+      <edge source="Plomo (Compuestos solubles)" target="Puebla.Huauchinango" id="58" weight="3.1828" />
+      <edge source="Plomo (Compuestos solubles)" target="Puebla.Chietla" id="59" weight="370.9207" />
+      <edge source="Plomo (Compuestos solubles)" target="Puebla.San José Chiapa" id="60" weight="16462.6608" />
+      <edge source="Plomo (Compuestos solubles)" target="Puebla.Tepanco de López" id="61" weight="11.1541" />
+      <edge source="Plomo (Compuestos solubles)" target="Puebla.Xiutetelco" id="62" weight="33.4072" />
+      <edge source="Plomo (Compuestos solubles)" target="Puebla.Chalchicomula de Sesma" id="63" weight="59.5095" />
+      <edge source="Plomo (Compuestos solubles)" target="Puebla.Cuautinchán" id="64" weight="90.21295" />
+      <edge source="Xileno (mezcla de isómeros)" target="Puebla.San José Chiapa" id="65" weight="376188.26" />
+      <edge source="Plomo (compuestos)" target="Puebla.Tehuacán" id="66" weight="250.91392359243" />
+      <edge source="Plomo (compuestos)" target="Puebla.San Martín Texmelucan" id="67" weight="779.1773254879998" />
+      <edge source="Plomo (compuestos)" target="Puebla.Cuautlancingo" id="68" weight="246706.039276386" />
+      <edge source="Plomo (compuestos)" target="Puebla.Izúcar de Matamoros" id="69" weight="516.0810296429999" />
+      <edge source="Plomo (compuestos)" target="Puebla.Huejotzingo" id="70" weight="80.65826997950002" />
+      <edge source="Plomo (compuestos)" target="Puebla.Chignautla" id="71" weight="178.83359166" />
+      <edge source="Plomo (compuestos)" target="Puebla.San Pedro Cholula" id="72" weight="6.6270993607" />
+      <edge source="Plomo (compuestos)" target="Puebla.Palmar de Bravo" id="73" weight="35.77201" />
+      <edge source="Plomo (compuestos)" target="Puebla.Acajete" id="74" weight="0.5137375" />
+      <edge source="Plomo (compuestos)" target="Puebla.Coronango" id="75" weight="0.629145" />
+      <edge source="Plomo (compuestos)" target="Puebla.Amozoc" id="76" weight="4.66885831" />
+      <edge source="Plomo (compuestos)" target="Puebla.San Andrés Cholula" id="77" weight="4.66448276" />
+      <edge source="Plomo (compuestos)" target="Puebla.Santiago Miahuatlán" id="78" weight="0.043940999999999994" />
+      <edge source="Plomo (compuestos)" target="Puebla.San Miguel Xoxtla" id="79" weight="464.699394555" />
+      <edge source="Plomo (compuestos)" target="Puebla.Teziutlán" id="80" weight="22.4899237" />
+      <edge source="Plomo (compuestos)" target="Puebla.Huauchinango" id="81" weight="21.956928182842393" />
+      <edge source="Plomo (compuestos)" target="Puebla.Hueytamalco" id="82" weight="0.2688198" />
+      <edge source="Plomo (compuestos)" target="Puebla.Chietla" id="83" weight="670.5364505" />
+      <edge source="Plomo (compuestos)" target="Puebla.Tepanco de López" id="84" weight="1.0" />
+      <edge source="Plomo (compuestos)" target="Puebla.Xiutetelco" id="85" weight="8.0" />
+      <edge source="Plomo (compuestos)" target="Puebla.Chalchicomula de Sesma" id="86" weight="5.7505" />
+      <edge source="Plomo (compuestos)" target="Puebla.Cuautinchán" id="87" weight="3300.3142780000003" />
+      <edge source="Níquel (compuestos)" target="Puebla.Tehuacán" id="88" weight="426.00177329633004" />
+      <edge source="Níquel (compuestos)" target="Puebla.San Martín Texmelucan" id="89" weight="1114.9281243899998" />
+      <edge source="Níquel (compuestos)" target="Puebla.Cuautlancingo" id="90" weight="3886.9868897979995" />
+      <edge source="Níquel (compuestos)" target="Puebla.Izúcar de Matamoros" id="91" weight="351.68244199599997" />
+      <edge source="Níquel (compuestos)" target="Puebla.Huejotzingo" id="92" weight="122.42127035100003" />
+      <edge source="Níquel (compuestos)" target="Puebla.Chignautla" id="93" weight="206.8400339" />
+      <edge source="Níquel (compuestos)" target="Puebla.San Pedro Cholula" id="94" weight="1.85945481" />
+      <edge source="Níquel (compuestos)" target="Puebla.Palmar de Bravo" id="95" weight="5.181668999999999" />
+      <edge source="Níquel (compuestos)" target="Puebla.Acajete" id="96" weight="0.95265" />
+      <edge source="Níquel (compuestos)" target="Puebla.Coronango" id="97" weight="0.64821" />
+      <edge source="Níquel (compuestos)" target="Puebla.Amozoc" id="98" weight="26.70084325" />
+      <edge source="Níquel (compuestos)" target="Puebla.San Andrés Cholula" id="99" weight="11.266878413" />
+      <edge source="Níquel (compuestos)" target="Puebla.Santiago Miahuatlán" id="100" weight="0.9874950000000001" />
+      <edge source="Níquel (compuestos)" target="Puebla.San Miguel Xoxtla" id="101" weight="12.298499940000001" />
+      <edge source="Níquel (compuestos)" target="Puebla.Teziutlán" id="102" weight="17.159123" />
+      <edge source="Níquel (compuestos)" target="Puebla.Huauchinango" id="103" weight="30.262390353485" />
+      <edge source="Níquel (compuestos)" target="Puebla.Hueytamalco" id="104" weight="0.2333481" />
+      <edge source="Níquel (compuestos)" target="Puebla.Chietla" id="105" weight="1122.309451" />
+      <edge source="Níquel (compuestos)" target="Puebla.Nopalucan" id="106" weight="1.219381" />
+      <edge source="Níquel (compuestos)" target="Puebla.Tepanco de López" id="107" weight="0.70447" />
+      <edge source="Níquel (compuestos)" target="Puebla.Xiutetelco" id="108" weight="24.0" />
+      <edge source="Níquel (compuestos)" target="Puebla.Chalchicomula de Sesma" id="109" weight="10.2025" />
+      <edge source="Cromo (compuestos)" target="Puebla.Tehuacán" id="110" weight="169.39344375314002" />
+      <edge source="Cromo (compuestos)" target="Puebla.San Martín Texmelucan" id="111" weight="434.06964050000005" />
+      <edge source="Cromo (compuestos)" target="Puebla.Cuautlancingo" id="112" weight="2754.496927835999" />
+      <edge source="Cromo (compuestos)" target="Puebla.Izúcar de Matamoros" id="113" weight="40.3018542322" />
+      <edge source="Cromo (compuestos)" target="Puebla.Huejotzingo" id="114" weight="89.8199563125" />
+      <edge source="Cromo (compuestos)" target="Puebla.Chignautla" id="115" weight="198.67725876" />
+      <edge source="Cromo (compuestos)" target="Puebla.San Pedro Cholula" id="116" weight="2.196206727" />
+      <edge source="Cromo (compuestos)" target="Puebla.Palmar de Bravo" id="117" weight="64.35848100000001" />
+      <edge source="Cromo (compuestos)" target="Puebla.Acajete" id="118" weight="0.465225" />
+      <edge source="Cromo (compuestos)" target="Puebla.Coronango" id="119" weight="0.625332" />
+      <edge source="Cromo (compuestos)" target="Puebla.Amozoc" id="120" weight="10.4441233" />
+      <edge source="Cromo (compuestos)" target="Puebla.San Andrés Cholula" id="121" weight="3.5034942399999998" />
+      <edge source="Cromo (compuestos)" target="Puebla.Santiago Miahuatlán" id="122" weight="0.142035" />
+      <edge source="Cromo (compuestos)" target="Puebla.San Miguel Xoxtla" id="123" weight="2034.70447586" />
+      <edge source="Cromo (compuestos)" target="Puebla.Teziutlán" id="124" weight="2.4429141000000003" />
+      <edge source="Cromo (compuestos)" target="Puebla.Huauchinango" id="125" weight="9.729832649999999" />
+      <edge source="Cromo (compuestos)" target="Puebla.Hueytamalco" id="126" weight="0.2425551" />
+      <edge source="Cromo (compuestos)" target="Puebla.Chietla" id="127" weight="1050.5618425" />
+      <edge source="Cromo (compuestos)" target="Puebla.Nopalucan" id="128" weight="0.1712662" />
+      <edge source="Cromo (compuestos)" target="Puebla.Tepanco de López" id="129" weight="0.7045" />
+      <edge source="Cromo (compuestos)" target="Puebla.Xiutetelco" id="130" weight="21.0" />
+      <edge source="Cromo (compuestos)" target="Puebla.Chalchicomula de Sesma" id="131" weight="8.533" />
+      <edge source="Cromo (compuestos)" target="Puebla.Cuautinchán" id="132" weight="499.13532" />
+      <edge source="Cromo (Compuestos solubles)" target="Puebla.Tehuacán" id="133" weight="668.206497" />
+      <edge source="Cromo (Compuestos solubles)" target="Puebla.San Martín Texmelucan" id="134" weight="959.5866" />
+      <edge source="Cromo (Compuestos solubles)" target="Puebla.Cuautlancingo" id="135" weight="645.1344744999997" />
+      <edge source="Cromo (Compuestos solubles)" target="Puebla.Izúcar de Matamoros" id="136" weight="16.7795125" />
+      <edge source="Cromo (Compuestos solubles)" target="Puebla.Huejotzingo" id="137" weight="1642.4542635100001" />
+      <edge source="Cromo (Compuestos solubles)" target="Puebla.Chignautla" id="138" weight="112.99180000000001" />
+      <edge source="Cromo (Compuestos solubles)" target="Puebla.San Pedro Cholula" id="139" weight="0.290112" />
+      <edge source="Cromo (Compuestos solubles)" target="Puebla.Palmar de Bravo" id="140" weight="5.1039200000000005" />
+      <edge source="Cromo (Compuestos solubles)" target="Puebla.Acajete" id="141" weight="0.1114752" />
+      <edge source="Cromo (Compuestos solubles)" target="Puebla.Coronango" id="142" weight="6.8951353" />
+      <edge source="Cromo (Compuestos solubles)" target="Puebla.Amozoc" id="143" weight="15.062560000000003" />
+      <edge source="Cromo (Compuestos solubles)" target="Puebla.San Andrés Cholula" id="144" weight="31.588300000000004" />
+      <edge source="Cromo (Compuestos solubles)" target="Puebla.Santiago Miahuatlán" id="145" weight="0.031793" />
+      <edge source="Cromo (Compuestos solubles)" target="Puebla.San Miguel Xoxtla" id="146" weight="853.0686114" />
+      <edge source="Cromo (Compuestos solubles)" target="Puebla.Teziutlán" id="147" weight="10.0174" />
+      <edge source="Cromo (Compuestos solubles)" target="Puebla.Huauchinango" id="148" weight="3.1828" />
+      <edge source="Cromo (Compuestos solubles)" target="Puebla.Hueytamalco" id="149" weight="1.4761" />
+      <edge source="Cromo (Compuestos solubles)" target="Puebla.Chietla" id="150" weight="149.25940000000003" />
+      <edge source="Cromo (Compuestos solubles)" target="Puebla.San José Chiapa" id="151" weight="160.17709999999997" />
+      <edge source="Cromo (Compuestos solubles)" target="Puebla.Tepanco de López" id="152" weight="5.8891" />
+      <edge source="Cromo (Compuestos solubles)" target="Puebla.Xiutetelco" id="153" weight="93.216" />
+      <edge source="Cromo (Compuestos solubles)" target="Puebla.Chalchicomula de Sesma" id="154" weight="17.8977" />
+      <edge source="Cromo (Compuestos solubles)" target="Puebla.Cuautinchán" id="155" weight="166.18175" />
+      <edge source="Níquel (Compuestos solubles)" target="Puebla.Tehuacán" id="156" weight="1711.204712" />
+      <edge source="Níquel (Compuestos solubles)" target="Puebla.San Martín Texmelucan" id="157" weight="2203.948" />
+      <edge source="Níquel (Compuestos solubles)" target="Puebla.Cuautlancingo" id="158" weight="1321.3946455000005" />
+      <edge source="Níquel (Compuestos solubles)" target="Puebla.Izúcar de Matamoros" id="159" weight="96.4571" />
+      <edge source="Níquel (Compuestos solubles)" target="Puebla.Huejotzingo" id="160" weight="632.2527524000001" />
+      <edge source="Níquel (Compuestos solubles)" target="Puebla.Chignautla" id="161" weight="57.582249999999995" />
+      <edge source="Níquel (Compuestos solubles)" target="Puebla.San Pedro Cholula" id="162" weight="0.371706" />
+      <edge source="Níquel (Compuestos solubles)" target="Puebla.Palmar de Bravo" id="163" weight="2.548195" />
+      <edge source="Níquel (Compuestos solubles)" target="Puebla.Acajete" id="164" weight="0.1425272" />
+      <edge source="Níquel (Compuestos solubles)" target="Puebla.Coronango" id="165" weight="4.0069853" />
+      <edge source="Níquel (Compuestos solubles)" target="Puebla.Amozoc" id="166" weight="94.703568" />
+      <edge source="Níquel (Compuestos solubles)" target="Puebla.San Andrés Cholula" id="167" weight="89.515812" />
+      <edge source="Níquel (Compuestos solubles)" target="Puebla.Santiago Miahuatlán" id="168" weight="0.152898" />
+      <edge source="Níquel (Compuestos solubles)" target="Puebla.San Miguel Xoxtla" id="169" weight="111.01968374000002" />
+      <edge source="Níquel (Compuestos solubles)" target="Puebla.Teziutlán" id="170" weight="20.0348" />
+      <edge source="Níquel (Compuestos solubles)" target="Puebla.Huauchinango" id="171" weight="6.3656" />
+      <edge source="Níquel (Compuestos solubles)" target="Puebla.Hueytamalco" id="172" weight="2.5694" />
+      <edge source="Níquel (Compuestos solubles)" target="Puebla.Chietla" id="173" weight="141.8736" />
+      <edge source="Níquel (Compuestos solubles)" target="Puebla.Nopalucan" id="174" weight="1.042" />
+      <edge source="Níquel (Compuestos solubles)" target="Puebla.San José Chiapa" id="175" weight="295.33299999999997" />
+      <edge source="Níquel (Compuestos solubles)" target="Puebla.Tepanco de López" id="176" weight="6.1655" />
+      <edge source="Níquel (Compuestos solubles)" target="Puebla.Xiutetelco" id="177" weight="23.696" />
+      <edge source="Níquel (Compuestos solubles)" target="Puebla.Chalchicomula de Sesma" id="178" weight="86.01830000000001" />
+      <edge source="Asbesto y sus formas (En forma de polvo, fibras o productos desmenuzables con la presión de la mano)" target="Puebla.San Martín Texmelucan" id="179" weight="1570.0" />
+      <edge source="Asbesto y sus formas (En forma de polvo, fibras o productos desmenuzables con la presión de la mano)" target="Puebla.Huejotzingo" id="180" weight="115.0" />
+      <edge source="Asbesto y sus formas (En forma de polvo, fibras o productos desmenuzables con la presión de la mano)" target="Puebla.San Andrés Cholula" id="181" weight="36.0" />
+      <edge source="Plomo (polvos respirables, humos o vapores)" target="Puebla.Cuautlancingo" id="182" weight="50022.8704" />
+      <edge source="Plomo (polvos respirables, humos o vapores)" target="Puebla.Huejotzingo" id="183" weight="5.627990834226001" />
+      <edge source="Plomo (polvos respirables, humos o vapores)" target="Puebla.San Miguel Xoxtla" id="184" weight="4081.941125363" />
+      <edge source="Plomo (polvos respirables, humos o vapores)" target="Puebla.Teziutlán" id="185" weight="29.263" />
+      <edge source="Plomo (polvos respirables, humos o vapores)" target="Puebla.San José Chiapa" id="186" weight="42205.83" />
+      <edge source="Plomo (polvos respirables, humos o vapores)" target="Puebla.Cuautinchán" id="187" weight="368.37157280199995" />
+      <edge source="Bióxido de nitrógeno" target="Puebla.Cuautlancingo" id="188" weight="1758720.0" />
+      <edge source="Bióxido de nitrógeno" target="Puebla.Acajete" id="189" weight="226510.0" />
+      <edge source="Cianuro inorgánico/orgánico" target="Puebla.Tehuacán" id="190" weight="34.82663860468" />
+      <edge source="Cianuro inorgánico/orgánico" target="Puebla.San Martín Texmelucan" id="191" weight="123308.526163044" />
+      <edge source="Cianuro inorgánico/orgánico" target="Puebla.Cuautlancingo" id="192" weight="6570.932492286" />
+      <edge source="Cianuro inorgánico/orgánico" target="Puebla.Izúcar de Matamoros" id="193" weight="27382.861425040002" />
+      <edge source="Cianuro inorgánico/orgánico" target="Puebla.Huejotzingo" id="194" weight="12.064447973999997" />
+      <edge source="Cianuro inorgánico/orgánico" target="Puebla.Chignautla" id="195" weight="4119.93410408" />
+      <edge source="Cianuro inorgánico/orgánico" target="Puebla.San Pedro Cholula" id="196" weight="0.43207799999999996" />
+      <edge source="Cianuro inorgánico/orgánico" target="Puebla.Palmar de Bravo" id="197" weight="0.787566" />
+      <edge source="Cianuro inorgánico/orgánico" target="Puebla.Acajete" id="198" weight="0.3421438" />
+      <edge source="Cianuro inorgánico/orgánico" target="Puebla.Coronango" id="199" weight="0.13145" />
+      <edge source="Cianuro inorgánico/orgánico" target="Puebla.Amozoc" id="200" weight="12.800976549999998" />
+      <edge source="Cianuro inorgánico/orgánico" target="Puebla.San Andrés Cholula" id="201" weight="0.9036278497" />
+      <edge source="Cianuro inorgánico/orgánico" target="Puebla.Santiago Miahuatlán" id="202" weight="1.223567" />
+      <edge source="Cianuro inorgánico/orgánico" target="Puebla.San Miguel Xoxtla" id="203" weight="3.9155194460000002" />
+      <edge source="Cianuro inorgánico/orgánico" target="Puebla.Teziutlán" id="204" weight="3.3016635" />
+      <edge source="Cianuro inorgánico/orgánico" target="Puebla.Huauchinango" id="205" weight="1.1621700043033998" />
+      <edge source="Cianuro inorgánico/orgánico" target="Puebla.Hueytamalco" id="206" weight="0.048359900000000004" />
+      <edge source="Cianuro inorgánico/orgánico" target="Puebla.Chietla" id="207" weight="93.94735924999999" />
+      <edge source="Cianuro inorgánico/orgánico" target="Puebla.Nopalucan" id="208" weight="0.71624" />
+      <edge source="Cianuro inorgánico/orgánico" target="Puebla.Tepanco de López" id="209" weight="0.3193204" />
+      <edge source="Cianuro inorgánico/orgánico" target="Puebla.Xiutetelco" id="210" weight="12.0" />
+      <edge source="Cianuro inorgánico/orgánico" target="Puebla.Chalchicomula de Sesma" id="211" weight="2.4115" />
+      <edge source="Mercurio (polvos, respirables, vapores o humos)" target="Puebla.Tehuacán" id="212" weight="0.67141799981" />
+      <edge source="Mercurio (polvos, respirables, vapores o humos)" target="Puebla.San Martín Texmelucan" id="213" weight="2.5138364423999997" />
+      <edge source="Mercurio (polvos, respirables, vapores o humos)" target="Puebla.Cuautlancingo" id="214" weight="67.8749247648" />
+      <edge source="Mercurio (polvos, respirables, vapores o humos)" target="Puebla.Izúcar de Matamoros" id="215" weight="1.324796933" />
+      <edge source="Mercurio (polvos, respirables, vapores o humos)" target="Puebla.Huejotzingo" id="216" weight="3.6809185837959992" />
+      <edge source="Mercurio (polvos, respirables, vapores o humos)" target="Puebla.Chignautla" id="217" weight="1.4820710800000003" />
+      <edge source="Mercurio (polvos, respirables, vapores o humos)" target="Puebla.Acajete" id="218" weight="0.00532" />
+      <edge source="Mercurio (polvos, respirables, vapores o humos)" target="Puebla.Amozoc" id="219" weight="0.0566348" />
+      <edge source="Mercurio (polvos, respirables, vapores o humos)" target="Puebla.San Miguel Xoxtla" id="220" weight="177.328853" />
+      <edge source="Mercurio (polvos, respirables, vapores o humos)" target="Puebla.Teziutlán" id="221" weight="3.3201327999999997" />
+      <edge source="Mercurio (polvos, respirables, vapores o humos)" target="Puebla.Huauchinango" id="222" weight="0.000803088" />
+      <edge source="Mercurio (polvos, respirables, vapores o humos)" target="Puebla.Hueytamalco" id="223" weight="0.00050553" />
+      <edge source="Mercurio (polvos, respirables, vapores o humos)" target="Puebla.Chietla" id="224" weight="7.337682000000001" />
+      <edge source="Mercurio (polvos, respirables, vapores o humos)" target="Puebla.Nopalucan" id="225" weight="0.012061" />
+      <edge source="Mercurio (polvos, respirables, vapores o humos)" target="Puebla.San José Chiapa" id="226" weight="81.68" />
+      <edge source="Mercurio (polvos, respirables, vapores o humos)" target="Puebla.Cuautinchán" id="227" weight="1019.4089634960001" />
+    </edges>
+  </graph>
+</gexf>

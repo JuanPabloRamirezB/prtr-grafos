@@ -7,39 +7,26 @@ geographic proximity.
 import csv
 import math
 import os
+import sys
 
 import networkx as nx
 import numpy as np
 
 HERE = os.path.dirname(os.path.abspath(__file__))
 SRC = os.path.join(HERE, "..", "..", "..", "prtr_raw_for_stori_stori.csv")
-STATE_FILTER = "Tamaulipas"
+STATE_FILTER = sys.argv[1] if len(sys.argv) > 1 else "Tamaulipas"
+OUT_DIR = sys.argv[2] if len(sys.argv) > 2 else HERE
 SIM_THRESHOLD = 0.7
 
-# Approximate municipal-seat coordinates (lat, lon) - public geography,
-# schematic accuracy (not survey-grade), enough to place nodes on a real map.
-COORDS = {
-    "Altamira": (22.3958, -97.9333),
-    "Valle Hermoso": (25.6667, -97.8667),
-    "Reynosa": (26.0922, -98.2853),
-    "Ciudad Madero": (22.2667, -97.8333),
-    "Río Bravo": (25.9836, -98.1006),
-    "Xicoténcatl": (22.9964, -98.9439),
-    "El Mante": (22.7333, -98.9833),
-    "Nuevo Laredo": (27.4764, -99.5164),
-    "Tampico": (22.2331, -97.8614),
-    "Matamoros": (25.8697, -97.5044),
-    "Soto la Marina": (23.7683, -98.2103),
-    "Miguel Alemán": (26.3975, -99.0261),
-    "Mier": (26.4306, -99.1503),
-    "Victoria": (23.7369, -99.1411),
-    "Antiguo Morelos": (22.5667, -99.1167),
-    "San Fernando": (24.85, -98.1667),
-    "Hidalgo": (24.2667, -99.1167),
-    "Llera": (23.3167, -99.0167),
-    "Jaumave": (23.4167, -99.3833),
-    "Camargo": (26.2667, -98.8167),
-}
+# Municipal-seat coordinates (lat, lon) from INEGI (via poblacion_municipios.csv:
+# clave_entidad,entidad,clave_municipio,municipio,longitud,latitud,poblacion).
+# Matched by (state, municipio) name text, same convention as the rest of this
+# codebase (PRTR's own `spatial` column is text, not INEGI numeric codes).
+COORDS = {}
+with open(os.path.join(HERE, "..", "..", "..", "poblacion_municipios.csv"), encoding="utf-8") as f:
+    for row in csv.DictReader(f):
+        if row["entidad"] == STATE_FILTER:
+            COORDS[row["municipio"]] = (float(row["latitud"]), float(row["longitud"]))
 
 CAT_COLORS = ["#2a78d6", "#eb6834", "#1baf7a", "#eda100", "#e87ba4", "#008300", "#4a3aa7", "#e34948"]
 
@@ -100,6 +87,6 @@ for i, comm in enumerate(communities):
         G.nodes[n]["color_hex"] = color
 
 print(f"Nodes: {G.number_of_nodes()}  Edges: {G.number_of_edges()}  Communities: {len(communities)}")
-out = os.path.join(HERE, "municipio_geo.gexf")
+out = os.path.join(OUT_DIR, "municipio_geo.gexf")
 nx.write_gexf(G, out)
 print(f"Written {out}")

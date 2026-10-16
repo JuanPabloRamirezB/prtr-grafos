@@ -1,0 +1,58 @@
+<?xml version='1.0' encoding='utf-8'?>
+<gexf xmlns="http://www.gexf.net/1.2draft" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.gexf.net/1.2draft http://www.gexf.net/1.2draft/gexf.xsd" version="1.2">
+  <meta lastmodifieddate="2026-10-16">
+    <creator>NetworkX 3.7</creator>
+  </meta>
+  <graph defaultedgetype="undirected" mode="static" name="">
+    <attributes mode="static" class="node">
+      <attribute id="0" title="total_kg" type="double" />
+    </attributes>
+    <nodes>
+      <node id="Quintana Roo.Benito Juárez" label="Quintana Roo.Benito Juárez">
+        <attvalues>
+          <attvalue for="0" value="5671045826.475272" />
+        </attvalues>
+      </node>
+      <node id="Quintana Roo.Cozumel" label="Quintana Roo.Cozumel">
+        <attvalues>
+          <attvalue for="0" value="941849408.1594731" />
+        </attvalues>
+      </node>
+      <node id="Quintana Roo.Othón P" label="Quintana Roo.Othón P">
+        <attvalues>
+          <attvalue for="0" value="302525016.6044866" />
+        </attvalues>
+      </node>
+      <node id="Quintana Roo.Solidaridad" label="Quintana Roo.Solidaridad">
+        <attvalues>
+          <attvalue for="0" value="10346275621.92804" />
+        </attvalues>
+      </node>
+      <node id="Quintana Roo.Isla Mujeres" label="Quintana Roo.Isla Mujeres">
+        <attvalues>
+          <attvalue for="0" value="266.78396527096" />
+        </attvalues>
+      </node>
+      <node id="Quintana Roo.Tulum" label="Quintana Roo.Tulum">
+        <attvalues>
+          <attvalue for="0" value="5820.91078" />
+        </attvalues>
+      </node>
+      <node id="Quintana Roo.Lázaro Cárdenas" label="Quintana Roo.Lázaro Cárdenas">
+        <attvalues>
+          <attvalue for="0" value="38045581.6464" />
+        </attvalues>
+      </node>
+    </nodes>
+    <edges>
+      <edge source="Quintana Roo.Benito Juárez" target="Quintana Roo.Cozumel" id="0" weight="0.7045113180505276" />
+      <edge source="Quintana Roo.Benito Juárez" target="Quintana Roo.Othón P" id="1" weight="0.8509155345017986" />
+      <edge source="Quintana Roo.Benito Juárez" target="Quintana Roo.Solidaridad" id="2" weight="0.8474456347685969" />
+      <edge source="Quintana Roo.Cozumel" target="Quintana Roo.Othón P" id="3" weight="0.831255992533624" />
+      <edge source="Quintana Roo.Cozumel" target="Quintana Roo.Solidaridad" id="4" weight="0.9125105499563253" />
+      <edge source="Quintana Roo.Othón P" target="Quintana Roo.Lázaro Cárdenas" id="5" weight="0.7447260959851612" />
+      <edge source="Quintana Roo.Othón P" target="Quintana Roo.Solidaridad" id="6" weight="0.8007568690640723" />
+      <edge source="Quintana Roo.Isla Mujeres" target="Quintana Roo.Tulum" id="7" weight="0.7949989867251416" />
+    </edges>
+  </graph>
+</gexf>

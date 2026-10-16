@@ -1,0 +1,2983 @@
+<?xml version='1.0' encoding='utf-8'?>
+<gexf xmlns="http://www.gexf.net/1.2draft" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.gexf.net/1.2draft http://www.gexf.net/1.2draft/gexf.xsd" version="1.2">
+  <meta lastmodifieddate="2026-10-16">
+    <creator>NetworkX 3.7</creator>
+  </meta>
+  <graph defaultedgetype="undirected" mode="static" name="">
+    <attributes mode="static" class="edge">
+      <attribute id="2" title="count" type="long" />
+    </attributes>
+    <attributes mode="static" class="node">
+      <attribute id="0" title="type" type="string" />
+      <attribute id="1" title="total_kg" type="double" />
+    </attributes>
+    <nodes>
+      <node id="LOC::Puebla.Puebla" label="Puebla.Puebla">
+        <attvalues>
+          <attvalue for="0" value="location" />
+          <attvalue for="1" value="623381329060.2341" />
+        </attvalues>
+      </node>
+      <node id="LOC::Puebla.Tehuacán" label="Puebla.Tehuacán">
+        <attvalues>
+          <attvalue for="0" value="location" />
+          <attvalue for="1" value="128866634.58764638" />
+        </attvalues>
+      </node>
+      <node id="LOC::Puebla.San Martín Texmelucan" label="Puebla.San Martín Texmelucan">
+        <attvalues>
+          <attvalue for="0" value="location" />
+          <attvalue for="1" value="5510417720.69564" />
+        </attvalues>
+      </node>
+      <node id="LOC::Puebla.Cuautlancingo" label="Puebla.Cuautlancingo">
+        <attvalues>
+          <attvalue for="0" value="location" />
+          <attvalue for="1" value="4482922732.244853" />
+        </attvalues>
+      </node>
+      <node id="LOC::Puebla.Izúcar de Matamoros" label="Puebla.Izúcar de Matamoros">
+        <attvalues>
+          <attvalue for="0" value="location" />
+          <attvalue for="1" value="116738148.72054796" />
+        </attvalues>
+      </node>
+      <node id="LOC::Puebla.Huejotzingo" label="Puebla.Huejotzingo">
+        <attvalues>
+          <attvalue for="0" value="location" />
+          <attvalue for="1" value="1331078943.391755" />
+        </attvalues>
+      </node>
+      <node id="LOC::Puebla.Chignautla" label="Puebla.Chignautla">
+        <attvalues>
+          <attvalue for="0" value="location" />
+          <attvalue for="1" value="226600575.92339113" />
+        </attvalues>
+      </node>
+      <node id="LOC::Puebla.San Pedro Cholula" label="Puebla.San Pedro Cholula">
+        <attvalues>
+          <attvalue for="0" value="location" />
+          <attvalue for="1" value="8626863.07201347" />
+        </attvalues>
+      </node>
+      <node id="LOC::Puebla.Palmar de Bravo" label="Puebla.Palmar de Bravo">
+        <attvalues>
+          <attvalue for="0" value="location" />
+          <attvalue for="1" value="4643383773.469312" />
+        </attvalues>
+      </node>
+      <node id="LOC::Puebla.Acajete" label="Puebla.Acajete">
+        <attvalues>
+          <attvalue for="0" value="location" />
+          <attvalue for="1" value="5301893566.166964" />
+        </attvalues>
+      </node>
+      <node id="LOC::Puebla.Coronango" label="Puebla.Coronango">
+        <attvalues>
+          <attvalue for="0" value="location" />
+          <attvalue for="1" value="42121.01508000001" />
+        </attvalues>
+      </node>
+      <node id="LOC::Puebla.Amozoc" label="Puebla.Amozoc">
+        <attvalues>
+          <attvalue for="0" value="location" />
+          <attvalue for="1" value="272732996.46117187" />
+        </attvalues>
+      </node>
+      <node id="LOC::Puebla.San Andrés Cholula" label="Puebla.San Andrés Cholula">
+        <attvalues>
+          <attvalue for="0" value="location" />
+          <attvalue for="1" value="661770151.4255655" />
+        </attvalues>
+      </node>
+      <node id="LOC::Puebla.Santiago Miahuatlán" label="Puebla.Santiago Miahuatlán">
+        <attvalues>
+          <attvalue for="0" value="location" />
+          <attvalue for="1" value="42420.981468656" />
+        </attvalues>
+      </node>
+      <node id="LOC::Puebla.Atlixco" label="Puebla.Atlixco">
+        <attvalues>
+          <attvalue for="0" value="location" />
+          <attvalue for="1" value="0.435292" />
+        </attvalues>
+      </node>
+      <node id="LOC::Puebla.San Miguel Xoxtla" label="Puebla.San Miguel Xoxtla">
+        <attvalues>
+          <attvalue for="0" value="location" />
+          <attvalue for="1" value="4990250195.348541" />
+        </attvalues>
+      </node>
+      <node id="LOC::Puebla.Teziutlán" label="Puebla.Teziutlán">
+        <attvalues>
+          <attvalue for="0" value="location" />
+          <attvalue for="1" value="277492274.56407523" />
+        </attvalues>
+      </node>
+      <node id="LOC::Puebla.Huauchinango" label="Puebla.Huauchinango">
+        <attvalues>
+          <attvalue for="0" value="location" />
+          <attvalue for="1" value="84693608.33863452" />
+        </attvalues>
+      </node>
+      <node id="LOC::Puebla.Hueytamalco" label="Puebla.Hueytamalco">
+        <attvalues>
+          <attvalue for="0" value="location" />
+          <attvalue for="1" value="115000005.01002371" />
+        </attvalues>
+      </node>
+      <node id="LOC::Puebla.Chietla" label="Puebla.Chietla">
+        <attvalues>
+          <attvalue for="0" value="location" />
+          <attvalue for="1" value="2015075365.6295025" />
+        </attvalues>
+      </node>
+      <node id="LOC::Puebla.Nopalucan" label="Puebla.Nopalucan">
+        <attvalues>
+          <attvalue for="0" value="location" />
+          <attvalue for="1" value="83666277.41402398" />
+        </attvalues>
+      </node>
+      <node id="LOC::Puebla.Rafael Lara Grajales" label="Puebla.Rafael Lara Grajales">
+        <attvalues>
+          <attvalue for="0" value="location" />
+          <attvalue for="1" value="205377575.28170004" />
+        </attvalues>
+      </node>
+      <node id="LOC::Puebla.Atzala" label="Puebla.Atzala">
+        <attvalues>
+          <attvalue for="0" value="location" />
+          <attvalue for="1" value="36.7452" />
+        </attvalues>
+      </node>
+      <node id="LOC::Puebla.San José Chiapa" label="Puebla.San José Chiapa">
+        <attvalues>
+          <attvalue for="0" value="location" />
+          <attvalue for="1" value="322630267.9154001" />
+        </attvalues>
+      </node>
+      <node id="LOC::Puebla.Juan C" label="Puebla.Juan C">
+        <attvalues>
+          <attvalue for="0" value="location" />
+          <attvalue for="1" value="0.4727" />
+        </attvalues>
+      </node>
+      <node id="LOC::Puebla.Tepanco de López" label="Puebla.Tepanco de López">
+        <attvalues>
+          <attvalue for="0" value="location" />
+          <attvalue for="1" value="27.365319000000003" />
+        </attvalues>
+      </node>
+      <node id="LOC::Puebla.Tlacotepec de Benito Juárez" label="Puebla.Tlacotepec de Benito Juárez">
+        <attvalues>
+          <attvalue for="0" value="location" />
+          <attvalue for="1" value="1.5589215" />
+        </attvalues>
+      </node>
+      <node id="LOC::Puebla.Xiutetelco" label="Puebla.Xiutetelco">
+        <attvalues>
+          <attvalue for="0" value="location" />
+          <attvalue for="1" value="234211469.37160397" />
+        </attvalues>
+      </node>
+      <node id="LOC::Puebla.San Salvador el Verde" label="Puebla.San Salvador el Verde">
+        <attvalues>
+          <attvalue for="0" value="location" />
+          <attvalue for="1" value="60590.51385296" />
+        </attvalues>
+      </node>
+      <node id="LOC::Puebla.Chalchicomula de Sesma" label="Puebla.Chalchicomula de Sesma">
+        <attvalues>
+          <attvalue for="0" value="location" />
+          <attvalue for="1" value="195.75527373400004" />
+        </attvalues>
+      </node>
+      <node id="LOC::Puebla.Cuautinchán" label="Puebla.Cuautinchán">
+        <attvalues>
+          <attvalue for="0" value="location" />
+          <attvalue for="1" value="15165083283.841045" />
+        </attvalues>
+      </node>
+      <node id="LOC::Puebla.Tepeyahualco" label="Puebla.Tepeyahualco">
+        <attvalues>
+          <attvalue for="0" value="location" />
+          <attvalue for="1" value="30295.58" />
+        </attvalues>
+      </node>
+      <node id="LOC::Puebla.Tecali de Herrera" label="Puebla.Tecali de Herrera">
+        <attvalues>
+          <attvalue for="0" value="location" />
+          <attvalue for="1" value="5346298.0" />
+        </attvalues>
+      </node>
+      <node id="LOC::Puebla.Ahuazotepec" label="Puebla.Ahuazotepec">
+        <attvalues>
+          <attvalue for="0" value="location" />
+          <attvalue for="1" value="84185121.1354" />
+        </attvalues>
+      </node>
+      <node id="LOC::Puebla.Tlahuapan" label="Puebla.Tlahuapan">
+        <attvalues>
+          <attvalue for="0" value="location" />
+          <attvalue for="1" value="788546.8055000001" />
+        </attvalues>
+      </node>
+      <node id="LOC::Puebla.Tepeaca" label="Puebla.Tepeaca">
+        <attvalues>
+          <attvalue for="0" value="location" />
+          <attvalue for="1" value="24896282.5" />
+        </attvalues>
+      </node>
+      <node id="LOC::Puebla.Yehualtepec" label="Puebla.Yehualtepec">
+        <attvalues>
+          <attvalue for="0" value="location" />
+          <attvalue for="1" value="16414872.0852" />
+        </attvalues>
+      </node>
+      <node id="LOC::Puebla.San Salvador Huixcolotla" label="Puebla.San Salvador Huixcolotla">
+        <attvalues>
+          <attvalue for="0" value="location" />
+          <attvalue for="1" value="40099702.625299975" />
+        </attvalues>
+      </node>
+      <node id="LOC::Puebla.Oriental" label="Puebla.Oriental">
+        <attvalues>
+          <attvalue for="0" value="location" />
+          <attvalue for="1" value="282172.0" />
+        </attvalues>
+      </node>
+      <node id="LOC::Puebla.Xicotepec" label="Puebla.Xicotepec">
+        <attvalues>
+          <attvalue for="0" value="location" />
+          <attvalue for="1" value="53414.002" />
+        </attvalues>
+      </node>
+      <node id="SUB::Cromo (Compuestos solubles)" label="Chromium (soluble compounds)">
+        <attvalues>
+          <attvalue for="0" value="substance" />
+          <attvalue for="1" value="52972.77597913159" />
+        </attvalues>
+      </node>
+      <node id="SUB::Mercurio (Compuestos solubles)" label="Mercury (soluble compounds)">
+        <attvalues>
+          <attvalue for="0" value="substance" />
+          <attvalue for="1" value="81.02559571649999" />
+        </attvalues>
+      </node>
+      <node id="SUB::Níquel (Compuestos solubles)" label="Nickel (soluble compounds)">
+        <attvalues>
+          <attvalue for="0" value="substance" />
+          <attvalue for="1" value="53395.30429760645" />
+        </attvalues>
+      </node>
+      <node id="SUB::Plomo (Compuestos solubles)" label="Lead (soluble compounds)">
+        <attvalues>
+          <attvalue for="0" value="substance" />
+          <attvalue for="1" value="586403.3243712004" />
+        </attvalues>
+      </node>
+      <node id="SUB::Cianuro inorgánico/orgánico" label="Inorganic/organic cyanide">
+        <attvalues>
+          <attvalue for="0" value="substance" />
+          <attvalue for="1" value="164635.87520759113" />
+        </attvalues>
+      </node>
+      <node id="SUB::Arsénico (polvos, respirables, vapores o humos)" label="Arsenic (respirable dust, vapors or fumes)">
+        <attvalues>
+          <attvalue for="0" value="substance" />
+          <attvalue for="1" value="15374.018486082672" />
+        </attvalues>
+      </node>
+      <node id="SUB::Cadmio (polvos, respirables, vapores o humos)" label="Cadmium (respirable dust, vapors or fumes)">
+        <attvalues>
+          <attvalue for="0" value="substance" />
+          <attvalue for="1" value="2958.985059137054" />
+        </attvalues>
+      </node>
+      <node id="SUB::Fenol" label="Phenol">
+        <attvalues>
+          <attvalue for="0" value="substance" />
+          <attvalue for="1" value="120.146276" />
+        </attvalues>
+      </node>
+      <node id="SUB::Piridina" label="Pyridine">
+        <attvalues>
+          <attvalue for="0" value="substance" />
+          <attvalue for="1" value="345.4176" />
+        </attvalues>
+      </node>
+      <node id="SUB::Níquel (compuestos)" label="Nickel (compounds)">
+        <attvalues>
+          <attvalue for="0" value="substance" />
+          <attvalue for="1" value="61214.40184292282" />
+        </attvalues>
+      </node>
+      <node id="SUB::Arsénico (compuestos)" label="Arsenic (compounds)">
+        <attvalues>
+          <attvalue for="0" value="substance" />
+          <attvalue for="1" value="58.778102999387016" />
+        </attvalues>
+      </node>
+      <node id="SUB::Plomo (compuestos)" label="Lead (compounds)">
+        <attvalues>
+          <attvalue for="0" value="substance" />
+          <attvalue for="1" value="337620.79620148905" />
+        </attvalues>
+      </node>
+      <node id="SUB::Mercurio (compuestos)" label="Mercury (compounds)">
+        <attvalues>
+          <attvalue for="0" value="substance" />
+          <attvalue for="1" value="113.52043507927037" />
+        </attvalues>
+      </node>
+      <node id="SUB::Cromo (compuestos)" label="Chromium (compounds)">
+        <attvalues>
+          <attvalue for="0" value="substance" />
+          <attvalue for="1" value="59696.00886379054" />
+        </attvalues>
+      </node>
+      <node id="SUB::Cadmio (compuestos)" label="Cadmium (compounds)">
+        <attvalues>
+          <attvalue for="0" value="substance" />
+          <attvalue for="1" value="157.5059788897901" />
+        </attvalues>
+      </node>
+      <node id="SUB::Mercurio (polvos, respirables, vapores o humos)" label="Mercury (respirable dust, vapors or fumes)">
+        <attvalues>
+          <attvalue for="0" value="substance" />
+          <attvalue for="1" value="3259.411182296806" />
+        </attvalues>
+      </node>
+      <node id="SUB::Benceno" label="Benzene">
+        <attvalues>
+          <attvalue for="0" value="substance" />
+          <attvalue for="1" value="406127.50894580985" />
+        </attvalues>
+      </node>
+      <node id="SUB::Plomo (polvos respirables, humos o vapores)" label="Lead (respirable dust, fumes or vapors)">
+        <attvalues>
+          <attvalue for="0" value="substance" />
+          <attvalue for="1" value="103413.38408899923" />
+        </attvalues>
+      </node>
+      <node id="SUB::Níquel (polvos respirables, humos o vapores)" label="Nickel (respirable dust, fumes or vapors)">
+        <attvalues>
+          <attvalue for="0" value="substance" />
+          <attvalue for="1" value="6154.347273394431" />
+        </attvalues>
+      </node>
+      <node id="SUB::Cromo (polvos respirables, humos o vapores)" label="Chromium (respirable dust, fumes or vapors)">
+        <attvalues>
+          <attvalue for="0" value="substance" />
+          <attvalue for="1" value="1122.3519887180062" />
+        </attvalues>
+      </node>
+      <node id="SUB::Arsénico (Compuestos solubles)" label="Arsenic (soluble compounds)">
+        <attvalues>
+          <attvalue for="0" value="substance" />
+          <attvalue for="1" value="9054.008899999999" />
+        </attvalues>
+      </node>
+      <node id="SUB::Cadmio (Compuestos solubles)" label="Cadmium (soluble compounds)">
+        <attvalues>
+          <attvalue for="0" value="substance" />
+          <attvalue for="1" value="41918.5717" />
+        </attvalues>
+      </node>
+      <node id="SUB::Oxido nitroso" label="Nitrous oxide">
+        <attvalues>
+          <attvalue for="0" value="substance" />
+          <attvalue for="1" value="12264.68" />
+        </attvalues>
+      </node>
+      <node id="SUB::Bióxido de carbono" label="Carbon dioxide">
+        <attvalues>
+          <attvalue for="0" value="substance" />
+          <attvalue for="1" value="669697594748.6796" />
+        </attvalues>
+      </node>
+      <node id="SUB::Bióxido de nitrógeno" label="Nitrogen dioxide">
+        <attvalues>
+          <attvalue for="0" value="substance" />
+          <attvalue for="1" value="1988753.807" />
+        </attvalues>
+      </node>
+      <node id="SUB::Acido sulfhídrico" label="Hydrogen sulfide">
+        <attvalues>
+          <attvalue for="0" value="substance" />
+          <attvalue for="1" value="22372792.67" />
+        </attvalues>
+      </node>
+      <node id="SUB::Dioxinas" label="Dioxins">
+        <attvalues>
+          <attvalue for="0" value="substance" />
+          <attvalue for="1" value="0.00884974103386" />
+        </attvalues>
+      </node>
+      <node id="SUB::Furanos" label="Furans">
+        <attvalues>
+          <attvalue for="0" value="substance" />
+          <attvalue for="1" value="0.00860361200000207" />
+        </attvalues>
+      </node>
+      <node id="SUB::Hidrofluorocarbonos" label="Hydrofluorocarbons">
+        <attvalues>
+          <attvalue for="0" value="substance" />
+          <attvalue for="1" value="19581.508" />
+        </attvalues>
+      </node>
+      <node id="SUB::Formaldehido" label="Formaldehyde">
+        <attvalues>
+          <attvalue for="0" value="substance" />
+          <attvalue for="1" value="23188.202927554845" />
+        </attvalues>
+      </node>
+      <node id="SUB::1,4-Diclorobenceno" label="1,4-Dichlorobenzene">
+        <attvalues>
+          <attvalue for="0" value="substance" />
+          <attvalue for="1" value="0.23046" />
+        </attvalues>
+      </node>
+      <node id="SUB::Acetaldehido" label="Acetaldehyde">
+        <attvalues>
+          <attvalue for="0" value="substance" />
+          <attvalue for="1" value="2179.186303442802" />
+        </attvalues>
+      </node>
+      <node id="SUB::Acroleina" label="Acrolein">
+        <attvalues>
+          <attvalue for="0" value="substance" />
+          <attvalue for="1" value="4.06928086545095" />
+        </attvalues>
+      </node>
+      <node id="SUB::Clorodifluorometano (HCFC-22)" label="Chlorodifluoromethane (HCFC-22)">
+        <attvalues>
+          <attvalue for="0" value="substance" />
+          <attvalue for="1" value="6549.2" />
+        </attvalues>
+      </node>
+      <node id="SUB::Metano" label="Methane">
+        <attvalues>
+          <attvalue for="0" value="substance" />
+          <attvalue for="1" value="7625181.081996069" />
+        </attvalues>
+      </node>
+      <node id="SUB::Xileno (mezcla de isómeros)" label="Xylene (mixture of isomers)">
+        <attvalues>
+          <attvalue for="0" value="substance" />
+          <attvalue for="1" value="464676.342" />
+        </attvalues>
+      </node>
+      <node id="SUB::Metileno bis(fenilisocianato)" label="Methylene bis(phenyl isocyanate) (MDI)">
+        <attvalues>
+          <attvalue for="0" value="substance" />
+          <attvalue for="1" value="13754.04" />
+        </attvalues>
+      </node>
+      <node id="SUB::Estireno (fenil etileno)" label="Styrene (phenylethylene)">
+        <attvalues>
+          <attvalue for="0" value="substance" />
+          <attvalue for="1" value="1915.0" />
+        </attvalues>
+      </node>
+      <node id="SUB::1,2-Diclorobenceno" label="1,2-Dichlorobenzene">
+        <attvalues>
+          <attvalue for="0" value="substance" />
+          <attvalue for="1" value="0.02040092" />
+        </attvalues>
+      </node>
+      <node id="SUB::Bifenilos policlorados" label="Polychlorinated biphenyls (PCBs)">
+        <attvalues>
+          <attvalue for="0" value="substance" />
+          <attvalue for="1" value="3078.48" />
+        </attvalues>
+      </node>
+      <node id="SUB::Asbesto y sus formas (En forma de polvo, fibras o productos desmenuzables con la presión de la mano)" label="Asbestos and its forms (as dust, fibers or friable products that crumble under hand pressure)">
+        <attvalues>
+          <attvalue for="0" value="substance" />
+          <attvalue for="1" value="43452.99900000001" />
+        </attvalues>
+      </node>
+      <node id="SUB::Cloruro de metileno" label="Methylene chloride">
+        <attvalues>
+          <attvalue for="0" value="substance" />
+          <attvalue for="1" value="40.0" />
+        </attvalues>
+      </node>
+      <node id="SUB::Acido 2,4 Diclorofenoxiacetico" label="2,4-Dichlorophenoxyacetic acid (2,4-D)">
+        <attvalues>
+          <attvalue for="0" value="substance" />
+          <attvalue for="1" value="114.0" />
+        </attvalues>
+      </node>
+      <node id="SUB::Metil paration" label="Methyl parathion">
+        <attvalues>
+          <attvalue for="0" value="substance" />
+          <attvalue for="1" value="5117.0" />
+        </attvalues>
+      </node>
+    </nodes>
+    <edges>
+      <edge source="LOC::Puebla.Puebla" target="SUB::Cromo (Compuestos solubles)" id="0" weight="47265.30717472155">
+        <attvalues>
+          <attvalue for="2" value="120" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Puebla.Puebla" target="SUB::Mercurio (Compuestos solubles)" id="1" weight="28.8916512105">
+        <attvalues>
+          <attvalue for="2" value="23" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Puebla.Puebla" target="SUB::Níquel (Compuestos solubles)" id="2" weight="46322.16206246645">
+        <attvalues>
+          <attvalue for="2" value="147" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Puebla.Puebla" target="SUB::Plomo (Compuestos solubles)" id="3" weight="209478.93640739037">
+        <attvalues>
+          <attvalue for="2" value="112" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Puebla.Puebla" target="SUB::Cianuro inorgánico/orgánico" id="4" weight="3072.0261928623827">
+        <attvalues>
+          <attvalue for="2" value="150" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Puebla.Puebla" target="SUB::Arsénico (polvos, respirables, vapores o humos)" id="5" weight="157.60508178762007">
+        <attvalues>
+          <attvalue for="2" value="128" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Puebla.Puebla" target="SUB::Cadmio (polvos, respirables, vapores o humos)" id="6" weight="195.3518525801502">
+        <attvalues>
+          <attvalue for="2" value="118" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Puebla.Puebla" target="SUB::Níquel (compuestos)" id="7" weight="53838.838035325">
+        <attvalues>
+          <attvalue for="2" value="157" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Puebla.Puebla" target="SUB::Plomo (compuestos)" id="8" weight="84560.17696167156">
+        <attvalues>
+          <attvalue for="2" value="169" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Puebla.Puebla" target="SUB::Cromo (compuestos)" id="9" weight="52293.2608027197">
+        <attvalues>
+          <attvalue for="2" value="146" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Puebla.Puebla" target="SUB::Arsénico (compuestos)" id="10" weight="43.6721211083132">
+        <attvalues>
+          <attvalue for="2" value="60" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Puebla.Puebla" target="SUB::Mercurio (compuestos)" id="11" weight="25.30846589552657">
+        <attvalues>
+          <attvalue for="2" value="134" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Puebla.Puebla" target="SUB::Cadmio (compuestos)" id="12" weight="72.29730738415012">
+        <attvalues>
+          <attvalue for="2" value="56" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Puebla.Puebla" target="SUB::Mercurio (polvos, respirables, vapores o humos)" id="13" weight="1892.7122607789997">
+        <attvalues>
+          <attvalue for="2" value="34" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Puebla.Puebla" target="SUB::Fenol" id="14" weight="0.003796">
+        <attvalues>
+          <attvalue for="2" value="1" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Puebla.Puebla" target="SUB::Benceno" id="15" weight="1493.6725769362079">
+        <attvalues>
+          <attvalue for="2" value="18" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Puebla.Puebla" target="SUB::Plomo (polvos respirables, humos o vapores)" id="16" weight="6699.4800000000005">
+        <attvalues>
+          <attvalue for="2" value="6" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Puebla.Puebla" target="SUB::Níquel (polvos respirables, humos o vapores)" id="17" weight="108.95999999999998">
+        <attvalues>
+          <attvalue for="2" value="5" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Puebla.Puebla" target="SUB::Cromo (polvos respirables, humos o vapores)" id="18" weight="19.36">
+        <attvalues>
+          <attvalue for="2" value="3" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Puebla.Puebla" target="SUB::Arsénico (Compuestos solubles)" id="19" weight="147.98200000000003">
+        <attvalues>
+          <attvalue for="2" value="16" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Puebla.Puebla" target="SUB::Cadmio (Compuestos solubles)" id="20" weight="253.4748000000001">
+        <attvalues>
+          <attvalue for="2" value="45" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Puebla.Puebla" target="SUB::Oxido nitroso" id="21" weight="1418.0">
+        <attvalues>
+          <attvalue for="2" value="1" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Puebla.Puebla" target="SUB::Bióxido de carbono" id="22" weight="623379558642.6276">
+        <attvalues>
+          <attvalue for="2" value="385" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Puebla.Puebla" target="SUB::Acetaldehido" id="23" weight="66.4525156485223">
+        <attvalues>
+          <attvalue for="2" value="10" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Puebla.Puebla" target="SUB::Formaldehido" id="24" weight="1444.587184839449">
+        <attvalues>
+          <attvalue for="2" value="21" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Puebla.Puebla" target="SUB::Acroleina" id="25" weight="2.0537836994632497">
+        <attvalues>
+          <attvalue for="2" value="9" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Puebla.Puebla" target="SUB::Metano" id="26" weight="1122058.0600960702">
+        <attvalues>
+          <attvalue for="2" value="13" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Puebla.Puebla" target="SUB::Dioxinas" id="27" weight="0.0002452">
+        <attvalues>
+          <attvalue for="2" value="5" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Puebla.Puebla" target="SUB::Xileno (mezcla de isómeros)" id="28" weight="88488.082">
+        <attvalues>
+          <attvalue for="2" value="1" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Puebla.Puebla" target="SUB::Estireno (fenil etileno)" id="29" weight="1915.0">
+        <attvalues>
+          <attvalue for="2" value="2" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Puebla.Puebla" target="SUB::1,2-Diclorobenceno" id="30" weight="0.02040092">
+        <attvalues>
+          <attvalue for="2" value="5" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Puebla.Puebla" target="SUB::1,4-Diclorobenceno" id="31" weight="0.06369999999999999">
+        <attvalues>
+          <attvalue for="2" value="3" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Puebla.Puebla" target="SUB::Bióxido de nitrógeno" id="32" weight="3523.807">
+        <attvalues>
+          <attvalue for="2" value="5" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Puebla.Puebla" target="SUB::Asbesto y sus formas (En forma de polvo, fibras o productos desmenuzables con la presión de la mano)" id="33" weight="41731.99900000001">
+        <attvalues>
+          <attvalue for="2" value="23" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Puebla.Puebla" target="SUB::Bifenilos policlorados" id="34" weight="1800.0">
+        <attvalues>
+          <attvalue for="2" value="1" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Puebla.Tehuacán" target="SUB::Cromo (Compuestos solubles)" id="35" weight="668.206497">
+        <attvalues>
+          <attvalue for="2" value="12" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Puebla.Tehuacán" target="SUB::Mercurio (Compuestos solubles)" id="36" weight="0.188107">
+        <attvalues>
+          <attvalue for="2" value="3" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Puebla.Tehuacán" target="SUB::Níquel (Compuestos solubles)" id="37" weight="1711.204712">
+        <attvalues>
+          <attvalue for="2" value="13" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Puebla.Tehuacán" target="SUB::Plomo (Compuestos solubles)" id="38" weight="517.07739">
+        <attvalues>
+          <attvalue for="2" value="13" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Puebla.Tehuacán" target="SUB::Cianuro inorgánico/orgánico" id="39" weight="34.82663860468">
+        <attvalues>
+          <attvalue for="2" value="20" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Puebla.Tehuacán" target="SUB::Arsénico (polvos, respirables, vapores o humos)" id="40" weight="8.411450999810002">
+        <attvalues>
+          <attvalue for="2" value="15" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Puebla.Tehuacán" target="SUB::Cadmio (polvos, respirables, vapores o humos)" id="41" weight="63.122755999999995">
+        <attvalues>
+          <attvalue for="2" value="14" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Puebla.Tehuacán" target="SUB::Arsénico (compuestos)" id="42" weight="2.23178283">
+        <attvalues>
+          <attvalue for="2" value="6" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Puebla.Tehuacán" target="SUB::Níquel (compuestos)" id="43" weight="426.00177329633004">
+        <attvalues>
+          <attvalue for="2" value="15" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Puebla.Tehuacán" target="SUB::Plomo (compuestos)" id="44" weight="250.91392359243">
+        <attvalues>
+          <attvalue for="2" value="15" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Puebla.Tehuacán" target="SUB::Mercurio (compuestos)" id="45" weight="0.481807004">
+        <attvalues>
+          <attvalue for="2" value="13" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Puebla.Tehuacán" target="SUB::Cromo (compuestos)" id="46" weight="169.39344375314002">
+        <attvalues>
+          <attvalue for="2" value="15" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Puebla.Tehuacán" target="SUB::Cadmio (compuestos)" id="47" weight="0.7448463000000001">
+        <attvalues>
+          <attvalue for="2" value="4" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Puebla.Tehuacán" target="SUB::Mercurio (polvos, respirables, vapores o humos)" id="48" weight="0.67141799981">
+        <attvalues>
+          <attvalue for="2" value="4" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Puebla.Tehuacán" target="SUB::Cadmio (Compuestos solubles)" id="49" weight="140.097">
+        <attvalues>
+          <attvalue for="2" value="10" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Puebla.Tehuacán" target="SUB::Bióxido de carbono" id="50" weight="128862628.0">
+        <attvalues>
+          <attvalue for="2" value="7" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Puebla.Tehuacán" target="SUB::Arsénico (Compuestos solubles)" id="51" weight="13.0141">
+        <attvalues>
+          <attvalue for="2" value="2" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Puebla.San Martín Texmelucan" target="SUB::Mercurio (Compuestos solubles)" id="52" weight="13.931801999999998">
+        <attvalues>
+          <attvalue for="2" value="8" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Puebla.San Martín Texmelucan" target="SUB::Arsénico (polvos, respirables, vapores o humos)" id="53" weight="60.75777473130001">
+        <attvalues>
+          <attvalue for="2" value="34" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Puebla.San Martín Texmelucan" target="SUB::Cromo (Compuestos solubles)" id="54" weight="959.5866">
+        <attvalues>
+          <attvalue for="2" value="37" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Puebla.San Martín Texmelucan" target="SUB::Níquel (Compuestos solubles)" id="55" weight="2203.948">
+        <attvalues>
+          <attvalue for="2" value="38" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Puebla.San Martín Texmelucan" target="SUB::Plomo (Compuestos solubles)" id="56" weight="976.6005999999999">
+        <attvalues>
+          <attvalue for="2" value="32" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Puebla.San Martín Texmelucan" target="SUB::Cianuro inorgánico/orgánico" id="57" weight="123308.526163044">
+        <attvalues>
+          <attvalue for="2" value="33" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Puebla.San Martín Texmelucan" target="SUB::Cadmio (polvos, respirables, vapores o humos)" id="58" weight="71.90231759680005">
+        <attvalues>
+          <attvalue for="2" value="33" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Puebla.San Martín Texmelucan" target="SUB::Níquel (compuestos)" id="59" weight="1114.9281243899998">
+        <attvalues>
+          <attvalue for="2" value="41" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Puebla.San Martín Texmelucan" target="SUB::Cromo (compuestos)" id="60" weight="434.06964050000005">
+        <attvalues>
+          <attvalue for="2" value="41" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Puebla.San Martín Texmelucan" target="SUB::Cadmio (compuestos)" id="61" weight="44.977167349999995">
+        <attvalues>
+          <attvalue for="2" value="10" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Puebla.San Martín Texmelucan" target="SUB::Arsénico (compuestos)" id="62" weight="5.014812899999999">
+        <attvalues>
+          <attvalue for="2" value="8" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Puebla.San Martín Texmelucan" target="SUB::Plomo (compuestos)" id="63" weight="779.1773254879998">
+        <attvalues>
+          <attvalue for="2" value="43" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Puebla.San Martín Texmelucan" target="SUB::Mercurio (compuestos)" id="64" weight="53.533924855200006">
+        <attvalues>
+          <attvalue for="2" value="23" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Puebla.San Martín Texmelucan" target="SUB::Mercurio (polvos, respirables, vapores o humos)" id="65" weight="2.5138364423999997">
+        <attvalues>
+          <attvalue for="2" value="15" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Puebla.San Martín Texmelucan" target="SUB::Arsénico (Compuestos solubles)" id="66" weight="28.317899999999998">
+        <attvalues>
+          <attvalue for="2" value="10" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Puebla.San Martín Texmelucan" target="SUB::Cadmio (Compuestos solubles)" id="67" weight="432.45730000000003">
+        <attvalues>
+          <attvalue for="2" value="21" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Puebla.San Martín Texmelucan" target="SUB::Bióxido de carbono" id="68" weight="5510240190.567063">
+        <attvalues>
+          <attvalue for="2" value="67" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Puebla.San Martín Texmelucan" target="SUB::Formaldehido" id="69" weight="19.5713">
+        <attvalues>
+          <attvalue for="2" value="7" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Puebla.San Martín Texmelucan" target="SUB::1,4-Diclorobenceno" id="70" weight="0.16676000000000002">
+        <attvalues>
+          <attvalue for="2" value="5" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Puebla.San Martín Texmelucan" target="SUB::Benceno" id="71" weight="0.2703">
+        <attvalues>
+          <attvalue for="2" value="5" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Puebla.San Martín Texmelucan" target="SUB::Dioxinas" id="72" weight="9.185600000000001e-07">
+        <attvalues>
+          <attvalue for="2" value="8" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Puebla.San Martín Texmelucan" target="SUB::Níquel (polvos respirables, humos o vapores)" id="73" weight="4.658218018833">
+        <attvalues>
+          <attvalue for="2" value="3" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Puebla.San Martín Texmelucan" target="SUB::Cromo (polvos respirables, humos o vapores)" id="74" weight="2.2368117300729997">
+        <attvalues>
+          <attvalue for="2" value="2" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Puebla.San Martín Texmelucan" target="SUB::Metano" id="75" weight="45102.981900000006">
+        <attvalues>
+          <attvalue for="2" value="12" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Puebla.San Martín Texmelucan" target="SUB::Bifenilos policlorados" id="76" weight="300.0">
+        <attvalues>
+          <attvalue for="2" value="2" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Puebla.San Martín Texmelucan" target="SUB::Asbesto y sus formas (En forma de polvo, fibras o productos desmenuzables con la presión de la mano)" id="77" weight="1570.0">
+        <attvalues>
+          <attvalue for="2" value="3" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Puebla.San Martín Texmelucan" target="SUB::Cloruro de metileno" id="78" weight="40.0">
+        <attvalues>
+          <attvalue for="2" value="1" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Puebla.Cuautlancingo" target="SUB::Cromo (Compuestos solubles)" id="79" weight="645.1344744999997">
+        <attvalues>
+          <attvalue for="2" value="33" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Puebla.Cuautlancingo" target="SUB::Mercurio (Compuestos solubles)" id="80" weight="6.9911674">
+        <attvalues>
+          <attvalue for="2" value="9" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Puebla.Cuautlancingo" target="SUB::Níquel (Compuestos solubles)" id="81" weight="1321.3946455000005">
+        <attvalues>
+          <attvalue for="2" value="34" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Puebla.Cuautlancingo" target="SUB::Plomo (Compuestos solubles)" id="82" weight="355273.81531">
+        <attvalues>
+          <attvalue for="2" value="30" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Puebla.Cuautlancingo" target="SUB::Cianuro inorgánico/orgánico" id="83" weight="6570.932492286">
+        <attvalues>
+          <attvalue for="2" value="42" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Puebla.Cuautlancingo" target="SUB::Arsénico (polvos, respirables, vapores o humos)" id="84" weight="199.86824120000003">
+        <attvalues>
+          <attvalue for="2" value="30" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Puebla.Cuautlancingo" target="SUB::Cadmio (polvos, respirables, vapores o humos)" id="85" weight="1701.024172574">
+        <attvalues>
+          <attvalue for="2" value="22" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Puebla.Cuautlancingo" target="SUB::Piridina" id="86" weight="345.4176">
+        <attvalues>
+          <attvalue for="2" value="3" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Puebla.Cuautlancingo" target="SUB::Plomo (compuestos)" id="87" weight="246706.039276386">
+        <attvalues>
+          <attvalue for="2" value="40" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Puebla.Cuautlancingo" target="SUB::Arsénico (compuestos)" id="88" weight="0.8981957160000001">
+        <attvalues>
+          <attvalue for="2" value="17" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Puebla.Cuautlancingo" target="SUB::Cromo (compuestos)" id="89" weight="2754.496927835999">
+        <attvalues>
+          <attvalue for="2" value="34" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Puebla.Cuautlancingo" target="SUB::Mercurio (compuestos)" id="90" weight="24.349016676799998">
+        <attvalues>
+          <attvalue for="2" value="29" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Puebla.Cuautlancingo" target="SUB::Níquel (compuestos)" id="91" weight="3886.9868897979995">
+        <attvalues>
+          <attvalue for="2" value="35" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Puebla.Cuautlancingo" target="SUB::Cadmio (compuestos)" id="92" weight="2.1424990939999997">
+        <attvalues>
+          <attvalue for="2" value="16" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Puebla.Cuautlancingo" target="SUB::Mercurio (polvos, respirables, vapores o humos)" id="93" weight="67.8749247648">
+        <attvalues>
+          <attvalue for="2" value="16" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Puebla.Cuautlancingo" target="SUB::Cadmio (Compuestos solubles)" id="94" weight="747.7700999999998">
+        <attvalues>
+          <attvalue for="2" value="26" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Puebla.Cuautlancingo" target="SUB::Plomo (polvos respirables, humos o vapores)" id="95" weight="50022.8704">
+        <attvalues>
+          <attvalue for="2" value="3" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Puebla.Cuautlancingo" target="SUB::Níquel (polvos respirables, humos o vapores)" id="96" weight="940.6105">
+        <attvalues>
+          <attvalue for="2" value="5" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Puebla.Cuautlancingo" target="SUB::Cromo (polvos respirables, humos o vapores)" id="97" weight="159.2147">
+        <attvalues>
+          <attvalue for="2" value="2" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Puebla.Cuautlancingo" target="SUB::Arsénico (Compuestos solubles)" id="98" weight="7.9765999999999995">
+        <attvalues>
+          <attvalue for="2" value="10" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Puebla.Cuautlancingo" target="SUB::Bióxido de nitrógeno" id="99" weight="1758720.0">
+        <attvalues>
+          <attvalue for="2" value="3" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Puebla.Cuautlancingo" target="SUB::Bióxido de carbono" id="100" weight="4480236073.970201">
+        <attvalues>
+          <attvalue for="2" value="61" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Puebla.Cuautlancingo" target="SUB::Hidrofluorocarbonos" id="101" weight="19581.508">
+        <attvalues>
+          <attvalue for="2" value="8" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Puebla.Cuautlancingo" target="SUB::Formaldehido" id="102" weight="6437.4710000000005">
+        <attvalues>
+          <attvalue for="2" value="13" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Puebla.Cuautlancingo" target="SUB::Benceno" id="103" weight="223014.28630999997">
+        <attvalues>
+          <attvalue for="2" value="13" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Puebla.Cuautlancingo" target="SUB::Clorodifluorometano (HCFC-22)" id="104" weight="6549.2">
+        <attvalues>
+          <attvalue for="2" value="2" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Puebla.Cuautlancingo" target="SUB::Dioxinas" id="105" weight="0.0006">
+        <attvalues>
+          <attvalue for="2" value="2" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Puebla.Cuautlancingo" target="SUB::Furanos" id="106" weight="0.0006">
+        <attvalues>
+          <attvalue for="2" value="2" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Puebla.Cuautlancingo" target="SUB::Bifenilos policlorados" id="107" weight="970.0">
+        <attvalues>
+          <attvalue for="2" value="1" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Puebla.Izúcar de Matamoros" target="SUB::Plomo (Compuestos solubles)" id="108" weight="97.69758825">
+        <attvalues>
+          <attvalue for="2" value="4" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Puebla.Izúcar de Matamoros" target="SUB::Cromo (Compuestos solubles)" id="109" weight="16.7795125">
+        <attvalues>
+          <attvalue for="2" value="3" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Puebla.Izúcar de Matamoros" target="SUB::Mercurio (Compuestos solubles)" id="110" weight="0.00604625">
+        <attvalues>
+          <attvalue for="2" value="1" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Puebla.Izúcar de Matamoros" target="SUB::Níquel (Compuestos solubles)" id="111" weight="96.4571">
+        <attvalues>
+          <attvalue for="2" value="6" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Puebla.Izúcar de Matamoros" target="SUB::Cianuro inorgánico/orgánico" id="112" weight="27382.861425040002">
+        <attvalues>
+          <attvalue for="2" value="8" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Puebla.Izúcar de Matamoros" target="SUB::Arsénico (polvos, respirables, vapores o humos)" id="113" weight="170.6831169778">
+        <attvalues>
+          <attvalue for="2" value="10" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Puebla.Izúcar de Matamoros" target="SUB::Cadmio (polvos, respirables, vapores o humos)" id="114" weight="563.2589739345">
+        <attvalues>
+          <attvalue for="2" value="7" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Puebla.Izúcar de Matamoros" target="SUB::Níquel (compuestos)" id="115" weight="351.68244199599997">
+        <attvalues>
+          <attvalue for="2" value="16" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Puebla.Izúcar de Matamoros" target="SUB::Plomo (compuestos)" id="116" weight="516.0810296429999">
+        <attvalues>
+          <attvalue for="2" value="15" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Puebla.Izúcar de Matamoros" target="SUB::Cromo (compuestos)" id="117" weight="40.3018542322">
+        <attvalues>
+          <attvalue for="2" value="9" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Puebla.Izúcar de Matamoros" target="SUB::Mercurio (polvos, respirables, vapores o humos)" id="118" weight="1.324796933">
+        <attvalues>
+          <attvalue for="2" value="2" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Puebla.Izúcar de Matamoros" target="SUB::Mercurio (compuestos)" id="119" weight="0.129067562">
+        <attvalues>
+          <attvalue for="2" value="8" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Puebla.Izúcar de Matamoros" target="SUB::Bióxido de carbono" id="120" weight="116703679.8162">
+        <attvalues>
+          <attvalue for="2" value="36" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Puebla.Izúcar de Matamoros" target="SUB::Cadmio (compuestos)" id="121" weight="0.620238">
+        <attvalues>
+          <attvalue for="2" value="3" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Puebla.Izúcar de Matamoros" target="SUB::Arsénico (compuestos)" id="122" weight="0.0211567">
+        <attvalues>
+          <attvalue for="2" value="3" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Puebla.Izúcar de Matamoros" target="SUB::Acido 2,4 Diclorofenoxiacetico" id="123" weight="114.0">
+        <attvalues>
+          <attvalue for="2" value="1" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Puebla.Izúcar de Matamoros" target="SUB::Metil paration" id="124" weight="5117.0">
+        <attvalues>
+          <attvalue for="2" value="1" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Puebla.Huejotzingo" target="SUB::Cromo (Compuestos solubles)" id="125" weight="1642.4542635100001">
+        <attvalues>
+          <attvalue for="2" value="58" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Puebla.Huejotzingo" target="SUB::Mercurio (Compuestos solubles)" id="126" weight="19.447703896">
+        <attvalues>
+          <attvalue for="2" value="9" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Puebla.Huejotzingo" target="SUB::Níquel (Compuestos solubles)" id="127" weight="632.2527524000001">
+        <attvalues>
+          <attvalue for="2" value="66" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Puebla.Huejotzingo" target="SUB::Plomo (Compuestos solubles)" id="128" weight="1636.86990881">
+        <attvalues>
+          <attvalue for="2" value="51" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Puebla.Huejotzingo" target="SUB::Cianuro inorgánico/orgánico" id="129" weight="12.064447973999997">
+        <attvalues>
+          <attvalue for="2" value="43" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Puebla.Huejotzingo" target="SUB::Arsénico (polvos, respirables, vapores o humos)" id="130" weight="5.836062561236999">
+        <attvalues>
+          <attvalue for="2" value="38" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Puebla.Huejotzingo" target="SUB::Cadmio (polvos, respirables, vapores o humos)" id="131" weight="42.448582889203">
+        <attvalues>
+          <attvalue for="2" value="35" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Puebla.Huejotzingo" target="SUB::Níquel (compuestos)" id="132" weight="122.42127035100003">
+        <attvalues>
+          <attvalue for="2" value="44" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Puebla.Huejotzingo" target="SUB::Mercurio (compuestos)" id="133" weight="0.6646199512">
+        <attvalues>
+          <attvalue for="2" value="32" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Puebla.Huejotzingo" target="SUB::Cromo (compuestos)" id="134" weight="89.8199563125">
+        <attvalues>
+          <attvalue for="2" value="43" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Puebla.Huejotzingo" target="SUB::Cadmio (compuestos)" id="135" weight="8.67701233">
+        <attvalues>
+          <attvalue for="2" value="17" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Puebla.Huejotzingo" target="SUB::Plomo (compuestos)" id="136" weight="80.65826997950002">
+        <attvalues>
+          <attvalue for="2" value="44" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Puebla.Huejotzingo" target="SUB::Arsénico (compuestos)" id="137" weight="0.43427981499999996">
+        <attvalues>
+          <attvalue for="2" value="17" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Puebla.Huejotzingo" target="SUB::Mercurio (polvos, respirables, vapores o humos)" id="138" weight="3.6809185837959992">
+        <attvalues>
+          <attvalue for="2" value="15" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Puebla.Huejotzingo" target="SUB::Arsénico (Compuestos solubles)" id="139" weight="41.096799999999995">
+        <attvalues>
+          <attvalue for="2" value="4" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Puebla.Huejotzingo" target="SUB::Cadmio (Compuestos solubles)" id="140" weight="126.80530000000002">
+        <attvalues>
+          <attvalue for="2" value="21" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Puebla.Huejotzingo" target="SUB::Bióxido de carbono" id="141" weight="1331068024.8243303">
+        <attvalues>
+          <attvalue for="2" value="60" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Puebla.Huejotzingo" target="SUB::Cromo (polvos respirables, humos o vapores)" id="142" weight="17.113999439933">
+        <attvalues>
+          <attvalue for="2" value="3" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Puebla.Huejotzingo" target="SUB::Formaldehido" id="143" weight="844.198625134121">
+        <attvalues>
+          <attvalue for="2" value="2" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Puebla.Huejotzingo" target="SUB::Níquel (polvos respirables, humos o vapores)" id="144" weight="5026.324632847598">
+        <attvalues>
+          <attvalue for="2" value="5" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Puebla.Huejotzingo" target="SUB::Plomo (polvos respirables, humos o vapores)" id="145" weight="5.627990834226001">
+        <attvalues>
+          <attvalue for="2" value="2" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Puebla.Huejotzingo" target="SUB::Dioxinas" id="146" weight="1.381347386e-05">
+        <attvalues>
+          <attvalue for="2" value="4" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Puebla.Huejotzingo" target="SUB::Furanos" id="147" weight="1.380000000206975e-05">
+        <attvalues>
+          <attvalue for="2" value="2" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Puebla.Huejotzingo" target="SUB::Fenol" id="148" weight="120.0">
+        <attvalues>
+          <attvalue for="2" value="2" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Puebla.Huejotzingo" target="SUB::Asbesto y sus formas (En forma de polvo, fibras o productos desmenuzables con la presión de la mano)" id="149" weight="115.0">
+        <attvalues>
+          <attvalue for="2" value="1" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Puebla.Huejotzingo" target="SUB::Metileno bis(fenilisocianato)" id="150" weight="324.66999999999996">
+        <attvalues>
+          <attvalue for="2" value="2" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Puebla.Chignautla" target="SUB::Cromo (Compuestos solubles)" id="151" weight="112.99180000000001">
+        <attvalues>
+          <attvalue for="2" value="4" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Puebla.Chignautla" target="SUB::Mercurio (Compuestos solubles)" id="152" weight="7.75038">
+        <attvalues>
+          <attvalue for="2" value="3" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Puebla.Chignautla" target="SUB::Níquel (Compuestos solubles)" id="153" weight="57.582249999999995">
+        <attvalues>
+          <attvalue for="2" value="4" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Puebla.Chignautla" target="SUB::Plomo (Compuestos solubles)" id="154" weight="21.634475000000002">
+        <attvalues>
+          <attvalue for="2" value="4" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Puebla.Chignautla" target="SUB::Cianuro inorgánico/orgánico" id="155" weight="4119.93410408">
+        <attvalues>
+          <attvalue for="2" value="12" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Puebla.Chignautla" target="SUB::Arsénico (polvos, respirables, vapores o humos)" id="156" weight="7319.217539159999">
+        <attvalues>
+          <attvalue for="2" value="10" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Puebla.Chignautla" target="SUB::Cadmio (polvos, respirables, vapores o humos)" id="157" weight="21.32979832">
+        <attvalues>
+          <attvalue for="2" value="10" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Puebla.Chignautla" target="SUB::Níquel (compuestos)" id="158" weight="206.8400339">
+        <attvalues>
+          <attvalue for="2" value="10" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Puebla.Chignautla" target="SUB::Cromo (compuestos)" id="159" weight="198.67725876">
+        <attvalues>
+          <attvalue for="2" value="10" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Puebla.Chignautla" target="SUB::Plomo (compuestos)" id="160" weight="178.83359166">
+        <attvalues>
+          <attvalue for="2" value="10" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Puebla.Chignautla" target="SUB::Mercurio (polvos, respirables, vapores o humos)" id="161" weight="1.4820710800000003">
+        <attvalues>
+          <attvalue for="2" value="4" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Puebla.Chignautla" target="SUB::Mercurio (compuestos)" id="162" weight="2.3678252800000004">
+        <attvalues>
+          <attvalue for="2" value="7" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Puebla.Chignautla" target="SUB::Bióxido de carbono" id="163" weight="212601908.4">
+        <attvalues>
+          <attvalue for="2" value="10" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Puebla.Chignautla" target="SUB::Acido sulfhídrico" id="164" weight="13985692.13">
+        <attvalues>
+          <attvalue for="2" value="10" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Puebla.Chignautla" target="SUB::Cadmio (compuestos)" id="165" weight="0.001776">
+        <attvalues>
+          <attvalue for="2" value="1" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Puebla.Chignautla" target="SUB::Arsénico (compuestos)" id="166" weight="0.000888">
+        <attvalues>
+          <attvalue for="2" value="1" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Puebla.Chignautla" target="SUB::Arsénico (Compuestos solubles)" id="167" weight="719.9282000000001">
+        <attvalues>
+          <attvalue for="2" value="3" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Puebla.Chignautla" target="SUB::Cadmio (Compuestos solubles)" id="168" weight="6.821400000000001">
+        <attvalues>
+          <attvalue for="2" value="3" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Puebla.San Pedro Cholula" target="SUB::Cromo (Compuestos solubles)" id="169" weight="0.290112">
+        <attvalues>
+          <attvalue for="2" value="1" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Puebla.San Pedro Cholula" target="SUB::Mercurio (Compuestos solubles)" id="170" weight="0.0048352">
+        <attvalues>
+          <attvalue for="2" value="1" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Puebla.San Pedro Cholula" target="SUB::Níquel (Compuestos solubles)" id="171" weight="0.371706">
+        <attvalues>
+          <attvalue for="2" value="1" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Puebla.San Pedro Cholula" target="SUB::Plomo (Compuestos solubles)" id="172" weight="0.247804">
+        <attvalues>
+          <attvalue for="2" value="1" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Puebla.San Pedro Cholula" target="SUB::Cianuro inorgánico/orgánico" id="173" weight="0.43207799999999996">
+        <attvalues>
+          <attvalue for="2" value="6" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Puebla.San Pedro Cholula" target="SUB::Arsénico (polvos, respirables, vapores o humos)" id="174" weight="0.197379622">
+        <attvalues>
+          <attvalue for="2" value="11" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Puebla.San Pedro Cholula" target="SUB::Cadmio (polvos, respirables, vapores o humos)" id="175" weight="0.16385490840000003">
+        <attvalues>
+          <attvalue for="2" value="8" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Puebla.San Pedro Cholula" target="SUB::Arsénico (compuestos)" id="176" weight="0.024176">
+        <attvalues>
+          <attvalue for="2" value="1" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Puebla.San Pedro Cholula" target="SUB::Cadmio (compuestos)" id="177" weight="0.036264">
+        <attvalues>
+          <attvalue for="2" value="1" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Puebla.San Pedro Cholula" target="SUB::Plomo (compuestos)" id="178" weight="6.6270993607">
+        <attvalues>
+          <attvalue for="2" value="9" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Puebla.San Pedro Cholula" target="SUB::Mercurio (compuestos)" id="179" weight="0.0210428416">
+        <attvalues>
+          <attvalue for="2" value="9" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Puebla.San Pedro Cholula" target="SUB::Níquel (compuestos)" id="180" weight="1.85945481">
+        <attvalues>
+          <attvalue for="2" value="7" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Puebla.San Pedro Cholula" target="SUB::Cromo (compuestos)" id="181" weight="2.196206727">
+        <attvalues>
+          <attvalue for="2" value="7" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Puebla.San Pedro Cholula" target="SUB::Bióxido de carbono" id="182" weight="8626850.6">
+        <attvalues>
+          <attvalue for="2" value="19" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Puebla.Palmar de Bravo" target="SUB::Cromo (Compuestos solubles)" id="183" weight="5.1039200000000005">
+        <attvalues>
+          <attvalue for="2" value="5" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Puebla.Palmar de Bravo" target="SUB::Mercurio (Compuestos solubles)" id="184" weight="0.004092">
+        <attvalues>
+          <attvalue for="2" value="1" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Puebla.Palmar de Bravo" target="SUB::Níquel (Compuestos solubles)" id="185" weight="2.548195">
+        <attvalues>
+          <attvalue for="2" value="3" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Puebla.Palmar de Bravo" target="SUB::Plomo (Compuestos solubles)" id="186" weight="0.168795">
+        <attvalues>
+          <attvalue for="2" value="1" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Puebla.Palmar de Bravo" target="SUB::Cianuro inorgánico/orgánico" id="187" weight="0.787566">
+        <attvalues>
+          <attvalue for="2" value="6" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Puebla.Palmar de Bravo" target="SUB::Arsénico (polvos, respirables, vapores o humos)" id="188" weight="0.012406">
+        <attvalues>
+          <attvalue for="2" value="2" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Puebla.Palmar de Bravo" target="SUB::Cadmio (polvos, respirables, vapores o humos)" id="189" weight="0.291319">
+        <attvalues>
+          <attvalue for="2" value="2" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Puebla.Palmar de Bravo" target="SUB::Cromo (compuestos)" id="190" weight="64.35848100000001">
+        <attvalues>
+          <attvalue for="2" value="6" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Puebla.Palmar de Bravo" target="SUB::Mercurio (compuestos)" id="191" weight="0.028440400000000005">
+        <attvalues>
+          <attvalue for="2" value="5" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Puebla.Palmar de Bravo" target="SUB::Níquel (compuestos)" id="192" weight="5.181668999999999">
+        <attvalues>
+          <attvalue for="2" value="6" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Puebla.Palmar de Bravo" target="SUB::Plomo (compuestos)" id="193" weight="35.77201">
+        <attvalues>
+          <attvalue for="2" value="6" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Puebla.Palmar de Bravo" target="SUB::Bióxido de carbono" id="194" weight="4643383658.733">
+        <attvalues>
+          <attvalue for="2" value="13" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Puebla.Palmar de Bravo" target="SUB::Furanos" id="195" weight="5.42e-08">
+        <attvalues>
+          <attvalue for="2" value="1" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Puebla.Palmar de Bravo" target="SUB::Dioxinas" id="196" weight="5.42e-08">
+        <attvalues>
+          <attvalue for="2" value="1" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Puebla.Palmar de Bravo" target="SUB::Arsénico (compuestos)" id="197" weight="0.11510203000000001">
+        <attvalues>
+          <attvalue for="2" value="4" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Puebla.Palmar de Bravo" target="SUB::Cadmio (compuestos)" id="198" weight="0.364316">
+        <attvalues>
+          <attvalue for="2" value="4" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Puebla.Acajete" target="SUB::Cromo (Compuestos solubles)" id="199" weight="0.1114752">
+        <attvalues>
+          <attvalue for="2" value="1" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Puebla.Acajete" target="SUB::Mercurio (Compuestos solubles)" id="200" weight="0.00185792">
+        <attvalues>
+          <attvalue for="2" value="1" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Puebla.Acajete" target="SUB::Níquel (Compuestos solubles)" id="201" weight="0.1425272">
+        <attvalues>
+          <attvalue for="2" value="1" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Puebla.Acajete" target="SUB::Plomo (Compuestos solubles)" id="202" weight="0.2516">
+        <attvalues>
+          <attvalue for="2" value="1" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Puebla.Acajete" target="SUB::Cianuro inorgánico/orgánico" id="203" weight="0.3421438">
+        <attvalues>
+          <attvalue for="2" value="5" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Puebla.Acajete" target="SUB::Arsénico (polvos, respirables, vapores o humos)" id="204" weight="0.16784729999999998">
+        <attvalues>
+          <attvalue for="2" value="5" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Puebla.Acajete" target="SUB::Cadmio (polvos, respirables, vapores o humos)" id="205" weight="0.130237">
+        <attvalues>
+          <attvalue for="2" value="3" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Puebla.Acajete" target="SUB::Mercurio (polvos, respirables, vapores o humos)" id="206" weight="0.00532">
+        <attvalues>
+          <attvalue for="2" value="3" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Puebla.Acajete" target="SUB::Mercurio (compuestos)" id="207" weight="0.00897874">
+        <attvalues>
+          <attvalue for="2" value="3" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Puebla.Acajete" target="SUB::Níquel (compuestos)" id="208" weight="0.95265">
+        <attvalues>
+          <attvalue for="2" value="3" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Puebla.Acajete" target="SUB::Plomo (compuestos)" id="209" weight="0.5137375">
+        <attvalues>
+          <attvalue for="2" value="3" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Puebla.Acajete" target="SUB::Cromo (compuestos)" id="210" weight="0.465225">
+        <attvalues>
+          <attvalue for="2" value="2" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Puebla.Acajete" target="SUB::Bióxido de nitrógeno" id="211" weight="226510.0">
+        <attvalues>
+          <attvalue for="2" value="1" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Puebla.Acajete" target="SUB::Bióxido de carbono" id="212" weight="5301667053.0">
+        <attvalues>
+          <attvalue for="2" value="12" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Puebla.Acajete" target="SUB::Cadmio (compuestos)" id="213" weight="0.038325">
+        <attvalues>
+          <attvalue for="2" value="1" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Puebla.Acajete" target="SUB::Arsénico (compuestos)" id="214" weight="0.03504">
+        <attvalues>
+          <attvalue for="2" value="2" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Puebla.Coronango" target="SUB::Cromo (Compuestos solubles)" id="215" weight="6.8951353">
+        <attvalues>
+          <attvalue for="2" value="6" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Puebla.Coronango" target="SUB::Mercurio (Compuestos solubles)" id="216" weight="0.010516">
+        <attvalues>
+          <attvalue for="2" value="1" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Puebla.Coronango" target="SUB::Níquel (Compuestos solubles)" id="217" weight="4.0069853">
+        <attvalues>
+          <attvalue for="2" value="2" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Puebla.Coronango" target="SUB::Plomo (Compuestos solubles)" id="218" weight="917.7851413">
+        <attvalues>
+          <attvalue for="2" value="2" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Puebla.Coronango" target="SUB::Cianuro inorgánico/orgánico" id="219" weight="0.13145">
+        <attvalues>
+          <attvalue for="2" value="1" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Puebla.Coronango" target="SUB::Arsénico (polvos, respirables, vapores o humos)" id="220" weight="0.0087111">
+        <attvalues>
+          <attvalue for="2" value="2" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Puebla.Coronango" target="SUB::Cadmio (polvos, respirables, vapores o humos)" id="221" weight="0.284212">
+        <attvalues>
+          <attvalue for="2" value="2" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Puebla.Coronango" target="SUB::Níquel (compuestos)" id="222" weight="0.64821">
+        <attvalues>
+          <attvalue for="2" value="1" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Puebla.Coronango" target="SUB::Mercurio (compuestos)" id="223" weight="0.007626">
+        <attvalues>
+          <attvalue for="2" value="1" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Puebla.Coronango" target="SUB::Plomo (compuestos)" id="224" weight="0.629145">
+        <attvalues>
+          <attvalue for="2" value="1" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Puebla.Coronango" target="SUB::Cromo (compuestos)" id="225" weight="0.625332">
+        <attvalues>
+          <attvalue for="2" value="1" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Puebla.Coronango" target="SUB::Bióxido de carbono" id="226" weight="41189.982616">
+        <attvalues>
+          <attvalue for="2" value="9" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Puebla.Amozoc" target="SUB::Cromo (Compuestos solubles)" id="227" weight="15.062560000000003">
+        <attvalues>
+          <attvalue for="2" value="10" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Puebla.Amozoc" target="SUB::Mercurio (Compuestos solubles)" id="228" weight="0.005256">
+        <attvalues>
+          <attvalue for="2" value="1" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Puebla.Amozoc" target="SUB::Níquel (Compuestos solubles)" id="229" weight="94.703568">
+        <attvalues>
+          <attvalue for="2" value="12" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Puebla.Amozoc" target="SUB::Plomo (Compuestos solubles)" id="230" weight="7.5900430000000005">
+        <attvalues>
+          <attvalue for="2" value="7" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Puebla.Amozoc" target="SUB::Cianuro inorgánico/orgánico" id="231" weight="12.800976549999998">
+        <attvalues>
+          <attvalue for="2" value="10" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Puebla.Amozoc" target="SUB::Arsénico (polvos, respirables, vapores o humos)" id="232" weight="0.70639669">
+        <attvalues>
+          <attvalue for="2" value="7" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Puebla.Amozoc" target="SUB::Cadmio (polvos, respirables, vapores o humos)" id="233" weight="0.8240179200000002">
+        <attvalues>
+          <attvalue for="2" value="7" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Puebla.Amozoc" target="SUB::Arsénico (compuestos)" id="234" weight="0.625445">
+        <attvalues>
+          <attvalue for="2" value="3" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Puebla.Amozoc" target="SUB::Cadmio (compuestos)" id="235" weight="0.7847500000000001">
+        <attvalues>
+          <attvalue for="2" value="3" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Puebla.Amozoc" target="SUB::Cromo (compuestos)" id="236" weight="10.4441233">
+        <attvalues>
+          <attvalue for="2" value="7" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Puebla.Amozoc" target="SUB::Mercurio (compuestos)" id="237" weight="0.09769873">
+        <attvalues>
+          <attvalue for="2" value="7" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Puebla.Amozoc" target="SUB::Níquel (compuestos)" id="238" weight="26.70084325">
+        <attvalues>
+          <attvalue for="2" value="9" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Puebla.Amozoc" target="SUB::Plomo (compuestos)" id="239" weight="4.66885831">
+        <attvalues>
+          <attvalue for="2" value="9" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Puebla.Amozoc" target="SUB::Mercurio (polvos, respirables, vapores o humos)" id="240" weight="0.0566348">
+        <attvalues>
+          <attvalue for="2" value="3" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Puebla.Amozoc" target="SUB::Bióxido de carbono" id="241" weight="266447045.39">
+        <attvalues>
+          <attvalue for="2" value="30" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Puebla.Amozoc" target="SUB::Metano" id="242" weight="6285776.0">
+        <attvalues>
+          <attvalue for="2" value="7" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Puebla.San Andrés Cholula" target="SUB::Mercurio (Compuestos solubles)" id="243" weight="2.4454208">
+        <attvalues>
+          <attvalue for="2" value="3" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Puebla.San Andrés Cholula" target="SUB::Níquel (Compuestos solubles)" id="244" weight="89.515812">
+        <attvalues>
+          <attvalue for="2" value="19" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Puebla.San Andrés Cholula" target="SUB::Plomo (Compuestos solubles)" id="245" weight="40.588522499999996">
+        <attvalues>
+          <attvalue for="2" value="15" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Puebla.San Andrés Cholula" target="SUB::Cianuro inorgánico/orgánico" id="246" weight="0.9036278497">
+        <attvalues>
+          <attvalue for="2" value="11" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Puebla.San Andrés Cholula" target="SUB::Arsénico (polvos, respirables, vapores o humos)" id="247" weight="0.1964532183">
+        <attvalues>
+          <attvalue for="2" value="9" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Puebla.San Andrés Cholula" target="SUB::Cadmio (polvos, respirables, vapores o humos)" id="248" weight="1.472853446">
+        <attvalues>
+          <attvalue for="2" value="7" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Puebla.San Andrés Cholula" target="SUB::Cromo (Compuestos solubles)" id="249" weight="31.588300000000004">
+        <attvalues>
+          <attvalue for="2" value="11" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Puebla.San Andrés Cholula" target="SUB::Mercurio (compuestos)" id="250" weight="0.7378701778699999">
+        <attvalues>
+          <attvalue for="2" value="9" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Puebla.San Andrés Cholula" target="SUB::Plomo (compuestos)" id="251" weight="4.66448276">
+        <attvalues>
+          <attvalue for="2" value="8" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Puebla.San Andrés Cholula" target="SUB::Níquel (compuestos)" id="252" weight="11.266878413">
+        <attvalues>
+          <attvalue for="2" value="8" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Puebla.San Andrés Cholula" target="SUB::Cromo (compuestos)" id="253" weight="3.5034942399999998">
+        <attvalues>
+          <attvalue for="2" value="6" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Puebla.San Andrés Cholula" target="SUB::Bióxido de carbono" id="254" weight="661747342.7721">
+        <attvalues>
+          <attvalue for="2" value="36" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Puebla.San Andrés Cholula" target="SUB::Oxido nitroso" id="255" weight="10846.68">
+        <attvalues>
+          <attvalue for="2" value="3" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Puebla.San Andrés Cholula" target="SUB::Metano" id="256" weight="11614.46">
+        <attvalues>
+          <attvalue for="2" value="3" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Puebla.San Andrés Cholula" target="SUB::Arsénico (compuestos)" id="257" weight="1.75415">
+        <attvalues>
+          <attvalue for="2" value="3" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Puebla.San Andrés Cholula" target="SUB::Cadmio (compuestos)" id="258" weight="0.353">
+        <attvalues>
+          <attvalue for="2" value="2" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Puebla.San Andrés Cholula" target="SUB::Asbesto y sus formas (En forma de polvo, fibras o productos desmenuzables con la presión de la mano)" id="259" weight="36.0">
+        <attvalues>
+          <attvalue for="2" value="4" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Puebla.San Andrés Cholula" target="SUB::Formaldehido" id="260" weight="111.2652">
+        <attvalues>
+          <attvalue for="2" value="2" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Puebla.San Andrés Cholula" target="SUB::Arsénico (Compuestos solubles)" id="261" weight="6.1707">
+        <attvalues>
+          <attvalue for="2" value="2" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Puebla.San Andrés Cholula" target="SUB::Cadmio (Compuestos solubles)" id="262" weight="5.0867">
+        <attvalues>
+          <attvalue for="2" value="2" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Puebla.Santiago Miahuatlán" target="SUB::Cromo (Compuestos solubles)" id="263" weight="0.031793">
+        <attvalues>
+          <attvalue for="2" value="1" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Puebla.Santiago Miahuatlán" target="SUB::Mercurio (Compuestos solubles)" id="264" weight="0.000207">
+        <attvalues>
+          <attvalue for="2" value="1" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Puebla.Santiago Miahuatlán" target="SUB::Níquel (Compuestos solubles)" id="265" weight="0.152898">
+        <attvalues>
+          <attvalue for="2" value="1" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Puebla.Santiago Miahuatlán" target="SUB::Plomo (Compuestos solubles)" id="266" weight="0.015812">
+        <attvalues>
+          <attvalue for="2" value="1" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Puebla.Santiago Miahuatlán" target="SUB::Cianuro inorgánico/orgánico" id="267" weight="1.223567">
+        <attvalues>
+          <attvalue for="2" value="6" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Puebla.Santiago Miahuatlán" target="SUB::Arsénico (polvos, respirables, vapores o humos)" id="268" weight="0.0037982">
+        <attvalues>
+          <attvalue for="2" value="5" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Puebla.Santiago Miahuatlán" target="SUB::Cadmio (polvos, respirables, vapores o humos)" id="269" weight="0.042281">
+        <attvalues>
+          <attvalue for="2" value="5" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Puebla.Santiago Miahuatlán" target="SUB::Mercurio (compuestos)" id="270" weight="0.0035296">
+        <attvalues>
+          <attvalue for="2" value="5" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Puebla.Santiago Miahuatlán" target="SUB::Plomo (compuestos)" id="271" weight="0.043940999999999994">
+        <attvalues>
+          <attvalue for="2" value="5" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Puebla.Santiago Miahuatlán" target="SUB::Níquel (compuestos)" id="272" weight="0.9874950000000001">
+        <attvalues>
+          <attvalue for="2" value="5" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Puebla.Santiago Miahuatlán" target="SUB::Cromo (compuestos)" id="273" weight="0.142035">
+        <attvalues>
+          <attvalue for="2" value="5" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Puebla.Santiago Miahuatlán" target="SUB::Bióxido de carbono" id="274" weight="42418.0">
+        <attvalues>
+          <attvalue for="2" value="7" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Puebla.Santiago Miahuatlán" target="SUB::Benceno" id="275" weight="0.1658068736307">
+        <attvalues>
+          <attvalue for="2" value="5" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Puebla.Santiago Miahuatlán" target="SUB::Formaldehido" id="276" weight="0.006108620622899999">
+        <attvalues>
+          <attvalue for="2" value="5" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Puebla.Santiago Miahuatlán" target="SUB::Acetaldehido" id="277" weight="0.1368151957602">
+        <attvalues>
+          <attvalue for="2" value="5" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Puebla.Santiago Miahuatlán" target="SUB::Acroleina" id="278" weight="0.015497165987699998">
+        <attvalues>
+          <attvalue for="2" value="5" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Puebla.Santiago Miahuatlán" target="SUB::Arsénico (compuestos)" id="279" weight="0.000464">
+        <attvalues>
+          <attvalue for="2" value="1" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Puebla.Santiago Miahuatlán" target="SUB::Cadmio (compuestos)" id="280" weight="0.009420000000000001">
+        <attvalues>
+          <attvalue for="2" value="2" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Puebla.Atlixco" target="SUB::Plomo (Compuestos solubles)" id="281" weight="0.02496">
+        <attvalues>
+          <attvalue for="2" value="1" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Puebla.Atlixco" target="SUB::Fenol" id="282" weight="0.14248">
+        <attvalues>
+          <attvalue for="2" value="2" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Puebla.Atlixco" target="SUB::Plomo (compuestos)" id="283" weight="0.096564">
+        <attvalues>
+          <attvalue for="2" value="2" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Puebla.Atlixco" target="SUB::Cadmio (compuestos)" id="284" weight="0.005616">
+        <attvalues>
+          <attvalue for="2" value="1" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Puebla.Atlixco" target="SUB::Cromo (compuestos)" id="285" weight="0.065988">
+        <attvalues>
+          <attvalue for="2" value="1" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Puebla.Atlixco" target="SUB::Mercurio (compuestos)" id="286" weight="0.001404">
+        <attvalues>
+          <attvalue for="2" value="1" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Puebla.Atlixco" target="SUB::Níquel (compuestos)" id="287" weight="0.07722">
+        <attvalues>
+          <attvalue for="2" value="1" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Puebla.Atlixco" target="SUB::Arsénico (compuestos)" id="288" weight="0.002808">
+        <attvalues>
+          <attvalue for="2" value="1" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Puebla.Atlixco" target="SUB::Cianuro inorgánico/orgánico" id="289" weight="0.018252">
+        <attvalues>
+          <attvalue for="2" value="1" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Puebla.San Miguel Xoxtla" target="SUB::Cromo (Compuestos solubles)" id="290" weight="853.0686114">
+        <attvalues>
+          <attvalue for="2" value="33" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Puebla.San Miguel Xoxtla" target="SUB::Mercurio (Compuestos solubles)" id="291" weight="0.01315304">
+        <attvalues>
+          <attvalue for="2" value="1" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Puebla.San Miguel Xoxtla" target="SUB::Níquel (Compuestos solubles)" id="292" weight="111.01968374000002">
+        <attvalues>
+          <attvalue for="2" value="29" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Puebla.San Miguel Xoxtla" target="SUB::Plomo (Compuestos solubles)" id="293" weight="111.05856394999999">
+        <attvalues>
+          <attvalue for="2" value="24" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Puebla.San Miguel Xoxtla" target="SUB::Cianuro inorgánico/orgánico" id="294" weight="3.9155194460000002">
+        <attvalues>
+          <attvalue for="2" value="11" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Puebla.San Miguel Xoxtla" target="SUB::Arsénico (polvos, respirables, vapores o humos)" id="295" weight="1.049924505">
+        <attvalues>
+          <attvalue for="2" value="9" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Puebla.San Miguel Xoxtla" target="SUB::Cadmio (polvos, respirables, vapores o humos)" id="296" weight="21.288894251000002">
+        <attvalues>
+          <attvalue for="2" value="15" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Puebla.San Miguel Xoxtla" target="SUB::Plomo (compuestos)" id="297" weight="464.699394555">
+        <attvalues>
+          <attvalue for="2" value="14" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Puebla.San Miguel Xoxtla" target="SUB::Níquel (compuestos)" id="298" weight="12.298499940000001">
+        <attvalues>
+          <attvalue for="2" value="10" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Puebla.San Miguel Xoxtla" target="SUB::Arsénico (compuestos)" id="299" weight="0.1666404">
+        <attvalues>
+          <attvalue for="2" value="2" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Puebla.San Miguel Xoxtla" target="SUB::Mercurio (compuestos)" id="300" weight="0.310039595">
+        <attvalues>
+          <attvalue for="2" value="7" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Puebla.San Miguel Xoxtla" target="SUB::Cromo (compuestos)" id="301" weight="2034.70447586">
+        <attvalues>
+          <attvalue for="2" value="19" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Puebla.San Miguel Xoxtla" target="SUB::Cadmio (compuestos)" id="302" weight="0.19021725">
+        <attvalues>
+          <attvalue for="2" value="2" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Puebla.San Miguel Xoxtla" target="SUB::Mercurio (polvos, respirables, vapores o humos)" id="303" weight="177.328853">
+        <attvalues>
+          <attvalue for="2" value="8" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Puebla.San Miguel Xoxtla" target="SUB::Arsénico (Compuestos solubles)" id="304" weight="8.2958">
+        <attvalues>
+          <attvalue for="2" value="2" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Puebla.San Miguel Xoxtla" target="SUB::Bióxido de carbono" id="305" weight="4990242228.894157">
+        <attvalues>
+          <attvalue for="2" value="38" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Puebla.San Miguel Xoxtla" target="SUB::Níquel (polvos respirables, humos o vapores)" id="306" weight="39.043922528">
+        <attvalues>
+          <attvalue for="2" value="7" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Puebla.San Miguel Xoxtla" target="SUB::Cromo (polvos respirables, humos o vapores)" id="307" weight="26.020265018000003">
+        <attvalues>
+          <attvalue for="2" value="7" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Puebla.San Miguel Xoxtla" target="SUB::Plomo (polvos respirables, humos o vapores)" id="308" weight="4081.941125363">
+        <attvalues>
+          <attvalue for="2" value="10" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Puebla.San Miguel Xoxtla" target="SUB::Bifenilos policlorados" id="309" weight="8.48">
+        <attvalues>
+          <attvalue for="2" value="1" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Puebla.San Miguel Xoxtla" target="SUB::Cadmio (Compuestos solubles)" id="310" weight="11.5608">
+        <attvalues>
+          <attvalue for="2" value="4" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Puebla.Teziutlán" target="SUB::Cromo (compuestos)" id="311" weight="2.4429141000000003">
+        <attvalues>
+          <attvalue for="2" value="4" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Puebla.Teziutlán" target="SUB::Plomo (compuestos)" id="312" weight="22.4899237">
+        <attvalues>
+          <attvalue for="2" value="6" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Puebla.Teziutlán" target="SUB::Níquel (compuestos)" id="313" weight="17.159123">
+        <attvalues>
+          <attvalue for="2" value="5" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Puebla.Teziutlán" target="SUB::Cianuro inorgánico/orgánico" id="314" weight="3.3016635">
+        <attvalues>
+          <attvalue for="2" value="4" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Puebla.Teziutlán" target="SUB::Mercurio (polvos, respirables, vapores o humos)" id="315" weight="3.3201327999999997">
+        <attvalues>
+          <attvalue for="2" value="5" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Puebla.Teziutlán" target="SUB::Arsénico (polvos, respirables, vapores o humos)" id="316" weight="12.9498365">
+        <attvalues>
+          <attvalue for="2" value="5" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Puebla.Teziutlán" target="SUB::Cadmio (polvos, respirables, vapores o humos)" id="317" weight="10.149184">
+        <attvalues>
+          <attvalue for="2" value="2" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Puebla.Teziutlán" target="SUB::Cadmio (compuestos)" id="318" weight="0.33005999999999996">
+        <attvalues>
+          <attvalue for="2" value="2" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Puebla.Teziutlán" target="SUB::Mercurio (compuestos)" id="319" weight="0.029691000000000002">
+        <attvalues>
+          <attvalue for="2" value="2" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Puebla.Teziutlán" target="SUB::Arsénico (compuestos)" id="320" weight="0.0342465">
+        <attvalues>
+          <attvalue for="2" value="2" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Puebla.Teziutlán" target="SUB::Plomo (Compuestos solubles)" id="321" weight="42.86410000000001">
+        <attvalues>
+          <attvalue for="2" value="5" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Puebla.Teziutlán" target="SUB::Bióxido de carbono" id="322" weight="277451931.53000003">
+        <attvalues>
+          <attvalue for="2" value="7" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Puebla.Teziutlán" target="SUB::Cromo (polvos respirables, humos o vapores)" id="323" weight="60.291">
+        <attvalues>
+          <attvalue for="2" value="2" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Puebla.Teziutlán" target="SUB::Níquel (polvos respirables, humos o vapores)" id="324" weight="34.75">
+        <attvalues>
+          <attvalue for="2" value="1" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Puebla.Teziutlán" target="SUB::Plomo (polvos respirables, humos o vapores)" id="325" weight="29.263">
+        <attvalues>
+          <attvalue for="2" value="2" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Puebla.Teziutlán" target="SUB::Cadmio (Compuestos solubles)" id="326" weight="40073.606999999996">
+        <attvalues>
+          <attvalue for="2" value="2" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Puebla.Teziutlán" target="SUB::Cromo (Compuestos solubles)" id="327" weight="10.0174">
+        <attvalues>
+          <attvalue for="2" value="1" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Puebla.Teziutlán" target="SUB::Níquel (Compuestos solubles)" id="328" weight="20.0348">
+        <attvalues>
+          <attvalue for="2" value="2" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Puebla.Huauchinango" target="SUB::Níquel (compuestos)" id="329" weight="30.262390353485">
+        <attvalues>
+          <attvalue for="2" value="11" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Puebla.Huauchinango" target="SUB::Plomo (compuestos)" id="330" weight="21.956928182842393">
+        <attvalues>
+          <attvalue for="2" value="9" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Puebla.Huauchinango" target="SUB::Mercurio (compuestos)" id="331" weight="0.8604310000738">
+        <attvalues>
+          <attvalue for="2" value="6" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Puebla.Huauchinango" target="SUB::Cianuro inorgánico/orgánico" id="332" weight="1.1621700043033998">
+        <attvalues>
+          <attvalue for="2" value="7" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Puebla.Huauchinango" target="SUB::Arsénico (compuestos)" id="333" weight="0.0451330000738">
+        <attvalues>
+          <attvalue for="2" value="3" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Puebla.Huauchinango" target="SUB::Cadmio (compuestos)" id="334" weight="0.15943818164">
+        <attvalues>
+          <attvalue for="2" value="5" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Puebla.Huauchinango" target="SUB::Cromo (compuestos)" id="335" weight="9.729832649999999">
+        <attvalues>
+          <attvalue for="2" value="10" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Puebla.Huauchinango" target="SUB::Cadmio (polvos, respirables, vapores o humos)" id="336" weight="0.5721147900000001">
+        <attvalues>
+          <attvalue for="2" value="7" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Puebla.Huauchinango" target="SUB::Arsénico (polvos, respirables, vapores o humos)" id="337" weight="0.5977117056000001">
+        <attvalues>
+          <attvalue for="2" value="4" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Puebla.Huauchinango" target="SUB::Formaldehido" id="338" weight="14331.103508960641">
+        <attvalues>
+          <attvalue for="2" value="12" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Puebla.Huauchinango" target="SUB::Benceno" id="339" weight="6876.0">
+        <attvalues>
+          <attvalue for="2" value="3" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Puebla.Huauchinango" target="SUB::Acetaldehido" id="340" weight="2112.5969725985196">
+        <attvalues>
+          <attvalue for="2" value="10" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Puebla.Huauchinango" target="SUB::Bióxido de carbono" id="341" weight="84653195.56">
+        <attvalues>
+          <attvalue for="2" value="5" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Puebla.Huauchinango" target="SUB::Acroleina" id="342" weight="2.0">
+        <attvalues>
+          <attvalue for="2" value="1" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Puebla.Huauchinango" target="SUB::Metano" id="343" weight="17013.0">
+        <attvalues>
+          <attvalue for="2" value="2" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Puebla.Huauchinango" target="SUB::Mercurio (polvos, respirables, vapores o humos)" id="344" weight="0.000803088">
+        <attvalues>
+          <attvalue for="2" value="1" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Puebla.Huauchinango" target="SUB::Cromo (Compuestos solubles)" id="345" weight="3.1828">
+        <attvalues>
+          <attvalue for="2" value="2" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Puebla.Huauchinango" target="SUB::Níquel (Compuestos solubles)" id="346" weight="6.3656">
+        <attvalues>
+          <attvalue for="2" value="2" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Puebla.Huauchinango" target="SUB::Plomo (Compuestos solubles)" id="347" weight="3.1828">
+        <attvalues>
+          <attvalue for="2" value="2" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Puebla.Hueytamalco" target="SUB::Cianuro inorgánico/orgánico" id="348" weight="0.048359900000000004">
+        <attvalues>
+          <attvalue for="2" value="2" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Puebla.Hueytamalco" target="SUB::Mercurio (polvos, respirables, vapores o humos)" id="349" weight="0.00050553">
+        <attvalues>
+          <attvalue for="2" value="1" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Puebla.Hueytamalco" target="SUB::Arsénico (polvos, respirables, vapores o humos)" id="350" weight="2.466e-05">
+        <attvalues>
+          <attvalue for="2" value="1" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Puebla.Hueytamalco" target="SUB::Cadmio (polvos, respirables, vapores o humos)" id="351" weight="0.0064116">
+        <attvalues>
+          <attvalue for="2" value="1" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Puebla.Hueytamalco" target="SUB::Cromo (compuestos)" id="352" weight="0.2425551">
+        <attvalues>
+          <attvalue for="2" value="2" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Puebla.Hueytamalco" target="SUB::Níquel (compuestos)" id="353" weight="0.2333481">
+        <attvalues>
+          <attvalue for="2" value="2" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Puebla.Hueytamalco" target="SUB::Plomo (compuestos)" id="354" weight="0.2688198">
+        <attvalues>
+          <attvalue for="2" value="2" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Puebla.Hueytamalco" target="SUB::Bióxido de carbono" id="355" weight="115000000.0">
+        <attvalues>
+          <attvalue for="2" value="5" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Puebla.Hueytamalco" target="SUB::Mercurio (compuestos)" id="356" weight="0.008798">
+        <attvalues>
+          <attvalue for="2" value="1" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Puebla.Hueytamalco" target="SUB::Arsénico (compuestos)" id="357" weight="0.004297">
+        <attvalues>
+          <attvalue for="2" value="1" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Puebla.Hueytamalco" target="SUB::Cadmio (compuestos)" id="358" weight="0.151404">
+        <attvalues>
+          <attvalue for="2" value="1" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Puebla.Hueytamalco" target="SUB::Cromo (Compuestos solubles)" id="359" weight="1.4761">
+        <attvalues>
+          <attvalue for="2" value="1" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Puebla.Hueytamalco" target="SUB::Níquel (Compuestos solubles)" id="360" weight="2.5694">
+        <attvalues>
+          <attvalue for="2" value="2" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Puebla.Chietla" target="SUB::Cianuro inorgánico/orgánico" id="361" weight="93.94735924999999">
+        <attvalues>
+          <attvalue for="2" value="4" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Puebla.Chietla" target="SUB::Mercurio (polvos, respirables, vapores o humos)" id="362" weight="7.337682000000001">
+        <attvalues>
+          <attvalue for="2" value="3" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Puebla.Chietla" target="SUB::Arsénico (polvos, respirables, vapores o humos)" id="363" weight="14.065710249999999">
+        <attvalues>
+          <attvalue for="2" value="4" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Puebla.Chietla" target="SUB::Cadmio (polvos, respirables, vapores o humos)" id="364" weight="182.697846">
+        <attvalues>
+          <attvalue for="2" value="4" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Puebla.Chietla" target="SUB::Arsénico (compuestos)" id="365" weight="3.697364">
+        <attvalues>
+          <attvalue for="2" value="2" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Puebla.Chietla" target="SUB::Cadmio (compuestos)" id="366" weight="25.622322">
+        <attvalues>
+          <attvalue for="2" value="2" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Puebla.Chietla" target="SUB::Cromo (compuestos)" id="367" weight="1050.5618425">
+        <attvalues>
+          <attvalue for="2" value="4" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Puebla.Chietla" target="SUB::Mercurio (compuestos)" id="368" weight="2.9626749500000003">
+        <attvalues>
+          <attvalue for="2" value="3" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Puebla.Chietla" target="SUB::Níquel (compuestos)" id="369" weight="1122.309451">
+        <attvalues>
+          <attvalue for="2" value="4" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Puebla.Chietla" target="SUB::Plomo (compuestos)" id="370" weight="670.5364505">
+        <attvalues>
+          <attvalue for="2" value="4" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Puebla.Chietla" target="SUB::Cadmio (Compuestos solubles)" id="371" weight="19.982">
+        <attvalues>
+          <attvalue for="2" value="5" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Puebla.Chietla" target="SUB::Cromo (Compuestos solubles)" id="372" weight="149.25940000000003">
+        <attvalues>
+          <attvalue for="2" value="3" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Puebla.Chietla" target="SUB::Níquel (Compuestos solubles)" id="373" weight="141.8736">
+        <attvalues>
+          <attvalue for="2" value="3" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Puebla.Chietla" target="SUB::Plomo (Compuestos solubles)" id="374" weight="370.9207">
+        <attvalues>
+          <attvalue for="2" value="11" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Puebla.Chietla" target="SUB::Arsénico (Compuestos solubles)" id="375" weight="12.2246">
+        <attvalues>
+          <attvalue for="2" value="2" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Puebla.Chietla" target="SUB::Bióxido de carbono" id="376" weight="2014927881.0505">
+        <attvalues>
+          <attvalue for="2" value="6" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Puebla.Chietla" target="SUB::Metano" id="377" weight="143616.58">
+        <attvalues>
+          <attvalue for="2" value="1" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Puebla.Nopalucan" target="SUB::Cromo (compuestos)" id="378" weight="0.1712662">
+        <attvalues>
+          <attvalue for="2" value="1" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Puebla.Nopalucan" target="SUB::Cadmio (polvos, respirables, vapores o humos)" id="379" weight="0.0940758">
+        <attvalues>
+          <attvalue for="2" value="1" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Puebla.Nopalucan" target="SUB::Mercurio (polvos, respirables, vapores o humos)" id="380" weight="0.012061">
+        <attvalues>
+          <attvalue for="2" value="1" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Puebla.Nopalucan" target="SUB::Cianuro inorgánico/orgánico" id="381" weight="0.71624">
+        <attvalues>
+          <attvalue for="2" value="1" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Puebla.Nopalucan" target="SUB::Bióxido de carbono" id="382" weight="83666274.159">
+        <attvalues>
+          <attvalue for="2" value="7" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Puebla.Nopalucan" target="SUB::Níquel (compuestos)" id="383" weight="1.219381">
+        <attvalues>
+          <attvalue for="2" value="2" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Puebla.Nopalucan" target="SUB::Níquel (Compuestos solubles)" id="384" weight="1.042">
+        <attvalues>
+          <attvalue for="2" value="1" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Puebla.Rafael Lara Grajales" target="SUB::Plomo (Compuestos solubles)" id="385" weight="66.21530000000001">
+        <attvalues>
+          <attvalue for="2" value="3" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Puebla.Rafael Lara Grajales" target="SUB::Cromo (Compuestos solubles)" id="386" weight="1.3523">
+        <attvalues>
+          <attvalue for="2" value="1" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Puebla.Rafael Lara Grajales" target="SUB::Níquel (Compuestos solubles)" id="387" weight="20.389699999999998">
+        <attvalues>
+          <attvalue for="2" value="5" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Puebla.Rafael Lara Grajales" target="SUB::Bióxido de carbono" id="388" weight="205377480.72">
+        <attvalues>
+          <attvalue for="2" value="15" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Puebla.Rafael Lara Grajales" target="SUB::Cromo (compuestos)" id="389" weight="6.6044">
+        <attvalues>
+          <attvalue for="2" value="1" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Puebla.Atzala" target="SUB::Cromo (Compuestos solubles)" id="390" weight="16.1768">
+        <attvalues>
+          <attvalue for="2" value="4" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Puebla.Atzala" target="SUB::Níquel (Compuestos solubles)" id="391" weight="11.5176">
+        <attvalues>
+          <attvalue for="2" value="4" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Puebla.Atzala" target="SUB::Plomo (Compuestos solubles)" id="392" weight="9.050799999999999">
+        <attvalues>
+          <attvalue for="2" value="4" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Puebla.San José Chiapa" target="SUB::Cadmio (Compuestos solubles)" id="393" weight="57.5056">
+        <attvalues>
+          <attvalue for="2" value="10" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Puebla.San José Chiapa" target="SUB::Cromo (Compuestos solubles)" id="394" weight="160.17709999999997">
+        <attvalues>
+          <attvalue for="2" value="10" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Puebla.San José Chiapa" target="SUB::Níquel (Compuestos solubles)" id="395" weight="295.33299999999997">
+        <attvalues>
+          <attvalue for="2" value="10" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Puebla.San José Chiapa" target="SUB::Plomo (Compuestos solubles)" id="396" weight="16462.6608">
+        <attvalues>
+          <attvalue for="2" value="9" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Puebla.San José Chiapa" target="SUB::Bióxido de carbono" id="397" weight="322181385.7655">
+        <attvalues>
+          <attvalue for="2" value="6" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Puebla.San José Chiapa" target="SUB::Metileno bis(fenilisocianato)" id="398" weight="13429.37">
+        <attvalues>
+          <attvalue for="2" value="1" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Puebla.San José Chiapa" target="SUB::Xileno (mezcla de isómeros)" id="399" weight="376188.26">
+        <attvalues>
+          <attvalue for="2" value="3" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Puebla.San José Chiapa" target="SUB::Mercurio (Compuestos solubles)" id="400" weight="1.3334">
+        <attvalues>
+          <attvalue for="2" value="1" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Puebla.San José Chiapa" target="SUB::Mercurio (polvos, respirables, vapores o humos)" id="401" weight="81.68">
+        <attvalues>
+          <attvalue for="2" value="3" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Puebla.San José Chiapa" target="SUB::Plomo (polvos respirables, humos o vapores)" id="402" weight="42205.83">
+        <attvalues>
+          <attvalue for="2" value="1" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Puebla.Juan C" target="SUB::Mercurio (compuestos)" id="403" weight="0.0058">
+        <attvalues>
+          <attvalue for="2" value="2" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Puebla.Juan C" target="SUB::Arsénico (polvos, respirables, vapores o humos)" id="404" weight="0.06815">
+        <attvalues>
+          <attvalue for="2" value="2" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Puebla.Juan C" target="SUB::Cianuro inorgánico/orgánico" id="405" weight="0.058">
+        <attvalues>
+          <attvalue for="2" value="2" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Puebla.Juan C" target="SUB::Cadmio (polvos, respirables, vapores o humos)" id="406" weight="0.02175">
+        <attvalues>
+          <attvalue for="2" value="1" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Puebla.Juan C" target="SUB::Cromo (compuestos)" id="407" weight="0.05075">
+        <attvalues>
+          <attvalue for="2" value="1" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Puebla.Juan C" target="SUB::Níquel (compuestos)" id="408" weight="0.12325">
+        <attvalues>
+          <attvalue for="2" value="1" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Puebla.Juan C" target="SUB::Plomo (compuestos)" id="409" weight="0.145">
+        <attvalues>
+          <attvalue for="2" value="1" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Puebla.Tepanco de López" target="SUB::Arsénico (polvos, respirables, vapores o humos)" id="410" weight="0.0169738">
+        <attvalues>
+          <attvalue for="2" value="2" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Puebla.Tepanco de López" target="SUB::Mercurio (compuestos)" id="411" weight="0.7068848">
+        <attvalues>
+          <attvalue for="2" value="2" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Puebla.Tepanco de López" target="SUB::Cianuro inorgánico/orgánico" id="412" weight="0.3193204">
+        <attvalues>
+          <attvalue for="2" value="2" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Puebla.Tepanco de López" target="SUB::Níquel (compuestos)" id="413" weight="0.70447">
+        <attvalues>
+          <attvalue for="2" value="1" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Puebla.Tepanco de López" target="SUB::Plomo (compuestos)" id="414" weight="1.0">
+        <attvalues>
+          <attvalue for="2" value="1" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Puebla.Tepanco de López" target="SUB::Cadmio (polvos, respirables, vapores o humos)" id="415" weight="0.70447">
+        <attvalues>
+          <attvalue for="2" value="1" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Puebla.Tepanco de López" target="SUB::Cromo (compuestos)" id="416" weight="0.7045">
+        <attvalues>
+          <attvalue for="2" value="1" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Puebla.Tepanco de López" target="SUB::Plomo (Compuestos solubles)" id="417" weight="11.1541">
+        <attvalues>
+          <attvalue for="2" value="6" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Puebla.Tepanco de López" target="SUB::Cromo (Compuestos solubles)" id="418" weight="5.8891">
+        <attvalues>
+          <attvalue for="2" value="4" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Puebla.Tepanco de López" target="SUB::Níquel (Compuestos solubles)" id="419" weight="6.1655">
+        <attvalues>
+          <attvalue for="2" value="4" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Puebla.Tlacotepec de Benito Juárez" target="SUB::Arsénico (polvos, respirables, vapores o humos)" id="420" weight="0.010982">
+        <attvalues>
+          <attvalue for="2" value="2" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Puebla.Tlacotepec de Benito Juárez" target="SUB::Mercurio (compuestos)" id="421" weight="0.0082365">
+        <attvalues>
+          <attvalue for="2" value="2" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Puebla.Tlacotepec de Benito Juárez" target="SUB::Cianuro inorgánico/orgánico" id="422" weight="0.16695300000000002">
+        <attvalues>
+          <attvalue for="2" value="2" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Puebla.Tlacotepec de Benito Juárez" target="SUB::Plomo (compuestos)" id="423" weight="0.5491">
+        <attvalues>
+          <attvalue for="2" value="1" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Puebla.Tlacotepec de Benito Juárez" target="SUB::Cromo (compuestos)" id="424" weight="0.27455">
+        <attvalues>
+          <attvalue for="2" value="1" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Puebla.Tlacotepec de Benito Juárez" target="SUB::Níquel (compuestos)" id="425" weight="0.27455">
+        <attvalues>
+          <attvalue for="2" value="1" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Puebla.Tlacotepec de Benito Juárez" target="SUB::Cadmio (polvos, respirables, vapores o humos)" id="426" weight="0.27455">
+        <attvalues>
+          <attvalue for="2" value="1" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Puebla.Xiutetelco" target="SUB::Mercurio (compuestos)" id="427" weight="0.755404">
+        <attvalues>
+          <attvalue for="2" value="1" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Puebla.Xiutetelco" target="SUB::Níquel (compuestos)" id="428" weight="24.0">
+        <attvalues>
+          <attvalue for="2" value="1" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Puebla.Xiutetelco" target="SUB::Plomo (compuestos)" id="429" weight="8.0">
+        <attvalues>
+          <attvalue for="2" value="1" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Puebla.Xiutetelco" target="SUB::Cromo (compuestos)" id="430" weight="21.0">
+        <attvalues>
+          <attvalue for="2" value="1" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Puebla.Xiutetelco" target="SUB::Cadmio (polvos, respirables, vapores o humos)" id="431" weight="4.0">
+        <attvalues>
+          <attvalue for="2" value="1" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Puebla.Xiutetelco" target="SUB::Arsénico (polvos, respirables, vapores o humos)" id="432" weight="7239.0">
+        <attvalues>
+          <attvalue for="2" value="1" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Puebla.Xiutetelco" target="SUB::Cianuro inorgánico/orgánico" id="433" weight="12.0">
+        <attvalues>
+          <attvalue for="2" value="1" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Puebla.Xiutetelco" target="SUB::Acido sulfhídrico" id="434" weight="8387100.54">
+        <attvalues>
+          <attvalue for="2" value="4" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Puebla.Xiutetelco" target="SUB::Bióxido de carbono" id="435" weight="225808829.1">
+        <attvalues>
+          <attvalue for="2" value="6" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Puebla.Xiutetelco" target="SUB::Cadmio (Compuestos solubles)" id="436" weight="11.6548">
+        <attvalues>
+          <attvalue for="2" value="4" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Puebla.Xiutetelco" target="SUB::Cromo (Compuestos solubles)" id="437" weight="93.216">
+        <attvalues>
+          <attvalue for="2" value="4" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Puebla.Xiutetelco" target="SUB::Níquel (Compuestos solubles)" id="438" weight="23.696">
+        <attvalues>
+          <attvalue for="2" value="4" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Puebla.Xiutetelco" target="SUB::Plomo (Compuestos solubles)" id="439" weight="33.4072">
+        <attvalues>
+          <attvalue for="2" value="4" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Puebla.Xiutetelco" target="SUB::Arsénico (Compuestos solubles)" id="440" weight="8069.002199999999">
+        <attvalues>
+          <attvalue for="2" value="3" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Puebla.San Salvador el Verde" target="SUB::Cianuro inorgánico/orgánico" id="441" weight="0.016997">
+        <attvalues>
+          <attvalue for="2" value="1" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Puebla.San Salvador el Verde" target="SUB::Arsénico (polvos, respirables, vapores o humos)" id="442" weight="0.00261504">
+        <attvalues>
+          <attvalue for="2" value="1" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Puebla.San Salvador el Verde" target="SUB::Plomo (compuestos)" id="443" weight="0.1895904">
+        <attvalues>
+          <attvalue for="2" value="1" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Puebla.San Salvador el Verde" target="SUB::Cromo (compuestos)" id="444" weight="0.032688">
+        <attvalues>
+          <attvalue for="2" value="1" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Puebla.San Salvador el Verde" target="SUB::Mercurio (compuestos)" id="445" weight="0.00130752">
+        <attvalues>
+          <attvalue for="2" value="1" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Puebla.San Salvador el Verde" target="SUB::Níquel (compuestos)" id="446" weight="0.24189">
+        <attvalues>
+          <attvalue for="2" value="1" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Puebla.San Salvador el Verde" target="SUB::Cadmio (polvos, respirables, vapores o humos)" id="447" weight="0.028765">
+        <attvalues>
+          <attvalue for="2" value="1" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Puebla.San Salvador el Verde" target="SUB::Bióxido de carbono" id="448" weight="60590.0">
+        <attvalues>
+          <attvalue for="2" value="1" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Puebla.Chalchicomula de Sesma" target="SUB::Cianuro inorgánico/orgánico" id="449" weight="2.4115">
+        <attvalues>
+          <attvalue for="2" value="1" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Puebla.Chalchicomula de Sesma" target="SUB::Arsénico (polvos, respirables, vapores o humos)" id="450" weight="0.371">
+        <attvalues>
+          <attvalue for="2" value="1" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Puebla.Chalchicomula de Sesma" target="SUB::Cadmio (polvos, respirables, vapores o humos)" id="451" weight="0.742">
+        <attvalues>
+          <attvalue for="2" value="1" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Puebla.Chalchicomula de Sesma" target="SUB::Cromo (compuestos)" id="452" weight="8.533">
+        <attvalues>
+          <attvalue for="2" value="1" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Puebla.Chalchicomula de Sesma" target="SUB::Mercurio (compuestos)" id="453" weight="0.12985">
+        <attvalues>
+          <attvalue for="2" value="1" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Puebla.Chalchicomula de Sesma" target="SUB::Níquel (compuestos)" id="454" weight="10.2025">
+        <attvalues>
+          <attvalue for="2" value="1" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Puebla.Chalchicomula de Sesma" target="SUB::Plomo (compuestos)" id="455" weight="5.7505">
+        <attvalues>
+          <attvalue for="2" value="1" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Puebla.Chalchicomula de Sesma" target="SUB::Bióxido de carbono" id="456" weight="0.000123734">
+        <attvalues>
+          <attvalue for="2" value="1" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Puebla.Chalchicomula de Sesma" target="SUB::Cromo (Compuestos solubles)" id="457" weight="17.8977">
+        <attvalues>
+          <attvalue for="2" value="7" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Puebla.Chalchicomula de Sesma" target="SUB::Níquel (Compuestos solubles)" id="458" weight="86.01830000000001">
+        <attvalues>
+          <attvalue for="2" value="7" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Puebla.Chalchicomula de Sesma" target="SUB::Plomo (Compuestos solubles)" id="459" weight="59.5095">
+        <attvalues>
+          <attvalue for="2" value="7" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Puebla.Chalchicomula de Sesma" target="SUB::Cadmio (Compuestos solubles)" id="460" weight="4.1893">
+        <attvalues>
+          <attvalue for="2" value="2" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Puebla.Cuautinchán" target="SUB::Cromo (Compuestos solubles)" id="461" weight="166.18175">
+        <attvalues>
+          <attvalue for="2" value="1" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Puebla.Cuautinchán" target="SUB::Plomo (Compuestos solubles)" id="462" weight="90.21295">
+        <attvalues>
+          <attvalue for="2" value="1" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Puebla.Cuautinchán" target="SUB::Dioxinas" id="463" weight="0.0079897548">
+        <attvalues>
+          <attvalue for="2" value="14" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Puebla.Cuautinchán" target="SUB::Furanos" id="464" weight="0.0079897578">
+        <attvalues>
+          <attvalue for="2" value="14" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Puebla.Cuautinchán" target="SUB::Bióxido de carbono" id="465" weight="15164902000.0">
+        <attvalues>
+          <attvalue for="2" value="8" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Puebla.Cuautinchán" target="SUB::Benceno" id="466" weight="174743.113952">
+        <attvalues>
+          <attvalue for="2" value="12" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Puebla.Cuautinchán" target="SUB::Mercurio (polvos, respirables, vapores o humos)" id="467" weight="1019.4089634960001">
+        <attvalues>
+          <attvalue for="2" value="16" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Puebla.Cuautinchán" target="SUB::Arsénico (polvos, respirables, vapores o humos)" id="468" weight="182.213298074">
+        <attvalues>
+          <attvalue for="2" value="14" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Puebla.Cuautinchán" target="SUB::Cadmio (polvos, respirables, vapores o humos)" id="469" weight="76.75776852700001">
+        <attvalues>
+          <attvalue for="2" value="16" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Puebla.Cuautinchán" target="SUB::Cromo (compuestos)" id="470" weight="499.13532">
+        <attvalues>
+          <attvalue for="2" value="7" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Puebla.Cuautinchán" target="SUB::Plomo (compuestos)" id="471" weight="3300.3142780000003">
+        <attvalues>
+          <attvalue for="2" value="7" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Puebla.Cuautinchán" target="SUB::Cromo (polvos respirables, humos o vapores)" id="472" weight="838.11521253">
+        <attvalues>
+          <attvalue for="2" value="6" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Puebla.Cuautinchán" target="SUB::Plomo (polvos respirables, humos o vapores)" id="473" weight="368.37157280199995">
+        <attvalues>
+          <attvalue for="2" value="5" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Puebla.Tepeyahualco" target="SUB::Bióxido de carbono" id="474" weight="30295.58">
+        <attvalues>
+          <attvalue for="2" value="2" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Puebla.Tecali de Herrera" target="SUB::Bióxido de carbono" id="475" weight="5346298.0">
+        <attvalues>
+          <attvalue for="2" value="9" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Puebla.Ahuazotepec" target="SUB::Bióxido de carbono" id="476" weight="84185121.1354">
+        <attvalues>
+          <attvalue for="2" value="12" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Puebla.Tlahuapan" target="SUB::Bióxido de carbono" id="477" weight="788392.0">
+        <attvalues>
+          <attvalue for="2" value="5" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Puebla.Tlahuapan" target="SUB::Cromo (Compuestos solubles)" id="478" weight="49.045199999999994">
+        <attvalues>
+          <attvalue for="2" value="9" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Puebla.Tlahuapan" target="SUB::Níquel (Compuestos solubles)" id="479" weight="54.4586">
+        <attvalues>
+          <attvalue for="2" value="9" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Puebla.Tlahuapan" target="SUB::Plomo (Compuestos solubles)" id="480" weight="49.172799999999995">
+        <attvalues>
+          <attvalue for="2" value="9" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Puebla.Tlahuapan" target="SUB::Cadmio (Compuestos solubles)" id="481" weight="2.1289">
+        <attvalues>
+          <attvalue for="2" value="2" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Puebla.Tepeaca" target="SUB::Bióxido de carbono" id="482" weight="24896282.5">
+        <attvalues>
+          <attvalue for="2" value="8" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Puebla.Yehualtepec" target="SUB::Bióxido de carbono" id="483" weight="16414870.0">
+        <attvalues>
+          <attvalue for="2" value="4" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Puebla.Yehualtepec" target="SUB::Níquel (Compuestos solubles)" id="484" weight="2.0852">
+        <attvalues>
+          <attvalue for="2" value="2" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Puebla.San Salvador Huixcolotla" target="SUB::Bióxido de carbono" id="485" weight="40099400.0">
+        <attvalues>
+          <attvalue for="2" value="3" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Puebla.San Salvador Huixcolotla" target="SUB::Cadmio (Compuestos solubles)" id="486" weight="25.4307">
+        <attvalues>
+          <attvalue for="2" value="3" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Puebla.San Salvador Huixcolotla" target="SUB::Cromo (Compuestos solubles)" id="487" weight="76.2921">
+        <attvalues>
+          <attvalue for="2" value="3" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Puebla.San Salvador Huixcolotla" target="SUB::Níquel (Compuestos solubles)" id="488" weight="76.2921">
+        <attvalues>
+          <attvalue for="2" value="3" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Puebla.San Salvador Huixcolotla" target="SUB::Plomo (Compuestos solubles)" id="489" weight="124.6104">
+        <attvalues>
+          <attvalue for="2" value="3" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Puebla.Oriental" target="SUB::Bióxido de carbono" id="490" weight="282172.0">
+        <attvalues>
+          <attvalue for="2" value="1" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Puebla.Xicotepec" target="SUB::Bióxido de carbono" id="491" weight="53414.002">
+        <attvalues>
+          <attvalue for="2" value="2" />
+        </attvalues>
+      </edge>
+    </edges>
+  </graph>
+</gexf>

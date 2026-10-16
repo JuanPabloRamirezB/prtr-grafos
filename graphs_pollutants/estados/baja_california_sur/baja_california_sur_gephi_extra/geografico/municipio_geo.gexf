@@ -1,0 +1,61 @@
+<?xml version='1.0' encoding='utf-8'?>
+<gexf xmlns="http://www.gexf.net/1.2draft" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.gexf.net/1.2draft http://www.gexf.net/1.2draft/gexf.xsd" version="1.2">
+  <meta lastmodifieddate="2026-10-16">
+    <creator>NetworkX 3.7</creator>
+  </meta>
+  <graph defaultedgetype="undirected" mode="static" name="">
+    <attributes mode="static" class="node">
+      <attribute id="0" title="lat" type="double" />
+      <attribute id="1" title="lon" type="double" />
+      <attribute id="2" title="total_kg" type="double" />
+      <attribute id="3" title="community" type="long" />
+      <attribute id="4" title="color_hex" type="string" />
+    </attributes>
+    <nodes>
+      <node id="Baja California Sur.Comondú" label="Comondú">
+        <attvalues>
+          <attvalue for="0" value="25.0204688" />
+          <attvalue for="1" value="-111.4024022" />
+          <attvalue for="2" value="6446189580.483036" />
+          <attvalue for="3" value="0" />
+          <attvalue for="4" value="#2a78d6" />
+        </attvalues>
+      </node>
+      <node id="Baja California Sur.La Paz" label="La Paz">
+        <attvalues>
+          <attvalue for="0" value="24.0855482" />
+          <attvalue for="1" value="-110.1823724" />
+          <attvalue for="2" value="14612785523.356815" />
+          <attvalue for="3" value="0" />
+          <attvalue for="4" value="#2a78d6" />
+        </attvalues>
+      </node>
+      <node id="Baja California Sur.Los Cabos" label="Los Cabos">
+        <attvalues>
+          <attvalue for="0" value="23.0341729" />
+          <attvalue for="1" value="-109.4141097" />
+          <attvalue for="2" value="2101592703.6372616" />
+          <attvalue for="3" value="0" />
+          <attvalue for="4" value="#2a78d6" />
+        </attvalues>
+      </node>
+      <node id="Baja California Sur.Mulegé" label="Mulegé">
+        <attvalues>
+          <attvalue for="0" value="27.2012726" />
+          <attvalue for="1" value="-112.1605789" />
+          <attvalue for="2" value="3206975507.9629464" />
+          <attvalue for="3" value="0" />
+          <attvalue for="4" value="#2a78d6" />
+        </attvalues>
+      </node>
+    </nodes>
+    <edges>
+      <edge source="Baja California Sur.Comondú" target="Baja California Sur.La Paz" id="0" weight="0.7561839862283741" />
+      <edge source="Baja California Sur.Comondú" target="Baja California Sur.Los Cabos" id="1" weight="0.7910646182985417" />
+      <edge source="Baja California Sur.Comondú" target="Baja California Sur.Mulegé" id="2" weight="0.8415964371921313" />
+      <edge source="Baja California Sur.La Paz" target="Baja California Sur.Los Cabos" id="3" weight="0.7296379592570879" />
+      <edge source="Baja California Sur.La Paz" target="Baja California Sur.Mulegé" id="4" weight="0.8300643132424447" />
+      <edge source="Baja California Sur.Los Cabos" target="Baja California Sur.Mulegé" id="5" weight="0.7132522092352802" />
+    </edges>
+  </graph>
+</gexf>

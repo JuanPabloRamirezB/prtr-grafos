@@ -1,0 +1,73 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<gexf xmlns="http://gexf.net/1.3" version="1.3" xmlns:viz="http://gexf.net/1.3/viz" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://gexf.net/1.3 http://gexf.net/1.3/gexf.xsd">
+  <meta lastmodifieddate="2026-10-16">
+    <creator>Apache NetBeans Platform Dev (Build {0})</creator>
+    <title></title>
+    <description></description>
+  </meta>
+  <graph defaultedgetype="undirected" mode="static">
+    <attributes class="node" mode="static">
+      <attribute id="0" title="total_kg" type="double"/>
+      <attribute id="modularity_class" title="Modularity Class" type="integer">
+        <default>0</default>
+      </attribute>
+    </attributes>
+    <nodes>
+      <node id="Baja California Sur.Comondú" label="Baja California Sur.Comondú">
+        <attvalues>
+          <attvalue for="0" value="6.446189580483036E9"/>
+          <attvalue for="modularity_class" value="0"/>
+        </attvalues>
+        <viz:size value="23.557384"/>
+        <viz:position x="30.970797" y="0.19024277"/>
+        <viz:color r="42" g="120" b="214"/>
+      </node>
+      <node id="Baja California Sur.La Paz" label="Baja California Sur.La Paz">
+        <attvalues>
+          <attvalue for="0" value="1.4612785523356815E10"/>
+          <attvalue for="modularity_class" value="0"/>
+        </attvalues>
+        <viz:size value="45.0"/>
+        <viz:position x="1.553257" y="31.224516"/>
+        <viz:color r="42" g="120" b="214"/>
+      </node>
+      <node id="Baja California Sur.Los Cabos" label="Baja California Sur.Los Cabos">
+        <attvalues>
+          <attvalue for="0" value="2.1015927036372616E9"/>
+          <attvalue for="modularity_class" value="0"/>
+        </attvalues>
+        <viz:size value="12.15"/>
+        <viz:color r="42" g="120" b="214"/>
+      </node>
+      <node id="Baja California Sur.Mulegé" label="Baja California Sur.Mulegé">
+        <attvalues>
+          <attvalue for="0" value="3.2069755079629464E9"/>
+          <attvalue for="modularity_class" value="0"/>
+        </attvalues>
+        <viz:size value="15.052347"/>
+        <viz:position x="32.343834" y="30.881159"/>
+        <viz:color r="42" g="120" b="214"/>
+      </node>
+    </nodes>
+    <edges>
+      <edge id="0" source="Baja California Sur.Comondú" target="Baja California Sur.La Paz" weight="0.7561839818954468">
+        <viz:color r="137" g="135" b="129" a="0.47058824"/>
+      </edge>
+      <edge id="1" source="Baja California Sur.Comondú" target="Baja California Sur.Los Cabos" weight="0.7910646200180054">
+        <viz:color r="137" g="135" b="129" a="0.47058824"/>
+      </edge>
+      <edge id="2" source="Baja California Sur.Comondú" target="Baja California Sur.Mulegé" weight="0.8415964245796204">
+        <viz:color r="137" g="135" b="129" a="0.47058824"/>
+      </edge>
+      <edge id="3" source="Baja California Sur.La Paz" target="Baja California Sur.Los Cabos" weight="0.7296379804611206">
+        <viz:color r="137" g="135" b="129" a="0.47058824"/>
+      </edge>
+      <edge id="4" source="Baja California Sur.La Paz" target="Baja California Sur.Mulegé" weight="0.8300642967224121">
+        <viz:color r="137" g="135" b="129" a="0.47058824"/>
+      </edge>
+      <edge id="5" source="Baja California Sur.Los Cabos" target="Baja California Sur.Mulegé" weight="0.7132521867752075">
+        <viz:color r="137" g="135" b="129" a="0.47058824"/>
+      </edge>
+    </edges>
+  </graph>
+</gexf>

@@ -1,0 +1,190 @@
+<?xml version='1.0' encoding='utf-8'?>
+<gexf xmlns="http://www.gexf.net/1.2draft" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.gexf.net/1.2draft http://www.gexf.net/1.2draft/gexf.xsd" version="1.2">
+  <meta lastmodifieddate="2026-10-16">
+    <creator>NetworkX 3.7</creator>
+  </meta>
+  <graph defaultedgetype="undirected" mode="static" name="">
+    <attributes mode="static" class="node">
+      <attribute id="0" title="n_municipios" type="long" />
+    </attributes>
+    <nodes>
+      <node id="1,2-Diclorobenceno" label="1,2-Dichlorobenzene">
+        <attvalues>
+          <attvalue for="0" value="1" />
+        </attvalues>
+      </node>
+      <node id="Estireno (fenil etileno)" label="Styrene (phenylethylene)">
+        <attvalues>
+          <attvalue for="0" value="1" />
+        </attvalues>
+      </node>
+      <node id="Acetaldehido" label="Acetaldehyde">
+        <attvalues>
+          <attvalue for="0" value="3" />
+        </attvalues>
+      </node>
+      <node id="Acroleina" label="Acrolein">
+        <attvalues>
+          <attvalue for="0" value="3" />
+        </attvalues>
+      </node>
+      <node id="Arsénico (compuestos)" label="Arsenic (compounds)">
+        <attvalues>
+          <attvalue for="0" value="19" />
+        </attvalues>
+      </node>
+      <node id="Cadmio (compuestos)" label="Cadmium (compounds)">
+        <attvalues>
+          <attvalue for="0" value="19" />
+        </attvalues>
+      </node>
+      <node id="Cianuro inorgánico/orgánico" label="Inorganic/organic cyanide">
+        <attvalues>
+          <attvalue for="0" value="27" />
+        </attvalues>
+      </node>
+      <node id="Mercurio (compuestos)" label="Mercury (compounds)">
+        <attvalues>
+          <attvalue for="0" value="26" />
+        </attvalues>
+      </node>
+      <node id="Níquel (compuestos)" label="Nickel (compounds)">
+        <attvalues>
+          <attvalue for="0" value="27" />
+        </attvalues>
+      </node>
+      <node id="Plomo (compuestos)" label="Lead (compounds)">
+        <attvalues>
+          <attvalue for="0" value="27" />
+        </attvalues>
+      </node>
+      <node id="Arsénico (polvos, respirables, vapores o humos)" label="Arsenic (respirable dust, vapors or fumes)">
+        <attvalues>
+          <attvalue for="0" value="26" />
+        </attvalues>
+      </node>
+      <node id="Cadmio (polvos, respirables, vapores o humos)" label="Cadmium (respirable dust, vapors or fumes)">
+        <attvalues>
+          <attvalue for="0" value="27" />
+        </attvalues>
+      </node>
+      <node id="Cromo (Compuestos solubles)" label="Chromium (soluble compounds)">
+        <attvalues>
+          <attvalue for="0" value="28" />
+        </attvalues>
+      </node>
+      <node id="Cromo (compuestos)" label="Chromium (compounds)">
+        <attvalues>
+          <attvalue for="0" value="29" />
+        </attvalues>
+      </node>
+      <node id="Bióxido de carbono" label="Carbon dioxide">
+        <attvalues>
+          <attvalue for="0" value="35" />
+        </attvalues>
+      </node>
+      <node id="Níquel (Compuestos solubles)" label="Nickel (soluble compounds)">
+        <attvalues>
+          <attvalue for="0" value="29" />
+        </attvalues>
+      </node>
+      <node id="Plomo (Compuestos solubles)" label="Lead (soluble compounds)">
+        <attvalues>
+          <attvalue for="0" value="28" />
+        </attvalues>
+      </node>
+      <node id="Cromo (polvos respirables, humos o vapores)" label="Chromium (respirable dust, fumes or vapors)">
+        <attvalues>
+          <attvalue for="0" value="7" />
+        </attvalues>
+      </node>
+      <node id="Níquel (polvos respirables, humos o vapores)" label="Nickel (respirable dust, fumes or vapors)">
+        <attvalues>
+          <attvalue for="0" value="6" />
+        </attvalues>
+      </node>
+      <node id="Plomo (polvos respirables, humos o vapores)" label="Lead (respirable dust, fumes or vapors)">
+        <attvalues>
+          <attvalue for="0" value="7" />
+        </attvalues>
+      </node>
+      <node id="Clorodifluorometano (HCFC-22)" label="Chlorodifluoromethane (HCFC-22)">
+        <attvalues>
+          <attvalue for="0" value="1" />
+        </attvalues>
+      </node>
+      <node id="Hidrofluorocarbonos" label="Hydrofluorocarbons">
+        <attvalues>
+          <attvalue for="0" value="1" />
+        </attvalues>
+      </node>
+      <node id="Piridina" label="Pyridine">
+        <attvalues>
+          <attvalue for="0" value="1" />
+        </attvalues>
+      </node>
+      <node id="Acido 2,4 Diclorofenoxiacetico" label="2,4-Dichlorophenoxyacetic acid (2,4-D)">
+        <attvalues>
+          <attvalue for="0" value="1" />
+        </attvalues>
+      </node>
+      <node id="Metil paration" label="Methyl parathion">
+        <attvalues>
+          <attvalue for="0" value="1" />
+        </attvalues>
+      </node>
+    </nodes>
+    <edges>
+      <edge source="1,2-Diclorobenceno" target="Estireno (fenil etileno)" id="0" weight="1.0" />
+      <edge source="Acetaldehido" target="Acroleina" id="1" weight="1.0" />
+      <edge source="Arsénico (compuestos)" target="Cadmio (compuestos)" id="2" weight="1.0" />
+      <edge source="Arsénico (compuestos)" target="Cianuro inorgánico/orgánico" id="3" weight="0.7037037037037037" />
+      <edge source="Arsénico (compuestos)" target="Mercurio (compuestos)" id="4" weight="0.7307692307692307" />
+      <edge source="Arsénico (compuestos)" target="Níquel (compuestos)" id="5" weight="0.7037037037037037" />
+      <edge source="Arsénico (compuestos)" target="Plomo (compuestos)" id="6" weight="0.7037037037037037" />
+      <edge source="Cadmio (compuestos)" target="Cianuro inorgánico/orgánico" id="7" weight="0.7037037037037037" />
+      <edge source="Cadmio (compuestos)" target="Mercurio (compuestos)" id="8" weight="0.7307692307692307" />
+      <edge source="Cadmio (compuestos)" target="Níquel (compuestos)" id="9" weight="0.7037037037037037" />
+      <edge source="Cadmio (compuestos)" target="Plomo (compuestos)" id="10" weight="0.7037037037037037" />
+      <edge source="Cianuro inorgánico/orgánico" target="Arsénico (polvos, respirables, vapores o humos)" id="11" weight="0.8928571428571429" />
+      <edge source="Cianuro inorgánico/orgánico" target="Cadmio (polvos, respirables, vapores o humos)" id="12" weight="0.9285714285714286" />
+      <edge source="Cianuro inorgánico/orgánico" target="Cromo (compuestos)" id="13" weight="0.9310344827586207" />
+      <edge source="Cianuro inorgánico/orgánico" target="Mercurio (compuestos)" id="14" weight="0.9629629629629629" />
+      <edge source="Cianuro inorgánico/orgánico" target="Níquel (compuestos)" id="15" weight="1.0" />
+      <edge source="Cianuro inorgánico/orgánico" target="Plomo (compuestos)" id="16" weight="0.9285714285714286" />
+      <edge source="Mercurio (compuestos)" target="Arsénico (polvos, respirables, vapores o humos)" id="17" weight="0.9259259259259259" />
+      <edge source="Mercurio (compuestos)" target="Cadmio (polvos, respirables, vapores o humos)" id="18" weight="0.8928571428571429" />
+      <edge source="Mercurio (compuestos)" target="Cromo (compuestos)" id="19" weight="0.896551724137931" />
+      <edge source="Mercurio (compuestos)" target="Níquel (compuestos)" id="20" weight="0.9629629629629629" />
+      <edge source="Mercurio (compuestos)" target="Plomo (compuestos)" id="21" weight="0.9629629629629629" />
+      <edge source="Níquel (compuestos)" target="Arsénico (polvos, respirables, vapores o humos)" id="22" weight="0.8928571428571429" />
+      <edge source="Níquel (compuestos)" target="Cadmio (polvos, respirables, vapores o humos)" id="23" weight="0.9285714285714286" />
+      <edge source="Níquel (compuestos)" target="Cromo (compuestos)" id="24" weight="0.9310344827586207" />
+      <edge source="Níquel (compuestos)" target="Plomo (compuestos)" id="25" weight="0.9285714285714286" />
+      <edge source="Plomo (compuestos)" target="Arsénico (polvos, respirables, vapores o humos)" id="26" weight="0.9629629629629629" />
+      <edge source="Plomo (compuestos)" target="Cadmio (polvos, respirables, vapores o humos)" id="27" weight="0.9285714285714286" />
+      <edge source="Plomo (compuestos)" target="Cromo (Compuestos solubles)" id="28" weight="0.71875" />
+      <edge source="Plomo (compuestos)" target="Cromo (compuestos)" id="29" weight="0.9310344827586207" />
+      <edge source="Plomo (compuestos)" target="Plomo (Compuestos solubles)" id="30" weight="0.71875" />
+      <edge source="Arsénico (polvos, respirables, vapores o humos)" target="Cadmio (polvos, respirables, vapores o humos)" id="31" weight="0.9629629629629629" />
+      <edge source="Arsénico (polvos, respirables, vapores o humos)" target="Cromo (Compuestos solubles)" id="32" weight="0.7419354838709677" />
+      <edge source="Arsénico (polvos, respirables, vapores o humos)" target="Cromo (compuestos)" id="33" weight="0.896551724137931" />
+      <edge source="Cadmio (polvos, respirables, vapores o humos)" target="Cromo (Compuestos solubles)" id="34" weight="0.71875" />
+      <edge source="Cadmio (polvos, respirables, vapores o humos)" target="Cromo (compuestos)" id="35" weight="0.9310344827586207" />
+      <edge source="Cromo (Compuestos solubles)" target="Bióxido de carbono" id="36" weight="0.7027027027027027" />
+      <edge source="Cromo (Compuestos solubles)" target="Cromo (compuestos)" id="37" weight="0.7272727272727273" />
+      <edge source="Cromo (Compuestos solubles)" target="Níquel (Compuestos solubles)" id="38" weight="0.9" />
+      <edge source="Cromo (Compuestos solubles)" target="Plomo (Compuestos solubles)" id="39" weight="0.9310344827586207" />
+      <edge source="Cromo (compuestos)" target="Níquel (Compuestos solubles)" id="40" weight="0.7058823529411765" />
+      <edge source="Cromo (compuestos)" target="Plomo (Compuestos solubles)" id="41" weight="0.7272727272727273" />
+      <edge source="Bióxido de carbono" target="Níquel (Compuestos solubles)" id="42" weight="0.7297297297297297" />
+      <edge source="Níquel (Compuestos solubles)" target="Plomo (Compuestos solubles)" id="43" weight="0.8387096774193549" />
+      <edge source="Cromo (polvos respirables, humos o vapores)" target="Níquel (polvos respirables, humos o vapores)" id="44" weight="0.8571428571428571" />
+      <edge source="Cromo (polvos respirables, humos o vapores)" target="Plomo (polvos respirables, humos o vapores)" id="45" weight="0.75" />
+      <edge source="Clorodifluorometano (HCFC-22)" target="Hidrofluorocarbonos" id="46" weight="1.0" />
+      <edge source="Clorodifluorometano (HCFC-22)" target="Piridina" id="47" weight="1.0" />
+      <edge source="Hidrofluorocarbonos" target="Piridina" id="48" weight="1.0" />
+      <edge source="Acido 2,4 Diclorofenoxiacetico" target="Metil paration" id="49" weight="1.0" />
+    </edges>
+  </graph>
+</gexf>

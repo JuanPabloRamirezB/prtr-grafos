@@ -1,0 +1,4067 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<gexf xmlns="http://gexf.net/1.3" version="1.3" xmlns:viz="http://gexf.net/1.3/viz" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://gexf.net/1.3 http://gexf.net/1.3/gexf.xsd">
+  <meta lastmodifieddate="2026-10-16">
+    <creator>Apache NetBeans Platform Dev (Build {0})</creator>
+    <title></title>
+    <description></description>
+  </meta>
+  <graph defaultedgetype="undirected" mode="static">
+    <attributes class="node" mode="static">
+      <attribute id="0" title="type" type="string"/>
+      <attribute id="1" title="total_kg" type="double"/>
+      <attribute id="2" title="kg_2004" type="double"/>
+      <attribute id="3" title="kg_2005" type="double"/>
+      <attribute id="4" title="kg_2006" type="double"/>
+      <attribute id="5" title="kg_2007" type="double"/>
+      <attribute id="6" title="kg_2008" type="double"/>
+      <attribute id="7" title="kg_2009" type="double"/>
+      <attribute id="8" title="kg_2010" type="double"/>
+      <attribute id="9" title="kg_2011" type="double"/>
+      <attribute id="10" title="kg_2012" type="double"/>
+      <attribute id="11" title="kg_2013" type="double"/>
+      <attribute id="12" title="kg_2014" type="double"/>
+      <attribute id="13" title="kg_2015" type="double"/>
+      <attribute id="14" title="kg_2016" type="double"/>
+      <attribute id="15" title="kg_2017" type="double"/>
+      <attribute id="16" title="kg_2018" type="double"/>
+      <attribute id="17" title="kg_2019" type="double"/>
+      <attribute id="18" title="kg_2020" type="double"/>
+      <attribute id="19" title="kg_2021" type="double"/>
+      <attribute id="20" title="kg_2022" type="double"/>
+    </attributes>
+    <attributes class="edge" mode="static">
+      <attribute id="21" title="y_2004" type="double"/>
+      <attribute id="22" title="y_2005" type="double"/>
+      <attribute id="23" title="y_2006" type="double"/>
+      <attribute id="24" title="y_2007" type="double"/>
+      <attribute id="25" title="y_2008" type="double"/>
+      <attribute id="26" title="y_2009" type="double"/>
+      <attribute id="27" title="y_2010" type="double"/>
+      <attribute id="28" title="y_2011" type="double"/>
+      <attribute id="29" title="y_2012" type="double"/>
+      <attribute id="30" title="y_2013" type="double"/>
+      <attribute id="31" title="y_2014" type="double"/>
+      <attribute id="32" title="y_2015" type="double"/>
+      <attribute id="33" title="y_2016" type="double"/>
+      <attribute id="34" title="y_2017" type="double"/>
+      <attribute id="35" title="y_2018" type="double"/>
+      <attribute id="36" title="y_2019" type="double"/>
+      <attribute id="37" title="y_2020" type="double"/>
+      <attribute id="38" title="y_2021" type="double"/>
+      <attribute id="39" title="y_2022" type="double"/>
+    </attributes>
+    <nodes>
+      <node id="LOC::Colima.Colima" label="Colima.Colima">
+        <attvalues>
+          <attvalue for="0" value="location"/>
+          <attvalue for="1" value="2.8439227189519946E7"/>
+          <attvalue for="2" value="1.7576610194638807E7"/>
+          <attvalue for="3" value="2113018.539125959"/>
+          <attvalue for="4" value="6646.0274641988"/>
+          <attvalue for="5" value="24072.139622638"/>
+          <attvalue for="6" value="28.887608000000004"/>
+          <attvalue for="7" value="31.215728199999997"/>
+          <attvalue for="8" value="23.710041999999998"/>
+          <attvalue for="9" value="10006.429962942051"/>
+          <attvalue for="10" value="4585.562949599998"/>
+          <attvalue for="11" value="8503.4901776"/>
+          <attvalue for="12" value="272.8686"/>
+          <attvalue for="13" value="1091133.2480999997"/>
+          <attvalue for="14" value="1069854.0909000002"/>
+          <attvalue for="15" value="900154.5901"/>
+          <attvalue for="16" value="1232397.2862"/>
+          <attvalue for="17" value="996790.0"/>
+          <attvalue for="18" value="1053746.6589000002"/>
+          <attvalue for="19" value="1067523.3011999999"/>
+          <attvalue for="20" value="1283828.9482"/>
+        </attvalues>
+        <viz:size value="10.0"/>
+        <viz:position x="-31.005041" y="204.95175"/>
+      </node>
+      <node id="LOC::Colima.Coquimatlán" label="Colima.Coquimatlán">
+        <attvalues>
+          <attvalue for="0" value="location"/>
+          <attvalue for="1" value="31825.04"/>
+          <attvalue for="2" value="6.0"/>
+          <attvalue for="3" value="0.0"/>
+          <attvalue for="4" value="0.0"/>
+          <attvalue for="5" value="0.0"/>
+          <attvalue for="6" value="0.0"/>
+          <attvalue for="7" value="0.0"/>
+          <attvalue for="8" value="0.0"/>
+          <attvalue for="9" value="44.5"/>
+          <attvalue for="10" value="0.0"/>
+          <attvalue for="11" value="0.0"/>
+          <attvalue for="12" value="0.0"/>
+          <attvalue for="13" value="0.0"/>
+          <attvalue for="14" value="0.0"/>
+          <attvalue for="15" value="31774.54"/>
+          <attvalue for="16" value="0.0"/>
+          <attvalue for="17" value="0.0"/>
+          <attvalue for="18" value="0.0"/>
+          <attvalue for="19" value="0.0"/>
+          <attvalue for="20" value="0.0"/>
+        </attvalues>
+        <viz:size value="10.0"/>
+        <viz:position x="244.86824" y="-447.77615"/>
+      </node>
+      <node id="LOC::Colima.Cuauhtémoc" label="Colima.Cuauhtémoc">
+        <attvalues>
+          <attvalue for="0" value="location"/>
+          <attvalue for="1" value="1.5730708736425664E9"/>
+          <attvalue for="2" value="1838000.0"/>
+          <attvalue for="3" value="1778520.2018304"/>
+          <attvalue for="4" value="1.36898601514E8"/>
+          <attvalue for="5" value="1.1251325E8"/>
+          <attvalue for="6" value="9.02606307236544E7"/>
+          <attvalue for="7" value="1.5247809234738973E8"/>
+          <attvalue for="8" value="1.455260006944E8"/>
+          <attvalue for="9" value="1.410151356994E8"/>
+          <attvalue for="10" value="1.6515030605E8"/>
+          <attvalue for="11" value="1.7655797989558998E8"/>
+          <attvalue for="12" value="35.117000000000004"/>
+          <attvalue for="13" value="1.185655119221E8"/>
+          <attvalue for="14" value="1.3707780680240002E8"/>
+          <attvalue for="15" value="1.4269610906489998E8"/>
+          <attvalue for="16" value="4.9268125856621005E7"/>
+          <attvalue for="17" value="743728.719781"/>
+          <attvalue for="18" value="701714.2581000001"/>
+          <attvalue for="19" value="208.48850000000002"/>
+          <attvalue for="20" value="1116.2869"/>
+        </attvalues>
+        <viz:size value="10.0"/>
+        <viz:position x="23.983624" y="-281.2053"/>
+      </node>
+      <node id="LOC::Colima.Ixtlahuacán" label="Colima.Ixtlahuacán">
+        <attvalues>
+          <attvalue for="0" value="location"/>
+          <attvalue for="1" value="8214004.1454346"/>
+          <attvalue for="2" value="0.0"/>
+          <attvalue for="3" value="0.0"/>
+          <attvalue for="4" value="0.0"/>
+          <attvalue for="5" value="0.0"/>
+          <attvalue for="6" value="0.0"/>
+          <attvalue for="7" value="0.0"/>
+          <attvalue for="8" value="0.0"/>
+          <attvalue for="9" value="0.0"/>
+          <attvalue for="10" value="0.0"/>
+          <attvalue for="11" value="437046.3497126"/>
+          <attvalue for="12" value="3.304"/>
+          <attvalue for="13" value="1754296.217412"/>
+          <attvalue for="14" value="940949.4643849999"/>
+          <attvalue for="15" value="1064590.0"/>
+          <attvalue for="16" value="921200.0"/>
+          <attvalue for="17" value="399550.912"/>
+          <attvalue for="18" value="407093.32898500003"/>
+          <attvalue for="19" value="646673.18194"/>
+          <attvalue for="20" value="1642601.3869999999"/>
+        </attvalues>
+        <viz:size value="10.0"/>
+        <viz:position x="419.6671" y="-55.145306"/>
+      </node>
+      <node id="LOC::Colima.Manzanillo" label="Colima.Manzanillo">
+        <attvalues>
+          <attvalue for="0" value="location"/>
+          <attvalue for="1" value="3.69956998613927E10"/>
+          <attvalue for="2" value="1.4025347E7"/>
+          <attvalue for="3" value="2.4198217348468605E8"/>
+          <attvalue for="4" value="5.795100351393306E9"/>
+          <attvalue for="5" value="1.0999982681452467E9"/>
+          <attvalue for="6" value="5.662590924538386E9"/>
+          <attvalue for="7" value="5.374534049963217E9"/>
+          <attvalue for="8" value="4.396128075790722E9"/>
+          <attvalue for="9" value="5.496352978812658E9"/>
+          <attvalue for="10" value="5.345305625230733E9"/>
+          <attvalue for="11" value="2.25448027078194E9"/>
+          <attvalue for="12" value="1.6941442798859996E8"/>
+          <attvalue for="13" value="3.605684183631329E8"/>
+          <attvalue for="14" value="1.3250629504286917E8"/>
+          <attvalue for="15" value="1.456503728851E8"/>
+          <attvalue for="16" value="4.457510725442769E7"/>
+          <attvalue for="17" value="4.204734049803001E7"/>
+          <attvalue for="18" value="1.43161752813844E8"/>
+          <attvalue for="19" value="1.347839875349E8"/>
+          <attvalue for="20" value="1.4249409387089998E8"/>
+        </attvalues>
+        <viz:size value="10.0"/>
+        <viz:position x="182.55023" y="318.58243"/>
+      </node>
+      <node id="LOC::Colima.Minatitlán" label="Colima.Minatitlán">
+        <attvalues>
+          <attvalue for="0" value="location"/>
+          <attvalue for="1" value="2.657067332698E8"/>
+          <attvalue for="2" value="0.0"/>
+          <attvalue for="3" value="0.0"/>
+          <attvalue for="4" value="0.0"/>
+          <attvalue for="5" value="0.0"/>
+          <attvalue for="6" value="0.0"/>
+          <attvalue for="7" value="0.0"/>
+          <attvalue for="8" value="0.0"/>
+          <attvalue for="9" value="0.0"/>
+          <attvalue for="10" value="0.0"/>
+          <attvalue for="11" value="0.0"/>
+          <attvalue for="12" value="0.0"/>
+          <attvalue for="13" value="0.0"/>
+          <attvalue for="14" value="0.0"/>
+          <attvalue for="15" value="0.0"/>
+          <attvalue for="16" value="0.0"/>
+          <attvalue for="17" value="0.0"/>
+          <attvalue for="18" value="7.758541298120001E7"/>
+          <attvalue for="19" value="9.47714036386E7"/>
+          <attvalue for="20" value="9.334991664999999E7"/>
+        </attvalues>
+        <viz:size value="10.0"/>
+        <viz:position x="-169.17862" y="-327.99905"/>
+      </node>
+      <node id="LOC::Colima.Tecomán" label="Colima.Tecomán">
+        <attvalues>
+          <attvalue for="0" value="location"/>
+          <attvalue for="1" value="9.048559030675655E9"/>
+          <attvalue for="2" value="1.039845912806874E9"/>
+          <attvalue for="3" value="1426055.585498049"/>
+          <attvalue for="4" value="1.0271224368622991E9"/>
+          <attvalue for="5" value="3146541.027422197"/>
+          <attvalue for="6" value="1.3031678440474882E9"/>
+          <attvalue for="7" value="1.1353266228090782E9"/>
+          <attvalue for="8" value="1.1462893011266809E9"/>
+          <attvalue for="9" value="1.149091703562135E9"/>
+          <attvalue for="10" value="1.0643379027408866E9"/>
+          <attvalue for="11" value="1.0474648034360795E9"/>
+          <attvalue for="12" value="7884767.51000279"/>
+          <attvalue for="13" value="8373832.300401566"/>
+          <attvalue for="14" value="1.4349493432263454E7"/>
+          <attvalue for="15" value="1.6780489128310803E7"/>
+          <attvalue for="16" value="1.6848558359414805E7"/>
+          <attvalue for="17" value="1.6290961940404039E7"/>
+          <attvalue for="18" value="1.6423202481201211E7"/>
+          <attvalue for="19" value="1.9210200934200916E7"/>
+          <attvalue for="20" value="1.5178400585013524E7"/>
+        </attvalues>
+        <viz:size value="10.0"/>
+        <viz:position x="-319.03427" y="111.98276"/>
+      </node>
+      <node id="LOC::Colima.Villa de Álvarez" label="Colima.Villa de Álvarez">
+        <attvalues>
+          <attvalue for="0" value="location"/>
+          <attvalue for="1" value="0.04702672"/>
+          <attvalue for="2" value="0.0"/>
+          <attvalue for="3" value="0.0"/>
+          <attvalue for="4" value="0.0"/>
+          <attvalue for="5" value="0.0"/>
+          <attvalue for="6" value="0.0"/>
+          <attvalue for="7" value="0.0"/>
+          <attvalue for="8" value="0.0"/>
+          <attvalue for="9" value="0.0"/>
+          <attvalue for="10" value="0.0"/>
+          <attvalue for="11" value="0.04702672"/>
+          <attvalue for="12" value="0.0"/>
+          <attvalue for="13" value="0.0"/>
+          <attvalue for="14" value="0.0"/>
+          <attvalue for="15" value="0.0"/>
+          <attvalue for="16" value="0.0"/>
+          <attvalue for="17" value="0.0"/>
+          <attvalue for="18" value="0.0"/>
+          <attvalue for="19" value="0.0"/>
+          <attvalue for="20" value="0.0"/>
+        </attvalues>
+        <viz:size value="10.0"/>
+        <viz:position x="421.0009" y="-388.85983"/>
+      </node>
+      <node id="SUB::Acetaldehido" label="Acetaldehyde">
+        <attvalues>
+          <attvalue for="0" value="substance"/>
+          <attvalue for="1" value="1100.3954635822163"/>
+          <attvalue for="2" value="0.0"/>
+          <attvalue for="3" value="0.072628"/>
+          <attvalue for="4" value="0.0"/>
+          <attvalue for="5" value="0.0"/>
+          <attvalue for="6" value="0.0298231"/>
+          <attvalue for="7" value="0.038873"/>
+          <attvalue for="8" value="0.066834228"/>
+          <attvalue for="9" value="0.09702110000000001"/>
+          <attvalue for="10" value="0.0486675542164"/>
+          <attvalue for="11" value="0.0836166"/>
+          <attvalue for="12" value="0.0"/>
+          <attvalue for="13" value="0.0"/>
+          <attvalue for="14" value="0.0"/>
+          <attvalue for="15" value="0.0"/>
+          <attvalue for="16" value="0.0"/>
+          <attvalue for="17" value="0.0"/>
+          <attvalue for="18" value="330.64"/>
+          <attvalue for="19" value="385.76"/>
+          <attvalue for="20" value="383.558"/>
+        </attvalues>
+        <viz:size value="10.0"/>
+        <viz:position x="-112.94073" y="-79.81129"/>
+      </node>
+      <node id="SUB::Acido sulfhídrico" label="Hydrogen sulfide">
+        <attvalues>
+          <attvalue for="0" value="substance"/>
+          <attvalue for="1" value="6.0E-5"/>
+          <attvalue for="2" value="0.0"/>
+          <attvalue for="3" value="0.0"/>
+          <attvalue for="4" value="0.0"/>
+          <attvalue for="5" value="0.0"/>
+          <attvalue for="6" value="0.0"/>
+          <attvalue for="7" value="0.0"/>
+          <attvalue for="8" value="0.0"/>
+          <attvalue for="9" value="0.0"/>
+          <attvalue for="10" value="0.0"/>
+          <attvalue for="11" value="6.0E-5"/>
+          <attvalue for="12" value="0.0"/>
+          <attvalue for="13" value="0.0"/>
+          <attvalue for="14" value="0.0"/>
+          <attvalue for="15" value="0.0"/>
+          <attvalue for="16" value="0.0"/>
+          <attvalue for="17" value="0.0"/>
+          <attvalue for="18" value="0.0"/>
+          <attvalue for="19" value="0.0"/>
+          <attvalue for="20" value="0.0"/>
+        </attvalues>
+        <viz:size value="10.0"/>
+        <viz:position x="384.24713" y="741.962"/>
+      </node>
+      <node id="SUB::Acroleina" label="Acrolein">
+        <attvalues>
+          <attvalue for="0" value="substance"/>
+          <attvalue for="1" value="0.050791857751"/>
+          <attvalue for="2" value="0.0"/>
+          <attvalue for="3" value="0.008758"/>
+          <attvalue for="4" value="0.0"/>
+          <attvalue for="5" value="0.0"/>
+          <attvalue for="6" value="0.003596"/>
+          <attvalue for="7" value="0.004679"/>
+          <attvalue for="8" value="0.00806019"/>
+          <attvalue for="9" value="0.0117002"/>
+          <attvalue for="10" value="0.0058674677509999995"/>
+          <attvalue for="11" value="0.008131"/>
+          <attvalue for="12" value="0.0"/>
+          <attvalue for="13" value="0.0"/>
+          <attvalue for="14" value="0.0"/>
+          <attvalue for="15" value="0.0"/>
+          <attvalue for="16" value="0.0"/>
+          <attvalue for="17" value="0.0"/>
+          <attvalue for="18" value="0.0"/>
+          <attvalue for="19" value="0.0"/>
+          <attvalue for="20" value="0.0"/>
+        </attvalues>
+        <viz:size value="10.0"/>
+        <viz:position x="141.48015" y="622.65125"/>
+      </node>
+      <node id="SUB::Arsénico (Compuestos solubles)" label="Arsenic (soluble compounds)">
+        <attvalues>
+          <attvalue for="0" value="substance"/>
+          <attvalue for="1" value="13005.502378"/>
+          <attvalue for="2" value="0.0"/>
+          <attvalue for="3" value="0.0"/>
+          <attvalue for="4" value="0.0"/>
+          <attvalue for="5" value="0.0"/>
+          <attvalue for="6" value="0.0"/>
+          <attvalue for="7" value="0.0"/>
+          <attvalue for="8" value="0.0"/>
+          <attvalue for="9" value="0.0"/>
+          <attvalue for="10" value="0.0"/>
+          <attvalue for="11" value="0.0"/>
+          <attvalue for="12" value="429.8166"/>
+          <attvalue for="13" value="235.61020000000002"/>
+          <attvalue for="14" value="1575.2460999999998"/>
+          <attvalue for="15" value="2231.7248000000004"/>
+          <attvalue for="16" value="1936.7157"/>
+          <attvalue for="17" value="2086.9659779999997"/>
+          <attvalue for="18" value="1484.3587999999997"/>
+          <attvalue for="19" value="1609.5155"/>
+          <attvalue for="20" value="1415.5486999999998"/>
+        </attvalues>
+        <viz:size value="10.0"/>
+        <viz:position x="-368.1539" y="-144.20372"/>
+      </node>
+      <node id="SUB::Arsénico (compuestos)" label="Arsenic (compounds)">
+        <attvalues>
+          <attvalue for="0" value="substance"/>
+          <attvalue for="1" value="62.04776335478999"/>
+          <attvalue for="2" value="0.0"/>
+          <attvalue for="3" value="0.0"/>
+          <attvalue for="4" value="0.0"/>
+          <attvalue for="5" value="0.0"/>
+          <attvalue for="6" value="0.0"/>
+          <attvalue for="7" value="0.0"/>
+          <attvalue for="8" value="4.7459359045000005"/>
+          <attvalue for="9" value="0.26475103944999995"/>
+          <attvalue for="10" value="0.0547089588"/>
+          <attvalue for="11" value="56.982367452039995"/>
+          <attvalue for="12" value="0.0"/>
+          <attvalue for="13" value="0.0"/>
+          <attvalue for="14" value="0.0"/>
+          <attvalue for="15" value="0.0"/>
+          <attvalue for="16" value="0.0"/>
+          <attvalue for="17" value="0.0"/>
+          <attvalue for="18" value="0.0"/>
+          <attvalue for="19" value="0.0"/>
+          <attvalue for="20" value="0.0"/>
+        </attvalues>
+        <viz:size value="10.0"/>
+        <viz:position x="-184.46571" y="552.0167"/>
+      </node>
+      <node id="SUB::Arsénico (polvos, respirables, vapores o humos)" label="Arsenic (respirable dust, vapors or fumes)">
+        <attvalues>
+          <attvalue for="0" value="substance"/>
+          <attvalue for="1" value="347.773148021674"/>
+          <attvalue for="2" value="8.2306315717"/>
+          <attvalue for="3" value="73.140519573"/>
+          <attvalue for="4" value="13.9050320813"/>
+          <attvalue for="5" value="135.276367505"/>
+          <attvalue for="6" value="13.02752981"/>
+          <attvalue for="7" value="14.591393439999997"/>
+          <attvalue for="8" value="8.3"/>
+          <attvalue for="9" value="7.4"/>
+          <attvalue for="10" value="0.27227529"/>
+          <attvalue for="11" value="3.7664368320399997"/>
+          <attvalue for="12" value="0.0"/>
+          <attvalue for="13" value="0.0"/>
+          <attvalue for="14" value="0.0"/>
+          <attvalue for="15" value="11.513"/>
+          <attvalue for="16" value="8.605721918634"/>
+          <attvalue for="17" value="13.321200000000001"/>
+          <attvalue for="18" value="12.104"/>
+          <attvalue for="19" value="10.78529"/>
+          <attvalue for="20" value="13.53375"/>
+        </attvalues>
+        <viz:size value="10.0"/>
+        <viz:position x="154.6886" y="51.988476"/>
+      </node>
+      <node id="SUB::Asbesto y sus formas (En forma de polvo, fibras o productos desmenuzables con la presión de la mano)" label="Asbestos and its forms (as dust, fibers or friable products that crumble under hand pressure)">
+        <attvalues>
+          <attvalue for="0" value="substance"/>
+          <attvalue for="1" value="37396.0"/>
+          <attvalue for="2" value="0.0"/>
+          <attvalue for="3" value="0.0"/>
+          <attvalue for="4" value="0.0"/>
+          <attvalue for="5" value="0.0"/>
+          <attvalue for="6" value="500.0"/>
+          <attvalue for="7" value="0.0"/>
+          <attvalue for="8" value="0.0"/>
+          <attvalue for="9" value="0.0"/>
+          <attvalue for="10" value="0.0"/>
+          <attvalue for="11" value="0.0"/>
+          <attvalue for="12" value="4538.0"/>
+          <attvalue for="13" value="500.0"/>
+          <attvalue for="14" value="0.0"/>
+          <attvalue for="15" value="31516.0"/>
+          <attvalue for="16" value="0.0"/>
+          <attvalue for="17" value="0.0"/>
+          <attvalue for="18" value="0.0"/>
+          <attvalue for="19" value="0.0"/>
+          <attvalue for="20" value="342.0"/>
+        </attvalues>
+        <viz:size value="10.0"/>
+        <viz:position x="150.72739" y="-481.4477"/>
+      </node>
+      <node id="SUB::Benceno" label="Benzene">
+        <attvalues>
+          <attvalue for="0" value="substance"/>
+          <attvalue for="1" value="59802.682268235425"/>
+          <attvalue for="2" value="6499.0"/>
+          <attvalue for="3" value="7604.0883460000005"/>
+          <attvalue for="4" value="8528.7"/>
+          <attvalue for="5" value="0.0"/>
+          <attvalue for="6" value="5216.5"/>
+          <attvalue for="7" value="6264.847291"/>
+          <attvalue for="8" value="2730.581299002"/>
+          <attvalue for="9" value="5685.281747999999"/>
+          <attvalue for="10" value="5538.059204177423"/>
+          <attvalue for="11" value="2425.1143800560003"/>
+          <attvalue for="12" value="0.0"/>
+          <attvalue for="13" value="2031.0"/>
+          <attvalue for="14" value="1007.0"/>
+          <attvalue for="15" value="1411.3"/>
+          <attvalue for="16" value="0.0"/>
+          <attvalue for="17" value="947.1"/>
+          <attvalue for="18" value="1608.14"/>
+          <attvalue for="19" value="690.52"/>
+          <attvalue for="20" value="1615.45"/>
+        </attvalues>
+        <viz:size value="10.0"/>
+        <viz:position x="399.2266" y="248.96324"/>
+      </node>
+      <node id="SUB::Bifenilos policlorados" label="Polychlorinated biphenyls (PCBs)">
+        <attvalues>
+          <attvalue for="0" value="substance"/>
+          <attvalue for="1" value="0.014"/>
+          <attvalue for="2" value="0.0"/>
+          <attvalue for="3" value="0.0"/>
+          <attvalue for="4" value="0.014"/>
+          <attvalue for="5" value="0.0"/>
+          <attvalue for="6" value="0.0"/>
+          <attvalue for="7" value="0.0"/>
+          <attvalue for="8" value="0.0"/>
+          <attvalue for="9" value="0.0"/>
+          <attvalue for="10" value="0.0"/>
+          <attvalue for="11" value="0.0"/>
+          <attvalue for="12" value="0.0"/>
+          <attvalue for="13" value="0.0"/>
+          <attvalue for="14" value="0.0"/>
+          <attvalue for="15" value="0.0"/>
+          <attvalue for="16" value="0.0"/>
+          <attvalue for="17" value="0.0"/>
+          <attvalue for="18" value="0.0"/>
+          <attvalue for="19" value="0.0"/>
+          <attvalue for="20" value="0.0"/>
+        </attvalues>
+        <viz:size value="10.0"/>
+        <viz:position x="-73.821" y="-689.1307"/>
+      </node>
+      <node id="SUB::Bióxido de carbono" label="Carbon dioxide">
+        <attvalues>
+          <attvalue for="0" value="substance"/>
+          <attvalue for="1" value="4.758317621591792E10"/>
+          <attvalue for="2" value="1.06620197E9"/>
+          <attvalue for="3" value="2.39984321E8"/>
+          <attvalue for="4" value="6.94410919252E9"/>
+          <attvalue for="5" value="1.2127719238E9"/>
+          <attvalue for="6" value="7.040064343376785E9"/>
+          <attvalue for="7" value="6.6449619132E9"/>
+          <attvalue for="8" value="5.5734145099E9"/>
+          <attvalue for="9" value="6.671961629976786E9"/>
+          <attvalue for="10" value="6.56115762815665E9"/>
+          <attvalue for="11" value="3.478738529884165E9"/>
+          <attvalue for="12" value="1.764894073475E8"/>
+          <attvalue for="13" value="4.8851465340753293E8"/>
+          <attvalue for="14" value="2.835192554964692E8"/>
+          <attvalue for="15" value="3.0575131E8"/>
+          <attvalue for="16" value="1.1097420647093767E8"/>
+          <attvalue for="17" value="5.78934832244E7"/>
+          <attvalue for="18" value="2.2843687876669997E8"/>
+          <attvalue for="19" value="2.4628853145000002E8"/>
+          <attvalue for="20" value="2.5194252794E8"/>
+        </attvalues>
+        <viz:size value="10.0"/>
+        <viz:position x="41.23388" y="-86.44946"/>
+      </node>
+      <node id="SUB::Bióxido de nitrógeno" label="Nitrogen dioxide">
+        <attvalues>
+          <attvalue for="0" value="substance"/>
+          <attvalue for="1" value="1.314993038798E8"/>
+          <attvalue for="2" value="7077000.0"/>
+          <attvalue for="3" value="7306650.0"/>
+          <attvalue for="4" value="1.500808E7"/>
+          <attvalue for="5" value="2887000.0"/>
+          <attvalue for="6" value="1.593373E7"/>
+          <attvalue for="7" value="1.458777E7"/>
+          <attvalue for="8" value="1.588349E7"/>
+          <attvalue for="9" value="1.58405E7"/>
+          <attvalue for="10" value="1.362566E7"/>
+          <attvalue for="11" value="12346.0"/>
+          <attvalue for="12" value="755339.91"/>
+          <attvalue for="13" value="1317870.0"/>
+          <attvalue for="14" value="1772180.0"/>
+          <attvalue for="15" value="927280.0"/>
+          <attvalue for="16" value="1232740.0"/>
+          <attvalue for="17" value="1926258.6008"/>
+          <attvalue for="18" value="1.0156258989E7"/>
+          <attvalue for="19" value="3892050.38"/>
+          <attvalue for="20" value="1357100.0"/>
+        </attvalues>
+        <viz:size value="10.0"/>
+        <viz:position x="-312.6571" y="-349.56662"/>
+      </node>
+      <node id="SUB::Cadmio (Compuestos solubles)" label="Cadmium (soluble compounds)">
+        <attvalues>
+          <attvalue for="0" value="substance"/>
+          <attvalue for="1" value="212385.2907"/>
+          <attvalue for="2" value="0.0"/>
+          <attvalue for="3" value="0.0"/>
+          <attvalue for="4" value="0.0"/>
+          <attvalue for="5" value="0.0"/>
+          <attvalue for="6" value="0.0"/>
+          <attvalue for="7" value="0.0"/>
+          <attvalue for="8" value="0.0"/>
+          <attvalue for="9" value="0.0"/>
+          <attvalue for="10" value="0.0"/>
+          <attvalue for="11" value="0.0"/>
+          <attvalue for="12" value="2058.0523"/>
+          <attvalue for="13" value="2961.8373"/>
+          <attvalue for="14" value="15049.063199999999"/>
+          <attvalue for="15" value="24918.3275"/>
+          <attvalue for="16" value="17607.0228"/>
+          <attvalue for="17" value="13335.5737"/>
+          <attvalue for="18" value="8070.4142"/>
+          <attvalue for="19" value="14468.462900000002"/>
+          <attvalue for="20" value="113916.53680000002"/>
+        </attvalues>
+        <viz:size value="10.0"/>
+        <viz:position x="-131.2483" y="67.61506"/>
+      </node>
+      <node id="SUB::Cadmio (compuestos)" label="Cadmium (compounds)">
+        <attvalues>
+          <attvalue for="0" value="substance"/>
+          <attvalue for="1" value="283.50478609704"/>
+          <attvalue for="2" value="0.0"/>
+          <attvalue for="3" value="0.0"/>
+          <attvalue for="4" value="0.0"/>
+          <attvalue for="5" value="3.0"/>
+          <attvalue for="6" value="0.0"/>
+          <attvalue for="7" value="0.0"/>
+          <attvalue for="8" value="0.49847021999999996"/>
+          <attvalue for="9" value="77.373570225"/>
+          <attvalue for="10" value="120.881834"/>
+          <attvalue for="11" value="81.75091165204"/>
+          <attvalue for="12" value="0.0"/>
+          <attvalue for="13" value="0.0"/>
+          <attvalue for="14" value="0.0"/>
+          <attvalue for="15" value="0.0"/>
+          <attvalue for="16" value="0.0"/>
+          <attvalue for="17" value="0.0"/>
+          <attvalue for="18" value="0.0"/>
+          <attvalue for="19" value="0.0"/>
+          <attvalue for="20" value="0.0"/>
+        </attvalues>
+        <viz:size value="10.0"/>
+        <viz:position x="-284.27032" y="500.10825"/>
+      </node>
+      <node id="SUB::Cadmio (polvos, respirables, vapores o humos)" label="Cadmium (respirable dust, vapors or fumes)">
+        <attvalues>
+          <attvalue for="0" value="substance"/>
+          <attvalue for="1" value="1771.88641535804"/>
+          <attvalue for="2" value="5.0"/>
+          <attvalue for="3" value="80.71883665"/>
+          <attvalue for="4" value="141.215868744"/>
+          <attvalue for="5" value="673.63493237"/>
+          <attvalue for="6" value="122.23427604999999"/>
+          <attvalue for="7" value="42.483342"/>
+          <attvalue for="8" value="84.5"/>
+          <attvalue for="9" value="84.1"/>
+          <attvalue for="10" value="58.351520000000015"/>
+          <attvalue for="11" value="79.65813954403998"/>
+          <attvalue for="12" value="133.1"/>
+          <attvalue for="13" value="0.0"/>
+          <attvalue for="14" value="2.9"/>
+          <attvalue for="15" value="1.6"/>
+          <attvalue for="16" value="0.0"/>
+          <attvalue for="17" value="249.3165"/>
+          <attvalue for="18" value="4.37"/>
+          <attvalue for="19" value="3.133"/>
+          <attvalue for="20" value="5.57"/>
+        </attvalues>
+        <viz:size value="10.0"/>
+        <viz:position x="258.67377" y="29.56708"/>
+      </node>
+      <node id="SUB::Cianuro inorgánico/orgánico" label="Inorganic/organic cyanide">
+        <attvalues>
+          <attvalue for="0" value="substance"/>
+          <attvalue for="1" value="233806.52566430357"/>
+          <attvalue for="2" value="0.611290834"/>
+          <attvalue for="3" value="15.622063"/>
+          <attvalue for="4" value="55.53050157629999"/>
+          <attvalue for="5" value="883.39697676"/>
+          <attvalue for="6" value="28.948180949999998"/>
+          <attvalue for="7" value="8.26835934"/>
+          <attvalue for="8" value="3.3541588399999998"/>
+          <attvalue for="9" value="0.5993757382"/>
+          <attvalue for="10" value="7.0296863"/>
+          <attvalue for="11" value="36.494370965085"/>
+          <attvalue for="12" value="2132.3913"/>
+          <attvalue for="13" value="7892.8088"/>
+          <attvalue for="14" value="19117.690499999997"/>
+          <attvalue for="15" value="25210.9109"/>
+          <attvalue for="16" value="34862.2564"/>
+          <attvalue for="17" value="43734.8371"/>
+          <attvalue for="18" value="25549.2426"/>
+          <attvalue for="19" value="31440.418299999998"/>
+          <attvalue for="20" value="42826.114799999996"/>
+        </attvalues>
+        <viz:size value="10.0"/>
+        <viz:position x="-120.67499" y="380.50278"/>
+      </node>
+      <node id="SUB::Clorodifluorometano (HCFC-22)" label="Chlorodifluoromethane (HCFC-22)">
+        <attvalues>
+          <attvalue for="0" value="substance"/>
+          <attvalue for="1" value="4335.58"/>
+          <attvalue for="2" value="0.0"/>
+          <attvalue for="3" value="0.0"/>
+          <attvalue for="4" value="0.0"/>
+          <attvalue for="5" value="0.0"/>
+          <attvalue for="6" value="506.0"/>
+          <attvalue for="7" value="938.0"/>
+          <attvalue for="8" value="624.0"/>
+          <attvalue for="9" value="256.88"/>
+          <attvalue for="10" value="1377.2"/>
+          <attvalue for="11" value="633.5"/>
+          <attvalue for="12" value="0.0"/>
+          <attvalue for="13" value="0.0"/>
+          <attvalue for="14" value="0.0"/>
+          <attvalue for="15" value="0.0"/>
+          <attvalue for="16" value="0.0"/>
+          <attvalue for="17" value="0.0"/>
+          <attvalue for="18" value="0.0"/>
+          <attvalue for="19" value="0.0"/>
+          <attvalue for="20" value="0.0"/>
+        </attvalues>
+        <viz:size value="10.0"/>
+        <viz:position x="488.12082" y="671.1599"/>
+      </node>
+      <node id="SUB::Cromo (Compuestos solubles)" label="Chromium (soluble compounds)">
+        <attvalues>
+          <attvalue for="0" value="substance"/>
+          <attvalue for="1" value="784519.184546"/>
+          <attvalue for="2" value="0.0"/>
+          <attvalue for="3" value="0.0"/>
+          <attvalue for="4" value="0.0"/>
+          <attvalue for="5" value="0.0"/>
+          <attvalue for="6" value="152.766546"/>
+          <attvalue for="7" value="0.0"/>
+          <attvalue for="8" value="0.0"/>
+          <attvalue for="9" value="0.0"/>
+          <attvalue for="10" value="0.0"/>
+          <attvalue for="11" value="0.0"/>
+          <attvalue for="12" value="14004.8773"/>
+          <attvalue for="13" value="81939.6587"/>
+          <attvalue for="14" value="184705.21349999998"/>
+          <attvalue for="15" value="72149.32790000002"/>
+          <attvalue for="16" value="97573.84629999999"/>
+          <attvalue for="17" value="104496.7345"/>
+          <attvalue for="18" value="74718.09730000001"/>
+          <attvalue for="19" value="77436.657"/>
+          <attvalue for="20" value="77342.0055"/>
+        </attvalues>
+        <viz:size value="10.0"/>
+        <viz:position x="-293.7295" y="-221.7508"/>
+      </node>
+      <node id="SUB::Cromo (compuestos)" label="Chromium (compounds)">
+        <attvalues>
+          <attvalue for="0" value="substance"/>
+          <attvalue for="1" value="1021.1694097745"/>
+          <attvalue for="2" value="49.0"/>
+          <attvalue for="3" value="136.901355"/>
+          <attvalue for="4" value="202.435153215"/>
+          <attvalue for="5" value="169.612"/>
+          <attvalue for="6" value="0.0"/>
+          <attvalue for="7" value="89.29370839999999"/>
+          <attvalue for="8" value="24.175295749999997"/>
+          <attvalue for="9" value="46.091870998"/>
+          <attvalue for="10" value="86.75789482400002"/>
+          <attvalue for="11" value="216.90213158749998"/>
+          <attvalue for="12" value="0.0"/>
+          <attvalue for="13" value="0.0"/>
+          <attvalue for="14" value="0.0"/>
+          <attvalue for="15" value="0.0"/>
+          <attvalue for="16" value="0.0"/>
+          <attvalue for="17" value="0.0"/>
+          <attvalue for="18" value="0.0"/>
+          <attvalue for="19" value="0.0"/>
+          <attvalue for="20" value="0.0"/>
+        </attvalues>
+        <viz:size value="10.0"/>
+        <viz:position x="286.37784" y="128.85791"/>
+      </node>
+      <node id="SUB::Cromo (polvos respirables, humos o vapores)" label="Chromium (respirable dust, fumes or vapors)">
+        <attvalues>
+          <attvalue for="0" value="substance"/>
+          <attvalue for="1" value="419.054854107004"/>
+          <attvalue for="2" value="0.0"/>
+          <attvalue for="3" value="0.0"/>
+          <attvalue for="4" value="0.0"/>
+          <attvalue for="5" value="0.0"/>
+          <attvalue for="6" value="0.0"/>
+          <attvalue for="7" value="0.0"/>
+          <attvalue for="8" value="0.0"/>
+          <attvalue for="9" value="0.0"/>
+          <attvalue for="10" value="0.0"/>
+          <attvalue for="11" value="0.0"/>
+          <attvalue for="12" value="18.121"/>
+          <attvalue for="13" value="21.0"/>
+          <attvalue for="14" value="26.4"/>
+          <attvalue for="15" value="58.546"/>
+          <attvalue for="16" value="31.232034107004"/>
+          <attvalue for="17" value="34.7492"/>
+          <attvalue for="18" value="125.096"/>
+          <attvalue for="19" value="40.12887"/>
+          <attvalue for="20" value="63.78175"/>
+        </attvalues>
+        <viz:size value="10.0"/>
+        <viz:position x="289.22943" y="-79.50931"/>
+      </node>
+      <node id="SUB::Dioxinas" label="Dioxins">
+        <attvalues>
+          <attvalue for="0" value="substance"/>
+          <attvalue for="1" value="4.66169056E-5"/>
+          <attvalue for="2" value="3.06056E-8"/>
+          <attvalue for="3" value="4.89E-8"/>
+          <attvalue for="4" value="5.49E-8"/>
+          <attvalue for="5" value="0.0"/>
+          <attvalue for="6" value="4.9E-8"/>
+          <attvalue for="7" value="4.03E-8"/>
+          <attvalue for="8" value="3.7E-8"/>
+          <attvalue for="9" value="3.7E-8"/>
+          <attvalue for="10" value="8.8777E-6"/>
+          <attvalue for="11" value="3.918E-6"/>
+          <attvalue for="12" value="1.5E-6"/>
+          <attvalue for="13" value="5.3E-8"/>
+          <attvalue for="14" value="8.009E-6"/>
+          <attvalue for="15" value="8.1E-6"/>
+          <attvalue for="16" value="1.07E-5"/>
+          <attvalue for="17" value="3.8097E-6"/>
+          <attvalue for="18" value="2.429E-7"/>
+          <attvalue for="19" value="3.9E-9"/>
+          <attvalue for="20" value="1.105E-6"/>
+        </attvalues>
+        <viz:size value="10.0"/>
+        <viz:position x="-739.79987" y="212.85716"/>
+      </node>
+      <node id="SUB::Fenol" label="Phenol">
+        <attvalues>
+          <attvalue for="0" value="substance"/>
+          <attvalue for="1" value="0.65"/>
+          <attvalue for="2" value="0.0"/>
+          <attvalue for="3" value="0.0"/>
+          <attvalue for="4" value="0.0"/>
+          <attvalue for="5" value="0.0"/>
+          <attvalue for="6" value="0.0"/>
+          <attvalue for="7" value="0.0"/>
+          <attvalue for="8" value="0.0"/>
+          <attvalue for="9" value="0.65"/>
+          <attvalue for="10" value="0.0"/>
+          <attvalue for="11" value="0.0"/>
+          <attvalue for="12" value="0.0"/>
+          <attvalue for="13" value="0.0"/>
+          <attvalue for="14" value="0.0"/>
+          <attvalue for="15" value="0.0"/>
+          <attvalue for="16" value="0.0"/>
+          <attvalue for="17" value="0.0"/>
+          <attvalue for="18" value="0.0"/>
+          <attvalue for="19" value="0.0"/>
+          <attvalue for="20" value="0.0"/>
+        </attvalues>
+        <viz:size value="10.0"/>
+        <viz:position x="40.323704" y="-707.03424"/>
+      </node>
+      <node id="SUB::Formaldehido" label="Formaldehyde">
+        <attvalues>
+          <attvalue for="0" value="substance"/>
+          <attvalue for="1" value="2527.39016553"/>
+          <attvalue for="2" value="0.0"/>
+          <attvalue for="3" value="0.0037023"/>
+          <attvalue for="4" value="0.0"/>
+          <attvalue for="5" value="0.0"/>
+          <attvalue for="6" value="0.0015203"/>
+          <attvalue for="7" value="0.00169"/>
+          <attvalue for="8" value="0.003059194"/>
+          <attvalue for="9" value="0.0047723"/>
+          <attvalue for="10" value="0.002229"/>
+          <attvalue for="11" value="1.956344466"/>
+          <attvalue for="12" value="0.0"/>
+          <attvalue for="13" value="0.0"/>
+          <attvalue for="14" value="0.0"/>
+          <attvalue for="15" value="121.62"/>
+          <attvalue for="16" value="114.19304797"/>
+          <attvalue for="17" value="213.9038"/>
+          <attvalue for="18" value="633.37"/>
+          <attvalue for="19" value="721.46"/>
+          <attvalue for="20" value="720.87"/>
+        </attvalues>
+        <viz:size value="10.0"/>
+        <viz:position x="165.96564" y="-116.732285"/>
+      </node>
+      <node id="SUB::Furanos" label="Furans">
+        <attvalues>
+          <attvalue for="0" value="substance"/>
+          <attvalue for="1" value="2.9577488E-5"/>
+          <attvalue for="2" value="0.0"/>
+          <attvalue for="3" value="0.0"/>
+          <attvalue for="4" value="0.0"/>
+          <attvalue for="5" value="0.0"/>
+          <attvalue for="6" value="0.0"/>
+          <attvalue for="7" value="0.0"/>
+          <attvalue for="8" value="0.0"/>
+          <attvalue for="9" value="0.0"/>
+          <attvalue for="10" value="0.0"/>
+          <attvalue for="11" value="0.0"/>
+          <attvalue for="12" value="1.29E-6"/>
+          <attvalue for="13" value="1.513E-6"/>
+          <attvalue for="14" value="5.447E-6"/>
+          <attvalue for="15" value="2.7E-6"/>
+          <attvalue for="16" value="4.1E-6"/>
+          <attvalue for="17" value="2.241E-7"/>
+          <attvalue for="18" value="9.71688E-7"/>
+          <attvalue for="19" value="9.137E-7"/>
+          <attvalue for="20" value="1.2418E-5"/>
+        </attvalues>
+        <viz:size value="10.0"/>
+        <viz:position x="-704.21027" y="308.8735"/>
+      </node>
+      <node id="SUB::Mercurio (Compuestos solubles)" label="Mercury (soluble compounds)">
+        <attvalues>
+          <attvalue for="0" value="substance"/>
+          <attvalue for="1" value="11332.08825815"/>
+          <attvalue for="2" value="0.0"/>
+          <attvalue for="3" value="0.0"/>
+          <attvalue for="4" value="0.0"/>
+          <attvalue for="5" value="0.0"/>
+          <attvalue for="6" value="1.9933321499999999"/>
+          <attvalue for="7" value="0.0"/>
+          <attvalue for="8" value="0.0"/>
+          <attvalue for="9" value="0.0"/>
+          <attvalue for="10" value="0.0"/>
+          <attvalue for="11" value="0.0"/>
+          <attvalue for="12" value="160.9777"/>
+          <attvalue for="13" value="163.4488"/>
+          <attvalue for="14" value="1516.96145"/>
+          <attvalue for="15" value="1413.7531000000001"/>
+          <attvalue for="16" value="1844.0834109999998"/>
+          <attvalue for="17" value="1963.1280649999999"/>
+          <attvalue for="18" value="1328.1924999999999"/>
+          <attvalue for="19" value="1561.0962"/>
+          <attvalue for="20" value="1378.4536999999998"/>
+        </attvalues>
+        <viz:size value="10.0"/>
+        <viz:position x="-204.3321" y="297.35626"/>
+      </node>
+      <node id="SUB::Mercurio (compuestos)" label="Mercury (compounds)">
+        <attvalues>
+          <attvalue for="0" value="substance"/>
+          <attvalue for="1" value="124.54743727550749"/>
+          <attvalue for="2" value="0.15959040000000002"/>
+          <attvalue for="3" value="0.6624391865"/>
+          <attvalue for="4" value="1.7054081157999998"/>
+          <attvalue for="5" value="8.190221"/>
+          <attvalue for="6" value="0.0"/>
+          <attvalue for="7" value="0.7729448234999999"/>
+          <attvalue for="8" value="0.08441890835000002"/>
+          <attvalue for="9" value="98.2620110062"/>
+          <attvalue for="10" value="6.7091429902"/>
+          <attvalue for="11" value="8.0012608449575"/>
+          <attvalue for="12" value="0.0"/>
+          <attvalue for="13" value="0.0"/>
+          <attvalue for="14" value="0.0"/>
+          <attvalue for="15" value="0.0"/>
+          <attvalue for="16" value="0.0"/>
+          <attvalue for="17" value="0.0"/>
+          <attvalue for="18" value="0.0"/>
+          <attvalue for="19" value="0.0"/>
+          <attvalue for="20" value="0.0"/>
+        </attvalues>
+        <viz:size value="10.0"/>
+        <viz:position x="-312.57324" y="314.82373"/>
+      </node>
+      <node id="SUB::Mercurio (polvos, respirables, vapores o humos)" label="Mercury (respirable dust, vapors or fumes)">
+        <attvalues>
+          <attvalue for="0" value="substance"/>
+          <attvalue for="1" value="605.6940663196575"/>
+          <attvalue for="2" value="84.0"/>
+          <attvalue for="3" value="97.0"/>
+          <attvalue for="4" value="109.8"/>
+          <attvalue for="5" value="0.0"/>
+          <attvalue for="6" value="9.5"/>
+          <attvalue for="7" value="79.6"/>
+          <attvalue for="8" value="13.3"/>
+          <attvalue for="9" value="72.2"/>
+          <attvalue for="10" value="24.968956014200003"/>
+          <attvalue for="11" value="19.4073103054575"/>
+          <attvalue for="12" value="7.6"/>
+          <attvalue for="13" value="3.9"/>
+          <attvalue for="14" value="21.204"/>
+          <attvalue for="15" value="7.4"/>
+          <attvalue for="16" value="7.6"/>
+          <attvalue for="17" value="7.8418"/>
+          <attvalue for="18" value="18.462"/>
+          <attvalue for="19" value="9.14"/>
+          <attvalue for="20" value="12.77"/>
+        </attvalues>
+        <viz:size value="10.0"/>
+        <viz:position x="256.98926" y="-275.64047"/>
+      </node>
+      <node id="SUB::Metano" label="Methane">
+        <attvalues>
+          <attvalue for="0" value="substance"/>
+          <attvalue for="1" value="1193334.7672710337"/>
+          <attvalue for="2" value="0.0"/>
+          <attvalue for="3" value="0.0018270337239"/>
+          <attvalue for="4" value="0.0"/>
+          <attvalue for="5" value="0.0"/>
+          <attvalue for="6" value="0.0"/>
+          <attvalue for="7" value="0.0"/>
+          <attvalue for="8" value="0.0"/>
+          <attvalue for="9" value="0.0"/>
+          <attvalue for="10" value="0.0"/>
+          <attvalue for="11" value="182112.34"/>
+          <attvalue for="12" value="0.0"/>
+          <attvalue for="13" value="388633.0"/>
+          <attvalue for="14" value="169951.0"/>
+          <attvalue for="15" value="0.0"/>
+          <attvalue for="16" value="208906.0"/>
+          <attvalue for="17" value="0.0"/>
+          <attvalue for="18" value="243732.425444"/>
+          <attvalue for="19" value="0.0"/>
+          <attvalue for="20" value="0.0"/>
+        </attvalues>
+        <viz:size value="10.0"/>
+        <viz:position x="-74.43747" y="559.7737"/>
+      </node>
+      <node id="SUB::Níquel (Compuestos solubles)" label="Nickel (soluble compounds)">
+        <attvalues>
+          <attvalue for="0" value="substance"/>
+          <attvalue for="1" value="988784.96954996"/>
+          <attvalue for="2" value="0.0"/>
+          <attvalue for="3" value="0.0"/>
+          <attvalue for="4" value="0.0"/>
+          <attvalue for="5" value="0.0"/>
+          <attvalue for="6" value="141.57620596"/>
+          <attvalue for="7" value="0.0"/>
+          <attvalue for="8" value="0.0"/>
+          <attvalue for="9" value="0.0"/>
+          <attvalue for="10" value="0.0"/>
+          <attvalue for="11" value="0.0"/>
+          <attvalue for="12" value="12655.4043"/>
+          <attvalue for="13" value="17354.1318"/>
+          <attvalue for="14" value="116201.12919999998"/>
+          <attvalue for="15" value="145942.4185"/>
+          <attvalue for="16" value="94508.78219999999"/>
+          <attvalue for="17" value="163566.376644"/>
+          <attvalue for="18" value="137162.09649999999"/>
+          <attvalue for="19" value="162563.50840000002"/>
+          <attvalue for="20" value="138689.5458"/>
+        </attvalues>
+        <viz:size value="10.0"/>
+        <viz:position x="-176.52408" y="-170.44658"/>
+      </node>
+      <node id="SUB::Níquel (compuestos)" label="Nickel (compounds)">
+        <attvalues>
+          <attvalue for="0" value="substance"/>
+          <attvalue for="1" value="4623.70813689685"/>
+          <attvalue for="2" value="1.0"/>
+          <attvalue for="3" value="77.60397565000001"/>
+          <attvalue for="4" value="137.094403115"/>
+          <attvalue for="5" value="1007.4047205999999"/>
+          <attvalue for="6" value="0.0"/>
+          <attvalue for="7" value="54.774795115299995"/>
+          <attvalue for="8" value="3.29848209025"/>
+          <attvalue for="9" value="340.30368961939996"/>
+          <attvalue for="10" value="265.1855281544"/>
+          <attvalue for="11" value="2737.0425425525004"/>
+          <attvalue for="12" value="0.0"/>
+          <attvalue for="13" value="0.0"/>
+          <attvalue for="14" value="0.0"/>
+          <attvalue for="15" value="0.0"/>
+          <attvalue for="16" value="0.0"/>
+          <attvalue for="17" value="0.0"/>
+          <attvalue for="18" value="0.0"/>
+          <attvalue for="19" value="0.0"/>
+          <attvalue for="20" value="0.0"/>
+        </attvalues>
+        <viz:size value="10.0"/>
+        <viz:position x="397.0952" y="102.58035"/>
+      </node>
+      <node id="SUB::Níquel (polvos respirables, humos o vapores)" label="Nickel (respirable dust, fumes or vapors)">
+        <attvalues>
+          <attvalue for="0" value="substance"/>
+          <attvalue for="1" value="2701.854862"/>
+          <attvalue for="2" value="0.0"/>
+          <attvalue for="3" value="0.0"/>
+          <attvalue for="4" value="0.0"/>
+          <attvalue for="5" value="0.0"/>
+          <attvalue for="6" value="0.0"/>
+          <attvalue for="7" value="0.0"/>
+          <attvalue for="8" value="0.0"/>
+          <attvalue for="9" value="0.0"/>
+          <attvalue for="10" value="0.0"/>
+          <attvalue for="11" value="0.0"/>
+          <attvalue for="12" value="144.404"/>
+          <attvalue for="13" value="5.534412"/>
+          <attvalue for="14" value="2.968485"/>
+          <attvalue for="15" value="163.598"/>
+          <attvalue for="16" value="0.0"/>
+          <attvalue for="17" value="970.5342"/>
+          <attvalue for="18" value="453.42148499999996"/>
+          <attvalue for="19" value="475.54697999999996"/>
+          <attvalue for="20" value="485.8473"/>
+        </attvalues>
+        <viz:size value="10.0"/>
+        <viz:position x="376.0529" y="-157.82558"/>
+      </node>
+      <node id="SUB::Oxido nitroso" label="Nitrous oxide">
+        <attvalues>
+          <attvalue for="0" value="substance"/>
+          <attvalue for="1" value="2.0007926303E8"/>
+          <attvalue for="2" value="0.0"/>
+          <attvalue for="3" value="0.0"/>
+          <attvalue for="4" value="0.0"/>
+          <attvalue for="5" value="0.0"/>
+          <attvalue for="6" value="14400.0"/>
+          <attvalue for="7" value="2781323.03"/>
+          <attvalue for="8" value="9.864177E7"/>
+          <attvalue for="9" value="9.864177E7"/>
+          <attvalue for="10" value="0.0"/>
+          <attvalue for="11" value="0.0"/>
+          <attvalue for="12" value="0.0"/>
+          <attvalue for="13" value="0.0"/>
+          <attvalue for="14" value="0.0"/>
+          <attvalue for="15" value="0.0"/>
+          <attvalue for="16" value="0.0"/>
+          <attvalue for="17" value="0.0"/>
+          <attvalue for="18" value="0.0"/>
+          <attvalue for="19" value="0.0"/>
+          <attvalue for="20" value="0.0"/>
+        </attvalues>
+        <viz:size value="10.0"/>
+        <viz:position x="-750.0474" y="111.036255"/>
+      </node>
+      <node id="SUB::Plomo (Compuestos solubles)" label="Lead (soluble compounds)">
+        <attvalues>
+          <attvalue for="0" value="substance"/>
+          <attvalue for="1" value="1299434.63176416"/>
+          <attvalue for="2" value="0.0"/>
+          <attvalue for="3" value="0.0"/>
+          <attvalue for="4" value="0.0"/>
+          <attvalue for="5" value="0.0"/>
+          <attvalue for="6" value="262.23934116"/>
+          <attvalue for="7" value="0.0"/>
+          <attvalue for="8" value="0.0"/>
+          <attvalue for="9" value="0.0"/>
+          <attvalue for="10" value="0.0"/>
+          <attvalue for="11" value="0.0"/>
+          <attvalue for="12" value="7719.4972"/>
+          <attvalue for="13" value="10996.1336"/>
+          <attvalue for="14" value="143775.57989999998"/>
+          <attvalue for="15" value="132772.8557"/>
+          <attvalue for="16" value="180455.18889899994"/>
+          <attvalue for="17" value="322268.356624"/>
+          <attvalue for="18" value="237038.87670000002"/>
+          <attvalue for="19" value="177.61090000000002"/>
+          <attvalue for="20" value="263968.2929"/>
+        </attvalues>
+        <viz:size value="10.0"/>
+        <viz:position x="-254.89502" y="-99.240555"/>
+      </node>
+      <node id="SUB::Plomo (compuestos)" label="Lead (compounds)">
+        <attvalues>
+          <attvalue for="0" value="substance"/>
+          <attvalue for="1" value="59562.310245452325"/>
+          <attvalue for="2" value="259.0"/>
+          <attvalue for="3" value="710.98669"/>
+          <attvalue for="4" value="1572.876701715"/>
+          <attvalue for="5" value="20326.997073600003"/>
+          <attvalue for="6" value="0.0"/>
+          <attvalue for="7" value="297.42833659999997"/>
+          <attvalue for="8" value="134.50583155000004"/>
+          <attvalue for="9" value="19299.506861492002"/>
+          <attvalue for="10" value="7645.9003972394"/>
+          <attvalue for="11" value="9315.10835325592"/>
+          <attvalue for="12" value="0.0"/>
+          <attvalue for="13" value="0.0"/>
+          <attvalue for="14" value="0.0"/>
+          <attvalue for="15" value="0.0"/>
+          <attvalue for="16" value="0.0"/>
+          <attvalue for="17" value="0.0"/>
+          <attvalue for="18" value="0.0"/>
+          <attvalue for="19" value="0.0"/>
+          <attvalue for="20" value="0.0"/>
+        </attvalues>
+        <viz:size value="10.0"/>
+        <viz:position x="371.62186" y="-347.92627"/>
+      </node>
+      <node id="SUB::Plomo (polvos respirables, humos o vapores)" label="Lead (respirable dust, fumes or vapors)">
+        <attvalues>
+          <attvalue for="0" value="substance"/>
+          <attvalue for="1" value="53483.300897043286"/>
+          <attvalue for="2" value="0.0"/>
+          <attvalue for="3" value="0.0"/>
+          <attvalue for="4" value="0.0"/>
+          <attvalue for="5" value="0.0"/>
+          <attvalue for="6" value="0.0"/>
+          <attvalue for="7" value="0.0"/>
+          <attvalue for="8" value="0.0"/>
+          <attvalue for="9" value="0.0"/>
+          <attvalue for="10" value="0.0"/>
+          <attvalue for="11" value="0.0"/>
+          <attvalue for="12" value="10757.289"/>
+          <attvalue for="13" value="7930.58"/>
+          <attvalue for="14" value="10.98"/>
+          <attvalue for="15" value="6969.313"/>
+          <attvalue for="16" value="586.759197043286"/>
+          <attvalue for="17" value="4741.505700000001"/>
+          <attvalue for="18" value="7515.459000000001"/>
+          <attvalue for="19" value="7821.505999999999"/>
+          <attvalue for="20" value="7149.909"/>
+        </attvalues>
+        <viz:size value="10.0"/>
+        <viz:position x="58.853825" y="-450.97012"/>
+      </node>
+    </nodes>
+    <edges>
+      <edge id="0" source="LOC::Colima.Colima" target="SUB::Níquel (Compuestos solubles)" weight="12635.6943359375">
+        <attvalues>
+          <attvalue for="21" value="0.0"/>
+          <attvalue for="22" value="0.0"/>
+          <attvalue for="23" value="0.0"/>
+          <attvalue for="24" value="0.0"/>
+          <attvalue for="25" value="1.583824"/>
+          <attvalue for="26" value="0.0"/>
+          <attvalue for="27" value="0.0"/>
+          <attvalue for="28" value="0.0"/>
+          <attvalue for="29" value="0.0"/>
+          <attvalue for="30" value="0.0"/>
+          <attvalue for="31" value="2.7017"/>
+          <attvalue for="32" value="2258.9991999999997"/>
+          <attvalue for="33" value="2727.8469999999998"/>
+          <attvalue for="34" value="3.2719"/>
+          <attvalue for="35" value="2390.5036"/>
+          <attvalue for="36" value="0.0"/>
+          <attvalue for="37" value="2507.7859"/>
+          <attvalue for="38" value="0.0"/>
+          <attvalue for="39" value="2743.0013"/>
+        </attvalues>
+      </edge>
+      <edge id="1" source="LOC::Colima.Colima" target="SUB::Cadmio (Compuestos solubles)" weight="8207.7890625">
+        <attvalues>
+          <attvalue for="21" value="0.0"/>
+          <attvalue for="22" value="0.0"/>
+          <attvalue for="23" value="0.0"/>
+          <attvalue for="24" value="0.0"/>
+          <attvalue for="25" value="0.0"/>
+          <attvalue for="26" value="0.0"/>
+          <attvalue for="27" value="0.0"/>
+          <attvalue for="28" value="0.0"/>
+          <attvalue for="29" value="0.0"/>
+          <attvalue for="30" value="0.0"/>
+          <attvalue for="31" value="2.7017"/>
+          <attvalue for="32" value="452.90580000000006"/>
+          <attvalue for="33" value="546.6841000000001"/>
+          <attvalue for="34" value="5174.3939"/>
+          <attvalue for="35" value="479.3891"/>
+          <attvalue for="36" value="0.0"/>
+          <attvalue for="37" value="501.5572"/>
+          <attvalue for="38" value="501.5572"/>
+          <attvalue for="39" value="548.6003"/>
+        </attvalues>
+      </edge>
+      <edge id="2" source="LOC::Colima.Colima" target="SUB::Cianuro inorgánico/orgánico" weight="8432.8154296875">
+        <attvalues>
+          <attvalue for="21" value="0.181059434"/>
+          <attvalue for="22" value="0.24163"/>
+          <attvalue for="23" value="0.1769065"/>
+          <attvalue for="24" value="134.48347166"/>
+          <attvalue for="25" value="1.5804589999999998"/>
+          <attvalue for="26" value="3.163507"/>
+          <attvalue for="27" value="2.812623"/>
+          <attvalue for="28" value="0.434154109"/>
+          <attvalue for="29" value="0.41016600000000003"/>
+          <attvalue for="30" value="0.3425898"/>
+          <attvalue for="31" value="183.7135"/>
+          <attvalue for="32" value="451.4904"/>
+          <attvalue for="33" value="451.4904"/>
+          <attvalue for="34" value="5172.7579"/>
+          <attvalue for="35" value="477.8222"/>
+          <attvalue for="36" value="0.0"/>
+          <attvalue for="37" value="501.5572"/>
+          <attvalue for="38" value="501.5572"/>
+          <attvalue for="39" value="548.6003"/>
+        </attvalues>
+      </edge>
+      <edge id="3" source="LOC::Colima.Colima" target="SUB::Mercurio (Compuestos solubles)" weight="193.77378845214844">
+        <attvalues>
+          <attvalue for="21" value="0.0"/>
+          <attvalue for="22" value="0.0"/>
+          <attvalue for="23" value="0.0"/>
+          <attvalue for="24" value="0.0"/>
+          <attvalue for="25" value="0.084196"/>
+          <attvalue for="26" value="0.0"/>
+          <attvalue for="27" value="0.0"/>
+          <attvalue for="28" value="0.0"/>
+          <attvalue for="29" value="0.0"/>
+          <attvalue for="30" value="0.0"/>
+          <attvalue for="31" value="0.0"/>
+          <attvalue for="32" value="0.0"/>
+          <attvalue for="33" value="13.6323"/>
+          <attvalue for="34" value="129.3189"/>
+          <attvalue for="35" value="11.9456"/>
+          <attvalue for="36" value="0.0"/>
+          <attvalue for="37" value="12.5389"/>
+          <attvalue for="38" value="12.5389"/>
+          <attvalue for="39" value="13.715"/>
+        </attvalues>
+      </edge>
+      <edge id="4" source="LOC::Colima.Colima" target="SUB::Metano" weight="593850.0">
+        <attvalues>
+          <attvalue for="21" value="0.0"/>
+          <attvalue for="22" value="0.0"/>
+          <attvalue for="23" value="0.0"/>
+          <attvalue for="24" value="0.0"/>
+          <attvalue for="25" value="0.0"/>
+          <attvalue for="26" value="0.0"/>
+          <attvalue for="27" value="0.0"/>
+          <attvalue for="28" value="0.0"/>
+          <attvalue for="29" value="0.0"/>
+          <attvalue for="30" value="0.0"/>
+          <attvalue for="31" value="0.0"/>
+          <attvalue for="32" value="214993.0"/>
+          <attvalue for="33" value="169951.0"/>
+          <attvalue for="34" value="0.0"/>
+          <attvalue for="35" value="208906.0"/>
+          <attvalue for="36" value="0.0"/>
+          <attvalue for="37" value="0.0"/>
+          <attvalue for="38" value="0.0"/>
+          <attvalue for="39" value="0.0"/>
+        </attvalues>
+      </edge>
+      <edge id="5" source="LOC::Colima.Colima" target="SUB::Mercurio (polvos, respirables, vapores o humos)" weight="0.637630820274353">
+        <attvalues>
+          <attvalue for="21" value="0.0"/>
+          <attvalue for="22" value="0.0"/>
+          <attvalue for="23" value="0.0"/>
+          <attvalue for="24" value="0.0"/>
+          <attvalue for="25" value="0.0"/>
+          <attvalue for="26" value="0.0"/>
+          <attvalue for="27" value="0.0"/>
+          <attvalue for="28" value="0.0"/>
+          <attvalue for="29" value="0.2460996"/>
+          <attvalue for="30" value="0.39153119999999997"/>
+          <attvalue for="31" value="0.0"/>
+          <attvalue for="32" value="0.0"/>
+          <attvalue for="33" value="0.0"/>
+          <attvalue for="34" value="0.0"/>
+          <attvalue for="35" value="0.0"/>
+          <attvalue for="36" value="0.0"/>
+          <attvalue for="37" value="0.0"/>
+          <attvalue for="38" value="0.0"/>
+          <attvalue for="39" value="0.0"/>
+        </attvalues>
+      </edge>
+      <edge id="6" source="LOC::Colima.Colima" target="SUB::Cromo (Compuestos solubles)" weight="10393.625">
+        <attvalues>
+          <attvalue for="21" value="0.0"/>
+          <attvalue for="22" value="0.0"/>
+          <attvalue for="23" value="0.0"/>
+          <attvalue for="24" value="0.0"/>
+          <attvalue for="25" value="5.367546"/>
+          <attvalue for="26" value="0.0"/>
+          <attvalue for="27" value="0.0"/>
+          <attvalue for="28" value="0.0"/>
+          <attvalue for="29" value="0.0"/>
+          <attvalue for="30" value="0.0"/>
+          <attvalue for="31" value="8.105"/>
+          <attvalue for="32" value="8.3508"/>
+          <attvalue for="33" value="2727.8469999999998"/>
+          <attvalue for="34" value="2.6638"/>
+          <attvalue for="35" value="2390.5036"/>
+          <attvalue for="36" value="0.0"/>
+          <attvalue for="37" value="2507.7859"/>
+          <attvalue for="38" value="0.0"/>
+          <attvalue for="39" value="2743.0013"/>
+        </attvalues>
+      </edge>
+      <edge id="7" source="LOC::Colima.Colima" target="SUB::Formaldehido" weight="0.006420900113880634">
+        <attvalues>
+          <attvalue for="21" value="0.0"/>
+          <attvalue for="22" value="0.0015203"/>
+          <attvalue for="23" value="0.0"/>
+          <attvalue for="24" value="0.0"/>
+          <attvalue for="25" value="0.0015203"/>
+          <attvalue for="26" value="0.0"/>
+          <attvalue for="27" value="0.0"/>
+          <attvalue for="28" value="0.0015203"/>
+          <attvalue for="29" value="6.52E-4"/>
+          <attvalue for="30" value="0.001208"/>
+          <attvalue for="31" value="0.0"/>
+          <attvalue for="32" value="0.0"/>
+          <attvalue for="33" value="0.0"/>
+          <attvalue for="34" value="0.0"/>
+          <attvalue for="35" value="0.0"/>
+          <attvalue for="36" value="0.0"/>
+          <attvalue for="37" value="0.0"/>
+          <attvalue for="38" value="0.0"/>
+          <attvalue for="39" value="0.0"/>
+        </attvalues>
+      </edge>
+      <edge id="8" source="LOC::Colima.Colima" target="SUB::Acetaldehido" weight="0.12596319615840912">
+        <attvalues>
+          <attvalue for="21" value="0.0"/>
+          <attvalue for="22" value="0.029823"/>
+          <attvalue for="23" value="0.0"/>
+          <attvalue for="24" value="0.0"/>
+          <attvalue for="25" value="0.0298231"/>
+          <attvalue for="26" value="0.0"/>
+          <attvalue for="27" value="0.0"/>
+          <attvalue for="28" value="0.0298231"/>
+          <attvalue for="29" value="0.01279"/>
+          <attvalue for="30" value="0.023704"/>
+          <attvalue for="31" value="0.0"/>
+          <attvalue for="32" value="0.0"/>
+          <attvalue for="33" value="0.0"/>
+          <attvalue for="34" value="0.0"/>
+          <attvalue for="35" value="0.0"/>
+          <attvalue for="36" value="0.0"/>
+          <attvalue for="37" value="0.0"/>
+          <attvalue for="38" value="0.0"/>
+          <attvalue for="39" value="0.0"/>
+        </attvalues>
+      </edge>
+      <edge id="9" source="LOC::Colima.Colima" target="SUB::Cadmio (polvos, respirables, vapores o humos)" weight="679.8115234375">
+        <attvalues>
+          <attvalue for="21" value="0.0"/>
+          <attvalue for="22" value="0.60407865"/>
+          <attvalue for="23" value="0.43352054399999995"/>
+          <attvalue for="24" value="672.41693237"/>
+          <attvalue for="25" value="0.1179896"/>
+          <attvalue for="26" value="0.0350921"/>
+          <attvalue for="27" value="0.0"/>
+          <attvalue for="28" value="0.0"/>
+          <attvalue for="29" value="0.8203320000000001"/>
+          <attvalue for="30" value="5.383554"/>
+          <attvalue for="31" value="0.0"/>
+          <attvalue for="32" value="0.0"/>
+          <attvalue for="33" value="0.0"/>
+          <attvalue for="34" value="0.0"/>
+          <attvalue for="35" value="0.0"/>
+          <attvalue for="36" value="0.0"/>
+          <attvalue for="37" value="0.0"/>
+          <attvalue for="38" value="0.0"/>
+          <attvalue for="39" value="0.0"/>
+        </attvalues>
+      </edge>
+      <edge id="10" source="LOC::Colima.Colima" target="SUB::Níquel (compuestos)" weight="705.3529052734375">
+        <attvalues>
+          <attvalue for="21" value="0.0"/>
+          <attvalue for="22" value="0.60407865"/>
+          <attvalue for="23" value="0.44365689999999997"/>
+          <attvalue for="24" value="672.4210736"/>
+          <attvalue for="25" value="0.0"/>
+          <attvalue for="26" value="2.397341"/>
+          <attvalue for="27" value="2.812623"/>
+          <attvalue for="28" value="8.6825158457"/>
+          <attvalue for="29" value="8.20332"/>
+          <attvalue for="30" value="9.78828"/>
+          <attvalue for="31" value="0.0"/>
+          <attvalue for="32" value="0.0"/>
+          <attvalue for="33" value="0.0"/>
+          <attvalue for="34" value="0.0"/>
+          <attvalue for="35" value="0.0"/>
+          <attvalue for="36" value="0.0"/>
+          <attvalue for="37" value="0.0"/>
+          <attvalue for="38" value="0.0"/>
+          <attvalue for="39" value="0.0"/>
+        </attvalues>
+      </edge>
+      <edge id="11" source="LOC::Colima.Colima" target="SUB::Mercurio (compuestos)" weight="16.249893188476562">
+        <attvalues>
+          <attvalue for="21" value="0.0045264"/>
+          <attvalue for="22" value="0.0060407865"/>
+          <attvalue for="23" value="0.0058055248"/>
+          <attvalue for="24" value="8.068"/>
+          <attvalue for="25" value="0.0"/>
+          <attvalue for="26" value="0.1262901"/>
+          <attvalue for="27" value="0.0787534"/>
+          <attvalue for="28" value="7.2604761559"/>
+          <attvalue for="29" value="0.7"/>
+          <attvalue for="30" value="0.0"/>
+          <attvalue for="31" value="0.0"/>
+          <attvalue for="32" value="0.0"/>
+          <attvalue for="33" value="0.0"/>
+          <attvalue for="34" value="0.0"/>
+          <attvalue for="35" value="0.0"/>
+          <attvalue for="36" value="0.0"/>
+          <attvalue for="37" value="0.0"/>
+          <attvalue for="38" value="0.0"/>
+          <attvalue for="39" value="0.0"/>
+        </attvalues>
+      </edge>
+      <edge id="12" source="LOC::Colima.Colima" target="SUB::Plomo (compuestos)" weight="3199.9541015625">
+        <attvalues>
+          <attvalue for="21" value="0.0"/>
+          <attvalue for="22" value="243.0"/>
+          <attvalue for="23" value="791.3567195"/>
+          <attvalue for="24" value="2134.7870736"/>
+          <attvalue for="25" value="0.0"/>
+          <attvalue for="26" value="2.423097"/>
+          <attvalue for="27" value="2.812623"/>
+          <attvalue for="28" value="4.343320622"/>
+          <attvalue for="29" value="4.10166"/>
+          <attvalue for="30" value="17.12949"/>
+          <attvalue for="31" value="0.0"/>
+          <attvalue for="32" value="0.0"/>
+          <attvalue for="33" value="0.0"/>
+          <attvalue for="34" value="0.0"/>
+          <attvalue for="35" value="0.0"/>
+          <attvalue for="36" value="0.0"/>
+          <attvalue for="37" value="0.0"/>
+          <attvalue for="38" value="0.0"/>
+          <attvalue for="39" value="0.0"/>
+        </attvalues>
+      </edge>
+      <edge id="13" source="LOC::Colima.Colima" target="SUB::Arsénico (polvos, respirables, vapores o humos)" weight="138.95111083984375">
+        <attvalues>
+          <attvalue for="21" value="0.0090529717"/>
+          <attvalue for="22" value="0.012081573"/>
+          <attvalue for="23" value="0.009355229999999999"/>
+          <attvalue for="24" value="134.481071408"/>
+          <attvalue for="25" value="1.579987"/>
+          <attvalue for="26" value="2.3687519999999997"/>
+          <attvalue for="27" value="0.0"/>
+          <attvalue for="28" value="0.0"/>
+          <attvalue for="29" value="0.2460996"/>
+          <attvalue for="30" value="0.244707"/>
+          <attvalue for="31" value="0.0"/>
+          <attvalue for="32" value="0.0"/>
+          <attvalue for="33" value="0.0"/>
+          <attvalue for="34" value="0.0"/>
+          <attvalue for="35" value="0.0"/>
+          <attvalue for="36" value="0.0"/>
+          <attvalue for="37" value="0.0"/>
+          <attvalue for="38" value="0.0"/>
+          <attvalue for="39" value="0.0"/>
+        </attvalues>
+      </edge>
+      <edge id="14" source="LOC::Colima.Colima" target="SUB::Cromo (compuestos)" weight="160.44654846191406">
+        <attvalues>
+          <attvalue for="21" value="0.0"/>
+          <attvalue for="22" value="1.0"/>
+          <attvalue for="23" value="0.0815"/>
+          <attvalue for="24" value="134.482"/>
+          <attvalue for="25" value="0.0"/>
+          <attvalue for="26" value="8.701649"/>
+          <attvalue for="27" value="10.312951000000002"/>
+          <attvalue for="28" value="1.9102973950000002"/>
+          <attvalue for="29" value="1.8047304"/>
+          <attvalue for="30" value="2.1534216"/>
+          <attvalue for="31" value="0.0"/>
+          <attvalue for="32" value="0.0"/>
+          <attvalue for="33" value="0.0"/>
+          <attvalue for="34" value="0.0"/>
+          <attvalue for="35" value="0.0"/>
+          <attvalue for="36" value="0.0"/>
+          <attvalue for="37" value="0.0"/>
+          <attvalue for="38" value="0.0"/>
+          <attvalue for="39" value="0.0"/>
+        </attvalues>
+      </edge>
+      <edge id="15" source="LOC::Colima.Colima" target="SUB::Acroleina" weight="0.015188000164926052">
+        <attvalues>
+          <attvalue for="21" value="0.0"/>
+          <attvalue for="22" value="0.003596"/>
+          <attvalue for="23" value="0.0"/>
+          <attvalue for="24" value="0.0"/>
+          <attvalue for="25" value="0.003596"/>
+          <attvalue for="26" value="0.0"/>
+          <attvalue for="27" value="0.0"/>
+          <attvalue for="28" value="0.003596"/>
+          <attvalue for="29" value="0.001542"/>
+          <attvalue for="30" value="0.002858"/>
+          <attvalue for="31" value="0.0"/>
+          <attvalue for="32" value="0.0"/>
+          <attvalue for="33" value="0.0"/>
+          <attvalue for="34" value="0.0"/>
+          <attvalue for="35" value="0.0"/>
+          <attvalue for="36" value="0.0"/>
+          <attvalue for="37" value="0.0"/>
+          <attvalue for="38" value="0.0"/>
+          <attvalue for="39" value="0.0"/>
+        </attvalues>
+      </edge>
+      <edge id="16" source="LOC::Colima.Colima" target="SUB::Bióxido de carbono" weight="2.7789708E7">
+        <attvalues>
+          <attvalue for="21" value="1.757661E7"/>
+          <attvalue for="22" value="2112773.0"/>
+          <attvalue for="23" value="5853.52"/>
+          <attvalue for="24" value="20181.0"/>
+          <attvalue for="25" value="18.376785"/>
+          <attvalue for="26" value="12.0"/>
+          <attvalue for="27" value="0.0"/>
+          <attvalue for="28" value="9982.376785"/>
+          <attvalue for="29" value="4569.0"/>
+          <attvalue for="30" value="8468.0"/>
+          <attvalue for="31" value="0.0"/>
+          <attvalue for="32" value="870505.0"/>
+          <attvalue for="33" value="890660.0"/>
+          <attvalue for="34" value="889150.0"/>
+          <attvalue for="35" value="1015311.0"/>
+          <attvalue for="36" value="996790.0"/>
+          <attvalue for="37" value="1045160.0"/>
+          <attvalue for="38" value="1066460.0"/>
+          <attvalue for="39" value="1277204.6"/>
+        </attvalues>
+      </edge>
+      <edge id="17" source="LOC::Colima.Colima" target="SUB::Arsénico (Compuestos solubles)" weight="805.9683227539062">
+        <attvalues>
+          <attvalue for="21" value="0.0"/>
+          <attvalue for="22" value="0.0"/>
+          <attvalue for="23" value="0.0"/>
+          <attvalue for="24" value="0.0"/>
+          <attvalue for="25" value="0.0"/>
+          <attvalue for="26" value="0.0"/>
+          <attvalue for="27" value="0.0"/>
+          <attvalue for="28" value="0.0"/>
+          <attvalue for="29" value="0.0"/>
+          <attvalue for="30" value="0.0"/>
+          <attvalue for="31" value="35.1217"/>
+          <attvalue for="32" value="41.8474"/>
+          <attvalue for="33" value="47.7431"/>
+          <attvalue for="34" value="518.9118"/>
+          <attvalue for="35" value="39.6185"/>
+          <attvalue for="36" value="0.0"/>
+          <attvalue for="37" value="47.6479"/>
+          <attvalue for="38" value="47.6479"/>
+          <attvalue for="39" value="27.43"/>
+        </attvalues>
+      </edge>
+      <edge id="18" source="LOC::Colima.Colima" target="SUB::Cadmio (compuestos)" weight="1.363566517829895">
+        <attvalues>
+          <attvalue for="21" value="0.0"/>
+          <attvalue for="22" value="0.0"/>
+          <attvalue for="23" value="0.0"/>
+          <attvalue for="24" value="0.0"/>
+          <attvalue for="25" value="0.0"/>
+          <attvalue for="26" value="0.0"/>
+          <attvalue for="27" value="0.2365687"/>
+          <attvalue for="28" value="1.126997795"/>
+          <attvalue for="29" value="0.0"/>
+          <attvalue for="30" value="0.0"/>
+          <attvalue for="31" value="0.0"/>
+          <attvalue for="32" value="0.0"/>
+          <attvalue for="33" value="0.0"/>
+          <attvalue for="34" value="0.0"/>
+          <attvalue for="35" value="0.0"/>
+          <attvalue for="36" value="0.0"/>
+          <attvalue for="37" value="0.0"/>
+          <attvalue for="38" value="0.0"/>
+          <attvalue for="39" value="0.0"/>
+        </attvalues>
+      </edge>
+      <edge id="19" source="LOC::Colima.Colima" target="SUB::Plomo (Compuestos solubles)" weight="10091.75">
+        <attvalues>
+          <attvalue for="21" value="0.0"/>
+          <attvalue for="22" value="0.0"/>
+          <attvalue for="23" value="0.0"/>
+          <attvalue for="24" value="0.0"/>
+          <attvalue for="25" value="0.161882"/>
+          <attvalue for="26" value="0.0"/>
+          <attvalue for="27" value="0.0"/>
+          <attvalue for="28" value="0.0"/>
+          <attvalue for="29" value="0.0"/>
+          <attvalue for="30" value="0.0"/>
+          <attvalue for="31" value="40.525"/>
+          <attvalue for="32" value="2421.6544999999996"/>
+          <attvalue for="33" value="2727.8469999999998"/>
+          <attvalue for="34" value="3.2719"/>
+          <attvalue for="35" value="2390.5036"/>
+          <attvalue for="36" value="0.0"/>
+          <attvalue for="37" value="2507.7859"/>
+          <attvalue for="38" value="0.0"/>
+          <attvalue for="39" value="0.0"/>
+        </attvalues>
+      </edge>
+      <edge id="20" source="LOC::Colima.Colima" target="SUB::Benceno" weight="0.08066900074481964">
+        <attvalues>
+          <attvalue for="21" value="0.0"/>
+          <attvalue for="22" value="0.036277"/>
+          <attvalue for="23" value="0.0"/>
+          <attvalue for="24" value="0.0"/>
+          <attvalue for="25" value="0.0"/>
+          <attvalue for="26" value="0.0"/>
+          <attvalue for="27" value="0.0"/>
+          <attvalue for="28" value="0.0"/>
+          <attvalue for="29" value="0.015558"/>
+          <attvalue for="30" value="0.028834"/>
+          <attvalue for="31" value="0.0"/>
+          <attvalue for="32" value="0.0"/>
+          <attvalue for="33" value="0.0"/>
+          <attvalue for="34" value="0.0"/>
+          <attvalue for="35" value="0.0"/>
+          <attvalue for="36" value="0.0"/>
+          <attvalue for="37" value="0.0"/>
+          <attvalue for="38" value="0.0"/>
+          <attvalue for="39" value="0.0"/>
+        </attvalues>
+      </edge>
+      <edge id="21" source="LOC::Colima.Colima" target="SUB::Arsénico (compuestos)" weight="4.90437650680542">
+        <attvalues>
+          <attvalue for="21" value="0.0"/>
+          <attvalue for="22" value="0.0"/>
+          <attvalue for="23" value="0.0"/>
+          <attvalue for="24" value="0.0"/>
+          <attvalue for="25" value="0.0"/>
+          <attvalue for="26" value="0.0"/>
+          <attvalue for="27" value="4.6438999"/>
+          <attvalue for="28" value="0.26047661945"/>
+          <attvalue for="29" value="0.0"/>
+          <attvalue for="30" value="0.0"/>
+          <attvalue for="31" value="0.0"/>
+          <attvalue for="32" value="0.0"/>
+          <attvalue for="33" value="0.0"/>
+          <attvalue for="34" value="0.0"/>
+          <attvalue for="35" value="0.0"/>
+          <attvalue for="36" value="0.0"/>
+          <attvalue for="37" value="0.0"/>
+          <attvalue for="38" value="0.0"/>
+          <attvalue for="39" value="0.0"/>
+        </attvalues>
+      </edge>
+      <edge id="22" source="LOC::Colima.Coquimatlán" target="SUB::Plomo (compuestos)" weight="44.5">
+        <attvalues>
+          <attvalue for="21" value="0.0"/>
+          <attvalue for="22" value="0.0"/>
+          <attvalue for="23" value="0.0"/>
+          <attvalue for="24" value="0.0"/>
+          <attvalue for="25" value="0.0"/>
+          <attvalue for="26" value="0.0"/>
+          <attvalue for="27" value="0.0"/>
+          <attvalue for="28" value="44.5"/>
+          <attvalue for="29" value="0.0"/>
+          <attvalue for="30" value="0.0"/>
+          <attvalue for="31" value="0.0"/>
+          <attvalue for="32" value="0.0"/>
+          <attvalue for="33" value="0.0"/>
+          <attvalue for="34" value="0.0"/>
+          <attvalue for="35" value="0.0"/>
+          <attvalue for="36" value="0.0"/>
+          <attvalue for="37" value="0.0"/>
+          <attvalue for="38" value="0.0"/>
+          <attvalue for="39" value="0.0"/>
+        </attvalues>
+      </edge>
+      <edge id="23" source="LOC::Colima.Coquimatlán" target="SUB::Plomo (polvos respirables, humos o vapores)" weight="258.5400085449219">
+        <attvalues>
+          <attvalue for="21" value="0.0"/>
+          <attvalue for="22" value="0.0"/>
+          <attvalue for="23" value="0.0"/>
+          <attvalue for="24" value="0.0"/>
+          <attvalue for="25" value="0.0"/>
+          <attvalue for="26" value="0.0"/>
+          <attvalue for="27" value="0.0"/>
+          <attvalue for="28" value="0.0"/>
+          <attvalue for="29" value="0.0"/>
+          <attvalue for="30" value="0.0"/>
+          <attvalue for="31" value="0.0"/>
+          <attvalue for="32" value="0.0"/>
+          <attvalue for="33" value="0.0"/>
+          <attvalue for="34" value="258.54"/>
+          <attvalue for="35" value="0.0"/>
+          <attvalue for="36" value="0.0"/>
+          <attvalue for="37" value="0.0"/>
+          <attvalue for="38" value="0.0"/>
+          <attvalue for="39" value="0.0"/>
+        </attvalues>
+      </edge>
+      <edge id="24" source="LOC::Colima.Coquimatlán" target="SUB::Mercurio (polvos, respirables, vapores o humos)" weight="6.0">
+        <attvalues>
+          <attvalue for="21" value="6.0"/>
+          <attvalue for="22" value="0.0"/>
+          <attvalue for="23" value="0.0"/>
+          <attvalue for="24" value="0.0"/>
+          <attvalue for="25" value="0.0"/>
+          <attvalue for="26" value="0.0"/>
+          <attvalue for="27" value="0.0"/>
+          <attvalue for="28" value="0.0"/>
+          <attvalue for="29" value="0.0"/>
+          <attvalue for="30" value="0.0"/>
+          <attvalue for="31" value="0.0"/>
+          <attvalue for="32" value="0.0"/>
+          <attvalue for="33" value="0.0"/>
+          <attvalue for="34" value="0.0"/>
+          <attvalue for="35" value="0.0"/>
+          <attvalue for="36" value="0.0"/>
+          <attvalue for="37" value="0.0"/>
+          <attvalue for="38" value="0.0"/>
+          <attvalue for="39" value="0.0"/>
+        </attvalues>
+      </edge>
+      <edge id="25" source="LOC::Colima.Coquimatlán" target="SUB::Asbesto y sus formas (En forma de polvo, fibras o productos desmenuzables con la presión de la mano)" weight="31516.0">
+        <attvalues>
+          <attvalue for="21" value="0.0"/>
+          <attvalue for="22" value="0.0"/>
+          <attvalue for="23" value="0.0"/>
+          <attvalue for="24" value="0.0"/>
+          <attvalue for="25" value="0.0"/>
+          <attvalue for="26" value="0.0"/>
+          <attvalue for="27" value="0.0"/>
+          <attvalue for="28" value="0.0"/>
+          <attvalue for="29" value="0.0"/>
+          <attvalue for="30" value="0.0"/>
+          <attvalue for="31" value="0.0"/>
+          <attvalue for="32" value="0.0"/>
+          <attvalue for="33" value="0.0"/>
+          <attvalue for="34" value="31516.0"/>
+          <attvalue for="35" value="0.0"/>
+          <attvalue for="36" value="0.0"/>
+          <attvalue for="37" value="0.0"/>
+          <attvalue for="38" value="0.0"/>
+          <attvalue for="39" value="0.0"/>
+        </attvalues>
+      </edge>
+      <edge id="26" source="LOC::Colima.Cuauhtémoc" target="SUB::Asbesto y sus formas (En forma de polvo, fibras o productos desmenuzables con la presión de la mano)" weight="500.0">
+        <attvalues>
+          <attvalue for="21" value="0.0"/>
+          <attvalue for="22" value="0.0"/>
+          <attvalue for="23" value="0.0"/>
+          <attvalue for="24" value="0.0"/>
+          <attvalue for="25" value="500.0"/>
+          <attvalue for="26" value="0.0"/>
+          <attvalue for="27" value="0.0"/>
+          <attvalue for="28" value="0.0"/>
+          <attvalue for="29" value="0.0"/>
+          <attvalue for="30" value="0.0"/>
+          <attvalue for="31" value="0.0"/>
+          <attvalue for="32" value="0.0"/>
+          <attvalue for="33" value="0.0"/>
+          <attvalue for="34" value="0.0"/>
+          <attvalue for="35" value="0.0"/>
+          <attvalue for="36" value="0.0"/>
+          <attvalue for="37" value="0.0"/>
+          <attvalue for="38" value="0.0"/>
+          <attvalue for="39" value="0.0"/>
+        </attvalues>
+      </edge>
+      <edge id="27" source="LOC::Colima.Cuauhtémoc" target="SUB::Bifenilos policlorados" weight="0.014000000432133675">
+        <attvalues>
+          <attvalue for="21" value="0.0"/>
+          <attvalue for="22" value="0.0"/>
+          <attvalue for="23" value="0.014"/>
+          <attvalue for="24" value="0.0"/>
+          <attvalue for="25" value="0.0"/>
+          <attvalue for="26" value="0.0"/>
+          <attvalue for="27" value="0.0"/>
+          <attvalue for="28" value="0.0"/>
+          <attvalue for="29" value="0.0"/>
+          <attvalue for="30" value="0.0"/>
+          <attvalue for="31" value="0.0"/>
+          <attvalue for="32" value="0.0"/>
+          <attvalue for="33" value="0.0"/>
+          <attvalue for="34" value="0.0"/>
+          <attvalue for="35" value="0.0"/>
+          <attvalue for="36" value="0.0"/>
+          <attvalue for="37" value="0.0"/>
+          <attvalue for="38" value="0.0"/>
+          <attvalue for="39" value="0.0"/>
+        </attvalues>
+      </edge>
+      <edge id="28" source="LOC::Colima.Cuauhtémoc" target="SUB::Cadmio (polvos, respirables, vapores o humos)" weight="55.96065902709961">
+        <attvalues>
+          <attvalue for="21" value="0.0"/>
+          <attvalue for="22" value="0.0"/>
+          <attvalue for="23" value="0.0"/>
+          <attvalue for="24" value="0.0"/>
+          <attvalue for="25" value="6.10112"/>
+          <attvalue for="26" value="6.05954"/>
+          <attvalue for="27" value="0.0"/>
+          <attvalue for="28" value="0.0"/>
+          <attvalue for="29" value="43.8"/>
+          <attvalue for="30" value="0.0"/>
+          <attvalue for="31" value="0.0"/>
+          <attvalue for="32" value="0.0"/>
+          <attvalue for="33" value="0.0"/>
+          <attvalue for="34" value="0.0"/>
+          <attvalue for="35" value="0.0"/>
+          <attvalue for="36" value="0.0"/>
+          <attvalue for="37" value="0.0"/>
+          <attvalue for="38" value="0.0"/>
+          <attvalue for="39" value="0.0"/>
+        </attvalues>
+      </edge>
+      <edge id="29" source="LOC::Colima.Cuauhtémoc" target="SUB::Níquel (compuestos)" weight="80.2352523803711">
+        <attvalues>
+          <attvalue for="21" value="0.0"/>
+          <attvalue for="22" value="0.0"/>
+          <attvalue for="23" value="0.0"/>
+          <attvalue for="24" value="0.0"/>
+          <attvalue for="25" value="0.0"/>
+          <attvalue for="26" value="15.14885"/>
+          <attvalue for="27" value="0.0864"/>
+          <attvalue for="28" value="0.0"/>
+          <attvalue for="29" value="65.0"/>
+          <attvalue for="30" value="0.0"/>
+          <attvalue for="31" value="0.0"/>
+          <attvalue for="32" value="0.0"/>
+          <attvalue for="33" value="0.0"/>
+          <attvalue for="34" value="0.0"/>
+          <attvalue for="35" value="0.0"/>
+          <attvalue for="36" value="0.0"/>
+          <attvalue for="37" value="0.0"/>
+          <attvalue for="38" value="0.0"/>
+          <attvalue for="39" value="0.0"/>
+        </attvalues>
+      </edge>
+      <edge id="30" source="LOC::Colima.Cuauhtémoc" target="SUB::Mercurio (compuestos)" weight="18.542484283447266">
+        <attvalues>
+          <attvalue for="21" value="0.0"/>
+          <attvalue for="22" value="0.2018304"/>
+          <attvalue for="23" value="0.0"/>
+          <attvalue for="24" value="0.0"/>
+          <attvalue for="25" value="0.0"/>
+          <attvalue for="26" value="0.605954"/>
+          <attvalue for="27" value="0.0"/>
+          <attvalue for="28" value="5.5"/>
+          <attvalue for="29" value="6.0"/>
+          <attvalue for="30" value="6.2347"/>
+          <attvalue for="31" value="0.0"/>
+          <attvalue for="32" value="0.0"/>
+          <attvalue for="33" value="0.0"/>
+          <attvalue for="34" value="0.0"/>
+          <attvalue for="35" value="0.0"/>
+          <attvalue for="36" value="0.0"/>
+          <attvalue for="37" value="0.0"/>
+          <attvalue for="38" value="0.0"/>
+          <attvalue for="39" value="0.0"/>
+        </attvalues>
+      </edge>
+      <edge id="31" source="LOC::Colima.Cuauhtémoc" target="SUB::Arsénico (Compuestos solubles)" weight="6.108799934387207">
+        <attvalues>
+          <attvalue for="21" value="0.0"/>
+          <attvalue for="22" value="0.0"/>
+          <attvalue for="23" value="0.0"/>
+          <attvalue for="24" value="0.0"/>
+          <attvalue for="25" value="0.0"/>
+          <attvalue for="26" value="0.0"/>
+          <attvalue for="27" value="0.0"/>
+          <attvalue for="28" value="0.0"/>
+          <attvalue for="29" value="0.0"/>
+          <attvalue for="30" value="0.0"/>
+          <attvalue for="31" value="0.0"/>
+          <attvalue for="32" value="0.0"/>
+          <attvalue for="33" value="0.0"/>
+          <attvalue for="34" value="1.7625"/>
+          <attvalue for="35" value="1.5512"/>
+          <attvalue for="36" value="0.0"/>
+          <attvalue for="37" value="1.6291"/>
+          <attvalue for="38" value="0.0"/>
+          <attvalue for="39" value="1.166"/>
+        </attvalues>
+      </edge>
+      <edge id="32" source="LOC::Colima.Cuauhtémoc" target="SUB::Plomo (compuestos)" weight="1127.0435791015625">
+        <attvalues>
+          <attvalue for="21" value="0.0"/>
+          <attvalue for="22" value="0.0"/>
+          <attvalue for="23" value="0.0"/>
+          <attvalue for="24" value="0.0"/>
+          <attvalue for="25" value="0.0"/>
+          <attvalue for="26" value="33.1759815"/>
+          <attvalue for="27" value="0.4768"/>
+          <attvalue for="28" value="129.5"/>
+          <attvalue for="29" value="191.25"/>
+          <attvalue for="30" value="772.64079"/>
+          <attvalue for="31" value="0.0"/>
+          <attvalue for="32" value="0.0"/>
+          <attvalue for="33" value="0.0"/>
+          <attvalue for="34" value="0.0"/>
+          <attvalue for="35" value="0.0"/>
+          <attvalue for="36" value="0.0"/>
+          <attvalue for="37" value="0.0"/>
+          <attvalue for="38" value="0.0"/>
+          <attvalue for="39" value="0.0"/>
+        </attvalues>
+      </edge>
+      <edge id="33" source="LOC::Colima.Cuauhtémoc" target="SUB::Plomo (polvos respirables, humos o vapores)" weight="1021.0460205078125">
+        <attvalues>
+          <attvalue for="21" value="0.0"/>
+          <attvalue for="22" value="0.0"/>
+          <attvalue for="23" value="0.0"/>
+          <attvalue for="24" value="0.0"/>
+          <attvalue for="25" value="0.0"/>
+          <attvalue for="26" value="0.0"/>
+          <attvalue for="27" value="0.0"/>
+          <attvalue for="28" value="0.0"/>
+          <attvalue for="29" value="0.0"/>
+          <attvalue for="30" value="0.0"/>
+          <attvalue for="31" value="0.0"/>
+          <attvalue for="32" value="0.0"/>
+          <attvalue for="33" value="0.0"/>
+          <attvalue for="34" value="29.235"/>
+          <attvalue for="35" value="28.738"/>
+          <attvalue for="36" value="28.089"/>
+          <attvalue for="37" value="25.559"/>
+          <attvalue for="38" value="26.856"/>
+          <attvalue for="39" value="882.569"/>
+        </attvalues>
+      </edge>
+      <edge id="34" source="LOC::Colima.Cuauhtémoc" target="SUB::Arsénico (polvos, respirables, vapores o humos)" weight="21.2244930267334">
+        <attvalues>
+          <attvalue for="21" value="0.0"/>
+          <attvalue for="22" value="0.0"/>
+          <attvalue for="23" value="0.0"/>
+          <attvalue for="24" value="0.0"/>
+          <attvalue for="25" value="2.8065152"/>
+          <attvalue for="26" value="2.267278"/>
+          <attvalue for="27" value="0.0"/>
+          <attvalue for="28" value="0.0"/>
+          <attvalue for="29" value="0.0"/>
+          <attvalue for="30" value="0.0"/>
+          <attvalue for="31" value="0.0"/>
+          <attvalue for="32" value="0.0"/>
+          <attvalue for="33" value="0.0"/>
+          <attvalue for="34" value="4.356"/>
+          <attvalue for="35" value="2.512"/>
+          <attvalue for="36" value="2.455"/>
+          <attvalue for="37" value="2.234"/>
+          <attvalue for="38" value="2.348"/>
+          <attvalue for="39" value="2.2457"/>
+        </attvalues>
+      </edge>
+      <edge id="35" source="LOC::Colima.Cuauhtémoc" target="SUB::Cromo (polvos respirables, humos o vapores)" weight="9.186599731445312">
+        <attvalues>
+          <attvalue for="21" value="0.0"/>
+          <attvalue for="22" value="0.0"/>
+          <attvalue for="23" value="0.0"/>
+          <attvalue for="24" value="0.0"/>
+          <attvalue for="25" value="0.0"/>
+          <attvalue for="26" value="0.0"/>
+          <attvalue for="27" value="0.0"/>
+          <attvalue for="28" value="0.0"/>
+          <attvalue for="29" value="0.0"/>
+          <attvalue for="30" value="0.0"/>
+          <attvalue for="31" value="0.0"/>
+          <attvalue for="32" value="0.0"/>
+          <attvalue for="33" value="0.0"/>
+          <attvalue for="34" value="1.636"/>
+          <attvalue for="35" value="1.608"/>
+          <attvalue for="36" value="1.572"/>
+          <attvalue for="37" value="1.43"/>
+          <attvalue for="38" value="1.503"/>
+          <attvalue for="39" value="1.4376"/>
+        </attvalues>
+      </edge>
+      <edge id="36" source="LOC::Colima.Cuauhtémoc" target="SUB::Cromo (compuestos)" weight="30.297700881958008">
+        <attvalues>
+          <attvalue for="21" value="0.0"/>
+          <attvalue for="22" value="0.0"/>
+          <attvalue for="23" value="0.0"/>
+          <attvalue for="24" value="0.0"/>
+          <attvalue for="25" value="0.0"/>
+          <attvalue for="26" value="30.2977"/>
+          <attvalue for="27" value="0.0"/>
+          <attvalue for="28" value="0.0"/>
+          <attvalue for="29" value="0.0"/>
+          <attvalue for="30" value="0.0"/>
+          <attvalue for="31" value="0.0"/>
+          <attvalue for="32" value="0.0"/>
+          <attvalue for="33" value="0.0"/>
+          <attvalue for="34" value="0.0"/>
+          <attvalue for="35" value="0.0"/>
+          <attvalue for="36" value="0.0"/>
+          <attvalue for="37" value="0.0"/>
+          <attvalue for="38" value="0.0"/>
+          <attvalue for="39" value="0.0"/>
+        </attvalues>
+      </edge>
+      <edge id="37" source="LOC::Colima.Cuauhtémoc" target="SUB::Bióxido de carbono" weight="1.570122112E9">
+        <attvalues>
+          <attvalue for="21" value="1838000.0"/>
+          <attvalue for="22" value="1778520.0"/>
+          <attvalue for="23" value="1.368986E8"/>
+          <attvalue for="24" value="1.1236592E8"/>
+          <attvalue for="25" value="9.026004E7"/>
+          <attvalue for="26" value="1.52478E8"/>
+          <attvalue for="27" value="1.45526E8"/>
+          <attvalue for="28" value="1.41015E8"/>
+          <attvalue for="29" value="1.6515E8"/>
+          <attvalue for="30" value="1.765572E8"/>
+          <attvalue for="31" value="0.0"/>
+          <attvalue for="32" value="1.18038966E8"/>
+          <attvalue for="33" value="1.3625256E8"/>
+          <attvalue for="34" value="1.426959E8"/>
+          <attvalue for="35" value="4.926738E7"/>
+          <attvalue for="36" value="0.0"/>
+          <attvalue for="37" value="0.0"/>
+          <attvalue for="38" value="0.0"/>
+          <attvalue for="39" value="0.0"/>
+        </attvalues>
+      </edge>
+      <edge id="38" source="LOC::Colima.Cuauhtémoc" target="SUB::Bióxido de nitrógeno" weight="2942515.0">
+        <attvalues>
+          <attvalue for="21" value="0.0"/>
+          <attvalue for="22" value="0.0"/>
+          <attvalue for="23" value="0.0"/>
+          <attvalue for="24" value="147330.0"/>
+          <attvalue for="25" value="0.0"/>
+          <attvalue for="26" value="0.0"/>
+          <attvalue for="27" value="0.0"/>
+          <attvalue for="28" value="0.0"/>
+          <attvalue for="29" value="0.0"/>
+          <attvalue for="30" value="0.0"/>
+          <attvalue for="31" value="0.0"/>
+          <attvalue for="32" value="525600.0"/>
+          <attvalue for="33" value="825180.0"/>
+          <attvalue for="34" value="0.0"/>
+          <attvalue for="35" value="0.0"/>
+          <attvalue for="36" value="743328.0"/>
+          <attvalue for="37" value="701077.0"/>
+          <attvalue for="38" value="0.0"/>
+          <attvalue for="39" value="0.0"/>
+        </attvalues>
+      </edge>
+      <edge id="39" source="LOC::Colima.Cuauhtémoc" target="SUB::Cianuro inorgánico/orgánico" weight="9.914593696594238">
+        <attvalues>
+          <attvalue for="21" value="0.0"/>
+          <attvalue for="22" value="0.0"/>
+          <attvalue for="23" value="0.0"/>
+          <attvalue for="24" value="0.0"/>
+          <attvalue for="25" value="4.9419072"/>
+          <attvalue for="26" value="4.79208622"/>
+          <attvalue for="27" value="0.1312"/>
+          <attvalue for="28" value="0.0494"/>
+          <attvalue for="29" value="0.0"/>
+          <attvalue for="30" value="0.0"/>
+          <attvalue for="31" value="0.0"/>
+          <attvalue for="32" value="0.0"/>
+          <attvalue for="33" value="0.0"/>
+          <attvalue for="34" value="0.0"/>
+          <attvalue for="35" value="0.0"/>
+          <attvalue for="36" value="0.0"/>
+          <attvalue for="37" value="0.0"/>
+          <attvalue for="38" value="0.0"/>
+          <attvalue for="39" value="0.0"/>
+        </attvalues>
+      </edge>
+      <edge id="40" source="LOC::Colima.Cuauhtémoc" target="SUB::Plomo (Compuestos solubles)" weight="2313.626708984375">
+        <attvalues>
+          <attvalue for="21" value="0.0"/>
+          <attvalue for="22" value="0.0"/>
+          <attvalue for="23" value="0.0"/>
+          <attvalue for="24" value="0.0"/>
+          <attvalue for="25" value="30.5056"/>
+          <attvalue for="26" value="0.0"/>
+          <attvalue for="27" value="0.0"/>
+          <attvalue for="28" value="0.0"/>
+          <attvalue for="29" value="0.0"/>
+          <attvalue for="30" value="0.0"/>
+          <attvalue for="31" value="17.485"/>
+          <attvalue for="32" value="897.485"/>
+          <attvalue for="33" value="17.485"/>
+          <attvalue for="34" value="4.459"/>
+          <attvalue for="35" value="706.17341"/>
+          <attvalue for="36" value="177.267672"/>
+          <attvalue for="37" value="461.6"/>
+          <attvalue for="38" value="0.0"/>
+          <attvalue for="39" value="1.166"/>
+        </attvalues>
+      </edge>
+      <edge id="41" source="LOC::Colima.Cuauhtémoc" target="SUB::Mercurio (Compuestos solubles)" weight="11.28858757019043">
+        <attvalues>
+          <attvalue for="21" value="0.0"/>
+          <attvalue for="22" value="0.0"/>
+          <attvalue for="23" value="0.0"/>
+          <attvalue for="24" value="0.0"/>
+          <attvalue for="25" value="0.610112"/>
+          <attvalue for="26" value="0.0"/>
+          <attvalue for="27" value="0.0"/>
+          <attvalue for="28" value="0.0"/>
+          <attvalue for="29" value="0.0"/>
+          <attvalue for="30" value="0.0"/>
+          <attvalue for="31" value="0.0"/>
+          <attvalue for="32" value="1.379"/>
+          <attvalue for="33" value="0.0"/>
+          <attvalue for="34" value="0.0"/>
+          <attvalue for="35" value="1.866311"/>
+          <attvalue for="36" value="1.857665"/>
+          <attvalue for="37" value="1.776"/>
+          <attvalue for="38" value="1.6143"/>
+          <attvalue for="39" value="2.1852"/>
+        </attvalues>
+      </edge>
+      <edge id="42" source="LOC::Colima.Cuauhtémoc" target="SUB::Mercurio (polvos, respirables, vapores o humos)" weight="2.5201001167297363">
+        <attvalues>
+          <attvalue for="21" value="0.0"/>
+          <attvalue for="22" value="0.0"/>
+          <attvalue for="23" value="1.5"/>
+          <attvalue for="24" value="0.0"/>
+          <attvalue for="25" value="0.0"/>
+          <attvalue for="26" value="0.0"/>
+          <attvalue for="27" value="0.0"/>
+          <attvalue for="28" value="0.0"/>
+          <attvalue for="29" value="0.0"/>
+          <attvalue for="30" value="1.0201"/>
+          <attvalue for="31" value="0.0"/>
+          <attvalue for="32" value="0.0"/>
+          <attvalue for="33" value="0.0"/>
+          <attvalue for="34" value="0.0"/>
+          <attvalue for="35" value="0.0"/>
+          <attvalue for="36" value="0.0"/>
+          <attvalue for="37" value="0.0"/>
+          <attvalue for="38" value="0.0"/>
+          <attvalue for="39" value="0.0"/>
+        </attvalues>
+      </edge>
+      <edge id="43" source="LOC::Colima.Cuauhtémoc" target="SUB::Níquel (Compuestos solubles)" weight="187.85003662109375">
+        <attvalues>
+          <attvalue for="21" value="0.0"/>
+          <attvalue for="22" value="0.0"/>
+          <attvalue for="23" value="0.0"/>
+          <attvalue for="24" value="0.0"/>
+          <attvalue for="25" value="15.2528"/>
+          <attvalue for="26" value="0.0"/>
+          <attvalue for="27" value="0.0"/>
+          <attvalue for="28" value="0.0"/>
+          <attvalue for="29" value="0.0"/>
+          <attvalue for="30" value="0.0"/>
+          <attvalue for="31" value="0.0"/>
+          <attvalue for="32" value="29.426099999999998"/>
+          <attvalue for="33" value="40.8167"/>
+          <attvalue for="34" value="2.0533"/>
+          <attvalue for="35" value="1.4426"/>
+          <attvalue for="36" value="32.292444"/>
+          <attvalue for="37" value="0.0"/>
+          <attvalue for="38" value="25.882199999999997"/>
+          <attvalue for="39" value="40.6839"/>
+        </attvalues>
+      </edge>
+      <edge id="44" source="LOC::Colima.Cuauhtémoc" target="SUB::Cromo (Compuestos solubles)" weight="110.56900024414062">
+        <attvalues>
+          <attvalue for="21" value="0.0"/>
+          <attvalue for="22" value="0.0"/>
+          <attvalue for="23" value="0.0"/>
+          <attvalue for="24" value="0.0"/>
+          <attvalue for="25" value="30.5056"/>
+          <attvalue for="26" value="0.0"/>
+          <attvalue for="27" value="0.0"/>
+          <attvalue for="28" value="0.0"/>
+          <attvalue for="29" value="0.0"/>
+          <attvalue for="30" value="0.0"/>
+          <attvalue for="31" value="14.6933"/>
+          <attvalue for="32" value="14.6933"/>
+          <attvalue for="33" value="6.8396"/>
+          <attvalue for="34" value="1.9651"/>
+          <attvalue for="35" value="1.9651"/>
+          <attvalue for="36" value="0.0"/>
+          <attvalue for="37" value="0.0"/>
+          <attvalue for="38" value="0.0"/>
+          <attvalue for="39" value="39.907"/>
+        </attvalues>
+      </edge>
+      <edge id="45" source="LOC::Colima.Cuauhtémoc" target="SUB::Cadmio (Compuestos solubles)" weight="8.704500198364258">
+        <attvalues>
+          <attvalue for="21" value="0.0"/>
+          <attvalue for="22" value="0.0"/>
+          <attvalue for="23" value="0.0"/>
+          <attvalue for="24" value="0.0"/>
+          <attvalue for="25" value="0.0"/>
+          <attvalue for="26" value="0.0"/>
+          <attvalue for="27" value="0.0"/>
+          <attvalue for="28" value="0.0"/>
+          <attvalue for="29" value="0.0"/>
+          <attvalue for="30" value="0.0"/>
+          <attvalue for="31" value="2.9387"/>
+          <attvalue for="32" value="2.9387"/>
+          <attvalue for="33" value="1.6611"/>
+          <attvalue for="34" value="0.0"/>
+          <attvalue for="35" value="0.0"/>
+          <attvalue for="36" value="0.0"/>
+          <attvalue for="37" value="0.0"/>
+          <attvalue for="38" value="0.0"/>
+          <attvalue for="39" value="1.166"/>
+        </attvalues>
+      </edge>
+      <edge id="46" source="LOC::Colima.Cuauhtémoc" target="SUB::Níquel (polvos respirables, humos o vapores)" weight="757.8594970703125">
+        <attvalues>
+          <attvalue for="21" value="0.0"/>
+          <attvalue for="22" value="0.0"/>
+          <attvalue for="23" value="0.0"/>
+          <attvalue for="24" value="0.0"/>
+          <attvalue for="25" value="0.0"/>
+          <attvalue for="26" value="0.0"/>
+          <attvalue for="27" value="0.0"/>
+          <attvalue for="28" value="0.0"/>
+          <attvalue for="29" value="0.0"/>
+          <attvalue for="30" value="0.0"/>
+          <attvalue for="31" value="0.0"/>
+          <attvalue for="32" value="0.0"/>
+          <attvalue for="33" value="0.0"/>
+          <attvalue for="34" value="163.598"/>
+          <attvalue for="35" value="0.0"/>
+          <attvalue for="36" value="157.186"/>
+          <attvalue for="37" value="143.03"/>
+          <attvalue for="38" value="150.285"/>
+          <attvalue for="39" value="143.7605"/>
+        </attvalues>
+      </edge>
+      <edge id="47" source="LOC::Colima.Cuauhtémoc" target="SUB::Fenol" weight="0.6499999761581421">
+        <attvalues>
+          <attvalue for="21" value="0.0"/>
+          <attvalue for="22" value="0.0"/>
+          <attvalue for="23" value="0.0"/>
+          <attvalue for="24" value="0.0"/>
+          <attvalue for="25" value="0.0"/>
+          <attvalue for="26" value="0.0"/>
+          <attvalue for="27" value="0.0"/>
+          <attvalue for="28" value="0.65"/>
+          <attvalue for="29" value="0.0"/>
+          <attvalue for="30" value="0.0"/>
+          <attvalue for="31" value="0.0"/>
+          <attvalue for="32" value="0.0"/>
+          <attvalue for="33" value="0.0"/>
+          <attvalue for="34" value="0.0"/>
+          <attvalue for="35" value="0.0"/>
+          <attvalue for="36" value="0.0"/>
+          <attvalue for="37" value="0.0"/>
+          <attvalue for="38" value="0.0"/>
+          <attvalue for="39" value="0.0"/>
+        </attvalues>
+      </edge>
+      <edge id="48" source="LOC::Colima.Ixtlahuacán" target="SUB::Benceno" weight="0.012658956460654736">
+        <attvalues>
+          <attvalue for="21" value="0.0"/>
+          <attvalue for="22" value="0.0"/>
+          <attvalue for="23" value="0.0"/>
+          <attvalue for="24" value="0.0"/>
+          <attvalue for="25" value="0.0"/>
+          <attvalue for="26" value="0.0"/>
+          <attvalue for="27" value="0.0"/>
+          <attvalue for="28" value="0.0"/>
+          <attvalue for="29" value="0.0"/>
+          <attvalue for="30" value="0.012658956"/>
+          <attvalue for="31" value="0.0"/>
+          <attvalue for="32" value="0.0"/>
+          <attvalue for="33" value="0.0"/>
+          <attvalue for="34" value="0.0"/>
+          <attvalue for="35" value="0.0"/>
+          <attvalue for="36" value="0.0"/>
+          <attvalue for="37" value="0.0"/>
+          <attvalue for="38" value="0.0"/>
+          <attvalue for="39" value="0.0"/>
+        </attvalues>
+      </edge>
+      <edge id="49" source="LOC::Colima.Ixtlahuacán" target="SUB::Bióxido de carbono" weight="8213944.0">
+        <attvalues>
+          <attvalue for="21" value="0.0"/>
+          <attvalue for="22" value="0.0"/>
+          <attvalue for="23" value="0.0"/>
+          <attvalue for="24" value="0.0"/>
+          <attvalue for="25" value="0.0"/>
+          <attvalue for="26" value="0.0"/>
+          <attvalue for="27" value="0.0"/>
+          <attvalue for="28" value="0.0"/>
+          <attvalue for="29" value="0.0"/>
+          <attvalue for="30" value="437039.13884"/>
+          <attvalue for="31" value="0.0"/>
+          <attvalue for="32" value="1754290.683"/>
+          <attvalue for="33" value="940946.4959"/>
+          <attvalue for="34" value="1064590.0"/>
+          <attvalue for="35" value="921200.0"/>
+          <attvalue for="36" value="399549.55"/>
+          <attvalue for="37" value="407091.8963"/>
+          <attvalue for="38" value="646662.4"/>
+          <attvalue for="39" value="1642574.0"/>
+        </attvalues>
+      </edge>
+      <edge id="50" source="LOC::Colima.Ixtlahuacán" target="SUB::Mercurio (polvos, respirables, vapores o humos)" weight="0.0066844020038843155">
+        <attvalues>
+          <attvalue for="21" value="0.0"/>
+          <attvalue for="22" value="0.0"/>
+          <attvalue for="23" value="0.0"/>
+          <attvalue for="24" value="0.0"/>
+          <attvalue for="25" value="0.0"/>
+          <attvalue for="26" value="0.0"/>
+          <attvalue for="27" value="0.0"/>
+          <attvalue for="28" value="0.0"/>
+          <attvalue for="29" value="0.0"/>
+          <attvalue for="30" value="0.006684402"/>
+          <attvalue for="31" value="0.0"/>
+          <attvalue for="32" value="0.0"/>
+          <attvalue for="33" value="0.0"/>
+          <attvalue for="34" value="0.0"/>
+          <attvalue for="35" value="0.0"/>
+          <attvalue for="36" value="0.0"/>
+          <attvalue for="37" value="0.0"/>
+          <attvalue for="38" value="0.0"/>
+          <attvalue for="39" value="0.0"/>
+        </attvalues>
+      </edge>
+      <edge id="51" source="LOC::Colima.Ixtlahuacán" target="SUB::Formaldehido" weight="1.9520820379257202">
+        <attvalues>
+          <attvalue for="21" value="0.0"/>
+          <attvalue for="22" value="0.0"/>
+          <attvalue for="23" value="0.0"/>
+          <attvalue for="24" value="0.0"/>
+          <attvalue for="25" value="0.0"/>
+          <attvalue for="26" value="0.0"/>
+          <attvalue for="27" value="0.0"/>
+          <attvalue for="28" value="0.0"/>
+          <attvalue for="29" value="0.0"/>
+          <attvalue for="30" value="1.952082"/>
+          <attvalue for="31" value="0.0"/>
+          <attvalue for="32" value="0.0"/>
+          <attvalue for="33" value="0.0"/>
+          <attvalue for="34" value="0.0"/>
+          <attvalue for="35" value="0.0"/>
+          <attvalue for="36" value="0.0"/>
+          <attvalue for="37" value="0.0"/>
+          <attvalue for="38" value="0.0"/>
+          <attvalue for="39" value="0.0"/>
+        </attvalues>
+      </edge>
+      <edge id="52" source="LOC::Colima.Ixtlahuacán" target="SUB::Níquel (polvos respirables, humos o vapores)" weight="29.86916160583496">
+        <attvalues>
+          <attvalue for="21" value="0.0"/>
+          <attvalue for="22" value="0.0"/>
+          <attvalue for="23" value="0.0"/>
+          <attvalue for="24" value="0.0"/>
+          <attvalue for="25" value="0.0"/>
+          <attvalue for="26" value="0.0"/>
+          <attvalue for="27" value="0.0"/>
+          <attvalue for="28" value="0.0"/>
+          <attvalue for="29" value="0.0"/>
+          <attvalue for="30" value="0.0"/>
+          <attvalue for="31" value="3.304"/>
+          <attvalue for="32" value="5.534412"/>
+          <attvalue for="33" value="2.968485"/>
+          <attvalue for="34" value="0.0"/>
+          <attvalue for="35" value="0.0"/>
+          <attvalue for="36" value="1.362"/>
+          <attvalue for="37" value="1.432685"/>
+          <attvalue for="38" value="4.31278"/>
+          <attvalue for="39" value="10.9548"/>
+        </attvalues>
+      </edge>
+      <edge id="53" source="LOC::Colima.Ixtlahuacán" target="SUB::Cadmio (polvos, respirables, vapores o humos)" weight="0.02354329265654087">
+        <attvalues>
+          <attvalue for="21" value="0.0"/>
+          <attvalue for="22" value="0.0"/>
+          <attvalue for="23" value="0.0"/>
+          <attvalue for="24" value="0.0"/>
+          <attvalue for="25" value="0.0"/>
+          <attvalue for="26" value="0.0"/>
+          <attvalue for="27" value="0.0"/>
+          <attvalue for="28" value="0.0"/>
+          <attvalue for="29" value="0.0"/>
+          <attvalue for="30" value="0.023543292"/>
+          <attvalue for="31" value="0.0"/>
+          <attvalue for="32" value="0.0"/>
+          <attvalue for="33" value="0.0"/>
+          <attvalue for="34" value="0.0"/>
+          <attvalue for="35" value="0.0"/>
+          <attvalue for="36" value="0.0"/>
+          <attvalue for="37" value="0.0"/>
+          <attvalue for="38" value="0.0"/>
+          <attvalue for="39" value="0.0"/>
+        </attvalues>
+      </edge>
+      <edge id="54" source="LOC::Colima.Ixtlahuacán" target="SUB::Níquel (compuestos)" weight="4.998513221740723">
+        <attvalues>
+          <attvalue for="21" value="0.0"/>
+          <attvalue for="22" value="0.0"/>
+          <attvalue for="23" value="0.0"/>
+          <attvalue for="24" value="0.0"/>
+          <attvalue for="25" value="0.0"/>
+          <attvalue for="26" value="0.0"/>
+          <attvalue for="27" value="0.0"/>
+          <attvalue for="28" value="0.0"/>
+          <attvalue for="29" value="0.0"/>
+          <attvalue for="30" value="4.998513"/>
+          <attvalue for="31" value="0.0"/>
+          <attvalue for="32" value="0.0"/>
+          <attvalue for="33" value="0.0"/>
+          <attvalue for="34" value="0.0"/>
+          <attvalue for="35" value="0.0"/>
+          <attvalue for="36" value="0.0"/>
+          <attvalue for="37" value="0.0"/>
+          <attvalue for="38" value="0.0"/>
+          <attvalue for="39" value="0.0"/>
+        </attvalues>
+      </edge>
+      <edge id="55" source="LOC::Colima.Ixtlahuacán" target="SUB::Plomo (compuestos)" weight="0.0893225371837616">
+        <attvalues>
+          <attvalue for="21" value="0.0"/>
+          <attvalue for="22" value="0.0"/>
+          <attvalue for="23" value="0.0"/>
+          <attvalue for="24" value="0.0"/>
+          <attvalue for="25" value="0.0"/>
+          <attvalue for="26" value="0.0"/>
+          <attvalue for="27" value="0.0"/>
+          <attvalue for="28" value="0.0"/>
+          <attvalue for="29" value="0.0"/>
+          <attvalue for="30" value="0.08932254"/>
+          <attvalue for="31" value="0.0"/>
+          <attvalue for="32" value="0.0"/>
+          <attvalue for="33" value="0.0"/>
+          <attvalue for="34" value="0.0"/>
+          <attvalue for="35" value="0.0"/>
+          <attvalue for="36" value="0.0"/>
+          <attvalue for="37" value="0.0"/>
+          <attvalue for="38" value="0.0"/>
+          <attvalue for="39" value="0.0"/>
+        </attvalues>
+      </edge>
+      <edge id="56" source="LOC::Colima.Ixtlahuacán" target="SUB::Arsénico (polvos, respirables, vapores o humos)" weight="5.8034234046936035">
+        <attvalues>
+          <attvalue for="21" value="0.0"/>
+          <attvalue for="22" value="0.0"/>
+          <attvalue for="23" value="0.0"/>
+          <attvalue for="24" value="0.0"/>
+          <attvalue for="25" value="0.0"/>
+          <attvalue for="26" value="0.0"/>
+          <attvalue for="27" value="0.0"/>
+          <attvalue for="28" value="0.0"/>
+          <attvalue for="29" value="0.0"/>
+          <attvalue for="30" value="0.07808328"/>
+          <attvalue for="31" value="0.0"/>
+          <attvalue for="32" value="0.0"/>
+          <attvalue for="33" value="0.0"/>
+          <attvalue for="34" value="0.0"/>
+          <attvalue for="35" value="0.0"/>
+          <attvalue for="36" value="0.0"/>
+          <attvalue for="37" value="0.0"/>
+          <attvalue for="38" value="1.61729"/>
+          <attvalue for="39" value="4.10805"/>
+        </attvalues>
+      </edge>
+      <edge id="57" source="LOC::Colima.Ixtlahuacán" target="SUB::Cromo (polvos respirables, humos o vapores)" weight="17.1760196685791">
+        <attvalues>
+          <attvalue for="21" value="0.0"/>
+          <attvalue for="22" value="0.0"/>
+          <attvalue for="23" value="0.0"/>
+          <attvalue for="24" value="0.0"/>
+          <attvalue for="25" value="0.0"/>
+          <attvalue for="26" value="0.0"/>
+          <attvalue for="27" value="0.0"/>
+          <attvalue for="28" value="0.0"/>
+          <attvalue for="29" value="0.0"/>
+          <attvalue for="30" value="0.0"/>
+          <attvalue for="31" value="0.0"/>
+          <attvalue for="32" value="0.0"/>
+          <attvalue for="33" value="0.0"/>
+          <attvalue for="34" value="0.0"/>
+          <attvalue for="35" value="0.0"/>
+          <attvalue for="36" value="0.0"/>
+          <attvalue for="37" value="0.0"/>
+          <attvalue for="38" value="4.85187"/>
+          <attvalue for="39" value="12.32415"/>
+        </attvalues>
+      </edge>
+      <edge id="58" source="LOC::Colima.Ixtlahuacán" target="SUB::Cromo (compuestos)" weight="0.0499851293861866">
+        <attvalues>
+          <attvalue for="21" value="0.0"/>
+          <attvalue for="22" value="0.0"/>
+          <attvalue for="23" value="0.0"/>
+          <attvalue for="24" value="0.0"/>
+          <attvalue for="25" value="0.0"/>
+          <attvalue for="26" value="0.0"/>
+          <attvalue for="27" value="0.0"/>
+          <attvalue for="28" value="0.0"/>
+          <attvalue for="29" value="0.0"/>
+          <attvalue for="30" value="0.04998513"/>
+          <attvalue for="31" value="0.0"/>
+          <attvalue for="32" value="0.0"/>
+          <attvalue for="33" value="0.0"/>
+          <attvalue for="34" value="0.0"/>
+          <attvalue for="35" value="0.0"/>
+          <attvalue for="36" value="0.0"/>
+          <attvalue for="37" value="0.0"/>
+          <attvalue for="38" value="0.0"/>
+          <attvalue for="39" value="0.0"/>
+        </attvalues>
+      </edge>
+      <edge id="59" source="LOC::Colima.Manzanillo" target="SUB::Formaldehido" weight="833.181640625">
+        <attvalues>
+          <attvalue for="21" value="0.0"/>
+          <attvalue for="22" value="0.002182"/>
+          <attvalue for="23" value="0.0"/>
+          <attvalue for="24" value="0.0"/>
+          <attvalue for="25" value="0.0"/>
+          <attvalue for="26" value="0.00169"/>
+          <attvalue for="27" value="0.003059194"/>
+          <attvalue for="28" value="0.003252"/>
+          <attvalue for="29" value="0.001577"/>
+          <attvalue for="30" value="0.003054466"/>
+          <attvalue for="31" value="0.0"/>
+          <attvalue for="32" value="0.0"/>
+          <attvalue for="33" value="0.0"/>
+          <attvalue for="34" value="121.62"/>
+          <attvalue for="35" value="114.19304797"/>
+          <attvalue for="36" value="213.9038"/>
+          <attvalue for="37" value="124.69"/>
+          <attvalue for="38" value="127.98"/>
+          <attvalue for="39" value="130.78"/>
+        </attvalues>
+      </edge>
+      <edge id="60" source="LOC::Colima.Manzanillo" target="SUB::Clorodifluorometano (HCFC-22)" weight="4335.580078125">
+        <attvalues>
+          <attvalue for="21" value="0.0"/>
+          <attvalue for="22" value="0.0"/>
+          <attvalue for="23" value="0.0"/>
+          <attvalue for="24" value="0.0"/>
+          <attvalue for="25" value="506.0"/>
+          <attvalue for="26" value="938.0"/>
+          <attvalue for="27" value="624.0"/>
+          <attvalue for="28" value="256.88"/>
+          <attvalue for="29" value="1377.2"/>
+          <attvalue for="30" value="633.5"/>
+          <attvalue for="31" value="0.0"/>
+          <attvalue for="32" value="0.0"/>
+          <attvalue for="33" value="0.0"/>
+          <attvalue for="34" value="0.0"/>
+          <attvalue for="35" value="0.0"/>
+          <attvalue for="36" value="0.0"/>
+          <attvalue for="37" value="0.0"/>
+          <attvalue for="38" value="0.0"/>
+          <attvalue for="39" value="0.0"/>
+        </attvalues>
+      </edge>
+      <edge id="61" source="LOC::Colima.Manzanillo" target="SUB::Acetaldehido" weight="0.3115003705024719">
+        <attvalues>
+          <attvalue for="21" value="0.0"/>
+          <attvalue for="22" value="0.042805"/>
+          <attvalue for="23" value="0.0"/>
+          <attvalue for="24" value="0.0"/>
+          <attvalue for="25" value="0.0"/>
+          <attvalue for="26" value="0.038873"/>
+          <attvalue for="27" value="0.066834228"/>
+          <attvalue for="28" value="0.06719800000000001"/>
+          <attvalue for="29" value="0.0358775542164"/>
+          <attvalue for="30" value="0.0599126"/>
+          <attvalue for="31" value="0.0"/>
+          <attvalue for="32" value="0.0"/>
+          <attvalue for="33" value="0.0"/>
+          <attvalue for="34" value="0.0"/>
+          <attvalue for="35" value="0.0"/>
+          <attvalue for="36" value="0.0"/>
+          <attvalue for="37" value="0.0"/>
+          <attvalue for="38" value="0.0"/>
+          <attvalue for="39" value="0.0"/>
+        </attvalues>
+      </edge>
+      <edge id="62" source="LOC::Colima.Manzanillo" target="SUB::Cadmio (polvos, respirables, vapores o humos)" weight="762.47021484375">
+        <attvalues>
+          <attvalue for="21" value="0.0"/>
+          <attvalue for="22" value="76.0"/>
+          <attvalue for="23" value="135.8489772"/>
+          <attvalue for="24" value="1.218"/>
+          <attvalue for="25" value="111.9934"/>
+          <attvalue for="26" value="0.11986989999999999"/>
+          <attvalue for="27" value="0.0"/>
+          <attvalue for="28" value="0.0"/>
+          <attvalue for="29" value="11.903325000000006"/>
+          <attvalue for="30" value="42.970155999999996"/>
+          <attvalue for="31" value="133.1"/>
+          <attvalue for="32" value="0.0"/>
+          <attvalue for="33" value="0.0"/>
+          <attvalue for="34" value="0.0"/>
+          <attvalue for="35" value="0.0"/>
+          <attvalue for="36" value="249.3165"/>
+          <attvalue for="37" value="0.0"/>
+          <attvalue for="38" value="0.0"/>
+          <attvalue for="39" value="0.0"/>
+        </attvalues>
+      </edge>
+      <edge id="63" source="LOC::Colima.Manzanillo" target="SUB::Níquel (compuestos)" weight="3183.195556640625">
+        <attvalues>
+          <attvalue for="21" value="0.0"/>
+          <attvalue for="22" value="76.0"/>
+          <attvalue for="23" value="135.856643215"/>
+          <attvalue for="24" value="198.143647"/>
+          <attvalue for="25" value="0.0"/>
+          <attvalue for="26" value="0.1512142553"/>
+          <attvalue for="27" value="0.11607389025"/>
+          <attvalue for="28" value="118.74419999999999"/>
+          <attvalue for="29" value="190.71939815439998"/>
+          <attvalue for="30" value="2463.46436445"/>
+          <attvalue for="31" value="0.0"/>
+          <attvalue for="32" value="0.0"/>
+          <attvalue for="33" value="0.0"/>
+          <attvalue for="34" value="0.0"/>
+          <attvalue for="35" value="0.0"/>
+          <attvalue for="36" value="0.0"/>
+          <attvalue for="37" value="0.0"/>
+          <attvalue for="38" value="0.0"/>
+          <attvalue for="39" value="0.0"/>
+        </attvalues>
+      </edge>
+      <edge id="64" source="LOC::Colima.Manzanillo" target="SUB::Mercurio (compuestos)" weight="2.1691863536834717">
+        <attvalues>
+          <attvalue for="21" value="0.0"/>
+          <attvalue for="22" value="0.380641"/>
+          <attvalue for="23" value="1.661037591"/>
+          <attvalue for="24" value="0.1218"/>
+          <attvalue for="25" value="0.0"/>
+          <attvalue for="26" value="0.0012974339999999999"/>
+          <attvalue for="27" value="0.00333233835"/>
+          <attvalue for="28" value="1.95E-4"/>
+          <attvalue for="29" value="4.314902E-4"/>
+          <attvalue for="30" value="4.514E-4"/>
+          <attvalue for="31" value="0.0"/>
+          <attvalue for="32" value="0.0"/>
+          <attvalue for="33" value="0.0"/>
+          <attvalue for="34" value="0.0"/>
+          <attvalue for="35" value="0.0"/>
+          <attvalue for="36" value="0.0"/>
+          <attvalue for="37" value="0.0"/>
+          <attvalue for="38" value="0.0"/>
+          <attvalue for="39" value="0.0"/>
+        </attvalues>
+      </edge>
+      <edge id="65" source="LOC::Colima.Manzanillo" target="SUB::Plomo (compuestos)" weight="43146.8203125">
+        <attvalues>
+          <attvalue for="21" value="0.0"/>
+          <attvalue for="22" value="152.0"/>
+          <attvalue for="23" value="427.2001692150001"/>
+          <attvalue for="24" value="18139.65"/>
+          <attvalue for="25" value="0.0"/>
+          <attvalue for="26" value="0.2401025"/>
+          <attvalue for="27" value="0.26265855"/>
+          <attvalue for="28" value="8858.179495999999"/>
+          <attvalue for="29" value="7415.8757342394"/>
+          <attvalue for="30" value="8153.4108075"/>
+          <attvalue for="31" value="0.0"/>
+          <attvalue for="32" value="0.0"/>
+          <attvalue for="33" value="0.0"/>
+          <attvalue for="34" value="0.0"/>
+          <attvalue for="35" value="0.0"/>
+          <attvalue for="36" value="0.0"/>
+          <attvalue for="37" value="0.0"/>
+          <attvalue for="38" value="0.0"/>
+          <attvalue for="39" value="0.0"/>
+        </attvalues>
+      </edge>
+      <edge id="66" source="LOC::Colima.Manzanillo" target="SUB::Plomo (polvos respirables, humos o vapores)" weight="41823.1875">
+        <attvalues>
+          <attvalue for="21" value="0.0"/>
+          <attvalue for="22" value="0.0"/>
+          <attvalue for="23" value="0.0"/>
+          <attvalue for="24" value="0.0"/>
+          <attvalue for="25" value="0.0"/>
+          <attvalue for="26" value="0.0"/>
+          <attvalue for="27" value="0.0"/>
+          <attvalue for="28" value="0.0"/>
+          <attvalue for="29" value="0.0"/>
+          <attvalue for="30" value="0.0"/>
+          <attvalue for="31" value="10736.239"/>
+          <attvalue for="32" value="7918.78"/>
+          <attvalue for="33" value="0.0"/>
+          <attvalue for="34" value="6652.438"/>
+          <attvalue for="35" value="544.541197043286"/>
+          <attvalue for="36" value="4697.8077"/>
+          <attvalue for="37" value="3931.46"/>
+          <attvalue for="38" value="3565.19"/>
+          <attvalue for="39" value="3776.73"/>
+        </attvalues>
+      </edge>
+      <edge id="67" source="LOC::Colima.Manzanillo" target="SUB::Asbesto y sus formas (En forma de polvo, fibras o productos desmenuzables con la presión de la mano)" weight="5038.0">
+        <attvalues>
+          <attvalue for="21" value="0.0"/>
+          <attvalue for="22" value="0.0"/>
+          <attvalue for="23" value="0.0"/>
+          <attvalue for="24" value="0.0"/>
+          <attvalue for="25" value="0.0"/>
+          <attvalue for="26" value="0.0"/>
+          <attvalue for="27" value="0.0"/>
+          <attvalue for="28" value="0.0"/>
+          <attvalue for="29" value="0.0"/>
+          <attvalue for="30" value="0.0"/>
+          <attvalue for="31" value="4538.0"/>
+          <attvalue for="32" value="500.0"/>
+          <attvalue for="33" value="0.0"/>
+          <attvalue for="34" value="0.0"/>
+          <attvalue for="35" value="0.0"/>
+          <attvalue for="36" value="0.0"/>
+          <attvalue for="37" value="0.0"/>
+          <attvalue for="38" value="0.0"/>
+          <attvalue for="39" value="0.0"/>
+        </attvalues>
+      </edge>
+      <edge id="68" source="LOC::Colima.Manzanillo" target="SUB::Arsénico (polvos, respirables, vapores o humos)" weight="100.79454040527344">
+        <attvalues>
+          <attvalue for="21" value="0.0"/>
+          <attvalue for="22" value="63.0"/>
+          <attvalue for="23" value="2.7556638513"/>
+          <attvalue for="24" value="0.1218"/>
+          <attvalue for="25" value="2.239868"/>
+          <attvalue for="26" value="0.0025074399999999997"/>
+          <attvalue for="27" value="0.0"/>
+          <attvalue for="28" value="0.0"/>
+          <attvalue for="29" value="0.0"/>
+          <attvalue for="30" value="7.8E-4"/>
+          <attvalue for="31" value="0.0"/>
+          <attvalue for="32" value="0.0"/>
+          <attvalue for="33" value="0.0"/>
+          <attvalue for="34" value="4.86"/>
+          <attvalue for="35" value="4.567721918634"/>
+          <attvalue for="36" value="8.5562"/>
+          <attvalue for="37" value="4.77"/>
+          <attvalue for="38" value="4.91"/>
+          <attvalue for="39" value="5.01"/>
+        </attvalues>
+      </edge>
+      <edge id="69" source="LOC::Colima.Manzanillo" target="SUB::Cromo (polvos respirables, humos o vapores)" weight="23.921234130859375">
+        <attvalues>
+          <attvalue for="21" value="0.0"/>
+          <attvalue for="22" value="0.0"/>
+          <attvalue for="23" value="0.0"/>
+          <attvalue for="24" value="0.0"/>
+          <attvalue for="25" value="0.0"/>
+          <attvalue for="26" value="0.0"/>
+          <attvalue for="27" value="0.0"/>
+          <attvalue for="28" value="0.0"/>
+          <attvalue for="29" value="0.0"/>
+          <attvalue for="30" value="0.0"/>
+          <attvalue for="31" value="0.0"/>
+          <attvalue for="32" value="0.0"/>
+          <attvalue for="33" value="3.0"/>
+          <attvalue for="34" value="3.11"/>
+          <attvalue for="35" value="2.924034107004"/>
+          <attvalue for="36" value="5.4772"/>
+          <attvalue for="37" value="3.056"/>
+          <attvalue for="38" value="3.144"/>
+          <attvalue for="39" value="3.21"/>
+        </attvalues>
+      </edge>
+      <edge id="70" source="LOC::Colima.Manzanillo" target="SUB::Cromo (compuestos)" weight="218.26220703125">
+        <attvalues>
+          <attvalue for="21" value="0.0"/>
+          <attvalue for="22" value="76.0"/>
+          <attvalue for="23" value="135.856643215"/>
+          <attvalue for="24" value="6.09"/>
+          <attvalue for="25" value="0.0"/>
+          <attvalue for="26" value="0.1216834"/>
+          <attvalue for="27" value="0.13408695"/>
+          <attvalue for="28" value="0.01995"/>
+          <attvalue for="29" value="0.039846924"/>
+          <attvalue for="30" value="0.0"/>
+          <attvalue for="31" value="0.0"/>
+          <attvalue for="32" value="0.0"/>
+          <attvalue for="33" value="0.0"/>
+          <attvalue for="34" value="0.0"/>
+          <attvalue for="35" value="0.0"/>
+          <attvalue for="36" value="0.0"/>
+          <attvalue for="37" value="0.0"/>
+          <attvalue for="38" value="0.0"/>
+          <attvalue for="39" value="0.0"/>
+        </attvalues>
+      </edge>
+      <edge id="71" source="LOC::Colima.Manzanillo" target="SUB::Acido sulfhídrico" weight="5.999999848427251E-5">
+        <attvalues>
+          <attvalue for="21" value="0.0"/>
+          <attvalue for="22" value="0.0"/>
+          <attvalue for="23" value="0.0"/>
+          <attvalue for="24" value="0.0"/>
+          <attvalue for="25" value="0.0"/>
+          <attvalue for="26" value="0.0"/>
+          <attvalue for="27" value="0.0"/>
+          <attvalue for="28" value="0.0"/>
+          <attvalue for="29" value="0.0"/>
+          <attvalue for="30" value="6.0E-5"/>
+          <attvalue for="31" value="0.0"/>
+          <attvalue for="32" value="0.0"/>
+          <attvalue for="33" value="0.0"/>
+          <attvalue for="34" value="0.0"/>
+          <attvalue for="35" value="0.0"/>
+          <attvalue for="36" value="0.0"/>
+          <attvalue for="37" value="0.0"/>
+          <attvalue for="38" value="0.0"/>
+          <attvalue for="39" value="0.0"/>
+        </attvalues>
+      </edge>
+      <edge id="72" source="LOC::Colima.Manzanillo" target="SUB::Acroleina" weight="0.03560385853052139">
+        <attvalues>
+          <attvalue for="21" value="0.0"/>
+          <attvalue for="22" value="0.005162"/>
+          <attvalue for="23" value="0.0"/>
+          <attvalue for="24" value="0.0"/>
+          <attvalue for="25" value="0.0"/>
+          <attvalue for="26" value="0.004679"/>
+          <attvalue for="27" value="0.00806019"/>
+          <attvalue for="28" value="0.0081042"/>
+          <attvalue for="29" value="0.0043254677509999995"/>
+          <attvalue for="30" value="0.005273"/>
+          <attvalue for="31" value="0.0"/>
+          <attvalue for="32" value="0.0"/>
+          <attvalue for="33" value="0.0"/>
+          <attvalue for="34" value="0.0"/>
+          <attvalue for="35" value="0.0"/>
+          <attvalue for="36" value="0.0"/>
+          <attvalue for="37" value="0.0"/>
+          <attvalue for="38" value="0.0"/>
+          <attvalue for="39" value="0.0"/>
+        </attvalues>
+      </edge>
+      <edge id="73" source="LOC::Colima.Manzanillo" target="SUB::Bióxido de carbono" weight="3.6871438336E10">
+        <attvalues>
+          <attvalue for="21" value="6948000.0"/>
+          <attvalue for="22" value="2.34675065E8"/>
+          <attvalue for="23" value="5.780091377E9"/>
+          <attvalue for="24" value="1.0972395108E9"/>
+          <attvalue for="25" value="5.64665609E9"/>
+          <attvalue for="26" value="5.3599453412E9"/>
+          <attvalue for="27" value="4.3827259609E9"/>
+          <attvalue for="28" value="5.4821261686E9"/>
+          <attvalue for="29" value="5.33169107215665E9"/>
+          <attvalue for="30" value="2.2542868127453246E9"/>
+          <attvalue for="31" value="1.686049473475E8"/>
+          <attvalue for="32" value="3.594792817245329E8"/>
+          <attvalue for="33" value="1.3108719900056918E8"/>
+          <attvalue for="34" value="1.4432332E8"/>
+          <attvalue for="35" value="4.2922499790937655E7"/>
+          <attvalue for="36" value="4.02077636744E7"/>
+          <attvalue for="37" value="1.349937398704E8"/>
+          <attvalue for="38" value="1.3293479005E8"/>
+          <attvalue for="39" value="1.4049998714E8"/>
+        </attvalues>
+      </edge>
+      <edge id="74" source="LOC::Colima.Manzanillo" target="SUB::Arsénico (Compuestos solubles)" weight="12134.6171875">
+        <attvalues>
+          <attvalue for="21" value="0.0"/>
+          <attvalue for="22" value="0.0"/>
+          <attvalue for="23" value="0.0"/>
+          <attvalue for="24" value="0.0"/>
+          <attvalue for="25" value="0.0"/>
+          <attvalue for="26" value="0.0"/>
+          <attvalue for="27" value="0.0"/>
+          <attvalue for="28" value="0.0"/>
+          <attvalue for="29" value="0.0"/>
+          <attvalue for="30" value="0.0"/>
+          <attvalue for="31" value="389.7356"/>
+          <attvalue for="32" value="191.2591"/>
+          <attvalue for="33" value="1523.3134"/>
+          <attvalue for="34" value="1703.8477"/>
+          <attvalue for="35" value="1888.3431999999998"/>
+          <attvalue for="36" value="2083.034578"/>
+          <attvalue for="37" value="1427.7179999999998"/>
+          <attvalue for="38" value="1552.7289"/>
+          <attvalue for="39" value="1374.6366999999998"/>
+        </attvalues>
+      </edge>
+      <edge id="75" source="LOC::Colima.Manzanillo" target="SUB::Cadmio (compuestos)" weight="249.31222534179688">
+        <attvalues>
+          <attvalue for="21" value="0.0"/>
+          <attvalue for="22" value="0.0"/>
+          <attvalue for="23" value="0.0"/>
+          <attvalue for="24" value="0.0"/>
+          <attvalue for="25" value="0.0"/>
+          <attvalue for="26" value="0.0"/>
+          <attvalue for="27" value="0.18502652"/>
+          <attvalue for="28" value="76.17955"/>
+          <attvalue for="29" value="120.794499"/>
+          <attvalue for="30" value="52.1531564"/>
+          <attvalue for="31" value="0.0"/>
+          <attvalue for="32" value="0.0"/>
+          <attvalue for="33" value="0.0"/>
+          <attvalue for="34" value="0.0"/>
+          <attvalue for="35" value="0.0"/>
+          <attvalue for="36" value="0.0"/>
+          <attvalue for="37" value="0.0"/>
+          <attvalue for="38" value="0.0"/>
+          <attvalue for="39" value="0.0"/>
+        </attvalues>
+      </edge>
+      <edge id="76" source="LOC::Colima.Manzanillo" target="SUB::Bióxido de nitrógeno" weight="1.20073088E8">
+        <attvalues>
+          <attvalue for="21" value="7077000.0"/>
+          <attvalue for="22" value="7306650.0"/>
+          <attvalue for="23" value="1.500808E7"/>
+          <attvalue for="24" value="2739670.0"/>
+          <attvalue for="25" value="1.593373E7"/>
+          <attvalue for="26" value="1.458777E7"/>
+          <attvalue for="27" value="1.340149E7"/>
+          <attvalue for="28" value="1.42175E7"/>
+          <attvalue for="29" value="1.360543E7"/>
+          <attvalue for="30" value="0.0"/>
+          <attvalue for="31" value="755339.91"/>
+          <attvalue for="32" value="792270.0"/>
+          <attvalue for="33" value="947000.0"/>
+          <attvalue for="34" value="927280.0"/>
+          <attvalue for="35" value="1232740.0"/>
+          <attvalue for="36" value="1182930.6008"/>
+          <attvalue for="37" value="7444079.819"/>
+          <attvalue for="38" value="1557030.0"/>
+          <attvalue for="39" value="1357100.0"/>
+        </attvalues>
+      </edge>
+      <edge id="77" source="LOC::Colima.Manzanillo" target="SUB::Plomo (Compuestos solubles)" weight="1286161.75">
+        <attvalues>
+          <attvalue for="21" value="0.0"/>
+          <attvalue for="22" value="0.0"/>
+          <attvalue for="23" value="0.0"/>
+          <attvalue for="24" value="0.0"/>
+          <attvalue for="25" value="223.9868"/>
+          <attvalue for="26" value="0.0"/>
+          <attvalue for="27" value="0.0"/>
+          <attvalue for="28" value="0.0"/>
+          <attvalue for="29" value="0.0"/>
+          <attvalue for="30" value="0.0"/>
+          <attvalue for="31" value="7625.2608"/>
+          <attvalue for="32" value="7676.9941"/>
+          <attvalue for="33" value="140880.61219999997"/>
+          <attvalue for="34" value="132615.6954"/>
+          <attvalue for="35" value="177207.77578899998"/>
+          <attvalue for="36" value="321950.749852"/>
+          <attvalue for="37" value="233877.1779"/>
+          <attvalue for="38" value="176.4766"/>
+          <attvalue for="39" value="263926.9759"/>
+        </attvalues>
+      </edge>
+      <edge id="78" source="LOC::Colima.Manzanillo" target="SUB::Benceno" weight="347.3789367675781">
+        <attvalues>
+          <attvalue for="21" value="347.0"/>
+          <attvalue for="22" value="0.052069"/>
+          <attvalue for="23" value="0.0"/>
+          <attvalue for="24" value="0.0"/>
+          <attvalue for="25" value="0.0"/>
+          <attvalue for="26" value="0.047291"/>
+          <attvalue for="27" value="0.081299002"/>
+          <attvalue for="28" value="0.081748"/>
+          <attvalue for="29" value="0.0436461774236"/>
+          <attvalue for="30" value="0.0728871"/>
+          <attvalue for="31" value="0.0"/>
+          <attvalue for="32" value="0.0"/>
+          <attvalue for="33" value="0.0"/>
+          <attvalue for="34" value="0.0"/>
+          <attvalue for="35" value="0.0"/>
+          <attvalue for="36" value="0.0"/>
+          <attvalue for="37" value="0.0"/>
+          <attvalue for="38" value="0.0"/>
+          <attvalue for="39" value="0.0"/>
+        </attvalues>
+      </edge>
+      <edge id="79" source="LOC::Colima.Manzanillo" target="SUB::Arsénico (compuestos)" weight="0.014713062904775143">
+        <attvalues>
+          <attvalue for="21" value="0.0"/>
+          <attvalue for="22" value="0.0"/>
+          <attvalue for="23" value="0.0"/>
+          <attvalue for="24" value="0.0"/>
+          <attvalue for="25" value="0.0"/>
+          <attvalue for="26" value="0.0"/>
+          <attvalue for="27" value="0.0030315045"/>
+          <attvalue for="28" value="9.354E-4"/>
+          <attvalue for="29" value="0.0044301588"/>
+          <attvalue for="30" value="0.0063159999999999996"/>
+          <attvalue for="31" value="0.0"/>
+          <attvalue for="32" value="0.0"/>
+          <attvalue for="33" value="0.0"/>
+          <attvalue for="34" value="0.0"/>
+          <attvalue for="35" value="0.0"/>
+          <attvalue for="36" value="0.0"/>
+          <attvalue for="37" value="0.0"/>
+          <attvalue for="38" value="0.0"/>
+          <attvalue for="39" value="0.0"/>
+        </attvalues>
+      </edge>
+      <edge id="80" source="LOC::Colima.Manzanillo" target="SUB::Mercurio (Compuestos solubles)" weight="11052.041015625">
+        <attvalues>
+          <attvalue for="21" value="0.0"/>
+          <attvalue for="22" value="0.0"/>
+          <attvalue for="23" value="0.0"/>
+          <attvalue for="24" value="0.0"/>
+          <attvalue for="25" value="1.296838"/>
+          <attvalue for="26" value="0.0"/>
+          <attvalue for="27" value="0.0"/>
+          <attvalue for="28" value="0.0"/>
+          <attvalue for="29" value="0.0"/>
+          <attvalue for="30" value="0.0"/>
+          <attvalue for="31" value="160.9777"/>
+          <attvalue for="32" value="162.0698"/>
+          <attvalue for="33" value="1494.1241"/>
+          <attvalue for="34" value="1281.5521"/>
+          <attvalue for="35" value="1772.5893999999998"/>
+          <attvalue for="36" value="1958.4635999999998"/>
+          <attvalue for="37" value="1311.4714"/>
+          <attvalue for="38" value="1546.943"/>
+          <attvalue for="39" value="1362.5535"/>
+        </attvalues>
+      </edge>
+      <edge id="81" source="LOC::Colima.Manzanillo" target="SUB::Mercurio (polvos, respirables, vapores o humos)" weight="16.300804138183594">
+        <attvalues>
+          <attvalue for="21" value="0.0"/>
+          <attvalue for="22" value="0.0"/>
+          <attvalue for="23" value="0.0"/>
+          <attvalue for="24" value="0.0"/>
+          <attvalue for="25" value="0.0"/>
+          <attvalue for="26" value="0.0"/>
+          <attvalue for="27" value="0.0"/>
+          <attvalue for="28" value="0.0"/>
+          <attvalue for="29" value="3.542E-7"/>
+          <attvalue for="30" value="3.0385000000000002E-6"/>
+          <attvalue for="31" value="0.0"/>
+          <attvalue for="32" value="0.0"/>
+          <attvalue for="33" value="15.274"/>
+          <attvalue for="34" value="0.0"/>
+          <attvalue for="35" value="0.0"/>
+          <attvalue for="36" value="1.0268"/>
+          <attvalue for="37" value="0.0"/>
+          <attvalue for="38" value="0.0"/>
+          <attvalue for="39" value="0.0"/>
+        </attvalues>
+      </edge>
+      <edge id="82" source="LOC::Colima.Manzanillo" target="SUB::Níquel (Compuestos solubles)" weight="974818.5625">
+        <attvalues>
+          <attvalue for="21" value="0.0"/>
+          <attvalue for="22" value="0.0"/>
+          <attvalue for="23" value="0.0"/>
+          <attvalue for="24" value="0.0"/>
+          <attvalue for="25" value="124.6294"/>
+          <attvalue for="26" value="0.0"/>
+          <attvalue for="27" value="0.0"/>
+          <attvalue for="28" value="0.0"/>
+          <attvalue for="29" value="0.0"/>
+          <attvalue for="30" value="0.0"/>
+          <attvalue for="31" value="12454.5926"/>
+          <attvalue for="32" value="14934.3701"/>
+          <attvalue for="33" value="113219.7433"/>
+          <attvalue for="34" value="145772.548"/>
+          <attvalue for="35" value="91950.473"/>
+          <attvalue for="36" value="163388.4199"/>
+          <attvalue for="37" value="134532.9895"/>
+          <attvalue for="38" value="162536.21480000002"/>
+          <attvalue for="39" value="135904.5796"/>
+        </attvalues>
+      </edge>
+      <edge id="83" source="LOC::Colima.Manzanillo" target="SUB::Cromo (Compuestos solubles)" weight="773298.0625">
+        <attvalues>
+          <attvalue for="21" value="0.0"/>
+          <attvalue for="22" value="0.0"/>
+          <attvalue for="23" value="0.0"/>
+          <attvalue for="24" value="0.0"/>
+          <attvalue for="25" value="111.9934"/>
+          <attvalue for="26" value="0.0"/>
+          <attvalue for="27" value="0.0"/>
+          <attvalue for="28" value="0.0"/>
+          <attvalue for="29" value="0.0"/>
+          <attvalue for="30" value="0.0"/>
+          <attvalue for="31" value="13979.6447"/>
+          <attvalue for="32" value="81910.4861"/>
+          <attvalue for="33" value="181824.0306"/>
+          <attvalue for="34" value="72000.5961"/>
+          <attvalue for="35" value="95035.457"/>
+          <attvalue for="36" value="104356.39540000001"/>
+          <attvalue for="37" value="72088.4355"/>
+          <attvalue for="38" value="77433.6708"/>
+          <attvalue for="39" value="74557.3602"/>
+        </attvalues>
+      </edge>
+      <edge id="84" source="LOC::Colima.Manzanillo" target="SUB::Cadmio (Compuestos solubles)" weight="203992.515625">
+        <attvalues>
+          <attvalue for="21" value="0.0"/>
+          <attvalue for="22" value="0.0"/>
+          <attvalue for="23" value="0.0"/>
+          <attvalue for="24" value="0.0"/>
+          <attvalue for="25" value="0.0"/>
+          <attvalue for="26" value="0.0"/>
+          <attvalue for="27" value="0.0"/>
+          <attvalue for="28" value="0.0"/>
+          <attvalue for="29" value="0.0"/>
+          <attvalue for="30" value="0.0"/>
+          <attvalue for="31" value="2033.4029"/>
+          <attvalue for="32" value="2491.361"/>
+          <attvalue for="33" value="14469.7446"/>
+          <attvalue for="34" value="19713.8168"/>
+          <attvalue for="35" value="17097.5169"/>
+          <attvalue for="36" value="13307.365600000001"/>
+          <attvalue for="37" value="7545.635300000001"/>
+          <attvalue for="38" value="13966.905700000003"/>
+          <attvalue for="39" value="113366.77050000001"/>
+        </attvalues>
+      </edge>
+      <edge id="85" source="LOC::Colima.Manzanillo" target="SUB::Cianuro inorgánico/orgánico" weight="224927.140625">
+        <attvalues>
+          <attvalue for="21" value="0.0"/>
+          <attvalue for="22" value="15.0"/>
+          <attvalue for="23" value="55.2141710763"/>
+          <attvalue for="24" value="742.0"/>
+          <attvalue for="25" value="22.39868"/>
+          <attvalue for="26" value="0.03400868"/>
+          <attvalue for="27" value="0.027260390000000002"/>
+          <attvalue for="28" value="0.04803"/>
+          <attvalue for="29" value="6.450993"/>
+          <attvalue for="30" value="0.10939275"/>
+          <attvalue for="31" value="1948.6778"/>
+          <attvalue for="32" value="7441.3184"/>
+          <attvalue for="33" value="18666.2001"/>
+          <attvalue for="34" value="19902.801"/>
+          <attvalue for="35" value="34249.0822"/>
+          <attvalue for="36" value="43613.7195"/>
+          <attvalue for="37" value="25047.685400000002"/>
+          <attvalue for="38" value="30938.8611"/>
+          <attvalue for="39" value="42277.5145"/>
+        </attvalues>
+      </edge>
+      <edge id="86" source="LOC::Colima.Manzanillo" target="SUB::Metano" weight="599484.6875">
+        <attvalues>
+          <attvalue for="21" value="0.0"/>
+          <attvalue for="22" value="0.0018270337239"/>
+          <attvalue for="23" value="0.0"/>
+          <attvalue for="24" value="0.0"/>
+          <attvalue for="25" value="0.0"/>
+          <attvalue for="26" value="0.0"/>
+          <attvalue for="27" value="0.0"/>
+          <attvalue for="28" value="0.0"/>
+          <attvalue for="29" value="0.0"/>
+          <attvalue for="30" value="182112.28"/>
+          <attvalue for="31" value="0.0"/>
+          <attvalue for="32" value="173640.0"/>
+          <attvalue for="33" value="0.0"/>
+          <attvalue for="34" value="0.0"/>
+          <attvalue for="35" value="0.0"/>
+          <attvalue for="36" value="0.0"/>
+          <attvalue for="37" value="243732.425444"/>
+          <attvalue for="38" value="0.0"/>
+          <attvalue for="39" value="0.0"/>
+        </attvalues>
+      </edge>
+      <edge id="87" source="LOC::Colima.Manzanillo" target="SUB::Níquel (polvos respirables, humos o vapores)" weight="1893.7662353515625">
+        <attvalues>
+          <attvalue for="21" value="0.0"/>
+          <attvalue for="22" value="0.0"/>
+          <attvalue for="23" value="0.0"/>
+          <attvalue for="24" value="0.0"/>
+          <attvalue for="25" value="0.0"/>
+          <attvalue for="26" value="0.0"/>
+          <attvalue for="27" value="0.0"/>
+          <attvalue for="28" value="0.0"/>
+          <attvalue for="29" value="0.0"/>
+          <attvalue for="30" value="0.0"/>
+          <attvalue for="31" value="141.1"/>
+          <attvalue for="32" value="0.0"/>
+          <attvalue for="33" value="0.0"/>
+          <attvalue for="34" value="0.0"/>
+          <attvalue for="35" value="0.0"/>
+          <attvalue for="36" value="811.9862"/>
+          <attvalue for="37" value="305.61"/>
+          <attvalue for="38" value="314.46"/>
+          <attvalue for="39" value="320.61"/>
+        </attvalues>
+      </edge>
+      <edge id="88" source="LOC::Colima.Minatitlán" target="SUB::Bióxido de carbono" weight="2.61347328E8">
+        <attvalues>
+          <attvalue for="21" value="0.0"/>
+          <attvalue for="22" value="0.0"/>
+          <attvalue for="23" value="0.0"/>
+          <attvalue for="24" value="0.0"/>
+          <attvalue for="25" value="0.0"/>
+          <attvalue for="26" value="0.0"/>
+          <attvalue for="27" value="0.0"/>
+          <attvalue for="28" value="0.0"/>
+          <attvalue for="29" value="0.0"/>
+          <attvalue for="30" value="0.0"/>
+          <attvalue for="31" value="0.0"/>
+          <attvalue for="32" value="0.0"/>
+          <attvalue for="33" value="0.0"/>
+          <attvalue for="34" value="0.0"/>
+          <attvalue for="35" value="0.0"/>
+          <attvalue for="36" value="0.0"/>
+          <attvalue for="37" value="7.5570017E7"/>
+          <attvalue for="38" value="9.2431189E7"/>
+          <attvalue for="39" value="9.3346126E7"/>
+        </attvalues>
+      </edge>
+      <edge id="89" source="LOC::Colima.Minatitlán" target="SUB::Bióxido de nitrógeno" weight="4346122.5">
+        <attvalues>
+          <attvalue for="21" value="0.0"/>
+          <attvalue for="22" value="0.0"/>
+          <attvalue for="23" value="0.0"/>
+          <attvalue for="24" value="0.0"/>
+          <attvalue for="25" value="0.0"/>
+          <attvalue for="26" value="0.0"/>
+          <attvalue for="27" value="0.0"/>
+          <attvalue for="28" value="0.0"/>
+          <attvalue for="29" value="0.0"/>
+          <attvalue for="30" value="0.0"/>
+          <attvalue for="31" value="0.0"/>
+          <attvalue for="32" value="0.0"/>
+          <attvalue for="33" value="0.0"/>
+          <attvalue for="34" value="0.0"/>
+          <attvalue for="35" value="0.0"/>
+          <attvalue for="36" value="0.0"/>
+          <attvalue for="37" value="2011102.17"/>
+          <attvalue for="38" value="2335020.38"/>
+          <attvalue for="39" value="0.0"/>
+        </attvalues>
+      </edge>
+      <edge id="90" source="LOC::Colima.Minatitlán" target="SUB::Plomo (Compuestos solubles)" weight="2.3852999210357666">
+        <attvalues>
+          <attvalue for="21" value="0.0"/>
+          <attvalue for="22" value="0.0"/>
+          <attvalue for="23" value="0.0"/>
+          <attvalue for="24" value="0.0"/>
+          <attvalue for="25" value="0.0"/>
+          <attvalue for="26" value="0.0"/>
+          <attvalue for="27" value="0.0"/>
+          <attvalue for="28" value="0.0"/>
+          <attvalue for="29" value="0.0"/>
+          <attvalue for="30" value="0.0"/>
+          <attvalue for="31" value="0.0"/>
+          <attvalue for="32" value="0.0"/>
+          <attvalue for="33" value="0.0"/>
+          <attvalue for="34" value="0.0"/>
+          <attvalue for="35" value="0.0"/>
+          <attvalue for="36" value="0.0"/>
+          <attvalue for="37" value="0.0"/>
+          <attvalue for="38" value="1.1343"/>
+          <attvalue for="39" value="1.251"/>
+        </attvalues>
+      </edge>
+      <edge id="91" source="LOC::Colima.Minatitlán" target="SUB::Níquel (Compuestos solubles)" weight="3.7005999088287354">
+        <attvalues>
+          <attvalue for="21" value="0.0"/>
+          <attvalue for="22" value="0.0"/>
+          <attvalue for="23" value="0.0"/>
+          <attvalue for="24" value="0.0"/>
+          <attvalue for="25" value="0.0"/>
+          <attvalue for="26" value="0.0"/>
+          <attvalue for="27" value="0.0"/>
+          <attvalue for="28" value="0.0"/>
+          <attvalue for="29" value="0.0"/>
+          <attvalue for="30" value="0.0"/>
+          <attvalue for="31" value="0.0"/>
+          <attvalue for="32" value="0.0"/>
+          <attvalue for="33" value="0.0"/>
+          <attvalue for="34" value="0.0"/>
+          <attvalue for="35" value="0.0"/>
+          <attvalue for="36" value="0.0"/>
+          <attvalue for="37" value="1.0082"/>
+          <attvalue for="38" value="1.4114"/>
+          <attvalue for="39" value="1.281"/>
+        </attvalues>
+      </edge>
+      <edge id="92" source="LOC::Colima.Minatitlán" target="SUB::Cromo (Compuestos solubles)" weight="6.286200046539307">
+        <attvalues>
+          <attvalue for="21" value="0.0"/>
+          <attvalue for="22" value="0.0"/>
+          <attvalue for="23" value="0.0"/>
+          <attvalue for="24" value="0.0"/>
+          <attvalue for="25" value="0.0"/>
+          <attvalue for="26" value="0.0"/>
+          <attvalue for="27" value="0.0"/>
+          <attvalue for="28" value="0.0"/>
+          <attvalue for="29" value="0.0"/>
+          <attvalue for="30" value="0.0"/>
+          <attvalue for="31" value="0.0"/>
+          <attvalue for="32" value="0.0"/>
+          <attvalue for="33" value="0.0"/>
+          <attvalue for="34" value="0.0"/>
+          <attvalue for="35" value="0.0"/>
+          <attvalue for="36" value="0.0"/>
+          <attvalue for="37" value="1.563"/>
+          <attvalue for="38" value="2.9862"/>
+          <attvalue for="39" value="1.737"/>
+        </attvalues>
+      </edge>
+      <edge id="93" source="LOC::Colima.Minatitlán" target="SUB::Formaldehido" weight="1692.25">
+        <attvalues>
+          <attvalue for="21" value="0.0"/>
+          <attvalue for="22" value="0.0"/>
+          <attvalue for="23" value="0.0"/>
+          <attvalue for="24" value="0.0"/>
+          <attvalue for="25" value="0.0"/>
+          <attvalue for="26" value="0.0"/>
+          <attvalue for="27" value="0.0"/>
+          <attvalue for="28" value="0.0"/>
+          <attvalue for="29" value="0.0"/>
+          <attvalue for="30" value="0.0"/>
+          <attvalue for="31" value="0.0"/>
+          <attvalue for="32" value="0.0"/>
+          <attvalue for="33" value="0.0"/>
+          <attvalue for="34" value="0.0"/>
+          <attvalue for="35" value="0.0"/>
+          <attvalue for="36" value="0.0"/>
+          <attvalue for="37" value="508.68"/>
+          <attvalue for="38" value="593.48"/>
+          <attvalue for="39" value="590.09"/>
+        </attvalues>
+      </edge>
+      <edge id="94" source="LOC::Colima.Minatitlán" target="SUB::Asbesto y sus formas (En forma de polvo, fibras o productos desmenuzables con la presión de la mano)" weight="342.0">
+        <attvalues>
+          <attvalue for="21" value="0.0"/>
+          <attvalue for="22" value="0.0"/>
+          <attvalue for="23" value="0.0"/>
+          <attvalue for="24" value="0.0"/>
+          <attvalue for="25" value="0.0"/>
+          <attvalue for="26" value="0.0"/>
+          <attvalue for="27" value="0.0"/>
+          <attvalue for="28" value="0.0"/>
+          <attvalue for="29" value="0.0"/>
+          <attvalue for="30" value="0.0"/>
+          <attvalue for="31" value="0.0"/>
+          <attvalue for="32" value="0.0"/>
+          <attvalue for="33" value="0.0"/>
+          <attvalue for="34" value="0.0"/>
+          <attvalue for="35" value="0.0"/>
+          <attvalue for="36" value="0.0"/>
+          <attvalue for="37" value="0.0"/>
+          <attvalue for="38" value="0.0"/>
+          <attvalue for="39" value="342.0"/>
+        </attvalues>
+      </edge>
+      <edge id="95" source="LOC::Colima.Minatitlán" target="SUB::Acetaldehido" weight="1099.9580078125">
+        <attvalues>
+          <attvalue for="21" value="0.0"/>
+          <attvalue for="22" value="0.0"/>
+          <attvalue for="23" value="0.0"/>
+          <attvalue for="24" value="0.0"/>
+          <attvalue for="25" value="0.0"/>
+          <attvalue for="26" value="0.0"/>
+          <attvalue for="27" value="0.0"/>
+          <attvalue for="28" value="0.0"/>
+          <attvalue for="29" value="0.0"/>
+          <attvalue for="30" value="0.0"/>
+          <attvalue for="31" value="0.0"/>
+          <attvalue for="32" value="0.0"/>
+          <attvalue for="33" value="0.0"/>
+          <attvalue for="34" value="0.0"/>
+          <attvalue for="35" value="0.0"/>
+          <attvalue for="36" value="0.0"/>
+          <attvalue for="37" value="330.64"/>
+          <attvalue for="38" value="385.76"/>
+          <attvalue for="39" value="383.558"/>
+        </attvalues>
+      </edge>
+      <edge id="96" source="LOC::Colima.Minatitlán" target="SUB::Arsénico (Compuestos solubles)" weight="4.449699878692627">
+        <attvalues>
+          <attvalue for="21" value="0.0"/>
+          <attvalue for="22" value="0.0"/>
+          <attvalue for="23" value="0.0"/>
+          <attvalue for="24" value="0.0"/>
+          <attvalue for="25" value="0.0"/>
+          <attvalue for="26" value="0.0"/>
+          <attvalue for="27" value="0.0"/>
+          <attvalue for="28" value="0.0"/>
+          <attvalue for="29" value="0.0"/>
+          <attvalue for="30" value="0.0"/>
+          <attvalue for="31" value="0.0"/>
+          <attvalue for="32" value="0.0"/>
+          <attvalue for="33" value="0.0"/>
+          <attvalue for="34" value="0.0"/>
+          <attvalue for="35" value="0.0"/>
+          <attvalue for="36" value="0.0"/>
+          <attvalue for="37" value="0.0"/>
+          <attvalue for="38" value="2.1267"/>
+          <attvalue for="39" value="2.323"/>
+        </attvalues>
+      </edge>
+      <edge id="97" source="LOC::Colima.Minatitlán" target="SUB::Plomo (polvos respirables, humos o vapores)" weight="10127.6904296875">
+        <attvalues>
+          <attvalue for="21" value="0.0"/>
+          <attvalue for="22" value="0.0"/>
+          <attvalue for="23" value="0.0"/>
+          <attvalue for="24" value="0.0"/>
+          <attvalue for="25" value="0.0"/>
+          <attvalue for="26" value="0.0"/>
+          <attvalue for="27" value="0.0"/>
+          <attvalue for="28" value="0.0"/>
+          <attvalue for="29" value="0.0"/>
+          <attvalue for="30" value="0.0"/>
+          <attvalue for="31" value="0.0"/>
+          <attvalue for="32" value="0.0"/>
+          <attvalue for="33" value="0.0"/>
+          <attvalue for="34" value="0.0"/>
+          <attvalue for="35" value="0.0"/>
+          <attvalue for="36" value="0.0"/>
+          <attvalue for="37" value="3451.92"/>
+          <attvalue for="38" value="4207.36"/>
+          <attvalue for="39" value="2468.41"/>
+        </attvalues>
+      </edge>
+      <edge id="98" source="LOC::Colima.Tecomán" target="SUB::Furanos" weight="2.957748802145943E-5">
+        <attvalues>
+          <attvalue for="21" value="0.0"/>
+          <attvalue for="22" value="0.0"/>
+          <attvalue for="23" value="0.0"/>
+          <attvalue for="24" value="0.0"/>
+          <attvalue for="25" value="0.0"/>
+          <attvalue for="26" value="0.0"/>
+          <attvalue for="27" value="0.0"/>
+          <attvalue for="28" value="0.0"/>
+          <attvalue for="29" value="0.0"/>
+          <attvalue for="30" value="0.0"/>
+          <attvalue for="31" value="1.29E-6"/>
+          <attvalue for="32" value="1.513E-6"/>
+          <attvalue for="33" value="5.447E-6"/>
+          <attvalue for="34" value="2.7E-6"/>
+          <attvalue for="35" value="4.1E-6"/>
+          <attvalue for="36" value="2.241E-7"/>
+          <attvalue for="37" value="9.71688E-7"/>
+          <attvalue for="38" value="9.137E-7"/>
+          <attvalue for="39" value="1.2418E-5"/>
+        </attvalues>
+      </edge>
+      <edge id="99" source="LOC::Colima.Tecomán" target="SUB::Níquel (polvos respirables, humos o vapores)" weight="20.360000610351562">
+        <attvalues>
+          <attvalue for="21" value="0.0"/>
+          <attvalue for="22" value="0.0"/>
+          <attvalue for="23" value="0.0"/>
+          <attvalue for="24" value="0.0"/>
+          <attvalue for="25" value="0.0"/>
+          <attvalue for="26" value="0.0"/>
+          <attvalue for="27" value="0.0"/>
+          <attvalue for="28" value="0.0"/>
+          <attvalue for="29" value="0.0"/>
+          <attvalue for="30" value="0.0"/>
+          <attvalue for="31" value="0.0"/>
+          <attvalue for="32" value="0.0"/>
+          <attvalue for="33" value="0.0"/>
+          <attvalue for="34" value="0.0"/>
+          <attvalue for="35" value="0.0"/>
+          <attvalue for="36" value="0.0"/>
+          <attvalue for="37" value="3.3488"/>
+          <attvalue for="38" value="6.4892"/>
+          <attvalue for="39" value="10.522"/>
+        </attvalues>
+      </edge>
+      <edge id="100" source="LOC::Colima.Tecomán" target="SUB::Cadmio (polvos, respirables, vapores o humos)" weight="273.6204833984375">
+        <attvalues>
+          <attvalue for="21" value="5.0"/>
+          <attvalue for="22" value="4.114758"/>
+          <attvalue for="23" value="4.933371"/>
+          <attvalue for="24" value="0.0"/>
+          <attvalue for="25" value="4.02176645"/>
+          <attvalue for="26" value="36.26884"/>
+          <attvalue for="27" value="84.5"/>
+          <attvalue for="28" value="84.1"/>
+          <attvalue for="29" value="1.827863"/>
+          <attvalue for="30" value="31.28088625204"/>
+          <attvalue for="31" value="0.0"/>
+          <attvalue for="32" value="0.0"/>
+          <attvalue for="33" value="2.9"/>
+          <attvalue for="34" value="1.6"/>
+          <attvalue for="35" value="0.0"/>
+          <attvalue for="36" value="0.0"/>
+          <attvalue for="37" value="4.37"/>
+          <attvalue for="38" value="3.133"/>
+          <attvalue for="39" value="5.57"/>
+        </attvalues>
+      </edge>
+      <edge id="101" source="LOC::Colima.Tecomán" target="SUB::Dioxinas" weight="4.6616904000984505E-5">
+        <attvalues>
+          <attvalue for="21" value="3.06056E-8"/>
+          <attvalue for="22" value="4.89E-8"/>
+          <attvalue for="23" value="5.49E-8"/>
+          <attvalue for="24" value="0.0"/>
+          <attvalue for="25" value="4.9E-8"/>
+          <attvalue for="26" value="4.03E-8"/>
+          <attvalue for="27" value="3.7E-8"/>
+          <attvalue for="28" value="3.7E-8"/>
+          <attvalue for="29" value="8.8777E-6"/>
+          <attvalue for="30" value="3.918E-6"/>
+          <attvalue for="31" value="1.5E-6"/>
+          <attvalue for="32" value="5.3E-8"/>
+          <attvalue for="33" value="8.009E-6"/>
+          <attvalue for="34" value="8.1E-6"/>
+          <attvalue for="35" value="1.07E-5"/>
+          <attvalue for="36" value="3.8097E-6"/>
+          <attvalue for="37" value="2.429E-7"/>
+          <attvalue for="38" value="3.9E-9"/>
+          <attvalue for="39" value="1.105E-6"/>
+        </attvalues>
+      </edge>
+      <edge id="102" source="LOC::Colima.Tecomán" target="SUB::Níquel (compuestos)" weight="649.9259643554688">
+        <attvalues>
+          <attvalue for="21" value="1.0"/>
+          <attvalue for="22" value="0.9998969999999999"/>
+          <attvalue for="23" value="0.794103"/>
+          <attvalue for="24" value="136.84"/>
+          <attvalue for="25" value="0.0"/>
+          <attvalue for="26" value="37.07738986"/>
+          <attvalue for="27" value="0.2833852"/>
+          <attvalue for="28" value="212.8769737737"/>
+          <attvalue for="29" value="1.2628100000000002"/>
+          <attvalue for="30" value="258.7913851025"/>
+          <attvalue for="31" value="0.0"/>
+          <attvalue for="32" value="0.0"/>
+          <attvalue for="33" value="0.0"/>
+          <attvalue for="34" value="0.0"/>
+          <attvalue for="35" value="0.0"/>
+          <attvalue for="36" value="0.0"/>
+          <attvalue for="37" value="0.0"/>
+          <attvalue for="38" value="0.0"/>
+          <attvalue for="39" value="0.0"/>
+        </attvalues>
+      </edge>
+      <edge id="103" source="LOC::Colima.Tecomán" target="SUB::Mercurio (compuestos)" weight="87.58587646484375">
+        <attvalues>
+          <attvalue for="21" value="0.155064"/>
+          <attvalue for="22" value="0.073927"/>
+          <attvalue for="23" value="0.038565"/>
+          <attvalue for="24" value="4.21E-4"/>
+          <attvalue for="25" value="0.0"/>
+          <attvalue for="26" value="0.039403289499999994"/>
+          <attvalue for="27" value="0.00233317"/>
+          <attvalue for="28" value="85.5013398503"/>
+          <attvalue for="29" value="0.0087115"/>
+          <attvalue for="30" value="1.7661094449574999"/>
+          <attvalue for="31" value="0.0"/>
+          <attvalue for="32" value="0.0"/>
+          <attvalue for="33" value="0.0"/>
+          <attvalue for="34" value="0.0"/>
+          <attvalue for="35" value="0.0"/>
+          <attvalue for="36" value="0.0"/>
+          <attvalue for="37" value="0.0"/>
+          <attvalue for="38" value="0.0"/>
+          <attvalue for="39" value="0.0"/>
+        </attvalues>
+      </edge>
+      <edge id="104" source="LOC::Colima.Tecomán" target="SUB::Plomo (compuestos)" weight="12043.857421875">
+        <attvalues>
+          <attvalue for="21" value="259.0"/>
+          <attvalue for="22" value="315.98669"/>
+          <attvalue for="23" value="354.319813"/>
+          <attvalue for="24" value="52.56"/>
+          <attvalue for="25" value="0.0"/>
+          <attvalue for="26" value="261.58915559999997"/>
+          <attvalue for="27" value="130.95375"/>
+          <attvalue for="28" value="10262.98404487"/>
+          <attvalue for="29" value="34.673003"/>
+          <attvalue for="30" value="371.79091649592"/>
+          <attvalue for="31" value="0.0"/>
+          <attvalue for="32" value="0.0"/>
+          <attvalue for="33" value="0.0"/>
+          <attvalue for="34" value="0.0"/>
+          <attvalue for="35" value="0.0"/>
+          <attvalue for="36" value="0.0"/>
+          <attvalue for="37" value="0.0"/>
+          <attvalue for="38" value="0.0"/>
+          <attvalue for="39" value="0.0"/>
+        </attvalues>
+      </edge>
+      <edge id="105" source="LOC::Colima.Tecomán" target="SUB::Plomo (polvos respirables, humos o vapores)" weight="252.83900451660156">
+        <attvalues>
+          <attvalue for="21" value="0.0"/>
+          <attvalue for="22" value="0.0"/>
+          <attvalue for="23" value="0.0"/>
+          <attvalue for="24" value="0.0"/>
+          <attvalue for="25" value="0.0"/>
+          <attvalue for="26" value="0.0"/>
+          <attvalue for="27" value="0.0"/>
+          <attvalue for="28" value="0.0"/>
+          <attvalue for="29" value="0.0"/>
+          <attvalue for="30" value="0.0"/>
+          <attvalue for="31" value="21.05"/>
+          <attvalue for="32" value="11.8"/>
+          <attvalue for="33" value="10.98"/>
+          <attvalue for="34" value="29.1"/>
+          <attvalue for="35" value="13.48"/>
+          <attvalue for="36" value="15.609"/>
+          <attvalue for="37" value="106.52"/>
+          <attvalue for="38" value="22.1"/>
+          <attvalue for="39" value="22.2"/>
+        </attvalues>
+      </edge>
+      <edge id="106" source="LOC::Colima.Tecomán" target="SUB::Arsénico (polvos, respirables, vapores o humos)" weight="80.99958038330078">
+        <attvalues>
+          <attvalue for="21" value="8.2215786"/>
+          <attvalue for="22" value="10.128438"/>
+          <attvalue for="23" value="11.140013"/>
+          <attvalue for="24" value="0.673496097"/>
+          <attvalue for="25" value="6.4011596100000006"/>
+          <attvalue for="26" value="9.952855999999999"/>
+          <attvalue for="27" value="8.3"/>
+          <attvalue for="28" value="7.4"/>
+          <attvalue for="29" value="0.02617569"/>
+          <attvalue for="30" value="3.44286655204"/>
+          <attvalue for="31" value="0.0"/>
+          <attvalue for="32" value="0.0"/>
+          <attvalue for="33" value="0.0"/>
+          <attvalue for="34" value="2.297"/>
+          <attvalue for="35" value="1.526"/>
+          <attvalue for="36" value="2.31"/>
+          <attvalue for="37" value="5.1"/>
+          <attvalue for="38" value="1.91"/>
+          <attvalue for="39" value="2.17"/>
+        </attvalues>
+      </edge>
+      <edge id="107" source="LOC::Colima.Tecomán" target="SUB::Cromo (polvos respirables, humos o vapores)" weight="368.77099609375">
+        <attvalues>
+          <attvalue for="21" value="0.0"/>
+          <attvalue for="22" value="0.0"/>
+          <attvalue for="23" value="0.0"/>
+          <attvalue for="24" value="0.0"/>
+          <attvalue for="25" value="0.0"/>
+          <attvalue for="26" value="0.0"/>
+          <attvalue for="27" value="0.0"/>
+          <attvalue for="28" value="0.0"/>
+          <attvalue for="29" value="0.0"/>
+          <attvalue for="30" value="0.0"/>
+          <attvalue for="31" value="18.121"/>
+          <attvalue for="32" value="21.0"/>
+          <attvalue for="33" value="23.4"/>
+          <attvalue for="34" value="53.8"/>
+          <attvalue for="35" value="26.7"/>
+          <attvalue for="36" value="27.7"/>
+          <attvalue for="37" value="120.61"/>
+          <attvalue for="38" value="30.63"/>
+          <attvalue for="39" value="46.81"/>
+        </attvalues>
+      </edge>
+      <edge id="108" source="LOC::Colima.Tecomán" target="SUB::Cromo (compuestos)" weight="612.1129760742188">
+        <attvalues>
+          <attvalue for="21" value="49.0"/>
+          <attvalue for="22" value="59.901355"/>
+          <attvalue for="23" value="66.49701"/>
+          <attvalue for="24" value="29.04"/>
+          <attvalue for="25" value="0.0"/>
+          <attvalue for="26" value="50.172675999999996"/>
+          <attvalue for="27" value="13.7282578"/>
+          <attvalue for="28" value="44.161623603"/>
+          <attvalue for="29" value="84.9133175"/>
+          <attvalue for="30" value="214.6987248575"/>
+          <attvalue for="31" value="0.0"/>
+          <attvalue for="32" value="0.0"/>
+          <attvalue for="33" value="0.0"/>
+          <attvalue for="34" value="0.0"/>
+          <attvalue for="35" value="0.0"/>
+          <attvalue for="36" value="0.0"/>
+          <attvalue for="37" value="0.0"/>
+          <attvalue for="38" value="0.0"/>
+          <attvalue for="39" value="0.0"/>
+        </attvalues>
+      </edge>
+      <edge id="109" source="LOC::Colima.Tecomán" target="SUB::Oxido nitroso" weight="2.00079264E8">
+        <attvalues>
+          <attvalue for="21" value="0.0"/>
+          <attvalue for="22" value="0.0"/>
+          <attvalue for="23" value="0.0"/>
+          <attvalue for="24" value="0.0"/>
+          <attvalue for="25" value="14400.0"/>
+          <attvalue for="26" value="2781323.03"/>
+          <attvalue for="27" value="9.864177E7"/>
+          <attvalue for="28" value="9.864177E7"/>
+          <attvalue for="29" value="0.0"/>
+          <attvalue for="30" value="0.0"/>
+          <attvalue for="31" value="0.0"/>
+          <attvalue for="32" value="0.0"/>
+          <attvalue for="33" value="0.0"/>
+          <attvalue for="34" value="0.0"/>
+          <attvalue for="35" value="0.0"/>
+          <attvalue for="36" value="0.0"/>
+          <attvalue for="37" value="0.0"/>
+          <attvalue for="38" value="0.0"/>
+          <attvalue for="39" value="0.0"/>
+        </attvalues>
+      </edge>
+      <edge id="110" source="LOC::Colima.Tecomán" target="SUB::Bióxido de carbono" weight="8.844264448E9">
+        <attvalues>
+          <attvalue for="21" value="1.03983936E9"/>
+          <attvalue for="22" value="1417963.0"/>
+          <attvalue for="23" value="1.027113362E9"/>
+          <attvalue for="24" value="3146312.0"/>
+          <attvalue for="25" value="1.303148195E9"/>
+          <attvalue for="26" value="1.13253856E9"/>
+          <attvalue for="27" value="1.045162549E9"/>
+          <attvalue for="28" value="1.048810479E9"/>
+          <attvalue for="29" value="1.064311987E9"/>
+          <attvalue for="30" value="1.04744901E9"/>
+          <attvalue for="31" value="7884460.0"/>
+          <attvalue for="32" value="8371610.0"/>
+          <attvalue for="33" value="1.434789E7"/>
+          <attvalue for="34" value="1.677835E7"/>
+          <attvalue for="35" value="1.684781568E7"/>
+          <attvalue for="36" value="1.628938E7"/>
+          <attvalue for="37" value="1.642087E7"/>
+          <attvalue for="38" value="1.920943E7"/>
+          <attvalue for="39" value="1.51766362E7"/>
+        </attvalues>
+      </edge>
+      <edge id="111" source="LOC::Colima.Tecomán" target="SUB::Arsénico (Compuestos solubles)" weight="54.3583984375">
+        <attvalues>
+          <attvalue for="21" value="0.0"/>
+          <attvalue for="22" value="0.0"/>
+          <attvalue for="23" value="0.0"/>
+          <attvalue for="24" value="0.0"/>
+          <attvalue for="25" value="0.0"/>
+          <attvalue for="26" value="0.0"/>
+          <attvalue for="27" value="0.0"/>
+          <attvalue for="28" value="0.0"/>
+          <attvalue for="29" value="0.0"/>
+          <attvalue for="30" value="0.0"/>
+          <attvalue for="31" value="4.9593"/>
+          <attvalue for="32" value="2.5037"/>
+          <attvalue for="33" value="4.1896"/>
+          <attvalue for="34" value="7.2028"/>
+          <attvalue for="35" value="7.2028"/>
+          <attvalue for="36" value="3.9314"/>
+          <attvalue for="37" value="7.3638"/>
+          <attvalue for="38" value="7.012"/>
+          <attvalue for="39" value="9.993"/>
+        </attvalues>
+      </edge>
+      <edge id="112" source="LOC::Colima.Tecomán" target="SUB::Cadmio (compuestos)" weight="32.82898712158203">
+        <attvalues>
+          <attvalue for="21" value="0.0"/>
+          <attvalue for="22" value="0.0"/>
+          <attvalue for="23" value="0.0"/>
+          <attvalue for="24" value="3.0"/>
+          <attvalue for="25" value="0.0"/>
+          <attvalue for="26" value="0.0"/>
+          <attvalue for="27" value="0.076875"/>
+          <attvalue for="28" value="0.06702243"/>
+          <attvalue for="29" value="0.087335"/>
+          <attvalue for="30" value="29.597755252040002"/>
+          <attvalue for="31" value="0.0"/>
+          <attvalue for="32" value="0.0"/>
+          <attvalue for="33" value="0.0"/>
+          <attvalue for="34" value="0.0"/>
+          <attvalue for="35" value="0.0"/>
+          <attvalue for="36" value="0.0"/>
+          <attvalue for="37" value="0.0"/>
+          <attvalue for="38" value="0.0"/>
+          <attvalue for="39" value="0.0"/>
+        </attvalues>
+      </edge>
+      <edge id="113" source="LOC::Colima.Tecomán" target="SUB::Bióxido de nitrógeno" weight="4137576.0">
+        <attvalues>
+          <attvalue for="21" value="0.0"/>
+          <attvalue for="22" value="0.0"/>
+          <attvalue for="23" value="0.0"/>
+          <attvalue for="24" value="0.0"/>
+          <attvalue for="25" value="0.0"/>
+          <attvalue for="26" value="0.0"/>
+          <attvalue for="27" value="2482000.0"/>
+          <attvalue for="28" value="1623000.0"/>
+          <attvalue for="29" value="20230.0"/>
+          <attvalue for="30" value="12346.0"/>
+          <attvalue for="31" value="0.0"/>
+          <attvalue for="32" value="0.0"/>
+          <attvalue for="33" value="0.0"/>
+          <attvalue for="34" value="0.0"/>
+          <attvalue for="35" value="0.0"/>
+          <attvalue for="36" value="0.0"/>
+          <attvalue for="37" value="0.0"/>
+          <attvalue for="38" value="0.0"/>
+          <attvalue for="39" value="0.0"/>
+        </attvalues>
+      </edge>
+      <edge id="114" source="LOC::Colima.Tecomán" target="SUB::Plomo (Compuestos solubles)" weight="865.1646728515625">
+        <attvalues>
+          <attvalue for="21" value="0.0"/>
+          <attvalue for="22" value="0.0"/>
+          <attvalue for="23" value="0.0"/>
+          <attvalue for="24" value="0.0"/>
+          <attvalue for="25" value="7.585059159999999"/>
+          <attvalue for="26" value="0.0"/>
+          <attvalue for="27" value="0.0"/>
+          <attvalue for="28" value="0.0"/>
+          <attvalue for="29" value="0.0"/>
+          <attvalue for="30" value="0.0"/>
+          <attvalue for="31" value="36.2264"/>
+          <attvalue for="32" value="0.0"/>
+          <attvalue for="33" value="149.63569999999999"/>
+          <attvalue for="34" value="149.4294"/>
+          <attvalue for="35" value="150.7361"/>
+          <attvalue for="36" value="140.3391"/>
+          <attvalue for="37" value="192.3129"/>
+          <attvalue for="38" value="0.0"/>
+          <attvalue for="39" value="38.9"/>
+        </attvalues>
+      </edge>
+      <edge id="115" source="LOC::Colima.Tecomán" target="SUB::Benceno" weight="59455.2109375">
+        <attvalues>
+          <attvalue for="21" value="6152.0"/>
+          <attvalue for="22" value="7604.0"/>
+          <attvalue for="23" value="8528.7"/>
+          <attvalue for="24" value="0.0"/>
+          <attvalue for="25" value="5216.5"/>
+          <attvalue for="26" value="6264.8"/>
+          <attvalue for="27" value="2730.5"/>
+          <attvalue for="28" value="5685.2"/>
+          <attvalue for="29" value="5538.0"/>
+          <attvalue for="30" value="2425.0"/>
+          <attvalue for="31" value="0.0"/>
+          <attvalue for="32" value="2031.0"/>
+          <attvalue for="33" value="1007.0"/>
+          <attvalue for="34" value="1411.3"/>
+          <attvalue for="35" value="0.0"/>
+          <attvalue for="36" value="947.1"/>
+          <attvalue for="37" value="1608.14"/>
+          <attvalue for="38" value="690.52"/>
+          <attvalue for="39" value="1615.45"/>
+        </attvalues>
+      </edge>
+      <edge id="116" source="LOC::Colima.Tecomán" target="SUB::Arsénico (compuestos)" weight="57.1286735534668">
+        <attvalues>
+          <attvalue for="21" value="0.0"/>
+          <attvalue for="22" value="0.0"/>
+          <attvalue for="23" value="0.0"/>
+          <attvalue for="24" value="0.0"/>
+          <attvalue for="25" value="0.0"/>
+          <attvalue for="26" value="0.0"/>
+          <attvalue for="27" value="0.09900450000000001"/>
+          <attvalue for="28" value="0.0033390200000000003"/>
+          <attvalue for="29" value="0.0502788"/>
+          <attvalue for="30" value="56.97605145204"/>
+          <attvalue for="31" value="0.0"/>
+          <attvalue for="32" value="0.0"/>
+          <attvalue for="33" value="0.0"/>
+          <attvalue for="34" value="0.0"/>
+          <attvalue for="35" value="0.0"/>
+          <attvalue for="36" value="0.0"/>
+          <attvalue for="37" value="0.0"/>
+          <attvalue for="38" value="0.0"/>
+          <attvalue for="39" value="0.0"/>
+        </attvalues>
+      </edge>
+      <edge id="117" source="LOC::Colima.Tecomán" target="SUB::Níquel (Compuestos solubles)" weight="1139.164306640625">
+        <attvalues>
+          <attvalue for="21" value="0.0"/>
+          <attvalue for="22" value="0.0"/>
+          <attvalue for="23" value="0.0"/>
+          <attvalue for="24" value="0.0"/>
+          <attvalue for="25" value="0.11018196"/>
+          <attvalue for="26" value="0.0"/>
+          <attvalue for="27" value="0.0"/>
+          <attvalue for="28" value="0.0"/>
+          <attvalue for="29" value="0.0"/>
+          <attvalue for="30" value="0.0"/>
+          <attvalue for="31" value="198.11"/>
+          <attvalue for="32" value="131.3364"/>
+          <attvalue for="33" value="212.7222"/>
+          <attvalue for="34" value="164.5453"/>
+          <attvalue for="35" value="166.363"/>
+          <attvalue for="36" value="145.6643"/>
+          <attvalue for="37" value="120.3129"/>
+          <attvalue for="38" value="0.0"/>
+          <attvalue for="39" value="0.0"/>
+        </attvalues>
+      </edge>
+      <edge id="118" source="LOC::Colima.Tecomán" target="SUB::Cadmio (Compuestos solubles)" weight="176.27760314941406">
+        <attvalues>
+          <attvalue for="21" value="0.0"/>
+          <attvalue for="22" value="0.0"/>
+          <attvalue for="23" value="0.0"/>
+          <attvalue for="24" value="0.0"/>
+          <attvalue for="25" value="0.0"/>
+          <attvalue for="26" value="0.0"/>
+          <attvalue for="27" value="0.0"/>
+          <attvalue for="28" value="0.0"/>
+          <attvalue for="29" value="0.0"/>
+          <attvalue for="30" value="0.0"/>
+          <attvalue for="31" value="19.009"/>
+          <attvalue for="32" value="14.6318"/>
+          <attvalue for="33" value="30.973399999999998"/>
+          <attvalue for="34" value="30.1168"/>
+          <attvalue for="35" value="30.1168"/>
+          <attvalue for="36" value="28.2081"/>
+          <attvalue for="37" value="23.221700000000002"/>
+          <attvalue for="38" value="0.0"/>
+          <attvalue for="39" value="0.0"/>
+        </attvalues>
+      </edge>
+      <edge id="119" source="LOC::Colima.Tecomán" target="SUB::Cianuro inorgánico/orgánico" weight="436.6528625488281">
+        <attvalues>
+          <attvalue for="21" value="0.4302314"/>
+          <attvalue for="22" value="0.380433"/>
+          <attvalue for="23" value="0.139424"/>
+          <attvalue for="24" value="6.9135051"/>
+          <attvalue for="25" value="0.02713475"/>
+          <attvalue for="26" value="0.27875744"/>
+          <attvalue for="27" value="0.38307545"/>
+          <attvalue for="28" value="0.0677916292"/>
+          <attvalue for="29" value="0.16852730000000002"/>
+          <attvalue for="30" value="36.042388415085"/>
+          <attvalue for="31" value="0.0"/>
+          <attvalue for="32" value="0.0"/>
+          <attvalue for="33" value="0.0"/>
+          <attvalue for="34" value="135.352"/>
+          <attvalue for="35" value="135.352"/>
+          <attvalue for="36" value="121.11760000000001"/>
+          <attvalue for="37" value="0.0"/>
+          <attvalue for="38" value="0.0"/>
+          <attvalue for="39" value="0.0"/>
+        </attvalues>
+      </edge>
+      <edge id="120" source="LOC::Colima.Tecomán" target="SUB::Mercurio (Compuestos solubles)" weight="74.98443603515625">
+        <attvalues>
+          <attvalue for="21" value="0.0"/>
+          <attvalue for="22" value="0.0"/>
+          <attvalue for="23" value="0.0"/>
+          <attvalue for="24" value="0.0"/>
+          <attvalue for="25" value="0.00218615"/>
+          <attvalue for="26" value="0.0"/>
+          <attvalue for="27" value="0.0"/>
+          <attvalue for="28" value="0.0"/>
+          <attvalue for="29" value="0.0"/>
+          <attvalue for="30" value="0.0"/>
+          <attvalue for="31" value="0.0"/>
+          <attvalue for="32" value="0.0"/>
+          <attvalue for="33" value="9.20505"/>
+          <attvalue for="34" value="2.8821"/>
+          <attvalue for="35" value="57.68209999999999"/>
+          <attvalue for="36" value="2.8068000000000004"/>
+          <attvalue for="37" value="2.4062"/>
+          <attvalue for="38" value="0.0"/>
+          <attvalue for="39" value="0.0"/>
+        </attvalues>
+      </edge>
+      <edge id="121" source="LOC::Colima.Tecomán" target="SUB::Metano" weight="0.05999999865889549">
+        <attvalues>
+          <attvalue for="21" value="0.0"/>
+          <attvalue for="22" value="0.0"/>
+          <attvalue for="23" value="0.0"/>
+          <attvalue for="24" value="0.0"/>
+          <attvalue for="25" value="0.0"/>
+          <attvalue for="26" value="0.0"/>
+          <attvalue for="27" value="0.0"/>
+          <attvalue for="28" value="0.0"/>
+          <attvalue for="29" value="0.0"/>
+          <attvalue for="30" value="0.06"/>
+          <attvalue for="31" value="0.0"/>
+          <attvalue for="32" value="0.0"/>
+          <attvalue for="33" value="0.0"/>
+          <attvalue for="34" value="0.0"/>
+          <attvalue for="35" value="0.0"/>
+          <attvalue for="36" value="0.0"/>
+          <attvalue for="37" value="0.0"/>
+          <attvalue for="38" value="0.0"/>
+          <attvalue for="39" value="0.0"/>
+        </attvalues>
+      </edge>
+      <edge id="122" source="LOC::Colima.Tecomán" target="SUB::Mercurio (polvos, respirables, vapores o humos)" weight="580.2288208007812">
+        <attvalues>
+          <attvalue for="21" value="78.0"/>
+          <attvalue for="22" value="97.0"/>
+          <attvalue for="23" value="108.3"/>
+          <attvalue for="24" value="0.0"/>
+          <attvalue for="25" value="9.5"/>
+          <attvalue for="26" value="79.6"/>
+          <attvalue for="27" value="13.3"/>
+          <attvalue for="28" value="72.2"/>
+          <attvalue for="29" value="24.722856059999998"/>
+          <attvalue for="30" value="17.9889916649575"/>
+          <attvalue for="31" value="7.6"/>
+          <attvalue for="32" value="3.9"/>
+          <attvalue for="33" value="5.93"/>
+          <attvalue for="34" value="7.4"/>
+          <attvalue for="35" value="7.6"/>
+          <attvalue for="36" value="6.815"/>
+          <attvalue for="37" value="18.462"/>
+          <attvalue for="38" value="9.14"/>
+          <attvalue for="39" value="12.77"/>
+        </attvalues>
+      </edge>
+      <edge id="123" source="LOC::Colima.Tecomán" target="SUB::Cromo (Compuestos solubles)" weight="710.6345825195312">
+        <attvalues>
+          <attvalue for="21" value="0.0"/>
+          <attvalue for="22" value="0.0"/>
+          <attvalue for="23" value="0.0"/>
+          <attvalue for="24" value="0.0"/>
+          <attvalue for="25" value="4.9"/>
+          <attvalue for="26" value="0.0"/>
+          <attvalue for="27" value="0.0"/>
+          <attvalue for="28" value="0.0"/>
+          <attvalue for="29" value="0.0"/>
+          <attvalue for="30" value="0.0"/>
+          <attvalue for="31" value="2.4343"/>
+          <attvalue for="32" value="6.1285"/>
+          <attvalue for="33" value="146.4963"/>
+          <attvalue for="34" value="144.10289999999998"/>
+          <attvalue for="35" value="145.92059999999998"/>
+          <attvalue for="36" value="140.3391"/>
+          <attvalue for="37" value="120.3129"/>
+          <attvalue for="38" value="0.0"/>
+          <attvalue for="39" value="0.0"/>
+        </attvalues>
+      </edge>
+      <edge id="124" source="LOC::Colima.Villa de Álvarez" target="SUB::Plomo (compuestos)" weight="0.04702671989798546">
+        <attvalues>
+          <attvalue for="21" value="0.0"/>
+          <attvalue for="22" value="0.0"/>
+          <attvalue for="23" value="0.0"/>
+          <attvalue for="24" value="0.0"/>
+          <attvalue for="25" value="0.0"/>
+          <attvalue for="26" value="0.0"/>
+          <attvalue for="27" value="0.0"/>
+          <attvalue for="28" value="0.0"/>
+          <attvalue for="29" value="0.0"/>
+          <attvalue for="30" value="0.04702672"/>
+          <attvalue for="31" value="0.0"/>
+          <attvalue for="32" value="0.0"/>
+          <attvalue for="33" value="0.0"/>
+          <attvalue for="34" value="0.0"/>
+          <attvalue for="35" value="0.0"/>
+          <attvalue for="36" value="0.0"/>
+          <attvalue for="37" value="0.0"/>
+          <attvalue for="38" value="0.0"/>
+          <attvalue for="39" value="0.0"/>
+        </attvalues>
+      </edge>
+    </edges>
+  </graph>
+</gexf>

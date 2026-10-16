@@ -1,0 +1,415 @@
+<?xml version='1.0' encoding='utf-8'?>
+<gexf xmlns="http://www.gexf.net/1.2draft" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.gexf.net/1.2draft http://www.gexf.net/1.2draft/gexf.xsd" version="1.2">
+  <meta lastmodifieddate="2026-10-16">
+    <creator>NetworkX 3.7</creator>
+  </meta>
+  <graph defaultedgetype="undirected" mode="static" name="">
+    <attributes mode="static" class="node">
+      <attribute id="0" title="lat" type="double" />
+      <attribute id="1" title="lon" type="double" />
+      <attribute id="2" title="total_kg" type="double" />
+      <attribute id="3" title="community" type="long" />
+      <attribute id="4" title="color_hex" type="string" />
+    </attributes>
+    <nodes>
+      <node id="Nuevo León.Abasolo" label="Abasolo">
+        <attvalues>
+          <attvalue for="0" value="25.5643215" />
+          <attvalue for="1" value="-100.2359958" />
+          <attvalue for="2" value="9525828.9155" />
+          <attvalue for="3" value="0" />
+          <attvalue for="4" value="#2a78d6" />
+        </attvalues>
+      </node>
+      <node id="Nuevo León.Allende" label="Allende">
+        <attvalues>
+          <attvalue for="0" value="25.171284" />
+          <attvalue for="1" value="-100.0029966" />
+          <attvalue for="2" value="324.0" />
+          <attvalue for="3" value="2" />
+          <attvalue for="4" value="#1baf7a" />
+        </attvalues>
+      </node>
+      <node id="Nuevo León.Anáhuac" label="Anáhuac">
+        <attvalues>
+          <attvalue for="0" value="27.142633" />
+          <attvalue for="1" value="-100.075677" />
+          <attvalue for="2" value="1.6942279999999998" />
+          <attvalue for="3" value="2" />
+          <attvalue for="4" value="#1baf7a" />
+        </attvalues>
+      </node>
+      <node id="Nuevo León.Apodaca" label="Apodaca">
+        <attvalues>
+          <attvalue for="0" value="25.465266" />
+          <attvalue for="1" value="-100.112122" />
+          <attvalue for="2" value="5268961804.623693" />
+          <attvalue for="3" value="1" />
+          <attvalue for="4" value="#eb6834" />
+        </attvalues>
+      </node>
+      <node id="Nuevo León.Aramberri" label="Aramberri">
+        <attvalues>
+          <attvalue for="0" value="24.060211" />
+          <attvalue for="1" value="-99.490504" />
+          <attvalue for="2" value="14379211.326" />
+          <attvalue for="3" value="0" />
+          <attvalue for="4" value="#2a78d6" />
+        </attvalues>
+      </node>
+      <node id="Nuevo León.Cadereyta Jiménez" label="Cadereyta Jiménez">
+        <attvalues>
+          <attvalue for="0" value="25.352763" />
+          <attvalue for="1" value="-100.000574" />
+          <attvalue for="2" value="19333441625.29972" />
+          <attvalue for="3" value="1" />
+          <attvalue for="4" value="#eb6834" />
+        </attvalues>
+      </node>
+      <node id="Nuevo León.Ciénega de Flores" label="Ciénega de Flores">
+        <attvalues>
+          <attvalue for="0" value="25.570745" />
+          <attvalue for="1" value="-100.100519" />
+          <attvalue for="2" value="2408913716.8310018" />
+          <attvalue for="3" value="1" />
+          <attvalue for="4" value="#eb6834" />
+        </attvalues>
+      </node>
+      <node id="Nuevo León.Doctor Arroyo" label="Doctor Arroyo">
+        <attvalues>
+          <attvalue for="0" value="23.402889" />
+          <attvalue for="1" value="-100.105612" />
+          <attvalue for="2" value="192061.0" />
+          <attvalue for="3" value="0" />
+          <attvalue for="4" value="#2a78d6" />
+        </attvalues>
+      </node>
+      <node id="Nuevo León.Doctor González" label="Doctor González">
+        <attvalues>
+          <attvalue for="0" value="25.5131786" />
+          <attvalue for="1" value="-99.5630728" />
+          <attvalue for="2" value="328847787.2974967" />
+          <attvalue for="3" value="0" />
+          <attvalue for="4" value="#2a78d6" />
+        </attvalues>
+      </node>
+      <node id="Nuevo León.El Carmen" label="El Carmen">
+        <attvalues>
+          <attvalue for="0" value="25.555602" />
+          <attvalue for="1" value="-100.215084" />
+          <attvalue for="2" value="15341780661.50715" />
+          <attvalue for="3" value="1" />
+          <attvalue for="4" value="#eb6834" />
+        </attvalues>
+      </node>
+      <node id="Nuevo León.García" label="García">
+        <attvalues>
+          <attvalue for="0" value="25.480177" />
+          <attvalue for="1" value="-100.350769" />
+          <attvalue for="2" value="19016156963.953" />
+          <attvalue for="3" value="1" />
+          <attvalue for="4" value="#eb6834" />
+        </attvalues>
+      </node>
+      <node id="Nuevo León.General Bravo" label="General Bravo">
+        <attvalues>
+          <attvalue for="0" value="25.473587" />
+          <attvalue for="1" value="-99.105244" />
+          <attvalue for="2" value="0.250368432984" />
+          <attvalue for="3" value="2" />
+          <attvalue for="4" value="#1baf7a" />
+        </attvalues>
+      </node>
+      <node id="Nuevo León.General Escobedo" label="General Escobedo">
+        <attvalues>
+          <attvalue for="0" value="25.482875" />
+          <attvalue for="1" value="-100.192151" />
+          <attvalue for="2" value="1570031724.1897674" />
+          <attvalue for="3" value="1" />
+          <attvalue for="4" value="#eb6834" />
+        </attvalues>
+      </node>
+      <node id="Nuevo León.General Zuazua" label="General Zuazua">
+        <attvalues>
+          <attvalue for="0" value="25.534912" />
+          <attvalue for="1" value="-100.062969" />
+          <attvalue for="2" value="550.2538000000001" />
+          <attvalue for="3" value="3" />
+          <attvalue for="4" value="#eda100" />
+        </attvalues>
+      </node>
+      <node id="Nuevo León.Guadalupe" label="Guadalupe">
+        <attvalues>
+          <attvalue for="0" value="25.403837" />
+          <attvalue for="1" value="-100.153563" />
+          <attvalue for="2" value="2324958109.1486287" />
+          <attvalue for="3" value="1" />
+          <attvalue for="4" value="#eb6834" />
+        </attvalues>
+      </node>
+      <node id="Nuevo León.Hidalgo" label="Hidalgo">
+        <attvalues>
+          <attvalue for="0" value="25.583234" />
+          <attvalue for="1" value="-100.264882" />
+          <attvalue for="2" value="548779635.4450454" />
+          <attvalue for="3" value="0" />
+          <attvalue for="4" value="#2a78d6" />
+        </attvalues>
+      </node>
+      <node id="Nuevo León.Higueras" label="Higueras">
+        <attvalues>
+          <attvalue for="0" value="25.574304" />
+          <attvalue for="1" value="-100.005166" />
+          <attvalue for="2" value="2.71875" />
+          <attvalue for="3" value="2" />
+          <attvalue for="4" value="#1baf7a" />
+        </attvalues>
+      </node>
+      <node id="Nuevo León.Juárez" label="Juárez">
+        <attvalues>
+          <attvalue for="0" value="25.384641" />
+          <attvalue for="1" value="-100.052717" />
+          <attvalue for="2" value="1497291436.288491" />
+          <attvalue for="3" value="0" />
+          <attvalue for="4" value="#2a78d6" />
+        </attvalues>
+      </node>
+      <node id="Nuevo León.Lampazos de Naranjo" label="Lampazos de Naranjo">
+        <attvalues>
+          <attvalue for="0" value="27.0131124" />
+          <attvalue for="1" value="-100.3015565" />
+          <attvalue for="2" value="48077485.23506" />
+          <attvalue for="3" value="0" />
+          <attvalue for="4" value="#2a78d6" />
+        </attvalues>
+      </node>
+      <node id="Nuevo León.Linares" label="Linares">
+        <attvalues>
+          <attvalue for="0" value="24.513475" />
+          <attvalue for="1" value="-99.340433" />
+          <attvalue for="2" value="14104933.036596058" />
+          <attvalue for="3" value="0" />
+          <attvalue for="4" value="#2a78d6" />
+        </attvalues>
+      </node>
+      <node id="Nuevo León.Los Herreras" label="Los Herreras">
+        <attvalues>
+          <attvalue for="0" value="25.542018" />
+          <attvalue for="1" value="-99.241187" />
+          <attvalue for="2" value="1074050.0" />
+          <attvalue for="3" value="0" />
+          <attvalue for="4" value="#2a78d6" />
+        </attvalues>
+      </node>
+      <node id="Nuevo León.Los Ramones" label="Los Ramones">
+        <attvalues>
+          <attvalue for="0" value="25.414701" />
+          <attvalue for="1" value="-99.372651" />
+          <attvalue for="2" value="576863107.4949" />
+          <attvalue for="3" value="0" />
+          <attvalue for="4" value="#2a78d6" />
+        </attvalues>
+      </node>
+      <node id="Nuevo León.Mina" label="Mina">
+        <attvalues>
+          <attvalue for="0" value="26.000452" />
+          <attvalue for="1" value="-100.315464" />
+          <attvalue for="2" value="20534617.2872" />
+          <attvalue for="3" value="0" />
+          <attvalue for="4" value="#2a78d6" />
+        </attvalues>
+      </node>
+      <node id="Nuevo León.Montemorelos" label="Montemorelos">
+        <attvalues>
+          <attvalue for="0" value="25.112131" />
+          <attvalue for="1" value="-99.493705" />
+          <attvalue for="2" value="18323235.88720602" />
+          <attvalue for="3" value="0" />
+          <attvalue for="4" value="#2a78d6" />
+        </attvalues>
+      </node>
+      <node id="Nuevo León.Monterrey" label="Monterrey">
+        <attvalues>
+          <attvalue for="0" value="25.395291" />
+          <attvalue for="1" value="-100.183921" />
+          <attvalue for="2" value="32442241210.110268" />
+          <attvalue for="3" value="1" />
+          <attvalue for="4" value="#eb6834" />
+        </attvalues>
+      </node>
+      <node id="Nuevo León.Pesquería" label="Pesquería">
+        <attvalues>
+          <attvalue for="0" value="25.465973" />
+          <attvalue for="1" value="-100.031324" />
+          <attvalue for="2" value="73408009011.71571" />
+          <attvalue for="3" value="1" />
+          <attvalue for="4" value="#eb6834" />
+        </attvalues>
+      </node>
+      <node id="Nuevo León.Sabinas Hidalgo" label="Sabinas Hidalgo">
+        <attvalues>
+          <attvalue for="0" value="26.295413" />
+          <attvalue for="1" value="-100.105213" />
+          <attvalue for="2" value="3.0646008334" />
+          <attvalue for="3" value="2" />
+          <attvalue for="4" value="#1baf7a" />
+        </attvalues>
+      </node>
+      <node id="Nuevo León.Salinas Victoria" label="Salinas Victoria">
+        <attvalues>
+          <attvalue for="0" value="25.573444" />
+          <attvalue for="1" value="-100.172942" />
+          <attvalue for="2" value="689842547.3979048" />
+          <attvalue for="3" value="1" />
+          <attvalue for="4" value="#eb6834" />
+        </attvalues>
+      </node>
+      <node id="Nuevo León.San Nicolás de los Garza" label="San Nicolás de los Garza">
+        <attvalues>
+          <attvalue for="0" value="25.451891" />
+          <attvalue for="1" value="-100.172251" />
+          <attvalue for="2" value="22642047050.81746" />
+          <attvalue for="3" value="1" />
+          <attvalue for="4" value="#eb6834" />
+        </attvalues>
+      </node>
+      <node id="Nuevo León.San Pedro Garza García" label="San Pedro Garza García">
+        <attvalues>
+          <attvalue for="0" value="25.395461" />
+          <attvalue for="1" value="-100.240888" />
+          <attvalue for="2" value="873042150.4856293" />
+          <attvalue for="3" value="0" />
+          <attvalue for="4" value="#2a78d6" />
+        </attvalues>
+      </node>
+      <node id="Nuevo León.Santa Catarina" label="Santa Catarina">
+        <attvalues>
+          <attvalue for="0" value="25.402771" />
+          <attvalue for="1" value="-100.274229" />
+          <attvalue for="2" value="12960199465.294878" />
+          <attvalue for="3" value="1" />
+          <attvalue for="4" value="#eb6834" />
+        </attvalues>
+      </node>
+    </nodes>
+    <edges>
+      <edge source="Nuevo León.Abasolo" target="Nuevo León.Aramberri" id="0" weight="0.9518367039741984" />
+      <edge source="Nuevo León.Abasolo" target="Nuevo León.Doctor Arroyo" id="1" weight="0.9818032298186704" />
+      <edge source="Nuevo León.Abasolo" target="Nuevo León.Doctor González" id="2" weight="0.7205581493602772" />
+      <edge source="Nuevo León.Abasolo" target="Nuevo León.Hidalgo" id="3" weight="0.884116093559781" />
+      <edge source="Nuevo León.Abasolo" target="Nuevo León.Juárez" id="4" weight="0.7499228211857506" />
+      <edge source="Nuevo León.Abasolo" target="Nuevo León.Lampazos de Naranjo" id="5" weight="0.9818032298186703" />
+      <edge source="Nuevo León.Abasolo" target="Nuevo León.Los Herreras" id="6" weight="0.9818032298186704" />
+      <edge source="Nuevo León.Abasolo" target="Nuevo León.Los Ramones" id="7" weight="0.9818032298186704" />
+      <edge source="Nuevo León.Abasolo" target="Nuevo León.Mina" id="8" weight="0.8004414002076788" />
+      <edge source="Nuevo León.Abasolo" target="Nuevo León.Montemorelos" id="9" weight="0.7440086112224938" />
+      <edge source="Nuevo León.Allende" target="Nuevo León.General Bravo" id="10" weight="0.837433755004657" />
+      <edge source="Nuevo León.Anáhuac" target="Nuevo León.Higueras" id="11" weight="0.9773018322530379" />
+      <edge source="Nuevo León.Apodaca" target="Nuevo León.Cadereyta Jiménez" id="12" weight="0.7430719637279" />
+      <edge source="Nuevo León.Apodaca" target="Nuevo León.Ciénega de Flores" id="13" weight="0.7814739933821213" />
+      <edge source="Nuevo León.Apodaca" target="Nuevo León.El Carmen" id="14" weight="0.7623379933730788" />
+      <edge source="Nuevo León.Apodaca" target="Nuevo León.García" id="15" weight="0.7771550978366911" />
+      <edge source="Nuevo León.Apodaca" target="Nuevo León.General Escobedo" id="16" weight="0.7238904618753851" />
+      <edge source="Nuevo León.Apodaca" target="Nuevo León.Guadalupe" id="17" weight="0.8199432638607264" />
+      <edge source="Nuevo León.Apodaca" target="Nuevo León.Monterrey" id="18" weight="0.7790802453337898" />
+      <edge source="Nuevo León.Apodaca" target="Nuevo León.Pesquería" id="19" weight="0.7801325917980858" />
+      <edge source="Nuevo León.Apodaca" target="Nuevo León.Salinas Victoria" id="20" weight="0.7222496498963494" />
+      <edge source="Nuevo León.Apodaca" target="Nuevo León.San Nicolás de los Garza" id="21" weight="0.872577707967924" />
+      <edge source="Nuevo León.Apodaca" target="Nuevo León.Santa Catarina" id="22" weight="0.8041069343119275" />
+      <edge source="Nuevo León.Aramberri" target="Nuevo León.Doctor Arroyo" id="23" weight="0.9694780736767319" />
+      <edge source="Nuevo León.Aramberri" target="Nuevo León.Doctor González" id="24" weight="0.7702360051809376" />
+      <edge source="Nuevo León.Aramberri" target="Nuevo León.Hidalgo" id="25" weight="0.915498996091817" />
+      <edge source="Nuevo León.Aramberri" target="Nuevo León.Juárez" id="26" weight="0.7806938238976862" />
+      <edge source="Nuevo León.Aramberri" target="Nuevo León.Lampazos de Naranjo" id="27" weight="0.9694780736767321" />
+      <edge source="Nuevo León.Aramberri" target="Nuevo León.Linares" id="28" weight="0.7539470485353724" />
+      <edge source="Nuevo León.Aramberri" target="Nuevo León.Los Herreras" id="29" weight="0.9694780736767321" />
+      <edge source="Nuevo León.Aramberri" target="Nuevo León.Los Ramones" id="30" weight="0.9694780736767321" />
+      <edge source="Nuevo León.Aramberri" target="Nuevo León.Mina" id="31" weight="0.7903929862888801" />
+      <edge source="Nuevo León.Aramberri" target="Nuevo León.Montemorelos" id="32" weight="0.7416854082797675" />
+      <edge source="Nuevo León.Cadereyta Jiménez" target="Nuevo León.Ciénega de Flores" id="33" weight="0.7477377374045648" />
+      <edge source="Nuevo León.Cadereyta Jiménez" target="Nuevo León.El Carmen" id="34" weight="0.7020904437595649" />
+      <edge source="Nuevo León.Cadereyta Jiménez" target="Nuevo León.García" id="35" weight="0.7375195358356434" />
+      <edge source="Nuevo León.Cadereyta Jiménez" target="Nuevo León.General Escobedo" id="36" weight="0.8258468449358917" />
+      <edge source="Nuevo León.Cadereyta Jiménez" target="Nuevo León.Guadalupe" id="37" weight="0.7492733877393665" />
+      <edge source="Nuevo León.Cadereyta Jiménez" target="Nuevo León.Juárez" id="38" weight="0.8185440935577559" />
+      <edge source="Nuevo León.Cadereyta Jiménez" target="Nuevo León.Monterrey" id="39" weight="0.7192719536950857" />
+      <edge source="Nuevo León.Cadereyta Jiménez" target="Nuevo León.Pesquería" id="40" weight="0.7495481393725661" />
+      <edge source="Nuevo León.Cadereyta Jiménez" target="Nuevo León.Salinas Victoria" id="41" weight="0.8107860915547926" />
+      <edge source="Nuevo León.Cadereyta Jiménez" target="Nuevo León.San Nicolás de los Garza" id="42" weight="0.7063748737808411" />
+      <edge source="Nuevo León.Ciénega de Flores" target="Nuevo León.El Carmen" id="43" weight="0.7351159461048384" />
+      <edge source="Nuevo León.Ciénega de Flores" target="Nuevo León.García" id="44" weight="0.7772042691878214" />
+      <edge source="Nuevo León.Ciénega de Flores" target="Nuevo León.General Escobedo" id="45" weight="0.8232303481840001" />
+      <edge source="Nuevo León.Ciénega de Flores" target="Nuevo León.Guadalupe" id="46" weight="0.8352593757014366" />
+      <edge source="Nuevo León.Ciénega de Flores" target="Nuevo León.Monterrey" id="47" weight="0.876935168943803" />
+      <edge source="Nuevo León.Ciénega de Flores" target="Nuevo León.Pesquería" id="48" weight="0.7434662416457065" />
+      <edge source="Nuevo León.Ciénega de Flores" target="Nuevo León.San Nicolás de los Garza" id="49" weight="0.8271444782569447" />
+      <edge source="Nuevo León.Ciénega de Flores" target="Nuevo León.Santa Catarina" id="50" weight="0.7644085045069571" />
+      <edge source="Nuevo León.Doctor Arroyo" target="Nuevo León.Doctor González" id="51" weight="0.7188829617927196" />
+      <edge source="Nuevo León.Doctor Arroyo" target="Nuevo León.Hidalgo" id="52" weight="0.8886880175007327" />
+      <edge source="Nuevo León.Doctor Arroyo" target="Nuevo León.Juárez" id="53" weight="0.7091474489598235" />
+      <edge source="Nuevo León.Doctor Arroyo" target="Nuevo León.Lampazos de Naranjo" id="54" weight="1.0" />
+      <edge source="Nuevo León.Doctor Arroyo" target="Nuevo León.Los Herreras" id="55" weight="1.0" />
+      <edge source="Nuevo León.Doctor Arroyo" target="Nuevo León.Los Ramones" id="56" weight="1.0" />
+      <edge source="Nuevo León.Doctor Arroyo" target="Nuevo León.Mina" id="57" weight="0.815276804859883" />
+      <edge source="Nuevo León.Doctor González" target="Nuevo León.General Escobedo" id="58" weight="0.7365048705154291" />
+      <edge source="Nuevo León.Doctor González" target="Nuevo León.Hidalgo" id="59" weight="0.7281879093997627" />
+      <edge source="Nuevo León.Doctor González" target="Nuevo León.Juárez" id="60" weight="0.7212355858469719" />
+      <edge source="Nuevo León.Doctor González" target="Nuevo León.Lampazos de Naranjo" id="61" weight="0.7188829617927197" />
+      <edge source="Nuevo León.Doctor González" target="Nuevo León.Los Herreras" id="62" weight="0.7188829617927197" />
+      <edge source="Nuevo León.Doctor González" target="Nuevo León.Los Ramones" id="63" weight="0.7188829617927197" />
+      <edge source="Nuevo León.Doctor González" target="Nuevo León.Mina" id="64" weight="0.8474950580982111" />
+      <edge source="Nuevo León.El Carmen" target="Nuevo León.García" id="65" weight="0.8387904090310274" />
+      <edge source="Nuevo León.El Carmen" target="Nuevo León.General Escobedo" id="66" weight="0.7813481261967944" />
+      <edge source="Nuevo León.El Carmen" target="Nuevo León.Guadalupe" id="67" weight="0.7657533741861576" />
+      <edge source="Nuevo León.El Carmen" target="Nuevo León.Linares" id="68" weight="0.7040359102592174" />
+      <edge source="Nuevo León.El Carmen" target="Nuevo León.Monterrey" id="69" weight="0.7655936599937825" />
+      <edge source="Nuevo León.El Carmen" target="Nuevo León.Pesquería" id="70" weight="0.780175632818163" />
+      <edge source="Nuevo León.El Carmen" target="Nuevo León.San Nicolás de los Garza" id="71" weight="0.7167160467689117" />
+      <edge source="Nuevo León.El Carmen" target="Nuevo León.Santa Catarina" id="72" weight="0.7070675916933943" />
+      <edge source="Nuevo León.García" target="Nuevo León.General Escobedo" id="73" weight="0.8306077272802284" />
+      <edge source="Nuevo León.García" target="Nuevo León.Guadalupe" id="74" weight="0.8065733932376047" />
+      <edge source="Nuevo León.García" target="Nuevo León.Monterrey" id="75" weight="0.8333153137757238" />
+      <edge source="Nuevo León.García" target="Nuevo León.Pesquería" id="76" weight="0.8520124432999296" />
+      <edge source="Nuevo León.García" target="Nuevo León.San Nicolás de los Garza" id="77" weight="0.7716823378821427" />
+      <edge source="Nuevo León.García" target="Nuevo León.Santa Catarina" id="78" weight="0.7033586655649262" />
+      <edge source="Nuevo León.General Bravo" target="Nuevo León.Sabinas Hidalgo" id="79" weight="0.8091899142917616" />
+      <edge source="Nuevo León.General Escobedo" target="Nuevo León.Guadalupe" id="80" weight="0.7263868360206898" />
+      <edge source="Nuevo León.General Escobedo" target="Nuevo León.Juárez" id="81" weight="0.7493144767334531" />
+      <edge source="Nuevo León.General Escobedo" target="Nuevo León.Monterrey" id="82" weight="0.8098452287461418" />
+      <edge source="Nuevo León.General Escobedo" target="Nuevo León.Pesquería" id="83" weight="0.7491694427661971" />
+      <edge source="Nuevo León.General Escobedo" target="Nuevo León.Salinas Victoria" id="84" weight="0.7740549791515534" />
+      <edge source="Nuevo León.General Escobedo" target="Nuevo León.San Nicolás de los Garza" id="85" weight="0.7158007316696396" />
+      <edge source="Nuevo León.Guadalupe" target="Nuevo León.Juárez" id="86" weight="0.7334425353072742" />
+      <edge source="Nuevo León.Guadalupe" target="Nuevo León.Monterrey" id="87" weight="0.8127688794860861" />
+      <edge source="Nuevo León.Guadalupe" target="Nuevo León.Pesquería" id="88" weight="0.7852007530179973" />
+      <edge source="Nuevo León.Guadalupe" target="Nuevo León.San Nicolás de los Garza" id="89" weight="0.847309733853231" />
+      <edge source="Nuevo León.Guadalupe" target="Nuevo León.Santa Catarina" id="90" weight="0.7874337729621422" />
+      <edge source="Nuevo León.Hidalgo" target="Nuevo León.Juárez" id="91" weight="0.7602419963204881" />
+      <edge source="Nuevo León.Hidalgo" target="Nuevo León.Lampazos de Naranjo" id="92" weight="0.8886880175007327" />
+      <edge source="Nuevo León.Hidalgo" target="Nuevo León.Linares" id="93" weight="0.7048154009327788" />
+      <edge source="Nuevo León.Hidalgo" target="Nuevo León.Los Herreras" id="94" weight="0.8886880175007326" />
+      <edge source="Nuevo León.Hidalgo" target="Nuevo León.Los Ramones" id="95" weight="0.8886880175007326" />
+      <edge source="Nuevo León.Hidalgo" target="Nuevo León.Mina" id="96" weight="0.7245267274252609" />
+      <edge source="Nuevo León.Hidalgo" target="Nuevo León.Montemorelos" id="97" weight="0.7179264274490629" />
+      <edge source="Nuevo León.Higueras" target="Nuevo León.Sabinas Hidalgo" id="98" weight="0.7336046977505556" />
+      <edge source="Nuevo León.Juárez" target="Nuevo León.Lampazos de Naranjo" id="99" weight="0.7091474489598235" />
+      <edge source="Nuevo León.Juárez" target="Nuevo León.Linares" id="100" weight="0.7172619158110334" />
+      <edge source="Nuevo León.Juárez" target="Nuevo León.Los Herreras" id="101" weight="0.7091474489598235" />
+      <edge source="Nuevo León.Juárez" target="Nuevo León.Los Ramones" id="102" weight="0.7091474489598234" />
+      <edge source="Nuevo León.Juárez" target="Nuevo León.Montemorelos" id="103" weight="0.7712270712910306" />
+      <edge source="Nuevo León.Juárez" target="Nuevo León.San Pedro Garza García" id="104" weight="0.701742931734222" />
+      <edge source="Nuevo León.Lampazos de Naranjo" target="Nuevo León.Los Herreras" id="105" weight="1.0" />
+      <edge source="Nuevo León.Lampazos de Naranjo" target="Nuevo León.Los Ramones" id="106" weight="1.0" />
+      <edge source="Nuevo León.Lampazos de Naranjo" target="Nuevo León.Mina" id="107" weight="0.815276804859883" />
+      <edge source="Nuevo León.Los Herreras" target="Nuevo León.Los Ramones" id="108" weight="1.0" />
+      <edge source="Nuevo León.Los Herreras" target="Nuevo León.Mina" id="109" weight="0.8152768048598829" />
+      <edge source="Nuevo León.Los Ramones" target="Nuevo León.Mina" id="110" weight="0.8152768048598829" />
+      <edge source="Nuevo León.Monterrey" target="Nuevo León.Pesquería" id="111" weight="0.7947820479771877" />
+      <edge source="Nuevo León.Monterrey" target="Nuevo León.San Nicolás de los Garza" id="112" weight="0.8660669946686661" />
+      <edge source="Nuevo León.Monterrey" target="Nuevo León.Santa Catarina" id="113" weight="0.7951027996807757" />
+      <edge source="Nuevo León.Pesquería" target="Nuevo León.San Nicolás de los Garza" id="114" weight="0.7989949736931021" />
+      <edge source="Nuevo León.Pesquería" target="Nuevo León.Santa Catarina" id="115" weight="0.7001108096786963" />
+      <edge source="Nuevo León.San Nicolás de los Garza" target="Nuevo León.Santa Catarina" id="116" weight="0.7997355475590098" />
+    </edges>
+  </graph>
+</gexf>

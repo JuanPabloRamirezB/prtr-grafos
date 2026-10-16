@@ -1,0 +1,168 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<gexf xmlns="http://gexf.net/1.3" version="1.3" xmlns:viz="http://gexf.net/1.3/viz" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://gexf.net/1.3 http://gexf.net/1.3/gexf.xsd">
+  <meta lastmodifieddate="2026-10-16">
+    <creator>Apache NetBeans Platform Dev (Build {0})</creator>
+    <title></title>
+    <description></description>
+  </meta>
+  <graph defaultedgetype="undirected" mode="static">
+    <attributes class="node" mode="static">
+      <attribute id="0" title="type" type="string"/>
+      <attribute id="1" title="total_kg" type="double"/>
+    </attributes>
+    <nodes>
+      <node id="LOC::Baja California Sur.La Paz" label="Baja California Sur.La Paz">
+        <attvalues>
+          <attvalue for="0" value="location"/>
+          <attvalue for="1" value="1.4612785523356792E10"/>
+        </attvalues>
+        <viz:size value="43.252823"/>
+        <viz:position x="-900.0" y="0.0"/>
+        <viz:color r="42" g="120" b="214"/>
+      </node>
+      <node id="LOC::Baja California Sur.Comondú" label="Baja California Sur.Comondú">
+        <attvalues>
+          <attvalue for="0" value="location"/>
+          <attvalue for="1" value="6.446189580483031E9"/>
+        </attvalues>
+        <viz:size value="24.668934"/>
+        <viz:position x="-900.0" y="666.6667"/>
+        <viz:color r="42" g="120" b="214"/>
+      </node>
+      <node id="LOC::Baja California Sur.Mulegé" label="Baja California Sur.Mulegé">
+        <attvalues>
+          <attvalue for="0" value="location"/>
+          <attvalue for="1" value="3.2069755079629474E9"/>
+        </attvalues>
+        <viz:size value="17.297787"/>
+        <viz:position x="-900.0" y="1333.3334"/>
+        <viz:color r="42" g="120" b="214"/>
+      </node>
+      <node id="LOC::Baja California Sur.Los Cabos" label="Baja California Sur.Los Cabos">
+        <attvalues>
+          <attvalue for="0" value="location"/>
+          <attvalue for="1" value="2.1015927036372619E9"/>
+        </attvalues>
+        <viz:size value="14.782379"/>
+        <viz:position x="-900.0" y="2000.0"/>
+        <viz:color r="42" g="120" b="214"/>
+      </node>
+      <node id="MED::agua" label="water">
+        <attvalues>
+          <attvalue for="0" value="medio"/>
+          <attvalue for="1" value="828753.8102978716"/>
+        </attvalues>
+        <viz:size value="10.001885"/>
+        <viz:position x="900.0" y="400.0"/>
+        <viz:color r="235" g="104" b="52"/>
+      </node>
+      <node id="MED::aire" label="air">
+        <attvalues>
+          <attvalue for="0" value="medio"/>
+          <attvalue for="1" value="2.6366696730063023E10"/>
+        </attvalues>
+        <viz:size value="70.0"/>
+        <viz:position x="900.0" y="0.0"/>
+        <viz:color r="235" g="104" b="52"/>
+      </node>
+      <node id="MED::suelo" label="soil">
+        <attvalues>
+          <attvalue for="0" value="medio"/>
+          <attvalue for="1" value="14133.439929641412"/>
+        </attvalues>
+        <viz:size value="10.000031"/>
+        <viz:position x="900.0" y="800.0"/>
+        <viz:color r="235" g="104" b="52"/>
+      </node>
+      <node id="MED::alcantarillado" label="sewer system">
+        <attvalues>
+          <attvalue for="0" value="medio"/>
+          <attvalue for="1" value="414.18661139999983"/>
+        </attvalues>
+        <viz:size value="10.0"/>
+        <viz:position x="900.0" y="1600.0"/>
+        <viz:color r="235" g="104" b="52"/>
+      </node>
+      <node id="MED::disposicion_final" label="final disposal">
+        <attvalues>
+          <attvalue for="0" value="medio"/>
+          <attvalue for="1" value="3018.7656000000006"/>
+        </attvalues>
+        <viz:size value="10.000007"/>
+        <viz:position x="900.0" y="1200.0"/>
+        <viz:color r="235" g="104" b="52"/>
+      </node>
+      <node id="MED::otros" label="other">
+        <attvalues>
+          <attvalue for="0" value="medio"/>
+          <attvalue for="1" value="265.1746"/>
+        </attvalues>
+        <viz:size value="10.0"/>
+        <viz:position x="900.0" y="2000.0"/>
+        <viz:color r="235" g="104" b="52"/>
+      </node>
+    </nodes>
+    <edges>
+      <edge id="0" source="LOC::Baja California Sur.La Paz" target="MED::agua" weight="817995.5625">
+        <viz:color r="137" g="135" b="129" a="0.43137255"/>
+      </edge>
+      <edge id="1" source="LOC::Baja California Sur.La Paz" target="MED::aire" weight="1.4611965952E10">
+        <viz:color r="137" g="135" b="129" a="0.43137255"/>
+      </edge>
+      <edge id="2" source="LOC::Baja California Sur.La Paz" target="MED::suelo" weight="1019.190673828125">
+        <viz:color r="137" g="135" b="129" a="0.43137255"/>
+      </edge>
+      <edge id="3" source="LOC::Baja California Sur.La Paz" target="MED::alcantarillado" weight="390.3158874511719">
+        <viz:color r="137" g="135" b="129" a="0.43137255"/>
+      </edge>
+      <edge id="4" source="LOC::Baja California Sur.Comondú" target="MED::agua" weight="48.59268569946289">
+        <viz:color r="137" g="135" b="129" a="0.43137255"/>
+      </edge>
+      <edge id="5" source="LOC::Baja California Sur.Comondú" target="MED::aire" weight="6.446188544E9">
+        <viz:color r="137" g="135" b="129" a="0.43137255"/>
+      </edge>
+      <edge id="6" source="LOC::Baja California Sur.Comondú" target="MED::suelo" weight="19.822200775146484">
+        <viz:color r="137" g="135" b="129" a="0.43137255"/>
+      </edge>
+      <edge id="7" source="LOC::Baja California Sur.Comondú" target="MED::alcantarillado" weight="0.4298514127731323">
+        <viz:color r="137" g="135" b="129" a="0.43137255"/>
+      </edge>
+      <edge id="8" source="LOC::Baja California Sur.Comondú" target="MED::disposicion_final" weight="801.0656127929688">
+        <viz:color r="137" g="135" b="129" a="0.43137255"/>
+      </edge>
+      <edge id="9" source="LOC::Baja California Sur.Comondú" target="MED::otros" weight="0.03269999846816063">
+        <viz:color r="137" g="135" b="129" a="0.43137255"/>
+      </edge>
+      <edge id="10" source="LOC::Baja California Sur.Mulegé" target="MED::agua" weight="3701.432373046875">
+        <viz:color r="137" g="135" b="129" a="0.43137255"/>
+      </edge>
+      <edge id="11" source="LOC::Baja California Sur.Mulegé" target="MED::aire" weight="3.206959616E9">
+        <viz:color r="137" g="135" b="129" a="0.43137255"/>
+      </edge>
+      <edge id="12" source="LOC::Baja California Sur.Mulegé" target="MED::suelo" weight="12130.5126953125">
+        <viz:color r="137" g="135" b="129" a="0.43137255"/>
+      </edge>
+      <edge id="13" source="LOC::Baja California Sur.Mulegé" target="MED::alcantarillado" weight="23.440860748291016">
+        <viz:color r="137" g="135" b="129" a="0.43137255"/>
+      </edge>
+      <edge id="14" source="LOC::Baja California Sur.Mulegé" target="MED::disposicion_final" weight="124.75">
+        <viz:color r="137" g="135" b="129" a="0.43137255"/>
+      </edge>
+      <edge id="15" source="LOC::Baja California Sur.Los Cabos" target="MED::agua" weight="7008.21142578125">
+        <viz:color r="137" g="135" b="129" a="0.43137255"/>
+      </edge>
+      <edge id="16" source="LOC::Baja California Sur.Los Cabos" target="MED::aire" weight="2.101582336E9">
+        <viz:color r="137" g="135" b="129" a="0.43137255"/>
+      </edge>
+      <edge id="17" source="LOC::Baja California Sur.Los Cabos" target="MED::suelo" weight="963.9139404296875">
+        <viz:color r="137" g="135" b="129" a="0.43137255"/>
+      </edge>
+      <edge id="18" source="LOC::Baja California Sur.Los Cabos" target="MED::disposicion_final" weight="2092.949951171875">
+        <viz:color r="137" g="135" b="129" a="0.43137255"/>
+      </edge>
+      <edge id="19" source="LOC::Baja California Sur.Los Cabos" target="MED::otros" weight="265.14190673828125">
+        <viz:color r="137" g="135" b="129" a="0.43137255"/>
+      </edge>
+    </edges>
+  </graph>
+</gexf>

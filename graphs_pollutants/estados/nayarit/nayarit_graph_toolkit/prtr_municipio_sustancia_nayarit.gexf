@@ -1,0 +1,615 @@
+<?xml version='1.0' encoding='utf-8'?>
+<gexf xmlns="http://www.gexf.net/1.2draft" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.gexf.net/1.2draft http://www.gexf.net/1.2draft/gexf.xsd" version="1.2">
+  <meta lastmodifieddate="2026-10-16">
+    <creator>NetworkX 3.7</creator>
+  </meta>
+  <graph defaultedgetype="undirected" mode="static" name="">
+    <attributes mode="static" class="edge">
+      <attribute id="2" title="count" type="long" />
+    </attributes>
+    <attributes mode="static" class="node">
+      <attribute id="0" title="type" type="string" />
+      <attribute id="1" title="total_kg" type="double" />
+    </attributes>
+    <nodes>
+      <node id="LOC::Nayarit.Xalisco" label="Nayarit.Xalisco">
+        <attvalues>
+          <attvalue for="0" value="location" />
+          <attvalue for="1" value="484452.78022072196" />
+        </attvalues>
+      </node>
+      <node id="LOC::Nayarit.Tepic" label="Nayarit.Tepic">
+        <attvalues>
+          <attvalue for="0" value="location" />
+          <attvalue for="1" value="16586.323953395986" />
+        </attvalues>
+      </node>
+      <node id="LOC::Nayarit.Del Nayar" label="Nayarit.Del Nayar">
+        <attvalues>
+          <attvalue for="0" value="location" />
+          <attvalue for="1" value="0.05261332273999999" />
+        </attvalues>
+      </node>
+      <node id="LOC::Nayarit.Bahía de Banderas" label="Nayarit.Bahía de Banderas">
+        <attvalues>
+          <attvalue for="0" value="location" />
+          <attvalue for="1" value="868.3303999999999" />
+        </attvalues>
+      </node>
+      <node id="LOC::Nayarit.San Blas" label="Nayarit.San Blas">
+        <attvalues>
+          <attvalue for="0" value="location" />
+          <attvalue for="1" value="1090.9144999999999" />
+        </attvalues>
+      </node>
+      <node id="LOC::Nayarit.San Pedro Lagunillas" label="Nayarit.San Pedro Lagunillas">
+        <attvalues>
+          <attvalue for="0" value="location" />
+          <attvalue for="1" value="92471857.56840001" />
+        </attvalues>
+      </node>
+      <node id="LOC::Nayarit.Acaponeta" label="Nayarit.Acaponeta">
+        <attvalues>
+          <attvalue for="0" value="location" />
+          <attvalue for="1" value="53.222475" />
+        </attvalues>
+      </node>
+      <node id="LOC::Nayarit.La Yesca" label="Nayarit.La Yesca">
+        <attvalues>
+          <attvalue for="0" value="location" />
+          <attvalue for="1" value="77.50138679000001" />
+        </attvalues>
+      </node>
+      <node id="LOC::Nayarit.Santa María del Oro" label="Nayarit.Santa María del Oro">
+        <attvalues>
+          <attvalue for="0" value="location" />
+          <attvalue for="1" value="166.3801455592" />
+        </attvalues>
+      </node>
+      <node id="SUB::Cromo (Compuestos solubles)" label="Chromium (soluble compounds)">
+        <attvalues>
+          <attvalue for="0" value="substance" />
+          <attvalue for="1" value="403.177890078" />
+        </attvalues>
+      </node>
+      <node id="SUB::Mercurio (Compuestos solubles)" label="Mercury (soluble compounds)">
+        <attvalues>
+          <attvalue for="0" value="substance" />
+          <attvalue for="1" value="8.153530397" />
+        </attvalues>
+      </node>
+      <node id="SUB::Níquel (Compuestos solubles)" label="Nickel (soluble compounds)">
+        <attvalues>
+          <attvalue for="0" value="substance" />
+          <attvalue for="1" value="1021.7831961080002" />
+        </attvalues>
+      </node>
+      <node id="SUB::Plomo (Compuestos solubles)" label="Lead (soluble compounds)">
+        <attvalues>
+          <attvalue for="0" value="substance" />
+          <attvalue for="1" value="660.718721186" />
+        </attvalues>
+      </node>
+      <node id="SUB::Cianuro inorgánico/orgánico" label="Inorganic/organic cyanide">
+        <attvalues>
+          <attvalue for="0" value="substance" />
+          <attvalue for="1" value="284.0884339174" />
+        </attvalues>
+      </node>
+      <node id="SUB::Arsénico (polvos, respirables, vapores o humos)" label="Arsenic (respirable dust, vapors or fumes)">
+        <attvalues>
+          <attvalue for="0" value="substance" />
+          <attvalue for="1" value="5.66758194106" />
+        </attvalues>
+      </node>
+      <node id="SUB::Cadmio (polvos, respirables, vapores o humos)" label="Cadmium (respirable dust, vapors or fumes)">
+        <attvalues>
+          <attvalue for="0" value="substance" />
+          <attvalue for="1" value="1.3970881786" />
+        </attvalues>
+      </node>
+      <node id="SUB::Cromo (compuestos)" label="Chromium (compounds)">
+        <attvalues>
+          <attvalue for="0" value="substance" />
+          <attvalue for="1" value="39.82468344999999" />
+        </attvalues>
+      </node>
+      <node id="SUB::Plomo (compuestos)" label="Lead (compounds)">
+        <attvalues>
+          <attvalue for="0" value="substance" />
+          <attvalue for="1" value="30.705891951399998" />
+        </attvalues>
+      </node>
+      <node id="SUB::Mercurio (polvos, respirables, vapores o humos)" label="Mercury (respirable dust, vapors or fumes)">
+        <attvalues>
+          <attvalue for="0" value="substance" />
+          <attvalue for="1" value="0.00193936" />
+        </attvalues>
+      </node>
+      <node id="SUB::Níquel (compuestos)" label="Nickel (compounds)">
+        <attvalues>
+          <attvalue for="0" value="substance" />
+          <attvalue for="1" value="5.925464499999999" />
+        </attvalues>
+      </node>
+      <node id="SUB::Arsénico (Compuestos solubles)" label="Arsenic (soluble compounds)">
+        <attvalues>
+          <attvalue for="0" value="substance" />
+          <attvalue for="1" value="29955.9981" />
+        </attvalues>
+      </node>
+      <node id="SUB::Cadmio (Compuestos solubles)" label="Cadmium (soluble compounds)">
+        <attvalues>
+          <attvalue for="0" value="substance" />
+          <attvalue for="1" value="288.25530000000003" />
+        </attvalues>
+      </node>
+      <node id="SUB::Mercurio (compuestos)" label="Mercury (compounds)">
+        <attvalues>
+          <attvalue for="0" value="substance" />
+          <attvalue for="1" value="0.47411202161999993" />
+        </attvalues>
+      </node>
+      <node id="SUB::Bióxido de carbono" label="Carbon dioxide">
+        <attvalues>
+          <attvalue for="0" value="substance" />
+          <attvalue for="1" value="87664032.8" />
+        </attvalues>
+      </node>
+      <node id="SUB::Formaldehido" label="Formaldehyde">
+        <attvalues>
+          <attvalue for="0" value="substance" />
+          <attvalue for="1" value="260.40269357603455" />
+        </attvalues>
+      </node>
+      <node id="SUB::Benceno" label="Benzene">
+        <attvalues>
+          <attvalue for="0" value="substance" />
+          <attvalue for="1" value="53.05483248886786" />
+        </attvalues>
+      </node>
+      <node id="SUB::Acetaldehido" label="Acetaldehyde">
+        <attvalues>
+          <attvalue for="0" value="substance" />
+          <attvalue for="1" value="0.0528901053313" />
+        </attvalues>
+      </node>
+      <node id="SUB::Acroleina" label="Acrolein">
+        <attvalues>
+          <attvalue for="0" value="substance" />
+          <attvalue for="1" value="0.006372894710749999" />
+        </attvalues>
+      </node>
+      <node id="SUB::Acido sulfhídrico" label="Hydrogen sulfide">
+        <attvalues>
+          <attvalue for="0" value="substance" />
+          <attvalue for="1" value="5278100.0" />
+        </attvalues>
+      </node>
+      <node id="SUB::Cadmio (compuestos)" label="Cadmium (compounds)">
+        <attvalues>
+          <attvalue for="0" value="substance" />
+          <attvalue for="1" value="0.4343137" />
+        </attvalues>
+      </node>
+      <node id="SUB::Arsénico (compuestos)" label="Arsenic (compounds)">
+        <attvalues>
+          <attvalue for="0" value="substance" />
+          <attvalue for="1" value="0.15105893599999998" />
+        </attvalues>
+      </node>
+    </nodes>
+    <edges>
+      <edge source="LOC::Nayarit.Xalisco" target="SUB::Cromo (Compuestos solubles)" id="0" weight="1.68249">
+        <attvalues>
+          <attvalue for="2" value="1" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Nayarit.Xalisco" target="SUB::Mercurio (Compuestos solubles)" id="1" weight="0.00672996">
+        <attvalues>
+          <attvalue for="2" value="1" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Nayarit.Xalisco" target="SUB::Níquel (Compuestos solubles)" id="2" weight="0.672996">
+        <attvalues>
+          <attvalue for="2" value="1" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Nayarit.Xalisco" target="SUB::Plomo (Compuestos solubles)" id="3" weight="0.672996">
+        <attvalues>
+          <attvalue for="2" value="1" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Nayarit.Xalisco" target="SUB::Cianuro inorgánico/orgánico" id="4" weight="0.35630868149999995">
+        <attvalues>
+          <attvalue for="2" value="6" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Nayarit.Xalisco" target="SUB::Arsénico (polvos, respirables, vapores o humos)" id="5" weight="0.0382638698">
+        <attvalues>
+          <attvalue for="2" value="3" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Nayarit.Xalisco" target="SUB::Cadmio (polvos, respirables, vapores o humos)" id="6" weight="0.489198">
+        <attvalues>
+          <attvalue for="2" value="2" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Nayarit.Xalisco" target="SUB::Plomo (compuestos)" id="7" weight="0.9850754">
+        <attvalues>
+          <attvalue for="2" value="3" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Nayarit.Xalisco" target="SUB::Níquel (compuestos)" id="8" weight="0.9450754">
+        <attvalues>
+          <attvalue for="2" value="3" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Nayarit.Xalisco" target="SUB::Mercurio (compuestos)" id="9" weight="0.009450754">
+        <attvalues>
+          <attvalue for="2" value="3" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Nayarit.Xalisco" target="SUB::Cromo (compuestos)" id="10" weight="2.7597085">
+        <attvalues>
+          <attvalue for="2" value="3" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Nayarit.Xalisco" target="SUB::Bióxido de carbono" id="11" weight="484443.8">
+        <attvalues>
+          <attvalue for="2" value="1" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Nayarit.Xalisco" target="SUB::Cadmio (compuestos)" id="12" weight="0.3198377">
+        <attvalues>
+          <attvalue for="2" value="2" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Nayarit.Xalisco" target="SUB::Arsénico (compuestos)" id="13" weight="0.042090456799999995">
+        <attvalues>
+          <attvalue for="2" value="4" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Nayarit.Tepic" target="SUB::Cromo (Compuestos solubles)" id="14" weight="167.757200078">
+        <attvalues>
+          <attvalue for="2" value="5" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Nayarit.Tepic" target="SUB::Mercurio (Compuestos solubles)" id="15" weight="1.10880001">
+        <attvalues>
+          <attvalue for="2" value="2" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Nayarit.Tepic" target="SUB::Níquel (Compuestos solubles)" id="16" weight="561.519000108">
+        <attvalues>
+          <attvalue for="2" value="4" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Nayarit.Tepic" target="SUB::Plomo (Compuestos solubles)" id="17" weight="224.31680269">
+        <attvalues>
+          <attvalue for="2" value="3" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Nayarit.Tepic" target="SUB::Cianuro inorgánico/orgánico" id="18" weight="1.3018000000000002e-06">
+        <attvalues>
+          <attvalue for="2" value="3" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Nayarit.Tepic" target="SUB::Mercurio (compuestos)" id="19" weight="4.3946e-06">
+        <attvalues>
+          <attvalue for="2" value="2" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Nayarit.Tepic" target="SUB::Arsénico (polvos, respirables, vapores o humos)" id="20" weight="4.11274914944">
+        <attvalues>
+          <attvalue for="2" value="4" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Nayarit.Tepic" target="SUB::Cadmio (polvos, respirables, vapores o humos)" id="21" weight="7.3e-07">
+        <attvalues>
+          <attvalue for="2" value="1" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Nayarit.Tepic" target="SUB::Cromo (compuestos)" id="22" weight="3.65e-06">
+        <attvalues>
+          <attvalue for="2" value="1" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Nayarit.Tepic" target="SUB::Níquel (compuestos)" id="23" weight="1.46e-06">
+        <attvalues>
+          <attvalue for="2" value="1" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Nayarit.Tepic" target="SUB::Plomo (compuestos)" id="24" weight="7.592e-07">
+        <attvalues>
+          <attvalue for="2" value="1" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Nayarit.Tepic" target="SUB::Bióxido de carbono" id="25" weight="15554.0">
+        <attvalues>
+          <attvalue for="2" value="7" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Nayarit.Tepic" target="SUB::Formaldehido" id="26" weight="0.0026935760345500005">
+        <attvalues>
+          <attvalue for="2" value="5" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Nayarit.Tepic" target="SUB::Benceno" id="27" weight="0.054832488867860005">
+        <attvalues>
+          <attvalue for="2" value="5" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Nayarit.Tepic" target="SUB::Acetaldehido" id="28" weight="0.0528901053313">
+        <attvalues>
+          <attvalue for="2" value="5" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Nayarit.Tepic" target="SUB::Acroleina" id="29" weight="0.006372894710749999">
+        <attvalues>
+          <attvalue for="2" value="5" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Nayarit.Tepic" target="SUB::Arsénico (Compuestos solubles)" id="30" weight="17.9497">
+        <attvalues>
+          <attvalue for="2" value="4" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Nayarit.Tepic" target="SUB::Cadmio (Compuestos solubles)" id="31" weight="55.4429">
+        <attvalues>
+          <attvalue for="2" value="1" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Nayarit.Del Nayar" target="SUB::Mercurio (Compuestos solubles)" id="32" weight="4.27e-07">
+        <attvalues>
+          <attvalue for="2" value="2" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Nayarit.Del Nayar" target="SUB::Plomo (Compuestos solubles)" id="33" weight="2.2496e-05">
+        <attvalues>
+          <attvalue for="2" value="2" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Nayarit.Del Nayar" target="SUB::Cianuro inorgánico/orgánico" id="34" weight="0.0007038241000000001">
+        <attvalues>
+          <attvalue for="2" value="6" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Nayarit.Del Nayar" target="SUB::Cadmio (polvos, respirables, vapores o humos)" id="35" weight="0.0012074486">
+        <attvalues>
+          <attvalue for="2" value="3" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Nayarit.Del Nayar" target="SUB::Arsénico (polvos, respirables, vapores o humos)" id="36" weight="0.0036940818199999994">
+        <attvalues>
+          <attvalue for="2" value="5" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Nayarit.Del Nayar" target="SUB::Cromo (compuestos)" id="37" weight="0.0060298">
+        <attvalues>
+          <attvalue for="2" value="3" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Nayarit.Del Nayar" target="SUB::Plomo (compuestos)" id="38" weight="0.005896852199999999">
+        <attvalues>
+          <attvalue for="2" value="3" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Nayarit.Del Nayar" target="SUB::Mercurio (polvos, respirables, vapores o humos)" id="39" weight="0.0001168">
+        <attvalues>
+          <attvalue for="2" value="1" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Nayarit.Del Nayar" target="SUB::Níquel (compuestos)" id="40" weight="0.034940719999999995">
+        <attvalues>
+          <attvalue for="2" value="3" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Nayarit.Del Nayar" target="SUB::Mercurio (compuestos)" id="41" weight="8.730199999999999e-07">
+        <attvalues>
+          <attvalue for="2" value="3" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Nayarit.Bahía de Banderas" target="SUB::Arsénico (Compuestos solubles)" id="42" weight="26.237199999999998">
+        <attvalues>
+          <attvalue for="2" value="18" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Nayarit.Bahía de Banderas" target="SUB::Plomo (Compuestos solubles)" id="43" weight="257.3367">
+        <attvalues>
+          <attvalue for="2" value="25" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Nayarit.Bahía de Banderas" target="SUB::Cromo (Compuestos solubles)" id="44" weight="49.1367">
+        <attvalues>
+          <attvalue for="2" value="20" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Nayarit.Bahía de Banderas" target="SUB::Níquel (Compuestos solubles)" id="45" weight="220.79960000000003">
+        <attvalues>
+          <attvalue for="2" value="15" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Nayarit.Bahía de Banderas" target="SUB::Cadmio (Compuestos solubles)" id="46" weight="54.420199999999994">
+        <attvalues>
+          <attvalue for="2" value="12" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Nayarit.Bahía de Banderas" target="SUB::Formaldehido" id="47" weight="260.4">
+        <attvalues>
+          <attvalue for="2" value="1" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Nayarit.San Blas" target="SUB::Arsénico (Compuestos solubles)" id="48" weight="189.2428">
+        <attvalues>
+          <attvalue for="2" value="5" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Nayarit.San Blas" target="SUB::Cadmio (Compuestos solubles)" id="49" weight="178.3922">
+        <attvalues>
+          <attvalue for="2" value="5" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Nayarit.San Blas" target="SUB::Cromo (Compuestos solubles)" id="50" weight="184.6015">
+        <attvalues>
+          <attvalue for="2" value="5" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Nayarit.San Blas" target="SUB::Níquel (Compuestos solubles)" id="51" weight="238.7916">
+        <attvalues>
+          <attvalue for="2" value="5" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Nayarit.San Blas" target="SUB::Plomo (Compuestos solubles)" id="52" weight="178.3922">
+        <attvalues>
+          <attvalue for="2" value="5" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Nayarit.San Blas" target="SUB::Cianuro inorgánico/orgánico" id="53" weight="114.4562">
+        <attvalues>
+          <attvalue for="2" value="1" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Nayarit.San Blas" target="SUB::Mercurio (Compuestos solubles)" id="54" weight="7.038">
+        <attvalues>
+          <attvalue for="2" value="2" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Nayarit.San Pedro Lagunillas" target="SUB::Arsénico (Compuestos solubles)" id="55" weight="29722.5684">
+        <attvalues>
+          <attvalue for="2" value="4" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Nayarit.San Pedro Lagunillas" target="SUB::Acido sulfhídrico" id="56" weight="5278100.0">
+        <attvalues>
+          <attvalue for="2" value="7" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Nayarit.San Pedro Lagunillas" target="SUB::Bióxido de carbono" id="57" weight="87164035.0">
+        <attvalues>
+          <attvalue for="2" value="8" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Nayarit.Acaponeta" target="SUB::Mercurio (compuestos)" id="58" weight="0.0005">
+        <attvalues>
+          <attvalue for="2" value="2" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Nayarit.Acaponeta" target="SUB::Arsénico (polvos, respirables, vapores o humos)" id="59" weight="0.075">
+        <attvalues>
+          <attvalue for="2" value="2" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Nayarit.Acaponeta" target="SUB::Cianuro inorgánico/orgánico" id="60" weight="0.125">
+        <attvalues>
+          <attvalue for="2" value="2" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Nayarit.Acaponeta" target="SUB::Cadmio (polvos, respirables, vapores o humos)" id="61" weight="0.000225">
+        <attvalues>
+          <attvalue for="2" value="1" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Nayarit.Acaponeta" target="SUB::Cromo (compuestos)" id="62" weight="0.0025">
+        <attvalues>
+          <attvalue for="2" value="1" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Nayarit.Acaponeta" target="SUB::Níquel (compuestos)" id="63" weight="0.0025">
+        <attvalues>
+          <attvalue for="2" value="1" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Nayarit.Acaponeta" target="SUB::Plomo (compuestos)" id="64" weight="0.01675">
+        <attvalues>
+          <attvalue for="2" value="1" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Nayarit.Acaponeta" target="SUB::Benceno" id="65" weight="53.0">
+        <attvalues>
+          <attvalue for="2" value="1" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Nayarit.La Yesca" target="SUB::Mercurio (compuestos)" id="66" weight="0.4618524">
+        <attvalues>
+          <attvalue for="2" value="3" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Nayarit.La Yesca" target="SUB::Cromo (compuestos)" id="67" weight="36.4818583">
+        <attvalues>
+          <attvalue for="2" value="3" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Nayarit.La Yesca" target="SUB::Níquel (compuestos)" id="68" weight="4.71122852">
+        <attvalues>
+          <attvalue for="2" value="3" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Nayarit.La Yesca" target="SUB::Plomo (compuestos)" id="69" weight="29.4654835">
+        <attvalues>
+          <attvalue for="2" value="3" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Nayarit.La Yesca" target="SUB::Arsénico (polvos, respirables, vapores o humos)" id="70" weight="0.5372013999999999">
+        <attvalues>
+          <attvalue for="2" value="3" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Nayarit.La Yesca" target="SUB::Cianuro inorgánico/orgánico" id="71" weight="4.93730567">
+        <attvalues>
+          <attvalue for="2" value="3" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Nayarit.La Yesca" target="SUB::Cadmio (polvos, respirables, vapores o humos)" id="72" weight="0.906457">
+        <attvalues>
+          <attvalue for="2" value="2" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Nayarit.Santa María del Oro" target="SUB::Níquel (compuestos)" id="73" weight="0.2317184">
+        <attvalues>
+          <attvalue for="2" value="3" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Nayarit.Santa María del Oro" target="SUB::Mercurio (compuestos)" id="74" weight="0.0023036">
+        <attvalues>
+          <attvalue for="2" value="2" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Nayarit.Santa María del Oro" target="SUB::Cromo (compuestos)" id="75" weight="0.5745832">
+        <attvalues>
+          <attvalue for="2" value="3" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Nayarit.Santa María del Oro" target="SUB::Cadmio (compuestos)" id="76" weight="0.114476">
+        <attvalues>
+          <attvalue for="2" value="2" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Nayarit.Santa María del Oro" target="SUB::Arsénico (compuestos)" id="77" weight="0.1089684792">
+        <attvalues>
+          <attvalue for="2" value="2" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Nayarit.Santa María del Oro" target="SUB::Cianuro inorgánico/orgánico" id="78" weight="164.21291444000002">
+        <attvalues>
+          <attvalue for="2" value="3" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Nayarit.Santa María del Oro" target="SUB::Plomo (compuestos)" id="79" weight="0.23268544">
+        <attvalues>
+          <attvalue for="2" value="3" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Nayarit.Santa María del Oro" target="SUB::Arsénico (polvos, respirables, vapores o humos)" id="80" weight="0.90067344">
+        <attvalues>
+          <attvalue for="2" value="2" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Nayarit.Santa María del Oro" target="SUB::Mercurio (polvos, respirables, vapores o humos)" id="81" weight="0.00182256">
+        <attvalues>
+          <attvalue for="2" value="1" />
+        </attvalues>
+      </edge>
+    </edges>
+  </graph>
+</gexf>

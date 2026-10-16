@@ -1,0 +1,159 @@
+<?xml version='1.0' encoding='utf-8'?>
+<gexf xmlns="http://www.gexf.net/1.2draft" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.gexf.net/1.2draft http://www.gexf.net/1.2draft/gexf.xsd" version="1.2">
+  <meta lastmodifieddate="2026-10-16">
+    <creator>NetworkX 3.7</creator>
+  </meta>
+  <graph defaultedgetype="undirected" mode="static" name="">
+    <attributes mode="static" class="node">
+      <attribute id="0" title="role" type="string" />
+      <attribute id="1" title="total_kg" type="double" />
+    </attributes>
+    <nodes>
+      <node id="Campeche.Carmen" label="Campeche.Carmen">
+        <attvalues>
+          <attvalue for="0" value="focal" />
+          <attvalue for="1" value="202550088945.66504" />
+        </attvalues>
+      </node>
+      <node id="Bióxido de carbono" label="Carbon dioxide">
+        <attvalues>
+          <attvalue for="0" value="substance" />
+          <attvalue for="1" value="198208420659.7798" />
+        </attvalues>
+      </node>
+      <node id="Metano" label="Methane">
+        <attvalues>
+          <attvalue for="0" value="substance" />
+          <attvalue for="1" value="4310953737.601187" />
+        </attvalues>
+      </node>
+      <node id="Bióxido de nitrógeno" label="Nitrogen dioxide">
+        <attvalues>
+          <attvalue for="0" value="substance" />
+          <attvalue for="1" value="13748213.29058" />
+        </attvalues>
+      </node>
+      <node id="Oxido nitroso" label="Nitrous oxide">
+        <attvalues>
+          <attvalue for="0" value="substance" />
+          <attvalue for="1" value="13290771.917650001" />
+        </attvalues>
+      </node>
+      <node id="Acido sulfhídrico" label="Hydrogen sulfide">
+        <attvalues>
+          <attvalue for="0" value="substance" />
+          <attvalue for="1" value="2861422.2321" />
+        </attvalues>
+      </node>
+      <node id="Níquel (Compuestos solubles)" label="Nickel (soluble compounds)">
+        <attvalues>
+          <attvalue for="0" value="substance" />
+          <attvalue for="1" value="195969.22793522474" />
+        </attvalues>
+      </node>
+      <node id="Plomo (compuestos)" label="Lead (compounds)">
+        <attvalues>
+          <attvalue for="0" value="substance" />
+          <attvalue for="1" value="160216.52264873422" />
+        </attvalues>
+      </node>
+      <node id="Cromo (polvos respirables, humos o vapores)" label="Chromium (respirable dust, fumes or vapors)">
+        <attvalues>
+          <attvalue for="0" value="substance" />
+          <attvalue for="1" value="76951.78309740001" />
+        </attvalues>
+      </node>
+      <node id="Plomo (Compuestos solubles)" label="Lead (soluble compounds)">
+        <attvalues>
+          <attvalue for="0" value="substance" />
+          <attvalue for="1" value="68309.67685876816" />
+        </attvalues>
+      </node>
+      <node id="Formaldehido" label="Formaldehyde">
+        <attvalues>
+          <attvalue for="0" value="substance" />
+          <attvalue for="1" value="67838.04163858952" />
+        </attvalues>
+      </node>
+      <node id="Cromo (Compuestos solubles)" label="Chromium (soluble compounds)">
+        <attvalues>
+          <attvalue for="0" value="substance" />
+          <attvalue for="1" value="60368.320143286284" />
+        </attvalues>
+      </node>
+      <node id="Cadmio (Compuestos solubles)" label="Cadmium (soluble compounds)">
+        <attvalues>
+          <attvalue for="0" value="substance" />
+          <attvalue for="1" value="55519.26813559999" />
+        </attvalues>
+      </node>
+      <node id="Clorodifluorometano (HCFC-22)" label="Chlorodifluoromethane (HCFC-22)">
+        <attvalues>
+          <attvalue for="0" value="substance" />
+          <attvalue for="1" value="36080.2" />
+        </attvalues>
+      </node>
+      <node id="Plomo (polvos respirables, humos o vapores)" label="Lead (respirable dust, fumes or vapors)">
+        <attvalues>
+          <attvalue for="0" value="substance" />
+          <attvalue for="1" value="26619.84061345" />
+        </attvalues>
+      </node>
+      <node id="Níquel (compuestos)" label="Nickel (compounds)">
+        <attvalues>
+          <attvalue for="0" value="substance" />
+          <attvalue for="1" value="18162.00828089917" />
+        </attvalues>
+      </node>
+      <node id="Campeche.Palizada" label="Campeche.Palizada">
+        <attvalues>
+          <attvalue for="0" value="peer_municipio" />
+          <attvalue for="1" value="5019973407.364075" />
+        </attvalues>
+      </node>
+      <node id="Campeche.Campeche" label="Campeche.Campeche">
+        <attvalues>
+          <attvalue for="0" value="peer_municipio" />
+          <attvalue for="1" value="11544302077.989925" />
+        </attvalues>
+      </node>
+    </nodes>
+    <edges>
+      <edge source="Campeche.Carmen" target="Bióxido de carbono" id="0" weight="198208420659.7798" />
+      <edge source="Campeche.Carmen" target="Metano" id="1" weight="4310953737.601187" />
+      <edge source="Campeche.Carmen" target="Bióxido de nitrógeno" id="2" weight="13748213.29058" />
+      <edge source="Campeche.Carmen" target="Oxido nitroso" id="3" weight="13290771.917650001" />
+      <edge source="Campeche.Carmen" target="Acido sulfhídrico" id="4" weight="2861422.2321" />
+      <edge source="Campeche.Carmen" target="Níquel (Compuestos solubles)" id="5" weight="195969.22793522474" />
+      <edge source="Campeche.Carmen" target="Plomo (compuestos)" id="6" weight="160216.52264873422" />
+      <edge source="Campeche.Carmen" target="Cromo (polvos respirables, humos o vapores)" id="7" weight="76951.78309740001" />
+      <edge source="Campeche.Carmen" target="Plomo (Compuestos solubles)" id="8" weight="68309.67685876816" />
+      <edge source="Campeche.Carmen" target="Formaldehido" id="9" weight="67838.04163858952" />
+      <edge source="Campeche.Carmen" target="Cromo (Compuestos solubles)" id="10" weight="60368.320143286284" />
+      <edge source="Campeche.Carmen" target="Cadmio (Compuestos solubles)" id="11" weight="55519.26813559999" />
+      <edge source="Campeche.Carmen" target="Clorodifluorometano (HCFC-22)" id="12" weight="36080.2" />
+      <edge source="Campeche.Carmen" target="Plomo (polvos respirables, humos o vapores)" id="13" weight="26619.84061345" />
+      <edge source="Campeche.Carmen" target="Níquel (compuestos)" id="14" weight="18162.00828089917" />
+      <edge source="Bióxido de carbono" target="Campeche.Palizada" id="15" weight="5019971051.056039" />
+      <edge source="Bióxido de carbono" target="Campeche.Campeche" id="16" weight="11462652340.515064" />
+      <edge source="Metano" target="Campeche.Campeche" id="17" weight="80846802.45567231" />
+      <edge source="Bióxido de nitrógeno" target="Campeche.Campeche" id="18" weight="390320.0" />
+      <edge source="Níquel (Compuestos solubles)" target="Campeche.Palizada" id="19" weight="111.0129" />
+      <edge source="Níquel (Compuestos solubles)" target="Campeche.Campeche" id="20" weight="166002.34130000006" />
+      <edge source="Plomo (compuestos)" target="Campeche.Palizada" id="21" weight="481.686366875" />
+      <edge source="Plomo (compuestos)" target="Campeche.Campeche" id="22" weight="34.69446164" />
+      <edge source="Cromo (polvos respirables, humos o vapores)" target="Campeche.Campeche" id="23" weight="6.604800000000001" />
+      <edge source="Plomo (Compuestos solubles)" target="Campeche.Palizada" id="24" weight="120.26710000000001" />
+      <edge source="Plomo (Compuestos solubles)" target="Campeche.Campeche" id="25" weight="155186.3672" />
+      <edge source="Formaldehido" target="Campeche.Palizada" id="26" weight="1111.6" />
+      <edge source="Formaldehido" target="Campeche.Campeche" id="27" weight="37252.10538543065" />
+      <edge source="Cromo (Compuestos solubles)" target="Campeche.Palizada" id="28" weight="100.0595" />
+      <edge source="Cromo (Compuestos solubles)" target="Campeche.Campeche" id="29" weight="36994.1641" />
+      <edge source="Cadmio (Compuestos solubles)" target="Campeche.Palizada" id="30" weight="12.4027" />
+      <edge source="Cadmio (Compuestos solubles)" target="Campeche.Campeche" id="31" weight="17091.587900000002" />
+      <edge source="Plomo (polvos respirables, humos o vapores)" target="Campeche.Campeche" id="32" weight="6.9249600000000004" />
+      <edge source="Níquel (compuestos)" target="Campeche.Palizada" id="33" weight="419.279468725" />
+      <edge source="Níquel (compuestos)" target="Campeche.Campeche" id="34" weight="40.229080817500005" />
+    </edges>
+  </graph>
+</gexf>

@@ -1,0 +1,100 @@
+<?xml version='1.0' encoding='utf-8'?>
+<gexf xmlns="http://www.gexf.net/1.2draft" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.gexf.net/1.2draft http://www.gexf.net/1.2draft/gexf.xsd" version="1.2">
+  <meta lastmodifieddate="2026-10-16">
+    <creator>NetworkX 3.7</creator>
+  </meta>
+  <graph defaultedgetype="undirected" mode="static" name="">
+    <attributes mode="static" class="node">
+      <attribute id="0" title="lat" type="double" />
+      <attribute id="1" title="lon" type="double" />
+      <attribute id="2" title="total_kg" type="double" />
+      <attribute id="3" title="community" type="long" />
+      <attribute id="4" title="color_hex" type="string" />
+    </attributes>
+    <nodes>
+      <node id="Campeche.Calkiní" label="Calkiní">
+        <attvalues>
+          <attvalue for="0" value="20.2216414" />
+          <attvalue for="1" value="-90.0302662" />
+          <attvalue for="2" value="15.905899999999999" />
+          <attvalue for="3" value="1" />
+          <attvalue for="4" value="#eb6834" />
+        </attvalues>
+      </node>
+      <node id="Campeche.Campeche" label="Campeche">
+        <attvalues>
+          <attvalue for="0" value="19.5041331" />
+          <attvalue for="1" value="-90.3222737" />
+          <attvalue for="2" value="11544546919.79483" />
+          <attvalue for="3" value="0" />
+          <attvalue for="4" value="#2a78d6" />
+        </attvalues>
+      </node>
+      <node id="Campeche.Carmen" label="Carmen">
+        <attvalues>
+          <attvalue for="0" value="18.3816042" />
+          <attvalue for="1" value="-91.501122" />
+          <attvalue for="2" value="202550088945.66504" />
+          <attvalue for="3" value="0" />
+          <attvalue for="4" value="#2a78d6" />
+        </attvalues>
+      </node>
+      <node id="Campeche.Champotón" label="Champotón">
+        <attvalues>
+          <attvalue for="0" value="19.2122387" />
+          <attvalue for="1" value="-90.4326008" />
+          <attvalue for="2" value="407872143.7248" />
+          <attvalue for="3" value="0" />
+          <attvalue for="4" value="#2a78d6" />
+        </attvalues>
+      </node>
+      <node id="Campeche.Escárcega" label="Escárcega">
+        <attvalues>
+          <attvalue for="0" value="18.3615533" />
+          <attvalue for="1" value="-90.4355203" />
+          <attvalue for="2" value="29918800.0" />
+          <attvalue for="3" value="0" />
+          <attvalue for="4" value="#2a78d6" />
+        </attvalues>
+      </node>
+      <node id="Campeche.Hopelchén" label="Hopelchén">
+        <attvalues>
+          <attvalue for="0" value="19.4443973" />
+          <attvalue for="1" value="-89.5042157" />
+          <attvalue for="2" value="61.082300000000004" />
+          <attvalue for="3" value="1" />
+          <attvalue for="4" value="#eb6834" />
+        </attvalues>
+      </node>
+      <node id="Campeche.Palizada" label="Palizada">
+        <attvalues>
+          <attvalue for="0" value="18.1512954" />
+          <attvalue for="1" value="-92.0527246" />
+          <attvalue for="2" value="5019974036.426873" />
+          <attvalue for="3" value="0" />
+          <attvalue for="4" value="#2a78d6" />
+        </attvalues>
+      </node>
+      <node id="Campeche.Tenabo" label="Tenabo">
+        <attvalues>
+          <attvalue for="0" value="20.0222837" />
+          <attvalue for="1" value="-90.1332748" />
+          <attvalue for="2" value="13.2704" />
+          <attvalue for="3" value="1" />
+          <attvalue for="4" value="#eb6834" />
+        </attvalues>
+      </node>
+    </nodes>
+    <edges>
+      <edge source="Campeche.Calkiní" target="Campeche.Hopelchén" id="0" weight="0.9666886854335227" />
+      <edge source="Campeche.Calkiní" target="Campeche.Tenabo" id="1" weight="0.9999371687725707" />
+      <edge source="Campeche.Campeche" target="Campeche.Carmen" id="2" weight="0.8178136011099911" />
+      <edge source="Campeche.Campeche" target="Campeche.Champotón" id="3" weight="0.7247758546874051" />
+      <edge source="Campeche.Campeche" target="Campeche.Palizada" id="4" weight="0.713545483105575" />
+      <edge source="Campeche.Champotón" target="Campeche.Escárcega" id="5" weight="0.7637050020052715" />
+      <edge source="Campeche.Champotón" target="Campeche.Palizada" id="6" weight="0.8067016211251452" />
+      <edge source="Campeche.Escárcega" target="Campeche.Palizada" id="7" weight="0.789620113365933" />
+      <edge source="Campeche.Hopelchén" target="Campeche.Tenabo" id="8" weight="0.9662058119606437" />
+    </edges>
+  </graph>
+</gexf>

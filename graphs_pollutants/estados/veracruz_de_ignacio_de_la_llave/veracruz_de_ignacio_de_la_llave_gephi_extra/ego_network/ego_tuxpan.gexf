@@ -1,0 +1,903 @@
+<?xml version='1.0' encoding='utf-8'?>
+<gexf xmlns="http://www.gexf.net/1.2draft" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.gexf.net/1.2draft http://www.gexf.net/1.2draft/gexf.xsd" version="1.2">
+  <meta lastmodifieddate="2026-10-16">
+    <creator>NetworkX 3.7</creator>
+  </meta>
+  <graph defaultedgetype="undirected" mode="static" name="">
+    <attributes mode="static" class="node">
+      <attribute id="0" title="role" type="string" />
+      <attribute id="1" title="total_kg" type="double" />
+    </attributes>
+    <nodes>
+      <node id="Veracruz de Ignacio de la Llave.Tuxpan" label="Veracruz de Ignacio de la Llave.Tuxpan">
+        <attvalues>
+          <attvalue for="0" value="focal" />
+          <attvalue for="1" value="167533543133.5644" />
+        </attvalues>
+      </node>
+      <node id="Bióxido de carbono" label="Carbon dioxide">
+        <attvalues>
+          <attvalue for="0" value="substance" />
+          <attvalue for="1" value="167518974910.76755" />
+        </attvalues>
+      </node>
+      <node id="Bióxido de nitrógeno" label="Nitrogen dioxide">
+        <attvalues>
+          <attvalue for="0" value="substance" />
+          <attvalue for="1" value="10662833.316" />
+        </attvalues>
+      </node>
+      <node id="Metano" label="Methane">
+        <attvalues>
+          <attvalue for="0" value="substance" />
+          <attvalue for="1" value="2154619.1635300005" />
+        </attvalues>
+      </node>
+      <node id="Cromo (Compuestos solubles)" label="Chromium (soluble compounds)">
+        <attvalues>
+          <attvalue for="0" value="substance" />
+          <attvalue for="1" value="389125.0364" />
+        </attvalues>
+      </node>
+      <node id="Níquel (Compuestos solubles)" label="Nickel (soluble compounds)">
+        <attvalues>
+          <attvalue for="0" value="substance" />
+          <attvalue for="1" value="377511.31717644003" />
+        </attvalues>
+      </node>
+      <node id="Formaldehido" label="Formaldehyde">
+        <attvalues>
+          <attvalue for="0" value="substance" />
+          <attvalue for="1" value="235154.73536796495" />
+        </attvalues>
+      </node>
+      <node id="Níquel (compuestos)" label="Nickel (compounds)">
+        <attvalues>
+          <attvalue for="0" value="substance" />
+          <attvalue for="1" value="184580.82260869336" />
+        </attvalues>
+      </node>
+      <node id="Plomo (Compuestos solubles)" label="Lead (soluble compounds)">
+        <attvalues>
+          <attvalue for="0" value="substance" />
+          <attvalue for="1" value="138551.22082692" />
+        </attvalues>
+      </node>
+      <node id="Cianuro inorgánico/orgánico" label="Inorganic/organic cyanide">
+        <attvalues>
+          <attvalue for="0" value="substance" />
+          <attvalue for="1" value="103851.60365548123" />
+        </attvalues>
+      </node>
+      <node id="Plomo (compuestos)" label="Lead (compounds)">
+        <attvalues>
+          <attvalue for="0" value="substance" />
+          <attvalue for="1" value="96149.2946153882" />
+        </attvalues>
+      </node>
+      <node id="Cadmio (Compuestos solubles)" label="Cadmium (soluble compounds)">
+        <attvalues>
+          <attvalue for="0" value="substance" />
+          <attvalue for="1" value="64135.2147" />
+        </attvalues>
+      </node>
+      <node id="Cadmio (polvos, respirables, vapores o humos)" label="Cadmium (respirable dust, vapors or fumes)">
+        <attvalues>
+          <attvalue for="0" value="substance" />
+          <attvalue for="1" value="61879.200048121405" />
+        </attvalues>
+      </node>
+      <node id="Oxido nitroso" label="Nitrous oxide">
+        <attvalues>
+          <attvalue for="0" value="substance" />
+          <attvalue for="1" value="24289.93" />
+        </attvalues>
+      </node>
+      <node id="Cadmio (compuestos)" label="Cadmium (compounds)">
+        <attvalues>
+          <attvalue for="0" value="substance" />
+          <attvalue for="1" value="19973.697067215802" />
+        </attvalues>
+      </node>
+      <node id="Arsénico (Compuestos solubles)" label="Arsenic (soluble compounds)">
+        <attvalues>
+          <attvalue for="0" value="substance" />
+          <attvalue for="1" value="19308.6706" />
+        </attvalues>
+      </node>
+      <node id="Veracruz de Ignacio de la Llave.Veracruz" label="Veracruz de Ignacio de la Llave.Veracruz">
+        <attvalues>
+          <attvalue for="0" value="peer_municipio" />
+          <attvalue for="1" value="19339351766.91016" />
+        </attvalues>
+      </node>
+      <node id="Veracruz de Ignacio de la Llave.Cosoleacaque" label="Veracruz de Ignacio de la Llave.Cosoleacaque">
+        <attvalues>
+          <attvalue for="0" value="peer_municipio" />
+          <attvalue for="1" value="28502850173.565132" />
+        </attvalues>
+      </node>
+      <node id="Veracruz de Ignacio de la Llave.Coatzacoalcos" label="Veracruz de Ignacio de la Llave.Coatzacoalcos">
+        <attvalues>
+          <attvalue for="0" value="peer_municipio" />
+          <attvalue for="1" value="64341990236.33898" />
+        </attvalues>
+      </node>
+      <node id="Veracruz de Ignacio de la Llave.Orizaba" label="Veracruz de Ignacio de la Llave.Orizaba">
+        <attvalues>
+          <attvalue for="0" value="peer_municipio" />
+          <attvalue for="1" value="2112623219.6510048" />
+        </attvalues>
+      </node>
+      <node id="Veracruz de Ignacio de la Llave.Minatitlán" label="Veracruz de Ignacio de la Llave.Minatitlán">
+        <attvalues>
+          <attvalue for="0" value="peer_municipio" />
+          <attvalue for="1" value="17318920813.56337" />
+        </attvalues>
+      </node>
+      <node id="Veracruz de Ignacio de la Llave.Coatzintla" label="Veracruz de Ignacio de la Llave.Coatzintla">
+        <attvalues>
+          <attvalue for="0" value="peer_municipio" />
+          <attvalue for="1" value="1704.4138768779499" />
+        </attvalues>
+      </node>
+      <node id="Veracruz de Ignacio de la Llave.Pánuco" label="Veracruz de Ignacio de la Llave.Pánuco">
+        <attvalues>
+          <attvalue for="0" value="peer_municipio" />
+          <attvalue for="1" value="4328375187.849682" />
+        </attvalues>
+      </node>
+      <node id="Veracruz de Ignacio de la Llave.Tres Valles" label="Veracruz de Ignacio de la Llave.Tres Valles">
+        <attvalues>
+          <attvalue for="0" value="peer_municipio" />
+          <attvalue for="1" value="2036005774.6969464" />
+        </attvalues>
+      </node>
+      <node id="Veracruz de Ignacio de la Llave.Poza Rica de Hidalgo" label="Veracruz de Ignacio de la Llave.Poza Rica de Hidalgo">
+        <attvalues>
+          <attvalue for="0" value="peer_municipio" />
+          <attvalue for="1" value="12231839944.706818" />
+        </attvalues>
+      </node>
+      <node id="Veracruz de Ignacio de la Llave.Nanchital de Lázaro Cárdenas del Río" label="Veracruz de Ignacio de la Llave.Nanchital de Lázaro Cárdenas del Río">
+        <attvalues>
+          <attvalue for="0" value="peer_municipio" />
+          <attvalue for="1" value="1025768240.5415603" />
+        </attvalues>
+      </node>
+      <node id="Veracruz de Ignacio de la Llave.Coatepec" label="Veracruz de Ignacio de la Llave.Coatepec">
+        <attvalues>
+          <attvalue for="0" value="peer_municipio" />
+          <attvalue for="1" value="1103471868.1051998" />
+        </attvalues>
+      </node>
+      <node id="Veracruz de Ignacio de la Llave.Xalapa" label="Veracruz de Ignacio de la Llave.Xalapa">
+        <attvalues>
+          <attvalue for="0" value="peer_municipio" />
+          <attvalue for="1" value="1973384050.3390188" />
+        </attvalues>
+      </node>
+      <node id="Veracruz de Ignacio de la Llave.Tierra Blanca" label="Veracruz de Ignacio de la Llave.Tierra Blanca">
+        <attvalues>
+          <attvalue for="0" value="peer_municipio" />
+          <attvalue for="1" value="1197263629.8037639" />
+        </attvalues>
+      </node>
+      <node id="Veracruz de Ignacio de la Llave.Ixhuatlán del Sureste" label="Veracruz de Ignacio de la Llave.Ixhuatlán del Sureste">
+        <attvalues>
+          <attvalue for="0" value="peer_municipio" />
+          <attvalue for="1" value="8808053.156585379" />
+        </attvalues>
+      </node>
+      <node id="Veracruz de Ignacio de la Llave.Pueblo Viejo" label="Veracruz de Ignacio de la Llave.Pueblo Viejo">
+        <attvalues>
+          <attvalue for="0" value="peer_municipio" />
+          <attvalue for="1" value="11495534.6112025" />
+        </attvalues>
+      </node>
+      <node id="Veracruz de Ignacio de la Llave.Ixtaczoquitlán" label="Veracruz de Ignacio de la Llave.Ixtaczoquitlán">
+        <attvalues>
+          <attvalue for="0" value="peer_municipio" />
+          <attvalue for="1" value="8969525980.49793" />
+        </attvalues>
+      </node>
+      <node id="Veracruz de Ignacio de la Llave.Amatlán de los Reyes" label="Veracruz de Ignacio de la Llave.Amatlán de los Reyes">
+        <attvalues>
+          <attvalue for="0" value="peer_municipio" />
+          <attvalue for="1" value="118832008.963146" />
+        </attvalues>
+      </node>
+      <node id="Veracruz de Ignacio de la Llave.Córdoba" label="Veracruz de Ignacio de la Llave.Córdoba">
+        <attvalues>
+          <attvalue for="0" value="peer_municipio" />
+          <attvalue for="1" value="380771245.24551773" />
+        </attvalues>
+      </node>
+      <node id="Veracruz de Ignacio de la Llave.Jáltipan" label="Veracruz de Ignacio de la Llave.Jáltipan">
+        <attvalues>
+          <attvalue for="0" value="peer_municipio" />
+          <attvalue for="1" value="24886218.8102012" />
+        </attvalues>
+      </node>
+      <node id="Veracruz de Ignacio de la Llave.Tlalnelhuayocan" label="Veracruz de Ignacio de la Llave.Tlalnelhuayocan">
+        <attvalues>
+          <attvalue for="0" value="peer_municipio" />
+          <attvalue for="1" value="67826918.02752328" />
+        </attvalues>
+      </node>
+      <node id="Veracruz de Ignacio de la Llave.Carlos A" label="Veracruz de Ignacio de la Llave.Carlos A">
+        <attvalues>
+          <attvalue for="0" value="peer_municipio" />
+          <attvalue for="1" value="2418206045.029198" />
+        </attvalues>
+      </node>
+      <node id="Veracruz de Ignacio de la Llave.Lerdo de Tejada" label="Veracruz de Ignacio de la Llave.Lerdo de Tejada">
+        <attvalues>
+          <attvalue for="0" value="peer_municipio" />
+          <attvalue for="1" value="7810460.586755226" />
+        </attvalues>
+      </node>
+      <node id="Veracruz de Ignacio de la Llave.Las Choapas" label="Veracruz de Ignacio de la Llave.Las Choapas">
+        <attvalues>
+          <attvalue for="0" value="peer_municipio" />
+          <attvalue for="1" value="762777240.4240968" />
+        </attvalues>
+      </node>
+      <node id="Veracruz de Ignacio de la Llave.Tihuatlán" label="Veracruz de Ignacio de la Llave.Tihuatlán">
+        <attvalues>
+          <attvalue for="0" value="peer_municipio" />
+          <attvalue for="1" value="2451902894.6707573" />
+        </attvalues>
+      </node>
+      <node id="Veracruz de Ignacio de la Llave.Cerro Azul" label="Veracruz de Ignacio de la Llave.Cerro Azul">
+        <attvalues>
+          <attvalue for="0" value="peer_municipio" />
+          <attvalue for="1" value="3025386950.9681983" />
+        </attvalues>
+      </node>
+      <node id="Veracruz de Ignacio de la Llave.Agua Dulce" label="Veracruz de Ignacio de la Llave.Agua Dulce">
+        <attvalues>
+          <attvalue for="0" value="peer_municipio" />
+          <attvalue for="1" value="1160447454.8886201" />
+        </attvalues>
+      </node>
+      <node id="Veracruz de Ignacio de la Llave.Cuitláhuac" label="Veracruz de Ignacio de la Llave.Cuitláhuac">
+        <attvalues>
+          <attvalue for="0" value="peer_municipio" />
+          <attvalue for="1" value="196176452.2479" />
+        </attvalues>
+      </node>
+      <node id="Veracruz de Ignacio de la Llave.Tezonapa" label="Veracruz de Ignacio de la Llave.Tezonapa">
+        <attvalues>
+          <attvalue for="0" value="peer_municipio" />
+          <attvalue for="1" value="1479.087547394" />
+        </attvalues>
+      </node>
+      <node id="Veracruz de Ignacio de la Llave.Medellín de Bravo" label="Veracruz de Ignacio de la Llave.Medellín de Bravo">
+        <attvalues>
+          <attvalue for="0" value="peer_municipio" />
+          <attvalue for="1" value="8790976952.188807" />
+        </attvalues>
+      </node>
+      <node id="Veracruz de Ignacio de la Llave.Alvarado" label="Veracruz de Ignacio de la Llave.Alvarado">
+        <attvalues>
+          <attvalue for="0" value="peer_municipio" />
+          <attvalue for="1" value="100399.12213239999" />
+        </attvalues>
+      </node>
+      <node id="Veracruz de Ignacio de la Llave.Hueyapan de Ocampo" label="Veracruz de Ignacio de la Llave.Hueyapan de Ocampo">
+        <attvalues>
+          <attvalue for="0" value="peer_municipio" />
+          <attvalue for="1" value="701579229.5961018" />
+        </attvalues>
+      </node>
+      <node id="Veracruz de Ignacio de la Llave.Acayucan" label="Veracruz de Ignacio de la Llave.Acayucan">
+        <attvalues>
+          <attvalue for="0" value="peer_municipio" />
+          <attvalue for="1" value="51251354.0317574" />
+        </attvalues>
+      </node>
+      <node id="Veracruz de Ignacio de la Llave.Alto Lucero de Gutiérrez Barrios" label="Veracruz de Ignacio de la Llave.Alto Lucero de Gutiérrez Barrios">
+        <attvalues>
+          <attvalue for="0" value="peer_municipio" />
+          <attvalue for="1" value="2967159.6782" />
+        </attvalues>
+      </node>
+      <node id="Veracruz de Ignacio de la Llave.Chinameca" label="Veracruz de Ignacio de la Llave.Chinameca">
+        <attvalues>
+          <attvalue for="0" value="peer_municipio" />
+          <attvalue for="1" value="153438425.31624424" />
+        </attvalues>
+      </node>
+      <node id="Veracruz de Ignacio de la Llave.Boca del Río" label="Veracruz de Ignacio de la Llave.Boca del Río">
+        <attvalues>
+          <attvalue for="0" value="peer_municipio" />
+          <attvalue for="1" value="4820085018.410188" />
+        </attvalues>
+      </node>
+      <node id="Veracruz de Ignacio de la Llave.Perote" label="Veracruz de Ignacio de la Llave.Perote">
+        <attvalues>
+          <attvalue for="0" value="peer_municipio" />
+          <attvalue for="1" value="481529208.95936203" />
+        </attvalues>
+      </node>
+      <node id="Veracruz de Ignacio de la Llave.Álamo Temapache" label="Veracruz de Ignacio de la Llave.Álamo Temapache">
+        <attvalues>
+          <attvalue for="0" value="peer_municipio" />
+          <attvalue for="1" value="33584.37482367999" />
+        </attvalues>
+      </node>
+      <node id="Veracruz de Ignacio de la Llave.Atoyac" label="Veracruz de Ignacio de la Llave.Atoyac">
+        <attvalues>
+          <attvalue for="0" value="peer_municipio" />
+          <attvalue for="1" value="33671.308438" />
+        </attvalues>
+      </node>
+      <node id="Veracruz de Ignacio de la Llave.Cuichapa" label="Veracruz de Ignacio de la Llave.Cuichapa">
+        <attvalues>
+          <attvalue for="0" value="peer_municipio" />
+          <attvalue for="1" value="305996043.98514897" />
+        </attvalues>
+      </node>
+      <node id="Veracruz de Ignacio de la Llave.Moloacán" label="Veracruz de Ignacio de la Llave.Moloacán">
+        <attvalues>
+          <attvalue for="0" value="peer_municipio" />
+          <attvalue for="1" value="3283189339.785029" />
+        </attvalues>
+      </node>
+      <node id="Veracruz de Ignacio de la Llave.San Rafael" label="Veracruz de Ignacio de la Llave.San Rafael">
+        <attvalues>
+          <attvalue for="0" value="peer_municipio" />
+          <attvalue for="1" value="5447620.905949" />
+        </attvalues>
+      </node>
+      <node id="Veracruz de Ignacio de la Llave.Tantoyuca" label="Veracruz de Ignacio de la Llave.Tantoyuca">
+        <attvalues>
+          <attvalue for="0" value="peer_municipio" />
+          <attvalue for="1" value="25047.55605" />
+        </attvalues>
+      </node>
+      <node id="Veracruz de Ignacio de la Llave.Ursulo Galván" label="Veracruz de Ignacio de la Llave.Ursulo Galván">
+        <attvalues>
+          <attvalue for="0" value="peer_municipio" />
+          <attvalue for="1" value="212810718.00459376" />
+        </attvalues>
+      </node>
+      <node id="Veracruz de Ignacio de la Llave.Apazapan" label="Veracruz de Ignacio de la Llave.Apazapan">
+        <attvalues>
+          <attvalue for="0" value="peer_municipio" />
+          <attvalue for="1" value="10221861276.661524" />
+        </attvalues>
+      </node>
+      <node id="Veracruz de Ignacio de la Llave.La Antigua" label="Veracruz de Ignacio de la Llave.La Antigua">
+        <attvalues>
+          <attvalue for="0" value="peer_municipio" />
+          <attvalue for="1" value="964524505.9448" />
+        </attvalues>
+      </node>
+      <node id="Veracruz de Ignacio de la Llave.Paso del Macho" label="Veracruz de Ignacio de la Llave.Paso del Macho">
+        <attvalues>
+          <attvalue for="0" value="peer_municipio" />
+          <attvalue for="1" value="587.5541524" />
+        </attvalues>
+      </node>
+      <node id="Veracruz de Ignacio de la Llave.Jalacingo" label="Veracruz de Ignacio de la Llave.Jalacingo">
+        <attvalues>
+          <attvalue for="0" value="peer_municipio" />
+          <attvalue for="1" value="302.835637" />
+        </attvalues>
+      </node>
+    </nodes>
+    <edges>
+      <edge source="Veracruz de Ignacio de la Llave.Tuxpan" target="Bióxido de carbono" id="0" weight="167518974910.76755" />
+      <edge source="Veracruz de Ignacio de la Llave.Tuxpan" target="Bióxido de nitrógeno" id="1" weight="10662833.316" />
+      <edge source="Veracruz de Ignacio de la Llave.Tuxpan" target="Metano" id="2" weight="2154619.1635300005" />
+      <edge source="Veracruz de Ignacio de la Llave.Tuxpan" target="Cromo (Compuestos solubles)" id="3" weight="389125.0364" />
+      <edge source="Veracruz de Ignacio de la Llave.Tuxpan" target="Níquel (Compuestos solubles)" id="4" weight="377511.31717644003" />
+      <edge source="Veracruz de Ignacio de la Llave.Tuxpan" target="Formaldehido" id="5" weight="235154.73536796495" />
+      <edge source="Veracruz de Ignacio de la Llave.Tuxpan" target="Níquel (compuestos)" id="6" weight="184580.82260869336" />
+      <edge source="Veracruz de Ignacio de la Llave.Tuxpan" target="Plomo (Compuestos solubles)" id="7" weight="138551.22082692" />
+      <edge source="Veracruz de Ignacio de la Llave.Tuxpan" target="Cianuro inorgánico/orgánico" id="8" weight="103851.60365548123" />
+      <edge source="Veracruz de Ignacio de la Llave.Tuxpan" target="Plomo (compuestos)" id="9" weight="96149.2946153882" />
+      <edge source="Veracruz de Ignacio de la Llave.Tuxpan" target="Cadmio (Compuestos solubles)" id="10" weight="64135.2147" />
+      <edge source="Veracruz de Ignacio de la Llave.Tuxpan" target="Cadmio (polvos, respirables, vapores o humos)" id="11" weight="61879.200048121405" />
+      <edge source="Veracruz de Ignacio de la Llave.Tuxpan" target="Oxido nitroso" id="12" weight="24289.93" />
+      <edge source="Veracruz de Ignacio de la Llave.Tuxpan" target="Cadmio (compuestos)" id="13" weight="19973.697067215802" />
+      <edge source="Veracruz de Ignacio de la Llave.Tuxpan" target="Arsénico (Compuestos solubles)" id="14" weight="19308.6706" />
+      <edge source="Bióxido de carbono" target="Veracruz de Ignacio de la Llave.Veracruz" id="15" weight="19320224713.188683" />
+      <edge source="Bióxido de carbono" target="Veracruz de Ignacio de la Llave.Cosoleacaque" id="16" weight="28488383980.235" />
+      <edge source="Bióxido de carbono" target="Veracruz de Ignacio de la Llave.Coatzacoalcos" id="17" weight="64336561654.02124" />
+      <edge source="Bióxido de carbono" target="Veracruz de Ignacio de la Llave.Orizaba" id="18" weight="2104550111.7000082" />
+      <edge source="Bióxido de carbono" target="Veracruz de Ignacio de la Llave.Minatitlán" id="19" weight="17023389643.822634" />
+      <edge source="Bióxido de carbono" target="Veracruz de Ignacio de la Llave.Coatzintla" id="20" weight="1691.1" />
+      <edge source="Bióxido de carbono" target="Veracruz de Ignacio de la Llave.Pánuco" id="21" weight="4324644946.892005" />
+      <edge source="Bióxido de carbono" target="Veracruz de Ignacio de la Llave.Tres Valles" id="22" weight="2027231322.7" />
+      <edge source="Bióxido de carbono" target="Veracruz de Ignacio de la Llave.Poza Rica de Hidalgo" id="23" weight="12063362296.543894" />
+      <edge source="Bióxido de carbono" target="Veracruz de Ignacio de la Llave.Nanchital de Lázaro Cárdenas del Río" id="24" weight="1025767690.0" />
+      <edge source="Bióxido de carbono" target="Veracruz de Ignacio de la Llave.Coatepec" id="25" weight="1103469933.701194" />
+      <edge source="Bióxido de carbono" target="Veracruz de Ignacio de la Llave.Xalapa" id="26" weight="1973375076.185867" />
+      <edge source="Bióxido de carbono" target="Veracruz de Ignacio de la Llave.Tierra Blanca" id="27" weight="1190788541.7825" />
+      <edge source="Bióxido de carbono" target="Veracruz de Ignacio de la Llave.Ixhuatlán del Sureste" id="28" weight="8545622.47984458" />
+      <edge source="Bióxido de carbono" target="Veracruz de Ignacio de la Llave.Pueblo Viejo" id="29" weight="11495527.922850002" />
+      <edge source="Bióxido de carbono" target="Veracruz de Ignacio de la Llave.Ixtaczoquitlán" id="30" weight="8966177531.807934" />
+      <edge source="Bióxido de carbono" target="Veracruz de Ignacio de la Llave.Amatlán de los Reyes" id="31" weight="118829837.87921259" />
+      <edge source="Bióxido de carbono" target="Veracruz de Ignacio de la Llave.Córdoba" id="32" weight="380762636.6856" />
+      <edge source="Bióxido de carbono" target="Veracruz de Ignacio de la Llave.Jáltipan" id="33" weight="24885220.0" />
+      <edge source="Bióxido de carbono" target="Veracruz de Ignacio de la Llave.Tlalnelhuayocan" id="34" weight="67826359.8517" />
+      <edge source="Bióxido de carbono" target="Veracruz de Ignacio de la Llave.Carlos A" id="35" weight="2417097695.32" />
+      <edge source="Bióxido de carbono" target="Veracruz de Ignacio de la Llave.Lerdo de Tejada" id="36" weight="7789160.0" />
+      <edge source="Bióxido de carbono" target="Veracruz de Ignacio de la Llave.Las Choapas" id="37" weight="748318535.2743999" />
+      <edge source="Bióxido de carbono" target="Veracruz de Ignacio de la Llave.Tihuatlán" id="38" weight="2451902313.32" />
+      <edge source="Bióxido de carbono" target="Veracruz de Ignacio de la Llave.Cerro Azul" id="39" weight="3000586474.7333984" />
+      <edge source="Bióxido de carbono" target="Veracruz de Ignacio de la Llave.Agua Dulce" id="40" weight="1132735059.581" />
+      <edge source="Bióxido de carbono" target="Veracruz de Ignacio de la Llave.Cuitláhuac" id="41" weight="196160341.25" />
+      <edge source="Bióxido de carbono" target="Veracruz de Ignacio de la Llave.Medellín de Bravo" id="42" weight="8743130745.000067" />
+      <edge source="Bióxido de carbono" target="Veracruz de Ignacio de la Llave.Alvarado" id="43" weight="94383.2" />
+      <edge source="Bióxido de carbono" target="Veracruz de Ignacio de la Llave.Hueyapan de Ocampo" id="44" weight="701577904.0" />
+      <edge source="Bióxido de carbono" target="Veracruz de Ignacio de la Llave.Acayucan" id="45" weight="49948407.4" />
+      <edge source="Bióxido de carbono" target="Veracruz de Ignacio de la Llave.Chinameca" id="46" weight="153438310.00008625" />
+      <edge source="Bióxido de carbono" target="Veracruz de Ignacio de la Llave.Boca del Río" id="47" weight="2989415485.666389" />
+      <edge source="Bióxido de carbono" target="Veracruz de Ignacio de la Llave.Perote" id="48" weight="481529142.074011" />
+      <edge source="Bióxido de carbono" target="Veracruz de Ignacio de la Llave.Álamo Temapache" id="49" weight="759.0932" />
+      <edge source="Bióxido de carbono" target="Veracruz de Ignacio de la Llave.Cuichapa" id="50" weight="305982679.9" />
+      <edge source="Bióxido de carbono" target="Veracruz de Ignacio de la Llave.Moloacán" id="51" weight="3276909932.8280005" />
+      <edge source="Bióxido de carbono" target="Veracruz de Ignacio de la Llave.San Rafael" id="52" weight="5445510.0" />
+      <edge source="Bióxido de carbono" target="Veracruz de Ignacio de la Llave.Tantoyuca" id="53" weight="492.144" />
+      <edge source="Bióxido de carbono" target="Veracruz de Ignacio de la Llave.Ursulo Galván" id="54" weight="212053600.0" />
+      <edge source="Bióxido de carbono" target="Veracruz de Ignacio de la Llave.Apazapan" id="55" weight="10221858386.9" />
+      <edge source="Bióxido de carbono" target="Veracruz de Ignacio de la Llave.La Antigua" id="56" weight="964523847.0" />
+      <edge source="Bióxido de carbono" target="Veracruz de Ignacio de la Llave.Paso del Macho" id="57" weight="31.06" />
+      <edge source="Bióxido de nitrógeno" target="Veracruz de Ignacio de la Llave.Veracruz" id="58" weight="4962949.000007228" />
+      <edge source="Bióxido de nitrógeno" target="Veracruz de Ignacio de la Llave.Cosoleacaque" id="59" weight="3356510.0" />
+      <edge source="Bióxido de nitrógeno" target="Veracruz de Ignacio de la Llave.Coatzacoalcos" id="60" weight="419375.0" />
+      <edge source="Bióxido de nitrógeno" target="Veracruz de Ignacio de la Llave.Minatitlán" id="61" weight="660720.91" />
+      <edge source="Bióxido de nitrógeno" target="Veracruz de Ignacio de la Llave.Poza Rica de Hidalgo" id="62" weight="80166865.60796" />
+      <edge source="Bióxido de nitrógeno" target="Veracruz de Ignacio de la Llave.Tierra Blanca" id="63" weight="2257463.0" />
+      <edge source="Bióxido de nitrógeno" target="Veracruz de Ignacio de la Llave.Ixtaczoquitlán" id="64" weight="2595026.4" />
+      <edge source="Bióxido de nitrógeno" target="Veracruz de Ignacio de la Llave.Amatlán de los Reyes" id="65" weight="1714.84" />
+      <edge source="Bióxido de nitrógeno" target="Veracruz de Ignacio de la Llave.Cerro Azul" id="66" weight="583658.1" />
+      <edge source="Bióxido de nitrógeno" target="Veracruz de Ignacio de la Llave.Medellín de Bravo" id="67" weight="47022712.0" />
+      <edge source="Bióxido de nitrógeno" target="Veracruz de Ignacio de la Llave.Boca del Río" id="68" weight="1071360.0" />
+      <edge source="Bióxido de nitrógeno" target="Veracruz de Ignacio de la Llave.Ursulo Galván" id="69" weight="752970.0" />
+      <edge source="Metano" target="Veracruz de Ignacio de la Llave.Veracruz" id="70" weight="13971402.041600013" />
+      <edge source="Metano" target="Veracruz de Ignacio de la Llave.Cosoleacaque" id="71" weight="11019106.540000001" />
+      <edge source="Metano" target="Veracruz de Ignacio de la Llave.Coatzacoalcos" id="72" weight="1859947.2771100001" />
+      <edge source="Metano" target="Veracruz de Ignacio de la Llave.Orizaba" id="73" weight="6342969.562769" />
+      <edge source="Metano" target="Veracruz de Ignacio de la Llave.Minatitlán" id="74" weight="291281376.0896" />
+      <edge source="Metano" target="Veracruz de Ignacio de la Llave.Pánuco" id="75" weight="3724938.772143665" />
+      <edge source="Metano" target="Veracruz de Ignacio de la Llave.Tres Valles" id="76" weight="8755488.2" />
+      <edge source="Metano" target="Veracruz de Ignacio de la Llave.Poza Rica de Hidalgo" id="77" weight="72924760.40730003" />
+      <edge source="Metano" target="Veracruz de Ignacio de la Llave.Tierra Blanca" id="78" weight="4196736.3159" />
+      <edge source="Metano" target="Veracruz de Ignacio de la Llave.Ixtaczoquitlán" id="79" weight="560820.14" />
+      <edge source="Metano" target="Veracruz de Ignacio de la Llave.Carlos A" id="80" weight="1088554.9" />
+      <edge source="Metano" target="Veracruz de Ignacio de la Llave.Las Choapas" id="81" weight="14458704.600915" />
+      <edge source="Metano" target="Veracruz de Ignacio de la Llave.Cerro Azul" id="82" weight="24216771.432000015" />
+      <edge source="Metano" target="Veracruz de Ignacio de la Llave.Agua Dulce" id="83" weight="27712286.843404002" />
+      <edge source="Metano" target="Veracruz de Ignacio de la Llave.Medellín de Bravo" id="84" weight="422260.0" />
+      <edge source="Metano" target="Veracruz de Ignacio de la Llave.Alvarado" id="85" weight="57.4" />
+      <edge source="Metano" target="Veracruz de Ignacio de la Llave.Acayucan" id="86" weight="1302767.0" />
+      <edge source="Metano" target="Veracruz de Ignacio de la Llave.Boca del Río" id="87" weight="1829004213.3009999" />
+      <edge source="Metano" target="Veracruz de Ignacio de la Llave.Moloacán" id="88" weight="6279406.94822" />
+      <edge source="Metano" target="Veracruz de Ignacio de la Llave.Tantoyuca" id="89" weight="24555.357" />
+      <edge source="Cromo (Compuestos solubles)" target="Veracruz de Ignacio de la Llave.Veracruz" id="90" weight="14635.906388620004" />
+      <edge source="Cromo (Compuestos solubles)" target="Veracruz de Ignacio de la Llave.Cosoleacaque" id="91" weight="546.2608419000001" />
+      <edge source="Cromo (Compuestos solubles)" target="Veracruz de Ignacio de la Llave.Coatzacoalcos" id="92" weight="39828.96257519997" />
+      <edge source="Cromo (Compuestos solubles)" target="Veracruz de Ignacio de la Llave.Orizaba" id="93" weight="2002.4638727699996" />
+      <edge source="Cromo (Compuestos solubles)" target="Veracruz de Ignacio de la Llave.Minatitlán" id="94" weight="817.82511702395" />
+      <edge source="Cromo (Compuestos solubles)" target="Veracruz de Ignacio de la Llave.Coatzintla" id="95" weight="4.8e-08" />
+      <edge source="Cromo (Compuestos solubles)" target="Veracruz de Ignacio de la Llave.Pánuco" id="96" weight="1118.9682" />
+      <edge source="Cromo (Compuestos solubles)" target="Veracruz de Ignacio de la Llave.Tres Valles" id="97" weight="2978.1556565000005" />
+      <edge source="Cromo (Compuestos solubles)" target="Veracruz de Ignacio de la Llave.Poza Rica de Hidalgo" id="98" weight="215.9365" />
+      <edge source="Cromo (Compuestos solubles)" target="Veracruz de Ignacio de la Llave.Nanchital de Lázaro Cárdenas del Río" id="99" weight="173.22994500000004" />
+      <edge source="Cromo (Compuestos solubles)" target="Veracruz de Ignacio de la Llave.Coatepec" id="100" weight="266.61391949559993" />
+      <edge source="Cromo (Compuestos solubles)" target="Veracruz de Ignacio de la Llave.Xalapa" id="101" weight="58.594274000000006" />
+      <edge source="Cromo (Compuestos solubles)" target="Veracruz de Ignacio de la Llave.Tierra Blanca" id="102" weight="142.874146" />
+      <edge source="Cromo (Compuestos solubles)" target="Veracruz de Ignacio de la Llave.Ixhuatlán del Sureste" id="103" weight="24.0" />
+      <edge source="Cromo (Compuestos solubles)" target="Veracruz de Ignacio de la Llave.Ixtaczoquitlán" id="104" weight="1129.3879" />
+      <edge source="Cromo (Compuestos solubles)" target="Veracruz de Ignacio de la Llave.Amatlán de los Reyes" id="105" weight="56.2328" />
+      <edge source="Cromo (Compuestos solubles)" target="Veracruz de Ignacio de la Llave.Córdoba" id="106" weight="100.89039999999999" />
+      <edge source="Cromo (Compuestos solubles)" target="Veracruz de Ignacio de la Llave.Jáltipan" id="107" weight="26.00845" />
+      <edge source="Cromo (Compuestos solubles)" target="Veracruz de Ignacio de la Llave.Carlos A" id="108" weight="1657.7821" />
+      <edge source="Cromo (Compuestos solubles)" target="Veracruz de Ignacio de la Llave.Lerdo de Tejada" id="109" weight="3514.8985000000002" />
+      <edge source="Cromo (Compuestos solubles)" target="Veracruz de Ignacio de la Llave.Tihuatlán" id="110" weight="177.3287" />
+      <edge source="Cromo (Compuestos solubles)" target="Veracruz de Ignacio de la Llave.Cerro Azul" id="111" weight="8.91" />
+      <edge source="Cromo (Compuestos solubles)" target="Veracruz de Ignacio de la Llave.Agua Dulce" id="112" weight="36.0687" />
+      <edge source="Cromo (Compuestos solubles)" target="Veracruz de Ignacio de la Llave.Cuitláhuac" id="113" weight="2271.4057000000003" />
+      <edge source="Cromo (Compuestos solubles)" target="Veracruz de Ignacio de la Llave.Tezonapa" id="114" weight="484.0161999999999" />
+      <edge source="Cromo (Compuestos solubles)" target="Veracruz de Ignacio de la Llave.Medellín de Bravo" id="115" weight="191.22789999999998" />
+      <edge source="Cromo (Compuestos solubles)" target="Veracruz de Ignacio de la Llave.Hueyapan de Ocampo" id="116" weight="397.56475800000004" />
+      <edge source="Cromo (Compuestos solubles)" target="Veracruz de Ignacio de la Llave.Acayucan" id="117" weight="31.5671" />
+      <edge source="Cromo (Compuestos solubles)" target="Veracruz de Ignacio de la Llave.Alto Lucero de Gutiérrez Barrios" id="118" weight="1149740.98" />
+      <edge source="Cromo (Compuestos solubles)" target="Veracruz de Ignacio de la Llave.Chinameca" id="119" weight="29.064200000000003" />
+      <edge source="Cromo (Compuestos solubles)" target="Veracruz de Ignacio de la Llave.Boca del Río" id="120" weight="8.3445" />
+      <edge source="Cromo (Compuestos solubles)" target="Veracruz de Ignacio de la Llave.Perote" id="121" weight="15.151900000000001" />
+      <edge source="Cromo (Compuestos solubles)" target="Veracruz de Ignacio de la Llave.Álamo Temapache" id="122" weight="2.3325" />
+      <edge source="Cromo (Compuestos solubles)" target="Veracruz de Ignacio de la Llave.Atoyac" id="123" weight="5457.6204" />
+      <edge source="Cromo (Compuestos solubles)" target="Veracruz de Ignacio de la Llave.Cuichapa" id="124" weight="3039.3922" />
+      <edge source="Cromo (Compuestos solubles)" target="Veracruz de Ignacio de la Llave.Ursulo Galván" id="125" weight="891.5132" />
+      <edge source="Cromo (Compuestos solubles)" target="Veracruz de Ignacio de la Llave.Apazapan" id="126" weight="53.7615" />
+      <edge source="Cromo (Compuestos solubles)" target="Veracruz de Ignacio de la Llave.La Antigua" id="127" weight="46.1878" />
+      <edge source="Cromo (Compuestos solubles)" target="Veracruz de Ignacio de la Llave.Jalacingo" id="128" weight="111.2177" />
+      <edge source="Níquel (Compuestos solubles)" target="Veracruz de Ignacio de la Llave.Veracruz" id="129" weight="33790.19817153997" />
+      <edge source="Níquel (Compuestos solubles)" target="Veracruz de Ignacio de la Llave.Cosoleacaque" id="130" weight="807.9583875999999" />
+      <edge source="Níquel (Compuestos solubles)" target="Veracruz de Ignacio de la Llave.Coatzacoalcos" id="131" weight="64548.39176459399" />
+      <edge source="Níquel (Compuestos solubles)" target="Veracruz de Ignacio de la Llave.Orizaba" id="132" weight="4948.152787125" />
+      <edge source="Níquel (Compuestos solubles)" target="Veracruz de Ignacio de la Llave.Minatitlán" id="133" weight="4799.283802394998" />
+      <edge source="Níquel (Compuestos solubles)" target="Veracruz de Ignacio de la Llave.Coatzintla" id="134" weight="0.8039250530000001" />
+      <edge source="Níquel (Compuestos solubles)" target="Veracruz de Ignacio de la Llave.Pánuco" id="135" weight="2243.5033000000003" />
+      <edge source="Níquel (Compuestos solubles)" target="Veracruz de Ignacio de la Llave.Tres Valles" id="136" weight="4047.0500236999997" />
+      <edge source="Níquel (Compuestos solubles)" target="Veracruz de Ignacio de la Llave.Poza Rica de Hidalgo" id="137" weight="950.0136" />
+      <edge source="Níquel (Compuestos solubles)" target="Veracruz de Ignacio de la Llave.Nanchital de Lázaro Cárdenas del Río" id="138" weight="255.553976" />
+      <edge source="Níquel (Compuestos solubles)" target="Veracruz de Ignacio de la Llave.Coatepec" id="139" weight="843.2068899325501" />
+      <edge source="Níquel (Compuestos solubles)" target="Veracruz de Ignacio de la Llave.Xalapa" id="140" weight="199.862706" />
+      <edge source="Níquel (Compuestos solubles)" target="Veracruz de Ignacio de la Llave.Tierra Blanca" id="141" weight="201.826072" />
+      <edge source="Níquel (Compuestos solubles)" target="Veracruz de Ignacio de la Llave.Ixhuatlán del Sureste" id="142" weight="12.2772" />
+      <edge source="Níquel (Compuestos solubles)" target="Veracruz de Ignacio de la Llave.Ixtaczoquitlán" id="143" weight="5723.5755" />
+      <edge source="Níquel (Compuestos solubles)" target="Veracruz de Ignacio de la Llave.Amatlán de los Reyes" id="144" weight="165.2479" />
+      <edge source="Níquel (Compuestos solubles)" target="Veracruz de Ignacio de la Llave.Córdoba" id="145" weight="686.9750000000001" />
+      <edge source="Níquel (Compuestos solubles)" target="Veracruz de Ignacio de la Llave.Jáltipan" id="146" weight="65.138" />
+      <edge source="Níquel (Compuestos solubles)" target="Veracruz de Ignacio de la Llave.Carlos A" id="147" weight="4523.319799999999" />
+      <edge source="Níquel (Compuestos solubles)" target="Veracruz de Ignacio de la Llave.Lerdo de Tejada" id="148" weight="12183.6952" />
+      <edge source="Níquel (Compuestos solubles)" target="Veracruz de Ignacio de la Llave.Tihuatlán" id="149" weight="280.3466" />
+      <edge source="Níquel (Compuestos solubles)" target="Veracruz de Ignacio de la Llave.Cerro Azul" id="150" weight="11.137199999999998" />
+      <edge source="Níquel (Compuestos solubles)" target="Veracruz de Ignacio de la Llave.Agua Dulce" id="151" weight="37.6981" />
+      <edge source="Níquel (Compuestos solubles)" target="Veracruz de Ignacio de la Llave.Cuitláhuac" id="152" weight="6831.4788" />
+      <edge source="Níquel (Compuestos solubles)" target="Veracruz de Ignacio de la Llave.Tezonapa" id="153" weight="398.78520000000003" />
+      <edge source="Níquel (Compuestos solubles)" target="Veracruz de Ignacio de la Llave.Medellín de Bravo" id="154" weight="514.634" />
+      <edge source="Níquel (Compuestos solubles)" target="Veracruz de Ignacio de la Llave.Alvarado" id="155" weight="2829.79" />
+      <edge source="Níquel (Compuestos solubles)" target="Veracruz de Ignacio de la Llave.Hueyapan de Ocampo" id="156" weight="385.88979099999995" />
+      <edge source="Níquel (Compuestos solubles)" target="Veracruz de Ignacio de la Llave.Acayucan" id="157" weight="91.06809999999999" />
+      <edge source="Níquel (Compuestos solubles)" target="Veracruz de Ignacio de la Llave.Alto Lucero de Gutiérrez Barrios" id="158" weight="707408.3075" />
+      <edge source="Níquel (Compuestos solubles)" target="Veracruz de Ignacio de la Llave.Chinameca" id="159" weight="63.72050000000001" />
+      <edge source="Níquel (Compuestos solubles)" target="Veracruz de Ignacio de la Llave.Boca del Río" id="160" weight="73.04339999999999" />
+      <edge source="Níquel (Compuestos solubles)" target="Veracruz de Ignacio de la Llave.Perote" id="161" weight="16.6163" />
+      <edge source="Níquel (Compuestos solubles)" target="Veracruz de Ignacio de la Llave.Álamo Temapache" id="162" weight="32813.16279999999" />
+      <edge source="Níquel (Compuestos solubles)" target="Veracruz de Ignacio de la Llave.Atoyac" id="163" weight="5800.7958" />
+      <edge source="Níquel (Compuestos solubles)" target="Veracruz de Ignacio de la Llave.Cuichapa" id="164" weight="7574.619199999999" />
+      <edge source="Níquel (Compuestos solubles)" target="Veracruz de Ignacio de la Llave.San Rafael" id="165" weight="1851.7504" />
+      <edge source="Níquel (Compuestos solubles)" target="Veracruz de Ignacio de la Llave.Ursulo Galván" id="166" weight="2539.5101999999997" />
+      <edge source="Níquel (Compuestos solubles)" target="Veracruz de Ignacio de la Llave.Apazapan" id="167" weight="185.45400000000004" />
+      <edge source="Níquel (Compuestos solubles)" target="Veracruz de Ignacio de la Llave.La Antigua" id="168" weight="184.7508" />
+      <edge source="Níquel (Compuestos solubles)" target="Veracruz de Ignacio de la Llave.Paso del Macho" id="169" weight="136.7843" />
+      <edge source="Níquel (Compuestos solubles)" target="Veracruz de Ignacio de la Llave.Jalacingo" id="170" weight="90.40510000000002" />
+      <edge source="Formaldehido" target="Veracruz de Ignacio de la Llave.Veracruz" id="171" weight="947.5773452" />
+      <edge source="Formaldehido" target="Veracruz de Ignacio de la Llave.Cosoleacaque" id="172" weight="3958.0" />
+      <edge source="Formaldehido" target="Veracruz de Ignacio de la Llave.Coatzacoalcos" id="173" weight="5128.870510080862" />
+      <edge source="Formaldehido" target="Veracruz de Ignacio de la Llave.Orizaba" id="174" weight="149.530219" />
+      <edge source="Formaldehido" target="Veracruz de Ignacio de la Llave.Minatitlán" id="175" weight="1609723.5868902241" />
+      <edge source="Formaldehido" target="Veracruz de Ignacio de la Llave.Tres Valles" id="176" weight="1967.2644" />
+      <edge source="Formaldehido" target="Veracruz de Ignacio de la Llave.Poza Rica de Hidalgo" id="177" weight="3886.5685442" />
+      <edge source="Formaldehido" target="Veracruz de Ignacio de la Llave.Xalapa" id="178" weight="8677.03074803698" />
+      <edge source="Formaldehido" target="Veracruz de Ignacio de la Llave.Tierra Blanca" id="179" weight="20190.91247432536" />
+      <edge source="Formaldehido" target="Veracruz de Ignacio de la Llave.Ixtaczoquitlán" id="180" weight="0.008243068303796" />
+      <edge source="Formaldehido" target="Veracruz de Ignacio de la Llave.Medellín de Bravo" id="181" weight="607.875822" />
+      <edge source="Formaldehido" target="Veracruz de Ignacio de la Llave.Boca del Río" id="182" weight="593838.6483387881" />
+      <edge source="Formaldehido" target="Veracruz de Ignacio de la Llave.Perote" id="183" weight="18.0" />
+      <edge source="Formaldehido" target="Veracruz de Ignacio de la Llave.Apazapan" id="184" weight="2211.894108" />
+      <edge source="Níquel (compuestos)" target="Veracruz de Ignacio de la Llave.Veracruz" id="185" weight="3502.5891196059215" />
+      <edge source="Níquel (compuestos)" target="Veracruz de Ignacio de la Llave.Cosoleacaque" id="186" weight="69461.01985425" />
+      <edge source="Níquel (compuestos)" target="Veracruz de Ignacio de la Llave.Coatzacoalcos" id="187" weight="78213.51196223547" />
+      <edge source="Níquel (compuestos)" target="Veracruz de Ignacio de la Llave.Orizaba" id="188" weight="1840.85923839" />
+      <edge source="Níquel (compuestos)" target="Veracruz de Ignacio de la Llave.Minatitlán" id="189" weight="11412.03777093" />
+      <edge source="Níquel (compuestos)" target="Veracruz de Ignacio de la Llave.Coatzintla" id="190" weight="3.4198052252499993" />
+      <edge source="Níquel (compuestos)" target="Veracruz de Ignacio de la Llave.Pánuco" id="191" weight="465.04540000000003" />
+      <edge source="Níquel (compuestos)" target="Veracruz de Ignacio de la Llave.Tres Valles" id="192" weight="1837.706497864" />
+      <edge source="Níquel (compuestos)" target="Veracruz de Ignacio de la Llave.Poza Rica de Hidalgo" id="193" weight="13.156779215" />
+      <edge source="Níquel (compuestos)" target="Veracruz de Ignacio de la Llave.Nanchital de Lázaro Cárdenas del Río" id="194" weight="27.732583167999998" />
+      <edge source="Níquel (compuestos)" target="Veracruz de Ignacio de la Llave.Coatepec" id="195" weight="159.0740380084" />
+      <edge source="Níquel (compuestos)" target="Veracruz de Ignacio de la Llave.Xalapa" id="196" weight="0.9328181596000001" />
+      <edge source="Níquel (compuestos)" target="Veracruz de Ignacio de la Llave.Tierra Blanca" id="197" weight="0.3888002920000001" />
+      <edge source="Níquel (compuestos)" target="Veracruz de Ignacio de la Llave.Ixhuatlán del Sureste" id="198" weight="275.222522" />
+      <edge source="Níquel (compuestos)" target="Veracruz de Ignacio de la Llave.Pueblo Viejo" id="199" weight="1.9682999999999997" />
+      <edge source="Níquel (compuestos)" target="Veracruz de Ignacio de la Llave.Ixtaczoquitlán" id="200" weight="52263.34210249914" />
+      <edge source="Níquel (compuestos)" target="Veracruz de Ignacio de la Llave.Amatlán de los Reyes" id="201" weight="117.98334428053002" />
+      <edge source="Níquel (compuestos)" target="Veracruz de Ignacio de la Llave.Córdoba" id="202" weight="37.64513745" />
+      <edge source="Níquel (compuestos)" target="Veracruz de Ignacio de la Llave.Jáltipan" id="203" weight="560.9958205" />
+      <edge source="Níquel (compuestos)" target="Veracruz de Ignacio de la Llave.Tlalnelhuayocan" id="204" weight="312.6503133318999" />
+      <edge source="Níquel (compuestos)" target="Veracruz de Ignacio de la Llave.Carlos A" id="205" weight="5556.589753529999" />
+      <edge source="Níquel (compuestos)" target="Veracruz de Ignacio de la Llave.Lerdo de Tejada" id="206" weight="2086.98748647731" />
+      <edge source="Níquel (compuestos)" target="Veracruz de Ignacio de la Llave.Las Choapas" id="207" weight="0.1688615082501625" />
+      <edge source="Níquel (compuestos)" target="Veracruz de Ignacio de la Llave.Tihuatlán" id="208" weight="4.8684727" />
+      <edge source="Níquel (compuestos)" target="Veracruz de Ignacio de la Llave.Cerro Azul" id="209" weight="1.005" />
+      <edge source="Níquel (compuestos)" target="Veracruz de Ignacio de la Llave.Agua Dulce" id="210" weight="9.431286" />
+      <edge source="Níquel (compuestos)" target="Veracruz de Ignacio de la Llave.Cuitláhuac" id="211" weight="269.9885" />
+      <edge source="Níquel (compuestos)" target="Veracruz de Ignacio de la Llave.Tezonapa" id="212" weight="14.662484702" />
+      <edge source="Níquel (compuestos)" target="Veracruz de Ignacio de la Llave.Medellín de Bravo" id="213" weight="1.825e-06" />
+      <edge source="Níquel (compuestos)" target="Veracruz de Ignacio de la Llave.Alvarado" id="214" weight="0.88903022" />
+      <edge source="Níquel (compuestos)" target="Veracruz de Ignacio de la Llave.Hueyapan de Ocampo" id="215" weight="82.081482" />
+      <edge source="Níquel (compuestos)" target="Veracruz de Ignacio de la Llave.Acayucan" id="216" weight="18.8018374" />
+      <edge source="Níquel (compuestos)" target="Veracruz de Ignacio de la Llave.Chinameca" id="217" weight="9.699357722999999" />
+      <edge source="Níquel (compuestos)" target="Veracruz de Ignacio de la Llave.Boca del Río" id="218" weight="0.088" />
+      <edge source="Níquel (compuestos)" target="Veracruz de Ignacio de la Llave.Perote" id="219" weight="2.6655574" />
+      <edge source="Níquel (compuestos)" target="Veracruz de Ignacio de la Llave.Álamo Temapache" id="220" weight="0.177106176" />
+      <edge source="Níquel (compuestos)" target="Veracruz de Ignacio de la Llave.Atoyac" id="221" weight="3562.829556" />
+      <edge source="Níquel (compuestos)" target="Veracruz de Ignacio de la Llave.Cuichapa" id="222" weight="0.226688" />
+      <edge source="Níquel (compuestos)" target="Veracruz de Ignacio de la Llave.Moloacán" id="223" weight="0.00013839" />
+      <edge source="Níquel (compuestos)" target="Veracruz de Ignacio de la Llave.San Rafael" id="224" weight="41.0" />
+      <edge source="Níquel (compuestos)" target="Veracruz de Ignacio de la Llave.Tantoyuca" id="225" weight="0.0170328" />
+      <edge source="Níquel (compuestos)" target="Veracruz de Ignacio de la Llave.Ursulo Galván" id="226" weight="0.41853912559999995" />
+      <edge source="Níquel (compuestos)" target="Veracruz de Ignacio de la Llave.Apazapan" id="227" weight="5.73449815" />
+      <edge source="Níquel (compuestos)" target="Veracruz de Ignacio de la Llave.Paso del Macho" id="228" weight="154.7402684" />
+      <edge source="Níquel (compuestos)" target="Veracruz de Ignacio de la Llave.Jalacingo" id="229" weight="18.311410000000002" />
+      <edge source="Plomo (Compuestos solubles)" target="Veracruz de Ignacio de la Llave.Veracruz" id="230" weight="43244.527027380005" />
+      <edge source="Plomo (Compuestos solubles)" target="Veracruz de Ignacio de la Llave.Cosoleacaque" id="231" weight="1129.0940714" />
+      <edge source="Plomo (Compuestos solubles)" target="Veracruz de Ignacio de la Llave.Coatzacoalcos" id="232" weight="13867.796142647994" />
+      <edge source="Plomo (Compuestos solubles)" target="Veracruz de Ignacio de la Llave.Orizaba" id="233" weight="3428.1824772500004" />
+      <edge source="Plomo (Compuestos solubles)" target="Veracruz de Ignacio de la Llave.Minatitlán" id="234" weight="987.8715046640998" />
+      <edge source="Plomo (Compuestos solubles)" target="Veracruz de Ignacio de la Llave.Coatzintla" id="235" weight="0.32157005600000005" />
+      <edge source="Plomo (Compuestos solubles)" target="Veracruz de Ignacio de la Llave.Pánuco" id="236" weight="893.201275" />
+      <edge source="Plomo (Compuestos solubles)" target="Veracruz de Ignacio de la Llave.Tres Valles" id="237" weight="3532.9349987000005" />
+      <edge source="Plomo (Compuestos solubles)" target="Veracruz de Ignacio de la Llave.Poza Rica de Hidalgo" id="238" weight="2528.563212" />
+      <edge source="Plomo (Compuestos solubles)" target="Veracruz de Ignacio de la Llave.Nanchital de Lázaro Cárdenas del Río" id="239" weight="56.204538" />
+      <edge source="Plomo (Compuestos solubles)" target="Veracruz de Ignacio de la Llave.Coatepec" id="240" weight="319.8858970473999" />
+      <edge source="Plomo (Compuestos solubles)" target="Veracruz de Ignacio de la Llave.Xalapa" id="241" weight="29.700471" />
+      <edge source="Plomo (Compuestos solubles)" target="Veracruz de Ignacio de la Llave.Tierra Blanca" id="242" weight="307.004872" />
+      <edge source="Plomo (Compuestos solubles)" target="Veracruz de Ignacio de la Llave.Ixhuatlán del Sureste" id="243" weight="31.979300000000002" />
+      <edge source="Plomo (Compuestos solubles)" target="Veracruz de Ignacio de la Llave.Ixtaczoquitlán" id="244" weight="91284.19400000005" />
+      <edge source="Plomo (Compuestos solubles)" target="Veracruz de Ignacio de la Llave.Amatlán de los Reyes" id="245" weight="55.7155" />
+      <edge source="Plomo (Compuestos solubles)" target="Veracruz de Ignacio de la Llave.Córdoba" id="246" weight="106.19309999999999" />
+      <edge source="Plomo (Compuestos solubles)" target="Veracruz de Ignacio de la Llave.Jáltipan" id="247" weight="87.16000000000001" />
+      <edge source="Plomo (Compuestos solubles)" target="Veracruz de Ignacio de la Llave.Carlos A" id="248" weight="2699.3537" />
+      <edge source="Plomo (Compuestos solubles)" target="Veracruz de Ignacio de la Llave.Lerdo de Tejada" id="249" weight="1871.5550999999998" />
+      <edge source="Plomo (Compuestos solubles)" target="Veracruz de Ignacio de la Llave.Tihuatlán" id="250" weight="88.9704" />
+      <edge source="Plomo (Compuestos solubles)" target="Veracruz de Ignacio de la Llave.Cerro Azul" id="251" weight="6.2585999999999995" />
+      <edge source="Plomo (Compuestos solubles)" target="Veracruz de Ignacio de la Llave.Agua Dulce" id="252" weight="13.2026" />
+      <edge source="Plomo (Compuestos solubles)" target="Veracruz de Ignacio de la Llave.Cuitláhuac" id="253" weight="5628.749199999999" />
+      <edge source="Plomo (Compuestos solubles)" target="Veracruz de Ignacio de la Llave.Tezonapa" id="254" weight="411.21160000000003" />
+      <edge source="Plomo (Compuestos solubles)" target="Veracruz de Ignacio de la Llave.Medellín de Bravo" id="255" weight="193.2463" />
+      <edge source="Plomo (Compuestos solubles)" target="Veracruz de Ignacio de la Llave.Alvarado" id="256" weight="1996.4479999999999" />
+      <edge source="Plomo (Compuestos solubles)" target="Veracruz de Ignacio de la Llave.Hueyapan de Ocampo" id="257" weight="338.40073300000006" />
+      <edge source="Plomo (Compuestos solubles)" target="Veracruz de Ignacio de la Llave.Acayucan" id="258" weight="20.664699999999996" />
+      <edge source="Plomo (Compuestos solubles)" target="Veracruz de Ignacio de la Llave.Alto Lucero de Gutiérrez Barrios" id="259" weight="487030.314" />
+      <edge source="Plomo (Compuestos solubles)" target="Veracruz de Ignacio de la Llave.Chinameca" id="260" weight="1.1106" />
+      <edge source="Plomo (Compuestos solubles)" target="Veracruz de Ignacio de la Llave.Boca del Río" id="261" weight="9.2005" />
+      <edge source="Plomo (Compuestos solubles)" target="Veracruz de Ignacio de la Llave.Perote" id="262" weight="7.214" />
+      <edge source="Plomo (Compuestos solubles)" target="Veracruz de Ignacio de la Llave.Álamo Temapache" id="263" weight="6.1476999999999995" />
+      <edge source="Plomo (Compuestos solubles)" target="Veracruz de Ignacio de la Llave.Atoyac" id="264" weight="5691.502" />
+      <edge source="Plomo (Compuestos solubles)" target="Veracruz de Ignacio de la Llave.Cuichapa" id="265" weight="1909.9067999999997" />
+      <edge source="Plomo (Compuestos solubles)" target="Veracruz de Ignacio de la Llave.San Rafael" id="266" weight="178.7565" />
+      <edge source="Plomo (Compuestos solubles)" target="Veracruz de Ignacio de la Llave.Ursulo Galván" id="267" weight="556.7271000000001" />
+      <edge source="Plomo (Compuestos solubles)" target="Veracruz de Ignacio de la Llave.Apazapan" id="268" weight="27.2695" />
+      <edge source="Plomo (Compuestos solubles)" target="Veracruz de Ignacio de la Llave.La Antigua" id="269" weight="120.088" />
+      <edge source="Plomo (Compuestos solubles)" target="Veracruz de Ignacio de la Llave.Paso del Macho" id="270" weight="112.402" />
+      <edge source="Plomo (Compuestos solubles)" target="Veracruz de Ignacio de la Llave.Jalacingo" id="271" weight="62.63199999999999" />
+      <edge source="Cianuro inorgánico/orgánico" target="Veracruz de Ignacio de la Llave.Veracruz" id="272" weight="669.66278482895" />
+      <edge source="Cianuro inorgánico/orgánico" target="Veracruz de Ignacio de la Llave.Cosoleacaque" id="273" weight="812.1619199499999" />
+      <edge source="Cianuro inorgánico/orgánico" target="Veracruz de Ignacio de la Llave.Coatzacoalcos" id="274" weight="254870.23969501528" />
+      <edge source="Cianuro inorgánico/orgánico" target="Veracruz de Ignacio de la Llave.Orizaba" id="275" weight="11875.92738163" />
+      <edge source="Cianuro inorgánico/orgánico" target="Veracruz de Ignacio de la Llave.Minatitlán" id="276" weight="391.08608264528" />
+      <edge source="Cianuro inorgánico/orgánico" target="Veracruz de Ignacio de la Llave.Coatzintla" id="277" weight="0.9849691567499999" />
+      <edge source="Cianuro inorgánico/orgánico" target="Veracruz de Ignacio de la Llave.Pánuco" id="278" weight="84.40672069999998" />
+      <edge source="Cianuro inorgánico/orgánico" target="Veracruz de Ignacio de la Llave.Tres Valles" id="279" weight="1015.4872968569" />
+      <edge source="Cianuro inorgánico/orgánico" target="Veracruz de Ignacio de la Llave.Poza Rica de Hidalgo" id="280" weight="47.033202122000006" />
+      <edge source="Cianuro inorgánico/orgánico" target="Veracruz de Ignacio de la Llave.Nanchital de Lázaro Cárdenas del Río" id="281" weight="3.188054406" />
+      <edge source="Cianuro inorgánico/orgánico" target="Veracruz de Ignacio de la Llave.Coatepec" id="282" weight="78.64873839400002" />
+      <edge source="Cianuro inorgánico/orgánico" target="Veracruz de Ignacio de la Llave.Xalapa" id="283" weight="0.6001958752" />
+      <edge source="Cianuro inorgánico/orgánico" target="Veracruz de Ignacio de la Llave.Tierra Blanca" id="284" weight="0.00074857" />
+      <edge source="Cianuro inorgánico/orgánico" target="Veracruz de Ignacio de la Llave.Ixhuatlán del Sureste" id="285" weight="25.506285600000002" />
+      <edge source="Cianuro inorgánico/orgánico" target="Veracruz de Ignacio de la Llave.Pueblo Viejo" id="286" weight="1.4284299999999999" />
+      <edge source="Cianuro inorgánico/orgánico" target="Veracruz de Ignacio de la Llave.Ixtaczoquitlán" id="287" weight="3278.774173944738" />
+      <edge source="Cianuro inorgánico/orgánico" target="Veracruz de Ignacio de la Llave.Amatlán de los Reyes" id="288" weight="38.9693686976" />
+      <edge source="Cianuro inorgánico/orgánico" target="Veracruz de Ignacio de la Llave.Córdoba" id="289" weight="3.262165596" />
+      <edge source="Cianuro inorgánico/orgánico" target="Veracruz de Ignacio de la Llave.Jáltipan" id="290" weight="6.8995252" />
+      <edge source="Cianuro inorgánico/orgánico" target="Veracruz de Ignacio de la Llave.Tlalnelhuayocan" id="291" weight="18.6800172" />
+      <edge source="Cianuro inorgánico/orgánico" target="Veracruz de Ignacio de la Llave.Carlos A" id="292" weight="1049.770277019" />
+      <edge source="Cianuro inorgánico/orgánico" target="Veracruz de Ignacio de la Llave.Lerdo de Tejada" id="293" weight="83.5254876762" />
+      <edge source="Cianuro inorgánico/orgánico" target="Veracruz de Ignacio de la Llave.Las Choapas" id="294" weight="0.16885083356875" />
+      <edge source="Cianuro inorgánico/orgánico" target="Veracruz de Ignacio de la Llave.Tihuatlán" id="295" weight="0.6395202" />
+      <edge source="Cianuro inorgánico/orgánico" target="Veracruz de Ignacio de la Llave.Cerro Azul" id="296" weight="0.137" />
+      <edge source="Cianuro inorgánico/orgánico" target="Veracruz de Ignacio de la Llave.Agua Dulce" id="297" weight="0.894506" />
+      <edge source="Cianuro inorgánico/orgánico" target="Veracruz de Ignacio de la Llave.Cuitláhuac" id="298" weight="495.26674" />
+      <edge source="Cianuro inorgánico/orgánico" target="Veracruz de Ignacio de la Llave.Tezonapa" id="299" weight="48.208069192" />
+      <edge source="Cianuro inorgánico/orgánico" target="Veracruz de Ignacio de la Llave.Medellín de Bravo" id="300" weight="0.09449839500000001" />
+      <edge source="Cianuro inorgánico/orgánico" target="Veracruz de Ignacio de la Llave.Alvarado" id="301" weight="565.6257528" />
+      <edge source="Cianuro inorgánico/orgánico" target="Veracruz de Ignacio de la Llave.Hueyapan de Ocampo" id="302" weight="9.3807408" />
+      <edge source="Cianuro inorgánico/orgánico" target="Veracruz de Ignacio de la Llave.Acayucan" id="303" weight="0.88306" />
+      <edge source="Cianuro inorgánico/orgánico" target="Veracruz de Ignacio de la Llave.Alto Lucero de Gutiérrez Barrios" id="304" weight="312607.27369999996" />
+      <edge source="Cianuro inorgánico/orgánico" target="Veracruz de Ignacio de la Llave.Chinameca" id="305" weight="2.672921671" />
+      <edge source="Cianuro inorgánico/orgánico" target="Veracruz de Ignacio de la Llave.Perote" id="306" weight="0.6810064" />
+      <edge source="Cianuro inorgánico/orgánico" target="Veracruz de Ignacio de la Llave.Álamo Temapache" id="307" weight="2.270592" />
+      <edge source="Cianuro inorgánico/orgánico" target="Veracruz de Ignacio de la Llave.Atoyac" id="308" weight="4494.530466" />
+      <edge source="Cianuro inorgánico/orgánico" target="Veracruz de Ignacio de la Llave.Cuichapa" id="309" weight="251.619" />
+      <edge source="Cianuro inorgánico/orgánico" target="Veracruz de Ignacio de la Llave.Moloacán" id="310" weight="0.00833574984" />
+      <edge source="Cianuro inorgánico/orgánico" target="Veracruz de Ignacio de la Llave.San Rafael" id="311" weight="6.0" />
+      <edge source="Cianuro inorgánico/orgánico" target="Veracruz de Ignacio de la Llave.Tantoyuca" id="312" weight="0.0015239999999999997" />
+      <edge source="Cianuro inorgánico/orgánico" target="Veracruz de Ignacio de la Llave.Ursulo Galván" id="313" weight="0.04468845" />
+      <edge source="Cianuro inorgánico/orgánico" target="Veracruz de Ignacio de la Llave.Apazapan" id="314" weight="2.29379926" />
+      <edge source="Cianuro inorgánico/orgánico" target="Veracruz de Ignacio de la Llave.La Antigua" id="315" weight="261.7304" />
+      <edge source="Cianuro inorgánico/orgánico" target="Veracruz de Ignacio de la Llave.Paso del Macho" id="316" weight="21.747311" />
+      <edge source="Cianuro inorgánico/orgánico" target="Veracruz de Ignacio de la Llave.Jalacingo" id="317" weight="3.16706" />
+      <edge source="Plomo (compuestos)" target="Veracruz de Ignacio de la Llave.Veracruz" id="318" weight="10084.580691568251" />
+      <edge source="Plomo (compuestos)" target="Veracruz de Ignacio de la Llave.Cosoleacaque" id="319" weight="13818.83100138" />
+      <edge source="Plomo (compuestos)" target="Veracruz de Ignacio de la Llave.Coatzacoalcos" id="320" weight="361342.6204622916" />
+      <edge source="Plomo (compuestos)" target="Veracruz de Ignacio de la Llave.Orizaba" id="321" weight="709.7541409400001" />
+      <edge source="Plomo (compuestos)" target="Veracruz de Ignacio de la Llave.Minatitlán" id="322" weight="426.45826757849994" />
+      <edge source="Plomo (compuestos)" target="Veracruz de Ignacio de la Llave.Coatzintla" id="323" weight="5.696808932199999" />
+      <edge source="Plomo (compuestos)" target="Veracruz de Ignacio de la Llave.Pánuco" id="324" weight="183.46229825" />
+      <edge source="Plomo (compuestos)" target="Veracruz de Ignacio de la Llave.Tres Valles" id="325" weight="2114.781012366" />
+      <edge source="Plomo (compuestos)" target="Veracruz de Ignacio de la Llave.Poza Rica de Hidalgo" id="326" weight="5698.492553733" />
+      <edge source="Plomo (compuestos)" target="Veracruz de Ignacio de la Llave.Nanchital de Lázaro Cárdenas del Río" id="327" weight="3.724087428" />
+      <edge source="Plomo (compuestos)" target="Veracruz de Ignacio de la Llave.Coatepec" id="328" weight="114.30621517660002" />
+      <edge source="Plomo (compuestos)" target="Veracruz de Ignacio de la Llave.Xalapa" id="329" weight="0.7867316936000001" />
+      <edge source="Plomo (compuestos)" target="Veracruz de Ignacio de la Llave.Tierra Blanca" id="330" weight="0.2922668404" />
+      <edge source="Plomo (compuestos)" target="Veracruz de Ignacio de la Llave.Ixhuatlán del Sureste" id="331" weight="406.350101" />
+      <edge source="Plomo (compuestos)" target="Veracruz de Ignacio de la Llave.Pueblo Viejo" id="332" weight="2.22304" />
+      <edge source="Plomo (compuestos)" target="Veracruz de Ignacio de la Llave.Ixtaczoquitlán" id="333" weight="32551.725965783495" />
+      <edge source="Plomo (compuestos)" target="Veracruz de Ignacio de la Llave.Amatlán de los Reyes" id="334" weight="9.05361038723" />
+      <edge source="Plomo (compuestos)" target="Veracruz de Ignacio de la Llave.Córdoba" id="335" weight="7609.869899740001" />
+      <edge source="Plomo (compuestos)" target="Veracruz de Ignacio de la Llave.Jáltipan" id="336" weight="172.5951217" />
+      <edge source="Plomo (compuestos)" target="Veracruz de Ignacio de la Llave.Tlalnelhuayocan" id="337" weight="193.12010504120002" />
+      <edge source="Plomo (compuestos)" target="Veracruz de Ignacio de la Llave.Carlos A" id="338" weight="3322.3994599139996" />
+      <edge source="Plomo (compuestos)" target="Veracruz de Ignacio de la Llave.Lerdo de Tejada" id="339" weight="587.9411320714471" />
+      <edge source="Plomo (compuestos)" target="Veracruz de Ignacio de la Llave.Las Choapas" id="340" weight="0.16885608571873" />
+      <edge source="Plomo (compuestos)" target="Veracruz de Ignacio de la Llave.Tihuatlán" id="341" weight="3.7560180999999995" />
+      <edge source="Plomo (compuestos)" target="Veracruz de Ignacio de la Llave.Cerro Azul" id="342" weight="0.525" />
+      <edge source="Plomo (compuestos)" target="Veracruz de Ignacio de la Llave.Agua Dulce" id="343" weight="5.624796775" />
+      <edge source="Plomo (compuestos)" target="Veracruz de Ignacio de la Llave.Cuitláhuac" id="344" weight="16.19931" />
+      <edge source="Plomo (compuestos)" target="Veracruz de Ignacio de la Llave.Tezonapa" id="345" weight="13.892622242" />
+      <edge source="Plomo (compuestos)" target="Veracruz de Ignacio de la Llave.Medellín de Bravo" id="346" weight="0.0631986095" />
+      <edge source="Plomo (compuestos)" target="Veracruz de Ignacio de la Llave.Alvarado" id="347" weight="0.1158876" />
+      <edge source="Plomo (compuestos)" target="Veracruz de Ignacio de la Llave.Hueyapan de Ocampo" id="348" weight="66.0560498" />
+      <edge source="Plomo (compuestos)" target="Veracruz de Ignacio de la Llave.Acayucan" id="349" weight="8.913834999999999" />
+      <edge source="Plomo (compuestos)" target="Veracruz de Ignacio de la Llave.Alto Lucero de Gutiérrez Barrios" id="350" weight="8085.4722" />
+      <edge source="Plomo (compuestos)" target="Veracruz de Ignacio de la Llave.Chinameca" id="351" weight="4.116721055" />
+      <edge source="Plomo (compuestos)" target="Veracruz de Ignacio de la Llave.Boca del Río" id="352" weight="0.02" />
+      <edge source="Plomo (compuestos)" target="Veracruz de Ignacio de la Llave.Perote" id="353" weight="3.4577678" />
+      <edge source="Plomo (compuestos)" target="Veracruz de Ignacio de la Llave.Álamo Temapache" id="354" weight="1.145513664" />
+      <edge source="Plomo (compuestos)" target="Veracruz de Ignacio de la Llave.Atoyac" id="355" weight="6083.270312" />
+      <edge source="Plomo (compuestos)" target="Veracruz de Ignacio de la Llave.Cuichapa" id="356" weight="22.49247" />
+      <edge source="Plomo (compuestos)" target="Veracruz de Ignacio de la Llave.Moloacán" id="357" weight="0.00027678" />
+      <edge source="Plomo (compuestos)" target="Veracruz de Ignacio de la Llave.San Rafael" id="358" weight="30.0" />
+      <edge source="Plomo (compuestos)" target="Veracruz de Ignacio de la Llave.Tantoyuca" id="359" weight="0.027228959999999996" />
+      <edge source="Plomo (compuestos)" target="Veracruz de Ignacio de la Llave.Ursulo Galván" id="360" weight="0.298135835" />
+      <edge source="Plomo (compuestos)" target="Veracruz de Ignacio de la Llave.Apazapan" id="361" weight="366.8353203" />
+      <edge source="Plomo (compuestos)" target="Veracruz de Ignacio de la Llave.Paso del Macho" id="362" weight="82.21200719999999" />
+      <edge source="Plomo (compuestos)" target="Veracruz de Ignacio de la Llave.Jalacingo" id="363" weight="13.86387" />
+      <edge source="Cadmio (Compuestos solubles)" target="Veracruz de Ignacio de la Llave.Veracruz" id="364" weight="82980.763" />
+      <edge source="Cadmio (Compuestos solubles)" target="Veracruz de Ignacio de la Llave.Cosoleacaque" id="365" weight="3.6213" />
+      <edge source="Cadmio (Compuestos solubles)" target="Veracruz de Ignacio de la Llave.Coatzacoalcos" id="366" weight="7502.387350125002" />
+      <edge source="Cadmio (Compuestos solubles)" target="Veracruz de Ignacio de la Llave.Orizaba" id="367" weight="306.8712" />
+      <edge source="Cadmio (Compuestos solubles)" target="Veracruz de Ignacio de la Llave.Minatitlán" id="368" weight="156.16639999999998" />
+      <edge source="Cadmio (Compuestos solubles)" target="Veracruz de Ignacio de la Llave.Pánuco" id="369" weight="224.59730000000002" />
+      <edge source="Cadmio (Compuestos solubles)" target="Veracruz de Ignacio de la Llave.Tres Valles" id="370" weight="766.04528091" />
+      <edge source="Cadmio (Compuestos solubles)" target="Veracruz de Ignacio de la Llave.Poza Rica de Hidalgo" id="371" weight="185.425" />
+      <edge source="Cadmio (Compuestos solubles)" target="Veracruz de Ignacio de la Llave.Nanchital de Lázaro Cárdenas del Río" id="372" weight="13.621099999999998" />
+      <edge source="Cadmio (Compuestos solubles)" target="Veracruz de Ignacio de la Llave.Coatepec" id="373" weight="71.1822" />
+      <edge source="Cadmio (Compuestos solubles)" target="Veracruz de Ignacio de la Llave.Xalapa" id="374" weight="6.5528" />
+      <edge source="Cadmio (Compuestos solubles)" target="Veracruz de Ignacio de la Llave.Tierra Blanca" id="375" weight="45.374900000000004" />
+      <edge source="Cadmio (Compuestos solubles)" target="Veracruz de Ignacio de la Llave.Ixtaczoquitlán" id="376" weight="339.5487" />
+      <edge source="Cadmio (Compuestos solubles)" target="Veracruz de Ignacio de la Llave.Amatlán de los Reyes" id="377" weight="8.7528" />
+      <edge source="Cadmio (Compuestos solubles)" target="Veracruz de Ignacio de la Llave.Córdoba" id="378" weight="38.9901" />
+      <edge source="Cadmio (Compuestos solubles)" target="Veracruz de Ignacio de la Llave.Jáltipan" id="379" weight="13.6164" />
+      <edge source="Cadmio (Compuestos solubles)" target="Veracruz de Ignacio de la Llave.Carlos A" id="380" weight="371.35229999999996" />
+      <edge source="Cadmio (Compuestos solubles)" target="Veracruz de Ignacio de la Llave.Lerdo de Tejada" id="381" weight="646.1957" />
+      <edge source="Cadmio (Compuestos solubles)" target="Veracruz de Ignacio de la Llave.Tihuatlán" id="382" weight="18.6608" />
+      <edge source="Cadmio (Compuestos solubles)" target="Veracruz de Ignacio de la Llave.Cerro Azul" id="383" weight="9.14" />
+      <edge source="Cadmio (Compuestos solubles)" target="Veracruz de Ignacio de la Llave.Agua Dulce" id="384" weight="4.3282" />
+      <edge source="Cadmio (Compuestos solubles)" target="Veracruz de Ignacio de la Llave.Cuitláhuac" id="385" weight="503.40930000000003" />
+      <edge source="Cadmio (Compuestos solubles)" target="Veracruz de Ignacio de la Llave.Tezonapa" id="386" weight="97.30290000000001" />
+      <edge source="Cadmio (Compuestos solubles)" target="Veracruz de Ignacio de la Llave.Medellín de Bravo" id="387" weight="45.9277" />
+      <edge source="Cadmio (Compuestos solubles)" target="Veracruz de Ignacio de la Llave.Alvarado" id="388" weight="565.6" />
+      <edge source="Cadmio (Compuestos solubles)" target="Veracruz de Ignacio de la Llave.Hueyapan de Ocampo" id="389" weight="38.014399" />
+      <edge source="Cadmio (Compuestos solubles)" target="Veracruz de Ignacio de la Llave.Acayucan" id="390" weight="5.9535" />
+      <edge source="Cadmio (Compuestos solubles)" target="Veracruz de Ignacio de la Llave.Alto Lucero de Gutiérrez Barrios" id="391" weight="220288.84939999998" />
+      <edge source="Cadmio (Compuestos solubles)" target="Veracruz de Ignacio de la Llave.Boca del Río" id="392" weight="1.2257" />
+      <edge source="Cadmio (Compuestos solubles)" target="Veracruz de Ignacio de la Llave.Perote" id="393" weight="1.2665" />
+      <edge source="Cadmio (Compuestos solubles)" target="Veracruz de Ignacio de la Llave.Atoyac" id="394" weight="1260.2197" />
+      <edge source="Cadmio (Compuestos solubles)" target="Veracruz de Ignacio de la Llave.Cuichapa" id="395" weight="534.4363" />
+      <edge source="Cadmio (Compuestos solubles)" target="Veracruz de Ignacio de la Llave.Ursulo Galván" id="396" weight="151.60260000000002" />
+      <edge source="Cadmio (Compuestos solubles)" target="Veracruz de Ignacio de la Llave.Apazapan" id="397" weight="6.0394" />
+      <edge source="Cadmio (Compuestos solubles)" target="Veracruz de Ignacio de la Llave.La Antigua" id="398" weight="46.1878" />
+      <edge source="Cadmio (Compuestos solubles)" target="Veracruz de Ignacio de la Llave.Paso del Macho" id="399" weight="26.8352" />
+      <edge source="Cadmio (polvos, respirables, vapores o humos)" target="Veracruz de Ignacio de la Llave.Veracruz" id="400" weight="1346.7849972201004" />
+      <edge source="Cadmio (polvos, respirables, vapores o humos)" target="Veracruz de Ignacio de la Llave.Cosoleacaque" id="401" weight="34.963830540000004" />
+      <edge source="Cadmio (polvos, respirables, vapores o humos)" target="Veracruz de Ignacio de la Llave.Coatzacoalcos" id="402" weight="14161.841736417538" />
+      <edge source="Cadmio (polvos, respirables, vapores o humos)" target="Veracruz de Ignacio de la Llave.Orizaba" id="403" weight="846.3271014999999" />
+      <edge source="Cadmio (polvos, respirables, vapores o humos)" target="Veracruz de Ignacio de la Llave.Minatitlán" id="404" weight="194.83856082767198" />
+      <edge source="Cadmio (polvos, respirables, vapores o humos)" target="Veracruz de Ignacio de la Llave.Coatzintla" id="405" weight="2.082439775" />
+      <edge source="Cadmio (polvos, respirables, vapores o humos)" target="Veracruz de Ignacio de la Llave.Pánuco" id="406" weight="2.7216695" />
+      <edge source="Cadmio (polvos, respirables, vapores o humos)" target="Veracruz de Ignacio de la Llave.Tres Valles" id="407" weight="439.8619645239999" />
+      <edge source="Cadmio (polvos, respirables, vapores o humos)" target="Veracruz de Ignacio de la Llave.Poza Rica de Hidalgo" id="408" weight="0.0083248" />
+      <edge source="Cadmio (polvos, respirables, vapores o humos)" target="Veracruz de Ignacio de la Llave.Nanchital de Lázaro Cárdenas del Río" id="409" weight="1.1215762416000001" />
+      <edge source="Cadmio (polvos, respirables, vapores o humos)" target="Veracruz de Ignacio de la Llave.Coatepec" id="410" weight="27.858109202800005" />
+      <edge source="Cadmio (polvos, respirables, vapores o humos)" target="Veracruz de Ignacio de la Llave.Xalapa" id="411" weight="0.0897905" />
+      <edge source="Cadmio (polvos, respirables, vapores o humos)" target="Veracruz de Ignacio de la Llave.Tierra Blanca" id="412" weight="0.030973351399999995" />
+      <edge source="Cadmio (polvos, respirables, vapores o humos)" target="Veracruz de Ignacio de la Llave.Ixhuatlán del Sureste" id="413" weight="56.0290112" />
+      <edge source="Cadmio (polvos, respirables, vapores o humos)" target="Veracruz de Ignacio de la Llave.Pueblo Viejo" id="414" weight="0.10307" />
+      <edge source="Cadmio (polvos, respirables, vapores o humos)" target="Veracruz de Ignacio de la Llave.Ixtaczoquitlán" id="415" weight="4869.90216889679" />
+      <edge source="Cadmio (polvos, respirables, vapores o humos)" target="Veracruz de Ignacio de la Llave.Amatlán de los Reyes" id="416" weight="2.51744681109" />
+      <edge source="Cadmio (polvos, respirables, vapores o humos)" target="Veracruz de Ignacio de la Llave.Córdoba" id="417" weight="11.052961702" />
+      <edge source="Cadmio (polvos, respirables, vapores o humos)" target="Veracruz de Ignacio de la Llave.Jáltipan" id="418" weight="45.8479138" />
+      <edge source="Cadmio (polvos, respirables, vapores o humos)" target="Veracruz de Ignacio de la Llave.Tlalnelhuayocan" id="419" weight="12.951047059775" />
+      <edge source="Cadmio (polvos, respirables, vapores o humos)" target="Veracruz de Ignacio de la Llave.Carlos A" id="420" weight="0.85135471" />
+      <edge source="Cadmio (polvos, respirables, vapores o humos)" target="Veracruz de Ignacio de la Llave.Lerdo de Tejada" id="421" weight="208.844767824" />
+      <edge source="Cadmio (polvos, respirables, vapores o humos)" target="Veracruz de Ignacio de la Llave.Las Choapas" id="422" weight="0.0422125" />
+      <edge source="Cadmio (polvos, respirables, vapores o humos)" target="Veracruz de Ignacio de la Llave.Tihuatlán" id="423" weight="0.8685231" />
+      <edge source="Cadmio (polvos, respirables, vapores o humos)" target="Veracruz de Ignacio de la Llave.Cerro Azul" id="424" weight="0.25" />
+      <edge source="Cadmio (polvos, respirables, vapores o humos)" target="Veracruz de Ignacio de la Llave.Agua Dulce" id="425" weight="0.071184" />
+      <edge source="Cadmio (polvos, respirables, vapores o humos)" target="Veracruz de Ignacio de la Llave.Cuitláhuac" id="426" weight="26.99885" />
+      <edge source="Cadmio (polvos, respirables, vapores o humos)" target="Veracruz de Ignacio de la Llave.Tezonapa" id="427" weight="0.9934054290000001" />
+      <edge source="Cadmio (polvos, respirables, vapores o humos)" target="Veracruz de Ignacio de la Llave.Alvarado" id="428" weight="0.05346178" />
+      <edge source="Cadmio (polvos, respirables, vapores o humos)" target="Veracruz de Ignacio de la Llave.Hueyapan de Ocampo" id="429" weight="8.2081482" />
+      <edge source="Cadmio (polvos, respirables, vapores o humos)" target="Veracruz de Ignacio de la Llave.Chinameca" id="430" weight="1.17375754" />
+      <edge source="Cadmio (polvos, respirables, vapores o humos)" target="Veracruz de Ignacio de la Llave.Boca del Río" id="431" weight="27.646659999999997" />
+      <edge source="Cadmio (polvos, respirables, vapores o humos)" target="Veracruz de Ignacio de la Llave.Perote" id="432" weight="0.0072524" />
+      <edge source="Cadmio (polvos, respirables, vapores o humos)" target="Veracruz de Ignacio de la Llave.Álamo Temapache" id="433" weight="0.04541184" />
+      <edge source="Cadmio (polvos, respirables, vapores o humos)" target="Veracruz de Ignacio de la Llave.Atoyac" id="434" weight="1119.228504" />
+      <edge source="Cadmio (polvos, respirables, vapores o humos)" target="Veracruz de Ignacio de la Llave.Cuichapa" id="435" weight="1.392391" />
+      <edge source="Cadmio (polvos, respirables, vapores o humos)" target="Veracruz de Ignacio de la Llave.Moloacán" id="436" weight="5.7470000000000004e-05" />
+      <edge source="Cadmio (polvos, respirables, vapores o humos)" target="Veracruz de Ignacio de la Llave.San Rafael" id="437" weight="0.955949" />
+      <edge source="Cadmio (polvos, respirables, vapores o humos)" target="Veracruz de Ignacio de la Llave.Tantoyuca" id="438" weight="0.00612024" />
+      <edge source="Cadmio (polvos, respirables, vapores o humos)" target="Veracruz de Ignacio de la Llave.Ursulo Galván" id="439" weight="5e-09" />
+      <edge source="Cadmio (polvos, respirables, vapores o humos)" target="Veracruz de Ignacio de la Llave.Apazapan" id="440" weight="26.54275" />
+      <edge source="Cadmio (polvos, respirables, vapores o humos)" target="Veracruz de Ignacio de la Llave.Paso del Macho" id="441" weight="10.3339744" />
+      <edge source="Cadmio (polvos, respirables, vapores o humos)" target="Veracruz de Ignacio de la Llave.Jalacingo" id="442" weight="3.147987" />
+      <edge source="Oxido nitroso" target="Veracruz de Ignacio de la Llave.Veracruz" id="443" weight="18.6466" />
+      <edge source="Oxido nitroso" target="Veracruz de Ignacio de la Llave.Coatzacoalcos" id="444" weight="2296413.0" />
+      <edge source="Oxido nitroso" target="Veracruz de Ignacio de la Llave.Orizaba" id="445" weight="1704000.0001090001" />
+      <edge source="Oxido nitroso" target="Veracruz de Ignacio de la Llave.Minatitlán" id="446" weight="1959852.0" />
+      <edge source="Oxido nitroso" target="Veracruz de Ignacio de la Llave.Poza Rica de Hidalgo" id="447" weight="15372491.9093" />
+      <edge source="Oxido nitroso" target="Veracruz de Ignacio de la Llave.Ixhuatlán del Sureste" id="448" weight="261592.2" />
+      <edge source="Oxido nitroso" target="Veracruz de Ignacio de la Llave.Medellín de Bravo" id="449" weight="399640.0" />
+      <edge source="Cadmio (compuestos)" target="Veracruz de Ignacio de la Llave.Veracruz" id="450" weight="1184.170429939" />
+      <edge source="Cadmio (compuestos)" target="Veracruz de Ignacio de la Llave.Cosoleacaque" id="451" weight="4.8789229999999995" />
+      <edge source="Cadmio (compuestos)" target="Veracruz de Ignacio de la Llave.Coatzacoalcos" id="452" weight="2512.4877534353946" />
+      <edge source="Cadmio (compuestos)" target="Veracruz de Ignacio de la Llave.Minatitlán" id="453" weight="14.011940816020005" />
+      <edge source="Cadmio (compuestos)" target="Veracruz de Ignacio de la Llave.Coatzintla" id="454" weight="0.00435863175" />
+      <edge source="Cadmio (compuestos)" target="Veracruz de Ignacio de la Llave.Pánuco" id="455" weight="28.151869650000002" />
+      <edge source="Cadmio (compuestos)" target="Veracruz de Ignacio de la Llave.Tres Valles" id="456" weight="108.86044338399999" />
+      <edge source="Cadmio (compuestos)" target="Veracruz de Ignacio de la Llave.Poza Rica de Hidalgo" id="457" weight="0.1378472" />
+      <edge source="Cadmio (compuestos)" target="Veracruz de Ignacio de la Llave.Coatepec" id="458" weight="9.854398511500001" />
+      <edge source="Cadmio (compuestos)" target="Veracruz de Ignacio de la Llave.Xalapa" id="459" weight="0.002616376" />
+      <edge source="Cadmio (compuestos)" target="Veracruz de Ignacio de la Llave.Tierra Blanca" id="460" weight="0.000110355" />
+      <edge source="Cadmio (compuestos)" target="Veracruz de Ignacio de la Llave.Ixhuatlán del Sureste" id="461" weight="7.112321" />
+      <edge source="Cadmio (compuestos)" target="Veracruz de Ignacio de la Llave.Pueblo Viejo" id="462" weight="0.9655124999999999" />
+      <edge source="Cadmio (compuestos)" target="Veracruz de Ignacio de la Llave.Ixtaczoquitlán" id="463" weight="1127.1127778259804" />
+      <edge source="Cadmio (compuestos)" target="Veracruz de Ignacio de la Llave.Amatlán de los Reyes" id="464" weight="1.771163235" />
+      <edge source="Cadmio (compuestos)" target="Veracruz de Ignacio de la Llave.Córdoba" id="465" weight="13.681153270000003" />
+      <edge source="Cadmio (compuestos)" target="Veracruz de Ignacio de la Llave.Jáltipan" id="466" weight="20.54897" />
+      <edge source="Cadmio (compuestos)" target="Veracruz de Ignacio de la Llave.Tlalnelhuayocan" id="467" weight="20.774340655000007" />
+      <edge source="Cadmio (compuestos)" target="Veracruz de Ignacio de la Llave.Carlos A" id="468" weight="538.028252638" />
+      <edge source="Cadmio (compuestos)" target="Veracruz de Ignacio de la Llave.Lerdo de Tejada" id="469" weight="0.27778117716" />
+      <edge source="Cadmio (compuestos)" target="Veracruz de Ignacio de la Llave.Las Choapas" id="470" weight="9.78054e-07" />
+      <edge source="Cadmio (compuestos)" target="Veracruz de Ignacio de la Llave.Tihuatlán" id="471" weight="0.8685231" />
+      <edge source="Cadmio (compuestos)" target="Veracruz de Ignacio de la Llave.Cerro Azul" id="472" weight="0.2" />
+      <edge source="Cadmio (compuestos)" target="Veracruz de Ignacio de la Llave.Agua Dulce" id="473" weight="1.144843175" />
+      <edge source="Cadmio (compuestos)" target="Veracruz de Ignacio de la Llave.Tezonapa" id="474" weight="0.0015658289999999997" />
+      <edge source="Cadmio (compuestos)" target="Veracruz de Ignacio de la Llave.Medellín de Bravo" id="475" weight="1.82865e-05" />
+      <edge source="Cadmio (compuestos)" target="Veracruz de Ignacio de la Llave.Acayucan" id="476" weight="1.779625" />
+      <edge source="Cadmio (compuestos)" target="Veracruz de Ignacio de la Llave.Perote" id="477" weight="0.558567" />
+      <edge source="Cadmio (compuestos)" target="Veracruz de Ignacio de la Llave.Tantoyuca" id="478" weight="0.003144" />
+      <edge source="Cadmio (compuestos)" target="Veracruz de Ignacio de la Llave.Ursulo Galván" id="479" weight="0.0407303496" />
+      <edge source="Cadmio (compuestos)" target="Veracruz de Ignacio de la Llave.Apazapan" id="480" weight="3.93664815" />
+      <edge source="Cadmio (compuestos)" target="Veracruz de Ignacio de la Llave.Paso del Macho" id="481" weight="10.3400914" />
+      <edge source="Cadmio (compuestos)" target="Veracruz de Ignacio de la Llave.Jalacingo" id="482" weight="0.09051" />
+      <edge source="Arsénico (Compuestos solubles)" target="Veracruz de Ignacio de la Llave.Veracruz" id="483" weight="297.2733149999999" />
+      <edge source="Arsénico (Compuestos solubles)" target="Veracruz de Ignacio de la Llave.Coatzacoalcos" id="484" weight="10869.930681999995" />
+      <edge source="Arsénico (Compuestos solubles)" target="Veracruz de Ignacio de la Llave.Orizaba" id="485" weight="30.319700000000005" />
+      <edge source="Arsénico (Compuestos solubles)" target="Veracruz de Ignacio de la Llave.Minatitlán" id="486" weight="297.5748" />
+      <edge source="Arsénico (Compuestos solubles)" target="Veracruz de Ignacio de la Llave.Pánuco" id="487" weight="58.12750000000001" />
+      <edge source="Arsénico (Compuestos solubles)" target="Veracruz de Ignacio de la Llave.Tres Valles" id="488" weight="155.649371441" />
+      <edge source="Arsénico (Compuestos solubles)" target="Veracruz de Ignacio de la Llave.Poza Rica de Hidalgo" id="489" weight="4.9028" />
+      <edge source="Arsénico (Compuestos solubles)" target="Veracruz de Ignacio de la Llave.Nanchital de Lázaro Cárdenas del Río" id="490" weight="16.1657" />
+      <edge source="Arsénico (Compuestos solubles)" target="Veracruz de Ignacio de la Llave.Coatepec" id="491" weight="43.7736" />
+      <edge source="Arsénico (Compuestos solubles)" target="Veracruz de Ignacio de la Llave.Ixtaczoquitlán" id="492" weight="34.578464000000004" />
+      <edge source="Arsénico (Compuestos solubles)" target="Veracruz de Ignacio de la Llave.Carlos A" id="493" weight="75.3622" />
+      <edge source="Arsénico (Compuestos solubles)" target="Veracruz de Ignacio de la Llave.Lerdo de Tejada" id="494" weight="116.6656" />
+      <edge source="Arsénico (Compuestos solubles)" target="Veracruz de Ignacio de la Llave.Tihuatlán" id="495" weight="5.043200000000001" />
+      <edge source="Arsénico (Compuestos solubles)" target="Veracruz de Ignacio de la Llave.Cerro Azul" id="496" weight="9.14" />
+      <edge source="Arsénico (Compuestos solubles)" target="Veracruz de Ignacio de la Llave.Cuitláhuac" id="497" weight="67.50150000000001" />
+      <edge source="Arsénico (Compuestos solubles)" target="Veracruz de Ignacio de la Llave.Tezonapa" id="498" weight="10.0135" />
+      <edge source="Arsénico (Compuestos solubles)" target="Veracruz de Ignacio de la Llave.Medellín de Bravo" id="499" weight="42.1193" />
+      <edge source="Arsénico (Compuestos solubles)" target="Veracruz de Ignacio de la Llave.Alto Lucero de Gutiérrez Barrios" id="500" weight="81998.48140000002" />
+      <edge source="Arsénico (Compuestos solubles)" target="Veracruz de Ignacio de la Llave.Chinameca" id="501" weight="3.7581" />
+      <edge source="Arsénico (Compuestos solubles)" target="Veracruz de Ignacio de la Llave.Boca del Río" id="502" weight="1.2257" />
+      <edge source="Arsénico (Compuestos solubles)" target="Veracruz de Ignacio de la Llave.Perote" id="503" weight="1.2665" />
+      <edge source="Arsénico (Compuestos solubles)" target="Veracruz de Ignacio de la Llave.Atoyac" id="504" weight="201.31169999999997" />
+      <edge source="Arsénico (Compuestos solubles)" target="Veracruz de Ignacio de la Llave.Cuichapa" id="505" weight="30.0001" />
+      <edge source="Arsénico (Compuestos solubles)" target="Veracruz de Ignacio de la Llave.San Rafael" id="506" weight="2.4431" />
+      <edge source="Arsénico (Compuestos solubles)" target="Veracruz de Ignacio de la Llave.Ursulo Galván" id="507" weight="7.849400000000001" />
+      <edge source="Arsénico (Compuestos solubles)" target="Veracruz de Ignacio de la Llave.Paso del Macho" id="508" weight="1.099" />
+    </edges>
+  </graph>
+</gexf>

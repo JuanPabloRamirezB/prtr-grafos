@@ -1,0 +1,119 @@
+<?xml version='1.0' encoding='utf-8'?>
+<gexf xmlns="http://www.gexf.net/1.2draft" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.gexf.net/1.2draft http://www.gexf.net/1.2draft/gexf.xsd" version="1.2">
+  <meta lastmodifieddate="2026-10-16">
+    <creator>NetworkX 3.7</creator>
+  </meta>
+  <graph defaultedgetype="undirected" mode="static" name="">
+    <attributes mode="static" class="node">
+      <attribute id="0" title="type" type="string" />
+      <attribute id="1" title="total_kg" type="double" />
+    </attributes>
+    <nodes>
+      <node id="LOC::Nayarit.Xalisco" label="Nayarit.Xalisco">
+        <attvalues>
+          <attvalue for="0" value="location" />
+          <attvalue for="1" value="484452.78022072196" />
+        </attvalues>
+      </node>
+      <node id="LOC::Nayarit.Tepic" label="Nayarit.Tepic">
+        <attvalues>
+          <attvalue for="0" value="location" />
+          <attvalue for="1" value="16586.323953395986" />
+        </attvalues>
+      </node>
+      <node id="LOC::Nayarit.Del Nayar" label="Nayarit.Del Nayar">
+        <attvalues>
+          <attvalue for="0" value="location" />
+          <attvalue for="1" value="0.05261332273999999" />
+        </attvalues>
+      </node>
+      <node id="LOC::Nayarit.Bahía de Banderas" label="Nayarit.Bahía de Banderas">
+        <attvalues>
+          <attvalue for="0" value="location" />
+          <attvalue for="1" value="868.3303999999999" />
+        </attvalues>
+      </node>
+      <node id="LOC::Nayarit.San Blas" label="Nayarit.San Blas">
+        <attvalues>
+          <attvalue for="0" value="location" />
+          <attvalue for="1" value="1090.9144999999999" />
+        </attvalues>
+      </node>
+      <node id="LOC::Nayarit.San Pedro Lagunillas" label="Nayarit.San Pedro Lagunillas">
+        <attvalues>
+          <attvalue for="0" value="location" />
+          <attvalue for="1" value="92471857.56840001" />
+        </attvalues>
+      </node>
+      <node id="LOC::Nayarit.Acaponeta" label="Nayarit.Acaponeta">
+        <attvalues>
+          <attvalue for="0" value="location" />
+          <attvalue for="1" value="53.222475" />
+        </attvalues>
+      </node>
+      <node id="LOC::Nayarit.La Yesca" label="Nayarit.La Yesca">
+        <attvalues>
+          <attvalue for="0" value="location" />
+          <attvalue for="1" value="77.50138679000001" />
+        </attvalues>
+      </node>
+      <node id="LOC::Nayarit.Santa María del Oro" label="Nayarit.Santa María del Oro">
+        <attvalues>
+          <attvalue for="0" value="location" />
+          <attvalue for="1" value="166.3801455592" />
+        </attvalues>
+      </node>
+      <node id="MED::agua" label="water">
+        <attvalues>
+          <attvalue for="0" value="medio" />
+          <attvalue for="1" value="16132.937865827773" />
+        </attvalues>
+      </node>
+      <node id="MED::aire" label="air">
+        <attvalues>
+          <attvalue for="0" value="medio" />
+          <attvalue for="1" value="92942185.91678907" />
+        </attvalues>
+      </node>
+      <node id="MED::suelo" label="soil">
+        <attvalues>
+          <attvalue for="0" value="medio" />
+          <attvalue for="1" value="16565.500039897306" />
+        </attvalues>
+      </node>
+      <node id="MED::coprocesamiento" label="co-processing">
+        <attvalues>
+          <attvalue for="0" value="medio" />
+          <attvalue for="1" value="260.4" />
+        </attvalues>
+      </node>
+      <node id="MED::otros" label="other">
+        <attvalues>
+          <attvalue for="0" value="medio" />
+          <attvalue for="1" value="8.3194" />
+        </attvalues>
+      </node>
+    </nodes>
+    <edges>
+      <edge source="LOC::Nayarit.Xalisco" target="MED::agua" id="0" weight="5.46597544" />
+      <edge source="LOC::Nayarit.Xalisco" target="MED::aire" id="1" weight="484443.8" />
+      <edge source="LOC::Nayarit.Xalisco" target="MED::suelo" id="2" weight="3.5142452821" />
+      <edge source="LOC::Nayarit.Tepic" target="MED::agua" id="3" weight="1.527504e-05" />
+      <edge source="LOC::Nayarit.Tepic" target="MED::aire" id="4" weight="15554.116789064945" />
+      <edge source="LOC::Nayarit.Tepic" target="MED::suelo" id="5" weight="1023.887749056" />
+      <edge source="LOC::Nayarit.Tepic" target="MED::otros" id="6" weight="8.3194" />
+      <edge source="LOC::Nayarit.Del Nayar" target="MED::agua" id="7" weight="0.05261332273999999" />
+      <edge source="LOC::Nayarit.Bahía de Banderas" target="MED::agua" id="8" weight="97.49669999999998" />
+      <edge source="LOC::Nayarit.Bahía de Banderas" target="MED::suelo" id="9" weight="510.4337" />
+      <edge source="LOC::Nayarit.Bahía de Banderas" target="MED::coprocesamiento" id="10" weight="260.4" />
+      <edge source="LOC::Nayarit.San Blas" target="MED::agua" id="11" weight="1090.9144999999999" />
+      <edge source="LOC::Nayarit.San Pedro Lagunillas" target="MED::agua" id="12" weight="14861.2842" />
+      <edge source="LOC::Nayarit.San Pedro Lagunillas" target="MED::aire" id="13" weight="92442135.0" />
+      <edge source="LOC::Nayarit.San Pedro Lagunillas" target="MED::suelo" id="14" weight="14861.2842" />
+      <edge source="LOC::Nayarit.Acaponeta" target="MED::agua" id="15" weight="0.22247500000000003" />
+      <edge source="LOC::Nayarit.Acaponeta" target="MED::aire" id="16" weight="53.0" />
+      <edge source="LOC::Nayarit.La Yesca" target="MED::agua" id="17" weight="77.50138679000001" />
+      <edge source="LOC::Nayarit.Santa María del Oro" target="MED::suelo" id="18" weight="166.3801455592" />
+    </edges>
+  </graph>
+</gexf>

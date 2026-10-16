@@ -1,0 +1,147 @@
+<?xml version='1.0' encoding='utf-8'?>
+<gexf xmlns="http://www.gexf.net/1.2draft" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.gexf.net/1.2draft http://www.gexf.net/1.2draft/gexf.xsd" version="1.2">
+  <meta lastmodifieddate="2026-10-16">
+    <creator>NetworkX 3.7</creator>
+  </meta>
+  <graph defaultedgetype="undirected" mode="static" name="">
+    <attributes mode="static" class="node">
+      <attribute id="0" title="role" type="string" />
+      <attribute id="1" title="total_kg" type="double" />
+    </attributes>
+    <nodes>
+      <node id="Guerrero.La Unión de Isidoro Montes de Oca" label="Guerrero.La Unión de Isidoro Montes de Oca">
+        <attvalues>
+          <attvalue for="0" value="focal" />
+          <attvalue for="1" value="73653060665.49957" />
+        </attvalues>
+      </node>
+      <node id="Bióxido de carbono" label="Carbon dioxide">
+        <attvalues>
+          <attvalue for="0" value="substance" />
+          <attvalue for="1" value="73479325150.0" />
+        </attvalues>
+      </node>
+      <node id="Bióxido de nitrógeno" label="Nitrogen dioxide">
+        <attvalues>
+          <attvalue for="0" value="substance" />
+          <attvalue for="1" value="104274690.0" />
+        </attvalues>
+      </node>
+      <node id="Oxido nitroso" label="Nitrous oxide">
+        <attvalues>
+          <attvalue for="0" value="substance" />
+          <attvalue for="1" value="69421740.0" />
+        </attvalues>
+      </node>
+      <node id="Plomo (Compuestos solubles)" label="Lead (soluble compounds)">
+        <attvalues>
+          <attvalue for="0" value="substance" />
+          <attvalue for="1" value="14788.724100000001" />
+        </attvalues>
+      </node>
+      <node id="Cromo (Compuestos solubles)" label="Chromium (soluble compounds)">
+        <attvalues>
+          <attvalue for="0" value="substance" />
+          <attvalue for="1" value="13692.3813" />
+        </attvalues>
+      </node>
+      <node id="Arsénico (polvos, respirables, vapores o humos)" label="Arsenic (respirable dust, vapors or fumes)">
+        <attvalues>
+          <attvalue for="0" value="substance" />
+          <attvalue for="1" value="5990.000003" />
+        </attvalues>
+      </node>
+      <node id="Hexafluoruro de azufre" label="Sulfur hexafluoride">
+        <attvalues>
+          <attvalue for="0" value="substance" />
+          <attvalue for="1" value="2075.9" />
+        </attvalues>
+      </node>
+      <node id="Cianuro inorgánico/orgánico" label="Inorganic/organic cyanide">
+        <attvalues>
+          <attvalue for="0" value="substance" />
+          <attvalue for="1" value="918.9199" />
+        </attvalues>
+      </node>
+      <node id="Cadmio (Compuestos solubles)" label="Cadmium (soluble compounds)">
+        <attvalues>
+          <attvalue for="0" value="substance" />
+          <attvalue for="1" value="815.5846" />
+        </attvalues>
+      </node>
+      <node id="Arsénico (compuestos)" label="Arsenic (compounds)">
+        <attvalues>
+          <attvalue for="0" value="substance" />
+          <attvalue for="1" value="788.543276871" />
+        </attvalues>
+      </node>
+      <node id="Níquel (Compuestos solubles)" label="Nickel (soluble compounds)">
+        <attvalues>
+          <attvalue for="0" value="substance" />
+          <attvalue for="1" value="12.136100000000003" />
+        </attvalues>
+      </node>
+      <node id="Arsénico (Compuestos solubles)" label="Arsenic (soluble compounds)">
+        <attvalues>
+          <attvalue for="0" value="substance" />
+          <attvalue for="1" value="3.3103" />
+        </attvalues>
+      </node>
+      <node id="Guerrero.Eduardo Neri" label="Guerrero.Eduardo Neri">
+        <attvalues>
+          <attvalue for="0" value="peer_municipio" />
+          <attvalue for="1" value="445809684.0957937" />
+        </attvalues>
+      </node>
+      <node id="Guerrero.Acapulco de Juárez" label="Guerrero.Acapulco de Juárez">
+        <attvalues>
+          <attvalue for="0" value="peer_municipio" />
+          <attvalue for="1" value="1396499114.0730991" />
+        </attvalues>
+      </node>
+      <node id="Guerrero.Cutzamala de Pinzón" label="Guerrero.Cutzamala de Pinzón">
+        <attvalues>
+          <attvalue for="0" value="peer_municipio" />
+          <attvalue for="1" value="1760220.7185" />
+        </attvalues>
+      </node>
+    </nodes>
+    <edges>
+      <edge source="Guerrero.La Unión de Isidoro Montes de Oca" target="Bióxido de carbono" id="0" weight="73479325150.0" />
+      <edge source="Guerrero.La Unión de Isidoro Montes de Oca" target="Bióxido de nitrógeno" id="1" weight="104274690.0" />
+      <edge source="Guerrero.La Unión de Isidoro Montes de Oca" target="Oxido nitroso" id="2" weight="69421740.0" />
+      <edge source="Guerrero.La Unión de Isidoro Montes de Oca" target="Plomo (Compuestos solubles)" id="3" weight="14788.724100000001" />
+      <edge source="Guerrero.La Unión de Isidoro Montes de Oca" target="Cromo (Compuestos solubles)" id="4" weight="13692.3813" />
+      <edge source="Guerrero.La Unión de Isidoro Montes de Oca" target="Arsénico (polvos, respirables, vapores o humos)" id="5" weight="5990.000003" />
+      <edge source="Guerrero.La Unión de Isidoro Montes de Oca" target="Hexafluoruro de azufre" id="6" weight="2075.9" />
+      <edge source="Guerrero.La Unión de Isidoro Montes de Oca" target="Cianuro inorgánico/orgánico" id="7" weight="918.9199" />
+      <edge source="Guerrero.La Unión de Isidoro Montes de Oca" target="Cadmio (Compuestos solubles)" id="8" weight="815.5846" />
+      <edge source="Guerrero.La Unión de Isidoro Montes de Oca" target="Arsénico (compuestos)" id="9" weight="788.543276871" />
+      <edge source="Guerrero.La Unión de Isidoro Montes de Oca" target="Níquel (Compuestos solubles)" id="10" weight="12.136100000000003" />
+      <edge source="Guerrero.La Unión de Isidoro Montes de Oca" target="Arsénico (Compuestos solubles)" id="11" weight="3.3103" />
+      <edge source="Bióxido de carbono" target="Guerrero.Eduardo Neri" id="12" weight="440037371.2" />
+      <edge source="Bióxido de carbono" target="Guerrero.Acapulco de Juárez" id="13" weight="1396498586.70328" />
+      <edge source="Oxido nitroso" target="Guerrero.Eduardo Neri" id="14" weight="5772125.0" />
+      <edge source="Plomo (Compuestos solubles)" target="Guerrero.Eduardo Neri" id="15" weight="1.8312016415999999" />
+      <edge source="Plomo (Compuestos solubles)" target="Guerrero.Acapulco de Juárez" id="16" weight="102.4728192" />
+      <edge source="Plomo (Compuestos solubles)" target="Guerrero.Cutzamala de Pinzón" id="17" weight="482257.219" />
+      <edge source="Cromo (Compuestos solubles)" target="Guerrero.Eduardo Neri" id="18" weight="6.396254015999999" />
+      <edge source="Cromo (Compuestos solubles)" target="Guerrero.Acapulco de Juárez" id="19" weight="212.85773200000003" />
+      <edge source="Cromo (Compuestos solubles)" target="Guerrero.Cutzamala de Pinzón" id="20" weight="478352.3901" />
+      <edge source="Arsénico (polvos, respirables, vapores o humos)" target="Guerrero.Eduardo Neri" id="21" weight="60.8903117418" />
+      <edge source="Arsénico (polvos, respirables, vapores o humos)" target="Guerrero.Acapulco de Juárez" id="22" weight="9.257392141579999" />
+      <edge source="Cianuro inorgánico/orgánico" target="Guerrero.Eduardo Neri" id="23" weight="10.881007821999999" />
+      <edge source="Cianuro inorgánico/orgánico" target="Guerrero.Acapulco de Juárez" id="24" weight="19.57366582375" />
+      <edge source="Cianuro inorgánico/orgánico" target="Guerrero.Cutzamala de Pinzón" id="25" weight="47790.3624" />
+      <edge source="Cadmio (Compuestos solubles)" target="Guerrero.Acapulco de Juárez" id="26" weight="53.6282" />
+      <edge source="Cadmio (Compuestos solubles)" target="Guerrero.Cutzamala de Pinzón" id="27" weight="107482.87349999999" />
+      <edge source="Arsénico (compuestos)" target="Guerrero.Eduardo Neri" id="28" weight="103.28113336999999" />
+      <edge source="Arsénico (compuestos)" target="Guerrero.Acapulco de Juárez" id="29" weight="4.8307" />
+      <edge source="Níquel (Compuestos solubles)" target="Guerrero.Eduardo Neri" id="30" weight="4.615885152" />
+      <edge source="Níquel (Compuestos solubles)" target="Guerrero.Acapulco de Juárez" id="31" weight="115.81851" />
+      <edge source="Níquel (Compuestos solubles)" target="Guerrero.Cutzamala de Pinzón" id="32" weight="471434.4495" />
+      <edge source="Arsénico (Compuestos solubles)" target="Guerrero.Acapulco de Juárez" id="33" weight="8.9308" />
+      <edge source="Arsénico (Compuestos solubles)" target="Guerrero.Cutzamala de Pinzón" id="34" weight="172903.424" />
+    </edges>
+  </graph>
+</gexf>

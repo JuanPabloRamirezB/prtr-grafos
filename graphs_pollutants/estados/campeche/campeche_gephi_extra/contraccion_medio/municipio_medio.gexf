@@ -1,0 +1,132 @@
+<?xml version='1.0' encoding='utf-8'?>
+<gexf xmlns="http://www.gexf.net/1.2draft" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.gexf.net/1.2draft http://www.gexf.net/1.2draft/gexf.xsd" version="1.2">
+  <meta lastmodifieddate="2026-10-16">
+    <creator>NetworkX 3.7</creator>
+  </meta>
+  <graph defaultedgetype="undirected" mode="static" name="">
+    <attributes mode="static" class="node">
+      <attribute id="0" title="type" type="string" />
+      <attribute id="1" title="total_kg" type="double" />
+    </attributes>
+    <nodes>
+      <node id="LOC::Campeche.Carmen" label="Campeche.Carmen">
+        <attvalues>
+          <attvalue for="0" value="location" />
+          <attvalue for="1" value="202550088945.66476" />
+        </attvalues>
+      </node>
+      <node id="LOC::Campeche.Palizada" label="Campeche.Palizada">
+        <attvalues>
+          <attvalue for="0" value="location" />
+          <attvalue for="1" value="5019974036.426873" />
+        </attvalues>
+      </node>
+      <node id="LOC::Campeche.Campeche" label="Campeche.Campeche">
+        <attvalues>
+          <attvalue for="0" value="location" />
+          <attvalue for="1" value="11544546919.79482" />
+        </attvalues>
+      </node>
+      <node id="LOC::Campeche.Champotón" label="Campeche.Champotón">
+        <attvalues>
+          <attvalue for="0" value="location" />
+          <attvalue for="1" value="407872143.72479993" />
+        </attvalues>
+      </node>
+      <node id="LOC::Campeche.Tenabo" label="Campeche.Tenabo">
+        <attvalues>
+          <attvalue for="0" value="location" />
+          <attvalue for="1" value="13.2704" />
+        </attvalues>
+      </node>
+      <node id="LOC::Campeche.Calkiní" label="Campeche.Calkiní">
+        <attvalues>
+          <attvalue for="0" value="location" />
+          <attvalue for="1" value="15.9059" />
+        </attvalues>
+      </node>
+      <node id="LOC::Campeche.Escárcega" label="Campeche.Escárcega">
+        <attvalues>
+          <attvalue for="0" value="location" />
+          <attvalue for="1" value="29918800.0" />
+        </attvalues>
+      </node>
+      <node id="LOC::Campeche.Hopelchén" label="Campeche.Hopelchén">
+        <attvalues>
+          <attvalue for="0" value="location" />
+          <attvalue for="1" value="61.082300000000004" />
+        </attvalues>
+      </node>
+      <node id="MED::agua" label="water">
+        <attvalues>
+          <attvalue for="0" value="medio" />
+          <attvalue for="1" value="638265.2880838776" />
+        </attvalues>
+      </node>
+      <node id="MED::aire" label="air">
+        <attvalues>
+          <attvalue for="0" value="medio" />
+          <attvalue for="1" value="219551299849.33383" />
+        </attvalues>
+      </node>
+      <node id="MED::suelo" label="soil">
+        <attvalues>
+          <attvalue for="0" value="medio" />
+          <attvalue for="1" value="18154.607135250844" />
+        </attvalues>
+      </node>
+      <node id="MED::coprocesamiento" label="co-processing">
+        <attvalues>
+          <attvalue for="0" value="medio" />
+          <attvalue for="1" value="26467.48" />
+        </attvalues>
+      </node>
+      <node id="MED::disposicion_final" label="final disposal">
+        <attvalues>
+          <attvalue for="0" value="medio" />
+          <attvalue for="1" value="92695.096" />
+        </attvalues>
+      </node>
+      <node id="MED::otros" label="other">
+        <attvalues>
+          <attvalue for="0" value="medio" />
+          <attvalue for="1" value="287092.025" />
+        </attvalues>
+      </node>
+      <node id="MED::reciclado" label="recycling">
+        <attvalues>
+          <attvalue for="0" value="medio" />
+          <attvalue for="1" value="37467.03999999999" />
+        </attvalues>
+      </node>
+      <node id="MED::reutilizacion" label="reuse">
+        <attvalues>
+          <attvalue for="0" value="medio" />
+          <attvalue for="1" value="945.0" />
+        </attvalues>
+      </node>
+    </nodes>
+    <edges>
+      <edge source="LOC::Campeche.Carmen" target="MED::agua" id="0" weight="250387.61673449146" />
+      <edge source="LOC::Campeche.Carmen" target="MED::aire" id="1" weight="202549393095.77655" />
+      <edge source="LOC::Campeche.Carmen" target="MED::suelo" id="2" weight="795.63073074085" />
+      <edge source="LOC::Campeche.Carmen" target="MED::coprocesamiento" id="3" weight="26467.48" />
+      <edge source="LOC::Campeche.Carmen" target="MED::disposicion_final" id="4" weight="92695.096" />
+      <edge source="LOC::Campeche.Carmen" target="MED::otros" id="5" weight="287092.025" />
+      <edge source="LOC::Campeche.Carmen" target="MED::reciclado" id="6" weight="37467.03999999999" />
+      <edge source="LOC::Campeche.Carmen" target="MED::reutilizacion" id="7" weight="945.0" />
+      <edge source="LOC::Campeche.Palizada" target="MED::agua" id="8" weight="1830.77083408683" />
+      <edge source="LOC::Campeche.Palizada" target="MED::aire" id="9" weight="5019972205.656039" />
+      <edge source="LOC::Campeche.Campeche" target="MED::agua" id="10" weight="385918.99461529765" />
+      <edge source="LOC::Campeche.Campeche" target="MED::aire" id="11" weight="11544160687.901306" />
+      <edge source="LOC::Campeche.Campeche" target="MED::suelo" id="12" weight="312.8989045100001" />
+      <edge source="LOC::Campeche.Champotón" target="MED::agua" id="13" weight="98.7296" />
+      <edge source="LOC::Campeche.Champotón" target="MED::aire" id="14" weight="407855060.0" />
+      <edge source="LOC::Campeche.Champotón" target="MED::suelo" id="15" weight="16984.9952" />
+      <edge source="LOC::Campeche.Tenabo" target="MED::agua" id="16" weight="13.2704" />
+      <edge source="LOC::Campeche.Calkiní" target="MED::agua" id="17" weight="15.9059" />
+      <edge source="LOC::Campeche.Escárcega" target="MED::aire" id="18" weight="29918800.0" />
+      <edge source="LOC::Campeche.Hopelchén" target="MED::suelo" id="19" weight="61.082300000000004" />
+    </edges>
+  </graph>
+</gexf>

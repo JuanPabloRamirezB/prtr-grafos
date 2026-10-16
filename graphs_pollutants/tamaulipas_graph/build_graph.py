@@ -23,7 +23,10 @@ import plotly.graph_objects as go
 
 HERE = os.path.dirname(os.path.abspath(__file__))
 SRC = os.path.join(HERE, "..", "..", "prtr_raw_for_stori_stori.csv")
-STATE_FILTER = "Tamaulipas"
+STATE_FILTER = sys.argv[1] if len(sys.argv) > 1 else "Tamaulipas"
+OUT_DIR = sys.argv[2] if len(sys.argv) > 2 else HERE
+SLUG = sys.argv[3] if len(sys.argv) > 3 else "tamaulipas"
+H.configure(STATE_FILTER, "municipio")
 
 # Reference palette (dataviz skill) - categorical slots 1 (blue) & 2 (orange)
 COLOR_LOCATION = "#2a78d6"
@@ -138,7 +141,7 @@ for n in subs_sorted:
     ax.annotate(H.display(n), (x, y), fontsize=6.8, color=INK_PRIMARY, ha="left", va="center",
                 xytext=(8, 0), textcoords="offset points", zorder=3)
 
-ax.set_title("PRTR Tamaulipas — Municipality ↔ Substance (kg/year)", fontsize=15, color=INK_PRIMARY, pad=16)
+ax.set_title(f"PRTR {STATE_FILTER} — Municipality ↔ Substance (kg/year)", fontsize=15, color=INK_PRIMARY, pad=16)
 ax.legend(loc="upper center", bbox_to_anchor=(0.5, 1.01), ncol=2, frameon=False,
           labelcolor=INK_SECONDARY, fontsize=10)
 ax.text(0.5, -0.006, "Node size = cumulative emissions (kg/year). Line thickness = emissions per relationship. Columns ranked from highest to lowest emissions.",
@@ -147,7 +150,7 @@ ax.set_xlim(-0.35, 1.35)
 ax.set_ylim(-0.02, 1.06)
 ax.axis("off")
 
-png_path = os.path.join(HERE, "tamaulipas_graph.png")
+png_path = os.path.join(OUT_DIR, f"{SLUG}_graph.png")
 fig.savefig(png_path, dpi=150, bbox_inches="tight", facecolor=SURFACE)
 plt.close(fig)
 print(f"Written {png_path}")
@@ -184,7 +187,7 @@ for kind, color, label, names in (
 traces.append(H.edge_midpoints(list(G.edges()), lambda u, v: H.edge_hover(u, v), pos))
 fig2 = go.Figure(data=traces)
 fig2.update_layout(
-    title=dict(text="PRTR Tamaulipas — Municipality ↔ Substance (kg/year)", font=dict(color=INK_PRIMARY, size=18)),
+    title=dict(text=f"PRTR {STATE_FILTER} — Municipality ↔ Substance (kg/year)", font=dict(color=INK_PRIMARY, size=18)),
     plot_bgcolor=SURFACE, paper_bgcolor=SURFACE,
     xaxis=dict(visible=False), yaxis=dict(visible=False),
     legend=dict(font=dict(color=INK_SECONDARY)),
@@ -193,6 +196,6 @@ fig2.update_layout(
     height=1400,
 )
 
-html_path = os.path.join(HERE, "tamaulipas_graph.html")
+html_path = os.path.join(OUT_DIR, f"{SLUG}_graph.html")
 U.write(fig2, html_path)
 print(f"Written {html_path}")

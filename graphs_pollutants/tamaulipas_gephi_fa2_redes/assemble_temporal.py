@@ -14,7 +14,10 @@ import matplotlib.pyplot as plt
 import networkx as nx
 import plotly.graph_objects as go
 
-HERE = os.path.join(os.path.dirname(os.path.abspath(__file__)), "temporal")
+STATE_FILTER = sys.argv[1] if len(sys.argv) > 1 else "Tamaulipas"
+BASE = sys.argv[2] if len(sys.argv) > 2 else os.path.dirname(os.path.abspath(__file__))
+HERE = os.path.join(BASE, "temporal")
+H.configure(STATE_FILTER, "municipio")
 years = [int(y) for y in open(os.path.join(HERE, "years.txt")).read().split(",")]
 INK, SURFACE, EDGE = "#0b0b0b", "#fcfcfb", "#898781"
 
@@ -25,7 +28,7 @@ for ax, y in zip(axes.ravel(), snap):
     ax.imshow(mpimg.imread(os.path.join(HERE, "frames", f"temporal_{y}.png")))
     ax.set_title(str(y), fontsize=15, color=INK)
     ax.axis("off")
-fig.suptitle("PRTR Tamaulipas — Municipality ↔ Substance by year (Gephi Toolkit + ForceAtlas2)", fontsize=16, color=INK)
+fig.suptitle(f"PRTR {STATE_FILTER} — Municipality ↔ Substance by year (Gephi Toolkit + ForceAtlas2)", fontsize=16, color=INK)
 fig.text(0.5, 0.005, "Identical positions across the 4 panels (ForceAtlas2 on the union of all years). "
          "Size = that year's kg (common log scale); gray = no report that year.", ha="center", fontsize=9, color="#898781")
 fig.tight_layout(rect=(0, 0.01, 1, 0.97))
@@ -75,7 +78,7 @@ def frame(y):
 
 fig2 = go.Figure(data=frame(years[0]), frames=[go.Frame(data=frame(y), name=str(y)) for y in years])
 fig2.update_layout(
-    title=dict(text=f"PRTR Tamaulipas — Municipality ↔ Substance by year ({years[0]}-{years[-1]}), ForceAtlas2",
+    title=dict(text=f"PRTR {STATE_FILTER} — Municipality ↔ Substance by year ({years[0]}-{years[-1]}), ForceAtlas2",
                font=dict(color=INK, size=18)),
     plot_bgcolor=SURFACE, paper_bgcolor=SURFACE,
     xaxis=dict(visible=False), yaxis=dict(visible=False, scaleanchor="x"),

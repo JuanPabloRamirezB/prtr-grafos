@@ -1,0 +1,168 @@
+<?xml version='1.0' encoding='utf-8'?>
+<gexf xmlns="http://www.gexf.net/1.2draft" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.gexf.net/1.2draft http://www.gexf.net/1.2draft/gexf.xsd" version="1.2">
+  <meta lastmodifieddate="2026-10-16">
+    <creator>NetworkX 3.7</creator>
+  </meta>
+  <graph defaultedgetype="undirected" mode="static" name="">
+    <attributes mode="static" class="node">
+      <attribute id="0" title="type" type="string" />
+      <attribute id="1" title="total_kg" type="double" />
+    </attributes>
+    <nodes>
+      <node id="LOC::Aguascalientes.San Francisco de los Romo" label="Aguascalientes.San Francisco de los Romo">
+        <attvalues>
+          <attvalue for="0" value="location" />
+          <attvalue for="1" value="1611168658.1099734" />
+        </attvalues>
+      </node>
+      <node id="LOC::Aguascalientes.Tepezalá" label="Aguascalientes.Tepezalá">
+        <attvalues>
+          <attvalue for="0" value="location" />
+          <attvalue for="1" value="11643467321.469532" />
+        </attvalues>
+      </node>
+      <node id="LOC::Aguascalientes.Aguascalientes" label="Aguascalientes.Aguascalientes">
+        <attvalues>
+          <attvalue for="0" value="location" />
+          <attvalue for="1" value="2869879111.2353215" />
+        </attvalues>
+      </node>
+      <node id="LOC::Aguascalientes.Jesús María" label="Aguascalientes.Jesús María">
+        <attvalues>
+          <attvalue for="0" value="location" />
+          <attvalue for="1" value="1315993128.996041" />
+        </attvalues>
+      </node>
+      <node id="LOC::Aguascalientes.El Llano" label="Aguascalientes.El Llano">
+        <attvalues>
+          <attvalue for="0" value="location" />
+          <attvalue for="1" value="395359.5864859999" />
+        </attvalues>
+      </node>
+      <node id="LOC::Aguascalientes.Rincón de Romos" label="Aguascalientes.Rincón de Romos">
+        <attvalues>
+          <attvalue for="0" value="location" />
+          <attvalue for="1" value="22001928.945278607" />
+        </attvalues>
+      </node>
+      <node id="LOC::Aguascalientes.Asientos" label="Aguascalientes.Asientos">
+        <attvalues>
+          <attvalue for="0" value="location" />
+          <attvalue for="1" value="5152271440.23751" />
+        </attvalues>
+      </node>
+      <node id="MED::agua" label="water">
+        <attvalues>
+          <attvalue for="0" value="medio" />
+          <attvalue for="1" value="28253.318077981" />
+        </attvalues>
+      </node>
+      <node id="MED::aire" label="air">
+        <attvalues>
+          <attvalue for="0" value="medio" />
+          <attvalue for="1" value="22612028224.343967" />
+        </attvalues>
+      </node>
+      <node id="MED::suelo" label="soil">
+        <attvalues>
+          <attvalue for="0" value="medio" />
+          <attvalue for="1" value="6065.822498287355" />
+        </attvalues>
+      </node>
+      <node id="MED::alcantarillado" label="sewer system">
+        <attvalues>
+          <attvalue for="0" value="medio" />
+          <attvalue for="1" value="4628.0315381064565" />
+        </attvalues>
+      </node>
+      <node id="MED::coprocesamiento" label="co-processing">
+        <attvalues>
+          <attvalue for="0" value="medio" />
+          <attvalue for="1" value="235588.26649428395" />
+        </attvalues>
+      </node>
+      <node id="MED::disposicion_final" label="final disposal">
+        <attvalues>
+          <attvalue for="0" value="medio" />
+          <attvalue for="1" value="498267.48536466" />
+        </attvalues>
+      </node>
+      <node id="MED::incineracion" label="incineration">
+        <attvalues>
+          <attvalue for="0" value="medio" />
+          <attvalue for="1" value="9154.944" />
+        </attvalues>
+      </node>
+      <node id="MED::otros" label="other">
+        <attvalues>
+          <attvalue for="0" value="medio" />
+          <attvalue for="1" value="9756.323663799996" />
+        </attvalues>
+      </node>
+      <node id="MED::reciclado" label="recycling">
+        <attvalues>
+          <attvalue for="0" value="medio" />
+          <attvalue for="1" value="1978829.7565" />
+        </attvalues>
+      </node>
+      <node id="MED::reutilizacion" label="reuse">
+        <attvalues>
+          <attvalue for="0" value="medio" />
+          <attvalue for="1" value="27795.09" />
+        </attvalues>
+      </node>
+      <node id="MED::tratamiento" label="treatment">
+        <attvalues>
+          <attvalue for="0" value="medio" />
+          <attvalue for="1" value="350385.198065034" />
+        </attvalues>
+      </node>
+    </nodes>
+    <edges>
+      <edge source="LOC::Aguascalientes.San Francisco de los Romo" target="MED::agua" id="0" weight="782.6395182073903" />
+      <edge source="LOC::Aguascalientes.San Francisco de los Romo" target="MED::aire" id="1" weight="1611148699.6015434" />
+      <edge source="LOC::Aguascalientes.San Francisco de los Romo" target="MED::suelo" id="2" weight="978.5883307076002" />
+      <edge source="LOC::Aguascalientes.San Francisco de los Romo" target="MED::alcantarillado" id="3" weight="2124.6698131367107" />
+      <edge source="LOC::Aguascalientes.San Francisco de los Romo" target="MED::coprocesamiento" id="4" weight="5646.338169999998" />
+      <edge source="LOC::Aguascalientes.San Francisco de los Romo" target="MED::disposicion_final" id="5" weight="1003.3521928" />
+      <edge source="LOC::Aguascalientes.San Francisco de los Romo" target="MED::otros" id="6" weight="1389.921240000001" />
+      <edge source="LOC::Aguascalientes.San Francisco de los Romo" target="MED::reutilizacion" id="7" weight="2400.0" />
+      <edge source="LOC::Aguascalientes.San Francisco de los Romo" target="MED::tratamiento" id="8" weight="5632.99917" />
+      <edge source="LOC::Aguascalientes.Tepezalá" target="MED::agua" id="9" weight="14636.118344079996" />
+      <edge source="LOC::Aguascalientes.Tepezalá" target="MED::aire" id="10" weight="11643452678.3961" />
+      <edge source="LOC::Aguascalientes.Tepezalá" target="MED::suelo" id="11" weight="6.9550906" />
+      <edge source="LOC::Aguascalientes.Aguascalientes" target="MED::agua" id="12" weight="12610.27063674161" />
+      <edge source="LOC::Aguascalientes.Aguascalientes" target="MED::aire" id="13" weight="2867084954.732503" />
+      <edge source="LOC::Aguascalientes.Aguascalientes" target="MED::suelo" id="14" weight="4543.161199168527" />
+      <edge source="LOC::Aguascalientes.Aguascalientes" target="MED::alcantarillado" id="15" weight="1351.364168021" />
+      <edge source="LOC::Aguascalientes.Aguascalientes" target="MED::coprocesamiento" id="16" weight="212055.67532428398" />
+      <edge source="LOC::Aguascalientes.Aguascalientes" target="MED::disposicion_final" id="17" weight="437704.13317186" />
+      <edge source="LOC::Aguascalientes.Aguascalientes" target="MED::otros" id="18" weight="2080.4724237999985" />
+      <edge source="LOC::Aguascalientes.Aguascalientes" target="MED::reciclado" id="19" weight="1895483.445" />
+      <edge source="LOC::Aguascalientes.Aguascalientes" target="MED::reutilizacion" id="20" weight="22538.0" />
+      <edge source="LOC::Aguascalientes.Aguascalientes" target="MED::tratamiento" id="21" weight="205789.980895034" />
+      <edge source="LOC::Aguascalientes.Jesús María" target="MED::agua" id="22" weight="197.74624835200012" />
+      <edge source="LOC::Aguascalientes.Jesús María" target="MED::aire" id="23" weight="1315730734.0569117" />
+      <edge source="LOC::Aguascalientes.Jesús María" target="MED::suelo" id="24" weight="508.61282381123016" />
+      <edge source="LOC::Aguascalientes.Jesús María" target="MED::alcantarillado" id="25" weight="1151.9975569487506" />
+      <edge source="LOC::Aguascalientes.Jesús María" target="MED::coprocesamiento" id="26" weight="17886.253" />
+      <edge source="LOC::Aguascalientes.Jesús María" target="MED::disposicion_final" id="27" weight="59553.00000000001" />
+      <edge source="LOC::Aguascalientes.Jesús María" target="MED::otros" id="28" weight="6285.93" />
+      <edge source="LOC::Aguascalientes.Jesús María" target="MED::reciclado" id="29" weight="37252.0915" />
+      <edge source="LOC::Aguascalientes.Jesús María" target="MED::reutilizacion" id="30" weight="597.09" />
+      <edge source="LOC::Aguascalientes.Jesús María" target="MED::tratamiento" id="31" weight="138962.21799999996" />
+      <edge source="LOC::Aguascalientes.El Llano" target="MED::agua" id="32" weight="0.068532" />
+      <edge source="LOC::Aguascalientes.El Llano" target="MED::aire" id="33" weight="395359.43799999997" />
+      <edge source="LOC::Aguascalientes.El Llano" target="MED::suelo" id="34" weight="0.07995400000000001" />
+      <edge source="LOC::Aguascalientes.Rincón de Romos" target="MED::agua" id="35" weight="26.4747986" />
+      <edge source="LOC::Aguascalientes.Rincón de Romos" target="MED::aire" id="36" weight="22000557.84538" />
+      <edge source="LOC::Aguascalientes.Rincón de Romos" target="MED::suelo" id="37" weight="28.425099999999993" />
+      <edge source="LOC::Aguascalientes.Rincón de Romos" target="MED::disposicion_final" id="38" weight="7.0" />
+      <edge source="LOC::Aguascalientes.Rincón de Romos" target="MED::reciclado" id="39" weight="1309.1999999999998" />
+      <edge source="LOC::Aguascalientes.Asientos" target="MED::aire" id="40" weight="5152215240.273511" />
+      <edge source="LOC::Aguascalientes.Asientos" target="MED::incineracion" id="41" weight="9154.944" />
+      <edge source="LOC::Aguascalientes.Asientos" target="MED::reciclado" id="42" weight="44785.02" />
+      <edge source="LOC::Aguascalientes.Asientos" target="MED::reutilizacion" id="43" weight="2260.0" />
+    </edges>
+  </graph>
+</gexf>

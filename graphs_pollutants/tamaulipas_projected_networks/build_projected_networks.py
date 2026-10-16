@@ -27,7 +27,9 @@ import plotly.graph_objects as go
 
 HERE = os.path.dirname(os.path.abspath(__file__))
 SRC = os.path.join(HERE, "..", "..", "prtr_raw_for_stori_stori.csv")
-STATE_FILTER = "Tamaulipas"
+STATE_FILTER = sys.argv[1] if len(sys.argv) > 1 else "Tamaulipas"
+OUT_DIR = sys.argv[2] if len(sys.argv) > 2 else HERE
+H.configure(STATE_FILTER, "municipio")
 
 # Reference palette (dataviz skill) - fixed categorical order, slots 1-8
 CAT_COLORS = ["#2a78d6", "#eb6834", "#1baf7a", "#eda100",
@@ -222,7 +224,7 @@ def render(G, out_prefix, title, subtitle, node_color, node_comm, size_attr="str
     ax.set_title(title, fontsize=16, color=INK_PRIMARY, pad=14)
     ax.text(0.5, -0.01, subtitle, transform=ax.transAxes, ha="center", fontsize=8.5, color=INK_MUTED)
     ax.axis("off")
-    png_path = os.path.join(HERE, f"{out_prefix}.png")
+    png_path = os.path.join(OUT_DIR, f"{out_prefix}.png")
     fig.savefig(png_path, dpi=150, bbox_inches="tight", facecolor=SURFACE)
     plt.close(fig)
     print(f"Written {png_path}")
@@ -264,7 +266,7 @@ def render(G, out_prefix, title, subtitle, node_color, node_comm, size_attr="str
         hoverlabel=H.HOVERLABEL,
         height=1000,
     )
-    html_path = os.path.join(HERE, f"{out_prefix}.html")
+    html_path = os.path.join(OUT_DIR, f"{out_prefix}.html")
     U.write(fig2, html_path, placeholder=search_placeholder)
     print(f"Written {html_path}")
 
@@ -307,7 +309,7 @@ print(f"Substance-Substance: {Gs.number_of_nodes()} nodes, {Gs.number_of_edges()
 sub_color, sub_comm, n_comm_sub = color_by_community(Gs)
 render(
     Gs, "sustancia_sustancia",
-    "Tamaulipas — Substance co-occurrence (shared municipalities)",
+    f"{STATE_FILTER} — Substance co-occurrence (shared municipalities)",
     f"Two substances are linked if their Jaccard similarity (municipalities reporting either one) >= {JACCARD_THRESHOLD}. "
     f"Color = community (Louvain, {n_comm_sub} groups). Size = number of municipalities reporting it.",
     sub_color, sub_comm, size_attr="strength", pair_hover=H.sub_pair_hover, search_placeholder="Search substance (name or symbol)…",
@@ -346,7 +348,7 @@ print(f"Municipality-Municipality: {Gm.number_of_nodes()} nodes, {Gm.number_of_e
 muni_color, muni_comm, n_comm_muni = color_by_community(Gm)
 render(
     Gm, "municipio_municipio",
-    "Tamaulipas — Emissions profile similarity between municipalities",
+    f"{STATE_FILTER} — Emissions profile similarity between municipalities",
     f"Two municipalities are linked if the cosine similarity of their substance profile (log kg/year) >= {SIM_THRESHOLD}. "
     f"Color = community (Louvain, {n_comm_muni} groups). Size = total emissions (kg/year).",
     muni_color, muni_comm, size_attr="strength", pair_hover=H.muni_pair_hover, search_placeholder="Search municipality…",

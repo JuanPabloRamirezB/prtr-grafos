@@ -1,0 +1,222 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<gexf xmlns="http://gexf.net/1.3" version="1.3" xmlns:viz="http://gexf.net/1.3/viz" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://gexf.net/1.3 http://gexf.net/1.3/gexf.xsd">
+  <meta lastmodifieddate="2026-10-16">
+    <creator>Apache NetBeans Platform Dev (Build {0})</creator>
+    <title></title>
+    <description></description>
+  </meta>
+  <graph defaultedgetype="undirected" mode="static">
+    <attributes class="node" mode="static">
+      <attribute id="0" title="type" type="string"/>
+      <attribute id="1" title="total_kg" type="double"/>
+    </attributes>
+    <nodes>
+      <node id="LOC::Campeche.Carmen" label="Campeche.Carmen">
+        <attvalues>
+          <attvalue for="0" value="location"/>
+          <attvalue for="1" value="2.0255008894566476E11"/>
+        </attvalues>
+        <viz:size value="65.35383"/>
+        <viz:position x="225.73346" y="2.4541543"/>
+        <viz:color r="42" g="120" b="214"/>
+      </node>
+      <node id="LOC::Campeche.Palizada" label="Campeche.Palizada">
+        <attvalues>
+          <attvalue for="0" value="location"/>
+          <attvalue for="1" value="5.019974036426873E9"/>
+        </attvalues>
+        <viz:size value="11.3718815"/>
+        <viz:position x="-129.53134" y="-69.43053"/>
+        <viz:color r="42" g="120" b="214"/>
+      </node>
+      <node id="LOC::Campeche.Campeche" label="Campeche.Campeche">
+        <attvalues>
+          <attvalue for="0" value="location"/>
+          <attvalue for="1" value="1.154454691979482E10"/>
+        </attvalues>
+        <viz:size value="13.154947"/>
+        <viz:position x="-55.0073" y="60.88844"/>
+        <viz:color r="42" g="120" b="214"/>
+      </node>
+      <node id="LOC::Campeche.Champotón" label="Campeche.Champotón">
+        <attvalues>
+          <attvalue for="0" value="location"/>
+          <attvalue for="1" value="4.0787214372479993E8"/>
+        </attvalues>
+        <viz:size value="10.111465"/>
+        <viz:position x="-15.993052" y="3.1184745"/>
+        <viz:color r="42" g="120" b="214"/>
+      </node>
+      <node id="LOC::Campeche.Tenabo" label="Campeche.Tenabo">
+        <attvalues>
+          <attvalue for="0" value="location"/>
+          <attvalue for="1" value="13.2704"/>
+        </attvalues>
+        <viz:size value="10.0"/>
+        <viz:position x="-13.707944" y="-162.91566"/>
+        <viz:color r="42" g="120" b="214"/>
+      </node>
+      <node id="LOC::Campeche.Calkiní" label="Campeche.Calkiní">
+        <attvalues>
+          <attvalue for="0" value="location"/>
+          <attvalue for="1" value="15.9059"/>
+        </attvalues>
+        <viz:size value="10.0"/>
+        <viz:position x="-73.9436" y="-160.3267"/>
+        <viz:color r="42" g="120" b="214"/>
+      </node>
+      <node id="LOC::Campeche.Escárcega" label="Campeche.Escárcega">
+        <attvalues>
+          <attvalue for="0" value="location"/>
+          <attvalue for="1" value="2.99188E7"/>
+        </attvalues>
+        <viz:size value="10.008177"/>
+        <viz:position x="-187.73851" y="38.72002"/>
+        <viz:color r="42" g="120" b="214"/>
+      </node>
+      <node id="LOC::Campeche.Hopelchén" label="Campeche.Hopelchén">
+        <attvalues>
+          <attvalue for="0" value="location"/>
+          <attvalue for="1" value="61.082300000000004"/>
+        </attvalues>
+        <viz:size value="10.0"/>
+        <viz:position x="44.324493" y="173.81544"/>
+        <viz:color r="42" g="120" b="214"/>
+      </node>
+      <node id="MED::agua" label="water">
+        <attvalues>
+          <attvalue for="0" value="medio"/>
+          <attvalue for="1" value="638265.2880838776"/>
+        </attvalues>
+        <viz:size value="10.0001745"/>
+        <viz:position x="-38.465" y="-101.33354"/>
+        <viz:color r="235" g="104" b="52"/>
+      </node>
+      <node id="MED::aire" label="air">
+        <attvalues>
+          <attvalue for="0" value="medio"/>
+          <attvalue for="1" value="2.1955129984933383E11"/>
+        </attvalues>
+        <viz:size value="70.0"/>
+        <viz:position x="-124.35018" y="17.939655"/>
+        <viz:color r="235" g="104" b="52"/>
+      </node>
+      <node id="MED::suelo" label="soil">
+        <attvalues>
+          <attvalue for="0" value="medio"/>
+          <attvalue for="1" value="18154.607135250844"/>
+        </attvalues>
+        <viz:size value="10.000005"/>
+        <viz:position x="37.023945" y="114.00897"/>
+        <viz:color r="235" g="104" b="52"/>
+      </node>
+      <node id="MED::coprocesamiento" label="co-processing">
+        <attvalues>
+          <attvalue for="0" value="medio"/>
+          <attvalue for="1" value="26467.48"/>
+        </attvalues>
+        <viz:size value="10.000008"/>
+        <viz:position x="380.4843" y="-0.741375"/>
+        <viz:color r="235" g="104" b="52"/>
+      </node>
+      <node id="MED::disposicion_final" label="final disposal">
+        <attvalues>
+          <attvalue for="0" value="medio"/>
+          <attvalue for="1" value="92695.096"/>
+        </attvalues>
+        <viz:size value="10.000026"/>
+        <viz:position x="299.24838" y="126.99536"/>
+        <viz:color r="235" g="104" b="52"/>
+      </node>
+      <node id="MED::otros" label="other">
+        <attvalues>
+          <attvalue for="0" value="medio"/>
+          <attvalue for="1" value="287092.025"/>
+        </attvalues>
+        <viz:size value="10.000078"/>
+        <viz:position x="292.21115" y="-123.97382"/>
+        <viz:color r="235" g="104" b="52"/>
+      </node>
+      <node id="MED::reciclado" label="recycling">
+        <attvalues>
+          <attvalue for="0" value="medio"/>
+          <attvalue for="1" value="37467.03999999999"/>
+        </attvalues>
+        <viz:size value="10.0000105"/>
+        <viz:position x="364.7469" y="75.91639"/>
+        <viz:color r="235" g="104" b="52"/>
+      </node>
+      <node id="MED::reutilizacion" label="reuse">
+        <attvalues>
+          <attvalue for="0" value="medio"/>
+          <attvalue for="1" value="945.0"/>
+        </attvalues>
+        <viz:size value="10.0"/>
+        <viz:position x="360.96475" y="-76.64559"/>
+        <viz:color r="235" g="104" b="52"/>
+      </node>
+    </nodes>
+    <edges>
+      <edge id="0" source="LOC::Campeche.Carmen" target="MED::agua" weight="250387.609375">
+        <viz:color r="137" g="135" b="129" a="0.43137255"/>
+      </edge>
+      <edge id="1" source="LOC::Campeche.Carmen" target="MED::aire" weight="2.02549395456E11">
+        <viz:color r="137" g="135" b="129" a="0.43137255"/>
+      </edge>
+      <edge id="2" source="LOC::Campeche.Carmen" target="MED::suelo" weight="795.6307373046875">
+        <viz:color r="137" g="135" b="129" a="0.43137255"/>
+      </edge>
+      <edge id="3" source="LOC::Campeche.Carmen" target="MED::coprocesamiento" weight="26467.48046875">
+        <viz:color r="137" g="135" b="129" a="0.43137255"/>
+      </edge>
+      <edge id="4" source="LOC::Campeche.Carmen" target="MED::disposicion_final" weight="92695.09375">
+        <viz:color r="137" g="135" b="129" a="0.43137255"/>
+      </edge>
+      <edge id="5" source="LOC::Campeche.Carmen" target="MED::otros" weight="287092.03125">
+        <viz:color r="137" g="135" b="129" a="0.43137255"/>
+      </edge>
+      <edge id="6" source="LOC::Campeche.Carmen" target="MED::reciclado" weight="37467.0390625">
+        <viz:color r="137" g="135" b="129" a="0.43137255"/>
+      </edge>
+      <edge id="7" source="LOC::Campeche.Carmen" target="MED::reutilizacion" weight="945.0">
+        <viz:color r="137" g="135" b="129" a="0.43137255"/>
+      </edge>
+      <edge id="8" source="LOC::Campeche.Palizada" target="MED::agua" weight="1830.7708740234375">
+        <viz:color r="137" g="135" b="129" a="0.43137255"/>
+      </edge>
+      <edge id="9" source="LOC::Campeche.Palizada" target="MED::aire" weight="5.019972096E9">
+        <viz:color r="137" g="135" b="129" a="0.43137255"/>
+      </edge>
+      <edge id="10" source="LOC::Campeche.Campeche" target="MED::agua" weight="385919.0">
+        <viz:color r="137" g="135" b="129" a="0.43137255"/>
+      </edge>
+      <edge id="11" source="LOC::Campeche.Campeche" target="MED::aire" weight="1.1544160256E10">
+        <viz:color r="137" g="135" b="129" a="0.43137255"/>
+      </edge>
+      <edge id="12" source="LOC::Campeche.Campeche" target="MED::suelo" weight="312.8988952636719">
+        <viz:color r="137" g="135" b="129" a="0.43137255"/>
+      </edge>
+      <edge id="13" source="LOC::Campeche.Champotón" target="MED::agua" weight="98.72959899902344">
+        <viz:color r="137" g="135" b="129" a="0.43137255"/>
+      </edge>
+      <edge id="14" source="LOC::Campeche.Champotón" target="MED::aire" weight="4.07855072E8">
+        <viz:color r="137" g="135" b="129" a="0.43137255"/>
+      </edge>
+      <edge id="15" source="LOC::Campeche.Champotón" target="MED::suelo" weight="16984.99609375">
+        <viz:color r="137" g="135" b="129" a="0.43137255"/>
+      </edge>
+      <edge id="16" source="LOC::Campeche.Tenabo" target="MED::agua" weight="13.270400047302246">
+        <viz:color r="137" g="135" b="129" a="0.43137255"/>
+      </edge>
+      <edge id="17" source="LOC::Campeche.Calkiní" target="MED::agua" weight="15.905900001525879">
+        <viz:color r="137" g="135" b="129" a="0.43137255"/>
+      </edge>
+      <edge id="18" source="LOC::Campeche.Escárcega" target="MED::aire" weight="2.99188E7">
+        <viz:color r="137" g="135" b="129" a="0.43137255"/>
+      </edge>
+      <edge id="19" source="LOC::Campeche.Hopelchén" target="MED::suelo" weight="61.082298278808594">
+        <viz:color r="137" g="135" b="129" a="0.43137255"/>
+      </edge>
+    </edges>
+  </graph>
+</gexf>

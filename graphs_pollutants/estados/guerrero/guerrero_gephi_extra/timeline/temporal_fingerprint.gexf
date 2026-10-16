@@ -1,0 +1,483 @@
+<?xml version='1.0' encoding='utf-8'?>
+<gexf xmlns="http://www.gexf.net/1.2draft" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.gexf.net/1.2draft http://www.gexf.net/1.2draft/gexf.xsd" version="1.2">
+  <meta lastmodifieddate="2026-10-16">
+    <creator>NetworkX 3.7</creator>
+  </meta>
+  <graph defaultedgetype="undirected" mode="static" name="">
+    <attributes mode="static" class="node">
+      <attribute id="0" title="type" type="string" />
+      <attribute id="1" title="total_kg" type="double" />
+      <attribute id="2" title="first_year" type="long" />
+      <attribute id="3" title="n_years_active" type="long" />
+    </attributes>
+    <nodes>
+      <node id="LOC::Guerrero.La Unión de Isidoro Montes de Oca" label="Guerrero.La Unión de Isidoro Montes de Oca">
+        <attvalues>
+          <attvalue for="0" value="location" />
+          <attvalue for="1" value="73653060665.49957" />
+          <attvalue for="2" value="2004" />
+          <attvalue for="3" value="15" />
+        </attvalues>
+      </node>
+      <node id="LOC::Guerrero.Eduardo Neri" label="Guerrero.Eduardo Neri">
+        <attvalues>
+          <attvalue for="0" value="location" />
+          <attvalue for="1" value="445945982.55097157" />
+          <attvalue for="2" value="2005" />
+          <attvalue for="3" value="15" />
+        </attvalues>
+      </node>
+      <node id="LOC::Guerrero.Acapulco de Juárez" label="Guerrero.Acapulco de Juárez">
+        <attvalues>
+          <attvalue for="0" value="location" />
+          <attvalue for="1" value="1396503117.9349093" />
+          <attvalue for="2" value="2004" />
+          <attvalue for="3" value="19" />
+        </attvalues>
+      </node>
+      <node id="LOC::Guerrero.Cutzamala de Pinzón" label="Guerrero.Cutzamala de Pinzón">
+        <attvalues>
+          <attvalue for="0" value="location" />
+          <attvalue for="1" value="1765522.5352" />
+          <attvalue for="2" value="2017" />
+          <attvalue for="3" value="2" />
+        </attvalues>
+      </node>
+      <node id="LOC::Guerrero.Chilpancingo de los Bravo" label="Guerrero.Chilpancingo de los Bravo">
+        <attvalues>
+          <attvalue for="0" value="location" />
+          <attvalue for="1" value="115755.035552" />
+          <attvalue for="2" value="2004" />
+          <attvalue for="3" value="3" />
+        </attvalues>
+      </node>
+      <node id="LOC::Guerrero.General Heliodoro Castillo" label="Guerrero.General Heliodoro Castillo">
+        <attvalues>
+          <attvalue for="0" value="location" />
+          <attvalue for="1" value="5.506355258" />
+          <attvalue for="2" value="2005" />
+          <attvalue for="3" value="3" />
+        </attvalues>
+      </node>
+      <node id="LOC::Guerrero.Iguala de la Independencia" label="Guerrero.Iguala de la Independencia">
+        <attvalues>
+          <attvalue for="0" value="location" />
+          <attvalue for="1" value="24605.561969086" />
+          <attvalue for="2" value="2005" />
+          <attvalue for="3" value="9" />
+        </attvalues>
+      </node>
+      <node id="LOC::Guerrero.Cocula" label="Guerrero.Cocula">
+        <attvalues>
+          <attvalue for="0" value="location" />
+          <attvalue for="1" value="612548123.94" />
+          <attvalue for="2" value="2015" />
+          <attvalue for="3" value="8" />
+        </attvalues>
+      </node>
+      <node id="LOC::Guerrero.Arcelia" label="Guerrero.Arcelia">
+        <attvalues>
+          <attvalue for="0" value="location" />
+          <attvalue for="1" value="523.014142500155" />
+          <attvalue for="2" value="2013" />
+          <attvalue for="3" value="6" />
+        </attvalues>
+      </node>
+      <node id="LOC::Guerrero.Teloloapan" label="Guerrero.Teloloapan">
+        <attvalues>
+          <attvalue for="0" value="location" />
+          <attvalue for="1" value="5693838.200000001" />
+          <attvalue for="2" value="2019" />
+          <attvalue for="3" value="4" />
+        </attvalues>
+      </node>
+      <node id="LOC::Guerrero.Taxco de Alarcón" label="Guerrero.Taxco de Alarcón">
+        <attvalues>
+          <attvalue for="0" value="location" />
+          <attvalue for="1" value="35027.880000000005" />
+          <attvalue for="2" value="2005" />
+          <attvalue for="3" value="3" />
+        </attvalues>
+      </node>
+      <node id="SUB::Arsénico (polvos, respirables, vapores o humos)" label="Arsenic (respirable dust, vapors or fumes)">
+        <attvalues>
+          <attvalue for="0" value="substance" />
+          <attvalue for="1" value="6060.158497633381" />
+          <attvalue for="2" value="2004" />
+          <attvalue for="3" value="10" />
+        </attvalues>
+      </node>
+      <node id="SUB::Cromo (Compuestos solubles)" label="Chromium (soluble compounds)">
+        <attvalues>
+          <attvalue for="0" value="substance" />
+          <attvalue for="1" value="492334.22444851603" />
+          <attvalue for="2" value="2008" />
+          <attvalue for="3" value="10" />
+        </attvalues>
+      </node>
+      <node id="SUB::Mercurio (Compuestos solubles)" label="Mercury (soluble compounds)">
+        <attvalues>
+          <attvalue for="0" value="substance" />
+          <attvalue for="1" value="5301.85842162048" />
+          <attvalue for="2" value="2008" />
+          <attvalue for="3" value="3" />
+        </attvalues>
+      </node>
+      <node id="SUB::Níquel (Compuestos solubles)" label="Nickel (soluble compounds)">
+        <attvalues>
+          <attvalue for="0" value="substance" />
+          <attvalue for="1" value="471574.67986640194" />
+          <attvalue for="2" value="2008" />
+          <attvalue for="3" value="10" />
+        </attvalues>
+      </node>
+      <node id="SUB::Plomo (Compuestos solubles)" label="Lead (soluble compounds)">
+        <attvalues>
+          <attvalue for="0" value="substance" />
+          <attvalue for="1" value="498900.3240295917" />
+          <attvalue for="2" value="2008" />
+          <attvalue for="3" value="7" />
+        </attvalues>
+      </node>
+      <node id="SUB::Cianuro inorgánico/orgánico" label="Inorganic/organic cyanide">
+        <attvalues>
+          <attvalue for="0" value="substance" />
+          <attvalue for="1" value="112740.71307364573" />
+          <attvalue for="2" value="2004" />
+          <attvalue for="3" value="14" />
+        </attvalues>
+      </node>
+      <node id="SUB::Cadmio (polvos, respirables, vapores o humos)" label="Cadmium (respirable dust, vapors or fumes)">
+        <attvalues>
+          <attvalue for="0" value="substance" />
+          <attvalue for="1" value="178.260127599" />
+          <attvalue for="2" value="2005" />
+          <attvalue for="3" value="10" />
+        </attvalues>
+      </node>
+      <node id="SUB::Arsénico (compuestos)" label="Arsenic (compounds)">
+        <attvalues>
+          <attvalue for="0" value="substance" />
+          <attvalue for="1" value="896.6551102410001" />
+          <attvalue for="2" value="2004" />
+          <attvalue for="3" value="7" />
+        </attvalues>
+      </node>
+      <node id="SUB::Cromo (compuestos)" label="Chromium (compounds)">
+        <attvalues>
+          <attvalue for="0" value="substance" />
+          <attvalue for="1" value="964.7056413334997" />
+          <attvalue for="2" value="2004" />
+          <attvalue for="3" value="9" />
+        </attvalues>
+      </node>
+      <node id="SUB::Níquel (compuestos)" label="Nickel (compounds)">
+        <attvalues>
+          <attvalue for="0" value="substance" />
+          <attvalue for="1" value="1143.2841492529997" />
+          <attvalue for="2" value="2005" />
+          <attvalue for="3" value="7" />
+        </attvalues>
+      </node>
+      <node id="SUB::Plomo (compuestos)" label="Lead (compounds)">
+        <attvalues>
+          <attvalue for="0" value="substance" />
+          <attvalue for="1" value="2855.4352054966" />
+          <attvalue for="2" value="2004" />
+          <attvalue for="3" value="9" />
+        </attvalues>
+      </node>
+      <node id="SUB::Cadmio (Compuestos solubles)" label="Cadmium (soluble compounds)">
+        <attvalues>
+          <attvalue for="0" value="substance" />
+          <attvalue for="1" value="108352.0863" />
+          <attvalue for="2" value="2016" />
+          <attvalue for="3" value="7" />
+        </attvalues>
+      </node>
+      <node id="SUB::Arsénico (Compuestos solubles)" label="Arsenic (soluble compounds)">
+        <attvalues>
+          <attvalue for="0" value="substance" />
+          <attvalue for="1" value="172915.66509999998" />
+          <attvalue for="2" value="2017" />
+          <attvalue for="3" value="3" />
+        </attvalues>
+      </node>
+      <node id="SUB::Acido 2,4 Diclorofenoxiacetico" label="2,4-Dichlorophenoxyacetic acid (2,4-D)">
+        <attvalues>
+          <attvalue for="0" value="substance" />
+          <attvalue for="1" value="631.6379999999999" />
+          <attvalue for="2" value="2019" />
+          <attvalue for="3" value="3" />
+        </attvalues>
+      </node>
+      <node id="SUB::Mercurio (compuestos)" label="Mercury (compounds)">
+        <attvalues>
+          <attvalue for="0" value="substance" />
+          <attvalue for="1" value="90.12531253247997" />
+          <attvalue for="2" value="2004" />
+          <attvalue for="3" value="9" />
+        </attvalues>
+      </node>
+      <node id="SUB::Dioxinas" label="Dioxins">
+        <attvalues>
+          <attvalue for="0" value="substance" />
+          <attvalue for="1" value="3.3793787e-05" />
+          <attvalue for="2" value="2004" />
+          <attvalue for="3" value="17" />
+        </attvalues>
+      </node>
+      <node id="SUB::Furanos" label="Furans">
+        <attvalues>
+          <attvalue for="0" value="substance" />
+          <attvalue for="1" value="3.2146498e-05" />
+          <attvalue for="2" value="2004" />
+          <attvalue for="3" value="17" />
+        </attvalues>
+      </node>
+      <node id="SUB::Bióxido de carbono" label="Carbon dioxide">
+        <attvalues>
+          <attvalue for="0" value="substance" />
+          <attvalue for="1" value="75933481628.37328" />
+          <attvalue for="2" value="2004" />
+          <attvalue for="3" value="19" />
+        </attvalues>
+      </node>
+      <node id="SUB::Mercurio (polvos, respirables, vapores o humos)" label="Mercury (respirable dust, vapors or fumes)">
+        <attvalues>
+          <attvalue for="0" value="substance" />
+          <attvalue for="1" value="381.52273232635" />
+          <attvalue for="2" value="2005" />
+          <attvalue for="3" value="10" />
+        </attvalues>
+      </node>
+      <node id="SUB::Bióxido de nitrógeno" label="Nitrogen dioxide">
+        <attvalues>
+          <attvalue for="0" value="substance" />
+          <attvalue for="1" value="104274690.0" />
+          <attvalue for="2" value="2004" />
+          <attvalue for="3" value="7" />
+        </attvalues>
+      </node>
+      <node id="SUB::Formaldehido" label="Formaldehyde">
+        <attvalues>
+          <attvalue for="0" value="substance" />
+          <attvalue for="1" value="0.007300099628919999" />
+          <attvalue for="2" value="2005" />
+          <attvalue for="3" value="7" />
+        </attvalues>
+      </node>
+      <node id="SUB::Acroleina" label="Acrolein">
+        <attvalues>
+          <attvalue for="0" value="substance" />
+          <attvalue for="1" value="0.04139759005074999" />
+          <attvalue for="2" value="2005" />
+          <attvalue for="3" value="7" />
+        </attvalues>
+      </node>
+      <node id="SUB::Acetaldehido" label="Acetaldehyde">
+        <attvalues>
+          <attvalue for="0" value="substance" />
+          <attvalue for="1" value="0.16786328430729996" />
+          <attvalue for="2" value="2005" />
+          <attvalue for="3" value="7" />
+        </attvalues>
+      </node>
+      <node id="SUB::Benceno" label="Benzene">
+        <attvalues>
+          <attvalue for="0" value="substance" />
+          <attvalue for="1" value="1656.2407853449226" />
+          <attvalue for="2" value="2004" />
+          <attvalue for="3" value="9" />
+        </attvalues>
+      </node>
+      <node id="SUB::Tolueno diisocianato" label="Toluene diisocyanate">
+        <attvalues>
+          <attvalue for="0" value="substance" />
+          <attvalue for="1" value="176.0" />
+          <attvalue for="2" value="2012" />
+          <attvalue for="3" value="1" />
+        </attvalues>
+      </node>
+      <node id="SUB::Plomo (polvos respirables, humos o vapores)" label="Lead (respirable dust, fumes or vapors)">
+        <attvalues>
+          <attvalue for="0" value="substance" />
+          <attvalue for="1" value="5356.530883555" />
+          <attvalue for="2" value="2014" />
+          <attvalue for="3" value="9" />
+        </attvalues>
+      </node>
+      <node id="SUB::Cromo (polvos respirables, humos o vapores)" label="Chromium (respirable dust, fumes or vapors)">
+        <attvalues>
+          <attvalue for="0" value="substance" />
+          <attvalue for="1" value="32.267331979" />
+          <attvalue for="2" value="2014" />
+          <attvalue for="3" value="9" />
+        </attvalues>
+      </node>
+      <node id="SUB::Hexafluoruro de azufre" label="Sulfur hexafluoride">
+        <attvalues>
+          <attvalue for="0" value="substance" />
+          <attvalue for="1" value="2075.9" />
+          <attvalue for="2" value="2011" />
+          <attvalue for="3" value="6" />
+        </attvalues>
+      </node>
+      <node id="SUB::Metano" label="Methane">
+        <attvalues>
+          <attvalue for="0" value="substance" />
+          <attvalue for="1" value="131654.0" />
+          <attvalue for="2" value="2017" />
+          <attvalue for="3" value="1" />
+        </attvalues>
+      </node>
+      <node id="SUB::Oxido nitroso" label="Nitrous oxide">
+        <attvalues>
+          <attvalue for="0" value="substance" />
+          <attvalue for="1" value="75919215.0" />
+          <attvalue for="2" value="2011" />
+          <attvalue for="3" value="4" />
+        </attvalues>
+      </node>
+      <node id="SUB::Hidrofluorocarbonos" label="Hydrofluorocarbons">
+        <attvalues>
+          <attvalue for="0" value="substance" />
+          <attvalue for="1" value="858.8" />
+          <attvalue for="2" value="2020" />
+          <attvalue for="3" value="3" />
+        </attvalues>
+      </node>
+      <node id="SUB::Níquel (polvos respirables, humos o vapores)" label="Nickel (respirable dust, fumes or vapors)">
+        <attvalues>
+          <attvalue for="0" value="substance" />
+          <attvalue for="1" value="1.856995441" />
+          <attvalue for="2" value="2021" />
+          <attvalue for="3" value="1" />
+        </attvalues>
+      </node>
+      <node id="SUB::Cadmio (compuestos)" label="Cadmium (compounds)">
+        <attvalues>
+          <attvalue for="0" value="substance" />
+          <attvalue for="1" value="1.1367605" />
+          <attvalue for="2" value="2005" />
+          <attvalue for="3" value="3" />
+        </attvalues>
+      </node>
+      <node id="SUB::Asbesto y sus formas (En forma de polvo, fibras o productos desmenuzables con la presión de la mano)" label="Asbestos and its forms (as dust, fibers or friable products that crumble under hand pressure)">
+        <attvalues>
+          <attvalue for="0" value="substance" />
+          <attvalue for="1" value="500.0" />
+          <attvalue for="2" value="2008" />
+          <attvalue for="3" value="1" />
+        </attvalues>
+      </node>
+    </nodes>
+    <edges>
+      <edge source="LOC::Guerrero.La Unión de Isidoro Montes de Oca" target="SUB::Arsénico (polvos, respirables, vapores o humos)" id="0" weight="5990.000003" />
+      <edge source="LOC::Guerrero.La Unión de Isidoro Montes de Oca" target="SUB::Arsénico (compuestos)" id="1" weight="788.543276871" />
+      <edge source="LOC::Guerrero.La Unión de Isidoro Montes de Oca" target="SUB::Cadmio (Compuestos solubles)" id="2" weight="815.5846" />
+      <edge source="LOC::Guerrero.La Unión de Isidoro Montes de Oca" target="SUB::Cromo (Compuestos solubles)" id="3" weight="13692.3813" />
+      <edge source="LOC::Guerrero.La Unión de Isidoro Montes de Oca" target="SUB::Níquel (Compuestos solubles)" id="4" weight="12.136100000000003" />
+      <edge source="LOC::Guerrero.La Unión de Isidoro Montes de Oca" target="SUB::Plomo (Compuestos solubles)" id="5" weight="14788.724100000001" />
+      <edge source="LOC::Guerrero.La Unión de Isidoro Montes de Oca" target="SUB::Arsénico (Compuestos solubles)" id="6" weight="3.3103" />
+      <edge source="LOC::Guerrero.La Unión de Isidoro Montes de Oca" target="SUB::Cianuro inorgánico/orgánico" id="7" weight="918.9199" />
+      <edge source="LOC::Guerrero.La Unión de Isidoro Montes de Oca" target="SUB::Bióxido de nitrógeno" id="8" weight="104274690.0" />
+      <edge source="LOC::Guerrero.La Unión de Isidoro Montes de Oca" target="SUB::Bióxido de carbono" id="9" weight="73479325150.0" />
+      <edge source="LOC::Guerrero.La Unión de Isidoro Montes de Oca" target="SUB::Hexafluoruro de azufre" id="10" weight="2075.9" />
+      <edge source="LOC::Guerrero.La Unión de Isidoro Montes de Oca" target="SUB::Oxido nitroso" id="11" weight="69421740.0" />
+      <edge source="LOC::Guerrero.Eduardo Neri" target="SUB::Cromo (Compuestos solubles)" id="12" weight="6.396254015999999" />
+      <edge source="LOC::Guerrero.Eduardo Neri" target="SUB::Mercurio (Compuestos solubles)" id="13" weight="0.0038784204800000003" />
+      <edge source="LOC::Guerrero.Eduardo Neri" target="SUB::Níquel (Compuestos solubles)" id="14" weight="4.615885152" />
+      <edge source="LOC::Guerrero.Eduardo Neri" target="SUB::Plomo (Compuestos solubles)" id="15" weight="1.8312016415999999" />
+      <edge source="LOC::Guerrero.Eduardo Neri" target="SUB::Cianuro inorgánico/orgánico" id="16" weight="10.881007821999999" />
+      <edge source="LOC::Guerrero.Eduardo Neri" target="SUB::Arsénico (polvos, respirables, vapores o humos)" id="17" weight="60.8903117418" />
+      <edge source="LOC::Guerrero.Eduardo Neri" target="SUB::Cadmio (polvos, respirables, vapores o humos)" id="18" weight="167.63866011199997" />
+      <edge source="LOC::Guerrero.Eduardo Neri" target="SUB::Plomo (compuestos)" id="19" weight="2514.3882410616" />
+      <edge source="LOC::Guerrero.Eduardo Neri" target="SUB::Níquel (compuestos)" id="20" weight="1098.3877711519997" />
+      <edge source="LOC::Guerrero.Eduardo Neri" target="SUB::Cromo (compuestos)" id="21" weight="832.3468160159998" />
+      <edge source="LOC::Guerrero.Eduardo Neri" target="SUB::Mercurio (compuestos)" id="22" weight="16.674040840479993" />
+      <edge source="LOC::Guerrero.Eduardo Neri" target="SUB::Bióxido de carbono" id="23" weight="440037371.2" />
+      <edge source="LOC::Guerrero.Eduardo Neri" target="SUB::Metano" id="24" weight="131654.0" />
+      <edge source="LOC::Guerrero.Eduardo Neri" target="SUB::Oxido nitroso" id="25" weight="5772125.0" />
+      <edge source="LOC::Guerrero.Eduardo Neri" target="SUB::Plomo (polvos respirables, humos o vapores)" id="26" weight="11.01531" />
+      <edge source="LOC::Guerrero.Eduardo Neri" target="SUB::Mercurio (polvos, respirables, vapores o humos)" id="27" weight="3.0933" />
+      <edge source="LOC::Guerrero.Eduardo Neri" target="SUB::Arsénico (compuestos)" id="28" weight="103.28113336999999" />
+      <edge source="LOC::Guerrero.Eduardo Neri" target="SUB::Cadmio (compuestos)" id="29" weight="0.9071605" />
+      <edge source="LOC::Guerrero.Acapulco de Juárez" target="SUB::Cromo (Compuestos solubles)" id="30" weight="212.85773200000003" />
+      <edge source="LOC::Guerrero.Acapulco de Juárez" target="SUB::Mercurio (Compuestos solubles)" id="31" weight="0.0378432" />
+      <edge source="LOC::Guerrero.Acapulco de Juárez" target="SUB::Níquel (Compuestos solubles)" id="32" weight="115.81851" />
+      <edge source="LOC::Guerrero.Acapulco de Juárez" target="SUB::Plomo (Compuestos solubles)" id="33" weight="102.4728192" />
+      <edge source="LOC::Guerrero.Acapulco de Juárez" target="SUB::Cianuro inorgánico/orgánico" id="34" weight="19.57366582375" />
+      <edge source="LOC::Guerrero.Acapulco de Juárez" target="SUB::Arsénico (polvos, respirables, vapores o humos)" id="35" weight="9.257392141579999" />
+      <edge source="LOC::Guerrero.Acapulco de Juárez" target="SUB::Cadmio (polvos, respirables, vapores o humos)" id="36" weight="10.540112486999998" />
+      <edge source="LOC::Guerrero.Acapulco de Juárez" target="SUB::Cromo (compuestos)" id="37" weight="132.2750003175" />
+      <edge source="LOC::Guerrero.Acapulco de Juárez" target="SUB::Níquel (compuestos)" id="38" weight="43.976058101" />
+      <edge source="LOC::Guerrero.Acapulco de Juárez" target="SUB::Plomo (compuestos)" id="39" weight="340.38317943500005" />
+      <edge source="LOC::Guerrero.Acapulco de Juárez" target="SUB::Cadmio (Compuestos solubles)" id="40" weight="53.6282" />
+      <edge source="LOC::Guerrero.Acapulco de Juárez" target="SUB::Arsénico (Compuestos solubles)" id="41" weight="8.9308" />
+      <edge source="LOC::Guerrero.Acapulco de Juárez" target="SUB::Acido 2,4 Diclorofenoxiacetico" id="42" weight="631.6379999999999" />
+      <edge source="LOC::Guerrero.Acapulco de Juárez" target="SUB::Mercurio (compuestos)" id="43" weight="73.450390184" />
+      <edge source="LOC::Guerrero.Acapulco de Juárez" target="SUB::Dioxinas" id="44" weight="3.3793632e-05" />
+      <edge source="LOC::Guerrero.Acapulco de Juárez" target="SUB::Furanos" id="45" weight="3.2146498e-05" />
+      <edge source="LOC::Guerrero.Acapulco de Juárez" target="SUB::Bióxido de carbono" id="46" weight="1396498586.70328" />
+      <edge source="LOC::Guerrero.Acapulco de Juárez" target="SUB::Mercurio (polvos, respirables, vapores o humos)" id="47" weight="378.42943232635" />
+      <edge source="LOC::Guerrero.Acapulco de Juárez" target="SUB::Formaldehido" id="48" weight="0.00252000862892" />
+      <edge source="LOC::Guerrero.Acapulco de Juárez" target="SUB::Acroleina" id="49" weight="0.00893688605075" />
+      <edge source="LOC::Guerrero.Acapulco de Juárez" target="SUB::Acetaldehido" id="50" weight="0.0741280173073" />
+      <edge source="LOC::Guerrero.Acapulco de Juárez" target="SUB::Benceno" id="51" weight="1656.1266423209227" />
+      <edge source="LOC::Guerrero.Acapulco de Juárez" target="SUB::Arsénico (compuestos)" id="52" weight="4.8307" />
+      <edge source="LOC::Guerrero.Acapulco de Juárez" target="SUB::Tolueno diisocianato" id="53" weight="176.0" />
+      <edge source="LOC::Guerrero.Acapulco de Juárez" target="SUB::Plomo (polvos respirables, humos o vapores)" id="54" weight="26.565573555000004" />
+      <edge source="LOC::Guerrero.Acapulco de Juárez" target="SUB::Cromo (polvos respirables, humos o vapores)" id="55" weight="32.267331979" />
+      <edge source="LOC::Guerrero.Acapulco de Juárez" target="SUB::Níquel (polvos respirables, humos o vapores)" id="56" weight="1.856995441" />
+      <edge source="LOC::Guerrero.Acapulco de Juárez" target="SUB::Cadmio (compuestos)" id="57" weight="0.2296" />
+      <edge source="LOC::Guerrero.Acapulco de Juárez" target="SUB::Asbesto y sus formas (En forma de polvo, fibras o productos desmenuzables con la presión de la mano)" id="58" weight="500.0" />
+      <edge source="LOC::Guerrero.Cutzamala de Pinzón" target="SUB::Arsénico (Compuestos solubles)" id="59" weight="172903.424" />
+      <edge source="LOC::Guerrero.Cutzamala de Pinzón" target="SUB::Cadmio (Compuestos solubles)" id="60" weight="107482.87349999999" />
+      <edge source="LOC::Guerrero.Cutzamala de Pinzón" target="SUB::Cianuro inorgánico/orgánico" id="61" weight="47790.3624" />
+      <edge source="LOC::Guerrero.Cutzamala de Pinzón" target="SUB::Cromo (Compuestos solubles)" id="62" weight="478352.3901" />
+      <edge source="LOC::Guerrero.Cutzamala de Pinzón" target="SUB::Mercurio (Compuestos solubles)" id="63" weight="5301.816699999999" />
+      <edge source="LOC::Guerrero.Cutzamala de Pinzón" target="SUB::Níquel (Compuestos solubles)" id="64" weight="471434.4495" />
+      <edge source="LOC::Guerrero.Cutzamala de Pinzón" target="SUB::Plomo (Compuestos solubles)" id="65" weight="482257.219" />
+      <edge source="LOC::Guerrero.Chilpancingo de los Bravo" target="SUB::Mercurio (compuestos)" id="66" weight="0.00048" />
+      <edge source="LOC::Guerrero.Chilpancingo de los Bravo" target="SUB::Arsénico (polvos, respirables, vapores o humos)" id="67" weight="0.000662" />
+      <edge source="LOC::Guerrero.Chilpancingo de los Bravo" target="SUB::Cianuro inorgánico/orgánico" id="68" weight="0.0019199999999999998" />
+      <edge source="LOC::Guerrero.Chilpancingo de los Bravo" target="SUB::Cadmio (polvos, respirables, vapores o humos)" id="69" weight="0.00288" />
+      <edge source="LOC::Guerrero.Chilpancingo de los Bravo" target="SUB::Cromo (compuestos)" id="70" weight="0.009000000000000001" />
+      <edge source="LOC::Guerrero.Chilpancingo de los Bravo" target="SUB::Níquel (compuestos)" id="71" weight="0.009600000000000001" />
+      <edge source="LOC::Guerrero.Chilpancingo de los Bravo" target="SUB::Plomo (compuestos)" id="72" weight="0.011009999999999999" />
+      <edge source="LOC::Guerrero.Chilpancingo de los Bravo" target="SUB::Bióxido de carbono" id="73" weight="115755.0" />
+      <edge source="LOC::Guerrero.General Heliodoro Castillo" target="SUB::Mercurio (compuestos)" id="74" weight="0.000401508" />
+      <edge source="LOC::Guerrero.General Heliodoro Castillo" target="SUB::Plomo (compuestos)" id="75" weight="0.125925" />
+      <edge source="LOC::Guerrero.General Heliodoro Castillo" target="SUB::Níquel (compuestos)" id="76" weight="0.06862" />
+      <edge source="LOC::Guerrero.General Heliodoro Castillo" target="SUB::Cianuro inorgánico/orgánico" id="77" weight="0.02628" />
+      <edge source="LOC::Guerrero.General Heliodoro Castillo" target="SUB::Cadmio (polvos, respirables, vapores o humos)" id="78" weight="0.078475" />
+      <edge source="LOC::Guerrero.General Heliodoro Castillo" target="SUB::Arsénico (polvos, respirables, vapores o humos)" id="79" weight="0.01012875" />
+      <edge source="LOC::Guerrero.General Heliodoro Castillo" target="SUB::Cromo (compuestos)" id="80" weight="0.074825" />
+      <edge source="LOC::Guerrero.General Heliodoro Castillo" target="SUB::Cromo (Compuestos solubles)" id="81" weight="1.4352" />
+      <edge source="LOC::Guerrero.General Heliodoro Castillo" target="SUB::Níquel (Compuestos solubles)" id="82" weight="3.6865" />
+      <edge source="LOC::Guerrero.Iguala de la Independencia" target="SUB::Bióxido de carbono" id="83" weight="24603.0" />
+      <edge source="LOC::Guerrero.Iguala de la Independencia" target="SUB::Acroleina" id="84" weight="0.032460704" />
+      <edge source="LOC::Guerrero.Iguala de la Independencia" target="SUB::Formaldehido" id="85" weight="0.004780091" />
+      <edge source="LOC::Guerrero.Iguala de la Independencia" target="SUB::Acetaldehido" id="86" weight="0.093735267" />
+      <edge source="LOC::Guerrero.Iguala de la Independencia" target="SUB::Benceno" id="87" weight="0.11414302399999998" />
+      <edge source="LOC::Guerrero.Iguala de la Independencia" target="SUB::Cianuro inorgánico/orgánico" id="88" weight="0.9479" />
+      <edge source="LOC::Guerrero.Iguala de la Independencia" target="SUB::Plomo (compuestos)" id="89" weight="0.52685" />
+      <edge source="LOC::Guerrero.Iguala de la Independencia" target="SUB::Níquel (compuestos)" id="90" weight="0.8421" />
+      <edge source="LOC::Guerrero.Cocula" target="SUB::Bióxido de carbono" id="91" weight="611754747.19" />
+      <edge source="LOC::Guerrero.Cocula" target="SUB::Oxido nitroso" id="92" weight="725350.0" />
+      <edge source="LOC::Guerrero.Cocula" target="SUB::Cianuro inorgánico/orgánico" id="93" weight="64000.0" />
+      <edge source="LOC::Guerrero.Cocula" target="SUB::Plomo (polvos respirables, humos o vapores)" id="94" weight="4026.75" />
+      <edge source="LOC::Guerrero.Arcelia" target="SUB::Dioxinas" id="95" weight="1.55e-10" />
+      <edge source="LOC::Guerrero.Arcelia" target="SUB::Bióxido de carbono" id="96" weight="447.4" />
+      <edge source="LOC::Guerrero.Arcelia" target="SUB::Cromo (Compuestos solubles)" id="97" weight="68.7638625" />
+      <edge source="LOC::Guerrero.Arcelia" target="SUB::Níquel (Compuestos solubles)" id="98" weight="3.97337125" />
+      <edge source="LOC::Guerrero.Arcelia" target="SUB::Plomo (Compuestos solubles)" id="99" weight="2.87690875" />
+      <edge source="LOC::Guerrero.Teloloapan" target="SUB::Bióxido de carbono" id="100" weight="5689940.0" />
+      <edge source="LOC::Guerrero.Teloloapan" target="SUB::Hidrofluorocarbonos" id="101" weight="858.8" />
+      <edge source="LOC::Guerrero.Teloloapan" target="SUB::Plomo (polvos respirables, humos o vapores)" id="102" weight="1292.2" />
+      <edge source="LOC::Guerrero.Teloloapan" target="SUB::Plomo (Compuestos solubles)" id="103" weight="1747.2" />
+      <edge source="LOC::Guerrero.Taxco de Alarcón" target="SUB::Bióxido de carbono" id="104" weight="35027.880000000005" />
+    </edges>
+  </graph>
+</gexf>

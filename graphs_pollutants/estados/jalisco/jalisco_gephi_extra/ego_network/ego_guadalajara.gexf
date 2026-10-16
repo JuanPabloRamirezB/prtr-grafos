@@ -1,0 +1,460 @@
+<?xml version='1.0' encoding='utf-8'?>
+<gexf xmlns="http://www.gexf.net/1.2draft" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.gexf.net/1.2draft http://www.gexf.net/1.2draft/gexf.xsd" version="1.2">
+  <meta lastmodifieddate="2026-10-16">
+    <creator>NetworkX 3.7</creator>
+  </meta>
+  <graph defaultedgetype="undirected" mode="static" name="">
+    <attributes mode="static" class="node">
+      <attribute id="0" title="role" type="string" />
+      <attribute id="1" title="total_kg" type="double" />
+    </attributes>
+    <nodes>
+      <node id="Jalisco.Guadalajara" label="Jalisco.Guadalajara">
+        <attvalues>
+          <attvalue for="0" value="focal" />
+          <attvalue for="1" value="11893874016.09692" />
+        </attvalues>
+      </node>
+      <node id="Bióxido de carbono" label="Carbon dioxide">
+        <attvalues>
+          <attvalue for="0" value="substance" />
+          <attvalue for="1" value="11891682050.421654" />
+        </attvalues>
+      </node>
+      <node id="Metano" label="Methane">
+        <attvalues>
+          <attvalue for="0" value="substance" />
+          <attvalue for="1" value="895519.2028454" />
+        </attvalues>
+      </node>
+      <node id="Níquel (Compuestos solubles)" label="Nickel (soluble compounds)">
+        <attvalues>
+          <attvalue for="0" value="substance" />
+          <attvalue for="1" value="469869.253338126" />
+        </attvalues>
+      </node>
+      <node id="Sulfato de cobre" label="Copper sulfate">
+        <attvalues>
+          <attvalue for="0" value="substance" />
+          <attvalue for="1" value="285444.0" />
+        </attvalues>
+      </node>
+      <node id="Cloruro de metileno" label="Methylene chloride">
+        <attvalues>
+          <attvalue for="0" value="substance" />
+          <attvalue for="1" value="128596.87999999999" />
+        </attvalues>
+      </node>
+      <node id="Cromo (Compuestos solubles)" label="Chromium (soluble compounds)">
+        <attvalues>
+          <attvalue for="0" value="substance" />
+          <attvalue for="1" value="105957.94994729" />
+        </attvalues>
+      </node>
+      <node id="Níquel (compuestos)" label="Nickel (compounds)">
+        <attvalues>
+          <attvalue for="0" value="substance" />
+          <attvalue for="1" value="72412.40984386213" />
+        </attvalues>
+      </node>
+      <node id="Cromo (compuestos)" label="Chromium (compounds)">
+        <attvalues>
+          <attvalue for="0" value="substance" />
+          <attvalue for="1" value="70616.75898021407" />
+        </attvalues>
+      </node>
+      <node id="Antimonio trióxido" label="Antimony trioxide">
+        <attvalues>
+          <attvalue for="0" value="substance" />
+          <attvalue for="1" value="36000.0" />
+        </attvalues>
+      </node>
+      <node id="Cromo (polvos respirables, humos o vapores)" label="Chromium (respirable dust, fumes or vapors)">
+        <attvalues>
+          <attvalue for="0" value="substance" />
+          <attvalue for="1" value="33928.509999999995" />
+        </attvalues>
+      </node>
+      <node id="Plomo (compuestos)" label="Lead (compounds)">
+        <attvalues>
+          <attvalue for="0" value="substance" />
+          <attvalue for="1" value="17958.093822120296" />
+        </attvalues>
+      </node>
+      <node id="Tolueno diisocianato" label="Toluene diisocyanate">
+        <attvalues>
+          <attvalue for="0" value="substance" />
+          <attvalue for="1" value="14136.4" />
+        </attvalues>
+      </node>
+      <node id="Asbesto y sus formas (En forma de polvo, fibras o productos desmenuzables con la presión de la mano)" label="Asbestos and its forms (as dust, fibers or friable products that crumble under hand pressure)">
+        <attvalues>
+          <attvalue for="0" value="substance" />
+          <attvalue for="1" value="8366.568799999997" />
+        </attvalues>
+      </node>
+      <node id="Cianuro inorgánico/orgánico" label="Inorganic/organic cyanide">
+        <attvalues>
+          <attvalue for="0" value="substance" />
+          <attvalue for="1" value="8126.4186161998305" />
+        </attvalues>
+      </node>
+      <node id="Bióxido de nitrógeno" label="Nitrogen dioxide">
+        <attvalues>
+          <attvalue for="0" value="substance" />
+          <attvalue for="1" value="7580.0" />
+        </attvalues>
+      </node>
+      <node id="Jalisco.Zacoalco de Torres" label="Jalisco.Zacoalco de Torres">
+        <attvalues>
+          <attvalue for="0" value="peer_municipio" />
+          <attvalue for="1" value="282970305.0836851" />
+        </attvalues>
+      </node>
+      <node id="Jalisco.San Pedro Tlaquepaque" label="Jalisco.San Pedro Tlaquepaque">
+        <attvalues>
+          <attvalue for="0" value="peer_municipio" />
+          <attvalue for="1" value="6115867806.925993" />
+        </attvalues>
+      </node>
+      <node id="Jalisco.El Salto" label="Jalisco.El Salto">
+        <attvalues>
+          <attvalue for="0" value="peer_municipio" />
+          <attvalue for="1" value="2368104393.4985433" />
+        </attvalues>
+      </node>
+      <node id="Jalisco.Zapopan" label="Jalisco.Zapopan">
+        <attvalues>
+          <attvalue for="0" value="peer_municipio" />
+          <attvalue for="1" value="1508369732.1622183" />
+        </attvalues>
+      </node>
+      <node id="Jalisco.Ixtlahuacán de los Membrillos" label="Jalisco.Ixtlahuacán de los Membrillos">
+        <attvalues>
+          <attvalue for="0" value="peer_municipio" />
+          <attvalue for="1" value="601226704.6099317" />
+        </attvalues>
+      </node>
+      <node id="Jalisco.Tlajomulco de Zúñiga" label="Jalisco.Tlajomulco de Zúñiga">
+        <attvalues>
+          <attvalue for="0" value="peer_municipio" />
+          <attvalue for="1" value="881901062.6796621" />
+        </attvalues>
+      </node>
+      <node id="Jalisco.Zapotiltic" label="Jalisco.Zapotiltic">
+        <attvalues>
+          <attvalue for="0" value="peer_municipio" />
+          <attvalue for="1" value="10632577223.498583" />
+        </attvalues>
+      </node>
+      <node id="Jalisco.Poncitlán" label="Jalisco.Poncitlán">
+        <attvalues>
+          <attvalue for="0" value="peer_municipio" />
+          <attvalue for="1" value="3902163763.2587733" />
+        </attvalues>
+      </node>
+      <node id="Jalisco.Chapala" label="Jalisco.Chapala">
+        <attvalues>
+          <attvalue for="0" value="peer_municipio" />
+          <attvalue for="1" value="85570733.6641777" />
+        </attvalues>
+      </node>
+      <node id="Jalisco.Tototlán" label="Jalisco.Tototlán">
+        <attvalues>
+          <attvalue for="0" value="peer_municipio" />
+          <attvalue for="1" value="93555710.52328484" />
+        </attvalues>
+      </node>
+      <node id="Jalisco.Lagos de Moreno" label="Jalisco.Lagos de Moreno">
+        <attvalues>
+          <attvalue for="0" value="peer_municipio" />
+          <attvalue for="1" value="2170661041.8232985" />
+        </attvalues>
+      </node>
+      <node id="Jalisco.Tuxpan" label="Jalisco.Tuxpan">
+        <attvalues>
+          <attvalue for="0" value="peer_municipio" />
+          <attvalue for="1" value="869990872.7934998" />
+        </attvalues>
+      </node>
+      <node id="Jalisco.Atotonilco el Alto" label="Jalisco.Atotonilco el Alto">
+        <attvalues>
+          <attvalue for="0" value="peer_municipio" />
+          <attvalue for="1" value="120962231.58770487" />
+        </attvalues>
+      </node>
+      <node id="Jalisco.Tala" label="Jalisco.Tala">
+        <attvalues>
+          <attvalue for="0" value="peer_municipio" />
+          <attvalue for="1" value="1419441637.3216221" />
+        </attvalues>
+      </node>
+      <node id="Jalisco.Pihuamo" label="Jalisco.Pihuamo">
+        <attvalues>
+          <attvalue for="0" value="peer_municipio" />
+          <attvalue for="1" value="3975662.6212925552" />
+        </attvalues>
+      </node>
+      <node id="Jalisco.Zapotlanejo" label="Jalisco.Zapotlanejo">
+        <attvalues>
+          <attvalue for="0" value="peer_municipio" />
+          <attvalue for="1" value="5867507733.623934" />
+        </attvalues>
+      </node>
+      <node id="Jalisco.Ocotlán" label="Jalisco.Ocotlán">
+        <attvalues>
+          <attvalue for="0" value="peer_municipio" />
+          <attvalue for="1" value="259807692.98217458" />
+        </attvalues>
+      </node>
+      <node id="Jalisco.Tequila" label="Jalisco.Tequila">
+        <attvalues>
+          <attvalue for="0" value="peer_municipio" />
+          <attvalue for="1" value="144009400.32119703" />
+        </attvalues>
+      </node>
+      <node id="Jalisco.Tecolotlán" label="Jalisco.Tecolotlán">
+        <attvalues>
+          <attvalue for="0" value="peer_municipio" />
+          <attvalue for="1" value="1670241796.8666575" />
+        </attvalues>
+      </node>
+      <node id="Jalisco.Puerto Vallarta" label="Jalisco.Puerto Vallarta">
+        <attvalues>
+          <attvalue for="0" value="peer_municipio" />
+          <attvalue for="1" value="12954260.858833" />
+        </attvalues>
+      </node>
+      <node id="Jalisco.Arandas" label="Jalisco.Arandas">
+        <attvalues>
+          <attvalue for="0" value="peer_municipio" />
+          <attvalue for="1" value="73935249.96441554" />
+        </attvalues>
+      </node>
+      <node id="Jalisco.Acatlán de Juárez" label="Jalisco.Acatlán de Juárez">
+        <attvalues>
+          <attvalue for="0" value="peer_municipio" />
+          <attvalue for="1" value="657577806.884882" />
+        </attvalues>
+      </node>
+      <node id="Jalisco.Ameca" label="Jalisco.Ameca">
+        <attvalues>
+          <attvalue for="0" value="peer_municipio" />
+          <attvalue for="1" value="848659987.981143" />
+        </attvalues>
+      </node>
+    </nodes>
+    <edges>
+      <edge source="Jalisco.Guadalajara" target="Bióxido de carbono" id="0" weight="11891682050.421654" />
+      <edge source="Jalisco.Guadalajara" target="Metano" id="1" weight="895519.2028454" />
+      <edge source="Jalisco.Guadalajara" target="Níquel (Compuestos solubles)" id="2" weight="469869.253338126" />
+      <edge source="Jalisco.Guadalajara" target="Sulfato de cobre" id="3" weight="285444.0" />
+      <edge source="Jalisco.Guadalajara" target="Cloruro de metileno" id="4" weight="128596.87999999999" />
+      <edge source="Jalisco.Guadalajara" target="Cromo (Compuestos solubles)" id="5" weight="105957.94994729" />
+      <edge source="Jalisco.Guadalajara" target="Níquel (compuestos)" id="6" weight="72412.40984386213" />
+      <edge source="Jalisco.Guadalajara" target="Cromo (compuestos)" id="7" weight="70616.75898021407" />
+      <edge source="Jalisco.Guadalajara" target="Antimonio trióxido" id="8" weight="36000.0" />
+      <edge source="Jalisco.Guadalajara" target="Cromo (polvos respirables, humos o vapores)" id="9" weight="33928.509999999995" />
+      <edge source="Jalisco.Guadalajara" target="Plomo (compuestos)" id="10" weight="17958.093822120296" />
+      <edge source="Jalisco.Guadalajara" target="Tolueno diisocianato" id="11" weight="14136.4" />
+      <edge source="Jalisco.Guadalajara" target="Asbesto y sus formas (En forma de polvo, fibras o productos desmenuzables con la presión de la mano)" id="12" weight="8366.568799999997" />
+      <edge source="Jalisco.Guadalajara" target="Cianuro inorgánico/orgánico" id="13" weight="8126.4186161998305" />
+      <edge source="Jalisco.Guadalajara" target="Bióxido de nitrógeno" id="14" weight="7580.0" />
+      <edge source="Bióxido de carbono" target="Jalisco.Zacoalco de Torres" id="15" weight="282969203.3299999" />
+      <edge source="Bióxido de carbono" target="Jalisco.San Pedro Tlaquepaque" id="16" weight="6114711584.287503" />
+      <edge source="Bióxido de carbono" target="Jalisco.El Salto" id="17" weight="2367309786.5211496" />
+      <edge source="Bióxido de carbono" target="Jalisco.Zapopan" id="18" weight="1504104370.9016652" />
+      <edge source="Bióxido de carbono" target="Jalisco.Ixtlahuacán de los Membrillos" id="19" weight="601203518.5476" />
+      <edge source="Bióxido de carbono" target="Jalisco.Tlajomulco de Zúñiga" id="20" weight="876338351.2352018" />
+      <edge source="Bióxido de carbono" target="Jalisco.Zapotiltic" id="21" weight="10632574455.081001" />
+      <edge source="Bióxido de carbono" target="Jalisco.Poncitlán" id="22" weight="3901337628.3576" />
+      <edge source="Bióxido de carbono" target="Jalisco.Chapala" id="23" weight="85540560.0" />
+      <edge source="Bióxido de carbono" target="Jalisco.Tototlán" id="24" weight="93555650.16" />
+      <edge source="Bióxido de carbono" target="Jalisco.Lagos de Moreno" id="25" weight="2170638863.977211" />
+      <edge source="Bióxido de carbono" target="Jalisco.Tuxpan" id="26" weight="869989922.0" />
+      <edge source="Bióxido de carbono" target="Jalisco.Atotonilco el Alto" id="27" weight="120959922.606819" />
+      <edge source="Bióxido de carbono" target="Jalisco.Tala" id="28" weight="1407622551.7832003" />
+      <edge source="Bióxido de carbono" target="Jalisco.Pihuamo" id="29" weight="3975247.2" />
+      <edge source="Bióxido de carbono" target="Jalisco.Zapotlanejo" id="30" weight="5867498565.58" />
+      <edge source="Bióxido de carbono" target="Jalisco.Ocotlán" id="31" weight="259743480.5982656" />
+      <edge source="Bióxido de carbono" target="Jalisco.Tequila" id="32" weight="144000162.01289815" />
+      <edge source="Bióxido de carbono" target="Jalisco.Tecolotlán" id="33" weight="1670241071.3" />
+      <edge source="Bióxido de carbono" target="Jalisco.Puerto Vallarta" id="34" weight="12953860.49" />
+      <edge source="Bióxido de carbono" target="Jalisco.Arandas" id="35" weight="73927209.102" />
+      <edge source="Bióxido de carbono" target="Jalisco.Acatlán de Juárez" id="36" weight="657577330.0" />
+      <edge source="Bióxido de carbono" target="Jalisco.Ameca" id="37" weight="848659911.0" />
+      <edge source="Metano" target="Jalisco.San Pedro Tlaquepaque" id="38" weight="1142415.1648" />
+      <edge source="Metano" target="Jalisco.El Salto" id="39" weight="241030.0" />
+      <edge source="Metano" target="Jalisco.Zapopan" id="40" weight="31352.678999999996" />
+      <edge source="Metano" target="Jalisco.Ixtlahuacán de los Membrillos" id="41" weight="121.18" />
+      <edge source="Metano" target="Jalisco.Tlajomulco de Zúñiga" id="42" weight="101670.3410582" />
+      <edge source="Metano" target="Jalisco.Zapotiltic" id="43" weight="0.01" />
+      <edge source="Metano" target="Jalisco.Poncitlán" id="44" weight="3767.0" />
+      <edge source="Metano" target="Jalisco.Lagos de Moreno" id="45" weight="20858.98" />
+      <edge source="Metano" target="Jalisco.Tala" id="46" weight="11818050.879999999" />
+      <edge source="Metano" target="Jalisco.Pihuamo" id="47" weight="0.23" />
+      <edge source="Níquel (Compuestos solubles)" target="Jalisco.Zacoalco de Torres" id="48" weight="8.5744" />
+      <edge source="Níquel (Compuestos solubles)" target="Jalisco.San Pedro Tlaquepaque" id="49" weight="2123.4452751700005" />
+      <edge source="Níquel (Compuestos solubles)" target="Jalisco.El Salto" id="50" weight="5488.982356727654" />
+      <edge source="Níquel (Compuestos solubles)" target="Jalisco.Zapopan" id="51" weight="178144.06279974608" />
+      <edge source="Níquel (Compuestos solubles)" target="Jalisco.Ixtlahuacán de los Membrillos" id="52" weight="765.68655" />
+      <edge source="Níquel (Compuestos solubles)" target="Jalisco.Tlajomulco de Zúñiga" id="53" weight="55991.67027500004" />
+      <edge source="Níquel (Compuestos solubles)" target="Jalisco.Zapotiltic" id="54" weight="4.2786228" />
+      <edge source="Níquel (Compuestos solubles)" target="Jalisco.Poncitlán" id="55" weight="158.34271400000003" />
+      <edge source="Níquel (Compuestos solubles)" target="Jalisco.Chapala" id="56" weight="165.72681930000002" />
+      <edge source="Níquel (Compuestos solubles)" target="Jalisco.Tototlán" id="57" weight="0.005929783306" />
+      <edge source="Níquel (Compuestos solubles)" target="Jalisco.Lagos de Moreno" id="58" weight="101.95655387199999" />
+      <edge source="Níquel (Compuestos solubles)" target="Jalisco.Tuxpan" id="59" weight="134.8136" />
+      <edge source="Níquel (Compuestos solubles)" target="Jalisco.Atotonilco el Alto" id="60" weight="379.68267000000003" />
+      <edge source="Níquel (Compuestos solubles)" target="Jalisco.Tala" id="61" weight="530.1853000000001" />
+      <edge source="Níquel (Compuestos solubles)" target="Jalisco.Pihuamo" id="62" weight="45.9111" />
+      <edge source="Níquel (Compuestos solubles)" target="Jalisco.Zapotlanejo" id="63" weight="2069.3709" />
+      <edge source="Níquel (Compuestos solubles)" target="Jalisco.Ocotlán" id="64" weight="4402.5641" />
+      <edge source="Níquel (Compuestos solubles)" target="Jalisco.Tequila" id="65" weight="288.96520000000004" />
+      <edge source="Níquel (Compuestos solubles)" target="Jalisco.Tecolotlán" id="66" weight="16.1318" />
+      <edge source="Níquel (Compuestos solubles)" target="Jalisco.Puerto Vallarta" id="67" weight="9.8121" />
+      <edge source="Níquel (Compuestos solubles)" target="Jalisco.Arandas" id="68" weight="102.3396" />
+      <edge source="Níquel (Compuestos solubles)" target="Jalisco.Acatlán de Juárez" id="69" weight="8.5141" />
+      <edge source="Níquel (Compuestos solubles)" target="Jalisco.Ameca" id="70" weight="2.502" />
+      <edge source="Sulfato de cobre" target="Jalisco.Tlajomulco de Zúñiga" id="71" weight="4702109.0" />
+      <edge source="Cloruro de metileno" target="Jalisco.San Pedro Tlaquepaque" id="72" weight="485.0" />
+      <edge source="Cloruro de metileno" target="Jalisco.El Salto" id="73" weight="960.0" />
+      <edge source="Cloruro de metileno" target="Jalisco.Tlajomulco de Zúñiga" id="74" weight="2557.326" />
+      <edge source="Cloruro de metileno" target="Jalisco.Poncitlán" id="75" weight="310461.9" />
+      <edge source="Cromo (Compuestos solubles)" target="Jalisco.Zacoalco de Torres" id="76" weight="7.5784" />
+      <edge source="Cromo (Compuestos solubles)" target="Jalisco.San Pedro Tlaquepaque" id="77" weight="2125.4477149161" />
+      <edge source="Cromo (Compuestos solubles)" target="Jalisco.El Salto" id="78" weight="306646.9386692969" />
+      <edge source="Cromo (Compuestos solubles)" target="Jalisco.Zapopan" id="79" weight="72396.21704188" />
+      <edge source="Cromo (Compuestos solubles)" target="Jalisco.Ixtlahuacán de los Membrillos" id="80" weight="3119.4287000000004" />
+      <edge source="Cromo (Compuestos solubles)" target="Jalisco.Tlajomulco de Zúñiga" id="81" weight="54583.44698300003" />
+      <edge source="Cromo (Compuestos solubles)" target="Jalisco.Zapotiltic" id="82" weight="86.4840071174" />
+      <edge source="Cromo (Compuestos solubles)" target="Jalisco.Poncitlán" id="83" weight="350.915634675" />
+      <edge source="Cromo (Compuestos solubles)" target="Jalisco.Chapala" id="84" weight="35.610200999999996" />
+      <edge source="Cromo (Compuestos solubles)" target="Jalisco.Tototlán" id="85" weight="0.002813717633" />
+      <edge source="Cromo (Compuestos solubles)" target="Jalisco.Lagos de Moreno" id="86" weight="164.16449334399996" />
+      <edge source="Cromo (Compuestos solubles)" target="Jalisco.Tuxpan" id="87" weight="123.1361" />
+      <edge source="Cromo (Compuestos solubles)" target="Jalisco.Atotonilco el Alto" id="88" weight="837.770161" />
+      <edge source="Cromo (Compuestos solubles)" target="Jalisco.Tala" id="89" weight="266.8874" />
+      <edge source="Cromo (Compuestos solubles)" target="Jalisco.Zapotlanejo" id="90" weight="1350.8291" />
+      <edge source="Cromo (Compuestos solubles)" target="Jalisco.Ocotlán" id="91" weight="66.9725" />
+      <edge source="Cromo (Compuestos solubles)" target="Jalisco.Tequila" id="92" weight="493.4025" />
+      <edge source="Cromo (Compuestos solubles)" target="Jalisco.Tecolotlán" id="93" weight="7.5372" />
+      <edge source="Cromo (Compuestos solubles)" target="Jalisco.Puerto Vallarta" id="94" weight="11.9912" />
+      <edge source="Cromo (Compuestos solubles)" target="Jalisco.Arandas" id="95" weight="18.3702" />
+      <edge source="Cromo (Compuestos solubles)" target="Jalisco.Acatlán de Juárez" id="96" weight="212.8589" />
+      <edge source="Cromo (Compuestos solubles)" target="Jalisco.Ameca" id="97" weight="2.502" />
+      <edge source="Níquel (compuestos)" target="Jalisco.Zacoalco de Torres" id="98" weight="11.859005750000001" />
+      <edge source="Níquel (compuestos)" target="Jalisco.San Pedro Tlaquepaque" id="99" weight="1843.1106775470437" />
+      <edge source="Níquel (compuestos)" target="Jalisco.El Salto" id="100" weight="18256.251016522976" />
+      <edge source="Níquel (compuestos)" target="Jalisco.Zapopan" id="101" weight="202421.3645267006" />
+      <edge source="Níquel (compuestos)" target="Jalisco.Ixtlahuacán de los Membrillos" id="102" weight="496.6365707" />
+      <edge source="Níquel (compuestos)" target="Jalisco.Tlajomulco de Zúñiga" id="103" weight="9663.236194577574" />
+      <edge source="Níquel (compuestos)" target="Jalisco.Zapotiltic" id="104" weight="137.66578061299998" />
+      <edge source="Níquel (compuestos)" target="Jalisco.Poncitlán" id="105" weight="487.87951201676447" />
+      <edge source="Níquel (compuestos)" target="Jalisco.Chapala" id="106" weight="295.3790197" />
+      <edge source="Níquel (compuestos)" target="Jalisco.Tototlán" id="107" weight="42.16492" />
+      <edge source="Níquel (compuestos)" target="Jalisco.Lagos de Moreno" id="108" weight="252.006558183" />
+      <edge source="Níquel (compuestos)" target="Jalisco.Tuxpan" id="109" weight="150.38569625" />
+      <edge source="Níquel (compuestos)" target="Jalisco.Atotonilco el Alto" id="110" weight="376.9583795584" />
+      <edge source="Níquel (compuestos)" target="Jalisco.Tala" id="111" weight="65.59390707" />
+      <edge source="Níquel (compuestos)" target="Jalisco.Pihuamo" id="112" weight="0.3077620592" />
+      <edge source="Níquel (compuestos)" target="Jalisco.Zapotlanejo" id="113" weight="2015.1006608000002" />
+      <edge source="Níquel (compuestos)" target="Jalisco.Ocotlán" id="114" weight="55.253436" />
+      <edge source="Níquel (compuestos)" target="Jalisco.Tequila" id="115" weight="620.026" />
+      <edge source="Níquel (compuestos)" target="Jalisco.Tecolotlán" id="116" weight="283.754272" />
+      <edge source="Níquel (compuestos)" target="Jalisco.Puerto Vallarta" id="117" weight="24.38759" />
+      <edge source="Níquel (compuestos)" target="Jalisco.Arandas" id="118" weight="1500.0887402995997" />
+      <edge source="Níquel (compuestos)" target="Jalisco.Acatlán de Juárez" id="119" weight="55.422200000000004" />
+      <edge source="Níquel (compuestos)" target="Jalisco.Ameca" id="120" weight="17.110679" />
+      <edge source="Cromo (compuestos)" target="Jalisco.Zacoalco de Torres" id="121" weight="0.8983" />
+      <edge source="Cromo (compuestos)" target="Jalisco.San Pedro Tlaquepaque" id="122" weight="2724.2968548408007" />
+      <edge source="Cromo (compuestos)" target="Jalisco.El Salto" id="123" weight="97069.28342594655" />
+      <edge source="Cromo (compuestos)" target="Jalisco.Zapopan" id="124" weight="1150.7243926994" />
+      <edge source="Cromo (compuestos)" target="Jalisco.Ixtlahuacán de los Membrillos" id="125" weight="61.908215000000006" />
+      <edge source="Cromo (compuestos)" target="Jalisco.Tlajomulco de Zúñiga" id="126" weight="24481.927387166426" />
+      <edge source="Cromo (compuestos)" target="Jalisco.Zapotiltic" id="127" weight="465.305617801" />
+      <edge source="Cromo (compuestos)" target="Jalisco.Poncitlán" id="128" weight="1049.2425765736764" />
+      <edge source="Cromo (compuestos)" target="Jalisco.Chapala" id="129" weight="191.00795870000002" />
+      <edge source="Cromo (compuestos)" target="Jalisco.Tototlán" id="130" weight="9.127320000000001" />
+      <edge source="Cromo (compuestos)" target="Jalisco.Lagos de Moreno" id="131" weight="260.2643984399999" />
+      <edge source="Cromo (compuestos)" target="Jalisco.Tuxpan" id="132" weight="247.299418" />
+      <edge source="Cromo (compuestos)" target="Jalisco.Atotonilco el Alto" id="133" weight="406.5602407364" />
+      <edge source="Cromo (compuestos)" target="Jalisco.Tala" id="134" weight="66.2298" />
+      <edge source="Cromo (compuestos)" target="Jalisco.Pihuamo" id="135" weight="0.1609846513" />
+      <edge source="Cromo (compuestos)" target="Jalisco.Zapotlanejo" id="136" weight="3442.674336" />
+      <edge source="Cromo (compuestos)" target="Jalisco.Ocotlán" id="137" weight="17.964671" />
+      <edge source="Cromo (compuestos)" target="Jalisco.Tequila" id="138" weight="343.378" />
+      <edge source="Cromo (compuestos)" target="Jalisco.Tecolotlán" id="139" weight="49.8103264" />
+      <edge source="Cromo (compuestos)" target="Jalisco.Puerto Vallarta" id="140" weight="342.2475" />
+      <edge source="Cromo (compuestos)" target="Jalisco.Arandas" id="141" weight="3000.0415783261997" />
+      <edge source="Cromo (compuestos)" target="Jalisco.Acatlán de Juárez" id="142" weight="138.5555" />
+      <edge source="Cromo (compuestos)" target="Jalisco.Ameca" id="143" weight="13.443249999999999" />
+      <edge source="Cromo (polvos respirables, humos o vapores)" target="Jalisco.San Pedro Tlaquepaque" id="144" weight="266.69369566" />
+      <edge source="Cromo (polvos respirables, humos o vapores)" target="Jalisco.El Salto" id="145" weight="439.92420649999997" />
+      <edge source="Cromo (polvos respirables, humos o vapores)" target="Jalisco.Zapopan" id="146" weight="20.594" />
+      <edge source="Cromo (polvos respirables, humos o vapores)" target="Jalisco.Zapotiltic" id="147" weight="539.3520000000001" />
+      <edge source="Cromo (polvos respirables, humos o vapores)" target="Jalisco.Chapala" id="148" weight="8.635781" />
+      <edge source="Cromo (polvos respirables, humos o vapores)" target="Jalisco.Lagos de Moreno" id="149" weight="6.529999999999999" />
+      <edge source="Cromo (polvos respirables, humos o vapores)" target="Jalisco.Tuxpan" id="150" weight="8.0656" />
+      <edge source="Cromo (polvos respirables, humos o vapores)" target="Jalisco.Tala" id="151" weight="26.42" />
+      <edge source="Plomo (compuestos)" target="Jalisco.Zacoalco de Torres" id="152" weight="6.2702" />
+      <edge source="Plomo (compuestos)" target="Jalisco.San Pedro Tlaquepaque" id="153" weight="2537.7270507625435" />
+      <edge source="Plomo (compuestos)" target="Jalisco.El Salto" id="154" weight="56946.54357054642" />
+      <edge source="Plomo (compuestos)" target="Jalisco.Zapopan" id="155" weight="3212314.625794063" />
+      <edge source="Plomo (compuestos)" target="Jalisco.Ixtlahuacán de los Membrillos" id="156" weight="132.9069505" />
+      <edge source="Plomo (compuestos)" target="Jalisco.Tlajomulco de Zúñiga" id="157" weight="564177.3813916186" />
+      <edge source="Plomo (compuestos)" target="Jalisco.Zapotiltic" id="158" weight="1523.438463703" />
+      <edge source="Plomo (compuestos)" target="Jalisco.Poncitlán" id="159" weight="396.335546" />
+      <edge source="Plomo (compuestos)" target="Jalisco.Chapala" id="160" weight="163.773968" />
+      <edge source="Plomo (compuestos)" target="Jalisco.Tototlán" id="161" weight="6.2995" />
+      <edge source="Plomo (compuestos)" target="Jalisco.Lagos de Moreno" id="162" weight="262.51095" />
+      <edge source="Plomo (compuestos)" target="Jalisco.Tuxpan" id="163" weight="144.9130927" />
+      <edge source="Plomo (compuestos)" target="Jalisco.Atotonilco el Alto" id="164" weight="270.3459206559999" />
+      <edge source="Plomo (compuestos)" target="Jalisco.Tala" id="165" weight="66.02539" />
+      <edge source="Plomo (compuestos)" target="Jalisco.Pihuamo" id="166" weight="368.515186878" />
+      <edge source="Plomo (compuestos)" target="Jalisco.Zapotlanejo" id="167" weight="34.5531" />
+      <edge source="Plomo (compuestos)" target="Jalisco.Ocotlán" id="168" weight="44.855859" />
+      <edge source="Plomo (compuestos)" target="Jalisco.Tequila" id="169" weight="241.869" />
+      <edge source="Plomo (compuestos)" target="Jalisco.Tecolotlán" id="170" weight="329.8705268" />
+      <edge source="Plomo (compuestos)" target="Jalisco.Puerto Vallarta" id="171" weight="10.751925" />
+      <edge source="Plomo (compuestos)" target="Jalisco.Arandas" id="172" weight="3000.01428527" />
+      <edge source="Plomo (compuestos)" target="Jalisco.Acatlán de Juárez" id="173" weight="55.707573" />
+      <edge source="Plomo (compuestos)" target="Jalisco.Ameca" id="174" weight="40.6951" />
+      <edge source="Asbesto y sus formas (En forma de polvo, fibras o productos desmenuzables con la presión de la mano)" target="Jalisco.Zacoalco de Torres" id="175" weight="1047.0" />
+      <edge source="Asbesto y sus formas (En forma de polvo, fibras o productos desmenuzables con la presión de la mano)" target="Jalisco.El Salto" id="176" weight="47299.5" />
+      <edge source="Asbesto y sus formas (En forma de polvo, fibras o productos desmenuzables con la presión de la mano)" target="Jalisco.Ixtlahuacán de los Membrillos" id="177" weight="17983.0" />
+      <edge source="Asbesto y sus formas (En forma de polvo, fibras o productos desmenuzables con la presión de la mano)" target="Jalisco.Tlajomulco de Zúñiga" id="178" weight="36179.0" />
+      <edge source="Asbesto y sus formas (En forma de polvo, fibras o productos desmenuzables con la presión de la mano)" target="Jalisco.Poncitlán" id="179" weight="109438.55" />
+      <edge source="Asbesto y sus formas (En forma de polvo, fibras o productos desmenuzables con la presión de la mano)" target="Jalisco.Chapala" id="180" weight="28910.0" />
+      <edge source="Asbesto y sus formas (En forma de polvo, fibras o productos desmenuzables con la presión de la mano)" target="Jalisco.Tequila" id="181" weight="6655.5" />
+      <edge source="Cianuro inorgánico/orgánico" target="Jalisco.Zacoalco de Torres" id="182" weight="19.5733794" />
+      <edge source="Cianuro inorgánico/orgánico" target="Jalisco.San Pedro Tlaquepaque" id="183" weight="1701.6585810659094" />
+      <edge source="Cianuro inorgánico/orgánico" target="Jalisco.El Salto" id="184" weight="4189.554148310805" />
+      <edge source="Cianuro inorgánico/orgánico" target="Jalisco.Zapopan" id="185" weight="18320.99299808198" />
+      <edge source="Cianuro inorgánico/orgánico" target="Jalisco.Ixtlahuacán de los Membrillos" id="186" weight="505.3153455" />
+      <edge source="Cianuro inorgánico/orgánico" target="Jalisco.Tlajomulco de Zúñiga" id="187" weight="11298.11517070159" />
+      <edge source="Cianuro inorgánico/orgánico" target="Jalisco.Zapotiltic" id="188" weight="11.883088854400002" />
+      <edge source="Cianuro inorgánico/orgánico" target="Jalisco.Poncitlán" id="189" weight="314.73518985759995" />
+      <edge source="Cianuro inorgánico/orgánico" target="Jalisco.Chapala" id="190" weight="403.53042999999997" />
+      <edge source="Cianuro inorgánico/orgánico" target="Jalisco.Tototlán" id="191" weight="2.7628013386549997" />
+      <edge source="Cianuro inorgánico/orgánico" target="Jalisco.Lagos de Moreno" id="192" weight="271.43313354599985" />
+      <edge source="Cianuro inorgánico/orgánico" target="Jalisco.Tuxpan" id="193" weight="142.1799929" />
+      <edge source="Cianuro inorgánico/orgánico" target="Jalisco.Atotonilco el Alto" id="194" weight="37.6635139109" />
+      <edge source="Cianuro inorgánico/orgánico" target="Jalisco.Tala" id="195" weight="13.31662482" />
+      <edge source="Cianuro inorgánico/orgánico" target="Jalisco.Pihuamo" id="196" weight="0.29625896659999995" />
+      <edge source="Cianuro inorgánico/orgánico" target="Jalisco.Zapotlanejo" id="197" weight="255.51583689999998" />
+      <edge source="Cianuro inorgánico/orgánico" target="Jalisco.Ocotlán" id="198" weight="14024.773343" />
+      <edge source="Cianuro inorgánico/orgánico" target="Jalisco.Tequila" id="199" weight="595.1675988999999" />
+      <edge source="Cianuro inorgánico/orgánico" target="Jalisco.Tecolotlán" id="200" weight="38.46253239999999" />
+      <edge source="Cianuro inorgánico/orgánico" target="Jalisco.Puerto Vallarta" id="201" weight="1.178518" />
+      <edge source="Cianuro inorgánico/orgánico" target="Jalisco.Arandas" id="202" weight="420.0080116432" />
+      <edge source="Cianuro inorgánico/orgánico" target="Jalisco.Acatlán de Juárez" id="203" weight="5.826609" />
+      <edge source="Cianuro inorgánico/orgánico" target="Jalisco.Ameca" id="204" weight="0.728114" />
+      <edge source="Bióxido de nitrógeno" target="Jalisco.San Pedro Tlaquepaque" id="205" weight="0.09384" />
+      <edge source="Bióxido de nitrógeno" target="Jalisco.El Salto" id="206" weight="16280.0" />
+      <edge source="Bióxido de nitrógeno" target="Jalisco.Zapopan" id="207" weight="549240.0" />
+      <edge source="Bióxido de nitrógeno" target="Jalisco.Poncitlán" id="208" weight="399710.0" />
+      <edge source="Bióxido de nitrógeno" target="Jalisco.Ocotlán" id="209" weight="45600.0" />
+    </edges>
+  </graph>
+</gexf>

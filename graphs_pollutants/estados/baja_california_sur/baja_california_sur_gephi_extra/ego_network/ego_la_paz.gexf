@@ -1,0 +1,186 @@
+<?xml version='1.0' encoding='utf-8'?>
+<gexf xmlns="http://www.gexf.net/1.2draft" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.gexf.net/1.2draft http://www.gexf.net/1.2draft/gexf.xsd" version="1.2">
+  <meta lastmodifieddate="2026-10-16">
+    <creator>NetworkX 3.7</creator>
+  </meta>
+  <graph defaultedgetype="undirected" mode="static" name="">
+    <attributes mode="static" class="node">
+      <attribute id="0" title="role" type="string" />
+      <attribute id="1" title="total_kg" type="double" />
+    </attributes>
+    <nodes>
+      <node id="Baja California Sur.La Paz" label="Baja California Sur.La Paz">
+        <attvalues>
+          <attvalue for="0" value="focal" />
+          <attvalue for="1" value="14612785523.356815" />
+        </attvalues>
+      </node>
+      <node id="Bióxido de carbono" label="Carbon dioxide">
+        <attvalues>
+          <attvalue for="0" value="substance" />
+          <attvalue for="1" value="14555808242.4" />
+        </attvalues>
+      </node>
+      <node id="Bióxido de nitrógeno" label="Nitrogen dioxide">
+        <attvalues>
+          <attvalue for="0" value="substance" />
+          <attvalue for="1" value="55288722.1" />
+        </attvalues>
+      </node>
+      <node id="Oxido nitroso" label="Nitrous oxide">
+        <attvalues>
+          <attvalue for="0" value="substance" />
+          <attvalue for="1" value="869080.0" />
+        </attvalues>
+      </node>
+      <node id="Plomo (Compuestos solubles)" label="Lead (soluble compounds)">
+        <attvalues>
+          <attvalue for="0" value="substance" />
+          <attvalue for="1" value="198206.85654454" />
+        </attvalues>
+      </node>
+      <node id="Níquel (Compuestos solubles)" label="Nickel (soluble compounds)">
+        <attvalues>
+          <attvalue for="0" value="substance" />
+          <attvalue for="1" value="197516.99675771015" />
+        </attvalues>
+      </node>
+      <node id="Cromo (Compuestos solubles)" label="Chromium (soluble compounds)">
+        <attvalues>
+          <attvalue for="0" value="substance" />
+          <attvalue for="1" value="171093.76102216783" />
+        </attvalues>
+      </node>
+      <node id="Cadmio (Compuestos solubles)" label="Cadmium (soluble compounds)">
+        <attvalues>
+          <attvalue for="0" value="substance" />
+          <attvalue for="1" value="56509.01090000003" />
+        </attvalues>
+      </node>
+      <node id="Níquel (compuestos)" label="Nickel (compounds)">
+        <attvalues>
+          <attvalue for="0" value="substance" />
+          <attvalue for="1" value="52589.92170453959" />
+        </attvalues>
+      </node>
+      <node id="Cianuro inorgánico/orgánico" label="Inorganic/organic cyanide">
+        <attvalues>
+          <attvalue for="0" value="substance" />
+          <attvalue for="1" value="50361.17282330186" />
+        </attvalues>
+      </node>
+      <node id="Plomo (compuestos)" label="Lead (compounds)">
+        <attvalues>
+          <attvalue for="0" value="substance" />
+          <attvalue for="1" value="29440.543319117198" />
+        </attvalues>
+      </node>
+      <node id="Cromo (compuestos)" label="Chromium (compounds)">
+        <attvalues>
+          <attvalue for="0" value="substance" />
+          <attvalue for="1" value="25903.5110726794" />
+        </attvalues>
+      </node>
+      <node id="Arsénico (Compuestos solubles)" label="Arsenic (soluble compounds)">
+        <attvalues>
+          <attvalue for="0" value="substance" />
+          <attvalue for="1" value="25365.074500000002" />
+        </attvalues>
+      </node>
+      <node id="Cadmio (compuestos)" label="Cadmium (compounds)">
+        <attvalues>
+          <attvalue for="0" value="substance" />
+          <attvalue for="1" value="6721.686932900258" />
+        </attvalues>
+      </node>
+      <node id="Arsénico (compuestos)" label="Arsenic (compounds)">
+        <attvalues>
+          <attvalue for="0" value="substance" />
+          <attvalue for="1" value="2473.38687399056" />
+        </attvalues>
+      </node>
+      <node id="Arsénico (polvos, respirables, vapores o humos)" label="Arsenic (respirable dust, vapors or fumes)">
+        <attvalues>
+          <attvalue for="0" value="substance" />
+          <attvalue for="1" value="1204.941494273725" />
+        </attvalues>
+      </node>
+      <node id="Baja California Sur.Comondú" label="Baja California Sur.Comondú">
+        <attvalues>
+          <attvalue for="0" value="peer_municipio" />
+          <attvalue for="1" value="6446189580.421125" />
+        </attvalues>
+      </node>
+      <node id="Baja California Sur.Mulegé" label="Baja California Sur.Mulegé">
+        <attvalues>
+          <attvalue for="0" value="peer_municipio" />
+          <attvalue for="1" value="3206039969.7487173" />
+        </attvalues>
+      </node>
+      <node id="Baja California Sur.Los Cabos" label="Baja California Sur.Los Cabos">
+        <attvalues>
+          <attvalue for="0" value="peer_municipio" />
+          <attvalue for="1" value="2101591256.5065799" />
+        </attvalues>
+      </node>
+    </nodes>
+    <edges>
+      <edge source="Baja California Sur.La Paz" target="Bióxido de carbono" id="0" weight="14555808242.4" />
+      <edge source="Baja California Sur.La Paz" target="Bióxido de nitrógeno" id="1" weight="55288722.1" />
+      <edge source="Baja California Sur.La Paz" target="Oxido nitroso" id="2" weight="869080.0" />
+      <edge source="Baja California Sur.La Paz" target="Plomo (Compuestos solubles)" id="3" weight="198206.85654454" />
+      <edge source="Baja California Sur.La Paz" target="Níquel (Compuestos solubles)" id="4" weight="197516.99675771015" />
+      <edge source="Baja California Sur.La Paz" target="Cromo (Compuestos solubles)" id="5" weight="171093.76102216783" />
+      <edge source="Baja California Sur.La Paz" target="Cadmio (Compuestos solubles)" id="6" weight="56509.01090000003" />
+      <edge source="Baja California Sur.La Paz" target="Níquel (compuestos)" id="7" weight="52589.92170453959" />
+      <edge source="Baja California Sur.La Paz" target="Cianuro inorgánico/orgánico" id="8" weight="50361.17282330186" />
+      <edge source="Baja California Sur.La Paz" target="Plomo (compuestos)" id="9" weight="29440.543319117198" />
+      <edge source="Baja California Sur.La Paz" target="Cromo (compuestos)" id="10" weight="25903.5110726794" />
+      <edge source="Baja California Sur.La Paz" target="Arsénico (Compuestos solubles)" id="11" weight="25365.074500000002" />
+      <edge source="Baja California Sur.La Paz" target="Cadmio (compuestos)" id="12" weight="6721.686932900258" />
+      <edge source="Baja California Sur.La Paz" target="Arsénico (compuestos)" id="13" weight="2473.38687399056" />
+      <edge source="Baja California Sur.La Paz" target="Arsénico (polvos, respirables, vapores o humos)" id="14" weight="1204.941494273725" />
+      <edge source="Bióxido de carbono" target="Baja California Sur.Comondú" id="15" weight="6343328812.839999" />
+      <edge source="Bióxido de carbono" target="Baja California Sur.Mulegé" id="16" weight="2945256059.2665" />
+      <edge source="Bióxido de carbono" target="Baja California Sur.Los Cabos" id="17" weight="2089980810.52" />
+      <edge source="Bióxido de nitrógeno" target="Baja California Sur.Comondú" id="18" weight="102103794.69999999" />
+      <edge source="Bióxido de nitrógeno" target="Baja California Sur.Mulegé" id="19" weight="10278891.2" />
+      <edge source="Bióxido de nitrógeno" target="Baja California Sur.Los Cabos" id="20" weight="11601562.899999999" />
+      <edge source="Oxido nitroso" target="Baja California Sur.Comondú" id="21" weight="756103.0" />
+      <edge source="Oxido nitroso" target="Baja California Sur.Mulegé" id="22" weight="250477370.0" />
+      <edge source="Plomo (Compuestos solubles)" target="Baja California Sur.Comondú" id="23" weight="42.385299999999994" />
+      <edge source="Plomo (Compuestos solubles)" target="Baja California Sur.Mulegé" id="24" weight="12751.8575" />
+      <edge source="Plomo (Compuestos solubles)" target="Baja California Sur.Los Cabos" id="25" weight="3541.1946000000007" />
+      <edge source="Níquel (Compuestos solubles)" target="Baja California Sur.Comondú" id="26" weight="101.81710000000001" />
+      <edge source="Níquel (Compuestos solubles)" target="Baja California Sur.Mulegé" id="27" weight="541.3915999999999" />
+      <edge source="Níquel (Compuestos solubles)" target="Baja California Sur.Los Cabos" id="28" weight="3063.0902" />
+      <edge source="Cromo (Compuestos solubles)" target="Baja California Sur.Comondú" id="29" weight="9.0765" />
+      <edge source="Cromo (Compuestos solubles)" target="Baja California Sur.Mulegé" id="30" weight="181.442" />
+      <edge source="Cromo (Compuestos solubles)" target="Baja California Sur.Los Cabos" id="31" weight="1474.5803999999998" />
+      <edge source="Cadmio (Compuestos solubles)" target="Baja California Sur.Mulegé" id="32" weight="161.04649999999998" />
+      <edge source="Cadmio (Compuestos solubles)" target="Baja California Sur.Los Cabos" id="33" weight="787.0666000000001" />
+      <edge source="Níquel (compuestos)" target="Baja California Sur.Comondú" id="34" weight="712.4606764" />
+      <edge source="Níquel (compuestos)" target="Baja California Sur.Mulegé" id="35" weight="72.13398008200004" />
+      <edge source="Níquel (compuestos)" target="Baja California Sur.Los Cabos" id="36" weight="0.047352" />
+      <edge source="Cianuro inorgánico/orgánico" target="Baja California Sur.Comondú" id="37" weight="0.06275" />
+      <edge source="Cianuro inorgánico/orgánico" target="Baja California Sur.Mulegé" id="38" weight="7.549768080999998" />
+      <edge source="Cianuro inorgánico/orgánico" target="Baja California Sur.Los Cabos" id="39" weight="0.0032976" />
+      <edge source="Plomo (compuestos)" target="Baja California Sur.Comondú" id="40" weight="3.6415" />
+      <edge source="Plomo (compuestos)" target="Baja California Sur.Mulegé" id="41" weight="12193.614405220002" />
+      <edge source="Plomo (compuestos)" target="Baja California Sur.Los Cabos" id="42" weight="0.0144" />
+      <edge source="Cromo (compuestos)" target="Baja California Sur.Comondú" id="43" weight="0.38075" />
+      <edge source="Cromo (compuestos)" target="Baja California Sur.Mulegé" id="44" weight="70.83988234899998" />
+      <edge source="Cromo (compuestos)" target="Baja California Sur.Los Cabos" id="45" weight="0.015120000000000001" />
+      <edge source="Arsénico (Compuestos solubles)" target="Baja California Sur.Mulegé" id="46" weight="40.2075" />
+      <edge source="Arsénico (Compuestos solubles)" target="Baja California Sur.Los Cabos" id="47" weight="17.0715" />
+      <edge source="Cadmio (compuestos)" target="Baja California Sur.Comondú" id="48" weight="0.011" />
+      <edge source="Cadmio (compuestos)" target="Baja California Sur.Mulegé" id="49" weight="0.12400000000000001" />
+      <edge source="Cadmio (compuestos)" target="Baja California Sur.Los Cabos" id="50" weight="0.00288" />
+      <edge source="Arsénico (compuestos)" target="Baja California Sur.Comondú" id="51" weight="0.00055" />
+      <edge source="Arsénico (compuestos)" target="Baja California Sur.Mulegé" id="52" weight="0.010280000000000001" />
+      <edge source="Arsénico (compuestos)" target="Baja California Sur.Los Cabos" id="53" weight="0.0002304" />
+      <edge source="Arsénico (polvos, respirables, vapores o humos)" target="Baja California Sur.Comondú" id="54" weight="0.045" />
+      <edge source="Arsénico (polvos, respirables, vapores o humos)" target="Baja California Sur.Mulegé" id="55" weight="1629.06480174" />
+    </edges>
+  </graph>
+</gexf>

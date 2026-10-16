@@ -1,0 +1,119 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<gexf xmlns="http://gexf.net/1.3" version="1.3" xmlns:viz="http://gexf.net/1.3/viz" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://gexf.net/1.3 http://gexf.net/1.3/gexf.xsd">
+  <meta lastmodifieddate="2026-10-16">
+    <creator>Apache NetBeans Platform Dev (Build {0})</creator>
+    <title></title>
+    <description></description>
+  </meta>
+  <graph defaultedgetype="undirected" mode="static">
+    <attributes class="node" mode="static">
+      <attribute id="0" title="total_kg" type="double"/>
+      <attribute id="modularity_class" title="Modularity Class" type="integer">
+        <default>0</default>
+      </attribute>
+    </attributes>
+    <nodes>
+      <node id="Campeche.Calkiní" label="Campeche.Calkiní">
+        <attvalues>
+          <attvalue for="0" value="15.905899999999999"/>
+          <attvalue for="modularity_class" value="0"/>
+        </attvalues>
+        <viz:size value="8.1"/>
+        <viz:position x="138.27708" y="4.575927"/>
+        <viz:color r="42" g="120" b="214"/>
+      </node>
+      <node id="Campeche.Hopelchén" label="Campeche.Hopelchén">
+        <attvalues>
+          <attvalue for="0" value="61.082300000000004"/>
+          <attvalue for="modularity_class" value="0"/>
+        </attvalues>
+        <viz:size value="8.1"/>
+        <viz:position x="152.90717" y="29.923649"/>
+        <viz:color r="42" g="120" b="214"/>
+      </node>
+      <node id="Campeche.Tenabo" label="Campeche.Tenabo">
+        <attvalues>
+          <attvalue for="0" value="13.2704"/>
+          <attvalue for="modularity_class" value="0"/>
+        </attvalues>
+        <viz:size value="8.1"/>
+        <viz:position x="123.67267" y="29.760752"/>
+        <viz:color r="42" g="120" b="214"/>
+      </node>
+      <node id="Campeche.Campeche" label="Campeche.Campeche">
+        <attvalues>
+          <attvalue for="0" value="1.154454691979483E10"/>
+          <attvalue for="modularity_class" value="1"/>
+        </attvalues>
+        <viz:size value="9.348213"/>
+        <viz:position x="32.243786" y="15.740906"/>
+        <viz:color r="235" g="104" b="52"/>
+      </node>
+      <node id="Campeche.Carmen" label="Campeche.Carmen">
+        <attvalues>
+          <attvalue for="0" value="2.0255008894566504E11"/>
+          <attvalue for="modularity_class" value="1"/>
+        </attvalues>
+        <viz:size value="30.0"/>
+        <viz:position x="0.0" y="14.2554865"/>
+        <viz:color r="235" g="104" b="52"/>
+      </node>
+      <node id="Campeche.Champotón" label="Campeche.Champotón">
+        <attvalues>
+          <attvalue for="0" value="4.078721437248E8"/>
+          <attvalue for="modularity_class" value="1"/>
+        </attvalues>
+        <viz:size value="8.1441"/>
+        <viz:position x="65.23163" y="34.499577"/>
+        <viz:color r="235" g="104" b="52"/>
+      </node>
+      <node id="Campeche.Palizada" label="Campeche.Palizada">
+        <attvalues>
+          <attvalue for="0" value="5.019974036426873E9"/>
+          <attvalue for="modularity_class" value="1"/>
+        </attvalues>
+        <viz:size value="8.642767"/>
+        <viz:position x="66.95267" y="0.0"/>
+        <viz:color r="235" g="104" b="52"/>
+      </node>
+      <node id="Campeche.Escárcega" label="Campeche.Escárcega">
+        <attvalues>
+          <attvalue for="0" value="2.99188E7"/>
+          <attvalue for="modularity_class" value="1"/>
+        </attvalues>
+        <viz:size value="8.103235"/>
+        <viz:position x="95.13283" y="18.46376"/>
+        <viz:color r="235" g="104" b="52"/>
+      </node>
+    </nodes>
+    <edges>
+      <edge id="0" source="Campeche.Calkiní" target="Campeche.Hopelchén" weight="0.9666886925697327">
+        <viz:color r="137" g="135" b="129" a="0.47058824"/>
+      </edge>
+      <edge id="1" source="Campeche.Calkiní" target="Campeche.Tenabo" weight="0.9999371767044067">
+        <viz:color r="137" g="135" b="129" a="0.47058824"/>
+      </edge>
+      <edge id="2" source="Campeche.Hopelchén" target="Campeche.Tenabo" weight="0.9662058353424072">
+        <viz:color r="137" g="135" b="129" a="0.47058824"/>
+      </edge>
+      <edge id="3" source="Campeche.Campeche" target="Campeche.Carmen" weight="0.8178135752677917">
+        <viz:color r="137" g="135" b="129" a="0.47058824"/>
+      </edge>
+      <edge id="4" source="Campeche.Campeche" target="Campeche.Champotón" weight="0.7247758507728577">
+        <viz:color r="137" g="135" b="129" a="0.47058824"/>
+      </edge>
+      <edge id="5" source="Campeche.Campeche" target="Campeche.Palizada" weight="0.7135455012321472">
+        <viz:color r="137" g="135" b="129" a="0.47058824"/>
+      </edge>
+      <edge id="6" source="Campeche.Champotón" target="Campeche.Escárcega" weight="0.7637050151824951">
+        <viz:color r="137" g="135" b="129" a="0.47058824"/>
+      </edge>
+      <edge id="7" source="Campeche.Champotón" target="Campeche.Palizada" weight="0.8067016005516052">
+        <viz:color r="137" g="135" b="129" a="0.47058824"/>
+      </edge>
+      <edge id="8" source="Campeche.Palizada" target="Campeche.Escárcega" weight="0.7896201014518738">
+        <viz:color r="137" g="135" b="129" a="0.47058824"/>
+      </edge>
+    </edges>
+  </graph>
+</gexf>

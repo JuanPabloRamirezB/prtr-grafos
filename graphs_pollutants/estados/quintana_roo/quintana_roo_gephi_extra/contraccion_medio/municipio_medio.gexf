@@ -1,0 +1,125 @@
+<?xml version='1.0' encoding='utf-8'?>
+<gexf xmlns="http://www.gexf.net/1.2draft" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.gexf.net/1.2draft http://www.gexf.net/1.2draft/gexf.xsd" version="1.2">
+  <meta lastmodifieddate="2026-10-16">
+    <creator>NetworkX 3.7</creator>
+  </meta>
+  <graph defaultedgetype="undirected" mode="static" name="">
+    <attributes mode="static" class="node">
+      <attribute id="0" title="type" type="string" />
+      <attribute id="1" title="total_kg" type="double" />
+    </attributes>
+    <nodes>
+      <node id="LOC::Quintana Roo.Benito Juárez" label="Quintana Roo.Benito Juárez">
+        <attvalues>
+          <attvalue for="0" value="location" />
+          <attvalue for="1" value="5671045826.47528" />
+        </attvalues>
+      </node>
+      <node id="LOC::Quintana Roo.Othón P" label="Quintana Roo.Othón P">
+        <attvalues>
+          <attvalue for="0" value="location" />
+          <attvalue for="1" value="302525016.60448647" />
+        </attvalues>
+      </node>
+      <node id="LOC::Quintana Roo.Cozumel" label="Quintana Roo.Cozumel">
+        <attvalues>
+          <attvalue for="0" value="location" />
+          <attvalue for="1" value="941849408.1594734" />
+        </attvalues>
+      </node>
+      <node id="LOC::Quintana Roo.Solidaridad" label="Quintana Roo.Solidaridad">
+        <attvalues>
+          <attvalue for="0" value="location" />
+          <attvalue for="1" value="10346275621.928034" />
+        </attvalues>
+      </node>
+      <node id="LOC::Quintana Roo.Isla Mujeres" label="Quintana Roo.Isla Mujeres">
+        <attvalues>
+          <attvalue for="0" value="location" />
+          <attvalue for="1" value="266.7839652709601" />
+        </attvalues>
+      </node>
+      <node id="LOC::Quintana Roo.Lázaro Cárdenas" label="Quintana Roo.Lázaro Cárdenas">
+        <attvalues>
+          <attvalue for="0" value="location" />
+          <attvalue for="1" value="38045581.646400005" />
+        </attvalues>
+      </node>
+      <node id="LOC::Quintana Roo.Tulum" label="Quintana Roo.Tulum">
+        <attvalues>
+          <attvalue for="0" value="location" />
+          <attvalue for="1" value="5820.910779999998" />
+        </attvalues>
+      </node>
+      <node id="MED::agua" label="water">
+        <attvalues>
+          <attvalue for="0" value="medio" />
+          <attvalue for="1" value="98058.0961484819" />
+        </attvalues>
+      </node>
+      <node id="MED::aire" label="air">
+        <attvalues>
+          <attvalue for="0" value="medio" />
+          <attvalue for="1" value="17299249877.226204" />
+        </attvalues>
+      </node>
+      <node id="MED::suelo" label="soil">
+        <attvalues>
+          <attvalue for="0" value="medio" />
+          <attvalue for="1" value="196189.50626163476" />
+        </attvalues>
+      </node>
+      <node id="MED::alcantarillado" label="sewer system">
+        <attvalues>
+          <attvalue for="0" value="medio" />
+          <attvalue for="1" value="3390.5225038700023" />
+        </attvalues>
+      </node>
+      <node id="MED::disposicion_final" label="final disposal">
+        <attvalues>
+          <attvalue for="0" value="medio" />
+          <attvalue for="1" value="92247.72" />
+        </attvalues>
+      </node>
+      <node id="MED::otros" label="other">
+        <attvalues>
+          <attvalue for="0" value="medio" />
+          <attvalue for="1" value="101342.15730000004" />
+        </attvalues>
+      </node>
+      <node id="MED::reutilizacion" label="reuse">
+        <attvalues>
+          <attvalue for="0" value="medio" />
+          <attvalue for="1" value="6437.28" />
+        </attvalues>
+      </node>
+    </nodes>
+    <edges>
+      <edge source="LOC::Quintana Roo.Benito Juárez" target="MED::agua" id="0" weight="72895.51426472166" />
+      <edge source="LOC::Quintana Roo.Benito Juárez" target="MED::aire" id="1" weight="5670682123.425285" />
+      <edge source="LOC::Quintana Roo.Benito Juárez" target="MED::suelo" id="2" weight="133372.31761620456" />
+      <edge source="LOC::Quintana Roo.Benito Juárez" target="MED::alcantarillado" id="3" weight="3378.0275058200023" />
+      <edge source="LOC::Quintana Roo.Benito Juárez" target="MED::disposicion_final" id="4" weight="54611.22" />
+      <edge source="LOC::Quintana Roo.Benito Juárez" target="MED::otros" id="5" weight="99445.9706" />
+      <edge source="LOC::Quintana Roo.Othón P" target="MED::agua" id="6" weight="1718.5054460787" />
+      <edge source="LOC::Quintana Roo.Othón P" target="MED::aire" id="7" weight="302514671.74" />
+      <edge source="LOC::Quintana Roo.Othón P" target="MED::suelo" id="8" weight="2189.0790405" />
+      <edge source="LOC::Quintana Roo.Othón P" target="MED::reutilizacion" id="9" weight="6437.28" />
+      <edge source="LOC::Quintana Roo.Cozumel" target="MED::agua" id="10" weight="2018.1416443310004" />
+      <edge source="LOC::Quintana Roo.Cozumel" target="MED::aire" id="11" weight="941846672.0643001" />
+      <edge source="LOC::Quintana Roo.Cozumel" target="MED::suelo" id="12" weight="717.9535287900001" />
+      <edge source="LOC::Quintana Roo.Solidaridad" target="MED::agua" id="13" weight="21202.548084538466" />
+      <edge source="LOC::Quintana Roo.Solidaridad" target="MED::aire" id="14" weight="10346160857.856615" />
+      <edge source="LOC::Quintana Roo.Solidaridad" target="MED::suelo" id="15" weight="54021.78059573102" />
+      <edge source="LOC::Quintana Roo.Solidaridad" target="MED::alcantarillado" id="16" weight="7.056042" />
+      <edge source="LOC::Quintana Roo.Solidaridad" target="MED::disposicion_final" id="17" weight="37636.5" />
+      <edge source="LOC::Quintana Roo.Solidaridad" target="MED::otros" id="18" weight="1896.1867" />
+      <edge source="LOC::Quintana Roo.Isla Mujeres" target="MED::agua" id="19" weight="193.88030881216" />
+      <edge source="LOC::Quintana Roo.Isla Mujeres" target="MED::suelo" id="20" weight="67.4647004088" />
+      <edge source="LOC::Quintana Roo.Isla Mujeres" target="MED::alcantarillado" id="21" weight="5.43895605" />
+      <edge source="LOC::Quintana Roo.Lázaro Cárdenas" target="MED::agua" id="22" weight="29.5064" />
+      <edge source="LOC::Quintana Roo.Lázaro Cárdenas" target="MED::aire" id="23" weight="38045552.14" />
+      <edge source="LOC::Quintana Roo.Tulum" target="MED::suelo" id="24" weight="5820.910779999998" />
+    </edges>
+  </graph>
+</gexf>

@@ -49,7 +49,10 @@ def _groups(G):
 def render_gexf(path, out, title, placeholder=None):
     G = nx.read_gexf(path)
     lab = lambda n: G.nodes[n].get("label", n)
-    P = {n: (G.nodes[n]["viz"]["position"]["x"], G.nodes[n]["viz"]["position"]["y"]) for n in G.nodes()}
+    # shortcut: FA2 can leave a node's position NaN on very small/dense graphs (Gephi's GEXF
+    # exporter then omits viz:position entirely); fall back to the origin rather than crash.
+    P = {n: (G.nodes[n]["viz"]["position"]["x"], G.nodes[n]["viz"]["position"]["y"])
+         if "position" in G.nodes[n].get("viz", {}) else (0.0, 0.0) for n in G.nodes()}
     ex, ey = [], []
     for u, v in G.edges():
         ex += [P[u][0], P[v][0], None]; ey += [P[u][1], P[v][1], None]

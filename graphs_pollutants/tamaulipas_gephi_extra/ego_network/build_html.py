@@ -13,10 +13,14 @@ import plotly.graph_objects as go
 
 HERE = os.path.dirname(os.path.abspath(__file__))
 SRC = os.path.join(HERE, "..", "..", "..", "prtr_raw_for_stori_stori.csv")
-STATE_FILTER = "Tamaulipas"
-FOCAL = "Tamaulipas.Altamira"
+STATE_FILTER = sys.argv[1] if len(sys.argv) > 1 else "Tamaulipas"
+OUT_DIR = sys.argv[2] if len(sys.argv) > 2 else HERE
 TOP_N_SUBSTANCES = 15
 PEER_OVERLAP_MIN = 6
+H.configure(STATE_FILTER, "municipio")
+with open(os.path.join(OUT_DIR, "focal.txt"), encoding="utf-8") as f:
+    FOCAL_NAME, FOCAL_SLUG = f.read().splitlines()
+FOCAL = f"{STATE_FILTER}.{FOCAL_NAME}"
 
 COLOR_FOCAL = "#e34948"
 COLOR_SUB = "#eb6834"
@@ -83,7 +87,7 @@ sub_trace = go.Scatter(
     mode="markers+text", text=[H.display(s) for s in top_sub_names], textposition="top center", textfont=dict(size=8),
     marker=dict(size=[12 + 18 * (kg / top_subs[0][1]) for _, kg in top_subs], color=COLOR_SUB,
                 line=dict(width=1, color="white")),
-    hovertext=[H.hover(s, extra=[f"<b>Altamira</b> contributes {kg:,.0f} kg of this substance"]) for s, kg in top_subs],
+    hovertext=[H.hover(s, extra=[f"<b>{FOCAL_NAME}</b> contributes {kg:,.0f} kg of this substance"]) for s, kg in top_subs],
     hoverinfo="text", meta=dict(role="nodes"), name="Substance",
 )
 
@@ -92,7 +96,7 @@ peer_trace = go.Scatter(
     mode="markers+text", text=peers_sorted, textposition="bottom center", textfont=dict(size=9),
     marker=dict(size=[18 + 14 * (len(peers[m]) / TOP_N_SUBSTANCES) for m in peers_sorted], color=COLOR_PEER,
                 line=dict(width=1, color="white")),
-    hovertext=[H.hover(m, extra=[f"<b>Neighbor of Altamira</b>: shares {len(peers[m])} of its {TOP_N_SUBSTANCES} main substances"]) for m in peers_sorted],
+    hovertext=[H.hover(m, extra=[f"<b>Neighbor of {FOCAL_NAME}</b>: shares {len(peers[m])} of its {TOP_N_SUBSTANCES} main substances"]) for m in peers_sorted],
     hoverinfo="text", meta=dict(role="nodes"), name="Neighboring municipality",
 )
 
@@ -100,12 +104,12 @@ ego_edges = [(FOCAL, s) for s in top_sub_names] + [(m, s) for m, ov in peers.ite
 mid_trace = H.edge_midpoints(ego_edges, lambda u, v: H.edge_hover(u, v), pos)
 fig = go.Figure(data=[edge_trace, focal_trace, sub_trace, peer_trace, mid_trace])
 fig.update_layout(
-    title=dict(text="Ego-network: Tamaulipas.Altamira and its neighboring municipalities", font=dict(color=INK_PRIMARY, size=18)),
+    title=dict(text=f"Ego-network: {FOCAL} and its neighboring municipalities", font=dict(color=INK_PRIMARY, size=18)),
     plot_bgcolor=SURFACE, paper_bgcolor=SURFACE,
     xaxis=dict(visible=False, range=[-2.6, 2.6]), yaxis=dict(visible=False, range=[-2.4, 2.4]),
     margin=dict(l=20, r=20, t=60, b=20), height=1000,
     hoverlabel=H.HOVERLABEL,
 )
-out = os.path.join(HERE, "ego_altamira.html")
+out = os.path.join(OUT_DIR, f"ego_{FOCAL_SLUG}.html")
 U.write(fig, out)
 print(f"Written {out}")

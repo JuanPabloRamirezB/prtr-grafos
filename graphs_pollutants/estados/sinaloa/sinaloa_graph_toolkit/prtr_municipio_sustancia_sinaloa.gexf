@@ -1,0 +1,1090 @@
+<?xml version='1.0' encoding='utf-8'?>
+<gexf xmlns="http://www.gexf.net/1.2draft" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.gexf.net/1.2draft http://www.gexf.net/1.2draft/gexf.xsd" version="1.2">
+  <meta lastmodifieddate="2026-10-16">
+    <creator>NetworkX 3.7</creator>
+  </meta>
+  <graph defaultedgetype="undirected" mode="static" name="">
+    <attributes mode="static" class="edge">
+      <attribute id="2" title="count" type="long" />
+    </attributes>
+    <attributes mode="static" class="node">
+      <attribute id="0" title="type" type="string" />
+      <attribute id="1" title="total_kg" type="double" />
+    </attributes>
+    <nodes>
+      <node id="LOC::Sinaloa.Ahome" label="Sinaloa.Ahome">
+        <attvalues>
+          <attvalue for="0" value="location" />
+          <attvalue for="1" value="15911744667.995882" />
+        </attvalues>
+      </node>
+      <node id="LOC::Sinaloa.Choix" label="Sinaloa.Choix">
+        <attvalues>
+          <attvalue for="0" value="location" />
+          <attvalue for="1" value="6.7218463325" />
+        </attvalues>
+      </node>
+      <node id="LOC::Sinaloa.El Fuerte" label="Sinaloa.El Fuerte">
+        <attvalues>
+          <attvalue for="0" value="location" />
+          <attvalue for="1" value="4586.48882675" />
+        </attvalues>
+      </node>
+      <node id="LOC::Sinaloa.Mazatlán" label="Sinaloa.Mazatlán">
+        <attvalues>
+          <attvalue for="0" value="location" />
+          <attvalue for="1" value="25828970680.603775" />
+        </attvalues>
+      </node>
+      <node id="LOC::Sinaloa.Salvador Alvarado" label="Sinaloa.Salvador Alvarado">
+        <attvalues>
+          <attvalue for="0" value="location" />
+          <attvalue for="1" value="26792.14617416242" />
+        </attvalues>
+      </node>
+      <node id="LOC::Sinaloa.Badiraguato" label="Sinaloa.Badiraguato">
+        <attvalues>
+          <attvalue for="0" value="location" />
+          <attvalue for="1" value="3043.1884714999997" />
+        </attvalues>
+      </node>
+      <node id="LOC::Sinaloa.Culiacán" label="Sinaloa.Culiacán">
+        <attvalues>
+          <attvalue for="0" value="location" />
+          <attvalue for="1" value="455721332.1032091" />
+        </attvalues>
+      </node>
+      <node id="LOC::Sinaloa.Sinaloa" label="Sinaloa.Sinaloa">
+        <attvalues>
+          <attvalue for="0" value="location" />
+          <attvalue for="1" value="13304.5131216" />
+        </attvalues>
+      </node>
+      <node id="LOC::Sinaloa.Cosalá" label="Sinaloa.Cosalá">
+        <attvalues>
+          <attvalue for="0" value="location" />
+          <attvalue for="1" value="5659.464853349999" />
+        </attvalues>
+      </node>
+      <node id="LOC::Sinaloa.Navolato" label="Sinaloa.Navolato">
+        <attvalues>
+          <attvalue for="0" value="location" />
+          <attvalue for="1" value="0.0616398" />
+        </attvalues>
+      </node>
+      <node id="LOC::Sinaloa.Mocorito" label="Sinaloa.Mocorito">
+        <attvalues>
+          <attvalue for="0" value="location" />
+          <attvalue for="1" value="1853792.88257" />
+        </attvalues>
+      </node>
+      <node id="LOC::Sinaloa.Rosario" label="Sinaloa.Rosario">
+        <attvalues>
+          <attvalue for="0" value="location" />
+          <attvalue for="1" value="5642878.664705499" />
+        </attvalues>
+      </node>
+      <node id="SUB::Cromo (Compuestos solubles)" label="Chromium (soluble compounds)">
+        <attvalues>
+          <attvalue for="0" value="substance" />
+          <attvalue for="1" value="243392.93452762472" />
+        </attvalues>
+      </node>
+      <node id="SUB::Mercurio (Compuestos solubles)" label="Mercury (soluble compounds)">
+        <attvalues>
+          <attvalue for="0" value="substance" />
+          <attvalue for="1" value="1545.6249411470546" />
+        </attvalues>
+      </node>
+      <node id="SUB::Níquel (Compuestos solubles)" label="Nickel (soluble compounds)">
+        <attvalues>
+          <attvalue for="0" value="substance" />
+          <attvalue for="1" value="805821.8740199045" />
+        </attvalues>
+      </node>
+      <node id="SUB::Plomo (Compuestos solubles)" label="Lead (soluble compounds)">
+        <attvalues>
+          <attvalue for="0" value="substance" />
+          <attvalue for="1" value="175771.30984482553" />
+        </attvalues>
+      </node>
+      <node id="SUB::Cianuro inorgánico/orgánico" label="Inorganic/organic cyanide">
+        <attvalues>
+          <attvalue for="0" value="substance" />
+          <attvalue for="1" value="56124.59117793283" />
+        </attvalues>
+      </node>
+      <node id="SUB::Arsénico (polvos, respirables, vapores o humos)" label="Arsenic (respirable dust, vapors or fumes)">
+        <attvalues>
+          <attvalue for="0" value="substance" />
+          <attvalue for="1" value="31959.438918989676" />
+        </attvalues>
+      </node>
+      <node id="SUB::Cadmio (polvos, respirables, vapores o humos)" label="Cadmium (respirable dust, vapors or fumes)">
+        <attvalues>
+          <attvalue for="0" value="substance" />
+          <attvalue for="1" value="28236.51892654268" />
+        </attvalues>
+      </node>
+      <node id="SUB::Cadmio (compuestos)" label="Cadmium (compounds)">
+        <attvalues>
+          <attvalue for="0" value="substance" />
+          <attvalue for="1" value="904.4355155682506" />
+        </attvalues>
+      </node>
+      <node id="SUB::Cromo (compuestos)" label="Chromium (compounds)">
+        <attvalues>
+          <attvalue for="0" value="substance" />
+          <attvalue for="1" value="183424.46655163035" />
+        </attvalues>
+      </node>
+      <node id="SUB::Mercurio (compuestos)" label="Mercury (compounds)">
+        <attvalues>
+          <attvalue for="0" value="substance" />
+          <attvalue for="1" value="1622.629857093837" />
+        </attvalues>
+      </node>
+      <node id="SUB::Níquel (compuestos)" label="Nickel (compounds)">
+        <attvalues>
+          <attvalue for="0" value="substance" />
+          <attvalue for="1" value="1572308.2302040996" />
+        </attvalues>
+      </node>
+      <node id="SUB::Plomo (compuestos)" label="Lead (compounds)">
+        <attvalues>
+          <attvalue for="0" value="substance" />
+          <attvalue for="1" value="186024.51589689316" />
+        </attvalues>
+      </node>
+      <node id="SUB::Arsénico (compuestos)" label="Arsenic (compounds)">
+        <attvalues>
+          <attvalue for="0" value="substance" />
+          <attvalue for="1" value="109.20690107041851" />
+        </attvalues>
+      </node>
+      <node id="SUB::Mercurio (polvos, respirables, vapores o humos)" label="Mercury (respirable dust, vapors or fumes)">
+        <attvalues>
+          <attvalue for="0" value="substance" />
+          <attvalue for="1" value="366.7871348561999" />
+        </attvalues>
+      </node>
+      <node id="SUB::Arsénico (Compuestos solubles)" label="Arsenic (soluble compounds)">
+        <attvalues>
+          <attvalue for="0" value="substance" />
+          <attvalue for="1" value="4392.5816942659985" />
+        </attvalues>
+      </node>
+      <node id="SUB::Cadmio (Compuestos solubles)" label="Cadmium (soluble compounds)">
+        <attvalues>
+          <attvalue for="0" value="substance" />
+          <attvalue for="1" value="15248.689995060005" />
+        </attvalues>
+      </node>
+      <node id="SUB::Dioxido de cloro" label="Chlorine dioxide">
+        <attvalues>
+          <attvalue for="0" value="substance" />
+          <attvalue for="1" value="3200.0" />
+        </attvalues>
+      </node>
+      <node id="SUB::Bióxido de carbono" label="Carbon dioxide">
+        <attvalues>
+          <attvalue for="0" value="substance" />
+          <attvalue for="1" value="42151112920.11676" />
+        </attvalues>
+      </node>
+      <node id="SUB::Bióxido de nitrógeno" label="Nitrogen dioxide">
+        <attvalues>
+          <attvalue for="0" value="substance" />
+          <attvalue for="1" value="41346160.0" />
+        </attvalues>
+      </node>
+      <node id="SUB::Benceno" label="Benzene">
+        <attvalues>
+          <attvalue for="0" value="substance" />
+          <attvalue for="1" value="66430.92872571647" />
+        </attvalues>
+      </node>
+      <node id="SUB::Acetaldehido" label="Acetaldehyde">
+        <attvalues>
+          <attvalue for="0" value="substance" />
+          <attvalue for="1" value="2301.588056334708" />
+        </attvalues>
+      </node>
+      <node id="SUB::Formaldehido" label="Formaldehyde">
+        <attvalues>
+          <attvalue for="0" value="substance" />
+          <attvalue for="1" value="57415.61162209204" />
+        </attvalues>
+      </node>
+      <node id="SUB::Acroleina" label="Acrolein">
+        <attvalues>
+          <attvalue for="0" value="substance" />
+          <attvalue for="1" value="1322.8920578433854" />
+        </attvalues>
+      </node>
+      <node id="SUB::Plomo (polvos respirables, humos o vapores)" label="Lead (respirable dust, fumes or vapors)">
+        <attvalues>
+          <attvalue for="0" value="substance" />
+          <attvalue for="1" value="9157.059805500001" />
+        </attvalues>
+      </node>
+      <node id="SUB::Níquel (polvos respirables, humos o vapores)" label="Nickel (respirable dust, fumes or vapors)">
+        <attvalues>
+          <attvalue for="0" value="substance" />
+          <attvalue for="1" value="240.41385437597" />
+        </attvalues>
+      </node>
+      <node id="SUB::Cromo (polvos respirables, humos o vapores)" label="Chromium (respirable dust, fumes or vapors)">
+        <attvalues>
+          <attvalue for="0" value="substance" />
+          <attvalue for="1" value="78.88" />
+        </attvalues>
+      </node>
+      <node id="SUB::Oxido nitroso" label="Nitrous oxide">
+        <attvalues>
+          <attvalue for="0" value="substance" />
+          <attvalue for="1" value="7015484.649999999" />
+        </attvalues>
+      </node>
+      <node id="SUB::Metano" label="Methane">
+        <attvalues>
+          <attvalue for="0" value="substance" />
+          <attvalue for="1" value="1045482.938088" />
+        </attvalues>
+      </node>
+      <node id="SUB::Tolueno" label="Toluene">
+        <attvalues>
+          <attvalue for="0" value="substance" />
+          <attvalue for="1" value="4771.719999999999" />
+        </attvalues>
+      </node>
+      <node id="SUB::Xileno (mezcla de isómeros)" label="Xylene (mixture of isomers)">
+        <attvalues>
+          <attvalue for="0" value="substance" />
+          <attvalue for="1" value="2352.7" />
+        </attvalues>
+      </node>
+      <node id="SUB::Estireno (fenil etileno)" label="Styrene (phenylethylene)">
+        <attvalues>
+          <attvalue for="0" value="substance" />
+          <attvalue for="1" value="4200.5" />
+        </attvalues>
+      </node>
+      <node id="SUB::4-Amino difenilo" label="4-Aminobiphenyl">
+        <attvalues>
+          <attvalue for="0" value="substance" />
+          <attvalue for="1" value="7028.0" />
+        </attvalues>
+      </node>
+      <node id="SUB::Cloruro de metileno" label="Methylene chloride">
+        <attvalues>
+          <attvalue for="0" value="substance" />
+          <attvalue for="1" value="300.0" />
+        </attvalues>
+      </node>
+      <node id="SUB::Bifenilos policlorados" label="Polychlorinated biphenyls (PCBs)">
+        <attvalues>
+          <attvalue for="0" value="substance" />
+          <attvalue for="1" value="643.0" />
+        </attvalues>
+      </node>
+    </nodes>
+    <edges>
+      <edge source="LOC::Sinaloa.Ahome" target="SUB::Cromo (Compuestos solubles)" id="0" weight="223010.8159689249">
+        <attvalues>
+          <attvalue for="2" value="29" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Sinaloa.Ahome" target="SUB::Mercurio (Compuestos solubles)" id="1" weight="951.200339911775">
+        <attvalues>
+          <attvalue for="2" value="7" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Sinaloa.Ahome" target="SUB::Níquel (Compuestos solubles)" id="2" weight="281786.1676913917">
+        <attvalues>
+          <attvalue for="2" value="25" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Sinaloa.Ahome" target="SUB::Plomo (Compuestos solubles)" id="3" weight="134454.93191672786">
+        <attvalues>
+          <attvalue for="2" value="29" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Sinaloa.Ahome" target="SUB::Cianuro inorgánico/orgánico" id="4" weight="35833.85439361529">
+        <attvalues>
+          <attvalue for="2" value="37" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Sinaloa.Ahome" target="SUB::Arsénico (polvos, respirables, vapores o humos)" id="5" weight="30682.37143167566">
+        <attvalues>
+          <attvalue for="2" value="31" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Sinaloa.Ahome" target="SUB::Cadmio (polvos, respirables, vapores o humos)" id="6" weight="23343.782896826993">
+        <attvalues>
+          <attvalue for="2" value="25" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Sinaloa.Ahome" target="SUB::Arsénico (compuestos)" id="7" weight="1.1935728199999998">
+        <attvalues>
+          <attvalue for="2" value="14" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Sinaloa.Ahome" target="SUB::Cadmio (compuestos)" id="8" weight="0.24105462">
+        <attvalues>
+          <attvalue for="2" value="10" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Sinaloa.Ahome" target="SUB::Cromo (compuestos)" id="9" weight="89321.97706087338">
+        <attvalues>
+          <attvalue for="2" value="25" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Sinaloa.Ahome" target="SUB::Mercurio (compuestos)" id="10" weight="1162.9222729492003">
+        <attvalues>
+          <attvalue for="2" value="22" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Sinaloa.Ahome" target="SUB::Níquel (compuestos)" id="11" weight="128570.33905523158">
+        <attvalues>
+          <attvalue for="2" value="34" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Sinaloa.Ahome" target="SUB::Plomo (compuestos)" id="12" weight="74527.86494867281">
+        <attvalues>
+          <attvalue for="2" value="43" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Sinaloa.Ahome" target="SUB::Mercurio (polvos, respirables, vapores o humos)" id="13" weight="290.89540569819997">
+        <attvalues>
+          <attvalue for="2" value="9" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Sinaloa.Ahome" target="SUB::Arsénico (Compuestos solubles)" id="14" weight="1092.2737">
+        <attvalues>
+          <attvalue for="2" value="3" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Sinaloa.Ahome" target="SUB::Cadmio (Compuestos solubles)" id="15" weight="10309.867400000003">
+        <attvalues>
+          <attvalue for="2" value="9" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Sinaloa.Ahome" target="SUB::Bióxido de carbono" id="16" weight="15888928717.252869">
+        <attvalues>
+          <attvalue for="2" value="43" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Sinaloa.Ahome" target="SUB::Bióxido de nitrógeno" id="17" weight="14490180.0">
+        <attvalues>
+          <attvalue for="2" value="7" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Sinaloa.Ahome" target="SUB::Acetaldehido" id="18" weight="2300.938776">
+        <attvalues>
+          <attvalue for="2" value="9" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Sinaloa.Ahome" target="SUB::Acroleina" id="19" weight="415.437984967091">
+        <attvalues>
+          <attvalue for="2" value="8" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Sinaloa.Ahome" target="SUB::Benceno" id="20" weight="66430.1539368">
+        <attvalues>
+          <attvalue for="2" value="6" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Sinaloa.Ahome" target="SUB::Formaldehido" id="21" weight="40815.561590592006">
+        <attvalues>
+          <attvalue for="2" value="9" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Sinaloa.Ahome" target="SUB::Plomo (polvos respirables, humos o vapores)" id="22" weight="1099.82">
+        <attvalues>
+          <attvalue for="2" value="13" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Sinaloa.Ahome" target="SUB::Níquel (polvos respirables, humos o vapores)" id="23" weight="143.25161559999998">
+        <attvalues>
+          <attvalue for="2" value="7" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Sinaloa.Ahome" target="SUB::Cromo (polvos respirables, humos o vapores)" id="24" weight="78.88">
+        <attvalues>
+          <attvalue for="2" value="4" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Sinaloa.Ahome" target="SUB::Oxido nitroso" id="25" weight="7015484.649999999">
+        <attvalues>
+          <attvalue for="2" value="2" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Sinaloa.Ahome" target="SUB::Metano" id="26" weight="156236.93">
+        <attvalues>
+          <attvalue for="2" value="2" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Sinaloa.Ahome" target="SUB::Tolueno" id="27" weight="4771.719999999999">
+        <attvalues>
+          <attvalue for="2" value="2" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Sinaloa.Ahome" target="SUB::Xileno (mezcla de isómeros)" id="28" weight="2352.7">
+        <attvalues>
+          <attvalue for="2" value="2" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Sinaloa.Ahome" target="SUB::Cloruro de metileno" id="29" weight="300.0">
+        <attvalues>
+          <attvalue for="2" value="1" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Sinaloa.Choix" target="SUB::Cromo (Compuestos solubles)" id="30" weight="0.04417437">
+        <attvalues>
+          <attvalue for="2" value="1" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Sinaloa.Choix" target="SUB::Mercurio (Compuestos solubles)" id="31" weight="0.001210179">
+        <attvalues>
+          <attvalue for="2" value="1" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Sinaloa.Choix" target="SUB::Níquel (Compuestos solubles)" id="32" weight="4.009595595">
+        <attvalues>
+          <attvalue for="2" value="7" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Sinaloa.Choix" target="SUB::Plomo (Compuestos solubles)" id="33" weight="0.08222556">
+        <attvalues>
+          <attvalue for="2" value="1" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Sinaloa.Choix" target="SUB::Cianuro inorgánico/orgánico" id="34" weight="0.11413055500000001">
+        <attvalues>
+          <attvalue for="2" value="7" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Sinaloa.Choix" target="SUB::Arsénico (polvos, respirables, vapores o humos)" id="35" weight="0.11852965450000001">
+        <attvalues>
+          <attvalue for="2" value="6" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Sinaloa.Choix" target="SUB::Cadmio (polvos, respirables, vapores o humos)" id="36" weight="0.08508379">
+        <attvalues>
+          <attvalue for="2" value="5" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Sinaloa.Choix" target="SUB::Níquel (compuestos)" id="37" weight="1.1626083999999999">
+        <attvalues>
+          <attvalue for="2" value="5" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Sinaloa.Choix" target="SUB::Mercurio (polvos, respirables, vapores o humos)" id="38" weight="0.000518847">
+        <attvalues>
+          <attvalue for="2" value="2" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Sinaloa.Choix" target="SUB::Plomo (compuestos)" id="39" weight="0.43525620000000004">
+        <attvalues>
+          <attvalue for="2" value="5" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Sinaloa.Choix" target="SUB::Cromo (compuestos)" id="40" weight="0.6507404">
+        <attvalues>
+          <attvalue for="2" value="5" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Sinaloa.Choix" target="SUB::Mercurio (compuestos)" id="41" weight="0.008145201999999999">
+        <attvalues>
+          <attvalue for="2" value="4" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Sinaloa.Choix" target="SUB::Arsénico (compuestos)" id="42" weight="0.00561978">
+        <attvalues>
+          <attvalue for="2" value="1" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Sinaloa.Choix" target="SUB::Cadmio (compuestos)" id="43" weight="0.0040078">
+        <attvalues>
+          <attvalue for="2" value="1" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Sinaloa.El Fuerte" target="SUB::Cromo (Compuestos solubles)" id="44" weight="36.6048308">
+        <attvalues>
+          <attvalue for="2" value="8" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Sinaloa.El Fuerte" target="SUB::Mercurio (Compuestos solubles)" id="45" weight="0.001345">
+        <attvalues>
+          <attvalue for="2" value="1" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Sinaloa.El Fuerte" target="SUB::Níquel (Compuestos solubles)" id="46" weight="67.27024615">
+        <attvalues>
+          <attvalue for="2" value="8" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Sinaloa.El Fuerte" target="SUB::Plomo (Compuestos solubles)" id="47" weight="1689.95935255">
+        <attvalues>
+          <attvalue for="2" value="9" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Sinaloa.El Fuerte" target="SUB::Cianuro inorgánico/orgánico" id="48" weight="0.8063372000000001">
+        <attvalues>
+          <attvalue for="2" value="5" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Sinaloa.El Fuerte" target="SUB::Arsénico (polvos, respirables, vapores o humos)" id="49" weight="0.445465">
+        <attvalues>
+          <attvalue for="2" value="4" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Sinaloa.El Fuerte" target="SUB::Cadmio (polvos, respirables, vapores o humos)" id="50" weight="0.98138485">
+        <attvalues>
+          <attvalue for="2" value="4" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Sinaloa.El Fuerte" target="SUB::Arsénico (compuestos)" id="51" weight="0.088872">
+        <attvalues>
+          <attvalue for="2" value="1" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Sinaloa.El Fuerte" target="SUB::Cadmio (compuestos)" id="52" weight="0.0834">
+        <attvalues>
+          <attvalue for="2" value="1" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Sinaloa.El Fuerte" target="SUB::Cromo (compuestos)" id="53" weight="9.689511999999999">
+        <attvalues>
+          <attvalue for="2" value="4" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Sinaloa.El Fuerte" target="SUB::Mercurio (compuestos)" id="54" weight="0.0432452">
+        <attvalues>
+          <attvalue for="2" value="3" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Sinaloa.El Fuerte" target="SUB::Níquel (compuestos)" id="55" weight="17.960656">
+        <attvalues>
+          <attvalue for="2" value="4" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Sinaloa.El Fuerte" target="SUB::Plomo (compuestos)" id="56" weight="1679.14584">
+        <attvalues>
+          <attvalue for="2" value="5" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Sinaloa.El Fuerte" target="SUB::Mercurio (polvos, respirables, vapores o humos)" id="57" weight="0.00834">
+        <attvalues>
+          <attvalue for="2" value="1" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Sinaloa.El Fuerte" target="SUB::Bióxido de carbono" id="58" weight="1083.4">
+        <attvalues>
+          <attvalue for="2" value="1" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Sinaloa.Mazatlán" target="SUB::Níquel (Compuestos solubles)" id="59" weight="513024.42383676796">
+        <attvalues>
+          <attvalue for="2" value="49" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Sinaloa.Mazatlán" target="SUB::Cromo (Compuestos solubles)" id="60" weight="15182.48340352988">
+        <attvalues>
+          <attvalue for="2" value="48" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Sinaloa.Mazatlán" target="SUB::Mercurio (Compuestos solubles)" id="61" weight="336.5736710562801">
+        <attvalues>
+          <attvalue for="2" value="31" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Sinaloa.Mazatlán" target="SUB::Plomo (Compuestos solubles)" id="62" weight="20150.156299987495">
+        <attvalues>
+          <attvalue for="2" value="46" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Sinaloa.Mazatlán" target="SUB::Cianuro inorgánico/orgánico" id="63" weight="892.8326273073384">
+        <attvalues>
+          <attvalue for="2" value="35" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Sinaloa.Mazatlán" target="SUB::Arsénico (polvos, respirables, vapores o humos)" id="64" weight="43.94066528694751">
+        <attvalues>
+          <attvalue for="2" value="24" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Sinaloa.Mazatlán" target="SUB::Cadmio (polvos, respirables, vapores o humos)" id="65" weight="23.805031975687506">
+        <attvalues>
+          <attvalue for="2" value="15" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Sinaloa.Mazatlán" target="SUB::Plomo (compuestos)" id="66" weight="90983.75975577463">
+        <attvalues>
+          <attvalue for="2" value="46" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Sinaloa.Mazatlán" target="SUB::Níquel (compuestos)" id="67" weight="1436925.5173156187">
+        <attvalues>
+          <attvalue for="2" value="44" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Sinaloa.Mazatlán" target="SUB::Mercurio (compuestos)" id="68" weight="158.42453760143673">
+        <attvalues>
+          <attvalue for="2" value="25" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Sinaloa.Mazatlán" target="SUB::Cromo (compuestos)" id="69" weight="86221.01184387652">
+        <attvalues>
+          <attvalue for="2" value="28" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Sinaloa.Mazatlán" target="SUB::Cadmio (compuestos)" id="70" weight="133.65764714825045">
+        <attvalues>
+          <attvalue for="2" value="16" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Sinaloa.Mazatlán" target="SUB::Arsénico (compuestos)" id="71" weight="107.7474653504185">
+        <attvalues>
+          <attvalue for="2" value="14" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Sinaloa.Mazatlán" target="SUB::Mercurio (polvos, respirables, vapores o humos)" id="72" weight="0.82665">
+        <attvalues>
+          <attvalue for="2" value="2" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Sinaloa.Mazatlán" target="SUB::Arsénico (Compuestos solubles)" id="73" weight="357.0962000000001">
+        <attvalues>
+          <attvalue for="2" value="30" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Sinaloa.Mazatlán" target="SUB::Cadmio (Compuestos solubles)" id="74" weight="4582.097645059999">
+        <attvalues>
+          <attvalue for="2" value="36" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Sinaloa.Mazatlán" target="SUB::Bióxido de nitrógeno" id="75" weight="26855980.0">
+        <attvalues>
+          <attvalue for="2" value="8" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Sinaloa.Mazatlán" target="SUB::Bióxido de carbono" id="76" weight="25799041049.26">
+        <attvalues>
+          <attvalue for="2" value="55" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Sinaloa.Mazatlán" target="SUB::Acroleina" id="77" weight="0.08832994182199999">
+        <attvalues>
+          <attvalue for="2" value="10" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Sinaloa.Mazatlán" target="SUB::Formaldehido" id="78" weight="10600.0369713332">
+        <attvalues>
+          <attvalue for="2" value="11" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Sinaloa.Mazatlán" target="SUB::Benceno" id="79" weight="0.4629051199923">
+        <attvalues>
+          <attvalue for="2" value="9" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Sinaloa.Mazatlán" target="SUB::Acetaldehido" id="80" weight="0.3928825180808">
+        <attvalues>
+          <attvalue for="2" value="9" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Sinaloa.Mazatlán" target="SUB::Metano" id="81" weight="889246.008088">
+        <attvalues>
+          <attvalue for="2" value="7" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Sinaloa.Mazatlán" target="SUB::Estireno (fenil etileno)" id="82" weight="4200.0">
+        <attvalues>
+          <attvalue for="2" value="1" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Sinaloa.Mazatlán" target="SUB::Plomo (polvos respirables, humos o vapores)" id="83" weight="480.0">
+        <attvalues>
+          <attvalue for="2" value="1" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Sinaloa.Salvador Alvarado" target="SUB::Cianuro inorgánico/orgánico" id="84" weight="8.27592e-05">
+        <attvalues>
+          <attvalue for="2" value="2" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Sinaloa.Salvador Alvarado" target="SUB::Arsénico (polvos, respirables, vapores o humos)" id="85" weight="0.00010203680000000001">
+        <attvalues>
+          <attvalue for="2" value="4" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Sinaloa.Salvador Alvarado" target="SUB::Mercurio (compuestos)" id="86" weight="6.45164e-05">
+        <attvalues>
+          <attvalue for="2" value="2" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Sinaloa.Salvador Alvarado" target="SUB::Plomo (compuestos)" id="87" weight="0.0008142456">
+        <attvalues>
+          <attvalue for="2" value="2" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Sinaloa.Salvador Alvarado" target="SUB::Bióxido de carbono" id="88" weight="20792.0">
+        <attvalues>
+          <attvalue for="2" value="8" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Sinaloa.Salvador Alvarado" target="SUB::Acetaldehido" id="89" weight="0.06076014562809999">
+        <attvalues>
+          <attvalue for="2" value="5" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Sinaloa.Salvador Alvarado" target="SUB::Formaldehido" id="90" weight="6000.003097437837">
+        <attvalues>
+          <attvalue for="2" value="6" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Sinaloa.Salvador Alvarado" target="SUB::Benceno" id="91" weight="0.0739103924819">
+        <attvalues>
+          <attvalue for="2" value="5" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Sinaloa.Salvador Alvarado" target="SUB::Acroleina" id="92" weight="0.0073276284727">
+        <attvalues>
+          <attvalue for="2" value="5" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Sinaloa.Salvador Alvarado" target="SUB::Arsénico (compuestos)" id="93" weight="1.5e-05">
+        <attvalues>
+          <attvalue for="2" value="1" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Sinaloa.Badiraguato" target="SUB::Cadmio (compuestos)" id="94" weight="0.081">
+        <attvalues>
+          <attvalue for="2" value="3" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Sinaloa.Badiraguato" target="SUB::Cromo (compuestos)" id="95" weight="0.081">
+        <attvalues>
+          <attvalue for="2" value="3" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Sinaloa.Badiraguato" target="SUB::Mercurio (compuestos)" id="96" weight="0.001215">
+        <attvalues>
+          <attvalue for="2" value="3" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Sinaloa.Badiraguato" target="SUB::Níquel (compuestos)" id="97" weight="0.081">
+        <attvalues>
+          <attvalue for="2" value="3" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Sinaloa.Badiraguato" target="SUB::Plomo (compuestos)" id="98" weight="1734.122">
+        <attvalues>
+          <attvalue for="2" value="6" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Sinaloa.Badiraguato" target="SUB::Cianuro inorgánico/orgánico" id="99" weight="0.053536499999999994">
+        <attvalues>
+          <attvalue for="2" value="4" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Sinaloa.Badiraguato" target="SUB::Arsénico (compuestos)" id="100" weight="0.00162">
+        <attvalues>
+          <attvalue for="2" value="3" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Sinaloa.Badiraguato" target="SUB::Níquel (Compuestos solubles)" id="101" weight="567.1836000000001">
+        <attvalues>
+          <attvalue for="2" value="3" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Sinaloa.Badiraguato" target="SUB::Plomo (Compuestos solubles)" id="102" weight="98.58">
+        <attvalues>
+          <attvalue for="2" value="1" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Sinaloa.Badiraguato" target="SUB::Mercurio (polvos, respirables, vapores o humos)" id="103" weight="0.0035">
+        <attvalues>
+          <attvalue for="2" value="1" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Sinaloa.Badiraguato" target="SUB::Bifenilos policlorados" id="104" weight="643.0">
+        <attvalues>
+          <attvalue for="2" value="1" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Sinaloa.Culiacán" target="SUB::Cianuro inorgánico/orgánico" id="105" weight="19396.802198996">
+        <attvalues>
+          <attvalue for="2" value="26" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Sinaloa.Culiacán" target="SUB::Arsénico (compuestos)" id="106" weight="0.16566282000000002">
+        <attvalues>
+          <attvalue for="2" value="8" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Sinaloa.Culiacán" target="SUB::Cadmio (compuestos)" id="107" weight="770.164741">
+        <attvalues>
+          <attvalue for="2" value="9" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Sinaloa.Culiacán" target="SUB::Cromo (compuestos)" id="108" weight="7870.806397480316">
+        <attvalues>
+          <attvalue for="2" value="18" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Sinaloa.Culiacán" target="SUB::Mercurio (compuestos)" id="109" weight="301.21981067480004">
+        <attvalues>
+          <attvalue for="2" value="16" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Sinaloa.Culiacán" target="SUB::Plomo (compuestos)" id="110" weight="10697.565876000002">
+        <attvalues>
+          <attvalue for="2" value="24" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Sinaloa.Culiacán" target="SUB::Níquel (compuestos)" id="111" weight="6792.957682349001">
+        <attvalues>
+          <attvalue for="2" value="23" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Sinaloa.Culiacán" target="SUB::Arsénico (polvos, respirables, vapores o humos)" id="112" weight="1232.5627253357602">
+        <attvalues>
+          <attvalue for="2" value="14" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Sinaloa.Culiacán" target="SUB::Cadmio (polvos, respirables, vapores o humos)" id="113" weight="4867.8645291">
+        <attvalues>
+          <attvalue for="2" value="14" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Sinaloa.Culiacán" target="SUB::Mercurio (polvos, respirables, vapores o humos)" id="114" weight="75.042570311">
+        <attvalues>
+          <attvalue for="2" value="7" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Sinaloa.Culiacán" target="SUB::Cadmio (Compuestos solubles)" id="115" weight="345.45885">
+        <attvalues>
+          <attvalue for="2" value="22" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Sinaloa.Culiacán" target="SUB::Cromo (Compuestos solubles)" id="116" weight="5110.384749999998">
+        <attvalues>
+          <attvalue for="2" value="37" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Sinaloa.Culiacán" target="SUB::Níquel (Compuestos solubles)" id="117" weight="10320.21765">
+        <attvalues>
+          <attvalue for="2" value="40" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Sinaloa.Culiacán" target="SUB::Plomo (Compuestos solubles)" id="118" weight="6762.5760500000015">
+        <attvalues>
+          <attvalue for="2" value="40" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Sinaloa.Culiacán" target="SUB::Arsénico (Compuestos solubles)" id="119" weight="2943.2117942660007">
+        <attvalues>
+          <attvalue for="2" value="31" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Sinaloa.Culiacán" target="SUB::Dioxido de cloro" id="120" weight="3200.0">
+        <attvalues>
+          <attvalue for="2" value="2" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Sinaloa.Culiacán" target="SUB::Mercurio (Compuestos solubles)" id="121" weight="257.84837500000003">
+        <attvalues>
+          <attvalue for="2" value="9" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Sinaloa.Culiacán" target="SUB::Bióxido de carbono" id="122" weight="455632303.38931787">
+        <attvalues>
+          <attvalue for="2" value="58" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Sinaloa.Culiacán" target="SUB::Benceno" id="123" weight="0.237973404">
+        <attvalues>
+          <attvalue for="2" value="7" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Sinaloa.Culiacán" target="SUB::Acetaldehido" id="124" weight="0.195637671">
+        <attvalues>
+          <attvalue for="2" value="7" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Sinaloa.Culiacán" target="SUB::Formaldehido" id="125" weight="0.009962729">
+        <attvalues>
+          <attvalue for="2" value="7" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Sinaloa.Culiacán" target="SUB::Acroleina" id="126" weight="907.358415306">
+        <attvalues>
+          <attvalue for="2" value="11" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Sinaloa.Culiacán" target="SUB::Níquel (polvos respirables, humos o vapores)" id="127" weight="97.16223877597">
+        <attvalues>
+          <attvalue for="2" value="7" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Sinaloa.Culiacán" target="SUB::Estireno (fenil etileno)" id="128" weight="0.5">
+        <attvalues>
+          <attvalue for="2" value="1" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Sinaloa.Culiacán" target="SUB::4-Amino difenilo" id="129" weight="7028.0">
+        <attvalues>
+          <attvalue for="2" value="2" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Sinaloa.Culiacán" target="SUB::Plomo (polvos respirables, humos o vapores)" id="130" weight="50.4">
+        <attvalues>
+          <attvalue for="2" value="1" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Sinaloa.Sinaloa" target="SUB::Cadmio (compuestos)" id="131" weight="0.08374499999999999">
+        <attvalues>
+          <attvalue for="2" value="3" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Sinaloa.Sinaloa" target="SUB::Plomo (compuestos)" id="132" weight="806.20566">
+        <attvalues>
+          <attvalue for="2" value="6" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Sinaloa.Sinaloa" target="SUB::Cianuro inorgánico/orgánico" id="133" weight="0.031932">
+        <attvalues>
+          <attvalue for="2" value="4" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Sinaloa.Sinaloa" target="SUB::Níquel (compuestos)" id="134" weight="0.08891279999999999">
+        <attvalues>
+          <attvalue for="2" value="4" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Sinaloa.Sinaloa" target="SUB::Mercurio (compuestos)" id="135" weight="0.0013149">
+        <attvalues>
+          <attvalue for="2" value="3" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Sinaloa.Sinaloa" target="SUB::Arsénico (compuestos)" id="136" weight="0.0016749">
+        <attvalues>
+          <attvalue for="2" value="3" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Sinaloa.Sinaloa" target="SUB::Cromo (compuestos)" id="137" weight="0.09673199999999998">
+        <attvalues>
+          <attvalue for="2" value="4" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Sinaloa.Sinaloa" target="SUB::Plomo (Compuestos solubles)" id="138" weight="12498.0">
+        <attvalues>
+          <attvalue for="2" value="1" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Sinaloa.Sinaloa" target="SUB::Mercurio (polvos, respirables, vapores o humos)" id="139" weight="0.00315">
+        <attvalues>
+          <attvalue for="2" value="1" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Sinaloa.Cosalá" target="SUB::Cianuro inorgánico/orgánico" id="140" weight="0.041551000000000005">
+        <attvalues>
+          <attvalue for="2" value="4" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Sinaloa.Cosalá" target="SUB::Arsénico (compuestos)" id="141" weight="0.0023984">
+        <attvalues>
+          <attvalue for="2" value="3" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Sinaloa.Cosalá" target="SUB::Cadmio (compuestos)" id="142" weight="0.11992">
+        <attvalues>
+          <attvalue for="2" value="3" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Sinaloa.Cosalá" target="SUB::Cromo (compuestos)" id="143" weight="0.15326499999999998">
+        <attvalues>
+          <attvalue for="2" value="4" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Sinaloa.Cosalá" target="SUB::Mercurio (compuestos)" id="144" weight="0.00199925">
+        <attvalues>
+          <attvalue for="2" value="3" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Sinaloa.Cosalá" target="SUB::Níquel (compuestos)" id="145" weight="0.12297369999999999">
+        <attvalues>
+          <attvalue for="2" value="4" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Sinaloa.Cosalá" target="SUB::Plomo (compuestos)" id="146" weight="5595.415746">
+        <attvalues>
+          <attvalue for="2" value="6" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Sinaloa.Cosalá" target="SUB::Plomo (Compuestos solubles)" id="147" weight="63.6">
+        <attvalues>
+          <attvalue for="2" value="1" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Sinaloa.Cosalá" target="SUB::Mercurio (polvos, respirables, vapores o humos)" id="148" weight="0.007">
+        <attvalues>
+          <attvalue for="2" value="1" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Sinaloa.Navolato" target="SUB::Mercurio (compuestos)" id="149" weight="0.0072518">
+        <attvalues>
+          <attvalue for="2" value="1" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Sinaloa.Navolato" target="SUB::Cianuro inorgánico/orgánico" id="150" weight="0.054388">
+        <attvalues>
+          <attvalue for="2" value="1" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Sinaloa.Mocorito" target="SUB::Bióxido de carbono" id="151" weight="1846277.34457">
+        <attvalues>
+          <attvalue for="2" value="3" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Sinaloa.Mocorito" target="SUB::Plomo (polvos respirables, humos o vapores)" id="152" weight="7515.5380000000005">
+        <attvalues>
+          <attvalue for="2" value="6" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Sinaloa.Rosario" target="SUB::Bióxido de carbono" id="153" weight="5642697.47">
+        <attvalues>
+          <attvalue for="2" value="4" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Sinaloa.Rosario" target="SUB::Plomo (polvos respirables, humos o vapores)" id="154" weight="11.3018055">
+        <attvalues>
+          <attvalue for="2" value="2" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Sinaloa.Rosario" target="SUB::Cromo (Compuestos solubles)" id="155" weight="52.601400000000005">
+        <attvalues>
+          <attvalue for="2" value="7" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Sinaloa.Rosario" target="SUB::Níquel (Compuestos solubles)" id="156" weight="52.601400000000005">
+        <attvalues>
+          <attvalue for="2" value="7" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Sinaloa.Rosario" target="SUB::Plomo (Compuestos solubles)" id="157" weight="53.42400000000001">
+        <attvalues>
+          <attvalue for="2" value="7" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Sinaloa.Rosario" target="SUB::Cadmio (Compuestos solubles)" id="158" weight="11.2661">
+        <attvalues>
+          <attvalue for="2" value="6" />
+        </attvalues>
+      </edge>
+    </edges>
+  </graph>
+</gexf>

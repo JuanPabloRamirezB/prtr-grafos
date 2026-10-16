@@ -1,0 +1,896 @@
+<?xml version='1.0' encoding='utf-8'?>
+<gexf xmlns="http://www.gexf.net/1.2draft" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.gexf.net/1.2draft http://www.gexf.net/1.2draft/gexf.xsd" version="1.2">
+  <meta lastmodifieddate="2026-10-16">
+    <creator>NetworkX 3.7</creator>
+  </meta>
+  <graph defaultedgetype="undirected" mode="static" name="">
+    <attributes mode="static" class="edge">
+      <attribute id="2" title="count" type="long" />
+    </attributes>
+    <attributes mode="static" class="node">
+      <attribute id="0" title="type" type="string" />
+      <attribute id="1" title="total_kg" type="double" />
+    </attributes>
+    <nodes>
+      <node id="LOC::Colima.Manzanillo" label="Colima.Manzanillo">
+        <attvalues>
+          <attvalue for="0" value="location" />
+          <attvalue for="1" value="36995699861.39266" />
+        </attvalues>
+      </node>
+      <node id="LOC::Colima.Colima" label="Colima.Colima">
+        <attvalues>
+          <attvalue for="0" value="location" />
+          <attvalue for="1" value="28439227.189519946" />
+        </attvalues>
+      </node>
+      <node id="LOC::Colima.Tecomán" label="Colima.Tecomán">
+        <attvalues>
+          <attvalue for="0" value="location" />
+          <attvalue for="1" value="9048559030.67566" />
+        </attvalues>
+      </node>
+      <node id="LOC::Colima.Cuauhtémoc" label="Colima.Cuauhtémoc">
+        <attvalues>
+          <attvalue for="0" value="location" />
+          <attvalue for="1" value="1573070873.6425662" />
+        </attvalues>
+      </node>
+      <node id="LOC::Colima.Minatitlán" label="Colima.Minatitlán">
+        <attvalues>
+          <attvalue for="0" value="location" />
+          <attvalue for="1" value="265706733.26979998" />
+        </attvalues>
+      </node>
+      <node id="LOC::Colima.Ixtlahuacán" label="Colima.Ixtlahuacán">
+        <attvalues>
+          <attvalue for="0" value="location" />
+          <attvalue for="1" value="8214004.145434602" />
+        </attvalues>
+      </node>
+      <node id="LOC::Colima.Villa de Álvarez" label="Colima.Villa de Álvarez">
+        <attvalues>
+          <attvalue for="0" value="location" />
+          <attvalue for="1" value="0.04702672" />
+        </attvalues>
+      </node>
+      <node id="LOC::Colima.Coquimatlán" label="Colima.Coquimatlán">
+        <attvalues>
+          <attvalue for="0" value="location" />
+          <attvalue for="1" value="31825.04" />
+        </attvalues>
+      </node>
+      <node id="SUB::Cromo (Compuestos solubles)" label="Chromium (soluble compounds)">
+        <attvalues>
+          <attvalue for="0" value="substance" />
+          <attvalue for="1" value="784519.1845459999" />
+        </attvalues>
+      </node>
+      <node id="SUB::Mercurio (Compuestos solubles)" label="Mercury (soluble compounds)">
+        <attvalues>
+          <attvalue for="0" value="substance" />
+          <attvalue for="1" value="11332.088258149997" />
+        </attvalues>
+      </node>
+      <node id="SUB::Níquel (Compuestos solubles)" label="Nickel (soluble compounds)">
+        <attvalues>
+          <attvalue for="0" value="substance" />
+          <attvalue for="1" value="988784.9695499601" />
+        </attvalues>
+      </node>
+      <node id="SUB::Plomo (Compuestos solubles)" label="Lead (soluble compounds)">
+        <attvalues>
+          <attvalue for="0" value="substance" />
+          <attvalue for="1" value="1299434.6317641602" />
+        </attvalues>
+      </node>
+      <node id="SUB::Cianuro inorgánico/orgánico" label="Inorganic/organic cyanide">
+        <attvalues>
+          <attvalue for="0" value="substance" />
+          <attvalue for="1" value="233806.52566430354" />
+        </attvalues>
+      </node>
+      <node id="SUB::Arsénico (polvos, respirables, vapores o humos)" label="Arsenic (respirable dust, vapors or fumes)">
+        <attvalues>
+          <attvalue for="0" value="substance" />
+          <attvalue for="1" value="347.77314802167405" />
+        </attvalues>
+      </node>
+      <node id="SUB::Cadmio (polvos, respirables, vapores o humos)" label="Cadmium (respirable dust, vapors or fumes)">
+        <attvalues>
+          <attvalue for="0" value="substance" />
+          <attvalue for="1" value="1771.88641535804" />
+        </attvalues>
+      </node>
+      <node id="SUB::Plomo (compuestos)" label="Lead (compounds)">
+        <attvalues>
+          <attvalue for="0" value="substance" />
+          <attvalue for="1" value="59562.31024545232" />
+        </attvalues>
+      </node>
+      <node id="SUB::Níquel (compuestos)" label="Nickel (compounds)">
+        <attvalues>
+          <attvalue for="0" value="substance" />
+          <attvalue for="1" value="4623.708136896848" />
+        </attvalues>
+      </node>
+      <node id="SUB::Mercurio (compuestos)" label="Mercury (compounds)">
+        <attvalues>
+          <attvalue for="0" value="substance" />
+          <attvalue for="1" value="124.5474372755075" />
+        </attvalues>
+      </node>
+      <node id="SUB::Cromo (compuestos)" label="Chromium (compounds)">
+        <attvalues>
+          <attvalue for="0" value="substance" />
+          <attvalue for="1" value="1021.1694097745" />
+        </attvalues>
+      </node>
+      <node id="SUB::Arsénico (compuestos)" label="Arsenic (compounds)">
+        <attvalues>
+          <attvalue for="0" value="substance" />
+          <attvalue for="1" value="62.047763354789986" />
+        </attvalues>
+      </node>
+      <node id="SUB::Cadmio (compuestos)" label="Cadmium (compounds)">
+        <attvalues>
+          <attvalue for="0" value="substance" />
+          <attvalue for="1" value="283.50478609704" />
+        </attvalues>
+      </node>
+      <node id="SUB::Fenol" label="Phenol">
+        <attvalues>
+          <attvalue for="0" value="substance" />
+          <attvalue for="1" value="0.65" />
+        </attvalues>
+      </node>
+      <node id="SUB::Mercurio (polvos, respirables, vapores o humos)" label="Mercury (respirable dust, vapors or fumes)">
+        <attvalues>
+          <attvalue for="0" value="substance" />
+          <attvalue for="1" value="605.6940663196573" />
+        </attvalues>
+      </node>
+      <node id="SUB::Arsénico (Compuestos solubles)" label="Arsenic (soluble compounds)">
+        <attvalues>
+          <attvalue for="0" value="substance" />
+          <attvalue for="1" value="13005.502378" />
+        </attvalues>
+      </node>
+      <node id="SUB::Cadmio (Compuestos solubles)" label="Cadmium (soluble compounds)">
+        <attvalues>
+          <attvalue for="0" value="substance" />
+          <attvalue for="1" value="212385.29070000004" />
+        </attvalues>
+      </node>
+      <node id="SUB::Cromo (polvos respirables, humos o vapores)" label="Chromium (respirable dust, fumes or vapors)">
+        <attvalues>
+          <attvalue for="0" value="substance" />
+          <attvalue for="1" value="419.0548541070039" />
+        </attvalues>
+      </node>
+      <node id="SUB::Dioxinas" label="Dioxins">
+        <attvalues>
+          <attvalue for="0" value="substance" />
+          <attvalue for="1" value="4.6616905599999994e-05" />
+        </attvalues>
+      </node>
+      <node id="SUB::Bióxido de carbono" label="Carbon dioxide">
+        <attvalues>
+          <attvalue for="0" value="substance" />
+          <attvalue for="1" value="47583176215.91792" />
+        </attvalues>
+      </node>
+      <node id="SUB::Benceno" label="Benzene">
+        <attvalues>
+          <attvalue for="0" value="substance" />
+          <attvalue for="1" value="59802.68226823541" />
+        </attvalues>
+      </node>
+      <node id="SUB::Bióxido de nitrógeno" label="Nitrogen dioxide">
+        <attvalues>
+          <attvalue for="0" value="substance" />
+          <attvalue for="1" value="131499303.87979999" />
+        </attvalues>
+      </node>
+      <node id="SUB::Clorodifluorometano (HCFC-22)" label="Chlorodifluoromethane (HCFC-22)">
+        <attvalues>
+          <attvalue for="0" value="substance" />
+          <attvalue for="1" value="4335.58" />
+        </attvalues>
+      </node>
+      <node id="SUB::Acroleina" label="Acrolein">
+        <attvalues>
+          <attvalue for="0" value="substance" />
+          <attvalue for="1" value="0.05079185775100001" />
+        </attvalues>
+      </node>
+      <node id="SUB::Formaldehido" label="Formaldehyde">
+        <attvalues>
+          <attvalue for="0" value="substance" />
+          <attvalue for="1" value="2527.3901655300006" />
+        </attvalues>
+      </node>
+      <node id="SUB::Acetaldehido" label="Acetaldehyde">
+        <attvalues>
+          <attvalue for="0" value="substance" />
+          <attvalue for="1" value="1100.3954635822165" />
+        </attvalues>
+      </node>
+      <node id="SUB::Oxido nitroso" label="Nitrous oxide">
+        <attvalues>
+          <attvalue for="0" value="substance" />
+          <attvalue for="1" value="200079263.03" />
+        </attvalues>
+      </node>
+      <node id="SUB::Acido sulfhídrico" label="Hydrogen sulfide">
+        <attvalues>
+          <attvalue for="0" value="substance" />
+          <attvalue for="1" value="6e-05" />
+        </attvalues>
+      </node>
+      <node id="SUB::Furanos" label="Furans">
+        <attvalues>
+          <attvalue for="0" value="substance" />
+          <attvalue for="1" value="2.9577488e-05" />
+        </attvalues>
+      </node>
+      <node id="SUB::Plomo (polvos respirables, humos o vapores)" label="Lead (respirable dust, fumes or vapors)">
+        <attvalues>
+          <attvalue for="0" value="substance" />
+          <attvalue for="1" value="53483.300897043286" />
+        </attvalues>
+      </node>
+      <node id="SUB::Níquel (polvos respirables, humos o vapores)" label="Nickel (respirable dust, fumes or vapors)">
+        <attvalues>
+          <attvalue for="0" value="substance" />
+          <attvalue for="1" value="2701.854862" />
+        </attvalues>
+      </node>
+      <node id="SUB::Metano" label="Methane">
+        <attvalues>
+          <attvalue for="0" value="substance" />
+          <attvalue for="1" value="1193334.7672710337" />
+        </attvalues>
+      </node>
+      <node id="SUB::Asbesto y sus formas (En forma de polvo, fibras o productos desmenuzables con la presión de la mano)" label="Asbestos and its forms (as dust, fibers or friable products that crumble under hand pressure)">
+        <attvalues>
+          <attvalue for="0" value="substance" />
+          <attvalue for="1" value="37396.0" />
+        </attvalues>
+      </node>
+      <node id="SUB::Bifenilos policlorados" label="Polychlorinated biphenyls (PCBs)">
+        <attvalues>
+          <attvalue for="0" value="substance" />
+          <attvalue for="1" value="0.014" />
+        </attvalues>
+      </node>
+    </nodes>
+    <edges>
+      <edge source="LOC::Colima.Manzanillo" target="SUB::Cromo (Compuestos solubles)" id="0" weight="773298.0697999997">
+        <attvalues>
+          <attvalue for="2" value="35" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Colima.Manzanillo" target="SUB::Mercurio (Compuestos solubles)" id="1" weight="11052.041438000002">
+        <attvalues>
+          <attvalue for="2" value="21" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Colima.Manzanillo" target="SUB::Níquel (Compuestos solubles)" id="2" weight="974818.5602">
+        <attvalues>
+          <attvalue for="2" value="41" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Colima.Manzanillo" target="SUB::Plomo (Compuestos solubles)" id="3" weight="1286161.7053409999">
+        <attvalues>
+          <attvalue for="2" value="34" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Colima.Manzanillo" target="SUB::Cianuro inorgánico/orgánico" id="4" weight="224927.14253589624">
+        <attvalues>
+          <attvalue for="2" value="36" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Colima.Manzanillo" target="SUB::Arsénico (polvos, respirables, vapores o humos)" id="5" weight="100.79454120993398">
+        <attvalues>
+          <attvalue for="2" value="15" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Colima.Manzanillo" target="SUB::Cadmio (polvos, respirables, vapores o humos)" id="6" weight="762.4702281000001">
+        <attvalues>
+          <attvalue for="2" value="21" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Colima.Manzanillo" target="SUB::Plomo (compuestos)" id="7" weight="43146.8189680044">
+        <attvalues>
+          <attvalue for="2" value="23" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Colima.Manzanillo" target="SUB::Níquel (compuestos)" id="8" weight="3183.19554096495">
+        <attvalues>
+          <attvalue for="2" value="28" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Colima.Manzanillo" target="SUB::Mercurio (compuestos)" id="9" weight="2.169186253550001">
+        <attvalues>
+          <attvalue for="2" value="18" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Colima.Manzanillo" target="SUB::Cromo (compuestos)" id="10" weight="218.262210489">
+        <attvalues>
+          <attvalue for="2" value="15" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Colima.Manzanillo" target="SUB::Arsénico (compuestos)" id="11" weight="0.014713063299999999">
+        <attvalues>
+          <attvalue for="2" value="10" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Colima.Manzanillo" target="SUB::Cadmio (compuestos)" id="12" weight="249.31223192">
+        <attvalues>
+          <attvalue for="2" value="15" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Colima.Manzanillo" target="SUB::Arsénico (Compuestos solubles)" id="13" weight="12134.617177999995">
+        <attvalues>
+          <attvalue for="2" value="28" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Colima.Manzanillo" target="SUB::Cadmio (Compuestos solubles)" id="14" weight="203992.5193">
+        <attvalues>
+          <attvalue for="2" value="25" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Colima.Manzanillo" target="SUB::Cromo (polvos respirables, humos o vapores)" id="15" weight="23.921234107004004">
+        <attvalues>
+          <attvalue for="2" value="7" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Colima.Manzanillo" target="SUB::Bióxido de nitrógeno" id="16" weight="120073090.3298">
+        <attvalues>
+          <attvalue for="2" value="18" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Colima.Manzanillo" target="SUB::Bióxido de carbono" id="17" weight="36871438927.00031">
+        <attvalues>
+          <attvalue for="2" value="87" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Colima.Manzanillo" target="SUB::Clorodifluorometano (HCFC-22)" id="18" weight="4335.58">
+        <attvalues>
+          <attvalue for="2" value="6" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Colima.Manzanillo" target="SUB::Acetaldehido" id="19" weight="0.3115003822164">
+        <attvalues>
+          <attvalue for="2" value="11" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Colima.Manzanillo" target="SUB::Benceno" id="20" weight="347.3789402794236">
+        <attvalues>
+          <attvalue for="2" value="12" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Colima.Manzanillo" target="SUB::Formaldehido" id="21" weight="833.1816626299999">
+        <attvalues>
+          <attvalue for="2" value="13" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Colima.Manzanillo" target="SUB::Acroleina" id="22" weight="0.035603857751">
+        <attvalues>
+          <attvalue for="2" value="10" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Colima.Manzanillo" target="SUB::Mercurio (polvos, respirables, vapores o humos)" id="23" weight="16.300803392700004">
+        <attvalues>
+          <attvalue for="2" value="11" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Colima.Manzanillo" target="SUB::Acido sulfhídrico" id="24" weight="6e-05">
+        <attvalues>
+          <attvalue for="2" value="1" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Colima.Manzanillo" target="SUB::Metano" id="25" weight="599484.7072710337">
+        <attvalues>
+          <attvalue for="2" value="4" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Colima.Manzanillo" target="SUB::Plomo (polvos respirables, humos o vapores)" id="26" weight="41823.18589704328">
+        <attvalues>
+          <attvalue for="2" value="15" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Colima.Manzanillo" target="SUB::Níquel (polvos respirables, humos o vapores)" id="27" weight="1893.7661999999998">
+        <attvalues>
+          <attvalue for="2" value="6" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Colima.Manzanillo" target="SUB::Asbesto y sus formas (En forma de polvo, fibras o productos desmenuzables con la presión de la mano)" id="28" weight="5038.0">
+        <attvalues>
+          <attvalue for="2" value="2" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Colima.Colima" target="SUB::Cromo (Compuestos solubles)" id="29" weight="10393.624946">
+        <attvalues>
+          <attvalue for="2" value="13" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Colima.Colima" target="SUB::Mercurio (Compuestos solubles)" id="30" weight="193.77379600000006">
+        <attvalues>
+          <attvalue for="2" value="7" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Colima.Colima" target="SUB::Níquel (Compuestos solubles)" id="31" weight="12635.694424">
+        <attvalues>
+          <attvalue for="2" value="14" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Colima.Colima" target="SUB::Plomo (Compuestos solubles)" id="32" weight="10091.749781999999">
+        <attvalues>
+          <attvalue for="2" value="13" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Colima.Colima" target="SUB::Cianuro inorgánico/orgánico" id="33" weight="8432.815666503">
+        <attvalues>
+          <attvalue for="2" value="27" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Colima.Colima" target="SUB::Arsénico (polvos, respirables, vapores o humos)" id="34" weight="138.9511067827">
+        <attvalues>
+          <attvalue for="2" value="14" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Colima.Colima" target="SUB::Cadmio (polvos, respirables, vapores o humos)" id="35" weight="679.8114992640001">
+        <attvalues>
+          <attvalue for="2" value="13" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Colima.Colima" target="SUB::Mercurio (compuestos)" id="36" weight="16.2498923672">
+        <attvalues>
+          <attvalue for="2" value="13" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Colima.Colima" target="SUB::Plomo (compuestos)" id="37" weight="3199.953983722">
+        <attvalues>
+          <attvalue for="2" value="19" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Colima.Colima" target="SUB::Cadmio (compuestos)" id="38" weight="1.363566495">
+        <attvalues>
+          <attvalue for="2" value="5" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Colima.Colima" target="SUB::Arsénico (compuestos)" id="39" weight="4.90437651945">
+        <attvalues>
+          <attvalue for="2" value="5" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Colima.Colima" target="SUB::Cromo (compuestos)" id="40" weight="160.44654939499998">
+        <attvalues>
+          <attvalue for="2" value="14" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Colima.Colima" target="SUB::Níquel (compuestos)" id="41" weight="705.3528889957">
+        <attvalues>
+          <attvalue for="2" value="16" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Colima.Colima" target="SUB::Mercurio (polvos, respirables, vapores o humos)" id="42" weight="0.6376307999999999">
+        <attvalues>
+          <attvalue for="2" value="4" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Colima.Colima" target="SUB::Arsénico (Compuestos solubles)" id="43" weight="805.9683000000001">
+        <attvalues>
+          <attvalue for="2" value="14" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Colima.Colima" target="SUB::Cadmio (Compuestos solubles)" id="44" weight="8207.789299999999">
+        <attvalues>
+          <attvalue for="2" value="14" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Colima.Colima" target="SUB::Acroleina" id="45" weight="0.015187999999999998">
+        <attvalues>
+          <attvalue for="2" value="5" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Colima.Colima" target="SUB::Bióxido de carbono" id="46" weight="27789707.87357">
+        <attvalues>
+          <attvalue for="2" value="21" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Colima.Colima" target="SUB::Formaldehido" id="47" weight="0.0064209">
+        <attvalues>
+          <attvalue for="2" value="5" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Colima.Colima" target="SUB::Acetaldehido" id="48" weight="0.1259632">
+        <attvalues>
+          <attvalue for="2" value="5" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Colima.Colima" target="SUB::Benceno" id="49" weight="0.08066899999999999">
+        <attvalues>
+          <attvalue for="2" value="3" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Colima.Colima" target="SUB::Metano" id="50" weight="593850.0">
+        <attvalues>
+          <attvalue for="2" value="3" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Colima.Tecomán" target="SUB::Cianuro inorgánico/orgánico" id="51" weight="436.65286848428497">
+        <attvalues>
+          <attvalue for="2" value="34" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Colima.Tecomán" target="SUB::Mercurio (Compuestos solubles)" id="52" weight="74.98443615000001">
+        <attvalues>
+          <attvalue for="2" value="13" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Colima.Tecomán" target="SUB::Níquel (Compuestos solubles)" id="53" weight="1139.16428196">
+        <attvalues>
+          <attvalue for="2" value="15" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Colima.Tecomán" target="SUB::Plomo (Compuestos solubles)" id="54" weight="865.1646591600002">
+        <attvalues>
+          <attvalue for="2" value="17" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Colima.Tecomán" target="SUB::Arsénico (polvos, respirables, vapores o humos)" id="55" weight="80.99958354904001">
+        <attvalues>
+          <attvalue for="2" value="28" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Colima.Tecomán" target="SUB::Cadmio (polvos, respirables, vapores o humos)" id="56" weight="273.62048470204">
+        <attvalues>
+          <attvalue for="2" value="29" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Colima.Tecomán" target="SUB::Níquel (compuestos)" id="57" weight="649.9259439362">
+        <attvalues>
+          <attvalue for="2" value="25" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Colima.Tecomán" target="SUB::Plomo (compuestos)" id="58" weight="12043.85737296592">
+        <attvalues>
+          <attvalue for="2" value="31" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Colima.Tecomán" target="SUB::Arsénico (compuestos)" id="59" weight="57.12867377203999">
+        <attvalues>
+          <attvalue for="2" value="10" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Colima.Tecomán" target="SUB::Cadmio (compuestos)" id="60" weight="32.82898768204">
+        <attvalues>
+          <attvalue for="2" value="9" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Colima.Tecomán" target="SUB::Cromo (compuestos)" id="61" weight="612.1129647604998">
+        <attvalues>
+          <attvalue for="2" value="29" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Colima.Tecomán" target="SUB::Mercurio (compuestos)" id="62" weight="87.58587425475751">
+        <attvalues>
+          <attvalue for="2" value="20" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Colima.Tecomán" target="SUB::Cromo (Compuestos solubles)" id="63" weight="710.6346000000001">
+        <attvalues>
+          <attvalue for="2" value="17" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Colima.Tecomán" target="SUB::Dioxinas" id="64" weight="4.6616905599999994e-05">
+        <attvalues>
+          <attvalue for="2" value="18" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Colima.Tecomán" target="SUB::Bióxido de carbono" id="65" weight="8844264218.880001">
+        <attvalues>
+          <attvalue for="2" value="57" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Colima.Tecomán" target="SUB::Benceno" id="66" weight="59455.21000000001">
+        <attvalues>
+          <attvalue for="2" value="16" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Colima.Tecomán" target="SUB::Mercurio (polvos, respirables, vapores o humos)" id="67" weight="580.2288477249574">
+        <attvalues>
+          <attvalue for="2" value="26" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Colima.Tecomán" target="SUB::Oxido nitroso" id="68" weight="200079263.03">
+        <attvalues>
+          <attvalue for="2" value="5" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Colima.Tecomán" target="SUB::Bióxido de nitrógeno" id="69" weight="4137576.0">
+        <attvalues>
+          <attvalue for="2" value="4" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Colima.Tecomán" target="SUB::Furanos" id="70" weight="2.9577488e-05">
+        <attvalues>
+          <attvalue for="2" value="9" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Colima.Tecomán" target="SUB::Plomo (polvos respirables, humos o vapores)" id="71" weight="252.83899999999997">
+        <attvalues>
+          <attvalue for="2" value="9" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Colima.Tecomán" target="SUB::Cromo (polvos respirables, humos o vapores)" id="72" weight="368.77099999999996">
+        <attvalues>
+          <attvalue for="2" value="9" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Colima.Tecomán" target="SUB::Níquel (polvos respirables, humos o vapores)" id="73" weight="20.360000000000003">
+        <attvalues>
+          <attvalue for="2" value="4" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Colima.Tecomán" target="SUB::Metano" id="74" weight="0.06">
+        <attvalues>
+          <attvalue for="2" value="1" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Colima.Tecomán" target="SUB::Arsénico (Compuestos solubles)" id="75" weight="54.358399999999996">
+        <attvalues>
+          <attvalue for="2" value="15" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Colima.Tecomán" target="SUB::Cadmio (Compuestos solubles)" id="76" weight="176.2776">
+        <attvalues>
+          <attvalue for="2" value="12" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Colima.Cuauhtémoc" target="SUB::Cromo (Compuestos solubles)" id="77" weight="110.56900000000002">
+        <attvalues>
+          <attvalue for="2" value="7" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Colima.Cuauhtémoc" target="SUB::Mercurio (Compuestos solubles)" id="78" weight="11.288587999999999">
+        <attvalues>
+          <attvalue for="2" value="7" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Colima.Cuauhtémoc" target="SUB::Níquel (Compuestos solubles)" id="79" weight="187.85004400000003">
+        <attvalues>
+          <attvalue for="2" value="13" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Colima.Cuauhtémoc" target="SUB::Plomo (Compuestos solubles)" id="80" weight="2313.626682">
+        <attvalues>
+          <attvalue for="2" value="14" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Colima.Cuauhtémoc" target="SUB::Cianuro inorgánico/orgánico" id="81" weight="9.91459342">
+        <attvalues>
+          <attvalue for="2" value="4" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Colima.Cuauhtémoc" target="SUB::Arsénico (polvos, respirables, vapores o humos)" id="82" weight="21.224493199999998">
+        <attvalues>
+          <attvalue for="2" value="8" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Colima.Cuauhtémoc" target="SUB::Cadmio (polvos, respirables, vapores o humos)" id="83" weight="55.96066">
+        <attvalues>
+          <attvalue for="2" value="3" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Colima.Cuauhtémoc" target="SUB::Plomo (compuestos)" id="84" weight="1127.0435714999999">
+        <attvalues>
+          <attvalue for="2" value="6" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Colima.Cuauhtémoc" target="SUB::Níquel (compuestos)" id="85" weight="80.23525">
+        <attvalues>
+          <attvalue for="2" value="3" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Colima.Cuauhtémoc" target="SUB::Fenol" id="86" weight="0.65">
+        <attvalues>
+          <attvalue for="2" value="1" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Colima.Cuauhtémoc" target="SUB::Mercurio (compuestos)" id="87" weight="18.5424844">
+        <attvalues>
+          <attvalue for="2" value="5" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Colima.Cuauhtémoc" target="SUB::Cromo (compuestos)" id="88" weight="30.2977">
+        <attvalues>
+          <attvalue for="2" value="1" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Colima.Cuauhtémoc" target="SUB::Bióxido de carbono" id="89" weight="1570122086.0">
+        <attvalues>
+          <attvalue for="2" value="14" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Colima.Cuauhtémoc" target="SUB::Bióxido de nitrógeno" id="90" weight="2942515.0">
+        <attvalues>
+          <attvalue for="2" value="5" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Colima.Cuauhtémoc" target="SUB::Cromo (polvos respirables, humos o vapores)" id="91" weight="9.1866">
+        <attvalues>
+          <attvalue for="2" value="6" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Colima.Cuauhtémoc" target="SUB::Níquel (polvos respirables, humos o vapores)" id="92" weight="757.8594999999999">
+        <attvalues>
+          <attvalue for="2" value="5" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Colima.Cuauhtémoc" target="SUB::Plomo (polvos respirables, humos o vapores)" id="93" weight="1021.046">
+        <attvalues>
+          <attvalue for="2" value="7" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Colima.Cuauhtémoc" target="SUB::Cadmio (Compuestos solubles)" id="94" weight="8.7045">
+        <attvalues>
+          <attvalue for="2" value="4" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Colima.Cuauhtémoc" target="SUB::Arsénico (Compuestos solubles)" id="95" weight="6.1088000000000005">
+        <attvalues>
+          <attvalue for="2" value="4" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Colima.Cuauhtémoc" target="SUB::Asbesto y sus formas (En forma de polvo, fibras o productos desmenuzables con la presión de la mano)" id="96" weight="500.0">
+        <attvalues>
+          <attvalue for="2" value="1" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Colima.Cuauhtémoc" target="SUB::Mercurio (polvos, respirables, vapores o humos)" id="97" weight="2.5201000000000002">
+        <attvalues>
+          <attvalue for="2" value="2" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Colima.Cuauhtémoc" target="SUB::Bifenilos policlorados" id="98" weight="0.014">
+        <attvalues>
+          <attvalue for="2" value="1" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Colima.Minatitlán" target="SUB::Cromo (Compuestos solubles)" id="99" weight="6.2862">
+        <attvalues>
+          <attvalue for="2" value="3" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Colima.Minatitlán" target="SUB::Níquel (Compuestos solubles)" id="100" weight="3.7005999999999997">
+        <attvalues>
+          <attvalue for="2" value="3" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Colima.Minatitlán" target="SUB::Arsénico (Compuestos solubles)" id="101" weight="4.4497">
+        <attvalues>
+          <attvalue for="2" value="2" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Colima.Minatitlán" target="SUB::Plomo (Compuestos solubles)" id="102" weight="2.3853">
+        <attvalues>
+          <attvalue for="2" value="2" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Colima.Minatitlán" target="SUB::Acetaldehido" id="103" weight="1099.958">
+        <attvalues>
+          <attvalue for="2" value="3" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Colima.Minatitlán" target="SUB::Bióxido de carbono" id="104" weight="261347332.0">
+        <attvalues>
+          <attvalue for="2" value="3" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Colima.Minatitlán" target="SUB::Bióxido de nitrógeno" id="105" weight="4346122.55">
+        <attvalues>
+          <attvalue for="2" value="2" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Colima.Minatitlán" target="SUB::Formaldehido" id="106" weight="1692.25">
+        <attvalues>
+          <attvalue for="2" value="3" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Colima.Minatitlán" target="SUB::Asbesto y sus formas (En forma de polvo, fibras o productos desmenuzables con la presión de la mano)" id="107" weight="342.0">
+        <attvalues>
+          <attvalue for="2" value="1" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Colima.Minatitlán" target="SUB::Plomo (polvos respirables, humos o vapores)" id="108" weight="10127.689999999999">
+        <attvalues>
+          <attvalue for="2" value="3" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Colima.Ixtlahuacán" target="SUB::Mercurio (polvos, respirables, vapores o humos)" id="109" weight="0.006684402">
+        <attvalues>
+          <attvalue for="2" value="1" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Colima.Ixtlahuacán" target="SUB::Cadmio (polvos, respirables, vapores o humos)" id="110" weight="0.023543292">
+        <attvalues>
+          <attvalue for="2" value="1" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Colima.Ixtlahuacán" target="SUB::Cromo (compuestos)" id="111" weight="0.04998513">
+        <attvalues>
+          <attvalue for="2" value="1" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Colima.Ixtlahuacán" target="SUB::Formaldehido" id="112" weight="1.952082">
+        <attvalues>
+          <attvalue for="2" value="1" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Colima.Ixtlahuacán" target="SUB::Níquel (compuestos)" id="113" weight="4.998513">
+        <attvalues>
+          <attvalue for="2" value="1" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Colima.Ixtlahuacán" target="SUB::Arsénico (polvos, respirables, vapores o humos)" id="114" weight="5.8034232800000005">
+        <attvalues>
+          <attvalue for="2" value="3" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Colima.Ixtlahuacán" target="SUB::Plomo (compuestos)" id="115" weight="0.08932254">
+        <attvalues>
+          <attvalue for="2" value="1" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Colima.Ixtlahuacán" target="SUB::Benceno" id="116" weight="0.012658956">
+        <attvalues>
+          <attvalue for="2" value="1" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Colima.Ixtlahuacán" target="SUB::Níquel (polvos respirables, humos o vapores)" id="117" weight="29.869161999999996">
+        <attvalues>
+          <attvalue for="2" value="7" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Colima.Ixtlahuacán" target="SUB::Bióxido de carbono" id="118" weight="8213944.16404">
+        <attvalues>
+          <attvalue for="2" value="9" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Colima.Ixtlahuacán" target="SUB::Cromo (polvos respirables, humos o vapores)" id="119" weight="17.17602">
+        <attvalues>
+          <attvalue for="2" value="2" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Colima.Villa de Álvarez" target="SUB::Plomo (compuestos)" id="120" weight="0.04702672">
+        <attvalues>
+          <attvalue for="2" value="1" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Colima.Coquimatlán" target="SUB::Asbesto y sus formas (En forma de polvo, fibras o productos desmenuzables con la presión de la mano)" id="121" weight="31516.0">
+        <attvalues>
+          <attvalue for="2" value="2" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Colima.Coquimatlán" target="SUB::Mercurio (polvos, respirables, vapores o humos)" id="122" weight="6.0">
+        <attvalues>
+          <attvalue for="2" value="1" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Colima.Coquimatlán" target="SUB::Plomo (compuestos)" id="123" weight="44.5">
+        <attvalues>
+          <attvalue for="2" value="1" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Colima.Coquimatlán" target="SUB::Plomo (polvos respirables, humos o vapores)" id="124" weight="258.54">
+        <attvalues>
+          <attvalue for="2" value="1" />
+        </attvalues>
+      </edge>
+    </edges>
+  </graph>
+</gexf>

@@ -19,7 +19,10 @@ import plotly.graph_objects as go
 
 HERE = os.path.dirname(os.path.abspath(__file__))
 SRC = os.path.join(HERE, "..", "..", "prtr_raw_for_stori_stori.csv")
-STATE_FILTER = "Tamaulipas"
+STATE_FILTER = sys.argv[1] if len(sys.argv) > 1 else "Tamaulipas"
+OUT_DIR = sys.argv[2] if len(sys.argv) > 2 else HERE
+SLUG = sys.argv[3] if len(sys.argv) > 3 else "tamaulipas"
+H.configure(STATE_FILTER, "municipio")
 
 COLOR_LOCATION = "#2a78d6"
 COLOR_SUBSTANCE = "#eb6834"
@@ -153,7 +156,7 @@ frames = [go.Frame(data=frame_data(y), name=str(y)) for y in years]
 fig = go.Figure(data=init_data, frames=frames)
 
 fig.update_layout(
-    title=dict(text=f"PRTR Tamaulipas — Municipality ↔ Substance by year ({years[0]}-{years[-1]})",
+    title=dict(text=f"PRTR {STATE_FILTER} — Municipality ↔ Substance by year ({years[0]}-{years[-1]})",
                font=dict(color=INK_PRIMARY, size=18)),
     plot_bgcolor=SURFACE, paper_bgcolor=SURFACE,
     xaxis=dict(visible=False, range=[-0.5, 1.5]),
@@ -180,7 +183,7 @@ fig.update_layout(
     )],
 )
 
-html_path = os.path.join(HERE, "tamaulipas_temporal.html")
+html_path = os.path.join(OUT_DIR, f"{SLUG}_temporal.html")
 # adjacency for the search: every (municipio, sustancia) pair that exists in ANY year
 union = [(pos[l], pos[s]) for (l, s) in edge_totals]
 U.write(fig, html_path, union_edges=union, placeholder="Search municipality or substance (name or symbol)…")
@@ -218,12 +221,12 @@ for ax, year in zip(axes, snapshot_years):
     ax.set_ylim(-0.02, 1.06)
     ax.axis("off")
 
-fig2.suptitle("PRTR Tamaulipas — Municipality ↔ Substance over time (4 snapshots)", fontsize=16, color=INK_PRIMARY, y=0.99)
+fig2.suptitle(f"PRTR {STATE_FILTER} — Municipality ↔ Substance over time (4 snapshots)", fontsize=16, color=INK_PRIMARY, y=0.99)
 fig2.text(0.5, 0.005, "Size = that year's emissions (log scale, comparable across panels). "
                        "Fixed rows: municipalities (left) and substances (right) ranked by their all-time total.",
           ha="center", fontsize=9, color=INK_MUTED)
 
-png_path = os.path.join(HERE, "tamaulipas_temporal_snapshots.png")
+png_path = os.path.join(OUT_DIR, f"{SLUG}_temporal_snapshots.png")
 fig2.savefig(png_path, dpi=140, bbox_inches="tight", facecolor=SURFACE)
 plt.close(fig2)
 print(f"Written {png_path}")

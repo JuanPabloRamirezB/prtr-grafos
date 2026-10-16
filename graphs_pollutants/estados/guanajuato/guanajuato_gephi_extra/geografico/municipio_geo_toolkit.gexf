@@ -1,0 +1,468 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<gexf xmlns="http://gexf.net/1.3" version="1.3" xmlns:viz="http://gexf.net/1.3/viz" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://gexf.net/1.3 http://gexf.net/1.3/gexf.xsd">
+  <meta lastmodifieddate="2026-10-16">
+    <creator>Apache NetBeans Platform Dev (Build {0})</creator>
+    <title></title>
+    <description></description>
+  </meta>
+  <graph defaultedgetype="undirected" mode="static">
+    <attributes class="node" mode="static">
+      <attribute id="0" title="lat" type="double"/>
+      <attribute id="1" title="lon" type="double"/>
+      <attribute id="2" title="total_kg" type="double"/>
+      <attribute id="3" title="community" type="long"/>
+      <attribute id="4" title="color_hex" type="string"/>
+    </attributes>
+    <nodes>
+      <node id="Guanajuato.Abasolo" label="Abasolo">
+        <attvalues>
+          <attvalue for="0" value="20.270324"/>
+          <attvalue for="1" value="-101.3142098"/>
+          <attvalue for="2" value="36061.00179274224"/>
+          <attvalue for="3" value="0"/>
+          <attvalue for="4" value="#2a78d6"/>
+        </attvalues>
+        <viz:size value="20.000027"/>
+        <viz:position x="-628.142" y="-420.40668"/>
+        <viz:color r="42" g="120" b="214"/>
+      </node>
+      <node id="Guanajuato.Apaseo el Alto" label="Apaseo el Alto">
+        <attvalues>
+          <attvalue for="0" value="20.2725817"/>
+          <attvalue for="1" value="-100.3717855"/>
+          <attvalue for="2" value="7.148727422320451E7"/>
+          <attvalue for="3" value="0"/>
+          <attvalue for="4" value="#2a78d6"/>
+        </attvalues>
+        <viz:size value="20.054413"/>
+        <viz:position x="717.45074" y="-416.8642"/>
+        <viz:color r="42" g="120" b="214"/>
+      </node>
+      <node id="Guanajuato.Apaseo el Grande" label="Apaseo el Grande">
+        <attvalues>
+          <attvalue for="0" value="20.3243023"/>
+          <attvalue for="1" value="-100.4117581"/>
+          <attvalue for="2" value="2.0001184697900221E9"/>
+          <attvalue for="3" value="2"/>
+          <attvalue for="4" value="#1baf7a"/>
+        </attvalues>
+        <viz:size value="21.522377"/>
+        <viz:position x="660.37787" y="-335.71057"/>
+        <viz:color r="27" g="175" b="122"/>
+      </node>
+      <node id="Guanajuato.Celaya" label="Celaya">
+        <attvalues>
+          <attvalue for="0" value="20.3117486"/>
+          <attvalue for="1" value="-100.4848863"/>
+          <attvalue for="2" value="3.6180591167441626E9"/>
+          <attvalue for="3" value="1"/>
+          <attvalue for="4" value="#eb6834"/>
+        </attvalues>
+        <viz:size value="22.753862"/>
+        <viz:position x="555.96545" y="-355.4083"/>
+        <viz:color r="235" g="104" b="52"/>
+      </node>
+      <node id="Guanajuato.Comonfort" label="Comonfort">
+        <attvalues>
+          <attvalue for="0" value="20.4312171"/>
+          <attvalue for="1" value="-100.4540328"/>
+          <attvalue for="2" value="9625081.46668"/>
+          <attvalue for="3" value="0"/>
+          <attvalue for="4" value="#2a78d6"/>
+        </attvalues>
+        <viz:size value="20.007326"/>
+        <viz:position x="600.01807" y="-167.95302"/>
+        <viz:color r="42" g="120" b="214"/>
+      </node>
+      <node id="Guanajuato.Cortazar" label="Cortazar">
+        <attvalues>
+          <attvalue for="0" value="20.2900623"/>
+          <attvalue for="1" value="-100.5749424"/>
+          <attvalue for="2" value="4.452823277066055E7"/>
+          <attvalue for="3" value="0"/>
+          <attvalue for="4" value="#2a78d6"/>
+        </attvalues>
+        <viz:size value="20.033892"/>
+        <viz:position x="427.38342" y="-389.43576"/>
+        <viz:color r="42" g="120" b="214"/>
+      </node>
+      <node id="Guanajuato.Guanajuato" label="Guanajuato">
+        <attvalues>
+          <attvalue for="0" value="21.0057951"/>
+          <attvalue for="1" value="-101.1513037"/>
+          <attvalue for="2" value="1.0440082113946384E7"/>
+          <attvalue for="3" value="0"/>
+          <attvalue for="4" value="#2a78d6"/>
+        </attvalues>
+        <viz:size value="20.007946"/>
+        <viz:position x="-395.54483" y="733.6041"/>
+        <viz:color r="42" g="120" b="214"/>
+      </node>
+      <node id="Guanajuato.Irapuato" label="Irapuato">
+        <attvalues>
+          <attvalue for="0" value="20.4022085"/>
+          <attvalue for="1" value="-101.2053221"/>
+          <attvalue for="2" value="3.861405113434346E9"/>
+          <attvalue for="3" value="1"/>
+          <attvalue for="4" value="#eb6834"/>
+        </attvalues>
+        <viz:size value="22.939083"/>
+        <viz:position x="-472.67227" y="-213.46974"/>
+        <viz:color r="235" g="104" b="52"/>
+      </node>
+      <node id="Guanajuato.Jaral del Progreso" label="Jaral del Progreso">
+        <attvalues>
+          <attvalue for="0" value="20.223546"/>
+          <attvalue for="1" value="-101.035031"/>
+          <attvalue for="2" value="3.11583063E7"/>
+          <attvalue for="3" value="0"/>
+          <attvalue for="4" value="#2a78d6"/>
+        </attvalues>
+        <viz:size value="20.023716"/>
+        <viz:position x="-229.53076" y="-493.80496"/>
+        <viz:color r="42" g="120" b="214"/>
+      </node>
+      <node id="Guanajuato.León" label="León">
+        <attvalues>
+          <attvalue for="0" value="21.0719099"/>
+          <attvalue for="1" value="-101.4059519"/>
+          <attvalue for="2" value="5.729984507565827E8"/>
+          <attvalue for="3" value="1"/>
+          <attvalue for="4" value="#eb6834"/>
+        </attvalues>
+        <viz:size value="20.436134"/>
+        <viz:position x="-759.13135" y="837.3433"/>
+        <viz:color r="235" g="104" b="52"/>
+      </node>
+      <node id="Guanajuato.Purísima del Rincón" label="Purísima del Rincón">
+        <attvalues>
+          <attvalue for="0" value="21.0146485"/>
+          <attvalue for="1" value="-101.5241157"/>
+          <attvalue for="2" value="436743.31622645794"/>
+          <attvalue for="3" value="0"/>
+          <attvalue for="4" value="#2a78d6"/>
+        </attvalues>
+        <viz:size value="20.000332"/>
+        <viz:position x="-927.8456" y="747.4958"/>
+        <viz:color r="42" g="120" b="214"/>
+      </node>
+      <node id="Guanajuato.Pénjamo" label="Pénjamo">
+        <attvalues>
+          <attvalue for="0" value="20.2554461"/>
+          <attvalue for="1" value="-101.4330158"/>
+          <attvalue for="2" value="4226760.8337"/>
+          <attvalue for="3" value="3"/>
+          <attvalue for="4" value="#eda100"/>
+        </attvalues>
+        <viz:size value="20.003218"/>
+        <viz:position x="-797.7732" y="-443.75125"/>
+        <viz:color r="237" g="161" b="0"/>
+      </node>
+      <node id="Guanajuato.Romita" label="Romita">
+        <attvalues>
+          <attvalue for="0" value="20.5216374"/>
+          <attvalue for="1" value="-101.3101622"/>
+          <attvalue for="2" value="113641.597"/>
+          <attvalue for="3" value="0"/>
+          <attvalue for="4" value="#2a78d6"/>
+        </attvalues>
+        <viz:size value="20.000086"/>
+        <viz:position x="-622.3629" y="-26.076605"/>
+        <viz:color r="42" g="120" b="214"/>
+      </node>
+      <node id="Guanajuato.Salamanca" label="Salamanca">
+        <attvalues>
+          <attvalue for="0" value="20.340725"/>
+          <attvalue for="1" value="-101.1159695"/>
+          <attvalue for="2" value="6.5690631830633865E10"/>
+          <attvalue for="3" value="1"/>
+          <attvalue for="4" value="#eb6834"/>
+        </attvalues>
+        <viz:size value="70.0"/>
+        <viz:position x="-345.0947" y="-309.9421"/>
+        <viz:color r="235" g="104" b="52"/>
+      </node>
+      <node id="Guanajuato.Salvatierra" label="Salvatierra">
+        <attvalues>
+          <attvalue for="0" value="20.1258023"/>
+          <attvalue for="1" value="-100.5252896"/>
+          <attvalue for="2" value="5585358.534"/>
+          <attvalue for="3" value="0"/>
+          <attvalue for="4" value="#2a78d6"/>
+        </attvalues>
+        <viz:size value="20.004251"/>
+        <viz:position x="498.27768" y="-647.17236"/>
+        <viz:color r="42" g="120" b="214"/>
+      </node>
+      <node id="Guanajuato.San Francisco del Rincón" label="San Francisco del Rincón">
+        <attvalues>
+          <attvalue for="0" value="21.0107253"/>
+          <attvalue for="1" value="-101.5130665"/>
+          <attvalue for="2" value="2.0601478147265743E7"/>
+          <attvalue for="3" value="0"/>
+          <attvalue for="4" value="#2a78d6"/>
+        </attvalues>
+        <viz:size value="20.01568"/>
+        <viz:position x="-912.0695" y="741.33997"/>
+        <viz:color r="42" g="120" b="214"/>
+      </node>
+      <node id="Guanajuato.San José Iturbide" label="San José Iturbide">
+        <attvalues>
+          <attvalue for="0" value="21.0002959"/>
+          <attvalue for="1" value="-100.2308593"/>
+          <attvalue for="2" value="3.847589818090283E9"/>
+          <attvalue for="3" value="1"/>
+          <attvalue for="4" value="#eb6834"/>
+        </attvalues>
+        <viz:size value="22.928568"/>
+        <viz:position x="918.66504" y="724.97546"/>
+        <viz:color r="235" g="104" b="52"/>
+      </node>
+      <node id="Guanajuato.San Luis de la Paz" label="San Luis de la Paz">
+        <attvalues>
+          <attvalue for="0" value="21.1755738"/>
+          <attvalue for="1" value="-100.3054452"/>
+          <attvalue for="2" value="2.7953801470722813E10"/>
+          <attvalue for="3" value="0"/>
+          <attvalue for="4" value="#2a78d6"/>
+        </attvalues>
+        <viz:size value="41.276855"/>
+        <viz:position x="812.1714" y="1000.0"/>
+        <viz:color r="42" g="120" b="214"/>
+      </node>
+      <node id="Guanajuato.San Miguel de Allende" label="San Miguel de Allende">
+        <attvalues>
+          <attvalue for="0" value="20.5414446"/>
+          <attvalue for="1" value="-100.4248173"/>
+          <attvalue for="2" value="3050169.7440624"/>
+          <attvalue for="3" value="0"/>
+          <attvalue for="4" value="#2a78d6"/>
+        </attvalues>
+        <viz:size value="20.002321"/>
+        <viz:position x="641.73193" y="5.002417"/>
+        <viz:color r="42" g="120" b="214"/>
+      </node>
+      <node id="Guanajuato.Santa Cruz de Juventino Rosas" label="Santa Cruz de Juventino Rosas">
+        <attvalues>
+          <attvalue for="0" value="20.3835521"/>
+          <attvalue for="1" value="-100.5938534"/>
+          <attvalue for="2" value="40.0902"/>
+          <attvalue for="3" value="4"/>
+          <attvalue for="4" value="#e87ba4"/>
+        </attvalues>
+        <viz:size value="20.0"/>
+        <viz:position x="400.38232" y="-242.74307"/>
+        <viz:color r="232" g="123" b="164"/>
+      </node>
+      <node id="Guanajuato.Silao de la Victoria" label="Silao de la Victoria">
+        <attvalues>
+          <attvalue for="0" value="20.5640021"/>
+          <attvalue for="1" value="-101.2534378"/>
+          <attvalue for="2" value="1.0075404813059492E9"/>
+          <attvalue for="3" value="1"/>
+          <attvalue for="4" value="#eb6834"/>
+        </attvalues>
+        <viz:size value="20.766882"/>
+        <viz:position x="-541.3718" y="40.396873"/>
+        <viz:color r="235" g="104" b="52"/>
+      </node>
+      <node id="Guanajuato.Villagrán" label="Villagrán">
+        <attvalues>
+          <attvalue for="0" value="20.3040938"/>
+          <attvalue for="1" value="-100.594741"/>
+          <attvalue for="2" value="5.12365069507979E9"/>
+          <attvalue for="3" value="1"/>
+          <attvalue for="4" value="#eb6834"/>
+        </attvalues>
+        <viz:size value="23.899834"/>
+        <viz:position x="399.11502" y="-367.41928"/>
+        <viz:color r="235" g="104" b="52"/>
+      </node>
+    </nodes>
+    <edges>
+      <edge id="0" source="Guanajuato.Abasolo" target="Guanajuato.Apaseo el Alto" weight="0.762427568435669">
+        <viz:color r="137" g="135" b="129" a="0.50980395"/>
+      </edge>
+      <edge id="1" source="Guanajuato.Abasolo" target="Guanajuato.Comonfort" weight="0.9006806015968323">
+        <viz:color r="137" g="135" b="129" a="0.50980395"/>
+      </edge>
+      <edge id="2" source="Guanajuato.Abasolo" target="Guanajuato.Cortazar" weight="0.8556182384490967">
+        <viz:color r="137" g="135" b="129" a="0.50980395"/>
+      </edge>
+      <edge id="3" source="Guanajuato.Abasolo" target="Guanajuato.Jaral del Progreso">
+        <viz:color r="137" g="135" b="129" a="0.50980395"/>
+      </edge>
+      <edge id="4" source="Guanajuato.Abasolo" target="Guanajuato.Purísima del Rincón" weight="0.7881430387496948">
+        <viz:color r="137" g="135" b="129" a="0.50980395"/>
+      </edge>
+      <edge id="5" source="Guanajuato.Abasolo" target="Guanajuato.Romita" weight="0.9887056350708008">
+        <viz:color r="137" g="135" b="129" a="0.50980395"/>
+      </edge>
+      <edge id="6" source="Guanajuato.Abasolo" target="Guanajuato.Salvatierra" weight="0.9890319108963013">
+        <viz:color r="137" g="135" b="129" a="0.50980395"/>
+      </edge>
+      <edge id="7" source="Guanajuato.Abasolo" target="Guanajuato.San Francisco del Rincón" weight="0.8189849257469177">
+        <viz:color r="137" g="135" b="129" a="0.50980395"/>
+      </edge>
+      <edge id="8" source="Guanajuato.Abasolo" target="Guanajuato.San Luis de la Paz" weight="0.7270155549049377">
+        <viz:color r="137" g="135" b="129" a="0.50980395"/>
+      </edge>
+      <edge id="9" source="Guanajuato.Apaseo el Alto" target="Guanajuato.Jaral del Progreso" weight="0.7624272704124451">
+        <viz:color r="137" g="135" b="129" a="0.50980395"/>
+      </edge>
+      <edge id="10" source="Guanajuato.Apaseo el Alto" target="Guanajuato.Romita" weight="0.7538161277770996">
+        <viz:color r="137" g="135" b="129" a="0.50980395"/>
+      </edge>
+      <edge id="11" source="Guanajuato.Apaseo el Alto" target="Guanajuato.Salvatierra" weight="0.7566710710525513">
+        <viz:color r="137" g="135" b="129" a="0.50980395"/>
+      </edge>
+      <edge id="12" source="Guanajuato.Apaseo el Alto" target="Guanajuato.San Luis de la Paz" weight="0.7659457921981812">
+        <viz:color r="137" g="135" b="129" a="0.50980395"/>
+      </edge>
+      <edge id="13" source="Guanajuato.Celaya" target="Guanajuato.Irapuato" weight="0.7961012125015259">
+        <viz:color r="137" g="135" b="129" a="0.50980395"/>
+      </edge>
+      <edge id="14" source="Guanajuato.Celaya" target="Guanajuato.León" weight="0.7843519449234009">
+        <viz:color r="137" g="135" b="129" a="0.50980395"/>
+      </edge>
+      <edge id="15" source="Guanajuato.Celaya" target="Guanajuato.Salamanca" weight="0.7142196893692017">
+        <viz:color r="137" g="135" b="129" a="0.50980395"/>
+      </edge>
+      <edge id="16" source="Guanajuato.Celaya" target="Guanajuato.San José Iturbide" weight="0.7687101364135742">
+        <viz:color r="137" g="135" b="129" a="0.50980395"/>
+      </edge>
+      <edge id="17" source="Guanajuato.Celaya" target="Guanajuato.Villagrán" weight="0.708667516708374">
+        <viz:color r="137" g="135" b="129" a="0.50980395"/>
+      </edge>
+      <edge id="18" source="Guanajuato.Comonfort" target="Guanajuato.Cortazar" weight="0.8351729512214661">
+        <viz:color r="137" g="135" b="129" a="0.50980395"/>
+      </edge>
+      <edge id="19" source="Guanajuato.Comonfort" target="Guanajuato.Jaral del Progreso" weight="0.9006806015968323">
+        <viz:color r="137" g="135" b="129" a="0.50980395"/>
+      </edge>
+      <edge id="20" source="Guanajuato.Comonfort" target="Guanajuato.Purísima del Rincón" weight="0.7892410755157471">
+        <viz:color r="137" g="135" b="129" a="0.50980395"/>
+      </edge>
+      <edge id="21" source="Guanajuato.Comonfort" target="Guanajuato.Romita" weight="0.9181615710258484">
+        <viz:color r="137" g="135" b="129" a="0.50980395"/>
+      </edge>
+      <edge id="22" source="Guanajuato.Comonfort" target="Guanajuato.Salvatierra" weight="0.912400484085083">
+        <viz:color r="137" g="135" b="129" a="0.50980395"/>
+      </edge>
+      <edge id="23" source="Guanajuato.Comonfort" target="Guanajuato.San Francisco del Rincón" weight="0.761995255947113">
+        <viz:color r="137" g="135" b="129" a="0.50980395"/>
+      </edge>
+      <edge id="24" source="Guanajuato.Comonfort" target="Guanajuato.San Miguel de Allende" weight="0.7449453473091125">
+        <viz:color r="137" g="135" b="129" a="0.50980395"/>
+      </edge>
+      <edge id="25" source="Guanajuato.Cortazar" target="Guanajuato.Jaral del Progreso" weight="0.855617105960846">
+        <viz:color r="137" g="135" b="129" a="0.50980395"/>
+      </edge>
+      <edge id="26" source="Guanajuato.Cortazar" target="Guanajuato.Purísima del Rincón" weight="0.8284609913825989">
+        <viz:color r="137" g="135" b="129" a="0.50980395"/>
+      </edge>
+      <edge id="27" source="Guanajuato.Cortazar" target="Guanajuato.Romita" weight="0.8820760250091553">
+        <viz:color r="137" g="135" b="129" a="0.50980395"/>
+      </edge>
+      <edge id="28" source="Guanajuato.Cortazar" target="Guanajuato.Salvatierra" weight="0.8796492218971252">
+        <viz:color r="137" g="135" b="129" a="0.50980395"/>
+      </edge>
+      <edge id="29" source="Guanajuato.Cortazar" target="Guanajuato.San Francisco del Rincón" weight="0.7543227076530457">
+        <viz:color r="137" g="135" b="129" a="0.50980395"/>
+      </edge>
+      <edge id="30" source="Guanajuato.Cortazar" target="Guanajuato.San Miguel de Allende" weight="0.7919244170188904">
+        <viz:color r="137" g="135" b="129" a="0.50980395"/>
+      </edge>
+      <edge id="31" source="Guanajuato.Guanajuato" target="Guanajuato.Purísima del Rincón" weight="0.7025591135025024">
+        <viz:color r="137" g="135" b="129" a="0.50980395"/>
+      </edge>
+      <edge id="32" source="Guanajuato.Irapuato" target="Guanajuato.León" weight="0.7242750525474548">
+        <viz:color r="137" g="135" b="129" a="0.50980395"/>
+      </edge>
+      <edge id="33" source="Guanajuato.Irapuato" target="Guanajuato.Purísima del Rincón" weight="0.7483866214752197">
+        <viz:color r="137" g="135" b="129" a="0.50980395"/>
+      </edge>
+      <edge id="34" source="Guanajuato.Irapuato" target="Guanajuato.San José Iturbide" weight="0.8172228336334229">
+        <viz:color r="137" g="135" b="129" a="0.50980395"/>
+      </edge>
+      <edge id="35" source="Guanajuato.Irapuato" target="Guanajuato.Villagrán" weight="0.7586734294891357">
+        <viz:color r="137" g="135" b="129" a="0.50980395"/>
+      </edge>
+      <edge id="36" source="Guanajuato.Jaral del Progreso" target="Guanajuato.Purísima del Rincón" weight="0.7881354689598083">
+        <viz:color r="137" g="135" b="129" a="0.50980395"/>
+      </edge>
+      <edge id="37" source="Guanajuato.Jaral del Progreso" target="Guanajuato.Romita" weight="0.9887056350708008">
+        <viz:color r="137" g="135" b="129" a="0.50980395"/>
+      </edge>
+      <edge id="38" source="Guanajuato.Jaral del Progreso" target="Guanajuato.Salvatierra" weight="0.989031970500946">
+        <viz:color r="137" g="135" b="129" a="0.50980395"/>
+      </edge>
+      <edge id="39" source="Guanajuato.Jaral del Progreso" target="Guanajuato.San Francisco del Rincón" weight="0.8189849257469177">
+        <viz:color r="137" g="135" b="129" a="0.50980395"/>
+      </edge>
+      <edge id="40" source="Guanajuato.Jaral del Progreso" target="Guanajuato.San Luis de la Paz" weight="0.727008581161499">
+        <viz:color r="137" g="135" b="129" a="0.50980395"/>
+      </edge>
+      <edge id="41" source="Guanajuato.León" target="Guanajuato.Salamanca" weight="0.782782256603241">
+        <viz:color r="137" g="135" b="129" a="0.50980395"/>
+      </edge>
+      <edge id="42" source="Guanajuato.León" target="Guanajuato.San José Iturbide" weight="0.8229449987411499">
+        <viz:color r="137" g="135" b="129" a="0.50980395"/>
+      </edge>
+      <edge id="43" source="Guanajuato.León" target="Guanajuato.Silao de la Victoria" weight="0.7337232828140259">
+        <viz:color r="137" g="135" b="129" a="0.50980395"/>
+      </edge>
+      <edge id="44" source="Guanajuato.León" target="Guanajuato.Villagrán" weight="0.7761980891227722">
+        <viz:color r="137" g="135" b="129" a="0.50980395"/>
+      </edge>
+      <edge id="45" source="Guanajuato.Purísima del Rincón" target="Guanajuato.Romita" weight="0.8262855410575867">
+        <viz:color r="137" g="135" b="129" a="0.50980395"/>
+      </edge>
+      <edge id="46" source="Guanajuato.Purísima del Rincón" target="Guanajuato.Salvatierra" weight="0.8265858292579651">
+        <viz:color r="137" g="135" b="129" a="0.50980395"/>
+      </edge>
+      <edge id="47" source="Guanajuato.Purísima del Rincón" target="Guanajuato.San Francisco del Rincón" weight="0.7170695066452026">
+        <viz:color r="137" g="135" b="129" a="0.50980395"/>
+      </edge>
+      <edge id="48" source="Guanajuato.Purísima del Rincón" target="Guanajuato.San José Iturbide" weight="0.7030601501464844">
+        <viz:color r="137" g="135" b="129" a="0.50980395"/>
+      </edge>
+      <edge id="49" source="Guanajuato.Purísima del Rincón" target="Guanajuato.San Luis de la Paz" weight="0.719222366809845">
+        <viz:color r="137" g="135" b="129" a="0.50980395"/>
+      </edge>
+      <edge id="50" source="Guanajuato.Purísima del Rincón" target="Guanajuato.San Miguel de Allende" weight="0.8309205770492554">
+        <viz:color r="137" g="135" b="129" a="0.50980395"/>
+      </edge>
+      <edge id="51" source="Guanajuato.Romita" target="Guanajuato.Salvatierra" weight="0.9923140406608582">
+        <viz:color r="137" g="135" b="129" a="0.50980395"/>
+      </edge>
+      <edge id="52" source="Guanajuato.Romita" target="Guanajuato.San Francisco del Rincón" weight="0.8251965641975403">
+        <viz:color r="137" g="135" b="129" a="0.50980395"/>
+      </edge>
+      <edge id="53" source="Guanajuato.Romita" target="Guanajuato.San Luis de la Paz" weight="0.7355577945709229">
+        <viz:color r="137" g="135" b="129" a="0.50980395"/>
+      </edge>
+      <edge id="54" source="Guanajuato.Romita" target="Guanajuato.San Miguel de Allende" weight="0.7485044002532959">
+        <viz:color r="137" g="135" b="129" a="0.50980395"/>
+      </edge>
+      <edge id="55" source="Guanajuato.Salamanca" target="Guanajuato.San José Iturbide" weight="0.7252551317214966">
+        <viz:color r="137" g="135" b="129" a="0.50980395"/>
+      </edge>
+      <edge id="56" source="Guanajuato.Salvatierra" target="Guanajuato.San Francisco del Rincón" weight="0.8102420568466187">
+        <viz:color r="137" g="135" b="129" a="0.50980395"/>
+      </edge>
+      <edge id="57" source="Guanajuato.Salvatierra" target="Guanajuato.San Luis de la Paz" weight="0.7330895066261292">
+        <viz:color r="137" g="135" b="129" a="0.50980395"/>
+      </edge>
+      <edge id="58" source="Guanajuato.Salvatierra" target="Guanajuato.San Miguel de Allende" weight="0.7448123693466187">
+        <viz:color r="137" g="135" b="129" a="0.50980395"/>
+      </edge>
+      <edge id="59" source="Guanajuato.San José Iturbide" target="Guanajuato.Silao de la Victoria" weight="0.7010471224784851">
+        <viz:color r="137" g="135" b="129" a="0.50980395"/>
+      </edge>
+      <edge id="60" source="Guanajuato.San José Iturbide" target="Guanajuato.Villagrán" weight="0.7406699657440186">
+        <viz:color r="137" g="135" b="129" a="0.50980395"/>
+      </edge>
+    </edges>
+  </graph>
+</gexf>

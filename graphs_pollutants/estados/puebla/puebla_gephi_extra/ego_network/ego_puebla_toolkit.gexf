@@ -1,0 +1,1061 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<gexf xmlns="http://gexf.net/1.3" version="1.3" xmlns:viz="http://gexf.net/1.3/viz" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://gexf.net/1.3 http://gexf.net/1.3/gexf.xsd">
+  <meta lastmodifieddate="2026-10-16">
+    <creator>Apache NetBeans Platform Dev (Build {0})</creator>
+    <title></title>
+    <description></description>
+  </meta>
+  <graph defaultedgetype="undirected" mode="static">
+    <attributes class="node" mode="static">
+      <attribute id="0" title="role" type="string"/>
+      <attribute id="1" title="total_kg" type="double"/>
+    </attributes>
+    <nodes>
+      <node id="Puebla.Puebla" label="Puebla.Puebla">
+        <attvalues>
+          <attvalue for="0" value="focal"/>
+          <attvalue for="1" value="6.23381329060233E11"/>
+        </attvalues>
+        <viz:size value="40.0"/>
+        <viz:color r="227" g="73" b="72"/>
+      </node>
+      <node id="Bióxido de carbono" label="Carbon dioxide">
+        <attvalues>
+          <attvalue for="0" value="substance"/>
+          <attvalue for="1" value="6.233795586426276E11"/>
+        </attvalues>
+        <viz:size value="39.999916"/>
+        <viz:position x="500.0" y="0.0"/>
+        <viz:color r="235" g="104" b="52"/>
+      </node>
+      <node id="Metano" label="Methane">
+        <attvalues>
+          <attvalue for="0" value="substance"/>
+          <attvalue for="1" value="1122058.0600960702"/>
+        </attvalues>
+        <viz:size value="10.000054"/>
+        <viz:position x="456.77274" y="203.36832"/>
+        <viz:color r="235" g="104" b="52"/>
+      </node>
+      <node id="Plomo (Compuestos solubles)" label="Lead (soluble compounds)">
+        <attvalues>
+          <attvalue for="0" value="substance"/>
+          <attvalue for="1" value="209478.93640739037"/>
+        </attvalues>
+        <viz:size value="10.0000105"/>
+        <viz:position x="334.5653" y="371.57242"/>
+        <viz:color r="235" g="104" b="52"/>
+      </node>
+      <node id="Xileno (mezcla de isómeros)" label="Xylene (mixture of isomers)">
+        <attvalues>
+          <attvalue for="0" value="substance"/>
+          <attvalue for="1" value="88488.082"/>
+        </attvalues>
+        <viz:size value="10.000004"/>
+        <viz:position x="154.5085" y="475.52826"/>
+        <viz:color r="235" g="104" b="52"/>
+      </node>
+      <node id="Plomo (compuestos)" label="Lead (compounds)">
+        <attvalues>
+          <attvalue for="0" value="substance"/>
+          <attvalue for="1" value="84560.17696167156"/>
+        </attvalues>
+        <viz:size value="10.000004"/>
+        <viz:position x="-52.264233" y="497.26096"/>
+        <viz:color r="235" g="104" b="52"/>
+      </node>
+      <node id="Níquel (compuestos)" label="Nickel (compounds)">
+        <attvalues>
+          <attvalue for="0" value="substance"/>
+          <attvalue for="1" value="53838.838035325"/>
+        </attvalues>
+        <viz:size value="10.000003"/>
+        <viz:position x="-250.0" y="433.0127"/>
+        <viz:color r="235" g="104" b="52"/>
+      </node>
+      <node id="Cromo (compuestos)" label="Chromium (compounds)">
+        <attvalues>
+          <attvalue for="0" value="substance"/>
+          <attvalue for="1" value="52293.2608027197"/>
+        </attvalues>
+        <viz:size value="10.000003"/>
+        <viz:position x="-404.50848" y="293.89264"/>
+        <viz:color r="235" g="104" b="52"/>
+      </node>
+      <node id="Cromo (Compuestos solubles)" label="Chromium (soluble compounds)">
+        <attvalues>
+          <attvalue for="0" value="substance"/>
+          <attvalue for="1" value="47265.30717472155"/>
+        </attvalues>
+        <viz:size value="10.000002"/>
+        <viz:position x="-489.0738" y="103.95585"/>
+        <viz:color r="235" g="104" b="52"/>
+      </node>
+      <node id="Níquel (Compuestos solubles)" label="Nickel (soluble compounds)">
+        <attvalues>
+          <attvalue for="0" value="substance"/>
+          <attvalue for="1" value="46322.16206246645"/>
+        </attvalues>
+        <viz:size value="10.000002"/>
+        <viz:position x="-489.0738" y="-103.95585"/>
+        <viz:color r="235" g="104" b="52"/>
+      </node>
+      <node id="Asbesto y sus formas (En forma de polvo, fibras o productos desmenuzables con la presión de la mano)" label="Asbestos and its forms (as dust, fibers or friable products that crumble under hand pressure)">
+        <attvalues>
+          <attvalue for="0" value="substance"/>
+          <attvalue for="1" value="41731.99900000001"/>
+        </attvalues>
+        <viz:size value="10.000002"/>
+        <viz:position x="-404.50848" y="-293.89264"/>
+        <viz:color r="235" g="104" b="52"/>
+      </node>
+      <node id="Plomo (polvos respirables, humos o vapores)" label="Lead (respirable dust, fumes or vapors)">
+        <attvalues>
+          <attvalue for="0" value="substance"/>
+          <attvalue for="1" value="6699.4800000000005"/>
+        </attvalues>
+        <viz:size value="10.0"/>
+        <viz:position x="-250.0" y="-433.0127"/>
+        <viz:color r="235" g="104" b="52"/>
+      </node>
+      <node id="Bióxido de nitrógeno" label="Nitrogen dioxide">
+        <attvalues>
+          <attvalue for="0" value="substance"/>
+          <attvalue for="1" value="3523.807"/>
+        </attvalues>
+        <viz:size value="10.0"/>
+        <viz:position x="-52.264233" y="-497.26096"/>
+        <viz:color r="235" g="104" b="52"/>
+      </node>
+      <node id="Cianuro inorgánico/orgánico" label="Inorganic/organic cyanide">
+        <attvalues>
+          <attvalue for="0" value="substance"/>
+          <attvalue for="1" value="3072.0261928623827"/>
+        </attvalues>
+        <viz:size value="10.0"/>
+        <viz:position x="154.5085" y="-475.52826"/>
+        <viz:color r="235" g="104" b="52"/>
+      </node>
+      <node id="Estireno (fenil etileno)" label="Styrene (phenylethylene)">
+        <attvalues>
+          <attvalue for="0" value="substance"/>
+          <attvalue for="1" value="1915.0"/>
+        </attvalues>
+        <viz:size value="10.0"/>
+        <viz:position x="334.5653" y="-371.57242"/>
+        <viz:color r="235" g="104" b="52"/>
+      </node>
+      <node id="Mercurio (polvos, respirables, vapores o humos)" label="Mercury (respirable dust, vapors or fumes)">
+        <attvalues>
+          <attvalue for="0" value="substance"/>
+          <attvalue for="1" value="1892.7122607789997"/>
+        </attvalues>
+        <viz:size value="10.0"/>
+        <viz:position x="456.77274" y="-203.36832"/>
+        <viz:color r="235" g="104" b="52"/>
+      </node>
+      <node id="Puebla.Tehuacán" label="Puebla.Tehuacán">
+        <attvalues>
+          <attvalue for="0" value="peer_municipio"/>
+          <attvalue for="1" value="1.2886640629579625E8"/>
+        </attvalues>
+        <viz:size value="10.006202"/>
+        <viz:position x="-793.35333" y="-608.7614"/>
+        <viz:color r="42" g="120" b="214"/>
+      </node>
+      <node id="Puebla.San Martín Texmelucan" label="Puebla.San Martín Texmelucan">
+        <attvalues>
+          <attvalue for="0" value="peer_municipio"/>
+          <attvalue for="1" value="5.510416642899253E9"/>
+        </attvalues>
+        <viz:size value="10.265186"/>
+        <viz:position x="923.8795" y="382.68344"/>
+        <viz:color r="42" g="120" b="214"/>
+      </node>
+      <node id="Puebla.Cuautlancingo" label="Puebla.Cuautlancingo">
+        <attvalues>
+          <attvalue for="0" value="peer_municipio"/>
+          <attvalue for="1" value="4.482662043515542E9"/>
+        </attvalues>
+        <viz:size value="10.215727"/>
+        <viz:position x="130.5262" y="991.4449"/>
+        <viz:color r="42" g="120" b="214"/>
+      </node>
+      <node id="Puebla.Izúcar de Matamoros" label="Puebla.Izúcar de Matamoros">
+        <attvalues>
+          <attvalue for="0" value="peer_municipio"/>
+          <attvalue for="1" value="1.167321830019486E8"/>
+        </attvalues>
+        <viz:size value="10.005618"/>
+        <viz:position x="-608.7614" y="-793.35333"/>
+        <viz:color r="42" g="120" b="214"/>
+      </node>
+      <node id="Puebla.Huejotzingo" label="Puebla.Huejotzingo">
+        <attvalues>
+          <attvalue for="0" value="peer_municipio"/>
+          <attvalue for="1" value="1.331072365674109E9"/>
+        </attvalues>
+        <viz:size value="10.064057"/>
+        <viz:position x="-382.68344" y="923.8795"/>
+        <viz:color r="42" g="120" b="214"/>
+      </node>
+      <node id="Puebla.Chignautla" label="Puebla.Chignautla">
+        <attvalues>
+          <attvalue for="0" value="peer_municipio"/>
+          <attvalue for="1" value="2.1260680637558448E8"/>
+        </attvalues>
+        <viz:size value="10.010232"/>
+        <viz:position x="-923.8795" y="-382.68344"/>
+        <viz:color r="42" g="120" b="214"/>
+      </node>
+      <node id="Puebla.San Pedro Cholula" label="Puebla.San Pedro Cholula">
+        <attvalues>
+          <attvalue for="0" value="peer_municipio"/>
+          <attvalue for="1" value="8626862.624460896"/>
+        </attvalues>
+        <viz:size value="10.000415"/>
+        <viz:position x="382.68344" y="-923.8795"/>
+        <viz:color r="42" g="120" b="214"/>
+      </node>
+      <node id="Puebla.Palmar de Bravo" label="Puebla.Palmar de Bravo">
+        <attvalues>
+          <attvalue for="0" value="peer_municipio"/>
+          <attvalue for="1" value="4.643383772653636E9"/>
+        </attvalues>
+        <viz:size value="10.223461"/>
+        <viz:position x="382.68344" y="923.8795"/>
+        <viz:color r="42" g="120" b="214"/>
+      </node>
+      <node id="Puebla.Acajete" label="Puebla.Acajete">
+        <attvalues>
+          <attvalue for="0" value="peer_municipio"/>
+          <attvalue for="1" value="5.301893565784678E9"/>
+        </attvalues>
+        <viz:size value="10.255152"/>
+        <viz:position x="793.35333" y="608.7614"/>
+        <viz:color r="42" g="120" b="214"/>
+      </node>
+      <node id="Puebla.Coronango" label="Puebla.Coronango">
+        <attvalues>
+          <attvalue for="0" value="peer_municipio"/>
+          <attvalue for="1" value="42120.7040149"/>
+        </attvalues>
+        <viz:size value="10.000002"/>
+        <viz:position x="793.35333" y="-608.7614"/>
+        <viz:color r="42" g="120" b="214"/>
+      </node>
+      <node id="Puebla.Amozoc" label="Puebla.Amozoc">
+        <attvalues>
+          <attvalue for="0" value="peer_municipio"/>
+          <attvalue for="1" value="2.727329934176072E8"/>
+        </attvalues>
+        <viz:size value="10.013125"/>
+        <viz:position x="-991.4449" y="130.5262"/>
+        <viz:color r="42" g="120" b="214"/>
+      </node>
+      <node id="Puebla.San Andrés Cholula" label="Puebla.San Andrés Cholula">
+        <attvalues>
+          <attvalue for="0" value="peer_municipio"/>
+          <attvalue for="1" value="6.617591752632177E8"/>
+        </attvalues>
+        <viz:size value="10.031847"/>
+        <viz:position x="-608.7614" y="793.35333"/>
+        <viz:color r="42" g="120" b="214"/>
+      </node>
+      <node id="Puebla.Santiago Miahuatlán" label="Puebla.Santiago Miahuatlán">
+        <attvalues>
+          <attvalue for="0" value="peer_municipio"/>
+          <attvalue for="1" value="42420.597541"/>
+        </attvalues>
+        <viz:size value="10.000002"/>
+        <viz:position x="608.7614" y="-793.35333"/>
+        <viz:color r="42" g="120" b="214"/>
+      </node>
+      <node id="Puebla.San Miguel Xoxtla" label="Puebla.San Miguel Xoxtla">
+        <attvalues>
+          <attvalue for="0" value="peer_municipio"/>
+          <attvalue for="1" value="4.9902500789288845E9"/>
+        </attvalues>
+        <viz:size value="10.240154"/>
+        <viz:position x="608.7614" y="793.35333"/>
+        <viz:color r="42" g="120" b="214"/>
+      </node>
+      <node id="Puebla.Teziutlán" label="Puebla.Teziutlán">
+        <attvalues>
+          <attvalue for="0" value="peer_municipio"/>
+          <attvalue for="1" value="2.7745208242305714E8"/>
+        </attvalues>
+        <viz:size value="10.013352"/>
+        <viz:position x="-923.8795" y="382.68344"/>
+        <viz:color r="42" g="120" b="214"/>
+      </node>
+      <node id="Puebla.Huauchinango" label="Puebla.Huauchinango">
+        <attvalues>
+          <attvalue for="0" value="peer_municipio"/>
+          <attvalue for="1" value="8.467028440332428E7"/>
+        </attvalues>
+        <viz:size value="10.004075"/>
+        <viz:position x="-130.5262" y="-991.4449"/>
+        <viz:color r="42" g="120" b="214"/>
+      </node>
+      <node id="Puebla.Hueytamalco" label="Puebla.Hueytamalco">
+        <attvalues>
+          <attvalue for="0" value="peer_municipio"/>
+          <attvalue for="1" value="1.1500000483908843E8"/>
+        </attvalues>
+        <viz:size value="10.005534"/>
+        <viz:position x="-382.68344" y="-923.8795"/>
+        <viz:color r="42" g="120" b="214"/>
+      </node>
+      <node id="Puebla.Chietla" label="Puebla.Chietla">
+        <attvalues>
+          <attvalue for="0" value="peer_municipio"/>
+          <attvalue for="1" value="2.015075104376985E9"/>
+        </attvalues>
+        <viz:size value="10.096974"/>
+        <viz:position x="-130.5262" y="991.4449"/>
+        <viz:color r="42" g="120" b="214"/>
+      </node>
+      <node id="Puebla.Nopalucan" label="Puebla.Nopalucan">
+        <attvalues>
+          <attvalue for="0" value="peer_municipio"/>
+          <attvalue for="1" value="8.36662773199482E7"/>
+        </attvalues>
+        <viz:size value="10.004026"/>
+        <viz:position x="130.5262" y="-991.4449"/>
+        <viz:color r="42" g="120" b="214"/>
+      </node>
+      <node id="Puebla.San José Chiapa" label="Puebla.San José Chiapa">
+        <attvalues>
+          <attvalue for="0" value="peer_municipio"/>
+          <attvalue for="1" value="3.2261677970640004E8"/>
+        </attvalues>
+        <viz:size value="10.015526"/>
+        <viz:position x="-793.35333" y="608.7614"/>
+        <viz:color r="42" g="120" b="214"/>
+      </node>
+      <node id="Puebla.Tepanco de López" label="Puebla.Tepanco de López">
+        <attvalues>
+          <attvalue for="0" value="peer_municipio"/>
+          <attvalue for="1" value="25.9369904"/>
+        </attvalues>
+        <viz:size value="10.0"/>
+        <viz:position x="991.4449" y="-130.5262"/>
+        <viz:color r="42" g="120" b="214"/>
+      </node>
+      <node id="Puebla.Xiutetelco" label="Puebla.Xiutetelco">
+        <attvalues>
+          <attvalue for="0" value="peer_municipio"/>
+          <attvalue for="1" value="2.258090444192E8"/>
+        </attvalues>
+        <viz:size value="10.010867"/>
+        <viz:position x="-991.4449" y="-130.5262"/>
+        <viz:color r="42" g="120" b="214"/>
+      </node>
+      <node id="Puebla.Chalchicomula de Sesma" label="Puebla.Chalchicomula de Sesma">
+        <attvalues>
+          <attvalue for="0" value="peer_municipio"/>
+          <attvalue for="1" value="190.323123734"/>
+        </attvalues>
+        <viz:size value="10.0"/>
+        <viz:position x="923.8795" y="-382.68344"/>
+        <viz:color r="42" g="120" b="214"/>
+      </node>
+      <node id="Puebla.Cuautinchán" label="Puebla.Cuautinchán">
+        <attvalues>
+          <attvalue for="0" value="peer_municipio"/>
+          <attvalue for="1" value="1.5164907443624834E10"/>
+        </attvalues>
+        <viz:size value="10.729806"/>
+        <viz:position x="991.4449" y="130.5262"/>
+        <viz:color r="42" g="120" b="214"/>
+      </node>
+    </nodes>
+    <edges>
+      <edge id="0" source="Puebla.Puebla" target="Bióxido de carbono" weight="6.23379546112E11">
+        <viz:color r="137" g="135" b="129" a="0.54901963"/>
+      </edge>
+      <edge id="1" source="Puebla.Puebla" target="Metano" weight="1122058.0">
+        <viz:color r="137" g="135" b="129" a="0.54901963"/>
+      </edge>
+      <edge id="2" source="Puebla.Puebla" target="Plomo (Compuestos solubles)" weight="209478.9375">
+        <viz:color r="137" g="135" b="129" a="0.54901963"/>
+      </edge>
+      <edge id="3" source="Puebla.Puebla" target="Xileno (mezcla de isómeros)" weight="88488.078125">
+        <viz:color r="137" g="135" b="129" a="0.54901963"/>
+      </edge>
+      <edge id="4" source="Puebla.Puebla" target="Plomo (compuestos)" weight="84560.1796875">
+        <viz:color r="137" g="135" b="129" a="0.54901963"/>
+      </edge>
+      <edge id="5" source="Puebla.Puebla" target="Níquel (compuestos)" weight="53838.83984375">
+        <viz:color r="137" g="135" b="129" a="0.54901963"/>
+      </edge>
+      <edge id="6" source="Puebla.Puebla" target="Cromo (compuestos)" weight="52293.26171875">
+        <viz:color r="137" g="135" b="129" a="0.54901963"/>
+      </edge>
+      <edge id="7" source="Puebla.Puebla" target="Cromo (Compuestos solubles)" weight="47265.30859375">
+        <viz:color r="137" g="135" b="129" a="0.54901963"/>
+      </edge>
+      <edge id="8" source="Puebla.Puebla" target="Níquel (Compuestos solubles)" weight="46322.16015625">
+        <viz:color r="137" g="135" b="129" a="0.54901963"/>
+      </edge>
+      <edge id="9" source="Puebla.Puebla" target="Asbesto y sus formas (En forma de polvo, fibras o productos desmenuzables con la presión de la mano)" weight="41732.0">
+        <viz:color r="137" g="135" b="129" a="0.54901963"/>
+      </edge>
+      <edge id="10" source="Puebla.Puebla" target="Plomo (polvos respirables, humos o vapores)" weight="6699.47998046875">
+        <viz:color r="137" g="135" b="129" a="0.54901963"/>
+      </edge>
+      <edge id="11" source="Puebla.Puebla" target="Bióxido de nitrógeno" weight="3523.806884765625">
+        <viz:color r="137" g="135" b="129" a="0.54901963"/>
+      </edge>
+      <edge id="12" source="Puebla.Puebla" target="Cianuro inorgánico/orgánico" weight="3072.026123046875">
+        <viz:color r="137" g="135" b="129" a="0.54901963"/>
+      </edge>
+      <edge id="13" source="Puebla.Puebla" target="Estireno (fenil etileno)" weight="1915.0">
+        <viz:color r="137" g="135" b="129" a="0.54901963"/>
+      </edge>
+      <edge id="14" source="Puebla.Puebla" target="Mercurio (polvos, respirables, vapores o humos)" weight="1892.7122802734375">
+        <viz:color r="137" g="135" b="129" a="0.54901963"/>
+      </edge>
+      <edge id="15" source="Bióxido de carbono" target="Puebla.Tehuacán" weight="1.28862624E8">
+        <viz:color r="137" g="135" b="129" a="0.54901963"/>
+      </edge>
+      <edge id="16" source="Bióxido de carbono" target="Puebla.San Martín Texmelucan" weight="5.510240256E9">
+        <viz:color r="137" g="135" b="129" a="0.54901963"/>
+      </edge>
+      <edge id="17" source="Bióxido de carbono" target="Puebla.Cuautlancingo" weight="4.480236032E9">
+        <viz:color r="137" g="135" b="129" a="0.54901963"/>
+      </edge>
+      <edge id="18" source="Bióxido de carbono" target="Puebla.Izúcar de Matamoros" weight="1.1670368E8">
+        <viz:color r="137" g="135" b="129" a="0.54901963"/>
+      </edge>
+      <edge id="19" source="Bióxido de carbono" target="Puebla.Huejotzingo" weight="1.331068032E9">
+        <viz:color r="137" g="135" b="129" a="0.54901963"/>
+      </edge>
+      <edge id="20" source="Bióxido de carbono" target="Puebla.Chignautla" weight="2.12601904E8">
+        <viz:color r="137" g="135" b="129" a="0.54901963"/>
+      </edge>
+      <edge id="21" source="Bióxido de carbono" target="Puebla.San Pedro Cholula" weight="8626851.0">
+        <viz:color r="137" g="135" b="129" a="0.54901963"/>
+      </edge>
+      <edge id="22" source="Bióxido de carbono" target="Puebla.Palmar de Bravo" weight="4.643383808E9">
+        <viz:color r="137" g="135" b="129" a="0.54901963"/>
+      </edge>
+      <edge id="23" source="Bióxido de carbono" target="Puebla.Acajete" weight="5.301666816E9">
+        <viz:color r="137" g="135" b="129" a="0.54901963"/>
+      </edge>
+      <edge id="24" source="Bióxido de carbono" target="Puebla.Coronango" weight="41189.984375">
+        <viz:color r="137" g="135" b="129" a="0.54901963"/>
+      </edge>
+      <edge id="25" source="Bióxido de carbono" target="Puebla.Amozoc" weight="2.6644704E8">
+        <viz:color r="137" g="135" b="129" a="0.54901963"/>
+      </edge>
+      <edge id="26" source="Bióxido de carbono" target="Puebla.San Andrés Cholula" weight="6.61747328E8">
+        <viz:color r="137" g="135" b="129" a="0.54901963"/>
+      </edge>
+      <edge id="27" source="Bióxido de carbono" target="Puebla.Santiago Miahuatlán" weight="42418.0">
+        <viz:color r="137" g="135" b="129" a="0.54901963"/>
+      </edge>
+      <edge id="28" source="Bióxido de carbono" target="Puebla.San Miguel Xoxtla" weight="4.990242304E9">
+        <viz:color r="137" g="135" b="129" a="0.54901963"/>
+      </edge>
+      <edge id="29" source="Bióxido de carbono" target="Puebla.Teziutlán" weight="2.77451936E8">
+        <viz:color r="137" g="135" b="129" a="0.54901963"/>
+      </edge>
+      <edge id="30" source="Bióxido de carbono" target="Puebla.Huauchinango" weight="8.4653192E7">
+        <viz:color r="137" g="135" b="129" a="0.54901963"/>
+      </edge>
+      <edge id="31" source="Bióxido de carbono" target="Puebla.Hueytamalco" weight="1.15E8">
+        <viz:color r="137" g="135" b="129" a="0.54901963"/>
+      </edge>
+      <edge id="32" source="Bióxido de carbono" target="Puebla.Chietla" weight="2.014927872E9">
+        <viz:color r="137" g="135" b="129" a="0.54901963"/>
+      </edge>
+      <edge id="33" source="Bióxido de carbono" target="Puebla.Nopalucan" weight="8.3666272E7">
+        <viz:color r="137" g="135" b="129" a="0.54901963"/>
+      </edge>
+      <edge id="34" source="Bióxido de carbono" target="Puebla.San José Chiapa" weight="3.22181376E8">
+        <viz:color r="137" g="135" b="129" a="0.54901963"/>
+      </edge>
+      <edge id="35" source="Bióxido de carbono" target="Puebla.Xiutetelco" weight="2.25808832E8">
+        <viz:color r="137" g="135" b="129" a="0.54901963"/>
+      </edge>
+      <edge id="36" source="Bióxido de carbono" target="Puebla.Chalchicomula de Sesma" weight="1.2373400386422873E-4">
+        <viz:color r="137" g="135" b="129" a="0.54901963"/>
+      </edge>
+      <edge id="37" source="Bióxido de carbono" target="Puebla.Cuautinchán" weight="1.51649024E10">
+        <viz:color r="137" g="135" b="129" a="0.54901963"/>
+      </edge>
+      <edge id="38" source="Metano" target="Puebla.San Martín Texmelucan" weight="45102.98046875">
+        <viz:color r="137" g="135" b="129" a="0.54901963"/>
+      </edge>
+      <edge id="39" source="Metano" target="Puebla.Amozoc" weight="6285776.0">
+        <viz:color r="137" g="135" b="129" a="0.54901963"/>
+      </edge>
+      <edge id="40" source="Metano" target="Puebla.San Andrés Cholula" weight="11614.4599609375">
+        <viz:color r="137" g="135" b="129" a="0.54901963"/>
+      </edge>
+      <edge id="41" source="Metano" target="Puebla.Huauchinango" weight="17013.0">
+        <viz:color r="137" g="135" b="129" a="0.54901963"/>
+      </edge>
+      <edge id="42" source="Metano" target="Puebla.Chietla" weight="143616.578125">
+        <viz:color r="137" g="135" b="129" a="0.54901963"/>
+      </edge>
+      <edge id="43" source="Plomo (Compuestos solubles)" target="Puebla.Tehuacán" weight="517.077392578125">
+        <viz:color r="137" g="135" b="129" a="0.54901963"/>
+      </edge>
+      <edge id="44" source="Plomo (Compuestos solubles)" target="Puebla.San Martín Texmelucan" weight="976.6005859375">
+        <viz:color r="137" g="135" b="129" a="0.54901963"/>
+      </edge>
+      <edge id="45" source="Plomo (Compuestos solubles)" target="Puebla.Cuautlancingo" weight="355273.8125">
+        <viz:color r="137" g="135" b="129" a="0.54901963"/>
+      </edge>
+      <edge id="46" source="Plomo (Compuestos solubles)" target="Puebla.Izúcar de Matamoros" weight="97.69758605957031">
+        <viz:color r="137" g="135" b="129" a="0.54901963"/>
+      </edge>
+      <edge id="47" source="Plomo (Compuestos solubles)" target="Puebla.Huejotzingo" weight="1636.869873046875">
+        <viz:color r="137" g="135" b="129" a="0.54901963"/>
+      </edge>
+      <edge id="48" source="Plomo (Compuestos solubles)" target="Puebla.Chignautla" weight="21.634475708007812">
+        <viz:color r="137" g="135" b="129" a="0.54901963"/>
+      </edge>
+      <edge id="49" source="Plomo (Compuestos solubles)" target="Puebla.San Pedro Cholula" weight="0.24780400097370148">
+        <viz:color r="137" g="135" b="129" a="0.54901963"/>
+      </edge>
+      <edge id="50" source="Plomo (Compuestos solubles)" target="Puebla.Palmar de Bravo" weight="0.16879500448703766">
+        <viz:color r="137" g="135" b="129" a="0.54901963"/>
+      </edge>
+      <edge id="51" source="Plomo (Compuestos solubles)" target="Puebla.Acajete" weight="0.2515999972820282">
+        <viz:color r="137" g="135" b="129" a="0.54901963"/>
+      </edge>
+      <edge id="52" source="Plomo (Compuestos solubles)" target="Puebla.Coronango" weight="917.78515625">
+        <viz:color r="137" g="135" b="129" a="0.54901963"/>
+      </edge>
+      <edge id="53" source="Plomo (Compuestos solubles)" target="Puebla.Amozoc" weight="7.590043067932129">
+        <viz:color r="137" g="135" b="129" a="0.54901963"/>
+      </edge>
+      <edge id="54" source="Plomo (Compuestos solubles)" target="Puebla.San Andrés Cholula" weight="40.588523864746094">
+        <viz:color r="137" g="135" b="129" a="0.54901963"/>
+      </edge>
+      <edge id="55" source="Plomo (Compuestos solubles)" target="Puebla.Santiago Miahuatlán" weight="0.015812000259757042">
+        <viz:color r="137" g="135" b="129" a="0.54901963"/>
+      </edge>
+      <edge id="56" source="Plomo (Compuestos solubles)" target="Puebla.San Miguel Xoxtla" weight="111.05856323242188">
+        <viz:color r="137" g="135" b="129" a="0.54901963"/>
+      </edge>
+      <edge id="57" source="Plomo (Compuestos solubles)" target="Puebla.Teziutlán" weight="42.86410140991211">
+        <viz:color r="137" g="135" b="129" a="0.54901963"/>
+      </edge>
+      <edge id="58" source="Plomo (Compuestos solubles)" target="Puebla.Huauchinango" weight="3.182800054550171">
+        <viz:color r="137" g="135" b="129" a="0.54901963"/>
+      </edge>
+      <edge id="59" source="Plomo (Compuestos solubles)" target="Puebla.Chietla" weight="370.9206848144531">
+        <viz:color r="137" g="135" b="129" a="0.54901963"/>
+      </edge>
+      <edge id="60" source="Plomo (Compuestos solubles)" target="Puebla.San José Chiapa" weight="16462.66015625">
+        <viz:color r="137" g="135" b="129" a="0.54901963"/>
+      </edge>
+      <edge id="61" source="Plomo (Compuestos solubles)" target="Puebla.Tepanco de López" weight="11.15410041809082">
+        <viz:color r="137" g="135" b="129" a="0.54901963"/>
+      </edge>
+      <edge id="62" source="Plomo (Compuestos solubles)" target="Puebla.Xiutetelco" weight="33.40719985961914">
+        <viz:color r="137" g="135" b="129" a="0.54901963"/>
+      </edge>
+      <edge id="63" source="Plomo (Compuestos solubles)" target="Puebla.Chalchicomula de Sesma" weight="59.509498596191406">
+        <viz:color r="137" g="135" b="129" a="0.54901963"/>
+      </edge>
+      <edge id="64" source="Plomo (Compuestos solubles)" target="Puebla.Cuautinchán" weight="90.21295166015625">
+        <viz:color r="137" g="135" b="129" a="0.54901963"/>
+      </edge>
+      <edge id="65" source="Xileno (mezcla de isómeros)" target="Puebla.San José Chiapa" weight="376188.25">
+        <viz:color r="137" g="135" b="129" a="0.54901963"/>
+      </edge>
+      <edge id="66" source="Plomo (compuestos)" target="Puebla.Tehuacán" weight="250.91392517089844">
+        <viz:color r="137" g="135" b="129" a="0.54901963"/>
+      </edge>
+      <edge id="67" source="Plomo (compuestos)" target="Puebla.San Martín Texmelucan" weight="779.1773071289062">
+        <viz:color r="137" g="135" b="129" a="0.54901963"/>
+      </edge>
+      <edge id="68" source="Plomo (compuestos)" target="Puebla.Cuautlancingo" weight="246706.046875">
+        <viz:color r="137" g="135" b="129" a="0.54901963"/>
+      </edge>
+      <edge id="69" source="Plomo (compuestos)" target="Puebla.Izúcar de Matamoros" weight="516.0810546875">
+        <viz:color r="137" g="135" b="129" a="0.54901963"/>
+      </edge>
+      <edge id="70" source="Plomo (compuestos)" target="Puebla.Huejotzingo" weight="80.65827178955078">
+        <viz:color r="137" g="135" b="129" a="0.54901963"/>
+      </edge>
+      <edge id="71" source="Plomo (compuestos)" target="Puebla.Chignautla" weight="178.83358764648438">
+        <viz:color r="137" g="135" b="129" a="0.54901963"/>
+      </edge>
+      <edge id="72" source="Plomo (compuestos)" target="Puebla.San Pedro Cholula" weight="6.627099514007568">
+        <viz:color r="137" g="135" b="129" a="0.54901963"/>
+      </edge>
+      <edge id="73" source="Plomo (compuestos)" target="Puebla.Palmar de Bravo" weight="35.772010803222656">
+        <viz:color r="137" g="135" b="129" a="0.54901963"/>
+      </edge>
+      <edge id="74" source="Plomo (compuestos)" target="Puebla.Acajete" weight="0.5137374997138977">
+        <viz:color r="137" g="135" b="129" a="0.54901963"/>
+      </edge>
+      <edge id="75" source="Plomo (compuestos)" target="Puebla.Coronango" weight="0.6291450262069702">
+        <viz:color r="137" g="135" b="129" a="0.54901963"/>
+      </edge>
+      <edge id="76" source="Plomo (compuestos)" target="Puebla.Amozoc" weight="4.668858528137207">
+        <viz:color r="137" g="135" b="129" a="0.54901963"/>
+      </edge>
+      <edge id="77" source="Plomo (compuestos)" target="Puebla.San Andrés Cholula" weight="4.664482593536377">
+        <viz:color r="137" g="135" b="129" a="0.54901963"/>
+      </edge>
+      <edge id="78" source="Plomo (compuestos)" target="Puebla.Santiago Miahuatlán" weight="0.04394099861383438">
+        <viz:color r="137" g="135" b="129" a="0.54901963"/>
+      </edge>
+      <edge id="79" source="Plomo (compuestos)" target="Puebla.San Miguel Xoxtla" weight="464.69940185546875">
+        <viz:color r="137" g="135" b="129" a="0.54901963"/>
+      </edge>
+      <edge id="80" source="Plomo (compuestos)" target="Puebla.Teziutlán" weight="22.48992347717285">
+        <viz:color r="137" g="135" b="129" a="0.54901963"/>
+      </edge>
+      <edge id="81" source="Plomo (compuestos)" target="Puebla.Huauchinango" weight="21.956928253173828">
+        <viz:color r="137" g="135" b="129" a="0.54901963"/>
+      </edge>
+      <edge id="82" source="Plomo (compuestos)" target="Puebla.Hueytamalco" weight="0.26881980895996094">
+        <viz:color r="137" g="135" b="129" a="0.54901963"/>
+      </edge>
+      <edge id="83" source="Plomo (compuestos)" target="Puebla.Chietla" weight="670.5364379882812">
+        <viz:color r="137" g="135" b="129" a="0.54901963"/>
+      </edge>
+      <edge id="84" source="Plomo (compuestos)" target="Puebla.Tepanco de López">
+        <viz:color r="137" g="135" b="129" a="0.54901963"/>
+      </edge>
+      <edge id="85" source="Plomo (compuestos)" target="Puebla.Xiutetelco" weight="8.0">
+        <viz:color r="137" g="135" b="129" a="0.54901963"/>
+      </edge>
+      <edge id="86" source="Plomo (compuestos)" target="Puebla.Chalchicomula de Sesma" weight="5.750500202178955">
+        <viz:color r="137" g="135" b="129" a="0.54901963"/>
+      </edge>
+      <edge id="87" source="Plomo (compuestos)" target="Puebla.Cuautinchán" weight="3300.314208984375">
+        <viz:color r="137" g="135" b="129" a="0.54901963"/>
+      </edge>
+      <edge id="88" source="Níquel (compuestos)" target="Puebla.Tehuacán" weight="426.00177001953125">
+        <viz:color r="137" g="135" b="129" a="0.54901963"/>
+      </edge>
+      <edge id="89" source="Níquel (compuestos)" target="Puebla.San Martín Texmelucan" weight="1114.9281005859375">
+        <viz:color r="137" g="135" b="129" a="0.54901963"/>
+      </edge>
+      <edge id="90" source="Níquel (compuestos)" target="Puebla.Cuautlancingo" weight="3886.98681640625">
+        <viz:color r="137" g="135" b="129" a="0.54901963"/>
+      </edge>
+      <edge id="91" source="Níquel (compuestos)" target="Puebla.Izúcar de Matamoros" weight="351.68243408203125">
+        <viz:color r="137" g="135" b="129" a="0.54901963"/>
+      </edge>
+      <edge id="92" source="Níquel (compuestos)" target="Puebla.Huejotzingo" weight="122.42127227783203">
+        <viz:color r="137" g="135" b="129" a="0.54901963"/>
+      </edge>
+      <edge id="93" source="Níquel (compuestos)" target="Puebla.Chignautla" weight="206.84002685546875">
+        <viz:color r="137" g="135" b="129" a="0.54901963"/>
+      </edge>
+      <edge id="94" source="Níquel (compuestos)" target="Puebla.San Pedro Cholula" weight="1.8594547510147095">
+        <viz:color r="137" g="135" b="129" a="0.54901963"/>
+      </edge>
+      <edge id="95" source="Níquel (compuestos)" target="Puebla.Palmar de Bravo" weight="5.181669235229492">
+        <viz:color r="137" g="135" b="129" a="0.54901963"/>
+      </edge>
+      <edge id="96" source="Níquel (compuestos)" target="Puebla.Acajete" weight="0.9526500105857849">
+        <viz:color r="137" g="135" b="129" a="0.54901963"/>
+      </edge>
+      <edge id="97" source="Níquel (compuestos)" target="Puebla.Coronango" weight="0.6482099890708923">
+        <viz:color r="137" g="135" b="129" a="0.54901963"/>
+      </edge>
+      <edge id="98" source="Níquel (compuestos)" target="Puebla.Amozoc" weight="26.700843811035156">
+        <viz:color r="137" g="135" b="129" a="0.54901963"/>
+      </edge>
+      <edge id="99" source="Níquel (compuestos)" target="Puebla.San Andrés Cholula" weight="11.266878128051758">
+        <viz:color r="137" g="135" b="129" a="0.54901963"/>
+      </edge>
+      <edge id="100" source="Níquel (compuestos)" target="Puebla.Santiago Miahuatlán" weight="0.9874950051307678">
+        <viz:color r="137" g="135" b="129" a="0.54901963"/>
+      </edge>
+      <edge id="101" source="Níquel (compuestos)" target="Puebla.San Miguel Xoxtla" weight="12.298500061035156">
+        <viz:color r="137" g="135" b="129" a="0.54901963"/>
+      </edge>
+      <edge id="102" source="Níquel (compuestos)" target="Puebla.Teziutlán" weight="17.159122467041016">
+        <viz:color r="137" g="135" b="129" a="0.54901963"/>
+      </edge>
+      <edge id="103" source="Níquel (compuestos)" target="Puebla.Huauchinango" weight="30.26239013671875">
+        <viz:color r="137" g="135" b="129" a="0.54901963"/>
+      </edge>
+      <edge id="104" source="Níquel (compuestos)" target="Puebla.Hueytamalco" weight="0.23334810137748718">
+        <viz:color r="137" g="135" b="129" a="0.54901963"/>
+      </edge>
+      <edge id="105" source="Níquel (compuestos)" target="Puebla.Chietla" weight="1122.3094482421875">
+        <viz:color r="137" g="135" b="129" a="0.54901963"/>
+      </edge>
+      <edge id="106" source="Níquel (compuestos)" target="Puebla.Nopalucan" weight="1.2193809747695923">
+        <viz:color r="137" g="135" b="129" a="0.54901963"/>
+      </edge>
+      <edge id="107" source="Níquel (compuestos)" target="Puebla.Tepanco de López" weight="0.7044699788093567">
+        <viz:color r="137" g="135" b="129" a="0.54901963"/>
+      </edge>
+      <edge id="108" source="Níquel (compuestos)" target="Puebla.Xiutetelco" weight="24.0">
+        <viz:color r="137" g="135" b="129" a="0.54901963"/>
+      </edge>
+      <edge id="109" source="Níquel (compuestos)" target="Puebla.Chalchicomula de Sesma" weight="10.202500343322754">
+        <viz:color r="137" g="135" b="129" a="0.54901963"/>
+      </edge>
+      <edge id="110" source="Cromo (compuestos)" target="Puebla.Tehuacán" weight="169.39344787597656">
+        <viz:color r="137" g="135" b="129" a="0.54901963"/>
+      </edge>
+      <edge id="111" source="Cromo (compuestos)" target="Puebla.San Martín Texmelucan" weight="434.06964111328125">
+        <viz:color r="137" g="135" b="129" a="0.54901963"/>
+      </edge>
+      <edge id="112" source="Cromo (compuestos)" target="Puebla.Cuautlancingo" weight="2754.496826171875">
+        <viz:color r="137" g="135" b="129" a="0.54901963"/>
+      </edge>
+      <edge id="113" source="Cromo (compuestos)" target="Puebla.Izúcar de Matamoros" weight="40.30185317993164">
+        <viz:color r="137" g="135" b="129" a="0.54901963"/>
+      </edge>
+      <edge id="114" source="Cromo (compuestos)" target="Puebla.Huejotzingo" weight="89.81995391845703">
+        <viz:color r="137" g="135" b="129" a="0.54901963"/>
+      </edge>
+      <edge id="115" source="Cromo (compuestos)" target="Puebla.Chignautla" weight="198.67726135253906">
+        <viz:color r="137" g="135" b="129" a="0.54901963"/>
+      </edge>
+      <edge id="116" source="Cromo (compuestos)" target="Puebla.San Pedro Cholula" weight="2.19620680809021">
+        <viz:color r="137" g="135" b="129" a="0.54901963"/>
+      </edge>
+      <edge id="117" source="Cromo (compuestos)" target="Puebla.Palmar de Bravo" weight="64.35848236083984">
+        <viz:color r="137" g="135" b="129" a="0.54901963"/>
+      </edge>
+      <edge id="118" source="Cromo (compuestos)" target="Puebla.Acajete" weight="0.4652250111103058">
+        <viz:color r="137" g="135" b="129" a="0.54901963"/>
+      </edge>
+      <edge id="119" source="Cromo (compuestos)" target="Puebla.Coronango" weight="0.6253319978713989">
+        <viz:color r="137" g="135" b="129" a="0.54901963"/>
+      </edge>
+      <edge id="120" source="Cromo (compuestos)" target="Puebla.Amozoc" weight="10.444123268127441">
+        <viz:color r="137" g="135" b="129" a="0.54901963"/>
+      </edge>
+      <edge id="121" source="Cromo (compuestos)" target="Puebla.San Andrés Cholula" weight="3.5034942626953125">
+        <viz:color r="137" g="135" b="129" a="0.54901963"/>
+      </edge>
+      <edge id="122" source="Cromo (compuestos)" target="Puebla.Santiago Miahuatlán" weight="0.14203499257564545">
+        <viz:color r="137" g="135" b="129" a="0.54901963"/>
+      </edge>
+      <edge id="123" source="Cromo (compuestos)" target="Puebla.San Miguel Xoxtla" weight="2034.7044677734375">
+        <viz:color r="137" g="135" b="129" a="0.54901963"/>
+      </edge>
+      <edge id="124" source="Cromo (compuestos)" target="Puebla.Teziutlán" weight="2.4429140090942383">
+        <viz:color r="137" g="135" b="129" a="0.54901963"/>
+      </edge>
+      <edge id="125" source="Cromo (compuestos)" target="Puebla.Huauchinango" weight="9.729832649230957">
+        <viz:color r="137" g="135" b="129" a="0.54901963"/>
+      </edge>
+      <edge id="126" source="Cromo (compuestos)" target="Puebla.Hueytamalco" weight="0.24255509674549103">
+        <viz:color r="137" g="135" b="129" a="0.54901963"/>
+      </edge>
+      <edge id="127" source="Cromo (compuestos)" target="Puebla.Chietla" weight="1050.5618896484375">
+        <viz:color r="137" g="135" b="129" a="0.54901963"/>
+      </edge>
+      <edge id="128" source="Cromo (compuestos)" target="Puebla.Nopalucan" weight="0.17126619815826416">
+        <viz:color r="137" g="135" b="129" a="0.54901963"/>
+      </edge>
+      <edge id="129" source="Cromo (compuestos)" target="Puebla.Tepanco de López" weight="0.7045000195503235">
+        <viz:color r="137" g="135" b="129" a="0.54901963"/>
+      </edge>
+      <edge id="130" source="Cromo (compuestos)" target="Puebla.Xiutetelco" weight="21.0">
+        <viz:color r="137" g="135" b="129" a="0.54901963"/>
+      </edge>
+      <edge id="131" source="Cromo (compuestos)" target="Puebla.Chalchicomula de Sesma" weight="8.532999992370605">
+        <viz:color r="137" g="135" b="129" a="0.54901963"/>
+      </edge>
+      <edge id="132" source="Cromo (compuestos)" target="Puebla.Cuautinchán" weight="499.13531494140625">
+        <viz:color r="137" g="135" b="129" a="0.54901963"/>
+      </edge>
+      <edge id="133" source="Cromo (Compuestos solubles)" target="Puebla.Tehuacán" weight="668.2064819335938">
+        <viz:color r="137" g="135" b="129" a="0.54901963"/>
+      </edge>
+      <edge id="134" source="Cromo (Compuestos solubles)" target="Puebla.San Martín Texmelucan" weight="959.5866088867188">
+        <viz:color r="137" g="135" b="129" a="0.54901963"/>
+      </edge>
+      <edge id="135" source="Cromo (Compuestos solubles)" target="Puebla.Cuautlancingo" weight="645.1344604492188">
+        <viz:color r="137" g="135" b="129" a="0.54901963"/>
+      </edge>
+      <edge id="136" source="Cromo (Compuestos solubles)" target="Puebla.Izúcar de Matamoros" weight="16.779512405395508">
+        <viz:color r="137" g="135" b="129" a="0.54901963"/>
+      </edge>
+      <edge id="137" source="Cromo (Compuestos solubles)" target="Puebla.Huejotzingo" weight="1642.4542236328125">
+        <viz:color r="137" g="135" b="129" a="0.54901963"/>
+      </edge>
+      <edge id="138" source="Cromo (Compuestos solubles)" target="Puebla.Chignautla" weight="112.9917984008789">
+        <viz:color r="137" g="135" b="129" a="0.54901963"/>
+      </edge>
+      <edge id="139" source="Cromo (Compuestos solubles)" target="Puebla.San Pedro Cholula" weight="0.2901119887828827">
+        <viz:color r="137" g="135" b="129" a="0.54901963"/>
+      </edge>
+      <edge id="140" source="Cromo (Compuestos solubles)" target="Puebla.Palmar de Bravo" weight="5.103919982910156">
+        <viz:color r="137" g="135" b="129" a="0.54901963"/>
+      </edge>
+      <edge id="141" source="Cromo (Compuestos solubles)" target="Puebla.Acajete" weight="0.11147519946098328">
+        <viz:color r="137" g="135" b="129" a="0.54901963"/>
+      </edge>
+      <edge id="142" source="Cromo (Compuestos solubles)" target="Puebla.Coronango" weight="6.895135402679443">
+        <viz:color r="137" g="135" b="129" a="0.54901963"/>
+      </edge>
+      <edge id="143" source="Cromo (Compuestos solubles)" target="Puebla.Amozoc" weight="15.062560081481934">
+        <viz:color r="137" g="135" b="129" a="0.54901963"/>
+      </edge>
+      <edge id="144" source="Cromo (Compuestos solubles)" target="Puebla.San Andrés Cholula" weight="31.588300704956055">
+        <viz:color r="137" g="135" b="129" a="0.54901963"/>
+      </edge>
+      <edge id="145" source="Cromo (Compuestos solubles)" target="Puebla.Santiago Miahuatlán" weight="0.03179299831390381">
+        <viz:color r="137" g="135" b="129" a="0.54901963"/>
+      </edge>
+      <edge id="146" source="Cromo (Compuestos solubles)" target="Puebla.San Miguel Xoxtla" weight="853.068603515625">
+        <viz:color r="137" g="135" b="129" a="0.54901963"/>
+      </edge>
+      <edge id="147" source="Cromo (Compuestos solubles)" target="Puebla.Teziutlán" weight="10.017399787902832">
+        <viz:color r="137" g="135" b="129" a="0.54901963"/>
+      </edge>
+      <edge id="148" source="Cromo (Compuestos solubles)" target="Puebla.Huauchinango" weight="3.182800054550171">
+        <viz:color r="137" g="135" b="129" a="0.54901963"/>
+      </edge>
+      <edge id="149" source="Cromo (Compuestos solubles)" target="Puebla.Hueytamalco" weight="1.476099967956543">
+        <viz:color r="137" g="135" b="129" a="0.54901963"/>
+      </edge>
+      <edge id="150" source="Cromo (Compuestos solubles)" target="Puebla.Chietla" weight="149.2593994140625">
+        <viz:color r="137" g="135" b="129" a="0.54901963"/>
+      </edge>
+      <edge id="151" source="Cromo (Compuestos solubles)" target="Puebla.San José Chiapa" weight="160.17709350585938">
+        <viz:color r="137" g="135" b="129" a="0.54901963"/>
+      </edge>
+      <edge id="152" source="Cromo (Compuestos solubles)" target="Puebla.Tepanco de López" weight="5.889100074768066">
+        <viz:color r="137" g="135" b="129" a="0.54901963"/>
+      </edge>
+      <edge id="153" source="Cromo (Compuestos solubles)" target="Puebla.Xiutetelco" weight="93.21600341796875">
+        <viz:color r="137" g="135" b="129" a="0.54901963"/>
+      </edge>
+      <edge id="154" source="Cromo (Compuestos solubles)" target="Puebla.Chalchicomula de Sesma" weight="17.8976993560791">
+        <viz:color r="137" g="135" b="129" a="0.54901963"/>
+      </edge>
+      <edge id="155" source="Cromo (Compuestos solubles)" target="Puebla.Cuautinchán" weight="166.18174743652344">
+        <viz:color r="137" g="135" b="129" a="0.54901963"/>
+      </edge>
+      <edge id="156" source="Níquel (Compuestos solubles)" target="Puebla.Tehuacán" weight="1711.2047119140625">
+        <viz:color r="137" g="135" b="129" a="0.54901963"/>
+      </edge>
+      <edge id="157" source="Níquel (Compuestos solubles)" target="Puebla.San Martín Texmelucan" weight="2203.947998046875">
+        <viz:color r="137" g="135" b="129" a="0.54901963"/>
+      </edge>
+      <edge id="158" source="Níquel (Compuestos solubles)" target="Puebla.Cuautlancingo" weight="1321.3946533203125">
+        <viz:color r="137" g="135" b="129" a="0.54901963"/>
+      </edge>
+      <edge id="159" source="Níquel (Compuestos solubles)" target="Puebla.Izúcar de Matamoros" weight="96.45709991455078">
+        <viz:color r="137" g="135" b="129" a="0.54901963"/>
+      </edge>
+      <edge id="160" source="Níquel (Compuestos solubles)" target="Puebla.Huejotzingo" weight="632.2527465820312">
+        <viz:color r="137" g="135" b="129" a="0.54901963"/>
+      </edge>
+      <edge id="161" source="Níquel (Compuestos solubles)" target="Puebla.Chignautla" weight="57.58224868774414">
+        <viz:color r="137" g="135" b="129" a="0.54901963"/>
+      </edge>
+      <edge id="162" source="Níquel (Compuestos solubles)" target="Puebla.San Pedro Cholula" weight="0.3717060089111328">
+        <viz:color r="137" g="135" b="129" a="0.54901963"/>
+      </edge>
+      <edge id="163" source="Níquel (Compuestos solubles)" target="Puebla.Palmar de Bravo" weight="2.5481948852539062">
+        <viz:color r="137" g="135" b="129" a="0.54901963"/>
+      </edge>
+      <edge id="164" source="Níquel (Compuestos solubles)" target="Puebla.Acajete" weight="0.14252719283103943">
+        <viz:color r="137" g="135" b="129" a="0.54901963"/>
+      </edge>
+      <edge id="165" source="Níquel (Compuestos solubles)" target="Puebla.Coronango" weight="4.006985187530518">
+        <viz:color r="137" g="135" b="129" a="0.54901963"/>
+      </edge>
+      <edge id="166" source="Níquel (Compuestos solubles)" target="Puebla.Amozoc" weight="94.70356750488281">
+        <viz:color r="137" g="135" b="129" a="0.54901963"/>
+      </edge>
+      <edge id="167" source="Níquel (Compuestos solubles)" target="Puebla.San Andrés Cholula" weight="89.51581573486328">
+        <viz:color r="137" g="135" b="129" a="0.54901963"/>
+      </edge>
+      <edge id="168" source="Níquel (Compuestos solubles)" target="Puebla.Santiago Miahuatlán" weight="0.15289799869060516">
+        <viz:color r="137" g="135" b="129" a="0.54901963"/>
+      </edge>
+      <edge id="169" source="Níquel (Compuestos solubles)" target="Puebla.San Miguel Xoxtla" weight="111.01968383789062">
+        <viz:color r="137" g="135" b="129" a="0.54901963"/>
+      </edge>
+      <edge id="170" source="Níquel (Compuestos solubles)" target="Puebla.Teziutlán" weight="20.034799575805664">
+        <viz:color r="137" g="135" b="129" a="0.54901963"/>
+      </edge>
+      <edge id="171" source="Níquel (Compuestos solubles)" target="Puebla.Huauchinango" weight="6.365600109100342">
+        <viz:color r="137" g="135" b="129" a="0.54901963"/>
+      </edge>
+      <edge id="172" source="Níquel (Compuestos solubles)" target="Puebla.Hueytamalco" weight="2.5694000720977783">
+        <viz:color r="137" g="135" b="129" a="0.54901963"/>
+      </edge>
+      <edge id="173" source="Níquel (Compuestos solubles)" target="Puebla.Chietla" weight="141.87359619140625">
+        <viz:color r="137" g="135" b="129" a="0.54901963"/>
+      </edge>
+      <edge id="174" source="Níquel (Compuestos solubles)" target="Puebla.Nopalucan" weight="1.0420000553131104">
+        <viz:color r="137" g="135" b="129" a="0.54901963"/>
+      </edge>
+      <edge id="175" source="Níquel (Compuestos solubles)" target="Puebla.San José Chiapa" weight="295.3330078125">
+        <viz:color r="137" g="135" b="129" a="0.54901963"/>
+      </edge>
+      <edge id="176" source="Níquel (Compuestos solubles)" target="Puebla.Tepanco de López" weight="6.165500164031982">
+        <viz:color r="137" g="135" b="129" a="0.54901963"/>
+      </edge>
+      <edge id="177" source="Níquel (Compuestos solubles)" target="Puebla.Xiutetelco" weight="23.695999145507812">
+        <viz:color r="137" g="135" b="129" a="0.54901963"/>
+      </edge>
+      <edge id="178" source="Níquel (Compuestos solubles)" target="Puebla.Chalchicomula de Sesma" weight="86.01830291748047">
+        <viz:color r="137" g="135" b="129" a="0.54901963"/>
+      </edge>
+      <edge id="179" source="Asbesto y sus formas (En forma de polvo, fibras o productos desmenuzables con la presión de la mano)" target="Puebla.San Martín Texmelucan" weight="1570.0">
+        <viz:color r="137" g="135" b="129" a="0.54901963"/>
+      </edge>
+      <edge id="180" source="Asbesto y sus formas (En forma de polvo, fibras o productos desmenuzables con la presión de la mano)" target="Puebla.Huejotzingo" weight="115.0">
+        <viz:color r="137" g="135" b="129" a="0.54901963"/>
+      </edge>
+      <edge id="181" source="Asbesto y sus formas (En forma de polvo, fibras o productos desmenuzables con la presión de la mano)" target="Puebla.San Andrés Cholula" weight="36.0">
+        <viz:color r="137" g="135" b="129" a="0.54901963"/>
+      </edge>
+      <edge id="182" source="Plomo (polvos respirables, humos o vapores)" target="Puebla.Cuautlancingo" weight="50022.87109375">
+        <viz:color r="137" g="135" b="129" a="0.54901963"/>
+      </edge>
+      <edge id="183" source="Plomo (polvos respirables, humos o vapores)" target="Puebla.Huejotzingo" weight="5.62799072265625">
+        <viz:color r="137" g="135" b="129" a="0.54901963"/>
+      </edge>
+      <edge id="184" source="Plomo (polvos respirables, humos o vapores)" target="Puebla.San Miguel Xoxtla" weight="4081.941162109375">
+        <viz:color r="137" g="135" b="129" a="0.54901963"/>
+      </edge>
+      <edge id="185" source="Plomo (polvos respirables, humos o vapores)" target="Puebla.Teziutlán" weight="29.26300048828125">
+        <viz:color r="137" g="135" b="129" a="0.54901963"/>
+      </edge>
+      <edge id="186" source="Plomo (polvos respirables, humos o vapores)" target="Puebla.San José Chiapa" weight="42205.828125">
+        <viz:color r="137" g="135" b="129" a="0.54901963"/>
+      </edge>
+      <edge id="187" source="Plomo (polvos respirables, humos o vapores)" target="Puebla.Cuautinchán" weight="368.37158203125">
+        <viz:color r="137" g="135" b="129" a="0.54901963"/>
+      </edge>
+      <edge id="188" source="Bióxido de nitrógeno" target="Puebla.Cuautlancingo" weight="1758720.0">
+        <viz:color r="137" g="135" b="129" a="0.54901963"/>
+      </edge>
+      <edge id="189" source="Bióxido de nitrógeno" target="Puebla.Acajete" weight="226510.0">
+        <viz:color r="137" g="135" b="129" a="0.54901963"/>
+      </edge>
+      <edge id="190" source="Cianuro inorgánico/orgánico" target="Puebla.Tehuacán" weight="34.826637268066406">
+        <viz:color r="137" g="135" b="129" a="0.54901963"/>
+      </edge>
+      <edge id="191" source="Cianuro inorgánico/orgánico" target="Puebla.San Martín Texmelucan" weight="123308.5234375">
+        <viz:color r="137" g="135" b="129" a="0.54901963"/>
+      </edge>
+      <edge id="192" source="Cianuro inorgánico/orgánico" target="Puebla.Cuautlancingo" weight="6570.9326171875">
+        <viz:color r="137" g="135" b="129" a="0.54901963"/>
+      </edge>
+      <edge id="193" source="Cianuro inorgánico/orgánico" target="Puebla.Izúcar de Matamoros" weight="27382.861328125">
+        <viz:color r="137" g="135" b="129" a="0.54901963"/>
+      </edge>
+      <edge id="194" source="Cianuro inorgánico/orgánico" target="Puebla.Huejotzingo" weight="12.064448356628418">
+        <viz:color r="137" g="135" b="129" a="0.54901963"/>
+      </edge>
+      <edge id="195" source="Cianuro inorgánico/orgánico" target="Puebla.Chignautla" weight="4119.93408203125">
+        <viz:color r="137" g="135" b="129" a="0.54901963"/>
+      </edge>
+      <edge id="196" source="Cianuro inorgánico/orgánico" target="Puebla.San Pedro Cholula" weight="0.4320780038833618">
+        <viz:color r="137" g="135" b="129" a="0.54901963"/>
+      </edge>
+      <edge id="197" source="Cianuro inorgánico/orgánico" target="Puebla.Palmar de Bravo" weight="0.7875660061836243">
+        <viz:color r="137" g="135" b="129" a="0.54901963"/>
+      </edge>
+      <edge id="198" source="Cianuro inorgánico/orgánico" target="Puebla.Acajete" weight="0.34214380383491516">
+        <viz:color r="137" g="135" b="129" a="0.54901963"/>
+      </edge>
+      <edge id="199" source="Cianuro inorgánico/orgánico" target="Puebla.Coronango" weight="0.13144999742507935">
+        <viz:color r="137" g="135" b="129" a="0.54901963"/>
+      </edge>
+      <edge id="200" source="Cianuro inorgánico/orgánico" target="Puebla.Amozoc" weight="12.800976753234863">
+        <viz:color r="137" g="135" b="129" a="0.54901963"/>
+      </edge>
+      <edge id="201" source="Cianuro inorgánico/orgánico" target="Puebla.San Andrés Cholula" weight="0.903627872467041">
+        <viz:color r="137" g="135" b="129" a="0.54901963"/>
+      </edge>
+      <edge id="202" source="Cianuro inorgánico/orgánico" target="Puebla.Santiago Miahuatlán" weight="1.223567008972168">
+        <viz:color r="137" g="135" b="129" a="0.54901963"/>
+      </edge>
+      <edge id="203" source="Cianuro inorgánico/orgánico" target="Puebla.San Miguel Xoxtla" weight="3.9155194759368896">
+        <viz:color r="137" g="135" b="129" a="0.54901963"/>
+      </edge>
+      <edge id="204" source="Cianuro inorgánico/orgánico" target="Puebla.Teziutlán" weight="3.301663398742676">
+        <viz:color r="137" g="135" b="129" a="0.54901963"/>
+      </edge>
+      <edge id="205" source="Cianuro inorgánico/orgánico" target="Puebla.Huauchinango" weight="1.1621700525283813">
+        <viz:color r="137" g="135" b="129" a="0.54901963"/>
+      </edge>
+      <edge id="206" source="Cianuro inorgánico/orgánico" target="Puebla.Hueytamalco" weight="0.04835990071296692">
+        <viz:color r="137" g="135" b="129" a="0.54901963"/>
+      </edge>
+      <edge id="207" source="Cianuro inorgánico/orgánico" target="Puebla.Chietla" weight="93.94735717773438">
+        <viz:color r="137" g="135" b="129" a="0.54901963"/>
+      </edge>
+      <edge id="208" source="Cianuro inorgánico/orgánico" target="Puebla.Nopalucan" weight="0.7162399888038635">
+        <viz:color r="137" g="135" b="129" a="0.54901963"/>
+      </edge>
+      <edge id="209" source="Cianuro inorgánico/orgánico" target="Puebla.Tepanco de López" weight="0.319320410490036">
+        <viz:color r="137" g="135" b="129" a="0.54901963"/>
+      </edge>
+      <edge id="210" source="Cianuro inorgánico/orgánico" target="Puebla.Xiutetelco" weight="12.0">
+        <viz:color r="137" g="135" b="129" a="0.54901963"/>
+      </edge>
+      <edge id="211" source="Cianuro inorgánico/orgánico" target="Puebla.Chalchicomula de Sesma" weight="2.4114999771118164">
+        <viz:color r="137" g="135" b="129" a="0.54901963"/>
+      </edge>
+      <edge id="212" source="Mercurio (polvos, respirables, vapores o humos)" target="Puebla.Tehuacán" weight="0.6714180111885071">
+        <viz:color r="137" g="135" b="129" a="0.54901963"/>
+      </edge>
+      <edge id="213" source="Mercurio (polvos, respirables, vapores o humos)" target="Puebla.San Martín Texmelucan" weight="2.51383638381958">
+        <viz:color r="137" g="135" b="129" a="0.54901963"/>
+      </edge>
+      <edge id="214" source="Mercurio (polvos, respirables, vapores o humos)" target="Puebla.Cuautlancingo" weight="67.87492370605469">
+        <viz:color r="137" g="135" b="129" a="0.54901963"/>
+      </edge>
+      <edge id="215" source="Mercurio (polvos, respirables, vapores o humos)" target="Puebla.Izúcar de Matamoros" weight="1.3247969150543213">
+        <viz:color r="137" g="135" b="129" a="0.54901963"/>
+      </edge>
+      <edge id="216" source="Mercurio (polvos, respirables, vapores o humos)" target="Puebla.Huejotzingo" weight="3.6809186935424805">
+        <viz:color r="137" g="135" b="129" a="0.54901963"/>
+      </edge>
+      <edge id="217" source="Mercurio (polvos, respirables, vapores o humos)" target="Puebla.Chignautla" weight="1.482071042060852">
+        <viz:color r="137" g="135" b="129" a="0.54901963"/>
+      </edge>
+      <edge id="218" source="Mercurio (polvos, respirables, vapores o humos)" target="Puebla.Acajete" weight="0.005319999996572733">
+        <viz:color r="137" g="135" b="129" a="0.54901963"/>
+      </edge>
+      <edge id="219" source="Mercurio (polvos, respirables, vapores o humos)" target="Puebla.Amozoc" weight="0.056634798645973206">
+        <viz:color r="137" g="135" b="129" a="0.54901963"/>
+      </edge>
+      <edge id="220" source="Mercurio (polvos, respirables, vapores o humos)" target="Puebla.San Miguel Xoxtla" weight="177.328857421875">
+        <viz:color r="137" g="135" b="129" a="0.54901963"/>
+      </edge>
+      <edge id="221" source="Mercurio (polvos, respirables, vapores o humos)" target="Puebla.Teziutlán" weight="3.3201327323913574">
+        <viz:color r="137" g="135" b="129" a="0.54901963"/>
+      </edge>
+      <edge id="222" source="Mercurio (polvos, respirables, vapores o humos)" target="Puebla.Huauchinango" weight="8.030880126170814E-4">
+        <viz:color r="137" g="135" b="129" a="0.54901963"/>
+      </edge>
+      <edge id="223" source="Mercurio (polvos, respirables, vapores o humos)" target="Puebla.Hueytamalco" weight="5.055299843661487E-4">
+        <viz:color r="137" g="135" b="129" a="0.54901963"/>
+      </edge>
+      <edge id="224" source="Mercurio (polvos, respirables, vapores o humos)" target="Puebla.Chietla" weight="7.337681770324707">
+        <viz:color r="137" g="135" b="129" a="0.54901963"/>
+      </edge>
+      <edge id="225" source="Mercurio (polvos, respirables, vapores o humos)" target="Puebla.Nopalucan" weight="0.012060999870300293">
+        <viz:color r="137" g="135" b="129" a="0.54901963"/>
+      </edge>
+      <edge id="226" source="Mercurio (polvos, respirables, vapores o humos)" target="Puebla.San José Chiapa" weight="81.68000030517578">
+        <viz:color r="137" g="135" b="129" a="0.54901963"/>
+      </edge>
+      <edge id="227" source="Mercurio (polvos, respirables, vapores o humos)" target="Puebla.Cuautinchán" weight="1019.408935546875">
+        <viz:color r="137" g="135" b="129" a="0.54901963"/>
+      </edge>
+    </edges>
+  </graph>
+</gexf>

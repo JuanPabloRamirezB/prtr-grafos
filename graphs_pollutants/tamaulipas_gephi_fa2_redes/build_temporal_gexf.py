@@ -9,13 +9,15 @@ import networkx as nx
 
 HERE = os.path.dirname(os.path.abspath(__file__))
 SRC = os.path.join(HERE, "..", "..", "prtr_raw_for_stori_stori.csv")
+STATE_FILTER = sys.argv[1] if len(sys.argv) > 1 else "Tamaulipas"
+OUT_DIR = sys.argv[2] if len(sys.argv) > 2 else HERE
 
 edge_year, loc_year, sub_year = {}, {}, {}
 years = set()
 with open(SRC, encoding="utf-8") as f:
     for row in csv.DictReader(f):
         sp = row["spatial"].split(".")
-        if sp[0] != "Tamaulipas":
+        if sp[0] != STATE_FILTER:
             continue
         loc = ".".join(sp[:2])
         ip = row["interest"].split(".")
@@ -46,6 +48,6 @@ for l, s in pairs:
     a.update({f"y_{y}": edge_year.get((l, s, y), 0.0) for y in years})
     G.add_edge("LOC::" + l, "SUB::" + s, **a)
 print("years", years[0], years[-1], len(years), "nodes", G.number_of_nodes(), "edges", G.number_of_edges())
-nx.write_gexf(G, os.path.join(HERE, "temporal", "temporal_union.gexf"))
-with open(os.path.join(HERE, "temporal", "years.txt"), "w") as f:
+nx.write_gexf(G, os.path.join(OUT_DIR, "temporal", "temporal_union.gexf"))
+with open(os.path.join(OUT_DIR, "temporal", "years.txt"), "w") as f:
     f.write(",".join(map(str, years)))

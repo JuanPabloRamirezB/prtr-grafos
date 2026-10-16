@@ -1,0 +1,41 @@
+<?xml version='1.0' encoding='utf-8'?>
+<gexf xmlns="http://www.gexf.net/1.2draft" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.gexf.net/1.2draft http://www.gexf.net/1.2draft/gexf.xsd" version="1.2">
+  <meta lastmodifieddate="2026-10-16">
+    <creator>NetworkX 3.7</creator>
+  </meta>
+  <graph defaultedgetype="undirected" mode="static" name="">
+    <attributes mode="static" class="node">
+      <attribute id="0" title="total_kg" type="double" />
+    </attributes>
+    <nodes>
+      <node id="Baja California Sur.Comondú" label="Baja California Sur.Comondú">
+        <attvalues>
+          <attvalue for="0" value="6446189580.483036" />
+        </attvalues>
+      </node>
+      <node id="Baja California Sur.La Paz" label="Baja California Sur.La Paz">
+        <attvalues>
+          <attvalue for="0" value="14612785523.356815" />
+        </attvalues>
+      </node>
+      <node id="Baja California Sur.Los Cabos" label="Baja California Sur.Los Cabos">
+        <attvalues>
+          <attvalue for="0" value="2101592703.6372616" />
+        </attvalues>
+      </node>
+      <node id="Baja California Sur.Mulegé" label="Baja California Sur.Mulegé">
+        <attvalues>
+          <attvalue for="0" value="3206975507.9629464" />
+        </attvalues>
+      </node>
+    </nodes>
+    <edges>
+      <edge source="Baja California Sur.Comondú" target="Baja California Sur.La Paz" id="0" weight="0.7561839862283741" />
+      <edge source="Baja California Sur.Comondú" target="Baja California Sur.Los Cabos" id="1" weight="0.7910646182985417" />
+      <edge source="Baja California Sur.Comondú" target="Baja California Sur.Mulegé" id="2" weight="0.8415964371921313" />
+      <edge source="Baja California Sur.La Paz" target="Baja California Sur.Los Cabos" id="3" weight="0.7296379592570879" />
+      <edge source="Baja California Sur.La Paz" target="Baja California Sur.Mulegé" id="4" weight="0.8300643132424447" />
+      <edge source="Baja California Sur.Los Cabos" target="Baja California Sur.Mulegé" id="5" weight="0.7132522092352802" />
+    </edges>
+  </graph>
+</gexf>

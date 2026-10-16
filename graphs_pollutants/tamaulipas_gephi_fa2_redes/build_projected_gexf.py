@@ -13,13 +13,15 @@ import numpy as np
 
 HERE = os.path.dirname(os.path.abspath(__file__))
 SRC = os.path.join(HERE, "..", "..", "prtr_raw_for_stori_stori.csv")
+STATE_FILTER = sys.argv[1] if len(sys.argv) > 1 else "Tamaulipas"
+OUT_DIR = sys.argv[2] if len(sys.argv) > 2 else HERE
 JACCARD, COSINE = 0.7, 0.7
 
 muni_sub = {}
 with open(SRC, encoding="utf-8") as f:
     for row in csv.DictReader(f):
         sp = row["spatial"].split(".")
-        if sp[0] != "Tamaulipas":
+        if sp[0] != STATE_FILTER:
             continue
         loc = ".".join(sp[:2])
         ip = row["interest"].split(".")
@@ -49,7 +51,7 @@ for (a, b), c in pairs.items():
 for n in Gs.nodes():
     Gs.nodes[n]["label"] = H.display(n)
     Gs.nodes[n]["n_municipios"] = count[n]
-nx.write_gexf(Gs, os.path.join(HERE, "sustancia_sustancia", "sustancia_sustancia.gexf"))
+nx.write_gexf(Gs, os.path.join(OUT_DIR, "sustancia_sustancia", "sustancia_sustancia.gexf"))
 print("sustancia_sustancia:", Gs.number_of_nodes(), "nodes", Gs.number_of_edges(), "edges")
 
 # --- Municipio <-> Municipio
@@ -72,5 +74,5 @@ for i in range(len(munis)):
 for n in Gm.nodes():
     Gm.nodes[n]["label"] = n
     Gm.nodes[n]["total_kg"] = sum(muni_sub[n].values())
-nx.write_gexf(Gm, os.path.join(HERE, "municipio_municipio", "municipio_municipio.gexf"))
+nx.write_gexf(Gm, os.path.join(OUT_DIR, "municipio_municipio", "municipio_municipio.gexf"))
 print("municipio_municipio:", Gm.number_of_nodes(), "nodes", Gm.number_of_edges(), "edges")

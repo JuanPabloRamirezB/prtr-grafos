@@ -1,0 +1,322 @@
+<?xml version='1.0' encoding='utf-8'?>
+<gexf xmlns="http://www.gexf.net/1.2draft" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.gexf.net/1.2draft http://www.gexf.net/1.2draft/gexf.xsd" version="1.2">
+  <meta lastmodifieddate="2026-10-16">
+    <creator>NetworkX 3.7</creator>
+  </meta>
+  <graph defaultedgetype="undirected" mode="static" name="">
+    <attributes mode="static" class="node">
+      <attribute id="0" title="role" type="string" />
+      <attribute id="1" title="total_kg" type="double" />
+    </attributes>
+    <nodes>
+      <node id="Sonora.Hermosillo" label="Sonora.Hermosillo">
+        <attvalues>
+          <attvalue for="0" value="focal" />
+          <attvalue for="1" value="34417372948.552986" />
+        </attvalues>
+      </node>
+      <node id="Bióxido de carbono" label="Carbon dioxide">
+        <attvalues>
+          <attvalue for="0" value="substance" />
+          <attvalue for="1" value="34372099048.67403" />
+        </attvalues>
+      </node>
+      <node id="Bióxido de nitrógeno" label="Nitrogen dioxide">
+        <attvalues>
+          <attvalue for="0" value="substance" />
+          <attvalue for="1" value="30057897.36" />
+        </attvalues>
+      </node>
+      <node id="Oxido nitroso" label="Nitrous oxide">
+        <attvalues>
+          <attvalue for="0" value="substance" />
+          <attvalue for="1" value="7443950.0" />
+        </attvalues>
+      </node>
+      <node id="Cianuro inorgánico/orgánico" label="Inorganic/organic cyanide">
+        <attvalues>
+          <attvalue for="0" value="substance" />
+          <attvalue for="1" value="5019671.537548433" />
+        </attvalues>
+      </node>
+      <node id="Hidrofluorocarbonos" label="Hydrofluorocarbons">
+        <attvalues>
+          <attvalue for="0" value="substance" />
+          <attvalue for="1" value="767441.5" />
+        </attvalues>
+      </node>
+      <node id="Plomo (polvos respirables, humos o vapores)" label="Lead (respirable dust, fumes or vapors)">
+        <attvalues>
+          <attvalue for="0" value="substance" />
+          <attvalue for="1" value="689514.509320212" />
+        </attvalues>
+      </node>
+      <node id="Plomo (Compuestos solubles)" label="Lead (soluble compounds)">
+        <attvalues>
+          <attvalue for="0" value="substance" />
+          <attvalue for="1" value="325052.298063" />
+        </attvalues>
+      </node>
+      <node id="Tolueno diisocianato" label="Toluene diisocyanate">
+        <attvalues>
+          <attvalue for="0" value="substance" />
+          <attvalue for="1" value="210516.203" />
+        </attvalues>
+      </node>
+      <node id="Plomo (compuestos)" label="Lead (compounds)">
+        <attvalues>
+          <attvalue for="0" value="substance" />
+          <attvalue for="1" value="191475.37167010014" />
+        </attvalues>
+      </node>
+      <node id="Formaldehido" label="Formaldehyde">
+        <attvalues>
+          <attvalue for="0" value="substance" />
+          <attvalue for="1" value="158936.0038562147" />
+        </attvalues>
+      </node>
+      <node id="Níquel (Compuestos solubles)" label="Nickel (soluble compounds)">
+        <attvalues>
+          <attvalue for="0" value="substance" />
+          <attvalue for="1" value="116235.57993999998" />
+        </attvalues>
+      </node>
+      <node id="Nitrato de plata" label="Silver nitrate">
+        <attvalues>
+          <attvalue for="0" value="substance" />
+          <attvalue for="1" value="99132.0" />
+        </attvalues>
+      </node>
+      <node id="Benceno" label="Benzene">
+        <attvalues>
+          <attvalue for="0" value="substance" />
+          <attvalue for="1" value="46312.3669679958" />
+        </attvalues>
+      </node>
+      <node id="Metano" label="Methane">
+        <attvalues>
+          <attvalue for="0" value="substance" />
+          <attvalue for="1" value="36840.0" />
+        </attvalues>
+      </node>
+      <node id="Cloruro de vinilo" label="Vinyl chloride">
+        <attvalues>
+          <attvalue for="0" value="substance" />
+          <attvalue for="1" value="23628.0000425" />
+        </attvalues>
+      </node>
+      <node id="Sonora.La Colorada" label="Sonora.La Colorada">
+        <attvalues>
+          <attvalue for="0" value="peer_municipio" />
+          <attvalue for="1" value="10309659651.66514" />
+        </attvalues>
+      </node>
+      <node id="Sonora.Cajeme" label="Sonora.Cajeme">
+        <attvalues>
+          <attvalue for="0" value="peer_municipio" />
+          <attvalue for="1" value="982703719.7469329" />
+        </attvalues>
+      </node>
+      <node id="Sonora.Navojoa" label="Sonora.Navojoa">
+        <attvalues>
+          <attvalue for="0" value="peer_municipio" />
+          <attvalue for="1" value="855921945.9242612" />
+        </attvalues>
+      </node>
+      <node id="Sonora.Agua Prieta" label="Sonora.Agua Prieta">
+        <attvalues>
+          <attvalue for="0" value="peer_municipio" />
+          <attvalue for="1" value="22219982372.4962" />
+        </attvalues>
+      </node>
+      <node id="Sonora.Alamos" label="Sonora.Alamos">
+        <attvalues>
+          <attvalue for="0" value="peer_municipio" />
+          <attvalue for="1" value="4470100095.183268" />
+        </attvalues>
+      </node>
+      <node id="Sonora.Guaymas" label="Sonora.Guaymas">
+        <attvalues>
+          <attvalue for="0" value="peer_municipio" />
+          <attvalue for="1" value="23877550564.437477" />
+        </attvalues>
+      </node>
+      <node id="Sonora.Nacozari de García" label="Sonora.Nacozari de García">
+        <attvalues>
+          <attvalue for="0" value="peer_municipio" />
+          <attvalue for="1" value="14485832042.723621" />
+        </attvalues>
+      </node>
+      <node id="Sonora.Cumpas" label="Sonora.Cumpas">
+        <attvalues>
+          <attvalue for="0" value="peer_municipio" />
+          <attvalue for="1" value="47233085.28771532" />
+        </attvalues>
+      </node>
+      <node id="Sonora.Nogales" label="Sonora.Nogales">
+        <attvalues>
+          <attvalue for="0" value="peer_municipio" />
+          <attvalue for="1" value="111198584.53865774" />
+        </attvalues>
+      </node>
+      <node id="Sonora.Santa Ana" label="Sonora.Santa Ana">
+        <attvalues>
+          <attvalue for="0" value="peer_municipio" />
+          <attvalue for="1" value="3830957.2508241003" />
+        </attvalues>
+      </node>
+      <node id="Sonora.Sahuaripa" label="Sonora.Sahuaripa">
+        <attvalues>
+          <attvalue for="0" value="peer_municipio" />
+          <attvalue for="1" value="227044086.00598544" />
+        </attvalues>
+      </node>
+      <node id="Sonora.Empalme" label="Sonora.Empalme">
+        <attvalues>
+          <attvalue for="0" value="peer_municipio" />
+          <attvalue for="1" value="3543117298.420987" />
+        </attvalues>
+      </node>
+      <node id="Sonora.Pitiquito" label="Sonora.Pitiquito">
+        <attvalues>
+          <attvalue for="0" value="peer_municipio" />
+          <attvalue for="1" value="28054993051.835747" />
+        </attvalues>
+      </node>
+      <node id="Sonora.Cananea" label="Sonora.Cananea">
+        <attvalues>
+          <attvalue for="0" value="peer_municipio" />
+          <attvalue for="1" value="495965030.1126361" />
+        </attvalues>
+      </node>
+    </nodes>
+    <edges>
+      <edge source="Sonora.Hermosillo" target="Bióxido de carbono" id="0" weight="34372099048.67403" />
+      <edge source="Sonora.Hermosillo" target="Bióxido de nitrógeno" id="1" weight="30057897.36" />
+      <edge source="Sonora.Hermosillo" target="Oxido nitroso" id="2" weight="7443950.0" />
+      <edge source="Sonora.Hermosillo" target="Cianuro inorgánico/orgánico" id="3" weight="5019671.537548433" />
+      <edge source="Sonora.Hermosillo" target="Hidrofluorocarbonos" id="4" weight="767441.5" />
+      <edge source="Sonora.Hermosillo" target="Plomo (polvos respirables, humos o vapores)" id="5" weight="689514.509320212" />
+      <edge source="Sonora.Hermosillo" target="Plomo (Compuestos solubles)" id="6" weight="325052.298063" />
+      <edge source="Sonora.Hermosillo" target="Tolueno diisocianato" id="7" weight="210516.203" />
+      <edge source="Sonora.Hermosillo" target="Plomo (compuestos)" id="8" weight="191475.37167010014" />
+      <edge source="Sonora.Hermosillo" target="Formaldehido" id="9" weight="158936.0038562147" />
+      <edge source="Sonora.Hermosillo" target="Níquel (Compuestos solubles)" id="10" weight="116235.57993999998" />
+      <edge source="Sonora.Hermosillo" target="Nitrato de plata" id="11" weight="99132.0" />
+      <edge source="Sonora.Hermosillo" target="Benceno" id="12" weight="46312.3669679958" />
+      <edge source="Sonora.Hermosillo" target="Metano" id="13" weight="36840.0" />
+      <edge source="Sonora.Hermosillo" target="Cloruro de vinilo" id="14" weight="23628.0000425" />
+      <edge source="Bióxido de carbono" target="Sonora.La Colorada" id="15" weight="10309529300.0" />
+      <edge source="Bióxido de carbono" target="Sonora.Cajeme" id="16" weight="978472849.7800126" />
+      <edge source="Bióxido de carbono" target="Sonora.Navojoa" id="17" weight="855543335.0522211" />
+      <edge source="Bióxido de carbono" target="Sonora.Agua Prieta" id="18" weight="22214916159.59" />
+      <edge source="Bióxido de carbono" target="Sonora.Alamos" id="19" weight="3991994521.7580004" />
+      <edge source="Bióxido de carbono" target="Sonora.Guaymas" id="20" weight="23841561290.58076" />
+      <edge source="Bióxido de carbono" target="Sonora.Nacozari de García" id="21" weight="14286456142.35368" />
+      <edge source="Bióxido de carbono" target="Sonora.Cumpas" id="22" weight="47225572.34" />
+      <edge source="Bióxido de carbono" target="Sonora.Nogales" id="23" weight="110892197.90247954" />
+      <edge source="Bióxido de carbono" target="Sonora.Santa Ana" id="24" weight="3830610.1837750003" />
+      <edge source="Bióxido de carbono" target="Sonora.Sahuaripa" id="25" weight="227003007.8752" />
+      <edge source="Bióxido de carbono" target="Sonora.Empalme" id="26" weight="3540534607.6424" />
+      <edge source="Bióxido de carbono" target="Sonora.Pitiquito" id="27" weight="28013014822.819847" />
+      <edge source="Bióxido de carbono" target="Sonora.Cananea" id="28" weight="492082720.5496001" />
+      <edge source="Bióxido de nitrógeno" target="Sonora.Cajeme" id="29" weight="3100.0" />
+      <edge source="Bióxido de nitrógeno" target="Sonora.Agua Prieta" id="30" weight="693180.0" />
+      <edge source="Bióxido de nitrógeno" target="Sonora.Alamos" id="31" weight="910769.0" />
+      <edge source="Bióxido de nitrógeno" target="Sonora.Guaymas" id="32" weight="35874800.0" />
+      <edge source="Bióxido de nitrógeno" target="Sonora.Nogales" id="33" weight="210980.0" />
+      <edge source="Bióxido de nitrógeno" target="Sonora.Empalme" id="34" weight="2023901.9386" />
+      <edge source="Bióxido de nitrógeno" target="Sonora.Pitiquito" id="35" weight="35801894.1469" />
+      <edge source="Oxido nitroso" target="Sonora.Cajeme" id="36" weight="4219260.0" />
+      <edge source="Oxido nitroso" target="Sonora.Navojoa" id="37" weight="233080.0" />
+      <edge source="Oxido nitroso" target="Sonora.Agua Prieta" id="38" weight="384.76329999999996" />
+      <edge source="Oxido nitroso" target="Sonora.Alamos" id="39" weight="465054125.335" />
+      <edge source="Oxido nitroso" target="Sonora.Nacozari de García" id="40" weight="198352726.5" />
+      <edge source="Oxido nitroso" target="Sonora.Nogales" id="41" weight="556.2" />
+      <edge source="Oxido nitroso" target="Sonora.Santa Ana" id="42" weight="225.05" />
+      <edge source="Oxido nitroso" target="Sonora.Pitiquito" id="43" weight="1763408.125" />
+      <edge source="Oxido nitroso" target="Sonora.Cananea" id="44" weight="424978.89430000004" />
+      <edge source="Cianuro inorgánico/orgánico" target="Sonora.La Colorada" id="45" weight="0.074083" />
+      <edge source="Cianuro inorgánico/orgánico" target="Sonora.Cajeme" id="46" weight="196.28172142500003" />
+      <edge source="Cianuro inorgánico/orgánico" target="Sonora.Navojoa" id="47" weight="4137.6705843928" />
+      <edge source="Cianuro inorgánico/orgánico" target="Sonora.Agua Prieta" id="48" weight="75.99094498" />
+      <edge source="Cianuro inorgánico/orgánico" target="Sonora.Alamos" id="49" weight="0.7517602299999999" />
+      <edge source="Cianuro inorgánico/orgánico" target="Sonora.Guaymas" id="50" weight="60373.18254943997" />
+      <edge source="Cianuro inorgánico/orgánico" target="Sonora.Nacozari de García" id="51" weight="24773.34850907" />
+      <edge source="Cianuro inorgánico/orgánico" target="Sonora.Cumpas" id="52" weight="0.103389575" />
+      <edge source="Cianuro inorgánico/orgánico" target="Sonora.Nogales" id="53" weight="6821.059520249" />
+      <edge source="Cianuro inorgánico/orgánico" target="Sonora.Santa Ana" id="54" weight="0.32699439999999996" />
+      <edge source="Cianuro inorgánico/orgánico" target="Sonora.Sahuaripa" id="55" weight="163.60772224634" />
+      <edge source="Cianuro inorgánico/orgánico" target="Sonora.Empalme" id="56" weight="4875.814253976" />
+      <edge source="Cianuro inorgánico/orgánico" target="Sonora.Pitiquito" id="57" weight="72342.7542" />
+      <edge source="Plomo (polvos respirables, humos o vapores)" target="Sonora.La Colorada" id="58" weight="1260.959359014" />
+      <edge source="Plomo (polvos respirables, humos o vapores)" target="Sonora.Cajeme" id="59" weight="344.76" />
+      <edge source="Plomo (polvos respirables, humos o vapores)" target="Sonora.Navojoa" id="60" weight="70212.624" />
+      <edge source="Plomo (polvos respirables, humos o vapores)" target="Sonora.Alamos" id="61" weight="18115.739999999998" />
+      <edge source="Plomo (polvos respirables, humos o vapores)" target="Sonora.Guaymas" id="62" weight="124.6986" />
+      <edge source="Plomo (polvos respirables, humos o vapores)" target="Sonora.Nacozari de García" id="63" weight="12201.1468772" />
+      <edge source="Plomo (polvos respirables, humos o vapores)" target="Sonora.Cumpas" id="64" weight="1330.35" />
+      <edge source="Plomo (polvos respirables, humos o vapores)" target="Sonora.Nogales" id="65" weight="604.7" />
+      <edge source="Plomo (polvos respirables, humos o vapores)" target="Sonora.Sahuaripa" id="66" weight="24580.550000000003" />
+      <edge source="Plomo (polvos respirables, humos o vapores)" target="Sonora.Cananea" id="67" weight="3427196.1" />
+      <edge source="Plomo (Compuestos solubles)" target="Sonora.La Colorada" id="68" weight="39.944925000000005" />
+      <edge source="Plomo (Compuestos solubles)" target="Sonora.Cajeme" id="69" weight="1000.719662" />
+      <edge source="Plomo (Compuestos solubles)" target="Sonora.Navojoa" id="70" weight="22528.168083000004" />
+      <edge source="Plomo (Compuestos solubles)" target="Sonora.Agua Prieta" id="71" weight="3.052" />
+      <edge source="Plomo (Compuestos solubles)" target="Sonora.Alamos" id="72" weight="0.882096" />
+      <edge source="Plomo (Compuestos solubles)" target="Sonora.Guaymas" id="73" weight="1695.5863802000008" />
+      <edge source="Plomo (Compuestos solubles)" target="Sonora.Nacozari de García" id="74" weight="316740.44046" />
+      <edge source="Plomo (Compuestos solubles)" target="Sonora.Cumpas" id="75" weight="3629.94469" />
+      <edge source="Plomo (Compuestos solubles)" target="Sonora.Nogales" id="76" weight="193.4983" />
+      <edge source="Plomo (Compuestos solubles)" target="Sonora.Santa Ana" id="77" weight="4.9025" />
+      <edge source="Plomo (Compuestos solubles)" target="Sonora.Sahuaripa" id="78" weight="2658.9466" />
+      <edge source="Plomo (Compuestos solubles)" target="Sonora.Empalme" id="79" weight="68585.22899999992" />
+      <edge source="Plomo (Compuestos solubles)" target="Sonora.Pitiquito" id="80" weight="723430.6649999997" />
+      <edge source="Tolueno diisocianato" target="Sonora.Nogales" id="81" weight="10826.3" />
+      <edge source="Plomo (compuestos)" target="Sonora.La Colorada" id="82" weight="1297.76205976" />
+      <edge source="Plomo (compuestos)" target="Sonora.Cajeme" id="83" weight="3227.9728691" />
+      <edge source="Plomo (compuestos)" target="Sonora.Navojoa" id="84" weight="46825.07826080001" />
+      <edge source="Plomo (compuestos)" target="Sonora.Agua Prieta" id="85" weight="2001.60452662" />
+      <edge source="Plomo (compuestos)" target="Sonora.Alamos" id="86" weight="65614.36811892" />
+      <edge source="Plomo (compuestos)" target="Sonora.Guaymas" id="87" weight="272.64135170000003" />
+      <edge source="Plomo (compuestos)" target="Sonora.Nacozari de García" id="88" weight="727.9219819" />
+      <edge source="Plomo (compuestos)" target="Sonora.Cumpas" id="89" weight="2476.3916357450003" />
+      <edge source="Plomo (compuestos)" target="Sonora.Nogales" id="90" weight="67048.0980227322" />
+      <edge source="Plomo (compuestos)" target="Sonora.Santa Ana" id="91" weight="110.91265469999999" />
+      <edge source="Plomo (compuestos)" target="Sonora.Sahuaripa" id="92" weight="13344.5024632" />
+      <edge source="Plomo (compuestos)" target="Sonora.Empalme" id="93" weight="1007.593833414" />
+      <edge source="Plomo (compuestos)" target="Sonora.Cananea" id="94" weight="29326.904735938" />
+      <edge source="Formaldehido" target="Sonora.Cajeme" id="95" weight="0.00665391139402" />
+      <edge source="Formaldehido" target="Sonora.Navojoa" id="96" weight="0.001072" />
+      <edge source="Formaldehido" target="Sonora.Agua Prieta" id="97" weight="167696.4059" />
+      <edge source="Formaldehido" target="Sonora.Guaymas" id="98" weight="2330.9291519999997" />
+      <edge source="Formaldehido" target="Sonora.Nacozari de García" id="99" weight="38990.36" />
+      <edge source="Formaldehido" target="Sonora.Nogales" id="100" weight="2.343931373132" />
+      <edge source="Formaldehido" target="Sonora.Cananea" id="101" weight="796.704" />
+      <edge source="Níquel (Compuestos solubles)" target="Sonora.La Colorada" id="102" weight="0.293825" />
+      <edge source="Níquel (Compuestos solubles)" target="Sonora.Cajeme" id="103" weight="3739.8374005000005" />
+      <edge source="Níquel (Compuestos solubles)" target="Sonora.Navojoa" id="104" weight="1817.7659999999998" />
+      <edge source="Níquel (Compuestos solubles)" target="Sonora.Agua Prieta" id="105" weight="2.457002" />
+      <edge source="Níquel (Compuestos solubles)" target="Sonora.Alamos" id="106" weight="3.047999" />
+      <edge source="Níquel (Compuestos solubles)" target="Sonora.Guaymas" id="107" weight="44732.257090320025" />
+      <edge source="Níquel (Compuestos solubles)" target="Sonora.Nacozari de García" id="108" weight="628550.6521140003" />
+      <edge source="Níquel (Compuestos solubles)" target="Sonora.Nogales" id="109" weight="9298.11845" />
+      <edge source="Níquel (Compuestos solubles)" target="Sonora.Santa Ana" id="110" weight="5.8749" />
+      <edge source="Níquel (Compuestos solubles)" target="Sonora.Sahuaripa" id="111" weight="330.524" />
+      <edge source="Níquel (Compuestos solubles)" target="Sonora.Empalme" id="112" weight="484320.2028999996" />
+      <edge source="Níquel (Compuestos solubles)" target="Sonora.Pitiquito" id="113" weight="3617153.3248000005" />
+      <edge source="Níquel (Compuestos solubles)" target="Sonora.Cananea" id="114" weight="10.96" />
+      <edge source="Benceno" target="Sonora.La Colorada" id="115" weight="127752.630888" />
+      <edge source="Benceno" target="Sonora.Cajeme" id="116" weight="0.3886133465586" />
+      <edge source="Benceno" target="Sonora.Navojoa" id="117" weight="9.564039999999999" />
+      <edge source="Benceno" target="Sonora.Agua Prieta" id="118" weight="0.41244499999999995" />
+      <edge source="Benceno" target="Sonora.Guaymas" id="119" weight="4943.561594000001" />
+      <edge source="Benceno" target="Sonora.Nacozari de García" id="120" weight="1190.0" />
+      <edge source="Benceno" target="Sonora.Nogales" id="121" weight="56.31795384406401" />
+      <edge source="Metano" target="Sonora.Agua Prieta" id="122" weight="4202868.220079999" />
+      <edge source="Metano" target="Sonora.Alamos" id="123" weight="12056944.300293298" />
+      <edge source="Metano" target="Sonora.Guaymas" id="124" weight="1.0" />
+      <edge source="Metano" target="Sonora.Cumpas" id="125" weight="76.158" />
+    </edges>
+  </graph>
+</gexf>

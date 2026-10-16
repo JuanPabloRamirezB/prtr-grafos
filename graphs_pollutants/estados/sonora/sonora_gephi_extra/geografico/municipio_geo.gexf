@@ -1,0 +1,410 @@
+<?xml version='1.0' encoding='utf-8'?>
+<gexf xmlns="http://www.gexf.net/1.2draft" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.gexf.net/1.2draft http://www.gexf.net/1.2draft/gexf.xsd" version="1.2">
+  <meta lastmodifieddate="2026-10-16">
+    <creator>NetworkX 3.7</creator>
+  </meta>
+  <graph defaultedgetype="undirected" mode="static" name="">
+    <attributes mode="static" class="node">
+      <attribute id="0" title="lat" type="double" />
+      <attribute id="1" title="lon" type="double" />
+      <attribute id="2" title="total_kg" type="double" />
+      <attribute id="3" title="community" type="long" />
+      <attribute id="4" title="color_hex" type="string" />
+    </attributes>
+    <nodes>
+      <node id="Sonora.Agua Prieta" label="Agua Prieta">
+        <attvalues>
+          <attvalue for="0" value="31.1940135" />
+          <attvalue for="1" value="-109.3246865" />
+          <attvalue for="2" value="22219986728.46013" />
+          <attvalue for="3" value="2" />
+          <attvalue for="4" value="#1baf7a" />
+        </attvalues>
+      </node>
+      <node id="Sonora.Alamos" label="Alamos">
+        <attvalues>
+          <attvalue for="0" value="27.012658" />
+          <attvalue for="1" value="-108.5605733" />
+          <attvalue for="2" value="4470100409.417007" />
+          <attvalue for="3" value="2" />
+          <attvalue for="4" value="#1baf7a" />
+        </attvalues>
+      </node>
+      <node id="Sonora.Altar" label="Altar">
+        <attvalues>
+          <attvalue for="0" value="30.424802" />
+          <attvalue for="1" value="-111.5000859" />
+          <attvalue for="2" value="104953610.0265137" />
+          <attvalue for="3" value="0" />
+          <attvalue for="4" value="#2a78d6" />
+        </attvalues>
+      </node>
+      <node id="Sonora.Banámichi" label="Banámichi">
+        <attvalues>
+          <attvalue for="0" value="30.0027992" />
+          <attvalue for="1" value="-110.125599" />
+          <attvalue for="2" value="33248320.4101188" />
+          <attvalue for="3" value="0" />
+          <attvalue for="4" value="#2a78d6" />
+        </attvalues>
+      </node>
+      <node id="Sonora.Caborca" label="Caborca">
+        <attvalues>
+          <attvalue for="0" value="30.4250666" />
+          <attvalue for="1" value="-112.0854077" />
+          <attvalue for="2" value="363447255.06060004" />
+          <attvalue for="3" value="0" />
+          <attvalue for="4" value="#2a78d6" />
+        </attvalues>
+      </node>
+      <node id="Sonora.Cajeme" label="Cajeme">
+        <attvalues>
+          <attvalue for="0" value="27.294736" />
+          <attvalue for="1" value="-109.5557778" />
+          <attvalue for="2" value="982954535.3193387" />
+          <attvalue for="3" value="1" />
+          <attvalue for="4" value="#eb6834" />
+        </attvalues>
+      </node>
+      <node id="Sonora.Cananea" label="Cananea">
+        <attvalues>
+          <attvalue for="0" value="30.585755" />
+          <attvalue for="1" value="-110.1806017" />
+          <attvalue for="2" value="497335928.2601428" />
+          <attvalue for="3" value="2" />
+          <attvalue for="4" value="#1baf7a" />
+        </attvalues>
+      </node>
+      <node id="Sonora.Cucurpe" label="Cucurpe">
+        <attvalues>
+          <attvalue for="0" value="30.1945091" />
+          <attvalue for="1" value="-110.4221192" />
+          <attvalue for="2" value="24500260.86015408" />
+          <attvalue for="3" value="0" />
+          <attvalue for="4" value="#2a78d6" />
+        </attvalues>
+      </node>
+      <node id="Sonora.Cumpas" label="Cumpas">
+        <attvalues>
+          <attvalue for="0" value="29.5936829" />
+          <attvalue for="1" value="-109.4656989" />
+          <attvalue for="2" value="47235279.72976349" />
+          <attvalue for="3" value="0" />
+          <attvalue for="4" value="#2a78d6" />
+        </attvalues>
+      </node>
+      <node id="Sonora.Empalme" label="Empalme">
+        <attvalues>
+          <attvalue for="0" value="27.5727381" />
+          <attvalue for="1" value="-110.4857576" />
+          <attvalue for="2" value="3543338747.434154" />
+          <attvalue for="3" value="1" />
+          <attvalue for="4" value="#eb6834" />
+        </attvalues>
+      </node>
+      <node id="Sonora.Guaymas" label="Guaymas">
+        <attvalues>
+          <attvalue for="0" value="27.5523695" />
+          <attvalue for="1" value="-110.5322001" />
+          <attvalue for="2" value="23877649096.811287" />
+          <attvalue for="3" value="1" />
+          <attvalue for="4" value="#eb6834" />
+        </attvalues>
+      </node>
+      <node id="Sonora.Hermosillo" label="Hermosillo">
+        <attvalues>
+          <attvalue for="0" value="29.042961" />
+          <attvalue for="1" value="-110.5730469" />
+          <attvalue for="2" value="34417372948.552986" />
+          <attvalue for="3" value="1" />
+          <attvalue for="4" value="#eb6834" />
+        </attvalues>
+      </node>
+      <node id="Sonora.Huatabampo" label="Huatabampo">
+        <attvalues>
+          <attvalue for="0" value="26.4936829" />
+          <attvalue for="1" value="-109.3838952" />
+          <attvalue for="2" value="168305345.05282244" />
+          <attvalue for="3" value="1" />
+          <attvalue for="4" value="#eb6834" />
+        </attvalues>
+      </node>
+      <node id="Sonora.La Colorada" label="La Colorada">
+        <attvalues>
+          <attvalue for="0" value="28.4810483" />
+          <attvalue for="1" value="-110.3450395" />
+          <attvalue for="2" value="10309661447.456053" />
+          <attvalue for="3" value="0" />
+          <attvalue for="4" value="#2a78d6" />
+        </attvalues>
+      </node>
+      <node id="Sonora.Magdalena" label="Magdalena">
+        <attvalues>
+          <attvalue for="0" value="30.374928" />
+          <attvalue for="1" value="-110.5809856" />
+          <attvalue for="2" value="66529579.37099771" />
+          <attvalue for="3" value="0" />
+          <attvalue for="4" value="#2a78d6" />
+        </attvalues>
+      </node>
+      <node id="Sonora.Naco" label="Naco">
+        <attvalues>
+          <attvalue for="0" value="31.195357" />
+          <attvalue for="1" value="-109.5653275" />
+          <attvalue for="2" value="340766094.82649493" />
+          <attvalue for="3" value="0" />
+          <attvalue for="4" value="#2a78d6" />
+        </attvalues>
+      </node>
+      <node id="Sonora.Nacozari de García" label="Nacozari de García">
+        <attvalues>
+          <attvalue for="0" value="30.2225401" />
+          <attvalue for="1" value="-109.4111293" />
+          <attvalue for="2" value="14485910442.528934" />
+          <attvalue for="3" value="1" />
+          <attvalue for="4" value="#eb6834" />
+        </attvalues>
+      </node>
+      <node id="Sonora.Navojoa" label="Navojoa">
+        <attvalues>
+          <attvalue for="0" value="27.0453751" />
+          <attvalue for="1" value="-109.2643966" />
+          <attvalue for="2" value="855934177.3371302" />
+          <attvalue for="3" value="1" />
+          <attvalue for="4" value="#eb6834" />
+        </attvalues>
+      </node>
+      <node id="Sonora.Nogales" label="Nogales">
+        <attvalues>
+          <attvalue for="0" value="31.1933251" />
+          <attvalue for="1" value="-110.5644681" />
+          <attvalue for="2" value="111265423.41366108" />
+          <attvalue for="3" value="1" />
+          <attvalue for="4" value="#eb6834" />
+        </attvalues>
+      </node>
+      <node id="Sonora.Pitiquito" label="Pitiquito">
+        <attvalues>
+          <attvalue for="0" value="30.4033585" />
+          <attvalue for="1" value="-112.0314131" />
+          <attvalue for="2" value="28057037286.536953" />
+          <attvalue for="3" value="1" />
+          <attvalue for="4" value="#eb6834" />
+        </attvalues>
+      </node>
+      <node id="Sonora.Puerto Peñasco" label="Puerto Peñasco">
+        <attvalues>
+          <attvalue for="0" value="31.1824411" />
+          <attvalue for="1" value="-113.3224471" />
+          <attvalue for="2" value="7158.105169605999" />
+          <attvalue for="3" value="3" />
+          <attvalue for="4" value="#eda100" />
+        </attvalues>
+      </node>
+      <node id="Sonora.Rosario" label="Rosario">
+        <attvalues>
+          <attvalue for="0" value="27.5026373" />
+          <attvalue for="1" value="-109.2214772" />
+          <attvalue for="2" value="9424864.27" />
+          <attvalue for="3" value="1" />
+          <attvalue for="4" value="#eb6834" />
+        </attvalues>
+      </node>
+      <node id="Sonora.Sahuaripa" label="Sahuaripa">
+        <attvalues>
+          <attvalue for="0" value="29.032279" />
+          <attvalue for="1" value="-109.1400134" />
+          <attvalue for="2" value="227044577.17495435" />
+          <attvalue for="3" value="0" />
+          <attvalue for="4" value="#2a78d6" />
+        </attvalues>
+      </node>
+      <node id="Sonora.San Luis Río Colorado" label="San Luis Río Colorado">
+        <attvalues>
+          <attvalue for="0" value="32.2847392" />
+          <attvalue for="1" value="-114.4646648" />
+          <attvalue for="2" value="10374.198324500001" />
+          <attvalue for="3" value="4" />
+          <attvalue for="4" value="#e87ba4" />
+        </attvalues>
+      </node>
+      <node id="Sonora.Santa Ana" label="Santa Ana">
+        <attvalues>
+          <attvalue for="0" value="30.3238006" />
+          <attvalue for="1" value="-111.0715909" />
+          <attvalue for="2" value="3830986.12353126" />
+          <attvalue for="3" value="0" />
+          <attvalue for="4" value="#2a78d6" />
+        </attvalues>
+      </node>
+      <node id="Sonora.Santa Cruz" label="Santa Cruz">
+        <attvalues>
+          <attvalue for="0" value="31.1353528" />
+          <attvalue for="1" value="-110.354552" />
+          <attvalue for="2" value="77117054.68032262" />
+          <attvalue for="3" value="0" />
+          <attvalue for="4" value="#2a78d6" />
+        </attvalues>
+      </node>
+      <node id="Sonora.Soyopa" label="Soyopa">
+        <attvalues>
+          <attvalue for="0" value="28.4551173" />
+          <attvalue for="1" value="-109.3804673" />
+          <attvalue for="2" value="80.15549999999999" />
+          <attvalue for="3" value="5" />
+          <attvalue for="4" value="#008300" />
+        </attvalues>
+      </node>
+      <node id="Sonora.Suaqui Grande" label="Suaqui Grande">
+        <attvalues>
+          <attvalue for="0" value="28.2343971" />
+          <attvalue for="1" value="-109.531753" />
+          <attvalue for="2" value="242457.6" />
+          <attvalue for="3" value="0" />
+          <attvalue for="4" value="#2a78d6" />
+        </attvalues>
+      </node>
+      <node id="Sonora.Yécora" label="Yécora">
+        <attvalues>
+          <attvalue for="0" value="28.2221701" />
+          <attvalue for="1" value="-108.553326" />
+          <attvalue for="2" value="61725402.0" />
+          <attvalue for="3" value="0" />
+          <attvalue for="4" value="#2a78d6" />
+        </attvalues>
+      </node>
+    </nodes>
+    <edges>
+      <edge source="Sonora.Agua Prieta" target="Sonora.Alamos" id="0" weight="0.7970053699638132" />
+      <edge source="Sonora.Agua Prieta" target="Sonora.Guaymas" id="1" weight="0.7036535854764494" />
+      <edge source="Sonora.Agua Prieta" target="Sonora.Naco" id="2" weight="0.734893116062058" />
+      <edge source="Sonora.Agua Prieta" target="Sonora.Yécora" id="3" weight="0.7134701799140212" />
+      <edge source="Sonora.Alamos" target="Sonora.Cananea" id="4" weight="0.7609983685656556" />
+      <edge source="Sonora.Alamos" target="Sonora.Santa Ana" id="5" weight="0.7203128341055919" />
+      <edge source="Sonora.Altar" target="Sonora.Banámichi" id="6" weight="0.9032517532263342" />
+      <edge source="Sonora.Altar" target="Sonora.Cananea" id="7" weight="0.7210479415697857" />
+      <edge source="Sonora.Altar" target="Sonora.Cucurpe" id="8" weight="0.7817472210671709" />
+      <edge source="Sonora.Altar" target="Sonora.Cumpas" id="9" weight="0.7605166816675184" />
+      <edge source="Sonora.Altar" target="Sonora.La Colorada" id="10" weight="0.7728180001024328" />
+      <edge source="Sonora.Altar" target="Sonora.Magdalena" id="11" weight="0.8725731644217166" />
+      <edge source="Sonora.Altar" target="Sonora.Naco" id="12" weight="0.8058301434170917" />
+      <edge source="Sonora.Altar" target="Sonora.Sahuaripa" id="13" weight="0.8056960165883386" />
+      <edge source="Sonora.Altar" target="Sonora.Santa Ana" id="14" weight="0.7903651275130846" />
+      <edge source="Sonora.Altar" target="Sonora.Santa Cruz" id="15" weight="0.7705174687464071" />
+      <edge source="Sonora.Altar" target="Sonora.Suaqui Grande" id="16" weight="0.9071050945518504" />
+      <edge source="Sonora.Altar" target="Sonora.Yécora" id="17" weight="0.8028814849266833" />
+      <edge source="Sonora.Banámichi" target="Sonora.Cucurpe" id="18" weight="0.8639603294055451" />
+      <edge source="Sonora.Banámichi" target="Sonora.Cumpas" id="19" weight="0.7288810077439144" />
+      <edge source="Sonora.Banámichi" target="Sonora.Huatabampo" id="20" weight="0.7240232777309115" />
+      <edge source="Sonora.Banámichi" target="Sonora.La Colorada" id="21" weight="0.7620885261429434" />
+      <edge source="Sonora.Banámichi" target="Sonora.Magdalena" id="22" weight="0.9623714961925351" />
+      <edge source="Sonora.Banámichi" target="Sonora.Naco" id="23" weight="0.884570232066546" />
+      <edge source="Sonora.Banámichi" target="Sonora.Sahuaripa" id="24" weight="0.7426528698099986" />
+      <edge source="Sonora.Banámichi" target="Sonora.Santa Ana" id="25" weight="0.8926989488867219" />
+      <edge source="Sonora.Banámichi" target="Sonora.Santa Cruz" id="26" weight="0.8818064540131886" />
+      <edge source="Sonora.Banámichi" target="Sonora.Suaqui Grande" id="27" weight="0.9957410634875706" />
+      <edge source="Sonora.Banámichi" target="Sonora.Yécora" id="28" weight="0.8813334512803556" />
+      <edge source="Sonora.Caborca" target="Sonora.Cucurpe" id="29" weight="0.7720747446834099" />
+      <edge source="Sonora.Caborca" target="Sonora.Cumpas" id="30" weight="0.7228186466004698" />
+      <edge source="Sonora.Caborca" target="Sonora.Empalme" id="31" weight="0.7538698350435473" />
+      <edge source="Sonora.Caborca" target="Sonora.Guaymas" id="32" weight="0.7124154958812209" />
+      <edge source="Sonora.Caborca" target="Sonora.Rosario" id="33" weight="0.7546752299725332" />
+      <edge source="Sonora.Caborca" target="Sonora.Sahuaripa" id="34" weight="0.7396140813538756" />
+      <edge source="Sonora.Caborca" target="Sonora.Santa Cruz" id="35" weight="0.8066861321805479" />
+      <edge source="Sonora.Caborca" target="Sonora.Yécora" id="36" weight="0.7648956758920628" />
+      <edge source="Sonora.Cajeme" target="Sonora.Huatabampo" id="37" weight="0.7309035038404937" />
+      <edge source="Sonora.Cajeme" target="Sonora.Nacozari de García" id="38" weight="0.7405022112546392" />
+      <edge source="Sonora.Cajeme" target="Sonora.Navojoa" id="39" weight="0.788745259589137" />
+      <edge source="Sonora.Cajeme" target="Sonora.Nogales" id="40" weight="0.7044564559586579" />
+      <edge source="Sonora.Cajeme" target="Sonora.Pitiquito" id="41" weight="0.7499388010028613" />
+      <edge source="Sonora.Cajeme" target="Sonora.Santa Ana" id="42" weight="0.7216041723991943" />
+      <edge source="Sonora.Cananea" target="Sonora.Cumpas" id="43" weight="0.7491167094805559" />
+      <edge source="Sonora.Cananea" target="Sonora.Nacozari de García" id="44" weight="0.7169564615108018" />
+      <edge source="Sonora.Cananea" target="Sonora.Navojoa" id="45" weight="0.762194129891981" />
+      <edge source="Sonora.Cananea" target="Sonora.Sahuaripa" id="46" weight="0.7228118958902651" />
+      <edge source="Sonora.Cananea" target="Sonora.Santa Ana" id="47" weight="0.7456239729727299" />
+      <edge source="Sonora.Cucurpe" target="Sonora.Cumpas" id="48" weight="0.7093362751678544" />
+      <edge source="Sonora.Cucurpe" target="Sonora.Empalme" id="49" weight="0.7696267286885884" />
+      <edge source="Sonora.Cucurpe" target="Sonora.Guaymas" id="50" weight="0.7153801545008363" />
+      <edge source="Sonora.Cucurpe" target="Sonora.Huatabampo" id="51" weight="0.8520839548759073" />
+      <edge source="Sonora.Cucurpe" target="Sonora.La Colorada" id="52" weight="0.7339101595439188" />
+      <edge source="Sonora.Cucurpe" target="Sonora.Magdalena" id="53" weight="0.831915439525644" />
+      <edge source="Sonora.Cucurpe" target="Sonora.Naco" id="54" weight="0.7633204821266601" />
+      <edge source="Sonora.Cucurpe" target="Sonora.Navojoa" id="55" weight="0.7473122860543363" />
+      <edge source="Sonora.Cucurpe" target="Sonora.Pitiquito" id="56" weight="0.7252224758617727" />
+      <edge source="Sonora.Cucurpe" target="Sonora.Sahuaripa" id="57" weight="0.785582796643788" />
+      <edge source="Sonora.Cucurpe" target="Sonora.Santa Ana" id="58" weight="0.8455050545007523" />
+      <edge source="Sonora.Cucurpe" target="Sonora.Santa Cruz" id="59" weight="0.8499638304214214" />
+      <edge source="Sonora.Cucurpe" target="Sonora.Suaqui Grande" id="60" weight="0.8592529129981686" />
+      <edge source="Sonora.Cucurpe" target="Sonora.Yécora" id="61" weight="0.7605273731335155" />
+      <edge source="Sonora.Cumpas" target="Sonora.Huatabampo" id="62" weight="0.7132335799474887" />
+      <edge source="Sonora.Cumpas" target="Sonora.La Colorada" id="63" weight="0.7774875174331203" />
+      <edge source="Sonora.Cumpas" target="Sonora.Naco" id="64" weight="0.7038129443964003" />
+      <edge source="Sonora.Cumpas" target="Sonora.Navojoa" id="65" weight="0.704974363102139" />
+      <edge source="Sonora.Cumpas" target="Sonora.Sahuaripa" id="66" weight="0.8193023701413726" />
+      <edge source="Sonora.Cumpas" target="Sonora.Santa Ana" id="67" weight="0.7463978007507358" />
+      <edge source="Sonora.Cumpas" target="Sonora.Santa Cruz" id="68" weight="0.8578290019117629" />
+      <edge source="Sonora.Cumpas" target="Sonora.Suaqui Grande" id="69" weight="0.7029138666562634" />
+      <edge source="Sonora.Empalme" target="Sonora.Guaymas" id="70" weight="0.8505906676259124" />
+      <edge source="Sonora.Empalme" target="Sonora.Huatabampo" id="71" weight="0.8703553758861143" />
+      <edge source="Sonora.Empalme" target="Sonora.Navojoa" id="72" weight="0.7580743351807091" />
+      <edge source="Sonora.Empalme" target="Sonora.Nogales" id="73" weight="0.7614749076532749" />
+      <edge source="Sonora.Empalme" target="Sonora.Pitiquito" id="74" weight="0.9101484815277984" />
+      <edge source="Sonora.Empalme" target="Sonora.Rosario" id="75" weight="0.8455797172151337" />
+      <edge source="Sonora.Guaymas" target="Sonora.Hermosillo" id="76" weight="0.7024351286525362" />
+      <edge source="Sonora.Guaymas" target="Sonora.Huatabampo" id="77" weight="0.7808181440686899" />
+      <edge source="Sonora.Guaymas" target="Sonora.Nacozari de García" id="78" weight="0.7251265632731355" />
+      <edge source="Sonora.Guaymas" target="Sonora.Navojoa" id="79" weight="0.745380152003993" />
+      <edge source="Sonora.Guaymas" target="Sonora.Nogales" id="80" weight="0.8036940106178452" />
+      <edge source="Sonora.Guaymas" target="Sonora.Pitiquito" id="81" weight="0.822210795470349" />
+      <edge source="Sonora.Guaymas" target="Sonora.Rosario" id="82" weight="0.7633490149315526" />
+      <edge source="Sonora.Hermosillo" target="Sonora.Nacozari de García" id="83" weight="0.7548287870865719" />
+      <edge source="Sonora.Hermosillo" target="Sonora.Navojoa" id="84" weight="0.7114231812495355" />
+      <edge source="Sonora.Hermosillo" target="Sonora.Nogales" id="85" weight="0.7668726653503226" />
+      <edge source="Sonora.Huatabampo" target="Sonora.La Colorada" id="86" weight="0.7344956855457677" />
+      <edge source="Sonora.Huatabampo" target="Sonora.Nacozari de García" id="87" weight="0.756610499062758" />
+      <edge source="Sonora.Huatabampo" target="Sonora.Navojoa" id="88" weight="0.8248218642608982" />
+      <edge source="Sonora.Huatabampo" target="Sonora.Nogales" id="89" weight="0.7260328628874669" />
+      <edge source="Sonora.Huatabampo" target="Sonora.Pitiquito" id="90" weight="0.8030672009735312" />
+      <edge source="Sonora.Huatabampo" target="Sonora.Sahuaripa" id="91" weight="0.7663121753800755" />
+      <edge source="Sonora.Huatabampo" target="Sonora.Santa Ana" id="92" weight="0.8247763800731985" />
+      <edge source="Sonora.Huatabampo" target="Sonora.Santa Cruz" id="93" weight="0.7857862287146188" />
+      <edge source="Sonora.Huatabampo" target="Sonora.Suaqui Grande" id="94" weight="0.7071287654739254" />
+      <edge source="Sonora.La Colorada" target="Sonora.Magdalena" id="95" weight="0.7290181992787045" />
+      <edge source="Sonora.La Colorada" target="Sonora.Navojoa" id="96" weight="0.726522133276152" />
+      <edge source="Sonora.La Colorada" target="Sonora.Sahuaripa" id="97" weight="0.7899605409433135" />
+      <edge source="Sonora.La Colorada" target="Sonora.Santa Ana" id="98" weight="0.7614853444064691" />
+      <edge source="Sonora.La Colorada" target="Sonora.Santa Cruz" id="99" weight="0.7791175765940803" />
+      <edge source="Sonora.La Colorada" target="Sonora.Suaqui Grande" id="100" weight="0.7436573476074734" />
+      <edge source="Sonora.Magdalena" target="Sonora.Naco" id="101" weight="0.8545224424097981" />
+      <edge source="Sonora.Magdalena" target="Sonora.Sahuaripa" id="102" weight="0.7037312613006389" />
+      <edge source="Sonora.Magdalena" target="Sonora.Santa Ana" id="103" weight="0.851721350096429" />
+      <edge source="Sonora.Magdalena" target="Sonora.Santa Cruz" id="104" weight="0.8358424841334782" />
+      <edge source="Sonora.Magdalena" target="Sonora.Suaqui Grande" id="105" weight="0.96191693404749" />
+      <edge source="Sonora.Magdalena" target="Sonora.Yécora" id="106" weight="0.8513956111840867" />
+      <edge source="Sonora.Naco" target="Sonora.Santa Ana" id="107" weight="0.7735674871678399" />
+      <edge source="Sonora.Naco" target="Sonora.Santa Cruz" id="108" weight="0.7536405988325332" />
+      <edge source="Sonora.Naco" target="Sonora.Suaqui Grande" id="109" weight="0.8883536739645445" />
+      <edge source="Sonora.Naco" target="Sonora.Yécora" id="110" weight="0.7862845453922856" />
+      <edge source="Sonora.Nacozari de García" target="Sonora.Navojoa" id="111" weight="0.8986385885544559" />
+      <edge source="Sonora.Nacozari de García" target="Sonora.Nogales" id="112" weight="0.7537063007519497" />
+      <edge source="Sonora.Nacozari de García" target="Sonora.Pitiquito" id="113" weight="0.7706745214564129" />
+      <edge source="Sonora.Navojoa" target="Sonora.Nogales" id="114" weight="0.8030101428183222" />
+      <edge source="Sonora.Navojoa" target="Sonora.Pitiquito" id="115" weight="0.7971849173009602" />
+      <edge source="Sonora.Navojoa" target="Sonora.Sahuaripa" id="116" weight="0.8193350157570106" />
+      <edge source="Sonora.Navojoa" target="Sonora.Santa Ana" id="117" weight="0.7799403791264433" />
+      <edge source="Sonora.Nogales" target="Sonora.Pitiquito" id="118" weight="0.7468578393788682" />
+      <edge source="Sonora.Pitiquito" target="Sonora.Rosario" id="119" weight="0.8112713537851541" />
+      <edge source="Sonora.Rosario" target="Sonora.Yécora" id="120" weight="0.8466377157514923" />
+      <edge source="Sonora.Sahuaripa" target="Sonora.Santa Ana" id="121" weight="0.777493737405544" />
+      <edge source="Sonora.Sahuaripa" target="Sonora.Santa Cruz" id="122" weight="0.8528770671675887" />
+      <edge source="Sonora.Sahuaripa" target="Sonora.Suaqui Grande" id="123" weight="0.7131673093203005" />
+      <edge source="Sonora.Santa Ana" target="Sonora.Santa Cruz" id="124" weight="0.8869323618615111" />
+      <edge source="Sonora.Santa Ana" target="Sonora.Suaqui Grande" id="125" weight="0.8707877389818891" />
+      <edge source="Sonora.Santa Ana" target="Sonora.Yécora" id="126" weight="0.770736882781078" />
+      <edge source="Sonora.Santa Cruz" target="Sonora.Suaqui Grande" id="127" weight="0.8483564833690462" />
+      <edge source="Sonora.Santa Cruz" target="Sonora.Yécora" id="128" weight="0.7508829100458608" />
+      <edge source="Sonora.Suaqui Grande" target="Sonora.Yécora" id="129" weight="0.8851030489728888" />
+    </edges>
+  </graph>
+</gexf>

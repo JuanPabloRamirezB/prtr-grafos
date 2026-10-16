@@ -1,0 +1,63 @@
+<?xml version='1.0' encoding='utf-8'?>
+<gexf xmlns="http://www.gexf.net/1.2draft" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.gexf.net/1.2draft http://www.gexf.net/1.2draft/gexf.xsd" version="1.2">
+  <meta lastmodifieddate="2026-10-16">
+    <creator>NetworkX 3.7</creator>
+  </meta>
+  <graph defaultedgetype="undirected" mode="static" name="">
+    <attributes mode="static" class="node">
+      <attribute id="0" title="total_kg" type="double" />
+    </attributes>
+    <nodes>
+      <node id="Sinaloa.Ahome" label="Sinaloa.Ahome">
+        <attvalues>
+          <attvalue for="0" value="15911744667.995882" />
+        </attvalues>
+      </node>
+      <node id="Sinaloa.Culiacán" label="Sinaloa.Culiacán">
+        <attvalues>
+          <attvalue for="0" value="455721332.1032091" />
+        </attvalues>
+      </node>
+      <node id="Sinaloa.Mazatlán" label="Sinaloa.Mazatlán">
+        <attvalues>
+          <attvalue for="0" value="25828970680.60377" />
+        </attvalues>
+      </node>
+      <node id="Sinaloa.Cosalá" label="Sinaloa.Cosalá">
+        <attvalues>
+          <attvalue for="0" value="5659.464853349999" />
+        </attvalues>
+      </node>
+      <node id="Sinaloa.Sinaloa" label="Sinaloa.Sinaloa">
+        <attvalues>
+          <attvalue for="0" value="13304.513121599999" />
+        </attvalues>
+      </node>
+      <node id="Sinaloa.El Fuerte" label="Sinaloa.El Fuerte">
+        <attvalues>
+          <attvalue for="0" value="4586.48882675" />
+        </attvalues>
+      </node>
+      <node id="Sinaloa.Mocorito" label="Sinaloa.Mocorito">
+        <attvalues>
+          <attvalue for="0" value="1853792.88257" />
+        </attvalues>
+      </node>
+      <node id="Sinaloa.Rosario" label="Sinaloa.Rosario">
+        <attvalues>
+          <attvalue for="0" value="5642878.6647055" />
+        </attvalues>
+      </node>
+    </nodes>
+    <edges>
+      <edge source="Sinaloa.Ahome" target="Sinaloa.Culiacán" id="0" weight="0.7492068439314975" />
+      <edge source="Sinaloa.Ahome" target="Sinaloa.Mazatlán" id="1" weight="0.8442511894694129" />
+      <edge source="Sinaloa.Culiacán" target="Sinaloa.El Fuerte" id="2" weight="0.7197215355561669" />
+      <edge source="Sinaloa.Culiacán" target="Sinaloa.Mazatlán" id="3" weight="0.756594849399896" />
+      <edge source="Sinaloa.Mazatlán" target="Sinaloa.El Fuerte" id="4" weight="0.7096453280859006" />
+      <edge source="Sinaloa.Cosalá" target="Sinaloa.Sinaloa" id="5" weight="0.8757842778401521" />
+      <edge source="Sinaloa.Sinaloa" target="Sinaloa.El Fuerte" id="6" weight="0.7256258434915338" />
+      <edge source="Sinaloa.Mocorito" target="Sinaloa.Rosario" id="7" weight="0.8368446433414913" />
+    </edges>
+  </graph>
+</gexf>

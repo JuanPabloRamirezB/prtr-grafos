@@ -1,0 +1,203 @@
+<?xml version='1.0' encoding='utf-8'?>
+<gexf xmlns="http://www.gexf.net/1.2draft" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.gexf.net/1.2draft http://www.gexf.net/1.2draft/gexf.xsd" version="1.2">
+  <meta lastmodifieddate="2026-10-16">
+    <creator>NetworkX 3.7</creator>
+  </meta>
+  <graph defaultedgetype="undirected" mode="static" name="">
+    <attributes mode="static" class="node">
+      <attribute id="0" title="role" type="string" />
+      <attribute id="1" title="total_kg" type="double" />
+    </attributes>
+    <nodes>
+      <node id="Yucatán.Mérida" label="Yucatán.Mérida">
+        <attvalues>
+          <attvalue for="0" value="focal" />
+          <attvalue for="1" value="27592596457.217327" />
+        </attvalues>
+      </node>
+      <node id="Bióxido de carbono" label="Carbon dioxide">
+        <attvalues>
+          <attvalue for="0" value="substance" />
+          <attvalue for="1" value="27561855089.252098" />
+        </attvalues>
+      </node>
+      <node id="Bióxido de nitrógeno" label="Nitrogen dioxide">
+        <attvalues>
+          <attvalue for="0" value="substance" />
+          <attvalue for="1" value="19024844.7707" />
+        </attvalues>
+      </node>
+      <node id="Metano" label="Methane">
+        <attvalues>
+          <attvalue for="0" value="substance" />
+          <attvalue for="1" value="11569600.6284" />
+        </attvalues>
+      </node>
+      <node id="Benceno" label="Benzene">
+        <attvalues>
+          <attvalue for="0" value="substance" />
+          <attvalue for="1" value="67077.26827997119" />
+        </attvalues>
+      </node>
+      <node id="Hidrofluorocarbonos" label="Hydrofluorocarbons">
+        <attvalues>
+          <attvalue for="0" value="substance" />
+          <attvalue for="1" value="40720.86" />
+        </attvalues>
+      </node>
+      <node id="Formaldehido" label="Formaldehyde">
+        <attvalues>
+          <attvalue for="0" value="substance" />
+          <attvalue for="1" value="16734.499799" />
+        </attvalues>
+      </node>
+      <node id="Níquel (compuestos)" label="Nickel (compounds)">
+        <attvalues>
+          <attvalue for="0" value="substance" />
+          <attvalue for="1" value="7537.2892180925655" />
+        </attvalues>
+      </node>
+      <node id="Níquel (Compuestos solubles)" label="Nickel (soluble compounds)">
+        <attvalues>
+          <attvalue for="0" value="substance" />
+          <attvalue for="1" value="5937.545983439995" />
+        </attvalues>
+      </node>
+      <node id="Tolueno" label="Toluene">
+        <attvalues>
+          <attvalue for="0" value="substance" />
+          <attvalue for="1" value="1180.286568" />
+        </attvalues>
+      </node>
+      <node id="Cromo (Compuestos solubles)" label="Chromium (soluble compounds)">
+        <attvalues>
+          <attvalue for="0" value="substance" />
+          <attvalue for="1" value="1033.8375604435998" />
+        </attvalues>
+      </node>
+      <node id="Plomo (compuestos)" label="Lead (compounds)">
+        <attvalues>
+          <attvalue for="0" value="substance" />
+          <attvalue for="1" value="1000.4866702394976" />
+        </attvalues>
+      </node>
+      <node id="Mercurio (compuestos)" label="Mercury (compounds)">
+        <attvalues>
+          <attvalue for="0" value="substance" />
+          <attvalue for="1" value="834.8040770567542" />
+        </attvalues>
+      </node>
+      <node id="Plomo (Compuestos solubles)" label="Lead (soluble compounds)">
+        <attvalues>
+          <attvalue for="0" value="substance" />
+          <attvalue for="1" value="705.5339362883" />
+        </attvalues>
+      </node>
+      <node id="Acetaldehido" label="Acetaldehyde">
+        <attvalues>
+          <attvalue for="0" value="substance" />
+          <attvalue for="1" value="654.1289848" />
+        </attvalues>
+      </node>
+      <node id="Mercurio (polvos, respirables, vapores o humos)" label="Mercury (respirable dust, vapors or fumes)">
+        <attvalues>
+          <attvalue for="0" value="substance" />
+          <attvalue for="1" value="442.8510885851101" />
+        </attvalues>
+      </node>
+      <node id="Yucatán.Valladolid" label="Yucatán.Valladolid">
+        <attvalues>
+          <attvalue for="0" value="peer_municipio" />
+          <attvalue for="1" value="17072782502.682076" />
+        </attvalues>
+      </node>
+      <node id="Yucatán.Umán" label="Yucatán.Umán">
+        <attvalues>
+          <attvalue for="0" value="peer_municipio" />
+          <attvalue for="1" value="116988105.96056339" />
+        </attvalues>
+      </node>
+      <node id="Yucatán.Progreso" label="Yucatán.Progreso">
+        <attvalues>
+          <attvalue for="0" value="peer_municipio" />
+          <attvalue for="1" value="52228.1197157245" />
+        </attvalues>
+      </node>
+      <node id="Yucatán.Baca" label="Yucatán.Baca">
+        <attvalues>
+          <attvalue for="0" value="peer_municipio" />
+          <attvalue for="1" value="184.68394938" />
+        </attvalues>
+      </node>
+      <node id="Yucatán.Kanasín" label="Yucatán.Kanasín">
+        <attvalues>
+          <attvalue for="0" value="peer_municipio" />
+          <attvalue for="1" value="405394.5209668" />
+        </attvalues>
+      </node>
+    </nodes>
+    <edges>
+      <edge source="Yucatán.Mérida" target="Bióxido de carbono" id="0" weight="27561855089.252098" />
+      <edge source="Yucatán.Mérida" target="Bióxido de nitrógeno" id="1" weight="19024844.7707" />
+      <edge source="Yucatán.Mérida" target="Metano" id="2" weight="11569600.6284" />
+      <edge source="Yucatán.Mérida" target="Benceno" id="3" weight="67077.26827997119" />
+      <edge source="Yucatán.Mérida" target="Hidrofluorocarbonos" id="4" weight="40720.86" />
+      <edge source="Yucatán.Mérida" target="Formaldehido" id="5" weight="16734.499799" />
+      <edge source="Yucatán.Mérida" target="Níquel (compuestos)" id="6" weight="7537.2892180925655" />
+      <edge source="Yucatán.Mérida" target="Níquel (Compuestos solubles)" id="7" weight="5937.545983439995" />
+      <edge source="Yucatán.Mérida" target="Tolueno" id="8" weight="1180.286568" />
+      <edge source="Yucatán.Mérida" target="Cromo (Compuestos solubles)" id="9" weight="1033.8375604435998" />
+      <edge source="Yucatán.Mérida" target="Plomo (compuestos)" id="10" weight="1000.4866702394976" />
+      <edge source="Yucatán.Mérida" target="Mercurio (compuestos)" id="11" weight="834.8040770567542" />
+      <edge source="Yucatán.Mérida" target="Plomo (Compuestos solubles)" id="12" weight="705.5339362883" />
+      <edge source="Yucatán.Mérida" target="Acetaldehido" id="13" weight="654.1289848" />
+      <edge source="Yucatán.Mérida" target="Mercurio (polvos, respirables, vapores o humos)" id="14" weight="442.8510885851101" />
+      <edge source="Bióxido de carbono" target="Yucatán.Valladolid" id="15" weight="17068663475.214" />
+      <edge source="Bióxido de carbono" target="Yucatán.Umán" id="16" weight="116984861.85" />
+      <edge source="Bióxido de carbono" target="Yucatán.Progreso" id="17" weight="51666.1" />
+      <edge source="Bióxido de carbono" target="Yucatán.Kanasín" id="18" weight="405350.99" />
+      <edge source="Bióxido de nitrógeno" target="Yucatán.Valladolid" id="19" weight="3673019.81" />
+      <edge source="Metano" target="Yucatán.Valladolid" id="20" weight="390913.44" />
+      <edge source="Benceno" target="Yucatán.Progreso" id="21" weight="341.25321247875" />
+      <edge source="Formaldehido" target="Yucatán.Valladolid" id="22" weight="44150.35999999999" />
+      <edge source="Formaldehido" target="Yucatán.Umán" id="23" weight="169.43" />
+      <edge source="Formaldehido" target="Yucatán.Progreso" id="24" weight="6.407469176249999" />
+      <edge source="Níquel (compuestos)" target="Yucatán.Valladolid" id="25" weight="585.805625" />
+      <edge source="Níquel (compuestos)" target="Yucatán.Umán" id="26" weight="38.572803949999994" />
+      <edge source="Níquel (compuestos)" target="Yucatán.Progreso" id="27" weight="33.633300999999996" />
+      <edge source="Níquel (compuestos)" target="Yucatán.Baca" id="28" weight="13.23085156" />
+      <edge source="Níquel (compuestos)" target="Yucatán.Kanasín" id="29" weight="0.0040556" />
+      <edge source="Níquel (Compuestos solubles)" target="Yucatán.Valladolid" id="30" weight="1016.6226999999999" />
+      <edge source="Níquel (Compuestos solubles)" target="Yucatán.Umán" id="31" weight="370.1737" />
+      <edge source="Níquel (Compuestos solubles)" target="Yucatán.Progreso" id="32" weight="31.93256" />
+      <edge source="Níquel (Compuestos solubles)" target="Yucatán.Baca" id="33" weight="79.1932" />
+      <edge source="Níquel (Compuestos solubles)" target="Yucatán.Kanasín" id="34" weight="23.614800000000002" />
+      <edge source="Tolueno" target="Yucatán.Valladolid" id="35" weight="4327.4130000000005" />
+      <edge source="Cromo (Compuestos solubles)" target="Yucatán.Valladolid" id="36" weight="267.44960000000003" />
+      <edge source="Cromo (Compuestos solubles)" target="Yucatán.Umán" id="37" weight="230.3071" />
+      <edge source="Cromo (Compuestos solubles)" target="Yucatán.Progreso" id="38" weight="18.355216" />
+      <edge source="Cromo (Compuestos solubles)" target="Yucatán.Baca" id="39" weight="40.7181" />
+      <edge source="Cromo (Compuestos solubles)" target="Yucatán.Kanasín" id="40" weight="9.2501" />
+      <edge source="Plomo (compuestos)" target="Yucatán.Valladolid" id="41" weight="602.3627667999999" />
+      <edge source="Plomo (compuestos)" target="Yucatán.Umán" id="42" weight="2203.9999617040003" />
+      <edge source="Plomo (compuestos)" target="Yucatán.Progreso" id="43" weight="1.940741" />
+      <edge source="Plomo (compuestos)" target="Yucatán.Baca" id="44" weight="12.94934408" />
+      <edge source="Plomo (compuestos)" target="Yucatán.Kanasín" id="45" weight="0.0040556" />
+      <edge source="Mercurio (compuestos)" target="Yucatán.Valladolid" id="46" weight="0.125483625" />
+      <edge source="Mercurio (compuestos)" target="Yucatán.Umán" id="47" weight="0.00928405" />
+      <edge source="Mercurio (compuestos)" target="Yucatán.Progreso" id="48" weight="0.043529500000000006" />
+      <edge source="Mercurio (compuestos)" target="Yucatán.Baca" id="49" weight="0.14075374000000002" />
+      <edge source="Plomo (Compuestos solubles)" target="Yucatán.Valladolid" id="50" weight="543.5959000000001" />
+      <edge source="Plomo (Compuestos solubles)" target="Yucatán.Umán" id="51" weight="220.2302" />
+      <edge source="Plomo (Compuestos solubles)" target="Yucatán.Progreso" id="52" weight="11.930915" />
+      <edge source="Plomo (Compuestos solubles)" target="Yucatán.Baca" id="53" weight="38.4517" />
+      <edge source="Plomo (Compuestos solubles)" target="Yucatán.Kanasín" id="54" weight="10.6539" />
+      <edge source="Acetaldehido" target="Yucatán.Valladolid" id="55" weight="3587.7930000000006" />
+      <edge source="Acetaldehido" target="Yucatán.Progreso" id="56" weight="116.5174165695" />
+      <edge source="Mercurio (polvos, respirables, vapores o humos)" target="Yucatán.Valladolid" id="57" weight="12.69" />
+      <edge source="Mercurio (polvos, respirables, vapores o humos)" target="Yucatán.Umán" id="58" weight="11.3875137" />
+      <edge source="Mercurio (polvos, respirables, vapores o humos)" target="Yucatán.Progreso" id="59" weight="0.005355" />
+      <edge source="Mercurio (polvos, respirables, vapores o humos)" target="Yucatán.Kanasín" id="60" weight="0.0040556" />
+    </edges>
+  </graph>
+</gexf>

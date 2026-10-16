@@ -1,0 +1,219 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<gexf xmlns="http://gexf.net/1.3" version="1.3" xmlns:viz="http://gexf.net/1.3/viz" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://gexf.net/1.3 http://gexf.net/1.3/gexf.xsd">
+  <meta lastmodifieddate="2026-10-16">
+    <creator>Apache NetBeans Platform Dev (Build {0})</creator>
+    <title></title>
+    <description></description>
+  </meta>
+  <graph defaultedgetype="undirected" mode="static">
+    <attributes class="node" mode="static">
+      <attribute id="0" title="type" type="string"/>
+      <attribute id="1" title="total_kg" type="double"/>
+    </attributes>
+    <nodes>
+      <node id="LOC::Quintana Roo.Benito Juárez" label="Quintana Roo.Benito Juárez">
+        <attvalues>
+          <attvalue for="0" value="location"/>
+          <attvalue for="1" value="5.67104582647528E9"/>
+        </attvalues>
+        <viz:size value="29.66922"/>
+        <viz:position x="-900.0" y="333.33334"/>
+        <viz:color r="42" g="120" b="214"/>
+      </node>
+      <node id="LOC::Quintana Roo.Othón P" label="Quintana Roo.Othón P">
+        <attvalues>
+          <attvalue for="0" value="location"/>
+          <attvalue for="1" value="3.0252501660448647E8"/>
+        </attvalues>
+        <viz:size value="11.049264"/>
+        <viz:position x="-900.0" y="1000.0"/>
+        <viz:color r="42" g="120" b="214"/>
+      </node>
+      <node id="LOC::Quintana Roo.Cozumel" label="Quintana Roo.Cozumel">
+        <attvalues>
+          <attvalue for="0" value="location"/>
+          <attvalue for="1" value="9.418494081594734E8"/>
+        </attvalues>
+        <viz:size value="13.26667"/>
+        <viz:position x="-900.0" y="666.6667"/>
+        <viz:color r="42" g="120" b="214"/>
+      </node>
+      <node id="LOC::Quintana Roo.Solidaridad" label="Quintana Roo.Solidaridad">
+        <attvalues>
+          <attvalue for="0" value="location"/>
+          <attvalue for="1" value="1.0346275621928034E10"/>
+        </attvalues>
+        <viz:size value="45.884594"/>
+        <viz:position x="-900.0" y="0.0"/>
+        <viz:color r="42" g="120" b="214"/>
+      </node>
+      <node id="LOC::Quintana Roo.Isla Mujeres" label="Quintana Roo.Isla Mujeres">
+        <attvalues>
+          <attvalue for="0" value="location"/>
+          <attvalue for="1" value="266.7839652709601"/>
+        </attvalues>
+        <viz:size value="10.0"/>
+        <viz:position x="-900.0" y="2000.0"/>
+        <viz:color r="42" g="120" b="214"/>
+      </node>
+      <node id="LOC::Quintana Roo.Lázaro Cárdenas" label="Quintana Roo.Lázaro Cárdenas">
+        <attvalues>
+          <attvalue for="0" value="location"/>
+          <attvalue for="1" value="3.8045581646400005E7"/>
+        </attvalues>
+        <viz:size value="10.131955"/>
+        <viz:position x="-900.0" y="1333.3334"/>
+        <viz:color r="42" g="120" b="214"/>
+      </node>
+      <node id="LOC::Quintana Roo.Tulum" label="Quintana Roo.Tulum">
+        <attvalues>
+          <attvalue for="0" value="location"/>
+          <attvalue for="1" value="5820.910779999998"/>
+        </attvalues>
+        <viz:size value="10.000019"/>
+        <viz:position x="-900.0" y="1666.6666"/>
+        <viz:color r="42" g="120" b="214"/>
+      </node>
+      <node id="MED::agua" label="water">
+        <attvalues>
+          <attvalue for="0" value="medio"/>
+          <attvalue for="1" value="98058.0961484819"/>
+        </attvalues>
+        <viz:size value="10.0003395"/>
+        <viz:position x="900.0" y="1000.0"/>
+        <viz:color r="235" g="104" b="52"/>
+      </node>
+      <node id="MED::aire" label="air">
+        <attvalues>
+          <attvalue for="0" value="medio"/>
+          <attvalue for="1" value="1.7299249877226204E10"/>
+        </attvalues>
+        <viz:size value="70.0"/>
+        <viz:position x="900.0" y="0.0"/>
+        <viz:color r="235" g="104" b="52"/>
+      </node>
+      <node id="MED::suelo" label="soil">
+        <attvalues>
+          <attvalue for="0" value="medio"/>
+          <attvalue for="1" value="196189.50626163476"/>
+        </attvalues>
+        <viz:size value="10.00068"/>
+        <viz:position x="900.0" y="333.33334"/>
+        <viz:color r="235" g="104" b="52"/>
+      </node>
+      <node id="MED::alcantarillado" label="sewer system">
+        <attvalues>
+          <attvalue for="0" value="medio"/>
+          <attvalue for="1" value="3390.5225038700023"/>
+        </attvalues>
+        <viz:size value="10.0000105"/>
+        <viz:position x="900.0" y="2000.0"/>
+        <viz:color r="235" g="104" b="52"/>
+      </node>
+      <node id="MED::disposicion_final" label="final disposal">
+        <attvalues>
+          <attvalue for="0" value="medio"/>
+          <attvalue for="1" value="92247.72"/>
+        </attvalues>
+        <viz:size value="10.0003195"/>
+        <viz:position x="900.0" y="1333.3334"/>
+        <viz:color r="235" g="104" b="52"/>
+      </node>
+      <node id="MED::otros" label="other">
+        <attvalues>
+          <attvalue for="0" value="medio"/>
+          <attvalue for="1" value="101342.15730000004"/>
+        </attvalues>
+        <viz:size value="10.000351"/>
+        <viz:position x="900.0" y="666.6667"/>
+        <viz:color r="235" g="104" b="52"/>
+      </node>
+      <node id="MED::reutilizacion" label="reuse">
+        <attvalues>
+          <attvalue for="0" value="medio"/>
+          <attvalue for="1" value="6437.28"/>
+        </attvalues>
+        <viz:size value="10.000021"/>
+        <viz:position x="900.0" y="1666.6666"/>
+        <viz:color r="235" g="104" b="52"/>
+      </node>
+    </nodes>
+    <edges>
+      <edge id="0" source="LOC::Quintana Roo.Benito Juárez" target="MED::agua" weight="72895.515625">
+        <viz:color r="137" g="135" b="129" a="0.43137255"/>
+      </edge>
+      <edge id="1" source="LOC::Quintana Roo.Benito Juárez" target="MED::aire" weight="5.670682112E9">
+        <viz:color r="137" g="135" b="129" a="0.43137255"/>
+      </edge>
+      <edge id="2" source="LOC::Quintana Roo.Benito Juárez" target="MED::suelo" weight="133372.3125">
+        <viz:color r="137" g="135" b="129" a="0.43137255"/>
+      </edge>
+      <edge id="3" source="LOC::Quintana Roo.Benito Juárez" target="MED::alcantarillado" weight="3378.027587890625">
+        <viz:color r="137" g="135" b="129" a="0.43137255"/>
+      </edge>
+      <edge id="4" source="LOC::Quintana Roo.Benito Juárez" target="MED::disposicion_final" weight="54611.21875">
+        <viz:color r="137" g="135" b="129" a="0.43137255"/>
+      </edge>
+      <edge id="5" source="LOC::Quintana Roo.Benito Juárez" target="MED::otros" weight="99445.96875">
+        <viz:color r="137" g="135" b="129" a="0.43137255"/>
+      </edge>
+      <edge id="6" source="LOC::Quintana Roo.Othón P" target="MED::agua" weight="1718.5054931640625">
+        <viz:color r="137" g="135" b="129" a="0.43137255"/>
+      </edge>
+      <edge id="7" source="LOC::Quintana Roo.Othón P" target="MED::aire" weight="3.02514656E8">
+        <viz:color r="137" g="135" b="129" a="0.43137255"/>
+      </edge>
+      <edge id="8" source="LOC::Quintana Roo.Othón P" target="MED::suelo" weight="2189.0791015625">
+        <viz:color r="137" g="135" b="129" a="0.43137255"/>
+      </edge>
+      <edge id="9" source="LOC::Quintana Roo.Othón P" target="MED::reutilizacion" weight="6437.27978515625">
+        <viz:color r="137" g="135" b="129" a="0.43137255"/>
+      </edge>
+      <edge id="10" source="LOC::Quintana Roo.Cozumel" target="MED::agua" weight="2018.1416015625">
+        <viz:color r="137" g="135" b="129" a="0.43137255"/>
+      </edge>
+      <edge id="11" source="LOC::Quintana Roo.Cozumel" target="MED::aire" weight="9.41846656E8">
+        <viz:color r="137" g="135" b="129" a="0.43137255"/>
+      </edge>
+      <edge id="12" source="LOC::Quintana Roo.Cozumel" target="MED::suelo" weight="717.9535522460938">
+        <viz:color r="137" g="135" b="129" a="0.43137255"/>
+      </edge>
+      <edge id="13" source="LOC::Quintana Roo.Solidaridad" target="MED::agua" weight="21202.548828125">
+        <viz:color r="137" g="135" b="129" a="0.43137255"/>
+      </edge>
+      <edge id="14" source="LOC::Quintana Roo.Solidaridad" target="MED::aire" weight="1.0346161152E10">
+        <viz:color r="137" g="135" b="129" a="0.43137255"/>
+      </edge>
+      <edge id="15" source="LOC::Quintana Roo.Solidaridad" target="MED::suelo" weight="54021.78125">
+        <viz:color r="137" g="135" b="129" a="0.43137255"/>
+      </edge>
+      <edge id="16" source="LOC::Quintana Roo.Solidaridad" target="MED::alcantarillado" weight="7.056042194366455">
+        <viz:color r="137" g="135" b="129" a="0.43137255"/>
+      </edge>
+      <edge id="17" source="LOC::Quintana Roo.Solidaridad" target="MED::disposicion_final" weight="37636.5">
+        <viz:color r="137" g="135" b="129" a="0.43137255"/>
+      </edge>
+      <edge id="18" source="LOC::Quintana Roo.Solidaridad" target="MED::otros" weight="1896.1866455078125">
+        <viz:color r="137" g="135" b="129" a="0.43137255"/>
+      </edge>
+      <edge id="19" source="LOC::Quintana Roo.Isla Mujeres" target="MED::agua" weight="193.88031005859375">
+        <viz:color r="137" g="135" b="129" a="0.43137255"/>
+      </edge>
+      <edge id="20" source="LOC::Quintana Roo.Isla Mujeres" target="MED::suelo" weight="67.4646987915039">
+        <viz:color r="137" g="135" b="129" a="0.43137255"/>
+      </edge>
+      <edge id="21" source="LOC::Quintana Roo.Isla Mujeres" target="MED::alcantarillado" weight="5.438956260681152">
+        <viz:color r="137" g="135" b="129" a="0.43137255"/>
+      </edge>
+      <edge id="22" source="LOC::Quintana Roo.Lázaro Cárdenas" target="MED::agua" weight="29.506399154663086">
+        <viz:color r="137" g="135" b="129" a="0.43137255"/>
+      </edge>
+      <edge id="23" source="LOC::Quintana Roo.Lázaro Cárdenas" target="MED::aire" weight="3.8045552E7">
+        <viz:color r="137" g="135" b="129" a="0.43137255"/>
+      </edge>
+      <edge id="24" source="LOC::Quintana Roo.Tulum" target="MED::suelo" weight="5820.91064453125">
+        <viz:color r="137" g="135" b="129" a="0.43137255"/>
+      </edge>
+    </edges>
+  </graph>
+</gexf>

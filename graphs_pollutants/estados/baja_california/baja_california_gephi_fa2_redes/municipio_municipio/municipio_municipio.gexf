@@ -1,0 +1,46 @@
+<?xml version='1.0' encoding='utf-8'?>
+<gexf xmlns="http://www.gexf.net/1.2draft" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.gexf.net/1.2draft http://www.gexf.net/1.2draft/gexf.xsd" version="1.2">
+  <meta lastmodifieddate="2026-10-16">
+    <creator>NetworkX 3.7</creator>
+  </meta>
+  <graph defaultedgetype="undirected" mode="static" name="">
+    <attributes mode="static" class="node">
+      <attribute id="0" title="total_kg" type="double" />
+    </attributes>
+    <nodes>
+      <node id="Baja California.Ensenada" label="Baja California.Ensenada">
+        <attvalues>
+          <attvalue for="0" value="7023226643.028638" />
+        </attvalues>
+      </node>
+      <node id="Baja California.Mexicali" label="Baja California.Mexicali">
+        <attvalues>
+          <attvalue for="0" value="60793886572.50405" />
+        </attvalues>
+      </node>
+      <node id="Baja California.Playas de Rosarito" label="Baja California.Playas de Rosarito">
+        <attvalues>
+          <attvalue for="0" value="19330640020.48014" />
+        </attvalues>
+      </node>
+      <node id="Baja California.Tijuana" label="Baja California.Tijuana">
+        <attvalues>
+          <attvalue for="0" value="4666161050.676274" />
+        </attvalues>
+      </node>
+      <node id="Baja California.Tecate" label="Baja California.Tecate">
+        <attvalues>
+          <attvalue for="0" value="561673677.0096923" />
+        </attvalues>
+      </node>
+    </nodes>
+    <edges>
+      <edge source="Baja California.Ensenada" target="Baja California.Mexicali" id="0" weight="0.7349516261198208" />
+      <edge source="Baja California.Ensenada" target="Baja California.Playas de Rosarito" id="1" weight="0.7653601795115855" />
+      <edge source="Baja California.Ensenada" target="Baja California.Tijuana" id="2" weight="0.7032476174036093" />
+      <edge source="Baja California.Mexicali" target="Baja California.Tecate" id="3" weight="0.7552050191759468" />
+      <edge source="Baja California.Mexicali" target="Baja California.Tijuana" id="4" weight="0.8403553365764996" />
+      <edge source="Baja California.Tijuana" target="Baja California.Tecate" id="5" weight="0.7033740660705179" />
+    </edges>
+  </graph>
+</gexf>

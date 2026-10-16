@@ -1,0 +1,161 @@
+<?xml version='1.0' encoding='utf-8'?>
+<gexf xmlns="http://www.gexf.net/1.2draft" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.gexf.net/1.2draft http://www.gexf.net/1.2draft/gexf.xsd" version="1.2">
+  <meta lastmodifieddate="2026-10-16">
+    <creator>NetworkX 3.7</creator>
+  </meta>
+  <graph defaultedgetype="undirected" mode="static" name="">
+    <attributes mode="static" class="node">
+      <attribute id="0" title="type" type="string" />
+      <attribute id="1" title="total_kg" type="double" />
+    </attributes>
+    <nodes>
+      <node id="LOC::Baja California.Tijuana" label="Baja California.Tijuana">
+        <attvalues>
+          <attvalue for="0" value="location" />
+          <attvalue for="1" value="4666161050.67628" />
+        </attvalues>
+      </node>
+      <node id="LOC::Baja California.Tecate" label="Baja California.Tecate">
+        <attvalues>
+          <attvalue for="0" value="location" />
+          <attvalue for="1" value="561673677.0096923" />
+        </attvalues>
+      </node>
+      <node id="LOC::Baja California.Mexicali" label="Baja California.Mexicali">
+        <attvalues>
+          <attvalue for="0" value="location" />
+          <attvalue for="1" value="60793886572.50409" />
+        </attvalues>
+      </node>
+      <node id="LOC::Baja California.Playas de Rosarito" label="Baja California.Playas de Rosarito">
+        <attvalues>
+          <attvalue for="0" value="location" />
+          <attvalue for="1" value="19330640020.480137" />
+        </attvalues>
+      </node>
+      <node id="LOC::Baja California.Ensenada" label="Baja California.Ensenada">
+        <attvalues>
+          <attvalue for="0" value="location" />
+          <attvalue for="1" value="7023226643.028638" />
+        </attvalues>
+      </node>
+      <node id="MED::agua" label="water">
+        <attvalues>
+          <attvalue for="0" value="medio" />
+          <attvalue for="1" value="1585346.6064895955" />
+        </attvalues>
+      </node>
+      <node id="MED::aire" label="air">
+        <attvalues>
+          <attvalue for="0" value="medio" />
+          <attvalue for="1" value="92359874806.27466" />
+        </attvalues>
+      </node>
+      <node id="MED::suelo" label="soil">
+        <attvalues>
+          <attvalue for="0" value="medio" />
+          <attvalue for="1" value="117665.58270521488" />
+        </attvalues>
+      </node>
+      <node id="MED::alcantarillado" label="sewer system">
+        <attvalues>
+          <attvalue for="0" value="medio" />
+          <attvalue for="1" value="12836.470599558477" />
+        </attvalues>
+      </node>
+      <node id="MED::coprocesamiento" label="co-processing">
+        <attvalues>
+          <attvalue for="0" value="medio" />
+          <attvalue for="1" value="200470.28015999997" />
+        </attvalues>
+      </node>
+      <node id="MED::disposicion_final" label="final disposal">
+        <attvalues>
+          <attvalue for="0" value="medio" />
+          <attvalue for="1" value="1958317.5756434496" />
+        </attvalues>
+      </node>
+      <node id="MED::incineracion" label="incineration">
+        <attvalues>
+          <attvalue for="0" value="medio" />
+          <attvalue for="1" value="47410.047099999996" />
+        </attvalues>
+      </node>
+      <node id="MED::otros" label="other">
+        <attvalues>
+          <attvalue for="0" value="medio" />
+          <attvalue for="1" value="131943.76858073857" />
+        </attvalues>
+      </node>
+      <node id="MED::reciclado" label="recycling">
+        <attvalues>
+          <attvalue for="0" value="medio" />
+          <attvalue for="1" value="10800266.271224998" />
+        </attvalues>
+      </node>
+      <node id="MED::reutilizacion" label="reuse">
+        <attvalues>
+          <attvalue for="0" value="medio" />
+          <attvalue for="1" value="21343.759" />
+        </attvalues>
+      </node>
+      <node id="MED::tratamiento" label="treatment">
+        <attvalues>
+          <attvalue for="0" value="medio" />
+          <attvalue for="1" value="837557.0626599999" />
+        </attvalues>
+      </node>
+    </nodes>
+    <edges>
+      <edge source="LOC::Baja California.Tijuana" target="MED::agua" id="0" weight="6833.30416276685" />
+      <edge source="LOC::Baja California.Tijuana" target="MED::aire" id="1" weight="4656603161.999105" />
+      <edge source="LOC::Baja California.Tijuana" target="MED::suelo" id="2" weight="21439.9459986" />
+      <edge source="LOC::Baja California.Tijuana" target="MED::alcantarillado" id="3" weight="11049.556103451305" />
+      <edge source="LOC::Baja California.Tijuana" target="MED::coprocesamiento" id="4" weight="80181.59615999999" />
+      <edge source="LOC::Baja California.Tijuana" target="MED::disposicion_final" id="5" weight="1046433.0852780001" />
+      <edge source="LOC::Baja California.Tijuana" target="MED::incineracion" id="6" weight="45267.24059999999" />
+      <edge source="LOC::Baja California.Tijuana" target="MED::otros" id="7" weight="27640.953380738585" />
+      <edge source="LOC::Baja California.Tijuana" target="MED::reciclado" id="8" weight="7794426.970224995" />
+      <edge source="LOC::Baja California.Tijuana" target="MED::reutilizacion" id="9" weight="8092.24" />
+      <edge source="LOC::Baja California.Tijuana" target="MED::tratamiento" id="10" weight="516523.78526000003" />
+      <edge source="LOC::Baja California.Tecate" target="MED::agua" id="11" weight="848013.3949652996" />
+      <edge source="LOC::Baja California.Tecate" target="MED::aire" id="12" weight="560629973.0540501" />
+      <edge source="LOC::Baja California.Tecate" target="MED::suelo" id="13" weight="14804.712708258501" />
+      <edge source="LOC::Baja California.Tecate" target="MED::alcantarillado" id="14" weight="561.3780036359999" />
+      <edge source="LOC::Baja California.Tecate" target="MED::disposicion_final" id="15" weight="160800.730465" />
+      <edge source="LOC::Baja California.Tecate" target="MED::otros" id="16" weight="0.0905" />
+      <edge source="LOC::Baja California.Tecate" target="MED::reciclado" id="17" weight="3941.42" />
+      <edge source="LOC::Baja California.Tecate" target="MED::reutilizacion" id="18" weight="10366.369" />
+      <edge source="LOC::Baja California.Tecate" target="MED::tratamiento" id="19" weight="5215.860000000001" />
+      <edge source="LOC::Baja California.Mexicali" target="MED::agua" id="20" weight="11436.656724973842" />
+      <edge source="LOC::Baja California.Mexicali" target="MED::aire" id="21" weight="60789589920.70986" />
+      <edge source="LOC::Baja California.Mexicali" target="MED::suelo" id="22" weight="81169.82070093" />
+      <edge source="LOC::Baja California.Mexicali" target="MED::alcantarillado" id="23" weight="1144.6108982511596" />
+      <edge source="LOC::Baja California.Mexicali" target="MED::coprocesamiento" id="24" weight="98699.59400000001" />
+      <edge source="LOC::Baja California.Mexicali" target="MED::disposicion_final" id="25" weight="717317.0372484507" />
+      <edge source="LOC::Baja California.Mexicali" target="MED::incineracion" id="26" weight="2142.8064999999997" />
+      <edge source="LOC::Baja California.Mexicali" target="MED::otros" id="27" weight="104236.20469999999" />
+      <edge source="LOC::Baja California.Mexicali" target="MED::reciclado" id="28" weight="2963108.456" />
+      <edge source="LOC::Baja California.Mexicali" target="MED::reutilizacion" id="29" weight="1585.1499999999999" />
+      <edge source="LOC::Baja California.Mexicali" target="MED::tratamiento" id="30" weight="315811.45739999996" />
+      <edge source="LOC::Baja California.Playas de Rosarito" target="MED::agua" id="31" weight="384618.043086092" />
+      <edge source="LOC::Baja California.Playas de Rosarito" target="MED::aire" id="32" weight="19330194596.139595" />
+      <edge source="LOC::Baja California.Playas de Rosarito" target="MED::suelo" id="33" weight="193.2336530264" />
+      <edge source="LOC::Baja California.Playas de Rosarito" target="MED::alcantarillado" id="34" weight="45.1108" />
+      <edge source="LOC::Baja California.Playas de Rosarito" target="MED::coprocesamiento" id="35" weight="21340.0" />
+      <edge source="LOC::Baja California.Playas de Rosarito" target="MED::disposicion_final" id="36" weight="2460.953" />
+      <edge source="LOC::Baja California.Playas de Rosarito" target="MED::reciclado" id="37" weight="36764.0" />
+      <edge source="LOC::Baja California.Playas de Rosarito" target="MED::tratamiento" id="38" weight="3.0" />
+      <edge source="LOC::Baja California.Ensenada" target="MED::agua" id="39" weight="334445.20755046594" />
+      <edge source="LOC::Baja California.Ensenada" target="MED::aire" id="40" weight="7022857154.371995" />
+      <edge source="LOC::Baja California.Ensenada" target="MED::suelo" id="41" weight="57.869644399999984" />
+      <edge source="LOC::Baja California.Ensenada" target="MED::alcantarillado" id="42" weight="35.81479422" />
+      <edge source="LOC::Baja California.Ensenada" target="MED::coprocesamiento" id="43" weight="249.09" />
+      <edge source="LOC::Baja California.Ensenada" target="MED::disposicion_final" id="44" weight="31305.769652000003" />
+      <edge source="LOC::Baja California.Ensenada" target="MED::otros" id="45" weight="66.52" />
+      <edge source="LOC::Baja California.Ensenada" target="MED::reciclado" id="46" weight="2025.4250000000002" />
+      <edge source="LOC::Baja California.Ensenada" target="MED::reutilizacion" id="47" weight="1300.0" />
+      <edge source="LOC::Baja California.Ensenada" target="MED::tratamiento" id="48" weight="2.96" />
+    </edges>
+  </graph>
+</gexf>

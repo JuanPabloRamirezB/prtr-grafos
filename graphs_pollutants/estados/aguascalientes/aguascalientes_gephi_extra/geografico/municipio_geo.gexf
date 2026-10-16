@@ -1,0 +1,91 @@
+<?xml version='1.0' encoding='utf-8'?>
+<gexf xmlns="http://www.gexf.net/1.2draft" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.gexf.net/1.2draft http://www.gexf.net/1.2draft/gexf.xsd" version="1.2">
+  <meta lastmodifieddate="2026-10-16">
+    <creator>NetworkX 3.7</creator>
+  </meta>
+  <graph defaultedgetype="undirected" mode="static" name="">
+    <attributes mode="static" class="node">
+      <attribute id="0" title="lat" type="double" />
+      <attribute id="1" title="lon" type="double" />
+      <attribute id="2" title="total_kg" type="double" />
+      <attribute id="3" title="community" type="long" />
+      <attribute id="4" title="color_hex" type="string" />
+    </attributes>
+    <nodes>
+      <node id="Aguascalientes.Aguascalientes" label="Aguascalientes">
+        <attvalues>
+          <attvalue for="0" value="21.5247362" />
+          <attvalue for="1" value="-102.1745768" />
+          <attvalue for="2" value="2869879111.235321" />
+          <attvalue for="3" value="2" />
+          <attvalue for="4" value="#1baf7a" />
+        </attvalues>
+      </node>
+      <node id="Aguascalientes.Asientos" label="Asientos">
+        <attvalues>
+          <attvalue for="0" value="22.1417941" />
+          <attvalue for="1" value="-102.052139" />
+          <attvalue for="2" value="5152271440.23751" />
+          <attvalue for="3" value="0" />
+          <attvalue for="4" value="#2a78d6" />
+        </attvalues>
+      </node>
+      <node id="Aguascalientes.El Llano" label="El Llano">
+        <attvalues>
+          <attvalue for="0" value="21.5507929" />
+          <attvalue for="1" value="-101.5755106" />
+          <attvalue for="2" value="395359.586486" />
+          <attvalue for="3" value="0" />
+          <attvalue for="4" value="#2a78d6" />
+        </attvalues>
+      </node>
+      <node id="Aguascalientes.Jesús María" label="Jesús María">
+        <attvalues>
+          <attvalue for="0" value="21.5740582" />
+          <attvalue for="1" value="-102.2036299" />
+          <attvalue for="2" value="1315993128.9960408" />
+          <attvalue for="3" value="1" />
+          <attvalue for="4" value="#eb6834" />
+        </attvalues>
+      </node>
+      <node id="Aguascalientes.Rincón de Romos" label="Rincón de Romos">
+        <attvalues>
+          <attvalue for="0" value="22.1345239" />
+          <attvalue for="1" value="-102.1923047" />
+          <attvalue for="2" value="22001928.9452786" />
+          <attvalue for="3" value="0" />
+          <attvalue for="4" value="#2a78d6" />
+        </attvalues>
+      </node>
+      <node id="Aguascalientes.San Francisco de los Romo" label="San Francisco de los Romo">
+        <attvalues>
+          <attvalue for="0" value="22.0420615" />
+          <attvalue for="1" value="-102.1621642" />
+          <attvalue for="2" value="1611168658.1099784" />
+          <attvalue for="3" value="1" />
+          <attvalue for="4" value="#eb6834" />
+        </attvalues>
+      </node>
+      <node id="Aguascalientes.Tepezalá" label="Tepezalá">
+        <attvalues>
+          <attvalue for="0" value="22.132722" />
+          <attvalue for="1" value="-102.1001097" />
+          <attvalue for="2" value="11643467321.469534" />
+          <attvalue for="3" value="0" />
+          <attvalue for="4" value="#2a78d6" />
+        </attvalues>
+      </node>
+    </nodes>
+    <edges>
+      <edge source="Aguascalientes.Asientos" target="Aguascalientes.El Llano" id="0" weight="0.7139649453894638" />
+      <edge source="Aguascalientes.Asientos" target="Aguascalientes.Rincón de Romos" id="1" weight="0.7514751977252077" />
+      <edge source="Aguascalientes.Asientos" target="Aguascalientes.Tepezalá" id="2" weight="0.7540081006020992" />
+      <edge source="Aguascalientes.El Llano" target="Aguascalientes.Rincón de Romos" id="3" weight="0.8480703923689307" />
+      <edge source="Aguascalientes.El Llano" target="Aguascalientes.Tepezalá" id="4" weight="0.7786180150028854" />
+      <edge source="Aguascalientes.Jesús María" target="Aguascalientes.San Francisco de los Romo" id="5" weight="0.7443067086041566" />
+      <edge source="Aguascalientes.Rincón de Romos" target="Aguascalientes.San Francisco de los Romo" id="6" weight="0.7756704217133605" />
+      <edge source="Aguascalientes.Rincón de Romos" target="Aguascalientes.Tepezalá" id="7" weight="0.8808273556026108" />
+      <edge source="Aguascalientes.San Francisco de los Romo" target="Aguascalientes.Tepezalá" id="8" weight="0.8659424583844466" />
+    </edges>
+  </graph>
+</gexf>

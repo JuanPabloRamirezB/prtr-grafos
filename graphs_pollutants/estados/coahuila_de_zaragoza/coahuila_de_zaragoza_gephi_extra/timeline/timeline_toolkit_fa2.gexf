@@ -1,0 +1,2267 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<gexf xmlns="http://gexf.net/1.3" version="1.3" xmlns:viz="http://gexf.net/1.3/viz" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://gexf.net/1.3 http://gexf.net/1.3/gexf.xsd">
+  <meta lastmodifieddate="2026-10-16">
+    <creator>Apache NetBeans Platform Dev (Build {0})</creator>
+    <title></title>
+    <description></description>
+  </meta>
+  <graph defaultedgetype="undirected" mode="static">
+    <attributes class="node" mode="static">
+      <attribute id="0" title="type" type="string"/>
+      <attribute id="1" title="total_kg" type="double"/>
+      <attribute id="2" title="first_year" type="long"/>
+      <attribute id="3" title="n_years_active" type="long"/>
+    </attributes>
+    <nodes>
+      <node id="LOC::Coahuila de Zaragoza.Monclova" label="Coahuila de Zaragoza.Monclova">
+        <attvalues>
+          <attvalue for="0" value="location"/>
+          <attvalue for="1" value="1.0268822987408539E11"/>
+          <attvalue for="2" value="2004"/>
+          <attvalue for="3" value="19"/>
+        </attvalues>
+        <viz:size value="50.0"/>
+        <viz:position x="810.6532" y="-210.37073"/>
+        <viz:color r="205" g="226" b="251"/>
+      </node>
+      <node id="LOC::Coahuila de Zaragoza.Ramos Arizpe" label="Coahuila de Zaragoza.Ramos Arizpe">
+        <attvalues>
+          <attvalue for="0" value="location"/>
+          <attvalue for="1" value="2.3831370637815083E10"/>
+          <attvalue for="2" value="2004"/>
+          <attvalue for="3" value="19"/>
+        </attvalues>
+        <viz:size value="50.0"/>
+        <viz:position x="190.27054" y="1046.3121"/>
+        <viz:color r="205" g="226" b="251"/>
+      </node>
+      <node id="LOC::Coahuila de Zaragoza.Torreón" label="Coahuila de Zaragoza.Torreón">
+        <attvalues>
+          <attvalue for="0" value="location"/>
+          <attvalue for="1" value="1.516086237333298E10"/>
+          <attvalue for="2" value="2004"/>
+          <attvalue for="3" value="19"/>
+        </attvalues>
+        <viz:size value="50.0"/>
+        <viz:position x="564.74005" y="290.42194"/>
+        <viz:color r="205" g="226" b="251"/>
+      </node>
+      <node id="LOC::Coahuila de Zaragoza.Saltillo" label="Coahuila de Zaragoza.Saltillo">
+        <attvalues>
+          <attvalue for="0" value="location"/>
+          <attvalue for="1" value="5.593468784290663E9"/>
+          <attvalue for="2" value="2004"/>
+          <attvalue for="3" value="19"/>
+        </attvalues>
+        <viz:size value="50.0"/>
+        <viz:position x="431.69598" y="521.7376"/>
+        <viz:color r="205" g="226" b="251"/>
+      </node>
+      <node id="LOC::Coahuila de Zaragoza.Nava" label="Coahuila de Zaragoza.Nava">
+        <attvalues>
+          <attvalue for="0" value="location"/>
+          <attvalue for="1" value="1.2778810835179834E11"/>
+          <attvalue for="2" value="2004"/>
+          <attvalue for="3" value="19"/>
+        </attvalues>
+        <viz:size value="50.0"/>
+        <viz:position x="314.79565" y="-332.9752"/>
+        <viz:color r="205" g="226" b="251"/>
+      </node>
+      <node id="LOC::Coahuila de Zaragoza.Frontera" label="Coahuila de Zaragoza.Frontera">
+        <attvalues>
+          <attvalue for="0" value="location"/>
+          <attvalue for="1" value="1.6655281642517352E9"/>
+          <attvalue for="2" value="2004"/>
+          <attvalue for="3" value="19"/>
+        </attvalues>
+        <viz:size value="50.0"/>
+        <viz:position x="5.1792297" y="66.03155"/>
+        <viz:color r="205" g="226" b="251"/>
+      </node>
+      <node id="LOC::Coahuila de Zaragoza.Cuatro Ciénegas" label="Coahuila de Zaragoza.Cuatro Ciénegas">
+        <attvalues>
+          <attvalue for="0" value="location"/>
+          <attvalue for="1" value="3.419301791576238E7"/>
+          <attvalue for="2" value="2004"/>
+          <attvalue for="3" value="16"/>
+        </attvalues>
+        <viz:size value="42.666664"/>
+        <viz:position x="-149.17534" y="105.15104"/>
+        <viz:color r="205" g="226" b="251"/>
+      </node>
+      <node id="LOC::Coahuila de Zaragoza.Sierra Mojada" label="Coahuila de Zaragoza.Sierra Mojada">
+        <attvalues>
+          <attvalue for="0" value="location"/>
+          <attvalue for="1" value="5.553209925711112E8"/>
+          <attvalue for="2" value="2004"/>
+          <attvalue for="3" value="14"/>
+        </attvalues>
+        <viz:size value="37.77778"/>
+        <viz:position x="-290.78604" y="-569.424"/>
+        <viz:color r="205" g="226" b="251"/>
+      </node>
+      <node id="LOC::Coahuila de Zaragoza.Castaños" label="Coahuila de Zaragoza.Castaños">
+        <attvalues>
+          <attvalue for="0" value="location"/>
+          <attvalue for="1" value="1.127675928300494E8"/>
+          <attvalue for="2" value="2005"/>
+          <attvalue for="3" value="18"/>
+        </attvalues>
+        <viz:size value="47.555553"/>
+        <viz:position x="-288.12164" y="-52.834972"/>
+        <viz:color r="190" g="216" b="248"/>
+      </node>
+      <node id="LOC::Coahuila de Zaragoza.Piedras Negras" label="Coahuila de Zaragoza.Piedras Negras">
+        <attvalues>
+          <attvalue for="0" value="location"/>
+          <attvalue for="1" value="5.955192642128676E8"/>
+          <attvalue for="2" value="2004"/>
+          <attvalue for="3" value="19"/>
+        </attvalues>
+        <viz:size value="50.0"/>
+        <viz:position x="-452.41483" y="419.48956"/>
+        <viz:color r="205" g="226" b="251"/>
+      </node>
+      <node id="LOC::Coahuila de Zaragoza.San Juan de Sabinas" label="Coahuila de Zaragoza.San Juan de Sabinas">
+        <attvalues>
+          <attvalue for="0" value="location"/>
+          <attvalue for="1" value="1.008798960805501E9"/>
+          <attvalue for="2" value="2004"/>
+          <attvalue for="3" value="14"/>
+        </attvalues>
+        <viz:size value="37.77778"/>
+        <viz:position x="-498.8843" y="-472.38123"/>
+        <viz:color r="205" g="226" b="251"/>
+      </node>
+      <node id="LOC::Coahuila de Zaragoza.Múzquiz" label="Coahuila de Zaragoza.Múzquiz">
+        <attvalues>
+          <attvalue for="0" value="location"/>
+          <attvalue for="1" value="1.6083909678967278E7"/>
+          <attvalue for="2" value="2004"/>
+          <attvalue for="3" value="15"/>
+        </attvalues>
+        <viz:size value="40.22222"/>
+        <viz:position x="-425.3322" y="-406.09976"/>
+        <viz:color r="205" g="226" b="251"/>
+      </node>
+      <node id="LOC::Coahuila de Zaragoza.Parras" label="Coahuila de Zaragoza.Parras">
+        <attvalues>
+          <attvalue for="0" value="location"/>
+          <attvalue for="1" value="3.587886560814455E7"/>
+          <attvalue for="2" value="2004"/>
+          <attvalue for="3" value="19"/>
+        </attvalues>
+        <viz:size value="50.0"/>
+        <viz:position x="-147.7435" y="-641.4642"/>
+        <viz:color r="205" g="226" b="251"/>
+      </node>
+      <node id="LOC::Coahuila de Zaragoza.Arteaga" label="Coahuila de Zaragoza.Arteaga">
+        <attvalues>
+          <attvalue for="0" value="location"/>
+          <attvalue for="1" value="2.175208592025477E7"/>
+          <attvalue for="2" value="2004"/>
+          <attvalue for="3" value="18"/>
+        </attvalues>
+        <viz:size value="47.555553"/>
+        <viz:position x="65.89692" y="-298.59756"/>
+        <viz:color r="205" g="226" b="251"/>
+      </node>
+      <node id="LOC::Coahuila de Zaragoza.Acuña" label="Coahuila de Zaragoza.Acuña">
+        <attvalues>
+          <attvalue for="0" value="location"/>
+          <attvalue for="1" value="2.986496527111422E8"/>
+          <attvalue for="2" value="2004"/>
+          <attvalue for="3" value="19"/>
+        </attvalues>
+        <viz:size value="50.0"/>
+        <viz:position x="392.67368" y="-128.92041"/>
+        <viz:color r="205" g="226" b="251"/>
+      </node>
+      <node id="LOC::Coahuila de Zaragoza.Sabinas" label="Coahuila de Zaragoza.Sabinas">
+        <attvalues>
+          <attvalue for="0" value="location"/>
+          <attvalue for="1" value="1.2853076171755837E7"/>
+          <attvalue for="2" value="2004"/>
+          <attvalue for="3" value="17"/>
+        </attvalues>
+        <viz:size value="45.11111"/>
+        <viz:position x="47.003407" y="-102.81258"/>
+        <viz:color r="205" g="226" b="251"/>
+      </node>
+      <node id="LOC::Coahuila de Zaragoza.San Pedro" label="Coahuila de Zaragoza.San Pedro">
+        <attvalues>
+          <attvalue for="0" value="location"/>
+          <attvalue for="1" value="1.234221227293016E7"/>
+          <attvalue for="2" value="2005"/>
+          <attvalue for="3" value="13"/>
+        </attvalues>
+        <viz:size value="35.333336"/>
+        <viz:position x="-354.53757" y="-482.69275"/>
+        <viz:color r="190" g="216" b="248"/>
+      </node>
+      <node id="LOC::Coahuila de Zaragoza.Progreso" label="Coahuila de Zaragoza.Progreso">
+        <attvalues>
+          <attvalue for="0" value="location"/>
+          <attvalue for="1" value="2252668.0803250005"/>
+          <attvalue for="2" value="2009"/>
+          <attvalue for="3" value="4"/>
+        </attvalues>
+        <viz:size value="13.333334"/>
+        <viz:position x="-460.01038" y="-129.15106"/>
+        <viz:color r="130" g="179" b="238"/>
+      </node>
+      <node id="LOC::Coahuila de Zaragoza.Francisco I" label="Coahuila de Zaragoza.Francisco I">
+        <attvalues>
+          <attvalue for="0" value="location"/>
+          <attvalue for="1" value="5.0844483467E7"/>
+          <attvalue for="2" value="2004"/>
+          <attvalue for="3" value="16"/>
+        </attvalues>
+        <viz:size value="42.666664"/>
+        <viz:position x="171.28084" y="-691.6257"/>
+        <viz:color r="205" g="226" b="251"/>
+      </node>
+      <node id="LOC::Coahuila de Zaragoza.Ocampo" label="Coahuila de Zaragoza.Ocampo">
+        <attvalues>
+          <attvalue for="0" value="location"/>
+          <attvalue for="1" value="2.946216355470555E9"/>
+          <attvalue for="2" value="2004"/>
+          <attvalue for="3" value="16"/>
+        </attvalues>
+        <viz:size value="42.666664"/>
+        <viz:position x="269.29892" y="-649.7607"/>
+        <viz:color r="205" g="226" b="251"/>
+      </node>
+      <node id="LOC::Coahuila de Zaragoza.Matamoros" label="Coahuila de Zaragoza.Matamoros">
+        <attvalues>
+          <attvalue for="0" value="location"/>
+          <attvalue for="1" value="114367.21918000001"/>
+          <attvalue for="2" value="2011"/>
+          <attvalue for="3" value="11"/>
+        </attvalues>
+        <viz:size value="30.444447"/>
+        <viz:position x="212.91908" y="-414.70947"/>
+        <viz:color r="100" g="161" b="233"/>
+      </node>
+      <node id="LOC::Coahuila de Zaragoza.Zaragoza" label="Coahuila de Zaragoza.Zaragoza">
+        <attvalues>
+          <attvalue for="0" value="location"/>
+          <attvalue for="1" value="6.1570553E7"/>
+          <attvalue for="2" value="2015"/>
+          <attvalue for="3" value="8"/>
+        </attvalues>
+        <viz:size value="23.11111"/>
+        <viz:position x="39.93826" y="-787.89056"/>
+        <viz:color r="62" g="124" b="200"/>
+      </node>
+      <node id="LOC::Coahuila de Zaragoza.General Cepeda" label="Coahuila de Zaragoza.General Cepeda">
+        <attvalues>
+          <attvalue for="0" value="location"/>
+          <attvalue for="1" value="5765706.202"/>
+          <attvalue for="2" value="2018"/>
+          <attvalue for="3" value="5"/>
+        </attvalues>
+        <viz:size value="15.777778"/>
+        <viz:position x="-2.4040494" y="-789.2448"/>
+        <viz:color r="39" g="97" b="169"/>
+      </node>
+      <node id="LOC::Coahuila de Zaragoza.Hidalgo" label="Coahuila de Zaragoza.Hidalgo">
+        <attvalues>
+          <attvalue for="0" value="location"/>
+          <attvalue for="1" value="1440865.7209709145"/>
+          <attvalue for="2" value="2019"/>
+          <attvalue for="3" value="4"/>
+        </attvalues>
+        <viz:size value="13.333334"/>
+        <viz:position x="20.122816" y="-840.55176"/>
+        <viz:color r="31" g="88" b="159"/>
+      </node>
+      <node id="SUB::Cianuro inorgánico/orgánico" label="Inorganic/organic cyanide">
+        <attvalues>
+          <attvalue for="0" value="substance"/>
+          <attvalue for="1" value="1434086.2446514913"/>
+          <attvalue for="2" value="2004"/>
+          <attvalue for="3" value="19"/>
+        </attvalues>
+        <viz:size value="50.0"/>
+        <viz:position x="-123.3886" y="-324.6481"/>
+        <viz:color r="205" g="226" b="251"/>
+      </node>
+      <node id="SUB::Mercurio (Compuestos solubles)" label="Mercury (soluble compounds)">
+        <attvalues>
+          <attvalue for="0" value="substance"/>
+          <attvalue for="1" value="1170.0377270065799"/>
+          <attvalue for="2" value="2008"/>
+          <attvalue for="3" value="10"/>
+        </attvalues>
+        <viz:size value="28.0"/>
+        <viz:position x="559.9447" y="68.0498"/>
+        <viz:color r="145" g="189" b="241"/>
+      </node>
+      <node id="SUB::Plomo (Compuestos solubles)" label="Lead (soluble compounds)">
+        <attvalues>
+          <attvalue for="0" value="substance"/>
+          <attvalue for="1" value="686906.1530631044"/>
+          <attvalue for="2" value="2008"/>
+          <attvalue for="3" value="10"/>
+        </attvalues>
+        <viz:size value="28.0"/>
+        <viz:position x="182.65051" y="-566.65045"/>
+        <viz:color r="145" g="189" b="241"/>
+      </node>
+      <node id="SUB::Arsénico (polvos, respirables, vapores o humos)" label="Arsenic (respirable dust, vapors or fumes)">
+        <attvalues>
+          <attvalue for="0" value="substance"/>
+          <attvalue for="1" value="116381.45092730441"/>
+          <attvalue for="2" value="2004"/>
+          <attvalue for="3" value="19"/>
+        </attvalues>
+        <viz:size value="50.0"/>
+        <viz:position x="-422.99313" y="-292.83957"/>
+        <viz:color r="205" g="226" b="251"/>
+      </node>
+      <node id="SUB::Cadmio (polvos, respirables, vapores o humos)" label="Cadmium (respirable dust, vapors or fumes)">
+        <attvalues>
+          <attvalue for="0" value="substance"/>
+          <attvalue for="1" value="159170.84371871126"/>
+          <attvalue for="2" value="2004"/>
+          <attvalue for="3" value="19"/>
+        </attvalues>
+        <viz:size value="50.0"/>
+        <viz:position x="-535.2556" y="-231.89293"/>
+        <viz:color r="205" g="226" b="251"/>
+      </node>
+      <node id="SUB::Fenol" label="Phenol">
+        <attvalues>
+          <attvalue for="0" value="substance"/>
+          <attvalue for="1" value="646644.9146321001"/>
+          <attvalue for="2" value="2004"/>
+          <attvalue for="3" value="16"/>
+        </attvalues>
+        <viz:size value="42.666664"/>
+        <viz:position x="105.34416" y="642.4687"/>
+        <viz:color r="205" g="226" b="251"/>
+      </node>
+      <node id="SUB::Cromo (Compuestos solubles)" label="Chromium (soluble compounds)">
+        <attvalues>
+          <attvalue for="0" value="substance"/>
+          <attvalue for="1" value="417983.3387283381"/>
+          <attvalue for="2" value="2008"/>
+          <attvalue for="3" value="10"/>
+        </attvalues>
+        <viz:size value="28.0"/>
+        <viz:position x="218.26837" y="-131.51515"/>
+        <viz:color r="145" g="189" b="241"/>
+      </node>
+      <node id="SUB::Níquel (Compuestos solubles)" label="Nickel (soluble compounds)">
+        <attvalues>
+          <attvalue for="0" value="substance"/>
+          <attvalue for="1" value="255194.98787154898"/>
+          <attvalue for="2" value="2008"/>
+          <attvalue for="3" value="10"/>
+        </attvalues>
+        <viz:size value="28.0"/>
+        <viz:position x="210.77602" y="13.562657"/>
+        <viz:color r="145" g="189" b="241"/>
+      </node>
+      <node id="SUB::Cadmio (Compuestos solubles)" label="Cadmium (soluble compounds)">
+        <attvalues>
+          <attvalue for="0" value="substance"/>
+          <attvalue for="1" value="5707.201499163999"/>
+          <attvalue for="2" value="2008"/>
+          <attvalue for="3" value="10"/>
+        </attvalues>
+        <viz:size value="28.0"/>
+        <viz:position x="410.47177" y="63.46957"/>
+        <viz:color r="145" g="189" b="241"/>
+      </node>
+      <node id="SUB::Arsénico (compuestos)" label="Arsenic (compounds)">
+        <attvalues>
+          <attvalue for="0" value="substance"/>
+          <attvalue for="1" value="10653.933816539691"/>
+          <attvalue for="2" value="2004"/>
+          <attvalue for="3" value="9"/>
+        </attvalues>
+        <viz:size value="25.555555"/>
+        <viz:position x="-418.1827" y="25.277119"/>
+        <viz:color r="205" g="226" b="251"/>
+      </node>
+      <node id="SUB::Cadmio (compuestos)" label="Cadmium (compounds)">
+        <attvalues>
+          <attvalue for="0" value="substance"/>
+          <attvalue for="1" value="26289.57693053109"/>
+          <attvalue for="2" value="2004"/>
+          <attvalue for="3" value="9"/>
+        </attvalues>
+        <viz:size value="25.555555"/>
+        <viz:position x="-301.88174" y="124.64553"/>
+        <viz:color r="205" g="226" b="251"/>
+      </node>
+      <node id="SUB::Cromo (compuestos)" label="Chromium (compounds)">
+        <attvalues>
+          <attvalue for="0" value="substance"/>
+          <attvalue for="1" value="967339.9055496646"/>
+          <attvalue for="2" value="2004"/>
+          <attvalue for="3" value="9"/>
+        </attvalues>
+        <viz:size value="25.555555"/>
+        <viz:position x="-283.7865" y="-357.65457"/>
+        <viz:color r="205" g="226" b="251"/>
+      </node>
+      <node id="SUB::Mercurio (compuestos)" label="Mercury (compounds)">
+        <attvalues>
+          <attvalue for="0" value="substance"/>
+          <attvalue for="1" value="4212.351511792176"/>
+          <attvalue for="2" value="2004"/>
+          <attvalue for="3" value="9"/>
+        </attvalues>
+        <viz:size value="25.555555"/>
+        <viz:position x="-189.18942" y="-183.73978"/>
+        <viz:color r="205" g="226" b="251"/>
+      </node>
+      <node id="SUB::Plomo (compuestos)" label="Lead (compounds)">
+        <attvalues>
+          <attvalue for="0" value="substance"/>
+          <attvalue for="1" value="2523482.576126923"/>
+          <attvalue for="2" value="2004"/>
+          <attvalue for="3" value="9"/>
+        </attvalues>
+        <viz:size value="25.555555"/>
+        <viz:position x="-125.41877" y="-462.4646"/>
+        <viz:color r="205" g="226" b="251"/>
+      </node>
+      <node id="SUB::Níquel (compuestos)" label="Nickel (compounds)">
+        <attvalues>
+          <attvalue for="0" value="substance"/>
+          <attvalue for="1" value="529105.0317160824"/>
+          <attvalue for="2" value="2004"/>
+          <attvalue for="3" value="9"/>
+        </attvalues>
+        <viz:size value="25.555555"/>
+        <viz:position x="-326.55295" y="-200.67178"/>
+        <viz:color r="205" g="226" b="251"/>
+      </node>
+      <node id="SUB::Mercurio (polvos, respirables, vapores o humos)" label="Mercury (respirable dust, vapors or fumes)">
+        <attvalues>
+          <attvalue for="0" value="substance"/>
+          <attvalue for="1" value="69881.03316078143"/>
+          <attvalue for="2" value="2004"/>
+          <attvalue for="3" value="19"/>
+        </attvalues>
+        <viz:size value="50.0"/>
+        <viz:position x="21.186533" y="-491.03134"/>
+        <viz:color r="205" g="226" b="251"/>
+      </node>
+      <node id="SUB::Cianuro de hidrógeno" label="Hydrogen cyanide">
+        <attvalues>
+          <attvalue for="0" value="substance"/>
+          <attvalue for="1" value="18962.6"/>
+          <attvalue for="2" value="2014"/>
+          <attvalue for="3" value="3"/>
+        </attvalues>
+        <viz:size value="10.888889"/>
+        <viz:position x="1382.5145" y="-532.9081"/>
+        <viz:color r="69" g="133" b="210"/>
+      </node>
+      <node id="SUB::Plomo (polvos respirables, humos o vapores)" label="Lead (respirable dust, fumes or vapors)">
+        <attvalues>
+          <attvalue for="0" value="substance"/>
+          <attvalue for="1" value="7875780.873202068"/>
+          <attvalue for="2" value="2014"/>
+          <attvalue for="3" value="9"/>
+        </attvalues>
+        <viz:size value="25.555555"/>
+        <viz:position x="390.2166" y="-603.2267"/>
+        <viz:color r="69" g="133" b="210"/>
+      </node>
+      <node id="SUB::Cromo (polvos respirables, humos o vapores)" label="Chromium (respirable dust, fumes or vapors)">
+        <attvalues>
+          <attvalue for="0" value="substance"/>
+          <attvalue for="1" value="61313.09553319926"/>
+          <attvalue for="2" value="2014"/>
+          <attvalue for="3" value="9"/>
+        </attvalues>
+        <viz:size value="25.555555"/>
+        <viz:position x="925.20984" y="204.97522"/>
+        <viz:color r="69" g="133" b="210"/>
+      </node>
+      <node id="SUB::Níquel (polvos respirables, humos o vapores)" label="Nickel (respirable dust, fumes or vapors)">
+        <attvalues>
+          <attvalue for="0" value="substance"/>
+          <attvalue for="1" value="278545.42276946595"/>
+          <attvalue for="2" value="2014"/>
+          <attvalue for="3" value="9"/>
+        </attvalues>
+        <viz:size value="25.555555"/>
+        <viz:position x="718.82733" y="90.201836"/>
+        <viz:color r="69" g="133" b="210"/>
+      </node>
+      <node id="SUB::Arsénico (Compuestos solubles)" label="Arsenic (soluble compounds)">
+        <attvalues>
+          <attvalue for="0" value="substance"/>
+          <attvalue for="1" value="8413.709411724"/>
+          <attvalue for="2" value="2008"/>
+          <attvalue for="3" value="10"/>
+        </attvalues>
+        <viz:size value="28.0"/>
+        <viz:position x="474.92868" y="-412.8677"/>
+        <viz:color r="145" g="189" b="241"/>
+      </node>
+      <node id="SUB::Formaldehido" label="Formaldehyde">
+        <attvalues>
+          <attvalue for="0" value="substance"/>
+          <attvalue for="1" value="264365.20746842196"/>
+          <attvalue for="2" value="2004"/>
+          <attvalue for="3" value="19"/>
+        </attvalues>
+        <viz:size value="50.0"/>
+        <viz:position x="107.07149" y="287.29684"/>
+        <viz:color r="205" g="226" b="251"/>
+      </node>
+      <node id="SUB::Piridina" label="Pyridine">
+        <attvalues>
+          <attvalue for="0" value="substance"/>
+          <attvalue for="1" value="424.09000000000003"/>
+          <attvalue for="2" value="2004"/>
+          <attvalue for="3" value="6"/>
+        </attvalues>
+        <viz:size value="18.222223"/>
+        <viz:position x="207.94102" y="1774.6978"/>
+        <viz:color r="205" g="226" b="251"/>
+      </node>
+      <node id="SUB::Cloruro de metileno" label="Methylene chloride">
+        <attvalues>
+          <attvalue for="0" value="substance"/>
+          <attvalue for="1" value="827295.2314708161"/>
+          <attvalue for="2" value="2004"/>
+          <attvalue for="3" value="18"/>
+        </attvalues>
+        <viz:size value="47.555553"/>
+        <viz:position x="-202.87276" y="1097.0337"/>
+        <viz:color r="205" g="226" b="251"/>
+      </node>
+      <node id="SUB::Bióxido de carbono" label="Carbon dioxide">
+        <attvalues>
+          <attvalue for="0" value="substance"/>
+          <attvalue for="1" value="2.8110829402694543E11"/>
+          <attvalue for="2" value="2004"/>
+          <attvalue for="3" value="19"/>
+        </attvalues>
+        <viz:size value="50.0"/>
+        <viz:position x="17.15236" y="-706.2462"/>
+        <viz:color r="205" g="226" b="251"/>
+      </node>
+      <node id="SUB::Bióxido de nitrógeno" label="Nitrogen dioxide">
+        <attvalues>
+          <attvalue for="0" value="substance"/>
+          <attvalue for="1" value="2.7897912404495007E8"/>
+          <attvalue for="2" value="2004"/>
+          <attvalue for="3" value="19"/>
+        </attvalues>
+        <viz:size value="50.0"/>
+        <viz:position x="623.49426" y="-398.05206"/>
+        <viz:color r="205" g="226" b="251"/>
+      </node>
+      <node id="SUB::Acido sulfhídrico" label="Hydrogen sulfide">
+        <attvalues>
+          <attvalue for="0" value="substance"/>
+          <attvalue for="1" value="5497353.763"/>
+          <attvalue for="2" value="2006"/>
+          <attvalue for="3" value="15"/>
+        </attvalues>
+        <viz:size value="40.22222"/>
+        <viz:position x="1455.1744" y="-474.46225"/>
+        <viz:color r="175" g="207" b="246"/>
+      </node>
+      <node id="SUB::Dioxinas" label="Dioxins">
+        <attvalues>
+          <attvalue for="0" value="substance"/>
+          <attvalue for="1" value="0.11686578082599097"/>
+          <attvalue for="2" value="2004"/>
+          <attvalue for="3" value="18"/>
+        </attvalues>
+        <viz:size value="47.555553"/>
+        <viz:position x="-228.24629" y="263.72717"/>
+        <viz:color r="205" g="226" b="251"/>
+      </node>
+      <node id="SUB::Endosulfan" label="Endosulfan">
+        <attvalues>
+          <attvalue for="0" value="substance"/>
+          <attvalue for="1" value="95.49338133999998"/>
+          <attvalue for="2" value="2004"/>
+          <attvalue for="3" value="8"/>
+        </attvalues>
+        <viz:size value="23.11111"/>
+        <viz:position x="1233.3854" y="532.0544"/>
+        <viz:color r="205" g="226" b="251"/>
+      </node>
+      <node id="SUB::Metil paration" label="Methyl parathion">
+        <attvalues>
+          <attvalue for="0" value="substance"/>
+          <attvalue for="1" value="4.96215911"/>
+          <attvalue for="2" value="2004"/>
+          <attvalue for="3" value="5"/>
+        </attvalues>
+        <viz:size value="15.777778"/>
+        <viz:position x="1191.6603" y="641.4862"/>
+        <viz:color r="205" g="226" b="251"/>
+      </node>
+      <node id="SUB::1,1,1-Tricloroetano" label="1,1,1-Trichloroethane">
+        <attvalues>
+          <attvalue for="0" value="substance"/>
+          <attvalue for="1" value="0.08484599999999999"/>
+          <attvalue for="2" value="2007"/>
+          <attvalue for="3" value="7"/>
+        </attvalues>
+        <viz:size value="20.666668"/>
+        <viz:position x="-418.21393" y="577.74457"/>
+        <viz:color r="160" g="198" b="243"/>
+      </node>
+      <node id="SUB::Clorodifluorometano (HCFC-22)" label="Chlorodifluoromethane (HCFC-22)">
+        <attvalues>
+          <attvalue for="0" value="substance"/>
+          <attvalue for="1" value="93281.11069999999"/>
+          <attvalue for="2" value="2007"/>
+          <attvalue for="3" value="10"/>
+        </attvalues>
+        <viz:size value="28.0"/>
+        <viz:position x="203.13293" y="468.6913"/>
+        <viz:color r="160" g="198" b="243"/>
+      </node>
+      <node id="SUB::Metano" label="Methane">
+        <attvalues>
+          <attvalue for="0" value="substance"/>
+          <attvalue for="1" value="1.0844059117269647E9"/>
+          <attvalue for="2" value="2004"/>
+          <attvalue for="3" value="19"/>
+        </attvalues>
+        <viz:size value="50.0"/>
+        <viz:position x="-66.96784" y="353.8718"/>
+        <viz:color r="205" g="226" b="251"/>
+      </node>
+      <node id="SUB::Hidrofluorocarbonos" label="Hydrofluorocarbons">
+        <attvalues>
+          <attvalue for="0" value="substance"/>
+          <attvalue for="1" value="390761.27603199997"/>
+          <attvalue for="2" value="2008"/>
+          <attvalue for="3" value="10"/>
+        </attvalues>
+        <viz:size value="28.0"/>
+        <viz:position x="947.7747" y="428.32617"/>
+        <viz:color r="145" g="189" b="241"/>
+      </node>
+      <node id="SUB::Acido 2,4 Diclorofenoxiacetico" label="2,4-Dichlorophenoxyacetic acid (2,4-D)">
+        <attvalues>
+          <attvalue for="0" value="substance"/>
+          <attvalue for="1" value="1000.0"/>
+          <attvalue for="2" value="2008"/>
+          <attvalue for="3" value="1"/>
+        </attvalues>
+        <viz:size value="6.0"/>
+        <viz:position x="1398.1025" y="-396.54562"/>
+        <viz:color r="145" g="189" b="241"/>
+      </node>
+      <node id="SUB::Bifenilo" label="Biphenyl">
+        <attvalues>
+          <attvalue for="0" value="substance"/>
+          <attvalue for="1" value="35.111999999999995"/>
+          <attvalue for="2" value="2004"/>
+          <attvalue for="3" value="4"/>
+        </attvalues>
+        <viz:size value="13.333334"/>
+        <viz:position x="-906.1321" y="754.57446"/>
+        <viz:color r="205" g="226" b="251"/>
+      </node>
+      <node id="SUB::Benceno" label="Benzene">
+        <attvalues>
+          <attvalue for="0" value="substance"/>
+          <attvalue for="1" value="306463.97092422075"/>
+          <attvalue for="2" value="2004"/>
+          <attvalue for="3" value="17"/>
+        </attvalues>
+        <viz:size value="45.11111"/>
+        <viz:position x="318.1445" y="284.303"/>
+        <viz:color r="205" g="226" b="251"/>
+      </node>
+      <node id="SUB::Acetaldehido" label="Acetaldehyde">
+        <attvalues>
+          <attvalue for="0" value="substance"/>
+          <attvalue for="1" value="3595.1037324023837"/>
+          <attvalue for="2" value="2004"/>
+          <attvalue for="3" value="18"/>
+        </attvalues>
+        <viz:size value="47.555553"/>
+        <viz:position x="750.6428" y="500.05154"/>
+        <viz:color r="205" g="226" b="251"/>
+      </node>
+      <node id="SUB::Estireno (fenil etileno)" label="Styrene (phenylethylene)">
+        <attvalues>
+          <attvalue for="0" value="substance"/>
+          <attvalue for="1" value="216893.96049999996"/>
+          <attvalue for="2" value="2004"/>
+          <attvalue for="3" value="13"/>
+        </attvalues>
+        <viz:size value="35.333336"/>
+        <viz:position x="642.51166" y="1288.057"/>
+        <viz:color r="205" g="226" b="251"/>
+      </node>
+      <node id="SUB::Dibutilftalato" label="Dibutyl phthalate">
+        <attvalues>
+          <attvalue for="0" value="substance"/>
+          <attvalue for="1" value="1079.5572"/>
+          <attvalue for="2" value="2005"/>
+          <attvalue for="3" value="5"/>
+        </attvalues>
+        <viz:size value="15.777778"/>
+        <viz:position x="511.3268" y="-220.80362"/>
+        <viz:color r="190" g="216" b="248"/>
+      </node>
+      <node id="SUB::1,1-Dicloro-1-Fluoroetano (HCFC-141b)" label="1,1-Dichloro-1-fluoroethane (HCFC-141b)">
+        <attvalues>
+          <attvalue for="0" value="substance"/>
+          <attvalue for="1" value="15008.5611"/>
+          <attvalue for="2" value="2009"/>
+          <attvalue for="3" value="3"/>
+        </attvalues>
+        <viz:size value="10.888889"/>
+        <viz:position x="-490.78632" y="1105.012"/>
+        <viz:color r="130" g="179" b="238"/>
+      </node>
+      <node id="SUB::Acroleina" label="Acrolein">
+        <attvalues>
+          <attvalue for="0" value="substance"/>
+          <attvalue for="1" value="0.10087319999999998"/>
+          <attvalue for="2" value="2005"/>
+          <attvalue for="3" value="7"/>
+        </attvalues>
+        <viz:size value="20.666668"/>
+        <viz:position x="867.568" y="66.028"/>
+        <viz:color r="190" g="216" b="248"/>
+      </node>
+      <node id="SUB::2-Cloro-1,1,2,2-Tetrafluoroetano (HCFC-124)" label="2-Chloro-1,1,2,2-tetrafluoroethane (HCFC-124)">
+        <attvalues>
+          <attvalue for="0" value="substance"/>
+          <attvalue for="1" value="6038.7216"/>
+          <attvalue for="2" value="2007"/>
+          <attvalue for="3" value="5"/>
+        </attvalues>
+        <viz:size value="15.777778"/>
+        <viz:position x="-90.98219" y="615.94086"/>
+        <viz:color r="160" g="198" b="243"/>
+      </node>
+      <node id="SUB::1,4-Diclorobenceno" label="1,4-Dichlorobenzene">
+        <attvalues>
+          <attvalue for="0" value="substance"/>
+          <attvalue for="1" value="1059.0101296087998"/>
+          <attvalue for="2" value="2013"/>
+          <attvalue for="3" value="2"/>
+        </attvalues>
+        <viz:size value="8.444445"/>
+        <viz:position x="540.2675" y="1339.4929"/>
+        <viz:color r="77" g="142" b="220"/>
+      </node>
+      <node id="SUB::Furanos" label="Furans">
+        <attvalues>
+          <attvalue for="0" value="substance"/>
+          <attvalue for="1" value="0.06261888520101103"/>
+          <attvalue for="2" value="2004"/>
+          <attvalue for="3" value="17"/>
+        </attvalues>
+        <viz:size value="45.11111"/>
+        <viz:position x="1048.9175" y="590.1906"/>
+        <viz:color r="205" g="226" b="251"/>
+      </node>
+      <node id="SUB::Tolueno" label="Toluene">
+        <attvalues>
+          <attvalue for="0" value="substance"/>
+          <attvalue for="1" value="2005210.4532087"/>
+          <attvalue for="2" value="2014"/>
+          <attvalue for="3" value="9"/>
+        </attvalues>
+        <viz:size value="25.555555"/>
+        <viz:position x="-280.41946" y="1020.74805"/>
+        <viz:color r="69" g="133" b="210"/>
+      </node>
+      <node id="SUB::Xileno (mezcla de isómeros)" label="Xylene (mixture of isomers)">
+        <attvalues>
+          <attvalue for="0" value="substance"/>
+          <attvalue for="1" value="716732.2923799999"/>
+          <attvalue for="2" value="2014"/>
+          <attvalue for="3" value="9"/>
+        </attvalues>
+        <viz:size value="25.555555"/>
+        <viz:position x="-149.19588" y="922.7547"/>
+        <viz:color r="69" g="133" b="210"/>
+      </node>
+      <node id="SUB::Benzo(a)antraceno" label="Benzo(a)anthracene">
+        <attvalues>
+          <attvalue for="0" value="substance"/>
+          <attvalue for="1" value="53.595499999999994"/>
+          <attvalue for="2" value="2015"/>
+          <attvalue for="3" value="6"/>
+        </attvalues>
+        <viz:size value="18.222223"/>
+        <viz:position x="1490.1581" y="-370.73367"/>
+        <viz:color r="62" g="124" b="200"/>
+      </node>
+      <node id="SUB::Benzo(a)pireno" label="Benzo(a)pyrene">
+        <attvalues>
+          <attvalue for="0" value="substance"/>
+          <attvalue for="1" value="82.3009"/>
+          <attvalue for="2" value="2015"/>
+          <attvalue for="3" value="7"/>
+        </attvalues>
+        <viz:size value="20.666668"/>
+        <viz:position x="1462.6013" y="-280.8003"/>
+        <viz:color r="62" g="124" b="200"/>
+      </node>
+      <node id="SUB::Antimonio trióxido" label="Antimony trioxide">
+        <attvalues>
+          <attvalue for="0" value="substance"/>
+          <attvalue for="1" value="1187.262"/>
+          <attvalue for="2" value="2015"/>
+          <attvalue for="3" value="1"/>
+        </attvalues>
+        <viz:size value="6.0"/>
+        <viz:position x="44.2156" y="1878.0343"/>
+        <viz:color r="62" g="124" b="200"/>
+      </node>
+      <node id="SUB::Metileno bis(fenilisocianato)" label="Methylene bis(phenyl isocyanate) (MDI)">
+        <attvalues>
+          <attvalue for="0" value="substance"/>
+          <attvalue for="1" value="9285.602640000001"/>
+          <attvalue for="2" value="2015"/>
+          <attvalue for="3" value="8"/>
+        </attvalues>
+        <viz:size value="23.11111"/>
+        <viz:position x="-585.90356" y="1097.8691"/>
+        <viz:color r="62" g="124" b="200"/>
+      </node>
+      <node id="SUB::Oxido nitroso" label="Nitrous oxide">
+        <attvalues>
+          <attvalue for="0" value="substance"/>
+          <attvalue for="1" value="1099684.0396"/>
+          <attvalue for="2" value="2009"/>
+          <attvalue for="3" value="9"/>
+        </attvalues>
+        <viz:size value="25.555555"/>
+        <viz:position x="356.15176" y="781.91895"/>
+        <viz:color r="130" g="179" b="238"/>
+      </node>
+      <node id="SUB::Fosfato de tris(metilfenilo)" label="Tris(methylphenyl) phosphate">
+        <attvalues>
+          <attvalue for="0" value="substance"/>
+          <attvalue for="1" value="3983.14"/>
+          <attvalue for="2" value="2018"/>
+          <attvalue for="3" value="1"/>
+        </attvalues>
+        <viz:size value="6.0"/>
+        <viz:position x="95.07995" y="1773.9628"/>
+        <viz:color r="39" g="97" b="169"/>
+      </node>
+      <node id="SUB::Ácido sulfónico de perfluorooctano y sus sales" label="Perfluorooctane sulfonic acid and its salts (PFOS)">
+        <attvalues>
+          <attvalue for="0" value="substance"/>
+          <attvalue for="1" value="500.0"/>
+          <attvalue for="2" value="2018"/>
+          <attvalue for="3" value="1"/>
+        </attvalues>
+        <viz:size value="6.0"/>
+        <viz:position x="367.72748" y="1873.0853"/>
+        <viz:color r="39" g="97" b="169"/>
+      </node>
+      <node id="SUB::Cumeno" label="Cumene">
+        <attvalues>
+          <attvalue for="0" value="substance"/>
+          <attvalue for="1" value="10331.20458"/>
+          <attvalue for="2" value="2019"/>
+          <attvalue for="3" value="4"/>
+        </attvalues>
+        <viz:size value="13.333334"/>
+        <viz:position x="783.85236" y="1091.4944"/>
+        <viz:color r="31" g="88" b="159"/>
+      </node>
+      <node id="SUB::Diisocianato de difenilmetano polimérico" label="Polymeric diphenylmethane diisocyanate">
+        <attvalues>
+          <attvalue for="0" value="substance"/>
+          <attvalue for="1" value="14119.921"/>
+          <attvalue for="2" value="2018"/>
+          <attvalue for="3" value="5"/>
+        </attvalues>
+        <viz:size value="15.777778"/>
+        <viz:position x="-595.88354" y="1004.9536"/>
+        <viz:color r="39" g="97" b="169"/>
+      </node>
+      <node id="SUB::Asbesto y sus formas (En forma de polvo, fibras o productos desmenuzables con la presión de la mano)" label="Asbestos and its forms (as dust, fibers or friable products that crumble under hand pressure)">
+        <attvalues>
+          <attvalue for="0" value="substance"/>
+          <attvalue for="1" value="488775.92"/>
+          <attvalue for="2" value="2004"/>
+          <attvalue for="3" value="15"/>
+        </attvalues>
+        <viz:size value="40.22222"/>
+        <viz:position x="765.25916" y="959.04895"/>
+        <viz:color r="205" g="226" b="251"/>
+      </node>
+      <node id="SUB::Tricloroetileno" label="Trichloroethylene">
+        <attvalues>
+          <attvalue for="0" value="substance"/>
+          <attvalue for="1" value="2.7144"/>
+          <attvalue for="2" value="2013"/>
+          <attvalue for="3" value="1"/>
+        </attvalues>
+        <viz:size value="6.0"/>
+        <viz:position x="6.586904" y="463.66663"/>
+        <viz:color r="77" g="142" b="220"/>
+      </node>
+      <node id="SUB::Dioxido de cloro" label="Chlorine dioxide">
+        <attvalues>
+          <attvalue for="0" value="substance"/>
+          <attvalue for="1" value="78878.6"/>
+          <attvalue for="2" value="2009"/>
+          <attvalue for="3" value="7"/>
+        </attvalues>
+        <viz:size value="20.666668"/>
+        <viz:position x="154.63199" y="1891.3492"/>
+        <viz:color r="130" g="179" b="238"/>
+      </node>
+      <node id="SUB::1,3-dicloro-5,5-dimetilhidantoína" label="1,3-Dichloro-5,5-dimethylhydantoin">
+        <attvalues>
+          <attvalue for="0" value="substance"/>
+          <attvalue for="1" value="49709.49245504"/>
+          <attvalue for="2" value="2020"/>
+          <attvalue for="3" value="2"/>
+        </attvalues>
+        <viz:size value="8.444445"/>
+        <viz:position x="962.0983" y="1042.7731"/>
+        <viz:color r="24" g="79" b="149"/>
+      </node>
+      <node id="SUB::Cloroformo" label="Chloroform">
+        <attvalues>
+          <attvalue for="0" value="substance"/>
+          <attvalue for="1" value="480.0"/>
+          <attvalue for="2" value="2007"/>
+          <attvalue for="3" value="1"/>
+        </attvalues>
+        <viz:size value="6.0"/>
+        <viz:position x="324.92505" y="1769.959"/>
+        <viz:color r="160" g="198" b="243"/>
+      </node>
+      <node id="SUB::Bifenilos policlorados" label="Polychlorinated biphenyls (PCBs)">
+        <attvalues>
+          <attvalue for="0" value="substance"/>
+          <attvalue for="1" value="50940.093970914444"/>
+          <attvalue for="2" value="2006"/>
+          <attvalue for="3" value="5"/>
+        </attvalues>
+        <viz:size value="15.777778"/>
+        <viz:position x="-147.42662" y="-909.5852"/>
+        <viz:color r="175" g="207" b="246"/>
+      </node>
+      <node id="SUB::Tolueno diisocianato" label="Toluene diisocyanate">
+        <attvalues>
+          <attvalue for="0" value="substance"/>
+          <attvalue for="1" value="1165.3"/>
+          <attvalue for="2" value="2006"/>
+          <attvalue for="3" value="5"/>
+        </attvalues>
+        <viz:size value="15.777778"/>
+        <viz:position x="259.49353" y="1887.9613"/>
+        <viz:color r="175" g="207" b="246"/>
+      </node>
+      <node id="SUB::Sulfato de cobre" label="Copper sulfate">
+        <attvalues>
+          <attvalue for="0" value="substance"/>
+          <attvalue for="1" value="100.0"/>
+          <attvalue for="2" value="2016"/>
+          <attvalue for="3" value="1"/>
+        </attvalues>
+        <viz:size value="6.0"/>
+        <viz:position x="451.8918" y="1797.2666"/>
+        <viz:color r="54" g="115" b="190"/>
+      </node>
+      <node id="SUB::Hexaclorobenceno" label="Hexachlorobenzene">
+        <attvalues>
+          <attvalue for="0" value="substance"/>
+          <attvalue for="1" value="0.0036"/>
+          <attvalue for="2" value="2019"/>
+          <attvalue for="3" value="3"/>
+        </attvalues>
+        <viz:size value="10.888889"/>
+        <viz:position x="-960.38464" y="681.4186"/>
+        <viz:color r="31" g="88" b="159"/>
+      </node>
+      <node id="SUB::Warfarina" label="Warfarin">
+        <attvalues>
+          <attvalue for="0" value="substance"/>
+          <attvalue for="1" value="550.0"/>
+          <attvalue for="2" value="2012"/>
+          <attvalue for="3" value="1"/>
+        </attvalues>
+        <viz:size value="6.0"/>
+        <viz:position x="-31.963947" y="1800.6089"/>
+        <viz:color r="85" g="152" b="231"/>
+      </node>
+    </nodes>
+    <edges>
+      <edge id="0" source="LOC::Coahuila de Zaragoza.Monclova" target="SUB::Cianuro inorgánico/orgánico" weight="21742.3984375">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+      </edge>
+      <edge id="1" source="LOC::Coahuila de Zaragoza.Monclova" target="SUB::Cromo (Compuestos solubles)" weight="185422.328125">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+      </edge>
+      <edge id="2" source="LOC::Coahuila de Zaragoza.Monclova" target="SUB::Mercurio (Compuestos solubles)" weight="41.186580657958984">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+      </edge>
+      <edge id="3" source="LOC::Coahuila de Zaragoza.Monclova" target="SUB::Níquel (Compuestos solubles)" weight="4034.03515625">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+      </edge>
+      <edge id="4" source="LOC::Coahuila de Zaragoza.Monclova" target="SUB::Plomo (Compuestos solubles)" weight="10383.9375">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+      </edge>
+      <edge id="5" source="LOC::Coahuila de Zaragoza.Monclova" target="SUB::Arsénico (polvos, respirables, vapores o humos)" weight="71.90008544921875">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+      </edge>
+      <edge id="6" source="LOC::Coahuila de Zaragoza.Monclova" target="SUB::Cadmio (polvos, respirables, vapores o humos)" weight="50.996463775634766">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+      </edge>
+      <edge id="7" source="LOC::Coahuila de Zaragoza.Monclova" target="SUB::Cromo (compuestos)" weight="42916.796875">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+      </edge>
+      <edge id="8" source="LOC::Coahuila de Zaragoza.Monclova" target="SUB::Cadmio (compuestos)" weight="234.8191680908203">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+      </edge>
+      <edge id="9" source="LOC::Coahuila de Zaragoza.Monclova" target="SUB::Arsénico (compuestos)" weight="167.5030975341797">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+      </edge>
+      <edge id="10" source="LOC::Coahuila de Zaragoza.Monclova" target="SUB::Níquel (compuestos)" weight="1333.5008544921875">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+      </edge>
+      <edge id="11" source="LOC::Coahuila de Zaragoza.Monclova" target="SUB::Mercurio (compuestos)" weight="1023.689697265625">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+      </edge>
+      <edge id="12" source="LOC::Coahuila de Zaragoza.Monclova" target="SUB::Plomo (compuestos)" weight="140550.90625">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+      </edge>
+      <edge id="13" source="LOC::Coahuila de Zaragoza.Monclova" target="SUB::Mercurio (polvos, respirables, vapores o humos)" weight="3195.846435546875">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+      </edge>
+      <edge id="14" source="LOC::Coahuila de Zaragoza.Monclova" target="SUB::Cianuro de hidrógeno" weight="18962.599609375">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+      </edge>
+      <edge id="15" source="LOC::Coahuila de Zaragoza.Monclova" target="SUB::Arsénico (Compuestos solubles)" weight="709.3287963867188">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+      </edge>
+      <edge id="16" source="LOC::Coahuila de Zaragoza.Monclova" target="SUB::Cadmio (Compuestos solubles)" weight="775.7457275390625">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+      </edge>
+      <edge id="17" source="LOC::Coahuila de Zaragoza.Monclova" target="SUB::Bióxido de nitrógeno" weight="2.07184896E8">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+      </edge>
+      <edge id="18" source="LOC::Coahuila de Zaragoza.Monclova" target="SUB::Bióxido de carbono" weight="1.0140270592E11">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+      </edge>
+      <edge id="19" source="LOC::Coahuila de Zaragoza.Monclova" target="SUB::Acido sulfhídrico" weight="5497354.0">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+      </edge>
+      <edge id="20" source="LOC::Coahuila de Zaragoza.Monclova" target="SUB::Hidrofluorocarbonos" weight="3.199999991920777E-5">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+      </edge>
+      <edge id="21" source="LOC::Coahuila de Zaragoza.Monclova" target="SUB::Acido 2,4 Diclorofenoxiacetico" weight="1000.0">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+      </edge>
+      <edge id="22" source="LOC::Coahuila de Zaragoza.Monclova" target="SUB::Acetaldehido" weight="0.11500000208616257">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+      </edge>
+      <edge id="23" source="LOC::Coahuila de Zaragoza.Monclova" target="SUB::Benceno" weight="161814.15625">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+      </edge>
+      <edge id="24" source="LOC::Coahuila de Zaragoza.Monclova" target="SUB::Formaldehido" weight="0.023000000044703484">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+      </edge>
+      <edge id="25" source="LOC::Coahuila de Zaragoza.Monclova" target="SUB::Acroleina" weight="0.06599999964237213">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+      </edge>
+      <edge id="26" source="LOC::Coahuila de Zaragoza.Monclova" target="SUB::2-Cloro-1,1,2,2-Tetrafluoroetano (HCFC-124)" weight="6036.0">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+      </edge>
+      <edge id="27" source="LOC::Coahuila de Zaragoza.Monclova" target="SUB::Clorodifluorometano (HCFC-22)" weight="56772.0">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+      </edge>
+      <edge id="28" source="LOC::Coahuila de Zaragoza.Monclova" target="SUB::Dioxinas" weight="0.07070229947566986">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+      </edge>
+      <edge id="29" source="LOC::Coahuila de Zaragoza.Monclova" target="SUB::Furanos" weight="0.0455152802169323">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+      </edge>
+      <edge id="30" source="LOC::Coahuila de Zaragoza.Monclova" target="SUB::Cromo (polvos respirables, humos o vapores)" weight="16.753799438476562">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+      </edge>
+      <edge id="31" source="LOC::Coahuila de Zaragoza.Monclova" target="SUB::Benzo(a)antraceno" weight="53.59550094604492">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+      </edge>
+      <edge id="32" source="LOC::Coahuila de Zaragoza.Monclova" target="SUB::Benzo(a)pireno" weight="82.3009033203125">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+      </edge>
+      <edge id="33" source="LOC::Coahuila de Zaragoza.Monclova" target="SUB::Metano" weight="1.072184832E9">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+      </edge>
+      <edge id="34" source="LOC::Coahuila de Zaragoza.Monclova" target="SUB::Plomo (polvos respirables, humos o vapores)" weight="650.6500244140625">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+      </edge>
+      <edge id="35" source="LOC::Coahuila de Zaragoza.Ramos Arizpe" target="SUB::Mercurio (Compuestos solubles)" weight="608.971435546875">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+      </edge>
+      <edge id="36" source="LOC::Coahuila de Zaragoza.Ramos Arizpe" target="SUB::Plomo (Compuestos solubles)" weight="259779.671875">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+      </edge>
+      <edge id="37" source="LOC::Coahuila de Zaragoza.Ramos Arizpe" target="SUB::Arsénico (polvos, respirables, vapores o humos)" weight="1016.8412475585938">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+      </edge>
+      <edge id="38" source="LOC::Coahuila de Zaragoza.Ramos Arizpe" target="SUB::Cadmio (polvos, respirables, vapores o humos)" weight="60883.19921875">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+      </edge>
+      <edge id="39" source="LOC::Coahuila de Zaragoza.Ramos Arizpe" target="SUB::Cromo (Compuestos solubles)" weight="31092.814453125">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+      </edge>
+      <edge id="40" source="LOC::Coahuila de Zaragoza.Ramos Arizpe" target="SUB::Níquel (Compuestos solubles)" weight="27939.0078125">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+      </edge>
+      <edge id="41" source="LOC::Coahuila de Zaragoza.Ramos Arizpe" target="SUB::Cianuro inorgánico/orgánico" weight="23628.626953125">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+      </edge>
+      <edge id="42" source="LOC::Coahuila de Zaragoza.Ramos Arizpe" target="SUB::Cadmio (Compuestos solubles)" weight="873.902099609375">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+      </edge>
+      <edge id="43" source="LOC::Coahuila de Zaragoza.Ramos Arizpe" target="SUB::Arsénico (compuestos)" weight="837.8193969726562">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+      </edge>
+      <edge id="44" source="LOC::Coahuila de Zaragoza.Ramos Arizpe" target="SUB::Cadmio (compuestos)" weight="24989.92578125">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+      </edge>
+      <edge id="45" source="LOC::Coahuila de Zaragoza.Ramos Arizpe" target="SUB::Cromo (compuestos)" weight="646478.875">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+      </edge>
+      <edge id="46" source="LOC::Coahuila de Zaragoza.Ramos Arizpe" target="SUB::Mercurio (compuestos)" weight="2423.74951171875">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+      </edge>
+      <edge id="47" source="LOC::Coahuila de Zaragoza.Ramos Arizpe" target="SUB::Níquel (compuestos)" weight="319122.09375">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+      </edge>
+      <edge id="48" source="LOC::Coahuila de Zaragoza.Ramos Arizpe" target="SUB::Plomo (compuestos)" weight="1260434.25">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+      </edge>
+      <edge id="49" source="LOC::Coahuila de Zaragoza.Ramos Arizpe" target="SUB::Mercurio (polvos, respirables, vapores o humos)" weight="10830.5283203125">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+      </edge>
+      <edge id="50" source="LOC::Coahuila de Zaragoza.Ramos Arizpe" target="SUB::Níquel (polvos respirables, humos o vapores)" weight="98666.5625">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+      </edge>
+      <edge id="51" source="LOC::Coahuila de Zaragoza.Ramos Arizpe" target="SUB::Arsénico (Compuestos solubles)" weight="3738.78271484375">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+      </edge>
+      <edge id="52" source="LOC::Coahuila de Zaragoza.Ramos Arizpe" target="SUB::Plomo (polvos respirables, humos o vapores)" weight="1386417.5">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+      </edge>
+      <edge id="53" source="LOC::Coahuila de Zaragoza.Ramos Arizpe" target="SUB::Cromo (polvos respirables, humos o vapores)" weight="13173.78515625">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+      </edge>
+      <edge id="54" source="LOC::Coahuila de Zaragoza.Ramos Arizpe" target="SUB::Formaldehido" weight="156094.25">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+      </edge>
+      <edge id="55" source="LOC::Coahuila de Zaragoza.Ramos Arizpe" target="SUB::Piridina" weight="424.0899963378906">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+      </edge>
+      <edge id="56" source="LOC::Coahuila de Zaragoza.Ramos Arizpe" target="SUB::Cloruro de metileno" weight="728456.3125">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+      </edge>
+      <edge id="57" source="LOC::Coahuila de Zaragoza.Ramos Arizpe" target="SUB::Dioxinas" weight="0.034914325922727585">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+      </edge>
+      <edge id="58" source="LOC::Coahuila de Zaragoza.Ramos Arizpe" target="SUB::Bióxido de carbono" weight="2.3803025408E10">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+      </edge>
+      <edge id="59" source="LOC::Coahuila de Zaragoza.Ramos Arizpe" target="SUB::Bióxido de nitrógeno" weight="2.1792974E7">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+      </edge>
+      <edge id="60" source="LOC::Coahuila de Zaragoza.Ramos Arizpe" target="SUB::Acetaldehido" weight="3594.77001953125">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+      </edge>
+      <edge id="61" source="LOC::Coahuila de Zaragoza.Ramos Arizpe" target="SUB::Estireno (fenil etileno)" weight="104352.453125">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+      </edge>
+      <edge id="62" source="LOC::Coahuila de Zaragoza.Ramos Arizpe" target="SUB::Benceno" weight="62920.95703125">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+      </edge>
+      <edge id="63" source="LOC::Coahuila de Zaragoza.Ramos Arizpe" target="SUB::Dibutilftalato" weight="780.14599609375">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+      </edge>
+      <edge id="64" source="LOC::Coahuila de Zaragoza.Ramos Arizpe" target="SUB::Fenol" weight="230485.953125">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+      </edge>
+      <edge id="65" source="LOC::Coahuila de Zaragoza.Ramos Arizpe" target="SUB::1,4-Diclorobenceno" weight="0.002740076743066311">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+      </edge>
+      <edge id="66" source="LOC::Coahuila de Zaragoza.Ramos Arizpe" target="SUB::Furanos" weight="0.005857452750205994">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+      </edge>
+      <edge id="67" source="LOC::Coahuila de Zaragoza.Ramos Arizpe" target="SUB::Tolueno" weight="36113.33203125">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+      </edge>
+      <edge id="68" source="LOC::Coahuila de Zaragoza.Ramos Arizpe" target="SUB::Xileno (mezcla de isómeros)" weight="245300.21875">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+      </edge>
+      <edge id="69" source="LOC::Coahuila de Zaragoza.Ramos Arizpe" target="SUB::Hidrofluorocarbonos" weight="345418.53125">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+      </edge>
+      <edge id="70" source="LOC::Coahuila de Zaragoza.Ramos Arizpe" target="SUB::Antimonio trióxido" weight="1187.261962890625">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+      </edge>
+      <edge id="71" source="LOC::Coahuila de Zaragoza.Ramos Arizpe" target="SUB::Metileno bis(fenilisocianato)" weight="8170.50244140625">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+      </edge>
+      <edge id="72" source="LOC::Coahuila de Zaragoza.Ramos Arizpe" target="SUB::Metano" weight="108397.2734375">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+      </edge>
+      <edge id="73" source="LOC::Coahuila de Zaragoza.Ramos Arizpe" target="SUB::Oxido nitroso" weight="198601.6875">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+      </edge>
+      <edge id="74" source="LOC::Coahuila de Zaragoza.Ramos Arizpe" target="SUB::Fosfato de tris(metilfenilo)" weight="3983.139892578125">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+      </edge>
+      <edge id="75" source="LOC::Coahuila de Zaragoza.Ramos Arizpe" target="SUB::Ácido sulfónico de perfluorooctano y sus sales" weight="500.0">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+      </edge>
+      <edge id="76" source="LOC::Coahuila de Zaragoza.Ramos Arizpe" target="SUB::Cumeno" weight="9101.1044921875">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+      </edge>
+      <edge id="77" source="LOC::Coahuila de Zaragoza.Ramos Arizpe" target="SUB::Diisocianato de difenilmetano polimérico" weight="9533.4306640625">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+      </edge>
+      <edge id="78" source="LOC::Coahuila de Zaragoza.Ramos Arizpe" target="SUB::1,1-Dicloro-1-Fluoroetano (HCFC-141b)" weight="15000.0">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+      </edge>
+      <edge id="79" source="LOC::Coahuila de Zaragoza.Ramos Arizpe" target="SUB::Dioxido de cloro" weight="78878.6015625">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+      </edge>
+      <edge id="80" source="LOC::Coahuila de Zaragoza.Ramos Arizpe" target="SUB::Cloroformo" weight="480.0">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+      </edge>
+      <edge id="81" source="LOC::Coahuila de Zaragoza.Ramos Arizpe" target="SUB::Asbesto y sus formas (En forma de polvo, fibras o productos desmenuzables con la presión de la mano)" weight="15192.1201171875">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+      </edge>
+      <edge id="82" source="LOC::Coahuila de Zaragoza.Ramos Arizpe" target="SUB::Tolueno diisocianato" weight="1165.300048828125">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+      </edge>
+      <edge id="83" source="LOC::Coahuila de Zaragoza.Ramos Arizpe" target="SUB::Sulfato de cobre" weight="100.0">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+      </edge>
+      <edge id="84" source="LOC::Coahuila de Zaragoza.Ramos Arizpe" target="SUB::Warfarina" weight="550.0">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+      </edge>
+      <edge id="85" source="LOC::Coahuila de Zaragoza.Ramos Arizpe" target="SUB::Clorodifluorometano (HCFC-22)" weight="14962.2802734375">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+      </edge>
+      <edge id="86" source="LOC::Coahuila de Zaragoza.Torreón" target="SUB::Fenol" weight="174957.125">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+      </edge>
+      <edge id="87" source="LOC::Coahuila de Zaragoza.Torreón" target="SUB::Níquel (Compuestos solubles)" weight="2581.96142578125">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+      </edge>
+      <edge id="88" source="LOC::Coahuila de Zaragoza.Torreón" target="SUB::Plomo (Compuestos solubles)" weight="299989.4375">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+      </edge>
+      <edge id="89" source="LOC::Coahuila de Zaragoza.Torreón" target="SUB::Cromo (Compuestos solubles)" weight="1756.4556884765625">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+      </edge>
+      <edge id="90" source="LOC::Coahuila de Zaragoza.Torreón" target="SUB::Mercurio (Compuestos solubles)" weight="11.156830787658691">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+      </edge>
+      <edge id="91" source="LOC::Coahuila de Zaragoza.Torreón" target="SUB::Cianuro inorgánico/orgánico" weight="54.653480529785156">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+      </edge>
+      <edge id="92" source="LOC::Coahuila de Zaragoza.Torreón" target="SUB::Arsénico (polvos, respirables, vapores o humos)" weight="106397.1328125">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+      </edge>
+      <edge id="93" source="LOC::Coahuila de Zaragoza.Torreón" target="SUB::Cadmio (polvos, respirables, vapores o humos)" weight="94239.578125">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+      </edge>
+      <edge id="94" source="LOC::Coahuila de Zaragoza.Torreón" target="SUB::Plomo (compuestos)" weight="935997.875">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+      </edge>
+      <edge id="95" source="LOC::Coahuila de Zaragoza.Torreón" target="SUB::Níquel (compuestos)" weight="571.158935546875">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+      </edge>
+      <edge id="96" source="LOC::Coahuila de Zaragoza.Torreón" target="SUB::Cromo (compuestos)" weight="2316.7734375">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+      </edge>
+      <edge id="97" source="LOC::Coahuila de Zaragoza.Torreón" target="SUB::Plomo (polvos respirables, humos o vapores)" weight="6129242.5">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+      </edge>
+      <edge id="98" source="LOC::Coahuila de Zaragoza.Torreón" target="SUB::Arsénico (Compuestos solubles)" weight="2936.15869140625">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+      </edge>
+      <edge id="99" source="LOC::Coahuila de Zaragoza.Torreón" target="SUB::Cadmio (Compuestos solubles)" weight="846.4124145507812">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+      </edge>
+      <edge id="100" source="LOC::Coahuila de Zaragoza.Torreón" target="SUB::Níquel (polvos respirables, humos o vapores)" weight="404.42974853515625">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+      </edge>
+      <edge id="101" source="LOC::Coahuila de Zaragoza.Torreón" target="SUB::Cromo (polvos respirables, humos o vapores)" weight="3866.537841796875">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+      </edge>
+      <edge id="102" source="LOC::Coahuila de Zaragoza.Torreón" target="SUB::Mercurio (compuestos)" weight="272.5106201171875">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+      </edge>
+      <edge id="103" source="LOC::Coahuila de Zaragoza.Torreón" target="SUB::Endosulfan" weight="95.49337768554688">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+      </edge>
+      <edge id="104" source="LOC::Coahuila de Zaragoza.Torreón" target="SUB::Metil paration" weight="4.962159156799316">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+      </edge>
+      <edge id="105" source="LOC::Coahuila de Zaragoza.Torreón" target="SUB::Bióxido de carbono" weight="1.5142649856E10">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+      </edge>
+      <edge id="106" source="LOC::Coahuila de Zaragoza.Torreón" target="SUB::Metano" weight="9859782.0">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+      </edge>
+      <edge id="107" source="LOC::Coahuila de Zaragoza.Torreón" target="SUB::Mercurio (polvos, respirables, vapores o humos)" weight="50951.15234375">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+      </edge>
+      <edge id="108" source="LOC::Coahuila de Zaragoza.Torreón" target="SUB::Benceno" weight="65183.51171875">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+      </edge>
+      <edge id="109" source="LOC::Coahuila de Zaragoza.Torreón" target="SUB::Arsénico (compuestos)" weight="9083.2294921875">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+      </edge>
+      <edge id="110" source="LOC::Coahuila de Zaragoza.Torreón" target="SUB::Cadmio (compuestos)" weight="395.7735290527344">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+      </edge>
+      <edge id="111" source="LOC::Coahuila de Zaragoza.Torreón" target="SUB::Dioxinas" weight="0.011246152222156525">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+      </edge>
+      <edge id="112" source="LOC::Coahuila de Zaragoza.Torreón" target="SUB::Furanos" weight="0.011246152222156525">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+      </edge>
+      <edge id="113" source="LOC::Coahuila de Zaragoza.Torreón" target="SUB::Oxido nitroso" weight="309656.90625">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+      </edge>
+      <edge id="114" source="LOC::Coahuila de Zaragoza.Torreón" target="SUB::Hidrofluorocarbonos" weight="44126.5">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+      </edge>
+      <edge id="115" source="LOC::Coahuila de Zaragoza.Torreón" target="SUB::Clorodifluorometano (HCFC-22)" weight="38.75">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+      </edge>
+      <edge id="116" source="LOC::Coahuila de Zaragoza.Torreón" target="SUB::Xileno (mezcla de isómeros)" weight="101318.5703125">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+      </edge>
+      <edge id="117" source="LOC::Coahuila de Zaragoza.Torreón" target="SUB::Cumeno" weight="1230.0999755859375">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+      </edge>
+      <edge id="118" source="LOC::Coahuila de Zaragoza.Torreón" target="SUB::Asbesto y sus formas (En forma de polvo, fibras o productos desmenuzables con la presión de la mano)" weight="14667.4501953125">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+      </edge>
+      <edge id="119" source="LOC::Coahuila de Zaragoza.Saltillo" target="SUB::Cromo (Compuestos solubles)" weight="184940.875">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+      </edge>
+      <edge id="120" source="LOC::Coahuila de Zaragoza.Saltillo" target="SUB::Arsénico (polvos, respirables, vapores o humos)" weight="6115.54443359375">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+      </edge>
+      <edge id="121" source="LOC::Coahuila de Zaragoza.Saltillo" target="SUB::Mercurio (Compuestos solubles)" weight="18.3441162109375">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+      </edge>
+      <edge id="122" source="LOC::Coahuila de Zaragoza.Saltillo" target="SUB::Níquel (Compuestos solubles)" weight="163582.0">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+      </edge>
+      <edge id="123" source="LOC::Coahuila de Zaragoza.Saltillo" target="SUB::Plomo (Compuestos solubles)" weight="108169.9140625">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+      </edge>
+      <edge id="124" source="LOC::Coahuila de Zaragoza.Saltillo" target="SUB::Cianuro inorgánico/orgánico" weight="2568.93115234375">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+      </edge>
+      <edge id="125" source="LOC::Coahuila de Zaragoza.Saltillo" target="SUB::Cadmio (polvos, respirables, vapores o humos)" weight="2835.54931640625">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+      </edge>
+      <edge id="126" source="LOC::Coahuila de Zaragoza.Saltillo" target="SUB::Arsénico (compuestos)" weight="185.88861083984375">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+      </edge>
+      <edge id="127" source="LOC::Coahuila de Zaragoza.Saltillo" target="SUB::Cadmio (compuestos)" weight="33.50212860107422">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+      </edge>
+      <edge id="128" source="LOC::Coahuila de Zaragoza.Saltillo" target="SUB::Cromo (compuestos)" weight="243980.515625">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+      </edge>
+      <edge id="129" source="LOC::Coahuila de Zaragoza.Saltillo" target="SUB::Mercurio (compuestos)" weight="63.57728576660156">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+      </edge>
+      <edge id="130" source="LOC::Coahuila de Zaragoza.Saltillo" target="SUB::Plomo (compuestos)" weight="100385.6484375">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+      </edge>
+      <edge id="131" source="LOC::Coahuila de Zaragoza.Saltillo" target="SUB::Níquel (compuestos)" weight="156261.953125">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+      </edge>
+      <edge id="132" source="LOC::Coahuila de Zaragoza.Saltillo" target="SUB::Mercurio (polvos, respirables, vapores o humos)" weight="1998.82666015625">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+      </edge>
+      <edge id="133" source="LOC::Coahuila de Zaragoza.Saltillo" target="SUB::Níquel (polvos respirables, humos o vapores)" weight="3327.61083984375">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+      </edge>
+      <edge id="134" source="LOC::Coahuila de Zaragoza.Saltillo" target="SUB::Arsénico (Compuestos solubles)" weight="266.55224609375">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+      </edge>
+      <edge id="135" source="LOC::Coahuila de Zaragoza.Saltillo" target="SUB::Cadmio (Compuestos solubles)" weight="222.42877197265625">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+      </edge>
+      <edge id="136" source="LOC::Coahuila de Zaragoza.Saltillo" target="SUB::Fenol" weight="238807.328125">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+      </edge>
+      <edge id="137" source="LOC::Coahuila de Zaragoza.Saltillo" target="SUB::Bióxido de nitrógeno" weight="10168.5703125">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+      </edge>
+      <edge id="138" source="LOC::Coahuila de Zaragoza.Saltillo" target="SUB::Bióxido de carbono" weight="5.588563456E9">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+      </edge>
+      <edge id="139" source="LOC::Coahuila de Zaragoza.Saltillo" target="SUB::Formaldehido" weight="105003.5390625">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+      </edge>
+      <edge id="140" source="LOC::Coahuila de Zaragoza.Saltillo" target="SUB::Clorodifluorometano (HCFC-22)" weight="16570.0">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+      </edge>
+      <edge id="141" source="LOC::Coahuila de Zaragoza.Saltillo" target="SUB::Acetaldehido" weight="0.10687199980020523">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+      </edge>
+      <edge id="142" source="LOC::Coahuila de Zaragoza.Saltillo" target="SUB::Benceno" weight="7224.048828125">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+      </edge>
+      <edge id="143" source="LOC::Coahuila de Zaragoza.Saltillo" target="SUB::Acroleina" weight="0.01269300002604723">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+      </edge>
+      <edge id="144" source="LOC::Coahuila de Zaragoza.Saltillo" target="SUB::Hidrofluorocarbonos" weight="571.2000122070312">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+      </edge>
+      <edge id="145" source="LOC::Coahuila de Zaragoza.Saltillo" target="SUB::Estireno (fenil etileno)" weight="112541.5078125">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+      </edge>
+      <edge id="146" source="LOC::Coahuila de Zaragoza.Saltillo" target="SUB::Tolueno" weight="1951677.125">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+      </edge>
+      <edge id="147" source="LOC::Coahuila de Zaragoza.Saltillo" target="SUB::1,4-Diclorobenceno" weight="1059.0074462890625">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+      </edge>
+      <edge id="148" source="LOC::Coahuila de Zaragoza.Saltillo" target="SUB::Cloruro de metileno" weight="95488.4296875">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+      </edge>
+      <edge id="149" source="LOC::Coahuila de Zaragoza.Saltillo" target="SUB::Plomo (polvos respirables, humos o vapores)" weight="285880.40625">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+      </edge>
+      <edge id="150" source="LOC::Coahuila de Zaragoza.Saltillo" target="SUB::Cromo (polvos respirables, humos o vapores)" weight="5118.9169921875">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+      </edge>
+      <edge id="151" source="LOC::Coahuila de Zaragoza.Saltillo" target="SUB::Oxido nitroso" weight="591391.9375">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+      </edge>
+      <edge id="152" source="LOC::Coahuila de Zaragoza.Saltillo" target="SUB::Dibutilftalato" weight="0.03999999910593033">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+      </edge>
+      <edge id="153" source="LOC::Coahuila de Zaragoza.Saltillo" target="SUB::Metano" weight="255.05718994140625">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+      </edge>
+      <edge id="154" source="LOC::Coahuila de Zaragoza.Saltillo" target="SUB::Asbesto y sus formas (En forma de polvo, fibras o productos desmenuzables con la presión de la mano)" weight="458916.34375">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+      </edge>
+      <edge id="155" source="LOC::Coahuila de Zaragoza.Saltillo" target="SUB::1,3-dicloro-5,5-dimetilhidantoína" weight="49709.4921875">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+      </edge>
+      <edge id="156" source="LOC::Coahuila de Zaragoza.Nava" target="SUB::Cromo (Compuestos solubles)" weight="231.8678741455078">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+      </edge>
+      <edge id="157" source="LOC::Coahuila de Zaragoza.Nava" target="SUB::Mercurio (Compuestos solubles)" weight="53.48481750488281">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+      </edge>
+      <edge id="158" source="LOC::Coahuila de Zaragoza.Nava" target="SUB::Níquel (Compuestos solubles)" weight="2540.59619140625">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+      </edge>
+      <edge id="159" source="LOC::Coahuila de Zaragoza.Nava" target="SUB::Plomo (Compuestos solubles)" weight="457.1828308105469">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+      </edge>
+      <edge id="160" source="LOC::Coahuila de Zaragoza.Nava" target="SUB::Cianuro inorgánico/orgánico" weight="303.5765380859375">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+      </edge>
+      <edge id="161" source="LOC::Coahuila de Zaragoza.Nava" target="SUB::Arsénico (polvos, respirables, vapores o humos)" weight="2594.15966796875">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+      </edge>
+      <edge id="162" source="LOC::Coahuila de Zaragoza.Nava" target="SUB::Cadmio (polvos, respirables, vapores o humos)" weight="737.7036743164062">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+      </edge>
+      <edge id="163" source="LOC::Coahuila de Zaragoza.Nava" target="SUB::Níquel (compuestos)" weight="4104.357421875">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+      </edge>
+      <edge id="164" source="LOC::Coahuila de Zaragoza.Nava" target="SUB::Cromo (compuestos)" weight="6261.1669921875">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+      </edge>
+      <edge id="165" source="LOC::Coahuila de Zaragoza.Nava" target="SUB::Plomo (compuestos)" weight="49054.17578125">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+      </edge>
+      <edge id="166" source="LOC::Coahuila de Zaragoza.Nava" target="SUB::Mercurio (polvos, respirables, vapores o humos)" weight="1201.7861328125">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+      </edge>
+      <edge id="167" source="LOC::Coahuila de Zaragoza.Nava" target="SUB::Cadmio (compuestos)" weight="182.32911682128906">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+      </edge>
+      <edge id="168" source="LOC::Coahuila de Zaragoza.Nava" target="SUB::Mercurio (compuestos)" weight="197.25296020507812">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+      </edge>
+      <edge id="169" source="LOC::Coahuila de Zaragoza.Nava" target="SUB::Plomo (polvos respirables, humos o vapores)" weight="67376.609375">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+      </edge>
+      <edge id="170" source="LOC::Coahuila de Zaragoza.Nava" target="SUB::Cromo (polvos respirables, humos o vapores)" weight="1235.8917236328125">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+      </edge>
+      <edge id="171" source="LOC::Coahuila de Zaragoza.Nava" target="SUB::Níquel (polvos respirables, humos o vapores)" weight="1711.041015625">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+      </edge>
+      <edge id="172" source="LOC::Coahuila de Zaragoza.Nava" target="SUB::Arsénico (Compuestos solubles)" weight="15.976099967956543">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+      </edge>
+      <edge id="173" source="LOC::Coahuila de Zaragoza.Nava" target="SUB::Cadmio (Compuestos solubles)" weight="253.2425994873047">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+      </edge>
+      <edge id="174" source="LOC::Coahuila de Zaragoza.Nava" target="SUB::Bióxido de carbono" weight="1.2773830656E11">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+      </edge>
+      <edge id="175" source="LOC::Coahuila de Zaragoza.Nava" target="SUB::Benceno" weight="9310.77734375">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+      </edge>
+      <edge id="176" source="LOC::Coahuila de Zaragoza.Nava" target="SUB::Formaldehido" weight="1718.9075927734375">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+      </edge>
+      <edge id="177" source="LOC::Coahuila de Zaragoza.Nava" target="SUB::Bióxido de nitrógeno" weight="4.965328E7">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+      </edge>
+      <edge id="178" source="LOC::Coahuila de Zaragoza.Nava" target="SUB::Arsénico (compuestos)" weight="2.1322619915008545">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+      </edge>
+      <edge id="179" source="LOC::Coahuila de Zaragoza.Frontera" target="SUB::Cromo (Compuestos solubles)" weight="107.09111022949219">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+      </edge>
+      <edge id="180" source="LOC::Coahuila de Zaragoza.Frontera" target="SUB::Mercurio (Compuestos solubles)" weight="0.0016949999844655395">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+      </edge>
+      <edge id="181" source="LOC::Coahuila de Zaragoza.Frontera" target="SUB::Níquel (Compuestos solubles)" weight="51.981388092041016">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+      </edge>
+      <edge id="182" source="LOC::Coahuila de Zaragoza.Frontera" target="SUB::Plomo (Compuestos solubles)" weight="28.46628761291504">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+      </edge>
+      <edge id="183" source="LOC::Coahuila de Zaragoza.Frontera" target="SUB::Cianuro inorgánico/orgánico" weight="22.697935104370117">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+      </edge>
+      <edge id="184" source="LOC::Coahuila de Zaragoza.Frontera" target="SUB::Arsénico (polvos, respirables, vapores o humos)" weight="24.589088439941406">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+      </edge>
+      <edge id="185" source="LOC::Coahuila de Zaragoza.Frontera" target="SUB::Cadmio (polvos, respirables, vapores o humos)" weight="34.75563049316406">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+      </edge>
+      <edge id="186" source="LOC::Coahuila de Zaragoza.Frontera" target="SUB::Arsénico (compuestos)" weight="0.8527104258537292">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+      </edge>
+      <edge id="187" source="LOC::Coahuila de Zaragoza.Frontera" target="SUB::Cadmio (compuestos)" weight="428.1241760253906">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+      </edge>
+      <edge id="188" source="LOC::Coahuila de Zaragoza.Frontera" target="SUB::Cromo (compuestos)" weight="455.4825134277344">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+      </edge>
+      <edge id="189" source="LOC::Coahuila de Zaragoza.Frontera" target="SUB::Mercurio (compuestos)" weight="9.319442749023438">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+      </edge>
+      <edge id="190" source="LOC::Coahuila de Zaragoza.Frontera" target="SUB::Níquel (compuestos)" weight="1180.267333984375">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+      </edge>
+      <edge id="191" source="LOC::Coahuila de Zaragoza.Frontera" target="SUB::Plomo (compuestos)" weight="6654.4033203125">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+      </edge>
+      <edge id="192" source="LOC::Coahuila de Zaragoza.Frontera" target="SUB::Clorodifluorometano (HCFC-22)" weight="3.0">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+      </edge>
+      <edge id="193" source="LOC::Coahuila de Zaragoza.Frontera" target="SUB::Bióxido de carbono" weight="1.665413248E9">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+      </edge>
+      <edge id="194" source="LOC::Coahuila de Zaragoza.Frontera" target="SUB::Formaldehido" weight="1532.4090576171875">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+      </edge>
+      <edge id="195" source="LOC::Coahuila de Zaragoza.Frontera" target="SUB::Bióxido de nitrógeno" weight="103800.734375">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+      </edge>
+      <edge id="196" source="LOC::Coahuila de Zaragoza.Frontera" target="SUB::Tricloroetileno" weight="2.714400053024292">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+      </edge>
+      <edge id="197" source="LOC::Coahuila de Zaragoza.Frontera" target="SUB::Fenol" weight="0.18095999956130981">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+      </edge>
+      <edge id="198" source="LOC::Coahuila de Zaragoza.Frontera" target="SUB::Benceno" weight="10.405200004577637">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+      </edge>
+      <edge id="199" source="LOC::Coahuila de Zaragoza.Frontera" target="SUB::Mercurio (polvos, respirables, vapores o humos)" weight="512.6515502929688">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+      </edge>
+      <edge id="200" source="LOC::Coahuila de Zaragoza.Cuatro Ciénegas" target="SUB::Cromo (Compuestos solubles)" weight="0.7456099987030029">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+      </edge>
+      <edge id="201" source="LOC::Coahuila de Zaragoza.Cuatro Ciénegas" target="SUB::Mercurio (Compuestos solubles)" weight="0.027338659390807152">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+      </edge>
+      <edge id="202" source="LOC::Coahuila de Zaragoza.Cuatro Ciénegas" target="SUB::Níquel (Compuestos solubles)" weight="2.187103271484375">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+      </edge>
+      <edge id="203" source="LOC::Coahuila de Zaragoza.Cuatro Ciénegas" target="SUB::Plomo (Compuestos solubles)" weight="2.112563371658325">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+      </edge>
+      <edge id="204" source="LOC::Coahuila de Zaragoza.Cuatro Ciénegas" target="SUB::Cianuro inorgánico/orgánico" weight="2.2804298400878906">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+      </edge>
+      <edge id="205" source="LOC::Coahuila de Zaragoza.Cuatro Ciénegas" target="SUB::Arsénico (polvos, respirables, vapores o humos)" weight="0.15395669639110565">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+      </edge>
+      <edge id="206" source="LOC::Coahuila de Zaragoza.Cuatro Ciénegas" target="SUB::Cadmio (polvos, respirables, vapores o humos)" weight="2.6835200786590576">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+      </edge>
+      <edge id="207" source="LOC::Coahuila de Zaragoza.Cuatro Ciénegas" target="SUB::Arsénico (compuestos)" weight="0.03276100009679794">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+      </edge>
+      <edge id="208" source="LOC::Coahuila de Zaragoza.Cuatro Ciénegas" target="SUB::Cadmio (compuestos)" weight="0.6437875032424927">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+      </edge>
+      <edge id="209" source="LOC::Coahuila de Zaragoza.Cuatro Ciénegas" target="SUB::Cromo (compuestos)" weight="2.9795749187469482">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+      </edge>
+      <edge id="210" source="LOC::Coahuila de Zaragoza.Cuatro Ciénegas" target="SUB::Mercurio (compuestos)" weight="0.07775809615850449">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+      </edge>
+      <edge id="211" source="LOC::Coahuila de Zaragoza.Cuatro Ciénegas" target="SUB::Níquel (compuestos)" weight="4.391149044036865">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+      </edge>
+      <edge id="212" source="LOC::Coahuila de Zaragoza.Cuatro Ciénegas" target="SUB::Plomo (compuestos)" weight="6.9496235847473145">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+      </edge>
+      <edge id="213" source="LOC::Coahuila de Zaragoza.Cuatro Ciénegas" target="SUB::Mercurio (polvos, respirables, vapores o humos)" weight="0.0013599999947473407">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+      </edge>
+      <edge id="214" source="LOC::Coahuila de Zaragoza.Cuatro Ciénegas" target="SUB::Bióxido de carbono" weight="3.4192932E7">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+      </edge>
+      <edge id="215" source="LOC::Coahuila de Zaragoza.Cuatro Ciénegas" target="SUB::1,1,1-Tricloroetano" weight="0.08484599739313126">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+      </edge>
+      <edge id="216" source="LOC::Coahuila de Zaragoza.Cuatro Ciénegas" target="SUB::Formaldehido" weight="15.164440155029297">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+      </edge>
+      <edge id="217" source="LOC::Coahuila de Zaragoza.Cuatro Ciénegas" target="SUB::Benceno" weight="0.062199998646974564">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+      </edge>
+      <edge id="218" source="LOC::Coahuila de Zaragoza.Cuatro Ciénegas" target="SUB::Metano" weight="11.462739944458008">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+      </edge>
+      <edge id="219" source="LOC::Coahuila de Zaragoza.Cuatro Ciénegas" target="SUB::Oxido nitroso" weight="33.494998931884766">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+      </edge>
+      <edge id="220" source="LOC::Coahuila de Zaragoza.Sierra Mojada" target="SUB::Plomo (Compuestos solubles)" weight="2.962100028991699">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+      </edge>
+      <edge id="221" source="LOC::Coahuila de Zaragoza.Sierra Mojada" target="SUB::Mercurio (compuestos)" weight="4.417778968811035">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+      </edge>
+      <edge id="222" source="LOC::Coahuila de Zaragoza.Sierra Mojada" target="SUB::Arsénico (polvos, respirables, vapores o humos)" weight="1.0098919868469238">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+      </edge>
+      <edge id="223" source="LOC::Coahuila de Zaragoza.Sierra Mojada" target="SUB::Plomo (compuestos)" weight="17.748090744018555">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+      </edge>
+      <edge id="224" source="LOC::Coahuila de Zaragoza.Sierra Mojada" target="SUB::Cromo (compuestos)" weight="14.632974624633789">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+      </edge>
+      <edge id="225" source="LOC::Coahuila de Zaragoza.Sierra Mojada" target="SUB::Cadmio (polvos, respirables, vapores o humos)" weight="6.615749835968018">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+      </edge>
+      <edge id="226" source="LOC::Coahuila de Zaragoza.Sierra Mojada" target="SUB::Níquel (compuestos)" weight="65.41725158691406">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+      </edge>
+      <edge id="227" source="LOC::Coahuila de Zaragoza.Sierra Mojada" target="SUB::Bióxido de carbono" weight="5.55320896E8">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+      </edge>
+      <edge id="228" source="LOC::Coahuila de Zaragoza.Sierra Mojada" target="SUB::Cianuro inorgánico/orgánico" weight="2.6133999824523926">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+      </edge>
+      <edge id="229" source="LOC::Coahuila de Zaragoza.Sierra Mojada" target="SUB::Mercurio (polvos, respirables, vapores o humos)" weight="0.5018749833106995">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+      </edge>
+      <edge id="230" source="LOC::Coahuila de Zaragoza.Castaños" target="SUB::Plomo (compuestos)" weight="226.29347229003906">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+      </edge>
+      <edge id="231" source="LOC::Coahuila de Zaragoza.Castaños" target="SUB::Níquel (compuestos)" weight="3.71087384223938">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+      </edge>
+      <edge id="232" source="LOC::Coahuila de Zaragoza.Castaños" target="SUB::Arsénico (compuestos)" weight="0.0803999975323677">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+      </edge>
+      <edge id="233" source="LOC::Coahuila de Zaragoza.Castaños" target="SUB::Cadmio (compuestos)" weight="0.016269000247120857">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+      </edge>
+      <edge id="234" source="LOC::Coahuila de Zaragoza.Castaños" target="SUB::Mercurio (compuestos)" weight="9.493607521057129">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+      </edge>
+      <edge id="235" source="LOC::Coahuila de Zaragoza.Castaños" target="SUB::Cromo (compuestos)" weight="3.488373279571533">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+      </edge>
+      <edge id="236" source="LOC::Coahuila de Zaragoza.Castaños" target="SUB::Cianuro inorgánico/orgánico" weight="6.257284641265869">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+      </edge>
+      <edge id="237" source="LOC::Coahuila de Zaragoza.Castaños" target="SUB::Arsénico (polvos, respirables, vapores o humos)" weight="5.2698845863342285">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+      </edge>
+      <edge id="238" source="LOC::Coahuila de Zaragoza.Castaños" target="SUB::Cadmio (polvos, respirables, vapores o humos)" weight="0.6769436001777649">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+      </edge>
+      <edge id="239" source="LOC::Coahuila de Zaragoza.Castaños" target="SUB::Bióxido de carbono" weight="1.12767328E8">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+      </edge>
+      <edge id="240" source="LOC::Coahuila de Zaragoza.Castaños" target="SUB::Formaldehido" weight="0.9111999869346619">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+      </edge>
+      <edge id="241" source="LOC::Coahuila de Zaragoza.Castaños" target="SUB::Dioxinas" weight="3.0011540275154402E-6">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+      </edge>
+      <edge id="242" source="LOC::Coahuila de Zaragoza.Castaños" target="SUB::Metano" weight="0.7768599987030029">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+      </edge>
+      <edge id="243" source="LOC::Coahuila de Zaragoza.Castaños" target="SUB::Mercurio (polvos, respirables, vapores o humos)" weight="0.003971640020608902">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+      </edge>
+      <edge id="244" source="LOC::Coahuila de Zaragoza.Castaños" target="SUB::Níquel (Compuestos solubles)" weight="8.077799797058105">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+      </edge>
+      <edge id="245" source="LOC::Coahuila de Zaragoza.Castaños" target="SUB::Cromo (Compuestos solubles)" weight="1.9177000522613525">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+      </edge>
+      <edge id="246" source="LOC::Coahuila de Zaragoza.Piedras Negras" target="SUB::Níquel (compuestos)" weight="23634.583984375">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+      </edge>
+      <edge id="247" source="LOC::Coahuila de Zaragoza.Piedras Negras" target="SUB::Cianuro inorgánico/orgánico" weight="18996.154296875">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+      </edge>
+      <edge id="248" source="LOC::Coahuila de Zaragoza.Piedras Negras" target="SUB::Níquel (Compuestos solubles)" weight="1279.666259765625">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+      </edge>
+      <edge id="249" source="LOC::Coahuila de Zaragoza.Piedras Negras" target="SUB::Arsénico (polvos, respirables, vapores o humos)" weight="0.7748712301254272">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+      </edge>
+      <edge id="250" source="LOC::Coahuila de Zaragoza.Piedras Negras" target="SUB::Mercurio (compuestos)" weight="0.22742536664009094">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+      </edge>
+      <edge id="251" source="LOC::Coahuila de Zaragoza.Piedras Negras" target="SUB::Cromo (compuestos)" weight="26.126995086669922">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+      </edge>
+      <edge id="252" source="LOC::Coahuila de Zaragoza.Piedras Negras" target="SUB::Plomo (compuestos)" weight="1186.5157470703125">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+      </edge>
+      <edge id="253" source="LOC::Coahuila de Zaragoza.Piedras Negras" target="SUB::Cadmio (polvos, respirables, vapores o humos)" weight="20.349613189697266">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+      </edge>
+      <edge id="254" source="LOC::Coahuila de Zaragoza.Piedras Negras" target="SUB::Bióxido de carbono" weight="5.95075584E8">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+      </edge>
+      <edge id="255" source="LOC::Coahuila de Zaragoza.Piedras Negras" target="SUB::Bifenilo" weight="35.11199951171875">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+      </edge>
+      <edge id="256" source="LOC::Coahuila de Zaragoza.Piedras Negras" target="SUB::Cloruro de metileno" weight="3350.489990234375">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+      </edge>
+      <edge id="257" source="LOC::Coahuila de Zaragoza.Piedras Negras" target="SUB::1,1-Dicloro-1-Fluoroetano (HCFC-141b)" weight="8.561100006103516">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+      </edge>
+      <edge id="258" source="LOC::Coahuila de Zaragoza.Piedras Negras" target="SUB::Clorodifluorometano (HCFC-22)" weight="9.071999549865723">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+      </edge>
+      <edge id="259" source="LOC::Coahuila de Zaragoza.Piedras Negras" target="SUB::Mercurio (polvos, respirables, vapores o humos)" weight="382.72637939453125">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+      </edge>
+      <edge id="260" source="LOC::Coahuila de Zaragoza.Piedras Negras" target="SUB::Tolueno" weight="17420.0">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+      </edge>
+      <edge id="261" source="LOC::Coahuila de Zaragoza.Piedras Negras" target="SUB::Xileno (mezcla de isómeros)" weight="370113.5">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+      </edge>
+      <edge id="262" source="LOC::Coahuila de Zaragoza.Piedras Negras" target="SUB::Plomo (polvos respirables, humos o vapores)" weight="1185.2896728515625">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+      </edge>
+      <edge id="263" source="LOC::Coahuila de Zaragoza.Piedras Negras" target="SUB::Fenol" weight="0.3131999969482422">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+      </edge>
+      <edge id="264" source="LOC::Coahuila de Zaragoza.Piedras Negras" target="SUB::2-Cloro-1,1,2,2-Tetrafluoroetano (HCFC-124)" weight="2.72160005569458">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+      </edge>
+      <edge id="265" source="LOC::Coahuila de Zaragoza.Piedras Negras" target="SUB::Cromo (Compuestos solubles)" weight="124.52040100097656">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+      </edge>
+      <edge id="266" source="LOC::Coahuila de Zaragoza.Piedras Negras" target="SUB::Plomo (Compuestos solubles)" weight="143.59449768066406">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+      </edge>
+      <edge id="267" source="LOC::Coahuila de Zaragoza.Piedras Negras" target="SUB::Arsénico (compuestos)" weight="0.1184409111738205">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+      </edge>
+      <edge id="268" source="LOC::Coahuila de Zaragoza.Piedras Negras" target="SUB::Cadmio (compuestos)" weight="0.644860029220581">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+      </edge>
+      <edge id="269" source="LOC::Coahuila de Zaragoza.Piedras Negras" target="SUB::Cadmio (Compuestos solubles)" weight="27.388700485229492">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+      </edge>
+      <edge id="270" source="LOC::Coahuila de Zaragoza.Piedras Negras" target="SUB::Arsénico (Compuestos solubles)" weight="13.256799697875977">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+      </edge>
+      <edge id="271" source="LOC::Coahuila de Zaragoza.Piedras Negras" target="SUB::Hexaclorobenceno" weight="0.003599999938160181">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+      </edge>
+      <edge id="272" source="LOC::Coahuila de Zaragoza.Piedras Negras" target="SUB::Diisocianato de difenilmetano polimérico" weight="4586.490234375">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+      </edge>
+      <edge id="273" source="LOC::Coahuila de Zaragoza.Piedras Negras" target="SUB::Metileno bis(fenilisocianato)" weight="1115.0999755859375">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+      </edge>
+      <edge id="274" source="LOC::Coahuila de Zaragoza.San Juan de Sabinas" target="SUB::Plomo (compuestos)" weight="7.17471981048584">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+      </edge>
+      <edge id="275" source="LOC::Coahuila de Zaragoza.San Juan de Sabinas" target="SUB::Níquel (compuestos)" weight="23.43552017211914">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+      </edge>
+      <edge id="276" source="LOC::Coahuila de Zaragoza.San Juan de Sabinas" target="SUB::Mercurio (compuestos)" weight="0.195360004901886">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+      </edge>
+      <edge id="277" source="LOC::Coahuila de Zaragoza.San Juan de Sabinas" target="SUB::Cromo (compuestos)" weight="6.17471981048584">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+      </edge>
+      <edge id="278" source="LOC::Coahuila de Zaragoza.San Juan de Sabinas" target="SUB::Cadmio (compuestos)" weight="6.847959995269775">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+      </edge>
+      <edge id="279" source="LOC::Coahuila de Zaragoza.San Juan de Sabinas" target="SUB::Arsénico (compuestos)" weight="1.2959129810333252">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+      </edge>
+      <edge id="280" source="LOC::Coahuila de Zaragoza.San Juan de Sabinas" target="SUB::Cianuro inorgánico/orgánico" weight="1.7995749711990356">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+      </edge>
+      <edge id="281" source="LOC::Coahuila de Zaragoza.San Juan de Sabinas" target="SUB::Mercurio (polvos, respirables, vapores o humos)" weight="0.02945300005376339">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+      </edge>
+      <edge id="282" source="LOC::Coahuila de Zaragoza.San Juan de Sabinas" target="SUB::Arsénico (polvos, respirables, vapores o humos)" weight="0.11321999877691269">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+      </edge>
+      <edge id="283" source="LOC::Coahuila de Zaragoza.San Juan de Sabinas" target="SUB::Cadmio (polvos, respirables, vapores o humos)" weight="1.5890599489212036">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+      </edge>
+      <edge id="284" source="LOC::Coahuila de Zaragoza.San Juan de Sabinas" target="SUB::Bióxido de carbono" weight="1.00879616E9">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+      </edge>
+      <edge id="285" source="LOC::Coahuila de Zaragoza.San Juan de Sabinas" target="SUB::Dioxinas" weight="2.549999988943341E-9">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+      </edge>
+      <edge id="286" source="LOC::Coahuila de Zaragoza.San Juan de Sabinas" target="SUB::Bifenilos policlorados" weight="2730.0">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+      </edge>
+      <edge id="287" source="LOC::Coahuila de Zaragoza.Múzquiz" target="SUB::Mercurio (compuestos)" weight="10.592652320861816">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+      </edge>
+      <edge id="288" source="LOC::Coahuila de Zaragoza.Múzquiz" target="SUB::Níquel (compuestos)" weight="55.74903106689453">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+      </edge>
+      <edge id="289" source="LOC::Coahuila de Zaragoza.Múzquiz" target="SUB::Plomo (compuestos)" weight="19.929710388183594">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+      </edge>
+      <edge id="290" source="LOC::Coahuila de Zaragoza.Múzquiz" target="SUB::Cromo (compuestos)" weight="38.41218566894531">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+      </edge>
+      <edge id="291" source="LOC::Coahuila de Zaragoza.Múzquiz" target="SUB::Cianuro inorgánico/orgánico" weight="6.363950729370117">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+      </edge>
+      <edge id="292" source="LOC::Coahuila de Zaragoza.Múzquiz" target="SUB::Arsénico (compuestos)" weight="2.0911808013916016">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+      </edge>
+      <edge id="293" source="LOC::Coahuila de Zaragoza.Múzquiz" target="SUB::Cadmio (compuestos)" weight="3.914564847946167">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+      </edge>
+      <edge id="294" source="LOC::Coahuila de Zaragoza.Múzquiz" target="SUB::Mercurio (polvos, respirables, vapores o humos)" weight="0.06504099816083908">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+      </edge>
+      <edge id="295" source="LOC::Coahuila de Zaragoza.Múzquiz" target="SUB::Arsénico (polvos, respirables, vapores o humos)" weight="4.0240159034729">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+      </edge>
+      <edge id="296" source="LOC::Coahuila de Zaragoza.Múzquiz" target="SUB::Cadmio (polvos, respirables, vapores o humos)" weight="12.668416023254395">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+      </edge>
+      <edge id="297" source="LOC::Coahuila de Zaragoza.Múzquiz" target="SUB::Bióxido de carbono" weight="1.6083756E7">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+      </edge>
+      <edge id="298" source="LOC::Coahuila de Zaragoza.Parras" target="SUB::Cianuro inorgánico/orgánico" weight="33.813758850097656">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+      </edge>
+      <edge id="299" source="LOC::Coahuila de Zaragoza.Parras" target="SUB::Mercurio (polvos, respirables, vapores o humos)" weight="28.784181594848633">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+      </edge>
+      <edge id="300" source="LOC::Coahuila de Zaragoza.Parras" target="SUB::Arsénico (polvos, respirables, vapores o humos)" weight="4.444420337677002">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+      </edge>
+      <edge id="301" source="LOC::Coahuila de Zaragoza.Parras" target="SUB::Cadmio (polvos, respirables, vapores o humos)" weight="84.68660736083984">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+      </edge>
+      <edge id="302" source="LOC::Coahuila de Zaragoza.Parras" target="SUB::Cromo (compuestos)" weight="113.67236328125">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+      </edge>
+      <edge id="303" source="LOC::Coahuila de Zaragoza.Parras" target="SUB::Níquel (compuestos)" weight="478.78558349609375">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+      </edge>
+      <edge id="304" source="LOC::Coahuila de Zaragoza.Parras" target="SUB::Plomo (compuestos)" weight="3057.670654296875">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+      </edge>
+      <edge id="305" source="LOC::Coahuila de Zaragoza.Parras" target="SUB::Mercurio (compuestos)" weight="3.214656114578247">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+      </edge>
+      <edge id="306" source="LOC::Coahuila de Zaragoza.Parras" target="SUB::Bióxido de carbono" weight="3.58188E7">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+      </edge>
+      <edge id="307" source="LOC::Coahuila de Zaragoza.Parras" target="SUB::Arsénico (compuestos)" weight="0.8202940225601196">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+      </edge>
+      <edge id="308" source="LOC::Coahuila de Zaragoza.Parras" target="SUB::Cadmio (Compuestos solubles)" weight="77.21199798583984">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+      </edge>
+      <edge id="309" source="LOC::Coahuila de Zaragoza.Parras" target="SUB::Cromo (Compuestos solubles)" weight="489.6619873046875">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+      </edge>
+      <edge id="310" source="LOC::Coahuila de Zaragoza.Parras" target="SUB::Níquel (Compuestos solubles)" weight="926.5670166015625">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+      </edge>
+      <edge id="311" source="LOC::Coahuila de Zaragoza.Parras" target="SUB::Plomo (Compuestos solubles)" weight="5852.7578125">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+      </edge>
+      <edge id="312" source="LOC::Coahuila de Zaragoza.Parras" target="SUB::Arsénico (Compuestos solubles)" weight="9.516599655151367">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+      </edge>
+      <edge id="313" source="LOC::Coahuila de Zaragoza.Parras" target="SUB::Bifenilos policlorados" weight="48210.0">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+      </edge>
+      <edge id="314" source="LOC::Coahuila de Zaragoza.Parras" target="SUB::Plomo (polvos respirables, humos o vapores)" weight="694.0">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+      </edge>
+      <edge id="315" source="LOC::Coahuila de Zaragoza.Arteaga" target="SUB::Níquel (polvos respirables, humos o vapores)" weight="344.406005859375">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+      </edge>
+      <edge id="316" source="LOC::Coahuila de Zaragoza.Arteaga" target="SUB::Cromo (compuestos)" weight="12122.603515625">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+      </edge>
+      <edge id="317" source="LOC::Coahuila de Zaragoza.Arteaga" target="SUB::Arsénico (polvos, respirables, vapores o humos)" weight="121.14197540283203">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+      </edge>
+      <edge id="318" source="LOC::Coahuila de Zaragoza.Arteaga" target="SUB::Cianuro inorgánico/orgánico" weight="1.2666690349578857">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+      </edge>
+      <edge id="319" source="LOC::Coahuila de Zaragoza.Arteaga" target="SUB::Níquel (compuestos)" weight="6172.03271484375">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+      </edge>
+      <edge id="320" source="LOC::Coahuila de Zaragoza.Arteaga" target="SUB::Cadmio (polvos, respirables, vapores o humos)" weight="16.333402633666992">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+      </edge>
+      <edge id="321" source="LOC::Coahuila de Zaragoza.Arteaga" target="SUB::Mercurio (compuestos)" weight="0.049743447452783585">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+      </edge>
+      <edge id="322" source="LOC::Coahuila de Zaragoza.Arteaga" target="SUB::Plomo (compuestos)" weight="1.4785645008087158">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+      </edge>
+      <edge id="323" source="LOC::Coahuila de Zaragoza.Arteaga" target="SUB::Bióxido de carbono" weight="2.1729662E7">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+      </edge>
+      <edge id="324" source="LOC::Coahuila de Zaragoza.Arteaga" target="SUB::Mercurio (polvos, respirables, vapores o humos)" weight="772.7239990234375">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+      </edge>
+      <edge id="325" source="LOC::Coahuila de Zaragoza.Arteaga" target="SUB::Cromo (Compuestos solubles)" weight="519.46630859375">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+      </edge>
+      <edge id="326" source="LOC::Coahuila de Zaragoza.Arteaga" target="SUB::Cadmio (compuestos)" weight="0.09911999851465225">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+      </edge>
+      <edge id="327" source="LOC::Coahuila de Zaragoza.Arteaga" target="SUB::Arsénico (compuestos)" weight="0.9911999702453613">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+      </edge>
+      <edge id="328" source="LOC::Coahuila de Zaragoza.Arteaga" target="SUB::Plomo (Compuestos solubles)" weight="132.61654663085938">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+      </edge>
+      <edge id="329" source="LOC::Coahuila de Zaragoza.Arteaga" target="SUB::Níquel (Compuestos solubles)" weight="1468.203369140625">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+      </edge>
+      <edge id="330" source="LOC::Coahuila de Zaragoza.Arteaga" target="SUB::Cadmio (Compuestos solubles)" weight="66.87409973144531">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+      </edge>
+      <edge id="331" source="LOC::Coahuila de Zaragoza.Arteaga" target="SUB::Arsénico (Compuestos solubles)" weight="406.34149169921875">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+      </edge>
+      <edge id="332" source="LOC::Coahuila de Zaragoza.Arteaga" target="SUB::Mercurio (Compuestos solubles)" weight="276.3630065917969">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+      </edge>
+      <edge id="333" source="LOC::Coahuila de Zaragoza.Acuña" target="SUB::Mercurio (compuestos)" weight="192.95123291015625">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+      </edge>
+      <edge id="334" source="LOC::Coahuila de Zaragoza.Acuña" target="SUB::Cianuro inorgánico/orgánico" weight="4742.42529296875">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+      </edge>
+      <edge id="335" source="LOC::Coahuila de Zaragoza.Acuña" target="SUB::Arsénico (polvos, respirables, vapores o humos)" weight="23.007299423217773">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+      </edge>
+      <edge id="336" source="LOC::Coahuila de Zaragoza.Acuña" target="SUB::Cromo (compuestos)" weight="12552.2861328125">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+      </edge>
+      <edge id="337" source="LOC::Coahuila de Zaragoza.Acuña" target="SUB::Cadmio (polvos, respirables, vapores o humos)" weight="234.06394958496094">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+      </edge>
+      <edge id="338" source="LOC::Coahuila de Zaragoza.Acuña" target="SUB::Níquel (compuestos)" weight="15955.82421875">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+      </edge>
+      <edge id="339" source="LOC::Coahuila de Zaragoza.Acuña" target="SUB::Plomo (compuestos)" weight="24608.47265625">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+      </edge>
+      <edge id="340" source="LOC::Coahuila de Zaragoza.Acuña" target="SUB::Bióxido de carbono" weight="2.98301952E8">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+      </edge>
+      <edge id="341" source="LOC::Coahuila de Zaragoza.Acuña" target="SUB::Clorodifluorometano (HCFC-22)" weight="3443.608642578125">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+      </edge>
+      <edge id="342" source="LOC::Coahuila de Zaragoza.Acuña" target="SUB::Bióxido de nitrógeno" weight="3.499999875202775E-4">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+      </edge>
+      <edge id="343" source="LOC::Coahuila de Zaragoza.Acuña" target="SUB::Hidrofluorocarbonos" weight="645.030029296875">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+      </edge>
+      <edge id="344" source="LOC::Coahuila de Zaragoza.Acuña" target="SUB::Plomo (polvos respirables, humos o vapores)" weight="2446.226318359375">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+      </edge>
+      <edge id="345" source="LOC::Coahuila de Zaragoza.Acuña" target="SUB::Níquel (polvos respirables, humos o vapores)" weight="174091.375">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+      </edge>
+      <edge id="346" source="LOC::Coahuila de Zaragoza.Acuña" target="SUB::Cromo (polvos respirables, humos o vapores)" weight="37901.2109375">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+      </edge>
+      <edge id="347" source="LOC::Coahuila de Zaragoza.Acuña" target="SUB::Metano" weight="0.0017000000225380063">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+      </edge>
+      <edge id="348" source="LOC::Coahuila de Zaragoza.Acuña" target="SUB::Fenol" weight="2394.0">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+      </edge>
+      <edge id="349" source="LOC::Coahuila de Zaragoza.Acuña" target="SUB::Mercurio (polvos, respirables, vapores o humos)" weight="0.03568140044808388">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+      </edge>
+      <edge id="350" source="LOC::Coahuila de Zaragoza.Acuña" target="SUB::Cadmio (compuestos)" weight="0.87325119972229">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+      </edge>
+      <edge id="351" source="LOC::Coahuila de Zaragoza.Acuña" target="SUB::Arsénico (compuestos)" weight="0.04356607422232628">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+      </edge>
+      <edge id="352" source="LOC::Coahuila de Zaragoza.Acuña" target="SUB::Cadmio (Compuestos solubles)" weight="2563.9951171875">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+      </edge>
+      <edge id="353" source="LOC::Coahuila de Zaragoza.Acuña" target="SUB::Níquel (Compuestos solubles)" weight="50709.15625">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+      </edge>
+      <edge id="354" source="LOC::Coahuila de Zaragoza.Acuña" target="SUB::Cromo (Compuestos solubles)" weight="13293.23046875">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+      </edge>
+      <edge id="355" source="LOC::Coahuila de Zaragoza.Acuña" target="SUB::Plomo (Compuestos solubles)" weight="1442.988525390625">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+      </edge>
+      <edge id="356" source="LOC::Coahuila de Zaragoza.Acuña" target="SUB::Arsénico (Compuestos solubles)" weight="308.877685546875">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+      </edge>
+      <edge id="357" source="LOC::Coahuila de Zaragoza.Acuña" target="SUB::Mercurio (Compuestos solubles)" weight="160.5019073486328">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+      </edge>
+      <edge id="358" source="LOC::Coahuila de Zaragoza.Sabinas" target="SUB::Plomo (compuestos)" weight="130.0396728515625">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+      </edge>
+      <edge id="359" source="LOC::Coahuila de Zaragoza.Sabinas" target="SUB::Mercurio (compuestos)" weight="0.9059600830078125">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+      </edge>
+      <edge id="360" source="LOC::Coahuila de Zaragoza.Sabinas" target="SUB::Arsénico (polvos, respirables, vapores o humos)" weight="1.261528730392456">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+      </edge>
+      <edge id="361" source="LOC::Coahuila de Zaragoza.Sabinas" target="SUB::Cianuro inorgánico/orgánico" weight="15.69981575012207">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+      </edge>
+      <edge id="362" source="LOC::Coahuila de Zaragoza.Sabinas" target="SUB::Níquel (compuestos)" weight="126.341552734375">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+      </edge>
+      <edge id="363" source="LOC::Coahuila de Zaragoza.Sabinas" target="SUB::Cromo (compuestos)" weight="45.77900314331055">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+      </edge>
+      <edge id="364" source="LOC::Coahuila de Zaragoza.Sabinas" target="SUB::Cadmio (polvos, respirables, vapores o humos)" weight="8.783455848693848">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+      </edge>
+      <edge id="365" source="LOC::Coahuila de Zaragoza.Sabinas" target="SUB::Bióxido de carbono" weight="1.2850821E7">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+      </edge>
+      <edge id="366" source="LOC::Coahuila de Zaragoza.Sabinas" target="SUB::Acroleina" weight="0.02218019962310791">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+      </edge>
+      <edge id="367" source="LOC::Coahuila de Zaragoza.Sabinas" target="SUB::Formaldehido" weight="0.009860018268227577">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+      </edge>
+      <edge id="368" source="LOC::Coahuila de Zaragoza.Sabinas" target="SUB::Benceno" weight="0.05817341431975365">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+      </edge>
+      <edge id="369" source="LOC::Coahuila de Zaragoza.Sabinas" target="SUB::Acetaldehido" weight="0.11186040192842484">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+      </edge>
+      <edge id="370" source="LOC::Coahuila de Zaragoza.Sabinas" target="SUB::Clorodifluorometano (HCFC-22)" weight="1482.4000244140625">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+      </edge>
+      <edge id="371" source="LOC::Coahuila de Zaragoza.Sabinas" target="SUB::Cadmio (compuestos)" weight="10.342849731445312">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+      </edge>
+      <edge id="372" source="LOC::Coahuila de Zaragoza.Sabinas" target="SUB::Arsénico (compuestos)" weight="369.813720703125">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+      </edge>
+      <edge id="373" source="LOC::Coahuila de Zaragoza.Sabinas" target="SUB::Mercurio (polvos, respirables, vapores o humos)" weight="0.9145286083221436">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+      </edge>
+      <edge id="374" source="LOC::Coahuila de Zaragoza.Sabinas" target="SUB::Arsénico (Compuestos solubles)" weight="1.1138999462127686">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+      </edge>
+      <edge id="375" source="LOC::Coahuila de Zaragoza.Sabinas" target="SUB::Cromo (Compuestos solubles)" weight="1.1138999462127686">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+      </edge>
+      <edge id="376" source="LOC::Coahuila de Zaragoza.Sabinas" target="SUB::Plomo (Compuestos solubles)" weight="3.316499948501587">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+      </edge>
+      <edge id="377" source="LOC::Coahuila de Zaragoza.Sabinas" target="SUB::Níquel (Compuestos solubles)" weight="57.5266227722168">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+      </edge>
+      <edge id="378" source="LOC::Coahuila de Zaragoza.San Pedro" target="SUB::Cadmio (polvos, respirables, vapores o humos)" weight="0.017712000757455826">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+      </edge>
+      <edge id="379" source="LOC::Coahuila de Zaragoza.San Pedro" target="SUB::Arsénico (polvos, respirables, vapores o humos)" weight="0.026054000481963158">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+      </edge>
+      <edge id="380" source="LOC::Coahuila de Zaragoza.San Pedro" target="SUB::Cianuro inorgánico/orgánico" weight="0.008570400066673756">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+      </edge>
+      <edge id="381" source="LOC::Coahuila de Zaragoza.San Pedro" target="SUB::Mercurio (compuestos)" weight="0.0035304001066833735">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+      </edge>
+      <edge id="382" source="LOC::Coahuila de Zaragoza.San Pedro" target="SUB::Plomo (compuestos)" weight="162.4013671875">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+      </edge>
+      <edge id="383" source="LOC::Coahuila de Zaragoza.San Pedro" target="SUB::Níquel (compuestos)" weight="0.09008000046014786">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+      </edge>
+      <edge id="384" source="LOC::Coahuila de Zaragoza.San Pedro" target="SUB::Cromo (compuestos)" weight="0.04561055824160576">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+      </edge>
+      <edge id="385" source="LOC::Coahuila de Zaragoza.San Pedro" target="SUB::Bióxido de carbono" weight="1.234205E7">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+      </edge>
+      <edge id="386" source="LOC::Coahuila de Zaragoza.Progreso" target="SUB::Cromo (compuestos)" weight="4.066999912261963">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+      </edge>
+      <edge id="387" source="LOC::Coahuila de Zaragoza.Progreso" target="SUB::Mercurio (compuestos)" weight="0.12238200008869171">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+      </edge>
+      <edge id="388" source="LOC::Coahuila de Zaragoza.Progreso" target="SUB::Níquel (compuestos)" weight="11.344400405883789">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+      </edge>
+      <edge id="389" source="LOC::Coahuila de Zaragoza.Progreso" target="SUB::Plomo (compuestos)" weight="4.066999912261963">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+      </edge>
+      <edge id="390" source="LOC::Coahuila de Zaragoza.Progreso" target="SUB::Cianuro inorgánico/orgánico" weight="1.337975025177002">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+      </edge>
+      <edge id="391" source="LOC::Coahuila de Zaragoza.Progreso" target="SUB::Arsénico (polvos, respirables, vapores o humos)" weight="0.05921800062060356">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+      </edge>
+      <edge id="392" source="LOC::Coahuila de Zaragoza.Progreso" target="SUB::Cadmio (polvos, respirables, vapores o humos)" weight="0.5921800136566162">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+      </edge>
+      <edge id="393" source="LOC::Coahuila de Zaragoza.Progreso" target="SUB::Metano" weight="2252643.5">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+      </edge>
+      <edge id="394" source="LOC::Coahuila de Zaragoza.Progreso" target="SUB::Arsénico (compuestos)" weight="1.2206610441207886">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+      </edge>
+      <edge id="395" source="LOC::Coahuila de Zaragoza.Progreso" target="SUB::Cadmio (compuestos)" weight="1.7199000120162964">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+      </edge>
+      <edge id="396" source="LOC::Coahuila de Zaragoza.Progreso" target="SUB::Mercurio (polvos, respirables, vapores o humos)" weight="0.02960900031030178">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+      </edge>
+      <edge id="397" source="LOC::Coahuila de Zaragoza.Francisco I" target="SUB::Bióxido de carbono" weight="5.084436E7">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+      </edge>
+      <edge id="398" source="LOC::Coahuila de Zaragoza.Francisco I" target="SUB::Mercurio (polvos, respirables, vapores o humos)" weight="3.8399999141693115">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+      </edge>
+      <edge id="399" source="LOC::Coahuila de Zaragoza.Francisco I" target="SUB::Plomo (polvos respirables, humos o vapores)" weight="121.08999633789062">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+      </edge>
+      <edge id="400" source="LOC::Coahuila de Zaragoza.Ocampo" target="SUB::Bióxido de nitrógeno" weight="234000.0">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+      </edge>
+      <edge id="401" source="LOC::Coahuila de Zaragoza.Ocampo" target="SUB::Bióxido de carbono" weight="2.944617472E9">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+      </edge>
+      <edge id="402" source="LOC::Coahuila de Zaragoza.Ocampo" target="SUB::Mercurio (polvos, respirables, vapores o humos)" weight="0.5845540165901184">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+      </edge>
+      <edge id="403" source="LOC::Coahuila de Zaragoza.Ocampo" target="SUB::Plomo (compuestos)" weight="976.5969848632812">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+      </edge>
+      <edge id="404" source="LOC::Coahuila de Zaragoza.Ocampo" target="SUB::Cianuro inorgánico/orgánico" weight="1361955.375">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+      </edge>
+      <edge id="405" source="LOC::Coahuila de Zaragoza.Ocampo" target="SUB::Plomo (polvos respirables, humos o vapores)" weight="1766.85400390625">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+      </edge>
+      <edge id="406" source="LOC::Coahuila de Zaragoza.Ocampo" target="SUB::Plomo (Compuestos solubles)" weight="86.79049682617188">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+      </edge>
+      <edge id="407" source="LOC::Coahuila de Zaragoza.Ocampo" target="SUB::Arsénico (Compuestos solubles)" weight="7.804500102996826">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+      </edge>
+      <edge id="408" source="LOC::Coahuila de Zaragoza.Matamoros" target="SUB::Plomo (compuestos)" weight="0.006779999937862158">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+      </edge>
+      <edge id="409" source="LOC::Coahuila de Zaragoza.Matamoros" target="SUB::Dibutilftalato" weight="299.3711853027344">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+      </edge>
+      <edge id="410" source="LOC::Coahuila de Zaragoza.Matamoros" target="SUB::Bióxido de carbono" weight="114051.0546875">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+      </edge>
+      <edge id="411" source="LOC::Coahuila de Zaragoza.Matamoros" target="SUB::Níquel (Compuestos solubles)" weight="14.013299942016602">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+      </edge>
+      <edge id="412" source="LOC::Coahuila de Zaragoza.Matamoros" target="SUB::Cromo (Compuestos solubles)" weight="1.2604000568389893">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+      </edge>
+      <edge id="413" source="LOC::Coahuila de Zaragoza.Matamoros" target="SUB::Plomo (Compuestos solubles)" weight="1.5125000476837158">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+      </edge>
+      <edge id="414" source="LOC::Coahuila de Zaragoza.Zaragoza" target="SUB::Bióxido de carbono" weight="6.1570552E7">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+      </edge>
+      <edge id="415" source="LOC::Coahuila de Zaragoza.General Cepeda" target="SUB::Bióxido de carbono" weight="5765706.0">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+      </edge>
+      <edge id="416" source="LOC::Coahuila de Zaragoza.Hidalgo" target="SUB::Bióxido de carbono" weight="1440436.75">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+      </edge>
+      <edge id="417" source="LOC::Coahuila de Zaragoza.Hidalgo" target="SUB::Plomo (Compuestos solubles)" weight="428.90399169921875">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+      </edge>
+      <edge id="418" source="LOC::Coahuila de Zaragoza.Hidalgo" target="SUB::Bifenilos policlorados" weight="0.09397091716527939">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+      </edge>
+    </edges>
+  </graph>
+</gexf>

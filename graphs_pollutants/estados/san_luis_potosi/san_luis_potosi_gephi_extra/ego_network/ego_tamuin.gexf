@@ -1,0 +1,376 @@
+<?xml version='1.0' encoding='utf-8'?>
+<gexf xmlns="http://www.gexf.net/1.2draft" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.gexf.net/1.2draft http://www.gexf.net/1.2draft/gexf.xsd" version="1.2">
+  <meta lastmodifieddate="2026-10-16">
+    <creator>NetworkX 3.7</creator>
+  </meta>
+  <graph defaultedgetype="undirected" mode="static" name="">
+    <attributes mode="static" class="node">
+      <attribute id="0" title="role" type="string" />
+      <attribute id="1" title="total_kg" type="double" />
+    </attributes>
+    <nodes>
+      <node id="San Luis Potosí.Tamuín" label="San Luis Potosí.Tamuín">
+        <attvalues>
+          <attvalue for="0" value="focal" />
+          <attvalue for="1" value="58747682425.6178" />
+        </attvalues>
+      </node>
+      <node id="Bióxido de carbono" label="Carbon dioxide">
+        <attvalues>
+          <attvalue for="0" value="substance" />
+          <attvalue for="1" value="58735219833.79642" />
+        </attvalues>
+      </node>
+      <node id="Bióxido de nitrógeno" label="Nitrogen dioxide">
+        <attvalues>
+          <attvalue for="0" value="substance" />
+          <attvalue for="1" value="12294017.780900002" />
+        </attvalues>
+      </node>
+      <node id="Benceno" label="Benzene">
+        <attvalues>
+          <attvalue for="0" value="substance" />
+          <attvalue for="1" value="134690.01293599998" />
+        </attvalues>
+      </node>
+      <node id="Plomo (polvos respirables, humos o vapores)" label="Lead (respirable dust, fumes or vapors)">
+        <attvalues>
+          <attvalue for="0" value="substance" />
+          <attvalue for="1" value="23443.191534138" />
+        </attvalues>
+      </node>
+      <node id="Cromo (polvos respirables, humos o vapores)" label="Chromium (respirable dust, fumes or vapors)">
+        <attvalues>
+          <attvalue for="0" value="substance" />
+          <attvalue for="1" value="2604.99719252" />
+        </attvalues>
+      </node>
+      <node id="Níquel (compuestos)" label="Nickel (compounds)">
+        <attvalues>
+          <attvalue for="0" value="substance" />
+          <attvalue for="1" value="2008.8005999999998" />
+        </attvalues>
+      </node>
+      <node id="Níquel (polvos respirables, humos o vapores)" label="Nickel (respirable dust, fumes or vapors)">
+        <attvalues>
+          <attvalue for="0" value="substance" />
+          <attvalue for="1" value="1860.1740416999999" />
+        </attvalues>
+      </node>
+      <node id="Plomo (compuestos)" label="Lead (compounds)">
+        <attvalues>
+          <attvalue for="0" value="substance" />
+          <attvalue for="1" value="1518.254049148" />
+        </attvalues>
+      </node>
+      <node id="Cromo (compuestos)" label="Chromium (compounds)">
+        <attvalues>
+          <attvalue for="0" value="substance" />
+          <attvalue for="1" value="948.5903902199999" />
+        </attvalues>
+      </node>
+      <node id="Mercurio (polvos, respirables, vapores o humos)" label="Mercury (respirable dust, vapors or fumes)">
+        <attvalues>
+          <attvalue for="0" value="substance" />
+          <attvalue for="1" value="497.36655201350004" />
+        </attvalues>
+      </node>
+      <node id="Cadmio (polvos, respirables, vapores o humos)" label="Cadmium (respirable dust, vapors or fumes)">
+        <attvalues>
+          <attvalue for="0" value="substance" />
+          <attvalue for="1" value="362.54133692560004" />
+        </attvalues>
+      </node>
+      <node id="Arsénico (polvos, respirables, vapores o humos)" label="Arsenic (respirable dust, vapors or fumes)">
+        <attvalues>
+          <attvalue for="0" value="substance" />
+          <attvalue for="1" value="173.22627013200002" />
+        </attvalues>
+      </node>
+      <node id="Cianuro inorgánico/orgánico" label="Inorganic/organic cyanide">
+        <attvalues>
+          <attvalue for="0" value="substance" />
+          <attvalue for="1" value="159.49255" />
+        </attvalues>
+      </node>
+      <node id="Cromo (Compuestos solubles)" label="Chromium (soluble compounds)">
+        <attvalues>
+          <attvalue for="0" value="substance" />
+          <attvalue for="1" value="131.7891919" />
+        </attvalues>
+      </node>
+      <node id="Níquel (Compuestos solubles)" label="Nickel (soluble compounds)">
+        <attvalues>
+          <attvalue for="0" value="substance" />
+          <attvalue for="1" value="57.2245" />
+        </attvalues>
+      </node>
+      <node id="San Luis Potosí.San Luis Potosí" label="San Luis Potosí.San Luis Potosí">
+        <attvalues>
+          <attvalue for="0" value="peer_municipio" />
+          <attvalue for="1" value="15939627485.172844" />
+        </attvalues>
+      </node>
+      <node id="San Luis Potosí.Cerritos" label="San Luis Potosí.Cerritos">
+        <attvalues>
+          <attvalue for="0" value="peer_municipio" />
+          <attvalue for="1" value="17456938522.751358" />
+        </attvalues>
+      </node>
+      <node id="San Luis Potosí.Tamazunchale" label="San Luis Potosí.Tamazunchale">
+        <attvalues>
+          <attvalue for="0" value="peer_municipio" />
+          <attvalue for="1" value="42747551611.62391" />
+        </attvalues>
+      </node>
+      <node id="San Luis Potosí.Ciudad Valles" label="San Luis Potosí.Ciudad Valles">
+        <attvalues>
+          <attvalue for="0" value="peer_municipio" />
+          <attvalue for="1" value="6197984733.532627" />
+        </attvalues>
+      </node>
+      <node id="San Luis Potosí.Villa de Reyes" label="San Luis Potosí.Villa de Reyes">
+        <attvalues>
+          <attvalue for="0" value="peer_municipio" />
+          <attvalue for="1" value="32685727867.571545" />
+        </attvalues>
+      </node>
+      <node id="San Luis Potosí.Matehuala" label="San Luis Potosí.Matehuala">
+        <attvalues>
+          <attvalue for="0" value="peer_municipio" />
+          <attvalue for="1" value="57198.48705962" />
+        </attvalues>
+      </node>
+      <node id="San Luis Potosí.Cerro de San Pedro" label="San Luis Potosí.Cerro de San Pedro">
+        <attvalues>
+          <attvalue for="0" value="peer_municipio" />
+          <attvalue for="1" value="108016634.16122042" />
+        </attvalues>
+      </node>
+      <node id="San Luis Potosí.Tamasopo" label="San Luis Potosí.Tamasopo">
+        <attvalues>
+          <attvalue for="0" value="peer_municipio" />
+          <attvalue for="1" value="1252449632.8241875" />
+        </attvalues>
+      </node>
+      <node id="San Luis Potosí.Huehuetlán" label="San Luis Potosí.Huehuetlán">
+        <attvalues>
+          <attvalue for="0" value="peer_municipio" />
+          <attvalue for="1" value="205.585287564" />
+        </attvalues>
+      </node>
+      <node id="San Luis Potosí.El Naranjo" label="San Luis Potosí.El Naranjo">
+        <attvalues>
+          <attvalue for="0" value="peer_municipio" />
+          <attvalue for="1" value="298.021287005" />
+        </attvalues>
+      </node>
+      <node id="San Luis Potosí.Charcas" label="San Luis Potosí.Charcas">
+        <attvalues>
+          <attvalue for="0" value="peer_municipio" />
+          <attvalue for="1" value="239016.6723960496" />
+        </attvalues>
+      </node>
+      <node id="San Luis Potosí.Moctezuma" label="San Luis Potosí.Moctezuma">
+        <attvalues>
+          <attvalue for="0" value="peer_municipio" />
+          <attvalue for="1" value="87905.05" />
+        </attvalues>
+      </node>
+      <node id="San Luis Potosí.Venado" label="San Luis Potosí.Venado">
+        <attvalues>
+          <attvalue for="0" value="peer_municipio" />
+          <attvalue for="1" value="109505.95863696" />
+        </attvalues>
+      </node>
+      <node id="San Luis Potosí.Soledad de Graciano Sánchez" label="San Luis Potosí.Soledad de Graciano Sánchez">
+        <attvalues>
+          <attvalue for="0" value="peer_municipio" />
+          <attvalue for="1" value="220555569.27226043" />
+        </attvalues>
+      </node>
+      <node id="San Luis Potosí.Zaragoza" label="San Luis Potosí.Zaragoza">
+        <attvalues>
+          <attvalue for="0" value="peer_municipio" />
+          <attvalue for="1" value="1823337603.3641803" />
+        </attvalues>
+      </node>
+    </nodes>
+    <edges>
+      <edge source="San Luis Potosí.Tamuín" target="Bióxido de carbono" id="0" weight="58735219833.79642" />
+      <edge source="San Luis Potosí.Tamuín" target="Bióxido de nitrógeno" id="1" weight="12294017.780900002" />
+      <edge source="San Luis Potosí.Tamuín" target="Benceno" id="2" weight="134690.01293599998" />
+      <edge source="San Luis Potosí.Tamuín" target="Plomo (polvos respirables, humos o vapores)" id="3" weight="23443.191534138" />
+      <edge source="San Luis Potosí.Tamuín" target="Cromo (polvos respirables, humos o vapores)" id="4" weight="2604.99719252" />
+      <edge source="San Luis Potosí.Tamuín" target="Níquel (compuestos)" id="5" weight="2008.8005999999998" />
+      <edge source="San Luis Potosí.Tamuín" target="Níquel (polvos respirables, humos o vapores)" id="6" weight="1860.1740416999999" />
+      <edge source="San Luis Potosí.Tamuín" target="Plomo (compuestos)" id="7" weight="1518.254049148" />
+      <edge source="San Luis Potosí.Tamuín" target="Cromo (compuestos)" id="8" weight="948.5903902199999" />
+      <edge source="San Luis Potosí.Tamuín" target="Mercurio (polvos, respirables, vapores o humos)" id="9" weight="497.36655201350004" />
+      <edge source="San Luis Potosí.Tamuín" target="Cadmio (polvos, respirables, vapores o humos)" id="10" weight="362.54133692560004" />
+      <edge source="San Luis Potosí.Tamuín" target="Arsénico (polvos, respirables, vapores o humos)" id="11" weight="173.22627013200002" />
+      <edge source="San Luis Potosí.Tamuín" target="Cianuro inorgánico/orgánico" id="12" weight="159.49255" />
+      <edge source="San Luis Potosí.Tamuín" target="Cromo (Compuestos solubles)" id="13" weight="131.7891919" />
+      <edge source="San Luis Potosí.Tamuín" target="Níquel (Compuestos solubles)" id="14" weight="57.2245" />
+      <edge source="Bióxido de carbono" target="San Luis Potosí.San Luis Potosí" id="15" weight="15929596889.614594" />
+      <edge source="Bióxido de carbono" target="San Luis Potosí.Cerritos" id="16" weight="17456751152.16" />
+      <edge source="Bióxido de carbono" target="San Luis Potosí.Tamazunchale" id="17" weight="42699066143.24001" />
+      <edge source="Bióxido de carbono" target="San Luis Potosí.Ciudad Valles" id="18" weight="6196786305.61" />
+      <edge source="Bióxido de carbono" target="San Luis Potosí.Villa de Reyes" id="19" weight="32671390331.90969" />
+      <edge source="Bióxido de carbono" target="San Luis Potosí.Matehuala" id="20" weight="54328.0" />
+      <edge source="Bióxido de carbono" target="San Luis Potosí.Cerro de San Pedro" id="21" weight="105189000.0" />
+      <edge source="Bióxido de carbono" target="San Luis Potosí.Tamasopo" id="22" weight="1251152439.0" />
+      <edge source="Bióxido de carbono" target="San Luis Potosí.Charcas" id="23" weight="238976.0" />
+      <edge source="Bióxido de carbono" target="San Luis Potosí.Moctezuma" id="24" weight="87896.0" />
+      <edge source="Bióxido de carbono" target="San Luis Potosí.Venado" id="25" weight="109465.0" />
+      <edge source="Bióxido de carbono" target="San Luis Potosí.Soledad de Graciano Sánchez" id="26" weight="220555557.45843" />
+      <edge source="Bióxido de carbono" target="San Luis Potosí.Zaragoza" id="27" weight="1823337348.56" />
+      <edge source="Bióxido de nitrógeno" target="San Luis Potosí.San Luis Potosí" id="28" weight="7532103.612899999" />
+      <edge source="Bióxido de nitrógeno" target="San Luis Potosí.Tamazunchale" id="29" weight="48481479.959" />
+      <edge source="Bióxido de nitrógeno" target="San Luis Potosí.Ciudad Valles" id="30" weight="622050.0" />
+      <edge source="Bióxido de nitrógeno" target="San Luis Potosí.Villa de Reyes" id="31" weight="14272460.3" />
+      <edge source="Bióxido de nitrógeno" target="San Luis Potosí.Cerro de San Pedro" id="32" weight="2822000.0" />
+      <edge source="Bióxido de nitrógeno" target="San Luis Potosí.Tamasopo" id="33" weight="1294641.0" />
+      <edge source="Benceno" target="San Luis Potosí.San Luis Potosí" id="34" weight="18355.353513518254" />
+      <edge source="Benceno" target="San Luis Potosí.Cerritos" id="35" weight="180096.318" />
+      <edge source="Benceno" target="San Luis Potosí.Tamazunchale" id="36" weight="296.0" />
+      <edge source="Benceno" target="San Luis Potosí.Ciudad Valles" id="37" weight="34481.42609807318" />
+      <edge source="Benceno" target="San Luis Potosí.Villa de Reyes" id="38" weight="4366.414096" />
+      <edge source="Benceno" target="San Luis Potosí.Matehuala" id="39" weight="0.2536153" />
+      <edge source="Plomo (polvos respirables, humos o vapores)" target="San Luis Potosí.San Luis Potosí" id="40" weight="2308351.8967218297" />
+      <edge source="Plomo (polvos respirables, humos o vapores)" target="San Luis Potosí.Cerritos" id="41" weight="659.5491999999999" />
+      <edge source="Plomo (polvos respirables, humos o vapores)" target="San Luis Potosí.Tamazunchale" id="42" weight="24.454383999999997" />
+      <edge source="Plomo (polvos respirables, humos o vapores)" target="San Luis Potosí.Ciudad Valles" id="43" weight="126.96654411100002" />
+      <edge source="Plomo (polvos respirables, humos o vapores)" target="San Luis Potosí.Villa de Reyes" id="44" weight="5852.0469324099995" />
+      <edge source="Plomo (polvos respirables, humos o vapores)" target="San Luis Potosí.Cerro de San Pedro" id="45" weight="2207.0" />
+      <edge source="Plomo (polvos respirables, humos o vapores)" target="San Luis Potosí.Charcas" id="46" weight="27.375500000000002" />
+      <edge source="Cromo (polvos respirables, humos o vapores)" target="San Luis Potosí.San Luis Potosí" id="47" weight="30.5" />
+      <edge source="Cromo (polvos respirables, humos o vapores)" target="San Luis Potosí.Cerritos" id="48" weight="1080.67" />
+      <edge source="Cromo (polvos respirables, humos o vapores)" target="San Luis Potosí.Tamazunchale" id="49" weight="118.95157533" />
+      <edge source="Cromo (polvos respirables, humos o vapores)" target="San Luis Potosí.Ciudad Valles" id="50" weight="320.978433317" />
+      <edge source="Cromo (polvos respirables, humos o vapores)" target="San Luis Potosí.Villa de Reyes" id="51" weight="156.058907588" />
+      <edge source="Níquel (compuestos)" target="San Luis Potosí.San Luis Potosí" id="52" weight="17491.624715857855" />
+      <edge source="Níquel (compuestos)" target="San Luis Potosí.Tamazunchale" id="53" weight="161.165707101652" />
+      <edge source="Níquel (compuestos)" target="San Luis Potosí.Ciudad Valles" id="54" weight="268.7767785" />
+      <edge source="Níquel (compuestos)" target="San Luis Potosí.Villa de Reyes" id="55" weight="3367.642467002" />
+      <edge source="Níquel (compuestos)" target="San Luis Potosí.Matehuala" id="56" weight="0.0384" />
+      <edge source="Níquel (compuestos)" target="San Luis Potosí.Cerro de San Pedro" id="57" weight="186.04844275" />
+      <edge source="Níquel (compuestos)" target="San Luis Potosí.Tamasopo" id="58" weight="1251.515565596" />
+      <edge source="Níquel (compuestos)" target="San Luis Potosí.Huehuetlán" id="59" weight="33.787597468" />
+      <edge source="Níquel (compuestos)" target="San Luis Potosí.El Naranjo" id="60" weight="2.424169" />
+      <edge source="Níquel (compuestos)" target="San Luis Potosí.Charcas" id="61" weight="0.49165244799999996" />
+      <edge source="Níquel (compuestos)" target="San Luis Potosí.Moctezuma" id="62" weight="2.0" />
+      <edge source="Níquel (compuestos)" target="San Luis Potosí.Venado" id="63" weight="11.0" />
+      <edge source="Níquel (compuestos)" target="San Luis Potosí.Soledad de Graciano Sánchez" id="64" weight="3.26902654" />
+      <edge source="Níquel (compuestos)" target="San Luis Potosí.Zaragoza" id="65" weight="21.438675" />
+      <edge source="Níquel (polvos respirables, humos o vapores)" target="San Luis Potosí.San Luis Potosí" id="66" weight="311.78751675070004" />
+      <edge source="Níquel (polvos respirables, humos o vapores)" target="San Luis Potosí.Tamazunchale" id="67" weight="178.47272175" />
+      <edge source="Níquel (polvos respirables, humos o vapores)" target="San Luis Potosí.Ciudad Valles" id="68" weight="228.61" />
+      <edge source="Níquel (polvos respirables, humos o vapores)" target="San Luis Potosí.Villa de Reyes" id="69" weight="2302.34989681" />
+      <edge source="Plomo (compuestos)" target="San Luis Potosí.San Luis Potosí" id="70" weight="67392.86355794143" />
+      <edge source="Plomo (compuestos)" target="San Luis Potosí.Cerritos" id="71" weight="478.474456" />
+      <edge source="Plomo (compuestos)" target="San Luis Potosí.Tamazunchale" id="72" weight="63.97946605314059" />
+      <edge source="Plomo (compuestos)" target="San Luis Potosí.Ciudad Valles" id="73" weight="536691.597815656" />
+      <edge source="Plomo (compuestos)" target="San Luis Potosí.Villa de Reyes" id="74" weight="2231.939138795" />
+      <edge source="Plomo (compuestos)" target="San Luis Potosí.Matehuala" id="75" weight="0.057131999999999995" />
+      <edge source="Plomo (compuestos)" target="San Luis Potosí.Cerro de San Pedro" id="76" weight="2925.457870475" />
+      <edge source="Plomo (compuestos)" target="San Luis Potosí.Tamasopo" id="77" weight="39.022065774" />
+      <edge source="Plomo (compuestos)" target="San Luis Potosí.Huehuetlán" id="78" weight="56.80623656" />
+      <edge source="Plomo (compuestos)" target="San Luis Potosí.El Naranjo" id="79" weight="5.630328" />
+      <edge source="Plomo (compuestos)" target="San Luis Potosí.Charcas" id="80" weight="9.9175" />
+      <edge source="Plomo (compuestos)" target="San Luis Potosí.Moctezuma" id="81" weight="5.0" />
+      <edge source="Plomo (compuestos)" target="San Luis Potosí.Venado" id="82" weight="21.10563696" />
+      <edge source="Plomo (compuestos)" target="San Luis Potosí.Soledad de Graciano Sánchez" id="83" weight="2.50124041" />
+      <edge source="Plomo (compuestos)" target="San Luis Potosí.Zaragoza" id="84" weight="21.438675" />
+      <edge source="Cromo (compuestos)" target="San Luis Potosí.San Luis Potosí" id="85" weight="13616.305015234797" />
+      <edge source="Cromo (compuestos)" target="San Luis Potosí.Cerritos" id="86" weight="880.5521464000001" />
+      <edge source="Cromo (compuestos)" target="San Luis Potosí.Tamazunchale" id="87" weight="146.35025968425202" />
+      <edge source="Cromo (compuestos)" target="San Luis Potosí.Ciudad Valles" id="88" weight="206.67053614" />
+      <edge source="Cromo (compuestos)" target="San Luis Potosí.Villa de Reyes" id="89" weight="396.0236540323" />
+      <edge source="Cromo (compuestos)" target="San Luis Potosí.Matehuala" id="90" weight="0.043488" />
+      <edge source="Cromo (compuestos)" target="San Luis Potosí.Cerro de San Pedro" id="91" weight="2.0580312099999998" />
+      <edge source="Cromo (compuestos)" target="San Luis Potosí.Tamasopo" id="92" weight="25.9640153" />
+      <edge source="Cromo (compuestos)" target="San Luis Potosí.Huehuetlán" id="93" weight="19.129046920000004" />
+      <edge source="Cromo (compuestos)" target="San Luis Potosí.El Naranjo" id="94" weight="1.016587" />
+      <edge source="Cromo (compuestos)" target="San Luis Potosí.Charcas" id="95" weight="0.02" />
+      <edge source="Cromo (compuestos)" target="San Luis Potosí.Moctezuma" id="96" weight="0.95" />
+      <edge source="Cromo (compuestos)" target="San Luis Potosí.Venado" id="97" weight="4.0" />
+      <edge source="Cromo (compuestos)" target="San Luis Potosí.Soledad de Graciano Sánchez" id="98" weight="0.83008436" />
+      <edge source="Cromo (compuestos)" target="San Luis Potosí.Zaragoza" id="99" weight="21.000035" />
+      <edge source="Mercurio (polvos, respirables, vapores o humos)" target="San Luis Potosí.San Luis Potosí" id="100" weight="2370.8104065205034" />
+      <edge source="Mercurio (polvos, respirables, vapores o humos)" target="San Luis Potosí.Cerritos" id="101" weight="381.3041160000001" />
+      <edge source="Mercurio (polvos, respirables, vapores o humos)" target="San Luis Potosí.Tamazunchale" id="102" weight="23.870830323999996" />
+      <edge source="Mercurio (polvos, respirables, vapores o humos)" target="San Luis Potosí.Ciudad Valles" id="103" weight="97.68987454739998" />
+      <edge source="Mercurio (polvos, respirables, vapores o humos)" target="San Luis Potosí.Villa de Reyes" id="104" weight="40.787143513000004" />
+      <edge source="Mercurio (polvos, respirables, vapores o humos)" target="San Luis Potosí.Cerro de San Pedro" id="105" weight="300.390262725" />
+      <edge source="Mercurio (polvos, respirables, vapores o humos)" target="San Luis Potosí.Tamasopo" id="106" weight="2.0" />
+      <edge source="Mercurio (polvos, respirables, vapores o humos)" target="San Luis Potosí.Soledad de Graciano Sánchez" id="107" weight="0.051272532" />
+      <edge source="Mercurio (polvos, respirables, vapores o humos)" target="San Luis Potosí.Zaragoza" id="108" weight="0.29212" />
+      <edge source="Cadmio (polvos, respirables, vapores o humos)" target="San Luis Potosí.San Luis Potosí" id="109" weight="5780.169376926866" />
+      <edge source="Cadmio (polvos, respirables, vapores o humos)" target="San Luis Potosí.Cerritos" id="110" weight="35.8534663" />
+      <edge source="Cadmio (polvos, respirables, vapores o humos)" target="San Luis Potosí.Tamazunchale" id="111" weight="77.2300177902" />
+      <edge source="Cadmio (polvos, respirables, vapores o humos)" target="San Luis Potosí.Ciudad Valles" id="112" weight="59.0674423172" />
+      <edge source="Cadmio (polvos, respirables, vapores o humos)" target="San Luis Potosí.Villa de Reyes" id="113" weight="1580.927509953" />
+      <edge source="Cadmio (polvos, respirables, vapores o humos)" target="San Luis Potosí.Matehuala" id="114" weight="0.028811999999999997" />
+      <edge source="Cadmio (polvos, respirables, vapores o humos)" target="San Luis Potosí.Cerro de San Pedro" id="115" weight="8.18346045" />
+      <edge source="Cadmio (polvos, respirables, vapores o humos)" target="San Luis Potosí.Tamasopo" id="116" weight="28.0" />
+      <edge source="Cadmio (polvos, respirables, vapores o humos)" target="San Luis Potosí.Huehuetlán" id="117" weight="8.24253638" />
+      <edge source="Cadmio (polvos, respirables, vapores o humos)" target="San Luis Potosí.El Naranjo" id="118" weight="0.6412318" />
+      <edge source="Cadmio (polvos, respirables, vapores o humos)" target="San Luis Potosí.Charcas" id="119" weight="0.09" />
+      <edge source="Cadmio (polvos, respirables, vapores o humos)" target="San Luis Potosí.Moctezuma" id="120" weight="0.48" />
+      <edge source="Cadmio (polvos, respirables, vapores o humos)" target="San Luis Potosí.Venado" id="121" weight="2.0" />
+      <edge source="Cadmio (polvos, respirables, vapores o humos)" target="San Luis Potosí.Soledad de Graciano Sánchez" id="122" weight="1.51004882" />
+      <edge source="Cadmio (polvos, respirables, vapores o humos)" target="San Luis Potosí.Zaragoza" id="123" weight="21.558148" />
+      <edge source="Arsénico (polvos, respirables, vapores o humos)" target="San Luis Potosí.San Luis Potosí" id="124" weight="3087.0058808937893" />
+      <edge source="Arsénico (polvos, respirables, vapores o humos)" target="San Luis Potosí.Cerritos" id="125" weight="190.64390200000003" />
+      <edge source="Arsénico (polvos, respirables, vapores o humos)" target="San Luis Potosí.Tamazunchale" id="126" weight="17.0872275651" />
+      <edge source="Arsénico (polvos, respirables, vapores o humos)" target="San Luis Potosí.Ciudad Valles" id="127" weight="103.7089427457" />
+      <edge source="Arsénico (polvos, respirables, vapores o humos)" target="San Luis Potosí.Villa de Reyes" id="128" weight="383.80035323275007" />
+      <edge source="Arsénico (polvos, respirables, vapores o humos)" target="San Luis Potosí.Matehuala" id="129" weight="0.025372319999999997" />
+      <edge source="Arsénico (polvos, respirables, vapores o humos)" target="San Luis Potosí.Cerro de San Pedro" id="130" weight="3.1225454" />
+      <edge source="Arsénico (polvos, respirables, vapores o humos)" target="San Luis Potosí.Tamasopo" id="131" weight="5.30122844" />
+      <edge source="Arsénico (polvos, respirables, vapores o humos)" target="San Luis Potosí.Huehuetlán" id="132" weight="56.2857205" />
+      <edge source="Arsénico (polvos, respirables, vapores o humos)" target="San Luis Potosí.El Naranjo" id="133" weight="0.156399004" />
+      <edge source="Arsénico (polvos, respirables, vapores o humos)" target="San Luis Potosí.Charcas" id="134" weight="0.0130826224" />
+      <edge source="Arsénico (polvos, respirables, vapores o humos)" target="San Luis Potosí.Moctezuma" id="135" weight="0.14" />
+      <edge source="Arsénico (polvos, respirables, vapores o humos)" target="San Luis Potosí.Venado" id="136" weight="0.853" />
+      <edge source="Arsénico (polvos, respirables, vapores o humos)" target="San Luis Potosí.Soledad de Graciano Sánchez" id="137" weight="0.9989977610000002" />
+      <edge source="Arsénico (polvos, respirables, vapores o humos)" target="San Luis Potosí.Zaragoza" id="138" weight="21.55812392" />
+      <edge source="Cianuro inorgánico/orgánico" target="San Luis Potosí.San Luis Potosí" id="139" weight="4635.293700632583" />
+      <edge source="Cianuro inorgánico/orgánico" target="San Luis Potosí.Cerritos" id="140" weight="1426.3127731000002" />
+      <edge source="Cianuro inorgánico/orgánico" target="San Luis Potosí.Tamazunchale" id="141" weight="46.730507580740586" />
+      <edge source="Cianuro inorgánico/orgánico" target="San Luis Potosí.Ciudad Valles" id="142" weight="36.68511726" />
+      <edge source="Cianuro inorgánico/orgánico" target="San Luis Potosí.Villa de Reyes" id="143" weight="1186.2322561085" />
+      <edge source="Cianuro inorgánico/orgánico" target="San Luis Potosí.Matehuala" id="144" weight="2870.02728" />
+      <edge source="Cianuro inorgánico/orgánico" target="San Luis Potosí.Cerro de San Pedro" id="145" weight="1.9006074000000002" />
+      <edge source="Cianuro inorgánico/orgánico" target="San Luis Potosí.Tamasopo" id="146" weight="10.160612450000002" />
+      <edge source="Cianuro inorgánico/orgánico" target="San Luis Potosí.Huehuetlán" id="147" weight="2.451949736" />
+      <edge source="Cianuro inorgánico/orgánico" target="San Luis Potosí.El Naranjo" id="148" weight="0.6959722009999999" />
+      <edge source="Cianuro inorgánico/orgánico" target="San Luis Potosí.Charcas" id="149" weight="0.0446609792" />
+      <edge source="Cianuro inorgánico/orgánico" target="San Luis Potosí.Moctezuma" id="150" weight="0.48" />
+      <edge source="Cianuro inorgánico/orgánico" target="San Luis Potosí.Venado" id="151" weight="2.0" />
+      <edge source="Cianuro inorgánico/orgánico" target="San Luis Potosí.Soledad de Graciano Sánchez" id="152" weight="0.96036" />
+      <edge source="Cianuro inorgánico/orgánico" target="San Luis Potosí.Zaragoza" id="153" weight="147.5184035" />
+      <edge source="Cromo (Compuestos solubles)" target="San Luis Potosí.San Luis Potosí" id="154" weight="722.0966577299995" />
+      <edge source="Cromo (Compuestos solubles)" target="San Luis Potosí.Cerritos" id="155" weight="1175.9992" />
+      <edge source="Cromo (Compuestos solubles)" target="San Luis Potosí.Tamazunchale" id="156" weight="1586.1904645000002" />
+      <edge source="Cromo (Compuestos solubles)" target="San Luis Potosí.Ciudad Valles" id="157" weight="1285.2426952182998" />
+      <edge source="Cromo (Compuestos solubles)" target="San Luis Potosí.Villa de Reyes" id="158" weight="24805.9159" />
+      <edge source="Cromo (Compuestos solubles)" target="San Luis Potosí.Matehuala" id="159" weight="0.00648" />
+      <edge source="Cromo (Compuestos solubles)" target="San Luis Potosí.Tamasopo" id="160" weight="657.6989999999996" />
+      <edge source="Cromo (Compuestos solubles)" target="San Luis Potosí.El Naranjo" id="161" weight="162.85019999999997" />
+      <edge source="Cromo (Compuestos solubles)" target="San Luis Potosí.Charcas" id="162" weight="1.7" />
+      <edge source="Níquel (Compuestos solubles)" target="San Luis Potosí.San Luis Potosí" id="163" weight="56346.23828658201" />
+      <edge source="Níquel (Compuestos solubles)" target="San Luis Potosí.Cerritos" id="164" weight="964.9141000000001" />
+      <edge source="Níquel (Compuestos solubles)" target="San Luis Potosí.Tamazunchale" id="165" weight="1247.94173225" />
+      <edge source="Níquel (Compuestos solubles)" target="San Luis Potosí.Ciudad Valles" id="166" weight="2470.50235" />
+      <edge source="Níquel (Compuestos solubles)" target="San Luis Potosí.Villa de Reyes" id="167" weight="18405.223600000005" />
+      <edge source="Níquel (Compuestos solubles)" target="San Luis Potosí.Matehuala" id="168" weight="0.00648" />
+      <edge source="Níquel (Compuestos solubles)" target="San Luis Potosí.Tamasopo" id="169" weight="533.1617000000001" />
+      <edge source="Níquel (Compuestos solubles)" target="San Luis Potosí.Huehuetlán" id="170" weight="28.882199999999997" />
+      <edge source="Níquel (Compuestos solubles)" target="San Luis Potosí.El Naranjo" id="171" weight="124.60640000000001" />
+      <edge source="Níquel (Compuestos solubles)" target="San Luis Potosí.Charcas" id="172" weight="1.02" />
+      <edge source="Níquel (Compuestos solubles)" target="San Luis Potosí.Soledad de Graciano Sánchez" id="173" weight="1.6928" />
+    </edges>
+  </graph>
+</gexf>

@@ -1,0 +1,378 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<gexf xmlns="http://gexf.net/1.3" version="1.3" xmlns:viz="http://gexf.net/1.3/viz" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://gexf.net/1.3 http://gexf.net/1.3/gexf.xsd">
+  <meta lastmodifieddate="2026-10-16">
+    <creator>Apache NetBeans Platform Dev (Build {0})</creator>
+    <title></title>
+    <description></description>
+  </meta>
+  <graph defaultedgetype="undirected" mode="static">
+    <attributes class="node" mode="static">
+      <attribute id="0" title="role" type="string"/>
+      <attribute id="1" title="total_kg" type="double"/>
+    </attributes>
+    <nodes>
+      <node id="Colima.Manzanillo" label="Colima.Manzanillo">
+        <attvalues>
+          <attvalue for="0" value="focal"/>
+          <attvalue for="1" value="3.69956998613927E10"/>
+        </attvalues>
+        <viz:size value="40.0"/>
+        <viz:position x="-14.880385" y="216.54924"/>
+        <viz:color r="227" g="73" b="72"/>
+      </node>
+      <node id="Bióxido de carbono" label="Carbon dioxide">
+        <attvalues>
+          <attvalue for="0" value="substance"/>
+          <attvalue for="1" value="3.687143892700031E10"/>
+        </attvalues>
+        <viz:size value="39.89923"/>
+        <viz:position x="-25.008278" y="68.957214"/>
+        <viz:color r="235" g="104" b="52"/>
+      </node>
+      <node id="Bióxido de nitrógeno" label="Nitrogen dioxide">
+        <attvalues>
+          <attvalue for="0" value="substance"/>
+          <attvalue for="1" value="1.200730903298E8"/>
+        </attvalues>
+        <viz:size value="10.097365"/>
+        <viz:position x="-113.07839" y="-53.40269"/>
+        <viz:color r="235" g="104" b="52"/>
+      </node>
+      <node id="Plomo (Compuestos solubles)" label="Lead (soluble compounds)">
+        <attvalues>
+          <attvalue for="0" value="substance"/>
+          <attvalue for="1" value="1286161.7053409999"/>
+        </attvalues>
+        <viz:size value="10.00104"/>
+        <viz:position x="-103.76342" y="24.909912"/>
+        <viz:color r="235" g="104" b="52"/>
+      </node>
+      <node id="Níquel (Compuestos solubles)" label="Nickel (soluble compounds)">
+        <attvalues>
+          <attvalue for="0" value="substance"/>
+          <attvalue for="1" value="974818.5602"/>
+        </attvalues>
+        <viz:size value="10.000788"/>
+        <viz:position x="-93.49119" y="91.5444"/>
+        <viz:color r="235" g="104" b="52"/>
+      </node>
+      <node id="Cromo (Compuestos solubles)" label="Chromium (soluble compounds)">
+        <attvalues>
+          <attvalue for="0" value="substance"/>
+          <attvalue for="1" value="773298.0697999997"/>
+        </attvalues>
+        <viz:size value="10.000625"/>
+        <viz:position x="-47.210197" y="-115.310524"/>
+        <viz:color r="235" g="104" b="52"/>
+      </node>
+      <node id="Metano" label="Methane">
+        <attvalues>
+          <attvalue for="0" value="substance"/>
+          <attvalue for="1" value="599484.7072710337"/>
+        </attvalues>
+        <viz:size value="10.0004835"/>
+        <viz:position x="187.60326" y="78.793755"/>
+        <viz:color r="235" g="104" b="52"/>
+      </node>
+      <node id="Cianuro inorgánico/orgánico" label="Inorganic/organic cyanide">
+        <attvalues>
+          <attvalue for="0" value="substance"/>
+          <attvalue for="1" value="224927.14253589624"/>
+        </attvalues>
+        <viz:size value="10.00018"/>
+        <viz:position x="185.62915" y="4.9285674"/>
+        <viz:color r="235" g="104" b="52"/>
+      </node>
+      <node id="Cadmio (Compuestos solubles)" label="Cadmium (soluble compounds)">
+        <attvalues>
+          <attvalue for="0" value="substance"/>
+          <attvalue for="1" value="203992.5193"/>
+        </attvalues>
+        <viz:size value="10.000163"/>
+        <viz:position x="110.16088" y="114.44007"/>
+        <viz:color r="235" g="104" b="52"/>
+      </node>
+      <node id="Plomo (compuestos)" label="Lead (compounds)">
+        <attvalues>
+          <attvalue for="0" value="substance"/>
+          <attvalue for="1" value="43146.8189680044"/>
+        </attvalues>
+        <viz:size value="10.000032"/>
+        <viz:position x="50.355865" y="83.86103"/>
+        <viz:color r="235" g="104" b="52"/>
+      </node>
+      <node id="Plomo (polvos respirables, humos o vapores)" label="Lead (respirable dust, fumes or vapors)">
+        <attvalues>
+          <attvalue for="0" value="substance"/>
+          <attvalue for="1" value="41823.18589704328"/>
+        </attvalues>
+        <viz:size value="10.000031"/>
+        <viz:position x="-120.168015" y="-124.26028"/>
+        <viz:color r="235" g="104" b="52"/>
+      </node>
+      <node id="Arsénico (Compuestos solubles)" label="Arsenic (soluble compounds)">
+        <attvalues>
+          <attvalue for="0" value="substance"/>
+          <attvalue for="1" value="12134.617177999995"/>
+        </attvalues>
+        <viz:size value="10.000008"/>
+        <viz:position x="15.765846" y="-139.8216"/>
+        <viz:color r="235" g="104" b="52"/>
+      </node>
+      <node id="Mercurio (Compuestos solubles)" label="Mercury (soluble compounds)">
+        <attvalues>
+          <attvalue for="0" value="substance"/>
+          <attvalue for="1" value="11052.041438000002"/>
+        </attvalues>
+        <viz:size value="10.000007"/>
+        <viz:position x="119.7086" y="-107.035645"/>
+        <viz:color r="235" g="104" b="52"/>
+      </node>
+      <node id="Asbesto y sus formas (En forma de polvo, fibras o productos desmenuzables con la presión de la mano)" label="Asbestos and its forms (as dust, fibers or friable products that crumble under hand pressure)">
+        <attvalues>
+          <attvalue for="0" value="substance"/>
+          <attvalue for="1" value="5038.0"/>
+        </attvalues>
+        <viz:size value="10.000002"/>
+        <viz:position x="-199.00069" y="25.88772"/>
+        <viz:color r="235" g="104" b="52"/>
+      </node>
+      <node id="Clorodifluorometano (HCFC-22)" label="Chlorodifluoromethane (HCFC-22)">
+        <attvalues>
+          <attvalue for="0" value="substance"/>
+          <attvalue for="1" value="4335.58"/>
+        </attvalues>
+        <viz:size value="10.000001"/>
+        <viz:position x="-38.950203" y="453.19818"/>
+        <viz:color r="235" g="104" b="52"/>
+      </node>
+      <node id="Níquel (compuestos)" label="Nickel (compounds)">
+        <attvalues>
+          <attvalue for="0" value="substance"/>
+          <attvalue for="1" value="3183.19554096495"/>
+        </attvalues>
+        <viz:size value="10.0"/>
+        <viz:position x="158.92021" y="-53.774857"/>
+        <viz:color r="235" g="104" b="52"/>
+      </node>
+      <node id="Colima.Colima" label="Colima.Colima">
+        <attvalues>
+          <attvalue for="0" value="peer_municipio"/>
+          <attvalue for="1" value="2.843822459665722E7"/>
+        </attvalues>
+        <viz:size value="10.023058"/>
+        <viz:position x="113.62678" y="30.866507"/>
+        <viz:color r="42" g="120" b="214"/>
+      </node>
+      <node id="Colima.Tecomán" label="Colima.Tecomán">
+        <attvalues>
+          <attvalue for="0" value="peer_municipio"/>
+          <attvalue for="1" value="8.848418198799164E9"/>
+        </attvalues>
+        <viz:size value="17.175224"/>
+        <viz:position x="61.67334" y="-45.22013"/>
+        <viz:color r="42" g="120" b="214"/>
+      </node>
+      <node id="Colima.Cuauhtémoc" label="Colima.Cuauhtémoc">
+        <attvalues>
+          <attvalue for="0" value="peer_municipio"/>
+          <attvalue for="1" value="1.573069977387029E9"/>
+        </attvalues>
+        <viz:size value="11.275608"/>
+        <viz:position x="-26.450665" y="-23.857174"/>
+        <viz:color r="42" g="120" b="214"/>
+      </node>
+      <node id="Colima.Minatitlán" label="Colima.Minatitlán">
+        <attvalues>
+          <attvalue for="0" value="peer_municipio"/>
+          <attvalue for="1" value="2.657039410618E8"/>
+        </attvalues>
+        <viz:size value="10.215458"/>
+        <viz:position x="-184.78952" y="-55.314495"/>
+        <viz:color r="42" g="120" b="214"/>
+      </node>
+    </nodes>
+    <edges>
+      <edge id="0" source="Colima.Manzanillo" target="Bióxido de carbono" weight="3.6871438336E10">
+        <viz:color r="137" g="135" b="129" a="0.54901963"/>
+      </edge>
+      <edge id="1" source="Colima.Manzanillo" target="Bióxido de nitrógeno" weight="1.20073088E8">
+        <viz:color r="137" g="135" b="129" a="0.54901963"/>
+      </edge>
+      <edge id="2" source="Colima.Manzanillo" target="Plomo (Compuestos solubles)" weight="1286161.75">
+        <viz:color r="137" g="135" b="129" a="0.54901963"/>
+      </edge>
+      <edge id="3" source="Colima.Manzanillo" target="Níquel (Compuestos solubles)" weight="974818.5625">
+        <viz:color r="137" g="135" b="129" a="0.54901963"/>
+      </edge>
+      <edge id="4" source="Colima.Manzanillo" target="Cromo (Compuestos solubles)" weight="773298.0625">
+        <viz:color r="137" g="135" b="129" a="0.54901963"/>
+      </edge>
+      <edge id="5" source="Colima.Manzanillo" target="Metano" weight="599484.6875">
+        <viz:color r="137" g="135" b="129" a="0.54901963"/>
+      </edge>
+      <edge id="6" source="Colima.Manzanillo" target="Cianuro inorgánico/orgánico" weight="224927.140625">
+        <viz:color r="137" g="135" b="129" a="0.54901963"/>
+      </edge>
+      <edge id="7" source="Colima.Manzanillo" target="Cadmio (Compuestos solubles)" weight="203992.515625">
+        <viz:color r="137" g="135" b="129" a="0.54901963"/>
+      </edge>
+      <edge id="8" source="Colima.Manzanillo" target="Plomo (compuestos)" weight="43146.8203125">
+        <viz:color r="137" g="135" b="129" a="0.54901963"/>
+      </edge>
+      <edge id="9" source="Colima.Manzanillo" target="Plomo (polvos respirables, humos o vapores)" weight="41823.1875">
+        <viz:color r="137" g="135" b="129" a="0.54901963"/>
+      </edge>
+      <edge id="10" source="Colima.Manzanillo" target="Arsénico (Compuestos solubles)" weight="12134.6171875">
+        <viz:color r="137" g="135" b="129" a="0.54901963"/>
+      </edge>
+      <edge id="11" source="Colima.Manzanillo" target="Mercurio (Compuestos solubles)" weight="11052.041015625">
+        <viz:color r="137" g="135" b="129" a="0.54901963"/>
+      </edge>
+      <edge id="12" source="Colima.Manzanillo" target="Asbesto y sus formas (En forma de polvo, fibras o productos desmenuzables con la presión de la mano)" weight="5038.0">
+        <viz:color r="137" g="135" b="129" a="0.54901963"/>
+      </edge>
+      <edge id="13" source="Colima.Manzanillo" target="Clorodifluorometano (HCFC-22)" weight="4335.580078125">
+        <viz:color r="137" g="135" b="129" a="0.54901963"/>
+      </edge>
+      <edge id="14" source="Colima.Manzanillo" target="Níquel (compuestos)" weight="3183.195556640625">
+        <viz:color r="137" g="135" b="129" a="0.54901963"/>
+      </edge>
+      <edge id="15" source="Bióxido de carbono" target="Colima.Colima" weight="2.7789708E7">
+        <viz:color r="137" g="135" b="129" a="0.54901963"/>
+      </edge>
+      <edge id="16" source="Bióxido de carbono" target="Colima.Tecomán" weight="8.844264448E9">
+        <viz:color r="137" g="135" b="129" a="0.54901963"/>
+      </edge>
+      <edge id="17" source="Bióxido de carbono" target="Colima.Cuauhtémoc" weight="1.570122112E9">
+        <viz:color r="137" g="135" b="129" a="0.54901963"/>
+      </edge>
+      <edge id="18" source="Bióxido de carbono" target="Colima.Minatitlán" weight="2.61347328E8">
+        <viz:color r="137" g="135" b="129" a="0.54901963"/>
+      </edge>
+      <edge id="19" source="Bióxido de nitrógeno" target="Colima.Tecomán" weight="4137576.0">
+        <viz:color r="137" g="135" b="129" a="0.54901963"/>
+      </edge>
+      <edge id="20" source="Bióxido de nitrógeno" target="Colima.Cuauhtémoc" weight="2942515.0">
+        <viz:color r="137" g="135" b="129" a="0.54901963"/>
+      </edge>
+      <edge id="21" source="Bióxido de nitrógeno" target="Colima.Minatitlán" weight="4346122.5">
+        <viz:color r="137" g="135" b="129" a="0.54901963"/>
+      </edge>
+      <edge id="22" source="Plomo (Compuestos solubles)" target="Colima.Colima" weight="10091.75">
+        <viz:color r="137" g="135" b="129" a="0.54901963"/>
+      </edge>
+      <edge id="23" source="Plomo (Compuestos solubles)" target="Colima.Tecomán" weight="865.1646728515625">
+        <viz:color r="137" g="135" b="129" a="0.54901963"/>
+      </edge>
+      <edge id="24" source="Plomo (Compuestos solubles)" target="Colima.Cuauhtémoc" weight="2313.626708984375">
+        <viz:color r="137" g="135" b="129" a="0.54901963"/>
+      </edge>
+      <edge id="25" source="Plomo (Compuestos solubles)" target="Colima.Minatitlán" weight="2.3852999210357666">
+        <viz:color r="137" g="135" b="129" a="0.54901963"/>
+      </edge>
+      <edge id="26" source="Níquel (Compuestos solubles)" target="Colima.Colima" weight="12635.6943359375">
+        <viz:color r="137" g="135" b="129" a="0.54901963"/>
+      </edge>
+      <edge id="27" source="Níquel (Compuestos solubles)" target="Colima.Tecomán" weight="1139.164306640625">
+        <viz:color r="137" g="135" b="129" a="0.54901963"/>
+      </edge>
+      <edge id="28" source="Níquel (Compuestos solubles)" target="Colima.Cuauhtémoc" weight="187.85003662109375">
+        <viz:color r="137" g="135" b="129" a="0.54901963"/>
+      </edge>
+      <edge id="29" source="Níquel (Compuestos solubles)" target="Colima.Minatitlán" weight="3.7005999088287354">
+        <viz:color r="137" g="135" b="129" a="0.54901963"/>
+      </edge>
+      <edge id="30" source="Cromo (Compuestos solubles)" target="Colima.Colima" weight="10393.625">
+        <viz:color r="137" g="135" b="129" a="0.54901963"/>
+      </edge>
+      <edge id="31" source="Cromo (Compuestos solubles)" target="Colima.Tecomán" weight="710.6345825195312">
+        <viz:color r="137" g="135" b="129" a="0.54901963"/>
+      </edge>
+      <edge id="32" source="Cromo (Compuestos solubles)" target="Colima.Cuauhtémoc" weight="110.56900024414062">
+        <viz:color r="137" g="135" b="129" a="0.54901963"/>
+      </edge>
+      <edge id="33" source="Cromo (Compuestos solubles)" target="Colima.Minatitlán" weight="6.286200046539307">
+        <viz:color r="137" g="135" b="129" a="0.54901963"/>
+      </edge>
+      <edge id="34" source="Metano" target="Colima.Colima" weight="593850.0">
+        <viz:color r="137" g="135" b="129" a="0.54901963"/>
+      </edge>
+      <edge id="35" source="Metano" target="Colima.Tecomán" weight="0.05999999865889549">
+        <viz:color r="137" g="135" b="129" a="0.54901963"/>
+      </edge>
+      <edge id="36" source="Cianuro inorgánico/orgánico" target="Colima.Colima" weight="8432.8154296875">
+        <viz:color r="137" g="135" b="129" a="0.54901963"/>
+      </edge>
+      <edge id="37" source="Cianuro inorgánico/orgánico" target="Colima.Tecomán" weight="436.6528625488281">
+        <viz:color r="137" g="135" b="129" a="0.54901963"/>
+      </edge>
+      <edge id="38" source="Cianuro inorgánico/orgánico" target="Colima.Cuauhtémoc" weight="9.914593696594238">
+        <viz:color r="137" g="135" b="129" a="0.54901963"/>
+      </edge>
+      <edge id="39" source="Cadmio (Compuestos solubles)" target="Colima.Colima" weight="8207.7890625">
+        <viz:color r="137" g="135" b="129" a="0.54901963"/>
+      </edge>
+      <edge id="40" source="Cadmio (Compuestos solubles)" target="Colima.Tecomán" weight="176.27760314941406">
+        <viz:color r="137" g="135" b="129" a="0.54901963"/>
+      </edge>
+      <edge id="41" source="Cadmio (Compuestos solubles)" target="Colima.Cuauhtémoc" weight="8.704500198364258">
+        <viz:color r="137" g="135" b="129" a="0.54901963"/>
+      </edge>
+      <edge id="42" source="Plomo (compuestos)" target="Colima.Colima" weight="3199.9541015625">
+        <viz:color r="137" g="135" b="129" a="0.54901963"/>
+      </edge>
+      <edge id="43" source="Plomo (compuestos)" target="Colima.Tecomán" weight="12043.857421875">
+        <viz:color r="137" g="135" b="129" a="0.54901963"/>
+      </edge>
+      <edge id="44" source="Plomo (compuestos)" target="Colima.Cuauhtémoc" weight="1127.0435791015625">
+        <viz:color r="137" g="135" b="129" a="0.54901963"/>
+      </edge>
+      <edge id="45" source="Plomo (polvos respirables, humos o vapores)" target="Colima.Tecomán" weight="252.83900451660156">
+        <viz:color r="137" g="135" b="129" a="0.54901963"/>
+      </edge>
+      <edge id="46" source="Plomo (polvos respirables, humos o vapores)" target="Colima.Cuauhtémoc" weight="1021.0460205078125">
+        <viz:color r="137" g="135" b="129" a="0.54901963"/>
+      </edge>
+      <edge id="47" source="Plomo (polvos respirables, humos o vapores)" target="Colima.Minatitlán" weight="10127.6904296875">
+        <viz:color r="137" g="135" b="129" a="0.54901963"/>
+      </edge>
+      <edge id="48" source="Arsénico (Compuestos solubles)" target="Colima.Colima" weight="805.9683227539062">
+        <viz:color r="137" g="135" b="129" a="0.54901963"/>
+      </edge>
+      <edge id="49" source="Arsénico (Compuestos solubles)" target="Colima.Tecomán" weight="54.3583984375">
+        <viz:color r="137" g="135" b="129" a="0.54901963"/>
+      </edge>
+      <edge id="50" source="Arsénico (Compuestos solubles)" target="Colima.Cuauhtémoc" weight="6.108799934387207">
+        <viz:color r="137" g="135" b="129" a="0.54901963"/>
+      </edge>
+      <edge id="51" source="Arsénico (Compuestos solubles)" target="Colima.Minatitlán" weight="4.449699878692627">
+        <viz:color r="137" g="135" b="129" a="0.54901963"/>
+      </edge>
+      <edge id="52" source="Mercurio (Compuestos solubles)" target="Colima.Colima" weight="193.77378845214844">
+        <viz:color r="137" g="135" b="129" a="0.54901963"/>
+      </edge>
+      <edge id="53" source="Mercurio (Compuestos solubles)" target="Colima.Tecomán" weight="74.98443603515625">
+        <viz:color r="137" g="135" b="129" a="0.54901963"/>
+      </edge>
+      <edge id="54" source="Mercurio (Compuestos solubles)" target="Colima.Cuauhtémoc" weight="11.28858757019043">
+        <viz:color r="137" g="135" b="129" a="0.54901963"/>
+      </edge>
+      <edge id="55" source="Asbesto y sus formas (En forma de polvo, fibras o productos desmenuzables con la presión de la mano)" target="Colima.Cuauhtémoc" weight="500.0">
+        <viz:color r="137" g="135" b="129" a="0.54901963"/>
+      </edge>
+      <edge id="56" source="Asbesto y sus formas (En forma de polvo, fibras o productos desmenuzables con la presión de la mano)" target="Colima.Minatitlán" weight="342.0">
+        <viz:color r="137" g="135" b="129" a="0.54901963"/>
+      </edge>
+      <edge id="57" source="Níquel (compuestos)" target="Colima.Colima" weight="705.3529052734375">
+        <viz:color r="137" g="135" b="129" a="0.54901963"/>
+      </edge>
+      <edge id="58" source="Níquel (compuestos)" target="Colima.Tecomán" weight="649.9259643554688">
+        <viz:color r="137" g="135" b="129" a="0.54901963"/>
+      </edge>
+      <edge id="59" source="Níquel (compuestos)" target="Colima.Cuauhtémoc" weight="80.2352523803711">
+        <viz:color r="137" g="135" b="129" a="0.54901963"/>
+      </edge>
+    </edges>
+  </graph>
+</gexf>

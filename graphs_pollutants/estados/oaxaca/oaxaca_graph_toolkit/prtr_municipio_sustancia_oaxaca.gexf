@@ -1,0 +1,1324 @@
+<?xml version='1.0' encoding='utf-8'?>
+<gexf xmlns="http://www.gexf.net/1.2draft" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.gexf.net/1.2draft http://www.gexf.net/1.2draft/gexf.xsd" version="1.2">
+  <meta lastmodifieddate="2026-10-16">
+    <creator>NetworkX 3.7</creator>
+  </meta>
+  <graph defaultedgetype="undirected" mode="static" name="">
+    <attributes mode="static" class="edge">
+      <attribute id="2" title="count" type="long" />
+    </attributes>
+    <attributes mode="static" class="node">
+      <attribute id="0" title="type" type="string" />
+      <attribute id="1" title="total_kg" type="double" />
+    </attributes>
+    <nodes>
+      <node id="LOC::Oaxaca.Santa María Huatulco" label="Oaxaca.Santa María Huatulco">
+        <attvalues>
+          <attvalue for="0" value="location" />
+          <attvalue for="1" value="100718.82360129998" />
+        </attvalues>
+      </node>
+      <node id="LOC::Oaxaca.El Barrio de la Soledad" label="Oaxaca.El Barrio de la Soledad">
+        <attvalues>
+          <attvalue for="0" value="location" />
+          <attvalue for="1" value="13044712029.026798" />
+        </attvalues>
+      </node>
+      <node id="LOC::Oaxaca.San Juan Bautista Tuxtepec" label="Oaxaca.San Juan Bautista Tuxtepec">
+        <attvalues>
+          <attvalue for="0" value="location" />
+          <attvalue for="1" value="3516075021.112263" />
+        </attvalues>
+      </node>
+      <node id="LOC::Oaxaca.Salina Cruz" label="Oaxaca.Salina Cruz">
+        <attvalues>
+          <attvalue for="0" value="location" />
+          <attvalue for="1" value="28006418443.182434" />
+        </attvalues>
+      </node>
+      <node id="LOC::Oaxaca.Santa María del Tule" label="Oaxaca.Santa María del Tule">
+        <attvalues>
+          <attvalue for="0" value="location" />
+          <attvalue for="1" value="11693.452613000007" />
+        </attvalues>
+      </node>
+      <node id="LOC::Oaxaca.San Pablo Etla" label="Oaxaca.San Pablo Etla">
+        <attvalues>
+          <attvalue for="0" value="location" />
+          <attvalue for="1" value="5156.1353057836" />
+        </attvalues>
+      </node>
+      <node id="LOC::Oaxaca.Santo Domingo Tehuantepec" label="Oaxaca.Santo Domingo Tehuantepec">
+        <attvalues>
+          <attvalue for="0" value="location" />
+          <attvalue for="1" value="0.8444736" />
+        </attvalues>
+      </node>
+      <node id="LOC::Oaxaca.Cosolapa" label="Oaxaca.Cosolapa">
+        <attvalues>
+          <attvalue for="0" value="location" />
+          <attvalue for="1" value="182.23836308000003" />
+        </attvalues>
+      </node>
+      <node id="LOC::Oaxaca.Santa Cruz Xoxocotlán" label="Oaxaca.Santa Cruz Xoxocotlán">
+        <attvalues>
+          <attvalue for="0" value="location" />
+          <attvalue for="1" value="47.357349268300005" />
+        </attvalues>
+      </node>
+      <node id="LOC::Oaxaca.Tlalixtac de Cabrera" label="Oaxaca.Tlalixtac de Cabrera">
+        <attvalues>
+          <attvalue for="0" value="location" />
+          <attvalue for="1" value="17.637988000000004" />
+        </attvalues>
+      </node>
+      <node id="LOC::Oaxaca.San Lorenzo Cacaotepec" label="Oaxaca.San Lorenzo Cacaotepec">
+        <attvalues>
+          <attvalue for="0" value="location" />
+          <attvalue for="1" value="7.666300000000001" />
+        </attvalues>
+      </node>
+      <node id="LOC::Oaxaca.San Pedro Totolápam" label="Oaxaca.San Pedro Totolápam">
+        <attvalues>
+          <attvalue for="0" value="location" />
+          <attvalue for="1" value="36552698.27064299" />
+        </attvalues>
+      </node>
+      <node id="LOC::Oaxaca.Oaxaca de Juárez" label="Oaxaca.Oaxaca de Juárez">
+        <attvalues>
+          <attvalue for="0" value="location" />
+          <attvalue for="1" value="524.093078" />
+        </attvalues>
+      </node>
+      <node id="LOC::Oaxaca.Juchitán de Zaragoza" label="Oaxaca.Juchitán de Zaragoza">
+        <attvalues>
+          <attvalue for="0" value="location" />
+          <attvalue for="1" value="14.015966901499999" />
+        </attvalues>
+      </node>
+      <node id="LOC::Oaxaca.Guadalupe Etla" label="Oaxaca.Guadalupe Etla">
+        <attvalues>
+          <attvalue for="0" value="location" />
+          <attvalue for="1" value="301551.07174399996" />
+        </attvalues>
+      </node>
+      <node id="LOC::Oaxaca.San Pedro Mixtepec" label="Oaxaca.San Pedro Mixtepec">
+        <attvalues>
+          <attvalue for="0" value="location" />
+          <attvalue for="1" value="1.59930225" />
+        </attvalues>
+      </node>
+      <node id="LOC::Oaxaca.San Pedro y San Pablo Teposcolula" label="Oaxaca.San Pedro y San Pablo Teposcolula">
+        <attvalues>
+          <attvalue for="0" value="location" />
+          <attvalue for="1" value="560000.0" />
+        </attvalues>
+      </node>
+      <node id="LOC::Oaxaca.Acatlán de Pérez Figueroa" label="Oaxaca.Acatlán de Pérez Figueroa">
+        <attvalues>
+          <attvalue for="0" value="location" />
+          <attvalue for="1" value="26074.26574707431" />
+        </attvalues>
+      </node>
+      <node id="SUB::Cromo (Compuestos solubles)" label="Chromium (soluble compounds)">
+        <attvalues>
+          <attvalue for="0" value="substance" />
+          <attvalue for="1" value="7879.5933459347" />
+        </attvalues>
+      </node>
+      <node id="SUB::Mercurio (Compuestos solubles)" label="Mercury (soluble compounds)">
+        <attvalues>
+          <attvalue for="0" value="substance" />
+          <attvalue for="1" value="121.07625813100002" />
+        </attvalues>
+      </node>
+      <node id="SUB::Níquel (Compuestos solubles)" label="Nickel (soluble compounds)">
+        <attvalues>
+          <attvalue for="0" value="substance" />
+          <attvalue for="1" value="23214.969647634003" />
+        </attvalues>
+      </node>
+      <node id="SUB::Plomo (Compuestos solubles)" label="Lead (soluble compounds)">
+        <attvalues>
+          <attvalue for="0" value="substance" />
+          <attvalue for="1" value="18155.6928215326" />
+        </attvalues>
+      </node>
+      <node id="SUB::Cianuro inorgánico/orgánico" label="Inorganic/organic cyanide">
+        <attvalues>
+          <attvalue for="0" value="substance" />
+          <attvalue for="1" value="6461.027078962499" />
+        </attvalues>
+      </node>
+      <node id="SUB::Arsénico (polvos, respirables, vapores o humos)" label="Arsenic (respirable dust, vapors or fumes)">
+        <attvalues>
+          <attvalue for="0" value="substance" />
+          <attvalue for="1" value="5027.827839984493" />
+        </attvalues>
+      </node>
+      <node id="SUB::Cadmio (polvos, respirables, vapores o humos)" label="Cadmium (respirable dust, vapors or fumes)">
+        <attvalues>
+          <attvalue for="0" value="substance" />
+          <attvalue for="1" value="3702.784003605045" />
+        </attvalues>
+      </node>
+      <node id="SUB::Mercurio (polvos, respirables, vapores o humos)" label="Mercury (respirable dust, vapors or fumes)">
+        <attvalues>
+          <attvalue for="0" value="substance" />
+          <attvalue for="1" value="2504.981258168459" />
+        </attvalues>
+      </node>
+      <node id="SUB::Plomo (compuestos)" label="Lead (compounds)">
+        <attvalues>
+          <attvalue for="0" value="substance" />
+          <attvalue for="1" value="37060.72807538171" />
+        </attvalues>
+      </node>
+      <node id="SUB::Níquel (compuestos)" label="Nickel (compounds)">
+        <attvalues>
+          <attvalue for="0" value="substance" />
+          <attvalue for="1" value="93799.83382656504" />
+        </attvalues>
+      </node>
+      <node id="SUB::Mercurio (compuestos)" label="Mercury (compounds)">
+        <attvalues>
+          <attvalue for="0" value="substance" />
+          <attvalue for="1" value="424.48811649658006" />
+        </attvalues>
+      </node>
+      <node id="SUB::Cadmio (compuestos)" label="Cadmium (compounds)">
+        <attvalues>
+          <attvalue for="0" value="substance" />
+          <attvalue for="1" value="640.39918021058" />
+        </attvalues>
+      </node>
+      <node id="SUB::Arsénico (compuestos)" label="Arsenic (compounds)">
+        <attvalues>
+          <attvalue for="0" value="substance" />
+          <attvalue for="1" value="1311.7891976482" />
+        </attvalues>
+      </node>
+      <node id="SUB::Cromo (compuestos)" label="Chromium (compounds)">
+        <attvalues>
+          <attvalue for="0" value="substance" />
+          <attvalue for="1" value="9272.16666090259" />
+        </attvalues>
+      </node>
+      <node id="SUB::Cadmio (Compuestos solubles)" label="Cadmium (soluble compounds)">
+        <attvalues>
+          <attvalue for="0" value="substance" />
+          <attvalue for="1" value="1572.1308029099998" />
+        </attvalues>
+      </node>
+      <node id="SUB::Arsénico (Compuestos solubles)" label="Arsenic (soluble compounds)">
+        <attvalues>
+          <attvalue for="0" value="substance" />
+          <attvalue for="1" value="505.48759399999994" />
+        </attvalues>
+      </node>
+      <node id="SUB::Plomo (polvos respirables, humos o vapores)" label="Lead (respirable dust, fumes or vapors)">
+        <attvalues>
+          <attvalue for="0" value="substance" />
+          <attvalue for="1" value="1459.3318136980001" />
+        </attvalues>
+      </node>
+      <node id="SUB::Níquel (polvos respirables, humos o vapores)" label="Nickel (respirable dust, fumes or vapors)">
+        <attvalues>
+          <attvalue for="0" value="substance" />
+          <attvalue for="1" value="26507.88001135301" />
+        </attvalues>
+      </node>
+      <node id="SUB::Cromo (polvos respirables, humos o vapores)" label="Chromium (respirable dust, fumes or vapors)">
+        <attvalues>
+          <attvalue for="0" value="substance" />
+          <attvalue for="1" value="337.25789663370006" />
+        </attvalues>
+      </node>
+      <node id="SUB::Dioxinas" label="Dioxins">
+        <attvalues>
+          <attvalue for="0" value="substance" />
+          <attvalue for="1" value="0.007966419504142999" />
+        </attvalues>
+      </node>
+      <node id="SUB::Furanos" label="Furans">
+        <attvalues>
+          <attvalue for="0" value="substance" />
+          <attvalue for="1" value="0.005516043479222998" />
+        </attvalues>
+      </node>
+      <node id="SUB::Bióxido de carbono" label="Carbon dioxide">
+        <attvalues>
+          <attvalue for="0" value="substance" />
+          <attvalue for="1" value="44557778533.92005" />
+        </attvalues>
+      </node>
+      <node id="SUB::Formaldehido" label="Formaldehyde">
+        <attvalues>
+          <attvalue for="0" value="substance" />
+          <attvalue for="1" value="65261.76287678669" />
+        </attvalues>
+      </node>
+      <node id="SUB::Benceno" label="Benzene">
+        <attvalues>
+          <attvalue for="0" value="substance" />
+          <attvalue for="1" value="37648.57666921869" />
+        </attvalues>
+      </node>
+      <node id="SUB::1,1,1-Tricloroetano" label="1,1,1-Trichloroethane">
+        <attvalues>
+          <attvalue for="0" value="substance" />
+          <attvalue for="1" value="132.8366304808" />
+        </attvalues>
+      </node>
+      <node id="SUB::Metano" label="Methane">
+        <attvalues>
+          <attvalue for="0" value="substance" />
+          <attvalue for="1" value="37509320.488000005" />
+        </attvalues>
+      </node>
+      <node id="SUB::Acroleina" label="Acrolein">
+        <attvalues>
+          <attvalue for="0" value="substance" />
+          <attvalue for="1" value="7.0177954279999994" />
+        </attvalues>
+      </node>
+      <node id="SUB::Acetaldehido" label="Acetaldehyde">
+        <attvalues>
+          <attvalue for="0" value="substance" />
+          <attvalue for="1" value="250.07679972699992" />
+        </attvalues>
+      </node>
+      <node id="SUB::Oxido nitroso" label="Nitrous oxide">
+        <attvalues>
+          <attvalue for="0" value="substance" />
+          <attvalue for="1" value="7211587.0" />
+        </attvalues>
+      </node>
+      <node id="SUB::1,1,2-Tricloroetano" label="1,1,2-Trichloroethane">
+        <attvalues>
+          <attvalue for="0" value="substance" />
+          <attvalue for="1" value="36609.656251" />
+        </attvalues>
+      </node>
+      <node id="SUB::Bióxido de nitrógeno" label="Nitrogen dioxide">
+        <attvalues>
+          <attvalue for="0" value="substance" />
+          <attvalue for="1" value="1870930.0" />
+        </attvalues>
+      </node>
+      <node id="SUB::Bifenilos policlorados" label="Polychlorinated biphenyls (PCBs)">
+        <attvalues>
+          <attvalue for="0" value="substance" />
+          <attvalue for="1" value="13940.0" />
+        </attvalues>
+      </node>
+    </nodes>
+    <edges>
+      <edge source="LOC::Oaxaca.Santa María Huatulco" target="SUB::Cromo (Compuestos solubles)" id="0" weight="2.402938">
+        <attvalues>
+          <attvalue for="2" value="2" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Oaxaca.Santa María Huatulco" target="SUB::Mercurio (Compuestos solubles)" id="1" weight="0.001919">
+        <attvalues>
+          <attvalue for="2" value="1" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Oaxaca.Santa María Huatulco" target="SUB::Níquel (Compuestos solubles)" id="2" weight="3.5111749999999997">
+        <attvalues>
+          <attvalue for="2" value="3" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Oaxaca.Santa María Huatulco" target="SUB::Plomo (Compuestos solubles)" id="3" weight="3.71335">
+        <attvalues>
+          <attvalue for="2" value="3" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Oaxaca.Santa María Huatulco" target="SUB::Cianuro inorgánico/orgánico" id="4" weight="0.8636237499999999">
+        <attvalues>
+          <attvalue for="2" value="7" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Oaxaca.Santa María Huatulco" target="SUB::Arsénico (polvos, respirables, vapores o humos)" id="5" weight="0.127284">
+        <attvalues>
+          <attvalue for="2" value="5" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Oaxaca.Santa María Huatulco" target="SUB::Cadmio (polvos, respirables, vapores o humos)" id="6" weight="0.721829">
+        <attvalues>
+          <attvalue for="2" value="5" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Oaxaca.Santa María Huatulco" target="SUB::Níquel (compuestos)" id="7" weight="4.0611292">
+        <attvalues>
+          <attvalue for="2" value="6" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Oaxaca.Santa María Huatulco" target="SUB::Plomo (compuestos)" id="8" weight="4.94959">
+        <attvalues>
+          <attvalue for="2" value="6" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Oaxaca.Santa María Huatulco" target="SUB::Mercurio (compuestos)" id="9" weight="0.01955695">
+        <attvalues>
+          <attvalue for="2" value="4" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Oaxaca.Santa María Huatulco" target="SUB::Cromo (compuestos)" id="10" weight="3.9435105">
+        <attvalues>
+          <attvalue for="2" value="6" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Oaxaca.Santa María Huatulco" target="SUB::Bióxido de carbono" id="11" weight="100694.22">
+        <attvalues>
+          <attvalue for="2" value="1" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Oaxaca.Santa María Huatulco" target="SUB::Cadmio (compuestos)" id="12" weight="0.258478">
+        <attvalues>
+          <attvalue for="2" value="2" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Oaxaca.Santa María Huatulco" target="SUB::Arsénico (compuestos)" id="13" weight="0.0192114">
+        <attvalues>
+          <attvalue for="2" value="2" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Oaxaca.Santa María Huatulco" target="SUB::Mercurio (polvos, respirables, vapores o humos)" id="14" weight="0.0100065">
+        <attvalues>
+          <attvalue for="2" value="2" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Oaxaca.El Barrio de la Soledad" target="SUB::Cromo (Compuestos solubles)" id="15" weight="103.81019999999998">
+        <attvalues>
+          <attvalue for="2" value="10" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Oaxaca.El Barrio de la Soledad" target="SUB::Mercurio (Compuestos solubles)" id="16" weight="0.3973536">
+        <attvalues>
+          <attvalue for="2" value="1" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Oaxaca.El Barrio de la Soledad" target="SUB::Níquel (Compuestos solubles)" id="17" weight="885.8384399999999">
+        <attvalues>
+          <attvalue for="2" value="10" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Oaxaca.El Barrio de la Soledad" target="SUB::Plomo (Compuestos solubles)" id="18" weight="140.76013999999998">
+        <attvalues>
+          <attvalue for="2" value="10" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Oaxaca.El Barrio de la Soledad" target="SUB::Cianuro inorgánico/orgánico" id="19" weight="410.96051243000005">
+        <attvalues>
+          <attvalue for="2" value="9" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Oaxaca.El Barrio de la Soledad" target="SUB::Arsénico (polvos, respirables, vapores o humos)" id="20" weight="348.4775717763">
+        <attvalues>
+          <attvalue for="2" value="7" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Oaxaca.El Barrio de la Soledad" target="SUB::Cadmio (polvos, respirables, vapores o humos)" id="21" weight="422.4578294630001">
+        <attvalues>
+          <attvalue for="2" value="17" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Oaxaca.El Barrio de la Soledad" target="SUB::Plomo (compuestos)" id="22" weight="464.3161199">
+        <attvalues>
+          <attvalue for="2" value="11" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Oaxaca.El Barrio de la Soledad" target="SUB::Níquel (compuestos)" id="23" weight="480.82226170999996">
+        <attvalues>
+          <attvalue for="2" value="10" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Oaxaca.El Barrio de la Soledad" target="SUB::Mercurio (compuestos)" id="24" weight="349.48987977150006">
+        <attvalues>
+          <attvalue for="2" value="10" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Oaxaca.El Barrio de la Soledad" target="SUB::Cadmio (compuestos)" id="25" weight="10.859391674">
+        <attvalues>
+          <attvalue for="2" value="5" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Oaxaca.El Barrio de la Soledad" target="SUB::Arsénico (compuestos)" id="26" weight="1285.9854999561999">
+        <attvalues>
+          <attvalue for="2" value="6" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Oaxaca.El Barrio de la Soledad" target="SUB::Cromo (compuestos)" id="27" weight="69.43132574100001">
+        <attvalues>
+          <attvalue for="2" value="10" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Oaxaca.El Barrio de la Soledad" target="SUB::Cadmio (Compuestos solubles)" id="28" weight="42.8738">
+        <attvalues>
+          <attvalue for="2" value="9" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Oaxaca.El Barrio de la Soledad" target="SUB::Arsénico (Compuestos solubles)" id="29" weight="4.0624">
+        <attvalues>
+          <attvalue for="2" value="2" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Oaxaca.El Barrio de la Soledad" target="SUB::Dioxinas" id="30" weight="0.005929043479222998">
+        <attvalues>
+          <attvalue for="2" value="17" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Oaxaca.El Barrio de la Soledad" target="SUB::Furanos" id="31" weight="0.005516043479222998">
+        <attvalues>
+          <attvalue for="2" value="16" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Oaxaca.El Barrio de la Soledad" target="SUB::Bióxido de carbono" id="32" weight="13042836055.9">
+        <attvalues>
+          <attvalue for="2" value="17" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Oaxaca.El Barrio de la Soledad" target="SUB::Mercurio (polvos, respirables, vapores o humos)" id="33" weight="22.572632175200003">
+        <attvalues>
+          <attvalue for="2" value="7" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Oaxaca.El Barrio de la Soledad" target="SUB::Bióxido de nitrógeno" id="34" weight="1870930.0">
+        <attvalues>
+          <attvalue for="2" value="1" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Oaxaca.San Juan Bautista Tuxtepec" target="SUB::Cromo (Compuestos solubles)" id="35" weight="7228.649498299999">
+        <attvalues>
+          <attvalue for="2" value="19" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Oaxaca.San Juan Bautista Tuxtepec" target="SUB::Mercurio (Compuestos solubles)" id="36" weight="107.24938253100001">
+        <attvalues>
+          <attvalue for="2" value="35" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Oaxaca.San Juan Bautista Tuxtepec" target="SUB::Níquel (Compuestos solubles)" id="37" weight="5813.1353567">
+        <attvalues>
+          <attvalue for="2" value="22" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Oaxaca.San Juan Bautista Tuxtepec" target="SUB::Plomo (Compuestos solubles)" id="38" weight="14002.073627">
+        <attvalues>
+          <attvalue for="2" value="22" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Oaxaca.San Juan Bautista Tuxtepec" target="SUB::Níquel (compuestos)" id="39" weight="4415.909171">
+        <attvalues>
+          <attvalue for="2" value="23" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Oaxaca.San Juan Bautista Tuxtepec" target="SUB::Cianuro inorgánico/orgánico" id="40" weight="470.55070720000003">
+        <attvalues>
+          <attvalue for="2" value="12" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Oaxaca.San Juan Bautista Tuxtepec" target="SUB::Plomo (compuestos)" id="41" weight="30887.2900891">
+        <attvalues>
+          <attvalue for="2" value="32" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Oaxaca.San Juan Bautista Tuxtepec" target="SUB::Mercurio (compuestos)" id="42" weight="41.7069322">
+        <attvalues>
+          <attvalue for="2" value="14" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Oaxaca.San Juan Bautista Tuxtepec" target="SUB::Cadmio (compuestos)" id="43" weight="549.6966694">
+        <attvalues>
+          <attvalue for="2" value="8" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Oaxaca.San Juan Bautista Tuxtepec" target="SUB::Arsénico (compuestos)" id="44" weight="19.34151">
+        <attvalues>
+          <attvalue for="2" value="3" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Oaxaca.San Juan Bautista Tuxtepec" target="SUB::Cromo (compuestos)" id="45" weight="6432.998734">
+        <attvalues>
+          <attvalue for="2" value="21" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Oaxaca.San Juan Bautista Tuxtepec" target="SUB::Mercurio (polvos, respirables, vapores o humos)" id="46" weight="1431.6014507999998">
+        <attvalues>
+          <attvalue for="2" value="7" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Oaxaca.San Juan Bautista Tuxtepec" target="SUB::Arsénico (polvos, respirables, vapores o humos)" id="47" weight="1890.4768828910003">
+        <attvalues>
+          <attvalue for="2" value="14" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Oaxaca.San Juan Bautista Tuxtepec" target="SUB::Cadmio (polvos, respirables, vapores o humos)" id="48" weight="1680.7356443">
+        <attvalues>
+          <attvalue for="2" value="10" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Oaxaca.San Juan Bautista Tuxtepec" target="SUB::Arsénico (Compuestos solubles)" id="49" weight="217.40119400000003">
+        <attvalues>
+          <attvalue for="2" value="13" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Oaxaca.San Juan Bautista Tuxtepec" target="SUB::Cadmio (Compuestos solubles)" id="50" weight="828.72600291">
+        <attvalues>
+          <attvalue for="2" value="16" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Oaxaca.San Juan Bautista Tuxtepec" target="SUB::Bióxido de carbono" id="51" weight="3515566549.1">
+        <attvalues>
+          <attvalue for="2" value="24" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Oaxaca.San Juan Bautista Tuxtepec" target="SUB::Níquel (polvos respirables, humos o vapores)" id="52" weight="210.639667753">
+        <attvalues>
+          <attvalue for="2" value="6" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Oaxaca.San Juan Bautista Tuxtepec" target="SUB::Cromo (polvos respirables, humos o vapores)" id="53" weight="4.184053216700001">
+        <attvalues>
+          <attvalue for="2" value="3" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Oaxaca.San Juan Bautista Tuxtepec" target="SUB::Plomo (polvos respirables, humos o vapores)" id="54" weight="5.245691053">
+        <attvalues>
+          <attvalue for="2" value="3" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Oaxaca.San Juan Bautista Tuxtepec" target="SUB::Metano" id="55" weight="418294.4">
+        <attvalues>
+          <attvalue for="2" value="4" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Oaxaca.San Juan Bautista Tuxtepec" target="SUB::Bifenilos policlorados" id="56" weight="13940.0">
+        <attvalues>
+          <attvalue for="2" value="2" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Oaxaca.Salina Cruz" target="SUB::Mercurio (Compuestos solubles)" id="57" weight="13.425299">
+        <attvalues>
+          <attvalue for="2" value="7" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Oaxaca.Salina Cruz" target="SUB::Cianuro inorgánico/orgánico" id="58" weight="5523.4378894935">
+        <attvalues>
+          <attvalue for="2" value="49" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Oaxaca.Salina Cruz" target="SUB::Arsénico (polvos, respirables, vapores o humos)" id="59" weight="2785.5293802557926">
+        <attvalues>
+          <attvalue for="2" value="54" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Oaxaca.Salina Cruz" target="SUB::Níquel (Compuestos solubles)" id="60" weight="16413.656115933998">
+        <attvalues>
+          <attvalue for="2" value="11" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Oaxaca.Salina Cruz" target="SUB::Cromo (Compuestos solubles)" id="61" weight="482.5945456347001">
+        <attvalues>
+          <attvalue for="2" value="12" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Oaxaca.Salina Cruz" target="SUB::Plomo (Compuestos solubles)" id="62" weight="731.6785405326">
+        <attvalues>
+          <attvalue for="2" value="9" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Oaxaca.Salina Cruz" target="SUB::Cadmio (polvos, respirables, vapores o humos)" id="63" weight="1539.1450846564653">
+        <attvalues>
+          <attvalue for="2" value="56" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Oaxaca.Salina Cruz" target="SUB::Mercurio (polvos, respirables, vapores o humos)" id="64" weight="1040.2829467036802">
+        <attvalues>
+          <attvalue for="2" value="27" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Oaxaca.Salina Cruz" target="SUB::Cadmio (compuestos)" id="65" weight="1.70386544">
+        <attvalues>
+          <attvalue for="2" value="9" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Oaxaca.Salina Cruz" target="SUB::Cromo (compuestos)" id="66" weight="2373.493312713592">
+        <attvalues>
+          <attvalue for="2" value="54" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Oaxaca.Salina Cruz" target="SUB::Plomo (compuestos)" id="67" weight="2705.0908358347074">
+        <attvalues>
+          <attvalue for="2" value="53" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Oaxaca.Salina Cruz" target="SUB::Arsénico (compuestos)" id="68" weight="0.5876076">
+        <attvalues>
+          <attvalue for="2" value="10" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Oaxaca.Salina Cruz" target="SUB::Níquel (compuestos)" id="69" weight="63994.23620143702">
+        <attvalues>
+          <attvalue for="2" value="51" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Oaxaca.Salina Cruz" target="SUB::Mercurio (compuestos)" id="70" weight="21.747056334499998">
+        <attvalues>
+          <attvalue for="2" value="27" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Oaxaca.Salina Cruz" target="SUB::Plomo (polvos respirables, humos o vapores)" id="71" weight="1345.466779648">
+        <attvalues>
+          <attvalue for="2" value="7" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Oaxaca.Salina Cruz" target="SUB::Níquel (polvos respirables, humos o vapores)" id="72" weight="26297.240343600002">
+        <attvalues>
+          <attvalue for="2" value="7" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Oaxaca.Salina Cruz" target="SUB::Cromo (polvos respirables, humos o vapores)" id="73" weight="333.07384341700003">
+        <attvalues>
+          <attvalue for="2" value="5" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Oaxaca.Salina Cruz" target="SUB::Arsénico (Compuestos solubles)" id="74" weight="281.76869999999997">
+        <attvalues>
+          <attvalue for="2" value="8" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Oaxaca.Salina Cruz" target="SUB::Cadmio (Compuestos solubles)" id="75" weight="680.0226">
+        <attvalues>
+          <attvalue for="2" value="6" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Oaxaca.Salina Cruz" target="SUB::Bióxido de carbono" id="76" weight="27962896206.04">
+        <attvalues>
+          <attvalue for="2" value="51" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Oaxaca.Salina Cruz" target="SUB::Dioxinas" id="77" weight="0.0020373760249199997">
+        <attvalues>
+          <attvalue for="2" value="8" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Oaxaca.Salina Cruz" target="SUB::Formaldehido" id="78" weight="65261.761657786694">
+        <attvalues>
+          <attvalue for="2" value="36" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Oaxaca.Salina Cruz" target="SUB::Benceno" id="79" weight="37648.55786921868">
+        <attvalues>
+          <attvalue for="2" value="23" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Oaxaca.Salina Cruz" target="SUB::1,1,1-Tricloroetano" id="80" weight="132.8366304808">
+        <attvalues>
+          <attvalue for="2" value="7" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Oaxaca.Salina Cruz" target="SUB::Metano" id="81" weight="36983026.088">
+        <attvalues>
+          <attvalue for="2" value="20" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Oaxaca.Salina Cruz" target="SUB::Acroleina" id="82" weight="7.015945427999999">
+        <attvalues>
+          <attvalue for="2" value="18" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Oaxaca.Salina Cruz" target="SUB::Acetaldehido" id="83" weight="250.04309972699997">
+        <attvalues>
+          <attvalue for="2" value="20" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Oaxaca.Salina Cruz" target="SUB::Oxido nitroso" id="84" weight="6272737.0">
+        <attvalues>
+          <attvalue for="2" value="1" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Oaxaca.Salina Cruz" target="SUB::1,1,2-Tricloroetano" id="85" weight="36609.656251">
+        <attvalues>
+          <attvalue for="2" value="2" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Oaxaca.Santa María del Tule" target="SUB::Cromo (Compuestos solubles)" id="86" weight="0.038664">
+        <attvalues>
+          <attvalue for="2" value="1" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Oaxaca.Santa María del Tule" target="SUB::Mercurio (Compuestos solubles)" id="87" weight="0.000904">
+        <attvalues>
+          <attvalue for="2" value="1" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Oaxaca.Santa María del Tule" target="SUB::Níquel (Compuestos solubles)" id="88" weight="0.00846">
+        <attvalues>
+          <attvalue for="2" value="1" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Oaxaca.Santa María del Tule" target="SUB::Plomo (Compuestos solubles)" id="89" weight="0.135704">
+        <attvalues>
+          <attvalue for="2" value="1" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Oaxaca.Santa María del Tule" target="SUB::Arsénico (polvos, respirables, vapores o humos)" id="90" weight="0.030161">
+        <attvalues>
+          <attvalue for="2" value="4" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Oaxaca.Santa María del Tule" target="SUB::Cadmio (polvos, respirables, vapores o humos)" id="91" weight="0.048513">
+        <attvalues>
+          <attvalue for="2" value="4" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Oaxaca.Santa María del Tule" target="SUB::Cianuro inorgánico/orgánico" id="92" weight="0.899105">
+        <attvalues>
+          <attvalue for="2" value="7" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Oaxaca.Santa María del Tule" target="SUB::Plomo (compuestos)" id="93" weight="4.71192">
+        <attvalues>
+          <attvalue for="2" value="6" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Oaxaca.Santa María del Tule" target="SUB::Mercurio (compuestos)" id="94" weight="0.81826">
+        <attvalues>
+          <attvalue for="2" value="6" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Oaxaca.Santa María del Tule" target="SUB::Cromo (compuestos)" id="95" weight="1.54181">
+        <attvalues>
+          <attvalue for="2" value="6" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Oaxaca.Santa María del Tule" target="SUB::Níquel (compuestos)" id="96" weight="1.467197">
+        <attvalues>
+          <attvalue for="2" value="6" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Oaxaca.Santa María del Tule" target="SUB::Bióxido de carbono" id="97" weight="11682.0">
+        <attvalues>
+          <attvalue for="2" value="8" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Oaxaca.Santa María del Tule" target="SUB::Acroleina" id="98" weight="0.00185">
+        <attvalues>
+          <attvalue for="2" value="2" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Oaxaca.Santa María del Tule" target="SUB::Formaldehido" id="99" weight="0.001219">
+        <attvalues>
+          <attvalue for="2" value="4" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Oaxaca.Santa María del Tule" target="SUB::Benceno" id="100" weight="0.0188">
+        <attvalues>
+          <attvalue for="2" value="2" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Oaxaca.Santa María del Tule" target="SUB::Acetaldehido" id="101" weight="0.0337">
+        <attvalues>
+          <attvalue for="2" value="4" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Oaxaca.Santa María del Tule" target="SUB::Arsénico (compuestos)" id="102" weight="0.818096">
+        <attvalues>
+          <attvalue for="2" value="3" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Oaxaca.Santa María del Tule" target="SUB::Cadmio (compuestos)" id="103" weight="0.8782500000000001">
+        <attvalues>
+          <attvalue for="2" value="3" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Oaxaca.San Pablo Etla" target="SUB::Cromo (Compuestos solubles)" id="104" weight="0.0882">
+        <attvalues>
+          <attvalue for="2" value="1" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Oaxaca.San Pablo Etla" target="SUB::Mercurio (Compuestos solubles)" id="105" weight="0.0014">
+        <attvalues>
+          <attvalue for="2" value="1" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Oaxaca.San Pablo Etla" target="SUB::Níquel (Compuestos solubles)" id="106" weight="0.378">
+        <attvalues>
+          <attvalue for="2" value="1" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Oaxaca.San Pablo Etla" target="SUB::Plomo (Compuestos solubles)" id="107" weight="2768.79796">
+        <attvalues>
+          <attvalue for="2" value="10" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Oaxaca.San Pablo Etla" target="SUB::Cianuro inorgánico/orgánico" id="108" weight="0.15168680960000003">
+        <attvalues>
+          <attvalue for="2" value="9" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Oaxaca.San Pablo Etla" target="SUB::Arsénico (polvos, respirables, vapores o humos)" id="109" weight="0.020024378">
+        <attvalues>
+          <attvalue for="2" value="8" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Oaxaca.San Pablo Etla" target="SUB::Cadmio (polvos, respirables, vapores o humos)" id="110" weight="0.098353192">
+        <attvalues>
+          <attvalue for="2" value="9" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Oaxaca.San Pablo Etla" target="SUB::Arsénico (compuestos)" id="111" weight="0.004758672">
+        <attvalues>
+          <attvalue for="2" value="2" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Oaxaca.San Pablo Etla" target="SUB::Cadmio (compuestos)" id="112" weight="0.055295783">
+        <attvalues>
+          <attvalue for="2" value="2" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Oaxaca.San Pablo Etla" target="SUB::Cromo (compuestos)" id="113" weight="0.537407483">
+        <attvalues>
+          <attvalue for="2" value="8" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Oaxaca.San Pablo Etla" target="SUB::Mercurio (compuestos)" id="114" weight="0.005856347000000001">
+        <attvalues>
+          <attvalue for="2" value="7" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Oaxaca.San Pablo Etla" target="SUB::Plomo (compuestos)" id="115" weight="2385.328049787">
+        <attvalues>
+          <attvalue for="2" value="18" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Oaxaca.San Pablo Etla" target="SUB::Níquel (compuestos)" id="116" weight="0.666117832">
+        <attvalues>
+          <attvalue for="2" value="8" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Oaxaca.San Pablo Etla" target="SUB::Mercurio (polvos, respirables, vapores o humos)" id="117" weight="0.0021955">
+        <attvalues>
+          <attvalue for="2" value="4" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Oaxaca.Santo Domingo Tehuantepec" target="SUB::Cianuro inorgánico/orgánico" id="118" weight="0.093312">
+        <attvalues>
+          <attvalue for="2" value="1" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Oaxaca.Santo Domingo Tehuantepec" target="SUB::Arsénico (polvos, respirables, vapores o humos)" id="119" weight="0.2612736">
+        <attvalues>
+          <attvalue for="2" value="1" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Oaxaca.Santo Domingo Tehuantepec" target="SUB::Arsénico (compuestos)" id="120" weight="0.2612736">
+        <attvalues>
+          <attvalue for="2" value="1" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Oaxaca.Santo Domingo Tehuantepec" target="SUB::Cromo (compuestos)" id="121" weight="0.2286144">
+        <attvalues>
+          <attvalue for="2" value="1" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Oaxaca.Cosolapa" target="SUB::Arsénico (compuestos)" id="122" weight="3.262e-05">
+        <attvalues>
+          <attvalue for="2" value="1" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Oaxaca.Cosolapa" target="SUB::Arsénico (polvos, respirables, vapores o humos)" id="123" weight="3.262e-05">
+        <attvalues>
+          <attvalue for="2" value="1" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Oaxaca.Cosolapa" target="SUB::Cadmio (polvos, respirables, vapores o humos)" id="124" weight="0.00153314">
+        <attvalues>
+          <attvalue for="2" value="1" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Oaxaca.Cosolapa" target="SUB::Plomo (compuestos)" id="125" weight="0.00671972">
+        <attvalues>
+          <attvalue for="2" value="1" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Oaxaca.Cosolapa" target="SUB::Cadmio (compuestos)" id="126" weight="0.00153314">
+        <attvalues>
+          <attvalue for="2" value="1" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Oaxaca.Cosolapa" target="SUB::Mercurio (compuestos)" id="127" weight="3.262e-05">
+        <attvalues>
+          <attvalue for="2" value="1" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Oaxaca.Cosolapa" target="SUB::Cromo (compuestos)" id="128" weight="0.01265656">
+        <attvalues>
+          <attvalue for="2" value="1" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Oaxaca.Cosolapa" target="SUB::Níquel (compuestos)" id="129" weight="0.03216332">
+        <attvalues>
+          <attvalue for="2" value="1" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Oaxaca.Cosolapa" target="SUB::Cianuro inorgánico/orgánico" id="130" weight="0.00182672">
+        <attvalues>
+          <attvalue for="2" value="1" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Oaxaca.Cosolapa" target="SUB::Mercurio (polvos, respirables, vapores o humos)" id="131" weight="3.262e-05">
+        <attvalues>
+          <attvalue for="2" value="1" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Oaxaca.Cosolapa" target="SUB::Cadmio (Compuestos solubles)" id="132" weight="20.5084">
+        <attvalues>
+          <attvalue for="2" value="4" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Oaxaca.Cosolapa" target="SUB::Cromo (Compuestos solubles)" id="133" weight="44.1906">
+        <attvalues>
+          <attvalue for="2" value="3" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Oaxaca.Cosolapa" target="SUB::Níquel (Compuestos solubles)" id="134" weight="58.761100000000006">
+        <attvalues>
+          <attvalue for="2" value="3" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Oaxaca.Cosolapa" target="SUB::Plomo (Compuestos solubles)" id="135" weight="58.721700000000006">
+        <attvalues>
+          <attvalue for="2" value="4" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Oaxaca.Santa Cruz Xoxocotlán" target="SUB::Níquel (Compuestos solubles)" id="136" weight="6.0482">
+        <attvalues>
+          <attvalue for="2" value="5" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Oaxaca.Santa Cruz Xoxocotlán" target="SUB::Plomo (Compuestos solubles)" id="137" weight="7.103899999999999">
+        <attvalues>
+          <attvalue for="2" value="7" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Oaxaca.Santa Cruz Xoxocotlán" target="SUB::Cromo (Compuestos solubles)" id="138" weight="3.5882">
+        <attvalues>
+          <attvalue for="2" value="4" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Oaxaca.Santa Cruz Xoxocotlán" target="SUB::Cromo (compuestos)" id="139" weight="8.874041524999999">
+        <attvalues>
+          <attvalue for="2" value="7" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Oaxaca.Santa Cruz Xoxocotlán" target="SUB::Mercurio (compuestos)" id="140" weight="0.052673985">
+        <attvalues>
+          <attvalue for="2" value="4" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Oaxaca.Santa Cruz Xoxocotlán" target="SUB::Níquel (compuestos)" id="141" weight="9.269719278">
+        <attvalues>
+          <attvalue for="2" value="7" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Oaxaca.Santa Cruz Xoxocotlán" target="SUB::Plomo (compuestos)" id="142" weight="8.57629864">
+        <attvalues>
+          <attvalue for="2" value="7" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Oaxaca.Santa Cruz Xoxocotlán" target="SUB::Cianuro inorgánico/orgánico" id="143" weight="1.8202980509">
+        <attvalues>
+          <attvalue for="2" value="6" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Oaxaca.Santa Cruz Xoxocotlán" target="SUB::Arsénico (polvos, respirables, vapores o humos)" id="144" weight="0.0392474134">
+        <attvalues>
+          <attvalue for="2" value="4" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Oaxaca.Santa Cruz Xoxocotlán" target="SUB::Cadmio (polvos, respirables, vapores o humos)" id="145" weight="0.38518547999999997">
+        <attvalues>
+          <attvalue for="2" value="5" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Oaxaca.Santa Cruz Xoxocotlán" target="SUB::Arsénico (compuestos)" id="146" weight="0.109714">
+        <attvalues>
+          <attvalue for="2" value="2" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Oaxaca.Santa Cruz Xoxocotlán" target="SUB::Cadmio (compuestos)" id="147" weight="1.476752">
+        <attvalues>
+          <attvalue for="2" value="2" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Oaxaca.Santa Cruz Xoxocotlán" target="SUB::Mercurio (polvos, respirables, vapores o humos)" id="148" weight="0.013118896">
+        <attvalues>
+          <attvalue for="2" value="2" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Oaxaca.Tlalixtac de Cabrera" target="SUB::Cromo (Compuestos solubles)" id="149" weight="3.15">
+        <attvalues>
+          <attvalue for="2" value="2" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Oaxaca.Tlalixtac de Cabrera" target="SUB::Níquel (Compuestos solubles)" id="150" weight="10.0476">
+        <attvalues>
+          <attvalue for="2" value="3" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Oaxaca.Tlalixtac de Cabrera" target="SUB::Plomo (Compuestos solubles)" id="151" weight="4.4399999999999995">
+        <attvalues>
+          <attvalue for="2" value="2" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Oaxaca.Tlalixtac de Cabrera" target="SUB::Cianuro inorgánico/orgánico" id="152" weight="0.000388">
+        <attvalues>
+          <attvalue for="2" value="1" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Oaxaca.San Lorenzo Cacaotepec" target="SUB::Cromo (Compuestos solubles)" id="153" weight="2.1589">
+        <attvalues>
+          <attvalue for="2" value="2" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Oaxaca.San Lorenzo Cacaotepec" target="SUB::Níquel (Compuestos solubles)" id="154" weight="2.1334">
+        <attvalues>
+          <attvalue for="2" value="2" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Oaxaca.San Lorenzo Cacaotepec" target="SUB::Plomo (Compuestos solubles)" id="155" weight="3.3739999999999997">
+        <attvalues>
+          <attvalue for="2" value="3" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Oaxaca.San Pedro Totolápam" target="SUB::Níquel (Compuestos solubles)" id="156" weight="21.451800000000002">
+        <attvalues>
+          <attvalue for="2" value="4" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Oaxaca.San Pedro Totolápam" target="SUB::Plomo (Compuestos solubles)" id="157" weight="20.9375">
+        <attvalues>
+          <attvalue for="2" value="7" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Oaxaca.San Pedro Totolápam" target="SUB::Bióxido de carbono" id="158" weight="35505795.6">
+        <attvalues>
+          <attvalue for="2" value="3" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Oaxaca.San Pedro Totolápam" target="SUB::Metano" id="159" weight="108000.0">
+        <attvalues>
+          <attvalue for="2" value="1" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Oaxaca.San Pedro Totolápam" target="SUB::Oxido nitroso" id="160" weight="938850.0">
+        <attvalues>
+          <attvalue for="2" value="1" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Oaxaca.San Pedro Totolápam" target="SUB::Plomo (polvos respirables, humos o vapores)" id="161" weight="3.504342997">
+        <attvalues>
+          <attvalue for="2" value="2" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Oaxaca.San Pedro Totolápam" target="SUB::Cromo (Compuestos solubles)" id="162" weight="6.777">
+        <attvalues>
+          <attvalue for="2" value="3" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Oaxaca.Oaxaca de Juárez" target="SUB::Mercurio (compuestos)" id="163" weight="0.007226">
+        <attvalues>
+          <attvalue for="2" value="1" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Oaxaca.Oaxaca de Juárez" target="SUB::Cianuro inorgánico/orgánico" id="164" weight="0.014452">
+        <attvalues>
+          <attvalue for="2" value="1" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Oaxaca.Oaxaca de Juárez" target="SUB::Mercurio (polvos, respirables, vapores o humos)" id="165" weight="5.0">
+        <attvalues>
+          <attvalue for="2" value="1" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Oaxaca.Oaxaca de Juárez" target="SUB::Plomo (polvos respirables, humos o vapores)" id="166" weight="105.115">
+        <attvalues>
+          <attvalue for="2" value="3" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Oaxaca.Oaxaca de Juárez" target="SUB::Plomo (Compuestos solubles)" id="167" weight="413.9564">
+        <attvalues>
+          <attvalue for="2" value="1" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Oaxaca.Juchitán de Zaragoza" target="SUB::Cianuro inorgánico/orgánico" id="168" weight="0.4474030085">
+        <attvalues>
+          <attvalue for="2" value="2" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Oaxaca.Juchitán de Zaragoza" target="SUB::Arsénico (polvos, respirables, vapores o humos)" id="169" weight="0.7870233">
+        <attvalues>
+          <attvalue for="2" value="2" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Oaxaca.Juchitán de Zaragoza" target="SUB::Cadmio (polvos, respirables, vapores o humos)" id="170" weight="1.2201907500000002">
+        <attvalues>
+          <attvalue for="2" value="2" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Oaxaca.Juchitán de Zaragoza" target="SUB::Cromo (compuestos)" id="171" weight="0.24403875">
+        <attvalues>
+          <attvalue for="2" value="2" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Oaxaca.Juchitán de Zaragoza" target="SUB::Plomo (compuestos)" id="172" weight="7.5245065">
+        <attvalues>
+          <attvalue for="2" value="2" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Oaxaca.Juchitán de Zaragoza" target="SUB::Níquel (compuestos)" id="173" weight="3.660570038">
+        <attvalues>
+          <attvalue for="2" value="2" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Oaxaca.Juchitán de Zaragoza" target="SUB::Mercurio (compuestos)" id="174" weight="0.132187265">
+        <attvalues>
+          <attvalue for="2" value="2" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Oaxaca.Juchitán de Zaragoza" target="SUB::Bióxido de carbono" id="175" weight="4.729e-05">
+        <attvalues>
+          <attvalue for="2" value="2" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Oaxaca.Guadalupe Etla" target="SUB::Mercurio (compuestos)" id="176" weight="0.011744">
+        <attvalues>
+          <attvalue for="2" value="1" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Oaxaca.Guadalupe Etla" target="SUB::Bióxido de carbono" id="177" weight="301551.06">
+        <attvalues>
+          <attvalue for="2" value="2" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Oaxaca.San Pedro Mixtepec" target="SUB::Cadmio (polvos, respirables, vapores o humos)" id="178" weight="0.08217975">
+        <attvalues>
+          <attvalue for="2" value="2" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Oaxaca.San Pedro Mixtepec" target="SUB::Arsénico (polvos, respirables, vapores o humos)" id="179" weight="0.0022447500000000002">
+        <attvalues>
+          <attvalue for="2" value="2" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Oaxaca.San Pedro Mixtepec" target="SUB::Níquel (compuestos)" id="180" weight="0.41308875">
+        <attvalues>
+          <attvalue for="2" value="4" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Oaxaca.San Pedro Mixtepec" target="SUB::Cianuro inorgánico/orgánico" id="181" weight="0.0097455">
+        <attvalues>
+          <attvalue for="2" value="4" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Oaxaca.San Pedro Mixtepec" target="SUB::Mercurio (compuestos)" id="182" weight="0.00333975">
+        <attvalues>
+          <attvalue for="2" value="3" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Oaxaca.San Pedro Mixtepec" target="SUB::Cromo (compuestos)" id="183" weight="0.46586775">
+        <attvalues>
+          <attvalue for="2" value="4" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Oaxaca.San Pedro Mixtepec" target="SUB::Plomo (compuestos)" id="184" weight="0.509394">
+        <attvalues>
+          <attvalue for="2" value="4" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Oaxaca.San Pedro Mixtepec" target="SUB::Cadmio (compuestos)" id="185" weight="0.1095">
+        <attvalues>
+          <attvalue for="2" value="2" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Oaxaca.San Pedro Mixtepec" target="SUB::Arsénico (compuestos)" id="186" weight="0.0022995000000000003">
+        <attvalues>
+          <attvalue for="2" value="2" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Oaxaca.San Pedro Mixtepec" target="SUB::Mercurio (polvos, respirables, vapores o humos)" id="187" weight="0.0016425">
+        <attvalues>
+          <attvalue for="2" value="1" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Oaxaca.San Pedro y San Pablo Teposcolula" target="SUB::Bióxido de carbono" id="188" weight="560000.0">
+        <attvalues>
+          <attvalue for="2" value="2" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Oaxaca.Acatlán de Pérez Figueroa" target="SUB::Plomo (compuestos)" id="189" weight="592.4245519">
+        <attvalues>
+          <attvalue for="2" value="4" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Oaxaca.Acatlán de Pérez Figueroa" target="SUB::Níquel (compuestos)" id="190" weight="24889.296207">
+        <attvalues>
+          <attvalue for="2" value="3" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Oaxaca.Acatlán de Pérez Figueroa" target="SUB::Mercurio (compuestos)" id="191" weight="10.49337127358">
+        <attvalues>
+          <attvalue for="2" value="3" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Oaxaca.Acatlán de Pérez Figueroa" target="SUB::Cromo (compuestos)" id="192" weight="380.39534147999996">
+        <attvalues>
+          <attvalue for="2" value="3" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Oaxaca.Acatlán de Pérez Figueroa" target="SUB::Cadmio (compuestos)" id="193" weight="75.35944477358001">
+        <attvalues>
+          <attvalue for="2" value="3" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Oaxaca.Acatlán de Pérez Figueroa" target="SUB::Arsénico (compuestos)" id="194" weight="4.659194299999999">
+        <attvalues>
+          <attvalue for="2" value="3" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Oaxaca.Acatlán de Pérez Figueroa" target="SUB::Cianuro inorgánico/orgánico" id="195" weight="51.776129">
+        <attvalues>
+          <attvalue for="2" value="3" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Oaxaca.Acatlán de Pérez Figueroa" target="SUB::Mercurio (polvos, respirables, vapores o humos)" id="196" weight="5.4972324735800004">
+        <attvalues>
+          <attvalue for="2" value="3" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Oaxaca.Acatlán de Pérez Figueroa" target="SUB::Arsénico (polvos, respirables, vapores o humos)" id="197" weight="2.076714">
+        <attvalues>
+          <attvalue for="2" value="2" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Oaxaca.Acatlán de Pérez Figueroa" target="SUB::Cadmio (polvos, respirables, vapores o humos)" id="198" weight="57.88766087358">
+        <attvalues>
+          <attvalue for="2" value="3" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Oaxaca.Acatlán de Pérez Figueroa" target="SUB::Cromo (Compuestos solubles)" id="199" weight="2.1446">
+        <attvalues>
+          <attvalue for="2" value="1" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Oaxaca.Acatlán de Pérez Figueroa" target="SUB::Arsénico (Compuestos solubles)" id="200" weight="2.2553">
+        <attvalues>
+          <attvalue for="2" value="2" />
+        </attvalues>
+      </edge>
+    </edges>
+  </graph>
+</gexf>

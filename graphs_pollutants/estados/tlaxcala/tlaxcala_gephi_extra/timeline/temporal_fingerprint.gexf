@@ -1,0 +1,941 @@
+<?xml version='1.0' encoding='utf-8'?>
+<gexf xmlns="http://www.gexf.net/1.2draft" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.gexf.net/1.2draft http://www.gexf.net/1.2draft/gexf.xsd" version="1.2">
+  <meta lastmodifieddate="2026-10-16">
+    <creator>NetworkX 3.7</creator>
+  </meta>
+  <graph defaultedgetype="undirected" mode="static" name="">
+    <attributes mode="static" class="node">
+      <attribute id="0" title="type" type="string" />
+      <attribute id="1" title="total_kg" type="double" />
+      <attribute id="2" title="first_year" type="long" />
+      <attribute id="3" title="n_years_active" type="long" />
+    </attributes>
+    <nodes>
+      <node id="LOC::Tlaxcala.Yauhquemehcan" label="Tlaxcala.Yauhquemehcan">
+        <attvalues>
+          <attvalue for="0" value="location" />
+          <attvalue for="1" value="2641175765.360067" />
+          <attvalue for="2" value="2004" />
+          <attvalue for="3" value="19" />
+        </attvalues>
+      </node>
+      <node id="LOC::Tlaxcala.Tetla de la Solidaridad" label="Tlaxcala.Tetla de la Solidaridad">
+        <attvalues>
+          <attvalue for="0" value="location" />
+          <attvalue for="1" value="1127397006.3160677" />
+          <attvalue for="2" value="2004" />
+          <attvalue for="3" value="19" />
+        </attvalues>
+      </node>
+      <node id="LOC::Tlaxcala.Xaloztoc" label="Tlaxcala.Xaloztoc">
+        <attvalues>
+          <attvalue for="0" value="location" />
+          <attvalue for="1" value="895233596.3570014" />
+          <attvalue for="2" value="2004" />
+          <attvalue for="3" value="19" />
+        </attvalues>
+      </node>
+      <node id="LOC::Tlaxcala.Xicohtzinco" label="Tlaxcala.Xicohtzinco">
+        <attvalues>
+          <attvalue for="0" value="location" />
+          <attvalue for="1" value="1462743585.6055844" />
+          <attvalue for="2" value="2004" />
+          <attvalue for="3" value="19" />
+        </attvalues>
+      </node>
+      <node id="LOC::Tlaxcala.Apizaco" label="Tlaxcala.Apizaco">
+        <attvalues>
+          <attvalue for="0" value="location" />
+          <attvalue for="1" value="427484871.35965973" />
+          <attvalue for="2" value="2004" />
+          <attvalue for="3" value="19" />
+        </attvalues>
+      </node>
+      <node id="LOC::Tlaxcala.Acuamanala de Miguel Hidalgo" label="Tlaxcala.Acuamanala de Miguel Hidalgo">
+        <attvalues>
+          <attvalue for="0" value="location" />
+          <attvalue for="1" value="21407564.981758818" />
+          <attvalue for="2" value="2004" />
+          <attvalue for="3" value="19" />
+        </attvalues>
+      </node>
+      <node id="LOC::Tlaxcala.Teolocholco" label="Tlaxcala.Teolocholco">
+        <attvalues>
+          <attvalue for="0" value="location" />
+          <attvalue for="1" value="285752658.48053116" />
+          <attvalue for="2" value="2004" />
+          <attvalue for="3" value="14" />
+        </attvalues>
+      </node>
+      <node id="LOC::Tlaxcala.Calpulalpan" label="Tlaxcala.Calpulalpan">
+        <attvalues>
+          <attvalue for="0" value="location" />
+          <attvalue for="1" value="577343639.1315277" />
+          <attvalue for="2" value="2004" />
+          <attvalue for="3" value="19" />
+        </attvalues>
+      </node>
+      <node id="LOC::Tlaxcala.Tlaxcala" label="Tlaxcala.Tlaxcala">
+        <attvalues>
+          <attvalue for="0" value="location" />
+          <attvalue for="1" value="1318660.5075424477" />
+          <attvalue for="2" value="2007" />
+          <attvalue for="3" value="8" />
+        </attvalues>
+      </node>
+      <node id="LOC::Tlaxcala.Ixtacuixtla de Mariano Matamoros" label="Tlaxcala.Ixtacuixtla de Mariano Matamoros">
+        <attvalues>
+          <attvalue for="0" value="location" />
+          <attvalue for="1" value="653042370.8762947" />
+          <attvalue for="2" value="2004" />
+          <attvalue for="3" value="19" />
+        </attvalues>
+      </node>
+      <node id="LOC::Tlaxcala.Apetatitlán de Antonio Carvajal" label="Tlaxcala.Apetatitlán de Antonio Carvajal">
+        <attvalues>
+          <attvalue for="0" value="location" />
+          <attvalue for="1" value="1145.3812128" />
+          <attvalue for="2" value="2012" />
+          <attvalue for="3" value="2" />
+        </attvalues>
+      </node>
+      <node id="LOC::Tlaxcala.Tlaxco" label="Tlaxcala.Tlaxco">
+        <attvalues>
+          <attvalue for="0" value="location" />
+          <attvalue for="1" value="31043784.246817075" />
+          <attvalue for="2" value="2007" />
+          <attvalue for="3" value="12" />
+        </attvalues>
+      </node>
+      <node id="LOC::Tlaxcala.Tzompantepec" label="Tlaxcala.Tzompantepec">
+        <attvalues>
+          <attvalue for="0" value="location" />
+          <attvalue for="1" value="8867.04708" />
+          <attvalue for="2" value="2012" />
+          <attvalue for="3" value="2" />
+        </attvalues>
+      </node>
+      <node id="LOC::Tlaxcala.Papalotla de Xicohténcatl" label="Tlaxcala.Papalotla de Xicohténcatl">
+        <attvalues>
+          <attvalue for="0" value="location" />
+          <attvalue for="1" value="748725672.526385" />
+          <attvalue for="2" value="2004" />
+          <attvalue for="3" value="18" />
+        </attvalues>
+      </node>
+      <node id="LOC::Tlaxcala.Santa Cruz Tlaxcala" label="Tlaxcala.Santa Cruz Tlaxcala">
+        <attvalues>
+          <attvalue for="0" value="location" />
+          <attvalue for="1" value="4.8084" />
+          <attvalue for="2" value="2017" />
+          <attvalue for="3" value="4" />
+        </attvalues>
+      </node>
+      <node id="LOC::Tlaxcala.Ziltlaltépec de Trinidad Sánchez Santos" label="Tlaxcala.Ziltlaltépec de Trinidad Sánchez Santos">
+        <attvalues>
+          <attvalue for="0" value="location" />
+          <attvalue for="1" value="4192894.1386" />
+          <attvalue for="2" value="2019" />
+          <attvalue for="3" value="4" />
+        </attvalues>
+      </node>
+      <node id="LOC::Tlaxcala.Natívitas" label="Tlaxcala.Natívitas">
+        <attvalues>
+          <attvalue for="0" value="location" />
+          <attvalue for="1" value="17966.809346160007" />
+          <attvalue for="2" value="2007" />
+          <attvalue for="3" value="5" />
+        </attvalues>
+      </node>
+      <node id="LOC::Tlaxcala.Atlangatepec" label="Tlaxcala.Atlangatepec">
+        <attvalues>
+          <attvalue for="0" value="location" />
+          <attvalue for="1" value="207681685.66570857" />
+          <attvalue for="2" value="2008" />
+          <attvalue for="3" value="12" />
+        </attvalues>
+      </node>
+      <node id="LOC::Tlaxcala.San Pablo del Monte" label="Tlaxcala.San Pablo del Monte">
+        <attvalues>
+          <attvalue for="0" value="location" />
+          <attvalue for="1" value="32738394.7919" />
+          <attvalue for="2" value="2004" />
+          <attvalue for="3" value="19" />
+        </attvalues>
+      </node>
+      <node id="LOC::Tlaxcala.La Magdalena Tlaltelulco" label="Tlaxcala.La Magdalena Tlaltelulco">
+        <attvalues>
+          <attvalue for="0" value="location" />
+          <attvalue for="1" value="394805608.2764718" />
+          <attvalue for="2" value="2006" />
+          <attvalue for="3" value="15" />
+        </attvalues>
+      </node>
+      <node id="LOC::Tlaxcala.Huamantla" label="Tlaxcala.Huamantla">
+        <attvalues>
+          <attvalue for="0" value="location" />
+          <attvalue for="1" value="1437676.608249059" />
+          <attvalue for="2" value="2010" />
+          <attvalue for="3" value="12" />
+        </attvalues>
+      </node>
+      <node id="LOC::Tlaxcala.El Carmen Tequexquitla" label="Tlaxcala.El Carmen Tequexquitla">
+        <attvalues>
+          <attvalue for="0" value="location" />
+          <attvalue for="1" value="20942692.7" />
+          <attvalue for="2" value="2013" />
+          <attvalue for="3" value="7" />
+        </attvalues>
+      </node>
+      <node id="LOC::Tlaxcala.Mazatecochco de José María Morelos" label="Tlaxcala.Mazatecochco de José María Morelos">
+        <attvalues>
+          <attvalue for="0" value="location" />
+          <attvalue for="1" value="61526114.3106" />
+          <attvalue for="2" value="2019" />
+          <attvalue for="3" value="4" />
+        </attvalues>
+      </node>
+      <node id="LOC::Tlaxcala.Santa Isabel Xiloxoxtla" label="Tlaxcala.Santa Isabel Xiloxoxtla">
+        <attvalues>
+          <attvalue for="0" value="location" />
+          <attvalue for="1" value="228.71410368000002" />
+          <attvalue for="2" value="2012" />
+          <attvalue for="3" value="2" />
+        </attvalues>
+      </node>
+      <node id="LOC::Tlaxcala.Tepeyanco" label="Tlaxcala.Tepeyanco">
+        <attvalues>
+          <attvalue for="0" value="location" />
+          <attvalue for="1" value="6603.638399999999" />
+          <attvalue for="2" value="2012" />
+          <attvalue for="3" value="2" />
+        </attvalues>
+      </node>
+      <node id="LOC::Tlaxcala.Ixtenco" label="Tlaxcala.Ixtenco">
+        <attvalues>
+          <attvalue for="0" value="location" />
+          <attvalue for="1" value="63.813442896" />
+          <attvalue for="2" value="2012" />
+          <attvalue for="3" value="1" />
+        </attvalues>
+      </node>
+      <node id="LOC::Tlaxcala.Cuapiaxtla" label="Tlaxcala.Cuapiaxtla">
+        <attvalues>
+          <attvalue for="0" value="location" />
+          <attvalue for="1" value="2.8663" />
+          <attvalue for="2" value="2020" />
+          <attvalue for="3" value="1" />
+        </attvalues>
+      </node>
+      <node id="SUB::Cromo (Compuestos solubles)" label="Chromium (soluble compounds)">
+        <attvalues>
+          <attvalue for="0" value="substance" />
+          <attvalue for="1" value="2751.4720158920004" />
+          <attvalue for="2" value="2008" />
+          <attvalue for="3" value="10" />
+        </attvalues>
+      </node>
+      <node id="SUB::Mercurio (Compuestos solubles)" label="Mercury (soluble compounds)">
+        <attvalues>
+          <attvalue for="0" value="substance" />
+          <attvalue for="1" value="59.4315304265" />
+          <attvalue for="2" value="2008" />
+          <attvalue for="3" value="8" />
+        </attvalues>
+      </node>
+      <node id="SUB::Níquel (Compuestos solubles)" label="Nickel (soluble compounds)">
+        <attvalues>
+          <attvalue for="0" value="substance" />
+          <attvalue for="1" value="3628.406513847998" />
+          <attvalue for="2" value="2008" />
+          <attvalue for="3" value="10" />
+        </attvalues>
+      </node>
+      <node id="SUB::Plomo (Compuestos solubles)" label="Lead (soluble compounds)">
+        <attvalues>
+          <attvalue for="0" value="substance" />
+          <attvalue for="1" value="3190.3392919379994" />
+          <attvalue for="2" value="2008" />
+          <attvalue for="3" value="10" />
+        </attvalues>
+      </node>
+      <node id="SUB::Cianuro inorgánico/orgánico" label="Inorganic/organic cyanide">
+        <attvalues>
+          <attvalue for="0" value="substance" />
+          <attvalue for="1" value="7961.821237868481" />
+          <attvalue for="2" value="2004" />
+          <attvalue for="3" value="11" />
+        </attvalues>
+      </node>
+      <node id="SUB::Arsénico (polvos, respirables, vapores o humos)" label="Arsenic (respirable dust, vapors or fumes)">
+        <attvalues>
+          <attvalue for="0" value="substance" />
+          <attvalue for="1" value="130.75767591864403" />
+          <attvalue for="2" value="2004" />
+          <attvalue for="3" value="17" />
+        </attvalues>
+      </node>
+      <node id="SUB::Cadmio (polvos, respirables, vapores o humos)" label="Cadmium (respirable dust, vapors or fumes)">
+        <attvalues>
+          <attvalue for="0" value="substance" />
+          <attvalue for="1" value="985.7260473087998" />
+          <attvalue for="2" value="2004" />
+          <attvalue for="3" value="19" />
+        </attvalues>
+      </node>
+      <node id="SUB::Formaldehido" label="Formaldehyde">
+        <attvalues>
+          <attvalue for="0" value="substance" />
+          <attvalue for="1" value="6914.157920999998" />
+          <attvalue for="2" value="2004" />
+          <attvalue for="3" value="17" />
+        </attvalues>
+      </node>
+      <node id="SUB::Perfluorocarbonos" label="Perfluorocarbons">
+        <attvalues>
+          <attvalue for="0" value="substance" />
+          <attvalue for="1" value="11.5" />
+          <attvalue for="2" value="2008" />
+          <attvalue for="3" value="1" />
+        </attvalues>
+      </node>
+      <node id="SUB::Arsénico (compuestos)" label="Arsenic (compounds)">
+        <attvalues>
+          <attvalue for="0" value="substance" />
+          <attvalue for="1" value="1711.3853052536238" />
+          <attvalue for="2" value="2004" />
+          <attvalue for="3" value="5" />
+        </attvalues>
+      </node>
+      <node id="SUB::Cromo (compuestos)" label="Chromium (compounds)">
+        <attvalues>
+          <attvalue for="0" value="substance" />
+          <attvalue for="1" value="21006.442037382338" />
+          <attvalue for="2" value="2004" />
+          <attvalue for="3" value="9" />
+        </attvalues>
+      </node>
+      <node id="SUB::Mercurio (compuestos)" label="Mercury (compounds)">
+        <attvalues>
+          <attvalue for="0" value="substance" />
+          <attvalue for="1" value="2167.299675023023" />
+          <attvalue for="2" value="2004" />
+          <attvalue for="3" value="9" />
+        </attvalues>
+      </node>
+      <node id="SUB::Níquel (compuestos)" label="Nickel (compounds)">
+        <attvalues>
+          <attvalue for="0" value="substance" />
+          <attvalue for="1" value="21639.184856199412" />
+          <attvalue for="2" value="2004" />
+          <attvalue for="3" value="9" />
+        </attvalues>
+      </node>
+      <node id="SUB::Plomo (compuestos)" label="Lead (compounds)">
+        <attvalues>
+          <attvalue for="0" value="substance" />
+          <attvalue for="1" value="756508.0877805509" />
+          <attvalue for="2" value="2004" />
+          <attvalue for="3" value="9" />
+        </attvalues>
+      </node>
+      <node id="SUB::Cadmio (compuestos)" label="Cadmium (compounds)">
+        <attvalues>
+          <attvalue for="0" value="substance" />
+          <attvalue for="1" value="4230.347050301101" />
+          <attvalue for="2" value="2005" />
+          <attvalue for="3" value="5" />
+        </attvalues>
+      </node>
+      <node id="SUB::Mercurio (polvos, respirables, vapores o humos)" label="Mercury (respirable dust, vapors or fumes)">
+        <attvalues>
+          <attvalue for="0" value="substance" />
+          <attvalue for="1" value="331.39360240272003" />
+          <attvalue for="2" value="2004" />
+          <attvalue for="3" value="16" />
+        </attvalues>
+      </node>
+      <node id="SUB::Acido sulfhídrico" label="Hydrogen sulfide">
+        <attvalues>
+          <attvalue for="0" value="substance" />
+          <attvalue for="1" value="3.62" />
+          <attvalue for="2" value="2011" />
+          <attvalue for="3" value="1" />
+        </attvalues>
+      </node>
+      <node id="SUB::Cloruro de metileno" label="Methylene chloride">
+        <attvalues>
+          <attvalue for="0" value="substance" />
+          <attvalue for="1" value="703.02" />
+          <attvalue for="2" value="2008" />
+          <attvalue for="3" value="2" />
+        </attvalues>
+      </node>
+      <node id="SUB::Plomo (polvos respirables, humos o vapores)" label="Lead (respirable dust, fumes or vapors)">
+        <attvalues>
+          <attvalue for="0" value="substance" />
+          <attvalue for="1" value="2461.816" />
+          <attvalue for="2" value="2014" />
+          <attvalue for="3" value="9" />
+        </attvalues>
+      </node>
+      <node id="SUB::Níquel (polvos respirables, humos o vapores)" label="Nickel (respirable dust, fumes or vapors)">
+        <attvalues>
+          <attvalue for="0" value="substance" />
+          <attvalue for="1" value="498.7461" />
+          <attvalue for="2" value="2014" />
+          <attvalue for="3" value="9" />
+        </attvalues>
+      </node>
+      <node id="SUB::Cromo (polvos respirables, humos o vapores)" label="Chromium (respirable dust, fumes or vapors)">
+        <attvalues>
+          <attvalue for="0" value="substance" />
+          <attvalue for="1" value="276.022" />
+          <attvalue for="2" value="2014" />
+          <attvalue for="3" value="9" />
+        </attvalues>
+      </node>
+      <node id="SUB::Arsénico (Compuestos solubles)" label="Arsenic (soluble compounds)">
+        <attvalues>
+          <attvalue for="0" value="substance" />
+          <attvalue for="1" value="164.62849999999995" />
+          <attvalue for="2" value="2014" />
+          <attvalue for="3" value="9" />
+        </attvalues>
+      </node>
+      <node id="SUB::Cadmio (Compuestos solubles)" label="Cadmium (soluble compounds)">
+        <attvalues>
+          <attvalue for="0" value="substance" />
+          <attvalue for="1" value="1616.9836999999998" />
+          <attvalue for="2" value="2014" />
+          <attvalue for="3" value="9" />
+        </attvalues>
+      </node>
+      <node id="SUB::Bióxido de carbono" label="Carbon dioxide">
+        <attvalues>
+          <attvalue for="0" value="substance" />
+          <attvalue for="1" value="9575395463.398626" />
+          <attvalue for="2" value="2004" />
+          <attvalue for="3" value="19" />
+        </attvalues>
+      </node>
+      <node id="SUB::Bromuro de metilo" label="Methyl bromide">
+        <attvalues>
+          <attvalue for="0" value="substance" />
+          <attvalue for="1" value="38440.93" />
+          <attvalue for="2" value="2004" />
+          <attvalue for="3" value="6" />
+        </attvalues>
+      </node>
+      <node id="SUB::1,1-Dicloro-1-Fluoroetano (HCFC-141b)" label="1,1-Dichloro-1-fluoroethane (HCFC-141b)">
+        <attvalues>
+          <attvalue for="0" value="substance" />
+          <attvalue for="1" value="53890.01" />
+          <attvalue for="2" value="2005" />
+          <attvalue for="3" value="12" />
+        </attvalues>
+      </node>
+      <node id="SUB::Tolueno diisocianato" label="Toluene diisocyanate">
+        <attvalues>
+          <attvalue for="0" value="substance" />
+          <attvalue for="1" value="25.569399999999998" />
+          <attvalue for="2" value="2004" />
+          <attvalue for="3" value="10" />
+        </attvalues>
+      </node>
+      <node id="SUB::Clorodifluorometano (HCFC-22)" label="Chlorodifluoromethane (HCFC-22)">
+        <attvalues>
+          <attvalue for="0" value="substance" />
+          <attvalue for="1" value="1890.1999999999998" />
+          <attvalue for="2" value="2005" />
+          <attvalue for="3" value="7" />
+        </attvalues>
+      </node>
+      <node id="SUB::Estireno (fenil etileno)" label="Styrene (phenylethylene)">
+        <attvalues>
+          <attvalue for="0" value="substance" />
+          <attvalue for="1" value="26161.901" />
+          <attvalue for="2" value="2004" />
+          <attvalue for="3" value="14" />
+        </attvalues>
+      </node>
+      <node id="SUB::Cloruro de vinilo" label="Vinyl chloride">
+        <attvalues>
+          <attvalue for="0" value="substance" />
+          <attvalue for="1" value="318062.33968100004" />
+          <attvalue for="2" value="2004" />
+          <attvalue for="3" value="6" />
+        </attvalues>
+      </node>
+      <node id="SUB::1,2-Diclorobenceno" label="1,2-Dichlorobenzene">
+        <attvalues>
+          <attvalue for="0" value="substance" />
+          <attvalue for="1" value="0.3419" />
+          <attvalue for="2" value="2004" />
+          <attvalue for="3" value="6" />
+        </attvalues>
+      </node>
+      <node id="SUB::Benceno" label="Benzene">
+        <attvalues>
+          <attvalue for="0" value="substance" />
+          <attvalue for="1" value="88.5846469" />
+          <attvalue for="2" value="2004" />
+          <attvalue for="3" value="9" />
+        </attvalues>
+      </node>
+      <node id="SUB::1,4-Diclorobenceno" label="1,4-Dichlorobenzene">
+        <attvalues>
+          <attvalue for="0" value="substance" />
+          <attvalue for="1" value="0.2591" />
+          <attvalue for="2" value="2004" />
+          <attvalue for="3" value="6" />
+        </attvalues>
+      </node>
+      <node id="SUB::Xileno (mezcla de isómeros)" label="Xylene (mixture of isomers)">
+        <attvalues>
+          <attvalue for="0" value="substance" />
+          <attvalue for="1" value="7101.4" />
+          <attvalue for="2" value="2014" />
+          <attvalue for="3" value="3" />
+        </attvalues>
+      </node>
+      <node id="SUB::Metano" label="Methane">
+        <attvalues>
+          <attvalue for="0" value="substance" />
+          <attvalue for="1" value="18218801.92012146" />
+          <attvalue for="2" value="2004" />
+          <attvalue for="3" value="15" />
+        </attvalues>
+      </node>
+      <node id="SUB::Oxido nitroso" label="Nitrous oxide">
+        <attvalues>
+          <attvalue for="0" value="substance" />
+          <attvalue for="1" value="793810.0" />
+          <attvalue for="2" value="2011" />
+          <attvalue for="3" value="3" />
+        </attvalues>
+      </node>
+      <node id="SUB::Tolueno" label="Toluene">
+        <attvalues>
+          <attvalue for="0" value="substance" />
+          <attvalue for="1" value="2535.7" />
+          <attvalue for="2" value="2016" />
+          <attvalue for="3" value="2" />
+        </attvalues>
+      </node>
+      <node id="SUB::Dioxinas" label="Dioxins">
+        <attvalues>
+          <attvalue for="0" value="substance" />
+          <attvalue for="1" value="1.195e-09" />
+          <attvalue for="2" value="2021" />
+          <attvalue for="3" value="1" />
+        </attvalues>
+      </node>
+      <node id="SUB::Acetaldehido" label="Acetaldehyde">
+        <attvalues>
+          <attvalue for="0" value="substance" />
+          <attvalue for="1" value="64.0" />
+          <attvalue for="2" value="2004" />
+          <attvalue for="3" value="1" />
+        </attvalues>
+      </node>
+      <node id="SUB::Acido 2,4 Diclorofenoxiacetico" label="2,4-Dichlorophenoxyacetic acid (2,4-D)">
+        <attvalues>
+          <attvalue for="0" value="substance" />
+          <attvalue for="1" value="19060.0" />
+          <attvalue for="2" value="2004" />
+          <attvalue for="3" value="2" />
+        </attvalues>
+      </node>
+      <node id="SUB::Acrilonitrilo" label="Acrylonitrile">
+        <attvalues>
+          <attvalue for="0" value="substance" />
+          <attvalue for="1" value="154.13" />
+          <attvalue for="2" value="2004" />
+          <attvalue for="3" value="3" />
+        </attvalues>
+      </node>
+      <node id="SUB::Bióxido de nitrógeno" label="Nitrogen dioxide">
+        <attvalues>
+          <attvalue for="0" value="substance" />
+          <attvalue for="1" value="34794.0" />
+          <attvalue for="2" value="2005" />
+          <attvalue for="3" value="2" />
+        </attvalues>
+      </node>
+      <node id="SUB::Asbesto y sus formas (En forma de polvo, fibras o productos desmenuzables con la presión de la mano)" label="Asbestos and its forms (as dust, fibers or friable products that crumble under hand pressure)">
+        <attvalues>
+          <attvalue for="0" value="substance" />
+          <attvalue for="1" value="1213.0" />
+          <attvalue for="2" value="2009" />
+          <attvalue for="3" value="2" />
+        </attvalues>
+      </node>
+      <node id="SUB::Bifenilos policlorados" label="Polychlorinated biphenyls (PCBs)">
+        <attvalues>
+          <attvalue for="0" value="substance" />
+          <attvalue for="1" value="3910.04574" />
+          <attvalue for="2" value="2006" />
+          <attvalue for="3" value="3" />
+        </attvalues>
+      </node>
+      <node id="SUB::Bifenilo" label="Biphenyl">
+        <attvalues>
+          <attvalue for="0" value="substance" />
+          <attvalue for="1" value="29380.0" />
+          <attvalue for="2" value="2005" />
+          <attvalue for="3" value="1" />
+        </attvalues>
+      </node>
+      <node id="SUB::Triclorobenceno" label="Trichlorobenzene">
+        <attvalues>
+          <attvalue for="0" value="substance" />
+          <attvalue for="1" value="245325.0" />
+          <attvalue for="2" value="2022" />
+          <attvalue for="3" value="1" />
+        </attvalues>
+      </node>
+    </nodes>
+    <edges>
+      <edge source="LOC::Tlaxcala.Yauhquemehcan" target="SUB::Cromo (Compuestos solubles)" id="0" weight="170.551844" />
+      <edge source="LOC::Tlaxcala.Yauhquemehcan" target="SUB::Mercurio (Compuestos solubles)" id="1" weight="0.9092172625" />
+      <edge source="LOC::Tlaxcala.Yauhquemehcan" target="SUB::Níquel (Compuestos solubles)" id="2" weight="485.55655225" />
+      <edge source="LOC::Tlaxcala.Yauhquemehcan" target="SUB::Plomo (Compuestos solubles)" id="3" weight="154.99109274999998" />
+      <edge source="LOC::Tlaxcala.Yauhquemehcan" target="SUB::Cianuro inorgánico/orgánico" id="4" weight="1366.938450625" />
+      <edge source="LOC::Tlaxcala.Yauhquemehcan" target="SUB::Arsénico (polvos, respirables, vapores o humos)" id="5" weight="41.6038665" />
+      <edge source="LOC::Tlaxcala.Yauhquemehcan" target="SUB::Cadmio (polvos, respirables, vapores o humos)" id="6" weight="126.820968" />
+      <edge source="LOC::Tlaxcala.Yauhquemehcan" target="SUB::Perfluorocarbonos" id="7" weight="11.5" />
+      <edge source="LOC::Tlaxcala.Yauhquemehcan" target="SUB::Plomo (compuestos)" id="8" weight="5011.649546000001" />
+      <edge source="LOC::Tlaxcala.Yauhquemehcan" target="SUB::Níquel (compuestos)" id="9" weight="6095.3494905" />
+      <edge source="LOC::Tlaxcala.Yauhquemehcan" target="SUB::Mercurio (compuestos)" id="10" weight="62.8326092" />
+      <edge source="LOC::Tlaxcala.Yauhquemehcan" target="SUB::Cromo (compuestos)" id="11" weight="5489.8994332500015" />
+      <edge source="LOC::Tlaxcala.Yauhquemehcan" target="SUB::Arsénico (compuestos)" id="12" weight="306.674901" />
+      <edge source="LOC::Tlaxcala.Yauhquemehcan" target="SUB::Cadmio (compuestos)" id="13" weight="1027.8699900000001" />
+      <edge source="LOC::Tlaxcala.Yauhquemehcan" target="SUB::Mercurio (polvos, respirables, vapores o humos)" id="14" weight="0.892006" />
+      <edge source="LOC::Tlaxcala.Yauhquemehcan" target="SUB::Arsénico (Compuestos solubles)" id="15" weight="17.588" />
+      <edge source="LOC::Tlaxcala.Yauhquemehcan" target="SUB::Cadmio (Compuestos solubles)" id="16" weight="34.87369999999999" />
+      <edge source="LOC::Tlaxcala.Yauhquemehcan" target="SUB::Bióxido de carbono" id="17" weight="2640926329.4" />
+      <edge source="LOC::Tlaxcala.Yauhquemehcan" target="SUB::Formaldehido" id="18" weight="6721.8484" />
+      <edge source="LOC::Tlaxcala.Yauhquemehcan" target="SUB::Metano" id="19" weight="221979.04" />
+      <edge source="LOC::Tlaxcala.Yauhquemehcan" target="SUB::Níquel (polvos respirables, humos o vapores)" id="20" weight="284.12000000000006" />
+      <edge source="LOC::Tlaxcala.Yauhquemehcan" target="SUB::Plomo (polvos respirables, humos o vapores)" id="21" weight="44.449999999999996" />
+      <edge source="LOC::Tlaxcala.Tetla de la Solidaridad" target="SUB::Cromo (Compuestos solubles)" id="22" weight="875.1465948000006" />
+      <edge source="LOC::Tlaxcala.Tetla de la Solidaridad" target="SUB::Mercurio (Compuestos solubles)" id="23" weight="55.15853212" />
+      <edge source="LOC::Tlaxcala.Tetla de la Solidaridad" target="SUB::Níquel (Compuestos solubles)" id="24" weight="437.0734135999999" />
+      <edge source="LOC::Tlaxcala.Tetla de la Solidaridad" target="SUB::Plomo (Compuestos solubles)" id="25" weight="1650.6259256000003" />
+      <edge source="LOC::Tlaxcala.Tetla de la Solidaridad" target="SUB::Cianuro inorgánico/orgánico" id="26" weight="3006.4353082284" />
+      <edge source="LOC::Tlaxcala.Tetla de la Solidaridad" target="SUB::Arsénico (polvos, respirables, vapores o humos)" id="27" weight="48.1206903138" />
+      <edge source="LOC::Tlaxcala.Tetla de la Solidaridad" target="SUB::Cadmio (polvos, respirables, vapores o humos)" id="28" weight="201.49313405180004" />
+      <edge source="LOC::Tlaxcala.Tetla de la Solidaridad" target="SUB::Formaldehido" id="29" weight="2.513961" />
+      <edge source="LOC::Tlaxcala.Tetla de la Solidaridad" target="SUB::Arsénico (compuestos)" id="30" weight="59.468213859159995" />
+      <edge source="LOC::Tlaxcala.Tetla de la Solidaridad" target="SUB::Plomo (compuestos)" id="31" weight="731793.0838918656" />
+      <edge source="LOC::Tlaxcala.Tetla de la Solidaridad" target="SUB::Níquel (compuestos)" id="32" weight="1311.5128436832" />
+      <edge source="LOC::Tlaxcala.Tetla de la Solidaridad" target="SUB::Mercurio (compuestos)" id="33" weight="45.45460044851999" />
+      <edge source="LOC::Tlaxcala.Tetla de la Solidaridad" target="SUB::Cromo (compuestos)" id="34" weight="1045.051535752" />
+      <edge source="LOC::Tlaxcala.Tetla de la Solidaridad" target="SUB::Cadmio (compuestos)" id="35" weight="210.28721606639996" />
+      <edge source="LOC::Tlaxcala.Tetla de la Solidaridad" target="SUB::Acido sulfhídrico" id="36" weight="3.62" />
+      <edge source="LOC::Tlaxcala.Tetla de la Solidaridad" target="SUB::Cloruro de metileno" id="37" weight="703.02" />
+      <edge source="LOC::Tlaxcala.Tetla de la Solidaridad" target="SUB::Mercurio (polvos, respirables, vapores o humos)" id="38" weight="285.295949156" />
+      <edge source="LOC::Tlaxcala.Tetla de la Solidaridad" target="SUB::Níquel (polvos respirables, humos o vapores)" id="39" weight="66.3511" />
+      <edge source="LOC::Tlaxcala.Tetla de la Solidaridad" target="SUB::Cromo (polvos respirables, humos o vapores)" id="40" weight="68.082" />
+      <edge source="LOC::Tlaxcala.Tetla de la Solidaridad" target="SUB::Cadmio (Compuestos solubles)" id="41" weight="1248.02" />
+      <edge source="LOC::Tlaxcala.Tetla de la Solidaridad" target="SUB::Bióxido de carbono" id="42" weight="1126570469.7637303" />
+      <edge source="LOC::Tlaxcala.Tetla de la Solidaridad" target="SUB::1,1-Dicloro-1-Fluoroetano (HCFC-141b)" id="43" weight="53890.01" />
+      <edge source="LOC::Tlaxcala.Tetla de la Solidaridad" target="SUB::Tolueno diisocianato" id="44" weight="25.569399999999998" />
+      <edge source="LOC::Tlaxcala.Tetla de la Solidaridad" target="SUB::Clorodifluorometano (HCFC-22)" id="45" weight="748.1999999999999" />
+      <edge source="LOC::Tlaxcala.Tetla de la Solidaridad" target="SUB::Xileno (mezcla de isómeros)" id="46" weight="7101.4" />
+      <edge source="LOC::Tlaxcala.Tetla de la Solidaridad" target="SUB::Tolueno" id="47" weight="2535.7" />
+      <edge source="LOC::Tlaxcala.Tetla de la Solidaridad" target="SUB::Dioxinas" id="48" weight="1.195e-09" />
+      <edge source="LOC::Tlaxcala.Tetla de la Solidaridad" target="SUB::Acido 2,4 Diclorofenoxiacetico" id="49" weight="19060.0" />
+      <edge source="LOC::Tlaxcala.Tetla de la Solidaridad" target="SUB::Benceno" id="50" weight="2.69e-05" />
+      <edge source="LOC::Tlaxcala.Tetla de la Solidaridad" target="SUB::Arsénico (Compuestos solubles)" id="51" weight="59.858" />
+      <edge source="LOC::Tlaxcala.Xaloztoc" target="SUB::Cromo (Compuestos solubles)" id="52" weight="170.16050353999998" />
+      <edge source="LOC::Tlaxcala.Xaloztoc" target="SUB::Mercurio (Compuestos solubles)" id="53" weight="0.07737652" />
+      <edge source="LOC::Tlaxcala.Xaloztoc" target="SUB::Níquel (Compuestos solubles)" id="54" weight="411.21090747" />
+      <edge source="LOC::Tlaxcala.Xaloztoc" target="SUB::Plomo (Compuestos solubles)" id="55" weight="129.08717" />
+      <edge source="LOC::Tlaxcala.Xaloztoc" target="SUB::Cianuro inorgánico/orgánico" id="56" weight="13.480801981759997" />
+      <edge source="LOC::Tlaxcala.Xaloztoc" target="SUB::Arsénico (polvos, respirables, vapores o humos)" id="57" weight="3.279744308063999" />
+      <edge source="LOC::Tlaxcala.Xaloztoc" target="SUB::Cadmio (polvos, respirables, vapores o humos)" id="58" weight="10.672873401199999" />
+      <edge source="LOC::Tlaxcala.Xaloztoc" target="SUB::Cromo (compuestos)" id="59" weight="46.75684632343999" />
+      <edge source="LOC::Tlaxcala.Xaloztoc" target="SUB::Mercurio (polvos, respirables, vapores o humos)" id="60" weight="35.7152917741" />
+      <edge source="LOC::Tlaxcala.Xaloztoc" target="SUB::Arsénico (compuestos)" id="61" weight="0.117333528664" />
+      <edge source="LOC::Tlaxcala.Xaloztoc" target="SUB::Cadmio (compuestos)" id="62" weight="1.4487551072" />
+      <edge source="LOC::Tlaxcala.Xaloztoc" target="SUB::Mercurio (compuestos)" id="63" weight="0.48145639069199997" />
+      <edge source="LOC::Tlaxcala.Xaloztoc" target="SUB::Níquel (compuestos)" id="64" weight="34.72746426139999" />
+      <edge source="LOC::Tlaxcala.Xaloztoc" target="SUB::Plomo (compuestos)" id="65" weight="35.54372430069999" />
+      <edge source="LOC::Tlaxcala.Xaloztoc" target="SUB::Bióxido de carbono" id="66" weight="895178853.8887529" />
+      <edge source="LOC::Tlaxcala.Xaloztoc" target="SUB::Estireno (fenil etileno)" id="67" weight="19209.0" />
+      <edge source="LOC::Tlaxcala.Xaloztoc" target="SUB::Formaldehido" id="68" weight="66.36013" />
+      <edge source="LOC::Tlaxcala.Xaloztoc" target="SUB::1,2-Diclorobenceno" id="69" weight="0.3419" />
+      <edge source="LOC::Tlaxcala.Xaloztoc" target="SUB::Benceno" id="70" weight="32.39462" />
+      <edge source="LOC::Tlaxcala.Xaloztoc" target="SUB::1,4-Diclorobenceno" id="71" weight="0.2591" />
+      <edge source="LOC::Tlaxcala.Xaloztoc" target="SUB::Metano" id="72" weight="2044.38625" />
+      <edge source="LOC::Tlaxcala.Xaloztoc" target="SUB::Cadmio (Compuestos solubles)" id="73" weight="14.85" />
+      <edge source="LOC::Tlaxcala.Xaloztoc" target="SUB::Arsénico (Compuestos solubles)" id="74" weight="2.116" />
+      <edge source="LOC::Tlaxcala.Xaloztoc" target="SUB::Bifenilo" id="75" weight="29380.0" />
+      <edge source="LOC::Tlaxcala.Xaloztoc" target="SUB::Bifenilos policlorados" id="76" weight="3100.0" />
+      <edge source="LOC::Tlaxcala.Xicohtzinco" target="SUB::Cromo (Compuestos solubles)" id="77" weight="182.11827" />
+      <edge source="LOC::Tlaxcala.Xicohtzinco" target="SUB::Mercurio (Compuestos solubles)" id="78" weight="0.9027045" />
+      <edge source="LOC::Tlaxcala.Xicohtzinco" target="SUB::Níquel (Compuestos solubles)" id="79" weight="178.62910399999998" />
+      <edge source="LOC::Tlaxcala.Xicohtzinco" target="SUB::Plomo (Compuestos solubles)" id="80" weight="126.97952" />
+      <edge source="LOC::Tlaxcala.Xicohtzinco" target="SUB::Cianuro inorgánico/orgánico" id="81" weight="26.264627207000007" />
+      <edge source="LOC::Tlaxcala.Xicohtzinco" target="SUB::Arsénico (polvos, respirables, vapores o humos)" id="82" weight="8.2034488625" />
+      <edge source="LOC::Tlaxcala.Xicohtzinco" target="SUB::Cadmio (polvos, respirables, vapores o humos)" id="83" weight="355.84143786749996" />
+      <edge source="LOC::Tlaxcala.Xicohtzinco" target="SUB::Mercurio (polvos, respirables, vapores o humos)" id="84" weight="1.9344019899999998" />
+      <edge source="LOC::Tlaxcala.Xicohtzinco" target="SUB::Plomo (compuestos)" id="85" weight="86.901152835" />
+      <edge source="LOC::Tlaxcala.Xicohtzinco" target="SUB::Cromo (compuestos)" id="86" weight="145.5239294125" />
+      <edge source="LOC::Tlaxcala.Xicohtzinco" target="SUB::Níquel (compuestos)" id="87" weight="163.682701735" />
+      <edge source="LOC::Tlaxcala.Xicohtzinco" target="SUB::Cadmio (Compuestos solubles)" id="88" weight="33.8145" />
+      <edge source="LOC::Tlaxcala.Xicohtzinco" target="SUB::Arsénico (Compuestos solubles)" id="89" weight="4.85" />
+      <edge source="LOC::Tlaxcala.Xicohtzinco" target="SUB::Mercurio (compuestos)" id="90" weight="1901.832501539" />
+      <edge source="LOC::Tlaxcala.Xicohtzinco" target="SUB::Bióxido de carbono" id="91" weight="1462380207.430103" />
+      <edge source="LOC::Tlaxcala.Xicohtzinco" target="SUB::Estireno (fenil etileno)" id="92" weight="6515.889999999999" />
+      <edge source="LOC::Tlaxcala.Xicohtzinco" target="SUB::Cloruro de vinilo" id="93" weight="318062.33968100004" />
+      <edge source="LOC::Tlaxcala.Xicohtzinco" target="SUB::Clorodifluorometano (HCFC-22)" id="94" weight="1142.0" />
+      <edge source="LOC::Tlaxcala.Xicohtzinco" target="SUB::Bióxido de nitrógeno" id="95" weight="34170.0" />
+      <edge source="LOC::Tlaxcala.Xicohtzinco" target="SUB::Asbesto y sus formas (En forma de polvo, fibras o productos desmenuzables con la presión de la mano)" id="96" weight="270.0" />
+      <edge source="LOC::Tlaxcala.Xicohtzinco" target="SUB::Cadmio (compuestos)" id="97" weight="0.374" />
+      <edge source="LOC::Tlaxcala.Xicohtzinco" target="SUB::Arsénico (compuestos)" id="98" weight="0.0935" />
+      <edge source="LOC::Tlaxcala.Apizaco" target="SUB::Formaldehido" id="99" weight="123.43542999999998" />
+      <edge source="LOC::Tlaxcala.Apizaco" target="SUB::Níquel (compuestos)" id="100" weight="101.013942363" />
+      <edge source="LOC::Tlaxcala.Apizaco" target="SUB::Plomo (compuestos)" id="101" weight="38.039709714999994" />
+      <edge source="LOC::Tlaxcala.Apizaco" target="SUB::Cromo (compuestos)" id="102" weight="20.824904598" />
+      <edge source="LOC::Tlaxcala.Apizaco" target="SUB::Cadmio (polvos, respirables, vapores o humos)" id="103" weight="14.858162142500001" />
+      <edge source="LOC::Tlaxcala.Apizaco" target="SUB::Arsénico (polvos, respirables, vapores o humos)" id="104" weight="10.095476031" />
+      <edge source="LOC::Tlaxcala.Apizaco" target="SUB::Mercurio (polvos, respirables, vapores o humos)" id="105" weight="8e-06" />
+      <edge source="LOC::Tlaxcala.Apizaco" target="SUB::Arsénico (Compuestos solubles)" id="106" weight="71.05990000000001" />
+      <edge source="LOC::Tlaxcala.Apizaco" target="SUB::Cadmio (Compuestos solubles)" id="107" weight="35.4107" />
+      <edge source="LOC::Tlaxcala.Apizaco" target="SUB::Cromo (Compuestos solubles)" id="108" weight="210.546" />
+      <edge source="LOC::Tlaxcala.Apizaco" target="SUB::Níquel (Compuestos solubles)" id="109" weight="160.7906" />
+      <edge source="LOC::Tlaxcala.Apizaco" target="SUB::Plomo (Compuestos solubles)" id="110" weight="145.0579" />
+      <edge source="LOC::Tlaxcala.Apizaco" target="SUB::Mercurio (compuestos)" id="111" weight="0.0072127828" />
+      <edge source="LOC::Tlaxcala.Apizaco" target="SUB::Cianuro inorgánico/orgánico" id="112" weight="10.993050557" />
+      <edge source="LOC::Tlaxcala.Apizaco" target="SUB::Bióxido de carbono" id="113" weight="410077577.28178406" />
+      <edge source="LOC::Tlaxcala.Apizaco" target="SUB::Metano" id="114" weight="17403344.493871454" />
+      <edge source="LOC::Tlaxcala.Apizaco" target="SUB::Plomo (polvos respirables, humos o vapores)" id="115" weight="2296.12" />
+      <edge source="LOC::Tlaxcala.Apizaco" target="SUB::Acetaldehido" id="116" weight="64.0" />
+      <edge source="LOC::Tlaxcala.Apizaco" target="SUB::Benceno" id="117" weight="56.19" />
+      <edge source="LOC::Tlaxcala.Apizaco" target="SUB::Acrilonitrilo" id="118" weight="154.13" />
+      <edge source="LOC::Tlaxcala.Apizaco" target="SUB::Estireno (fenil etileno)" id="119" weight="437.011" />
+      <edge source="LOC::Tlaxcala.Apizaco" target="SUB::Cadmio (compuestos)" id="120" weight="4e-06" />
+      <edge source="LOC::Tlaxcala.Apizaco" target="SUB::Arsénico (compuestos)" id="121" weight="4e-06" />
+      <edge source="LOC::Tlaxcala.Acuamanala de Miguel Hidalgo" target="SUB::Cromo (Compuestos solubles)" id="122" weight="26.104303552" />
+      <edge source="LOC::Tlaxcala.Acuamanala de Miguel Hidalgo" target="SUB::Mercurio (Compuestos solubles)" id="123" weight="2.4e-08" />
+      <edge source="LOC::Tlaxcala.Acuamanala de Miguel Hidalgo" target="SUB::Níquel (Compuestos solubles)" id="124" weight="20.313604927999997" />
+      <edge source="LOC::Tlaxcala.Acuamanala de Miguel Hidalgo" target="SUB::Plomo (Compuestos solubles)" id="125" weight="19.774503587999998" />
+      <edge source="LOC::Tlaxcala.Acuamanala de Miguel Hidalgo" target="SUB::Cianuro inorgánico/orgánico" id="126" weight="2.4527781159999997" />
+      <edge source="LOC::Tlaxcala.Acuamanala de Miguel Hidalgo" target="SUB::Arsénico (polvos, respirables, vapores o humos)" id="127" weight="1.64e-08" />
+      <edge source="LOC::Tlaxcala.Acuamanala de Miguel Hidalgo" target="SUB::Cadmio (polvos, respirables, vapores o humos)" id="128" weight="0.226086292" />
+      <edge source="LOC::Tlaxcala.Acuamanala de Miguel Hidalgo" target="SUB::Plomo (compuestos)" id="129" weight="4.531890667000001" />
+      <edge source="LOC::Tlaxcala.Acuamanala de Miguel Hidalgo" target="SUB::Níquel (compuestos)" id="130" weight="37.701905694000004" />
+      <edge source="LOC::Tlaxcala.Acuamanala de Miguel Hidalgo" target="SUB::Bióxido de carbono" id="131" weight="21406824.800002" />
+      <edge source="LOC::Tlaxcala.Acuamanala de Miguel Hidalgo" target="SUB::Bióxido de nitrógeno" id="132" weight="624.0" />
+      <edge source="LOC::Tlaxcala.Acuamanala de Miguel Hidalgo" target="SUB::Mercurio (compuestos)" id="133" weight="0.0640399664" />
+      <edge source="LOC::Tlaxcala.Acuamanala de Miguel Hidalgo" target="SUB::Cromo (compuestos)" id="134" weight="3.0540571140000004" />
+      <edge source="LOC::Tlaxcala.Acuamanala de Miguel Hidalgo" target="SUB::Arsénico (compuestos)" id="135" weight="0.65685321" />
+      <edge source="LOC::Tlaxcala.Acuamanala de Miguel Hidalgo" target="SUB::Cadmio (compuestos)" id="136" weight="1.3017336335" />
+      <edge source="LOC::Tlaxcala.Teolocholco" target="SUB::Cianuro inorgánico/orgánico" id="137" weight="4.980208837" />
+      <edge source="LOC::Tlaxcala.Teolocholco" target="SUB::Arsénico (compuestos)" id="138" weight="0.6062738018" />
+      <edge source="LOC::Tlaxcala.Teolocholco" target="SUB::Cromo (compuestos)" id="139" weight="3.269301" />
+      <edge source="LOC::Tlaxcala.Teolocholco" target="SUB::Mercurio (compuestos)" id="140" weight="0.8877763579" />
+      <edge source="LOC::Tlaxcala.Teolocholco" target="SUB::Níquel (compuestos)" id="141" weight="17.323820560999998" />
+      <edge source="LOC::Tlaxcala.Teolocholco" target="SUB::Plomo (compuestos)" id="142" weight="4308.903649004" />
+      <edge source="LOC::Tlaxcala.Teolocholco" target="SUB::Cadmio (compuestos)" id="143" weight="1.495001588" />
+      <edge source="LOC::Tlaxcala.Teolocholco" target="SUB::Bióxido de carbono" id="144" weight="285156832.3" />
+      <edge source="LOC::Tlaxcala.Teolocholco" target="SUB::Metano" id="145" weight="591434.0" />
+      <edge source="LOC::Tlaxcala.Teolocholco" target="SUB::Níquel (Compuestos solubles)" id="146" weight="29.1545" />
+      <edge source="LOC::Tlaxcala.Teolocholco" target="SUB::Cadmio (Compuestos solubles)" id="147" weight="2.6432" />
+      <edge source="LOC::Tlaxcala.Teolocholco" target="SUB::Cromo (Compuestos solubles)" id="148" weight="9.911999999999999" />
+      <edge source="LOC::Tlaxcala.Teolocholco" target="SUB::Plomo (Compuestos solubles)" id="149" weight="12.224799999999998" />
+      <edge source="LOC::Tlaxcala.Teolocholco" target="SUB::Cadmio (polvos, respirables, vapores o humos)" id="150" weight="0.78" />
+      <edge source="LOC::Tlaxcala.Calpulalpan" target="SUB::Plomo (compuestos)" id="151" weight="236.37732148759997" />
+      <edge source="LOC::Tlaxcala.Calpulalpan" target="SUB::Níquel (compuestos)" id="152" weight="192.47859816" />
+      <edge source="LOC::Tlaxcala.Calpulalpan" target="SUB::Cadmio (compuestos)" id="153" weight="94.61271980000001" />
+      <edge source="LOC::Tlaxcala.Calpulalpan" target="SUB::Cromo (compuestos)" id="154" weight="234.0672415298" />
+      <edge source="LOC::Tlaxcala.Calpulalpan" target="SUB::Mercurio (compuestos)" id="155" weight="5.674808212109999" />
+      <edge source="LOC::Tlaxcala.Calpulalpan" target="SUB::Cianuro inorgánico/orgánico" id="156" weight="33.417236728700004" />
+      <edge source="LOC::Tlaxcala.Calpulalpan" target="SUB::Arsénico (compuestos)" id="157" weight="1.1336308" />
+      <edge source="LOC::Tlaxcala.Calpulalpan" target="SUB::Plomo (polvos respirables, humos o vapores)" id="158" weight="121.24600000000001" />
+      <edge source="LOC::Tlaxcala.Calpulalpan" target="SUB::Mercurio (polvos, respirables, vapores o humos)" id="159" weight="4.809066654" />
+      <edge source="LOC::Tlaxcala.Calpulalpan" target="SUB::Níquel (polvos respirables, humos o vapores)" id="160" weight="123.13499999999999" />
+      <edge source="LOC::Tlaxcala.Calpulalpan" target="SUB::Cadmio (polvos, respirables, vapores o humos)" id="161" weight="90.64796427120001" />
+      <edge source="LOC::Tlaxcala.Calpulalpan" target="SUB::Cromo (polvos respirables, humos o vapores)" id="162" weight="125.33000000000001" />
+      <edge source="LOC::Tlaxcala.Calpulalpan" target="SUB::Arsénico (polvos, respirables, vapores o humos)" id="163" weight="2.40511202434" />
+      <edge source="LOC::Tlaxcala.Calpulalpan" target="SUB::Bióxido de carbono" id="164" weight="577303660.000028" />
+      <edge source="LOC::Tlaxcala.Calpulalpan" target="SUB::Bromuro de metilo" id="165" weight="38440.93" />
+      <edge source="LOC::Tlaxcala.Calpulalpan" target="SUB::Cromo (Compuestos solubles)" id="166" weight="159.84390000000002" />
+      <edge source="LOC::Tlaxcala.Calpulalpan" target="SUB::Níquel (Compuestos solubles)" id="167" weight="35.1062" />
+      <edge source="LOC::Tlaxcala.Calpulalpan" target="SUB::Plomo (Compuestos solubles)" id="168" weight="63.3162" />
+      <edge source="LOC::Tlaxcala.Calpulalpan" target="SUB::Cadmio (Compuestos solubles)" id="169" weight="13.2732" />
+      <edge source="LOC::Tlaxcala.Calpulalpan" target="SUB::Mercurio (Compuestos solubles)" id="170" weight="1.3273" />
+      <edge source="LOC::Tlaxcala.Tlaxcala" target="SUB::Arsénico (compuestos)" id="171" weight="607.80838823" />
+      <edge source="LOC::Tlaxcala.Tlaxcala" target="SUB::Cadmio (compuestos)" id="172" weight="1899.00119485" />
+      <edge source="LOC::Tlaxcala.Tlaxcala" target="SUB::Cromo (compuestos)" id="173" weight="9165.829763970001" />
+      <edge source="LOC::Tlaxcala.Tlaxcala" target="SUB::Mercurio (compuestos)" id="174" weight="94.82959725200001" />
+      <edge source="LOC::Tlaxcala.Tlaxcala" target="SUB::Níquel (compuestos)" id="175" weight="8909.354586095002" />
+      <edge source="LOC::Tlaxcala.Tlaxcala" target="SUB::Plomo (compuestos)" id="176" weight="8646.05880342" />
+      <edge source="LOC::Tlaxcala.Tlaxcala" target="SUB::Cianuro inorgánico/orgánico" id="177" weight="2172.27294624" />
+      <edge source="LOC::Tlaxcala.Tlaxcala" target="SUB::Arsénico (polvos, respirables, vapores o humos)" id="178" weight="0.650982742" />
+      <edge source="LOC::Tlaxcala.Tlaxcala" target="SUB::Cadmio (polvos, respirables, vapores o humos)" id="179" weight="0.0113349" />
+      <edge source="LOC::Tlaxcala.Tlaxcala" target="SUB::Bióxido de carbono" id="180" weight="1287145.8800338164" />
+      <edge source="LOC::Tlaxcala.Tlaxcala" target="SUB::Cromo (Compuestos solubles)" id="181" weight="4.905" />
+      <edge source="LOC::Tlaxcala.Tlaxcala" target="SUB::Níquel (Compuestos solubles)" id="182" weight="3.555" />
+      <edge source="LOC::Tlaxcala.Tlaxcala" target="SUB::Plomo (Compuestos solubles)" id="183" weight="9.2699" />
+      <edge source="LOC::Tlaxcala.Tlaxcala" target="SUB::Mercurio (polvos, respirables, vapores o humos)" id="184" weight="1.09318e-05" />
+      <edge source="LOC::Tlaxcala.Tlaxcala" target="SUB::Cadmio (Compuestos solubles)" id="185" weight="1.08" />
+      <edge source="LOC::Tlaxcala.Ixtacuixtla de Mariano Matamoros" target="SUB::Níquel (compuestos)" id="186" weight="20.973701" />
+      <edge source="LOC::Tlaxcala.Ixtacuixtla de Mariano Matamoros" target="SUB::Plomo (compuestos)" id="187" weight="13.564516999999999" />
+      <edge source="LOC::Tlaxcala.Ixtacuixtla de Mariano Matamoros" target="SUB::Mercurio (compuestos)" id="188" weight="0.18496767" />
+      <edge source="LOC::Tlaxcala.Ixtacuixtla de Mariano Matamoros" target="SUB::Cromo (compuestos)" id="189" weight="7.44269" />
+      <edge source="LOC::Tlaxcala.Ixtacuixtla de Mariano Matamoros" target="SUB::Cadmio (compuestos)" id="190" weight="2.0087704" />
+      <edge source="LOC::Tlaxcala.Ixtacuixtla de Mariano Matamoros" target="SUB::Cianuro inorgánico/orgánico" id="191" weight="1.222571" />
+      <edge source="LOC::Tlaxcala.Ixtacuixtla de Mariano Matamoros" target="SUB::Arsénico (compuestos)" id="192" weight="0.518146" />
+      <edge source="LOC::Tlaxcala.Ixtacuixtla de Mariano Matamoros" target="SUB::Cadmio (polvos, respirables, vapores o humos)" id="193" weight="171.92945723" />
+      <edge source="LOC::Tlaxcala.Ixtacuixtla de Mariano Matamoros" target="SUB::Arsénico (polvos, respirables, vapores o humos)" id="194" weight="14.416611799999998" />
+      <edge source="LOC::Tlaxcala.Ixtacuixtla de Mariano Matamoros" target="SUB::Bióxido de carbono" id="195" weight="653039569.77" />
+      <edge source="LOC::Tlaxcala.Ixtacuixtla de Mariano Matamoros" target="SUB::Cromo (polvos respirables, humos o vapores)" id="196" weight="82.61" />
+      <edge source="LOC::Tlaxcala.Ixtacuixtla de Mariano Matamoros" target="SUB::Níquel (polvos respirables, humos o vapores)" id="197" weight="25.139999999999997" />
+      <edge source="LOC::Tlaxcala.Ixtacuixtla de Mariano Matamoros" target="SUB::Mercurio (polvos, respirables, vapores o humos)" id="198" weight="0.035922779999999994" />
+      <edge source="LOC::Tlaxcala.Ixtacuixtla de Mariano Matamoros" target="SUB::Cromo (Compuestos solubles)" id="199" weight="167.1206" />
+      <edge source="LOC::Tlaxcala.Ixtacuixtla de Mariano Matamoros" target="SUB::Níquel (Compuestos solubles)" id="200" weight="324.4211000000001" />
+      <edge source="LOC::Tlaxcala.Ixtacuixtla de Mariano Matamoros" target="SUB::Plomo (Compuestos solubles)" id="201" weight="176.08939999999998" />
+      <edge source="LOC::Tlaxcala.Ixtacuixtla de Mariano Matamoros" target="SUB::Cadmio (Compuestos solubles)" id="202" weight="39.057100000000005" />
+      <edge source="LOC::Tlaxcala.Ixtacuixtla de Mariano Matamoros" target="SUB::Arsénico (Compuestos solubles)" id="203" weight="1.325" />
+      <edge source="LOC::Tlaxcala.Ixtacuixtla de Mariano Matamoros" target="SUB::Bifenilos policlorados" id="204" weight="810.04574" />
+      <edge source="LOC::Tlaxcala.Ixtacuixtla de Mariano Matamoros" target="SUB::Asbesto y sus formas (En forma de polvo, fibras o productos desmenuzables con la presión de la mano)" id="205" weight="943.0" />
+      <edge source="LOC::Tlaxcala.Apetatitlán de Antonio Carvajal" target="SUB::Cianuro inorgánico/orgánico" id="206" weight="104.1823296" />
+      <edge source="LOC::Tlaxcala.Apetatitlán de Antonio Carvajal" target="SUB::Arsénico (compuestos)" id="207" weight="25.0143552" />
+      <edge source="LOC::Tlaxcala.Apetatitlán de Antonio Carvajal" target="SUB::Cadmio (compuestos)" id="208" weight="68.7863232" />
+      <edge source="LOC::Tlaxcala.Apetatitlán de Antonio Carvajal" target="SUB::Cromo (compuestos)" id="209" weight="361.60312896" />
+      <edge source="LOC::Tlaxcala.Apetatitlán de Antonio Carvajal" target="SUB::Mercurio (compuestos)" id="210" weight="4.16779776" />
+      <edge source="LOC::Tlaxcala.Apetatitlán de Antonio Carvajal" target="SUB::Níquel (compuestos)" id="211" weight="252.31070592" />
+      <edge source="LOC::Tlaxcala.Apetatitlán de Antonio Carvajal" target="SUB::Plomo (compuestos)" id="212" weight="329.31657216" />
+      <edge source="LOC::Tlaxcala.Tlaxco" target="SUB::Cianuro inorgánico/orgánico" id="213" weight="4.5192588680000005" />
+      <edge source="LOC::Tlaxcala.Tlaxco" target="SUB::Arsénico (compuestos)" id="214" weight="5.876675916" />
+      <edge source="LOC::Tlaxcala.Tlaxco" target="SUB::Cadmio (compuestos)" id="215" weight="3.09671716" />
+      <edge source="LOC::Tlaxcala.Tlaxco" target="SUB::Cromo (compuestos)" id="216" weight="16.348911787999995" />
+      <edge source="LOC::Tlaxcala.Tlaxco" target="SUB::Mercurio (compuestos)" id="217" weight="0.143663042" />
+      <edge source="LOC::Tlaxcala.Tlaxco" target="SUB::Níquel (compuestos)" id="218" weight="15.789495189" />
+      <edge source="LOC::Tlaxcala.Tlaxco" target="SUB::Plomo (compuestos)" id="219" weight="1637.817994051" />
+      <edge source="LOC::Tlaxcala.Tlaxco" target="SUB::Bióxido de carbono" id="220" weight="31040173.659" />
+      <edge source="LOC::Tlaxcala.Tlaxco" target="SUB::Mercurio (polvos, respirables, vapores o humos)" id="221" weight="5.079999999999999e-07" />
+      <edge source="LOC::Tlaxcala.Tlaxco" target="SUB::Arsénico (polvos, respirables, vapores o humos)" id="222" weight="2.1000000000000003e-08" />
+      <edge source="LOC::Tlaxcala.Tlaxco" target="SUB::Cadmio (polvos, respirables, vapores o humos)" id="223" weight="5.37e-07" />
+      <edge source="LOC::Tlaxcala.Tlaxco" target="SUB::Cadmio (Compuestos solubles)" id="224" weight="74.03900000000002" />
+      <edge source="LOC::Tlaxcala.Tlaxco" target="SUB::Cromo (Compuestos solubles)" id="225" weight="398.0183" />
+      <edge source="LOC::Tlaxcala.Tlaxco" target="SUB::Níquel (Compuestos solubles)" id="226" weight="1139.5515" />
+      <edge source="LOC::Tlaxcala.Tlaxco" target="SUB::Plomo (Compuestos solubles)" id="227" weight="307.5547" />
+      <edge source="LOC::Tlaxcala.Tlaxco" target="SUB::Arsénico (Compuestos solubles)" id="228" weight="7.8316" />
+      <edge source="LOC::Tlaxcala.Tzompantepec" target="SUB::Cianuro inorgánico/orgánico" id="229" weight="688.4916" />
+      <edge source="LOC::Tlaxcala.Tzompantepec" target="SUB::Arsénico (compuestos)" id="230" weight="148.56924" />
+      <edge source="LOC::Tlaxcala.Tzompantepec" target="SUB::Cadmio (compuestos)" id="231" weight="525.4278" />
+      <edge source="LOC::Tlaxcala.Tzompantepec" target="SUB::Cromo (compuestos)" id="232" weight="2485.81704" />
+      <edge source="LOC::Tlaxcala.Tzompantepec" target="SUB::Mercurio (compuestos)" id="233" weight="28.98912" />
+      <edge source="LOC::Tlaxcala.Tzompantepec" target="SUB::Níquel (compuestos)" id="234" weight="2547.41892" />
+      <edge source="LOC::Tlaxcala.Tzompantepec" target="SUB::Plomo (compuestos)" id="235" weight="2442.33336" />
+      <edge source="LOC::Tlaxcala.Papalotla de Xicohténcatl" target="SUB::Cianuro inorgánico/orgánico" id="236" weight="24.344239359619998" />
+      <edge source="LOC::Tlaxcala.Papalotla de Xicohténcatl" target="SUB::Mercurio (polvos, respirables, vapores o humos)" id="237" weight="0.20654260882" />
+      <edge source="LOC::Tlaxcala.Papalotla de Xicohténcatl" target="SUB::Arsénico (polvos, respirables, vapores o humos)" id="238" weight="1.3838588995400003" />
+      <edge source="LOC::Tlaxcala.Papalotla de Xicohténcatl" target="SUB::Cadmio (polvos, respirables, vapores o humos)" id="239" weight="4.8297806156" />
+      <edge source="LOC::Tlaxcala.Papalotla de Xicohténcatl" target="SUB::Arsénico (compuestos)" id="240" weight="405.14213846399997" />
+      <edge source="LOC::Tlaxcala.Papalotla de Xicohténcatl" target="SUB::Cadmio (compuestos)" id="241" weight="2.8293786560000003" />
+      <edge source="LOC::Tlaxcala.Papalotla de Xicohténcatl" target="SUB::Cromo (compuestos)" id="242" weight="19.7816688846" />
+      <edge source="LOC::Tlaxcala.Papalotla de Xicohténcatl" target="SUB::Mercurio (compuestos)" id="243" weight="0.1533087296" />
+      <edge source="LOC::Tlaxcala.Papalotla de Xicohténcatl" target="SUB::Níquel (compuestos)" id="244" weight="29.7618110978" />
+      <edge source="LOC::Tlaxcala.Papalotla de Xicohténcatl" target="SUB::Plomo (compuestos)" id="245" weight="10.869870064999997" />
+      <edge source="LOC::Tlaxcala.Papalotla de Xicohténcatl" target="SUB::Bióxido de carbono" id="246" weight="748724525.1174868" />
+      <edge source="LOC::Tlaxcala.Papalotla de Xicohténcatl" target="SUB::Cadmio (Compuestos solubles)" id="247" weight="50.219100000000005" />
+      <edge source="LOC::Tlaxcala.Papalotla de Xicohténcatl" target="SUB::Cromo (Compuestos solubles)" id="248" weight="167.3286" />
+      <edge source="LOC::Tlaxcala.Papalotla de Xicohténcatl" target="SUB::Mercurio (Compuestos solubles)" id="249" weight="1.0564" />
+      <edge source="LOC::Tlaxcala.Papalotla de Xicohténcatl" target="SUB::Níquel (Compuestos solubles)" id="250" weight="208.76749999999996" />
+      <edge source="LOC::Tlaxcala.Papalotla de Xicohténcatl" target="SUB::Plomo (Compuestos solubles)" id="251" weight="220.73470000000003" />
+      <edge source="LOC::Tlaxcala.Santa Cruz Tlaxcala" target="SUB::Cromo (Compuestos solubles)" id="252" weight="4.8084" />
+      <edge source="LOC::Tlaxcala.Ziltlaltépec de Trinidad Sánchez Santos" target="SUB::Cromo (Compuestos solubles)" id="253" weight="13.0637" />
+      <edge source="LOC::Tlaxcala.Ziltlaltépec de Trinidad Sánchez Santos" target="SUB::Níquel (Compuestos solubles)" id="254" weight="10.4071" />
+      <edge source="LOC::Tlaxcala.Ziltlaltépec de Trinidad Sánchez Santos" target="SUB::Bióxido de carbono" id="255" weight="4192865.5" />
+      <edge source="LOC::Tlaxcala.Ziltlaltépec de Trinidad Sánchez Santos" target="SUB::Plomo (Compuestos solubles)" id="256" weight="3.2178" />
+      <edge source="LOC::Tlaxcala.Ziltlaltépec de Trinidad Sánchez Santos" target="SUB::Mercurio (polvos, respirables, vapores o humos)" id="257" weight="1.95" />
+      <edge source="LOC::Tlaxcala.Natívitas" target="SUB::Arsénico (polvos, respirables, vapores o humos)" id="258" weight="0.0003024" />
+      <edge source="LOC::Tlaxcala.Natívitas" target="SUB::Cadmio (polvos, respirables, vapores o humos)" id="259" weight="0.009072" />
+      <edge source="LOC::Tlaxcala.Natívitas" target="SUB::Cianuro inorgánico/orgánico" id="260" weight="0.35579575999999996" />
+      <edge source="LOC::Tlaxcala.Natívitas" target="SUB::Cromo (compuestos)" id="261" weight="0.332414" />
+      <edge source="LOC::Tlaxcala.Natívitas" target="SUB::Mercurio (compuestos)" id="262" weight="0.0066856" />
+      <edge source="LOC::Tlaxcala.Natívitas" target="SUB::Níquel (compuestos)" id="263" weight="0.27164960000000005" />
+      <edge source="LOC::Tlaxcala.Natívitas" target="SUB::Plomo (compuestos)" id="264" weight="0.33027880000000004" />
+      <edge source="LOC::Tlaxcala.Natívitas" target="SUB::Bióxido de carbono" id="265" weight="17965.440000000002" />
+      <edge source="LOC::Tlaxcala.Natívitas" target="SUB::Cadmio (compuestos)" id="266" weight="0.05889" />
+      <edge source="LOC::Tlaxcala.Natívitas" target="SUB::Arsénico (compuestos)" id="267" weight="0.004258" />
+      <edge source="LOC::Tlaxcala.Atlangatepec" target="SUB::Cianuro inorgánico/orgánico" id="268" weight="0.198574" />
+      <edge source="LOC::Tlaxcala.Atlangatepec" target="SUB::Níquel (compuestos)" id="269" weight="0.9179179999999999" />
+      <edge source="LOC::Tlaxcala.Atlangatepec" target="SUB::Plomo (compuestos)" id="270" weight="0.9160729999999999" />
+      <edge source="LOC::Tlaxcala.Atlangatepec" target="SUB::Arsénico (polvos, respirables, vapores o humos)" id="271" weight="0.02847" />
+      <edge source="LOC::Tlaxcala.Atlangatepec" target="SUB::Cromo (compuestos)" id="272" weight="0.42601799999999995" />
+      <edge source="LOC::Tlaxcala.Atlangatepec" target="SUB::Mercurio (compuestos)" id="273" weight="0.0035326" />
+      <edge source="LOC::Tlaxcala.Atlangatepec" target="SUB::Cadmio (polvos, respirables, vapores o humos)" id="274" weight="0.023725" />
+      <edge source="LOC::Tlaxcala.Atlangatepec" target="SUB::Bióxido de carbono" id="275" weight="207681683.05" />
+      <edge source="LOC::Tlaxcala.Atlangatepec" target="SUB::Cadmio (compuestos)" id="276" weight="0.0867" />
+      <edge source="LOC::Tlaxcala.Atlangatepec" target="SUB::Arsénico (compuestos)" id="277" weight="0.014698000000000001" />
+      <edge source="LOC::Tlaxcala.San Pablo del Monte" target="SUB::Bióxido de carbono" id="278" weight="32738394.7919" />
+      <edge source="LOC::Tlaxcala.La Magdalena Tlaltelulco" target="SUB::Bióxido de carbono" id="279" weight="394011667.2458" />
+      <edge source="LOC::Tlaxcala.La Magdalena Tlaltelulco" target="SUB::Oxido nitroso" id="280" weight="793810.0" />
+      <edge source="LOC::Tlaxcala.La Magdalena Tlaltelulco" target="SUB::Plomo (compuestos)" id="281" weight="5.75094" />
+      <edge source="LOC::Tlaxcala.La Magdalena Tlaltelulco" target="SUB::Cadmio (compuestos)" id="282" weight="0.89206" />
+      <edge source="LOC::Tlaxcala.La Magdalena Tlaltelulco" target="SUB::Cadmio (polvos, respirables, vapores o humos)" id="283" weight="0.89206" />
+      <edge source="LOC::Tlaxcala.La Magdalena Tlaltelulco" target="SUB::Mercurio (polvos, respirables, vapores o humos)" id="284" weight="0.01898" />
+      <edge source="LOC::Tlaxcala.La Magdalena Tlaltelulco" target="SUB::Mercurio (compuestos)" id="285" weight="0.01898" />
+      <edge source="LOC::Tlaxcala.La Magdalena Tlaltelulco" target="SUB::Cromo (compuestos)" id="286" weight="7.36424" />
+      <edge source="LOC::Tlaxcala.La Magdalena Tlaltelulco" target="SUB::Cianuro inorgánico/orgánico" id="287" weight="1.06288" />
+      <edge source="LOC::Tlaxcala.La Magdalena Tlaltelulco" target="SUB::Níquel (compuestos)" id="288" weight="18.71428" />
+      <edge source="LOC::Tlaxcala.La Magdalena Tlaltelulco" target="SUB::Arsénico (compuestos)" id="289" weight="0.02847" />
+      <edge source="LOC::Tlaxcala.La Magdalena Tlaltelulco" target="SUB::Arsénico (polvos, respirables, vapores o humos)" id="290" weight="0.02847" />
+      <edge source="LOC::Tlaxcala.La Magdalena Tlaltelulco" target="SUB::Cadmio (Compuestos solubles)" id="291" weight="4.4618" />
+      <edge source="LOC::Tlaxcala.La Magdalena Tlaltelulco" target="SUB::Cromo (Compuestos solubles)" id="292" weight="29.579500000000003" />
+      <edge source="LOC::Tlaxcala.La Magdalena Tlaltelulco" target="SUB::Níquel (Compuestos solubles)" id="293" weight="28.848931599999997" />
+      <edge source="LOC::Tlaxcala.La Magdalena Tlaltelulco" target="SUB::Plomo (Compuestos solubles)" id="294" weight="33.36908" />
+      <edge source="LOC::Tlaxcala.Huamantla" target="SUB::Bióxido de carbono" id="295" weight="1437016.3800000001" />
+      <edge source="LOC::Tlaxcala.Huamantla" target="SUB::Arsénico (compuestos)" id="296" weight="0.79400038" />
+      <edge source="LOC::Tlaxcala.Huamantla" target="SUB::Plomo (compuestos)" id="297" weight="62.778916259999995" />
+      <edge source="LOC::Tlaxcala.Huamantla" target="SUB::Cianuro inorgánico/orgánico" id="298" weight="3.1732278000000003" />
+      <edge source="LOC::Tlaxcala.Huamantla" target="SUB::Cadmio (compuestos)" id="299" weight="1.5918336" />
+      <edge source="LOC::Tlaxcala.Huamantla" target="SUB::Cromo (compuestos)" id="300" weight="30.986609280000003" />
+      <edge source="LOC::Tlaxcala.Huamantla" target="SUB::Mercurio (compuestos)" id="301" weight="0.12684168" />
+      <edge source="LOC::Tlaxcala.Huamantla" target="SUB::Níquel (compuestos)" id="302" weight="39.61466506" />
+      <edge source="LOC::Tlaxcala.Huamantla" target="SUB::Mercurio (polvos, respirables, vapores o humos)" id="303" weight="0.5354220000000001" />
+      <edge source="LOC::Tlaxcala.Huamantla" target="SUB::Cadmio (polvos, respirables, vapores o humos)" id="304" weight="6.689991" />
+      <edge source="LOC::Tlaxcala.Huamantla" target="SUB::Arsénico (polvos, respirables, vapores o humos)" id="305" weight="0.5406420000000001" />
+      <edge source="LOC::Tlaxcala.Huamantla" target="SUB::Cadmio (Compuestos solubles)" id="306" weight="65.2414" />
+      <edge source="LOC::Tlaxcala.Huamantla" target="SUB::Cromo (Compuestos solubles)" id="307" weight="158.4862" />
+      <edge source="LOC::Tlaxcala.Huamantla" target="SUB::Níquel (Compuestos solubles)" id="308" weight="151.6219" />
+      <edge source="LOC::Tlaxcala.Huamantla" target="SUB::Plomo (Compuestos solubles)" id="309" weight="138.0466" />
+      <edge source="LOC::Tlaxcala.El Carmen Tequexquitla" target="SUB::Bióxido de carbono" id="310" weight="20697367.7" />
+      <edge source="LOC::Tlaxcala.El Carmen Tequexquitla" target="SUB::Triclorobenceno" id="311" weight="245325.0" />
+      <edge source="LOC::Tlaxcala.Mazatecochco de José María Morelos" target="SUB::Bióxido de carbono" id="312" weight="61526110.0" />
+      <edge source="LOC::Tlaxcala.Mazatecochco de José María Morelos" target="SUB::Cromo (Compuestos solubles)" id="313" weight="2.2019" />
+      <edge source="LOC::Tlaxcala.Mazatecochco de José María Morelos" target="SUB::Níquel (Compuestos solubles)" id="314" weight="2.1087" />
+      <edge source="LOC::Tlaxcala.Santa Isabel Xiloxoxtla" target="SUB::Bióxido de carbono" id="315" weight="224.0" />
+      <edge source="LOC::Tlaxcala.Santa Isabel Xiloxoxtla" target="SUB::Cianuro inorgánico/orgánico" id="316" weight="0.1096712" />
+      <edge source="LOC::Tlaxcala.Santa Isabel Xiloxoxtla" target="SUB::Arsénico (compuestos)" id="317" weight="0.005664000000000001" />
+      <edge source="LOC::Tlaxcala.Santa Isabel Xiloxoxtla" target="SUB::Cadmio (compuestos)" id="318" weight="0.5648799999999999" />
+      <edge source="LOC::Tlaxcala.Santa Isabel Xiloxoxtla" target="SUB::Cromo (compuestos)" id="319" weight="0.05694848" />
+      <edge source="LOC::Tlaxcala.Santa Isabel Xiloxoxtla" target="SUB::Mercurio (compuestos)" id="320" weight="0.022596" />
+      <edge source="LOC::Tlaxcala.Santa Isabel Xiloxoxtla" target="SUB::Níquel (compuestos)" id="321" weight="1.1299759999999999" />
+      <edge source="LOC::Tlaxcala.Santa Isabel Xiloxoxtla" target="SUB::Plomo (compuestos)" id="322" weight="2.8243679999999998" />
+      <edge source="LOC::Tlaxcala.Tepeyanco" target="SUB::Cianuro inorgánico/orgánico" id="323" weight="493.5384" />
+      <edge source="LOC::Tlaxcala.Tepeyanco" target="SUB::Arsénico (compuestos)" id="324" weight="148.53456" />
+      <edge source="LOC::Tlaxcala.Tepeyanco" target="SUB::Cadmio (compuestos)" id="325" weight="380.95488" />
+      <edge source="LOC::Tlaxcala.Tepeyanco" target="SUB::Cromo (compuestos)" id="326" weight="1904.7743999999998" />
+      <edge source="LOC::Tlaxcala.Tepeyanco" target="SUB::Mercurio (compuestos)" id="327" weight="20.81376" />
+      <edge source="LOC::Tlaxcala.Tepeyanco" target="SUB::Níquel (compuestos)" id="328" weight="1831.6108800000002" />
+      <edge source="LOC::Tlaxcala.Tepeyanco" target="SUB::Plomo (compuestos)" id="329" weight="1823.41152" />
+      <edge source="LOC::Tlaxcala.Ixtenco" target="SUB::Cianuro inorgánico/orgánico" id="330" weight="3.38728176" />
+      <edge source="LOC::Tlaxcala.Ixtenco" target="SUB::Arsénico (compuestos)" id="331" weight="0.324000864" />
+      <edge source="LOC::Tlaxcala.Ixtenco" target="SUB::Cadmio (compuestos)" id="332" weight="7.65820224" />
+      <edge source="LOC::Tlaxcala.Ixtenco" target="SUB::Cromo (compuestos)" id="333" weight="17.23095504" />
+      <edge source="LOC::Tlaxcala.Ixtenco" target="SUB::Mercurio (compuestos)" id="334" weight="0.603819792" />
+      <edge source="LOC::Tlaxcala.Ixtenco" target="SUB::Níquel (compuestos)" id="335" weight="17.52550128" />
+      <edge source="LOC::Tlaxcala.Ixtenco" target="SUB::Plomo (compuestos)" id="336" weight="17.08368192" />
+      <edge source="LOC::Tlaxcala.Cuapiaxtla" target="SUB::Cromo (Compuestos solubles)" id="337" weight="1.5763999999999998" />
+      <edge source="LOC::Tlaxcala.Cuapiaxtla" target="SUB::Níquel (Compuestos solubles)" id="338" weight="1.2899" />
+    </edges>
+  </graph>
+</gexf>

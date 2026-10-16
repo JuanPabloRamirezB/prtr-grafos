@@ -1,0 +1,63 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<gexf xmlns="http://gexf.net/1.3" version="1.3" xmlns:viz="http://gexf.net/1.3/viz" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://gexf.net/1.3 http://gexf.net/1.3/gexf.xsd">
+  <meta lastmodifieddate="2026-10-16">
+    <creator>Apache NetBeans Platform Dev (Build {0})</creator>
+    <title></title>
+    <description></description>
+  </meta>
+  <graph defaultedgetype="undirected" mode="static">
+    <attributes class="node" mode="static">
+      <attribute id="0" title="role" type="string"/>
+      <attribute id="1" title="total_kg" type="double"/>
+    </attributes>
+    <nodes>
+      <node id="Nayarit.San Pedro Lagunillas" label="Nayarit.San Pedro Lagunillas">
+        <attvalues>
+          <attvalue for="0" value="focal"/>
+          <attvalue for="1" value="9.24718575684E7"/>
+        </attvalues>
+        <viz:size value="40.0"/>
+        <viz:position x="-3.3871722E-4" y="0.001182404"/>
+        <viz:color r="227" g="73" b="72"/>
+      </node>
+      <node id="Bióxido de carbono" label="Carbon dioxide">
+        <attvalues>
+          <attvalue for="0" value="substance"/>
+          <attvalue for="1" value="8.7164035E7"/>
+        </attvalues>
+        <viz:size value="38.277466"/>
+        <viz:position x="18.100689" y="67.666534"/>
+        <viz:color r="235" g="104" b="52"/>
+      </node>
+      <node id="Acido sulfhídrico" label="Hydrogen sulfide">
+        <attvalues>
+          <attvalue for="0" value="substance"/>
+          <attvalue for="1" value="5278100.0"/>
+        </attvalues>
+        <viz:size value="11.703242"/>
+        <viz:position x="49.57072" y="-49.599167"/>
+        <viz:color r="235" g="104" b="52"/>
+      </node>
+      <node id="Arsénico (Compuestos solubles)" label="Arsenic (soluble compounds)">
+        <attvalues>
+          <attvalue for="0" value="substance"/>
+          <attvalue for="1" value="29722.5684"/>
+        </attvalues>
+        <viz:size value="10.0"/>
+        <viz:position x="-66.746796" y="-21.37012"/>
+        <viz:color r="235" g="104" b="52"/>
+      </node>
+    </nodes>
+    <edges>
+      <edge id="0" source="Nayarit.San Pedro Lagunillas" target="Bióxido de carbono" weight="8.7164032E7">
+        <viz:color r="137" g="135" b="129" a="0.54901963"/>
+      </edge>
+      <edge id="1" source="Nayarit.San Pedro Lagunillas" target="Acido sulfhídrico" weight="5278100.0">
+        <viz:color r="137" g="135" b="129" a="0.54901963"/>
+      </edge>
+      <edge id="2" source="Nayarit.San Pedro Lagunillas" target="Arsénico (Compuestos solubles)" weight="29722.568359375">
+        <viz:color r="137" g="135" b="129" a="0.54901963"/>
+      </edge>
+    </edges>
+  </graph>
+</gexf>

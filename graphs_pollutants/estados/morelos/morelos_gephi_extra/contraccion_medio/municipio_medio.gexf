@@ -1,0 +1,211 @@
+<?xml version='1.0' encoding='utf-8'?>
+<gexf xmlns="http://www.gexf.net/1.2draft" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.gexf.net/1.2draft http://www.gexf.net/1.2draft/gexf.xsd" version="1.2">
+  <meta lastmodifieddate="2026-10-16">
+    <creator>NetworkX 3.7</creator>
+  </meta>
+  <graph defaultedgetype="undirected" mode="static" name="">
+    <attributes mode="static" class="node">
+      <attribute id="0" title="type" type="string" />
+      <attribute id="1" title="total_kg" type="double" />
+    </attributes>
+    <nodes>
+      <node id="LOC::Morelos.Cuernavaca" label="Morelos.Cuernavaca">
+        <attvalues>
+          <attvalue for="0" value="location" />
+          <attvalue for="1" value="866119439.9682971" />
+        </attvalues>
+      </node>
+      <node id="LOC::Morelos.Yecapixtla" label="Morelos.Yecapixtla">
+        <attvalues>
+          <attvalue for="0" value="location" />
+          <attvalue for="1" value="2102497519.9259844" />
+        </attvalues>
+      </node>
+      <node id="LOC::Morelos.Jiutepec" label="Morelos.Jiutepec">
+        <attvalues>
+          <attvalue for="0" value="location" />
+          <attvalue for="1" value="2116654772.5221298" />
+        </attvalues>
+      </node>
+      <node id="LOC::Morelos.Emiliano Zapata" label="Morelos.Emiliano Zapata">
+        <attvalues>
+          <attvalue for="0" value="location" />
+          <attvalue for="1" value="24772449384.374886" />
+        </attvalues>
+      </node>
+      <node id="LOC::Morelos.Yautepec" label="Morelos.Yautepec">
+        <attvalues>
+          <attvalue for="0" value="location" />
+          <attvalue for="1" value="7365252.614504" />
+        </attvalues>
+      </node>
+      <node id="LOC::Morelos.Puente de Ixtla" label="Morelos.Puente de Ixtla">
+        <attvalues>
+          <attvalue for="0" value="location" />
+          <attvalue for="1" value="279.8599843199999" />
+        </attvalues>
+      </node>
+      <node id="LOC::Morelos.Xochitepec" label="Morelos.Xochitepec">
+        <attvalues>
+          <attvalue for="0" value="location" />
+          <attvalue for="1" value="6489221.720785683" />
+        </attvalues>
+      </node>
+      <node id="LOC::Morelos.Cuautla" label="Morelos.Cuautla">
+        <attvalues>
+          <attvalue for="0" value="location" />
+          <attvalue for="1" value="282588.98843390995" />
+        </attvalues>
+      </node>
+      <node id="LOC::Morelos.Ayala" label="Morelos.Ayala">
+        <attvalues>
+          <attvalue for="0" value="location" />
+          <attvalue for="1" value="2945283786.725983" />
+        </attvalues>
+      </node>
+      <node id="LOC::Morelos.Zacatepec" label="Morelos.Zacatepec">
+        <attvalues>
+          <attvalue for="0" value="location" />
+          <attvalue for="1" value="8.22915386" />
+        </attvalues>
+      </node>
+      <node id="LOC::Morelos.Tlaltizapán de Zapata" label="Morelos.Tlaltizapán de Zapata">
+        <attvalues>
+          <attvalue for="0" value="location" />
+          <attvalue for="1" value="1676685.44" />
+        </attvalues>
+      </node>
+      <node id="LOC::Morelos.Atlatlahucan" label="Morelos.Atlatlahucan">
+        <attvalues>
+          <attvalue for="0" value="location" />
+          <attvalue for="1" value="2718432.7" />
+        </attvalues>
+      </node>
+      <node id="MED::agua" label="water">
+        <attvalues>
+          <attvalue for="0" value="medio" />
+          <attvalue for="1" value="63422.84336942852" />
+        </attvalues>
+      </node>
+      <node id="MED::aire" label="air">
+        <attvalues>
+          <attvalue for="0" value="medio" />
+          <attvalue for="1" value="32816990021.952328" />
+        </attvalues>
+      </node>
+      <node id="MED::suelo" label="soil">
+        <attvalues>
+          <attvalue for="0" value="medio" />
+          <attvalue for="1" value="20454.18385399844" />
+        </attvalues>
+      </node>
+      <node id="MED::alcantarillado" label="sewer system">
+        <attvalues>
+          <attvalue for="0" value="medio" />
+          <attvalue for="1" value="6337.724009162" />
+        </attvalues>
+      </node>
+      <node id="MED::coprocesamiento" label="co-processing">
+        <attvalues>
+          <attvalue for="0" value="medio" />
+          <attvalue for="1" value="13668.548019502" />
+        </attvalues>
+      </node>
+      <node id="MED::disposicion_final" label="final disposal">
+        <attvalues>
+          <attvalue for="0" value="medio" />
+          <attvalue for="1" value="59020.61083218399" />
+        </attvalues>
+      </node>
+      <node id="MED::incineracion" label="incineration">
+        <attvalues>
+          <attvalue for="0" value="medio" />
+          <attvalue for="1" value="24972.300000000003" />
+        </attvalues>
+      </node>
+      <node id="MED::otros" label="other">
+        <attvalues>
+          <attvalue for="0" value="medio" />
+          <attvalue for="1" value="16326.6377181" />
+        </attvalues>
+      </node>
+      <node id="MED::reciclado" label="recycling">
+        <attvalues>
+          <attvalue for="0" value="medio" />
+          <attvalue for="1" value="4124955.9140346493" />
+        </attvalues>
+      </node>
+      <node id="MED::reutilizacion" label="reuse">
+        <attvalues>
+          <attvalue for="0" value="medio" />
+          <attvalue for="1" value="213412.0" />
+        </attvalues>
+      </node>
+      <node id="MED::tratamiento" label="treatment">
+        <attvalues>
+          <attvalue for="0" value="medio" />
+          <attvalue for="1" value="4780.356000000001" />
+        </attvalues>
+      </node>
+    </nodes>
+    <edges>
+      <edge source="LOC::Morelos.Cuernavaca" target="MED::agua" id="0" weight="32028.537931798088" />
+      <edge source="LOC::Morelos.Cuernavaca" target="MED::aire" id="1" weight="866050582.1171983" />
+      <edge source="LOC::Morelos.Cuernavaca" target="MED::suelo" id="2" weight="10659.246480868402" />
+      <edge source="LOC::Morelos.Cuernavaca" target="MED::coprocesamiento" id="3" weight="1.9502e-05" />
+      <edge source="LOC::Morelos.Cuernavaca" target="MED::disposicion_final" id="4" weight="24180.657832183995" />
+      <edge source="LOC::Morelos.Cuernavaca" target="MED::otros" id="5" weight="18.608800000000002" />
+      <edge source="LOC::Morelos.Cuernavaca" target="MED::reciclado" id="6" weight="1852.00003465" />
+      <edge source="LOC::Morelos.Cuernavaca" target="MED::tratamiento" id="7" weight="118.8" />
+      <edge source="LOC::Morelos.Yecapixtla" target="MED::agua" id="8" weight="1984.0893223440003" />
+      <edge source="LOC::Morelos.Yecapixtla" target="MED::aire" id="9" weight="2102492423.5" />
+      <edge source="LOC::Morelos.Yecapixtla" target="MED::suelo" id="10" weight="3112.336662949999" />
+      <edge source="LOC::Morelos.Jiutepec" target="MED::agua" id="11" weight="23507.8453221876" />
+      <edge source="LOC::Morelos.Jiutepec" target="MED::aire" id="12" weight="2112231854.763533" />
+      <edge source="LOC::Morelos.Jiutepec" target="MED::suelo" id="13" weight="5884.806567090001" />
+      <edge source="LOC::Morelos.Jiutepec" target="MED::alcantarillado" id="14" weight="6317.987758161999" />
+      <edge source="LOC::Morelos.Jiutepec" target="MED::coprocesamiento" id="15" weight="11628.552000000001" />
+      <edge source="LOC::Morelos.Jiutepec" target="MED::disposicion_final" id="16" weight="34799.520000000004" />
+      <edge source="LOC::Morelos.Jiutepec" target="MED::incineracion" id="17" weight="24972.300000000003" />
+      <edge source="LOC::Morelos.Jiutepec" target="MED::otros" id="18" weight="9175.574951000002" />
+      <edge source="LOC::Morelos.Jiutepec" target="MED::reciclado" id="19" weight="4088558.492" />
+      <edge source="LOC::Morelos.Jiutepec" target="MED::reutilizacion" id="20" weight="213412.0" />
+      <edge source="LOC::Morelos.Jiutepec" target="MED::tratamiento" id="21" weight="4660.68" />
+      <edge source="LOC::Morelos.Emiliano Zapata" target="MED::agua" id="22" weight="103.15352853780001" />
+      <edge source="LOC::Morelos.Emiliano Zapata" target="MED::aire" id="23" weight="24772446490.904766" />
+      <edge source="LOC::Morelos.Emiliano Zapata" target="MED::suelo" id="24" weight="131.06660762999996" />
+      <edge source="LOC::Morelos.Emiliano Zapata" target="MED::alcantarillado" id="25" weight="15.0" />
+      <edge source="LOC::Morelos.Emiliano Zapata" target="MED::coprocesamiento" id="26" weight="2000.0" />
+      <edge source="LOC::Morelos.Emiliano Zapata" target="MED::disposicion_final" id="27" weight="0.433" />
+      <edge source="LOC::Morelos.Emiliano Zapata" target="MED::otros" id="28" weight="41.201" />
+      <edge source="LOC::Morelos.Emiliano Zapata" target="MED::reciclado" id="29" weight="601.74" />
+      <edge source="LOC::Morelos.Emiliano Zapata" target="MED::tratamiento" id="30" weight="0.876" />
+      <edge source="LOC::Morelos.Yautepec" target="MED::agua" id="31" weight="1632.007056" />
+      <edge source="LOC::Morelos.Yautepec" target="MED::aire" id="32" weight="7360223.66" />
+      <edge source="LOC::Morelos.Yautepec" target="MED::suelo" id="33" weight="1.877448" />
+      <edge source="LOC::Morelos.Yautepec" target="MED::otros" id="34" weight="3395.07" />
+      <edge source="LOC::Morelos.Puente de Ixtla" target="MED::agua" id="35" weight="0.20064351999999996" />
+      <edge source="LOC::Morelos.Puente de Ixtla" target="MED::aire" id="36" weight="262.77599999999995" />
+      <edge source="LOC::Morelos.Puente de Ixtla" target="MED::suelo" id="37" weight="16.8833408" />
+      <edge source="LOC::Morelos.Xochitepec" target="MED::agua" id="38" weight="0.038455681000000005" />
+      <edge source="LOC::Morelos.Xochitepec" target="MED::aire" id="39" weight="6489099.38033" />
+      <edge source="LOC::Morelos.Xochitepec" target="MED::alcantarillado" id="40" weight="2.31" />
+      <edge source="LOC::Morelos.Xochitepec" target="MED::coprocesamiento" id="41" weight="39.996" />
+      <edge source="LOC::Morelos.Xochitepec" target="MED::disposicion_final" id="42" weight="40.0" />
+      <edge source="LOC::Morelos.Xochitepec" target="MED::reciclado" id="43" weight="39.996" />
+      <edge source="LOC::Morelos.Cuautla" target="MED::agua" id="44" weight="14.528" />
+      <edge source="LOC::Morelos.Cuautla" target="MED::aire" id="45" weight="282562.62686681" />
+      <edge source="LOC::Morelos.Cuautla" target="MED::alcantarillado" id="46" weight="2.0375" />
+      <edge source="LOC::Morelos.Cuautla" target="MED::otros" id="47" weight="9.7960671" />
+      <edge source="LOC::Morelos.Ayala" target="MED::agua" id="48" weight="4144.2139555" />
+      <edge source="LOC::Morelos.Ayala" target="MED::aire" id="49" weight="2945241404.0836296" />
+      <edge source="LOC::Morelos.Ayala" target="MED::suelo" id="50" weight="647.9667466600001" />
+      <edge source="LOC::Morelos.Ayala" target="MED::alcantarillado" id="51" weight="0.388751" />
+      <edge source="LOC::Morelos.Ayala" target="MED::otros" id="52" weight="3686.3869" />
+      <edge source="LOC::Morelos.Ayala" target="MED::reciclado" id="53" weight="33903.686" />
+      <edge source="LOC::Morelos.Zacatepec" target="MED::agua" id="54" weight="8.22915386" />
+      <edge source="LOC::Morelos.Tlaltizapán de Zapata" target="MED::aire" id="55" weight="1676685.44" />
+      <edge source="LOC::Morelos.Atlatlahucan" target="MED::aire" id="56" weight="2718432.7" />
+    </edges>
+  </graph>
+</gexf>

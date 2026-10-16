@@ -6,6 +6,7 @@ Altamira deals with". Role attribute: focal / substance / peer_municipio.
 import csv
 import os
 import sys
+import unicodedata
 sys.path.insert(0, os.path.normpath(os.path.join(os.path.dirname(os.path.abspath(__file__)), "..", "..", "..")))
 import prtr_hover as H
 
@@ -13,10 +14,16 @@ import networkx as nx
 
 HERE = os.path.dirname(os.path.abspath(__file__))
 SRC = os.path.join(HERE, "..", "..", "..", "prtr_raw_for_stori_stori.csv")
-STATE_FILTER = "Tamaulipas"
-FOCAL = "Tamaulipas.Altamira"
+STATE_FILTER = sys.argv[1] if len(sys.argv) > 1 else "Tamaulipas"
+OUT_DIR = sys.argv[2] if len(sys.argv) > 2 else HERE
 TOP_N_SUBSTANCES = 15
 PEER_OVERLAP_MIN = 6
+
+
+def slugify(name):
+    n = unicodedata.normalize("NFKD", name).encode("ascii", "ignore").decode()
+    return n.lower().replace(" ", "_")
+
 
 muni_sub_kg = {}
 with open(SRC, encoding="utf-8") as f:
@@ -34,6 +41,12 @@ with open(SRC, encoding="utf-8") as f:
             continue
         muni_sub_kg.setdefault(loc, {})
         muni_sub_kg[loc][sub] = muni_sub_kg[loc].get(sub, 0.0) + v
+
+FOCAL = max(muni_sub_kg, key=lambda m: sum(muni_sub_kg[m].values()))
+FOCAL_NAME = FOCAL.split(".", 1)[1]
+FOCAL_SLUG = slugify(FOCAL_NAME)
+with open(os.path.join(OUT_DIR, "focal.txt"), "w", encoding="utf-8") as f:
+    f.write(f"{FOCAL_NAME}\n{FOCAL_SLUG}\n")
 
 top_subs = sorted(muni_sub_kg[FOCAL].items(), key=lambda x: -x[1])[:TOP_N_SUBSTANCES]
 top_sub_names = {s for s, _ in top_subs}
@@ -61,6 +74,6 @@ for m, overlap in peers.items():
         G.add_edge(m, s, weight=muni_sub_kg[m][s])
 
 print(f"Nodes: {G.number_of_nodes()}  Edges: {G.number_of_edges()}")
-out = os.path.join(HERE, "ego_altamira.gexf")
+out = os.path.join(OUT_DIR, f"ego_{FOCAL_SLUG}.gexf")
 nx.write_gexf(G, out)
 print(f"Written {out}")

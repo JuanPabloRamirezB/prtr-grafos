@@ -1,0 +1,37 @@
+<?xml version='1.0' encoding='utf-8'?>
+<gexf xmlns="http://www.gexf.net/1.2draft" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.gexf.net/1.2draft http://www.gexf.net/1.2draft/gexf.xsd" version="1.2">
+  <meta lastmodifieddate="2026-10-16">
+    <creator>NetworkX 3.7</creator>
+  </meta>
+  <graph defaultedgetype="undirected" mode="static" name="">
+    <attributes mode="static" class="node">
+      <attribute id="0" title="total_kg" type="double" />
+    </attributes>
+    <nodes>
+      <node id="Nayarit.Bahía de Banderas" label="Nayarit.Bahía de Banderas">
+        <attvalues>
+          <attvalue for="0" value="868.3304" />
+        </attvalues>
+      </node>
+      <node id="Nayarit.San Blas" label="Nayarit.San Blas">
+        <attvalues>
+          <attvalue for="0" value="1090.9144999999999" />
+        </attvalues>
+      </node>
+      <node id="Nayarit.Tepic" label="Nayarit.Tepic">
+        <attvalues>
+          <attvalue for="0" value="16586.323953395986" />
+        </attvalues>
+      </node>
+      <node id="Nayarit.Xalisco" label="Nayarit.Xalisco">
+        <attvalues>
+          <attvalue for="0" value="484452.7802207221" />
+        </attvalues>
+      </node>
+    </nodes>
+    <edges>
+      <edge source="Nayarit.Bahía de Banderas" target="Nayarit.San Blas" id="0" weight="0.7875752950274263" />
+      <edge source="Nayarit.Tepic" target="Nayarit.Xalisco" id="1" weight="0.7038883122548616" />
+    </edges>
+  </graph>
+</gexf>

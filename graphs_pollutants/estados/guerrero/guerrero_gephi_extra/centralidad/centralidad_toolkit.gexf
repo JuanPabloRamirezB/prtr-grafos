@@ -1,0 +1,1296 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<gexf xmlns="http://gexf.net/1.3" version="1.3" xmlns:viz="http://gexf.net/1.3/viz" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://gexf.net/1.3 http://gexf.net/1.3/gexf.xsd">
+  <meta lastmodifieddate="2026-10-16">
+    <creator>Apache NetBeans Platform Dev (Build {0})</creator>
+    <title></title>
+    <description></description>
+  </meta>
+  <graph defaultedgetype="undirected" mode="static">
+    <attributes class="node" mode="static">
+      <attribute id="0" title="type" type="string"/>
+      <attribute id="1" title="total_kg" type="double"/>
+      <attribute id="eccentricity" title="Eccentricity" type="double">
+        <default>0.0</default>
+      </attribute>
+      <attribute id="closnesscentrality" title="Closeness Centrality" type="double">
+        <default>0.0</default>
+      </attribute>
+      <attribute id="harmonicclosnesscentrality" title="Harmonic Closeness Centrality" type="double">
+        <default>0.0</default>
+      </attribute>
+      <attribute id="betweenesscentrality" title="Betweenness Centrality" type="double">
+        <default>0.0</default>
+      </attribute>
+      <attribute id="pageranks" title="PageRank" type="double">
+        <default>0.0</default>
+      </attribute>
+    </attributes>
+    <attributes class="edge" mode="static">
+      <attribute id="2" title="count" type="long"/>
+    </attributes>
+    <nodes>
+      <node id="LOC::Guerrero.La Unión de Isidoro Montes de Oca" label="Guerrero.La Unión de Isidoro Montes de Oca">
+        <attvalues>
+          <attvalue for="0" value="location"/>
+          <attvalue for="1" value="7.365306066549957E10"/>
+          <attvalue for="eccentricity" value="3.0"/>
+          <attvalue for="closnesscentrality" value="0.4489795918367347"/>
+          <attvalue for="harmonicclosnesscentrality" value="0.5530303030303028"/>
+          <attvalue for="betweenesscentrality" value="122.59793758240504"/>
+          <attvalue for="pageranks" value="0.05499771495423903"/>
+        </attvalues>
+        <viz:size value="17.675142"/>
+        <viz:position x="-900.0" y="1200.0"/>
+        <viz:color r="42" g="120" b="214"/>
+      </node>
+      <node id="LOC::Guerrero.Eduardo Neri" label="Guerrero.Eduardo Neri">
+        <attvalues>
+          <attvalue for="0" value="location"/>
+          <attvalue for="1" value="4.4594598255097157E8"/>
+          <attvalue for="eccentricity" value="3.0"/>
+          <attvalue for="closnesscentrality" value="0.5116279069767442"/>
+          <attvalue for="harmonicclosnesscentrality" value="0.6439393939393935"/>
+          <attvalue for="betweenesscentrality" value="158.17823293351123"/>
+          <attvalue for="pageranks" value="0.07678499625256349"/>
+        </attvalues>
+        <viz:size value="21.063496"/>
+        <viz:position x="-900.0" y="600.0"/>
+        <viz:color r="42" g="120" b="214"/>
+      </node>
+      <node id="LOC::Guerrero.Acapulco de Juárez" label="Guerrero.Acapulco de Juárez">
+        <attvalues>
+          <attvalue for="0" value="location"/>
+          <attvalue for="1" value="1.3965031179349093E9"/>
+          <attvalue for="eccentricity" value="3.0"/>
+          <attvalue for="closnesscentrality" value="0.6875"/>
+          <attvalue for="harmonicclosnesscentrality" value="0.8106060606060606"/>
+          <attvalue for="betweenesscentrality" value="514.5375121818431"/>
+          <attvalue for="pageranks" value="0.13658674943474688"/>
+        </attvalues>
+        <viz:size value="55.0"/>
+        <viz:position x="-900.0" y="0.0"/>
+        <viz:color r="42" g="120" b="214"/>
+      </node>
+      <node id="LOC::Guerrero.Cutzamala de Pinzón" label="Guerrero.Cutzamala de Pinzón">
+        <attvalues>
+          <attvalue for="0" value="location"/>
+          <attvalue for="1" value="1765522.5352"/>
+          <attvalue for="eccentricity" value="4.0"/>
+          <attvalue for="closnesscentrality" value="0.4"/>
+          <attvalue for="harmonicclosnesscentrality" value="0.47159090909090884"/>
+          <attvalue for="betweenesscentrality" value="12.489217078827227"/>
+          <attvalue for="pageranks" value="0.03080654793905367"/>
+        </attvalues>
+        <viz:size value="7.1893625"/>
+        <viz:position x="-900.0" y="4200.0"/>
+        <viz:color r="42" g="120" b="214"/>
+      </node>
+      <node id="LOC::Guerrero.Chilpancingo de los Bravo" label="Guerrero.Chilpancingo de los Bravo">
+        <attvalues>
+          <attvalue for="0" value="location"/>
+          <attvalue for="1" value="115755.035552"/>
+          <attvalue for="eccentricity" value="3.0"/>
+          <attvalue for="closnesscentrality" value="0.41509433962264153"/>
+          <attvalue for="harmonicclosnesscentrality" value="0.49242424242424204"/>
+          <attvalue for="betweenesscentrality" value="15.860493195792472"/>
+          <attvalue for="pageranks" value="0.033506455541833055"/>
+        </attvalues>
+        <viz:size value="7.510413"/>
+        <viz:position x="-900.0" y="3600.0002"/>
+        <viz:color r="42" g="120" b="214"/>
+      </node>
+      <node id="LOC::Guerrero.General Heliodoro Castillo" label="Guerrero.General Heliodoro Castillo">
+        <attvalues>
+          <attvalue for="0" value="location"/>
+          <attvalue for="1" value="5.506355258"/>
+          <attvalue for="eccentricity" value="5.0"/>
+          <attvalue for="closnesscentrality" value="0.4"/>
+          <attvalue for="harmonicclosnesscentrality" value="0.4931818181818178"/>
+          <attvalue for="betweenesscentrality" value="16.082578863345116"/>
+          <attvalue for="pageranks" value="0.03698546763355725"/>
+        </attvalues>
+        <viz:size value="7.531563"/>
+        <viz:position x="-900.0" y="3000.0"/>
+        <viz:color r="42" g="120" b="214"/>
+      </node>
+      <node id="LOC::Guerrero.Iguala de la Independencia" label="Guerrero.Iguala de la Independencia">
+        <attvalues>
+          <attvalue for="0" value="location"/>
+          <attvalue for="1" value="24605.561969086"/>
+          <attvalue for="eccentricity" value="3.0"/>
+          <attvalue for="closnesscentrality" value="0.41509433962264153"/>
+          <attvalue for="harmonicclosnesscentrality" value="0.4924242424242422"/>
+          <attvalue for="betweenesscentrality" value="28.79737325854972"/>
+          <attvalue for="pageranks" value="0.03755162669668984"/>
+        </attvalues>
+        <viz:size value="8.742407"/>
+        <viz:position x="-900.0" y="2400.0"/>
+        <viz:color r="42" g="120" b="214"/>
+      </node>
+      <node id="LOC::Guerrero.Cocula" label="Guerrero.Cocula">
+        <attvalues>
+          <attvalue for="0" value="location"/>
+          <attvalue for="1" value="6.1254812394E8"/>
+          <attvalue for="eccentricity" value="3.0"/>
+          <attvalue for="closnesscentrality" value="0.38596491228070173"/>
+          <attvalue for="harmonicclosnesscentrality" value="0.4318181818181818"/>
+          <attvalue for="betweenesscentrality" value="6.7183958840099205"/>
+          <attvalue for="pageranks" value="0.019248538649312003"/>
+        </attvalues>
+        <viz:size value="6.6398005"/>
+        <viz:position x="-900.0" y="5400.0"/>
+        <viz:color r="42" g="120" b="214"/>
+      </node>
+      <node id="LOC::Guerrero.Arcelia" label="Guerrero.Arcelia">
+        <attvalues>
+          <attvalue for="0" value="location"/>
+          <attvalue for="1" value="523.014142500155"/>
+          <attvalue for="eccentricity" value="3.0"/>
+          <attvalue for="closnesscentrality" value="0.39285714285714285"/>
+          <attvalue for="harmonicclosnesscentrality" value="0.44696969696969685"/>
+          <attvalue for="betweenesscentrality" value="9.54766971422286"/>
+          <attvalue for="pageranks" value="0.02327320426531024"/>
+        </attvalues>
+        <viz:size value="6.9092355"/>
+        <viz:position x="-900.0" y="4800.0"/>
+        <viz:color r="42" g="120" b="214"/>
+      </node>
+      <node id="LOC::Guerrero.Teloloapan" label="Guerrero.Teloloapan">
+        <attvalues>
+          <attvalue for="0" value="location"/>
+          <attvalue for="1" value="5693838.200000001"/>
+          <attvalue for="eccentricity" value="4.0"/>
+          <attvalue for="closnesscentrality" value="0.3793103448275862"/>
+          <attvalue for="harmonicclosnesscentrality" value="0.4261363636363637"/>
+          <attvalue for="betweenesscentrality" value="45.19058930749333"/>
+          <attvalue for="pageranks" value="0.022120010928910392"/>
+        </attvalues>
+        <viz:size value="10.303552"/>
+        <viz:position x="-900.0" y="1800.0001"/>
+        <viz:color r="42" g="120" b="214"/>
+      </node>
+      <node id="LOC::Guerrero.Taxco de Alarcón" label="Guerrero.Taxco de Alarcón">
+        <attvalues>
+          <attvalue for="0" value="location"/>
+          <attvalue for="1" value="35027.880000000005"/>
+          <attvalue for="eccentricity" value="4.0"/>
+          <attvalue for="closnesscentrality" value="0.3548387096774194"/>
+          <attvalue for="harmonicclosnesscentrality" value="0.37500000000000017"/>
+          <attvalue for="betweenesscentrality" value="0.0"/>
+          <attvalue for="pageranks" value="0.0072338070065144314"/>
+        </attvalues>
+        <viz:size value="6.0"/>
+        <viz:position x="-900.0" y="6000.0"/>
+        <viz:color r="42" g="120" b="214"/>
+      </node>
+      <node id="SUB::Arsénico (polvos, respirables, vapores o humos)" label="Arsenic (respirable dust, vapors or fumes)">
+        <attvalues>
+          <attvalue for="0" value="substance"/>
+          <attvalue for="1" value="6060.158497633381"/>
+          <attvalue for="eccentricity" value="4.0"/>
+          <attvalue for="closnesscentrality" value="0.4835164835164835"/>
+          <attvalue for="harmonicclosnesscentrality" value="0.5284090909090909"/>
+          <attvalue for="betweenesscentrality" value="18.435161505058602"/>
+          <attvalue for="pageranks" value="0.02192772415192559"/>
+        </attvalues>
+        <viz:size value="7.755602"/>
+        <viz:position x="900.0" y="1090.9092"/>
+        <viz:color r="235" g="104" b="52"/>
+      </node>
+      <node id="SUB::Cromo (Compuestos solubles)" label="Chromium (soluble compounds)">
+        <attvalues>
+          <attvalue for="0" value="substance"/>
+          <attvalue for="1" value="492334.22444851603"/>
+          <attvalue for="eccentricity" value="4.0"/>
+          <attvalue for="closnesscentrality" value="0.4943820224719101"/>
+          <attvalue for="harmonicclosnesscentrality" value="0.543560606060606"/>
+          <attvalue for="betweenesscentrality" value="27.44105511961851"/>
+          <attvalue for="pageranks" value="0.02606814780596052"/>
+        </attvalues>
+        <viz:size value="8.613243"/>
+        <viz:position x="900.0" y="545.4546"/>
+        <viz:color r="235" g="104" b="52"/>
+      </node>
+      <node id="SUB::Mercurio (Compuestos solubles)" label="Mercury (soluble compounds)">
+        <attvalues>
+          <attvalue for="0" value="substance"/>
+          <attvalue for="1" value="5301.85842162048"/>
+          <attvalue for="eccentricity" value="4.0"/>
+          <attvalue for="closnesscentrality" value="0.4444444444444444"/>
+          <attvalue for="harmonicclosnesscentrality" value="0.4867424242424242"/>
+          <attvalue for="betweenesscentrality" value="5.5708383362947265"/>
+          <attvalue for="pageranks" value="0.014713225491589463"/>
+        </attvalues>
+        <viz:size value="6.5305176"/>
+        <viz:position x="900.0" y="2909.091"/>
+        <viz:color r="235" g="104" b="52"/>
+      </node>
+      <node id="SUB::Níquel (Compuestos solubles)" label="Nickel (soluble compounds)">
+        <attvalues>
+          <attvalue for="0" value="substance"/>
+          <attvalue for="1" value="471574.67986640194"/>
+          <attvalue for="eccentricity" value="4.0"/>
+          <attvalue for="closnesscentrality" value="0.4943820224719101"/>
+          <attvalue for="harmonicclosnesscentrality" value="0.543560606060606"/>
+          <attvalue for="betweenesscentrality" value="27.44105511961851"/>
+          <attvalue for="pageranks" value="0.02606814780596052"/>
+        </attvalues>
+        <viz:size value="8.613243"/>
+        <viz:position x="900.0" y="727.27277"/>
+        <viz:color r="235" g="104" b="52"/>
+      </node>
+      <node id="SUB::Plomo (Compuestos solubles)" label="Lead (soluble compounds)">
+        <attvalues>
+          <attvalue for="0" value="substance"/>
+          <attvalue for="1" value="498900.3240295917"/>
+          <attvalue for="eccentricity" value="3.0"/>
+          <attvalue for="closnesscentrality" value="0.5057471264367817"/>
+          <attvalue for="harmonicclosnesscentrality" value="0.5492424242424242"/>
+          <attvalue for="betweenesscentrality" value="48.226525164613825"/>
+          <attvalue for="pageranks" value="0.027275578185133802"/>
+        </attvalues>
+        <viz:size value="10.592667"/>
+        <viz:position x="900.0" y="363.63638"/>
+        <viz:color r="235" g="104" b="52"/>
+      </node>
+      <node id="SUB::Cianuro inorgánico/orgánico" label="Inorganic/organic cyanide">
+        <attvalues>
+          <attvalue for="0" value="substance"/>
+          <attvalue for="1" value="112740.71307364573"/>
+          <attvalue for="eccentricity" value="4.0"/>
+          <attvalue for="closnesscentrality" value="0.5176470588235295"/>
+          <attvalue for="harmonicclosnesscentrality" value="0.5738636363636364"/>
+          <attvalue for="betweenesscentrality" value="52.67089973325823"/>
+          <attvalue for="pageranks" value="0.03375842822849488"/>
+        </attvalues>
+        <viz:size value="11.01591"/>
+        <viz:position x="900.0" y="181.81819"/>
+        <viz:color r="235" g="104" b="52"/>
+      </node>
+      <node id="SUB::Cadmio (polvos, respirables, vapores o humos)" label="Cadmium (respirable dust, vapors or fumes)">
+        <attvalues>
+          <attvalue for="0" value="substance"/>
+          <attvalue for="1" value="178.260127599"/>
+          <attvalue for="eccentricity" value="4.0"/>
+          <attvalue for="closnesscentrality" value="0.4536082474226804"/>
+          <attvalue for="harmonicclosnesscentrality" value="0.5018939393939393"/>
+          <attvalue for="betweenesscentrality" value="7.292974396930661"/>
+          <attvalue for="pageranks" value="0.018028807952616407"/>
+        </attvalues>
+        <viz:size value="6.694518"/>
+        <viz:position x="900.0" y="2181.8184"/>
+        <viz:color r="235" g="104" b="52"/>
+      </node>
+      <node id="SUB::Arsénico (compuestos)" label="Arsenic (compounds)">
+        <attvalues>
+          <attvalue for="0" value="substance"/>
+          <attvalue for="1" value="896.6551102410001"/>
+          <attvalue for="eccentricity" value="4.0"/>
+          <attvalue for="closnesscentrality" value="0.4631578947368421"/>
+          <attvalue for="harmonicclosnesscentrality" value="0.49810606060606055"/>
+          <attvalue for="betweenesscentrality" value="9.283167652677752"/>
+          <attvalue for="pageranks" value="0.01486810186062525"/>
+        </attvalues>
+        <viz:size value="6.8840466"/>
+        <viz:position x="900.0" y="1636.3636"/>
+        <viz:color r="235" g="104" b="52"/>
+      </node>
+      <node id="SUB::Cromo (compuestos)" label="Chromium (compounds)">
+        <attvalues>
+          <attvalue for="0" value="substance"/>
+          <attvalue for="1" value="964.7056413334997"/>
+          <attvalue for="eccentricity" value="4.0"/>
+          <attvalue for="closnesscentrality" value="0.4536082474226804"/>
+          <attvalue for="harmonicclosnesscentrality" value="0.5018939393939393"/>
+          <attvalue for="betweenesscentrality" value="7.292974396930661"/>
+          <attvalue for="pageranks" value="0.018028807952616407"/>
+        </attvalues>
+        <viz:size value="6.694518"/>
+        <viz:position x="900.0" y="2363.6365"/>
+        <viz:color r="235" g="104" b="52"/>
+      </node>
+      <node id="SUB::Níquel (compuestos)" label="Nickel (compounds)">
+        <attvalues>
+          <attvalue for="0" value="substance"/>
+          <attvalue for="1" value="1143.2841492529997"/>
+          <attvalue for="eccentricity" value="4.0"/>
+          <attvalue for="closnesscentrality" value="0.4631578947368421"/>
+          <attvalue for="harmonicclosnesscentrality" value="0.5170454545454546"/>
+          <attvalue for="betweenesscentrality" value="12.947710649860923"/>
+          <attvalue for="pageranks" value="0.022021913012553632"/>
+        </attvalues>
+        <viz:size value="7.2330256"/>
+        <viz:position x="900.0" y="1272.7273"/>
+        <viz:color r="235" g="104" b="52"/>
+      </node>
+      <node id="SUB::Plomo (compuestos)" label="Lead (compounds)">
+        <attvalues>
+          <attvalue for="0" value="substance"/>
+          <attvalue for="1" value="2855.4352054966"/>
+          <attvalue for="eccentricity" value="4.0"/>
+          <attvalue for="closnesscentrality" value="0.4631578947368421"/>
+          <attvalue for="harmonicclosnesscentrality" value="0.5170454545454546"/>
+          <attvalue for="betweenesscentrality" value="12.947710649860923"/>
+          <attvalue for="pageranks" value="0.022021913012553632"/>
+        </attvalues>
+        <viz:size value="7.2330256"/>
+        <viz:position x="900.0" y="1454.5455"/>
+        <viz:color r="235" g="104" b="52"/>
+      </node>
+      <node id="SUB::Cadmio (Compuestos solubles)" label="Cadmium (soluble compounds)">
+        <attvalues>
+          <attvalue for="0" value="substance"/>
+          <attvalue for="1" value="108352.0863"/>
+          <attvalue for="eccentricity" value="4.0"/>
+          <attvalue for="closnesscentrality" value="0.4536082474226804"/>
+          <attvalue for="harmonicclosnesscentrality" value="0.4924242424242424"/>
+          <attvalue for="betweenesscentrality" value="8.487689234242941"/>
+          <attvalue for="pageranks" value="0.01498293881113122"/>
+        </attvalues>
+        <viz:size value="6.8082924"/>
+        <viz:position x="900.0" y="1818.1819"/>
+        <viz:color r="235" g="104" b="52"/>
+      </node>
+      <node id="SUB::Arsénico (Compuestos solubles)" label="Arsenic (soluble compounds)">
+        <attvalues>
+          <attvalue for="0" value="substance"/>
+          <attvalue for="1" value="172915.66509999998"/>
+          <attvalue for="eccentricity" value="4.0"/>
+          <attvalue for="closnesscentrality" value="0.4536082474226804"/>
+          <attvalue for="harmonicclosnesscentrality" value="0.4924242424242424"/>
+          <attvalue for="betweenesscentrality" value="8.487689234242941"/>
+          <attvalue for="pageranks" value="0.01498293881113122"/>
+        </attvalues>
+        <viz:size value="6.8082924"/>
+        <viz:position x="900.0" y="2000.0"/>
+        <viz:color r="235" g="104" b="52"/>
+      </node>
+      <node id="SUB::Acido 2,4 Diclorofenoxiacetico" label="2,4-Dichlorophenoxyacetic acid (2,4-D)">
+        <attvalues>
+          <attvalue for="0" value="substance"/>
+          <attvalue for="1" value="631.6379999999999"/>
+          <attvalue for="eccentricity" value="4.0"/>
+          <attvalue for="closnesscentrality" value="0.411214953271028"/>
+          <attvalue for="harmonicclosnesscentrality" value="0.44507575757575757"/>
+          <attvalue for="betweenesscentrality" value="0.0"/>
+          <attvalue for="pageranks" value="0.007339982781548639"/>
+        </attvalues>
+        <viz:size value="6.0"/>
+        <viz:position x="900.0" y="4363.6367"/>
+        <viz:color r="235" g="104" b="52"/>
+      </node>
+      <node id="SUB::Mercurio (compuestos)" label="Mercury (compounds)">
+        <attvalues>
+          <attvalue for="0" value="substance"/>
+          <attvalue for="1" value="90.12531253247997"/>
+          <attvalue for="eccentricity" value="4.0"/>
+          <attvalue for="closnesscentrality" value="0.4536082474226804"/>
+          <attvalue for="harmonicclosnesscentrality" value="0.5018939393939393"/>
+          <attvalue for="betweenesscentrality" value="7.292974396930661"/>
+          <attvalue for="pageranks" value="0.018028807952616407"/>
+        </attvalues>
+        <viz:size value="6.694518"/>
+        <viz:position x="900.0" y="2545.4546"/>
+        <viz:color r="235" g="104" b="52"/>
+      </node>
+      <node id="SUB::Dioxinas" label="Dioxins">
+        <attvalues>
+          <attvalue for="0" value="substance"/>
+          <attvalue for="1" value="3.3793787E-5"/>
+          <attvalue for="eccentricity" value="4.0"/>
+          <attvalue for="closnesscentrality" value="0.41904761904761906"/>
+          <attvalue for="harmonicclosnesscentrality" value="0.4602272727272727"/>
+          <attvalue for="betweenesscentrality" value="3.213110500610501"/>
+          <attvalue for="pageranks" value="0.011299672230035869"/>
+        </attvalues>
+        <viz:size value="6.3059883"/>
+        <viz:position x="900.0" y="3090.909"/>
+        <viz:color r="235" g="104" b="52"/>
+      </node>
+      <node id="SUB::Furanos" label="Furans">
+        <attvalues>
+          <attvalue for="0" value="substance"/>
+          <attvalue for="1" value="3.2146498E-5"/>
+          <attvalue for="eccentricity" value="4.0"/>
+          <attvalue for="closnesscentrality" value="0.411214953271028"/>
+          <attvalue for="harmonicclosnesscentrality" value="0.44507575757575757"/>
+          <attvalue for="betweenesscentrality" value="0.0"/>
+          <attvalue for="pageranks" value="0.007339982781548639"/>
+        </attvalues>
+        <viz:size value="6.0"/>
+        <viz:position x="900.0" y="4545.4546"/>
+        <viz:color r="235" g="104" b="52"/>
+      </node>
+      <node id="SUB::Bióxido de carbono" label="Carbon dioxide">
+        <attvalues>
+          <attvalue for="0" value="substance"/>
+          <attvalue for="1" value="7.593348162837328E10"/>
+          <attvalue for="eccentricity" value="3.0"/>
+          <attvalue for="closnesscentrality" value="0.5432098765432098"/>
+          <attvalue for="harmonicclosnesscentrality" value="0.5946969696969697"/>
+          <attvalue for="betweenesscentrality" value="122.82379693567032"/>
+          <attvalue for="pageranks" value="0.04133348890479915"/>
+        </attvalues>
+        <viz:size value="17.696651"/>
+        <viz:position x="900.0" y="0.0"/>
+        <viz:color r="235" g="104" b="52"/>
+      </node>
+      <node id="SUB::Mercurio (polvos, respirables, vapores o humos)" label="Mercury (respirable dust, vapors or fumes)">
+        <attvalues>
+          <attvalue for="0" value="substance"/>
+          <attvalue for="1" value="381.52273232635"/>
+          <attvalue for="eccentricity" value="4.0"/>
+          <attvalue for="closnesscentrality" value="0.43564356435643564"/>
+          <attvalue for="harmonicclosnesscentrality" value="0.4715909090909091"/>
+          <attvalue for="betweenesscentrality" value="1.9010691726208964"/>
+          <attvalue for="pageranks" value="0.010969185661316067"/>
+        </attvalues>
+        <viz:size value="6.181041"/>
+        <viz:position x="900.0" y="4000.0"/>
+        <viz:color r="235" g="104" b="52"/>
+      </node>
+      <node id="SUB::Bióxido de nitrógeno" label="Nitrogen dioxide">
+        <attvalues>
+          <attvalue for="0" value="substance"/>
+          <attvalue for="1" value="1.0427469E8"/>
+          <attvalue for="eccentricity" value="4.0"/>
+          <attvalue for="closnesscentrality" value="0.3120567375886525"/>
+          <attvalue for="harmonicclosnesscentrality" value="0.34848484848484845"/>
+          <attvalue for="betweenesscentrality" value="0.0"/>
+          <attvalue for="pageranks" value="0.0072322495326425165"/>
+        </attvalues>
+        <viz:size value="6.0"/>
+        <viz:position x="900.0" y="4727.273"/>
+        <viz:color r="235" g="104" b="52"/>
+      </node>
+      <node id="SUB::Formaldehido" label="Formaldehyde">
+        <attvalues>
+          <attvalue for="0" value="substance"/>
+          <attvalue for="1" value="0.007300099628919999"/>
+          <attvalue for="eccentricity" value="4.0"/>
+          <attvalue for="closnesscentrality" value="0.41904761904761906"/>
+          <attvalue for="harmonicclosnesscentrality" value="0.4602272727272727"/>
+          <attvalue for="betweenesscentrality" value="1.9192147463819296"/>
+          <attvalue for="pageranks" value="0.011333087841485864"/>
+        </attvalues>
+        <viz:size value="6.182769"/>
+        <viz:position x="900.0" y="3272.7273"/>
+        <viz:color r="235" g="104" b="52"/>
+      </node>
+      <node id="SUB::Acroleina" label="Acrolein">
+        <attvalues>
+          <attvalue for="0" value="substance"/>
+          <attvalue for="1" value="0.04139759005074999"/>
+          <attvalue for="eccentricity" value="4.0"/>
+          <attvalue for="closnesscentrality" value="0.41904761904761906"/>
+          <attvalue for="harmonicclosnesscentrality" value="0.4602272727272727"/>
+          <attvalue for="betweenesscentrality" value="1.9192147463819296"/>
+          <attvalue for="pageranks" value="0.011333087841485864"/>
+        </attvalues>
+        <viz:size value="6.182769"/>
+        <viz:position x="900.0" y="3454.5454"/>
+        <viz:color r="235" g="104" b="52"/>
+      </node>
+      <node id="SUB::Acetaldehido" label="Acetaldehyde">
+        <attvalues>
+          <attvalue for="0" value="substance"/>
+          <attvalue for="1" value="0.16786328430729996"/>
+          <attvalue for="eccentricity" value="4.0"/>
+          <attvalue for="closnesscentrality" value="0.41904761904761906"/>
+          <attvalue for="harmonicclosnesscentrality" value="0.4602272727272727"/>
+          <attvalue for="betweenesscentrality" value="1.9192147463819296"/>
+          <attvalue for="pageranks" value="0.011333087841485864"/>
+        </attvalues>
+        <viz:size value="6.182769"/>
+        <viz:position x="900.0" y="3636.3638"/>
+        <viz:color r="235" g="104" b="52"/>
+      </node>
+      <node id="SUB::Benceno" label="Benzene">
+        <attvalues>
+          <attvalue for="0" value="substance"/>
+          <attvalue for="1" value="1656.2407853449226"/>
+          <attvalue for="eccentricity" value="4.0"/>
+          <attvalue for="closnesscentrality" value="0.41904761904761906"/>
+          <attvalue for="harmonicclosnesscentrality" value="0.4602272727272727"/>
+          <attvalue for="betweenesscentrality" value="1.9192147463819296"/>
+          <attvalue for="pageranks" value="0.011333087841485864"/>
+        </attvalues>
+        <viz:size value="6.182769"/>
+        <viz:position x="900.0" y="3818.1816"/>
+        <viz:color r="235" g="104" b="52"/>
+      </node>
+      <node id="SUB::Tolueno diisocianato" label="Toluene diisocyanate">
+        <attvalues>
+          <attvalue for="0" value="substance"/>
+          <attvalue for="1" value="176.0"/>
+          <attvalue for="eccentricity" value="4.0"/>
+          <attvalue for="closnesscentrality" value="0.411214953271028"/>
+          <attvalue for="harmonicclosnesscentrality" value="0.44507575757575757"/>
+          <attvalue for="betweenesscentrality" value="0.0"/>
+          <attvalue for="pageranks" value="0.007339982781548639"/>
+        </attvalues>
+        <viz:size value="6.0"/>
+        <viz:position x="900.0" y="4909.091"/>
+        <viz:color r="235" g="104" b="52"/>
+      </node>
+      <node id="SUB::Plomo (polvos respirables, humos o vapores)" label="Lead (respirable dust, fumes or vapors)">
+        <attvalues>
+          <attvalue for="0" value="substance"/>
+          <attvalue for="1" value="5356.530883555"/>
+          <attvalue for="eccentricity" value="4.0"/>
+          <attvalue for="closnesscentrality" value="0.4631578947368421"/>
+          <attvalue for="harmonicclosnesscentrality" value="0.5075757575757576"/>
+          <attvalue for="betweenesscentrality" value="26.948375303260352"/>
+          <attvalue for="pageranks" value="0.019766491893422656"/>
+        </attvalues>
+        <viz:size value="8.566324"/>
+        <viz:position x="900.0" y="909.09094"/>
+        <viz:color r="235" g="104" b="52"/>
+      </node>
+      <node id="SUB::Cromo (polvos respirables, humos o vapores)" label="Chromium (respirable dust, fumes or vapors)">
+        <attvalues>
+          <attvalue for="0" value="substance"/>
+          <attvalue for="1" value="32.267331979"/>
+          <attvalue for="eccentricity" value="4.0"/>
+          <attvalue for="closnesscentrality" value="0.411214953271028"/>
+          <attvalue for="harmonicclosnesscentrality" value="0.44507575757575757"/>
+          <attvalue for="betweenesscentrality" value="0.0"/>
+          <attvalue for="pageranks" value="0.007339982781548639"/>
+        </attvalues>
+        <viz:size value="6.0"/>
+        <viz:position x="900.0" y="5090.909"/>
+        <viz:color r="235" g="104" b="52"/>
+      </node>
+      <node id="SUB::Hexafluoruro de azufre" label="Sulfur hexafluoride">
+        <attvalues>
+          <attvalue for="0" value="substance"/>
+          <attvalue for="1" value="2075.9"/>
+          <attvalue for="eccentricity" value="4.0"/>
+          <attvalue for="closnesscentrality" value="0.3120567375886525"/>
+          <attvalue for="harmonicclosnesscentrality" value="0.34848484848484845"/>
+          <attvalue for="betweenesscentrality" value="0.0"/>
+          <attvalue for="pageranks" value="0.0072322495326425165"/>
+        </attvalues>
+        <viz:size value="6.0"/>
+        <viz:position x="900.0" y="5272.727"/>
+        <viz:color r="235" g="104" b="52"/>
+      </node>
+      <node id="SUB::Metano" label="Methane">
+        <attvalues>
+          <attvalue for="0" value="substance"/>
+          <attvalue for="1" value="131654.0"/>
+          <attvalue for="eccentricity" value="4.0"/>
+          <attvalue for="closnesscentrality" value="0.34108527131782945"/>
+          <attvalue for="harmonicclosnesscentrality" value="0.38257575757575757"/>
+          <attvalue for="betweenesscentrality" value="0.0"/>
+          <attvalue for="pageranks" value="0.006962536213100762"/>
+        </attvalues>
+        <viz:size value="6.0"/>
+        <viz:position x="900.0" y="5454.5454"/>
+        <viz:color r="235" g="104" b="52"/>
+      </node>
+      <node id="SUB::Oxido nitroso" label="Nitrous oxide">
+        <attvalues>
+          <attvalue for="0" value="substance"/>
+          <attvalue for="1" value="7.5919215E7"/>
+          <attvalue for="eccentricity" value="4.0"/>
+          <attvalue for="closnesscentrality" value="0.37606837606837606"/>
+          <attvalue for="harmonicclosnesscentrality" value="0.4356060606060606"/>
+          <attvalue for="betweenesscentrality" value="5.717294339549389"/>
+          <attvalue for="pageranks" value="0.01495501159876861"/>
+        </attvalues>
+        <viz:size value="6.5444646"/>
+        <viz:position x="900.0" y="2727.2727"/>
+        <viz:color r="235" g="104" b="52"/>
+      </node>
+      <node id="SUB::Hidrofluorocarbonos" label="Hydrofluorocarbons">
+        <attvalues>
+          <attvalue for="0" value="substance"/>
+          <attvalue for="1" value="858.8"/>
+          <attvalue for="eccentricity" value="5.0"/>
+          <attvalue for="closnesscentrality" value="0.27672955974842767"/>
+          <attvalue for="harmonicclosnesscentrality" value="0.3"/>
+          <attvalue for="betweenesscentrality" value="0.0"/>
+          <attvalue for="pageranks" value="0.008037080379081258"/>
+        </attvalues>
+        <viz:size value="6.0"/>
+        <viz:position x="900.0" y="5636.364"/>
+        <viz:color r="235" g="104" b="52"/>
+      </node>
+      <node id="SUB::Níquel (polvos respirables, humos o vapores)" label="Nickel (respirable dust, fumes or vapors)">
+        <attvalues>
+          <attvalue for="0" value="substance"/>
+          <attvalue for="1" value="1.856995441"/>
+          <attvalue for="eccentricity" value="4.0"/>
+          <attvalue for="closnesscentrality" value="0.411214953271028"/>
+          <attvalue for="harmonicclosnesscentrality" value="0.44507575757575757"/>
+          <attvalue for="betweenesscentrality" value="0.0"/>
+          <attvalue for="pageranks" value="0.007339982781548639"/>
+        </attvalues>
+        <viz:size value="6.0"/>
+        <viz:position x="900.0" y="5818.182"/>
+        <viz:color r="235" g="104" b="52"/>
+      </node>
+      <node id="SUB::Cadmio (compuestos)" label="Cadmium (compounds)">
+        <attvalues>
+          <attvalue for="0" value="substance"/>
+          <attvalue for="1" value="1.1367605"/>
+          <attvalue for="eccentricity" value="4.0"/>
+          <attvalue for="closnesscentrality" value="0.43564356435643564"/>
+          <attvalue for="harmonicclosnesscentrality" value="0.4715909090909091"/>
+          <attvalue for="betweenesscentrality" value="1.9010691726208964"/>
+          <attvalue for="pageranks" value="0.010969185661316067"/>
+        </attvalues>
+        <viz:size value="6.181041"/>
+        <viz:position x="900.0" y="4181.8184"/>
+        <viz:color r="235" g="104" b="52"/>
+      </node>
+      <node id="SUB::Asbesto y sus formas (En forma de polvo, fibras o productos desmenuzables con la presión de la mano)" label="Asbestos and its forms (as dust, fibers or friable products that crumble under hand pressure)">
+        <attvalues>
+          <attvalue for="0" value="substance"/>
+          <attvalue for="1" value="500.0"/>
+          <attvalue for="eccentricity" value="4.0"/>
+          <attvalue for="closnesscentrality" value="0.411214953271028"/>
+          <attvalue for="harmonicclosnesscentrality" value="0.44507575757575757"/>
+          <attvalue for="betweenesscentrality" value="0.0"/>
+          <attvalue for="pageranks" value="0.007339982781548639"/>
+        </attvalues>
+        <viz:size value="6.0"/>
+        <viz:position x="900.0" y="6000.0"/>
+        <viz:color r="235" g="104" b="52"/>
+      </node>
+    </nodes>
+    <edges>
+      <edge id="0" source="LOC::Guerrero.La Unión de Isidoro Montes de Oca" target="SUB::Arsénico (polvos, respirables, vapores o humos)" weight="5990.0">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+        <attvalues>
+          <attvalue for="2" value="2"/>
+        </attvalues>
+      </edge>
+      <edge id="1" source="LOC::Guerrero.La Unión de Isidoro Montes de Oca" target="SUB::Arsénico (compuestos)" weight="788.5432739257812">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+        <attvalues>
+          <attvalue for="2" value="1"/>
+        </attvalues>
+      </edge>
+      <edge id="2" source="LOC::Guerrero.La Unión de Isidoro Montes de Oca" target="SUB::Cadmio (Compuestos solubles)" weight="815.5845947265625">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+        <attvalues>
+          <attvalue for="2" value="2"/>
+        </attvalues>
+      </edge>
+      <edge id="3" source="LOC::Guerrero.La Unión de Isidoro Montes de Oca" target="SUB::Cromo (Compuestos solubles)" weight="13692.380859375">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+        <attvalues>
+          <attvalue for="2" value="3"/>
+        </attvalues>
+      </edge>
+      <edge id="4" source="LOC::Guerrero.La Unión de Isidoro Montes de Oca" target="SUB::Níquel (Compuestos solubles)" weight="12.136099815368652">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+        <attvalues>
+          <attvalue for="2" value="4"/>
+        </attvalues>
+      </edge>
+      <edge id="5" source="LOC::Guerrero.La Unión de Isidoro Montes de Oca" target="SUB::Plomo (Compuestos solubles)" weight="14788.7236328125">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+        <attvalues>
+          <attvalue for="2" value="3"/>
+        </attvalues>
+      </edge>
+      <edge id="6" source="LOC::Guerrero.La Unión de Isidoro Montes de Oca" target="SUB::Arsénico (Compuestos solubles)" weight="3.31030011177063">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+        <attvalues>
+          <attvalue for="2" value="1"/>
+        </attvalues>
+      </edge>
+      <edge id="7" source="LOC::Guerrero.La Unión de Isidoro Montes de Oca" target="SUB::Cianuro inorgánico/orgánico" weight="918.919921875">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+        <attvalues>
+          <attvalue for="2" value="1"/>
+        </attvalues>
+      </edge>
+      <edge id="8" source="LOC::Guerrero.La Unión de Isidoro Montes de Oca" target="SUB::Bióxido de nitrógeno" weight="1.04274688E8">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+        <attvalues>
+          <attvalue for="2" value="7"/>
+        </attvalues>
+      </edge>
+      <edge id="9" source="LOC::Guerrero.La Unión de Isidoro Montes de Oca" target="SUB::Bióxido de carbono" weight="7.3479323648E10">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+        <attvalues>
+          <attvalue for="2" value="8"/>
+        </attvalues>
+      </edge>
+      <edge id="10" source="LOC::Guerrero.La Unión de Isidoro Montes de Oca" target="SUB::Hexafluoruro de azufre" weight="2075.89990234375">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+        <attvalues>
+          <attvalue for="2" value="6"/>
+        </attvalues>
+      </edge>
+      <edge id="11" source="LOC::Guerrero.La Unión de Isidoro Montes de Oca" target="SUB::Oxido nitroso" weight="6.9421744E7">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+        <attvalues>
+          <attvalue for="2" value="3"/>
+        </attvalues>
+      </edge>
+      <edge id="12" source="LOC::Guerrero.Eduardo Neri" target="SUB::Cromo (Compuestos solubles)" weight="6.396254062652588">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+        <attvalues>
+          <attvalue for="2" value="5"/>
+        </attvalues>
+      </edge>
+      <edge id="13" source="LOC::Guerrero.Eduardo Neri" target="SUB::Mercurio (Compuestos solubles)" weight="0.003878420451655984">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+        <attvalues>
+          <attvalue for="2" value="2"/>
+        </attvalues>
+      </edge>
+      <edge id="14" source="LOC::Guerrero.Eduardo Neri" target="SUB::Níquel (Compuestos solubles)" weight="4.615885257720947">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+        <attvalues>
+          <attvalue for="2" value="4"/>
+        </attvalues>
+      </edge>
+      <edge id="15" source="LOC::Guerrero.Eduardo Neri" target="SUB::Plomo (Compuestos solubles)" weight="1.8312016725540161">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+        <attvalues>
+          <attvalue for="2" value="3"/>
+        </attvalues>
+      </edge>
+      <edge id="16" source="LOC::Guerrero.Eduardo Neri" target="SUB::Cianuro inorgánico/orgánico" weight="10.88100814819336">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+        <attvalues>
+          <attvalue for="2" value="11"/>
+        </attvalues>
+      </edge>
+      <edge id="17" source="LOC::Guerrero.Eduardo Neri" target="SUB::Arsénico (polvos, respirables, vapores o humos)" weight="60.89031219482422">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+        <attvalues>
+          <attvalue for="2" value="13"/>
+        </attvalues>
+      </edge>
+      <edge id="18" source="LOC::Guerrero.Eduardo Neri" target="SUB::Cadmio (polvos, respirables, vapores o humos)" weight="167.63865661621094">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+        <attvalues>
+          <attvalue for="2" value="11"/>
+        </attvalues>
+      </edge>
+      <edge id="19" source="LOC::Guerrero.Eduardo Neri" target="SUB::Plomo (compuestos)" weight="2514.38818359375">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+        <attvalues>
+          <attvalue for="2" value="15"/>
+        </attvalues>
+      </edge>
+      <edge id="20" source="LOC::Guerrero.Eduardo Neri" target="SUB::Níquel (compuestos)" weight="1098.3878173828125">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+        <attvalues>
+          <attvalue for="2" value="8"/>
+        </attvalues>
+      </edge>
+      <edge id="21" source="LOC::Guerrero.Eduardo Neri" target="SUB::Cromo (compuestos)" weight="832.3468017578125">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+        <attvalues>
+          <attvalue for="2" value="13"/>
+        </attvalues>
+      </edge>
+      <edge id="22" source="LOC::Guerrero.Eduardo Neri" target="SUB::Mercurio (compuestos)" weight="16.674041748046875">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+        <attvalues>
+          <attvalue for="2" value="11"/>
+        </attvalues>
+      </edge>
+      <edge id="23" source="LOC::Guerrero.Eduardo Neri" target="SUB::Bióxido de carbono" weight="4.40037376E8">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+        <attvalues>
+          <attvalue for="2" value="5"/>
+        </attvalues>
+      </edge>
+      <edge id="24" source="LOC::Guerrero.Eduardo Neri" target="SUB::Metano" weight="131654.0">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+        <attvalues>
+          <attvalue for="2" value="1"/>
+        </attvalues>
+      </edge>
+      <edge id="25" source="LOC::Guerrero.Eduardo Neri" target="SUB::Oxido nitroso" weight="5772125.0">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+        <attvalues>
+          <attvalue for="2" value="1"/>
+        </attvalues>
+      </edge>
+      <edge id="26" source="LOC::Guerrero.Eduardo Neri" target="SUB::Plomo (polvos respirables, humos o vapores)" weight="11.015310287475586">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+        <attvalues>
+          <attvalue for="2" value="3"/>
+        </attvalues>
+      </edge>
+      <edge id="27" source="LOC::Guerrero.Eduardo Neri" target="SUB::Mercurio (polvos, respirables, vapores o humos)" weight="3.0933001041412354">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+        <attvalues>
+          <attvalue for="2" value="1"/>
+        </attvalues>
+      </edge>
+      <edge id="28" source="LOC::Guerrero.Eduardo Neri" target="SUB::Arsénico (compuestos)" weight="103.28113555908203">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+        <attvalues>
+          <attvalue for="2" value="5"/>
+        </attvalues>
+      </edge>
+      <edge id="29" source="LOC::Guerrero.Eduardo Neri" target="SUB::Cadmio (compuestos)" weight="0.9071605205535889">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+        <attvalues>
+          <attvalue for="2" value="3"/>
+        </attvalues>
+      </edge>
+      <edge id="30" source="LOC::Guerrero.Acapulco de Juárez" target="SUB::Cromo (Compuestos solubles)" weight="212.85772705078125">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+        <attvalues>
+          <attvalue for="2" value="12"/>
+        </attvalues>
+      </edge>
+      <edge id="31" source="LOC::Guerrero.Acapulco de Juárez" target="SUB::Mercurio (Compuestos solubles)" weight="0.03784320130944252">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+        <attvalues>
+          <attvalue for="2" value="1"/>
+        </attvalues>
+      </edge>
+      <edge id="32" source="LOC::Guerrero.Acapulco de Juárez" target="SUB::Níquel (Compuestos solubles)" weight="115.81851196289062">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+        <attvalues>
+          <attvalue for="2" value="10"/>
+        </attvalues>
+      </edge>
+      <edge id="33" source="LOC::Guerrero.Acapulco de Juárez" target="SUB::Plomo (Compuestos solubles)" weight="102.47281646728516">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+        <attvalues>
+          <attvalue for="2" value="8"/>
+        </attvalues>
+      </edge>
+      <edge id="34" source="LOC::Guerrero.Acapulco de Juárez" target="SUB::Cianuro inorgánico/orgánico" weight="19.573665618896484">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+        <attvalues>
+          <attvalue for="2" value="9"/>
+        </attvalues>
+      </edge>
+      <edge id="35" source="LOC::Guerrero.Acapulco de Juárez" target="SUB::Arsénico (polvos, respirables, vapores o humos)" weight="9.257391929626465">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+        <attvalues>
+          <attvalue for="2" value="12"/>
+        </attvalues>
+      </edge>
+      <edge id="36" source="LOC::Guerrero.Acapulco de Juárez" target="SUB::Cadmio (polvos, respirables, vapores o humos)" weight="10.540112495422363">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+        <attvalues>
+          <attvalue for="2" value="15"/>
+        </attvalues>
+      </edge>
+      <edge id="37" source="LOC::Guerrero.Acapulco de Juárez" target="SUB::Cromo (compuestos)" weight="132.27499389648438">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+        <attvalues>
+          <attvalue for="2" value="17"/>
+        </attvalues>
+      </edge>
+      <edge id="38" source="LOC::Guerrero.Acapulco de Juárez" target="SUB::Níquel (compuestos)" weight="43.97605895996094">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+        <attvalues>
+          <attvalue for="2" value="8"/>
+        </attvalues>
+      </edge>
+      <edge id="39" source="LOC::Guerrero.Acapulco de Juárez" target="SUB::Plomo (compuestos)" weight="340.3831787109375">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+        <attvalues>
+          <attvalue for="2" value="17"/>
+        </attvalues>
+      </edge>
+      <edge id="40" source="LOC::Guerrero.Acapulco de Juárez" target="SUB::Cadmio (Compuestos solubles)" weight="53.62820053100586">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+        <attvalues>
+          <attvalue for="2" value="10"/>
+        </attvalues>
+      </edge>
+      <edge id="41" source="LOC::Guerrero.Acapulco de Juárez" target="SUB::Arsénico (Compuestos solubles)" weight="8.930800437927246">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+        <attvalues>
+          <attvalue for="2" value="3"/>
+        </attvalues>
+      </edge>
+      <edge id="42" source="LOC::Guerrero.Acapulco de Juárez" target="SUB::Acido 2,4 Diclorofenoxiacetico" weight="631.6380004882812">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+        <attvalues>
+          <attvalue for="2" value="3"/>
+        </attvalues>
+      </edge>
+      <edge id="43" source="LOC::Guerrero.Acapulco de Juárez" target="SUB::Mercurio (compuestos)" weight="73.45039367675781">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+        <attvalues>
+          <attvalue for="2" value="11"/>
+        </attvalues>
+      </edge>
+      <edge id="44" source="LOC::Guerrero.Acapulco de Juárez" target="SUB::Dioxinas" weight="3.3793632610468194E-5">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+        <attvalues>
+          <attvalue for="2" value="17"/>
+        </attvalues>
+      </edge>
+      <edge id="45" source="LOC::Guerrero.Acapulco de Juárez" target="SUB::Furanos" weight="3.214649768779054E-5">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+        <attvalues>
+          <attvalue for="2" value="17"/>
+        </attvalues>
+      </edge>
+      <edge id="46" source="LOC::Guerrero.Acapulco de Juárez" target="SUB::Bióxido de carbono" weight="1.39649856E9">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+        <attvalues>
+          <attvalue for="2" value="20"/>
+        </attvalues>
+      </edge>
+      <edge id="47" source="LOC::Guerrero.Acapulco de Juárez" target="SUB::Mercurio (polvos, respirables, vapores o humos)" weight="378.429443359375">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+        <attvalues>
+          <attvalue for="2" value="16"/>
+        </attvalues>
+      </edge>
+      <edge id="48" source="LOC::Guerrero.Acapulco de Juárez" target="SUB::Formaldehido" weight="0.002520008711144328">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+        <attvalues>
+          <attvalue for="2" value="5"/>
+        </attvalues>
+      </edge>
+      <edge id="49" source="LOC::Guerrero.Acapulco de Juárez" target="SUB::Acroleina" weight="0.008936885744333267">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+        <attvalues>
+          <attvalue for="2" value="7"/>
+        </attvalues>
+      </edge>
+      <edge id="50" source="LOC::Guerrero.Acapulco de Juárez" target="SUB::Acetaldehido" weight="0.07412801682949066">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+        <attvalues>
+          <attvalue for="2" value="7"/>
+        </attvalues>
+      </edge>
+      <edge id="51" source="LOC::Guerrero.Acapulco de Juárez" target="SUB::Benceno" weight="1656.1265869140625">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+        <attvalues>
+          <attvalue for="2" value="9"/>
+        </attvalues>
+      </edge>
+      <edge id="52" source="LOC::Guerrero.Acapulco de Juárez" target="SUB::Arsénico (compuestos)" weight="4.830699920654297">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+        <attvalues>
+          <attvalue for="2" value="5"/>
+        </attvalues>
+      </edge>
+      <edge id="53" source="LOC::Guerrero.Acapulco de Juárez" target="SUB::Tolueno diisocianato" weight="176.0">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+        <attvalues>
+          <attvalue for="2" value="4"/>
+        </attvalues>
+      </edge>
+      <edge id="54" source="LOC::Guerrero.Acapulco de Juárez" target="SUB::Plomo (polvos respirables, humos o vapores)" weight="26.56557273864746">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+        <attvalues>
+          <attvalue for="2" value="8"/>
+        </attvalues>
+      </edge>
+      <edge id="55" source="LOC::Guerrero.Acapulco de Juárez" target="SUB::Cromo (polvos respirables, humos o vapores)" weight="32.267330169677734">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+        <attvalues>
+          <attvalue for="2" value="9"/>
+        </attvalues>
+      </edge>
+      <edge id="56" source="LOC::Guerrero.Acapulco de Juárez" target="SUB::Níquel (polvos respirables, humos o vapores)" weight="1.8569954633712769">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+        <attvalues>
+          <attvalue for="2" value="1"/>
+        </attvalues>
+      </edge>
+      <edge id="57" source="LOC::Guerrero.Acapulco de Juárez" target="SUB::Cadmio (compuestos)" weight="0.2295999974012375">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+        <attvalues>
+          <attvalue for="2" value="2"/>
+        </attvalues>
+      </edge>
+      <edge id="58" source="LOC::Guerrero.Acapulco de Juárez" target="SUB::Asbesto y sus formas (En forma de polvo, fibras o productos desmenuzables con la presión de la mano)" weight="500.0">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+        <attvalues>
+          <attvalue for="2" value="1"/>
+        </attvalues>
+      </edge>
+      <edge id="59" source="LOC::Guerrero.Cutzamala de Pinzón" target="SUB::Arsénico (Compuestos solubles)" weight="172903.421875">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+        <attvalues>
+          <attvalue for="2" value="2"/>
+        </attvalues>
+      </edge>
+      <edge id="60" source="LOC::Guerrero.Cutzamala de Pinzón" target="SUB::Cadmio (Compuestos solubles)" weight="107482.875">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+        <attvalues>
+          <attvalue for="2" value="2"/>
+        </attvalues>
+      </edge>
+      <edge id="61" source="LOC::Guerrero.Cutzamala de Pinzón" target="SUB::Cianuro inorgánico/orgánico" weight="47790.36328125">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+        <attvalues>
+          <attvalue for="2" value="2"/>
+        </attvalues>
+      </edge>
+      <edge id="62" source="LOC::Guerrero.Cutzamala de Pinzón" target="SUB::Cromo (Compuestos solubles)" weight="478352.375">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+        <attvalues>
+          <attvalue for="2" value="2"/>
+        </attvalues>
+      </edge>
+      <edge id="63" source="LOC::Guerrero.Cutzamala de Pinzón" target="SUB::Mercurio (Compuestos solubles)" weight="5301.81689453125">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+        <attvalues>
+          <attvalue for="2" value="2"/>
+        </attvalues>
+      </edge>
+      <edge id="64" source="LOC::Guerrero.Cutzamala de Pinzón" target="SUB::Níquel (Compuestos solubles)" weight="471434.4375">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+        <attvalues>
+          <attvalue for="2" value="2"/>
+        </attvalues>
+      </edge>
+      <edge id="65" source="LOC::Guerrero.Cutzamala de Pinzón" target="SUB::Plomo (Compuestos solubles)" weight="482257.21875">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+        <attvalues>
+          <attvalue for="2" value="2"/>
+        </attvalues>
+      </edge>
+      <edge id="66" source="LOC::Guerrero.Chilpancingo de los Bravo" target="SUB::Mercurio (compuestos)" weight="4.799999878741801E-4">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+        <attvalues>
+          <attvalue for="2" value="3"/>
+        </attvalues>
+      </edge>
+      <edge id="67" source="LOC::Guerrero.Chilpancingo de los Bravo" target="SUB::Arsénico (polvos, respirables, vapores o humos)" weight="6.619999767281115E-4">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+        <attvalues>
+          <attvalue for="2" value="3"/>
+        </attvalues>
+      </edge>
+      <edge id="68" source="LOC::Guerrero.Chilpancingo de los Bravo" target="SUB::Cianuro inorgánico/orgánico" weight="0.0019199999514967203">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+        <attvalues>
+          <attvalue for="2" value="3"/>
+        </attvalues>
+      </edge>
+      <edge id="69" source="LOC::Guerrero.Chilpancingo de los Bravo" target="SUB::Cadmio (polvos, respirables, vapores o humos)" weight="0.0028800000436604023">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+        <attvalues>
+          <attvalue for="2" value="2"/>
+        </attvalues>
+      </edge>
+      <edge id="70" source="LOC::Guerrero.Chilpancingo de los Bravo" target="SUB::Cromo (compuestos)" weight="0.008999999612569809">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+        <attvalues>
+          <attvalue for="2" value="2"/>
+        </attvalues>
+      </edge>
+      <edge id="71" source="LOC::Guerrero.Chilpancingo de los Bravo" target="SUB::Níquel (compuestos)" weight="0.009600000455975533">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+        <attvalues>
+          <attvalue for="2" value="2"/>
+        </attvalues>
+      </edge>
+      <edge id="72" source="LOC::Guerrero.Chilpancingo de los Bravo" target="SUB::Plomo (compuestos)" weight="0.011009999550879002">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+        <attvalues>
+          <attvalue for="2" value="2"/>
+        </attvalues>
+      </edge>
+      <edge id="73" source="LOC::Guerrero.Chilpancingo de los Bravo" target="SUB::Bióxido de carbono" weight="115755.0">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+        <attvalues>
+          <attvalue for="2" value="1"/>
+        </attvalues>
+      </edge>
+      <edge id="74" source="LOC::Guerrero.General Heliodoro Castillo" target="SUB::Mercurio (compuestos)" weight="4.015080048702657E-4">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+        <attvalues>
+          <attvalue for="2" value="2"/>
+        </attvalues>
+      </edge>
+      <edge id="75" source="LOC::Guerrero.General Heliodoro Castillo" target="SUB::Plomo (compuestos)" weight="0.1259250044822693">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+        <attvalues>
+          <attvalue for="2" value="1"/>
+        </attvalues>
+      </edge>
+      <edge id="76" source="LOC::Guerrero.General Heliodoro Castillo" target="SUB::Níquel (compuestos)" weight="0.0686199963092804">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+        <attvalues>
+          <attvalue for="2" value="1"/>
+        </attvalues>
+      </edge>
+      <edge id="77" source="LOC::Guerrero.General Heliodoro Castillo" target="SUB::Cianuro inorgánico/orgánico" weight="0.026280000805854797">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+        <attvalues>
+          <attvalue for="2" value="1"/>
+        </attvalues>
+      </edge>
+      <edge id="78" source="LOC::Guerrero.General Heliodoro Castillo" target="SUB::Cadmio (polvos, respirables, vapores o humos)" weight="0.0784749984741211">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+        <attvalues>
+          <attvalue for="2" value="1"/>
+        </attvalues>
+      </edge>
+      <edge id="79" source="LOC::Guerrero.General Heliodoro Castillo" target="SUB::Arsénico (polvos, respirables, vapores o humos)" weight="0.010128749534487724">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+        <attvalues>
+          <attvalue for="2" value="1"/>
+        </attvalues>
+      </edge>
+      <edge id="80" source="LOC::Guerrero.General Heliodoro Castillo" target="SUB::Cromo (compuestos)" weight="0.0748249962925911">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+        <attvalues>
+          <attvalue for="2" value="1"/>
+        </attvalues>
+      </edge>
+      <edge id="81" source="LOC::Guerrero.General Heliodoro Castillo" target="SUB::Cromo (Compuestos solubles)" weight="1.4351999759674072">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+        <attvalues>
+          <attvalue for="2" value="1"/>
+        </attvalues>
+      </edge>
+      <edge id="82" source="LOC::Guerrero.General Heliodoro Castillo" target="SUB::Níquel (Compuestos solubles)" weight="3.686500072479248">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+        <attvalues>
+          <attvalue for="2" value="1"/>
+        </attvalues>
+      </edge>
+      <edge id="83" source="LOC::Guerrero.Iguala de la Independencia" target="SUB::Bióxido de carbono" weight="24603.0">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+        <attvalues>
+          <attvalue for="2" value="9"/>
+        </attvalues>
+      </edge>
+      <edge id="84" source="LOC::Guerrero.Iguala de la Independencia" target="SUB::Acroleina" weight="0.03246070444583893">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+        <attvalues>
+          <attvalue for="2" value="7"/>
+        </attvalues>
+      </edge>
+      <edge id="85" source="LOC::Guerrero.Iguala de la Independencia" target="SUB::Formaldehido" weight="0.004780090879648924">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+        <attvalues>
+          <attvalue for="2" value="7"/>
+        </attvalues>
+      </edge>
+      <edge id="86" source="LOC::Guerrero.Iguala de la Independencia" target="SUB::Acetaldehido" weight="0.09373527020215988">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+        <attvalues>
+          <attvalue for="2" value="7"/>
+        </attvalues>
+      </edge>
+      <edge id="87" source="LOC::Guerrero.Iguala de la Independencia" target="SUB::Benceno" weight="0.1141430214047432">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+        <attvalues>
+          <attvalue for="2" value="7"/>
+        </attvalues>
+      </edge>
+      <edge id="88" source="LOC::Guerrero.Iguala de la Independencia" target="SUB::Cianuro inorgánico/orgánico" weight="0.9478999972343445">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+        <attvalues>
+          <attvalue for="2" value="2"/>
+        </attvalues>
+      </edge>
+      <edge id="89" source="LOC::Guerrero.Iguala de la Independencia" target="SUB::Plomo (compuestos)" weight="0.5268499851226807">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+        <attvalues>
+          <attvalue for="2" value="1"/>
+        </attvalues>
+      </edge>
+      <edge id="90" source="LOC::Guerrero.Iguala de la Independencia" target="SUB::Níquel (compuestos)" weight="0.8421000242233276">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+        <attvalues>
+          <attvalue for="2" value="1"/>
+        </attvalues>
+      </edge>
+      <edge id="91" source="LOC::Guerrero.Cocula" target="SUB::Bióxido de carbono" weight="6.11754752E8">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+        <attvalues>
+          <attvalue for="2" value="8"/>
+        </attvalues>
+      </edge>
+      <edge id="92" source="LOC::Guerrero.Cocula" target="SUB::Oxido nitroso" weight="725350.0">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+        <attvalues>
+          <attvalue for="2" value="1"/>
+        </attvalues>
+      </edge>
+      <edge id="93" source="LOC::Guerrero.Cocula" target="SUB::Cianuro inorgánico/orgánico" weight="64000.0">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+        <attvalues>
+          <attvalue for="2" value="4"/>
+        </attvalues>
+      </edge>
+      <edge id="94" source="LOC::Guerrero.Cocula" target="SUB::Plomo (polvos respirables, humos o vapores)" weight="4026.75">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+        <attvalues>
+          <attvalue for="2" value="1"/>
+        </attvalues>
+      </edge>
+      <edge id="95" source="LOC::Guerrero.Arcelia" target="SUB::Dioxinas" weight="1.549999989469697E-10">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+        <attvalues>
+          <attvalue for="2" value="5"/>
+        </attvalues>
+      </edge>
+      <edge id="96" source="LOC::Guerrero.Arcelia" target="SUB::Bióxido de carbono" weight="447.3999938964844">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+        <attvalues>
+          <attvalue for="2" value="1"/>
+        </attvalues>
+      </edge>
+      <edge id="97" source="LOC::Guerrero.Arcelia" target="SUB::Cromo (Compuestos solubles)" weight="68.76386260986328">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+        <attvalues>
+          <attvalue for="2" value="1"/>
+        </attvalues>
+      </edge>
+      <edge id="98" source="LOC::Guerrero.Arcelia" target="SUB::Níquel (Compuestos solubles)" weight="3.9733712673187256">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+        <attvalues>
+          <attvalue for="2" value="1"/>
+        </attvalues>
+      </edge>
+      <edge id="99" source="LOC::Guerrero.Arcelia" target="SUB::Plomo (Compuestos solubles)" weight="2.876908779144287">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+        <attvalues>
+          <attvalue for="2" value="1"/>
+        </attvalues>
+      </edge>
+      <edge id="100" source="LOC::Guerrero.Teloloapan" target="SUB::Bióxido de carbono" weight="5689940.0">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+        <attvalues>
+          <attvalue for="2" value="4"/>
+        </attvalues>
+      </edge>
+      <edge id="101" source="LOC::Guerrero.Teloloapan" target="SUB::Hidrofluorocarbonos" weight="858.7999877929688">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+        <attvalues>
+          <attvalue for="2" value="3"/>
+        </attvalues>
+      </edge>
+      <edge id="102" source="LOC::Guerrero.Teloloapan" target="SUB::Plomo (polvos respirables, humos o vapores)" weight="1292.199951171875">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+        <attvalues>
+          <attvalue for="2" value="1"/>
+        </attvalues>
+      </edge>
+      <edge id="103" source="LOC::Guerrero.Teloloapan" target="SUB::Plomo (Compuestos solubles)" weight="1747.199951171875">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+        <attvalues>
+          <attvalue for="2" value="1"/>
+        </attvalues>
+      </edge>
+      <edge id="104" source="LOC::Guerrero.Taxco de Alarcón" target="SUB::Bióxido de carbono" weight="35027.87890625">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+        <attvalues>
+          <attvalue for="2" value="3"/>
+        </attvalues>
+      </edge>
+    </edges>
+  </graph>
+</gexf>

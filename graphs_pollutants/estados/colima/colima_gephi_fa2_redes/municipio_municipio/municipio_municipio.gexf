@@ -1,0 +1,45 @@
+<?xml version='1.0' encoding='utf-8'?>
+<gexf xmlns="http://www.gexf.net/1.2draft" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.gexf.net/1.2draft http://www.gexf.net/1.2draft/gexf.xsd" version="1.2">
+  <meta lastmodifieddate="2026-10-16">
+    <creator>NetworkX 3.7</creator>
+  </meta>
+  <graph defaultedgetype="undirected" mode="static" name="">
+    <attributes mode="static" class="node">
+      <attribute id="0" title="total_kg" type="double" />
+    </attributes>
+    <nodes>
+      <node id="Colima.Colima" label="Colima.Colima">
+        <attvalues>
+          <attvalue for="0" value="28439227.18951994" />
+        </attvalues>
+      </node>
+      <node id="Colima.Manzanillo" label="Colima.Manzanillo">
+        <attvalues>
+          <attvalue for="0" value="36995699861.3927" />
+        </attvalues>
+      </node>
+      <node id="Colima.Cuauhtémoc" label="Colima.Cuauhtémoc">
+        <attvalues>
+          <attvalue for="0" value="1573070873.6425664" />
+        </attvalues>
+      </node>
+      <node id="Colima.Minatitlán" label="Colima.Minatitlán">
+        <attvalues>
+          <attvalue for="0" value="265706733.2698" />
+        </attvalues>
+      </node>
+      <node id="Colima.Tecomán" label="Colima.Tecomán">
+        <attvalues>
+          <attvalue for="0" value="9048559030.675657" />
+        </attvalues>
+      </node>
+    </nodes>
+    <edges>
+      <edge source="Colima.Colima" target="Colima.Manzanillo" id="0" weight="0.8441290869215867" />
+      <edge source="Colima.Manzanillo" target="Colima.Cuauhtémoc" id="1" weight="0.8597401169640735" />
+      <edge source="Colima.Manzanillo" target="Colima.Tecomán" id="2" weight="0.7728708743917859" />
+      <edge source="Colima.Cuauhtémoc" target="Colima.Minatitlán" id="3" weight="0.8150042810366065" />
+      <edge source="Colima.Cuauhtémoc" target="Colima.Tecomán" id="4" weight="0.8011490408180759" />
+    </edges>
+  </graph>
+</gexf>

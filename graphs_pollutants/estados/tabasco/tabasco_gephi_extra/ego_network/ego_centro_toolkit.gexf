@@ -1,0 +1,674 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<gexf xmlns="http://gexf.net/1.3" version="1.3" xmlns:viz="http://gexf.net/1.3/viz" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://gexf.net/1.3 http://gexf.net/1.3/gexf.xsd">
+  <meta lastmodifieddate="2026-10-16">
+    <creator>Apache NetBeans Platform Dev (Build {0})</creator>
+    <title></title>
+    <description></description>
+  </meta>
+  <graph defaultedgetype="undirected" mode="static">
+    <attributes class="node" mode="static">
+      <attribute id="0" title="role" type="string"/>
+      <attribute id="1" title="total_kg" type="double"/>
+    </attributes>
+    <nodes>
+      <node id="Tabasco.Centro" label="Tabasco.Centro">
+        <attvalues>
+          <attvalue for="0" value="focal"/>
+          <attvalue for="1" value="2.5652647542596535E10"/>
+        </attvalues>
+        <viz:size value="40.0"/>
+        <viz:color r="227" g="73" b="72"/>
+      </node>
+      <node id="Bióxido de carbono" label="Carbon dioxide">
+        <attvalues>
+          <attvalue for="0" value="substance"/>
+          <attvalue for="1" value="2.5520713838597935E10"/>
+        </attvalues>
+        <viz:size value="39.845707"/>
+        <viz:position x="500.0" y="0.0"/>
+        <viz:color r="235" g="104" b="52"/>
+      </node>
+      <node id="Metano" label="Methane">
+        <attvalues>
+          <attvalue for="0" value="substance"/>
+          <attvalue for="1" value="1.31883842244174E8"/>
+        </attvalues>
+        <viz:size value="10.154234"/>
+        <viz:position x="456.77274" y="203.36832"/>
+        <viz:color r="235" g="104" b="52"/>
+      </node>
+      <node id="Cadmio (polvos, respirables, vapores o humos)" label="Cadmium (respirable dust, vapors or fumes)">
+        <attvalues>
+          <attvalue for="0" value="substance"/>
+          <attvalue for="1" value="10243.398619991302"/>
+        </attvalues>
+        <viz:size value="10.000012"/>
+        <viz:position x="334.5653" y="371.57242"/>
+        <viz:color r="235" g="104" b="52"/>
+      </node>
+      <node id="Níquel (polvos respirables, humos o vapores)" label="Nickel (respirable dust, fumes or vapors)">
+        <attvalues>
+          <attvalue for="0" value="substance"/>
+          <attvalue for="1" value="9422.677"/>
+        </attvalues>
+        <viz:size value="10.000011"/>
+        <viz:position x="154.5085" y="475.52826"/>
+        <viz:color r="235" g="104" b="52"/>
+      </node>
+      <node id="Plomo (compuestos)" label="Lead (compounds)">
+        <attvalues>
+          <attvalue for="0" value="substance"/>
+          <attvalue for="1" value="8137.8177924422"/>
+        </attvalues>
+        <viz:size value="10.00001"/>
+        <viz:position x="-52.264233" y="497.26096"/>
+        <viz:color r="235" g="104" b="52"/>
+      </node>
+      <node id="Asbesto y sus formas (En forma de polvo, fibras o productos desmenuzables con la presión de la mano)" label="Asbestos and its forms (as dust, fibers or friable products that crumble under hand pressure)">
+        <attvalues>
+          <attvalue for="0" value="substance"/>
+          <attvalue for="1" value="3871.13"/>
+        </attvalues>
+        <viz:size value="10.000005"/>
+        <viz:position x="-250.0" y="433.0127"/>
+        <viz:color r="235" g="104" b="52"/>
+      </node>
+      <node id="Níquel (compuestos)" label="Nickel (compounds)">
+        <attvalues>
+          <attvalue for="0" value="substance"/>
+          <attvalue for="1" value="3715.6392689788404"/>
+        </attvalues>
+        <viz:size value="10.000005"/>
+        <viz:position x="-404.50848" y="293.89264"/>
+        <viz:color r="235" g="104" b="52"/>
+      </node>
+      <node id="Formaldehido" label="Formaldehyde">
+        <attvalues>
+          <attvalue for="0" value="substance"/>
+          <attvalue for="1" value="3120.1963332064006"/>
+        </attvalues>
+        <viz:size value="10.000004"/>
+        <viz:position x="-489.0738" y="103.95585"/>
+        <viz:color r="235" g="104" b="52"/>
+      </node>
+      <node id="Plomo (Compuestos solubles)" label="Lead (soluble compounds)">
+        <attvalues>
+          <attvalue for="0" value="substance"/>
+          <attvalue for="1" value="2343.4424344569998"/>
+        </attvalues>
+        <viz:size value="10.000003"/>
+        <viz:position x="-489.0738" y="-103.95585"/>
+        <viz:color r="235" g="104" b="52"/>
+      </node>
+      <node id="Mercurio (polvos, respirables, vapores o humos)" label="Mercury (respirable dust, vapors or fumes)">
+        <attvalues>
+          <attvalue for="0" value="substance"/>
+          <attvalue for="1" value="2270.424561608615"/>
+        </attvalues>
+        <viz:size value="10.000003"/>
+        <viz:position x="-404.50848" y="-293.89264"/>
+        <viz:color r="235" g="104" b="52"/>
+      </node>
+      <node id="Plomo (polvos respirables, humos o vapores)" label="Lead (respirable dust, fumes or vapors)">
+        <attvalues>
+          <attvalue for="0" value="substance"/>
+          <attvalue for="1" value="1536.884"/>
+        </attvalues>
+        <viz:size value="10.000002"/>
+        <viz:position x="-250.0" y="-433.0127"/>
+        <viz:color r="235" g="104" b="52"/>
+      </node>
+      <node id="Cromo (Compuestos solubles)" label="Chromium (soluble compounds)">
+        <attvalues>
+          <attvalue for="0" value="substance"/>
+          <attvalue for="1" value="1434.8983151749999"/>
+        </attvalues>
+        <viz:size value="10.000002"/>
+        <viz:position x="-52.264233" y="-497.26096"/>
+        <viz:color r="235" g="104" b="52"/>
+      </node>
+      <node id="Acetaldehido" label="Acetaldehyde">
+        <attvalues>
+          <attvalue for="0" value="substance"/>
+          <attvalue for="1" value="1145.6739209928176"/>
+        </attvalues>
+        <viz:size value="10.000001"/>
+        <viz:position x="154.5085" y="-475.52826"/>
+        <viz:color r="235" g="104" b="52"/>
+      </node>
+      <node id="Bifenilos policlorados" label="Polychlorinated biphenyls (PCBs)">
+        <attvalues>
+          <attvalue for="0" value="substance"/>
+          <attvalue for="1" value="571.3061600000001"/>
+        </attvalues>
+        <viz:size value="10.000001"/>
+        <viz:position x="334.5653" y="-371.57242"/>
+        <viz:color r="235" g="104" b="52"/>
+      </node>
+      <node id="Níquel (Compuestos solubles)" label="Nickel (soluble compounds)">
+        <attvalues>
+          <attvalue for="0" value="substance"/>
+          <attvalue for="1" value="554.411346998"/>
+        </attvalues>
+        <viz:size value="10.000001"/>
+        <viz:position x="456.77274" y="-203.36832"/>
+        <viz:color r="235" g="104" b="52"/>
+      </node>
+      <node id="Tabasco.Macuspana" label="Tabasco.Macuspana">
+        <attvalues>
+          <attvalue for="0" value="peer_municipio"/>
+          <attvalue for="1" value="2.5045794253040924E10"/>
+        </attvalues>
+        <viz:size value="39.290306"/>
+        <viz:position x="965.92584" y="258.81903"/>
+        <viz:color r="42" g="120" b="214"/>
+      </node>
+      <node id="Tabasco.Cárdenas" label="Tabasco.Cárdenas">
+        <attvalues>
+          <attvalue for="0" value="peer_municipio"/>
+          <attvalue for="1" value="6.610634925575734E9"/>
+        </attvalues>
+        <viz:size value="17.730938"/>
+        <viz:position x="-707.1068" y="707.1068"/>
+        <viz:color r="42" g="120" b="214"/>
+      </node>
+      <node id="Tabasco.Tenosique" label="Tabasco.Tenosique">
+        <attvalues>
+          <attvalue for="0" value="peer_municipio"/>
+          <attvalue for="1" value="38.199999999999996"/>
+        </attvalues>
+        <viz:size value="10.0"/>
+        <viz:position x="965.92584" y="-258.81903"/>
+        <viz:color r="42" g="120" b="214"/>
+      </node>
+      <node id="Tabasco.Paraíso" label="Tabasco.Paraíso">
+        <attvalues>
+          <attvalue for="0" value="peer_municipio"/>
+          <attvalue for="1" value="1.0044565763078238E10"/>
+        </attvalues>
+        <viz:size value="21.746819"/>
+        <viz:position x="258.81903" y="965.92584"/>
+        <viz:color r="42" g="120" b="214"/>
+      </node>
+      <node id="Tabasco.Jalpa de Méndez" label="Tabasco.Jalpa de Méndez">
+        <attvalues>
+          <attvalue for="0" value="peer_municipio"/>
+          <attvalue for="1" value="1.96081028004458E9"/>
+        </attvalues>
+        <viz:size value="12.293108"/>
+        <viz:position x="-965.92584" y="258.81903"/>
+        <viz:color r="42" g="120" b="214"/>
+      </node>
+      <node id="Tabasco.Huimanguillo" label="Tabasco.Huimanguillo">
+        <attvalues>
+          <attvalue for="0" value="peer_municipio"/>
+          <attvalue for="1" value="1.3840459214471954E10"/>
+        </attvalues>
+        <viz:size value="26.185999"/>
+        <viz:position x="707.1068" y="707.1068"/>
+        <viz:color r="42" g="120" b="214"/>
+      </node>
+      <node id="Tabasco.Comalcalco" label="Tabasco.Comalcalco">
+        <attvalues>
+          <attvalue for="0" value="peer_municipio"/>
+          <attvalue for="1" value="6.28301594961403E8"/>
+        </attvalues>
+        <viz:size value="10.734779"/>
+        <viz:position x="-965.92584" y="-258.81903"/>
+        <viz:color r="42" g="120" b="214"/>
+      </node>
+      <node id="Tabasco.Cunduacán" label="Tabasco.Cunduacán">
+        <attvalues>
+          <attvalue for="0" value="peer_municipio"/>
+          <attvalue for="1" value="9.647013485678503E9"/>
+        </attvalues>
+        <viz:size value="21.281893"/>
+        <viz:position x="-258.81903" y="965.92584"/>
+        <viz:color r="42" g="120" b="214"/>
+      </node>
+      <node id="Tabasco.Teapa" label="Tabasco.Teapa">
+        <attvalues>
+          <attvalue for="0" value="peer_municipio"/>
+          <attvalue for="1" value="1255986.646369"/>
+        </attvalues>
+        <viz:size value="10.001469"/>
+        <viz:position x="707.1068" y="-707.1068"/>
+        <viz:color r="42" g="120" b="214"/>
+      </node>
+      <node id="Tabasco.Centla" label="Tabasco.Centla">
+        <attvalues>
+          <attvalue for="0" value="peer_municipio"/>
+          <attvalue for="1" value="1.4400082018371156E8"/>
+        </attvalues>
+        <viz:size value="10.168405"/>
+        <viz:position x="-258.81903" y="-965.92584"/>
+        <viz:color r="42" g="120" b="214"/>
+      </node>
+      <node id="Tabasco.Nacajuca" label="Tabasco.Nacajuca">
+        <attvalues>
+          <attvalue for="0" value="peer_municipio"/>
+          <attvalue for="1" value="9.6738704428232E7"/>
+        </attvalues>
+        <viz:size value="10.113132"/>
+        <viz:position x="258.81903" y="-965.92584"/>
+        <viz:color r="42" g="120" b="214"/>
+      </node>
+      <node id="Tabasco.Jalapa" label="Tabasco.Jalapa">
+        <attvalues>
+          <attvalue for="0" value="peer_municipio"/>
+          <attvalue for="1" value="3.8892052534163606E8"/>
+        </attvalues>
+        <viz:size value="10.454831"/>
+        <viz:position x="-707.1068" y="-707.1068"/>
+        <viz:color r="42" g="120" b="214"/>
+      </node>
+    </nodes>
+    <edges>
+      <edge id="0" source="Tabasco.Centro" target="Bióxido de carbono" weight="2.5520713728E10">
+        <viz:color r="137" g="135" b="129" a="0.54901963"/>
+      </edge>
+      <edge id="1" source="Tabasco.Centro" target="Metano" weight="1.3188384E8">
+        <viz:color r="137" g="135" b="129" a="0.54901963"/>
+      </edge>
+      <edge id="2" source="Tabasco.Centro" target="Cadmio (polvos, respirables, vapores o humos)" weight="10243.3984375">
+        <viz:color r="137" g="135" b="129" a="0.54901963"/>
+      </edge>
+      <edge id="3" source="Tabasco.Centro" target="Níquel (polvos respirables, humos o vapores)" weight="9422.6767578125">
+        <viz:color r="137" g="135" b="129" a="0.54901963"/>
+      </edge>
+      <edge id="4" source="Tabasco.Centro" target="Plomo (compuestos)" weight="8137.81787109375">
+        <viz:color r="137" g="135" b="129" a="0.54901963"/>
+      </edge>
+      <edge id="5" source="Tabasco.Centro" target="Asbesto y sus formas (En forma de polvo, fibras o productos desmenuzables con la presión de la mano)" weight="3871.1298828125">
+        <viz:color r="137" g="135" b="129" a="0.54901963"/>
+      </edge>
+      <edge id="6" source="Tabasco.Centro" target="Níquel (compuestos)" weight="3715.63916015625">
+        <viz:color r="137" g="135" b="129" a="0.54901963"/>
+      </edge>
+      <edge id="7" source="Tabasco.Centro" target="Formaldehido" weight="3120.1962890625">
+        <viz:color r="137" g="135" b="129" a="0.54901963"/>
+      </edge>
+      <edge id="8" source="Tabasco.Centro" target="Plomo (Compuestos solubles)" weight="2343.4423828125">
+        <viz:color r="137" g="135" b="129" a="0.54901963"/>
+      </edge>
+      <edge id="9" source="Tabasco.Centro" target="Mercurio (polvos, respirables, vapores o humos)" weight="2270.424560546875">
+        <viz:color r="137" g="135" b="129" a="0.54901963"/>
+      </edge>
+      <edge id="10" source="Tabasco.Centro" target="Plomo (polvos respirables, humos o vapores)" weight="1536.884033203125">
+        <viz:color r="137" g="135" b="129" a="0.54901963"/>
+      </edge>
+      <edge id="11" source="Tabasco.Centro" target="Cromo (Compuestos solubles)" weight="1434.8983154296875">
+        <viz:color r="137" g="135" b="129" a="0.54901963"/>
+      </edge>
+      <edge id="12" source="Tabasco.Centro" target="Acetaldehido" weight="1145.6739501953125">
+        <viz:color r="137" g="135" b="129" a="0.54901963"/>
+      </edge>
+      <edge id="13" source="Tabasco.Centro" target="Bifenilos policlorados" weight="571.30615234375">
+        <viz:color r="137" g="135" b="129" a="0.54901963"/>
+      </edge>
+      <edge id="14" source="Tabasco.Centro" target="Níquel (Compuestos solubles)" weight="554.411376953125">
+        <viz:color r="137" g="135" b="129" a="0.54901963"/>
+      </edge>
+      <edge id="15" source="Bióxido de carbono" target="Tabasco.Macuspana" weight="2.5040822272E10">
+        <viz:color r="137" g="135" b="129" a="0.54901963"/>
+      </edge>
+      <edge id="16" source="Bióxido de carbono" target="Tabasco.Cárdenas" weight="6.485248512E9">
+        <viz:color r="137" g="135" b="129" a="0.54901963"/>
+      </edge>
+      <edge id="17" source="Bióxido de carbono" target="Tabasco.Paraíso" weight="9.901247488E9">
+        <viz:color r="137" g="135" b="129" a="0.54901963"/>
+      </edge>
+      <edge id="18" source="Bióxido de carbono" target="Tabasco.Jalpa de Méndez" weight="1.958784896E9">
+        <viz:color r="137" g="135" b="129" a="0.54901963"/>
+      </edge>
+      <edge id="19" source="Bióxido de carbono" target="Tabasco.Huimanguillo" weight="1.3641626624E10">
+        <viz:color r="137" g="135" b="129" a="0.54901963"/>
+      </edge>
+      <edge id="20" source="Bióxido de carbono" target="Tabasco.Comalcalco" weight="6.22124288E8">
+        <viz:color r="137" g="135" b="129" a="0.54901963"/>
+      </edge>
+      <edge id="21" source="Bióxido de carbono" target="Tabasco.Cunduacán" weight="9.605275648E9">
+        <viz:color r="137" g="135" b="129" a="0.54901963"/>
+      </edge>
+      <edge id="22" source="Bióxido de carbono" target="Tabasco.Teapa" weight="1255779.75">
+        <viz:color r="137" g="135" b="129" a="0.54901963"/>
+      </edge>
+      <edge id="23" source="Bióxido de carbono" target="Tabasco.Centla" weight="1.42502992E8">
+        <viz:color r="137" g="135" b="129" a="0.54901963"/>
+      </edge>
+      <edge id="24" source="Bióxido de carbono" target="Tabasco.Nacajuca" weight="9.6618264E7">
+        <viz:color r="137" g="135" b="129" a="0.54901963"/>
+      </edge>
+      <edge id="25" source="Bióxido de carbono" target="Tabasco.Jalapa" weight="3.86069152E8">
+        <viz:color r="137" g="135" b="129" a="0.54901963"/>
+      </edge>
+      <edge id="26" source="Metano" target="Tabasco.Macuspana" weight="4881107.0">
+        <viz:color r="137" g="135" b="129" a="0.54901963"/>
+      </edge>
+      <edge id="27" source="Metano" target="Tabasco.Cárdenas" weight="1.2520096E8">
+        <viz:color r="137" g="135" b="129" a="0.54901963"/>
+      </edge>
+      <edge id="28" source="Metano" target="Tabasco.Paraíso" weight="1.42917712E8">
+        <viz:color r="137" g="135" b="129" a="0.54901963"/>
+      </edge>
+      <edge id="29" source="Metano" target="Tabasco.Jalpa de Méndez" weight="2010943.75">
+        <viz:color r="137" g="135" b="129" a="0.54901963"/>
+      </edge>
+      <edge id="30" source="Metano" target="Tabasco.Huimanguillo" weight="1.98641712E8">
+        <viz:color r="137" g="135" b="129" a="0.54901963"/>
+      </edge>
+      <edge id="31" source="Metano" target="Tabasco.Comalcalco" weight="6043191.0">
+        <viz:color r="137" g="135" b="129" a="0.54901963"/>
+      </edge>
+      <edge id="32" source="Metano" target="Tabasco.Cunduacán" weight="4.1585152E7">
+        <viz:color r="137" g="135" b="129" a="0.54901963"/>
+      </edge>
+      <edge id="33" source="Metano" target="Tabasco.Teapa" weight="160.0">
+        <viz:color r="137" g="135" b="129" a="0.54901963"/>
+      </edge>
+      <edge id="34" source="Metano" target="Tabasco.Centla" weight="1478928.25">
+        <viz:color r="137" g="135" b="129" a="0.54901963"/>
+      </edge>
+      <edge id="35" source="Metano" target="Tabasco.Nacajuca" weight="120221.4921875">
+        <viz:color r="137" g="135" b="129" a="0.54901963"/>
+      </edge>
+      <edge id="36" source="Metano" target="Tabasco.Jalapa" weight="2835818.5">
+        <viz:color r="137" g="135" b="129" a="0.54901963"/>
+      </edge>
+      <edge id="37" source="Cadmio (polvos, respirables, vapores o humos)" target="Tabasco.Macuspana" weight="836.2105712890625">
+        <viz:color r="137" g="135" b="129" a="0.54901963"/>
+      </edge>
+      <edge id="38" source="Cadmio (polvos, respirables, vapores o humos)" target="Tabasco.Cárdenas" weight="46.28312683105469">
+        <viz:color r="137" g="135" b="129" a="0.54901963"/>
+      </edge>
+      <edge id="39" source="Cadmio (polvos, respirables, vapores o humos)" target="Tabasco.Tenosique" weight="3.5999999046325684">
+        <viz:color r="137" g="135" b="129" a="0.54901963"/>
+      </edge>
+      <edge id="40" source="Cadmio (polvos, respirables, vapores o humos)" target="Tabasco.Paraíso" weight="7092.615234375">
+        <viz:color r="137" g="135" b="129" a="0.54901963"/>
+      </edge>
+      <edge id="41" source="Cadmio (polvos, respirables, vapores o humos)" target="Tabasco.Jalpa de Méndez" weight="12.119662284851074">
+        <viz:color r="137" g="135" b="129" a="0.54901963"/>
+      </edge>
+      <edge id="42" source="Cadmio (polvos, respirables, vapores o humos)" target="Tabasco.Huimanguillo" weight="3.189116954803467">
+        <viz:color r="137" g="135" b="129" a="0.54901963"/>
+      </edge>
+      <edge id="43" source="Cadmio (polvos, respirables, vapores o humos)" target="Tabasco.Comalcalco" weight="3.3016600608825684">
+        <viz:color r="137" g="135" b="129" a="0.54901963"/>
+      </edge>
+      <edge id="44" source="Cadmio (polvos, respirables, vapores o humos)" target="Tabasco.Cunduacán" weight="10.17179012298584">
+        <viz:color r="137" g="135" b="129" a="0.54901963"/>
+      </edge>
+      <edge id="45" source="Cadmio (polvos, respirables, vapores o humos)" target="Tabasco.Teapa" weight="0.5751000046730042">
+        <viz:color r="137" g="135" b="129" a="0.54901963"/>
+      </edge>
+      <edge id="46" source="Cadmio (polvos, respirables, vapores o humos)" target="Tabasco.Centla" weight="0.1577499955892563">
+        <viz:color r="137" g="135" b="129" a="0.54901963"/>
+      </edge>
+      <edge id="47" source="Cadmio (polvos, respirables, vapores o humos)" target="Tabasco.Nacajuca" weight="0.08312799781560898">
+        <viz:color r="137" g="135" b="129" a="0.54901963"/>
+      </edge>
+      <edge id="48" source="Níquel (polvos respirables, humos o vapores)" target="Tabasco.Macuspana" weight="1623.335205078125">
+        <viz:color r="137" g="135" b="129" a="0.54901963"/>
+      </edge>
+      <edge id="49" source="Níquel (polvos respirables, humos o vapores)" target="Tabasco.Cárdenas" weight="162197.1875">
+        <viz:color r="137" g="135" b="129" a="0.54901963"/>
+      </edge>
+      <edge id="50" source="Níquel (polvos respirables, humos o vapores)" target="Tabasco.Paraíso" weight="63517.171875">
+        <viz:color r="137" g="135" b="129" a="0.54901963"/>
+      </edge>
+      <edge id="51" source="Níquel (polvos respirables, humos o vapores)" target="Tabasco.Jalpa de Méndez" weight="10606.23046875">
+        <viz:color r="137" g="135" b="129" a="0.54901963"/>
+      </edge>
+      <edge id="52" source="Níquel (polvos respirables, humos o vapores)" target="Tabasco.Huimanguillo" weight="146558.0">
+        <viz:color r="137" g="135" b="129" a="0.54901963"/>
+      </edge>
+      <edge id="53" source="Níquel (polvos respirables, humos o vapores)" target="Tabasco.Comalcalco" weight="121640.03125">
+        <viz:color r="137" g="135" b="129" a="0.54901963"/>
+      </edge>
+      <edge id="54" source="Níquel (polvos respirables, humos o vapores)" target="Tabasco.Cunduacán" weight="138994.5625">
+        <viz:color r="137" g="135" b="129" a="0.54901963"/>
+      </edge>
+      <edge id="55" source="Níquel (polvos respirables, humos o vapores)" target="Tabasco.Centla" weight="17019.779296875">
+        <viz:color r="137" g="135" b="129" a="0.54901963"/>
+      </edge>
+      <edge id="56" source="Níquel (polvos respirables, humos o vapores)" target="Tabasco.Jalapa" weight="14005.900390625">
+        <viz:color r="137" g="135" b="129" a="0.54901963"/>
+      </edge>
+      <edge id="57" source="Plomo (compuestos)" target="Tabasco.Macuspana" weight="17827.921875">
+        <viz:color r="137" g="135" b="129" a="0.54901963"/>
+      </edge>
+      <edge id="58" source="Plomo (compuestos)" target="Tabasco.Cárdenas" weight="1605.3040771484375">
+        <viz:color r="137" g="135" b="129" a="0.54901963"/>
+      </edge>
+      <edge id="59" source="Plomo (compuestos)" target="Tabasco.Tenosique" weight="7.199999809265137">
+        <viz:color r="137" g="135" b="129" a="0.54901963"/>
+      </edge>
+      <edge id="60" source="Plomo (compuestos)" target="Tabasco.Paraíso" weight="4170.8583984375">
+        <viz:color r="137" g="135" b="129" a="0.54901963"/>
+      </edge>
+      <edge id="61" source="Plomo (compuestos)" target="Tabasco.Jalpa de Méndez" weight="18.612350463867188">
+        <viz:color r="137" g="135" b="129" a="0.54901963"/>
+      </edge>
+      <edge id="62" source="Plomo (compuestos)" target="Tabasco.Huimanguillo" weight="1782.178955078125">
+        <viz:color r="137" g="135" b="129" a="0.54901963"/>
+      </edge>
+      <edge id="63" source="Plomo (compuestos)" target="Tabasco.Comalcalco" weight="0.6607879996299744">
+        <viz:color r="137" g="135" b="129" a="0.54901963"/>
+      </edge>
+      <edge id="64" source="Plomo (compuestos)" target="Tabasco.Cunduacán" weight="8.567105293273926">
+        <viz:color r="137" g="135" b="129" a="0.54901963"/>
+      </edge>
+      <edge id="65" source="Plomo (compuestos)" target="Tabasco.Teapa" weight="0.1265220046043396">
+        <viz:color r="137" g="135" b="129" a="0.54901963"/>
+      </edge>
+      <edge id="66" source="Plomo (compuestos)" target="Tabasco.Centla" weight="0.7623540163040161">
+        <viz:color r="137" g="135" b="129" a="0.54901963"/>
+      </edge>
+      <edge id="67" source="Plomo (compuestos)" target="Tabasco.Nacajuca" weight="0.20781999826431274">
+        <viz:color r="137" g="135" b="129" a="0.54901963"/>
+      </edge>
+      <edge id="68" source="Asbesto y sus formas (En forma de polvo, fibras o productos desmenuzables con la presión de la mano)" target="Tabasco.Macuspana" weight="60950.0">
+        <viz:color r="137" g="135" b="129" a="0.54901963"/>
+      </edge>
+      <edge id="69" source="Asbesto y sus formas (En forma de polvo, fibras o productos desmenuzables con la presión de la mano)" target="Tabasco.Huimanguillo" weight="9928.0">
+        <viz:color r="137" g="135" b="129" a="0.54901963"/>
+      </edge>
+      <edge id="70" source="Níquel (compuestos)" target="Tabasco.Macuspana" weight="14.071571350097656">
+        <viz:color r="137" g="135" b="129" a="0.54901963"/>
+      </edge>
+      <edge id="71" source="Níquel (compuestos)" target="Tabasco.Cárdenas" weight="564.0459594726562">
+        <viz:color r="137" g="135" b="129" a="0.54901963"/>
+      </edge>
+      <edge id="72" source="Níquel (compuestos)" target="Tabasco.Tenosique" weight="22.600000381469727">
+        <viz:color r="137" g="135" b="129" a="0.54901963"/>
+      </edge>
+      <edge id="73" source="Níquel (compuestos)" target="Tabasco.Paraíso" weight="11030.72265625">
+        <viz:color r="137" g="135" b="129" a="0.54901963"/>
+      </edge>
+      <edge id="74" source="Níquel (compuestos)" target="Tabasco.Jalpa de Méndez" weight="59.00835037231445">
+        <viz:color r="137" g="135" b="129" a="0.54901963"/>
+      </edge>
+      <edge id="75" source="Níquel (compuestos)" target="Tabasco.Huimanguillo" weight="49.10144805908203">
+        <viz:color r="137" g="135" b="129" a="0.54901963"/>
+      </edge>
+      <edge id="76" source="Níquel (compuestos)" target="Tabasco.Comalcalco" weight="23.003999710083008">
+        <viz:color r="137" g="135" b="129" a="0.54901963"/>
+      </edge>
+      <edge id="77" source="Níquel (compuestos)" target="Tabasco.Cunduacán" weight="29.897659301757812">
+        <viz:color r="137" g="135" b="129" a="0.54901963"/>
+      </edge>
+      <edge id="78" source="Níquel (compuestos)" target="Tabasco.Teapa" weight="5.750999927520752">
+        <viz:color r="137" g="135" b="129" a="0.54901963"/>
+      </edge>
+      <edge id="79" source="Níquel (compuestos)" target="Tabasco.Centla" weight="0.7223700284957886">
+        <viz:color r="137" g="135" b="129" a="0.54901963"/>
+      </edge>
+      <edge id="80" source="Níquel (compuestos)" target="Tabasco.Nacajuca" weight="3.325119972229004">
+        <viz:color r="137" g="135" b="129" a="0.54901963"/>
+      </edge>
+      <edge id="81" source="Formaldehido" target="Tabasco.Macuspana" weight="7443.54736328125">
+        <viz:color r="137" g="135" b="129" a="0.54901963"/>
+      </edge>
+      <edge id="82" source="Formaldehido" target="Tabasco.Paraíso" weight="209118.578125">
+        <viz:color r="137" g="135" b="129" a="0.54901963"/>
+      </edge>
+      <edge id="83" source="Formaldehido" target="Tabasco.Huimanguillo" weight="15173.1279296875">
+        <viz:color r="137" g="135" b="129" a="0.54901963"/>
+      </edge>
+      <edge id="84" source="Plomo (Compuestos solubles)" target="Tabasco.Macuspana" weight="262.8600769042969">
+        <viz:color r="137" g="135" b="129" a="0.54901963"/>
+      </edge>
+      <edge id="85" source="Plomo (Compuestos solubles)" target="Tabasco.Cárdenas" weight="287.42352294921875">
+        <viz:color r="137" g="135" b="129" a="0.54901963"/>
+      </edge>
+      <edge id="86" source="Plomo (Compuestos solubles)" target="Tabasco.Tenosique" weight="2.4000000953674316">
+        <viz:color r="137" g="135" b="129" a="0.54901963"/>
+      </edge>
+      <edge id="87" source="Plomo (Compuestos solubles)" target="Tabasco.Paraíso" weight="8025.93212890625">
+        <viz:color r="137" g="135" b="129" a="0.54901963"/>
+      </edge>
+      <edge id="88" source="Plomo (Compuestos solubles)" target="Tabasco.Jalpa de Méndez" weight="159.683837890625">
+        <viz:color r="137" g="135" b="129" a="0.54901963"/>
+      </edge>
+      <edge id="89" source="Plomo (Compuestos solubles)" target="Tabasco.Huimanguillo" weight="262.0">
+        <viz:color r="137" g="135" b="129" a="0.54901963"/>
+      </edge>
+      <edge id="90" source="Plomo (Compuestos solubles)" target="Tabasco.Comalcalco" weight="3.153599977493286">
+        <viz:color r="137" g="135" b="129" a="0.54901963"/>
+      </edge>
+      <edge id="91" source="Plomo (Compuestos solubles)" target="Tabasco.Cunduacán" weight="16.188400268554688">
+        <viz:color r="137" g="135" b="129" a="0.54901963"/>
+      </edge>
+      <edge id="92" source="Plomo (Compuestos solubles)" target="Tabasco.Teapa" weight="2.5227999687194824">
+        <viz:color r="137" g="135" b="129" a="0.54901963"/>
+      </edge>
+      <edge id="93" source="Plomo (Compuestos solubles)" target="Tabasco.Centla" weight="1.0950000286102295">
+        <viz:color r="137" g="135" b="129" a="0.54901963"/>
+      </edge>
+      <edge id="94" source="Plomo (Compuestos solubles)" target="Tabasco.Nacajuca" weight="7.358399868011475">
+        <viz:color r="137" g="135" b="129" a="0.54901963"/>
+      </edge>
+      <edge id="95" source="Plomo (Compuestos solubles)" target="Tabasco.Jalapa" weight="5.64109992980957">
+        <viz:color r="137" g="135" b="129" a="0.54901963"/>
+      </edge>
+      <edge id="96" source="Mercurio (polvos, respirables, vapores o humos)" target="Tabasco.Macuspana" weight="482.2235412597656">
+        <viz:color r="137" g="135" b="129" a="0.54901963"/>
+      </edge>
+      <edge id="97" source="Mercurio (polvos, respirables, vapores o humos)" target="Tabasco.Cárdenas" weight="17694.521484375">
+        <viz:color r="137" g="135" b="129" a="0.54901963"/>
+      </edge>
+      <edge id="98" source="Mercurio (polvos, respirables, vapores o humos)" target="Tabasco.Paraíso" weight="4033.938232421875">
+        <viz:color r="137" g="135" b="129" a="0.54901963"/>
+      </edge>
+      <edge id="99" source="Mercurio (polvos, respirables, vapores o humos)" target="Tabasco.Jalpa de Méndez" weight="1155.3460693359375">
+        <viz:color r="137" g="135" b="129" a="0.54901963"/>
+      </edge>
+      <edge id="100" source="Mercurio (polvos, respirables, vapores o humos)" target="Tabasco.Huimanguillo" weight="15989.7978515625">
+        <viz:color r="137" g="135" b="129" a="0.54901963"/>
+      </edge>
+      <edge id="101" source="Mercurio (polvos, respirables, vapores o humos)" target="Tabasco.Comalcalco" weight="12342.4599609375">
+        <viz:color r="137" g="135" b="129" a="0.54901963"/>
+      </edge>
+      <edge id="102" source="Mercurio (polvos, respirables, vapores o humos)" target="Tabasco.Cunduacán" weight="13404.0185546875">
+        <viz:color r="137" g="135" b="129" a="0.54901963"/>
+      </edge>
+      <edge id="103" source="Mercurio (polvos, respirables, vapores o humos)" target="Tabasco.Teapa" weight="0.06901200115680695">
+        <viz:color r="137" g="135" b="129" a="0.54901963"/>
+      </edge>
+      <edge id="104" source="Mercurio (polvos, respirables, vapores o humos)" target="Tabasco.Centla" weight="1856.7076416015625">
+        <viz:color r="137" g="135" b="129" a="0.54901963"/>
+      </edge>
+      <edge id="105" source="Mercurio (polvos, respirables, vapores o humos)" target="Tabasco.Nacajuca" weight="153.04156494140625">
+        <viz:color r="137" g="135" b="129" a="0.54901963"/>
+      </edge>
+      <edge id="106" source="Mercurio (polvos, respirables, vapores o humos)" target="Tabasco.Jalapa" weight="1527.9200439453125">
+        <viz:color r="137" g="135" b="129" a="0.54901963"/>
+      </edge>
+      <edge id="107" source="Plomo (polvos respirables, humos o vapores)" target="Tabasco.Macuspana" weight="223.25930786132812">
+        <viz:color r="137" g="135" b="129" a="0.54901963"/>
+      </edge>
+      <edge id="108" source="Plomo (polvos respirables, humos o vapores)" target="Tabasco.Cárdenas" weight="95.34040069580078">
+        <viz:color r="137" g="135" b="129" a="0.54901963"/>
+      </edge>
+      <edge id="109" source="Plomo (polvos respirables, humos o vapores)" target="Tabasco.Paraíso" weight="22156.73828125">
+        <viz:color r="137" g="135" b="129" a="0.54901963"/>
+      </edge>
+      <edge id="110" source="Cromo (Compuestos solubles)" target="Tabasco.Macuspana" weight="24.379825592041016">
+        <viz:color r="137" g="135" b="129" a="0.54901963"/>
+      </edge>
+      <edge id="111" source="Cromo (Compuestos solubles)" target="Tabasco.Cárdenas" weight="502.8039855957031">
+        <viz:color r="137" g="135" b="129" a="0.54901963"/>
+      </edge>
+      <edge id="112" source="Cromo (Compuestos solubles)" target="Tabasco.Tenosique" weight="1.2000000476837158">
+        <viz:color r="137" g="135" b="129" a="0.54901963"/>
+      </edge>
+      <edge id="113" source="Cromo (Compuestos solubles)" target="Tabasco.Paraíso" weight="14031.4248046875">
+        <viz:color r="137" g="135" b="129" a="0.54901963"/>
+      </edge>
+      <edge id="114" source="Cromo (Compuestos solubles)" target="Tabasco.Jalpa de Méndez" weight="495.5777282714844">
+        <viz:color r="137" g="135" b="129" a="0.54901963"/>
+      </edge>
+      <edge id="115" source="Cromo (Compuestos solubles)" target="Tabasco.Comalcalco" weight="23.652000427246094">
+        <viz:color r="137" g="135" b="129" a="0.54901963"/>
+      </edge>
+      <edge id="116" source="Cromo (Compuestos solubles)" target="Tabasco.Cunduacán" weight="48.479000091552734">
+        <viz:color r="137" g="135" b="129" a="0.54901963"/>
+      </edge>
+      <edge id="117" source="Cromo (Compuestos solubles)" target="Tabasco.Teapa" weight="6.307199954986572">
+        <viz:color r="137" g="135" b="129" a="0.54901963"/>
+      </edge>
+      <edge id="118" source="Cromo (Compuestos solubles)" target="Tabasco.Centla" weight="5.473800182342529">
+        <viz:color r="137" g="135" b="129" a="0.54901963"/>
+      </edge>
+      <edge id="119" source="Cromo (Compuestos solubles)" target="Tabasco.Nacajuca" weight="10.537199974060059">
+        <viz:color r="137" g="135" b="129" a="0.54901963"/>
+      </edge>
+      <edge id="120" source="Acetaldehido" target="Tabasco.Macuspana" weight="419.49212646484375">
+        <viz:color r="137" g="135" b="129" a="0.54901963"/>
+      </edge>
+      <edge id="121" source="Acetaldehido" target="Tabasco.Paraíso" weight="30314.2421875">
+        <viz:color r="137" g="135" b="129" a="0.54901963"/>
+      </edge>
+      <edge id="122" source="Acetaldehido" target="Tabasco.Huimanguillo" weight="1591.3465576171875">
+        <viz:color r="137" g="135" b="129" a="0.54901963"/>
+      </edge>
+      <edge id="123" source="Bifenilos policlorados" target="Tabasco.Macuspana" weight="1360.0">
+        <viz:color r="137" g="135" b="129" a="0.54901963"/>
+      </edge>
+      <edge id="124" source="Níquel (Compuestos solubles)" target="Tabasco.Macuspana" weight="75.76879119873047">
+        <viz:color r="137" g="135" b="129" a="0.54901963"/>
+      </edge>
+      <edge id="125" source="Níquel (Compuestos solubles)" target="Tabasco.Cárdenas" weight="2325.506103515625">
+        <viz:color r="137" g="135" b="129" a="0.54901963"/>
+      </edge>
+      <edge id="126" source="Níquel (Compuestos solubles)" target="Tabasco.Tenosique" weight="1.2000000476837158">
+        <viz:color r="137" g="135" b="129" a="0.54901963"/>
+      </edge>
+      <edge id="127" source="Níquel (Compuestos solubles)" target="Tabasco.Paraíso" weight="27066.318359375">
+        <viz:color r="137" g="135" b="129" a="0.54901963"/>
+      </edge>
+      <edge id="128" source="Níquel (Compuestos solubles)" target="Tabasco.Jalpa de Méndez" weight="1907.4747314453125">
+        <viz:color r="137" g="135" b="129" a="0.54901963"/>
+      </edge>
+      <edge id="129" source="Níquel (Compuestos solubles)" target="Tabasco.Comalcalco" weight="101.02799987792969">
+        <viz:color r="137" g="135" b="129" a="0.54901963"/>
+      </edge>
+      <edge id="130" source="Níquel (Compuestos solubles)" target="Tabasco.Cunduacán" weight="245.42019653320312">
+        <viz:color r="137" g="135" b="129" a="0.54901963"/>
+      </edge>
+      <edge id="131" source="Níquel (Compuestos solubles)" target="Tabasco.Teapa" weight="31.535999298095703">
+        <viz:color r="137" g="135" b="129" a="0.54901963"/>
+      </edge>
+      <edge id="132" source="Níquel (Compuestos solubles)" target="Tabasco.Centla" weight="17.273700714111328">
+        <viz:color r="137" g="135" b="129" a="0.54901963"/>
+      </edge>
+      <edge id="133" source="Níquel (Compuestos solubles)" target="Tabasco.Nacajuca" weight="45.9900016784668">
+        <viz:color r="137" g="135" b="129" a="0.54901963"/>
+      </edge>
+      <edge id="134" source="Níquel (Compuestos solubles)" target="Tabasco.Jalapa" weight="7.83489990234375">
+        <viz:color r="137" g="135" b="129" a="0.54901963"/>
+      </edge>
+    </edges>
+  </graph>
+</gexf>

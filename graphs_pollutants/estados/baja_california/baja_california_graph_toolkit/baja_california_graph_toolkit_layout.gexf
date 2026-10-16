@@ -1,0 +1,1545 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<gexf xmlns="http://gexf.net/1.3" version="1.3" xmlns:viz="http://gexf.net/1.3/viz" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://gexf.net/1.3 http://gexf.net/1.3/gexf.xsd">
+  <meta lastmodifieddate="2026-10-16">
+    <creator>Apache NetBeans Platform Dev (Build {0})</creator>
+    <title></title>
+    <description></description>
+  </meta>
+  <graph defaultedgetype="undirected" mode="static">
+    <attributes class="node" mode="static">
+      <attribute id="0" title="type" type="string"/>
+      <attribute id="1" title="total_kg" type="double"/>
+    </attributes>
+    <attributes class="edge" mode="static">
+      <attribute id="2" title="count" type="long"/>
+    </attributes>
+    <nodes>
+      <node id="LOC::Baja California.Tijuana" label="Baja California.Tijuana">
+        <attvalues>
+          <attvalue for="0" value="location"/>
+          <attvalue for="1" value="4.66616105067628E9"/>
+        </attvalues>
+        <viz:size value="8.484459"/>
+        <viz:position x="-900.0" y="4500.0"/>
+        <viz:color r="42" g="120" b="214"/>
+      </node>
+      <node id="LOC::Baja California.Tecate" label="Baja California.Tecate">
+        <attvalues>
+          <attvalue for="0" value="location"/>
+          <attvalue for="1" value="5.616736770096923E8"/>
+        </attvalues>
+        <viz:size value="6.2990584"/>
+        <viz:position x="-900.0" y="6000.0"/>
+        <viz:color r="42" g="120" b="214"/>
+      </node>
+      <node id="LOC::Baja California.Mexicali" label="Baja California.Mexicali">
+        <attvalues>
+          <attvalue for="0" value="location"/>
+          <attvalue for="1" value="6.079388657250409E10"/>
+        </attvalues>
+        <viz:size value="38.36921"/>
+        <viz:position x="-900.0" y="0.0"/>
+        <viz:color r="42" g="120" b="214"/>
+      </node>
+      <node id="LOC::Baja California.Playas de Rosarito" label="Baja California.Playas de Rosarito">
+        <attvalues>
+          <attvalue for="0" value="location"/>
+          <attvalue for="1" value="1.9330640020480137E10"/>
+        </attvalues>
+        <viz:size value="16.292442"/>
+        <viz:position x="-900.0" y="1500.0"/>
+        <viz:color r="42" g="120" b="214"/>
+      </node>
+      <node id="LOC::Baja California.Ensenada" label="Baja California.Ensenada">
+        <attvalues>
+          <attvalue for="0" value="location"/>
+          <attvalue for="1" value="7.023226643028638E9"/>
+        </attvalues>
+        <viz:size value="9.73946"/>
+        <viz:position x="-900.0" y="3000.0"/>
+        <viz:color r="42" g="120" b="214"/>
+      </node>
+      <node id="SUB::Cromo (Compuestos solubles)" label="Chromium (soluble compounds)">
+        <attvalues>
+          <attvalue for="0" value="substance"/>
+          <attvalue for="1" value="400865.98608894006"/>
+        </attvalues>
+        <viz:size value="6.0002136"/>
+        <viz:position x="900.0" y="1500.0"/>
+        <viz:color r="235" g="104" b="52"/>
+      </node>
+      <node id="SUB::Mercurio (Compuestos solubles)" label="Mercury (soluble compounds)">
+        <attvalues>
+          <attvalue for="0" value="substance"/>
+          <attvalue for="1" value="1572.95567154"/>
+        </attvalues>
+        <viz:size value="6.000001"/>
+        <viz:position x="900.0" y="4269.2305"/>
+        <viz:color r="235" g="104" b="52"/>
+      </node>
+      <node id="SUB::Níquel (Compuestos solubles)" label="Nickel (soluble compounds)">
+        <attvalues>
+          <attvalue for="0" value="substance"/>
+          <attvalue for="1" value="687571.8040301774"/>
+        </attvalues>
+        <viz:size value="6.000366"/>
+        <viz:position x="900.0" y="1384.6154"/>
+        <viz:color r="235" g="104" b="52"/>
+      </node>
+      <node id="SUB::Plomo (Compuestos solubles)" label="Lead (soluble compounds)">
+        <attvalues>
+          <attvalue for="0" value="substance"/>
+          <attvalue for="1" value="212361.28760521996"/>
+        </attvalues>
+        <viz:size value="6.000113"/>
+        <viz:position x="900.0" y="1846.1539"/>
+        <viz:color r="235" g="104" b="52"/>
+      </node>
+      <node id="SUB::Cianuro inorgánico/orgánico" label="Inorganic/organic cyanide">
+        <attvalues>
+          <attvalue for="0" value="substance"/>
+          <attvalue for="1" value="175059.32047998317"/>
+        </attvalues>
+        <viz:size value="6.000093"/>
+        <viz:position x="900.0" y="1961.5385"/>
+        <viz:color r="235" g="104" b="52"/>
+      </node>
+      <node id="SUB::Arsénico (polvos, respirables, vapores o humos)" label="Arsenic (respirable dust, vapors or fumes)">
+        <attvalues>
+          <attvalue for="0" value="substance"/>
+          <attvalue for="1" value="676.3173019845099"/>
+        </attvalues>
+        <viz:size value="6.0000005"/>
+        <viz:position x="900.0" y="4730.7695"/>
+        <viz:color r="235" g="104" b="52"/>
+      </node>
+      <node id="SUB::Cadmio (polvos, respirables, vapores o humos)" label="Cadmium (respirable dust, vapors or fumes)">
+        <attvalues>
+          <attvalue for="0" value="substance"/>
+          <attvalue for="1" value="2792.2661186289706"/>
+        </attvalues>
+        <viz:size value="6.0000014"/>
+        <viz:position x="900.0" y="4153.846"/>
+        <viz:color r="235" g="104" b="52"/>
+      </node>
+      <node id="SUB::Mercurio (compuestos)" label="Mercury (compounds)">
+        <attvalues>
+          <attvalue for="0" value="substance"/>
+          <attvalue for="1" value="1258.9412002728393"/>
+        </attvalues>
+        <viz:size value="6.0000005"/>
+        <viz:position x="900.0" y="4500.0"/>
+        <viz:color r="235" g="104" b="52"/>
+      </node>
+      <node id="SUB::Níquel (compuestos)" label="Nickel (compounds)">
+        <attvalues>
+          <attvalue for="0" value="substance"/>
+          <attvalue for="1" value="950322.543768361"/>
+        </attvalues>
+        <viz:size value="6.000506"/>
+        <viz:position x="900.0" y="1038.4615"/>
+        <viz:color r="235" g="104" b="52"/>
+      </node>
+      <node id="SUB::Cromo (compuestos)" label="Chromium (compounds)">
+        <attvalues>
+          <attvalue for="0" value="substance"/>
+          <attvalue for="1" value="147415.07338416774"/>
+        </attvalues>
+        <viz:size value="6.0000787"/>
+        <viz:position x="900.0" y="2076.923"/>
+        <viz:color r="235" g="104" b="52"/>
+      </node>
+      <node id="SUB::Arsénico (compuestos)" label="Arsenic (compounds)">
+        <attvalues>
+          <attvalue for="0" value="substance"/>
+          <attvalue for="1" value="578.1990253597647"/>
+        </attvalues>
+        <viz:size value="6.0000005"/>
+        <viz:position x="900.0" y="4846.154"/>
+        <viz:color r="235" g="104" b="52"/>
+      </node>
+      <node id="SUB::Cadmio (compuestos)" label="Cadmium (compounds)">
+        <attvalues>
+          <attvalue for="0" value="substance"/>
+          <attvalue for="1" value="1288.5400957097008"/>
+        </attvalues>
+        <viz:size value="6.0000005"/>
+        <viz:position x="900.0" y="4384.615"/>
+        <viz:color r="235" g="104" b="52"/>
+      </node>
+      <node id="SUB::Plomo (compuestos)" label="Lead (compounds)">
+        <attvalues>
+          <attvalue for="0" value="substance"/>
+          <attvalue for="1" value="5230496.451903655"/>
+        </attvalues>
+        <viz:size value="6.0027847"/>
+        <viz:position x="900.0" y="461.53848"/>
+        <viz:color r="235" g="104" b="52"/>
+      </node>
+      <node id="SUB::Mercurio (polvos, respirables, vapores o humos)" label="Mercury (respirable dust, vapors or fumes)">
+        <attvalues>
+          <attvalue for="0" value="substance"/>
+          <attvalue for="1" value="3702.14166698009"/>
+        </attvalues>
+        <viz:size value="6.000002"/>
+        <viz:position x="900.0" y="3923.077"/>
+        <viz:color r="235" g="104" b="52"/>
+      </node>
+      <node id="SUB::Tricloroetileno" label="Trichloroethylene">
+        <attvalues>
+          <attvalue for="0" value="substance"/>
+          <attvalue for="1" value="815873.7188265001"/>
+        </attvalues>
+        <viz:size value="6.0004344"/>
+        <viz:position x="900.0" y="1153.8462"/>
+        <viz:color r="235" g="104" b="52"/>
+      </node>
+      <node id="SUB::Formaldehido" label="Formaldehyde">
+        <attvalues>
+          <attvalue for="0" value="substance"/>
+          <attvalue for="1" value="118939.90574588679"/>
+        </attvalues>
+        <viz:size value="6.0000634"/>
+        <viz:position x="900.0" y="2192.3076"/>
+        <viz:color r="235" g="104" b="52"/>
+      </node>
+      <node id="SUB::Plomo (polvos respirables, humos o vapores)" label="Lead (respirable dust, fumes or vapors)">
+        <attvalues>
+          <attvalue for="0" value="substance"/>
+          <attvalue for="1" value="5090123.265044402"/>
+        </attvalues>
+        <viz:size value="6.0027103"/>
+        <viz:position x="900.0" y="576.9231"/>
+        <viz:color r="235" g="104" b="52"/>
+      </node>
+      <node id="SUB::Níquel (polvos respirables, humos o vapores)" label="Nickel (respirable dust, fumes or vapors)">
+        <attvalues>
+          <attvalue for="0" value="substance"/>
+          <attvalue for="1" value="218613.54328040502"/>
+        </attvalues>
+        <viz:size value="6.0001163"/>
+        <viz:position x="900.0" y="1730.7692"/>
+        <viz:color r="235" g="104" b="52"/>
+      </node>
+      <node id="SUB::Cromo (polvos respirables, humos o vapores)" label="Chromium (respirable dust, fumes or vapors)">
+        <attvalues>
+          <attvalue for="0" value="substance"/>
+          <attvalue for="1" value="66068.82387259002"/>
+        </attvalues>
+        <viz:size value="6.0000353"/>
+        <viz:position x="900.0" y="2653.8462"/>
+        <viz:color r="235" g="104" b="52"/>
+      </node>
+      <node id="SUB::Cadmio (Compuestos solubles)" label="Cadmium (soluble compounds)">
+        <attvalues>
+          <attvalue for="0" value="substance"/>
+          <attvalue for="1" value="57638.4311"/>
+        </attvalues>
+        <viz:size value="6.0000305"/>
+        <viz:position x="900.0" y="2769.2307"/>
+        <viz:color r="235" g="104" b="52"/>
+      </node>
+      <node id="SUB::Arsénico (Compuestos solubles)" label="Arsenic (soluble compounds)">
+        <attvalues>
+          <attvalue for="0" value="substance"/>
+          <attvalue for="1" value="97313.57149999996"/>
+        </attvalues>
+        <viz:size value="6.000052"/>
+        <viz:position x="900.0" y="2423.077"/>
+        <viz:color r="235" g="104" b="52"/>
+      </node>
+      <node id="SUB::Bióxido de carbono" label="Carbon dioxide">
+        <attvalues>
+          <attvalue for="0" value="substance"/>
+          <attvalue for="1" value="9.20288287913872E10"/>
+        </attvalues>
+        <viz:size value="55.0"/>
+        <viz:position x="900.0" y="0.0"/>
+        <viz:color r="235" g="104" b="52"/>
+      </node>
+      <node id="SUB::Hidracina" label="Hydrazine">
+        <attvalues>
+          <attvalue for="0" value="substance"/>
+          <attvalue for="1" value="712.0"/>
+        </attvalues>
+        <viz:size value="6.0000005"/>
+        <viz:position x="900.0" y="4615.385"/>
+        <viz:color r="235" g="104" b="52"/>
+      </node>
+      <node id="SUB::Piridina" label="Pyridine">
+        <attvalues>
+          <attvalue for="0" value="substance"/>
+          <attvalue for="1" value="3.0"/>
+        </attvalues>
+        <viz:size value="6.0"/>
+        <viz:position x="900.0" y="5769.2305"/>
+        <viz:color r="235" g="104" b="52"/>
+      </node>
+      <node id="SUB::Cloruro de metileno" label="Methylene chloride">
+        <attvalues>
+          <attvalue for="0" value="substance"/>
+          <attvalue for="1" value="702715.7607999997"/>
+        </attvalues>
+        <viz:size value="6.0003743"/>
+        <viz:position x="900.0" y="1269.2308"/>
+        <viz:color r="235" g="104" b="52"/>
+      </node>
+      <node id="SUB::Bióxido de nitrógeno" label="Nitrogen dioxide">
+        <attvalues>
+          <attvalue for="0" value="substance"/>
+          <attvalue for="1" value="7.017803787814002E7"/>
+        </attvalues>
+        <viz:size value="6.037366"/>
+        <viz:position x="900.0" y="346.15384"/>
+        <viz:color r="235" g="104" b="52"/>
+      </node>
+      <node id="SUB::Metano" label="Methane">
+        <attvalues>
+          <attvalue for="0" value="substance"/>
+          <attvalue for="1" value="1.2400679182200001E8"/>
+        </attvalues>
+        <viz:size value="6.066026"/>
+        <viz:position x="900.0" y="230.76924"/>
+        <viz:color r="235" g="104" b="52"/>
+      </node>
+      <node id="SUB::Acido sulfhídrico" label="Hydrogen sulfide">
+        <attvalues>
+          <attvalue for="0" value="substance"/>
+          <attvalue for="1" value="1.3083775322500001E8"/>
+        </attvalues>
+        <viz:size value="6.0696635"/>
+        <viz:position x="900.0" y="115.38462"/>
+        <viz:color r="235" g="104" b="52"/>
+      </node>
+      <node id="SUB::Dioxinas" label="Dioxins">
+        <attvalues>
+          <attvalue for="0" value="substance"/>
+          <attvalue for="1" value="0.00219821249429696"/>
+        </attvalues>
+        <viz:size value="6.0"/>
+        <viz:position x="900.0" y="5884.615"/>
+        <viz:color r="235" g="104" b="52"/>
+      </node>
+      <node id="SUB::Furanos" label="Furans">
+        <attvalues>
+          <attvalue for="0" value="substance"/>
+          <attvalue for="1" value="0.00219821249422"/>
+        </attvalues>
+        <viz:size value="6.0"/>
+        <viz:position x="900.0" y="6000.0"/>
+        <viz:color r="235" g="104" b="52"/>
+      </node>
+      <node id="SUB::Benceno" label="Benzene">
+        <attvalues>
+          <attvalue for="0" value="substance"/>
+          <attvalue for="1" value="47308.024395984314"/>
+        </attvalues>
+        <viz:size value="6.0000253"/>
+        <viz:position x="900.0" y="3000.0"/>
+        <viz:color r="235" g="104" b="52"/>
+      </node>
+      <node id="SUB::Estireno (fenil etileno)" label="Styrene (phenylethylene)">
+        <attvalues>
+          <attvalue for="0" value="substance"/>
+          <attvalue for="1" value="3515073.3260174394"/>
+        </attvalues>
+        <viz:size value="6.0018716"/>
+        <viz:position x="900.0" y="692.3077"/>
+        <viz:color r="235" g="104" b="52"/>
+      </node>
+      <node id="SUB::Acroleina" label="Acrolein">
+        <attvalues>
+          <attvalue for="0" value="substance"/>
+          <attvalue for="1" value="506.27584131268674"/>
+        </attvalues>
+        <viz:size value="6.0000005"/>
+        <viz:position x="900.0" y="4961.5386"/>
+        <viz:color r="235" g="104" b="52"/>
+      </node>
+      <node id="SUB::Acetaldehido" label="Acetaldehyde">
+        <attvalues>
+          <attvalue for="0" value="substance"/>
+          <attvalue for="1" value="5073.252055991935"/>
+        </attvalues>
+        <viz:size value="6.000003"/>
+        <viz:position x="900.0" y="3807.6921"/>
+        <viz:color r="235" g="104" b="52"/>
+      </node>
+      <node id="SUB::1,2,-Dicloroetano" label="1,2-Dichloroethane">
+        <attvalues>
+          <attvalue for="0" value="substance"/>
+          <attvalue for="1" value="97434.65"/>
+        </attvalues>
+        <viz:size value="6.000052"/>
+        <viz:position x="900.0" y="2307.6924"/>
+        <viz:color r="235" g="104" b="52"/>
+      </node>
+      <node id="SUB::Tolueno" label="Toluene">
+        <attvalues>
+          <attvalue for="0" value="substance"/>
+          <attvalue for="1" value="1644329.2758020007"/>
+        </attvalues>
+        <viz:size value="6.0008755"/>
+        <viz:position x="900.0" y="807.6923"/>
+        <viz:color r="235" g="104" b="52"/>
+      </node>
+      <node id="SUB::Hidrofluorocarbonos" label="Hydrofluorocarbons">
+        <attvalues>
+          <attvalue for="0" value="substance"/>
+          <attvalue for="1" value="11584.010675000001"/>
+        </attvalues>
+        <viz:size value="6.000006"/>
+        <viz:position x="900.0" y="3461.5383"/>
+        <viz:color r="235" g="104" b="52"/>
+      </node>
+      <node id="SUB::Xileno (mezcla de isómeros)" label="Xylene (mixture of isomers)">
+        <attvalues>
+          <attvalue for="0" value="substance"/>
+          <attvalue for="1" value="967606.133069028"/>
+        </attvalues>
+        <viz:size value="6.000515"/>
+        <viz:position x="900.0" y="923.07697"/>
+        <viz:color r="235" g="104" b="52"/>
+      </node>
+      <node id="SUB::Oxido nitroso" label="Nitrous oxide">
+        <attvalues>
+          <attvalue for="0" value="substance"/>
+          <attvalue for="1" value="245006.15600000002"/>
+        </attvalues>
+        <viz:size value="6.0001307"/>
+        <viz:position x="900.0" y="1615.3846"/>
+        <viz:color r="235" g="104" b="52"/>
+      </node>
+      <node id="SUB::Metileno bis(fenilisocianato)" label="Methylene bis(phenyl isocyanate) (MDI)">
+        <attvalues>
+          <attvalue for="0" value="substance"/>
+          <attvalue for="1" value="13186.385023903"/>
+        </attvalues>
+        <viz:size value="6.000007"/>
+        <viz:position x="900.0" y="3230.7693"/>
+        <viz:color r="235" g="104" b="52"/>
+      </node>
+      <node id="SUB::Diisocianato de difenilmetano polimérico" label="Polymeric diphenylmethane diisocyanate">
+        <attvalues>
+          <attvalue for="0" value="substance"/>
+          <attvalue for="1" value="68858.395029215"/>
+        </attvalues>
+        <viz:size value="6.0000367"/>
+        <viz:position x="900.0" y="2538.4617"/>
+        <viz:color r="235" g="104" b="52"/>
+      </node>
+      <node id="SUB::Hexafluoruro de azufre" label="Sulfur hexafluoride">
+        <attvalues>
+          <attvalue for="0" value="substance"/>
+          <attvalue for="1" value="179.5"/>
+        </attvalues>
+        <viz:size value="6.0"/>
+        <viz:position x="900.0" y="5192.3076"/>
+        <viz:color r="235" g="104" b="52"/>
+      </node>
+      <node id="SUB::Acetato de vinilo" label="Vinyl acetate">
+        <attvalues>
+          <attvalue for="0" value="substance"/>
+          <attvalue for="1" value="3043.143399"/>
+        </attvalues>
+        <viz:size value="6.0000014"/>
+        <viz:position x="900.0" y="4038.4617"/>
+        <viz:color r="235" g="104" b="52"/>
+      </node>
+      <node id="SUB::Antimonio trióxido" label="Antimony trioxide">
+        <attvalues>
+          <attvalue for="0" value="substance"/>
+          <attvalue for="1" value="9514.41624746"/>
+        </attvalues>
+        <viz:size value="6.0000052"/>
+        <viz:position x="900.0" y="3692.3079"/>
+        <viz:color r="235" g="104" b="52"/>
+      </node>
+      <node id="SUB::Cloroformo" label="Chloroform">
+        <attvalues>
+          <attvalue for="0" value="substance"/>
+          <attvalue for="1" value="115.0"/>
+        </attvalues>
+        <viz:size value="6.0"/>
+        <viz:position x="900.0" y="5423.0767"/>
+        <viz:color r="235" g="104" b="52"/>
+      </node>
+      <node id="SUB::Asbesto y sus formas (En forma de polvo, fibras o productos desmenuzables con la presión de la mano)" label="Asbestos and its forms (as dust, fibers or friable products that crumble under hand pressure)">
+        <attvalues>
+          <attvalue for="0" value="substance"/>
+          <attvalue for="1" value="45372.5"/>
+        </attvalues>
+        <viz:size value="6.0000243"/>
+        <viz:position x="900.0" y="3115.3848"/>
+        <viz:color r="235" g="104" b="52"/>
+      </node>
+      <node id="SUB::Bifenilo" label="Biphenyl">
+        <attvalues>
+          <attvalue for="0" value="substance"/>
+          <attvalue for="1" value="6.0"/>
+        </attvalues>
+        <viz:size value="6.0"/>
+        <viz:position x="900.0" y="5653.846"/>
+        <viz:color r="235" g="104" b="52"/>
+      </node>
+      <node id="SUB::Fenol" label="Phenol">
+        <attvalues>
+          <attvalue for="0" value="substance"/>
+          <attvalue for="1" value="178.02"/>
+        </attvalues>
+        <viz:size value="6.0"/>
+        <viz:position x="900.0" y="5307.6924"/>
+        <viz:color r="235" g="104" b="52"/>
+      </node>
+      <node id="SUB::Bifenilos policlorados" label="Polychlorinated biphenyls (PCBs)">
+        <attvalues>
+          <attvalue for="0" value="substance"/>
+          <attvalue for="1" value="12430.0"/>
+        </attvalues>
+        <viz:size value="6.0000067"/>
+        <viz:position x="900.0" y="3346.1538"/>
+        <viz:color r="235" g="104" b="52"/>
+      </node>
+      <node id="SUB::Azida de sodio" label="Sodium azide">
+        <attvalues>
+          <attvalue for="0" value="substance"/>
+          <attvalue for="1" value="54580.0"/>
+        </attvalues>
+        <viz:size value="6.000029"/>
+        <viz:position x="900.0" y="2884.6152"/>
+        <viz:color r="235" g="104" b="52"/>
+      </node>
+      <node id="SUB::Diclorodifluorometano (CFC-12)" label="Dichlorodifluoromethane (CFC-12)">
+        <attvalues>
+          <attvalue for="0" value="substance"/>
+          <attvalue for="1" value="66.52"/>
+        </attvalues>
+        <viz:size value="6.0"/>
+        <viz:position x="900.0" y="5538.4614"/>
+        <viz:color r="235" g="104" b="52"/>
+      </node>
+      <node id="SUB::Acrilamina" label="Acrylamide">
+        <attvalues>
+          <attvalue for="0" value="substance"/>
+          <attvalue for="1" value="10974.55"/>
+        </attvalues>
+        <viz:size value="6.0000057"/>
+        <viz:position x="900.0" y="3576.923"/>
+        <viz:color r="235" g="104" b="52"/>
+      </node>
+      <node id="SUB::Sulfato de cobre" label="Copper sulfate">
+        <attvalues>
+          <attvalue for="0" value="substance"/>
+          <attvalue for="1" value="200.0"/>
+        </attvalues>
+        <viz:size value="6.0"/>
+        <viz:position x="900.0" y="5076.9233"/>
+        <viz:color r="235" g="104" b="52"/>
+      </node>
+    </nodes>
+    <edges>
+      <edge id="0" source="LOC::Baja California.Tijuana" target="SUB::Cromo (Compuestos solubles)" weight="59046.84765625">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+        <attvalues>
+          <attvalue for="2" value="118"/>
+        </attvalues>
+      </edge>
+      <edge id="1" source="LOC::Baja California.Tijuana" target="SUB::Mercurio (Compuestos solubles)" weight="33.34321212768555">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+        <attvalues>
+          <attvalue for="2" value="7"/>
+        </attvalues>
+      </edge>
+      <edge id="2" source="LOC::Baja California.Tijuana" target="SUB::Níquel (Compuestos solubles)" weight="313629.03125">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+        <attvalues>
+          <attvalue for="2" value="200"/>
+        </attvalues>
+      </edge>
+      <edge id="3" source="LOC::Baja California.Tijuana" target="SUB::Plomo (Compuestos solubles)" weight="40858.234375">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+        <attvalues>
+          <attvalue for="2" value="116"/>
+        </attvalues>
+      </edge>
+      <edge id="4" source="LOC::Baja California.Tijuana" target="SUB::Cianuro inorgánico/orgánico" weight="54684.98046875">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+        <attvalues>
+          <attvalue for="2" value="123"/>
+        </attvalues>
+      </edge>
+      <edge id="5" source="LOC::Baja California.Tijuana" target="SUB::Arsénico (polvos, respirables, vapores o humos)" weight="43.022239685058594">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+        <attvalues>
+          <attvalue for="2" value="44"/>
+        </attvalues>
+      </edge>
+      <edge id="6" source="LOC::Baja California.Tijuana" target="SUB::Cadmio (polvos, respirables, vapores o humos)" weight="42.030216217041016">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+        <attvalues>
+          <attvalue for="2" value="47"/>
+        </attvalues>
+      </edge>
+      <edge id="7" source="LOC::Baja California.Tijuana" target="SUB::Mercurio (compuestos)" weight="273.23858642578125">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+        <attvalues>
+          <attvalue for="2" value="60"/>
+        </attvalues>
+      </edge>
+      <edge id="8" source="LOC::Baja California.Tijuana" target="SUB::Níquel (compuestos)" weight="656514.3125">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+        <attvalues>
+          <attvalue for="2" value="176"/>
+        </attvalues>
+      </edge>
+      <edge id="9" source="LOC::Baja California.Tijuana" target="SUB::Plomo (compuestos)" weight="4969215.5">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+        <attvalues>
+          <attvalue for="2" value="337"/>
+        </attvalues>
+      </edge>
+      <edge id="10" source="LOC::Baja California.Tijuana" target="SUB::Cromo (compuestos)" weight="112704.625">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+        <attvalues>
+          <attvalue for="2" value="145"/>
+        </attvalues>
+      </edge>
+      <edge id="11" source="LOC::Baja California.Tijuana" target="SUB::Cadmio (compuestos)" weight="1259.030517578125">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+        <attvalues>
+          <attvalue for="2" value="37"/>
+        </attvalues>
+      </edge>
+      <edge id="12" source="LOC::Baja California.Tijuana" target="SUB::Arsénico (compuestos)" weight="550.5247192382812">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+        <attvalues>
+          <attvalue for="2" value="22"/>
+        </attvalues>
+      </edge>
+      <edge id="13" source="LOC::Baja California.Tijuana" target="SUB::Tricloroetileno" weight="798948.625">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+        <attvalues>
+          <attvalue for="2" value="87"/>
+        </attvalues>
+      </edge>
+      <edge id="14" source="LOC::Baja California.Tijuana" target="SUB::Mercurio (polvos, respirables, vapores o humos)" weight="1935.093017578125">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+        <attvalues>
+          <attvalue for="2" value="76"/>
+        </attvalues>
+      </edge>
+      <edge id="15" source="LOC::Baja California.Tijuana" target="SUB::Cadmio (Compuestos solubles)" weight="438.72760009765625">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+        <attvalues>
+          <attvalue for="2" value="56"/>
+        </attvalues>
+      </edge>
+      <edge id="16" source="LOC::Baja California.Tijuana" target="SUB::Arsénico (Compuestos solubles)" weight="71.00849914550781">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+        <attvalues>
+          <attvalue for="2" value="21"/>
+        </attvalues>
+      </edge>
+      <edge id="17" source="LOC::Baja California.Tijuana" target="SUB::Piridina" weight="3.0">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+        <attvalues>
+          <attvalue for="2" value="2"/>
+        </attvalues>
+      </edge>
+      <edge id="18" source="LOC::Baja California.Tijuana" target="SUB::Bióxido de carbono" weight="4.650423808E9">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+        <attvalues>
+          <attvalue for="2" value="230"/>
+        </attvalues>
+      </edge>
+      <edge id="19" source="LOC::Baja California.Tijuana" target="SUB::Cloruro de metileno" weight="596628.4375">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+        <attvalues>
+          <attvalue for="2" value="95"/>
+        </attvalues>
+      </edge>
+      <edge id="20" source="LOC::Baja California.Tijuana" target="SUB::Estireno (fenil etileno)" weight="2577900.0">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+        <attvalues>
+          <attvalue for="2" value="49"/>
+        </attvalues>
+      </edge>
+      <edge id="21" source="LOC::Baja California.Tijuana" target="SUB::Bióxido de nitrógeno" weight="1438786.25">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+        <attvalues>
+          <attvalue for="2" value="2"/>
+        </attvalues>
+      </edge>
+      <edge id="22" source="LOC::Baja California.Tijuana" target="SUB::Tolueno" weight="562206.875">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+        <attvalues>
+          <attvalue for="2" value="107"/>
+        </attvalues>
+      </edge>
+      <edge id="23" source="LOC::Baja California.Tijuana" target="SUB::Plomo (polvos respirables, humos o vapores)" weight="2477200.5">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+        <attvalues>
+          <attvalue for="2" value="119"/>
+        </attvalues>
+      </edge>
+      <edge id="24" source="LOC::Baja California.Tijuana" target="SUB::Hidrofluorocarbonos" weight="11584.0107421875">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+        <attvalues>
+          <attvalue for="2" value="18"/>
+        </attvalues>
+      </edge>
+      <edge id="25" source="LOC::Baja California.Tijuana" target="SUB::Xileno (mezcla de isómeros)" weight="912472.875">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+        <attvalues>
+          <attvalue for="2" value="92"/>
+        </attvalues>
+      </edge>
+      <edge id="26" source="LOC::Baja California.Tijuana" target="SUB::Metileno bis(fenilisocianato)" weight="875.8250122070312">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+        <attvalues>
+          <attvalue for="2" value="6"/>
+        </attvalues>
+      </edge>
+      <edge id="27" source="LOC::Baja California.Tijuana" target="SUB::Diisocianato de difenilmetano polimérico" weight="48031.67578125">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+        <attvalues>
+          <attvalue for="2" value="8"/>
+        </attvalues>
+      </edge>
+      <edge id="28" source="LOC::Baja California.Tijuana" target="SUB::Hexafluoruro de azufre" weight="157.0">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+        <attvalues>
+          <attvalue for="2" value="1"/>
+        </attvalues>
+      </edge>
+      <edge id="29" source="LOC::Baja California.Tijuana" target="SUB::Cromo (polvos respirables, humos o vapores)" weight="1125.216552734375">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+        <attvalues>
+          <attvalue for="2" value="7"/>
+        </attvalues>
+      </edge>
+      <edge id="30" source="LOC::Baja California.Tijuana" target="SUB::Níquel (polvos respirables, humos o vapores)" weight="10879.853515625">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+        <attvalues>
+          <attvalue for="2" value="14"/>
+        </attvalues>
+      </edge>
+      <edge id="31" source="LOC::Baja California.Tijuana" target="SUB::Acetato de vinilo" weight="3043.143310546875">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+        <attvalues>
+          <attvalue for="2" value="3"/>
+        </attvalues>
+      </edge>
+      <edge id="32" source="LOC::Baja California.Tijuana" target="SUB::Antimonio trióxido" weight="9514.416015625">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+        <attvalues>
+          <attvalue for="2" value="2"/>
+        </attvalues>
+      </edge>
+      <edge id="33" source="LOC::Baja California.Tijuana" target="SUB::Formaldehido" weight="9303.611328125">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+        <attvalues>
+          <attvalue for="2" value="36"/>
+        </attvalues>
+      </edge>
+      <edge id="34" source="LOC::Baja California.Tijuana" target="SUB::Dioxinas" weight="7.695999734843792E-14">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+        <attvalues>
+          <attvalue for="2" value="1"/>
+        </attvalues>
+      </edge>
+      <edge id="35" source="LOC::Baja California.Tijuana" target="SUB::Cloroformo" weight="15.0">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+        <attvalues>
+          <attvalue for="2" value="1"/>
+        </attvalues>
+      </edge>
+      <edge id="36" source="LOC::Baja California.Tijuana" target="SUB::Asbesto y sus formas (En forma de polvo, fibras o productos desmenuzables con la presión de la mano)" weight="72.5">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+        <attvalues>
+          <attvalue for="2" value="3"/>
+        </attvalues>
+      </edge>
+      <edge id="37" source="LOC::Baja California.Tijuana" target="SUB::Acido sulfhídrico" weight="1595.2750244140625">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+        <attvalues>
+          <attvalue for="2" value="2"/>
+        </attvalues>
+      </edge>
+      <edge id="38" source="LOC::Baja California.Tijuana" target="SUB::Azida de sodio" weight="54580.0">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+        <attvalues>
+          <attvalue for="2" value="1"/>
+        </attvalues>
+      </edge>
+      <edge id="39" source="LOC::Baja California.Tijuana" target="SUB::Acrilamina" weight="10974.5498046875">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+        <attvalues>
+          <attvalue for="2" value="3"/>
+        </attvalues>
+      </edge>
+      <edge id="40" source="LOC::Baja California.Tijuana" target="SUB::Sulfato de cobre" weight="200.0">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+        <attvalues>
+          <attvalue for="2" value="1"/>
+        </attvalues>
+      </edge>
+      <edge id="41" source="LOC::Baja California.Tecate" target="SUB::Cromo (Compuestos solubles)" weight="6144.48193359375">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+        <attvalues>
+          <attvalue for="2" value="27"/>
+        </attvalues>
+      </edge>
+      <edge id="42" source="LOC::Baja California.Tecate" target="SUB::Mercurio (Compuestos solubles)" weight="2.1106796264648438">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+        <attvalues>
+          <attvalue for="2" value="3"/>
+        </attvalues>
+      </edge>
+      <edge id="43" source="LOC::Baja California.Tecate" target="SUB::Níquel (Compuestos solubles)" weight="14437.9248046875">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+        <attvalues>
+          <attvalue for="2" value="34"/>
+        </attvalues>
+      </edge>
+      <edge id="44" source="LOC::Baja California.Tecate" target="SUB::Plomo (Compuestos solubles)" weight="226.12884521484375">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+        <attvalues>
+          <attvalue for="2" value="17"/>
+        </attvalues>
+      </edge>
+      <edge id="45" source="LOC::Baja California.Tecate" target="SUB::Cianuro inorgánico/orgánico" weight="139.49708557128906">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+        <attvalues>
+          <attvalue for="2" value="33"/>
+        </attvalues>
+      </edge>
+      <edge id="46" source="LOC::Baja California.Tecate" target="SUB::Arsénico (polvos, respirables, vapores o humos)" weight="12.017779350280762">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+        <attvalues>
+          <attvalue for="2" value="16"/>
+        </attvalues>
+      </edge>
+      <edge id="47" source="LOC::Baja California.Tecate" target="SUB::Cadmio (polvos, respirables, vapores o humos)" weight="17.74854850769043">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+        <attvalues>
+          <attvalue for="2" value="12"/>
+        </attvalues>
+      </edge>
+      <edge id="48" source="LOC::Baja California.Tecate" target="SUB::Níquel (compuestos)" weight="105778.03125">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+        <attvalues>
+          <attvalue for="2" value="34"/>
+        </attvalues>
+      </edge>
+      <edge id="49" source="LOC::Baja California.Tecate" target="SUB::Mercurio (compuestos)" weight="6.82081413269043">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+        <attvalues>
+          <attvalue for="2" value="26"/>
+        </attvalues>
+      </edge>
+      <edge id="50" source="LOC::Baja California.Tecate" target="SUB::Cromo (compuestos)" weight="125.07754516601562">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+        <attvalues>
+          <attvalue for="2" value="28"/>
+        </attvalues>
+      </edge>
+      <edge id="51" source="LOC::Baja California.Tecate" target="SUB::Cadmio (compuestos)" weight="1.698710322380066">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+        <attvalues>
+          <attvalue for="2" value="6"/>
+        </attvalues>
+      </edge>
+      <edge id="52" source="LOC::Baja California.Tecate" target="SUB::Plomo (compuestos)" weight="7009.8154296875">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+        <attvalues>
+          <attvalue for="2" value="39"/>
+        </attvalues>
+      </edge>
+      <edge id="53" source="LOC::Baja California.Tecate" target="SUB::Arsénico (compuestos)" weight="1.1090165376663208">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+        <attvalues>
+          <attvalue for="2" value="6"/>
+        </attvalues>
+      </edge>
+      <edge id="54" source="LOC::Baja California.Tecate" target="SUB::Arsénico (Compuestos solubles)" weight="52.79280090332031">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+        <attvalues>
+          <attvalue for="2" value="11"/>
+        </attvalues>
+      </edge>
+      <edge id="55" source="LOC::Baja California.Tecate" target="SUB::Cadmio (Compuestos solubles)" weight="87.99109649658203">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+        <attvalues>
+          <attvalue for="2" value="17"/>
+        </attvalues>
+      </edge>
+      <edge id="56" source="LOC::Baja California.Tecate" target="SUB::Bióxido de carbono" weight="5.61426688E8">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+        <attvalues>
+          <attvalue for="2" value="49"/>
+        </attvalues>
+      </edge>
+      <edge id="57" source="LOC::Baja California.Tecate" target="SUB::Cromo (polvos respirables, humos o vapores)" weight="26289.169921875">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+        <attvalues>
+          <attvalue for="2" value="4"/>
+        </attvalues>
+      </edge>
+      <edge id="58" source="LOC::Baja California.Tecate" target="SUB::Tricloroetileno" weight="424.1659851074219">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+        <attvalues>
+          <attvalue for="2" value="3"/>
+        </attvalues>
+      </edge>
+      <edge id="59" source="LOC::Baja California.Tecate" target="SUB::Tolueno" weight="54654.640625">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+        <attvalues>
+          <attvalue for="2" value="10"/>
+        </attvalues>
+      </edge>
+      <edge id="60" source="LOC::Baja California.Tecate" target="SUB::Metano" weight="5255.0">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+        <attvalues>
+          <attvalue for="2" value="1"/>
+        </attvalues>
+      </edge>
+      <edge id="61" source="LOC::Baja California.Tecate" target="SUB::Oxido nitroso" weight="0.20000000298023224">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+        <attvalues>
+          <attvalue for="2" value="1"/>
+        </attvalues>
+      </edge>
+      <edge id="62" source="LOC::Baja California.Tecate" target="SUB::Mercurio (polvos, respirables, vapores o humos)" weight="0.13446499407291412">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+        <attvalues>
+          <attvalue for="2" value="4"/>
+        </attvalues>
+      </edge>
+      <edge id="63" source="LOC::Baja California.Tecate" target="SUB::Níquel (polvos respirables, humos o vapores)" weight="26143.05078125">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+        <attvalues>
+          <attvalue for="2" value="1"/>
+        </attvalues>
+      </edge>
+      <edge id="64" source="LOC::Baja California.Tecate" target="SUB::Estireno (fenil etileno)" weight="173.0">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+        <attvalues>
+          <attvalue for="2" value="1"/>
+        </attvalues>
+      </edge>
+      <edge id="65" source="LOC::Baja California.Mexicali" target="SUB::Cianuro inorgánico/orgánico" weight="82573.34375">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+        <attvalues>
+          <attvalue for="2" value="124"/>
+        </attvalues>
+      </edge>
+      <edge id="66" source="LOC::Baja California.Mexicali" target="SUB::Cromo (Compuestos solubles)" weight="119121.0234375">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+        <attvalues>
+          <attvalue for="2" value="99"/>
+        </attvalues>
+      </edge>
+      <edge id="67" source="LOC::Baja California.Mexicali" target="SUB::Níquel (Compuestos solubles)" weight="207274.171875">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+        <attvalues>
+          <attvalue for="2" value="102"/>
+        </attvalues>
+      </edge>
+      <edge id="68" source="LOC::Baja California.Mexicali" target="SUB::Plomo (Compuestos solubles)" weight="14875.2158203125">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+        <attvalues>
+          <attvalue for="2" value="66"/>
+        </attvalues>
+      </edge>
+      <edge id="69" source="LOC::Baja California.Mexicali" target="SUB::Cadmio (polvos, respirables, vapores o humos)" weight="2658.70947265625">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+        <attvalues>
+          <attvalue for="2" value="81"/>
+        </attvalues>
+      </edge>
+      <edge id="70" source="LOC::Baja California.Mexicali" target="SUB::Mercurio (Compuestos solubles)" weight="66.3544692993164">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+        <attvalues>
+          <attvalue for="2" value="4"/>
+        </attvalues>
+      </edge>
+      <edge id="71" source="LOC::Baja California.Mexicali" target="SUB::Arsénico (compuestos)" weight="24.001691818237305">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+        <attvalues>
+          <attvalue for="2" value="27"/>
+        </attvalues>
+      </edge>
+      <edge id="72" source="LOC::Baja California.Mexicali" target="SUB::Cadmio (compuestos)" weight="16.8109188079834">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+        <attvalues>
+          <attvalue for="2" value="23"/>
+        </attvalues>
+      </edge>
+      <edge id="73" source="LOC::Baja California.Mexicali" target="SUB::Mercurio (compuestos)" weight="968.847412109375">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+        <attvalues>
+          <attvalue for="2" value="73"/>
+        </attvalues>
+      </edge>
+      <edge id="74" source="LOC::Baja California.Mexicali" target="SUB::Plomo (compuestos)" weight="251123.171875">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+        <attvalues>
+          <attvalue for="2" value="149"/>
+        </attvalues>
+      </edge>
+      <edge id="75" source="LOC::Baja California.Mexicali" target="SUB::Níquel (compuestos)" weight="177177.390625">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+        <attvalues>
+          <attvalue for="2" value="127"/>
+        </attvalues>
+      </edge>
+      <edge id="76" source="LOC::Baja California.Mexicali" target="SUB::Cromo (compuestos)" weight="33821.94140625">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+        <attvalues>
+          <attvalue for="2" value="102"/>
+        </attvalues>
+      </edge>
+      <edge id="77" source="LOC::Baja California.Mexicali" target="SUB::Arsénico (polvos, respirables, vapores o humos)" weight="485.23406982421875">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+        <attvalues>
+          <attvalue for="2" value="56"/>
+        </attvalues>
+      </edge>
+      <edge id="78" source="LOC::Baja California.Mexicali" target="SUB::Mercurio (polvos, respirables, vapores o humos)" weight="1200.2607421875">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+        <attvalues>
+          <attvalue for="2" value="109"/>
+        </attvalues>
+      </edge>
+      <edge id="79" source="LOC::Baja California.Mexicali" target="SUB::Formaldehido" weight="93871.078125">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+        <attvalues>
+          <attvalue for="2" value="34"/>
+        </attvalues>
+      </edge>
+      <edge id="80" source="LOC::Baja California.Mexicali" target="SUB::Arsénico (Compuestos solubles)" weight="161.6123046875">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+        <attvalues>
+          <attvalue for="2" value="26"/>
+        </attvalues>
+      </edge>
+      <edge id="81" source="LOC::Baja California.Mexicali" target="SUB::Cromo (polvos respirables, humos o vapores)" weight="38399.1875">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+        <attvalues>
+          <attvalue for="2" value="45"/>
+        </attvalues>
+      </edge>
+      <edge id="82" source="LOC::Baja California.Mexicali" target="SUB::Níquel (polvos respirables, humos o vapores)" weight="181536.8125">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+        <attvalues>
+          <attvalue for="2" value="58"/>
+        </attvalues>
+      </edge>
+      <edge id="83" source="LOC::Baja California.Mexicali" target="SUB::Cadmio (Compuestos solubles)" weight="127.33219909667969">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+        <attvalues>
+          <attvalue for="2" value="32"/>
+        </attvalues>
+      </edge>
+      <edge id="84" source="LOC::Baja California.Mexicali" target="SUB::Bióxido de carbono" weight="6.0535742464E10">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+        <attvalues>
+          <attvalue for="2" value="200"/>
+        </attvalues>
+      </edge>
+      <edge id="85" source="LOC::Baja California.Mexicali" target="SUB::Metano" weight="1.18633136E8">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+        <attvalues>
+          <attvalue for="2" value="31"/>
+        </attvalues>
+      </edge>
+      <edge id="86" source="LOC::Baja California.Mexicali" target="SUB::Acido sulfhídrico" weight="1.3083616E8">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+        <attvalues>
+          <attvalue for="2" value="20"/>
+        </attvalues>
+      </edge>
+      <edge id="87" source="LOC::Baja California.Mexicali" target="SUB::Estireno (fenil etileno)" weight="927563.0625">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+        <attvalues>
+          <attvalue for="2" value="22"/>
+        </attvalues>
+      </edge>
+      <edge id="88" source="LOC::Baja California.Mexicali" target="SUB::Bióxido de nitrógeno" weight="2625583.0">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+        <attvalues>
+          <attvalue for="2" value="24"/>
+        </attvalues>
+      </edge>
+      <edge id="89" source="LOC::Baja California.Mexicali" target="SUB::Acroleina" weight="506.2593994140625">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+        <attvalues>
+          <attvalue for="2" value="12"/>
+        </attvalues>
+      </edge>
+      <edge id="90" source="LOC::Baja California.Mexicali" target="SUB::Benceno" weight="67.67817687988281">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+        <attvalues>
+          <attvalue for="2" value="15"/>
+        </attvalues>
+      </edge>
+      <edge id="91" source="LOC::Baja California.Mexicali" target="SUB::Acetaldehido" weight="4184.9462890625">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+        <attvalues>
+          <attvalue for="2" value="16"/>
+        </attvalues>
+      </edge>
+      <edge id="92" source="LOC::Baja California.Mexicali" target="SUB::Plomo (polvos respirables, humos o vapores)" weight="2612665.5">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+        <attvalues>
+          <attvalue for="2" value="82"/>
+        </attvalues>
+      </edge>
+      <edge id="93" source="LOC::Baja California.Mexicali" target="SUB::Tolueno" weight="1027467.75">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+        <attvalues>
+          <attvalue for="2" value="27"/>
+        </attvalues>
+      </edge>
+      <edge id="94" source="LOC::Baja California.Mexicali" target="SUB::Oxido nitroso" weight="112305.9375">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+        <attvalues>
+          <attvalue for="2" value="2"/>
+        </attvalues>
+      </edge>
+      <edge id="95" source="LOC::Baja California.Mexicali" target="SUB::Xileno (mezcla de isómeros)" weight="55133.26953125">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+        <attvalues>
+          <attvalue for="2" value="30"/>
+        </attvalues>
+      </edge>
+      <edge id="96" source="LOC::Baja California.Mexicali" target="SUB::Tricloroetileno" weight="16500.94140625">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+        <attvalues>
+          <attvalue for="2" value="14"/>
+        </attvalues>
+      </edge>
+      <edge id="97" source="LOC::Baja California.Mexicali" target="SUB::Hexafluoruro de azufre" weight="22.5">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+        <attvalues>
+          <attvalue for="2" value="2"/>
+        </attvalues>
+      </edge>
+      <edge id="98" source="LOC::Baja California.Mexicali" target="SUB::Asbesto y sus formas (En forma de polvo, fibras o productos desmenuzables con la presión de la mano)" weight="45300.0">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+        <attvalues>
+          <attvalue for="2" value="3"/>
+        </attvalues>
+      </edge>
+      <edge id="99" source="LOC::Baja California.Mexicali" target="SUB::Diisocianato de difenilmetano polimérico" weight="20826.720703125">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+        <attvalues>
+          <attvalue for="2" value="6"/>
+        </attvalues>
+      </edge>
+      <edge id="100" source="LOC::Baja California.Mexicali" target="SUB::Metileno bis(fenilisocianato)" weight="12310.5595703125">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+        <attvalues>
+          <attvalue for="2" value="5"/>
+        </attvalues>
+      </edge>
+      <edge id="101" source="LOC::Baja California.Mexicali" target="SUB::Cloroformo" weight="100.0">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+        <attvalues>
+          <attvalue for="2" value="1"/>
+        </attvalues>
+      </edge>
+      <edge id="102" source="LOC::Baja California.Mexicali" target="SUB::Cloruro de metileno" weight="6851.2001953125">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+        <attvalues>
+          <attvalue for="2" value="4"/>
+        </attvalues>
+      </edge>
+      <edge id="103" source="LOC::Baja California.Playas de Rosarito" target="SUB::Cromo (Compuestos solubles)" weight="120262.3046875">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+        <attvalues>
+          <attvalue for="2" value="13"/>
+        </attvalues>
+      </edge>
+      <edge id="104" source="LOC::Baja California.Playas de Rosarito" target="SUB::Níquel (Compuestos solubles)" weight="55423.19140625">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+        <attvalues>
+          <attvalue for="2" value="8"/>
+        </attvalues>
+      </edge>
+      <edge id="105" source="LOC::Baja California.Playas de Rosarito" target="SUB::Arsénico (polvos, respirables, vapores o humos)" weight="0.7511959075927734">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+        <attvalues>
+          <attvalue for="2" value="14"/>
+        </attvalues>
+      </edge>
+      <edge id="106" source="LOC::Baja California.Playas de Rosarito" target="SUB::Mercurio (Compuestos solubles)" weight="1122.1783447265625">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+        <attvalues>
+          <attvalue for="2" value="10"/>
+        </attvalues>
+      </edge>
+      <edge id="107" source="LOC::Baja California.Playas de Rosarito" target="SUB::Plomo (Compuestos solubles)" weight="109853.7109375">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+        <attvalues>
+          <attvalue for="2" value="10"/>
+        </attvalues>
+      </edge>
+      <edge id="108" source="LOC::Baja California.Playas de Rosarito" target="SUB::Cianuro inorgánico/orgánico" weight="23967.1640625">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+        <attvalues>
+          <attvalue for="2" value="32"/>
+        </attvalues>
+      </edge>
+      <edge id="109" source="LOC::Baja California.Playas de Rosarito" target="SUB::Cadmio (polvos, respirables, vapores o humos)" weight="0.39910832047462463">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+        <attvalues>
+          <attvalue for="2" value="6"/>
+        </attvalues>
+      </edge>
+      <edge id="110" source="LOC::Baja California.Playas de Rosarito" target="SUB::Cadmio (compuestos)" weight="6.318700790405273">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+        <attvalues>
+          <attvalue for="2" value="6"/>
+        </attvalues>
+      </edge>
+      <edge id="111" source="LOC::Baja California.Playas de Rosarito" target="SUB::Cromo (compuestos)" weight="521.9375">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+        <attvalues>
+          <attvalue for="2" value="11"/>
+        </attvalues>
+      </edge>
+      <edge id="112" source="LOC::Baja California.Playas de Rosarito" target="SUB::Níquel (compuestos)" weight="10817.5849609375">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+        <attvalues>
+          <attvalue for="2" value="16"/>
+        </attvalues>
+      </edge>
+      <edge id="113" source="LOC::Baja California.Playas de Rosarito" target="SUB::Plomo (compuestos)" weight="49.5296516418457">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+        <attvalues>
+          <attvalue for="2" value="10"/>
+        </attvalues>
+      </edge>
+      <edge id="114" source="LOC::Baja California.Playas de Rosarito" target="SUB::Arsénico (Compuestos solubles)" weight="48532.98046875">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+        <attvalues>
+          <attvalue for="2" value="8"/>
+        </attvalues>
+      </edge>
+      <edge id="115" source="LOC::Baja California.Playas de Rosarito" target="SUB::Cadmio (Compuestos solubles)" weight="24711.1484375">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+        <attvalues>
+          <attvalue for="2" value="10"/>
+        </attvalues>
+      </edge>
+      <edge id="116" source="LOC::Baja California.Playas de Rosarito" target="SUB::Mercurio (compuestos)" weight="0.03066384047269821">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+        <attvalues>
+          <attvalue for="2" value="12"/>
+        </attvalues>
+      </edge>
+      <edge id="117" source="LOC::Baja California.Playas de Rosarito" target="SUB::Hidracina" weight="712.0">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+        <attvalues>
+          <attvalue for="2" value="2"/>
+        </attvalues>
+      </edge>
+      <edge id="118" source="LOC::Baja California.Playas de Rosarito" target="SUB::Bióxido de nitrógeno" weight="6.6028736E7">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+        <attvalues>
+          <attvalue for="2" value="14"/>
+        </attvalues>
+      </edge>
+      <edge id="119" source="LOC::Baja California.Playas de Rosarito" target="SUB::Bióxido de carbono" weight="1.925866496E10">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+        <attvalues>
+          <attvalue for="2" value="52"/>
+        </attvalues>
+      </edge>
+      <edge id="120" source="LOC::Baja California.Playas de Rosarito" target="SUB::Acroleina" weight="0.001700824941508472">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+        <attvalues>
+          <attvalue for="2" value="7"/>
+        </attvalues>
+      </edge>
+      <edge id="121" source="LOC::Baja California.Playas de Rosarito" target="SUB::Acetaldehido" weight="0.014571391977369785">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+        <attvalues>
+          <attvalue for="2" value="7"/>
+        </attvalues>
+      </edge>
+      <edge id="122" source="LOC::Baja California.Playas de Rosarito" target="SUB::Benceno" weight="1.0178440809249878">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+        <attvalues>
+          <attvalue for="2" value="8"/>
+        </attvalues>
+      </edge>
+      <edge id="123" source="LOC::Baja California.Playas de Rosarito" target="SUB::Formaldehido" weight="7.469249540008605E-4">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+        <attvalues>
+          <attvalue for="2" value="7"/>
+        </attvalues>
+      </edge>
+      <edge id="124" source="LOC::Baja California.Playas de Rosarito" target="SUB::Metano" weight="5368346.0">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+        <attvalues>
+          <attvalue for="2" value="8"/>
+        </attvalues>
+      </edge>
+      <edge id="125" source="LOC::Baja California.Playas de Rosarito" target="SUB::Oxido nitroso" weight="132700.0">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+        <attvalues>
+          <attvalue for="2" value="2"/>
+        </attvalues>
+      </edge>
+      <edge id="126" source="LOC::Baja California.Playas de Rosarito" target="SUB::Arsénico (compuestos)" weight="0.15531975030899048">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+        <attvalues>
+          <attvalue for="2" value="4"/>
+        </attvalues>
+      </edge>
+      <edge id="127" source="LOC::Baja California.Playas de Rosarito" target="SUB::Mercurio (polvos, respirables, vapores o humos)" weight="6.103010654449463">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+        <attvalues>
+          <attvalue for="2" value="6"/>
+        </attvalues>
+      </edge>
+      <edge id="128" source="LOC::Baja California.Playas de Rosarito" target="SUB::Bifenilo" weight="6.0">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+        <attvalues>
+          <attvalue for="2" value="1"/>
+        </attvalues>
+      </edge>
+      <edge id="129" source="LOC::Baja California.Playas de Rosarito" target="SUB::Fenol" weight="178.0">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+        <attvalues>
+          <attvalue for="2" value="1"/>
+        </attvalues>
+      </edge>
+      <edge id="130" source="LOC::Baja California.Playas de Rosarito" target="SUB::Bifenilos policlorados" weight="12430.0">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+        <attvalues>
+          <attvalue for="2" value="1"/>
+        </attvalues>
+      </edge>
+      <edge id="131" source="LOC::Baja California.Playas de Rosarito" target="SUB::Plomo (polvos respirables, humos o vapores)" weight="57.849998474121094">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+        <attvalues>
+          <attvalue for="2" value="4"/>
+        </attvalues>
+      </edge>
+      <edge id="132" source="LOC::Baja California.Playas de Rosarito" target="SUB::Cloruro de metileno" weight="36764.0">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+        <attvalues>
+          <attvalue for="2" value="5"/>
+        </attvalues>
+      </edge>
+      <edge id="133" source="LOC::Baja California.Ensenada" target="SUB::Cromo (Compuestos solubles)" weight="96291.3203125">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+        <attvalues>
+          <attvalue for="2" value="14"/>
+        </attvalues>
+      </edge>
+      <edge id="134" source="LOC::Baja California.Ensenada" target="SUB::Mercurio (Compuestos solubles)" weight="348.9689636230469">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+        <attvalues>
+          <attvalue for="2" value="7"/>
+        </attvalues>
+      </edge>
+      <edge id="135" source="LOC::Baja California.Ensenada" target="SUB::Níquel (Compuestos solubles)" weight="96807.5078125">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+        <attvalues>
+          <attvalue for="2" value="15"/>
+        </attvalues>
+      </edge>
+      <edge id="136" source="LOC::Baja California.Ensenada" target="SUB::Plomo (Compuestos solubles)" weight="46547.99609375">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+        <attvalues>
+          <attvalue for="2" value="14"/>
+        </attvalues>
+      </edge>
+      <edge id="137" source="LOC::Baja California.Ensenada" target="SUB::Cianuro inorgánico/orgánico" weight="13694.333984375">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+        <attvalues>
+          <attvalue for="2" value="35"/>
+        </attvalues>
+      </edge>
+      <edge id="138" source="LOC::Baja California.Ensenada" target="SUB::Arsénico (compuestos)" weight="2.4082844257354736">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+        <attvalues>
+          <attvalue for="2" value="7"/>
+        </attvalues>
+      </edge>
+      <edge id="139" source="LOC::Baja California.Ensenada" target="SUB::Plomo (compuestos)" weight="3098.297607421875">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+        <attvalues>
+          <attvalue for="2" value="42"/>
+        </attvalues>
+      </edge>
+      <edge id="140" source="LOC::Baja California.Ensenada" target="SUB::Níquel (compuestos)" weight="35.25871658325195">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+        <attvalues>
+          <attvalue for="2" value="26"/>
+        </attvalues>
+      </edge>
+      <edge id="141" source="LOC::Baja California.Ensenada" target="SUB::Mercurio (compuestos)" weight="10.003684043884277">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+        <attvalues>
+          <attvalue for="2" value="16"/>
+        </attvalues>
+      </edge>
+      <edge id="142" source="LOC::Baja California.Ensenada" target="SUB::Cromo (compuestos)" weight="241.49044799804688">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+        <attvalues>
+          <attvalue for="2" value="35"/>
+        </attvalues>
+      </edge>
+      <edge id="143" source="LOC::Baja California.Ensenada" target="SUB::Mercurio (polvos, respirables, vapores o humos)" weight="560.5504150390625">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+        <attvalues>
+          <attvalue for="2" value="37"/>
+        </attvalues>
+      </edge>
+      <edge id="144" source="LOC::Baja California.Ensenada" target="SUB::Arsénico (polvos, respirables, vapores o humos)" weight="135.29200744628906">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+        <attvalues>
+          <attvalue for="2" value="45"/>
+        </attvalues>
+      </edge>
+      <edge id="145" source="LOC::Baja California.Ensenada" target="SUB::Cadmio (polvos, respirables, vapores o humos)" weight="73.37867736816406">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+        <attvalues>
+          <attvalue for="2" value="43"/>
+        </attvalues>
+      </edge>
+      <edge id="146" source="LOC::Baja California.Ensenada" target="SUB::Plomo (polvos respirables, humos o vapores)" weight="199.38002014160156">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+        <attvalues>
+          <attvalue for="2" value="23"/>
+        </attvalues>
+      </edge>
+      <edge id="147" source="LOC::Baja California.Ensenada" target="SUB::Níquel (polvos respirables, humos o vapores)" weight="53.822898864746094">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+        <attvalues>
+          <attvalue for="2" value="10"/>
+        </attvalues>
+      </edge>
+      <edge id="148" source="LOC::Baja California.Ensenada" target="SUB::Cromo (polvos respirables, humos o vapores)" weight="255.24966430664062">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+        <attvalues>
+          <attvalue for="2" value="22"/>
+        </attvalues>
+      </edge>
+      <edge id="149" source="LOC::Baja California.Ensenada" target="SUB::Arsénico (Compuestos solubles)" weight="48495.1796875">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+        <attvalues>
+          <attvalue for="2" value="8"/>
+        </attvalues>
+      </edge>
+      <edge id="150" source="LOC::Baja California.Ensenada" target="SUB::Cadmio (Compuestos solubles)" weight="32273.232421875">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+        <attvalues>
+          <attvalue for="2" value="12"/>
+        </attvalues>
+      </edge>
+      <edge id="151" source="LOC::Baja California.Ensenada" target="SUB::Bióxido de nitrógeno" weight="84932.4921875">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+        <attvalues>
+          <attvalue for="2" value="7"/>
+        </attvalues>
+      </edge>
+      <edge id="152" source="LOC::Baja California.Ensenada" target="SUB::Bióxido de carbono" weight="7.022569472E9">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+        <attvalues>
+          <attvalue for="2" value="56"/>
+        </attvalues>
+      </edge>
+      <edge id="153" source="LOC::Baja California.Ensenada" target="SUB::Dioxinas" weight="0.0021982125472277403">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+        <attvalues>
+          <attvalue for="2" value="17"/>
+        </attvalues>
+      </edge>
+      <edge id="154" source="LOC::Baja California.Ensenada" target="SUB::Furanos" weight="0.0021982125472277403">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+        <attvalues>
+          <attvalue for="2" value="17"/>
+        </attvalues>
+      </edge>
+      <edge id="155" source="LOC::Baja California.Ensenada" target="SUB::Benceno" weight="47239.328125">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+        <attvalues>
+          <attvalue for="2" value="23"/>
+        </attvalues>
+      </edge>
+      <edge id="156" source="LOC::Baja California.Ensenada" target="SUB::Cloruro de metileno" weight="62472.12109375">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+        <attvalues>
+          <attvalue for="2" value="31"/>
+        </attvalues>
+      </edge>
+      <edge id="157" source="LOC::Baja California.Ensenada" target="SUB::Acroleina" weight="0.014744799584150314">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+        <attvalues>
+          <attvalue for="2" value="7"/>
+        </attvalues>
+      </edge>
+      <edge id="158" source="LOC::Baja California.Ensenada" target="SUB::Acetaldehido" weight="888.2913818359375">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+        <attvalues>
+          <attvalue for="2" value="11"/>
+        </attvalues>
+      </edge>
+      <edge id="159" source="LOC::Baja California.Ensenada" target="SUB::Formaldehido" weight="15765.2119140625">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+        <attvalues>
+          <attvalue for="2" value="11"/>
+        </attvalues>
+      </edge>
+      <edge id="160" source="LOC::Baja California.Ensenada" target="SUB::1,2,-Dicloroetano" weight="97434.6484375">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+        <attvalues>
+          <attvalue for="2" value="22"/>
+        </attvalues>
+      </edge>
+      <edge id="161" source="LOC::Baja California.Ensenada" target="SUB::Estireno (fenil etileno)" weight="9437.25">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+        <attvalues>
+          <attvalue for="2" value="1"/>
+        </attvalues>
+      </edge>
+      <edge id="162" source="LOC::Baja California.Ensenada" target="SUB::Metano" weight="54.0">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+        <attvalues>
+          <attvalue for="2" value="1"/>
+        </attvalues>
+      </edge>
+      <edge id="163" source="LOC::Baja California.Ensenada" target="SUB::Oxido nitroso" weight="0.019999999552965164">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+        <attvalues>
+          <attvalue for="2" value="2"/>
+        </attvalues>
+      </edge>
+      <edge id="164" source="LOC::Baja California.Ensenada" target="SUB::Cadmio (compuestos)" weight="4.681191444396973">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+        <attvalues>
+          <attvalue for="2" value="6"/>
+        </attvalues>
+      </edge>
+      <edge id="165" source="LOC::Baja California.Ensenada" target="SUB::Fenol" weight="0.019999999552965164">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+        <attvalues>
+          <attvalue for="2" value="1"/>
+        </attvalues>
+      </edge>
+      <edge id="166" source="LOC::Baja California.Ensenada" target="SUB::Diclorodifluorometano (CFC-12)" weight="66.5199966430664">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+        <attvalues>
+          <attvalue for="2" value="1"/>
+        </attvalues>
+      </edge>
+    </edges>
+  </graph>
+</gexf>

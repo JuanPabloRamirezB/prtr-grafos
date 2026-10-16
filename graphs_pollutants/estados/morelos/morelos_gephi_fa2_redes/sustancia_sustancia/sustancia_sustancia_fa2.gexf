@@ -1,0 +1,791 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<gexf xmlns="http://gexf.net/1.3" version="1.3" xmlns:viz="http://gexf.net/1.3/viz" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://gexf.net/1.3 http://gexf.net/1.3/gexf.xsd">
+  <meta lastmodifieddate="2026-10-16">
+    <creator>Apache NetBeans Platform Dev (Build {0})</creator>
+    <title></title>
+    <description></description>
+  </meta>
+  <graph defaultedgetype="undirected" mode="static">
+    <attributes class="node" mode="static">
+      <attribute id="0" title="n_municipios" type="long"/>
+      <attribute id="modularity_class" title="Modularity Class" type="integer">
+        <default>0</default>
+      </attribute>
+    </attributes>
+    <nodes>
+      <node id="2-Etoxietanol (Termonoetilico de etilenglicol)" label="2-Ethoxyethanol (ethylene glycol monoethyl ether)">
+        <attvalues>
+          <attvalue for="0" value="1"/>
+          <attvalue for="modularity_class" value="0"/>
+        </attvalues>
+        <viz:size value="8.1"/>
+        <viz:position x="406.65167" y="92.17978"/>
+        <viz:color r="42" g="120" b="214"/>
+      </node>
+      <node id="Hexaclorobenceno" label="Hexachlorobenzene">
+        <attvalues>
+          <attvalue for="0" value="1"/>
+          <attvalue for="modularity_class" value="0"/>
+        </attvalues>
+        <viz:size value="8.1"/>
+        <viz:position x="381.0264" y="120.41232"/>
+        <viz:color r="42" g="120" b="214"/>
+      </node>
+      <node id="Metano" label="Methane">
+        <attvalues>
+          <attvalue for="0" value="1"/>
+          <attvalue for="modularity_class" value="0"/>
+        </attvalues>
+        <viz:size value="8.1"/>
+        <viz:position x="379.71393" y="93.4686"/>
+        <viz:color r="42" g="120" b="214"/>
+      </node>
+      <node id="Níquel (polvos respirables, humos o vapores)" label="Nickel (respirable dust, fumes or vapors)">
+        <attvalues>
+          <attvalue for="0" value="1"/>
+          <attvalue for="modularity_class" value="0"/>
+        </attvalues>
+        <viz:size value="8.1"/>
+        <viz:position x="407.96832" y="119.1077"/>
+        <viz:color r="42" g="120" b="214"/>
+      </node>
+      <node id="Acetaldehido" label="Acetaldehyde">
+        <attvalues>
+          <attvalue for="0" value="3"/>
+          <attvalue for="modularity_class" value="1"/>
+        </attvalues>
+        <viz:size value="12.4800005"/>
+        <viz:position x="280.06946" y="281.2939"/>
+        <viz:color r="235" g="104" b="52"/>
+      </node>
+      <node id="Acroleina" label="Acrolein">
+        <attvalues>
+          <attvalue for="0" value="3"/>
+          <attvalue for="modularity_class" value="1"/>
+        </attvalues>
+        <viz:size value="12.4800005"/>
+        <viz:position x="263.34814" y="297.29105"/>
+        <viz:color r="235" g="104" b="52"/>
+      </node>
+      <node id="Arsénico (Compuestos solubles)" label="Arsenic (soluble compounds)">
+        <attvalues>
+          <attvalue for="0" value="5"/>
+          <attvalue for="modularity_class" value="2"/>
+        </attvalues>
+        <viz:size value="16.86"/>
+        <viz:position x="48.6353" y="46.930054"/>
+        <viz:color r="27" g="175" b="122"/>
+      </node>
+      <node id="Cadmio (Compuestos solubles)" label="Cadmium (soluble compounds)">
+        <attvalues>
+          <attvalue for="0" value="6"/>
+          <attvalue for="modularity_class" value="2"/>
+        </attvalues>
+        <viz:size value="19.05"/>
+        <viz:position x="83.094894" y="34.939697"/>
+        <viz:color r="27" g="175" b="122"/>
+      </node>
+      <node id="Cadmio (compuestos)" label="Cadmium (compounds)">
+        <attvalues>
+          <attvalue for="0" value="7"/>
+          <attvalue for="modularity_class" value="2"/>
+        </attvalues>
+        <viz:size value="21.240002"/>
+        <viz:position x="32.578445" y="125.28485"/>
+        <viz:color r="27" g="175" b="122"/>
+      </node>
+      <node id="Níquel (Compuestos solubles)" label="Nickel (soluble compounds)">
+        <attvalues>
+          <attvalue for="0" value="7"/>
+          <attvalue for="modularity_class" value="2"/>
+        </attvalues>
+        <viz:size value="21.240002"/>
+        <viz:position x="50.82271" y="81.485504"/>
+        <viz:color r="27" g="175" b="122"/>
+      </node>
+      <node id="Plomo (Compuestos solubles)" label="Lead (soluble compounds)">
+        <attvalues>
+          <attvalue for="0" value="7"/>
+          <attvalue for="modularity_class" value="2"/>
+        </attvalues>
+        <viz:size value="21.240002"/>
+        <viz:position x="99.064285" y="69.845825"/>
+        <viz:color r="27" g="175" b="122"/>
+      </node>
+      <node id="Arsénico (compuestos)" label="Arsenic (compounds)">
+        <attvalues>
+          <attvalue for="0" value="8"/>
+          <attvalue for="modularity_class" value="2"/>
+        </attvalues>
+        <viz:size value="23.43"/>
+        <viz:position x="82.63719" y="119.68356"/>
+        <viz:color r="27" g="175" b="122"/>
+      </node>
+      <node id="Arsénico (polvos, respirables, vapores o humos)" label="Arsenic (respirable dust, vapors or fumes)">
+        <attvalues>
+          <attvalue for="0" value="10"/>
+          <attvalue for="modularity_class" value="2"/>
+        </attvalues>
+        <viz:size value="27.81"/>
+        <viz:position x="47.76503" y="171.16885"/>
+        <viz:color r="27" g="175" b="122"/>
+      </node>
+      <node id="Bióxido de carbono" label="Carbon dioxide">
+        <attvalues>
+          <attvalue for="0" value="11"/>
+          <attvalue for="modularity_class" value="2"/>
+        </attvalues>
+        <viz:size value="30.0"/>
+        <viz:position x="163.70366" y="190.04694"/>
+        <viz:color r="27" g="175" b="122"/>
+      </node>
+      <node id="Cadmio (polvos, respirables, vapores o humos)" label="Cadmium (respirable dust, vapors or fumes)">
+        <attvalues>
+          <attvalue for="0" value="10"/>
+          <attvalue for="modularity_class" value="2"/>
+        </attvalues>
+        <viz:size value="27.81"/>
+        <viz:position x="162.06844" y="145.3606"/>
+        <viz:color r="27" g="175" b="122"/>
+      </node>
+      <node id="Cianuro inorgánico/orgánico" label="Inorganic/organic cyanide">
+        <attvalues>
+          <attvalue for="0" value="10"/>
+          <attvalue for="modularity_class" value="2"/>
+        </attvalues>
+        <viz:size value="27.81"/>
+        <viz:position x="118.68779" y="138.33203"/>
+        <viz:color r="27" g="175" b="122"/>
+      </node>
+      <node id="Cromo (Compuestos solubles)" label="Chromium (soluble compounds)">
+        <attvalues>
+          <attvalue for="0" value="8"/>
+          <attvalue for="modularity_class" value="2"/>
+        </attvalues>
+        <viz:size value="23.43"/>
+        <viz:position x="141.9618" y="102.18729"/>
+        <viz:color r="27" g="175" b="122"/>
+      </node>
+      <node id="Cromo (compuestos)" label="Chromium (compounds)">
+        <attvalues>
+          <attvalue for="0" value="10"/>
+          <attvalue for="modularity_class" value="2"/>
+        </attvalues>
+        <viz:size value="27.81"/>
+        <viz:position x="128.3304" y="176.54474"/>
+        <viz:color r="27" g="175" b="122"/>
+      </node>
+      <node id="Mercurio (compuestos)" label="Mercury (compounds)">
+        <attvalues>
+          <attvalue for="0" value="10"/>
+          <attvalue for="modularity_class" value="2"/>
+        </attvalues>
+        <viz:size value="27.81"/>
+        <viz:position x="112.2372" y="212.5921"/>
+        <viz:color r="27" g="175" b="122"/>
+      </node>
+      <node id="Níquel (compuestos)" label="Nickel (compounds)">
+        <attvalues>
+          <attvalue for="0" value="9"/>
+          <attvalue for="modularity_class" value="2"/>
+        </attvalues>
+        <viz:size value="25.62"/>
+        <viz:position x="68.97435" y="210.58627"/>
+        <viz:color r="27" g="175" b="122"/>
+      </node>
+      <node id="Plomo (compuestos)" label="Lead (compounds)">
+        <attvalues>
+          <attvalue for="0" value="10"/>
+          <attvalue for="modularity_class" value="2"/>
+        </attvalues>
+        <viz:size value="27.81"/>
+        <viz:position x="87.811295" y="169.17206"/>
+        <viz:color r="27" g="175" b="122"/>
+      </node>
+      <node id="Asbesto y sus formas (En forma de polvo, fibras o productos desmenuzables con la presión de la mano)" label="Asbestos and its forms (as dust, fibers or friable products that crumble under hand pressure)">
+        <attvalues>
+          <attvalue for="0" value="2"/>
+          <attvalue for="modularity_class" value="3"/>
+        </attvalues>
+        <viz:size value="10.290001"/>
+        <viz:position x="401.44672" y="280.57196"/>
+        <viz:color r="237" g="161" b="0"/>
+      </node>
+      <node id="Tolueno" label="Toluene">
+        <attvalues>
+          <attvalue for="0" value="2"/>
+          <attvalue for="modularity_class" value="3"/>
+        </attvalues>
+        <viz:size value="10.290001"/>
+        <viz:position x="386.23553" y="298.013"/>
+        <viz:color r="237" g="161" b="0"/>
+      </node>
+      <node id="Benceno" label="Benzene">
+        <attvalues>
+          <attvalue for="0" value="5"/>
+          <attvalue for="modularity_class" value="4"/>
+        </attvalues>
+        <viz:size value="16.86"/>
+        <viz:position x="83.22624" y="365.99286"/>
+        <viz:color r="232" g="123" b="164"/>
+      </node>
+      <node id="Formaldehido" label="Formaldehyde">
+        <attvalues>
+          <attvalue for="0" value="6"/>
+          <attvalue for="modularity_class" value="4"/>
+        </attvalues>
+        <viz:size value="19.05"/>
+        <viz:position x="80.4774" y="388.9699"/>
+        <viz:color r="232" g="123" b="164"/>
+      </node>
+      <node id="Mercurio (polvos, respirables, vapores o humos)" label="Mercury (respirable dust, vapors or fumes)">
+        <attvalues>
+          <attvalue for="0" value="5"/>
+          <attvalue for="modularity_class" value="2"/>
+        </attvalues>
+        <viz:size value="16.86"/>
+        <viz:position x="71.511" y="0.0"/>
+        <viz:color r="27" g="175" b="122"/>
+      </node>
+      <node id="Mercurio (Compuestos solubles)" label="Mercury (soluble compounds)">
+        <attvalues>
+          <attvalue for="0" value="5"/>
+          <attvalue for="modularity_class" value="2"/>
+        </attvalues>
+        <viz:size value="16.86"/>
+        <viz:position x="1.5258789E-5" y="65.20218"/>
+        <viz:color r="27" g="175" b="122"/>
+      </node>
+      <node id="1,2,-Dicloroetano" label="1,2-Dichloroethane">
+        <attvalues>
+          <attvalue for="0" value="1"/>
+          <attvalue for="modularity_class" value="5"/>
+        </attvalues>
+        <viz:size value="8.1"/>
+        <viz:position x="312.10675" y="85.84177"/>
+        <viz:color r="0" g="131" b="0"/>
+      </node>
+      <node id="Acido sulfhídrico" label="Hydrogen sulfide">
+        <attvalues>
+          <attvalue for="0" value="1"/>
+          <attvalue for="modularity_class" value="5"/>
+        </attvalues>
+        <viz:size value="8.1"/>
+        <viz:position x="286.50043" y="110.41641"/>
+        <viz:color r="0" g="131" b="0"/>
+      </node>
+      <node id="Cloruro de metileno" label="Methylene chloride">
+        <attvalues>
+          <attvalue for="0" value="1"/>
+          <attvalue for="modularity_class" value="5"/>
+        </attvalues>
+        <viz:size value="8.1"/>
+        <viz:position x="315.93628" y="124.60632"/>
+        <viz:color r="0" g="131" b="0"/>
+      </node>
+      <node id="Cloruro de vinilo" label="Vinyl chloride">
+        <attvalues>
+          <attvalue for="0" value="1"/>
+          <attvalue for="modularity_class" value="5"/>
+        </attvalues>
+        <viz:size value="8.1"/>
+        <viz:position x="259.20892" y="97.27991"/>
+        <viz:color r="0" g="131" b="0"/>
+      </node>
+      <node id="Diclorodifluorometano (CFC-12)" label="Dichlorodifluoromethane (CFC-12)">
+        <attvalues>
+          <attvalue for="0" value="1"/>
+          <attvalue for="modularity_class" value="5"/>
+        </attvalues>
+        <viz:size value="8.1"/>
+        <viz:position x="227.48126" y="106.196594"/>
+        <viz:color r="0" g="131" b="0"/>
+      </node>
+      <node id="Dioxano" label="1,4-Dioxane">
+        <attvalues>
+          <attvalue for="0" value="1"/>
+          <attvalue for="modularity_class" value="5"/>
+        </attvalues>
+        <viz:size value="8.1"/>
+        <viz:position x="282.8319" y="67.3082"/>
+        <viz:color r="0" g="131" b="0"/>
+      </node>
+      <node id="Hidrofluorocarbonos" label="Hydrofluorocarbons">
+        <attvalues>
+          <attvalue for="0" value="1"/>
+          <attvalue for="modularity_class" value="5"/>
+        </attvalues>
+        <viz:size value="8.1"/>
+        <viz:position x="283.16522" y="145.72867"/>
+        <viz:color r="0" g="131" b="0"/>
+      </node>
+      <node id="Piridina" label="Pyridine">
+        <attvalues>
+          <attvalue for="0" value="1"/>
+          <attvalue for="modularity_class" value="5"/>
+        </attvalues>
+        <viz:size value="8.1"/>
+        <viz:position x="246.4107" y="66.863464"/>
+        <viz:color r="0" g="131" b="0"/>
+      </node>
+      <node id="Xileno (mezcla de isómeros)" label="Xylene (mixture of isomers)">
+        <attvalues>
+          <attvalue for="0" value="1"/>
+          <attvalue for="modularity_class" value="5"/>
+        </attvalues>
+        <viz:size value="8.1"/>
+        <viz:position x="250.46307" y="134.4407"/>
+        <viz:color r="0" g="131" b="0"/>
+      </node>
+      <node id="Acrilonitrilo" label="Acrylonitrile">
+        <attvalues>
+          <attvalue for="0" value="2"/>
+          <attvalue for="modularity_class" value="6"/>
+        </attvalues>
+        <viz:size value="10.290001"/>
+        <viz:position x="93.7888" y="291.87595"/>
+        <viz:color r="74" g="58" b="167"/>
+      </node>
+      <node id="Epiclorhidrina" label="Epichlorohydrin">
+        <attvalues>
+          <attvalue for="0" value="2"/>
+          <attvalue for="modularity_class" value="6"/>
+        </attvalues>
+        <viz:size value="10.290001"/>
+        <viz:position x="72.91002" y="276.36975"/>
+        <viz:color r="74" g="58" b="167"/>
+      </node>
+      <node id="Fenol" label="Phenol">
+        <attvalues>
+          <attvalue for="0" value="2"/>
+          <attvalue for="modularity_class" value="6"/>
+        </attvalues>
+        <viz:size value="10.290001"/>
+        <viz:position x="69.91487" y="302.2152"/>
+        <viz:color r="74" g="58" b="167"/>
+      </node>
+      <node id="Dioxinas" label="Dioxins">
+        <attvalues>
+          <attvalue for="0" value="3"/>
+          <attvalue for="modularity_class" value="7"/>
+        </attvalues>
+        <viz:size value="12.4800005"/>
+        <viz:position x="261.71426" y="383.55127"/>
+        <viz:color r="227" g="73" b="72"/>
+      </node>
+      <node id="Furanos" label="Furans">
+        <attvalues>
+          <attvalue for="0" value="3"/>
+          <attvalue for="modularity_class" value="7"/>
+        </attvalues>
+        <viz:size value="12.4800005"/>
+        <viz:position x="281.70334" y="371.4115"/>
+        <viz:color r="227" g="73" b="72"/>
+      </node>
+    </nodes>
+    <edges>
+      <edge id="0" source="2-Etoxietanol (Termonoetilico de etilenglicol)" target="Hexaclorobenceno">
+        <viz:color r="137" g="135" b="129" a="0.47058824"/>
+      </edge>
+      <edge id="1" source="2-Etoxietanol (Termonoetilico de etilenglicol)" target="Metano">
+        <viz:color r="137" g="135" b="129" a="0.47058824"/>
+      </edge>
+      <edge id="2" source="2-Etoxietanol (Termonoetilico de etilenglicol)" target="Níquel (polvos respirables, humos o vapores)">
+        <viz:color r="137" g="135" b="129" a="0.47058824"/>
+      </edge>
+      <edge id="3" source="Hexaclorobenceno" target="Metano">
+        <viz:color r="137" g="135" b="129" a="0.47058824"/>
+      </edge>
+      <edge id="4" source="Hexaclorobenceno" target="Níquel (polvos respirables, humos o vapores)">
+        <viz:color r="137" g="135" b="129" a="0.47058824"/>
+      </edge>
+      <edge id="5" source="Metano" target="Níquel (polvos respirables, humos o vapores)">
+        <viz:color r="137" g="135" b="129" a="0.47058824"/>
+      </edge>
+      <edge id="6" source="Acetaldehido" target="Acroleina">
+        <viz:color r="137" g="135" b="129" a="0.47058824"/>
+      </edge>
+      <edge id="7" source="Arsénico (Compuestos solubles)" target="Cadmio (Compuestos solubles)" weight="0.8333333134651184">
+        <viz:color r="137" g="135" b="129" a="0.47058824"/>
+      </edge>
+      <edge id="8" source="Arsénico (Compuestos solubles)" target="Cadmio (compuestos)" weight="0.7142857313156128">
+        <viz:color r="137" g="135" b="129" a="0.47058824"/>
+      </edge>
+      <edge id="9" source="Arsénico (Compuestos solubles)" target="Níquel (Compuestos solubles)" weight="0.7142857313156128">
+        <viz:color r="137" g="135" b="129" a="0.47058824"/>
+      </edge>
+      <edge id="10" source="Arsénico (Compuestos solubles)" target="Plomo (Compuestos solubles)" weight="0.7142857313156128">
+        <viz:color r="137" g="135" b="129" a="0.47058824"/>
+      </edge>
+      <edge id="11" source="Cadmio (Compuestos solubles)" target="Arsénico (compuestos)" weight="0.75">
+        <viz:color r="137" g="135" b="129" a="0.47058824"/>
+      </edge>
+      <edge id="12" source="Cadmio (Compuestos solubles)" target="Cromo (Compuestos solubles)" weight="0.75">
+        <viz:color r="137" g="135" b="129" a="0.47058824"/>
+      </edge>
+      <edge id="13" source="Cadmio (Compuestos solubles)" target="Mercurio (polvos, respirables, vapores o humos)" weight="0.8333333134651184">
+        <viz:color r="137" g="135" b="129" a="0.47058824"/>
+      </edge>
+      <edge id="14" source="Cadmio (Compuestos solubles)" target="Níquel (Compuestos solubles)" weight="0.8571428656578064">
+        <viz:color r="137" g="135" b="129" a="0.47058824"/>
+      </edge>
+      <edge id="15" source="Cadmio (Compuestos solubles)" target="Plomo (Compuestos solubles)" weight="0.8571428656578064">
+        <viz:color r="137" g="135" b="129" a="0.47058824"/>
+      </edge>
+      <edge id="16" source="Cadmio (compuestos)" target="Arsénico (compuestos)" weight="0.875">
+        <viz:color r="137" g="135" b="129" a="0.47058824"/>
+      </edge>
+      <edge id="17" source="Cadmio (compuestos)" target="Arsénico (polvos, respirables, vapores o humos)" weight="0.699999988079071">
+        <viz:color r="137" g="135" b="129" a="0.47058824"/>
+      </edge>
+      <edge id="18" source="Cadmio (compuestos)" target="Cadmio (polvos, respirables, vapores o humos)" weight="0.699999988079071">
+        <viz:color r="137" g="135" b="129" a="0.47058824"/>
+      </edge>
+      <edge id="19" source="Cadmio (compuestos)" target="Cianuro inorgánico/orgánico" weight="0.699999988079071">
+        <viz:color r="137" g="135" b="129" a="0.47058824"/>
+      </edge>
+      <edge id="20" source="Cadmio (compuestos)" target="Cromo (compuestos)" weight="0.699999988079071">
+        <viz:color r="137" g="135" b="129" a="0.47058824"/>
+      </edge>
+      <edge id="21" source="Cadmio (compuestos)" target="Mercurio (Compuestos solubles)" weight="0.7142857313156128">
+        <viz:color r="137" g="135" b="129" a="0.47058824"/>
+      </edge>
+      <edge id="22" source="Cadmio (compuestos)" target="Mercurio (compuestos)" weight="0.699999988079071">
+        <viz:color r="137" g="135" b="129" a="0.47058824"/>
+      </edge>
+      <edge id="23" source="Cadmio (compuestos)" target="Níquel (Compuestos solubles)" weight="0.75">
+        <viz:color r="137" g="135" b="129" a="0.47058824"/>
+      </edge>
+      <edge id="24" source="Cadmio (compuestos)" target="Níquel (compuestos)" weight="0.7777777910232544">
+        <viz:color r="137" g="135" b="129" a="0.47058824"/>
+      </edge>
+      <edge id="25" source="Cadmio (compuestos)" target="Plomo (Compuestos solubles)" weight="0.75">
+        <viz:color r="137" g="135" b="129" a="0.47058824"/>
+      </edge>
+      <edge id="26" source="Cadmio (compuestos)" target="Plomo (compuestos)" weight="0.699999988079071">
+        <viz:color r="137" g="135" b="129" a="0.47058824"/>
+      </edge>
+      <edge id="27" source="Níquel (Compuestos solubles)" target="Arsénico (compuestos)" weight="0.875">
+        <viz:color r="137" g="135" b="129" a="0.47058824"/>
+      </edge>
+      <edge id="28" source="Níquel (Compuestos solubles)" target="Arsénico (polvos, respirables, vapores o humos)" weight="0.699999988079071">
+        <viz:color r="137" g="135" b="129" a="0.47058824"/>
+      </edge>
+      <edge id="29" source="Níquel (Compuestos solubles)" target="Cadmio (polvos, respirables, vapores o humos)" weight="0.699999988079071">
+        <viz:color r="137" g="135" b="129" a="0.47058824"/>
+      </edge>
+      <edge id="30" source="Níquel (Compuestos solubles)" target="Cianuro inorgánico/orgánico" weight="0.699999988079071">
+        <viz:color r="137" g="135" b="129" a="0.47058824"/>
+      </edge>
+      <edge id="31" source="Níquel (Compuestos solubles)" target="Cromo (Compuestos solubles)" weight="0.875">
+        <viz:color r="137" g="135" b="129" a="0.47058824"/>
+      </edge>
+      <edge id="32" source="Níquel (Compuestos solubles)" target="Cromo (compuestos)" weight="0.699999988079071">
+        <viz:color r="137" g="135" b="129" a="0.47058824"/>
+      </edge>
+      <edge id="33" source="Níquel (Compuestos solubles)" target="Mercurio (Compuestos solubles)" weight="0.7142857313156128">
+        <viz:color r="137" g="135" b="129" a="0.47058824"/>
+      </edge>
+      <edge id="34" source="Níquel (Compuestos solubles)" target="Mercurio (compuestos)" weight="0.699999988079071">
+        <viz:color r="137" g="135" b="129" a="0.47058824"/>
+      </edge>
+      <edge id="35" source="Níquel (Compuestos solubles)" target="Mercurio (polvos, respirables, vapores o humos)" weight="0.7142857313156128">
+        <viz:color r="137" g="135" b="129" a="0.47058824"/>
+      </edge>
+      <edge id="36" source="Níquel (Compuestos solubles)" target="Plomo (Compuestos solubles)">
+        <viz:color r="137" g="135" b="129" a="0.47058824"/>
+      </edge>
+      <edge id="37" source="Níquel (Compuestos solubles)" target="Plomo (compuestos)" weight="0.699999988079071">
+        <viz:color r="137" g="135" b="129" a="0.47058824"/>
+      </edge>
+      <edge id="38" source="Plomo (Compuestos solubles)" target="Arsénico (compuestos)" weight="0.875">
+        <viz:color r="137" g="135" b="129" a="0.47058824"/>
+      </edge>
+      <edge id="39" source="Plomo (Compuestos solubles)" target="Arsénico (polvos, respirables, vapores o humos)" weight="0.699999988079071">
+        <viz:color r="137" g="135" b="129" a="0.47058824"/>
+      </edge>
+      <edge id="40" source="Plomo (Compuestos solubles)" target="Cadmio (polvos, respirables, vapores o humos)" weight="0.699999988079071">
+        <viz:color r="137" g="135" b="129" a="0.47058824"/>
+      </edge>
+      <edge id="41" source="Plomo (Compuestos solubles)" target="Cianuro inorgánico/orgánico" weight="0.699999988079071">
+        <viz:color r="137" g="135" b="129" a="0.47058824"/>
+      </edge>
+      <edge id="42" source="Plomo (Compuestos solubles)" target="Cromo (Compuestos solubles)" weight="0.875">
+        <viz:color r="137" g="135" b="129" a="0.47058824"/>
+      </edge>
+      <edge id="43" source="Plomo (Compuestos solubles)" target="Cromo (compuestos)" weight="0.699999988079071">
+        <viz:color r="137" g="135" b="129" a="0.47058824"/>
+      </edge>
+      <edge id="44" source="Plomo (Compuestos solubles)" target="Mercurio (Compuestos solubles)" weight="0.7142857313156128">
+        <viz:color r="137" g="135" b="129" a="0.47058824"/>
+      </edge>
+      <edge id="45" source="Plomo (Compuestos solubles)" target="Mercurio (compuestos)" weight="0.699999988079071">
+        <viz:color r="137" g="135" b="129" a="0.47058824"/>
+      </edge>
+      <edge id="46" source="Plomo (Compuestos solubles)" target="Mercurio (polvos, respirables, vapores o humos)" weight="0.7142857313156128">
+        <viz:color r="137" g="135" b="129" a="0.47058824"/>
+      </edge>
+      <edge id="47" source="Plomo (Compuestos solubles)" target="Plomo (compuestos)" weight="0.699999988079071">
+        <viz:color r="137" g="135" b="129" a="0.47058824"/>
+      </edge>
+      <edge id="48" source="Arsénico (compuestos)" target="Arsénico (polvos, respirables, vapores o humos)" weight="0.800000011920929">
+        <viz:color r="137" g="135" b="129" a="0.47058824"/>
+      </edge>
+      <edge id="49" source="Arsénico (compuestos)" target="Bióxido de carbono" weight="0.7272727489471436">
+        <viz:color r="137" g="135" b="129" a="0.47058824"/>
+      </edge>
+      <edge id="50" source="Arsénico (compuestos)" target="Cadmio (polvos, respirables, vapores o humos)" weight="0.800000011920929">
+        <viz:color r="137" g="135" b="129" a="0.47058824"/>
+      </edge>
+      <edge id="51" source="Arsénico (compuestos)" target="Cianuro inorgánico/orgánico" weight="0.800000011920929">
+        <viz:color r="137" g="135" b="129" a="0.47058824"/>
+      </edge>
+      <edge id="52" source="Arsénico (compuestos)" target="Cromo (Compuestos solubles)" weight="0.7777777910232544">
+        <viz:color r="137" g="135" b="129" a="0.47058824"/>
+      </edge>
+      <edge id="53" source="Arsénico (compuestos)" target="Cromo (compuestos)" weight="0.800000011920929">
+        <viz:color r="137" g="135" b="129" a="0.47058824"/>
+      </edge>
+      <edge id="54" source="Arsénico (compuestos)" target="Mercurio (compuestos)" weight="0.800000011920929">
+        <viz:color r="137" g="135" b="129" a="0.47058824"/>
+      </edge>
+      <edge id="55" source="Arsénico (compuestos)" target="Níquel (compuestos)" weight="0.699999988079071">
+        <viz:color r="137" g="135" b="129" a="0.47058824"/>
+      </edge>
+      <edge id="56" source="Arsénico (compuestos)" target="Plomo (compuestos)" weight="0.800000011920929">
+        <viz:color r="137" g="135" b="129" a="0.47058824"/>
+      </edge>
+      <edge id="57" source="Arsénico (polvos, respirables, vapores o humos)" target="Bióxido de carbono" weight="0.75">
+        <viz:color r="137" g="135" b="129" a="0.47058824"/>
+      </edge>
+      <edge id="58" source="Arsénico (polvos, respirables, vapores o humos)" target="Cadmio (polvos, respirables, vapores o humos)">
+        <viz:color r="137" g="135" b="129" a="0.47058824"/>
+      </edge>
+      <edge id="59" source="Arsénico (polvos, respirables, vapores o humos)" target="Cianuro inorgánico/orgánico">
+        <viz:color r="137" g="135" b="129" a="0.47058824"/>
+      </edge>
+      <edge id="60" source="Arsénico (polvos, respirables, vapores o humos)" target="Cromo (Compuestos solubles)" weight="0.800000011920929">
+        <viz:color r="137" g="135" b="129" a="0.47058824"/>
+      </edge>
+      <edge id="61" source="Arsénico (polvos, respirables, vapores o humos)" target="Cromo (compuestos)">
+        <viz:color r="137" g="135" b="129" a="0.47058824"/>
+      </edge>
+      <edge id="62" source="Arsénico (polvos, respirables, vapores o humos)" target="Mercurio (compuestos)">
+        <viz:color r="137" g="135" b="129" a="0.47058824"/>
+      </edge>
+      <edge id="63" source="Arsénico (polvos, respirables, vapores o humos)" target="Níquel (compuestos)" weight="0.8999999761581421">
+        <viz:color r="137" g="135" b="129" a="0.47058824"/>
+      </edge>
+      <edge id="64" source="Arsénico (polvos, respirables, vapores o humos)" target="Plomo (compuestos)">
+        <viz:color r="137" g="135" b="129" a="0.47058824"/>
+      </edge>
+      <edge id="65" source="Bióxido de carbono" target="Cadmio (polvos, respirables, vapores o humos)" weight="0.75">
+        <viz:color r="137" g="135" b="129" a="0.47058824"/>
+      </edge>
+      <edge id="66" source="Bióxido de carbono" target="Cianuro inorgánico/orgánico" weight="0.75">
+        <viz:color r="137" g="135" b="129" a="0.47058824"/>
+      </edge>
+      <edge id="67" source="Bióxido de carbono" target="Cromo (Compuestos solubles)" weight="0.7272727489471436">
+        <viz:color r="137" g="135" b="129" a="0.47058824"/>
+      </edge>
+      <edge id="68" source="Bióxido de carbono" target="Cromo (compuestos)" weight="0.75">
+        <viz:color r="137" g="135" b="129" a="0.47058824"/>
+      </edge>
+      <edge id="69" source="Bióxido de carbono" target="Mercurio (compuestos)" weight="0.75">
+        <viz:color r="137" g="135" b="129" a="0.47058824"/>
+      </edge>
+      <edge id="70" source="Bióxido de carbono" target="Plomo (compuestos)" weight="0.75">
+        <viz:color r="137" g="135" b="129" a="0.47058824"/>
+      </edge>
+      <edge id="71" source="Cadmio (polvos, respirables, vapores o humos)" target="Cianuro inorgánico/orgánico">
+        <viz:color r="137" g="135" b="129" a="0.47058824"/>
+      </edge>
+      <edge id="72" source="Cadmio (polvos, respirables, vapores o humos)" target="Cromo (Compuestos solubles)" weight="0.800000011920929">
+        <viz:color r="137" g="135" b="129" a="0.47058824"/>
+      </edge>
+      <edge id="73" source="Cadmio (polvos, respirables, vapores o humos)" target="Cromo (compuestos)">
+        <viz:color r="137" g="135" b="129" a="0.47058824"/>
+      </edge>
+      <edge id="74" source="Cadmio (polvos, respirables, vapores o humos)" target="Mercurio (compuestos)">
+        <viz:color r="137" g="135" b="129" a="0.47058824"/>
+      </edge>
+      <edge id="75" source="Cadmio (polvos, respirables, vapores o humos)" target="Níquel (compuestos)" weight="0.8999999761581421">
+        <viz:color r="137" g="135" b="129" a="0.47058824"/>
+      </edge>
+      <edge id="76" source="Cadmio (polvos, respirables, vapores o humos)" target="Plomo (compuestos)">
+        <viz:color r="137" g="135" b="129" a="0.47058824"/>
+      </edge>
+      <edge id="77" source="Cianuro inorgánico/orgánico" target="Cromo (Compuestos solubles)" weight="0.800000011920929">
+        <viz:color r="137" g="135" b="129" a="0.47058824"/>
+      </edge>
+      <edge id="78" source="Cianuro inorgánico/orgánico" target="Cromo (compuestos)">
+        <viz:color r="137" g="135" b="129" a="0.47058824"/>
+      </edge>
+      <edge id="79" source="Cianuro inorgánico/orgánico" target="Mercurio (compuestos)">
+        <viz:color r="137" g="135" b="129" a="0.47058824"/>
+      </edge>
+      <edge id="80" source="Cianuro inorgánico/orgánico" target="Níquel (compuestos)" weight="0.8999999761581421">
+        <viz:color r="137" g="135" b="129" a="0.47058824"/>
+      </edge>
+      <edge id="81" source="Cianuro inorgánico/orgánico" target="Plomo (compuestos)">
+        <viz:color r="137" g="135" b="129" a="0.47058824"/>
+      </edge>
+      <edge id="82" source="Cromo (Compuestos solubles)" target="Cromo (compuestos)" weight="0.800000011920929">
+        <viz:color r="137" g="135" b="129" a="0.47058824"/>
+      </edge>
+      <edge id="83" source="Cromo (Compuestos solubles)" target="Mercurio (compuestos)" weight="0.800000011920929">
+        <viz:color r="137" g="135" b="129" a="0.47058824"/>
+      </edge>
+      <edge id="84" source="Cromo (Compuestos solubles)" target="Níquel (compuestos)" weight="0.699999988079071">
+        <viz:color r="137" g="135" b="129" a="0.47058824"/>
+      </edge>
+      <edge id="85" source="Cromo (Compuestos solubles)" target="Plomo (compuestos)" weight="0.800000011920929">
+        <viz:color r="137" g="135" b="129" a="0.47058824"/>
+      </edge>
+      <edge id="86" source="Cromo (compuestos)" target="Mercurio (compuestos)">
+        <viz:color r="137" g="135" b="129" a="0.47058824"/>
+      </edge>
+      <edge id="87" source="Cromo (compuestos)" target="Níquel (compuestos)" weight="0.8999999761581421">
+        <viz:color r="137" g="135" b="129" a="0.47058824"/>
+      </edge>
+      <edge id="88" source="Cromo (compuestos)" target="Plomo (compuestos)">
+        <viz:color r="137" g="135" b="129" a="0.47058824"/>
+      </edge>
+      <edge id="89" source="Mercurio (compuestos)" target="Níquel (compuestos)" weight="0.8999999761581421">
+        <viz:color r="137" g="135" b="129" a="0.47058824"/>
+      </edge>
+      <edge id="90" source="Mercurio (compuestos)" target="Plomo (compuestos)">
+        <viz:color r="137" g="135" b="129" a="0.47058824"/>
+      </edge>
+      <edge id="91" source="Níquel (compuestos)" target="Plomo (compuestos)" weight="0.8999999761581421">
+        <viz:color r="137" g="135" b="129" a="0.47058824"/>
+      </edge>
+      <edge id="92" source="Asbesto y sus formas (En forma de polvo, fibras o productos desmenuzables con la presión de la mano)" target="Tolueno">
+        <viz:color r="137" g="135" b="129" a="0.47058824"/>
+      </edge>
+      <edge id="93" source="Benceno" target="Formaldehido" weight="0.8333333134651184">
+        <viz:color r="137" g="135" b="129" a="0.47058824"/>
+      </edge>
+      <edge id="94" source="1,2,-Dicloroetano" target="Acido sulfhídrico">
+        <viz:color r="137" g="135" b="129" a="0.47058824"/>
+      </edge>
+      <edge id="95" source="1,2,-Dicloroetano" target="Cloruro de metileno">
+        <viz:color r="137" g="135" b="129" a="0.47058824"/>
+      </edge>
+      <edge id="96" source="1,2,-Dicloroetano" target="Cloruro de vinilo">
+        <viz:color r="137" g="135" b="129" a="0.47058824"/>
+      </edge>
+      <edge id="97" source="1,2,-Dicloroetano" target="Diclorodifluorometano (CFC-12)">
+        <viz:color r="137" g="135" b="129" a="0.47058824"/>
+      </edge>
+      <edge id="98" source="1,2,-Dicloroetano" target="Dioxano">
+        <viz:color r="137" g="135" b="129" a="0.47058824"/>
+      </edge>
+      <edge id="99" source="1,2,-Dicloroetano" target="Hidrofluorocarbonos">
+        <viz:color r="137" g="135" b="129" a="0.47058824"/>
+      </edge>
+      <edge id="100" source="1,2,-Dicloroetano" target="Piridina">
+        <viz:color r="137" g="135" b="129" a="0.47058824"/>
+      </edge>
+      <edge id="101" source="1,2,-Dicloroetano" target="Xileno (mezcla de isómeros)">
+        <viz:color r="137" g="135" b="129" a="0.47058824"/>
+      </edge>
+      <edge id="102" source="Acido sulfhídrico" target="Cloruro de metileno">
+        <viz:color r="137" g="135" b="129" a="0.47058824"/>
+      </edge>
+      <edge id="103" source="Acido sulfhídrico" target="Cloruro de vinilo">
+        <viz:color r="137" g="135" b="129" a="0.47058824"/>
+      </edge>
+      <edge id="104" source="Acido sulfhídrico" target="Diclorodifluorometano (CFC-12)">
+        <viz:color r="137" g="135" b="129" a="0.47058824"/>
+      </edge>
+      <edge id="105" source="Acido sulfhídrico" target="Dioxano">
+        <viz:color r="137" g="135" b="129" a="0.47058824"/>
+      </edge>
+      <edge id="106" source="Acido sulfhídrico" target="Hidrofluorocarbonos">
+        <viz:color r="137" g="135" b="129" a="0.47058824"/>
+      </edge>
+      <edge id="107" source="Acido sulfhídrico" target="Piridina">
+        <viz:color r="137" g="135" b="129" a="0.47058824"/>
+      </edge>
+      <edge id="108" source="Acido sulfhídrico" target="Xileno (mezcla de isómeros)">
+        <viz:color r="137" g="135" b="129" a="0.47058824"/>
+      </edge>
+      <edge id="109" source="Cloruro de metileno" target="Cloruro de vinilo">
+        <viz:color r="137" g="135" b="129" a="0.47058824"/>
+      </edge>
+      <edge id="110" source="Cloruro de metileno" target="Diclorodifluorometano (CFC-12)">
+        <viz:color r="137" g="135" b="129" a="0.47058824"/>
+      </edge>
+      <edge id="111" source="Cloruro de metileno" target="Dioxano">
+        <viz:color r="137" g="135" b="129" a="0.47058824"/>
+      </edge>
+      <edge id="112" source="Cloruro de metileno" target="Hidrofluorocarbonos">
+        <viz:color r="137" g="135" b="129" a="0.47058824"/>
+      </edge>
+      <edge id="113" source="Cloruro de metileno" target="Piridina">
+        <viz:color r="137" g="135" b="129" a="0.47058824"/>
+      </edge>
+      <edge id="114" source="Cloruro de metileno" target="Xileno (mezcla de isómeros)">
+        <viz:color r="137" g="135" b="129" a="0.47058824"/>
+      </edge>
+      <edge id="115" source="Cloruro de vinilo" target="Diclorodifluorometano (CFC-12)">
+        <viz:color r="137" g="135" b="129" a="0.47058824"/>
+      </edge>
+      <edge id="116" source="Cloruro de vinilo" target="Dioxano">
+        <viz:color r="137" g="135" b="129" a="0.47058824"/>
+      </edge>
+      <edge id="117" source="Cloruro de vinilo" target="Hidrofluorocarbonos">
+        <viz:color r="137" g="135" b="129" a="0.47058824"/>
+      </edge>
+      <edge id="118" source="Cloruro de vinilo" target="Piridina">
+        <viz:color r="137" g="135" b="129" a="0.47058824"/>
+      </edge>
+      <edge id="119" source="Cloruro de vinilo" target="Xileno (mezcla de isómeros)">
+        <viz:color r="137" g="135" b="129" a="0.47058824"/>
+      </edge>
+      <edge id="120" source="Diclorodifluorometano (CFC-12)" target="Dioxano">
+        <viz:color r="137" g="135" b="129" a="0.47058824"/>
+      </edge>
+      <edge id="121" source="Diclorodifluorometano (CFC-12)" target="Hidrofluorocarbonos">
+        <viz:color r="137" g="135" b="129" a="0.47058824"/>
+      </edge>
+      <edge id="122" source="Diclorodifluorometano (CFC-12)" target="Piridina">
+        <viz:color r="137" g="135" b="129" a="0.47058824"/>
+      </edge>
+      <edge id="123" source="Diclorodifluorometano (CFC-12)" target="Xileno (mezcla de isómeros)">
+        <viz:color r="137" g="135" b="129" a="0.47058824"/>
+      </edge>
+      <edge id="124" source="Dioxano" target="Hidrofluorocarbonos">
+        <viz:color r="137" g="135" b="129" a="0.47058824"/>
+      </edge>
+      <edge id="125" source="Dioxano" target="Piridina">
+        <viz:color r="137" g="135" b="129" a="0.47058824"/>
+      </edge>
+      <edge id="126" source="Dioxano" target="Xileno (mezcla de isómeros)">
+        <viz:color r="137" g="135" b="129" a="0.47058824"/>
+      </edge>
+      <edge id="127" source="Hidrofluorocarbonos" target="Piridina">
+        <viz:color r="137" g="135" b="129" a="0.47058824"/>
+      </edge>
+      <edge id="128" source="Hidrofluorocarbonos" target="Xileno (mezcla de isómeros)">
+        <viz:color r="137" g="135" b="129" a="0.47058824"/>
+      </edge>
+      <edge id="129" source="Piridina" target="Xileno (mezcla de isómeros)">
+        <viz:color r="137" g="135" b="129" a="0.47058824"/>
+      </edge>
+      <edge id="130" source="Acrilonitrilo" target="Epiclorhidrina">
+        <viz:color r="137" g="135" b="129" a="0.47058824"/>
+      </edge>
+      <edge id="131" source="Acrilonitrilo" target="Fenol">
+        <viz:color r="137" g="135" b="129" a="0.47058824"/>
+      </edge>
+      <edge id="132" source="Epiclorhidrina" target="Fenol">
+        <viz:color r="137" g="135" b="129" a="0.47058824"/>
+      </edge>
+      <edge id="133" source="Dioxinas" target="Furanos">
+        <viz:color r="137" g="135" b="129" a="0.47058824"/>
+      </edge>
+    </edges>
+  </graph>
+</gexf>

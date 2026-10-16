@@ -1,0 +1,2347 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<gexf xmlns="http://gexf.net/1.3" version="1.3" xmlns:viz="http://gexf.net/1.3/viz" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://gexf.net/1.3 http://gexf.net/1.3/gexf.xsd">
+  <meta lastmodifieddate="2026-10-16">
+    <creator>Apache NetBeans Platform Dev (Build {0})</creator>
+    <title></title>
+    <description></description>
+  </meta>
+  <graph defaultedgetype="undirected" mode="static">
+    <attributes class="node" mode="static">
+      <attribute id="0" title="type" type="string"/>
+      <attribute id="1" title="total_kg" type="double"/>
+      <attribute id="2" title="first_year" type="long"/>
+      <attribute id="3" title="n_years_active" type="long"/>
+    </attributes>
+    <nodes>
+      <node id="LOC::Guanajuato.Silao de la Victoria" label="Guanajuato.Silao de la Victoria">
+        <attvalues>
+          <attvalue for="0" value="location"/>
+          <attvalue for="1" value="1.0075404813059502E9"/>
+          <attvalue for="2" value="2004"/>
+          <attvalue for="3" value="18"/>
+        </attvalues>
+        <viz:size value="47.555553"/>
+        <viz:position x="395.71396" y="-583.8161"/>
+        <viz:color r="205" g="226" b="251"/>
+      </node>
+      <node id="LOC::Guanajuato.Celaya" label="Guanajuato.Celaya">
+        <attvalues>
+          <attvalue for="0" value="location"/>
+          <attvalue for="1" value="3.618059116744165E9"/>
+          <attvalue for="2" value="2004"/>
+          <attvalue for="3" value="19"/>
+        </attvalues>
+        <viz:size value="50.0"/>
+        <viz:position x="-61.812527" y="684.49713"/>
+        <viz:color r="205" g="226" b="251"/>
+      </node>
+      <node id="LOC::Guanajuato.Apaseo el Grande" label="Guanajuato.Apaseo el Grande">
+        <attvalues>
+          <attvalue for="0" value="location"/>
+          <attvalue for="1" value="2.0001184697900217E9"/>
+          <attvalue for="2" value="2004"/>
+          <attvalue for="3" value="19"/>
+        </attvalues>
+        <viz:size value="50.0"/>
+        <viz:position x="856.4606" y="-214.94304"/>
+        <viz:color r="205" g="226" b="251"/>
+      </node>
+      <node id="LOC::Guanajuato.Irapuato" label="Guanajuato.Irapuato">
+        <attvalues>
+          <attvalue for="0" value="location"/>
+          <attvalue for="1" value="3.8614051134343543E9"/>
+          <attvalue for="2" value="2004"/>
+          <attvalue for="3" value="19"/>
+        </attvalues>
+        <viz:size value="50.0"/>
+        <viz:position x="-570.248" y="273.67453"/>
+        <viz:color r="205" g="226" b="251"/>
+      </node>
+      <node id="LOC::Guanajuato.Villagrán" label="Guanajuato.Villagrán">
+        <attvalues>
+          <attvalue for="0" value="location"/>
+          <attvalue for="1" value="5.123650695079789E9"/>
+          <attvalue for="2" value="2004"/>
+          <attvalue for="3" value="19"/>
+        </attvalues>
+        <viz:size value="50.0"/>
+        <viz:position x="-782.4384" y="62.11196"/>
+        <viz:color r="205" g="226" b="251"/>
+      </node>
+      <node id="LOC::Guanajuato.San Luis de la Paz" label="Guanajuato.San Luis de la Paz">
+        <attvalues>
+          <attvalue for="0" value="location"/>
+          <attvalue for="1" value="2.795380147072282E10"/>
+          <attvalue for="2" value="2004"/>
+          <attvalue for="3" value="18"/>
+        </attvalues>
+        <viz:size value="47.555553"/>
+        <viz:position x="-435.0984" y="-199.01535"/>
+        <viz:color r="205" g="226" b="251"/>
+      </node>
+      <node id="LOC::Guanajuato.San José Iturbide" label="Guanajuato.San José Iturbide">
+        <attvalues>
+          <attvalue for="0" value="location"/>
+          <attvalue for="1" value="3.847589818090279E9"/>
+          <attvalue for="2" value="2004"/>
+          <attvalue for="3" value="19"/>
+        </attvalues>
+        <viz:size value="50.0"/>
+        <viz:position x="308.5066" y="-231.4022"/>
+        <viz:color r="205" g="226" b="251"/>
+      </node>
+      <node id="LOC::Guanajuato.Salamanca" label="Guanajuato.Salamanca">
+        <attvalues>
+          <attvalue for="0" value="location"/>
+          <attvalue for="1" value="6.5690631830633865E10"/>
+          <attvalue for="2" value="2004"/>
+          <attvalue for="3" value="19"/>
+        </attvalues>
+        <viz:size value="50.0"/>
+        <viz:position x="298.39426" y="744.56586"/>
+        <viz:color r="205" g="226" b="251"/>
+      </node>
+      <node id="LOC::Guanajuato.Guanajuato" label="Guanajuato.Guanajuato">
+        <attvalues>
+          <attvalue for="0" value="location"/>
+          <attvalue for="1" value="1.0440082113946386E7"/>
+          <attvalue for="2" value="2004"/>
+          <attvalue for="3" value="17"/>
+        </attvalues>
+        <viz:size value="45.11111"/>
+        <viz:position x="-14.264205" y="-245.97905"/>
+        <viz:color r="205" g="226" b="251"/>
+      </node>
+      <node id="LOC::Guanajuato.León" label="Guanajuato.León">
+        <attvalues>
+          <attvalue for="0" value="location"/>
+          <attvalue for="1" value="5.729984507565824E8"/>
+          <attvalue for="2" value="2004"/>
+          <attvalue for="3" value="19"/>
+        </attvalues>
+        <viz:size value="50.0"/>
+        <viz:position x="-457.0573" y="550.10815"/>
+        <viz:color r="205" g="226" b="251"/>
+      </node>
+      <node id="LOC::Guanajuato.San Francisco del Rincón" label="Guanajuato.San Francisco del Rincón">
+        <attvalues>
+          <attvalue for="0" value="location"/>
+          <attvalue for="1" value="2.0601478147265743E7"/>
+          <attvalue for="2" value="2004"/>
+          <attvalue for="3" value="14"/>
+        </attvalues>
+        <viz:size value="37.77778"/>
+        <viz:position x="-313.8209" y="-613.65894"/>
+        <viz:color r="205" g="226" b="251"/>
+      </node>
+      <node id="LOC::Guanajuato.Purísima del Rincón" label="Guanajuato.Purísima del Rincón">
+        <attvalues>
+          <attvalue for="0" value="location"/>
+          <attvalue for="1" value="436743.3162264579"/>
+          <attvalue for="2" value="2005"/>
+          <attvalue for="3" value="6"/>
+        </attvalues>
+        <viz:size value="18.222223"/>
+        <viz:position x="-347.80933" y="-380.46155"/>
+        <viz:color r="191" g="217" b="248"/>
+      </node>
+      <node id="LOC::Guanajuato.San Miguel de Allende" label="Guanajuato.San Miguel de Allende">
+        <attvalues>
+          <attvalue for="0" value="location"/>
+          <attvalue for="1" value="3050169.7440624"/>
+          <attvalue for="2" value="2013"/>
+          <attvalue for="3" value="5"/>
+        </attvalues>
+        <viz:size value="15.777778"/>
+        <viz:position x="-358.8573" y="-788.8474"/>
+        <viz:color r="85" g="152" b="231"/>
+      </node>
+      <node id="LOC::Guanajuato.Salvatierra" label="Guanajuato.Salvatierra">
+        <attvalues>
+          <attvalue for="0" value="location"/>
+          <attvalue for="1" value="5585358.534"/>
+          <attvalue for="2" value="2004"/>
+          <attvalue for="3" value="4"/>
+        </attvalues>
+        <viz:size value="13.333334"/>
+        <viz:position x="-624.70966" y="-688.678"/>
+        <viz:color r="205" g="226" b="251"/>
+      </node>
+      <node id="LOC::Guanajuato.Abasolo" label="Guanajuato.Abasolo">
+        <attvalues>
+          <attvalue for="0" value="location"/>
+          <attvalue for="1" value="36061.00179274223"/>
+          <attvalue for="2" value="2004"/>
+          <attvalue for="3" value="9"/>
+        </attvalues>
+        <viz:size value="25.555555"/>
+        <viz:position x="-694.3477" y="-249.55753"/>
+        <viz:color r="205" g="226" b="251"/>
+      </node>
+      <node id="LOC::Guanajuato.Apaseo el Alto" label="Guanajuato.Apaseo el Alto">
+        <attvalues>
+          <attvalue for="0" value="location"/>
+          <attvalue for="1" value="7.148727422320451E7"/>
+          <attvalue for="2" value="2004"/>
+          <attvalue for="3" value="19"/>
+        </attvalues>
+        <viz:size value="50.0"/>
+        <viz:position x="-313.6717" y="-131.33844"/>
+        <viz:color r="205" g="226" b="251"/>
+      </node>
+      <node id="LOC::Guanajuato.Cortazar" label="Guanajuato.Cortazar">
+        <attvalues>
+          <attvalue for="0" value="location"/>
+          <attvalue for="1" value="4.452823277066053E7"/>
+          <attvalue for="2" value="2007"/>
+          <attvalue for="3" value="15"/>
+        </attvalues>
+        <viz:size value="40.22222"/>
+        <viz:position x="-544.0033" y="-332.38745"/>
+        <viz:color r="164" g="201" b="244" a="0.99607843"/>
+      </node>
+      <node id="LOC::Guanajuato.Comonfort" label="Guanajuato.Comonfort">
+        <attvalues>
+          <attvalue for="0" value="location"/>
+          <attvalue for="1" value="9625081.46668"/>
+          <attvalue for="2" value="2006"/>
+          <attvalue for="3" value="12"/>
+        </attvalues>
+        <viz:size value="32.88889"/>
+        <viz:position x="-652.6336" y="-834.8152"/>
+        <viz:color r="178" g="209" b="246"/>
+      </node>
+      <node id="LOC::Guanajuato.Jaral del Progreso" label="Guanajuato.Jaral del Progreso">
+        <attvalues>
+          <attvalue for="0" value="location"/>
+          <attvalue for="1" value="3.11583063E7"/>
+          <attvalue for="2" value="2005"/>
+          <attvalue for="3" value="11"/>
+        </attvalues>
+        <viz:size value="30.444447"/>
+        <viz:position x="-731.41376" y="-592.3161"/>
+        <viz:color r="191" g="217" b="248"/>
+      </node>
+      <node id="LOC::Guanajuato.Pénjamo" label="Guanajuato.Pénjamo">
+        <attvalues>
+          <attvalue for="0" value="location"/>
+          <attvalue for="1" value="4226760.833699999"/>
+          <attvalue for="2" value="2014"/>
+          <attvalue for="3" value="7"/>
+        </attvalues>
+        <viz:size value="20.666668"/>
+        <viz:position x="-708.52313" y="-674.06995"/>
+        <viz:color r="78" g="143" b="221"/>
+      </node>
+      <node id="LOC::Guanajuato.Romita" label="Guanajuato.Romita">
+        <attvalues>
+          <attvalue for="0" value="location"/>
+          <attvalue for="1" value="113641.597"/>
+          <attvalue for="2" value="2019"/>
+          <attvalue for="3" value="3"/>
+        </attvalues>
+        <viz:size value="10.888889"/>
+        <viz:position x="-636.5591" y="-759.6445"/>
+        <viz:color r="44" g="103" b="176"/>
+      </node>
+      <node id="LOC::Guanajuato.Santa Cruz de Juventino Rosas" label="Guanajuato.Santa Cruz de Juventino Rosas">
+        <attvalues>
+          <attvalue for="0" value="location"/>
+          <attvalue for="1" value="40.090199999999996"/>
+          <attvalue for="2" value="2022"/>
+          <attvalue for="3" value="1"/>
+        </attvalues>
+        <viz:size value="6.0"/>
+        <viz:position x="-420.66583" y="-836.23694"/>
+        <viz:color r="24" g="79" b="149"/>
+      </node>
+      <node id="SUB::Cromo (Compuestos solubles)" label="Chromium (soluble compounds)">
+        <attvalues>
+          <attvalue for="0" value="substance"/>
+          <attvalue for="1" value="489846.26047398115"/>
+          <attvalue for="2" value="2008"/>
+          <attvalue for="3" value="10"/>
+        </attvalues>
+        <viz:size value="28.0"/>
+        <viz:position x="-470.3771" y="-604.1079"/>
+        <viz:color r="151" g="193" b="242"/>
+      </node>
+      <node id="SUB::Mercurio (Compuestos solubles)" label="Mercury (soluble compounds)">
+        <attvalues>
+          <attvalue for="0" value="substance"/>
+          <attvalue for="1" value="710.2013721556502"/>
+          <attvalue for="2" value="2008"/>
+          <attvalue for="3" value="10"/>
+        </attvalues>
+        <viz:size value="28.0"/>
+        <viz:position x="52.73891" y="229.21402"/>
+        <viz:color r="151" g="193" b="242"/>
+      </node>
+      <node id="SUB::Plomo (Compuestos solubles)" label="Lead (soluble compounds)">
+        <attvalues>
+          <attvalue for="0" value="substance"/>
+          <attvalue for="1" value="2749576.887673481"/>
+          <attvalue for="2" value="2008"/>
+          <attvalue for="3" value="10"/>
+        </attvalues>
+        <viz:size value="28.0"/>
+        <viz:position x="-559.64545" y="-757.26697"/>
+        <viz:color r="151" g="193" b="242"/>
+      </node>
+      <node id="SUB::Cianuro inorgánico/orgánico" label="Inorganic/organic cyanide">
+        <attvalues>
+          <attvalue for="0" value="substance"/>
+          <attvalue for="1" value="127961.46312657549"/>
+          <attvalue for="2" value="2004"/>
+          <attvalue for="3" value="19"/>
+        </attvalues>
+        <viz:size value="50.0"/>
+        <viz:position x="-333.6471" y="61.707813"/>
+        <viz:color r="205" g="226" b="251"/>
+      </node>
+      <node id="SUB::Arsénico (polvos, respirables, vapores o humos)" label="Arsenic (respirable dust, vapors or fumes)">
+        <attvalues>
+          <attvalue for="0" value="substance"/>
+          <attvalue for="1" value="13079.734652666239"/>
+          <attvalue for="2" value="2004"/>
+          <attvalue for="3" value="18"/>
+        </attvalues>
+        <viz:size value="47.555553"/>
+        <viz:position x="-504.7819" y="-27.647673"/>
+        <viz:color r="205" g="226" b="251"/>
+      </node>
+      <node id="SUB::Cadmio (polvos, respirables, vapores o humos)" label="Cadmium (respirable dust, vapors or fumes)">
+        <attvalues>
+          <attvalue for="0" value="substance"/>
+          <attvalue for="1" value="186427.37940656563"/>
+          <attvalue for="2" value="2004"/>
+          <attvalue for="3" value="19"/>
+        </attvalues>
+        <viz:size value="50.0"/>
+        <viz:position x="-198.40953" y="53.164352"/>
+        <viz:color r="205" g="226" b="251"/>
+      </node>
+      <node id="SUB::Níquel (Compuestos solubles)" label="Nickel (soluble compounds)">
+        <attvalues>
+          <attvalue for="0" value="substance"/>
+          <attvalue for="1" value="655515.6162451773"/>
+          <attvalue for="2" value="2008"/>
+          <attvalue for="3" value="10"/>
+        </attvalues>
+        <viz:size value="28.0"/>
+        <viz:position x="-437.42142" y="-729.65405"/>
+        <viz:color r="151" g="193" b="242"/>
+      </node>
+      <node id="SUB::Mercurio (polvos, respirables, vapores o humos)" label="Mercury (respirable dust, vapors or fumes)">
+        <attvalues>
+          <attvalue for="0" value="substance"/>
+          <attvalue for="1" value="9935.221598449345"/>
+          <attvalue for="2" value="2004"/>
+          <attvalue for="3" value="19"/>
+        </attvalues>
+        <viz:size value="50.0"/>
+        <viz:position x="-130.97739" y="-517.04974"/>
+        <viz:color r="205" g="226" b="251"/>
+      </node>
+      <node id="SUB::Níquel (compuestos)" label="Nickel (compounds)">
+        <attvalues>
+          <attvalue for="0" value="substance"/>
+          <attvalue for="1" value="332546.9772086927"/>
+          <attvalue for="2" value="2004"/>
+          <attvalue for="3" value="9"/>
+        </attvalues>
+        <viz:size value="25.555555"/>
+        <viz:position x="-179.09605" y="-150.07098"/>
+        <viz:color r="205" g="226" b="251"/>
+      </node>
+      <node id="SUB::Cromo (compuestos)" label="Chromium (compounds)">
+        <attvalues>
+          <attvalue for="0" value="substance"/>
+          <attvalue for="1" value="275380.5996086326"/>
+          <attvalue for="2" value="2004"/>
+          <attvalue for="3" value="9"/>
+        </attvalues>
+        <viz:size value="25.555555"/>
+        <viz:position x="-185.17216" y="-361.7654"/>
+        <viz:color r="205" g="226" b="251"/>
+      </node>
+      <node id="SUB::Cadmio (compuestos)" label="Cadmium (compounds)">
+        <attvalues>
+          <attvalue for="0" value="substance"/>
+          <attvalue for="1" value="3369.2178322722293"/>
+          <attvalue for="2" value="2005"/>
+          <attvalue for="3" value="6"/>
+        </attvalues>
+        <viz:size value="18.222223"/>
+        <viz:position x="49.669468" y="-6.6024957"/>
+        <viz:color r="191" g="217" b="248"/>
+      </node>
+      <node id="SUB::Arsénico (compuestos)" label="Arsenic (compounds)">
+        <attvalues>
+          <attvalue for="0" value="substance"/>
+          <attvalue for="1" value="1219.1197133362652"/>
+          <attvalue for="2" value="2004"/>
+          <attvalue for="3" value="5"/>
+        </attvalues>
+        <viz:size value="15.777778"/>
+        <viz:position x="-695.8307" y="-135.6039"/>
+        <viz:color r="205" g="226" b="251"/>
+      </node>
+      <node id="SUB::Mercurio (compuestos)" label="Mercury (compounds)">
+        <attvalues>
+          <attvalue for="0" value="substance"/>
+          <attvalue for="1" value="15586.153682407457"/>
+          <attvalue for="2" value="2004"/>
+          <attvalue for="3" value="9"/>
+        </attvalues>
+        <viz:size value="25.555555"/>
+        <viz:position x="-567.69055" y="-143.4122"/>
+        <viz:color r="205" g="226" b="251"/>
+      </node>
+      <node id="SUB::Plomo (compuestos)" label="Lead (compounds)">
+        <attvalues>
+          <attvalue for="0" value="substance"/>
+          <attvalue for="1" value="8058809.149696593"/>
+          <attvalue for="2" value="2004"/>
+          <attvalue for="3" value="9"/>
+        </attvalues>
+        <viz:size value="25.555555"/>
+        <viz:position x="-95.85728" y="-43.325085"/>
+        <viz:color r="205" g="226" b="251"/>
+      </node>
+      <node id="SUB::Cadmio (Compuestos solubles)" label="Cadmium (soluble compounds)">
+        <attvalues>
+          <attvalue for="0" value="substance"/>
+          <attvalue for="1" value="7910.95710094999"/>
+          <attvalue for="2" value="2014"/>
+          <attvalue for="3" value="9"/>
+        </attvalues>
+        <viz:size value="25.555555"/>
+        <viz:position x="-179.1656" y="-709.2569"/>
+        <viz:color r="78" g="143" b="221"/>
+      </node>
+      <node id="SUB::Arsénico (Compuestos solubles)" label="Arsenic (soluble compounds)">
+        <attvalues>
+          <attvalue for="0" value="substance"/>
+          <attvalue for="1" value="2529.117400000001"/>
+          <attvalue for="2" value="2014"/>
+          <attvalue for="3" value="9"/>
+        </attvalues>
+        <viz:size value="25.555555"/>
+        <viz:position x="-107.55783" y="231.4428"/>
+        <viz:color r="78" g="143" b="221"/>
+      </node>
+      <node id="SUB::Plomo (polvos respirables, humos o vapores)" label="Lead (respirable dust, fumes or vapors)">
+        <attvalues>
+          <attvalue for="0" value="substance"/>
+          <attvalue for="1" value="3396401.26288082"/>
+          <attvalue for="2" value="2014"/>
+          <attvalue for="3" value="9"/>
+        </attvalues>
+        <viz:size value="25.555555"/>
+        <viz:position x="292.08698" y="266.1807"/>
+        <viz:color r="78" g="143" b="221"/>
+      </node>
+      <node id="SUB::Cromo (polvos respirables, humos o vapores)" label="Chromium (respirable dust, fumes or vapors)">
+        <attvalues>
+          <attvalue for="0" value="substance"/>
+          <attvalue for="1" value="5943.865166899999"/>
+          <attvalue for="2" value="2014"/>
+          <attvalue for="3" value="9"/>
+        </attvalues>
+        <viz:size value="25.555555"/>
+        <viz:position x="-315.476" y="730.87646"/>
+        <viz:color r="78" g="143" b="221"/>
+      </node>
+      <node id="SUB::Níquel (polvos respirables, humos o vapores)" label="Nickel (respirable dust, fumes or vapors)">
+        <attvalues>
+          <attvalue for="0" value="substance"/>
+          <attvalue for="1" value="21576.636157999994"/>
+          <attvalue for="2" value="2014"/>
+          <attvalue for="3" value="9"/>
+        </attvalues>
+        <viz:size value="25.555555"/>
+        <viz:position x="195.30365" y="424.88928"/>
+        <viz:color r="78" g="143" b="221"/>
+      </node>
+      <node id="SUB::Fenol" label="Phenol">
+        <attvalues>
+          <attvalue for="0" value="substance"/>
+          <attvalue for="1" value="5522.1678"/>
+          <attvalue for="2" value="2005"/>
+          <attvalue for="3" value="6"/>
+        </attvalues>
+        <viz:size value="18.222223"/>
+        <viz:position x="776.74194" y="1350.8927"/>
+        <viz:color r="191" g="217" b="248"/>
+      </node>
+      <node id="SUB::Formaldehido" label="Formaldehyde">
+        <attvalues>
+          <attvalue for="0" value="substance"/>
+          <attvalue for="1" value="206927.43515306254"/>
+          <attvalue for="2" value="2004"/>
+          <attvalue for="3" value="19"/>
+        </attvalues>
+        <viz:size value="50.0"/>
+        <viz:position x="152.80042" y="146.8203"/>
+        <viz:color r="205" g="226" b="251"/>
+      </node>
+      <node id="SUB::Bióxido de carbono" label="Carbon dioxide">
+        <attvalues>
+          <attvalue for="0" value="substance"/>
+          <attvalue for="1" value="1.1362152680213202E11"/>
+          <attvalue for="2" value="2004"/>
+          <attvalue for="3" value="19"/>
+        </attvalues>
+        <viz:size value="50.0"/>
+        <viz:position x="-648.9487" y="-563.3251"/>
+        <viz:color r="205" g="226" b="251"/>
+      </node>
+      <node id="SUB::Bióxido de nitrógeno" label="Nitrogen dioxide">
+        <attvalues>
+          <attvalue for="0" value="substance"/>
+          <attvalue for="1" value="5.026827984646E7"/>
+          <attvalue for="2" value="2004"/>
+          <attvalue for="3" value="16"/>
+        </attvalues>
+        <viz:size value="42.666664"/>
+        <viz:position x="-275.65897" y="296.7364"/>
+        <viz:color r="205" g="226" b="251"/>
+      </node>
+      <node id="SUB::Metano" label="Methane">
+        <attvalues>
+          <attvalue for="0" value="substance"/>
+          <attvalue for="1" value="1.67092656160223E8"/>
+          <attvalue for="2" value="2005"/>
+          <attvalue for="3" value="18"/>
+        </attvalues>
+        <viz:size value="47.555553"/>
+        <viz:position x="-817.33325" y="-317.06796"/>
+        <viz:color r="191" g="217" b="248"/>
+      </node>
+      <node id="SUB::Cloruro de metileno" label="Methylene chloride">
+        <attvalues>
+          <attvalue for="0" value="substance"/>
+          <attvalue for="1" value="973462.239383"/>
+          <attvalue for="2" value="2004"/>
+          <attvalue for="3" value="19"/>
+        </attvalues>
+        <viz:size value="50.0"/>
+        <viz:position x="610.3003" y="237.58719"/>
+        <viz:color r="205" g="226" b="251"/>
+      </node>
+      <node id="SUB::Estireno (fenil etileno)" label="Styrene (phenylethylene)">
+        <attvalues>
+          <attvalue for="0" value="substance"/>
+          <attvalue for="1" value="463127.54678621114"/>
+          <attvalue for="2" value="2004"/>
+          <attvalue for="3" value="15"/>
+        </attvalues>
+        <viz:size value="40.22222"/>
+        <viz:position x="254.73396" y="35.105717"/>
+        <viz:color r="205" g="226" b="251"/>
+      </node>
+      <node id="SUB::Acrilonitrilo" label="Acrylonitrile">
+        <attvalues>
+          <attvalue for="0" value="substance"/>
+          <attvalue for="1" value="101.73568731"/>
+          <attvalue for="2" value="2004"/>
+          <attvalue for="3" value="7"/>
+        </attvalues>
+        <viz:size value="20.666668"/>
+        <viz:position x="443.95438" y="490.91882"/>
+        <viz:color r="205" g="226" b="251"/>
+      </node>
+      <node id="SUB::Tolueno diisocianato" label="Toluene diisocyanate">
+        <attvalues>
+          <attvalue for="0" value="substance"/>
+          <attvalue for="1" value="3149.501"/>
+          <attvalue for="2" value="2004"/>
+          <attvalue for="3" value="13"/>
+        </attvalues>
+        <viz:size value="35.333336"/>
+        <viz:position x="-812.6002" y="376.93616"/>
+        <viz:color r="205" g="226" b="251"/>
+      </node>
+      <node id="SUB::Dibutilftalato" label="Dibutyl phthalate">
+        <attvalues>
+          <attvalue for="0" value="substance"/>
+          <attvalue for="1" value="8143.93"/>
+          <attvalue for="2" value="2005"/>
+          <attvalue for="3" value="7"/>
+        </attvalues>
+        <viz:size value="20.666668"/>
+        <viz:position x="-206.00288" y="1280.1764"/>
+        <viz:color r="191" g="217" b="248"/>
+      </node>
+      <node id="SUB::1,1-Dicloro-1-Fluoroetano (HCFC-141b)" label="1,1-Dichloro-1-fluoroethane (HCFC-141b)">
+        <attvalues>
+          <attvalue for="0" value="substance"/>
+          <attvalue for="1" value="0.755"/>
+          <attvalue for="2" value="2008"/>
+          <attvalue for="3" value="4"/>
+        </attvalues>
+        <viz:size value="13.333334"/>
+        <viz:position x="5.754645" y="1475.5459"/>
+        <viz:color r="151" g="193" b="242"/>
+      </node>
+      <node id="SUB::Clorodifluorometano (HCFC-22)" label="Chlorodifluoromethane (HCFC-22)">
+        <attvalues>
+          <attvalue for="0" value="substance"/>
+          <attvalue for="1" value="26981.92"/>
+          <attvalue for="2" value="2008"/>
+          <attvalue for="3" value="5"/>
+        </attvalues>
+        <viz:size value="15.777778"/>
+        <viz:position x="961.0199" y="544.74713"/>
+        <viz:color r="151" g="193" b="242"/>
+      </node>
+      <node id="SUB::Diclorodifluorometano (CFC-12)" label="Dichlorodifluoromethane (CFC-12)">
+        <attvalues>
+          <attvalue for="0" value="substance"/>
+          <attvalue for="1" value="12706.19"/>
+          <attvalue for="2" value="2008"/>
+          <attvalue for="3" value="5"/>
+        </attvalues>
+        <viz:size value="15.777778"/>
+        <viz:position x="-193.93071" y="1474.8744"/>
+        <viz:color r="151" g="193" b="242"/>
+      </node>
+      <node id="SUB::Acroleina" label="Acrolein">
+        <attvalues>
+          <attvalue for="0" value="substance"/>
+          <attvalue for="1" value="15.082920448479051"/>
+          <attvalue for="2" value="2005"/>
+          <attvalue for="3" value="9"/>
+        </attvalues>
+        <viz:size value="25.555555"/>
+        <viz:position x="-419.60852" y="1087.219"/>
+        <viz:color r="191" g="217" b="248"/>
+      </node>
+      <node id="SUB::Benceno" label="Benzene">
+        <attvalues>
+          <attvalue for="0" value="substance"/>
+          <attvalue for="1" value="1817102.9112109635"/>
+          <attvalue for="2" value="2005"/>
+          <attvalue for="3" value="15"/>
+        </attvalues>
+        <viz:size value="40.22222"/>
+        <viz:position x="123.73421" y="873.79706"/>
+        <viz:color r="191" g="217" b="248"/>
+      </node>
+      <node id="SUB::Acetaldehido" label="Acetaldehyde">
+        <attvalues>
+          <attvalue for="0" value="substance"/>
+          <attvalue for="1" value="44580.35985528375"/>
+          <attvalue for="2" value="2005"/>
+          <attvalue for="3" value="13"/>
+        </attvalues>
+        <viz:size value="35.333336"/>
+        <viz:position x="-651.45935" y="716.55676"/>
+        <viz:color r="191" g="217" b="248"/>
+      </node>
+      <node id="SUB::1,1,1-Tricloroetano" label="1,1,1-Trichloroethane">
+        <attvalues>
+          <attvalue for="0" value="substance"/>
+          <attvalue for="1" value="17125.44157528452"/>
+          <attvalue for="2" value="2008"/>
+          <attvalue for="3" value="5"/>
+        </attvalues>
+        <viz:size value="15.777778"/>
+        <viz:position x="1176.8585" y="498.51273"/>
+        <viz:color r="151" g="193" b="242"/>
+      </node>
+      <node id="SUB::Hidracina" label="Hydrazine">
+        <attvalues>
+          <attvalue for="0" value="substance"/>
+          <attvalue for="1" value="2920.9"/>
+          <attvalue for="2" value="2006"/>
+          <attvalue for="3" value="8"/>
+        </attvalues>
+        <viz:size value="23.11111"/>
+        <viz:position x="579.90063" y="1523.2487"/>
+        <viz:color r="178" g="209" b="246"/>
+      </node>
+      <node id="SUB::Metil paration" label="Methyl parathion">
+        <attvalues>
+          <attvalue for="0" value="substance"/>
+          <attvalue for="1" value="90074.95"/>
+          <attvalue for="2" value="2006"/>
+          <attvalue for="3" value="4"/>
+        </attvalues>
+        <viz:size value="13.333334"/>
+        <viz:position x="-737.34106" y="-876.6922"/>
+        <viz:color r="178" g="209" b="246"/>
+      </node>
+      <node id="SUB::Tolueno" label="Toluene">
+        <attvalues>
+          <attvalue for="0" value="substance"/>
+          <attvalue for="1" value="384887.6884951796"/>
+          <attvalue for="2" value="2014"/>
+          <attvalue for="3" value="9"/>
+        </attvalues>
+        <viz:size value="25.555555"/>
+        <viz:position x="77.856834" y="-453.65253"/>
+        <viz:color r="78" g="143" b="221"/>
+      </node>
+      <node id="SUB::Xileno (mezcla de isómeros)" label="Xylene (mixture of isomers)">
+        <attvalues>
+          <attvalue for="0" value="substance"/>
+          <attvalue for="1" value="1559226.5478106297"/>
+          <attvalue for="2" value="2014"/>
+          <attvalue for="3" value="9"/>
+        </attvalues>
+        <viz:size value="25.555555"/>
+        <viz:position x="471.62137" y="161.73389"/>
+        <viz:color r="78" g="143" b="221"/>
+      </node>
+      <node id="SUB::Acetato de vinilo" label="Vinyl acetate">
+        <attvalues>
+          <attvalue for="0" value="substance"/>
+          <attvalue for="1" value="3003.2239999999997"/>
+          <attvalue for="2" value="2014"/>
+          <attvalue for="3" value="2"/>
+        </attvalues>
+        <viz:size value="8.444445"/>
+        <viz:position x="920.956" y="-1106.9811"/>
+        <viz:color r="78" g="143" b="221"/>
+      </node>
+      <node id="SUB::Fosfato de tris(metilfenilo)" label="Tris(methylphenyl) phosphate">
+        <attvalues>
+          <attvalue for="0" value="substance"/>
+          <attvalue for="1" value="23831.491"/>
+          <attvalue for="2" value="2014"/>
+          <attvalue for="3" value="5"/>
+        </attvalues>
+        <viz:size value="15.777778"/>
+        <viz:position x="855.38385" y="-1160.9907"/>
+        <viz:color r="78" g="143" b="221"/>
+      </node>
+      <node id="SUB::Dioxinas" label="Dioxins">
+        <attvalues>
+          <attvalue for="0" value="substance"/>
+          <attvalue for="1" value="53.16599293733238"/>
+          <attvalue for="2" value="2010"/>
+          <attvalue for="3" value="13"/>
+        </attvalues>
+        <viz:size value="35.333336"/>
+        <viz:position x="385.66534" y="1294.2455"/>
+        <viz:color r="125" g="176" b="237"/>
+      </node>
+      <node id="SUB::Furanos" label="Furans">
+        <attvalues>
+          <attvalue for="0" value="substance"/>
+          <attvalue for="1" value="0.015387405630000002"/>
+          <attvalue for="2" value="2010"/>
+          <attvalue for="3" value="12"/>
+        </attvalues>
+        <viz:size value="32.88889"/>
+        <viz:position x="291.49127" y="1347.8804"/>
+        <viz:color r="125" g="176" b="237"/>
+      </node>
+      <node id="SUB::Hexafluoruro de azufre" label="Sulfur hexafluoride">
+        <attvalues>
+          <attvalue for="0" value="substance"/>
+          <attvalue for="1" value="23012.046349999997"/>
+          <attvalue for="2" value="2014"/>
+          <attvalue for="3" value="8"/>
+        </attvalues>
+        <viz:size value="23.11111"/>
+        <viz:position x="188.51712" y="1348.3058"/>
+        <viz:color r="78" g="143" b="221"/>
+      </node>
+      <node id="SUB::Oxido nitroso" label="Nitrous oxide">
+        <attvalues>
+          <attvalue for="0" value="substance"/>
+          <attvalue for="1" value="1.3768107589000003E7"/>
+          <attvalue for="2" value="2009"/>
+          <attvalue for="3" value="12"/>
+        </attvalues>
+        <viz:size value="32.88889"/>
+        <viz:position x="550.2038" y="409.64706"/>
+        <viz:color r="138" g="184" b="239"/>
+      </node>
+      <node id="SUB::Clorpirifos" label="Chlorpyrifos">
+        <attvalues>
+          <attvalue for="0" value="substance"/>
+          <attvalue for="1" value="152821.80000000002"/>
+          <attvalue for="2" value="2015"/>
+          <attvalue for="3" value="6"/>
+        </attvalues>
+        <viz:size value="18.222223"/>
+        <viz:position x="820.1692" y="232.26471"/>
+        <viz:color r="71" g="135" b="212"/>
+      </node>
+      <node id="SUB::Fosfato de tris(2,3-dibromopropilo)" label="Tris(2,3-dibromopropyl) phosphate">
+        <attvalues>
+          <attvalue for="0" value="substance"/>
+          <attvalue for="1" value="3523.16"/>
+          <attvalue for="2" value="2015"/>
+          <attvalue for="3" value="1"/>
+        </attvalues>
+        <viz:size value="6.0"/>
+        <viz:position x="693.0291" y="-1254.0824"/>
+        <viz:color r="71" g="135" b="212"/>
+      </node>
+      <node id="SUB::Metileno bis(fenilisocianato)" label="Methylene bis(phenyl isocyanate) (MDI)">
+        <attvalues>
+          <attvalue for="0" value="substance"/>
+          <attvalue for="1" value="50003.50774"/>
+          <attvalue for="2" value="2015"/>
+          <attvalue for="3" value="8"/>
+        </attvalues>
+        <viz:size value="23.11111"/>
+        <viz:position x="761.4936" y="-797.0717"/>
+        <viz:color r="71" g="135" b="212"/>
+      </node>
+      <node id="SUB::Dioxido de cloro" label="Chlorine dioxide">
+        <attvalues>
+          <attvalue for="0" value="substance"/>
+          <attvalue for="1" value="97152.0"/>
+          <attvalue for="2" value="2005"/>
+          <attvalue for="3" value="2"/>
+        </attvalues>
+        <viz:size value="8.444445"/>
+        <viz:position x="196.47113" y="1603.7048"/>
+        <viz:color r="191" g="217" b="248"/>
+      </node>
+      <node id="SUB::Cumeno" label="Cumene">
+        <attvalues>
+          <attvalue for="0" value="substance"/>
+          <attvalue for="1" value="32524.437704219"/>
+          <attvalue for="2" value="2014"/>
+          <attvalue for="3" value="8"/>
+        </attvalues>
+        <viz:size value="23.11111"/>
+        <viz:position x="1007.7935" y="222.74068"/>
+        <viz:color r="78" g="143" b="221"/>
+      </node>
+      <node id="SUB::Dioxano" label="1,4-Dioxane">
+        <attvalues>
+          <attvalue for="0" value="substance"/>
+          <attvalue for="1" value="3134.04"/>
+          <attvalue for="2" value="2018"/>
+          <attvalue for="3" value="1"/>
+        </attvalues>
+        <viz:size value="6.0"/>
+        <viz:position x="755.493" y="-1157.7297"/>
+        <viz:color r="51" g="111" b="185"/>
+      </node>
+      <node id="SUB::Oxido de etileno" label="Ethylene oxide">
+        <attvalues>
+          <attvalue for="0" value="substance"/>
+          <attvalue for="1" value="3134.04"/>
+          <attvalue for="2" value="2018"/>
+          <attvalue for="3" value="1"/>
+        </attvalues>
+        <viz:size value="6.0"/>
+        <viz:position x="983.8711" y="-1005.36017"/>
+        <viz:color r="51" g="111" b="185"/>
+      </node>
+      <node id="SUB::Butadieno" label="1,3-Butadiene">
+        <attvalues>
+          <attvalue for="0" value="substance"/>
+          <attvalue for="1" value="576057.6"/>
+          <attvalue for="2" value="2018"/>
+          <attvalue for="3" value="2"/>
+        </attvalues>
+        <viz:size value="8.444445"/>
+        <viz:position x="807.6732" y="-1250.1034"/>
+        <viz:color r="51" g="111" b="185"/>
+      </node>
+      <node id="SUB::Hidrofluorocarbonos" label="Hydrofluorocarbons">
+        <attvalues>
+          <attvalue for="0" value="substance"/>
+          <attvalue for="1" value="85416.0"/>
+          <attvalue for="2" value="2019"/>
+          <attvalue for="3" value="3"/>
+        </attvalues>
+        <viz:size value="10.888889"/>
+        <viz:position x="655.83124" y="1447.136"/>
+        <viz:color r="44" g="103" b="176"/>
+      </node>
+      <node id="SUB::Acido sulfhídrico" label="Hydrogen sulfide">
+        <attvalues>
+          <attvalue for="0" value="substance"/>
+          <attvalue for="1" value="5573.62"/>
+          <attvalue for="2" value="2022"/>
+          <attvalue for="3" value="1"/>
+        </attvalues>
+        <viz:size value="6.0"/>
+        <viz:position x="-850.2957" y="1206.7006"/>
+        <viz:color r="24" g="79" b="149"/>
+      </node>
+      <node id="SUB::2-Nitropropano" label="2-Nitropropane">
+        <attvalues>
+          <attvalue for="0" value="substance"/>
+          <attvalue for="1" value="28690.0"/>
+          <attvalue for="2" value="2004"/>
+          <attvalue for="3" value="1"/>
+        </attvalues>
+        <viz:size value="6.0"/>
+        <viz:position x="-93.63149" y="1490.7056"/>
+        <viz:color r="205" g="226" b="251"/>
+      </node>
+      <node id="SUB::Anilina" label="Aniline">
+        <attvalues>
+          <attvalue for="0" value="substance"/>
+          <attvalue for="1" value="1200.0"/>
+          <attvalue for="2" value="2011"/>
+          <attvalue for="3" value="1"/>
+        </attvalues>
+        <viz:size value="6.0"/>
+        <viz:position x="1582.1354" y="-154.59953"/>
+        <viz:color r="111" g="168" b="235"/>
+      </node>
+      <node id="SUB::1,1,2,2-Tetracloroetano" label="1,1,2,2-Tetrachloroethane">
+        <attvalues>
+          <attvalue for="0" value="substance"/>
+          <attvalue for="1" value="45823.00734"/>
+          <attvalue for="2" value="2013"/>
+          <attvalue for="3" value="1"/>
+        </attvalues>
+        <viz:size value="6.0"/>
+        <viz:position x="1477.3605" y="-560.5575"/>
+        <viz:color r="85" g="152" b="231"/>
+      </node>
+      <node id="SUB::Asbesto y sus formas (En forma de polvo, fibras o productos desmenuzables con la presión de la mano)" label="Asbestos and its forms (as dust, fibers or friable products that crumble under hand pressure)">
+        <attvalues>
+          <attvalue for="0" value="substance"/>
+          <attvalue for="1" value="33749.0"/>
+          <attvalue for="2" value="2008"/>
+          <attvalue for="3" value="5"/>
+        </attvalues>
+        <viz:size value="15.777778"/>
+        <viz:position x="-203.65994" y="414.8905"/>
+        <viz:color r="151" g="193" b="242"/>
+      </node>
+      <node id="SUB::1,2,-Dicloroetano" label="1,2-Dichloroethane">
+        <attvalues>
+          <attvalue for="0" value="substance"/>
+          <attvalue for="1" value="20522.64001"/>
+          <attvalue for="2" value="2013"/>
+          <attvalue for="3" value="1"/>
+        </attvalues>
+        <viz:size value="6.0"/>
+        <viz:position x="1572.1469" y="-553.3781"/>
+        <viz:color r="85" g="152" b="231"/>
+      </node>
+      <node id="SUB::Bromoformo" label="Bromoform">
+        <attvalues>
+          <attvalue for="0" value="substance"/>
+          <attvalue for="1" value="35435.8915"/>
+          <attvalue for="2" value="2013"/>
+          <attvalue for="3" value="1"/>
+        </attvalues>
+        <viz:size value="6.0"/>
+        <viz:position x="1621.6012" y="-375.39114"/>
+        <viz:color r="85" g="152" b="231"/>
+      </node>
+      <node id="SUB::1,4-Diclorobenceno" label="1,4-Dichlorobenzene">
+        <attvalues>
+          <attvalue for="0" value="substance"/>
+          <attvalue for="1" value="23188.52715"/>
+          <attvalue for="2" value="2013"/>
+          <attvalue for="3" value="1"/>
+        </attvalues>
+        <viz:size value="6.0"/>
+        <viz:position x="1452.3035" y="-656.03406"/>
+        <viz:color r="85" g="152" b="231"/>
+      </node>
+      <node id="SUB::Cloruro de vinilo" label="Vinyl chloride">
+        <attvalues>
+          <attvalue for="0" value="substance"/>
+          <attvalue for="1" value="20006.61"/>
+          <attvalue for="2" value="2013"/>
+          <attvalue for="3" value="1"/>
+        </attvalues>
+        <viz:size value="6.0"/>
+        <viz:position x="1589.0481" y="-460.36618"/>
+        <viz:color r="85" g="152" b="231"/>
+      </node>
+      <node id="SUB::Clorometano" label="Chloromethane">
+        <attvalues>
+          <attvalue for="0" value="substance"/>
+          <attvalue for="1" value="29312.20175"/>
+          <attvalue for="2" value="2013"/>
+          <attvalue for="3" value="1"/>
+        </attvalues>
+        <viz:size value="6.0"/>
+        <viz:position x="1481.6865" y="-438.2923"/>
+        <viz:color r="85" g="152" b="231"/>
+      </node>
+      <node id="SUB::Cloroformo" label="Chloroform">
+        <attvalues>
+          <attvalue for="0" value="substance"/>
+          <attvalue for="1" value="17434.09176"/>
+          <attvalue for="2" value="2012"/>
+          <attvalue for="3" value="2"/>
+        </attvalues>
+        <viz:size value="8.444445"/>
+        <viz:position x="1092.1349" y="-480.05844"/>
+        <viz:color r="98" g="160" b="233"/>
+      </node>
+      <node id="SUB::Clorobenceno (monoclorobenceno)" label="Chlorobenzene (monochlorobenzene)">
+        <attvalues>
+          <attvalue for="0" value="substance"/>
+          <attvalue for="1" value="11801.98196"/>
+          <attvalue for="2" value="2013"/>
+          <attvalue for="3" value="1"/>
+        </attvalues>
+        <viz:size value="6.0"/>
+        <viz:position x="1512.5048" y="-334.40594"/>
+        <viz:color r="85" g="152" b="231"/>
+      </node>
+      <node id="SUB::1,1,2-Tricloroetano" label="1,1,2-Trichloroethane">
+        <attvalues>
+          <attvalue for="0" value="substance"/>
+          <attvalue for="1" value="28742.14441"/>
+          <attvalue for="2" value="2013"/>
+          <attvalue for="3" value="1"/>
+        </attvalues>
+        <viz:size value="6.0"/>
+        <viz:position x="1536.8765" y="-239.9084"/>
+        <viz:color r="85" g="152" b="231"/>
+      </node>
+      <node id="SUB::Tetracloruro de carbono" label="Carbon tetrachloride">
+        <attvalues>
+          <attvalue for="0" value="substance"/>
+          <attvalue for="1" value="17177.68"/>
+          <attvalue for="2" value="2013"/>
+          <attvalue for="3" value="1"/>
+        </attvalues>
+        <viz:size value="6.0"/>
+        <viz:position x="1387.2565" y="-722.5497"/>
+        <viz:color r="85" g="152" b="231"/>
+      </node>
+      <node id="SUB::1,2-Diclorobenceno" label="1,2-Dichlorobenzene">
+        <attvalues>
+          <attvalue for="0" value="substance"/>
+          <attvalue for="1" value="18443.71426"/>
+          <attvalue for="2" value="2013"/>
+          <attvalue for="3" value="1"/>
+        </attvalues>
+        <viz:size value="6.0"/>
+        <viz:position x="1640.2947" y="-272.53613"/>
+        <viz:color r="85" g="152" b="231"/>
+      </node>
+      <node id="SUB::Sulfato de cobre" label="Copper sulfate">
+        <attvalues>
+          <attvalue for="0" value="substance"/>
+          <attvalue for="1" value="768996.85"/>
+          <attvalue for="2" value="2014"/>
+          <attvalue for="3" value="9"/>
+        </attvalues>
+        <viz:size value="25.555555"/>
+        <viz:position x="-1202.7153" y="360.57202"/>
+        <viz:color r="78" g="143" b="221"/>
+      </node>
+      <node id="SUB::Bifenilos policlorados" label="Polychlorinated biphenyls (PCBs)">
+        <attvalues>
+          <attvalue for="0" value="substance"/>
+          <attvalue for="1" value="292459.0559586"/>
+          <attvalue for="2" value="2004"/>
+          <attvalue for="3" value="10"/>
+        </attvalues>
+        <viz:size value="28.0"/>
+        <viz:position x="-757.3007" y="474.7443"/>
+        <viz:color r="205" g="226" b="251"/>
+      </node>
+      <node id="SUB::Hexaclorobenceno" label="Hexachlorobenzene">
+        <attvalues>
+          <attvalue for="0" value="substance"/>
+          <attvalue for="1" value="9.91095015"/>
+          <attvalue for="2" value="2014"/>
+          <attvalue for="3" value="6"/>
+        </attvalues>
+        <viz:size value="18.222223"/>
+        <viz:position x="-1141.3225" y="558.16284"/>
+        <viz:color r="78" g="143" b="221"/>
+      </node>
+      <node id="SUB::Diclorodifenildicloroetileno (DDE)" label="Dichlorodiphenyldichloroethylene (DDE)">
+        <attvalues>
+          <attvalue for="0" value="substance"/>
+          <attvalue for="1" value="2121.0"/>
+          <attvalue for="2" value="2019"/>
+          <attvalue for="3" value="3"/>
+        </attvalues>
+        <viz:size value="10.888889"/>
+        <viz:position x="-950.55615" y="1138.6827"/>
+        <viz:color r="44" g="103" b="176"/>
+      </node>
+      <node id="SUB::Beta-naftalina" label="beta-Naphthylamine">
+        <attvalues>
+          <attvalue for="0" value="substance"/>
+          <attvalue for="1" value="680.0"/>
+          <attvalue for="2" value="2004"/>
+          <attvalue for="3" value="1"/>
+        </attvalues>
+        <viz:size value="6.0"/>
+        <viz:position x="-1236.4673" y="262.1175"/>
+        <viz:color r="205" g="226" b="251"/>
+      </node>
+      <node id="SUB::Acrilamina" label="Acrylamide">
+        <attvalues>
+          <attvalue for="0" value="substance"/>
+          <attvalue for="1" value="142.0"/>
+          <attvalue for="2" value="2007"/>
+          <attvalue for="3" value="1"/>
+        </attvalues>
+        <viz:size value="6.0"/>
+        <viz:position x="932.48615" y="-577.9339"/>
+        <viz:color r="164" g="201" b="244" a="0.99607843"/>
+      </node>
+      <node id="SUB::Bifenilo" label="Biphenyl">
+        <attvalues>
+          <attvalue for="0" value="substance"/>
+          <attvalue for="1" value="1772.0"/>
+          <attvalue for="2" value="2020"/>
+          <attvalue for="3" value="1"/>
+        </attvalues>
+        <viz:size value="6.0"/>
+        <viz:position x="759.7086" y="1452.4343"/>
+        <viz:color r="37" g="95" b="167"/>
+      </node>
+      <node id="SUB::Diisocianato de difenilmetano polimérico" label="Polymeric diphenylmethane diisocyanate">
+        <attvalues>
+          <attvalue for="0" value="substance"/>
+          <attvalue for="1" value="1499.39"/>
+          <attvalue for="2" value="2022"/>
+          <attvalue for="3" value="1"/>
+        </attvalues>
+        <viz:size value="6.0"/>
+        <viz:position x="1090.9203" y="-319.4936"/>
+        <viz:color r="24" g="79" b="149"/>
+      </node>
+    </nodes>
+    <edges>
+      <edge id="0" source="LOC::Guanajuato.Silao de la Victoria" target="SUB::Cromo (Compuestos solubles)" weight="1284.7080078125">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+      </edge>
+      <edge id="1" source="LOC::Guanajuato.Silao de la Victoria" target="SUB::Mercurio (Compuestos solubles)" weight="295.0380554199219">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+      </edge>
+      <edge id="2" source="LOC::Guanajuato.Silao de la Victoria" target="SUB::Plomo (Compuestos solubles)" weight="34203.7578125">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+      </edge>
+      <edge id="3" source="LOC::Guanajuato.Silao de la Victoria" target="SUB::Cianuro inorgánico/orgánico" weight="1473.957275390625">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+      </edge>
+      <edge id="4" source="LOC::Guanajuato.Silao de la Victoria" target="SUB::Arsénico (polvos, respirables, vapores o humos)" weight="7222.29345703125">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+      </edge>
+      <edge id="5" source="LOC::Guanajuato.Silao de la Victoria" target="SUB::Cadmio (polvos, respirables, vapores o humos)" weight="1584.9150390625">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+      </edge>
+      <edge id="6" source="LOC::Guanajuato.Silao de la Victoria" target="SUB::Níquel (Compuestos solubles)" weight="23131.603515625">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+      </edge>
+      <edge id="7" source="LOC::Guanajuato.Silao de la Victoria" target="SUB::Níquel (compuestos)" weight="2323.825927734375">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+      </edge>
+      <edge id="8" source="LOC::Guanajuato.Silao de la Victoria" target="SUB::Cromo (compuestos)" weight="1097.7740478515625">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+      </edge>
+      <edge id="9" source="LOC::Guanajuato.Silao de la Victoria" target="SUB::Plomo (compuestos)" weight="80519.9921875">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+      </edge>
+      <edge id="10" source="LOC::Guanajuato.Silao de la Victoria" target="SUB::Arsénico (Compuestos solubles)" weight="110.49440002441406">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+      </edge>
+      <edge id="11" source="LOC::Guanajuato.Silao de la Victoria" target="SUB::Cadmio (Compuestos solubles)" weight="348.3550109863281">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+      </edge>
+      <edge id="12" source="LOC::Guanajuato.Silao de la Victoria" target="SUB::Mercurio (compuestos)" weight="12538.0439453125">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+      </edge>
+      <edge id="13" source="LOC::Guanajuato.Silao de la Victoria" target="SUB::Formaldehido" weight="55412.41015625">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+      </edge>
+      <edge id="14" source="LOC::Guanajuato.Silao de la Victoria" target="SUB::Bióxido de carbono" weight="9.55611136E8">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+      </edge>
+      <edge id="15" source="LOC::Guanajuato.Silao de la Victoria" target="SUB::Benceno" weight="14909.6337890625">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+      </edge>
+      <edge id="16" source="LOC::Guanajuato.Silao de la Victoria" target="SUB::Acetato de vinilo" weight="3003.22412109375">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+      </edge>
+      <edge id="17" source="LOC::Guanajuato.Silao de la Victoria" target="SUB::Tolueno" weight="34100.86328125">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+      </edge>
+      <edge id="18" source="LOC::Guanajuato.Silao de la Victoria" target="SUB::Xileno (mezcla de isómeros)" weight="644223.375">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+      </edge>
+      <edge id="19" source="LOC::Guanajuato.Silao de la Victoria" target="SUB::Fosfato de tris(metilfenilo)" weight="23831.490234375">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+      </edge>
+      <edge id="20" source="LOC::Guanajuato.Silao de la Victoria" target="SUB::Plomo (polvos respirables, humos o vapores)" weight="1357.7900390625">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+      </edge>
+      <edge id="21" source="LOC::Guanajuato.Silao de la Victoria" target="SUB::Níquel (polvos respirables, humos o vapores)" weight="3759.132080078125">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+      </edge>
+      <edge id="22" source="LOC::Guanajuato.Silao de la Victoria" target="SUB::Clorpirifos" weight="324.0">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+      </edge>
+      <edge id="23" source="LOC::Guanajuato.Silao de la Victoria" target="SUB::Fosfato de tris(2,3-dibromopropilo)" weight="3523.159912109375">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+      </edge>
+      <edge id="24" source="LOC::Guanajuato.Silao de la Victoria" target="SUB::Mercurio (polvos, respirables, vapores o humos)" weight="900.4785766601562">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+      </edge>
+      <edge id="25" source="LOC::Guanajuato.Silao de la Victoria" target="SUB::Metileno bis(fenilisocianato)" weight="49503.70703125">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+      </edge>
+      <edge id="26" source="LOC::Guanajuato.Silao de la Victoria" target="SUB::Metano" weight="5.0103132E7">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+      </edge>
+      <edge id="27" source="LOC::Guanajuato.Silao de la Victoria" target="SUB::Cromo (polvos respirables, humos o vapores)" weight="4922.83251953125">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+      </edge>
+      <edge id="28" source="LOC::Guanajuato.Silao de la Victoria" target="SUB::Cumeno" weight="19245.177734375">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+      </edge>
+      <edge id="29" source="LOC::Guanajuato.Silao de la Victoria" target="SUB::Dioxano" weight="3134.0400390625">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+      </edge>
+      <edge id="30" source="LOC::Guanajuato.Silao de la Victoria" target="SUB::Oxido de etileno" weight="3134.0400390625">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+      </edge>
+      <edge id="31" source="LOC::Guanajuato.Silao de la Victoria" target="SUB::Butadieno" weight="576057.625">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+      </edge>
+      <edge id="32" source="LOC::Guanajuato.Silao de la Victoria" target="SUB::Estireno (fenil etileno)" weight="186922.0">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+      </edge>
+      <edge id="33" source="LOC::Guanajuato.Silao de la Victoria" target="SUB::Tolueno diisocianato" weight="1806.791015625">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+      </edge>
+      <edge id="34" source="LOC::Guanajuato.Silao de la Victoria" target="SUB::Oxido nitroso" weight="723.7269897460938">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+      </edge>
+      <edge id="35" source="LOC::Guanajuato.Silao de la Victoria" target="SUB::Arsénico (compuestos)" weight="1.4978638887405396">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+      </edge>
+      <edge id="36" source="LOC::Guanajuato.Silao de la Victoria" target="SUB::Cadmio (compuestos)" weight="4.598753929138184">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+      </edge>
+      <edge id="37" source="LOC::Guanajuato.Silao de la Victoria" target="SUB::Cloruro de metileno" weight="29303.0">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+      </edge>
+      <edge id="38" source="LOC::Guanajuato.Celaya" target="SUB::Cromo (Compuestos solubles)" weight="4753.63427734375">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+      </edge>
+      <edge id="39" source="LOC::Guanajuato.Celaya" target="SUB::Mercurio (Compuestos solubles)" weight="83.87770080566406">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+      </edge>
+      <edge id="40" source="LOC::Guanajuato.Celaya" target="SUB::Níquel (Compuestos solubles)" weight="11151.30078125">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+      </edge>
+      <edge id="41" source="LOC::Guanajuato.Celaya" target="SUB::Plomo (Compuestos solubles)" weight="1019259.5">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+      </edge>
+      <edge id="42" source="LOC::Guanajuato.Celaya" target="SUB::Cianuro inorgánico/orgánico" weight="2090.438232421875">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+      </edge>
+      <edge id="43" source="LOC::Guanajuato.Celaya" target="SUB::Arsénico (polvos, respirables, vapores o humos)" weight="74.87317657470703">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+      </edge>
+      <edge id="44" source="LOC::Guanajuato.Celaya" target="SUB::Cadmio (polvos, respirables, vapores o humos)" weight="333.57879638671875">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+      </edge>
+      <edge id="45" source="LOC::Guanajuato.Celaya" target="SUB::Mercurio (polvos, respirables, vapores o humos)" weight="208.7432403564453">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+      </edge>
+      <edge id="46" source="LOC::Guanajuato.Celaya" target="SUB::Cromo (compuestos)" weight="15663.228515625">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+      </edge>
+      <edge id="47" source="LOC::Guanajuato.Celaya" target="SUB::Níquel (compuestos)" weight="11457.8837890625">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+      </edge>
+      <edge id="48" source="LOC::Guanajuato.Celaya" target="SUB::Plomo (compuestos)" weight="2791370.75">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+      </edge>
+      <edge id="49" source="LOC::Guanajuato.Celaya" target="SUB::Mercurio (compuestos)" weight="21.96489906311035">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+      </edge>
+      <edge id="50" source="LOC::Guanajuato.Celaya" target="SUB::Arsénico (compuestos)" weight="8.859725952148438">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+      </edge>
+      <edge id="51" source="LOC::Guanajuato.Celaya" target="SUB::Cadmio (compuestos)" weight="32.42534637451172">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+      </edge>
+      <edge id="52" source="LOC::Guanajuato.Celaya" target="SUB::Cadmio (Compuestos solubles)" weight="1579.3701171875">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+      </edge>
+      <edge id="53" source="LOC::Guanajuato.Celaya" target="SUB::Plomo (polvos respirables, humos o vapores)" weight="1347897.25">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+      </edge>
+      <edge id="54" source="LOC::Guanajuato.Celaya" target="SUB::Arsénico (Compuestos solubles)" weight="603.2619018554688">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+      </edge>
+      <edge id="55" source="LOC::Guanajuato.Celaya" target="SUB::Bióxido de carbono" weight="3.610402816E9">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+      </edge>
+      <edge id="56" source="LOC::Guanajuato.Celaya" target="SUB::Cloruro de metileno" weight="130162.5">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+      </edge>
+      <edge id="57" source="LOC::Guanajuato.Celaya" target="SUB::Estireno (fenil etileno)" weight="87737.2109375">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+      </edge>
+      <edge id="58" source="LOC::Guanajuato.Celaya" target="SUB::1,1-Dicloro-1-Fluoroetano (HCFC-141b)" weight="0.7549999952316284">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+      </edge>
+      <edge id="59" source="LOC::Guanajuato.Celaya" target="SUB::Formaldehido" weight="2115.42529296875">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+      </edge>
+      <edge id="60" source="LOC::Guanajuato.Celaya" target="SUB::Clorodifluorometano (HCFC-22)" weight="3363.0">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+      </edge>
+      <edge id="61" source="LOC::Guanajuato.Celaya" target="SUB::Diclorodifluorometano (CFC-12)" weight="12706.1904296875">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+      </edge>
+      <edge id="62" source="LOC::Guanajuato.Celaya" target="SUB::Bióxido de nitrógeno" weight="1871670.5">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+      </edge>
+      <edge id="63" source="LOC::Guanajuato.Celaya" target="SUB::Acetaldehido" weight="0.10057365149259567">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+      </edge>
+      <edge id="64" source="LOC::Guanajuato.Celaya" target="SUB::Benceno" weight="0.1223926693201065">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+      </edge>
+      <edge id="65" source="LOC::Guanajuato.Celaya" target="SUB::Acroleina" weight="15.010651588439941">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+      </edge>
+      <edge id="66" source="LOC::Guanajuato.Celaya" target="SUB::Dioxinas" weight="0.006109277717769146">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+      </edge>
+      <edge id="67" source="LOC::Guanajuato.Celaya" target="SUB::Furanos" weight="0.014387405477464199">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+      </edge>
+      <edge id="68" source="LOC::Guanajuato.Celaya" target="SUB::Hexafluoruro de azufre" weight="22862.046875">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+      </edge>
+      <edge id="69" source="LOC::Guanajuato.Celaya" target="SUB::Cromo (polvos respirables, humos o vapores)" weight="149.76060485839844">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+      </edge>
+      <edge id="70" source="LOC::Guanajuato.Celaya" target="SUB::Xileno (mezcla de isómeros)" weight="103040.4296875">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+      </edge>
+      <edge id="71" source="LOC::Guanajuato.Celaya" target="SUB::Níquel (polvos respirables, humos o vapores)" weight="29.69809913635254">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+      </edge>
+      <edge id="72" source="LOC::Guanajuato.Celaya" target="SUB::2-Nitropropano" weight="28690.0">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+      </edge>
+      <edge id="73" source="LOC::Guanajuato.Celaya" target="SUB::Metano" weight="10.0">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+      </edge>
+      <edge id="74" source="LOC::Guanajuato.Celaya" target="SUB::Oxido nitroso" weight="20195.16015625">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+      </edge>
+      <edge id="75" source="LOC::Guanajuato.Celaya" target="SUB::Tolueno" weight="8076.39990234375">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+      </edge>
+      <edge id="76" source="LOC::Guanajuato.Celaya" target="SUB::Bifenilos policlorados" weight="6303.10595703125">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+      </edge>
+      <edge id="77" source="LOC::Guanajuato.Celaya" target="SUB::Clorpirifos" weight="152497.796875">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+      </edge>
+      <edge id="78" source="LOC::Guanajuato.Apaseo el Grande" target="SUB::Cromo (Compuestos solubles)" weight="12173.740234375">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+      </edge>
+      <edge id="79" source="LOC::Guanajuato.Apaseo el Grande" target="SUB::Mercurio (Compuestos solubles)" weight="3.733004093170166">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+      </edge>
+      <edge id="80" source="LOC::Guanajuato.Apaseo el Grande" target="SUB::Níquel (Compuestos solubles)" weight="11035.7978515625">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+      </edge>
+      <edge id="81" source="LOC::Guanajuato.Apaseo el Grande" target="SUB::Plomo (Compuestos solubles)" weight="1013.5260009765625">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+      </edge>
+      <edge id="82" source="LOC::Guanajuato.Apaseo el Grande" target="SUB::Cianuro inorgánico/orgánico" weight="278.5698547363281">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+      </edge>
+      <edge id="83" source="LOC::Guanajuato.Apaseo el Grande" target="SUB::Arsénico (polvos, respirables, vapores o humos)" weight="766.8984985351562">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+      </edge>
+      <edge id="84" source="LOC::Guanajuato.Apaseo el Grande" target="SUB::Cadmio (polvos, respirables, vapores o humos)" weight="167.687744140625">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+      </edge>
+      <edge id="85" source="LOC::Guanajuato.Apaseo el Grande" target="SUB::Plomo (compuestos)" weight="1899.8511962890625">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+      </edge>
+      <edge id="86" source="LOC::Guanajuato.Apaseo el Grande" target="SUB::Níquel (compuestos)" weight="2479.465087890625">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+      </edge>
+      <edge id="87" source="LOC::Guanajuato.Apaseo el Grande" target="SUB::Arsénico (compuestos)" weight="497.4555969238281">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+      </edge>
+      <edge id="88" source="LOC::Guanajuato.Apaseo el Grande" target="SUB::Cadmio (compuestos)" weight="37.17222595214844">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+      </edge>
+      <edge id="89" source="LOC::Guanajuato.Apaseo el Grande" target="SUB::Cromo (compuestos)" weight="676.6825561523438">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+      </edge>
+      <edge id="90" source="LOC::Guanajuato.Apaseo el Grande" target="SUB::Mercurio (compuestos)" weight="31.994173049926758">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+      </edge>
+      <edge id="91" source="LOC::Guanajuato.Apaseo el Grande" target="SUB::Cadmio (Compuestos solubles)" weight="257.26239013671875">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+      </edge>
+      <edge id="92" source="LOC::Guanajuato.Apaseo el Grande" target="SUB::Arsénico (Compuestos solubles)" weight="26.777599334716797">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+      </edge>
+      <edge id="93" source="LOC::Guanajuato.Apaseo el Grande" target="SUB::Bióxido de carbono" weight="1.998804992E9">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+      </edge>
+      <edge id="94" source="LOC::Guanajuato.Apaseo el Grande" target="SUB::Bióxido de nitrógeno" weight="642825.9375">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+      </edge>
+      <edge id="95" source="LOC::Guanajuato.Apaseo el Grande" target="SUB::Cloruro de metileno" weight="35128.14453125">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+      </edge>
+      <edge id="96" source="LOC::Guanajuato.Apaseo el Grande" target="SUB::Mercurio (polvos, respirables, vapores o humos)" weight="305.8131103515625">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+      </edge>
+      <edge id="97" source="LOC::Guanajuato.Apaseo el Grande" target="SUB::Oxido nitroso" weight="140049.625">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+      </edge>
+      <edge id="98" source="LOC::Guanajuato.Apaseo el Grande" target="SUB::Anilina" weight="1200.0">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+      </edge>
+      <edge id="99" source="LOC::Guanajuato.Apaseo el Grande" target="SUB::1,1,2,2-Tetracloroetano" weight="45823.0078125">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+      </edge>
+      <edge id="100" source="LOC::Guanajuato.Apaseo el Grande" target="SUB::1,2,-Dicloroetano" weight="20522.640625">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+      </edge>
+      <edge id="101" source="LOC::Guanajuato.Apaseo el Grande" target="SUB::Clorodifluorometano (HCFC-22)" weight="23618.919921875">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+      </edge>
+      <edge id="102" source="LOC::Guanajuato.Apaseo el Grande" target="SUB::Bromoformo" weight="35435.890625">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+      </edge>
+      <edge id="103" source="LOC::Guanajuato.Apaseo el Grande" target="SUB::1,4-Diclorobenceno" weight="23188.52734375">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+      </edge>
+      <edge id="104" source="LOC::Guanajuato.Apaseo el Grande" target="SUB::Cloruro de vinilo" weight="20006.609375">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+      </edge>
+      <edge id="105" source="LOC::Guanajuato.Apaseo el Grande" target="SUB::1,1,1-Tricloroetano" weight="17101.720703125">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+      </edge>
+      <edge id="106" source="LOC::Guanajuato.Apaseo el Grande" target="SUB::Clorometano" weight="29312.201171875">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+      </edge>
+      <edge id="107" source="LOC::Guanajuato.Apaseo el Grande" target="SUB::Cloroformo" weight="17321.9609375">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+      </edge>
+      <edge id="108" source="LOC::Guanajuato.Apaseo el Grande" target="SUB::Benceno" weight="36147.421875">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+      </edge>
+      <edge id="109" source="LOC::Guanajuato.Apaseo el Grande" target="SUB::Estireno (fenil etileno)" weight="19483.169921875">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+      </edge>
+      <edge id="110" source="LOC::Guanajuato.Apaseo el Grande" target="SUB::Clorobenceno (monoclorobenceno)" weight="11801.982421875">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+      </edge>
+      <edge id="111" source="LOC::Guanajuato.Apaseo el Grande" target="SUB::1,1,2-Tricloroetano" weight="28742.14453125">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+      </edge>
+      <edge id="112" source="LOC::Guanajuato.Apaseo el Grande" target="SUB::Tetracloruro de carbono" weight="17177.6796875">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+      </edge>
+      <edge id="113" source="LOC::Guanajuato.Apaseo el Grande" target="SUB::1,2-Diclorobenceno" weight="18443.71484375">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+      </edge>
+      <edge id="114" source="LOC::Guanajuato.Apaseo el Grande" target="SUB::Tolueno" weight="26937.16796875">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+      </edge>
+      <edge id="115" source="LOC::Guanajuato.Apaseo el Grande" target="SUB::Xileno (mezcla de isómeros)" weight="50770.3203125">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+      </edge>
+      <edge id="116" source="LOC::Guanajuato.Apaseo el Grande" target="SUB::Formaldehido" weight="2573.695556640625">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+      </edge>
+      <edge id="117" source="LOC::Guanajuato.Apaseo el Grande" target="SUB::Plomo (polvos respirables, humos o vapores)" weight="2848.260009765625">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+      </edge>
+      <edge id="118" source="LOC::Guanajuato.Apaseo el Grande" target="SUB::Níquel (polvos respirables, humos o vapores)" weight="15338.6162109375">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+      </edge>
+      <edge id="119" source="LOC::Guanajuato.Irapuato" target="SUB::Cromo (Compuestos solubles)" weight="135301.046875">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+      </edge>
+      <edge id="120" source="LOC::Guanajuato.Irapuato" target="SUB::Mercurio (Compuestos solubles)" weight="238.70970153808594">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+      </edge>
+      <edge id="121" source="LOC::Guanajuato.Irapuato" target="SUB::Plomo (Compuestos solubles)" weight="8629.765625">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+      </edge>
+      <edge id="122" source="LOC::Guanajuato.Irapuato" target="SUB::Arsénico (polvos, respirables, vapores o humos)" weight="14.261276245117188">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+      </edge>
+      <edge id="123" source="LOC::Guanajuato.Irapuato" target="SUB::Níquel (Compuestos solubles)" weight="140860.640625">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+      </edge>
+      <edge id="124" source="LOC::Guanajuato.Irapuato" target="SUB::Cianuro inorgánico/orgánico" weight="8596.5048828125">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+      </edge>
+      <edge id="125" source="LOC::Guanajuato.Irapuato" target="SUB::Mercurio (polvos, respirables, vapores o humos)" weight="363.0531921386719">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+      </edge>
+      <edge id="126" source="LOC::Guanajuato.Irapuato" target="SUB::Cadmio (polvos, respirables, vapores o humos)" weight="55.0403938293457">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+      </edge>
+      <edge id="127" source="LOC::Guanajuato.Irapuato" target="SUB::Arsénico (compuestos)" weight="81.89854431152344">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+      </edge>
+      <edge id="128" source="LOC::Guanajuato.Irapuato" target="SUB::Cromo (compuestos)" weight="402.11480712890625">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+      </edge>
+      <edge id="129" source="LOC::Guanajuato.Irapuato" target="SUB::Mercurio (compuestos)" weight="9.32643985748291">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+      </edge>
+      <edge id="130" source="LOC::Guanajuato.Irapuato" target="SUB::Plomo (compuestos)" weight="377.0297546386719">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+      </edge>
+      <edge id="131" source="LOC::Guanajuato.Irapuato" target="SUB::Níquel (compuestos)" weight="2733.29541015625">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+      </edge>
+      <edge id="132" source="LOC::Guanajuato.Irapuato" target="SUB::Cadmio (compuestos)" weight="359.3317565917969">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+      </edge>
+      <edge id="133" source="LOC::Guanajuato.Irapuato" target="SUB::Arsénico (Compuestos solubles)" weight="1579.01904296875">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+      </edge>
+      <edge id="134" source="LOC::Guanajuato.Irapuato" target="SUB::Cadmio (Compuestos solubles)" weight="3312.284423828125">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+      </edge>
+      <edge id="135" source="LOC::Guanajuato.Irapuato" target="SUB::Níquel (polvos respirables, humos o vapores)" weight="482.7379150390625">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+      </edge>
+      <edge id="136" source="LOC::Guanajuato.Irapuato" target="SUB::Bióxido de carbono" weight="3.860862976E9">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+      </edge>
+      <edge id="137" source="LOC::Guanajuato.Irapuato" target="SUB::Acroleina" weight="0.02015688084065914">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+      </edge>
+      <edge id="138" source="LOC::Guanajuato.Irapuato" target="SUB::Benceno" weight="0.20541252195835114">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+      </edge>
+      <edge id="139" source="LOC::Guanajuato.Irapuato" target="SUB::Formaldehido" weight="4.599611759185791">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+      </edge>
+      <edge id="140" source="LOC::Guanajuato.Irapuato" target="SUB::Acetaldehido" weight="0.16842862963676453">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+      </edge>
+      <edge id="141" source="LOC::Guanajuato.Irapuato" target="SUB::Bióxido de nitrógeno" weight="1958.8800048828125">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+      </edge>
+      <edge id="142" source="LOC::Guanajuato.Irapuato" target="SUB::Cromo (polvos respirables, humos o vapores)" weight="504.1307067871094">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+      </edge>
+      <edge id="143" source="LOC::Guanajuato.Irapuato" target="SUB::Tolueno" weight="33098.1640625">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+      </edge>
+      <edge id="144" source="LOC::Guanajuato.Irapuato" target="SUB::Xileno (mezcla de isómeros)" weight="159362.65625">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+      </edge>
+      <edge id="145" source="LOC::Guanajuato.Irapuato" target="SUB::Metano" weight="0.009999999776482582">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+      </edge>
+      <edge id="146" source="LOC::Guanajuato.Irapuato" target="SUB::Oxido nitroso" weight="0.032999999821186066">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+      </edge>
+      <edge id="147" source="LOC::Guanajuato.Irapuato" target="SUB::Estireno (fenil etileno)" weight="10655.1396484375">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+      </edge>
+      <edge id="148" source="LOC::Guanajuato.Irapuato" target="SUB::Plomo (polvos respirables, humos o vapores)" weight="6389.31982421875">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+      </edge>
+      <edge id="149" source="LOC::Guanajuato.Irapuato" target="SUB::Bifenilos policlorados" weight="10947.0703125">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+      </edge>
+      <edge id="150" source="LOC::Guanajuato.Irapuato" target="SUB::Beta-naftalina" weight="600.0">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+      </edge>
+      <edge id="151" source="LOC::Guanajuato.Irapuato" target="SUB::Sulfato de cobre" weight="15194.25">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+      </edge>
+      <edge id="152" source="LOC::Guanajuato.Villagrán" target="SUB::Cromo (Compuestos solubles)" weight="1016.1495361328125">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+      </edge>
+      <edge id="153" source="LOC::Guanajuato.Villagrán" target="SUB::Mercurio (Compuestos solubles)" weight="41.44999694824219">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+      </edge>
+      <edge id="154" source="LOC::Guanajuato.Villagrán" target="SUB::Níquel (Compuestos solubles)" weight="1407.64013671875">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+      </edge>
+      <edge id="155" source="LOC::Guanajuato.Villagrán" target="SUB::Plomo (Compuestos solubles)" weight="1670745.5">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+      </edge>
+      <edge id="156" source="LOC::Guanajuato.Villagrán" target="SUB::Cianuro inorgánico/orgánico" weight="207.48414611816406">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+      </edge>
+      <edge id="157" source="LOC::Guanajuato.Villagrán" target="SUB::Arsénico (polvos, respirables, vapores o humos)" weight="101.7845687866211">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+      </edge>
+      <edge id="158" source="LOC::Guanajuato.Villagrán" target="SUB::Cadmio (polvos, respirables, vapores o humos)" weight="182650.734375">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+      </edge>
+      <edge id="159" source="LOC::Guanajuato.Villagrán" target="SUB::Cromo (compuestos)" weight="640.5902099609375">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+      </edge>
+      <edge id="160" source="LOC::Guanajuato.Villagrán" target="SUB::Cadmio (compuestos)" weight="2622.07568359375">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+      </edge>
+      <edge id="161" source="LOC::Guanajuato.Villagrán" target="SUB::Arsénico (compuestos)" weight="5.668623447418213">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+      </edge>
+      <edge id="162" source="LOC::Guanajuato.Villagrán" target="SUB::Mercurio (compuestos)" weight="10.681203842163086">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+      </edge>
+      <edge id="163" source="LOC::Guanajuato.Villagrán" target="SUB::Plomo (compuestos)" weight="4949398.0">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+      </edge>
+      <edge id="164" source="LOC::Guanajuato.Villagrán" target="SUB::Níquel (compuestos)" weight="723.0281372070312">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+      </edge>
+      <edge id="165" source="LOC::Guanajuato.Villagrán" target="SUB::Mercurio (polvos, respirables, vapores o humos)" weight="6182.17431640625">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+      </edge>
+      <edge id="166" source="LOC::Guanajuato.Villagrán" target="SUB::Cromo (polvos respirables, humos o vapores)" weight="175.9510498046875">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+      </edge>
+      <edge id="167" source="LOC::Guanajuato.Villagrán" target="SUB::Níquel (polvos respirables, humos o vapores)" weight="151.18072509765625">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+      </edge>
+      <edge id="168" source="LOC::Guanajuato.Villagrán" target="SUB::Plomo (polvos respirables, humos o vapores)" weight="1452964.375">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+      </edge>
+      <edge id="169" source="LOC::Guanajuato.Villagrán" target="SUB::Arsénico (Compuestos solubles)" weight="43.93009948730469">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+      </edge>
+      <edge id="170" source="LOC::Guanajuato.Villagrán" target="SUB::Cadmio (Compuestos solubles)" weight="78.34609985351562">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+      </edge>
+      <edge id="171" source="LOC::Guanajuato.Villagrán" target="SUB::Bióxido de carbono" weight="5.10812672E9">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+      </edge>
+      <edge id="172" source="LOC::Guanajuato.Villagrán" target="SUB::Bióxido de nitrógeno" weight="5396247.5">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+      </edge>
+      <edge id="173" source="LOC::Guanajuato.Villagrán" target="SUB::Formaldehido" weight="2661.366943359375">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+      </edge>
+      <edge id="174" source="LOC::Guanajuato.Villagrán" target="SUB::Metano" weight="1096826.25">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+      </edge>
+      <edge id="175" source="LOC::Guanajuato.Villagrán" target="SUB::Sulfato de cobre" weight="753802.625">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+      </edge>
+      <edge id="176" source="LOC::Guanajuato.Villagrán" target="SUB::Asbesto y sus formas (En forma de polvo, fibras o productos desmenuzables con la presión de la mano)" weight="4984.0">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+      </edge>
+      <edge id="177" source="LOC::Guanajuato.Villagrán" target="SUB::Hexaclorobenceno" weight="1.3909502029418945">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+      </edge>
+      <edge id="178" source="LOC::Guanajuato.Villagrán" target="SUB::Beta-naftalina" weight="80.0">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+      </edge>
+      <edge id="179" source="LOC::Guanajuato.San Luis de la Paz" target="SUB::Cianuro inorgánico/orgánico" weight="13.519085884094238">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+      </edge>
+      <edge id="180" source="LOC::Guanajuato.San Luis de la Paz" target="SUB::Arsénico (polvos, respirables, vapores o humos)" weight="3.204529047012329">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+      </edge>
+      <edge id="181" source="LOC::Guanajuato.San Luis de la Paz" target="SUB::Mercurio (compuestos)" weight="1.520787239074707">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+      </edge>
+      <edge id="182" source="LOC::Guanajuato.San Luis de la Paz" target="SUB::Plomo (compuestos)" weight="59.62862777709961">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+      </edge>
+      <edge id="183" source="LOC::Guanajuato.San Luis de la Paz" target="SUB::Cromo (compuestos)" weight="56.377281188964844">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+      </edge>
+      <edge id="184" source="LOC::Guanajuato.San Luis de la Paz" target="SUB::Cadmio (polvos, respirables, vapores o humos)" weight="7.771399974822998">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+      </edge>
+      <edge id="185" source="LOC::Guanajuato.San Luis de la Paz" target="SUB::Níquel (compuestos)" weight="7.577934265136719">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+      </edge>
+      <edge id="186" source="LOC::Guanajuato.San Luis de la Paz" target="SUB::Bióxido de nitrógeno" weight="2.44589E7">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+      </edge>
+      <edge id="187" source="LOC::Guanajuato.San Luis de la Paz" target="SUB::Bióxido de carbono" weight="2.7929325568E10">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+      </edge>
+      <edge id="188" source="LOC::Guanajuato.San Luis de la Paz" target="SUB::Acetaldehido" weight="920.9000244140625">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+      </edge>
+      <edge id="189" source="LOC::Guanajuato.San Luis de la Paz" target="SUB::Formaldehido" weight="16446.599609375">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+      </edge>
+      <edge id="190" source="LOC::Guanajuato.San Luis de la Paz" target="SUB::Arsénico (Compuestos solubles)" weight="45.55099868774414">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+      </edge>
+      <edge id="191" source="LOC::Guanajuato.San Luis de la Paz" target="SUB::Níquel (Compuestos solubles)" weight="13.48069953918457">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+      </edge>
+      <edge id="192" source="LOC::Guanajuato.San Luis de la Paz" target="SUB::Plomo (Compuestos solubles)" weight="12.4443998336792">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+      </edge>
+      <edge id="193" source="LOC::Guanajuato.San Luis de la Paz" target="SUB::Arsénico (compuestos)" weight="2.148463010787964">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+      </edge>
+      <edge id="194" source="LOC::Guanajuato.San Luis de la Paz" target="SUB::Mercurio (polvos, respirables, vapores o humos)" weight="0.08660300076007843">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+      </edge>
+      <edge id="195" source="LOC::Guanajuato.San Luis de la Paz" target="SUB::Cromo (Compuestos solubles)" weight="4.922399997711182">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+      </edge>
+      <edge id="196" source="LOC::Guanajuato.San José Iturbide" target="SUB::Arsénico (polvos, respirables, vapores o humos)" weight="1065.3843994140625">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+      </edge>
+      <edge id="197" source="LOC::Guanajuato.San José Iturbide" target="SUB::Níquel (Compuestos solubles)" weight="372751.21875">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+      </edge>
+      <edge id="198" source="LOC::Guanajuato.San José Iturbide" target="SUB::Cianuro inorgánico/orgánico" weight="1226.64306640625">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+      </edge>
+      <edge id="199" source="LOC::Guanajuato.San José Iturbide" target="SUB::Cromo (Compuestos solubles)" weight="142310.390625">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+      </edge>
+      <edge id="200" source="LOC::Guanajuato.San José Iturbide" target="SUB::Mercurio (Compuestos solubles)" weight="0.00801599957048893">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+      </edge>
+      <edge id="201" source="LOC::Guanajuato.San José Iturbide" target="SUB::Plomo (Compuestos solubles)" weight="1891.35107421875">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+      </edge>
+      <edge id="202" source="LOC::Guanajuato.San José Iturbide" target="SUB::Cadmio (polvos, respirables, vapores o humos)" weight="244.57757568359375">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+      </edge>
+      <edge id="203" source="LOC::Guanajuato.San José Iturbide" target="SUB::Níquel (compuestos)" weight="268860.875">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+      </edge>
+      <edge id="204" source="LOC::Guanajuato.San José Iturbide" target="SUB::Cromo (compuestos)" weight="223308.46875">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+      </edge>
+      <edge id="205" source="LOC::Guanajuato.San José Iturbide" target="SUB::Arsénico (compuestos)" weight="11.192366600036621">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+      </edge>
+      <edge id="206" source="LOC::Guanajuato.San José Iturbide" target="SUB::Cadmio (compuestos)" weight="89.84829711914062">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+      </edge>
+      <edge id="207" source="LOC::Guanajuato.San José Iturbide" target="SUB::Mercurio (compuestos)" weight="2911.63623046875">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+      </edge>
+      <edge id="208" source="LOC::Guanajuato.San José Iturbide" target="SUB::Plomo (compuestos)" weight="633.423828125">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+      </edge>
+      <edge id="209" source="LOC::Guanajuato.San José Iturbide" target="SUB::Mercurio (polvos, respirables, vapores o humos)" weight="1363.141357421875">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+      </edge>
+      <edge id="210" source="LOC::Guanajuato.San José Iturbide" target="SUB::Cadmio (Compuestos solubles)" weight="461.8009948730469">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+      </edge>
+      <edge id="211" source="LOC::Guanajuato.San José Iturbide" target="SUB::Arsénico (Compuestos solubles)" weight="53.41830062866211">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+      </edge>
+      <edge id="212" source="LOC::Guanajuato.San José Iturbide" target="SUB::Bióxido de carbono" weight="3.840083968E9">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+      </edge>
+      <edge id="213" source="LOC::Guanajuato.San José Iturbide" target="SUB::Metano" weight="235.74000549316406">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+      </edge>
+      <edge id="214" source="LOC::Guanajuato.San José Iturbide" target="SUB::Bióxido de nitrógeno" weight="6015647.5">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+      </edge>
+      <edge id="215" source="LOC::Guanajuato.San José Iturbide" target="SUB::Tolueno" weight="114623.9296875">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+      </edge>
+      <edge id="216" source="LOC::Guanajuato.San José Iturbide" target="SUB::Xileno (mezcla de isómeros)" weight="351750.84375">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+      </edge>
+      <edge id="217" source="LOC::Guanajuato.San José Iturbide" target="SUB::Formaldehido" weight="2646.494140625">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+      </edge>
+      <edge id="218" source="LOC::Guanajuato.San José Iturbide" target="SUB::Cromo (polvos respirables, humos o vapores)" weight="1.078165054321289">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+      </edge>
+      <edge id="219" source="LOC::Guanajuato.San José Iturbide" target="SUB::Níquel (polvos respirables, humos o vapores)" weight="496.0711669921875">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+      </edge>
+      <edge id="220" source="LOC::Guanajuato.San José Iturbide" target="SUB::Plomo (polvos respirables, humos o vapores)" weight="268.32000732421875">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+      </edge>
+      <edge id="221" source="LOC::Guanajuato.San José Iturbide" target="SUB::Estireno (fenil etileno)" weight="0.002293210942298174">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+      </edge>
+      <edge id="222" source="LOC::Guanajuato.San José Iturbide" target="SUB::Acrilonitrilo" weight="0.0026873101014643908">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+      </edge>
+      <edge id="223" source="LOC::Guanajuato.San José Iturbide" target="SUB::Oxido nitroso" weight="626.8200073242188">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+      </edge>
+      <edge id="224" source="LOC::Guanajuato.San José Iturbide" target="SUB::Cloroformo" weight="112.12999725341797">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+      </edge>
+      <edge id="225" source="LOC::Guanajuato.San José Iturbide" target="SUB::Acrilamina" weight="142.0">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+      </edge>
+      <edge id="226" source="LOC::Guanajuato.San José Iturbide" target="SUB::Metileno bis(fenilisocianato)" weight="499.79998779296875">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+      </edge>
+      <edge id="227" source="LOC::Guanajuato.San José Iturbide" target="SUB::Diisocianato de difenilmetano polimérico" weight="1499.3900146484375">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+      </edge>
+      <edge id="228" source="LOC::Guanajuato.Salamanca" target="SUB::Cromo (Compuestos solubles)" weight="2751.528564453125">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+      </edge>
+      <edge id="229" source="LOC::Guanajuato.Salamanca" target="SUB::Mercurio (Compuestos solubles)" weight="31.295883178710938">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+      </edge>
+      <edge id="230" source="LOC::Guanajuato.Salamanca" target="SUB::Níquel (Compuestos solubles)" weight="79844.75">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+      </edge>
+      <edge id="231" source="LOC::Guanajuato.Salamanca" target="SUB::Plomo (Compuestos solubles)" weight="3627.164306640625">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+      </edge>
+      <edge id="232" source="LOC::Guanajuato.Salamanca" target="SUB::Cianuro inorgánico/orgánico" weight="12363.6298828125">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+      </edge>
+      <edge id="233" source="LOC::Guanajuato.Salamanca" target="SUB::Arsénico (polvos, respirables, vapores o humos)" weight="3491.695556640625">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+      </edge>
+      <edge id="234" source="LOC::Guanajuato.Salamanca" target="SUB::Cadmio (polvos, respirables, vapores o humos)" weight="610.0844116210938">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+      </edge>
+      <edge id="235" source="LOC::Guanajuato.Salamanca" target="SUB::Cromo (compuestos)" weight="1798.431884765625">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+      </edge>
+      <edge id="236" source="LOC::Guanajuato.Salamanca" target="SUB::Arsénico (compuestos)" weight="506.86346435546875">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+      </edge>
+      <edge id="237" source="LOC::Guanajuato.Salamanca" target="SUB::Cadmio (compuestos)" weight="195.7200164794922">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+      </edge>
+      <edge id="238" source="LOC::Guanajuato.Salamanca" target="SUB::Plomo (compuestos)" weight="4702.0849609375">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+      </edge>
+      <edge id="239" source="LOC::Guanajuato.Salamanca" target="SUB::Níquel (compuestos)" weight="40934.57421875">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+      </edge>
+      <edge id="240" source="LOC::Guanajuato.Salamanca" target="SUB::Mercurio (compuestos)" weight="57.741729736328125">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+      </edge>
+      <edge id="241" source="LOC::Guanajuato.Salamanca" target="SUB::Mercurio (polvos, respirables, vapores o humos)" weight="222.8731231689453">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+      </edge>
+      <edge id="242" source="LOC::Guanajuato.Salamanca" target="SUB::Cromo (polvos respirables, humos o vapores)" weight="161.15220642089844">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+      </edge>
+      <edge id="243" source="LOC::Guanajuato.Salamanca" target="SUB::Níquel (polvos respirables, humos o vapores)" weight="1286.239990234375">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+      </edge>
+      <edge id="244" source="LOC::Guanajuato.Salamanca" target="SUB::Plomo (polvos respirables, humos o vapores)" weight="13635.0087890625">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+      </edge>
+      <edge id="245" source="LOC::Guanajuato.Salamanca" target="SUB::Arsénico (Compuestos solubles)" weight="56.36479949951172">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+      </edge>
+      <edge id="246" source="LOC::Guanajuato.Salamanca" target="SUB::Cadmio (Compuestos solubles)" weight="134.02090454101562">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+      </edge>
+      <edge id="247" source="LOC::Guanajuato.Salamanca" target="SUB::Fenol" weight="5522.16796875">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+      </edge>
+      <edge id="248" source="LOC::Guanajuato.Salamanca" target="SUB::Formaldehido" weight="122856.1328125">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+      </edge>
+      <edge id="249" source="LOC::Guanajuato.Salamanca" target="SUB::Bióxido de carbono" weight="6.5581154304E10">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+      </edge>
+      <edge id="250" source="LOC::Guanajuato.Salamanca" target="SUB::Acroleina" weight="0.046003565192222595">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+      </edge>
+      <edge id="251" source="LOC::Guanajuato.Salamanca" target="SUB::Benceno" weight="1766045.125">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+      </edge>
+      <edge id="252" source="LOC::Guanajuato.Salamanca" target="SUB::Acetaldehido" weight="43659.140625">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+      </edge>
+      <edge id="253" source="LOC::Guanajuato.Salamanca" target="SUB::1,1,1-Tricloroetano" weight="23.72122573852539">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+      </edge>
+      <edge id="254" source="LOC::Guanajuato.Salamanca" target="SUB::Metano" weight="8.1925648E7">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+      </edge>
+      <edge id="255" source="LOC::Guanajuato.Salamanca" target="SUB::Bióxido de nitrógeno" weight="1.022743E7">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+      </edge>
+      <edge id="256" source="LOC::Guanajuato.Salamanca" target="SUB::Hidracina" weight="2920.89990234375">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+      </edge>
+      <edge id="257" source="LOC::Guanajuato.Salamanca" target="SUB::Dioxinas" weight="53.15988540649414">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+      </edge>
+      <edge id="258" source="LOC::Guanajuato.Salamanca" target="SUB::Furanos" weight="0.0010000003967434168">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+      </edge>
+      <edge id="259" source="LOC::Guanajuato.Salamanca" target="SUB::Oxido nitroso" weight="1.3562516E7">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+      </edge>
+      <edge id="260" source="LOC::Guanajuato.Salamanca" target="SUB::Dioxido de cloro" weight="97152.0">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+      </edge>
+      <edge id="261" source="LOC::Guanajuato.Salamanca" target="SUB::Cumeno" weight="13279.259765625">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+      </edge>
+      <edge id="262" source="LOC::Guanajuato.Salamanca" target="SUB::Hexafluoruro de azufre" weight="150.0">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+      </edge>
+      <edge id="263" source="LOC::Guanajuato.Salamanca" target="SUB::Tolueno" weight="106355.734375">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+      </edge>
+      <edge id="264" source="LOC::Guanajuato.Salamanca" target="SUB::Xileno (mezcla de isómeros)" weight="204806.171875">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+      </edge>
+      <edge id="265" source="LOC::Guanajuato.Salamanca" target="SUB::Hidrofluorocarbonos" weight="85416.0">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+      </edge>
+      <edge id="266" source="LOC::Guanajuato.Salamanca" target="SUB::Cloruro de metileno" weight="747790.0">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+      </edge>
+      <edge id="267" source="LOC::Guanajuato.Salamanca" target="SUB::Asbesto y sus formas (En forma de polvo, fibras o productos desmenuzables con la presión de la mano)" weight="28690.0">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+      </edge>
+      <edge id="268" source="LOC::Guanajuato.Salamanca" target="SUB::Metil paration" weight="89160.0">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+      </edge>
+      <edge id="269" source="LOC::Guanajuato.Salamanca" target="SUB::Dibutilftalato" weight="6960.0">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+      </edge>
+      <edge id="270" source="LOC::Guanajuato.Salamanca" target="SUB::Bifenilos policlorados" weight="271662.875">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+      </edge>
+      <edge id="271" source="LOC::Guanajuato.Salamanca" target="SUB::Bifenilo" weight="1772.0">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+      </edge>
+      <edge id="272" source="LOC::Guanajuato.Guanajuato" target="SUB::Cromo (Compuestos solubles)" weight="1.3496079444885254">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+      </edge>
+      <edge id="273" source="LOC::Guanajuato.Guanajuato" target="SUB::Mercurio (Compuestos solubles)" weight="0.07640799880027771">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+      </edge>
+      <edge id="274" source="LOC::Guanajuato.Guanajuato" target="SUB::Níquel (Compuestos solubles)" weight="1.646496057510376">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+      </edge>
+      <edge id="275" source="LOC::Guanajuato.Guanajuato" target="SUB::Plomo (Compuestos solubles)" weight="0.8893250226974487">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+      </edge>
+      <edge id="276" source="LOC::Guanajuato.Guanajuato" target="SUB::Cianuro inorgánico/orgánico" weight="101503.84375">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+      </edge>
+      <edge id="277" source="LOC::Guanajuato.Guanajuato" target="SUB::Arsénico (polvos, respirables, vapores o humos)" weight="3.7792608737945557">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+      </edge>
+      <edge id="278" source="LOC::Guanajuato.Guanajuato" target="SUB::Cadmio (polvos, respirables, vapores o humos)" weight="3.677361011505127">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+      </edge>
+      <edge id="279" source="LOC::Guanajuato.Guanajuato" target="SUB::Cadmio (compuestos)" weight="0.019977599382400513">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+      </edge>
+      <edge id="280" source="LOC::Guanajuato.Guanajuato" target="SUB::Arsénico (compuestos)" weight="0.010153730399906635">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+      </edge>
+      <edge id="281" source="LOC::Guanajuato.Guanajuato" target="SUB::Plomo (compuestos)" weight="6824.12451171875">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+      </edge>
+      <edge id="282" source="LOC::Guanajuato.Guanajuato" target="SUB::Cromo (compuestos)" weight="4.02761697769165">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+      </edge>
+      <edge id="283" source="LOC::Guanajuato.Guanajuato" target="SUB::Mercurio (compuestos)" weight="0.4958029091358185">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+      </edge>
+      <edge id="284" source="LOC::Guanajuato.Guanajuato" target="SUB::Níquel (compuestos)" weight="6.505749702453613">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+      </edge>
+      <edge id="285" source="LOC::Guanajuato.Guanajuato" target="SUB::Mercurio (polvos, respirables, vapores o humos)" weight="1.5271532535552979">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+      </edge>
+      <edge id="286" source="LOC::Guanajuato.Guanajuato" target="SUB::Bióxido de carbono" weight="1.0325935E7">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+      </edge>
+      <edge id="287" source="LOC::Guanajuato.Guanajuato" target="SUB::Formaldehido" weight="596.4327392578125">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+      </edge>
+      <edge id="288" source="LOC::Guanajuato.Guanajuato" target="SUB::Plomo (polvos respirables, humos o vapores)" weight="81.26687622070312">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+      </edge>
+      <edge id="289" source="LOC::Guanajuato.Guanajuato" target="SUB::Tolueno" weight="2958.18798828125">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+      </edge>
+      <edge id="290" source="LOC::Guanajuato.Guanajuato" target="SUB::Xileno (mezcla de isómeros)" weight="1284.585693359375">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+      </edge>
+      <edge id="291" source="LOC::Guanajuato.Guanajuato" target="SUB::Cloruro de metileno" weight="799.739990234375">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+      </edge>
+      <edge id="292" source="LOC::Guanajuato.Guanajuato" target="SUB::Asbesto y sus formas (En forma de polvo, fibras o productos desmenuzables con la presión de la mano)" weight="75.0">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+      </edge>
+      <edge id="293" source="LOC::Guanajuato.León" target="SUB::Mercurio (Compuestos solubles)" weight="13.05540943145752">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+      </edge>
+      <edge id="294" source="LOC::Guanajuato.León" target="SUB::Níquel (Compuestos solubles)" weight="8066.6884765625">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+      </edge>
+      <edge id="295" source="LOC::Guanajuato.León" target="SUB::Arsénico (polvos, respirables, vapores o humos)" weight="334.0657958984375">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+      </edge>
+      <edge id="296" source="LOC::Guanajuato.León" target="SUB::Cianuro inorgánico/orgánico" weight="156.8674774169922">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+      </edge>
+      <edge id="297" source="LOC::Guanajuato.León" target="SUB::Arsénico (compuestos)" weight="102.75863647460938">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+      </edge>
+      <edge id="298" source="LOC::Guanajuato.León" target="SUB::Plomo (compuestos)" weight="222953.34375">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+      </edge>
+      <edge id="299" source="LOC::Guanajuato.León" target="SUB::Níquel (compuestos)" weight="2961.3779296875">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+      </edge>
+      <edge id="300" source="LOC::Guanajuato.León" target="SUB::Cromo (compuestos)" weight="29597.642578125">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+      </edge>
+      <edge id="301" source="LOC::Guanajuato.León" target="SUB::Cadmio (compuestos)" weight="26.028667449951172">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+      </edge>
+      <edge id="302" source="LOC::Guanajuato.León" target="SUB::Mercurio (polvos, respirables, vapores o humos)" weight="373.881103515625">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+      </edge>
+      <edge id="303" source="LOC::Guanajuato.León" target="SUB::Cadmio (polvos, respirables, vapores o humos)" weight="754.8494873046875">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+      </edge>
+      <edge id="304" source="LOC::Guanajuato.León" target="SUB::Plomo (polvos respirables, humos o vapores)" weight="570959.625">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+      </edge>
+      <edge id="305" source="LOC::Guanajuato.León" target="SUB::Níquel (polvos respirables, humos o vapores)" weight="32.959999084472656">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+      </edge>
+      <edge id="306" source="LOC::Guanajuato.León" target="SUB::Cromo (polvos respirables, humos o vapores)" weight="28.959999084472656">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+      </edge>
+      <edge id="307" source="LOC::Guanajuato.León" target="SUB::Cadmio (Compuestos solubles)" weight="17.20479965209961">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+      </edge>
+      <edge id="308" source="LOC::Guanajuato.León" target="SUB::Cromo (Compuestos solubles)" weight="182048.03125">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+      </edge>
+      <edge id="309" source="LOC::Guanajuato.León" target="SUB::Plomo (Compuestos solubles)" weight="10061.55859375">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+      </edge>
+      <edge id="310" source="LOC::Guanajuato.León" target="SUB::Mercurio (compuestos)" weight="2.3162243366241455">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+      </edge>
+      <edge id="311" source="LOC::Guanajuato.León" target="SUB::Bióxido de carbono" weight="5.39648192E8">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+      </edge>
+      <edge id="312" source="LOC::Guanajuato.León" target="SUB::Estireno (fenil etileno)" weight="5.019999980926514">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+      </edge>
+      <edge id="313" source="LOC::Guanajuato.León" target="SUB::Acrilonitrilo" weight="101.73300170898438">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+      </edge>
+      <edge id="314" source="LOC::Guanajuato.León" target="SUB::Tolueno diisocianato" weight="1342.7099609375">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+      </edge>
+      <edge id="315" source="LOC::Guanajuato.León" target="SUB::Cloruro de metileno" weight="30278.857421875">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+      </edge>
+      <edge id="316" source="LOC::Guanajuato.León" target="SUB::Dibutilftalato" weight="1183.9300537109375">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+      </edge>
+      <edge id="317" source="LOC::Guanajuato.León" target="SUB::Acetaldehido" weight="0.050604887306690216">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+      </edge>
+      <edge id="318" source="LOC::Guanajuato.León" target="SUB::Benceno" weight="0.4274216592311859">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+      </edge>
+      <edge id="319" source="LOC::Guanajuato.León" target="SUB::Acroleina" weight="0.006108352914452553">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+      </edge>
+      <edge id="320" source="LOC::Guanajuato.León" target="SUB::Formaldehido" weight="1614.276611328125">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+      </edge>
+      <edge id="321" source="LOC::Guanajuato.León" target="SUB::Bióxido de nitrógeno" weight="1651844.25">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+      </edge>
+      <edge id="322" source="LOC::Guanajuato.León" target="SUB::Metano" weight="3.048507E7">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+      </edge>
+      <edge id="323" source="LOC::Guanajuato.León" target="SUB::Tolueno" weight="54657.23828125">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+      </edge>
+      <edge id="324" source="LOC::Guanajuato.León" target="SUB::Xileno (mezcla de isómeros)" weight="43988.171875">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+      </edge>
+      <edge id="325" source="LOC::Guanajuato.León" target="SUB::Acido sulfhídrico" weight="5573.6201171875">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+      </edge>
+      <edge id="326" source="LOC::Guanajuato.León" target="SUB::Oxido nitroso" weight="43995.91796875">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+      </edge>
+      <edge id="327" source="LOC::Guanajuato.León" target="SUB::Arsénico (Compuestos solubles)" weight="2.5999999046325684">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+      </edge>
+      <edge id="328" source="LOC::Guanajuato.León" target="SUB::Diclorodifenildicloroetileno (DDE)" weight="2121.0">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+      </edge>
+      <edge id="329" source="LOC::Guanajuato.León" target="SUB::Hexaclorobenceno" weight="8.520000457763672">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+      </edge>
+      <edge id="330" source="LOC::Guanajuato.San Francisco del Rincón" target="SUB::Cromo (Compuestos solubles)" weight="0.06305000185966492">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+      </edge>
+      <edge id="331" source="LOC::Guanajuato.San Francisco del Rincón" target="SUB::Níquel (Compuestos solubles)" weight="28.537399291992188">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+      </edge>
+      <edge id="332" source="LOC::Guanajuato.San Francisco del Rincón" target="SUB::Cromo (compuestos)" weight="2114.543701171875">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+      </edge>
+      <edge id="333" source="LOC::Guanajuato.San Francisco del Rincón" target="SUB::Bióxido de carbono" weight="2.0595256E7">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+      </edge>
+      <edge id="334" source="LOC::Guanajuato.San Francisco del Rincón" target="SUB::Tolueno" weight="4080.0">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+      </edge>
+      <edge id="335" source="LOC::Guanajuato.Purísima del Rincón" target="SUB::Mercurio (compuestos)" weight="0.2208275943994522">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+      </edge>
+      <edge id="336" source="LOC::Guanajuato.Purísima del Rincón" target="SUB::Arsénico (compuestos)" weight="0.6528816223144531">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+      </edge>
+      <edge id="337" source="LOC::Guanajuato.Purísima del Rincón" target="SUB::Cromo (compuestos)" weight="3.6182806491851807">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+      </edge>
+      <edge id="338" source="LOC::Guanajuato.Purísima del Rincón" target="SUB::Plomo (compuestos)" weight="47.32979965209961">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+      </edge>
+      <edge id="339" source="LOC::Guanajuato.Purísima del Rincón" target="SUB::Cianuro inorgánico/orgánico" weight="49.082706451416016">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+      </edge>
+      <edge id="340" source="LOC::Guanajuato.Purísima del Rincón" target="SUB::Níquel (compuestos)" weight="26.253658294677734">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+      </edge>
+      <edge id="341" source="LOC::Guanajuato.Purísima del Rincón" target="SUB::Cadmio (compuestos)" weight="1.8818352222442627">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+      </edge>
+      <edge id="342" source="LOC::Guanajuato.Purísima del Rincón" target="SUB::Arsénico (polvos, respirables, vapores o humos)" weight="1.3085066080093384">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+      </edge>
+      <edge id="343" source="LOC::Guanajuato.Purísima del Rincón" target="SUB::Cadmio (polvos, respirables, vapores o humos)" weight="3.765045166015625">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+      </edge>
+      <edge id="344" source="LOC::Guanajuato.Purísima del Rincón" target="SUB::Mercurio (polvos, respirables, vapores o humos)" weight="0.4498845934867859">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+      </edge>
+      <edge id="345" source="LOC::Guanajuato.Purísima del Rincón" target="SUB::Bióxido de carbono" weight="436462.0625">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+      </edge>
+      <edge id="346" source="LOC::Guanajuato.Purísima del Rincón" target="SUB::Cadmio (Compuestos solubles)" weight="9.639599800109863">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+      </edge>
+      <edge id="347" source="LOC::Guanajuato.Purísima del Rincón" target="SUB::Cromo (Compuestos solubles)" weight="49.426998138427734">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+      </edge>
+      <edge id="348" source="LOC::Guanajuato.Purísima del Rincón" target="SUB::Níquel (Compuestos solubles)" weight="36.86859893798828">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+      </edge>
+      <edge id="349" source="LOC::Guanajuato.Purísima del Rincón" target="SUB::Plomo (Compuestos solubles)" weight="40.094600677490234">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+      </edge>
+      <edge id="350" source="LOC::Guanajuato.Purísima del Rincón" target="SUB::Arsénico (Compuestos solubles)" weight="7.700200080871582">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+      </edge>
+      <edge id="351" source="LOC::Guanajuato.Purísima del Rincón" target="SUB::Mercurio (Compuestos solubles)" weight="2.957200050354004">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+      </edge>
+      <edge id="352" source="LOC::Guanajuato.San Miguel de Allende" target="SUB::Cadmio (Compuestos solubles)" weight="1710.0">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+      </edge>
+      <edge id="353" source="LOC::Guanajuato.San Miguel de Allende" target="SUB::Cromo (Compuestos solubles)" weight="8050.0">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+      </edge>
+      <edge id="354" source="LOC::Guanajuato.San Miguel de Allende" target="SUB::Níquel (Compuestos solubles)" weight="7059.0">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+      </edge>
+      <edge id="355" source="LOC::Guanajuato.San Miguel de Allende" target="SUB::Plomo (Compuestos solubles)" weight="27.152000427246094">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+      </edge>
+      <edge id="356" source="LOC::Guanajuato.San Miguel de Allende" target="SUB::Bióxido de carbono" weight="3033310.5">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+      </edge>
+      <edge id="357" source="LOC::Guanajuato.San Miguel de Allende" target="SUB::Mercurio (polvos, respirables, vapores o humos)" weight="13.000061988830566">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+      </edge>
+      <edge id="358" source="LOC::Guanajuato.Salvatierra" target="SUB::Cromo (Compuestos solubles)" weight="2.549999952316284">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+      </edge>
+      <edge id="359" source="LOC::Guanajuato.Salvatierra" target="SUB::Plomo (Compuestos solubles)" weight="5.984000205993652">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+      </edge>
+      <edge id="360" source="LOC::Guanajuato.Salvatierra" target="SUB::Bióxido de carbono" weight="5585350.0">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+      </edge>
+      <edge id="361" source="LOC::Guanajuato.Abasolo" target="SUB::Mercurio (compuestos)" weight="2.789999998640269E-4">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+      </edge>
+      <edge id="362" source="LOC::Guanajuato.Abasolo" target="SUB::Arsénico (polvos, respirables, vapores o humos)" weight="0.0014592800289392471">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+      </edge>
+      <edge id="363" source="LOC::Guanajuato.Abasolo" target="SUB::Bióxido de carbono" weight="36061.0">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+      </edge>
+      <edge id="364" source="LOC::Guanajuato.Abasolo" target="SUB::Arsénico (compuestos)" weight="5.4462241678265855E-5">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+      </edge>
+      <edge id="365" source="LOC::Guanajuato.Apaseo el Alto" target="SUB::Cianuro inorgánico/orgánico" weight="0.20189547538757324">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+      </edge>
+      <edge id="366" source="LOC::Guanajuato.Apaseo el Alto" target="SUB::Arsénico (polvos, respirables, vapores o humos)" weight="0.040073201060295105">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+      </edge>
+      <edge id="367" source="LOC::Guanajuato.Apaseo el Alto" target="SUB::Cadmio (polvos, respirables, vapores o humos)" weight="10.510046005249023">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+      </edge>
+      <edge id="368" source="LOC::Guanajuato.Apaseo el Alto" target="SUB::Plomo (compuestos)" weight="22.610368728637695">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+      </edge>
+      <edge id="369" source="LOC::Guanajuato.Apaseo el Alto" target="SUB::Níquel (compuestos)" weight="30.850460052490234">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+      </edge>
+      <edge id="370" source="LOC::Guanajuato.Apaseo el Alto" target="SUB::Mercurio (compuestos)" weight="0.04020199924707413">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+      </edge>
+      <edge id="371" source="LOC::Guanajuato.Apaseo el Alto" target="SUB::Cromo (compuestos)" weight="15.349246978759766">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+      </edge>
+      <edge id="372" source="LOC::Guanajuato.Apaseo el Alto" target="SUB::Bióxido de carbono" weight="7.1327112E7">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+      </edge>
+      <edge id="373" source="LOC::Guanajuato.Apaseo el Alto" target="SUB::Bióxido de nitrógeno" weight="1755.0">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+      </edge>
+      <edge id="374" source="LOC::Guanajuato.Apaseo el Alto" target="SUB::Cromo (Compuestos solubles)" weight="1.151900053024292">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+      </edge>
+      <edge id="375" source="LOC::Guanajuato.Apaseo el Alto" target="SUB::Estireno (fenil etileno)" weight="158325.0">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+      </edge>
+      <edge id="376" source="LOC::Guanajuato.Cortazar" target="SUB::Arsénico (polvos, respirables, vapores o humos)" weight="0.14394879341125488">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+      </edge>
+      <edge id="377" source="LOC::Guanajuato.Cortazar" target="SUB::Cadmio (polvos, respirables, vapores o humos)" weight="0.18047720193862915">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+      </edge>
+      <edge id="378" source="LOC::Guanajuato.Cortazar" target="SUB::Cianuro inorgánico/orgánico" weight="0.72038334608078">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+      </edge>
+      <edge id="379" source="LOC::Guanajuato.Cortazar" target="SUB::Cromo (compuestos)" weight="1.7426015138626099">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+      </edge>
+      <edge id="380" source="LOC::Guanajuato.Cortazar" target="SUB::Mercurio (compuestos)" weight="0.1706324815750122">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+      </edge>
+      <edge id="381" source="LOC::Guanajuato.Cortazar" target="SUB::Níquel (compuestos)" weight="1.4681106805801392">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+      </edge>
+      <edge id="382" source="LOC::Guanajuato.Cortazar" target="SUB::Plomo (compuestos)" weight="0.8745447993278503">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+      </edge>
+      <edge id="383" source="LOC::Guanajuato.Cortazar" target="SUB::Bióxido de carbono" weight="4.4524528E7">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+      </edge>
+      <edge id="384" source="LOC::Guanajuato.Cortazar" target="SUB::Cadmio (compuestos)" weight="0.11524680256843567">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+      </edge>
+      <edge id="385" source="LOC::Guanajuato.Cortazar" target="SUB::Arsénico (compuestos)" weight="0.11332602053880692">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+      </edge>
+      <edge id="386" source="LOC::Guanajuato.Cortazar" target="SUB::Mercurio (polvos, respirables, vapores o humos)" weight="8.892000187188387E-5">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+      </edge>
+      <edge id="387" source="LOC::Guanajuato.Cortazar" target="SUB::Cromo (Compuestos solubles)" weight="60.46620178222656">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+      </edge>
+      <edge id="388" source="LOC::Guanajuato.Cortazar" target="SUB::Níquel (Compuestos solubles)" weight="75.91690063476562">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+      </edge>
+      <edge id="389" source="LOC::Guanajuato.Cortazar" target="SUB::Plomo (Compuestos solubles)" weight="16.712200164794922">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+      </edge>
+      <edge id="390" source="LOC::Guanajuato.Cortazar" target="SUB::Bifenilos policlorados" weight="3546.0">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+      </edge>
+      <edge id="391" source="LOC::Guanajuato.Comonfort" target="SUB::Metil paration" weight="914.9500122070312">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+      </edge>
+      <edge id="392" source="LOC::Guanajuato.Comonfort" target="SUB::Bióxido de carbono" weight="9624143.0">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+      </edge>
+      <edge id="393" source="LOC::Guanajuato.Comonfort" target="SUB::Cromo (Compuestos solubles)" weight="3.568700075149536">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+      </edge>
+      <edge id="394" source="LOC::Guanajuato.Comonfort" target="SUB::Níquel (Compuestos solubles)" weight="12.639599800109863">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+      </edge>
+      <edge id="395" source="LOC::Guanajuato.Comonfort" target="SUB::Plomo (Compuestos solubles)" weight="7.381400108337402">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+      </edge>
+      <edge id="396" source="LOC::Guanajuato.Jaral del Progreso" target="SUB::Bióxido de carbono" weight="3.1158306E7">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+      </edge>
+      <edge id="397" source="LOC::Guanajuato.Pénjamo" target="SUB::Metano" weight="3481729.0">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+      </edge>
+      <edge id="398" source="LOC::Guanajuato.Pénjamo" target="SUB::Bióxido de carbono" weight="744968.6875">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+      </edge>
+      <edge id="399" source="LOC::Guanajuato.Pénjamo" target="SUB::Cromo (Compuestos solubles)" weight="17.49020004272461">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+      </edge>
+      <edge id="400" source="LOC::Guanajuato.Pénjamo" target="SUB::Níquel (Compuestos solubles)" weight="25.163299560546875">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+      </edge>
+      <edge id="401" source="LOC::Guanajuato.Pénjamo" target="SUB::Plomo (Compuestos solubles)" weight="20.480199813842773">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+      </edge>
+      <edge id="402" source="LOC::Guanajuato.Romita" target="SUB::Bióxido de carbono" weight="113636.6171875">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+      </edge>
+      <edge id="403" source="LOC::Guanajuato.Romita" target="SUB::Plomo (Compuestos solubles)" weight="2.955899953842163">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+      </edge>
+      <edge id="404" source="LOC::Guanajuato.Romita" target="SUB::Níquel (Compuestos solubles)" weight="2.0211000442504883">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+      </edge>
+      <edge id="405" source="LOC::Guanajuato.Santa Cruz de Juventino Rosas" target="SUB::Cadmio (Compuestos solubles)" weight="2.6726999282836914">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+      </edge>
+      <edge id="406" source="LOC::Guanajuato.Santa Cruz de Juventino Rosas" target="SUB::Cromo (Compuestos solubles)" weight="16.036100387573242">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+      </edge>
+      <edge id="407" source="LOC::Guanajuato.Santa Cruz de Juventino Rosas" target="SUB::Níquel (Compuestos solubles)" weight="10.690699577331543">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+      </edge>
+      <edge id="408" source="LOC::Guanajuato.Santa Cruz de Juventino Rosas" target="SUB::Plomo (Compuestos solubles)" weight="10.690699577331543">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+      </edge>
+    </edges>
+  </graph>
+</gexf>

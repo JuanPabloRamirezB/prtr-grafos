@@ -1,0 +1,3912 @@
+<?xml version='1.0' encoding='utf-8'?>
+<gexf xmlns="http://www.gexf.net/1.2draft" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.gexf.net/1.2draft http://www.gexf.net/1.2draft/gexf.xsd" version="1.2">
+  <meta lastmodifieddate="2026-10-16">
+    <creator>NetworkX 3.7</creator>
+  </meta>
+  <graph defaultedgetype="undirected" mode="static" name="">
+    <attributes mode="static" class="edge">
+      <attribute id="2" title="count" type="long" />
+    </attributes>
+    <attributes mode="static" class="node">
+      <attribute id="0" title="type" type="string" />
+      <attribute id="1" title="total_kg" type="double" />
+    </attributes>
+    <nodes>
+      <node id="LOC::Jalisco.Guadalajara" label="Jalisco.Guadalajara">
+        <attvalues>
+          <attvalue for="0" value="location" />
+          <attvalue for="1" value="11893874016.096933" />
+        </attvalues>
+      </node>
+      <node id="LOC::Jalisco.Zacoalco de Torres" label="Jalisco.Zacoalco de Torres">
+        <attvalues>
+          <attvalue for="0" value="location" />
+          <attvalue for="1" value="282970401.70365876" />
+        </attvalues>
+      </node>
+      <node id="LOC::Jalisco.San Pedro Tlaquepaque" label="Jalisco.San Pedro Tlaquepaque">
+        <attvalues>
+          <attvalue for="0" value="location" />
+          <attvalue for="1" value="6117732024.5114565" />
+        </attvalues>
+      </node>
+      <node id="LOC::Jalisco.El Salto" label="Jalisco.El Salto">
+        <attvalues>
+          <attvalue for="0" value="location" />
+          <attvalue for="1" value="2368499664.9938426" />
+        </attvalues>
+      </node>
+      <node id="LOC::Jalisco.Zapopan" label="Jalisco.Zapopan">
+        <attvalues>
+          <attvalue for="0" value="location" />
+          <attvalue for="1" value="2256723032.9625335" />
+        </attvalues>
+      </node>
+      <node id="LOC::Jalisco.Amatitán" label="Jalisco.Amatitán">
+        <attvalues>
+          <attvalue for="0" value="location" />
+          <attvalue for="1" value="691.1537599999999" />
+        </attvalues>
+      </node>
+      <node id="LOC::Jalisco.Ixtlahuacán de los Membrillos" label="Jalisco.Ixtlahuacán de los Membrillos">
+        <attvalues>
+          <attvalue for="0" value="location" />
+          <attvalue for="1" value="601482166.2154559" />
+        </attvalues>
+      </node>
+      <node id="LOC::Jalisco.Tlajomulco de Zúñiga" label="Jalisco.Tlajomulco de Zúñiga">
+        <attvalues>
+          <attvalue for="0" value="location" />
+          <attvalue for="1" value="882187099.44933" />
+        </attvalues>
+      </node>
+      <node id="LOC::Jalisco.Zapotiltic" label="Jalisco.Zapotiltic">
+        <attvalues>
+          <attvalue for="0" value="location" />
+          <attvalue for="1" value="10632700644.120888" />
+        </attvalues>
+      </node>
+      <node id="LOC::Jalisco.Poncitlán" label="Jalisco.Poncitlán">
+        <attvalues>
+          <attvalue for="0" value="location" />
+          <attvalue for="1" value="3903248301.2623596" />
+        </attvalues>
+      </node>
+      <node id="LOC::Jalisco.Chapala" label="Jalisco.Chapala">
+        <attvalues>
+          <attvalue for="0" value="location" />
+          <attvalue for="1" value="85572818.94442931" />
+        </attvalues>
+      </node>
+      <node id="LOC::Jalisco.Tototlán" label="Jalisco.Tototlán">
+        <attvalues>
+          <attvalue for="0" value="location" />
+          <attvalue for="1" value="93555720.08853039" />
+        </attvalues>
+      </node>
+      <node id="LOC::Jalisco.Lagos de Moreno" label="Jalisco.Lagos de Moreno">
+        <attvalues>
+          <attvalue for="0" value="location" />
+          <attvalue for="1" value="2170661941.688018" />
+        </attvalues>
+      </node>
+      <node id="LOC::Jalisco.Tuxpan" label="Jalisco.Tuxpan">
+        <attvalues>
+          <attvalue for="0" value="location" />
+          <attvalue for="1" value="869997157.5585816" />
+        </attvalues>
+      </node>
+      <node id="LOC::Jalisco.Atotonilco el Alto" label="Jalisco.Atotonilco el Alto">
+        <attvalues>
+          <attvalue for="0" value="location" />
+          <attvalue for="1" value="120964582.79063493" />
+        </attvalues>
+      </node>
+      <node id="LOC::Jalisco.Tala" label="Jalisco.Tala">
+        <attvalues>
+          <attvalue for="0" value="location" />
+          <attvalue for="1" value="1419442729.7308874" />
+        </attvalues>
+      </node>
+      <node id="LOC::Jalisco.Teocuitatlán de Corona" label="Jalisco.Teocuitatlán de Corona">
+        <attvalues>
+          <attvalue for="0" value="location" />
+          <attvalue for="1" value="160977.7436864" />
+        </attvalues>
+      </node>
+      <node id="LOC::Jalisco.Pihuamo" label="Jalisco.Pihuamo">
+        <attvalues>
+          <attvalue for="0" value="location" />
+          <attvalue for="1" value="3978475.9660501927" />
+        </attvalues>
+      </node>
+      <node id="LOC::Jalisco.Tamazula de Gordiano" label="Jalisco.Tamazula de Gordiano">
+        <attvalues>
+          <attvalue for="0" value="location" />
+          <attvalue for="1" value="316738849.48011273" />
+        </attvalues>
+      </node>
+      <node id="LOC::Jalisco.Zapotlanejo" label="Jalisco.Zapotlanejo">
+        <attvalues>
+          <attvalue for="0" value="location" />
+          <attvalue for="1" value="5867512131.253848" />
+        </attvalues>
+      </node>
+      <node id="LOC::Jalisco.Ocotlán" label="Jalisco.Ocotlán">
+        <attvalues>
+          <attvalue for="0" value="location" />
+          <attvalue for="1" value="259807860.02173394" />
+        </attvalues>
+      </node>
+      <node id="LOC::Jalisco.Tequila" label="Jalisco.Tequila">
+        <attvalues>
+          <attvalue for="0" value="location" />
+          <attvalue for="1" value="144010011.47533095" />
+        </attvalues>
+      </node>
+      <node id="LOC::Jalisco.Tepatitlán de Morelos" label="Jalisco.Tepatitlán de Morelos">
+        <attvalues>
+          <attvalue for="0" value="location" />
+          <attvalue for="1" value="5456978.745885341" />
+        </attvalues>
+      </node>
+      <node id="LOC::Jalisco.Jamay" label="Jalisco.Jamay">
+        <attvalues>
+          <attvalue for="0" value="location" />
+          <attvalue for="1" value="16180617.493999999" />
+        </attvalues>
+      </node>
+      <node id="LOC::Jalisco.Autlán de Navarro" label="Jalisco.Autlán de Navarro">
+        <attvalues>
+          <attvalue for="0" value="location" />
+          <attvalue for="1" value="1155712340.7449837" />
+        </attvalues>
+      </node>
+      <node id="LOC::Jalisco.Jilotlán de los Dolores" label="Jalisco.Jilotlán de los Dolores">
+        <attvalues>
+          <attvalue for="0" value="location" />
+          <attvalue for="1" value="577204.7232000001" />
+        </attvalues>
+      </node>
+      <node id="LOC::Jalisco.Hostotipaquillo" label="Jalisco.Hostotipaquillo">
+        <attvalues>
+          <attvalue for="0" value="location" />
+          <attvalue for="1" value="4.0023" />
+        </attvalues>
+      </node>
+      <node id="LOC::Jalisco.Tecolotlán" label="Jalisco.Tecolotlán">
+        <attvalues>
+          <attvalue for="0" value="location" />
+          <attvalue for="1" value="1670524935.5322642" />
+        </attvalues>
+      </node>
+      <node id="LOC::Jalisco.Puerto Vallarta" label="Jalisco.Puerto Vallarta">
+        <attvalues>
+          <attvalue for="0" value="location" />
+          <attvalue for="1" value="12954281.008267" />
+        </attvalues>
+      </node>
+      <node id="LOC::Jalisco.San Miguel el Alto" label="Jalisco.San Miguel el Alto">
+        <attvalues>
+          <attvalue for="0" value="location" />
+          <attvalue for="1" value="1283.0720000000001" />
+        </attvalues>
+      </node>
+      <node id="LOC::Jalisco.Arandas" label="Jalisco.Arandas">
+        <attvalues>
+          <attvalue for="0" value="location" />
+          <attvalue for="1" value="73936026.06546919" />
+        </attvalues>
+      </node>
+      <node id="LOC::Jalisco.San Martín de Bolaños" label="Jalisco.San Martín de Bolaños">
+        <attvalues>
+          <attvalue for="0" value="location" />
+          <attvalue for="1" value="412245.817305" />
+        </attvalues>
+      </node>
+      <node id="LOC::Jalisco.Acatlán de Juárez" label="Jalisco.Acatlán de Juárez">
+        <attvalues>
+          <attvalue for="0" value="location" />
+          <attvalue for="1" value="657578057.197214" />
+        </attvalues>
+      </node>
+      <node id="LOC::Jalisco.Acatic" label="Jalisco.Acatic">
+        <attvalues>
+          <attvalue for="0" value="location" />
+          <attvalue for="1" value="3549984.958" />
+        </attvalues>
+      </node>
+      <node id="LOC::Jalisco.Ameca" label="Jalisco.Ameca">
+        <attvalues>
+          <attvalue for="0" value="location" />
+          <attvalue for="1" value="848660032.9880397" />
+        </attvalues>
+      </node>
+      <node id="LOC::Jalisco.Tonaya" label="Jalisco.Tonaya">
+        <attvalues>
+          <attvalue for="0" value="location" />
+          <attvalue for="1" value="4481973.7817" />
+        </attvalues>
+      </node>
+      <node id="LOC::Jalisco.La Barca" label="Jalisco.La Barca">
+        <attvalues>
+          <attvalue for="0" value="location" />
+          <attvalue for="1" value="29.491300000000003" />
+        </attvalues>
+      </node>
+      <node id="LOC::Jalisco.San Sebastián del Oeste" label="Jalisco.San Sebastián del Oeste">
+        <attvalues>
+          <attvalue for="0" value="location" />
+          <attvalue for="1" value="3270622.934" />
+        </attvalues>
+      </node>
+      <node id="LOC::Jalisco.El Arenal" label="Jalisco.El Arenal">
+        <attvalues>
+          <attvalue for="0" value="location" />
+          <attvalue for="1" value="2284548.0" />
+        </attvalues>
+      </node>
+      <node id="LOC::Jalisco.Tonalá" label="Jalisco.Tonalá">
+        <attvalues>
+          <attvalue for="0" value="location" />
+          <attvalue for="1" value="196620.0" />
+        </attvalues>
+      </node>
+      <node id="LOC::Jalisco.Villa Corona" label="Jalisco.Villa Corona">
+        <attvalues>
+          <attvalue for="0" value="location" />
+          <attvalue for="1" value="71.14799999999998" />
+        </attvalues>
+      </node>
+      <node id="LOC::Jalisco.Bolaños" label="Jalisco.Bolaños">
+        <attvalues>
+          <attvalue for="0" value="location" />
+          <attvalue for="1" value="334.387944" />
+        </attvalues>
+      </node>
+      <node id="LOC::Jalisco.Tolimán" label="Jalisco.Tolimán">
+        <attvalues>
+          <attvalue for="0" value="location" />
+          <attvalue for="1" value="37.5069" />
+        </attvalues>
+      </node>
+      <node id="LOC::Jalisco.Ayotlán" label="Jalisco.Ayotlán">
+        <attvalues>
+          <attvalue for="0" value="location" />
+          <attvalue for="1" value="14.049499999999998" />
+        </attvalues>
+      </node>
+      <node id="LOC::Jalisco.Zapotlán el Grande" label="Jalisco.Zapotlán el Grande">
+        <attvalues>
+          <attvalue for="0" value="location" />
+          <attvalue for="1" value="8.8514" />
+        </attvalues>
+      </node>
+      <node id="LOC::Jalisco.San Juan de los Lagos" label="Jalisco.San Juan de los Lagos">
+        <attvalues>
+          <attvalue for="0" value="location" />
+          <attvalue for="1" value="5.3028" />
+        </attvalues>
+      </node>
+      <node id="SUB::Cromo (Compuestos solubles)" label="Chromium (soluble compounds)">
+        <attvalues>
+          <attvalue for="0" value="substance" />
+          <attvalue for="1" value="719437.4285672375" />
+        </attvalues>
+      </node>
+      <node id="SUB::Níquel (Compuestos solubles)" label="Nickel (soluble compounds)">
+        <attvalues>
+          <attvalue for="0" value="substance" />
+          <attvalue for="1" value="889620.680104525" />
+        </attvalues>
+      </node>
+      <node id="SUB::Arsénico (polvos, respirables, vapores o humos)" label="Arsenic (respirable dust, vapors or fumes)">
+        <attvalues>
+          <attvalue for="0" value="substance" />
+          <attvalue for="1" value="5892.765843514936" />
+        </attvalues>
+      </node>
+      <node id="SUB::Cianuro inorgánico/orgánico" label="Inorganic/organic cyanide">
+        <attvalues>
+          <attvalue for="0" value="substance" />
+          <attvalue for="1" value="145284.7388618575" />
+        </attvalues>
+      </node>
+      <node id="SUB::Mercurio (Compuestos solubles)" label="Mercury (soluble compounds)">
+        <attvalues>
+          <attvalue for="0" value="substance" />
+          <attvalue for="1" value="5330.5862703596595" />
+        </attvalues>
+      </node>
+      <node id="SUB::Plomo (Compuestos solubles)" label="Lead (soluble compounds)">
+        <attvalues>
+          <attvalue for="0" value="substance" />
+          <attvalue for="1" value="360259.08779326815" />
+        </attvalues>
+      </node>
+      <node id="SUB::Cadmio (polvos, respirables, vapores o humos)" label="Cadmium (respirable dust, vapors or fumes)">
+        <attvalues>
+          <attvalue for="0" value="substance" />
+          <attvalue for="1" value="11816.264207695658" />
+        </attvalues>
+      </node>
+      <node id="SUB::Mercurio (polvos, respirables, vapores o humos)" label="Mercury (respirable dust, vapors or fumes)">
+        <attvalues>
+          <attvalue for="0" value="substance" />
+          <attvalue for="1" value="9449.464884963787" />
+        </attvalues>
+      </node>
+      <node id="SUB::Cloruro de metileno" label="Methylene chloride">
+        <attvalues>
+          <attvalue for="0" value="substance" />
+          <attvalue for="1" value="443061.106" />
+        </attvalues>
+      </node>
+      <node id="SUB::Piridina" label="Pyridine">
+        <attvalues>
+          <attvalue for="0" value="substance" />
+          <attvalue for="1" value="152.0" />
+        </attvalues>
+      </node>
+      <node id="SUB::Cloroformo" label="Chloroform">
+        <attvalues>
+          <attvalue for="0" value="substance" />
+          <attvalue for="1" value="4701.24" />
+        </attvalues>
+      </node>
+      <node id="SUB::Tricloroetileno" label="Trichloroethylene">
+        <attvalues>
+          <attvalue for="0" value="substance" />
+          <attvalue for="1" value="20051.600000000002" />
+        </attvalues>
+      </node>
+      <node id="SUB::Cromo (compuestos)" label="Chromium (compounds)">
+        <attvalues>
+          <attvalue for="0" value="substance" />
+          <attvalue for="1" value="206220.52212423587" />
+        </attvalues>
+      </node>
+      <node id="SUB::Mercurio (compuestos)" label="Mercury (compounds)">
+        <attvalues>
+          <attvalue for="0" value="substance" />
+          <attvalue for="1" value="4863.652220007646" />
+        </attvalues>
+      </node>
+      <node id="SUB::Plomo (compuestos)" label="Lead (compounds)">
+        <attvalues>
+          <attvalue for="0" value="substance" />
+          <attvalue for="1" value="3862645.0392418476" />
+        </attvalues>
+      </node>
+      <node id="SUB::Níquel (compuestos)" label="Nickel (compounds)">
+        <attvalues>
+          <attvalue for="0" value="substance" />
+          <attvalue for="1" value="312557.8817360703" />
+        </attvalues>
+      </node>
+      <node id="SUB::Arsénico (compuestos)" label="Arsenic (compounds)">
+        <attvalues>
+          <attvalue for="0" value="substance" />
+          <attvalue for="1" value="575.0151401092415" />
+        </attvalues>
+      </node>
+      <node id="SUB::Cadmio (compuestos)" label="Cadmium (compounds)">
+        <attvalues>
+          <attvalue for="0" value="substance" />
+          <attvalue for="1" value="2275.1423813827146" />
+        </attvalues>
+      </node>
+      <node id="SUB::Arsénico (Compuestos solubles)" label="Arsenic (soluble compounds)">
+        <attvalues>
+          <attvalue for="0" value="substance" />
+          <attvalue for="1" value="24731.651325228" />
+        </attvalues>
+      </node>
+      <node id="SUB::Cadmio (Compuestos solubles)" label="Cadmium (soluble compounds)">
+        <attvalues>
+          <attvalue for="0" value="substance" />
+          <attvalue for="1" value="73678.44351330193" />
+        </attvalues>
+      </node>
+      <node id="SUB::Cromo (polvos respirables, humos o vapores)" label="Chromium (respirable dust, fumes or vapors)">
+        <attvalues>
+          <attvalue for="0" value="substance" />
+          <attvalue for="1" value="35252.31966727" />
+        </attvalues>
+      </node>
+      <node id="SUB::Plomo (polvos respirables, humos o vapores)" label="Lead (respirable dust, fumes or vapors)">
+        <attvalues>
+          <attvalue for="0" value="substance" />
+          <attvalue for="1" value="597999.51090667" />
+        </attvalues>
+      </node>
+      <node id="SUB::Níquel (polvos respirables, humos o vapores)" label="Nickel (respirable dust, fumes or vapors)">
+        <attvalues>
+          <attvalue for="0" value="substance" />
+          <attvalue for="1" value="47887.017956380005" />
+        </attvalues>
+      </node>
+      <node id="SUB::Formaldehido" label="Formaldehyde">
+        <attvalues>
+          <attvalue for="0" value="substance" />
+          <attvalue for="1" value="7732.217785733925" />
+        </attvalues>
+      </node>
+      <node id="SUB::Dibutilftalato" label="Dibutyl phthalate">
+        <attvalues>
+          <attvalue for="0" value="substance" />
+          <attvalue for="1" value="463.44999999999993" />
+        </attvalues>
+      </node>
+      <node id="SUB::Fenol" label="Phenol">
+        <attvalues>
+          <attvalue for="0" value="substance" />
+          <attvalue for="1" value="6336.143665" />
+        </attvalues>
+      </node>
+      <node id="SUB::Bióxido de carbono" label="Carbon dioxide">
+        <attvalues>
+          <attvalue for="0" value="substance" />
+          <attvalue for="1" value="53967132514.21634" />
+        </attvalues>
+      </node>
+      <node id="SUB::Clorodifluorometano (HCFC-22)" label="Chlorodifluoromethane (HCFC-22)">
+        <attvalues>
+          <attvalue for="0" value="substance" />
+          <attvalue for="1" value="821267.1" />
+        </attvalues>
+      </node>
+      <node id="SUB::Estireno (fenil etileno)" label="Styrene (phenylethylene)">
+        <attvalues>
+          <attvalue for="0" value="substance" />
+          <attvalue for="1" value="11537.024" />
+        </attvalues>
+      </node>
+      <node id="SUB::Epiclorhidrina" label="Epichlorohydrin">
+        <attvalues>
+          <attvalue for="0" value="substance" />
+          <attvalue for="1" value="220.89999999999998" />
+        </attvalues>
+      </node>
+      <node id="SUB::Dioxinas" label="Dioxins">
+        <attvalues>
+          <attvalue for="0" value="substance" />
+          <attvalue for="1" value="0.016233455201762996" />
+        </attvalues>
+      </node>
+      <node id="SUB::Furanos" label="Furans">
+        <attvalues>
+          <attvalue for="0" value="substance" />
+          <attvalue for="1" value="0.00799401237702" />
+        </attvalues>
+      </node>
+      <node id="SUB::Benceno" label="Benzene">
+        <attvalues>
+          <attvalue for="0" value="substance" />
+          <attvalue for="1" value="375137.09769205854" />
+        </attvalues>
+      </node>
+      <node id="SUB::1,4-Diclorobenceno" label="1,4-Dichlorobenzene">
+        <attvalues>
+          <attvalue for="0" value="substance" />
+          <attvalue for="1" value="0.078887232" />
+        </attvalues>
+      </node>
+      <node id="SUB::Asbesto y sus formas (En forma de polvo, fibras o productos desmenuzables con la presión de la mano)" label="Asbestos and its forms (as dust, fibers or friable products that crumble under hand pressure)">
+        <attvalues>
+          <attvalue for="0" value="substance" />
+          <attvalue for="1" value="255879.11879999997" />
+        </attvalues>
+      </node>
+      <node id="SUB::Metano" label="Methane">
+        <attvalues>
+          <attvalue for="0" value="substance" />
+          <attvalue for="1" value="14254785.6677036" />
+        </attvalues>
+      </node>
+      <node id="SUB::Tolueno diisocianato" label="Toluene diisocyanate">
+        <attvalues>
+          <attvalue for="0" value="substance" />
+          <attvalue for="1" value="14136.4" />
+        </attvalues>
+      </node>
+      <node id="SUB::Triclorofluoroetano (CFC-11)" label="Trichlorofluoroethane (CFC-11)">
+        <attvalues>
+          <attvalue for="0" value="substance" />
+          <attvalue for="1" value="8419.460000000001" />
+        </attvalues>
+      </node>
+      <node id="SUB::Diclorodifluorometano (CFC-12)" label="Dichlorodifluoromethane (CFC-12)">
+        <attvalues>
+          <attvalue for="0" value="substance" />
+          <attvalue for="1" value="17386.15" />
+        </attvalues>
+      </node>
+      <node id="SUB::Acrilonitrilo" label="Acrylonitrile">
+        <attvalues>
+          <attvalue for="0" value="substance" />
+          <attvalue for="1" value="10620.474" />
+        </attvalues>
+      </node>
+      <node id="SUB::Bióxido de nitrógeno" label="Nitrogen dioxide">
+        <attvalues>
+          <attvalue for="0" value="substance" />
+          <attvalue for="1" value="1018410.09384" />
+        </attvalues>
+      </node>
+      <node id="SUB::Endosulfan" label="Endosulfan">
+        <attvalues>
+          <attvalue for="0" value="substance" />
+          <attvalue for="1" value="10.200000068" />
+        </attvalues>
+      </node>
+      <node id="SUB::Clorometano" label="Chloromethane">
+        <attvalues>
+          <attvalue for="0" value="substance" />
+          <attvalue for="1" value="196916.85" />
+        </attvalues>
+      </node>
+      <node id="SUB::Oxido nitroso" label="Nitrous oxide">
+        <attvalues>
+          <attvalue for="0" value="substance" />
+          <attvalue for="1" value="749927547.2329295" />
+        </attvalues>
+      </node>
+      <node id="SUB::Acroleina" label="Acrolein">
+        <attvalues>
+          <attvalue for="0" value="substance" />
+          <attvalue for="1" value="116.52110583427351" />
+        </attvalues>
+      </node>
+      <node id="SUB::Acetaldehido" label="Acetaldehyde">
+        <attvalues>
+          <attvalue for="0" value="substance" />
+          <attvalue for="1" value="6503.264936039435" />
+        </attvalues>
+      </node>
+      <node id="SUB::Pentaclorofenol" label="Pentachlorophenol">
+        <attvalues>
+          <attvalue for="0" value="substance" />
+          <attvalue for="1" value="5.40031e-05" />
+        </attvalues>
+      </node>
+      <node id="SUB::Acido sulfhídrico" label="Hydrogen sulfide">
+        <attvalues>
+          <attvalue for="0" value="substance" />
+          <attvalue for="1" value="252867.0" />
+        </attvalues>
+      </node>
+      <node id="SUB::Acrilamina" label="Acrylamide">
+        <attvalues>
+          <attvalue for="0" value="substance" />
+          <attvalue for="1" value="67.7" />
+        </attvalues>
+      </node>
+      <node id="SUB::1,1,1-Tricloroetano" label="1,1,1-Trichloroethane">
+        <attvalues>
+          <attvalue for="0" value="substance" />
+          <attvalue for="1" value="0.0504719" />
+        </attvalues>
+      </node>
+      <node id="SUB::Hidrofluorocarbonos" label="Hydrofluorocarbons">
+        <attvalues>
+          <attvalue for="0" value="substance" />
+          <attvalue for="1" value="8498.1175" />
+        </attvalues>
+      </node>
+      <node id="SUB::Acetato de vinilo" label="Vinyl acetate">
+        <attvalues>
+          <attvalue for="0" value="substance" />
+          <attvalue for="1" value="1018.562" />
+        </attvalues>
+      </node>
+      <node id="SUB::Tolueno" label="Toluene">
+        <attvalues>
+          <attvalue for="0" value="substance" />
+          <attvalue for="1" value="184727.24" />
+        </attvalues>
+      </node>
+      <node id="SUB::Xileno (mezcla de isómeros)" label="Xylene (mixture of isomers)">
+        <attvalues>
+          <attvalue for="0" value="substance" />
+          <attvalue for="1" value="147463.42500000002" />
+        </attvalues>
+      </node>
+      <node id="SUB::Diisocianato de difenilmetano polimérico" label="Polymeric diphenylmethane diisocyanate">
+        <attvalues>
+          <attvalue for="0" value="substance" />
+          <attvalue for="1" value="24667.12" />
+        </attvalues>
+      </node>
+      <node id="SUB::Hexafluoruro de azufre" label="Sulfur hexafluoride">
+        <attvalues>
+          <attvalue for="0" value="substance" />
+          <attvalue for="1" value="10.0" />
+        </attvalues>
+      </node>
+      <node id="SUB::Sulfato de cobre" label="Copper sulfate">
+        <attvalues>
+          <attvalue for="0" value="substance" />
+          <attvalue for="1" value="4987553.0" />
+        </attvalues>
+      </node>
+      <node id="SUB::2-Etoxietanol (Termonoetilico de etilenglicol)" label="2-Ethoxyethanol (ethylene glycol monoethyl ether)">
+        <attvalues>
+          <attvalue for="0" value="substance" />
+          <attvalue for="1" value="400.45000000000005" />
+        </attvalues>
+      </node>
+      <node id="SUB::Clorpirifos" label="Chlorpyrifos">
+        <attvalues>
+          <attvalue for="0" value="substance" />
+          <attvalue for="1" value="1811.540616" />
+        </attvalues>
+      </node>
+      <node id="SUB::Benzo(a)antraceno" label="Benzo(a)anthracene">
+        <attvalues>
+          <attvalue for="0" value="substance" />
+          <attvalue for="1" value="5.88" />
+        </attvalues>
+      </node>
+      <node id="SUB::Antimonio trióxido" label="Antimony trioxide">
+        <attvalues>
+          <attvalue for="0" value="substance" />
+          <attvalue for="1" value="36000.0" />
+        </attvalues>
+      </node>
+      <node id="SUB::Diclorotetrafluoroetano (CFC-114)" label="Dichlorotetrafluoroethane (CFC-114)">
+        <attvalues>
+          <attvalue for="0" value="substance" />
+          <attvalue for="1" value="9336.0" />
+        </attvalues>
+      </node>
+      <node id="SUB::Metil paration" label="Methyl parathion">
+        <attvalues>
+          <attvalue for="0" value="substance" />
+          <attvalue for="1" value="12.399999999999999" />
+        </attvalues>
+      </node>
+      <node id="SUB::Anilina" label="Aniline">
+        <attvalues>
+          <attvalue for="0" value="substance" />
+          <attvalue for="1" value="315.66999999999996" />
+        </attvalues>
+      </node>
+      <node id="SUB::Bifenilos policlorados" label="Polychlorinated biphenyls (PCBs)">
+        <attvalues>
+          <attvalue for="0" value="substance" />
+          <attvalue for="1" value="93462.11420000001" />
+        </attvalues>
+      </node>
+      <node id="SUB::Bromuro de metilo" label="Methyl bromide">
+        <attvalues>
+          <attvalue for="0" value="substance" />
+          <attvalue for="1" value="7.9" />
+        </attvalues>
+      </node>
+      <node id="SUB::Acenafteno" label="Acenaphthene">
+        <attvalues>
+          <attvalue for="0" value="substance" />
+          <attvalue for="1" value="1650.0" />
+        </attvalues>
+      </node>
+    </nodes>
+    <edges>
+      <edge source="LOC::Jalisco.Guadalajara" target="SUB::Cromo (Compuestos solubles)" id="0" weight="105957.94994729">
+        <attvalues>
+          <attvalue for="2" value="130" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Jalisco.Guadalajara" target="SUB::Níquel (Compuestos solubles)" id="1" weight="469869.253338126">
+        <attvalues>
+          <attvalue for="2" value="178" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Jalisco.Guadalajara" target="SUB::Cianuro inorgánico/orgánico" id="2" weight="8126.4186161998305">
+        <attvalues>
+          <attvalue for="2" value="289" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Jalisco.Guadalajara" target="SUB::Mercurio (Compuestos solubles)" id="3" weight="18.93695241">
+        <attvalues>
+          <attvalue for="2" value="15" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Jalisco.Guadalajara" target="SUB::Plomo (Compuestos solubles)" id="4" weight="5010.695742972">
+        <attvalues>
+          <attvalue for="2" value="94" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Jalisco.Guadalajara" target="SUB::Arsénico (polvos, respirables, vapores o humos)" id="5" weight="101.56804658353994">
+        <attvalues>
+          <attvalue for="2" value="179" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Jalisco.Guadalajara" target="SUB::Cadmio (polvos, respirables, vapores o humos)" id="6" weight="6909.3444754002">
+        <attvalues>
+          <attvalue for="2" value="162" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Jalisco.Guadalajara" target="SUB::Cromo (compuestos)" id="7" weight="70616.75898021407">
+        <attvalues>
+          <attvalue for="2" value="268" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Jalisco.Guadalajara" target="SUB::Mercurio (compuestos)" id="8" weight="3220.2128607511304">
+        <attvalues>
+          <attvalue for="2" value="207" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Jalisco.Guadalajara" target="SUB::Plomo (compuestos)" id="9" weight="17958.093822120296">
+        <attvalues>
+          <attvalue for="2" value="225" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Jalisco.Guadalajara" target="SUB::Níquel (compuestos)" id="10" weight="72412.40984386213">
+        <attvalues>
+          <attvalue for="2" value="273" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Jalisco.Guadalajara" target="SUB::Cadmio (compuestos)" id="11" weight="1731.1803238434002">
+        <attvalues>
+          <attvalue for="2" value="71" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Jalisco.Guadalajara" target="SUB::Arsénico (compuestos)" id="12" weight="13.556437812207001">
+        <attvalues>
+          <attvalue for="2" value="81" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Jalisco.Guadalajara" target="SUB::Mercurio (polvos, respirables, vapores o humos)" id="13" weight="84.6297224558">
+        <attvalues>
+          <attvalue for="2" value="32" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Jalisco.Guadalajara" target="SUB::Dibutilftalato" id="14" weight="463.44999999999993">
+        <attvalues>
+          <attvalue for="2" value="5" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Jalisco.Guadalajara" target="SUB::Bióxido de carbono" id="15" weight="11891682050.421654">
+        <attvalues>
+          <attvalue for="2" value="414" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Jalisco.Guadalajara" target="SUB::1,4-Diclorobenceno" id="16" weight="0.078887232">
+        <attvalues>
+          <attvalue for="2" value="7" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Jalisco.Guadalajara" target="SUB::Asbesto y sus formas (En forma de polvo, fibras o productos desmenuzables con la presión de la mano)" id="17" weight="8366.568799999997">
+        <attvalues>
+          <attvalue for="2" value="29" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Jalisco.Guadalajara" target="SUB::Formaldehido" id="18" weight="20.648002">
+        <attvalues>
+          <attvalue for="2" value="9" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Jalisco.Guadalajara" target="SUB::Benceno" id="19" weight="0.13662765600000001">
+        <attvalues>
+          <attvalue for="2" value="7" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Jalisco.Guadalajara" target="SUB::Metano" id="20" weight="895519.2028454">
+        <attvalues>
+          <attvalue for="2" value="16" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Jalisco.Guadalajara" target="SUB::Tolueno diisocianato" id="21" weight="14136.4">
+        <attvalues>
+          <attvalue for="2" value="7" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Jalisco.Guadalajara" target="SUB::Cloruro de metileno" id="22" weight="128596.87999999999">
+        <attvalues>
+          <attvalue for="2" value="11" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Jalisco.Guadalajara" target="SUB::Estireno (fenil etileno)" id="23" weight="92.49">
+        <attvalues>
+          <attvalue for="2" value="3" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Jalisco.Guadalajara" target="SUB::Acrilonitrilo" id="24" weight="175.524">
+        <attvalues>
+          <attvalue for="2" value="4" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Jalisco.Guadalajara" target="SUB::Tricloroetileno" id="25" weight="0.81">
+        <attvalues>
+          <attvalue for="2" value="3" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Jalisco.Guadalajara" target="SUB::Bióxido de nitrógeno" id="26" weight="7580.0">
+        <attvalues>
+          <attvalue for="2" value="2" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Jalisco.Guadalajara" target="SUB::Níquel (polvos respirables, humos o vapores)" id="27" weight="274.56039999999996">
+        <attvalues>
+          <attvalue for="2" value="13" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Jalisco.Guadalajara" target="SUB::Dioxinas" id="28" weight="2.2939900000000005e-06">
+        <attvalues>
+          <attvalue for="2" value="7" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Jalisco.Guadalajara" target="SUB::Furanos" id="29" weight="2.03038e-07">
+        <attvalues>
+          <attvalue for="2" value="7" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Jalisco.Guadalajara" target="SUB::Hidrofluorocarbonos" id="30" weight="272.6">
+        <attvalues>
+          <attvalue for="2" value="2" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Jalisco.Guadalajara" target="SUB::Plomo (polvos respirables, humos o vapores)" id="31" weight="3613.9699270259994">
+        <attvalues>
+          <attvalue for="2" value="22" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Jalisco.Guadalajara" target="SUB::Antimonio trióxido" id="32" weight="36000.0">
+        <attvalues>
+          <attvalue for="2" value="1" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Jalisco.Guadalajara" target="SUB::Clorodifluorometano (HCFC-22)" id="33" weight="2907.0">
+        <attvalues>
+          <attvalue for="2" value="1" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Jalisco.Guadalajara" target="SUB::Acido sulfhídrico" id="34" weight="4980.0">
+        <attvalues>
+          <attvalue for="2" value="2" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Jalisco.Guadalajara" target="SUB::Fenol" id="35" weight="0.08">
+        <attvalues>
+          <attvalue for="2" value="1" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Jalisco.Guadalajara" target="SUB::Oxido nitroso" id="36" weight="10.103">
+        <attvalues>
+          <attvalue for="2" value="1" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Jalisco.Guadalajara" target="SUB::Arsénico (Compuestos solubles)" id="37" weight="40.8385">
+        <attvalues>
+          <attvalue for="2" value="19" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Jalisco.Guadalajara" target="SUB::Cadmio (Compuestos solubles)" id="38" weight="639.9151651200002">
+        <attvalues>
+          <attvalue for="2" value="28" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Jalisco.Guadalajara" target="SUB::Bromuro de metilo" id="39" weight="7.9">
+        <attvalues>
+          <attvalue for="2" value="1" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Jalisco.Guadalajara" target="SUB::Cromo (polvos respirables, humos o vapores)" id="40" weight="33928.509999999995">
+        <attvalues>
+          <attvalue for="2" value="13" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Jalisco.Guadalajara" target="SUB::Sulfato de cobre" id="41" weight="285444.0">
+        <attvalues>
+          <attvalue for="2" value="3" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Jalisco.Guadalajara" target="SUB::Acetaldehido" id="42" weight="6503.0">
+        <attvalues>
+          <attvalue for="2" value="1" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Jalisco.Guadalajara" target="SUB::Bifenilos policlorados" id="43" weight="360.0">
+        <attvalues>
+          <attvalue for="2" value="2" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Jalisco.Zacoalco de Torres" target="SUB::Arsénico (polvos, respirables, vapores o humos)" id="44" weight="8.714492224999999">
+        <attvalues>
+          <attvalue for="2" value="6" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Jalisco.Zacoalco de Torres" target="SUB::Cianuro inorgánico/orgánico" id="45" weight="19.5733794">
+        <attvalues>
+          <attvalue for="2" value="6" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Jalisco.Zacoalco de Torres" target="SUB::Arsénico (compuestos)" id="46" weight="0.073146">
+        <attvalues>
+          <attvalue for="2" value="1" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Jalisco.Zacoalco de Torres" target="SUB::Cadmio (compuestos)" id="47" weight="0.344386">
+        <attvalues>
+          <attvalue for="2" value="2" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Jalisco.Zacoalco de Torres" target="SUB::Cromo (compuestos)" id="48" weight="0.8983">
+        <attvalues>
+          <attvalue for="2" value="2" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Jalisco.Zacoalco de Torres" target="SUB::Mercurio (compuestos)" id="49" weight="40.0239015">
+        <attvalues>
+          <attvalue for="2" value="4" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Jalisco.Zacoalco de Torres" target="SUB::Níquel (compuestos)" id="50" weight="11.859005750000001">
+        <attvalues>
+          <attvalue for="2" value="7" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Jalisco.Zacoalco de Torres" target="SUB::Plomo (compuestos)" id="51" weight="6.2702">
+        <attvalues>
+          <attvalue for="2" value="4" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Jalisco.Zacoalco de Torres" target="SUB::Cadmio (polvos, respirables, vapores o humos)" id="52" weight="0.9196482500000001">
+        <attvalues>
+          <attvalue for="2" value="3" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Jalisco.Zacoalco de Torres" target="SUB::Arsénico (Compuestos solubles)" id="53" weight="8.786200000000001">
+        <attvalues>
+          <attvalue for="2" value="8" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Jalisco.Zacoalco de Torres" target="SUB::Níquel (Compuestos solubles)" id="54" weight="8.5744">
+        <attvalues>
+          <attvalue for="2" value="10" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Jalisco.Zacoalco de Torres" target="SUB::Plomo (Compuestos solubles)" id="55" weight="36.13110000000002">
+        <attvalues>
+          <attvalue for="2" value="16" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Jalisco.Zacoalco de Torres" target="SUB::Cromo (Compuestos solubles)" id="56" weight="7.5784">
+        <attvalues>
+          <attvalue for="2" value="4" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Jalisco.Zacoalco de Torres" target="SUB::Cadmio (Compuestos solubles)" id="57" weight="1.6271">
+        <attvalues>
+          <attvalue for="2" value="2" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Jalisco.Zacoalco de Torres" target="SUB::Bióxido de carbono" id="58" weight="282969203.3299999">
+        <attvalues>
+          <attvalue for="2" value="11" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Jalisco.Zacoalco de Torres" target="SUB::Asbesto y sus formas (En forma de polvo, fibras o productos desmenuzables con la presión de la mano)" id="59" weight="1047.0">
+        <attvalues>
+          <attvalue for="2" value="1" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Jalisco.San Pedro Tlaquepaque" target="SUB::Cromo (Compuestos solubles)" id="60" weight="2125.4477149161">
+        <attvalues>
+          <attvalue for="2" value="39" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Jalisco.San Pedro Tlaquepaque" target="SUB::Níquel (Compuestos solubles)" id="61" weight="2123.4452751700005">
+        <attvalues>
+          <attvalue for="2" value="51" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Jalisco.San Pedro Tlaquepaque" target="SUB::Mercurio (Compuestos solubles)" id="62" weight="0.26431663">
+        <attvalues>
+          <attvalue for="2" value="5" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Jalisco.San Pedro Tlaquepaque" target="SUB::Plomo (Compuestos solubles)" id="63" weight="303.0510141682001">
+        <attvalues>
+          <attvalue for="2" value="42" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Jalisco.San Pedro Tlaquepaque" target="SUB::Cianuro inorgánico/orgánico" id="64" weight="1701.6585810659094">
+        <attvalues>
+          <attvalue for="2" value="62" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Jalisco.San Pedro Tlaquepaque" target="SUB::Arsénico (polvos, respirables, vapores o humos)" id="65" weight="572.6010666719066">
+        <attvalues>
+          <attvalue for="2" value="62" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Jalisco.San Pedro Tlaquepaque" target="SUB::Cadmio (polvos, respirables, vapores o humos)" id="66" weight="57.20751205824176">
+        <attvalues>
+          <attvalue for="2" value="46" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Jalisco.San Pedro Tlaquepaque" target="SUB::Plomo (compuestos)" id="67" weight="2537.7270507625435">
+        <attvalues>
+          <attvalue for="2" value="65" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Jalisco.San Pedro Tlaquepaque" target="SUB::Níquel (compuestos)" id="68" weight="1843.1106775470437">
+        <attvalues>
+          <attvalue for="2" value="60" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Jalisco.San Pedro Tlaquepaque" target="SUB::Mercurio (compuestos)" id="69" weight="35.96546890721901">
+        <attvalues>
+          <attvalue for="2" value="55" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Jalisco.San Pedro Tlaquepaque" target="SUB::Cadmio (compuestos)" id="70" weight="351.88132270499995">
+        <attvalues>
+          <attvalue for="2" value="21" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Jalisco.San Pedro Tlaquepaque" target="SUB::Arsénico (compuestos)" id="71" weight="93.2308456655">
+        <attvalues>
+          <attvalue for="2" value="23" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Jalisco.San Pedro Tlaquepaque" target="SUB::Cromo (compuestos)" id="72" weight="2724.2968548408007">
+        <attvalues>
+          <attvalue for="2" value="67" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Jalisco.San Pedro Tlaquepaque" target="SUB::Mercurio (polvos, respirables, vapores o humos)" id="73" weight="241.36015658313102">
+        <attvalues>
+          <attvalue for="2" value="28" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Jalisco.San Pedro Tlaquepaque" target="SUB::Arsénico (Compuestos solubles)" id="74" weight="175.63100000000003">
+        <attvalues>
+          <attvalue for="2" value="10" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Jalisco.San Pedro Tlaquepaque" target="SUB::Cadmio (Compuestos solubles)" id="75" weight="44.66210000000001">
+        <attvalues>
+          <attvalue for="2" value="12" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Jalisco.San Pedro Tlaquepaque" target="SUB::Bióxido de carbono" id="76" weight="6114711584.287503">
+        <attvalues>
+          <attvalue for="2" value="137" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Jalisco.San Pedro Tlaquepaque" target="SUB::Dioxinas" id="77" weight="0.0013139998000000002">
+        <attvalues>
+          <attvalue for="2" value="13" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Jalisco.San Pedro Tlaquepaque" target="SUB::Furanos" id="78" weight="0.0013139850000000004">
+        <attvalues>
+          <attvalue for="2" value="12" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Jalisco.San Pedro Tlaquepaque" target="SUB::Benceno" id="79" weight="60871.57453055">
+        <attvalues>
+          <attvalue for="2" value="16" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Jalisco.San Pedro Tlaquepaque" target="SUB::Bióxido de nitrógeno" id="80" weight="0.09384">
+        <attvalues>
+          <attvalue for="2" value="1" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Jalisco.San Pedro Tlaquepaque" target="SUB::1,1,1-Tricloroetano" id="81" weight="0.0504719">
+        <attvalues>
+          <attvalue for="2" value="1" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Jalisco.San Pedro Tlaquepaque" target="SUB::Formaldehido" id="82" weight="156.7057512">
+        <attvalues>
+          <attvalue for="2" value="2" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Jalisco.San Pedro Tlaquepaque" target="SUB::Plomo (polvos respirables, humos o vapores)" id="83" weight="161.740181644">
+        <attvalues>
+          <attvalue for="2" value="9" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Jalisco.San Pedro Tlaquepaque" target="SUB::Cromo (polvos respirables, humos o vapores)" id="84" weight="266.69369566">
+        <attvalues>
+          <attvalue for="2" value="11" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Jalisco.San Pedro Tlaquepaque" target="SUB::Níquel (polvos respirables, humos o vapores)" id="85" weight="17166.6275834">
+        <attvalues>
+          <attvalue for="2" value="15" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Jalisco.San Pedro Tlaquepaque" target="SUB::Tolueno" id="86" weight="24355.895999999997">
+        <attvalues>
+          <attvalue for="2" value="9" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Jalisco.San Pedro Tlaquepaque" target="SUB::2-Etoxietanol (Termonoetilico de etilenglicol)" id="87" weight="400.45000000000005">
+        <attvalues>
+          <attvalue for="2" value="5" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Jalisco.San Pedro Tlaquepaque" target="SUB::Metano" id="88" weight="1142415.1648">
+        <attvalues>
+          <attvalue for="2" value="4" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Jalisco.San Pedro Tlaquepaque" target="SUB::Cloruro de metileno" id="89" weight="485.0">
+        <attvalues>
+          <attvalue for="2" value="1" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Jalisco.San Pedro Tlaquepaque" target="SUB::Oxido nitroso" id="90" weight="1759228.6835119994">
+        <attvalues>
+          <attvalue for="2" value="13" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Jalisco.El Salto" target="SUB::Cromo (Compuestos solubles)" id="91" weight="306646.9386692969">
+        <attvalues>
+          <attvalue for="2" value="159" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Jalisco.El Salto" target="SUB::Níquel (Compuestos solubles)" id="92" weight="5488.982356727654">
+        <attvalues>
+          <attvalue for="2" value="150" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Jalisco.El Salto" target="SUB::Plomo (Compuestos solubles)" id="93" weight="19043.394378766996">
+        <attvalues>
+          <attvalue for="2" value="152" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Jalisco.El Salto" target="SUB::Mercurio (Compuestos solubles)" id="94" weight="25.876254497999998">
+        <attvalues>
+          <attvalue for="2" value="15" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Jalisco.El Salto" target="SUB::Arsénico (polvos, respirables, vapores o humos)" id="95" weight="1864.9939342815837">
+        <attvalues>
+          <attvalue for="2" value="132" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Jalisco.El Salto" target="SUB::Cianuro inorgánico/orgánico" id="96" weight="4189.554148310805">
+        <attvalues>
+          <attvalue for="2" value="164" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Jalisco.El Salto" target="SUB::Cadmio (polvos, respirables, vapores o humos)" id="97" weight="1616.8596421977004">
+        <attvalues>
+          <attvalue for="2" value="107" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Jalisco.El Salto" target="SUB::Mercurio (polvos, respirables, vapores o humos)" id="98" weight="2686.9018561374783">
+        <attvalues>
+          <attvalue for="2" value="68" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Jalisco.El Salto" target="SUB::Níquel (compuestos)" id="99" weight="18256.251016522976">
+        <attvalues>
+          <attvalue for="2" value="163" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Jalisco.El Salto" target="SUB::Arsénico (compuestos)" id="100" weight="21.504011785973603">
+        <attvalues>
+          <attvalue for="2" value="46" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Jalisco.El Salto" target="SUB::Cadmio (compuestos)" id="101" weight="54.839115608952795">
+        <attvalues>
+          <attvalue for="2" value="41" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Jalisco.El Salto" target="SUB::Cromo (compuestos)" id="102" weight="97069.28342594655">
+        <attvalues>
+          <attvalue for="2" value="156" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Jalisco.El Salto" target="SUB::Mercurio (compuestos)" id="103" weight="11.524710718691004">
+        <attvalues>
+          <attvalue for="2" value="102" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Jalisco.El Salto" target="SUB::Plomo (compuestos)" id="104" weight="56946.54357054642">
+        <attvalues>
+          <attvalue for="2" value="151" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Jalisco.El Salto" target="SUB::Arsénico (Compuestos solubles)" id="105" weight="115.963815228">
+        <attvalues>
+          <attvalue for="2" value="49" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Jalisco.El Salto" target="SUB::Cadmio (Compuestos solubles)" id="106" weight="186.41903818181808">
+        <attvalues>
+          <attvalue for="2" value="67" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Jalisco.El Salto" target="SUB::Bióxido de carbono" id="107" weight="2367309786.5211496">
+        <attvalues>
+          <attvalue for="2" value="248" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Jalisco.El Salto" target="SUB::Acrilonitrilo" id="108" weight="6794.950000000001">
+        <attvalues>
+          <attvalue for="2" value="11" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Jalisco.El Salto" target="SUB::Clorometano" id="109" weight="196916.85">
+        <attvalues>
+          <attvalue for="2" value="16" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Jalisco.El Salto" target="SUB::Clorodifluorometano (HCFC-22)" id="110" weight="8182.0">
+        <attvalues>
+          <attvalue for="2" value="6" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Jalisco.El Salto" target="SUB::Formaldehido" id="111" weight="2710.68116258">
+        <attvalues>
+          <attvalue for="2" value="13" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Jalisco.El Salto" target="SUB::Acroleina" id="112" weight="0.01697222">
+        <attvalues>
+          <attvalue for="2" value="4" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Jalisco.El Salto" target="SUB::Acetaldehido" id="113" weight="0.19330152">
+        <attvalues>
+          <attvalue for="2" value="4" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Jalisco.El Salto" target="SUB::Benceno" id="114" weight="865.16982898">
+        <attvalues>
+          <attvalue for="2" value="5" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Jalisco.El Salto" target="SUB::Bióxido de nitrógeno" id="115" weight="16280.0">
+        <attvalues>
+          <attvalue for="2" value="2" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Jalisco.El Salto" target="SUB::Dioxinas" id="116" weight="9.07467318e-05">
+        <attvalues>
+          <attvalue for="2" value="6" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Jalisco.El Salto" target="SUB::Cromo (polvos respirables, humos o vapores)" id="117" weight="439.92420649999997">
+        <attvalues>
+          <attvalue for="2" value="11" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Jalisco.El Salto" target="SUB::Metano" id="118" weight="241030.0">
+        <attvalues>
+          <attvalue for="2" value="1" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Jalisco.El Salto" target="SUB::Furanos" id="119" weight="9.03467318e-05">
+        <attvalues>
+          <attvalue for="2" value="4" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Jalisco.El Salto" target="SUB::Plomo (polvos respirables, humos o vapores)" id="120" weight="85056.552">
+        <attvalues>
+          <attvalue for="2" value="21" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Jalisco.El Salto" target="SUB::Xileno (mezcla de isómeros)" id="121" weight="47913.66">
+        <attvalues>
+          <attvalue for="2" value="5" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Jalisco.El Salto" target="SUB::Níquel (polvos respirables, humos o vapores)" id="122" weight="144.8201001">
+        <attvalues>
+          <attvalue for="2" value="6" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Jalisco.El Salto" target="SUB::Tolueno" id="123" weight="9656.18">
+        <attvalues>
+          <attvalue for="2" value="3" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Jalisco.El Salto" target="SUB::Diclorotetrafluoroetano (CFC-114)" id="124" weight="9336.0">
+        <attvalues>
+          <attvalue for="2" value="2" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Jalisco.El Salto" target="SUB::Oxido nitroso" id="125" weight="348.14500000000004">
+        <attvalues>
+          <attvalue for="2" value="3" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Jalisco.El Salto" target="SUB::Piridina" id="126" weight="68.0">
+        <attvalues>
+          <attvalue for="2" value="1" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Jalisco.El Salto" target="SUB::Cloruro de metileno" id="127" weight="960.0">
+        <attvalues>
+          <attvalue for="2" value="2" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Jalisco.El Salto" target="SUB::Asbesto y sus formas (En forma de polvo, fibras o productos desmenuzables con la presión de la mano)" id="128" weight="47299.5">
+        <attvalues>
+          <attvalue for="2" value="11" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Jalisco.El Salto" target="SUB::Acenafteno" id="129" weight="1650.0">
+        <attvalues>
+          <attvalue for="2" value="1" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Jalisco.Zapopan" target="SUB::Cromo (Compuestos solubles)" id="130" weight="72396.21704188">
+        <attvalues>
+          <attvalue for="2" value="98" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Jalisco.Zapopan" target="SUB::Mercurio (Compuestos solubles)" id="131" weight="1284.3294552172">
+        <attvalues>
+          <attvalue for="2" value="16" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Jalisco.Zapopan" target="SUB::Níquel (Compuestos solubles)" id="132" weight="178144.06279974608">
+        <attvalues>
+          <attvalue for="2" value="90" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Jalisco.Zapopan" target="SUB::Plomo (Compuestos solubles)" id="133" weight="87151.05432642999">
+        <attvalues>
+          <attvalue for="2" value="97" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Jalisco.Zapopan" target="SUB::Cianuro inorgánico/orgánico" id="134" weight="18320.99299808198">
+        <attvalues>
+          <attvalue for="2" value="97" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Jalisco.Zapopan" target="SUB::Arsénico (polvos, respirables, vapores o humos)" id="135" weight="79.36081124575">
+        <attvalues>
+          <attvalue for="2" value="48" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Jalisco.Zapopan" target="SUB::Cadmio (polvos, respirables, vapores o humos)" id="136" weight="29.4253306022">
+        <attvalues>
+          <attvalue for="2" value="40" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Jalisco.Zapopan" target="SUB::Mercurio (compuestos)" id="137" weight="58.96814876385">
+        <attvalues>
+          <attvalue for="2" value="58" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Jalisco.Zapopan" target="SUB::Cromo (compuestos)" id="138" weight="1150.7243926994">
+        <attvalues>
+          <attvalue for="2" value="57" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Jalisco.Zapopan" target="SUB::Cadmio (compuestos)" id="139" weight="59.28546484436002">
+        <attvalues>
+          <attvalue for="2" value="24" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Jalisco.Zapopan" target="SUB::Arsénico (compuestos)" id="140" weight="56.772413325885985">
+        <attvalues>
+          <attvalue for="2" value="27" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Jalisco.Zapopan" target="SUB::Plomo (compuestos)" id="141" weight="3212314.625794063">
+        <attvalues>
+          <attvalue for="2" value="71" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Jalisco.Zapopan" target="SUB::Níquel (compuestos)" id="142" weight="202421.3645267006">
+        <attvalues>
+          <attvalue for="2" value="82" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Jalisco.Zapopan" target="SUB::Mercurio (polvos, respirables, vapores o humos)" id="143" weight="39.421126935125">
+        <attvalues>
+          <attvalue for="2" value="30" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Jalisco.Zapopan" target="SUB::Arsénico (Compuestos solubles)" id="144" weight="4415.039899999998">
+        <attvalues>
+          <attvalue for="2" value="55" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Jalisco.Zapopan" target="SUB::Cadmio (Compuestos solubles)" id="145" weight="12576.677899999993">
+        <attvalues>
+          <attvalue for="2" value="47" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Jalisco.Zapopan" target="SUB::Bióxido de carbono" id="146" weight="1504104370.9016652">
+        <attvalues>
+          <attvalue for="2" value="231" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Jalisco.Zapopan" target="SUB::Clorodifluorometano (HCFC-22)" id="147" weight="10938.0">
+        <attvalues>
+          <attvalue for="2" value="9" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Jalisco.Zapopan" target="SUB::Oxido nitroso" id="148" weight="747885290.2542171">
+        <attvalues>
+          <attvalue for="2" value="5" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Jalisco.Zapopan" target="SUB::Acetaldehido" id="149" weight="0.0716345194354">
+        <attvalues>
+          <attvalue for="2" value="4" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Jalisco.Zapopan" target="SUB::Benceno" id="150" weight="0.0917594591046">
+        <attvalues>
+          <attvalue for="2" value="4" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Jalisco.Zapopan" target="SUB::Formaldehido" id="151" weight="0.0028699539235400003">
+        <attvalues>
+          <attvalue for="2" value="4" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Jalisco.Zapopan" target="SUB::Acroleina" id="152" weight="0.008633614273499998">
+        <attvalues>
+          <attvalue for="2" value="4" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Jalisco.Zapopan" target="SUB::Estireno (fenil etileno)" id="153" weight="11186.333999999999">
+        <attvalues>
+          <attvalue for="2" value="8" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Jalisco.Zapopan" target="SUB::Acetato de vinilo" id="154" weight="1018.562">
+        <attvalues>
+          <attvalue for="2" value="1" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Jalisco.Zapopan" target="SUB::Tolueno" id="155" weight="130295.16400000002">
+        <attvalues>
+          <attvalue for="2" value="5" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Jalisco.Zapopan" target="SUB::Xileno (mezcla de isómeros)" id="156" weight="99549.765">
+        <attvalues>
+          <attvalue for="2" value="11" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Jalisco.Zapopan" target="SUB::Dioxinas" id="157" weight="2.0722579963000014e-05">
+        <attvalues>
+          <attvalue for="2" value="18" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Jalisco.Zapopan" target="SUB::Furanos" id="158" weight="1.92350722e-06">
+        <attvalues>
+          <attvalue for="2" value="13" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Jalisco.Zapopan" target="SUB::Hidrofluorocarbonos" id="159" weight="2169.92">
+        <attvalues>
+          <attvalue for="2" value="5" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Jalisco.Zapopan" target="SUB::Cromo (polvos respirables, humos o vapores)" id="160" weight="20.594">
+        <attvalues>
+          <attvalue for="2" value="3" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Jalisco.Zapopan" target="SUB::Níquel (polvos respirables, humos o vapores)" id="161" weight="29268.964">
+        <attvalues>
+          <attvalue for="2" value="11" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Jalisco.Zapopan" target="SUB::Plomo (polvos respirables, humos o vapores)" id="162" weight="77395.55729999999">
+        <attvalues>
+          <attvalue for="2" value="30" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Jalisco.Zapopan" target="SUB::Bióxido de nitrógeno" id="163" weight="549240.0">
+        <attvalues>
+          <attvalue for="2" value="1" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Jalisco.Zapopan" target="SUB::Metano" id="164" weight="31352.678999999996">
+        <attvalues>
+          <attvalue for="2" value="5" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Jalisco.Zapopan" target="SUB::Anilina" id="165" weight="315.66999999999996">
+        <attvalues>
+          <attvalue for="2" value="6" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Jalisco.Zapopan" target="SUB::Bifenilos policlorados" id="166" weight="122.1">
+        <attvalues>
+          <attvalue for="2" value="2" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Jalisco.Amatitán" target="SUB::Cromo (Compuestos solubles)" id="167" weight="332.1408999999999">
+        <attvalues>
+          <attvalue for="2" value="14" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Jalisco.Amatitán" target="SUB::Mercurio (Compuestos solubles)" id="168" weight="0.0146">
+        <attvalues>
+          <attvalue for="2" value="1" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Jalisco.Amatitán" target="SUB::Níquel (Compuestos solubles)" id="169" weight="127.3328">
+        <attvalues>
+          <attvalue for="2" value="14" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Jalisco.Amatitán" target="SUB::Plomo (Compuestos solubles)" id="170" weight="176.247">
+        <attvalues>
+          <attvalue for="2" value="16" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Jalisco.Amatitán" target="SUB::Cianuro inorgánico/orgánico" id="171" weight="0.11826">
+        <attvalues>
+          <attvalue for="2" value="1" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Jalisco.Amatitán" target="SUB::Arsénico (polvos, respirables, vapores o humos)" id="172" weight="0.0146">
+        <attvalues>
+          <attvalue for="2" value="1" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Jalisco.Amatitán" target="SUB::Cadmio (polvos, respirables, vapores o humos)" id="173" weight="0.146">
+        <attvalues>
+          <attvalue for="2" value="1" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Jalisco.Amatitán" target="SUB::Cadmio (Compuestos solubles)" id="174" weight="55.1396">
+        <attvalues>
+          <attvalue for="2" value="9" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Jalisco.Ixtlahuacán de los Membrillos" target="SUB::Cromo (Compuestos solubles)" id="175" weight="3119.4287000000004">
+        <attvalues>
+          <attvalue for="2" value="30" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Jalisco.Ixtlahuacán de los Membrillos" target="SUB::Mercurio (Compuestos solubles)" id="176" weight="61.688258000000005">
+        <attvalues>
+          <attvalue for="2" value="3" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Jalisco.Ixtlahuacán de los Membrillos" target="SUB::Níquel (Compuestos solubles)" id="177" weight="765.68655">
+        <attvalues>
+          <attvalue for="2" value="29" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Jalisco.Ixtlahuacán de los Membrillos" target="SUB::Plomo (Compuestos solubles)" id="178" weight="3984.8831">
+        <attvalues>
+          <attvalue for="2" value="30" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Jalisco.Ixtlahuacán de los Membrillos" target="SUB::Cianuro inorgánico/orgánico" id="179" weight="505.3153455">
+        <attvalues>
+          <attvalue for="2" value="18" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Jalisco.Ixtlahuacán de los Membrillos" target="SUB::Arsénico (polvos, respirables, vapores o humos)" id="180" weight="30.9362252">
+        <attvalues>
+          <attvalue for="2" value="14" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Jalisco.Ixtlahuacán de los Membrillos" target="SUB::Cadmio (polvos, respirables, vapores o humos)" id="181" weight="12.614516999999998">
+        <attvalues>
+          <attvalue for="2" value="11" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Jalisco.Ixtlahuacán de los Membrillos" target="SUB::Mercurio (compuestos)" id="182" weight="1.0311426000000001">
+        <attvalues>
+          <attvalue for="2" value="9" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Jalisco.Ixtlahuacán de los Membrillos" target="SUB::Níquel (compuestos)" id="183" weight="496.6365707">
+        <attvalues>
+          <attvalue for="2" value="15" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Jalisco.Ixtlahuacán de los Membrillos" target="SUB::Plomo (compuestos)" id="184" weight="132.9069505">
+        <attvalues>
+          <attvalue for="2" value="15" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Jalisco.Ixtlahuacán de los Membrillos" target="SUB::Cromo (compuestos)" id="185" weight="61.908215000000006">
+        <attvalues>
+          <attvalue for="2" value="12" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Jalisco.Ixtlahuacán de los Membrillos" target="SUB::Arsénico (compuestos)" id="186" weight="3.9334461">
+        <attvalues>
+          <attvalue for="2" value="4" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Jalisco.Ixtlahuacán de los Membrillos" target="SUB::Cadmio (compuestos)" id="187" weight="4.089882">
+        <attvalues>
+          <attvalue for="2" value="4" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Jalisco.Ixtlahuacán de los Membrillos" target="SUB::Mercurio (polvos, respirables, vapores o humos)" id="188" weight="0.26405300000000004">
+        <attvalues>
+          <attvalue for="2" value="5" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Jalisco.Ixtlahuacán de los Membrillos" target="SUB::Arsénico (Compuestos solubles)" id="189" weight="403.47069999999997">
+        <attvalues>
+          <attvalue for="2" value="11" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Jalisco.Ixtlahuacán de los Membrillos" target="SUB::Cadmio (Compuestos solubles)" id="190" weight="1996.3542">
+        <attvalues>
+          <attvalue for="2" value="17" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Jalisco.Ixtlahuacán de los Membrillos" target="SUB::Formaldehido" id="191" weight="482.3000000000001">
+        <attvalues>
+          <attvalue for="2" value="10" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Jalisco.Ixtlahuacán de los Membrillos" target="SUB::Estireno (fenil etileno)" id="192" weight="258.2">
+        <attvalues>
+          <attvalue for="2" value="7" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Jalisco.Ixtlahuacán de los Membrillos" target="SUB::Epiclorhidrina" id="193" weight="220.89999999999998">
+        <attvalues>
+          <attvalue for="2" value="6" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Jalisco.Ixtlahuacán de los Membrillos" target="SUB::Bióxido de carbono" id="194" weight="601203518.5476">
+        <attvalues>
+          <attvalue for="2" value="47" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Jalisco.Ixtlahuacán de los Membrillos" target="SUB::Acido sulfhídrico" id="195" weight="247887.0">
+        <attvalues>
+          <attvalue for="2" value="1" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Jalisco.Ixtlahuacán de los Membrillos" target="SUB::Acrilamina" id="196" weight="67.7">
+        <attvalues>
+          <attvalue for="2" value="1" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Jalisco.Ixtlahuacán de los Membrillos" target="SUB::Níquel (polvos respirables, humos o vapores)" id="197" weight="46.24">
+        <attvalues>
+          <attvalue for="2" value="8" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Jalisco.Ixtlahuacán de los Membrillos" target="SUB::Dioxinas" id="198" weight="6.500000000000001e-07">
+        <attvalues>
+          <attvalue for="2" value="4" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Jalisco.Ixtlahuacán de los Membrillos" target="SUB::Metano" id="199" weight="121.18">
+        <attvalues>
+          <attvalue for="2" value="2" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Jalisco.Ixtlahuacán de los Membrillos" target="SUB::Asbesto y sus formas (En forma de polvo, fibras o productos desmenuzables con la presión de la mano)" id="200" weight="17983.0">
+        <attvalues>
+          <attvalue for="2" value="1" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Jalisco.Tlajomulco de Zúñiga" target="SUB::Cromo (Compuestos solubles)" id="201" weight="54583.44698300003">
+        <attvalues>
+          <attvalue for="2" value="63" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Jalisco.Tlajomulco de Zúñiga" target="SUB::Mercurio (Compuestos solubles)" id="202" weight="1783.6367507299997">
+        <attvalues>
+          <attvalue for="2" value="19" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Jalisco.Tlajomulco de Zúñiga" target="SUB::Níquel (Compuestos solubles)" id="203" weight="55991.67027500004">
+        <attvalues>
+          <attvalue for="2" value="58" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Jalisco.Tlajomulco de Zúñiga" target="SUB::Plomo (Compuestos solubles)" id="204" weight="70621.63636893">
+        <attvalues>
+          <attvalue for="2" value="63" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Jalisco.Tlajomulco de Zúñiga" target="SUB::Cianuro inorgánico/orgánico" id="205" weight="11298.11517070159">
+        <attvalues>
+          <attvalue for="2" value="78" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Jalisco.Tlajomulco de Zúñiga" target="SUB::Arsénico (polvos, respirables, vapores o humos)" id="206" weight="964.9075299736598">
+        <attvalues>
+          <attvalue for="2" value="45" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Jalisco.Tlajomulco de Zúñiga" target="SUB::Cadmio (polvos, respirables, vapores o humos)" id="207" weight="239.20707715452">
+        <attvalues>
+          <attvalue for="2" value="46" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Jalisco.Tlajomulco de Zúñiga" target="SUB::Piridina" id="208" weight="84.0">
+        <attvalues>
+          <attvalue for="2" value="3" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Jalisco.Tlajomulco de Zúñiga" target="SUB::Cloroformo" id="209" weight="4701.24">
+        <attvalues>
+          <attvalue for="2" value="12" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Jalisco.Tlajomulco de Zúñiga" target="SUB::Cloruro de metileno" id="210" weight="2557.326">
+        <attvalues>
+          <attvalue for="2" value="6" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Jalisco.Tlajomulco de Zúñiga" target="SUB::Tricloroetileno" id="211" weight="20050.79">
+        <attvalues>
+          <attvalue for="2" value="17" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Jalisco.Tlajomulco de Zúñiga" target="SUB::Cadmio (compuestos)" id="212" weight="2.540710732800001">
+        <attvalues>
+          <attvalue for="2" value="22" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Jalisco.Tlajomulco de Zúñiga" target="SUB::Arsénico (compuestos)" id="213" weight="1.7705469424748">
+        <attvalues>
+          <attvalue for="2" value="21" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Jalisco.Tlajomulco de Zúñiga" target="SUB::Cromo (compuestos)" id="214" weight="24481.927387166426">
+        <attvalues>
+          <attvalue for="2" value="63" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Jalisco.Tlajomulco de Zúñiga" target="SUB::Mercurio (compuestos)" id="215" weight="0.4357673426560001">
+        <attvalues>
+          <attvalue for="2" value="44" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Jalisco.Tlajomulco de Zúñiga" target="SUB::Níquel (compuestos)" id="216" weight="9663.236194577574">
+        <attvalues>
+          <attvalue for="2" value="58" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Jalisco.Tlajomulco de Zúñiga" target="SUB::Plomo (compuestos)" id="217" weight="564177.3813916186">
+        <attvalues>
+          <attvalue for="2" value="75" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Jalisco.Tlajomulco de Zúñiga" target="SUB::Mercurio (polvos, respirables, vapores o humos)" id="218" weight="962.5634174030004">
+        <attvalues>
+          <attvalue for="2" value="27" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Jalisco.Tlajomulco de Zúñiga" target="SUB::Arsénico (Compuestos solubles)" id="219" weight="4235.5638">
+        <attvalues>
+          <attvalue for="2" value="54" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Jalisco.Tlajomulco de Zúñiga" target="SUB::Cadmio (Compuestos solubles)" id="220" weight="23025.434600000008">
+        <attvalues>
+          <attvalue for="2" value="48" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Jalisco.Tlajomulco de Zúñiga" target="SUB::Bióxido de carbono" id="221" weight="876338351.2352018">
+        <attvalues>
+          <attvalue for="2" value="124" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Jalisco.Tlajomulco de Zúñiga" target="SUB::Triclorofluoroetano (CFC-11)" id="222" weight="8419.460000000001">
+        <attvalues>
+          <attvalue for="2" value="5" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Jalisco.Tlajomulco de Zúñiga" target="SUB::Diclorodifluorometano (CFC-12)" id="223" weight="14986.150000000001">
+        <attvalues>
+          <attvalue for="2" value="5" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Jalisco.Tlajomulco de Zúñiga" target="SUB::Endosulfan" id="224" weight="10.200000068">
+        <attvalues>
+          <attvalue for="2" value="9" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Jalisco.Tlajomulco de Zúñiga" target="SUB::Formaldehido" id="225" weight="44.0">
+        <attvalues>
+          <attvalue for="2" value="2" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Jalisco.Tlajomulco de Zúñiga" target="SUB::Pentaclorofenol" id="226" weight="5.40031e-05">
+        <attvalues>
+          <attvalue for="2" value="2" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Jalisco.Tlajomulco de Zúñiga" target="SUB::Clorodifluorometano (HCFC-22)" id="227" weight="64.0">
+        <attvalues>
+          <attvalue for="2" value="1" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Jalisco.Tlajomulco de Zúñiga" target="SUB::Níquel (polvos respirables, humos o vapores)" id="228" weight="320.8744398799999">
+        <attvalues>
+          <attvalue for="2" value="11" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Jalisco.Tlajomulco de Zúñiga" target="SUB::Plomo (polvos respirables, humos o vapores)" id="229" weight="72527.921498">
+        <attvalues>
+          <attvalue for="2" value="25" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Jalisco.Tlajomulco de Zúñiga" target="SUB::Hidrofluorocarbonos" id="230" weight="5746.8075">
+        <attvalues>
+          <attvalue for="2" value="9" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Jalisco.Tlajomulco de Zúñiga" target="SUB::Dioxinas" id="231" weight="0.005107488">
+        <attvalues>
+          <attvalue for="2" value="10" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Jalisco.Tlajomulco de Zúñiga" target="SUB::Furanos" id="232" weight="0.0045000000000000005">
+        <attvalues>
+          <attvalue for="2" value="6" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Jalisco.Tlajomulco de Zúñiga" target="SUB::Tolueno" id="233" weight="20420.0">
+        <attvalues>
+          <attvalue for="2" value="4" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Jalisco.Tlajomulco de Zúñiga" target="SUB::Diisocianato de difenilmetano polimérico" id="234" weight="24667.12">
+        <attvalues>
+          <attvalue for="2" value="6" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Jalisco.Tlajomulco de Zúñiga" target="SUB::Hexafluoruro de azufre" id="235" weight="10.0">
+        <attvalues>
+          <attvalue for="2" value="1" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Jalisco.Tlajomulco de Zúñiga" target="SUB::Fenol" id="236" weight="6336.0">
+        <attvalues>
+          <attvalue for="2" value="1" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Jalisco.Tlajomulco de Zúñiga" target="SUB::Sulfato de cobre" id="237" weight="4702109.0">
+        <attvalues>
+          <attvalue for="2" value="7" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Jalisco.Tlajomulco de Zúñiga" target="SUB::Metano" id="238" weight="101670.3410582">
+        <attvalues>
+          <attvalue for="2" value="10" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Jalisco.Tlajomulco de Zúñiga" target="SUB::Metil paration" id="239" weight="12.399999999999999">
+        <attvalues>
+          <attvalue for="2" value="4" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Jalisco.Tlajomulco de Zúñiga" target="SUB::Acrilonitrilo" id="240" weight="3650.0">
+        <attvalues>
+          <attvalue for="2" value="2" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Jalisco.Tlajomulco de Zúñiga" target="SUB::Clorpirifos" id="241" weight="1681.1">
+        <attvalues>
+          <attvalue for="2" value="5" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Jalisco.Tlajomulco de Zúñiga" target="SUB::Asbesto y sus formas (En forma de polvo, fibras o productos desmenuzables con la presión de la mano)" id="242" weight="36179.0">
+        <attvalues>
+          <attvalue for="2" value="4" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Jalisco.Tlajomulco de Zúñiga" target="SUB::Bifenilos policlorados" id="243" weight="467.0">
+        <attvalues>
+          <attvalue for="2" value="1" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Jalisco.Zapotiltic" target="SUB::Cromo (Compuestos solubles)" id="244" weight="86.4840071174">
+        <attvalues>
+          <attvalue for="2" value="4" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Jalisco.Zapotiltic" target="SUB::Mercurio (Compuestos solubles)" id="245" weight="0.021668112">
+        <attvalues>
+          <attvalue for="2" value="3" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Jalisco.Zapotiltic" target="SUB::Níquel (Compuestos solubles)" id="246" weight="4.2786228">
+        <attvalues>
+          <attvalue for="2" value="3" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Jalisco.Zapotiltic" target="SUB::Plomo (Compuestos solubles)" id="247" weight="47.1776724237">
+        <attvalues>
+          <attvalue for="2" value="4" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Jalisco.Zapotiltic" target="SUB::Cianuro inorgánico/orgánico" id="248" weight="11.883088854400002">
+        <attvalues>
+          <attvalue for="2" value="16" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Jalisco.Zapotiltic" target="SUB::Arsénico (polvos, respirables, vapores o humos)" id="249" weight="184.03611715809998">
+        <attvalues>
+          <attvalue for="2" value="32" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Jalisco.Zapotiltic" target="SUB::Cadmio (polvos, respirables, vapores o humos)" id="250" weight="36.953626654800004">
+        <attvalues>
+          <attvalue for="2" value="28" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Jalisco.Zapotiltic" target="SUB::Níquel (compuestos)" id="251" weight="137.66578061299998">
+        <attvalues>
+          <attvalue for="2" value="11" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Jalisco.Zapotiltic" target="SUB::Mercurio (compuestos)" id="252" weight="177.17974819">
+        <attvalues>
+          <attvalue for="2" value="17" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Jalisco.Zapotiltic" target="SUB::Plomo (compuestos)" id="253" weight="1523.438463703">
+        <attvalues>
+          <attvalue for="2" value="21" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Jalisco.Zapotiltic" target="SUB::Cromo (compuestos)" id="254" weight="465.305617801">
+        <attvalues>
+          <attvalue for="2" value="21" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Jalisco.Zapotiltic" target="SUB::Dioxinas" id="255" weight="0.0020873697999999998">
+        <attvalues>
+          <attvalue for="2" value="14" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Jalisco.Zapotiltic" target="SUB::Furanos" id="256" weight="0.0020873697999999998">
+        <attvalues>
+          <attvalue for="2" value="14" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Jalisco.Zapotiltic" target="SUB::Bióxido de carbono" id="257" weight="10632574455.081001">
+        <attvalues>
+          <attvalue for="2" value="33" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Jalisco.Zapotiltic" target="SUB::Benceno" id="258" weight="122280.1249454135">
+        <attvalues>
+          <attvalue for="2" value="17" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Jalisco.Zapotiltic" target="SUB::Mercurio (polvos, respirables, vapores o humos)" id="259" weight="400.64639490509995">
+        <attvalues>
+          <attvalue for="2" value="18" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Jalisco.Zapotiltic" target="SUB::Plomo (polvos respirables, humos o vapores)" id="260" weight="292.79200000000003">
+        <attvalues>
+          <attvalue for="2" value="7" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Jalisco.Zapotiltic" target="SUB::Cromo (polvos respirables, humos o vapores)" id="261" weight="539.3520000000001">
+        <attvalues>
+          <attvalue for="2" value="7" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Jalisco.Zapotiltic" target="SUB::Cadmio (compuestos)" id="262" weight="1.6183402">
+        <attvalues>
+          <attvalue for="2" value="7" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Jalisco.Zapotiltic" target="SUB::Metano" id="263" weight="0.01">
+        <attvalues>
+          <attvalue for="2" value="1" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Jalisco.Zapotiltic" target="SUB::Arsénico (compuestos)" id="264" weight="0.0676151">
+        <attvalues>
+          <attvalue for="2" value="6" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Jalisco.Poncitlán" target="SUB::Cromo (Compuestos solubles)" id="265" weight="350.915634675">
+        <attvalues>
+          <attvalue for="2" value="4" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Jalisco.Poncitlán" target="SUB::Mercurio (Compuestos solubles)" id="266" weight="282.98068329999995">
+        <attvalues>
+          <attvalue for="2" value="5" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Jalisco.Poncitlán" target="SUB::Níquel (Compuestos solubles)" id="267" weight="158.34271400000003">
+        <attvalues>
+          <attvalue for="2" value="5" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Jalisco.Poncitlán" target="SUB::Plomo (Compuestos solubles)" id="268" weight="139.207049">
+        <attvalues>
+          <attvalue for="2" value="4" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Jalisco.Poncitlán" target="SUB::Cianuro inorgánico/orgánico" id="269" weight="314.73518985759995">
+        <attvalues>
+          <attvalue for="2" value="12" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Jalisco.Poncitlán" target="SUB::Mercurio (polvos, respirables, vapores o humos)" id="270" weight="48.16659141795">
+        <attvalues>
+          <attvalue for="2" value="11" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Jalisco.Poncitlán" target="SUB::Arsénico (polvos, respirables, vapores o humos)" id="271" weight="275.75521884999995">
+        <attvalues>
+          <attvalue for="2" value="12" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Jalisco.Poncitlán" target="SUB::Cadmio (polvos, respirables, vapores o humos)" id="272" weight="281.550944">
+        <attvalues>
+          <attvalue for="2" value="6" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Jalisco.Poncitlán" target="SUB::Cloruro de metileno" id="273" weight="310461.9">
+        <attvalues>
+          <attvalue for="2" value="16" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Jalisco.Poncitlán" target="SUB::Mercurio (compuestos)" id="274" weight="4.1273067999999995">
+        <attvalues>
+          <attvalue for="2" value="5" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Jalisco.Poncitlán" target="SUB::Arsénico (compuestos)" id="275" weight="0.12238429999999999">
+        <attvalues>
+          <attvalue for="2" value="4" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Jalisco.Poncitlán" target="SUB::Cromo (compuestos)" id="276" weight="1049.2425765736764">
+        <attvalues>
+          <attvalue for="2" value="8" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Jalisco.Poncitlán" target="SUB::Níquel (compuestos)" id="277" weight="487.87951201676447">
+        <attvalues>
+          <attvalue for="2" value="8" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Jalisco.Poncitlán" target="SUB::Arsénico (Compuestos solubles)" id="278" weight="84.2733">
+        <attvalues>
+          <attvalue for="2" value="12" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Jalisco.Poncitlán" target="SUB::Cadmio (Compuestos solubles)" id="279" weight="282.7125">
+        <attvalues>
+          <attvalue for="2" value="1" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Jalisco.Poncitlán" target="SUB::Plomo (compuestos)" id="280" weight="396.335546">
+        <attvalues>
+          <attvalue for="2" value="5" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Jalisco.Poncitlán" target="SUB::Bióxido de carbono" id="281" weight="3901337628.3576">
+        <attvalues>
+          <attvalue for="2" value="36" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Jalisco.Poncitlán" target="SUB::Clorodifluorometano (HCFC-22)" id="282" weight="799176.1">
+        <attvalues>
+          <attvalue for="2" value="8" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Jalisco.Poncitlán" target="SUB::Bióxido de nitrógeno" id="283" weight="399710.0">
+        <attvalues>
+          <attvalue for="2" value="1" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Jalisco.Poncitlán" target="SUB::Dioxinas" id="284" weight="0.00761">
+        <attvalues>
+          <attvalue for="2" value="1" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Jalisco.Poncitlán" target="SUB::Benceno" id="285" weight="191120.0">
+        <attvalues>
+          <attvalue for="2" value="2" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Jalisco.Poncitlán" target="SUB::Diclorodifluorometano (CFC-12)" id="286" weight="2400.0">
+        <attvalues>
+          <attvalue for="2" value="2" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Jalisco.Poncitlán" target="SUB::Formaldehido" id="287" weight="100.0">
+        <attvalues>
+          <attvalue for="2" value="1" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Jalisco.Poncitlán" target="SUB::Metano" id="288" weight="3767.0">
+        <attvalues>
+          <attvalue for="2" value="2" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Jalisco.Poncitlán" target="SUB::Asbesto y sus formas (En forma de polvo, fibras o productos desmenuzables con la presión de la mano)" id="289" weight="109438.55">
+        <attvalues>
+          <attvalue for="2" value="16" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Jalisco.Poncitlán" target="SUB::Bifenilos policlorados" id="290" weight="90343.0">
+        <attvalues>
+          <attvalue for="2" value="5" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Jalisco.Chapala" target="SUB::Níquel (Compuestos solubles)" id="291" weight="165.72681930000002">
+        <attvalues>
+          <attvalue for="2" value="11" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Jalisco.Chapala" target="SUB::Cianuro inorgánico/orgánico" id="292" weight="403.53042999999997">
+        <attvalues>
+          <attvalue for="2" value="7" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Jalisco.Chapala" target="SUB::Arsénico (polvos, respirables, vapores o humos)" id="293" weight="10.1171904">
+        <attvalues>
+          <attvalue for="2" value="9" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Jalisco.Chapala" target="SUB::Cadmio (polvos, respirables, vapores o humos)" id="294" weight="62.62142060000001">
+        <attvalues>
+          <attvalue for="2" value="9" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Jalisco.Chapala" target="SUB::Níquel (compuestos)" id="295" weight="295.3790197">
+        <attvalues>
+          <attvalue for="2" value="8" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Jalisco.Chapala" target="SUB::Plomo (compuestos)" id="296" weight="163.773968">
+        <attvalues>
+          <attvalue for="2" value="8" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Jalisco.Chapala" target="SUB::Mercurio (compuestos)" id="297" weight="1.6924320000000002">
+        <attvalues>
+          <attvalue for="2" value="5" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Jalisco.Chapala" target="SUB::Cromo (compuestos)" id="298" weight="191.00795870000002">
+        <attvalues>
+          <attvalue for="2" value="7" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Jalisco.Chapala" target="SUB::Mercurio (polvos, respirables, vapores o humos)" id="299" weight="1909.0925756">
+        <attvalues>
+          <attvalue for="2" value="14" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Jalisco.Chapala" target="SUB::Cromo (Compuestos solubles)" id="300" weight="35.610200999999996">
+        <attvalues>
+          <attvalue for="2" value="13" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Jalisco.Chapala" target="SUB::Arsénico (Compuestos solubles)" id="301" weight="11.3096">
+        <attvalues>
+          <attvalue for="2" value="4" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Jalisco.Chapala" target="SUB::Plomo (Compuestos solubles)" id="302" weight="3.2257000000000002">
+        <attvalues>
+          <attvalue for="2" value="3" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Jalisco.Chapala" target="SUB::Bióxido de carbono" id="303" weight="85540560.0">
+        <attvalues>
+          <attvalue for="2" value="9" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Jalisco.Chapala" target="SUB::Cromo (polvos respirables, humos o vapores)" id="304" weight="8.635781">
+        <attvalues>
+          <attvalue for="2" value="3" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Jalisco.Chapala" target="SUB::Níquel (polvos respirables, humos o vapores)" id="305" weight="87.22133299999999">
+        <attvalues>
+          <attvalue for="2" value="3" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Jalisco.Chapala" target="SUB::Asbesto y sus formas (En forma de polvo, fibras o productos desmenuzables con la presión de la mano)" id="306" weight="28910.0">
+        <attvalues>
+          <attvalue for="2" value="3" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Jalisco.Tototlán" target="SUB::Cromo (Compuestos solubles)" id="307" weight="0.002813717633">
+        <attvalues>
+          <attvalue for="2" value="1" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Jalisco.Tototlán" target="SUB::Mercurio (Compuestos solubles)" id="308" weight="0.000595981261">
+        <attvalues>
+          <attvalue for="2" value="1" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Jalisco.Tototlán" target="SUB::Níquel (Compuestos solubles)" id="309" weight="0.005929783306">
+        <attvalues>
+          <attvalue for="2" value="1" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Jalisco.Tototlán" target="SUB::Plomo (Compuestos solubles)" id="310" weight="0.002393929686">
+        <attvalues>
+          <attvalue for="2" value="1" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Jalisco.Tototlán" target="SUB::Cianuro inorgánico/orgánico" id="311" weight="2.7628013386549997">
+        <attvalues>
+          <attvalue for="2" value="4" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Jalisco.Tototlán" target="SUB::Cadmio (polvos, respirables, vapores o humos)" id="312" weight="5.554462">
+        <attvalues>
+          <attvalue for="2" value="3" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Jalisco.Tototlán" target="SUB::Plomo (compuestos)" id="313" weight="6.2995">
+        <attvalues>
+          <attvalue for="2" value="3" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Jalisco.Tototlán" target="SUB::Níquel (compuestos)" id="314" weight="42.16492">
+        <attvalues>
+          <attvalue for="2" value="3" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Jalisco.Tototlán" target="SUB::Mercurio (compuestos)" id="315" weight="3.0696016499999996">
+        <attvalues>
+          <attvalue for="2" value="3" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Jalisco.Tototlán" target="SUB::Arsénico (polvos, respirables, vapores o humos)" id="316" weight="0.938192">
+        <attvalues>
+          <attvalue for="2" value="3" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Jalisco.Tototlán" target="SUB::Cromo (compuestos)" id="317" weight="9.127320000000001">
+        <attvalues>
+          <attvalue for="2" value="3" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Jalisco.Tototlán" target="SUB::Bióxido de carbono" id="318" weight="93555650.16">
+        <attvalues>
+          <attvalue for="2" value="4" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Jalisco.Lagos de Moreno" target="SUB::Cianuro inorgánico/orgánico" id="319" weight="271.43313354599985">
+        <attvalues>
+          <attvalue for="2" value="26" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Jalisco.Lagos de Moreno" target="SUB::Arsénico (polvos, respirables, vapores o humos)" id="320" weight="47.05250037240002">
+        <attvalues>
+          <attvalue for="2" value="20" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Jalisco.Lagos de Moreno" target="SUB::Cromo (Compuestos solubles)" id="321" weight="164.16449334399996">
+        <attvalues>
+          <attvalue for="2" value="11" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Jalisco.Lagos de Moreno" target="SUB::Mercurio (Compuestos solubles)" id="322" weight="3.5878349812000003">
+        <attvalues>
+          <attvalue for="2" value="3" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Jalisco.Lagos de Moreno" target="SUB::Níquel (Compuestos solubles)" id="323" weight="101.95655387199999">
+        <attvalues>
+          <attvalue for="2" value="14" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Jalisco.Lagos de Moreno" target="SUB::Plomo (Compuestos solubles)" id="324" weight="179.49532964799997">
+        <attvalues>
+          <attvalue for="2" value="12" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Jalisco.Lagos de Moreno" target="SUB::Cadmio (polvos, respirables, vapores o humos)" id="325" weight="130.168204943">
+        <attvalues>
+          <attvalue for="2" value="14" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Jalisco.Lagos de Moreno" target="SUB::Mercurio (polvos, respirables, vapores o humos)" id="326" weight="5.499809709999999">
+        <attvalues>
+          <attvalue for="2" value="8" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Jalisco.Lagos de Moreno" target="SUB::Arsénico (compuestos)" id="327" weight="0.9760387380000001">
+        <attvalues>
+          <attvalue for="2" value="7" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Jalisco.Lagos de Moreno" target="SUB::Níquel (compuestos)" id="328" weight="252.006558183">
+        <attvalues>
+          <attvalue for="2" value="16" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Jalisco.Lagos de Moreno" target="SUB::Plomo (compuestos)" id="329" weight="262.51095">
+        <attvalues>
+          <attvalue for="2" value="17" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Jalisco.Lagos de Moreno" target="SUB::Cromo (compuestos)" id="330" weight="260.2643984399999">
+        <attvalues>
+          <attvalue for="2" value="17" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Jalisco.Lagos de Moreno" target="SUB::Plomo (polvos respirables, humos o vapores)" id="331" weight="68.39">
+        <attvalues>
+          <attvalue for="2" value="3" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Jalisco.Lagos de Moreno" target="SUB::Níquel (polvos respirables, humos o vapores)" id="332" weight="65.307">
+        <attvalues>
+          <attvalue for="2" value="6" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Jalisco.Lagos de Moreno" target="SUB::Cromo (polvos respirables, humos o vapores)" id="333" weight="6.529999999999999">
+        <attvalues>
+          <attvalue for="2" value="2" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Jalisco.Lagos de Moreno" target="SUB::Arsénico (Compuestos solubles)" id="334" weight="19.247949999999996">
+        <attvalues>
+          <attvalue for="2" value="9" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Jalisco.Lagos de Moreno" target="SUB::Cadmio (Compuestos solubles)" id="335" weight="16.1872">
+        <attvalues>
+          <attvalue for="2" value="8" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Jalisco.Lagos de Moreno" target="SUB::Mercurio (compuestos)" id="336" weight="0.69364179">
+        <attvalues>
+          <attvalue for="2" value="11" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Jalisco.Lagos de Moreno" target="SUB::Formaldehido" id="337" weight="223.0">
+        <attvalues>
+          <attvalue for="2" value="2" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Jalisco.Lagos de Moreno" target="SUB::Fenol" id="338" weight="0.063665">
+        <attvalues>
+          <attvalue for="2" value="1" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Jalisco.Lagos de Moreno" target="SUB::Bióxido de carbono" id="339" weight="2170638863.977211">
+        <attvalues>
+          <attvalue for="2" value="49" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Jalisco.Lagos de Moreno" target="SUB::Metano" id="340" weight="20858.98">
+        <attvalues>
+          <attvalue for="2" value="6" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Jalisco.Lagos de Moreno" target="SUB::Oxido nitroso" id="341" weight="139.7572">
+        <attvalues>
+          <attvalue for="2" value="2" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Jalisco.Lagos de Moreno" target="SUB::Cadmio (compuestos)" id="342" weight="0.43834700000000004">
+        <attvalues>
+          <attvalue for="2" value="3" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Jalisco.Tuxpan" target="SUB::Mercurio (polvos, respirables, vapores o humos)" id="343" weight="20.0818">
+        <attvalues>
+          <attvalue for="2" value="4" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Jalisco.Tuxpan" target="SUB::Arsénico (polvos, respirables, vapores o humos)" id="344" weight="804.3723303">
+        <attvalues>
+          <attvalue for="2" value="10" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Jalisco.Tuxpan" target="SUB::Cadmio (polvos, respirables, vapores o humos)" id="345" weight="96.476972">
+        <attvalues>
+          <attvalue for="2" value="7" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Jalisco.Tuxpan" target="SUB::Cianuro inorgánico/orgánico" id="346" weight="142.1799929">
+        <attvalues>
+          <attvalue for="2" value="7" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Jalisco.Tuxpan" target="SUB::Arsénico (compuestos)" id="347" weight="235.6208155">
+        <attvalues>
+          <attvalue for="2" value="4" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Jalisco.Tuxpan" target="SUB::Cadmio (compuestos)" id="348" weight="18.879124">
+        <attvalues>
+          <attvalue for="2" value="4" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Jalisco.Tuxpan" target="SUB::Mercurio (compuestos)" id="349" weight="15.12674">
+        <attvalues>
+          <attvalue for="2" value="7" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Jalisco.Tuxpan" target="SUB::Arsénico (Compuestos solubles)" id="350" weight="112.98870000000001">
+        <attvalues>
+          <attvalue for="2" value="8" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Jalisco.Tuxpan" target="SUB::Cromo (Compuestos solubles)" id="351" weight="123.1361">
+        <attvalues>
+          <attvalue for="2" value="7" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Jalisco.Tuxpan" target="SUB::Níquel (Compuestos solubles)" id="352" weight="134.8136">
+        <attvalues>
+          <attvalue for="2" value="7" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Jalisco.Tuxpan" target="SUB::Plomo (Compuestos solubles)" id="353" weight="110.5961">
+        <attvalues>
+          <attvalue for="2" value="8" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Jalisco.Tuxpan" target="SUB::Cadmio (Compuestos solubles)" id="354" weight="85.8494">
+        <attvalues>
+          <attvalue for="2" value="6" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Jalisco.Tuxpan" target="SUB::Plomo (compuestos)" id="355" weight="144.9130927">
+        <attvalues>
+          <attvalue for="2" value="2" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Jalisco.Tuxpan" target="SUB::Níquel (compuestos)" id="356" weight="150.38569625">
+        <attvalues>
+          <attvalue for="2" value="2" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Jalisco.Tuxpan" target="SUB::Cromo (compuestos)" id="357" weight="247.299418">
+        <attvalues>
+          <attvalue for="2" value="2" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Jalisco.Tuxpan" target="SUB::Bióxido de carbono" id="358" weight="869989922.0">
+        <attvalues>
+          <attvalue for="2" value="8" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Jalisco.Tuxpan" target="SUB::Plomo (polvos respirables, humos o vapores)" id="359" weight="192.64149999999995">
+        <attvalues>
+          <attvalue for="2" value="7" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Jalisco.Tuxpan" target="SUB::Níquel (polvos respirables, humos o vapores)" id="360" weight="480.75610000000006">
+        <attvalues>
+          <attvalue for="2" value="7" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Jalisco.Tuxpan" target="SUB::Cromo (polvos respirables, humos o vapores)" id="361" weight="8.0656">
+        <attvalues>
+          <attvalue for="2" value="5" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Jalisco.Tuxpan" target="SUB::Formaldehido" id="362" weight="3994.88">
+        <attvalues>
+          <attvalue for="2" value="1" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Jalisco.Tuxpan" target="SUB::Acroleina" id="363" weight="116.4955">
+        <attvalues>
+          <attvalue for="2" value="1" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Jalisco.Atotonilco el Alto" target="SUB::Cromo (Compuestos solubles)" id="364" weight="837.770161">
+        <attvalues>
+          <attvalue for="2" value="24" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Jalisco.Atotonilco el Alto" target="SUB::Mercurio (Compuestos solubles)" id="365" weight="0.0005005">
+        <attvalues>
+          <attvalue for="2" value="1" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Jalisco.Atotonilco el Alto" target="SUB::Níquel (Compuestos solubles)" id="366" weight="379.68267000000003">
+        <attvalues>
+          <attvalue for="2" value="23" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Jalisco.Atotonilco el Alto" target="SUB::Plomo (Compuestos solubles)" id="367" weight="439.36151699999994">
+        <attvalues>
+          <attvalue for="2" value="23" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Jalisco.Atotonilco el Alto" target="SUB::Cianuro inorgánico/orgánico" id="368" weight="37.6635139109">
+        <attvalues>
+          <attvalue for="2" value="12" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Jalisco.Atotonilco el Alto" target="SUB::Arsénico (polvos, respirables, vapores o humos)" id="369" weight="141.65480165200003">
+        <attvalues>
+          <attvalue for="2" value="7" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Jalisco.Atotonilco el Alto" target="SUB::Cadmio (polvos, respirables, vapores o humos)" id="370" weight="13.711658577">
+        <attvalues>
+          <attvalue for="2" value="7" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Jalisco.Atotonilco el Alto" target="SUB::Arsénico (compuestos)" id="371" weight="18.1690532092">
+        <attvalues>
+          <attvalue for="2" value="9" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Jalisco.Atotonilco el Alto" target="SUB::Cadmio (compuestos)" id="372" weight="24.4964695882">
+        <attvalues>
+          <attvalue for="2" value="9" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Jalisco.Atotonilco el Alto" target="SUB::Cromo (compuestos)" id="373" weight="406.5602407364">
+        <attvalues>
+          <attvalue for="2" value="12" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Jalisco.Atotonilco el Alto" target="SUB::Mercurio (compuestos)" id="374" weight="1203.161422312">
+        <attvalues>
+          <attvalue for="2" value="8" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Jalisco.Atotonilco el Alto" target="SUB::Plomo (compuestos)" id="375" weight="270.3459206559999">
+        <attvalues>
+          <attvalue for="2" value="12" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Jalisco.Atotonilco el Alto" target="SUB::Níquel (compuestos)" id="376" weight="376.9583795584">
+        <attvalues>
+          <attvalue for="2" value="12" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Jalisco.Atotonilco el Alto" target="SUB::Mercurio (polvos, respirables, vapores o humos)" id="377" weight="0.8531372300000001">
+        <attvalues>
+          <attvalue for="2" value="4" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Jalisco.Atotonilco el Alto" target="SUB::Arsénico (Compuestos solubles)" id="378" weight="59.57835999999999">
+        <attvalues>
+          <attvalue for="2" value="21" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Jalisco.Atotonilco el Alto" target="SUB::Cadmio (Compuestos solubles)" id="379" weight="141.42601000000002">
+        <attvalues>
+          <attvalue for="2" value="22" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Jalisco.Atotonilco el Alto" target="SUB::Bióxido de carbono" id="380" weight="120959922.606819">
+        <attvalues>
+          <attvalue for="2" value="7" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Jalisco.Atotonilco el Alto" target="SUB::Hidrofluorocarbonos" id="381" weight="308.79">
+        <attvalues>
+          <attvalue for="2" value="1" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Jalisco.Tala" target="SUB::Cianuro inorgánico/orgánico" id="382" weight="13.31662482">
+        <attvalues>
+          <attvalue for="2" value="7" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Jalisco.Tala" target="SUB::Arsénico (compuestos)" id="383" weight="128.166908">
+        <attvalues>
+          <attvalue for="2" value="4" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Jalisco.Tala" target="SUB::Cadmio (compuestos)" id="384" weight="13.180112000000001">
+        <attvalues>
+          <attvalue for="2" value="4" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Jalisco.Tala" target="SUB::Cromo (compuestos)" id="385" weight="66.2298">
+        <attvalues>
+          <attvalue for="2" value="6" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Jalisco.Tala" target="SUB::Mercurio (compuestos)" id="386" weight="0.019837800000000003">
+        <attvalues>
+          <attvalue for="2" value="5" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Jalisco.Tala" target="SUB::Níquel (compuestos)" id="387" weight="65.59390707">
+        <attvalues>
+          <attvalue for="2" value="7" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Jalisco.Tala" target="SUB::Plomo (compuestos)" id="388" weight="66.02539">
+        <attvalues>
+          <attvalue for="2" value="7" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Jalisco.Tala" target="SUB::Mercurio (polvos, respirables, vapores o humos)" id="389" weight="1.299554">
+        <attvalues>
+          <attvalue for="2" value="2" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Jalisco.Tala" target="SUB::Arsénico (polvos, respirables, vapores o humos)" id="390" weight="277.213856">
+        <attvalues>
+          <attvalue for="2" value="5" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Jalisco.Tala" target="SUB::Cadmio (polvos, respirables, vapores o humos)" id="391" weight="13.14239748">
+        <attvalues>
+          <attvalue for="2" value="4" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Jalisco.Tala" target="SUB::Arsénico (Compuestos solubles)" id="392" weight="244.3689">
+        <attvalues>
+          <attvalue for="2" value="10" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Jalisco.Tala" target="SUB::Cadmio (Compuestos solubles)" id="393" weight="36.42850000000001">
+        <attvalues>
+          <attvalue for="2" value="11" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Jalisco.Tala" target="SUB::Cromo (Compuestos solubles)" id="394" weight="266.8874">
+        <attvalues>
+          <attvalue for="2" value="15" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Jalisco.Tala" target="SUB::Níquel (Compuestos solubles)" id="395" weight="530.1853000000001">
+        <attvalues>
+          <attvalue for="2" value="14" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Jalisco.Tala" target="SUB::Plomo (Compuestos solubles)" id="396" weight="354.5216000000001">
+        <attvalues>
+          <attvalue for="2" value="15" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Jalisco.Tala" target="SUB::Cromo (polvos respirables, humos o vapores)" id="397" weight="26.42">
+        <attvalues>
+          <attvalue for="2" value="1" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Jalisco.Tala" target="SUB::Mercurio (Compuestos solubles)" id="398" weight="18.1876">
+        <attvalues>
+          <attvalue for="2" value="2" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Jalisco.Tala" target="SUB::Bióxido de carbono" id="399" weight="1407622551.7832003">
+        <attvalues>
+          <attvalue for="2" value="17" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Jalisco.Tala" target="SUB::Metano" id="400" weight="11818050.879999999">
+        <attvalues>
+          <attvalue for="2" value="4" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Jalisco.Tala" target="SUB::Benzo(a)antraceno" id="401" weight="5.88">
+        <attvalues>
+          <attvalue for="2" value="1" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Jalisco.Teocuitatlán de Corona" target="SUB::Mercurio (compuestos)" id="402" weight="0.0030474">
+        <attvalues>
+          <attvalue for="2" value="3" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Jalisco.Teocuitatlán de Corona" target="SUB::Arsénico (compuestos)" id="403" weight="8.4e-05">
+        <attvalues>
+          <attvalue for="2" value="1" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Jalisco.Teocuitatlán de Corona" target="SUB::Cadmio (compuestos)" id="404" weight="0.00021">
+        <attvalues>
+          <attvalue for="2" value="1" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Jalisco.Teocuitatlán de Corona" target="SUB::Cromo (compuestos)" id="405" weight="0.0021">
+        <attvalues>
+          <attvalue for="2" value="2" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Jalisco.Teocuitatlán de Corona" target="SUB::Níquel (compuestos)" id="406" weight="0.03769325">
+        <attvalues>
+          <attvalue for="2" value="3" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Jalisco.Teocuitatlán de Corona" target="SUB::Cianuro inorgánico/orgánico" id="407" weight="0.75915">
+        <attvalues>
+          <attvalue for="2" value="3" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Jalisco.Teocuitatlán de Corona" target="SUB::Plomo (compuestos)" id="408" weight="0.11305">
+        <attvalues>
+          <attvalue for="2" value="3" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Jalisco.Teocuitatlán de Corona" target="SUB::Arsénico (polvos, respirables, vapores o humos)" id="409" weight="0.006084">
+        <attvalues>
+          <attvalue for="2" value="2" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Jalisco.Teocuitatlán de Corona" target="SUB::Cadmio (polvos, respirables, vapores o humos)" id="410" weight="0.04226775">
+        <attvalues>
+          <attvalue for="2" value="2" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Jalisco.Teocuitatlán de Corona" target="SUB::Bióxido de carbono" id="411" weight="160976.49">
+        <attvalues>
+          <attvalue for="2" value="3" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Jalisco.Teocuitatlán de Corona" target="SUB::Oxido nitroso" id="412" weight="0.29">
+        <attvalues>
+          <attvalue for="2" value="2" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Jalisco.Pihuamo" target="SUB::Cianuro inorgánico/orgánico" id="413" weight="0.29625896659999995">
+        <attvalues>
+          <attvalue for="2" value="12" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Jalisco.Pihuamo" target="SUB::Níquel (compuestos)" id="414" weight="0.3077620592">
+        <attvalues>
+          <attvalue for="2" value="6" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Jalisco.Pihuamo" target="SUB::Cromo (compuestos)" id="415" weight="0.1609846513">
+        <attvalues>
+          <attvalue for="2" value="7" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Jalisco.Pihuamo" target="SUB::Mercurio (compuestos)" id="416" weight="2.76321e-05">
+        <attvalues>
+          <attvalue for="2" value="3" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Jalisco.Pihuamo" target="SUB::Arsénico (polvos, respirables, vapores o humos)" id="417" weight="0.104565006">
+        <attvalues>
+          <attvalue for="2" value="3" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Jalisco.Pihuamo" target="SUB::Plomo (compuestos)" id="418" weight="368.515186878">
+        <attvalues>
+          <attvalue for="2" value="5" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Jalisco.Pihuamo" target="SUB::Bióxido de carbono" id="419" weight="3975247.2">
+        <attvalues>
+          <attvalue for="2" value="4" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Jalisco.Pihuamo" target="SUB::Metano" id="420" weight="0.23">
+        <attvalues>
+          <attvalue for="2" value="1" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Jalisco.Pihuamo" target="SUB::Cadmio (compuestos)" id="421" weight="0.005724">
+        <attvalues>
+          <attvalue for="2" value="1" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Jalisco.Pihuamo" target="SUB::Mercurio (polvos, respirables, vapores o humos)" id="422" weight="1.621841">
+        <attvalues>
+          <attvalue for="2" value="2" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Jalisco.Pihuamo" target="SUB::Níquel (Compuestos solubles)" id="423" weight="45.9111">
+        <attvalues>
+          <attvalue for="2" value="2" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Jalisco.Pihuamo" target="SUB::Mercurio (Compuestos solubles)" id="424" weight="2.5409">
+        <attvalues>
+          <attvalue for="2" value="1" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Jalisco.Pihuamo" target="SUB::Plomo (Compuestos solubles)" id="425" weight="612.8075">
+        <attvalues>
+          <attvalue for="2" value="5" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Jalisco.Pihuamo" target="SUB::Cadmio (Compuestos solubles)" id="426" weight="26.25">
+        <attvalues>
+          <attvalue for="2" value="1" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Jalisco.Pihuamo" target="SUB::Bifenilos policlorados" id="427" weight="2170.0142">
+        <attvalues>
+          <attvalue for="2" value="2" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Jalisco.Tamazula de Gordiano" target="SUB::Cadmio (polvos, respirables, vapores o humos)" id="428" weight="14.3606234">
+        <attvalues>
+          <attvalue for="2" value="2" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Jalisco.Tamazula de Gordiano" target="SUB::Arsénico (polvos, respirables, vapores o humos)" id="429" weight="3.0636485999999996">
+        <attvalues>
+          <attvalue for="2" value="2" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Jalisco.Tamazula de Gordiano" target="SUB::Níquel (compuestos)" id="430" weight="101.60417301">
+        <attvalues>
+          <attvalue for="2" value="2" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Jalisco.Tamazula de Gordiano" target="SUB::Plomo (compuestos)" id="431" weight="107.82731463">
+        <attvalues>
+          <attvalue for="2" value="2" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Jalisco.Tamazula de Gordiano" target="SUB::Bióxido de carbono" id="432" weight="316738574.6053">
+        <attvalues>
+          <attvalue for="2" value="1" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Jalisco.Tamazula de Gordiano" target="SUB::Cromo (compuestos)" id="433" weight="35.95681474">
+        <attvalues>
+          <attvalue for="2" value="2" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Jalisco.Tamazula de Gordiano" target="SUB::Cadmio (compuestos)" id="434" weight="0.00048734">
+        <attvalues>
+          <attvalue for="2" value="1" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Jalisco.Tamazula de Gordiano" target="SUB::Arsénico (compuestos)" id="435" weight="0.00194936">
+        <attvalues>
+          <attvalue for="2" value="1" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Jalisco.Tamazula de Gordiano" target="SUB::Cianuro inorgánico/orgánico" id="436" weight="10.320217">
+        <attvalues>
+          <attvalue for="2" value="3" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Jalisco.Tamazula de Gordiano" target="SUB::Mercurio (compuestos)" id="437" weight="1.73958468">
+        <attvalues>
+          <attvalue for="2" value="3" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Jalisco.Zapotlanejo" target="SUB::Cianuro inorgánico/orgánico" id="438" weight="255.51583689999998">
+        <attvalues>
+          <attvalue for="2" value="4" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Jalisco.Zapotlanejo" target="SUB::Mercurio (polvos, respirables, vapores o humos)" id="439" weight="3044.486886">
+        <attvalues>
+          <attvalue for="2" value="3" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Jalisco.Zapotlanejo" target="SUB::Arsénico (polvos, respirables, vapores o humos)" id="440" weight="371.37169112000004">
+        <attvalues>
+          <attvalue for="2" value="4" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Jalisco.Zapotlanejo" target="SUB::Cadmio (polvos, respirables, vapores o humos)" id="441" weight="676.9317599999999">
+        <attvalues>
+          <attvalue for="2" value="5" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Jalisco.Zapotlanejo" target="SUB::Cromo (compuestos)" id="442" weight="3442.674336">
+        <attvalues>
+          <attvalue for="2" value="4" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Jalisco.Zapotlanejo" target="SUB::Níquel (compuestos)" id="443" weight="2015.1006608000002">
+        <attvalues>
+          <attvalue for="2" value="5" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Jalisco.Zapotlanejo" target="SUB::Plomo (compuestos)" id="444" weight="34.5531">
+        <attvalues>
+          <attvalue for="2" value="3" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Jalisco.Zapotlanejo" target="SUB::Cadmio (compuestos)" id="445" weight="0.6619">
+        <attvalues>
+          <attvalue for="2" value="1" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Jalisco.Zapotlanejo" target="SUB::Mercurio (compuestos)" id="446" weight="0.430433">
+        <attvalues>
+          <attvalue for="2" value="3" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Jalisco.Zapotlanejo" target="SUB::Arsénico (compuestos)" id="447" weight="0.364045">
+        <attvalues>
+          <attvalue for="2" value="1" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Jalisco.Zapotlanejo" target="SUB::Níquel (Compuestos solubles)" id="448" weight="2069.3709">
+        <attvalues>
+          <attvalue for="2" value="18" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Jalisco.Zapotlanejo" target="SUB::Cromo (Compuestos solubles)" id="449" weight="1350.8291">
+        <attvalues>
+          <attvalue for="2" value="15" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Jalisco.Zapotlanejo" target="SUB::Arsénico (Compuestos solubles)" id="450" weight="20.7639">
+        <attvalues>
+          <attvalue for="2" value="7" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Jalisco.Zapotlanejo" target="SUB::Cadmio (Compuestos solubles)" id="451" weight="102.7853">
+        <attvalues>
+          <attvalue for="2" value="9" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Jalisco.Zapotlanejo" target="SUB::Plomo (Compuestos solubles)" id="452" weight="179.83400000000003">
+        <attvalues>
+          <attvalue for="2" value="10" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Jalisco.Zapotlanejo" target="SUB::Bióxido de carbono" id="453" weight="5867498565.58">
+        <attvalues>
+          <attvalue for="2" value="8" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Jalisco.Ocotlán" target="SUB::Níquel (compuestos)" id="454" weight="55.253436">
+        <attvalues>
+          <attvalue for="2" value="3" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Jalisco.Ocotlán" target="SUB::Cianuro inorgánico/orgánico" id="455" weight="14024.773343">
+        <attvalues>
+          <attvalue for="2" value="4" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Jalisco.Ocotlán" target="SUB::Cadmio (polvos, respirables, vapores o humos)" id="456" weight="12.771953">
+        <attvalues>
+          <attvalue for="2" value="3" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Jalisco.Ocotlán" target="SUB::Plomo (compuestos)" id="457" weight="44.855859">
+        <attvalues>
+          <attvalue for="2" value="3" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Jalisco.Ocotlán" target="SUB::Arsénico (polvos, respirables, vapores o humos)" id="458" weight="2.661906">
+        <attvalues>
+          <attvalue for="2" value="3" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Jalisco.Ocotlán" target="SUB::Cromo (compuestos)" id="459" weight="17.964671">
+        <attvalues>
+          <attvalue for="2" value="3" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Jalisco.Ocotlán" target="SUB::Arsénico (Compuestos solubles)" id="460" weight="6.8591">
+        <attvalues>
+          <attvalue for="2" value="4" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Jalisco.Ocotlán" target="SUB::Cromo (Compuestos solubles)" id="461" weight="66.9725">
+        <attvalues>
+          <attvalue for="2" value="4" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Jalisco.Ocotlán" target="SUB::Níquel (Compuestos solubles)" id="462" weight="4402.5641">
+        <attvalues>
+          <attvalue for="2" value="7" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Jalisco.Ocotlán" target="SUB::Plomo (Compuestos solubles)" id="463" weight="113.83879999999999">
+        <attvalues>
+          <attvalue for="2" value="3" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Jalisco.Ocotlán" target="SUB::Cadmio (Compuestos solubles)" id="464" weight="27.9428">
+        <attvalues>
+          <attvalue for="2" value="2" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Jalisco.Ocotlán" target="SUB::Mercurio (compuestos)" id="465" weight="2.94">
+        <attvalues>
+          <attvalue for="2" value="2" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Jalisco.Ocotlán" target="SUB::Bióxido de nitrógeno" id="466" weight="45600.0">
+        <attvalues>
+          <attvalue for="2" value="2" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Jalisco.Ocotlán" target="SUB::Bióxido de carbono" id="467" weight="259743480.5982656">
+        <attvalues>
+          <attvalue for="2" value="14" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Jalisco.Ocotlán" target="SUB::Mercurio (polvos, respirables, vapores o humos)" id="468" weight="0.025">
+        <attvalues>
+          <attvalue for="2" value="1" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Jalisco.Ocotlán" target="SUB::Dioxinas" id="469" weight="1.843e-07">
+        <attvalues>
+          <attvalue for="2" value="1" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Jalisco.Ocotlán" target="SUB::Furanos" id="470" weight="1.843e-07">
+        <attvalues>
+          <attvalue for="2" value="1" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Jalisco.Tequila" target="SUB::Cadmio (Compuestos solubles)" id="471" weight="100.7758">
+        <attvalues>
+          <attvalue for="2" value="17" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Jalisco.Tequila" target="SUB::Cromo (Compuestos solubles)" id="472" weight="493.4025">
+        <attvalues>
+          <attvalue for="2" value="18" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Jalisco.Tequila" target="SUB::Níquel (Compuestos solubles)" id="473" weight="288.96520000000004">
+        <attvalues>
+          <attvalue for="2" value="17" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Jalisco.Tequila" target="SUB::Plomo (Compuestos solubles)" id="474" weight="357.08290000000005">
+        <attvalues>
+          <attvalue for="2" value="20" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Jalisco.Tequila" target="SUB::Arsénico (Compuestos solubles)" id="475" weight="13.510299999999999">
+        <attvalues>
+          <attvalue for="2" value="7" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Jalisco.Tequila" target="SUB::Cadmio (polvos, respirables, vapores o humos)" id="476" weight="70.4756">
+        <attvalues>
+          <attvalue for="2" value="3" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Jalisco.Tequila" target="SUB::Cromo (compuestos)" id="477" weight="343.378">
+        <attvalues>
+          <attvalue for="2" value="3" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Jalisco.Tequila" target="SUB::Mercurio (compuestos)" id="478" weight="5.9890139">
+        <attvalues>
+          <attvalue for="2" value="3" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Jalisco.Tequila" target="SUB::Níquel (compuestos)" id="479" weight="620.026">
+        <attvalues>
+          <attvalue for="2" value="3" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Jalisco.Tequila" target="SUB::Cianuro inorgánico/orgánico" id="480" weight="595.1675988999999">
+        <attvalues>
+          <attvalue for="2" value="3" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Jalisco.Tequila" target="SUB::Plomo (compuestos)" id="481" weight="241.869">
+        <attvalues>
+          <attvalue for="2" value="4" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Jalisco.Tequila" target="SUB::Arsénico (polvos, respirables, vapores o humos)" id="482" weight="63.2456">
+        <attvalues>
+          <attvalue for="2" value="3" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Jalisco.Tequila" target="SUB::Bióxido de carbono" id="483" weight="144000162.01289815">
+        <attvalues>
+          <attvalue for="2" value="17" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Jalisco.Tequila" target="SUB::Asbesto y sus formas (En forma de polvo, fibras o productos desmenuzables con la presión de la mano)" id="484" weight="6655.5">
+        <attvalues>
+          <attvalue for="2" value="9" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Jalisco.Tequila" target="SUB::Mercurio (polvos, respirables, vapores o humos)" id="485" weight="0.07492">
+        <attvalues>
+          <attvalue for="2" value="5" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Jalisco.Tepatitlán de Morelos" target="SUB::Plomo (polvos respirables, humos o vapores)" id="486" weight="13743.9825">
+        <attvalues>
+          <attvalue for="2" value="4" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Jalisco.Tepatitlán de Morelos" target="SUB::Bióxido de carbono" id="487" weight="5441763.7508000005">
+        <attvalues>
+          <attvalue for="2" value="3" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Jalisco.Tepatitlán de Morelos" target="SUB::Plomo (compuestos)" id="488" weight="1470.0000336">
+        <attvalues>
+          <attvalue for="2" value="2" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Jalisco.Tepatitlán de Morelos" target="SUB::Cadmio (polvos, respirables, vapores o humos)" id="489" weight="6.72e-06">
+        <attvalues>
+          <attvalue for="2" value="1" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Jalisco.Tepatitlán de Morelos" target="SUB::Mercurio (compuestos)" id="490" weight="6.7e-07">
+        <attvalues>
+          <attvalue for="2" value="1" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Jalisco.Tepatitlán de Morelos" target="SUB::Cadmio (compuestos)" id="491" weight="6.72e-06">
+        <attvalues>
+          <attvalue for="2" value="1" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Jalisco.Tepatitlán de Morelos" target="SUB::Cianuro inorgánico/orgánico" id="492" weight="3.36e-06">
+        <attvalues>
+          <attvalue for="2" value="1" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Jalisco.Tepatitlán de Morelos" target="SUB::Níquel (compuestos)" id="493" weight="3.36e-05">
+        <attvalues>
+          <attvalue for="2" value="1" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Jalisco.Tepatitlán de Morelos" target="SUB::Arsénico (compuestos)" id="494" weight="6.7e-07">
+        <attvalues>
+          <attvalue for="2" value="1" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Jalisco.Tepatitlán de Morelos" target="SUB::Plomo (Compuestos solubles)" id="495" weight="1.0125">
+        <attvalues>
+          <attvalue for="2" value="1" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Jalisco.Jamay" target="SUB::Mercurio (Compuestos solubles)" id="496" weight="13.737">
+        <attvalues>
+          <attvalue for="2" value="4" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Jalisco.Jamay" target="SUB::Bióxido de carbono" id="497" weight="16180572.11">
+        <attvalues>
+          <attvalue for="2" value="6" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Jalisco.Jamay" target="SUB::Níquel (polvos respirables, humos o vapores)" id="498" weight="31.647">
+        <attvalues>
+          <attvalue for="2" value="4" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Jalisco.Autlán de Navarro" target="SUB::Arsénico (Compuestos solubles)" id="499" weight="95.1691">
+        <attvalues>
+          <attvalue for="2" value="10" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Jalisco.Autlán de Navarro" target="SUB::Bióxido de carbono" id="500" weight="1155711624.8745">
+        <attvalues>
+          <attvalue for="2" value="5" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Jalisco.Autlán de Navarro" target="SUB::Cromo (polvos respirables, humos o vapores)" id="501" weight="4.95438411">
+        <attvalues>
+          <attvalue for="2" value="3" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Jalisco.Autlán de Navarro" target="SUB::Cadmio (Compuestos solubles)" id="502" weight="32.2508">
+        <attvalues>
+          <attvalue for="2" value="3" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Jalisco.Autlán de Navarro" target="SUB::Cromo (Compuestos solubles)" id="503" weight="161.0587">
+        <attvalues>
+          <attvalue for="2" value="3" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Jalisco.Autlán de Navarro" target="SUB::Níquel (Compuestos solubles)" id="504" weight="208.76239999999999">
+        <attvalues>
+          <attvalue for="2" value="4" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Jalisco.Autlán de Navarro" target="SUB::Plomo (Compuestos solubles)" id="505" weight="204.8833">
+        <attvalues>
+          <attvalue for="2" value="5" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Jalisco.Autlán de Navarro" target="SUB::Mercurio (Compuestos solubles)" id="506" weight="8.7918">
+        <attvalues>
+          <attvalue for="2" value="3" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Jalisco.Jilotlán de los Dolores" target="SUB::Arsénico (Compuestos solubles)" id="507" weight="14606.381">
+        <attvalues>
+          <attvalue for="2" value="5" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Jalisco.Jilotlán de los Dolores" target="SUB::Cadmio (Compuestos solubles)" id="508" weight="34216.4657">
+        <attvalues>
+          <attvalue for="2" value="5" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Jalisco.Jilotlán de los Dolores" target="SUB::Cianuro inorgánico/orgánico" id="509" weight="17265.423000000003">
+        <attvalues>
+          <attvalue for="2" value="5" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Jalisco.Jilotlán de los Dolores" target="SUB::Cromo (Compuestos solubles)" id="510" weight="169918.98">
+        <attvalues>
+          <attvalue for="2" value="5" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Jalisco.Jilotlán de los Dolores" target="SUB::Mercurio (Compuestos solubles)" id="511" weight="1824.9811">
+        <attvalues>
+          <attvalue for="2" value="5" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Jalisco.Jilotlán de los Dolores" target="SUB::Níquel (Compuestos solubles)" id="512" weight="168410.0889">
+        <attvalues>
+          <attvalue for="2" value="5" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Jalisco.Jilotlán de los Dolores" target="SUB::Plomo (Compuestos solubles)" id="513" weight="170962.4035">
+        <attvalues>
+          <attvalue for="2" value="5" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Jalisco.Hostotipaquillo" target="SUB::Plomo (Compuestos solubles)" id="514" weight="2.9157">
+        <attvalues>
+          <attvalue for="2" value="4" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Jalisco.Hostotipaquillo" target="SUB::Arsénico (Compuestos solubles)" id="515" weight="1.0866">
+        <attvalues>
+          <attvalue for="2" value="2" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Jalisco.Tecolotlán" target="SUB::Cianuro inorgánico/orgánico" id="516" weight="38.46253239999999">
+        <attvalues>
+          <attvalue for="2" value="6" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Jalisco.Tecolotlán" target="SUB::Mercurio (compuestos)" id="517" weight="5.585361999999999">
+        <attvalues>
+          <attvalue for="2" value="6" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Jalisco.Tecolotlán" target="SUB::Arsénico (polvos, respirables, vapores o humos)" id="518" weight="12.034659600000001">
+        <attvalues>
+          <attvalue for="2" value="5" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Jalisco.Tecolotlán" target="SUB::Plomo (compuestos)" id="519" weight="329.8705268">
+        <attvalues>
+          <attvalue for="2" value="5" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Jalisco.Tecolotlán" target="SUB::Cadmio (polvos, respirables, vapores o humos)" id="520" weight="578.8250948">
+        <attvalues>
+          <attvalue for="2" value="4" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Jalisco.Tecolotlán" target="SUB::Cromo (compuestos)" id="521" weight="49.8103264">
+        <attvalues>
+          <attvalue for="2" value="5" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Jalisco.Tecolotlán" target="SUB::Níquel (compuestos)" id="522" weight="283.754272">
+        <attvalues>
+          <attvalue for="2" value="5" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Jalisco.Tecolotlán" target="SUB::Bióxido de carbono" id="523" weight="1670241071.3">
+        <attvalues>
+          <attvalue for="2" value="11" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Jalisco.Tecolotlán" target="SUB::Oxido nitroso" id="524" weight="282530.0">
+        <attvalues>
+          <attvalue for="2" value="1" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Jalisco.Tecolotlán" target="SUB::Arsénico (compuestos)" id="525" weight="0.0362016">
+        <attvalues>
+          <attvalue for="2" value="3" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Jalisco.Tecolotlán" target="SUB::Cadmio (compuestos)" id="526" weight="1.5792948">
+        <attvalues>
+          <attvalue for="2" value="3" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Jalisco.Tecolotlán" target="SUB::Mercurio (polvos, respirables, vapores o humos)" id="527" weight="0.052794">
+        <attvalues>
+          <attvalue for="2" value="2" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Jalisco.Tecolotlán" target="SUB::Cadmio (Compuestos solubles)" id="528" weight="3.015">
+        <attvalues>
+          <attvalue for="2" value="2" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Jalisco.Tecolotlán" target="SUB::Cromo (Compuestos solubles)" id="529" weight="7.5372">
+        <attvalues>
+          <attvalue for="2" value="2" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Jalisco.Tecolotlán" target="SUB::Níquel (Compuestos solubles)" id="530" weight="16.1318">
+        <attvalues>
+          <attvalue for="2" value="3" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Jalisco.Tecolotlán" target="SUB::Plomo (Compuestos solubles)" id="531" weight="7.5372">
+        <attvalues>
+          <attvalue for="2" value="2" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Jalisco.Puerto Vallarta" target="SUB::Níquel (compuestos)" id="532" weight="24.38759">
+        <attvalues>
+          <attvalue for="2" value="3" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Jalisco.Puerto Vallarta" target="SUB::Arsénico (polvos, respirables, vapores o humos)" id="533" weight="0.136759">
+        <attvalues>
+          <attvalue for="2" value="1" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Jalisco.Puerto Vallarta" target="SUB::Cadmio (polvos, respirables, vapores o humos)" id="534" weight="3.418975">
+        <attvalues>
+          <attvalue for="2" value="1" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Jalisco.Puerto Vallarta" target="SUB::Cromo (compuestos)" id="535" weight="342.2475">
+        <attvalues>
+          <attvalue for="2" value="2" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Jalisco.Puerto Vallarta" target="SUB::Plomo (compuestos)" id="536" weight="10.751925">
+        <attvalues>
+          <attvalue for="2" value="2" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Jalisco.Puerto Vallarta" target="SUB::Cianuro inorgánico/orgánico" id="537" weight="1.178518">
+        <attvalues>
+          <attvalue for="2" value="2" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Jalisco.Puerto Vallarta" target="SUB::Bióxido de carbono" id="538" weight="12953860.49">
+        <attvalues>
+          <attvalue for="2" value="9" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Jalisco.Puerto Vallarta" target="SUB::Cadmio (Compuestos solubles)" id="539" weight="10.4253">
+        <attvalues>
+          <attvalue for="2" value="1" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Jalisco.Puerto Vallarta" target="SUB::Cromo (Compuestos solubles)" id="540" weight="11.9912">
+        <attvalues>
+          <attvalue for="2" value="5" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Jalisco.Puerto Vallarta" target="SUB::Níquel (Compuestos solubles)" id="541" weight="9.8121">
+        <attvalues>
+          <attvalue for="2" value="4" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Jalisco.Puerto Vallarta" target="SUB::Plomo (Compuestos solubles)" id="542" weight="3.2434">
+        <attvalues>
+          <attvalue for="2" value="2" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Jalisco.Puerto Vallarta" target="SUB::Cadmio (compuestos)" id="543" weight="0.58">
+        <attvalues>
+          <attvalue for="2" value="1" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Jalisco.Puerto Vallarta" target="SUB::Mercurio (compuestos)" id="544" weight="2.345">
+        <attvalues>
+          <attvalue for="2" value="1" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Jalisco.San Miguel el Alto" target="SUB::Plomo (compuestos)" id="545" weight="5.5808">
+        <attvalues>
+          <attvalue for="2" value="2" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Jalisco.San Miguel el Alto" target="SUB::Níquel (compuestos)" id="546" weight="970.24">
+        <attvalues>
+          <attvalue for="2" value="2" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Jalisco.San Miguel el Alto" target="SUB::Mercurio (compuestos)" id="547" weight="11.1104">
+        <attvalues>
+          <attvalue for="2" value="2" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Jalisco.San Miguel el Alto" target="SUB::Cromo (compuestos)" id="548" weight="33.28">
+        <attvalues>
+          <attvalue for="2" value="2" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Jalisco.San Miguel el Alto" target="SUB::Cadmio (polvos, respirables, vapores o humos)" id="549" weight="220.16">
+        <attvalues>
+          <attvalue for="2" value="2" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Jalisco.San Miguel el Alto" target="SUB::Arsénico (polvos, respirables, vapores o humos)" id="550" weight="14.5408">
+        <attvalues>
+          <attvalue for="2" value="2" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Jalisco.San Miguel el Alto" target="SUB::Cianuro inorgánico/orgánico" id="551" weight="28.16">
+        <attvalues>
+          <attvalue for="2" value="2" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Jalisco.Arandas" target="SUB::Arsénico (polvos, respirables, vapores o humos)" id="552" weight="60.000713175">
+        <attvalues>
+          <attvalue for="2" value="2" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Jalisco.Arandas" target="SUB::Cadmio (polvos, respirables, vapores o humos)" id="553" weight="600.000114108">
+        <attvalues>
+          <attvalue for="2" value="2" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Jalisco.Arandas" target="SUB::Cianuro inorgánico/orgánico" id="554" weight="420.0080116432">
+        <attvalues>
+          <attvalue for="2" value="3" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Jalisco.Arandas" target="SUB::Cromo (compuestos)" id="555" weight="3000.0415783261997">
+        <attvalues>
+          <attvalue for="2" value="3" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Jalisco.Arandas" target="SUB::Mercurio (compuestos)" id="556" weight="60.00014">
+        <attvalues>
+          <attvalue for="2" value="2" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Jalisco.Arandas" target="SUB::Níquel (compuestos)" id="557" weight="1500.0887402995997">
+        <attvalues>
+          <attvalue for="2" value="4" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Jalisco.Arandas" target="SUB::Plomo (compuestos)" id="558" weight="3000.01428527">
+        <attvalues>
+          <attvalue for="2" value="3" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Jalisco.Arandas" target="SUB::Bióxido de carbono" id="559" weight="73927209.102">
+        <attvalues>
+          <attvalue for="2" value="20" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Jalisco.Arandas" target="SUB::Arsénico (compuestos)" id="560" weight="0.013284">
+        <attvalues>
+          <attvalue for="2" value="2" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Jalisco.Arandas" target="SUB::Cadmio (compuestos)" id="561" weight="0.007">
+        <attvalues>
+          <attvalue for="2" value="1" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Jalisco.Arandas" target="SUB::Mercurio (polvos, respirables, vapores o humos)" id="562" weight="0.0003023862">
+        <attvalues>
+          <attvalue for="2" value="1" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Jalisco.Arandas" target="SUB::Cromo (Compuestos solubles)" id="563" weight="18.3702">
+        <attvalues>
+          <attvalue for="2" value="8" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Jalisco.Arandas" target="SUB::Níquel (Compuestos solubles)" id="564" weight="102.3396">
+        <attvalues>
+          <attvalue for="2" value="11" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Jalisco.Arandas" target="SUB::Plomo (Compuestos solubles)" id="565" weight="52.3269">
+        <attvalues>
+          <attvalue for="2" value="11" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Jalisco.Arandas" target="SUB::Arsénico (Compuestos solubles)" id="566" weight="3.7526">
+        <attvalues>
+          <attvalue for="2" value="3" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Jalisco.San Martín de Bolaños" target="SUB::Arsénico (polvos, respirables, vapores o humos)" id="567" weight="0.1065091">
+        <attvalues>
+          <attvalue for="2" value="4" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Jalisco.San Martín de Bolaños" target="SUB::Cadmio (polvos, respirables, vapores o humos)" id="568" weight="0.22486">
+        <attvalues>
+          <attvalue for="2" value="4" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Jalisco.San Martín de Bolaños" target="SUB::Cianuro inorgánico/orgánico" id="569" weight="67278.8683942">
+        <attvalues>
+          <attvalue for="2" value="20" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Jalisco.San Martín de Bolaños" target="SUB::Cromo (compuestos)" id="570" weight="2.172177">
+        <attvalues>
+          <attvalue for="2" value="9" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Jalisco.San Martín de Bolaños" target="SUB::Mercurio (compuestos)" id="571" weight="0.0568687">
+        <attvalues>
+          <attvalue for="2" value="8" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Jalisco.San Martín de Bolaños" target="SUB::Níquel (compuestos)" id="572" weight="1.646887">
+        <attvalues>
+          <attvalue for="2" value="9" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Jalisco.San Martín de Bolaños" target="SUB::Plomo (compuestos)" id="573" weight="27.493876999999998">
+        <attvalues>
+          <attvalue for="2" value="9" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Jalisco.San Martín de Bolaños" target="SUB::Arsénico (compuestos)" id="574" weight="0.05828">
+        <attvalues>
+          <attvalue for="2" value="5" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Jalisco.San Martín de Bolaños" target="SUB::Cadmio (compuestos)" id="575" weight="0.25632">
+        <attvalues>
+          <attvalue for="2" value="5" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Jalisco.San Martín de Bolaños" target="SUB::Mercurio (polvos, respirables, vapores o humos)" id="576" weight="0.003132">
+        <attvalues>
+          <attvalue for="2" value="1" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Jalisco.San Martín de Bolaños" target="SUB::Arsénico (Compuestos solubles)" id="577" weight="17.49">
+        <attvalues>
+          <attvalue for="2" value="1" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Jalisco.San Martín de Bolaños" target="SUB::Plomo (polvos respirables, humos o vapores)" id="578" weight="344917.44">
+        <attvalues>
+          <attvalue for="2" value="3" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Jalisco.Acatlán de Juárez" target="SUB::Bióxido de carbono" id="579" weight="657577330.0">
+        <attvalues>
+          <attvalue for="2" value="5" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Jalisco.Acatlán de Juárez" target="SUB::Clorpirifos" id="580" weight="130.440616">
+        <attvalues>
+          <attvalue for="2" value="1" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Jalisco.Acatlán de Juárez" target="SUB::Cadmio (compuestos)" id="581" weight="7.92705">
+        <attvalues>
+          <attvalue for="2" value="1" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Jalisco.Acatlán de Juárez" target="SUB::Cromo (compuestos)" id="582" weight="138.5555">
+        <attvalues>
+          <attvalue for="2" value="3" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Jalisco.Acatlán de Juárez" target="SUB::Mercurio (compuestos)" id="583" weight="0.206103">
+        <attvalues>
+          <attvalue for="2" value="1" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Jalisco.Acatlán de Juárez" target="SUB::Níquel (compuestos)" id="584" weight="55.422200000000004">
+        <attvalues>
+          <attvalue for="2" value="3" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Jalisco.Acatlán de Juárez" target="SUB::Plomo (compuestos)" id="585" weight="55.707573">
+        <attvalues>
+          <attvalue for="2" value="3" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Jalisco.Acatlán de Juárez" target="SUB::Arsénico (compuestos)" id="586" weight="0.539039">
+        <attvalues>
+          <attvalue for="2" value="1" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Jalisco.Acatlán de Juárez" target="SUB::Cianuro inorgánico/orgánico" id="587" weight="5.826609">
+        <attvalues>
+          <attvalue for="2" value="3" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Jalisco.Acatlán de Juárez" target="SUB::Mercurio (polvos, respirables, vapores o humos)" id="588" weight="0.39568099999999995">
+        <attvalues>
+          <attvalue for="2" value="2" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Jalisco.Acatlán de Juárez" target="SUB::Arsénico (polvos, respirables, vapores o humos)" id="589" weight="1.187043">
+        <attvalues>
+          <attvalue for="2" value="2" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Jalisco.Acatlán de Juárez" target="SUB::Cadmio (polvos, respirables, vapores o humos)" id="590" weight="11.0374">
+        <attvalues>
+          <attvalue for="2" value="2" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Jalisco.Acatlán de Juárez" target="SUB::Cromo (Compuestos solubles)" id="591" weight="212.8589">
+        <attvalues>
+          <attvalue for="2" value="4" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Jalisco.Acatlán de Juárez" target="SUB::Níquel (Compuestos solubles)" id="592" weight="8.5141">
+        <attvalues>
+          <attvalue for="2" value="4" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Jalisco.Acatlán de Juárez" target="SUB::Cadmio (Compuestos solubles)" id="593" weight="32.8599">
+        <attvalues>
+          <attvalue for="2" value="3" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Jalisco.Acatlán de Juárez" target="SUB::Plomo (Compuestos solubles)" id="594" weight="65.71950000000001">
+        <attvalues>
+          <attvalue for="2" value="3" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Jalisco.Acatic" target="SUB::Bióxido de carbono" id="595" weight="3549984.958">
+        <attvalues>
+          <attvalue for="2" value="9" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Jalisco.Ameca" target="SUB::Bióxido de carbono" id="596" weight="848659911.0">
+        <attvalues>
+          <attvalue for="2" value="7" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Jalisco.Ameca" target="SUB::Plomo (compuestos)" id="597" weight="40.6951">
+        <attvalues>
+          <attvalue for="2" value="3" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Jalisco.Ameca" target="SUB::Cianuro inorgánico/orgánico" id="598" weight="0.728114">
+        <attvalues>
+          <attvalue for="2" value="3" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Jalisco.Ameca" target="SUB::Arsénico (compuestos)" id="599" weight="0.038594">
+        <attvalues>
+          <attvalue for="2" value="1" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Jalisco.Ameca" target="SUB::Cadmio (compuestos)" id="600" weight="1.35079">
+        <attvalues>
+          <attvalue for="2" value="1" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Jalisco.Ameca" target="SUB::Cromo (compuestos)" id="601" weight="13.443249999999999">
+        <attvalues>
+          <attvalue for="2" value="3" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Jalisco.Ameca" target="SUB::Mercurio (compuestos)" id="602" weight="0.0135079">
+        <attvalues>
+          <attvalue for="2" value="1" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Jalisco.Ameca" target="SUB::Níquel (compuestos)" id="603" weight="17.110679">
+        <attvalues>
+          <attvalue for="2" value="3" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Jalisco.Ameca" target="SUB::Mercurio (polvos, respirables, vapores o humos)" id="604" weight="0.0241332">
+        <attvalues>
+          <attvalue for="2" value="2" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Jalisco.Ameca" target="SUB::Arsénico (polvos, respirables, vapores o humos)" id="605" weight="0.068952">
+        <attvalues>
+          <attvalue for="2" value="2" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Jalisco.Ameca" target="SUB::Cadmio (polvos, respirables, vapores o humos)" id="606" weight="2.41332">
+        <attvalues>
+          <attvalue for="2" value="2" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Jalisco.Ameca" target="SUB::Cromo (Compuestos solubles)" id="607" weight="2.502">
+        <attvalues>
+          <attvalue for="2" value="1" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Jalisco.Ameca" target="SUB::Níquel (Compuestos solubles)" id="608" weight="2.502">
+        <attvalues>
+          <attvalue for="2" value="1" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Jalisco.Ameca" target="SUB::Arsénico (Compuestos solubles)" id="609" weight="9.101">
+        <attvalues>
+          <attvalue for="2" value="5" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Jalisco.Ameca" target="SUB::Plomo (Compuestos solubles)" id="610" weight="31.996600000000008">
+        <attvalues>
+          <attvalue for="2" value="11" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Jalisco.Tonaya" target="SUB::Bióxido de carbono" id="611" weight="4481970.0">
+        <attvalues>
+          <attvalue for="2" value="3" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Jalisco.Tonaya" target="SUB::Níquel (Compuestos solubles)" id="612" weight="1.7817">
+        <attvalues>
+          <attvalue for="2" value="1" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Jalisco.Tonaya" target="SUB::Mercurio (polvos, respirables, vapores o humos)" id="613" weight="2.0">
+        <attvalues>
+          <attvalue for="2" value="2" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Jalisco.La Barca" target="SUB::Cromo (polvos respirables, humos o vapores)" id="614" weight="2.6399999999999997">
+        <attvalues>
+          <attvalue for="2" value="2" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Jalisco.La Barca" target="SUB::Plomo (polvos respirables, humos o vapores)" id="615" weight="26.851300000000002">
+        <attvalues>
+          <attvalue for="2" value="4" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Jalisco.San Sebastián del Oeste" target="SUB::Bióxido de carbono" id="616" weight="3270622.934">
+        <attvalues>
+          <attvalue for="2" value="4" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Jalisco.El Arenal" target="SUB::Bióxido de carbono" id="617" weight="2284548.0">
+        <attvalues>
+          <attvalue for="2" value="3" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Jalisco.Tonalá" target="SUB::Bióxido de carbono" id="618" weight="196620.0">
+        <attvalues>
+          <attvalue for="2" value="1" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Jalisco.Villa Corona" target="SUB::Cadmio (Compuestos solubles)" id="619" weight="5.236">
+        <attvalues>
+          <attvalue for="2" value="4" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Jalisco.Villa Corona" target="SUB::Cromo (Compuestos solubles)" id="620" weight="22.735999999999997">
+        <attvalues>
+          <attvalue for="2" value="5" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Jalisco.Villa Corona" target="SUB::Níquel (Compuestos solubles)" id="621" weight="21.587999999999997">
+        <attvalues>
+          <attvalue for="2" value="4" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Jalisco.Villa Corona" target="SUB::Plomo (Compuestos solubles)" id="622" weight="20.439999999999998">
+        <attvalues>
+          <attvalue for="2" value="3" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Jalisco.Villa Corona" target="SUB::Arsénico (Compuestos solubles)" id="623" weight="1.148">
+        <attvalues>
+          <attvalue for="2" value="1" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Jalisco.Bolaños" target="SUB::Cadmio (polvos, respirables, vapores o humos)" id="624" weight="119.69834399999999">
+        <attvalues>
+          <attvalue for="2" value="3" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Jalisco.Bolaños" target="SUB::Arsénico (Compuestos solubles)" id="625" weight="26.279">
+        <attvalues>
+          <attvalue for="2" value="4" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Jalisco.Bolaños" target="SUB::Cadmio (Compuestos solubles)" id="626" weight="26.519600000000004">
+        <attvalues>
+          <attvalue for="2" value="4" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Jalisco.Bolaños" target="SUB::Cromo (Compuestos solubles)" id="627" weight="108.8518">
+        <attvalues>
+          <attvalue for="2" value="4" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Jalisco.Bolaños" target="SUB::Níquel (Compuestos solubles)" id="628" weight="26.519600000000004">
+        <attvalues>
+          <attvalue for="2" value="4" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Jalisco.Bolaños" target="SUB::Plomo (Compuestos solubles)" id="629" weight="26.519600000000004">
+        <attvalues>
+          <attvalue for="2" value="4" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Jalisco.Tolimán" target="SUB::Cromo (Compuestos solubles)" id="630" weight="17.6">
+        <attvalues>
+          <attvalue for="2" value="9" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Jalisco.Tolimán" target="SUB::Arsénico (Compuestos solubles)" id="631" weight="3.05">
+        <attvalues>
+          <attvalue for="2" value="1" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Jalisco.Tolimán" target="SUB::Cadmio (Compuestos solubles)" id="632" weight="5.084">
+        <attvalues>
+          <attvalue for="2" value="1" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Jalisco.Tolimán" target="SUB::Mercurio (Compuestos solubles)" id="633" weight="1.01">
+        <attvalues>
+          <attvalue for="2" value="1" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Jalisco.Tolimán" target="SUB::Níquel (Compuestos solubles)" id="634" weight="1.01">
+        <attvalues>
+          <attvalue for="2" value="1" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Jalisco.Tolimán" target="SUB::Plomo (Compuestos solubles)" id="635" weight="9.7529">
+        <attvalues>
+          <attvalue for="2" value="4" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Jalisco.Ayotlán" target="SUB::Níquel (Compuestos solubles)" id="636" weight="4.4302">
+        <attvalues>
+          <attvalue for="2" value="3" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Jalisco.Ayotlán" target="SUB::Cromo (Compuestos solubles)" id="637" weight="9.619299999999999">
+        <attvalues>
+          <attvalue for="2" value="4" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Jalisco.Zapotlán el Grande" target="SUB::Plomo (Compuestos solubles)" id="638" weight="3.4417">
+        <attvalues>
+          <attvalue for="2" value="2" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Jalisco.Zapotlán el Grande" target="SUB::Plomo (polvos respirables, humos o vapores)" id="639" weight="1.6727">
+        <attvalues>
+          <attvalue for="2" value="1" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Jalisco.Zapotlán el Grande" target="SUB::Níquel (Compuestos solubles)" id="640" weight="3.737">
+        <attvalues>
+          <attvalue for="2" value="1" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Jalisco.San Juan de los Lagos" target="SUB::Níquel (Compuestos solubles)" id="641" weight="2.6514">
+        <attvalues>
+          <attvalue for="2" value="1" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Jalisco.San Juan de los Lagos" target="SUB::Plomo (Compuestos solubles)" id="642" weight="2.6514">
+        <attvalues>
+          <attvalue for="2" value="1" />
+        </attvalues>
+      </edge>
+    </edges>
+  </graph>
+</gexf>

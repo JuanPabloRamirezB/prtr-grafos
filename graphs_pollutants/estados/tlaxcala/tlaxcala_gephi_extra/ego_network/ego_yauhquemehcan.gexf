@@ -1,0 +1,466 @@
+<?xml version='1.0' encoding='utf-8'?>
+<gexf xmlns="http://www.gexf.net/1.2draft" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.gexf.net/1.2draft http://www.gexf.net/1.2draft/gexf.xsd" version="1.2">
+  <meta lastmodifieddate="2026-10-16">
+    <creator>NetworkX 3.7</creator>
+  </meta>
+  <graph defaultedgetype="undirected" mode="static" name="">
+    <attributes mode="static" class="node">
+      <attribute id="0" title="role" type="string" />
+      <attribute id="1" title="total_kg" type="double" />
+    </attributes>
+    <nodes>
+      <node id="Tlaxcala.Yauhquemehcan" label="Tlaxcala.Yauhquemehcan">
+        <attvalues>
+          <attvalue for="0" value="focal" />
+          <attvalue for="1" value="2641175765.3600674" />
+        </attvalues>
+      </node>
+      <node id="Bióxido de carbono" label="Carbon dioxide">
+        <attvalues>
+          <attvalue for="0" value="substance" />
+          <attvalue for="1" value="2640926329.4" />
+        </attvalues>
+      </node>
+      <node id="Metano" label="Methane">
+        <attvalues>
+          <attvalue for="0" value="substance" />
+          <attvalue for="1" value="221979.04" />
+        </attvalues>
+      </node>
+      <node id="Formaldehido" label="Formaldehyde">
+        <attvalues>
+          <attvalue for="0" value="substance" />
+          <attvalue for="1" value="6721.8484" />
+        </attvalues>
+      </node>
+      <node id="Níquel (compuestos)" label="Nickel (compounds)">
+        <attvalues>
+          <attvalue for="0" value="substance" />
+          <attvalue for="1" value="6095.3494905" />
+        </attvalues>
+      </node>
+      <node id="Cromo (compuestos)" label="Chromium (compounds)">
+        <attvalues>
+          <attvalue for="0" value="substance" />
+          <attvalue for="1" value="5489.8994332500015" />
+        </attvalues>
+      </node>
+      <node id="Plomo (compuestos)" label="Lead (compounds)">
+        <attvalues>
+          <attvalue for="0" value="substance" />
+          <attvalue for="1" value="5011.649546000001" />
+        </attvalues>
+      </node>
+      <node id="Cianuro inorgánico/orgánico" label="Inorganic/organic cyanide">
+        <attvalues>
+          <attvalue for="0" value="substance" />
+          <attvalue for="1" value="1366.938450625" />
+        </attvalues>
+      </node>
+      <node id="Cadmio (compuestos)" label="Cadmium (compounds)">
+        <attvalues>
+          <attvalue for="0" value="substance" />
+          <attvalue for="1" value="1027.8699900000001" />
+        </attvalues>
+      </node>
+      <node id="Níquel (Compuestos solubles)" label="Nickel (soluble compounds)">
+        <attvalues>
+          <attvalue for="0" value="substance" />
+          <attvalue for="1" value="485.55655225" />
+        </attvalues>
+      </node>
+      <node id="Arsénico (compuestos)" label="Arsenic (compounds)">
+        <attvalues>
+          <attvalue for="0" value="substance" />
+          <attvalue for="1" value="306.674901" />
+        </attvalues>
+      </node>
+      <node id="Níquel (polvos respirables, humos o vapores)" label="Nickel (respirable dust, fumes or vapors)">
+        <attvalues>
+          <attvalue for="0" value="substance" />
+          <attvalue for="1" value="284.12000000000006" />
+        </attvalues>
+      </node>
+      <node id="Cromo (Compuestos solubles)" label="Chromium (soluble compounds)">
+        <attvalues>
+          <attvalue for="0" value="substance" />
+          <attvalue for="1" value="170.551844" />
+        </attvalues>
+      </node>
+      <node id="Plomo (Compuestos solubles)" label="Lead (soluble compounds)">
+        <attvalues>
+          <attvalue for="0" value="substance" />
+          <attvalue for="1" value="154.99109274999998" />
+        </attvalues>
+      </node>
+      <node id="Cadmio (polvos, respirables, vapores o humos)" label="Cadmium (respirable dust, vapors or fumes)">
+        <attvalues>
+          <attvalue for="0" value="substance" />
+          <attvalue for="1" value="126.820968" />
+        </attvalues>
+      </node>
+      <node id="Mercurio (compuestos)" label="Mercury (compounds)">
+        <attvalues>
+          <attvalue for="0" value="substance" />
+          <attvalue for="1" value="62.8326092" />
+        </attvalues>
+      </node>
+      <node id="Tlaxcala.Tetla de la Solidaridad" label="Tlaxcala.Tetla de la Solidaridad">
+        <attvalues>
+          <attvalue for="0" value="peer_municipio" />
+          <attvalue for="1" value="1127311174.2614691" />
+        </attvalues>
+      </node>
+      <node id="Tlaxcala.Xaloztoc" label="Tlaxcala.Xaloztoc">
+        <attvalues>
+          <attvalue for="0" value="peer_municipio" />
+          <attvalue for="1" value="895181818.3229692" />
+        </attvalues>
+      </node>
+      <node id="Tlaxcala.Xicohtzinco" label="Tlaxcala.Xicohtzinco">
+        <attvalues>
+          <attvalue for="0" value="peer_municipio" />
+          <attvalue for="1" value="1462383375.6708477" />
+        </attvalues>
+      </node>
+      <node id="Tlaxcala.Apizaco" label="Tlaxcala.Apizaco">
+        <attvalues>
+          <attvalue for="0" value="peer_municipio" />
+          <attvalue for="1" value="427481747.34257567" />
+        </attvalues>
+      </node>
+      <node id="Tlaxcala.Acuamanala de Miguel Hidalgo" label="Tlaxcala.Acuamanala de Miguel Hidalgo">
+        <attvalues>
+          <attvalue for="0" value="peer_municipio" />
+          <attvalue for="1" value="21406940.981758762" />
+        </attvalues>
+      </node>
+      <node id="Tlaxcala.Teolocholco" label="Tlaxcala.Teolocholco">
+        <attvalues>
+          <attvalue for="0" value="peer_municipio" />
+          <attvalue for="1" value="285752655.8373312" />
+        </attvalues>
+      </node>
+      <node id="Tlaxcala.Calpulalpan" label="Tlaxcala.Calpulalpan">
+        <attvalues>
+          <attvalue for="0" value="peer_municipio" />
+          <attvalue for="1" value="577304929.810849" />
+        </attvalues>
+      </node>
+      <node id="Tlaxcala.Tlaxcala" label="Tlaxcala.Tlaxcala">
+        <attvalues>
+          <attvalue for="0" value="peer_municipio" />
+          <attvalue for="1" value="1318658.7765487735" />
+        </attvalues>
+      </node>
+      <node id="Tlaxcala.Ixtacuixtla de Mariano Matamoros" label="Tlaxcala.Ixtacuixtla de Mariano Matamoros">
+        <attvalues>
+          <attvalue for="0" value="peer_municipio" />
+          <attvalue for="1" value="653040480.3859203" />
+        </attvalues>
+      </node>
+      <node id="Tlaxcala.Apetatitlán de Antonio Carvajal" label="Tlaxcala.Apetatitlán de Antonio Carvajal">
+        <attvalues>
+          <attvalue for="0" value="peer_municipio" />
+          <attvalue for="1" value="1145.3812128" />
+        </attvalues>
+      </node>
+      <node id="Tlaxcala.Tlaxco" label="Tlaxcala.Tlaxco">
+        <attvalues>
+          <attvalue for="0" value="peer_municipio" />
+          <attvalue for="1" value="31043702.376216553" />
+        </attvalues>
+      </node>
+      <node id="Tlaxcala.Tzompantepec" label="Tlaxcala.Tzompantepec">
+        <attvalues>
+          <attvalue for="0" value="peer_municipio" />
+          <attvalue for="1" value="8867.04708" />
+        </attvalues>
+      </node>
+      <node id="Tlaxcala.Papalotla de Xicohténcatl" label="Tlaxcala.Papalotla de Xicohténcatl">
+        <attvalues>
+          <attvalue for="0" value="peer_municipio" />
+          <attvalue for="1" value="748725619.6604828" />
+        </attvalues>
+      </node>
+      <node id="Tlaxcala.Natívitas" label="Tlaxcala.Natívitas">
+        <attvalues>
+          <attvalue for="0" value="peer_municipio" />
+          <attvalue for="1" value="17966.809043760004" />
+        </attvalues>
+      </node>
+      <node id="Tlaxcala.Atlangatepec" label="Tlaxcala.Atlangatepec">
+        <attvalues>
+          <attvalue for="0" value="peer_municipio" />
+          <attvalue for="1" value="207681685.63723862" />
+        </attvalues>
+      </node>
+      <node id="Tlaxcala.La Magdalena Tlaltelulco" label="Tlaxcala.La Magdalena Tlaltelulco">
+        <attvalues>
+          <attvalue for="0" value="peer_municipio" />
+          <attvalue for="1" value="394011793.7672216" />
+        </attvalues>
+      </node>
+      <node id="Tlaxcala.Huamantla" label="Tlaxcala.Huamantla">
+        <attvalues>
+          <attvalue for="0" value="peer_municipio" />
+          <attvalue for="1" value="1437610.29078506" />
+        </attvalues>
+      </node>
+      <node id="Tlaxcala.Santa Isabel Xiloxoxtla" label="Tlaxcala.Santa Isabel Xiloxoxtla">
+        <attvalues>
+          <attvalue for="0" value="peer_municipio" />
+          <attvalue for="1" value="228.71410368" />
+        </attvalues>
+      </node>
+      <node id="Tlaxcala.Tepeyanco" label="Tlaxcala.Tepeyanco">
+        <attvalues>
+          <attvalue for="0" value="peer_municipio" />
+          <attvalue for="1" value="6603.6384" />
+        </attvalues>
+      </node>
+      <node id="Tlaxcala.Ixtenco" label="Tlaxcala.Ixtenco">
+        <attvalues>
+          <attvalue for="0" value="peer_municipio" />
+          <attvalue for="1" value="63.813442896" />
+        </attvalues>
+      </node>
+    </nodes>
+    <edges>
+      <edge source="Tlaxcala.Yauhquemehcan" target="Bióxido de carbono" id="0" weight="2640926329.4" />
+      <edge source="Tlaxcala.Yauhquemehcan" target="Metano" id="1" weight="221979.04" />
+      <edge source="Tlaxcala.Yauhquemehcan" target="Formaldehido" id="2" weight="6721.8484" />
+      <edge source="Tlaxcala.Yauhquemehcan" target="Níquel (compuestos)" id="3" weight="6095.3494905" />
+      <edge source="Tlaxcala.Yauhquemehcan" target="Cromo (compuestos)" id="4" weight="5489.8994332500015" />
+      <edge source="Tlaxcala.Yauhquemehcan" target="Plomo (compuestos)" id="5" weight="5011.649546000001" />
+      <edge source="Tlaxcala.Yauhquemehcan" target="Cianuro inorgánico/orgánico" id="6" weight="1366.938450625" />
+      <edge source="Tlaxcala.Yauhquemehcan" target="Cadmio (compuestos)" id="7" weight="1027.8699900000001" />
+      <edge source="Tlaxcala.Yauhquemehcan" target="Níquel (Compuestos solubles)" id="8" weight="485.55655225" />
+      <edge source="Tlaxcala.Yauhquemehcan" target="Arsénico (compuestos)" id="9" weight="306.674901" />
+      <edge source="Tlaxcala.Yauhquemehcan" target="Níquel (polvos respirables, humos o vapores)" id="10" weight="284.12000000000006" />
+      <edge source="Tlaxcala.Yauhquemehcan" target="Cromo (Compuestos solubles)" id="11" weight="170.551844" />
+      <edge source="Tlaxcala.Yauhquemehcan" target="Plomo (Compuestos solubles)" id="12" weight="154.99109274999998" />
+      <edge source="Tlaxcala.Yauhquemehcan" target="Cadmio (polvos, respirables, vapores o humos)" id="13" weight="126.820968" />
+      <edge source="Tlaxcala.Yauhquemehcan" target="Mercurio (compuestos)" id="14" weight="62.8326092" />
+      <edge source="Bióxido de carbono" target="Tlaxcala.Tetla de la Solidaridad" id="15" weight="1126570469.7637303" />
+      <edge source="Bióxido de carbono" target="Tlaxcala.Xaloztoc" id="16" weight="895178853.8887529" />
+      <edge source="Bióxido de carbono" target="Tlaxcala.Xicohtzinco" id="17" weight="1462380207.430103" />
+      <edge source="Bióxido de carbono" target="Tlaxcala.Apizaco" id="18" weight="410077577.28178406" />
+      <edge source="Bióxido de carbono" target="Tlaxcala.Acuamanala de Miguel Hidalgo" id="19" weight="21406824.800002" />
+      <edge source="Bióxido de carbono" target="Tlaxcala.Teolocholco" id="20" weight="285156832.3" />
+      <edge source="Bióxido de carbono" target="Tlaxcala.Calpulalpan" id="21" weight="577303660.000028" />
+      <edge source="Bióxido de carbono" target="Tlaxcala.Tlaxcala" id="22" weight="1287145.8800338164" />
+      <edge source="Bióxido de carbono" target="Tlaxcala.Ixtacuixtla de Mariano Matamoros" id="23" weight="653039569.77" />
+      <edge source="Bióxido de carbono" target="Tlaxcala.Tlaxco" id="24" weight="31040173.659" />
+      <edge source="Bióxido de carbono" target="Tlaxcala.Papalotla de Xicohténcatl" id="25" weight="748724525.1174868" />
+      <edge source="Bióxido de carbono" target="Tlaxcala.Natívitas" id="26" weight="17965.440000000002" />
+      <edge source="Bióxido de carbono" target="Tlaxcala.Atlangatepec" id="27" weight="207681683.05" />
+      <edge source="Bióxido de carbono" target="Tlaxcala.La Magdalena Tlaltelulco" id="28" weight="394011667.2458" />
+      <edge source="Bióxido de carbono" target="Tlaxcala.Huamantla" id="29" weight="1437016.3800000001" />
+      <edge source="Bióxido de carbono" target="Tlaxcala.Santa Isabel Xiloxoxtla" id="30" weight="224.0" />
+      <edge source="Metano" target="Tlaxcala.Xaloztoc" id="31" weight="2044.38625" />
+      <edge source="Metano" target="Tlaxcala.Apizaco" id="32" weight="17403344.493871454" />
+      <edge source="Metano" target="Tlaxcala.Teolocholco" id="33" weight="591434.0" />
+      <edge source="Formaldehido" target="Tlaxcala.Tetla de la Solidaridad" id="34" weight="2.513961" />
+      <edge source="Formaldehido" target="Tlaxcala.Xaloztoc" id="35" weight="66.36013" />
+      <edge source="Formaldehido" target="Tlaxcala.Apizaco" id="36" weight="123.43542999999998" />
+      <edge source="Níquel (compuestos)" target="Tlaxcala.Tetla de la Solidaridad" id="37" weight="1311.5128436832" />
+      <edge source="Níquel (compuestos)" target="Tlaxcala.Xaloztoc" id="38" weight="34.72746426139999" />
+      <edge source="Níquel (compuestos)" target="Tlaxcala.Xicohtzinco" id="39" weight="163.682701735" />
+      <edge source="Níquel (compuestos)" target="Tlaxcala.Apizaco" id="40" weight="101.013942363" />
+      <edge source="Níquel (compuestos)" target="Tlaxcala.Acuamanala de Miguel Hidalgo" id="41" weight="37.701905694000004" />
+      <edge source="Níquel (compuestos)" target="Tlaxcala.Teolocholco" id="42" weight="17.323820560999998" />
+      <edge source="Níquel (compuestos)" target="Tlaxcala.Calpulalpan" id="43" weight="192.47859816" />
+      <edge source="Níquel (compuestos)" target="Tlaxcala.Tlaxcala" id="44" weight="8909.354586095002" />
+      <edge source="Níquel (compuestos)" target="Tlaxcala.Ixtacuixtla de Mariano Matamoros" id="45" weight="20.973701" />
+      <edge source="Níquel (compuestos)" target="Tlaxcala.Apetatitlán de Antonio Carvajal" id="46" weight="252.31070592" />
+      <edge source="Níquel (compuestos)" target="Tlaxcala.Tlaxco" id="47" weight="15.789495189" />
+      <edge source="Níquel (compuestos)" target="Tlaxcala.Tzompantepec" id="48" weight="2547.41892" />
+      <edge source="Níquel (compuestos)" target="Tlaxcala.Papalotla de Xicohténcatl" id="49" weight="29.7618110978" />
+      <edge source="Níquel (compuestos)" target="Tlaxcala.Natívitas" id="50" weight="0.27164960000000005" />
+      <edge source="Níquel (compuestos)" target="Tlaxcala.Atlangatepec" id="51" weight="0.9179179999999999" />
+      <edge source="Níquel (compuestos)" target="Tlaxcala.La Magdalena Tlaltelulco" id="52" weight="18.71428" />
+      <edge source="Níquel (compuestos)" target="Tlaxcala.Huamantla" id="53" weight="39.61466506" />
+      <edge source="Níquel (compuestos)" target="Tlaxcala.Santa Isabel Xiloxoxtla" id="54" weight="1.1299759999999999" />
+      <edge source="Níquel (compuestos)" target="Tlaxcala.Tepeyanco" id="55" weight="1831.6108800000002" />
+      <edge source="Níquel (compuestos)" target="Tlaxcala.Ixtenco" id="56" weight="17.52550128" />
+      <edge source="Cromo (compuestos)" target="Tlaxcala.Tetla de la Solidaridad" id="57" weight="1045.051535752" />
+      <edge source="Cromo (compuestos)" target="Tlaxcala.Xaloztoc" id="58" weight="46.75684632343999" />
+      <edge source="Cromo (compuestos)" target="Tlaxcala.Xicohtzinco" id="59" weight="145.5239294125" />
+      <edge source="Cromo (compuestos)" target="Tlaxcala.Apizaco" id="60" weight="20.824904598" />
+      <edge source="Cromo (compuestos)" target="Tlaxcala.Acuamanala de Miguel Hidalgo" id="61" weight="3.0540571140000004" />
+      <edge source="Cromo (compuestos)" target="Tlaxcala.Teolocholco" id="62" weight="3.269301" />
+      <edge source="Cromo (compuestos)" target="Tlaxcala.Calpulalpan" id="63" weight="234.0672415298" />
+      <edge source="Cromo (compuestos)" target="Tlaxcala.Tlaxcala" id="64" weight="9165.829763970001" />
+      <edge source="Cromo (compuestos)" target="Tlaxcala.Ixtacuixtla de Mariano Matamoros" id="65" weight="7.44269" />
+      <edge source="Cromo (compuestos)" target="Tlaxcala.Apetatitlán de Antonio Carvajal" id="66" weight="361.60312896" />
+      <edge source="Cromo (compuestos)" target="Tlaxcala.Tlaxco" id="67" weight="16.348911787999995" />
+      <edge source="Cromo (compuestos)" target="Tlaxcala.Tzompantepec" id="68" weight="2485.81704" />
+      <edge source="Cromo (compuestos)" target="Tlaxcala.Papalotla de Xicohténcatl" id="69" weight="19.7816688846" />
+      <edge source="Cromo (compuestos)" target="Tlaxcala.Natívitas" id="70" weight="0.332414" />
+      <edge source="Cromo (compuestos)" target="Tlaxcala.Atlangatepec" id="71" weight="0.42601799999999995" />
+      <edge source="Cromo (compuestos)" target="Tlaxcala.La Magdalena Tlaltelulco" id="72" weight="7.36424" />
+      <edge source="Cromo (compuestos)" target="Tlaxcala.Huamantla" id="73" weight="30.986609280000003" />
+      <edge source="Cromo (compuestos)" target="Tlaxcala.Santa Isabel Xiloxoxtla" id="74" weight="0.05694848" />
+      <edge source="Cromo (compuestos)" target="Tlaxcala.Tepeyanco" id="75" weight="1904.7743999999998" />
+      <edge source="Cromo (compuestos)" target="Tlaxcala.Ixtenco" id="76" weight="17.23095504" />
+      <edge source="Plomo (compuestos)" target="Tlaxcala.Tetla de la Solidaridad" id="77" weight="731793.0838918656" />
+      <edge source="Plomo (compuestos)" target="Tlaxcala.Xaloztoc" id="78" weight="35.54372430069999" />
+      <edge source="Plomo (compuestos)" target="Tlaxcala.Xicohtzinco" id="79" weight="86.901152835" />
+      <edge source="Plomo (compuestos)" target="Tlaxcala.Apizaco" id="80" weight="38.039709714999994" />
+      <edge source="Plomo (compuestos)" target="Tlaxcala.Acuamanala de Miguel Hidalgo" id="81" weight="4.531890667000001" />
+      <edge source="Plomo (compuestos)" target="Tlaxcala.Teolocholco" id="82" weight="4308.903649004" />
+      <edge source="Plomo (compuestos)" target="Tlaxcala.Calpulalpan" id="83" weight="236.37732148759997" />
+      <edge source="Plomo (compuestos)" target="Tlaxcala.Tlaxcala" id="84" weight="8646.05880342" />
+      <edge source="Plomo (compuestos)" target="Tlaxcala.Ixtacuixtla de Mariano Matamoros" id="85" weight="13.564516999999999" />
+      <edge source="Plomo (compuestos)" target="Tlaxcala.Apetatitlán de Antonio Carvajal" id="86" weight="329.31657216" />
+      <edge source="Plomo (compuestos)" target="Tlaxcala.Tlaxco" id="87" weight="1637.817994051" />
+      <edge source="Plomo (compuestos)" target="Tlaxcala.Tzompantepec" id="88" weight="2442.33336" />
+      <edge source="Plomo (compuestos)" target="Tlaxcala.Papalotla de Xicohténcatl" id="89" weight="10.869870064999997" />
+      <edge source="Plomo (compuestos)" target="Tlaxcala.Natívitas" id="90" weight="0.33027880000000004" />
+      <edge source="Plomo (compuestos)" target="Tlaxcala.Atlangatepec" id="91" weight="0.9160729999999999" />
+      <edge source="Plomo (compuestos)" target="Tlaxcala.La Magdalena Tlaltelulco" id="92" weight="5.75094" />
+      <edge source="Plomo (compuestos)" target="Tlaxcala.Huamantla" id="93" weight="62.778916259999995" />
+      <edge source="Plomo (compuestos)" target="Tlaxcala.Santa Isabel Xiloxoxtla" id="94" weight="2.8243679999999998" />
+      <edge source="Plomo (compuestos)" target="Tlaxcala.Tepeyanco" id="95" weight="1823.41152" />
+      <edge source="Plomo (compuestos)" target="Tlaxcala.Ixtenco" id="96" weight="17.08368192" />
+      <edge source="Cianuro inorgánico/orgánico" target="Tlaxcala.Tetla de la Solidaridad" id="97" weight="3006.4353082284" />
+      <edge source="Cianuro inorgánico/orgánico" target="Tlaxcala.Xaloztoc" id="98" weight="13.480801981759997" />
+      <edge source="Cianuro inorgánico/orgánico" target="Tlaxcala.Xicohtzinco" id="99" weight="26.264627207000007" />
+      <edge source="Cianuro inorgánico/orgánico" target="Tlaxcala.Apizaco" id="100" weight="10.993050557" />
+      <edge source="Cianuro inorgánico/orgánico" target="Tlaxcala.Acuamanala de Miguel Hidalgo" id="101" weight="2.4527781159999997" />
+      <edge source="Cianuro inorgánico/orgánico" target="Tlaxcala.Teolocholco" id="102" weight="4.980208837" />
+      <edge source="Cianuro inorgánico/orgánico" target="Tlaxcala.Calpulalpan" id="103" weight="33.417236728700004" />
+      <edge source="Cianuro inorgánico/orgánico" target="Tlaxcala.Tlaxcala" id="104" weight="2172.27294624" />
+      <edge source="Cianuro inorgánico/orgánico" target="Tlaxcala.Ixtacuixtla de Mariano Matamoros" id="105" weight="1.222571" />
+      <edge source="Cianuro inorgánico/orgánico" target="Tlaxcala.Apetatitlán de Antonio Carvajal" id="106" weight="104.1823296" />
+      <edge source="Cianuro inorgánico/orgánico" target="Tlaxcala.Tlaxco" id="107" weight="4.5192588680000005" />
+      <edge source="Cianuro inorgánico/orgánico" target="Tlaxcala.Tzompantepec" id="108" weight="688.4916" />
+      <edge source="Cianuro inorgánico/orgánico" target="Tlaxcala.Papalotla de Xicohténcatl" id="109" weight="24.344239359619998" />
+      <edge source="Cianuro inorgánico/orgánico" target="Tlaxcala.Natívitas" id="110" weight="0.35579575999999996" />
+      <edge source="Cianuro inorgánico/orgánico" target="Tlaxcala.Atlangatepec" id="111" weight="0.198574" />
+      <edge source="Cianuro inorgánico/orgánico" target="Tlaxcala.La Magdalena Tlaltelulco" id="112" weight="1.06288" />
+      <edge source="Cianuro inorgánico/orgánico" target="Tlaxcala.Huamantla" id="113" weight="3.1732278000000003" />
+      <edge source="Cianuro inorgánico/orgánico" target="Tlaxcala.Santa Isabel Xiloxoxtla" id="114" weight="0.1096712" />
+      <edge source="Cianuro inorgánico/orgánico" target="Tlaxcala.Tepeyanco" id="115" weight="493.5384" />
+      <edge source="Cianuro inorgánico/orgánico" target="Tlaxcala.Ixtenco" id="116" weight="3.38728176" />
+      <edge source="Cadmio (compuestos)" target="Tlaxcala.Tetla de la Solidaridad" id="117" weight="210.28721606639996" />
+      <edge source="Cadmio (compuestos)" target="Tlaxcala.Xaloztoc" id="118" weight="1.4487551072" />
+      <edge source="Cadmio (compuestos)" target="Tlaxcala.Xicohtzinco" id="119" weight="0.374" />
+      <edge source="Cadmio (compuestos)" target="Tlaxcala.Apizaco" id="120" weight="4e-06" />
+      <edge source="Cadmio (compuestos)" target="Tlaxcala.Acuamanala de Miguel Hidalgo" id="121" weight="1.3017336335" />
+      <edge source="Cadmio (compuestos)" target="Tlaxcala.Teolocholco" id="122" weight="1.495001588" />
+      <edge source="Cadmio (compuestos)" target="Tlaxcala.Calpulalpan" id="123" weight="94.61271980000001" />
+      <edge source="Cadmio (compuestos)" target="Tlaxcala.Tlaxcala" id="124" weight="1899.00119485" />
+      <edge source="Cadmio (compuestos)" target="Tlaxcala.Ixtacuixtla de Mariano Matamoros" id="125" weight="2.0087704" />
+      <edge source="Cadmio (compuestos)" target="Tlaxcala.Apetatitlán de Antonio Carvajal" id="126" weight="68.7863232" />
+      <edge source="Cadmio (compuestos)" target="Tlaxcala.Tlaxco" id="127" weight="3.09671716" />
+      <edge source="Cadmio (compuestos)" target="Tlaxcala.Tzompantepec" id="128" weight="525.4278" />
+      <edge source="Cadmio (compuestos)" target="Tlaxcala.Papalotla de Xicohténcatl" id="129" weight="2.8293786560000003" />
+      <edge source="Cadmio (compuestos)" target="Tlaxcala.Natívitas" id="130" weight="0.05889" />
+      <edge source="Cadmio (compuestos)" target="Tlaxcala.Atlangatepec" id="131" weight="0.0867" />
+      <edge source="Cadmio (compuestos)" target="Tlaxcala.La Magdalena Tlaltelulco" id="132" weight="0.89206" />
+      <edge source="Cadmio (compuestos)" target="Tlaxcala.Huamantla" id="133" weight="1.5918336" />
+      <edge source="Cadmio (compuestos)" target="Tlaxcala.Santa Isabel Xiloxoxtla" id="134" weight="0.5648799999999999" />
+      <edge source="Cadmio (compuestos)" target="Tlaxcala.Tepeyanco" id="135" weight="380.95488" />
+      <edge source="Cadmio (compuestos)" target="Tlaxcala.Ixtenco" id="136" weight="7.65820224" />
+      <edge source="Níquel (Compuestos solubles)" target="Tlaxcala.Tetla de la Solidaridad" id="137" weight="437.0734135999999" />
+      <edge source="Níquel (Compuestos solubles)" target="Tlaxcala.Xaloztoc" id="138" weight="411.21090747" />
+      <edge source="Níquel (Compuestos solubles)" target="Tlaxcala.Xicohtzinco" id="139" weight="178.62910399999998" />
+      <edge source="Níquel (Compuestos solubles)" target="Tlaxcala.Apizaco" id="140" weight="160.7906" />
+      <edge source="Níquel (Compuestos solubles)" target="Tlaxcala.Acuamanala de Miguel Hidalgo" id="141" weight="20.313604927999997" />
+      <edge source="Níquel (Compuestos solubles)" target="Tlaxcala.Teolocholco" id="142" weight="29.1545" />
+      <edge source="Níquel (Compuestos solubles)" target="Tlaxcala.Calpulalpan" id="143" weight="35.1062" />
+      <edge source="Níquel (Compuestos solubles)" target="Tlaxcala.Tlaxcala" id="144" weight="3.555" />
+      <edge source="Níquel (Compuestos solubles)" target="Tlaxcala.Ixtacuixtla de Mariano Matamoros" id="145" weight="324.4211000000001" />
+      <edge source="Níquel (Compuestos solubles)" target="Tlaxcala.Tlaxco" id="146" weight="1139.5515" />
+      <edge source="Níquel (Compuestos solubles)" target="Tlaxcala.Papalotla de Xicohténcatl" id="147" weight="208.76749999999996" />
+      <edge source="Níquel (Compuestos solubles)" target="Tlaxcala.La Magdalena Tlaltelulco" id="148" weight="28.848931599999997" />
+      <edge source="Níquel (Compuestos solubles)" target="Tlaxcala.Huamantla" id="149" weight="151.6219" />
+      <edge source="Arsénico (compuestos)" target="Tlaxcala.Tetla de la Solidaridad" id="150" weight="59.468213859159995" />
+      <edge source="Arsénico (compuestos)" target="Tlaxcala.Xaloztoc" id="151" weight="0.117333528664" />
+      <edge source="Arsénico (compuestos)" target="Tlaxcala.Xicohtzinco" id="152" weight="0.0935" />
+      <edge source="Arsénico (compuestos)" target="Tlaxcala.Apizaco" id="153" weight="4e-06" />
+      <edge source="Arsénico (compuestos)" target="Tlaxcala.Acuamanala de Miguel Hidalgo" id="154" weight="0.65685321" />
+      <edge source="Arsénico (compuestos)" target="Tlaxcala.Teolocholco" id="155" weight="0.6062738018" />
+      <edge source="Arsénico (compuestos)" target="Tlaxcala.Calpulalpan" id="156" weight="1.1336308" />
+      <edge source="Arsénico (compuestos)" target="Tlaxcala.Tlaxcala" id="157" weight="607.80838823" />
+      <edge source="Arsénico (compuestos)" target="Tlaxcala.Ixtacuixtla de Mariano Matamoros" id="158" weight="0.518146" />
+      <edge source="Arsénico (compuestos)" target="Tlaxcala.Apetatitlán de Antonio Carvajal" id="159" weight="25.0143552" />
+      <edge source="Arsénico (compuestos)" target="Tlaxcala.Tlaxco" id="160" weight="5.876675916" />
+      <edge source="Arsénico (compuestos)" target="Tlaxcala.Tzompantepec" id="161" weight="148.56924" />
+      <edge source="Arsénico (compuestos)" target="Tlaxcala.Papalotla de Xicohténcatl" id="162" weight="405.14213846399997" />
+      <edge source="Arsénico (compuestos)" target="Tlaxcala.Natívitas" id="163" weight="0.004258" />
+      <edge source="Arsénico (compuestos)" target="Tlaxcala.Atlangatepec" id="164" weight="0.014698000000000001" />
+      <edge source="Arsénico (compuestos)" target="Tlaxcala.La Magdalena Tlaltelulco" id="165" weight="0.02847" />
+      <edge source="Arsénico (compuestos)" target="Tlaxcala.Huamantla" id="166" weight="0.79400038" />
+      <edge source="Arsénico (compuestos)" target="Tlaxcala.Santa Isabel Xiloxoxtla" id="167" weight="0.005664000000000001" />
+      <edge source="Arsénico (compuestos)" target="Tlaxcala.Tepeyanco" id="168" weight="148.53456" />
+      <edge source="Arsénico (compuestos)" target="Tlaxcala.Ixtenco" id="169" weight="0.324000864" />
+      <edge source="Níquel (polvos respirables, humos o vapores)" target="Tlaxcala.Tetla de la Solidaridad" id="170" weight="66.3511" />
+      <edge source="Níquel (polvos respirables, humos o vapores)" target="Tlaxcala.Calpulalpan" id="171" weight="123.13499999999999" />
+      <edge source="Níquel (polvos respirables, humos o vapores)" target="Tlaxcala.Ixtacuixtla de Mariano Matamoros" id="172" weight="25.139999999999997" />
+      <edge source="Cromo (Compuestos solubles)" target="Tlaxcala.Tetla de la Solidaridad" id="173" weight="875.1465948000006" />
+      <edge source="Cromo (Compuestos solubles)" target="Tlaxcala.Xaloztoc" id="174" weight="170.16050353999998" />
+      <edge source="Cromo (Compuestos solubles)" target="Tlaxcala.Xicohtzinco" id="175" weight="182.11827" />
+      <edge source="Cromo (Compuestos solubles)" target="Tlaxcala.Apizaco" id="176" weight="210.546" />
+      <edge source="Cromo (Compuestos solubles)" target="Tlaxcala.Acuamanala de Miguel Hidalgo" id="177" weight="26.104303552" />
+      <edge source="Cromo (Compuestos solubles)" target="Tlaxcala.Teolocholco" id="178" weight="9.911999999999999" />
+      <edge source="Cromo (Compuestos solubles)" target="Tlaxcala.Calpulalpan" id="179" weight="159.84390000000002" />
+      <edge source="Cromo (Compuestos solubles)" target="Tlaxcala.Tlaxcala" id="180" weight="4.905" />
+      <edge source="Cromo (Compuestos solubles)" target="Tlaxcala.Ixtacuixtla de Mariano Matamoros" id="181" weight="167.1206" />
+      <edge source="Cromo (Compuestos solubles)" target="Tlaxcala.Tlaxco" id="182" weight="398.0183" />
+      <edge source="Cromo (Compuestos solubles)" target="Tlaxcala.Papalotla de Xicohténcatl" id="183" weight="167.3286" />
+      <edge source="Cromo (Compuestos solubles)" target="Tlaxcala.La Magdalena Tlaltelulco" id="184" weight="29.579500000000003" />
+      <edge source="Cromo (Compuestos solubles)" target="Tlaxcala.Huamantla" id="185" weight="158.4862" />
+      <edge source="Plomo (Compuestos solubles)" target="Tlaxcala.Tetla de la Solidaridad" id="186" weight="1650.6259256000003" />
+      <edge source="Plomo (Compuestos solubles)" target="Tlaxcala.Xaloztoc" id="187" weight="129.08717" />
+      <edge source="Plomo (Compuestos solubles)" target="Tlaxcala.Xicohtzinco" id="188" weight="126.97952" />
+      <edge source="Plomo (Compuestos solubles)" target="Tlaxcala.Apizaco" id="189" weight="145.0579" />
+      <edge source="Plomo (Compuestos solubles)" target="Tlaxcala.Acuamanala de Miguel Hidalgo" id="190" weight="19.774503587999998" />
+      <edge source="Plomo (Compuestos solubles)" target="Tlaxcala.Teolocholco" id="191" weight="12.224799999999998" />
+      <edge source="Plomo (Compuestos solubles)" target="Tlaxcala.Calpulalpan" id="192" weight="63.3162" />
+      <edge source="Plomo (Compuestos solubles)" target="Tlaxcala.Tlaxcala" id="193" weight="9.2699" />
+      <edge source="Plomo (Compuestos solubles)" target="Tlaxcala.Ixtacuixtla de Mariano Matamoros" id="194" weight="176.08939999999998" />
+      <edge source="Plomo (Compuestos solubles)" target="Tlaxcala.Tlaxco" id="195" weight="307.5547" />
+      <edge source="Plomo (Compuestos solubles)" target="Tlaxcala.Papalotla de Xicohténcatl" id="196" weight="220.73470000000003" />
+      <edge source="Plomo (Compuestos solubles)" target="Tlaxcala.La Magdalena Tlaltelulco" id="197" weight="33.36908" />
+      <edge source="Plomo (Compuestos solubles)" target="Tlaxcala.Huamantla" id="198" weight="138.0466" />
+      <edge source="Cadmio (polvos, respirables, vapores o humos)" target="Tlaxcala.Tetla de la Solidaridad" id="199" weight="201.49313405180004" />
+      <edge source="Cadmio (polvos, respirables, vapores o humos)" target="Tlaxcala.Xaloztoc" id="200" weight="10.672873401199999" />
+      <edge source="Cadmio (polvos, respirables, vapores o humos)" target="Tlaxcala.Xicohtzinco" id="201" weight="355.84143786749996" />
+      <edge source="Cadmio (polvos, respirables, vapores o humos)" target="Tlaxcala.Apizaco" id="202" weight="14.858162142500001" />
+      <edge source="Cadmio (polvos, respirables, vapores o humos)" target="Tlaxcala.Acuamanala de Miguel Hidalgo" id="203" weight="0.226086292" />
+      <edge source="Cadmio (polvos, respirables, vapores o humos)" target="Tlaxcala.Teolocholco" id="204" weight="0.78" />
+      <edge source="Cadmio (polvos, respirables, vapores o humos)" target="Tlaxcala.Calpulalpan" id="205" weight="90.64796427120001" />
+      <edge source="Cadmio (polvos, respirables, vapores o humos)" target="Tlaxcala.Tlaxcala" id="206" weight="0.0113349" />
+      <edge source="Cadmio (polvos, respirables, vapores o humos)" target="Tlaxcala.Ixtacuixtla de Mariano Matamoros" id="207" weight="171.92945723" />
+      <edge source="Cadmio (polvos, respirables, vapores o humos)" target="Tlaxcala.Tlaxco" id="208" weight="5.37e-07" />
+      <edge source="Cadmio (polvos, respirables, vapores o humos)" target="Tlaxcala.Papalotla de Xicohténcatl" id="209" weight="4.8297806156" />
+      <edge source="Cadmio (polvos, respirables, vapores o humos)" target="Tlaxcala.Natívitas" id="210" weight="0.009072" />
+      <edge source="Cadmio (polvos, respirables, vapores o humos)" target="Tlaxcala.Atlangatepec" id="211" weight="0.023725" />
+      <edge source="Cadmio (polvos, respirables, vapores o humos)" target="Tlaxcala.La Magdalena Tlaltelulco" id="212" weight="0.89206" />
+      <edge source="Cadmio (polvos, respirables, vapores o humos)" target="Tlaxcala.Huamantla" id="213" weight="6.689991" />
+      <edge source="Mercurio (compuestos)" target="Tlaxcala.Tetla de la Solidaridad" id="214" weight="45.45460044851999" />
+      <edge source="Mercurio (compuestos)" target="Tlaxcala.Xaloztoc" id="215" weight="0.48145639069199997" />
+      <edge source="Mercurio (compuestos)" target="Tlaxcala.Xicohtzinco" id="216" weight="1901.832501539" />
+      <edge source="Mercurio (compuestos)" target="Tlaxcala.Apizaco" id="217" weight="0.0072127828" />
+      <edge source="Mercurio (compuestos)" target="Tlaxcala.Acuamanala de Miguel Hidalgo" id="218" weight="0.0640399664" />
+      <edge source="Mercurio (compuestos)" target="Tlaxcala.Teolocholco" id="219" weight="0.8877763579" />
+      <edge source="Mercurio (compuestos)" target="Tlaxcala.Calpulalpan" id="220" weight="5.674808212109999" />
+      <edge source="Mercurio (compuestos)" target="Tlaxcala.Tlaxcala" id="221" weight="94.82959725200001" />
+      <edge source="Mercurio (compuestos)" target="Tlaxcala.Ixtacuixtla de Mariano Matamoros" id="222" weight="0.18496767" />
+      <edge source="Mercurio (compuestos)" target="Tlaxcala.Apetatitlán de Antonio Carvajal" id="223" weight="4.16779776" />
+      <edge source="Mercurio (compuestos)" target="Tlaxcala.Tlaxco" id="224" weight="0.143663042" />
+      <edge source="Mercurio (compuestos)" target="Tlaxcala.Tzompantepec" id="225" weight="28.98912" />
+      <edge source="Mercurio (compuestos)" target="Tlaxcala.Papalotla de Xicohténcatl" id="226" weight="0.1533087296" />
+      <edge source="Mercurio (compuestos)" target="Tlaxcala.Natívitas" id="227" weight="0.0066856" />
+      <edge source="Mercurio (compuestos)" target="Tlaxcala.Atlangatepec" id="228" weight="0.0035326" />
+      <edge source="Mercurio (compuestos)" target="Tlaxcala.La Magdalena Tlaltelulco" id="229" weight="0.01898" />
+      <edge source="Mercurio (compuestos)" target="Tlaxcala.Huamantla" id="230" weight="0.12684168" />
+      <edge source="Mercurio (compuestos)" target="Tlaxcala.Santa Isabel Xiloxoxtla" id="231" weight="0.022596" />
+      <edge source="Mercurio (compuestos)" target="Tlaxcala.Tepeyanco" id="232" weight="20.81376" />
+      <edge source="Mercurio (compuestos)" target="Tlaxcala.Ixtenco" id="233" weight="0.603819792" />
+    </edges>
+  </graph>
+</gexf>

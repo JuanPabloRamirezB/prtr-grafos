@@ -1,0 +1,107 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<gexf xmlns="http://gexf.net/1.3" version="1.3" xmlns:viz="http://gexf.net/1.3/viz" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://gexf.net/1.3 http://gexf.net/1.3/gexf.xsd">
+  <meta lastmodifieddate="2026-10-16">
+    <creator>Apache NetBeans Platform Dev (Build {0})</creator>
+    <title></title>
+    <description></description>
+  </meta>
+  <graph defaultedgetype="undirected" mode="static">
+    <attributes class="node" mode="static">
+      <attribute id="0" title="total_kg" type="double"/>
+      <attribute id="modularity_class" title="Modularity Class" type="integer">
+        <default>0</default>
+      </attribute>
+    </attributes>
+    <nodes>
+      <node id="Quintana Roo.Benito Juárez" label="Quintana Roo.Benito Juárez">
+        <attvalues>
+          <attvalue for="0" value="5.671045826475272E9"/>
+          <attvalue for="modularity_class" value="0"/>
+        </attvalues>
+        <viz:size value="20.103924"/>
+        <viz:position x="31.206423" y="47.659218"/>
+        <viz:color r="42" g="120" b="214"/>
+      </node>
+      <node id="Quintana Roo.Cozumel" label="Quintana Roo.Cozumel">
+        <attvalues>
+          <attvalue for="0" value="9.418494081594731E8"/>
+          <attvalue for="modularity_class" value="0"/>
+        </attvalues>
+        <viz:size value="10.0936165"/>
+        <viz:position x="10.663475" y="8.882154"/>
+        <viz:color r="42" g="120" b="214"/>
+      </node>
+      <node id="Quintana Roo.Othón P" label="Quintana Roo.Othón P">
+        <attvalues>
+          <attvalue for="0" value="3.025250166044866E8"/>
+          <attvalue for="modularity_class" value="0"/>
+        </attvalues>
+        <viz:size value="8.7403555"/>
+        <viz:position x="43.984085" y="16.130234"/>
+        <viz:color r="42" g="120" b="214"/>
+      </node>
+      <node id="Quintana Roo.Solidaridad" label="Quintana Roo.Solidaridad">
+        <attvalues>
+          <attvalue for="0" value="1.034627562192804E10"/>
+          <attvalue for="modularity_class" value="0"/>
+        </attvalues>
+        <viz:size value="30.0"/>
+        <viz:position x="0.0" y="39.0976"/>
+        <viz:color r="42" g="120" b="214"/>
+      </node>
+      <node id="Quintana Roo.Isla Mujeres" label="Quintana Roo.Isla Mujeres">
+        <attvalues>
+          <attvalue for="0" value="266.78396527096"/>
+          <attvalue for="modularity_class" value="1"/>
+        </attvalues>
+        <viz:size value="8.1"/>
+        <viz:position x="112.90641" y="34.618008"/>
+        <viz:color r="235" g="104" b="52"/>
+      </node>
+      <node id="Quintana Roo.Tulum" label="Quintana Roo.Tulum">
+        <attvalues>
+          <attvalue for="0" value="5820.91078"/>
+          <attvalue for="modularity_class" value="1"/>
+        </attvalues>
+        <viz:size value="8.100012"/>
+        <viz:position x="99.255684" y="13.041203"/>
+        <viz:color r="235" g="104" b="52"/>
+      </node>
+      <node id="Quintana Roo.Lázaro Cárdenas" label="Quintana Roo.Lázaro Cárdenas">
+        <attvalues>
+          <attvalue for="0" value="3.80455816464E7"/>
+          <attvalue for="modularity_class" value="0"/>
+        </attvalues>
+        <viz:size value="8.1805315"/>
+        <viz:position x="76.350525" y="0.0"/>
+        <viz:color r="42" g="120" b="214"/>
+      </node>
+    </nodes>
+    <edges>
+      <edge id="0" source="Quintana Roo.Benito Juárez" target="Quintana Roo.Cozumel" weight="0.7045113444328308">
+        <viz:color r="137" g="135" b="129" a="0.47058824"/>
+      </edge>
+      <edge id="1" source="Quintana Roo.Benito Juárez" target="Quintana Roo.Othón P" weight="0.8509155511856079">
+        <viz:color r="137" g="135" b="129" a="0.47058824"/>
+      </edge>
+      <edge id="2" source="Quintana Roo.Benito Juárez" target="Quintana Roo.Solidaridad" weight="0.8474456071853638">
+        <viz:color r="137" g="135" b="129" a="0.47058824"/>
+      </edge>
+      <edge id="3" source="Quintana Roo.Cozumel" target="Quintana Roo.Othón P" weight="0.8312559723854065">
+        <viz:color r="137" g="135" b="129" a="0.47058824"/>
+      </edge>
+      <edge id="4" source="Quintana Roo.Cozumel" target="Quintana Roo.Solidaridad" weight="0.9125105738639832">
+        <viz:color r="137" g="135" b="129" a="0.47058824"/>
+      </edge>
+      <edge id="5" source="Quintana Roo.Othón P" target="Quintana Roo.Lázaro Cárdenas" weight="0.7447261214256287">
+        <viz:color r="137" g="135" b="129" a="0.47058824"/>
+      </edge>
+      <edge id="6" source="Quintana Roo.Othón P" target="Quintana Roo.Solidaridad" weight="0.8007568717002869">
+        <viz:color r="137" g="135" b="129" a="0.47058824"/>
+      </edge>
+      <edge id="7" source="Quintana Roo.Isla Mujeres" target="Quintana Roo.Tulum" weight="0.7949990034103394">
+        <viz:color r="137" g="135" b="129" a="0.47058824"/>
+      </edge>
+    </edges>
+  </graph>
+</gexf>

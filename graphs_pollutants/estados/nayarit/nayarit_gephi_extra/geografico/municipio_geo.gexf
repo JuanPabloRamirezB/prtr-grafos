@@ -1,0 +1,102 @@
+<?xml version='1.0' encoding='utf-8'?>
+<gexf xmlns="http://www.gexf.net/1.2draft" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.gexf.net/1.2draft http://www.gexf.net/1.2draft/gexf.xsd" version="1.2">
+  <meta lastmodifieddate="2026-10-16">
+    <creator>NetworkX 3.7</creator>
+  </meta>
+  <graph defaultedgetype="undirected" mode="static" name="">
+    <attributes mode="static" class="node">
+      <attribute id="0" title="lat" type="double" />
+      <attribute id="1" title="lon" type="double" />
+      <attribute id="2" title="total_kg" type="double" />
+      <attribute id="3" title="community" type="long" />
+      <attribute id="4" title="color_hex" type="string" />
+    </attributes>
+    <nodes>
+      <node id="Nayarit.Acaponeta" label="Acaponeta">
+        <attvalues>
+          <attvalue for="0" value="22.2921795" />
+          <attvalue for="1" value="-105.2136663" />
+          <attvalue for="2" value="53.222475" />
+          <attvalue for="3" value="2" />
+          <attvalue for="4" value="#1baf7a" />
+        </attvalues>
+      </node>
+      <node id="Nayarit.Bahía de Banderas" label="Bahía de Banderas">
+        <attvalues>
+          <attvalue for="0" value="20.4824336" />
+          <attvalue for="1" value="-105.1452527" />
+          <attvalue for="2" value="868.3304" />
+          <attvalue for="3" value="0" />
+          <attvalue for="4" value="#2a78d6" />
+        </attvalues>
+      </node>
+      <node id="Nayarit.Del Nayar" label="Del Nayar">
+        <attvalues>
+          <attvalue for="0" value="22.150405" />
+          <attvalue for="1" value="-104.3104593" />
+          <attvalue for="2" value="0.052613322739999996" />
+          <attvalue for="3" value="3" />
+          <attvalue for="4" value="#eda100" />
+        </attvalues>
+      </node>
+      <node id="Nayarit.La Yesca" label="La Yesca">
+        <attvalues>
+          <attvalue for="0" value="21.1907987" />
+          <attvalue for="1" value="-104.003515" />
+          <attvalue for="2" value="77.50138679" />
+          <attvalue for="3" value="4" />
+          <attvalue for="4" value="#e87ba4" />
+        </attvalues>
+      </node>
+      <node id="Nayarit.San Blas" label="San Blas">
+        <attvalues>
+          <attvalue for="0" value="21.3230257" />
+          <attvalue for="1" value="-105.1709767" />
+          <attvalue for="2" value="1090.9144999999999" />
+          <attvalue for="3" value="0" />
+          <attvalue for="4" value="#2a78d6" />
+        </attvalues>
+      </node>
+      <node id="Nayarit.San Pedro Lagunillas" label="San Pedro Lagunillas">
+        <attvalues>
+          <attvalue for="0" value="21.1318862" />
+          <attvalue for="1" value="-104.4503995" />
+          <attvalue for="2" value="92471857.5684" />
+          <attvalue for="3" value="5" />
+          <attvalue for="4" value="#008300" />
+        </attvalues>
+      </node>
+      <node id="Nayarit.Santa María del Oro" label="Santa María del Oro">
+        <attvalues>
+          <attvalue for="0" value="21.1959482" />
+          <attvalue for="1" value="-104.3513944" />
+          <attvalue for="2" value="166.38014555920003" />
+          <attvalue for="3" value="6" />
+          <attvalue for="4" value="#4a3aa7" />
+        </attvalues>
+      </node>
+      <node id="Nayarit.Tepic" label="Tepic">
+        <attvalues>
+          <attvalue for="0" value="21.3026687" />
+          <attvalue for="1" value="-104.5337677" />
+          <attvalue for="2" value="16586.323953395986" />
+          <attvalue for="3" value="1" />
+          <attvalue for="4" value="#eb6834" />
+        </attvalues>
+      </node>
+      <node id="Nayarit.Xalisco" label="Xalisco">
+        <attvalues>
+          <attvalue for="0" value="21.2637274" />
+          <attvalue for="1" value="-104.5359048" />
+          <attvalue for="2" value="484452.7802207221" />
+          <attvalue for="3" value="1" />
+          <attvalue for="4" value="#eb6834" />
+        </attvalues>
+      </node>
+    </nodes>
+    <edges>
+      <edge source="Nayarit.Bahía de Banderas" target="Nayarit.San Blas" id="0" weight="0.7875752950274263" />
+      <edge source="Nayarit.Tepic" target="Nayarit.Xalisco" id="1" weight="0.7038883122548616" />
+    </edges>
+  </graph>
+</gexf>

@@ -1,0 +1,309 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<gexf xmlns="http://gexf.net/1.3" version="1.3" xmlns:viz="http://gexf.net/1.3/viz" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://gexf.net/1.3 http://gexf.net/1.3/gexf.xsd">
+  <meta lastmodifieddate="2026-10-16">
+    <creator>Apache NetBeans Platform Dev (Build {0})</creator>
+    <title></title>
+    <description></description>
+  </meta>
+  <graph defaultedgetype="undirected" mode="static">
+    <attributes class="node" mode="static">
+      <attribute id="0" title="type" type="string"/>
+      <attribute id="1" title="total_kg" type="double"/>
+    </attributes>
+    <nodes>
+      <node id="LOC::Baja California.Tijuana" label="Baja California.Tijuana">
+        <attvalues>
+          <attvalue for="0" value="location"/>
+          <attvalue for="1" value="4.66616105067628E9"/>
+        </attvalues>
+        <viz:size value="13.031283"/>
+        <viz:position x="-900.0" y="1500.0"/>
+        <viz:color r="42" g="120" b="214"/>
+      </node>
+      <node id="LOC::Baja California.Tecate" label="Baja California.Tecate">
+        <attvalues>
+          <attvalue for="0" value="location"/>
+          <attvalue for="1" value="5.616736770096923E8"/>
+        </attvalues>
+        <viz:size value="10.364873"/>
+        <viz:position x="-900.0" y="2000.0"/>
+        <viz:color r="42" g="120" b="214"/>
+      </node>
+      <node id="LOC::Baja California.Mexicali" label="Baja California.Mexicali">
+        <attvalues>
+          <attvalue for="0" value="location"/>
+          <attvalue for="1" value="6.079388657250409E10"/>
+        </attvalues>
+        <viz:size value="49.4937"/>
+        <viz:position x="-900.0" y="0.0"/>
+        <viz:color r="42" g="120" b="214"/>
+      </node>
+      <node id="LOC::Baja California.Playas de Rosarito" label="Baja California.Playas de Rosarito">
+        <attvalues>
+          <attvalue for="0" value="location"/>
+          <attvalue for="1" value="1.9330640020480137E10"/>
+        </attvalues>
+        <viz:size value="22.557812"/>
+        <viz:position x="-900.0" y="500.0"/>
+        <viz:color r="42" g="120" b="214"/>
+      </node>
+      <node id="LOC::Baja California.Ensenada" label="Baja California.Ensenada">
+        <attvalues>
+          <attvalue for="0" value="location"/>
+          <attvalue for="1" value="7.023226643028638E9"/>
+        </attvalues>
+        <viz:size value="14.5625105"/>
+        <viz:position x="-900.0" y="1000.0"/>
+        <viz:color r="42" g="120" b="214"/>
+      </node>
+      <node id="MED::agua" label="water">
+        <attvalues>
+          <attvalue for="0" value="medio"/>
+          <attvalue for="1" value="1585346.6064895955"/>
+        </attvalues>
+        <viz:size value="10.001021"/>
+        <viz:position x="900.0" y="600.0"/>
+        <viz:color r="235" g="104" b="52"/>
+      </node>
+      <node id="MED::aire" label="air">
+        <attvalues>
+          <attvalue for="0" value="medio"/>
+          <attvalue for="1" value="9.235987480627466E10"/>
+        </attvalues>
+        <viz:size value="70.0"/>
+        <viz:position x="900.0" y="0.0"/>
+        <viz:color r="235" g="104" b="52"/>
+      </node>
+      <node id="MED::suelo" label="soil">
+        <attvalues>
+          <attvalue for="0" value="medio"/>
+          <attvalue for="1" value="117665.58270521488"/>
+        </attvalues>
+        <viz:size value="10.000068"/>
+        <viz:position x="900.0" y="1400.0"/>
+        <viz:color r="235" g="104" b="52"/>
+      </node>
+      <node id="MED::alcantarillado" label="sewer system">
+        <attvalues>
+          <attvalue for="0" value="medio"/>
+          <attvalue for="1" value="12836.470599558477"/>
+        </attvalues>
+        <viz:size value="10.0"/>
+        <viz:position x="900.0" y="2000.0"/>
+        <viz:color r="235" g="104" b="52"/>
+      </node>
+      <node id="MED::coprocesamiento" label="co-processing">
+        <attvalues>
+          <attvalue for="0" value="medio"/>
+          <attvalue for="1" value="200470.28015999997"/>
+        </attvalues>
+        <viz:size value="10.000122"/>
+        <viz:position x="900.0" y="1000.0"/>
+        <viz:color r="235" g="104" b="52"/>
+      </node>
+      <node id="MED::disposicion_final" label="final disposal">
+        <attvalues>
+          <attvalue for="0" value="medio"/>
+          <attvalue for="1" value="1958317.5756434496"/>
+        </attvalues>
+        <viz:size value="10.001264"/>
+        <viz:position x="900.0" y="400.0"/>
+        <viz:color r="235" g="104" b="52"/>
+      </node>
+      <node id="MED::incineracion" label="incineration">
+        <attvalues>
+          <attvalue for="0" value="medio"/>
+          <attvalue for="1" value="47410.047099999996"/>
+        </attvalues>
+        <viz:size value="10.000023"/>
+        <viz:position x="900.0" y="1600.0"/>
+        <viz:color r="235" g="104" b="52"/>
+      </node>
+      <node id="MED::otros" label="other">
+        <attvalues>
+          <attvalue for="0" value="medio"/>
+          <attvalue for="1" value="131943.76858073857"/>
+        </attvalues>
+        <viz:size value="10.000077"/>
+        <viz:position x="900.0" y="1200.0"/>
+        <viz:color r="235" g="104" b="52"/>
+      </node>
+      <node id="MED::reciclado" label="recycling">
+        <attvalues>
+          <attvalue for="0" value="medio"/>
+          <attvalue for="1" value="1.0800266271224998E7"/>
+        </attvalues>
+        <viz:size value="10.007008"/>
+        <viz:position x="900.0" y="200.0"/>
+        <viz:color r="235" g="104" b="52"/>
+      </node>
+      <node id="MED::reutilizacion" label="reuse">
+        <attvalues>
+          <attvalue for="0" value="medio"/>
+          <attvalue for="1" value="21343.759"/>
+        </attvalues>
+        <viz:size value="10.000006"/>
+        <viz:position x="900.0" y="1800.0"/>
+        <viz:color r="235" g="104" b="52"/>
+      </node>
+      <node id="MED::tratamiento" label="treatment">
+        <attvalues>
+          <attvalue for="0" value="medio"/>
+          <attvalue for="1" value="837557.0626599999"/>
+        </attvalues>
+        <viz:size value="10.000536"/>
+        <viz:position x="900.0" y="800.0"/>
+        <viz:color r="235" g="104" b="52"/>
+      </node>
+    </nodes>
+    <edges>
+      <edge id="0" source="LOC::Baja California.Tijuana" target="MED::agua" weight="6833.30419921875">
+        <viz:color r="137" g="135" b="129" a="0.43137255"/>
+      </edge>
+      <edge id="1" source="LOC::Baja California.Tijuana" target="MED::aire" weight="4.656603136E9">
+        <viz:color r="137" g="135" b="129" a="0.43137255"/>
+      </edge>
+      <edge id="2" source="LOC::Baja California.Tijuana" target="MED::suelo" weight="21439.9453125">
+        <viz:color r="137" g="135" b="129" a="0.43137255"/>
+      </edge>
+      <edge id="3" source="LOC::Baja California.Tijuana" target="MED::alcantarillado" weight="11049.5556640625">
+        <viz:color r="137" g="135" b="129" a="0.43137255"/>
+      </edge>
+      <edge id="4" source="LOC::Baja California.Tijuana" target="MED::coprocesamiento" weight="80181.59375">
+        <viz:color r="137" g="135" b="129" a="0.43137255"/>
+      </edge>
+      <edge id="5" source="LOC::Baja California.Tijuana" target="MED::disposicion_final" weight="1046433.0625">
+        <viz:color r="137" g="135" b="129" a="0.43137255"/>
+      </edge>
+      <edge id="6" source="LOC::Baja California.Tijuana" target="MED::incineracion" weight="45267.2421875">
+        <viz:color r="137" g="135" b="129" a="0.43137255"/>
+      </edge>
+      <edge id="7" source="LOC::Baja California.Tijuana" target="MED::otros" weight="27640.953125">
+        <viz:color r="137" g="135" b="129" a="0.43137255"/>
+      </edge>
+      <edge id="8" source="LOC::Baja California.Tijuana" target="MED::reciclado" weight="7794427.0">
+        <viz:color r="137" g="135" b="129" a="0.43137255"/>
+      </edge>
+      <edge id="9" source="LOC::Baja California.Tijuana" target="MED::reutilizacion" weight="8092.240234375">
+        <viz:color r="137" g="135" b="129" a="0.43137255"/>
+      </edge>
+      <edge id="10" source="LOC::Baja California.Tijuana" target="MED::tratamiento" weight="516523.78125">
+        <viz:color r="137" g="135" b="129" a="0.43137255"/>
+      </edge>
+      <edge id="11" source="LOC::Baja California.Tecate" target="MED::agua" weight="848013.375">
+        <viz:color r="137" g="135" b="129" a="0.43137255"/>
+      </edge>
+      <edge id="12" source="LOC::Baja California.Tecate" target="MED::aire" weight="5.60629952E8">
+        <viz:color r="137" g="135" b="129" a="0.43137255"/>
+      </edge>
+      <edge id="13" source="LOC::Baja California.Tecate" target="MED::suelo" weight="14804.712890625">
+        <viz:color r="137" g="135" b="129" a="0.43137255"/>
+      </edge>
+      <edge id="14" source="LOC::Baja California.Tecate" target="MED::alcantarillado" weight="561.3779907226562">
+        <viz:color r="137" g="135" b="129" a="0.43137255"/>
+      </edge>
+      <edge id="15" source="LOC::Baja California.Tecate" target="MED::disposicion_final" weight="160800.734375">
+        <viz:color r="137" g="135" b="129" a="0.43137255"/>
+      </edge>
+      <edge id="16" source="LOC::Baja California.Tecate" target="MED::otros" weight="0.09049999713897705">
+        <viz:color r="137" g="135" b="129" a="0.43137255"/>
+      </edge>
+      <edge id="17" source="LOC::Baja California.Tecate" target="MED::reciclado" weight="3941.419921875">
+        <viz:color r="137" g="135" b="129" a="0.43137255"/>
+      </edge>
+      <edge id="18" source="LOC::Baja California.Tecate" target="MED::reutilizacion" weight="10366.369140625">
+        <viz:color r="137" g="135" b="129" a="0.43137255"/>
+      </edge>
+      <edge id="19" source="LOC::Baja California.Tecate" target="MED::tratamiento" weight="5215.85986328125">
+        <viz:color r="137" g="135" b="129" a="0.43137255"/>
+      </edge>
+      <edge id="20" source="LOC::Baja California.Mexicali" target="MED::agua" weight="11436.65625">
+        <viz:color r="137" g="135" b="129" a="0.43137255"/>
+      </edge>
+      <edge id="21" source="LOC::Baja California.Mexicali" target="MED::aire" weight="6.0789587968E10">
+        <viz:color r="137" g="135" b="129" a="0.43137255"/>
+      </edge>
+      <edge id="22" source="LOC::Baja California.Mexicali" target="MED::suelo" weight="81169.8203125">
+        <viz:color r="137" g="135" b="129" a="0.43137255"/>
+      </edge>
+      <edge id="23" source="LOC::Baja California.Mexicali" target="MED::alcantarillado" weight="1144.61083984375">
+        <viz:color r="137" g="135" b="129" a="0.43137255"/>
+      </edge>
+      <edge id="24" source="LOC::Baja California.Mexicali" target="MED::coprocesamiento" weight="98699.59375">
+        <viz:color r="137" g="135" b="129" a="0.43137255"/>
+      </edge>
+      <edge id="25" source="LOC::Baja California.Mexicali" target="MED::disposicion_final" weight="717317.0625">
+        <viz:color r="137" g="135" b="129" a="0.43137255"/>
+      </edge>
+      <edge id="26" source="LOC::Baja California.Mexicali" target="MED::incineracion" weight="2142.806396484375">
+        <viz:color r="137" g="135" b="129" a="0.43137255"/>
+      </edge>
+      <edge id="27" source="LOC::Baja California.Mexicali" target="MED::otros" weight="104236.203125">
+        <viz:color r="137" g="135" b="129" a="0.43137255"/>
+      </edge>
+      <edge id="28" source="LOC::Baja California.Mexicali" target="MED::reciclado" weight="2963108.5">
+        <viz:color r="137" g="135" b="129" a="0.43137255"/>
+      </edge>
+      <edge id="29" source="LOC::Baja California.Mexicali" target="MED::reutilizacion" weight="1585.1500244140625">
+        <viz:color r="137" g="135" b="129" a="0.43137255"/>
+      </edge>
+      <edge id="30" source="LOC::Baja California.Mexicali" target="MED::tratamiento" weight="315811.46875">
+        <viz:color r="137" g="135" b="129" a="0.43137255"/>
+      </edge>
+      <edge id="31" source="LOC::Baja California.Playas de Rosarito" target="MED::agua" weight="384618.03125">
+        <viz:color r="137" g="135" b="129" a="0.43137255"/>
+      </edge>
+      <edge id="32" source="LOC::Baja California.Playas de Rosarito" target="MED::aire" weight="1.9330195456E10">
+        <viz:color r="137" g="135" b="129" a="0.43137255"/>
+      </edge>
+      <edge id="33" source="LOC::Baja California.Playas de Rosarito" target="MED::suelo" weight="193.23365783691406">
+        <viz:color r="137" g="135" b="129" a="0.43137255"/>
+      </edge>
+      <edge id="34" source="LOC::Baja California.Playas de Rosarito" target="MED::alcantarillado" weight="45.110801696777344">
+        <viz:color r="137" g="135" b="129" a="0.43137255"/>
+      </edge>
+      <edge id="35" source="LOC::Baja California.Playas de Rosarito" target="MED::coprocesamiento" weight="21340.0">
+        <viz:color r="137" g="135" b="129" a="0.43137255"/>
+      </edge>
+      <edge id="36" source="LOC::Baja California.Playas de Rosarito" target="MED::disposicion_final" weight="2460.952880859375">
+        <viz:color r="137" g="135" b="129" a="0.43137255"/>
+      </edge>
+      <edge id="37" source="LOC::Baja California.Playas de Rosarito" target="MED::reciclado" weight="36764.0">
+        <viz:color r="137" g="135" b="129" a="0.43137255"/>
+      </edge>
+      <edge id="38" source="LOC::Baja California.Playas de Rosarito" target="MED::tratamiento" weight="3.0">
+        <viz:color r="137" g="135" b="129" a="0.43137255"/>
+      </edge>
+      <edge id="39" source="LOC::Baja California.Ensenada" target="MED::agua" weight="334445.21875">
+        <viz:color r="137" g="135" b="129" a="0.43137255"/>
+      </edge>
+      <edge id="40" source="LOC::Baja California.Ensenada" target="MED::aire" weight="7.022857216E9">
+        <viz:color r="137" g="135" b="129" a="0.43137255"/>
+      </edge>
+      <edge id="41" source="LOC::Baja California.Ensenada" target="MED::suelo" weight="57.86964416503906">
+        <viz:color r="137" g="135" b="129" a="0.43137255"/>
+      </edge>
+      <edge id="42" source="LOC::Baja California.Ensenada" target="MED::alcantarillado" weight="35.81479263305664">
+        <viz:color r="137" g="135" b="129" a="0.43137255"/>
+      </edge>
+      <edge id="43" source="LOC::Baja California.Ensenada" target="MED::coprocesamiento" weight="249.08999633789062">
+        <viz:color r="137" g="135" b="129" a="0.43137255"/>
+      </edge>
+      <edge id="44" source="LOC::Baja California.Ensenada" target="MED::disposicion_final" weight="31305.76953125">
+        <viz:color r="137" g="135" b="129" a="0.43137255"/>
+      </edge>
+      <edge id="45" source="LOC::Baja California.Ensenada" target="MED::otros" weight="66.5199966430664">
+        <viz:color r="137" g="135" b="129" a="0.43137255"/>
+      </edge>
+      <edge id="46" source="LOC::Baja California.Ensenada" target="MED::reciclado" weight="2025.425048828125">
+        <viz:color r="137" g="135" b="129" a="0.43137255"/>
+      </edge>
+      <edge id="47" source="LOC::Baja California.Ensenada" target="MED::reutilizacion" weight="1300.0">
+        <viz:color r="137" g="135" b="129" a="0.43137255"/>
+      </edge>
+      <edge id="48" source="LOC::Baja California.Ensenada" target="MED::tratamiento" weight="2.9600000381469727">
+        <viz:color r="137" g="135" b="129" a="0.43137255"/>
+      </edge>
+    </edges>
+  </graph>
+</gexf>

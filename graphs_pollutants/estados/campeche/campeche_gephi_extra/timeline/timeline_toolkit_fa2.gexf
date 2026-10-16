@@ -1,0 +1,773 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<gexf xmlns="http://gexf.net/1.3" version="1.3" xmlns:viz="http://gexf.net/1.3/viz" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://gexf.net/1.3 http://gexf.net/1.3/gexf.xsd">
+  <meta lastmodifieddate="2026-10-16">
+    <creator>Apache NetBeans Platform Dev (Build {0})</creator>
+    <title></title>
+    <description></description>
+  </meta>
+  <graph defaultedgetype="undirected" mode="static">
+    <attributes class="node" mode="static">
+      <attribute id="0" title="type" type="string"/>
+      <attribute id="1" title="total_kg" type="double"/>
+      <attribute id="2" title="first_year" type="long"/>
+      <attribute id="3" title="n_years_active" type="long"/>
+    </attributes>
+    <nodes>
+      <node id="LOC::Campeche.Carmen" label="Campeche.Carmen">
+        <attvalues>
+          <attvalue for="0" value="location"/>
+          <attvalue for="1" value="2.0255008894566476E11"/>
+          <attvalue for="2" value="2004"/>
+          <attvalue for="3" value="19"/>
+        </attvalues>
+        <viz:size value="50.0"/>
+        <viz:position x="-375.45166" y="-146.26762"/>
+        <viz:color r="205" g="226" b="251"/>
+      </node>
+      <node id="LOC::Campeche.Palizada" label="Campeche.Palizada">
+        <attvalues>
+          <attvalue for="0" value="location"/>
+          <attvalue for="1" value="5.019974036426873E9"/>
+          <attvalue for="2" value="2005"/>
+          <attvalue for="3" value="17"/>
+        </attvalues>
+        <viz:size value="45.11111"/>
+        <viz:position x="286.70264" y="123.81669"/>
+        <viz:color r="191" g="217" b="248"/>
+      </node>
+      <node id="LOC::Campeche.Campeche" label="Campeche.Campeche">
+        <attvalues>
+          <attvalue for="0" value="location"/>
+          <attvalue for="1" value="1.154454691979482E10"/>
+          <attvalue for="2" value="2004"/>
+          <attvalue for="3" value="19"/>
+        </attvalues>
+        <viz:size value="50.0"/>
+        <viz:position x="-117.902336" y="167.30588"/>
+        <viz:color r="205" g="226" b="251"/>
+      </node>
+      <node id="LOC::Campeche.Champotón" label="Campeche.Champotón">
+        <attvalues>
+          <attvalue for="0" value="location"/>
+          <attvalue for="1" value="4.0787214372479993E8"/>
+          <attvalue for="2" value="2015"/>
+          <attvalue for="3" value="6"/>
+        </attvalues>
+        <viz:size value="18.222223"/>
+        <viz:position x="329.6092" y="-332.05347"/>
+        <viz:color r="71" g="135" b="212"/>
+      </node>
+      <node id="LOC::Campeche.Tenabo" label="Campeche.Tenabo">
+        <attvalues>
+          <attvalue for="0" value="location"/>
+          <attvalue for="1" value="13.2704"/>
+          <attvalue for="2" value="2022"/>
+          <attvalue for="3" value="1"/>
+        </attvalues>
+        <viz:size value="6.0"/>
+        <viz:position x="633.0846" y="-249.20074"/>
+        <viz:color r="24" g="79" b="149"/>
+      </node>
+      <node id="LOC::Campeche.Calkiní" label="Campeche.Calkiní">
+        <attvalues>
+          <attvalue for="0" value="location"/>
+          <attvalue for="1" value="15.9059"/>
+          <attvalue for="2" value="2022"/>
+          <attvalue for="3" value="1"/>
+        </attvalues>
+        <viz:size value="6.0"/>
+        <viz:position x="612.5907" y="-309.7526"/>
+        <viz:color r="24" g="79" b="149"/>
+      </node>
+      <node id="LOC::Campeche.Escárcega" label="Campeche.Escárcega">
+        <attvalues>
+          <attvalue for="0" value="location"/>
+          <attvalue for="1" value="2.99188E7"/>
+          <attvalue for="2" value="2020"/>
+          <attvalue for="3" value="2"/>
+        </attvalues>
+        <viz:size value="8.444445"/>
+        <viz:position x="159.88068" y="-496.84348"/>
+        <viz:color r="37" g="95" b="167"/>
+      </node>
+      <node id="LOC::Campeche.Hopelchén" label="Campeche.Hopelchén">
+        <attvalues>
+          <attvalue for="0" value="location"/>
+          <attvalue for="1" value="61.082300000000004"/>
+          <attvalue for="2" value="2022"/>
+          <attvalue for="3" value="1"/>
+        </attvalues>
+        <viz:size value="6.0"/>
+        <viz:position x="487.19687" y="-220.06995"/>
+        <viz:color r="24" g="79" b="149"/>
+      </node>
+      <node id="SUB::Cadmio (Compuestos solubles)" label="Cadmium (soluble compounds)">
+        <attvalues>
+          <attvalue for="0" value="substance"/>
+          <attvalue for="1" value="72668.2996356"/>
+          <attvalue for="2" value="2008"/>
+          <attvalue for="3" value="10"/>
+        </attvalues>
+        <viz:size value="28.0"/>
+        <viz:position x="352.1843" y="-165.28241"/>
+        <viz:color r="151" g="193" b="242"/>
+      </node>
+      <node id="SUB::Cromo (Compuestos solubles)" label="Chromium (soluble compounds)">
+        <attvalues>
+          <attvalue for="0" value="substance"/>
+          <attvalue for="1" value="99737.18704328623"/>
+          <attvalue for="2" value="2008"/>
+          <attvalue for="3" value="10"/>
+        </attvalues>
+        <viz:size value="28.0"/>
+        <viz:position x="505.4689" y="-326.5627"/>
+        <viz:color r="151" g="193" b="242"/>
+      </node>
+      <node id="SUB::Níquel (Compuestos solubles)" label="Nickel (soluble compounds)">
+        <attvalues>
+          <attvalue for="0" value="substance"/>
+          <attvalue for="1" value="375201.79203522456"/>
+          <attvalue for="2" value="2008"/>
+          <attvalue for="3" value="10"/>
+        </attvalues>
+        <viz:size value="28.0"/>
+        <viz:position x="561.81757" y="-166.72539"/>
+        <viz:color r="151" g="193" b="242"/>
+      </node>
+      <node id="SUB::Plomo (Compuestos solubles)" label="Lead (soluble compounds)">
+        <attvalues>
+          <attvalue for="0" value="substance"/>
+          <attvalue for="1" value="224994.52305876804"/>
+          <attvalue for="2" value="2008"/>
+          <attvalue for="3" value="10"/>
+        </attvalues>
+        <viz:size value="28.0"/>
+        <viz:position x="553.0209" y="-255.9584"/>
+        <viz:color r="151" g="193" b="242"/>
+      </node>
+      <node id="SUB::Cianuro inorgánico/orgánico" label="Inorganic/organic cyanide">
+        <attvalues>
+          <attvalue for="0" value="substance"/>
+          <attvalue for="1" value="20085.686499058687"/>
+          <attvalue for="2" value="2004"/>
+          <attvalue for="3" value="19"/>
+        </attvalues>
+        <viz:size value="50.0"/>
+        <viz:position x="134.68886" y="-232.49095"/>
+        <viz:color r="205" g="226" b="251"/>
+      </node>
+      <node id="SUB::Mercurio (polvos, respirables, vapores o humos)" label="Mercury (respirable dust, vapors or fumes)">
+        <attvalues>
+          <attvalue for="0" value="substance"/>
+          <attvalue for="1" value="27.111805877409317"/>
+          <attvalue for="2" value="2008"/>
+          <attvalue for="3" value="3"/>
+        </attvalues>
+        <viz:size value="10.888889"/>
+        <viz:position x="122.97505" y="306.7919"/>
+        <viz:color r="151" g="193" b="242"/>
+      </node>
+      <node id="SUB::Arsénico (polvos, respirables, vapores o humos)" label="Arsenic (respirable dust, vapors or fumes)">
+        <attvalues>
+          <attvalue for="0" value="substance"/>
+          <attvalue for="1" value="1363.4814189385368"/>
+          <attvalue for="2" value="2004"/>
+          <attvalue for="3" value="11"/>
+        </attvalues>
+        <viz:size value="30.444447"/>
+        <viz:position x="154.70787" y="423.35712"/>
+        <viz:color r="205" g="226" b="251"/>
+      </node>
+      <node id="SUB::Mercurio (Compuestos solubles)" label="Mercury (soluble compounds)">
+        <attvalues>
+          <attvalue for="0" value="substance"/>
+          <attvalue for="1" value="2321.723104487198"/>
+          <attvalue for="2" value="2008"/>
+          <attvalue for="3" value="10"/>
+        </attvalues>
+        <viz:size value="28.0"/>
+        <viz:position x="192.53732" y="-146.99449"/>
+        <viz:color r="151" g="193" b="242"/>
+      </node>
+      <node id="SUB::Cadmio (polvos, respirables, vapores o humos)" label="Cadmium (respirable dust, vapors or fumes)">
+        <attvalues>
+          <attvalue for="0" value="substance"/>
+          <attvalue for="1" value="1541.732760514526"/>
+          <attvalue for="2" value="2004"/>
+          <attvalue for="3" value="14"/>
+        </attvalues>
+        <viz:size value="37.77778"/>
+        <viz:position x="-75.94237" y="434.86404"/>
+        <viz:color r="205" g="226" b="251"/>
+      </node>
+      <node id="SUB::Plomo (compuestos)" label="Lead (compounds)">
+        <attvalues>
+          <attvalue for="0" value="substance"/>
+          <attvalue for="1" value="160732.90347724923"/>
+          <attvalue for="2" value="2004"/>
+          <attvalue for="3" value="9"/>
+        </attvalues>
+        <viz:size value="25.555555"/>
+        <viz:position x="-173.40869" y="373.4679"/>
+        <viz:color r="205" g="226" b="251"/>
+      </node>
+      <node id="SUB::Níquel (compuestos)" label="Nickel (compounds)">
+        <attvalues>
+          <attvalue for="0" value="substance"/>
+          <attvalue for="1" value="18621.516830441662"/>
+          <attvalue for="2" value="2004"/>
+          <attvalue for="3" value="9"/>
+        </attvalues>
+        <viz:size value="25.555555"/>
+        <viz:position x="7.201501" y="336.16708"/>
+        <viz:color r="205" g="226" b="251"/>
+      </node>
+      <node id="SUB::Mercurio (compuestos)" label="Mercury (compounds)">
+        <attvalues>
+          <attvalue for="0" value="substance"/>
+          <attvalue for="1" value="302.6818435943859"/>
+          <attvalue for="2" value="2004"/>
+          <attvalue for="3" value="9"/>
+        </attvalues>
+        <viz:size value="25.555555"/>
+        <viz:position x="241.33394" y="337.53723"/>
+        <viz:color r="205" g="226" b="251"/>
+      </node>
+      <node id="SUB::Cadmio (compuestos)" label="Cadmium (compounds)">
+        <attvalues>
+          <attvalue for="0" value="substance"/>
+          <attvalue for="1" value="1827.6693186008126"/>
+          <attvalue for="2" value="2005"/>
+          <attvalue for="3" value="7"/>
+        </attvalues>
+        <viz:size value="20.666668"/>
+        <viz:position x="79.801476" y="72.67493"/>
+        <viz:color r="191" g="217" b="248"/>
+      </node>
+      <node id="SUB::Cromo (compuestos)" label="Chromium (compounds)">
+        <attvalues>
+          <attvalue for="0" value="substance"/>
+          <attvalue for="1" value="8436.409274256323"/>
+          <attvalue for="2" value="2004"/>
+          <attvalue for="3" value="9"/>
+        </attvalues>
+        <viz:size value="25.555555"/>
+        <viz:position x="92.16769" y="201.5458"/>
+        <viz:color r="205" g="226" b="251"/>
+      </node>
+      <node id="SUB::Arsénico (compuestos)" label="Arsenic (compounds)">
+        <attvalues>
+          <attvalue for="0" value="substance"/>
+          <attvalue for="1" value="505.68643915779046"/>
+          <attvalue for="2" value="2010"/>
+          <attvalue for="3" value="4"/>
+        </attvalues>
+        <viz:size value="13.333334"/>
+        <viz:position x="17.81722" y="-16.735815"/>
+        <viz:color r="125" g="176" b="237"/>
+      </node>
+      <node id="SUB::Arsénico (Compuestos solubles)" label="Arsenic (soluble compounds)">
+        <attvalues>
+          <attvalue for="0" value="substance"/>
+          <attvalue for="1" value="4368.5662767"/>
+          <attvalue for="2" value="2014"/>
+          <attvalue for="3" value="9"/>
+        </attvalues>
+        <viz:size value="25.555555"/>
+        <viz:position x="55.665466" y="-349.39868"/>
+        <viz:color r="78" g="143" b="221"/>
+      </node>
+      <node id="SUB::Plomo (polvos respirables, humos o vapores)" label="Lead (respirable dust, fumes or vapors)">
+        <attvalues>
+          <attvalue for="0" value="substance"/>
+          <attvalue for="1" value="26626.76557345"/>
+          <attvalue for="2" value="2014"/>
+          <attvalue for="3" value="6"/>
+        </attvalues>
+        <viz:size value="18.222223"/>
+        <viz:position x="-643.93945" y="33.85138"/>
+        <viz:color r="78" g="143" b="221"/>
+      </node>
+      <node id="SUB::Níquel (polvos respirables, humos o vapores)" label="Nickel (respirable dust, fumes or vapors)">
+        <attvalues>
+          <attvalue for="0" value="substance"/>
+          <attvalue for="1" value="4004.2493767499996"/>
+          <attvalue for="2" value="2014"/>
+          <attvalue for="3" value="7"/>
+        </attvalues>
+        <viz:size value="20.666668"/>
+        <viz:position x="-63.80058" y="-81.94839"/>
+        <viz:color r="78" g="143" b="221"/>
+      </node>
+      <node id="SUB::Cromo (polvos respirables, humos o vapores)" label="Chromium (respirable dust, fumes or vapors)">
+        <attvalues>
+          <attvalue for="0" value="substance"/>
+          <attvalue for="1" value="76958.38789740001"/>
+          <attvalue for="2" value="2014"/>
+          <attvalue for="3" value="6"/>
+        </attvalues>
+        <viz:size value="18.222223"/>
+        <viz:position x="-484.99222" y="183.19981"/>
+        <viz:color r="78" g="143" b="221"/>
+      </node>
+      <node id="SUB::Bióxido de carbono" label="Carbon dioxide">
+        <attvalues>
+          <attvalue for="0" value="substance"/>
+          <attvalue for="1" value="2.1512881791135083E11"/>
+          <attvalue for="2" value="2004"/>
+          <attvalue for="3" value="19"/>
+        </attvalues>
+        <viz:size value="50.0"/>
+        <viz:position x="159.5776" y="-437.48956"/>
+        <viz:color r="205" g="226" b="251"/>
+      </node>
+      <node id="SUB::Hidrofluorocarbonos" label="Hydrofluorocarbons">
+        <attvalues>
+          <attvalue for="0" value="substance"/>
+          <attvalue for="1" value="9324.22"/>
+          <attvalue for="2" value="2006"/>
+          <attvalue for="3" value="7"/>
+        </attvalues>
+        <viz:size value="20.666668"/>
+        <viz:position x="-585.7786" y="-595.50604"/>
+        <viz:color r="178" g="209" b="246"/>
+      </node>
+      <node id="SUB::Clorodifluorometano (HCFC-22)" label="Chlorodifluoromethane (HCFC-22)">
+        <attvalues>
+          <attvalue for="0" value="substance"/>
+          <attvalue for="1" value="36080.2"/>
+          <attvalue for="2" value="2006"/>
+          <attvalue for="3" value="8"/>
+        </attvalues>
+        <viz:size value="23.11111"/>
+        <viz:position x="-759.81964" y="-525.4142"/>
+        <viz:color r="178" g="209" b="246"/>
+      </node>
+      <node id="SUB::Metano" label="Methane">
+        <attvalues>
+          <attvalue for="0" value="substance"/>
+          <attvalue for="1" value="4.391800540056859E9"/>
+          <attvalue for="2" value="2004"/>
+          <attvalue for="3" value="19"/>
+        </attvalues>
+        <viz:size value="50.0"/>
+        <viz:position x="-553.6981" y="99.672516"/>
+        <viz:color r="205" g="226" b="251"/>
+      </node>
+      <node id="SUB::Acroleina" label="Acrolein">
+        <attvalues>
+          <attvalue for="0" value="substance"/>
+          <attvalue for="1" value="555.5740486609426"/>
+          <attvalue for="2" value="2004"/>
+          <attvalue for="3" value="10"/>
+        </attvalues>
+        <viz:size value="28.0"/>
+        <viz:position x="-470.74353" y="389.72357"/>
+        <viz:color r="205" g="226" b="251"/>
+      </node>
+      <node id="SUB::Formaldehido" label="Formaldehyde">
+        <attvalues>
+          <attvalue for="0" value="substance"/>
+          <attvalue for="1" value="106201.74702402017"/>
+          <attvalue for="2" value="2004"/>
+          <attvalue for="3" value="17"/>
+        </attvalues>
+        <viz:size value="45.11111"/>
+        <viz:position x="40.79435" y="453.14777"/>
+        <viz:color r="205" g="226" b="251"/>
+      </node>
+      <node id="SUB::Benceno" label="Benzene">
+        <attvalues>
+          <attvalue for="0" value="substance"/>
+          <attvalue for="1" value="209413.62204540317"/>
+          <attvalue for="2" value="2004"/>
+          <attvalue for="3" value="10"/>
+        </attvalues>
+        <viz:size value="28.0"/>
+        <viz:position x="-575.54376" y="293.9834"/>
+        <viz:color r="205" g="226" b="251"/>
+      </node>
+      <node id="SUB::Acetaldehido" label="Acetaldehyde">
+        <attvalues>
+          <attvalue for="0" value="substance"/>
+          <attvalue for="1" value="28793.58527261546"/>
+          <attvalue for="2" value="2004"/>
+          <attvalue for="3" value="17"/>
+        </attvalues>
+        <viz:size value="45.11111"/>
+        <viz:position x="-441.5846" y="284.18927"/>
+        <viz:color r="205" g="226" b="251"/>
+      </node>
+      <node id="SUB::Bióxido de nitrógeno" label="Nitrogen dioxide">
+        <attvalues>
+          <attvalue for="0" value="substance"/>
+          <attvalue for="1" value="1.413853329058E7"/>
+          <attvalue for="2" value="2011"/>
+          <attvalue for="3" value="5"/>
+        </attvalues>
+        <viz:size value="15.777778"/>
+        <viz:position x="-639.1973" y="186.31003"/>
+        <viz:color r="111" g="168" b="235"/>
+      </node>
+      <node id="SUB::Oxido nitroso" label="Nitrous oxide">
+        <attvalues>
+          <attvalue for="0" value="substance"/>
+          <attvalue for="1" value="1.3290771917650001E7"/>
+          <attvalue for="2" value="2007"/>
+          <attvalue for="3" value="12"/>
+        </attvalues>
+        <viz:size value="32.88889"/>
+        <viz:position x="-851.2348" y="-402.92374"/>
+        <viz:color r="164" g="201" b="244" a="0.99607843"/>
+      </node>
+      <node id="SUB::Acido sulfhídrico" label="Hydrogen sulfide">
+        <attvalues>
+          <attvalue for="0" value="substance"/>
+          <attvalue for="1" value="2861422.2321"/>
+          <attvalue for="2" value="2019"/>
+          <attvalue for="3" value="1"/>
+        </attvalues>
+        <viz:size value="6.0"/>
+        <viz:position x="-792.68164" y="-279.1537"/>
+        <viz:color r="44" g="103" b="176"/>
+      </node>
+      <node id="SUB::Cloropentafluoroetano (CFC-115)" label="Chloropentafluoroethane (CFC-115)">
+        <attvalues>
+          <attvalue for="0" value="substance"/>
+          <attvalue for="1" value="76.6"/>
+          <attvalue for="2" value="2006"/>
+          <attvalue for="3" value="1"/>
+        </attvalues>
+        <viz:size value="6.0"/>
+        <viz:position x="-903.4992" y="-264.29727"/>
+        <viz:color r="178" g="209" b="246"/>
+      </node>
+      <node id="SUB::Diclorodifluorometano (CFC-12)" label="Dichlorodifluoromethane (CFC-12)">
+        <attvalues>
+          <attvalue for="0" value="substance"/>
+          <attvalue for="1" value="318.1"/>
+          <attvalue for="2" value="2006"/>
+          <attvalue for="3" value="2"/>
+        </attvalues>
+        <viz:size value="8.444445"/>
+        <viz:position x="-645.5595" y="-499.75415"/>
+        <viz:color r="178" g="209" b="246"/>
+      </node>
+      <node id="SUB::Asbesto y sus formas (En forma de polvo, fibras o productos desmenuzables con la presión de la mano)" label="Asbestos and its forms (as dust, fibers or friable products that crumble under hand pressure)">
+        <attvalues>
+          <attvalue for="0" value="substance"/>
+          <attvalue for="1" value="487.0"/>
+          <attvalue for="2" value="2007"/>
+          <attvalue for="3" value="1"/>
+        </attvalues>
+        <viz:size value="6.0"/>
+        <viz:position x="-730.16705" y="-399.22263"/>
+        <viz:color r="164" g="201" b="244" a="0.99607843"/>
+      </node>
+      <node id="SUB::Tricloroetileno" label="Trichloroethylene">
+        <attvalues>
+          <attvalue for="0" value="substance"/>
+          <attvalue for="1" value="180.0"/>
+          <attvalue for="2" value="2017"/>
+          <attvalue for="3" value="1"/>
+        </attvalues>
+        <viz:size value="6.0"/>
+        <viz:position x="-880.6616" y="-138.70976"/>
+        <viz:color r="57" g="119" b="194"/>
+      </node>
+    </nodes>
+    <edges>
+      <edge id="0" source="LOC::Campeche.Carmen" target="SUB::Cadmio (Compuestos solubles)" weight="55519.26953125">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+      </edge>
+      <edge id="1" source="LOC::Campeche.Carmen" target="SUB::Cromo (Compuestos solubles)" weight="60368.3203125">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+      </edge>
+      <edge id="2" source="LOC::Campeche.Carmen" target="SUB::Níquel (Compuestos solubles)" weight="195969.234375">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+      </edge>
+      <edge id="3" source="LOC::Campeche.Carmen" target="SUB::Plomo (Compuestos solubles)" weight="68309.6796875">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+      </edge>
+      <edge id="4" source="LOC::Campeche.Carmen" target="SUB::Cianuro inorgánico/orgánico" weight="15607.36328125">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+      </edge>
+      <edge id="5" source="LOC::Campeche.Carmen" target="SUB::Mercurio (polvos, respirables, vapores o humos)" weight="26.409555435180664">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+      </edge>
+      <edge id="6" source="LOC::Campeche.Carmen" target="SUB::Arsénico (polvos, respirables, vapores o humos)" weight="1329.2894287109375">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+      </edge>
+      <edge id="7" source="LOC::Campeche.Carmen" target="SUB::Mercurio (Compuestos solubles)" weight="361.14300537109375">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+      </edge>
+      <edge id="8" source="LOC::Campeche.Carmen" target="SUB::Cadmio (polvos, respirables, vapores o humos)" weight="1460.345703125">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+      </edge>
+      <edge id="9" source="LOC::Campeche.Carmen" target="SUB::Plomo (compuestos)" weight="160216.515625">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+      </edge>
+      <edge id="10" source="LOC::Campeche.Carmen" target="SUB::Níquel (compuestos)" weight="18162.0078125">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+      </edge>
+      <edge id="11" source="LOC::Campeche.Carmen" target="SUB::Mercurio (compuestos)" weight="300.5693054199219">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+      </edge>
+      <edge id="12" source="LOC::Campeche.Carmen" target="SUB::Cadmio (compuestos)" weight="1811.826904296875">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+      </edge>
+      <edge id="13" source="LOC::Campeche.Carmen" target="SUB::Cromo (compuestos)" weight="4088.60498046875">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+      </edge>
+      <edge id="14" source="LOC::Campeche.Carmen" target="SUB::Arsénico (compuestos)" weight="504.0682067871094">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+      </edge>
+      <edge id="15" source="LOC::Campeche.Carmen" target="SUB::Arsénico (Compuestos solubles)" weight="3560.3876953125">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+      </edge>
+      <edge id="16" source="LOC::Campeche.Carmen" target="SUB::Plomo (polvos respirables, humos o vapores)" weight="26619.83984375">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+      </edge>
+      <edge id="17" source="LOC::Campeche.Carmen" target="SUB::Níquel (polvos respirables, humos o vapores)" weight="3880.0703125">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+      </edge>
+      <edge id="18" source="LOC::Campeche.Carmen" target="SUB::Cromo (polvos respirables, humos o vapores)" weight="76951.78125">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+      </edge>
+      <edge id="19" source="LOC::Campeche.Carmen" target="SUB::Bióxido de carbono" weight="1.98208421888E11">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+      </edge>
+      <edge id="20" source="LOC::Campeche.Carmen" target="SUB::Hidrofluorocarbonos" weight="9324.2197265625">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+      </edge>
+      <edge id="21" source="LOC::Campeche.Carmen" target="SUB::Clorodifluorometano (HCFC-22)" weight="36080.19921875">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+      </edge>
+      <edge id="22" source="LOC::Campeche.Carmen" target="SUB::Metano" weight="4.310953984E9">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+      </edge>
+      <edge id="23" source="LOC::Campeche.Carmen" target="SUB::Acroleina" weight="555.55712890625">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+      </edge>
+      <edge id="24" source="LOC::Campeche.Carmen" target="SUB::Formaldehido" weight="67838.0390625">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+      </edge>
+      <edge id="25" source="LOC::Campeche.Carmen" target="SUB::Benceno" weight="775.0553588867188">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+      </edge>
+      <edge id="26" source="LOC::Campeche.Carmen" target="SUB::Acetaldehido" weight="3459.34375">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+      </edge>
+      <edge id="27" source="LOC::Campeche.Carmen" target="SUB::Bióxido de nitrógeno" weight="1.3748213E7">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+      </edge>
+      <edge id="28" source="LOC::Campeche.Carmen" target="SUB::Oxido nitroso" weight="1.3290772E7">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+      </edge>
+      <edge id="29" source="LOC::Campeche.Carmen" target="SUB::Acido sulfhídrico" weight="2861422.25">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+      </edge>
+      <edge id="30" source="LOC::Campeche.Carmen" target="SUB::Cloropentafluoroetano (CFC-115)" weight="76.5999984741211">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+      </edge>
+      <edge id="31" source="LOC::Campeche.Carmen" target="SUB::Diclorodifluorometano (CFC-12)" weight="318.1000061035156">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+      </edge>
+      <edge id="32" source="LOC::Campeche.Carmen" target="SUB::Asbesto y sus formas (En forma de polvo, fibras o productos desmenuzables con la presión de la mano)" weight="487.0">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+      </edge>
+      <edge id="33" source="LOC::Campeche.Carmen" target="SUB::Tricloroetileno" weight="180.0">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+      </edge>
+      <edge id="34" source="LOC::Campeche.Palizada" target="SUB::Cromo (Compuestos solubles)" weight="100.05950164794922">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+      </edge>
+      <edge id="35" source="LOC::Campeche.Palizada" target="SUB::Níquel (Compuestos solubles)" weight="111.01290130615234">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+      </edge>
+      <edge id="36" source="LOC::Campeche.Palizada" target="SUB::Plomo (Compuestos solubles)" weight="120.26709747314453">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+      </edge>
+      <edge id="37" source="LOC::Campeche.Palizada" target="SUB::Arsénico (polvos, respirables, vapores o humos)" weight="33.69795608520508">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+      </edge>
+      <edge id="38" source="LOC::Campeche.Palizada" target="SUB::Cadmio (polvos, respirables, vapores o humos)" weight="74.55620574951172">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+      </edge>
+      <edge id="39" source="LOC::Campeche.Palizada" target="SUB::Mercurio (compuestos)" weight="1.934539794921875">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+      </edge>
+      <edge id="40" source="LOC::Campeche.Palizada" target="SUB::Níquel (compuestos)" weight="419.27947998046875">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+      </edge>
+      <edge id="41" source="LOC::Campeche.Palizada" target="SUB::Plomo (compuestos)" weight="481.6863708496094">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+      </edge>
+      <edge id="42" source="LOC::Campeche.Palizada" target="SUB::Cromo (compuestos)" weight="421.781982421875">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+      </edge>
+      <edge id="43" source="LOC::Campeche.Palizada" target="SUB::Cianuro inorgánico/orgánico" weight="59.17998123168945">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+      </edge>
+      <edge id="44" source="LOC::Campeche.Palizada" target="SUB::Mercurio (polvos, respirables, vapores o humos)" weight="0.47053083777427673">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+      </edge>
+      <edge id="45" source="LOC::Campeche.Palizada" target="SUB::Arsénico (compuestos)" weight="1.2343169450759888">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+      </edge>
+      <edge id="46" source="LOC::Campeche.Palizada" target="SUB::Cadmio (compuestos)" weight="11.755399703979492">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+      </edge>
+      <edge id="47" source="LOC::Campeche.Palizada" target="SUB::Cadmio (Compuestos solubles)" weight="12.402700424194336">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+      </edge>
+      <edge id="48" source="LOC::Campeche.Palizada" target="SUB::Mercurio (Compuestos solubles)" weight="1.651900053024292">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+      </edge>
+      <edge id="49" source="LOC::Campeche.Palizada" target="SUB::Bióxido de carbono" weight="5.019971072E9">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+      </edge>
+      <edge id="50" source="LOC::Campeche.Palizada" target="SUB::Formaldehido" weight="1111.5999755859375">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+      </edge>
+      <edge id="51" source="LOC::Campeche.Palizada" target="SUB::Níquel (polvos respirables, humos o vapores)" weight="22.799999237060547">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+      </edge>
+      <edge id="52" source="LOC::Campeche.Campeche" target="SUB::Cianuro inorgánico/orgánico" weight="4244.52099609375">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+      </edge>
+      <edge id="53" source="LOC::Campeche.Campeche" target="SUB::Mercurio (polvos, respirables, vapores o humos)" weight="0.23172050714492798">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+      </edge>
+      <edge id="54" source="LOC::Campeche.Campeche" target="SUB::Arsénico (polvos, respirables, vapores o humos)" weight="0.4940127432346344">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+      </edge>
+      <edge id="55" source="LOC::Campeche.Campeche" target="SUB::Cadmio (polvos, respirables, vapores o humos)" weight="6.830872058868408">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+      </edge>
+      <edge id="56" source="LOC::Campeche.Campeche" target="SUB::Arsénico (compuestos)" weight="0.38390225172042847">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+      </edge>
+      <edge id="57" source="LOC::Campeche.Campeche" target="SUB::Cadmio (compuestos)" weight="4.086992263793945">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+      </edge>
+      <edge id="58" source="LOC::Campeche.Campeche" target="SUB::Cromo (compuestos)" weight="3926.022216796875">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+      </edge>
+      <edge id="59" source="LOC::Campeche.Campeche" target="SUB::Mercurio (compuestos)" weight="0.17800265550613403">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+      </edge>
+      <edge id="60" source="LOC::Campeche.Campeche" target="SUB::Níquel (compuestos)" weight="40.22908020019531">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+      </edge>
+      <edge id="61" source="LOC::Campeche.Campeche" target="SUB::Plomo (compuestos)" weight="34.694461822509766">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+      </edge>
+      <edge id="62" source="LOC::Campeche.Campeche" target="SUB::Arsénico (Compuestos solubles)" weight="665.823486328125">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+      </edge>
+      <edge id="63" source="LOC::Campeche.Campeche" target="SUB::Cadmio (Compuestos solubles)" weight="17091.587890625">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+      </edge>
+      <edge id="64" source="LOC::Campeche.Campeche" target="SUB::Cromo (Compuestos solubles)" weight="36994.1640625">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+      </edge>
+      <edge id="65" source="LOC::Campeche.Campeche" target="SUB::Mercurio (Compuestos solubles)" weight="1919.0283203125">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+      </edge>
+      <edge id="66" source="LOC::Campeche.Campeche" target="SUB::Níquel (Compuestos solubles)" weight="166002.34375">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+      </edge>
+      <edge id="67" source="LOC::Campeche.Campeche" target="SUB::Plomo (Compuestos solubles)" weight="155186.375">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+      </edge>
+      <edge id="68" source="LOC::Campeche.Campeche" target="SUB::Níquel (polvos respirables, humos o vapores)" weight="101.37895202636719">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+      </edge>
+      <edge id="69" source="LOC::Campeche.Campeche" target="SUB::Cromo (polvos respirables, humos o vapores)" weight="6.604800224304199">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+      </edge>
+      <edge id="70" source="LOC::Campeche.Campeche" target="SUB::Plomo (polvos respirables, humos o vapores)" weight="6.924960136413574">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+      </edge>
+      <edge id="71" source="LOC::Campeche.Campeche" target="SUB::Bióxido de carbono" weight="1.1462651904E10">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+      </edge>
+      <edge id="72" source="LOC::Campeche.Campeche" target="SUB::Acetaldehido" weight="25334.2421875">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+      </edge>
+      <edge id="73" source="LOC::Campeche.Campeche" target="SUB::Acroleina" weight="0.01694513112306595">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+      </edge>
+      <edge id="74" source="LOC::Campeche.Campeche" target="SUB::Formaldehido" weight="37252.10546875">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+      </edge>
+      <edge id="75" source="LOC::Campeche.Campeche" target="SUB::Benceno" weight="208638.5625">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+      </edge>
+      <edge id="76" source="LOC::Campeche.Campeche" target="SUB::Metano" weight="8.08468E7">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+      </edge>
+      <edge id="77" source="LOC::Campeche.Campeche" target="SUB::Bióxido de nitrógeno" weight="390320.0">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+      </edge>
+      <edge id="78" source="LOC::Campeche.Champotón" target="SUB::Cromo (Compuestos solubles)" weight="2254.8662109375">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+      </edge>
+      <edge id="79" source="LOC::Campeche.Champotón" target="SUB::Níquel (Compuestos solubles)" weight="13069.337890625">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+      </edge>
+      <edge id="80" source="LOC::Campeche.Champotón" target="SUB::Cadmio (Compuestos solubles)" weight="42.385101318359375">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+      </edge>
+      <edge id="81" source="LOC::Campeche.Champotón" target="SUB::Plomo (Compuestos solubles)" weight="1360.258056640625">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+      </edge>
+      <edge id="82" source="LOC::Campeche.Champotón" target="SUB::Bióxido de carbono" weight="4.07855072E8">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+      </edge>
+      <edge id="83" source="LOC::Campeche.Champotón" target="SUB::Arsénico (Compuestos solubles)" weight="142.35499572753906">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+      </edge>
+      <edge id="84" source="LOC::Campeche.Champotón" target="SUB::Mercurio (Compuestos solubles)" weight="39.899898529052734">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+      </edge>
+      <edge id="85" source="LOC::Campeche.Champotón" target="SUB::Cianuro inorgánico/orgánico" weight="174.62249755859375">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+      </edge>
+      <edge id="86" source="LOC::Campeche.Tenabo" target="SUB::Cromo (Compuestos solubles)" weight="3.0160000324249268">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+      </edge>
+      <edge id="87" source="LOC::Campeche.Tenabo" target="SUB::Níquel (Compuestos solubles)" weight="7.539999961853027">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+      </edge>
+      <edge id="88" source="LOC::Campeche.Tenabo" target="SUB::Plomo (Compuestos solubles)" weight="2.714400053024292">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+      </edge>
+      <edge id="89" source="LOC::Campeche.Calkiní" target="SUB::Cromo (Compuestos solubles)" weight="3.482300043106079">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+      </edge>
+      <edge id="90" source="LOC::Campeche.Calkiní" target="SUB::Níquel (Compuestos solubles)" weight="9.135000228881836">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+      </edge>
+      <edge id="91" source="LOC::Campeche.Calkiní" target="SUB::Plomo (Compuestos solubles)" weight="3.288599967956543">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+      </edge>
+      <edge id="92" source="LOC::Campeche.Escárcega" target="SUB::Bióxido de carbono" weight="2.99188E7">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+      </edge>
+      <edge id="93" source="LOC::Campeche.Hopelchén" target="SUB::Cadmio (Compuestos solubles)" weight="2.6558001041412354">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+      </edge>
+      <edge id="94" source="LOC::Campeche.Hopelchén" target="SUB::Cromo (Compuestos solubles)" weight="13.278800010681152">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+      </edge>
+      <edge id="95" source="LOC::Campeche.Hopelchén" target="SUB::Níquel (Compuestos solubles)" weight="33.196800231933594">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+      </edge>
+      <edge id="96" source="LOC::Campeche.Hopelchén" target="SUB::Plomo (Compuestos solubles)" weight="11.950900077819824">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+      </edge>
+    </edges>
+  </graph>
+</gexf>

@@ -1,0 +1,962 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<gexf xmlns="http://gexf.net/1.3" version="1.3" xmlns:viz="http://gexf.net/1.3/viz" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://gexf.net/1.3 http://gexf.net/1.3/gexf.xsd">
+  <meta lastmodifieddate="2026-10-16">
+    <creator>Apache NetBeans Platform Dev (Build {0})</creator>
+    <title></title>
+    <description></description>
+  </meta>
+  <graph defaultedgetype="undirected" mode="static">
+    <attributes class="node" mode="static">
+      <attribute id="0" title="type" type="string"/>
+      <attribute id="1" title="total_kg" type="double"/>
+      <attribute id="eccentricity" title="Eccentricity" type="double">
+        <default>0.0</default>
+      </attribute>
+      <attribute id="closnesscentrality" title="Closeness Centrality" type="double">
+        <default>0.0</default>
+      </attribute>
+      <attribute id="harmonicclosnesscentrality" title="Harmonic Closeness Centrality" type="double">
+        <default>0.0</default>
+      </attribute>
+      <attribute id="betweenesscentrality" title="Betweenness Centrality" type="double">
+        <default>0.0</default>
+      </attribute>
+      <attribute id="pageranks" title="PageRank" type="double">
+        <default>0.0</default>
+      </attribute>
+    </attributes>
+    <attributes class="edge" mode="static">
+      <attribute id="2" title="count" type="long"/>
+    </attributes>
+    <nodes>
+      <node id="LOC::Nayarit.Xalisco" label="Nayarit.Xalisco">
+        <attvalues>
+          <attvalue for="0" value="location"/>
+          <attvalue for="1" value="484452.78022072196"/>
+          <attvalue for="eccentricity" value="3.0"/>
+          <attvalue for="closnesscentrality" value="0.5555555555555556"/>
+          <attvalue for="harmonicclosnesscentrality" value="0.6888888888888887"/>
+          <attvalue for="betweenesscentrality" value="85.36721530883636"/>
+          <attvalue for="pageranks" value="0.07780737975798717"/>
+        </attvalues>
+        <viz:size value="28.40706"/>
+        <viz:position x="-900.0" y="750.0"/>
+        <viz:color r="42" g="120" b="214"/>
+      </node>
+      <node id="LOC::Nayarit.Tepic" label="Nayarit.Tepic">
+        <attvalues>
+          <attvalue for="0" value="location"/>
+          <attvalue for="1" value="16586.323953395986"/>
+          <attvalue for="eccentricity" value="3.0"/>
+          <attvalue for="closnesscentrality" value="0.6521739130434783"/>
+          <attvalue for="harmonicclosnesscentrality" value="0.7777777777777778"/>
+          <attvalue for="betweenesscentrality" value="186.68194443894305"/>
+          <attvalue for="pageranks" value="0.1070436285616787"/>
+        </attvalues>
+        <viz:size value="55.0"/>
+        <viz:position x="-900.0" y="0.0"/>
+        <viz:color r="42" g="120" b="214"/>
+      </node>
+      <node id="LOC::Nayarit.Del Nayar" label="Nayarit.Del Nayar">
+        <attvalues>
+          <attvalue for="0" value="location"/>
+          <attvalue for="1" value="0.05261332273999999"/>
+          <attvalue for="eccentricity" value="5.0"/>
+          <attvalue for="closnesscentrality" value="0.45454545454545453"/>
+          <attvalue for="harmonicclosnesscentrality" value="0.5872222222222221"/>
+          <attvalue for="betweenesscentrality" value="29.160416995120748"/>
+          <attvalue for="pageranks" value="0.054456529715872455"/>
+        </attvalues>
+        <viz:size value="13.653982"/>
+        <viz:position x="-900.0" y="2250.0"/>
+        <viz:color r="42" g="120" b="214"/>
+      </node>
+      <node id="LOC::Nayarit.Bahía de Banderas" label="Nayarit.Bahía de Banderas">
+        <attvalues>
+          <attvalue for="0" value="location"/>
+          <attvalue for="1" value="868.3303999999999"/>
+          <attvalue for="eccentricity" value="4.0"/>
+          <attvalue for="closnesscentrality" value="0.39473684210526316"/>
+          <attvalue for="harmonicclosnesscentrality" value="0.48611111111111127"/>
+          <attvalue for="betweenesscentrality" value="10.246032998049127"/>
+          <attvalue for="pageranks" value="0.03917906520393656"/>
+        </attvalues>
+        <viz:size value="8.6893635"/>
+        <viz:position x="-900.0" y="5250.0"/>
+        <viz:color r="42" g="120" b="214"/>
+      </node>
+      <node id="LOC::Nayarit.San Blas" label="Nayarit.San Blas">
+        <attvalues>
+          <attvalue for="0" value="location"/>
+          <attvalue for="1" value="1090.9144999999999"/>
+          <attvalue for="eccentricity" value="3.0"/>
+          <attvalue for="closnesscentrality" value="0.4411764705882353"/>
+          <attvalue for="harmonicclosnesscentrality" value="0.5333333333333335"/>
+          <attvalue for="betweenesscentrality" value="15.47801883968317"/>
+          <attvalue for="pageranks" value="0.0424903549681108"/>
+        </attvalues>
+        <viz:size value="10.062647"/>
+        <viz:position x="-900.0" y="3750.0"/>
+        <viz:color r="42" g="120" b="214"/>
+      </node>
+      <node id="LOC::Nayarit.San Pedro Lagunillas" label="Nayarit.San Pedro Lagunillas">
+        <attvalues>
+          <attvalue for="0" value="location"/>
+          <attvalue for="1" value="9.247185756840001E7"/>
+          <attvalue for="eccentricity" value="5.0"/>
+          <attvalue for="closnesscentrality" value="0.3488372093023256"/>
+          <attvalue for="harmonicclosnesscentrality" value="0.4066666666666667"/>
+          <attvalue for="betweenesscentrality" value="29.795970695970695"/>
+          <attvalue for="pageranks" value="0.028242841163803656"/>
+        </attvalues>
+        <viz:size value="13.820803"/>
+        <viz:position x="-900.0" y="1500.0"/>
+        <viz:color r="42" g="120" b="214"/>
+      </node>
+      <node id="LOC::Nayarit.Acaponeta" label="Nayarit.Acaponeta">
+        <attvalues>
+          <attvalue for="0" value="location"/>
+          <attvalue for="1" value="53.222475"/>
+          <attvalue for="eccentricity" value="5.0"/>
+          <attvalue for="closnesscentrality" value="0.4166666666666667"/>
+          <attvalue for="harmonicclosnesscentrality" value="0.5344444444444445"/>
+          <attvalue for="betweenesscentrality" value="10.95233593334437"/>
+          <attvalue for="pageranks" value="0.044286662057736"/>
+        </attvalues>
+        <viz:size value="8.874753"/>
+        <viz:position x="-900.0" y="4500.0"/>
+        <viz:color r="42" g="120" b="214"/>
+      </node>
+      <node id="LOC::Nayarit.La Yesca" label="Nayarit.La Yesca">
+        <attvalues>
+          <attvalue for="0" value="location"/>
+          <attvalue for="1" value="77.50138679000001"/>
+          <attvalue for="eccentricity" value="5.0"/>
+          <attvalue for="closnesscentrality" value="0.40540540540540543"/>
+          <attvalue for="harmonicclosnesscentrality" value="0.5122222222222224"/>
+          <attvalue for="betweenesscentrality" value="4.218419489007724"/>
+          <attvalue for="pageranks" value="0.03808148313039297"/>
+        </attvalues>
+        <viz:size value="7.1072445"/>
+        <viz:position x="-900.0" y="6000.0"/>
+        <viz:color r="42" g="120" b="214"/>
+      </node>
+      <node id="LOC::Nayarit.Santa María del Oro" label="Nayarit.Santa María del Oro">
+        <attvalues>
+          <attvalue for="0" value="location"/>
+          <attvalue for="1" value="166.3801455592"/>
+          <attvalue for="eccentricity" value="5.0"/>
+          <attvalue for="closnesscentrality" value="0.42857142857142855"/>
+          <attvalue for="harmonicclosnesscentrality" value="0.5566666666666668"/>
+          <attvalue for="betweenesscentrality" value="28.09964530104474"/>
+          <attvalue for="pageranks" value="0.05158894712912574"/>
+        </attvalues>
+        <viz:size value="13.375553"/>
+        <viz:position x="-900.0" y="3000.0"/>
+        <viz:color r="42" g="120" b="214"/>
+      </node>
+      <node id="SUB::Cromo (Compuestos solubles)" label="Chromium (soluble compounds)">
+        <attvalues>
+          <attvalue for="0" value="substance"/>
+          <attvalue for="1" value="403.177890078"/>
+          <attvalue for="eccentricity" value="4.0"/>
+          <attvalue for="closnesscentrality" value="0.46153846153846156"/>
+          <attvalue for="harmonicclosnesscentrality" value="0.5222222222222223"/>
+          <attvalue for="betweenesscentrality" value="8.106806705481763"/>
+          <attvalue for="pageranks" value="0.025311435762208397"/>
+        </attvalues>
+        <viz:size value="8.127863"/>
+        <viz:position x="900.0" y="2857.1428"/>
+        <viz:color r="235" g="104" b="52"/>
+      </node>
+      <node id="SUB::Mercurio (Compuestos solubles)" label="Mercury (soluble compounds)">
+        <attvalues>
+          <attvalue for="0" value="substance"/>
+          <attvalue for="1" value="8.153530397"/>
+          <attvalue for="eccentricity" value="4.0"/>
+          <attvalue for="closnesscentrality" value="0.47619047619047616"/>
+          <attvalue for="harmonicclosnesscentrality" value="0.5305555555555556"/>
+          <attvalue for="betweenesscentrality" value="6.8829364766858525"/>
+          <attvalue for="pageranks" value="0.024389873230955122"/>
+        </attvalues>
+        <viz:size value="7.806623"/>
+        <viz:position x="900.0" y="3428.5715"/>
+        <viz:color r="235" g="104" b="52"/>
+      </node>
+      <node id="SUB::Níquel (Compuestos solubles)" label="Nickel (soluble compounds)">
+        <attvalues>
+          <attvalue for="0" value="substance"/>
+          <attvalue for="1" value="1021.7831961080002"/>
+          <attvalue for="eccentricity" value="4.0"/>
+          <attvalue for="closnesscentrality" value="0.46153846153846156"/>
+          <attvalue for="harmonicclosnesscentrality" value="0.5222222222222223"/>
+          <attvalue for="betweenesscentrality" value="8.106806705481763"/>
+          <attvalue for="pageranks" value="0.025311435762208397"/>
+        </attvalues>
+        <viz:size value="8.127863"/>
+        <viz:position x="900.0" y="3142.8574"/>
+        <viz:color r="235" g="104" b="52"/>
+      </node>
+      <node id="SUB::Plomo (Compuestos solubles)" label="Lead (soluble compounds)">
+        <attvalues>
+          <attvalue for="0" value="substance"/>
+          <attvalue for="1" value="660.718721186"/>
+          <attvalue for="eccentricity" value="4.0"/>
+          <attvalue for="closnesscentrality" value="0.4918032786885246"/>
+          <attvalue for="harmonicclosnesscentrality" value="0.5527777777777777"/>
+          <attvalue for="betweenesscentrality" value="15.318422737521566"/>
+          <attvalue for="pageranks" value="0.029936230273906128"/>
+        </attvalues>
+        <viz:size value="10.020757"/>
+        <viz:position x="900.0" y="857.1429"/>
+        <viz:color r="235" g="104" b="52"/>
+      </node>
+      <node id="SUB::Cianuro inorgánico/orgánico" label="Inorganic/organic cyanide">
+        <attvalues>
+          <attvalue for="0" value="substance"/>
+          <attvalue for="1" value="284.0884339174"/>
+          <attvalue for="eccentricity" value="4.0"/>
+          <attvalue for="closnesscentrality" value="0.5263157894736842"/>
+          <attvalue for="harmonicclosnesscentrality" value="0.5972222222222222"/>
+          <attvalue for="betweenesscentrality" value="23.99662894863765"/>
+          <attvalue for="pageranks" value="0.038579769081658784"/>
+        </attvalues>
+        <viz:size value="12.298599"/>
+        <viz:position x="900.0" y="571.4286"/>
+        <viz:color r="235" g="104" b="52"/>
+      </node>
+      <node id="SUB::Arsénico (polvos, respirables, vapores o humos)" label="Arsenic (respirable dust, vapors or fumes)">
+        <attvalues>
+          <attvalue for="0" value="substance"/>
+          <attvalue for="1" value="5.66758194106"/>
+          <attvalue for="eccentricity" value="4.0"/>
+          <attvalue for="closnesscentrality" value="0.5084745762711864"/>
+          <attvalue for="harmonicclosnesscentrality" value="0.575"/>
+          <attvalue for="betweenesscentrality" value="13.451468917904368"/>
+          <attvalue for="pageranks" value="0.0334242365029498"/>
+        </attvalues>
+        <viz:size value="9.530722"/>
+        <viz:position x="900.0" y="1142.8572"/>
+        <viz:color r="235" g="104" b="52"/>
+      </node>
+      <node id="SUB::Cadmio (polvos, respirables, vapores o humos)" label="Cadmium (respirable dust, vapors or fumes)">
+        <attvalues>
+          <attvalue for="0" value="substance"/>
+          <attvalue for="1" value="1.3970881786"/>
+          <attvalue for="eccentricity" value="4.0"/>
+          <attvalue for="closnesscentrality" value="0.4918032786885246"/>
+          <attvalue for="harmonicclosnesscentrality" value="0.5527777777777777"/>
+          <attvalue for="betweenesscentrality" value="8.404471796286748"/>
+          <attvalue for="pageranks" value="0.028555957564100124"/>
+        </attvalues>
+        <viz:size value="8.205994"/>
+        <viz:position x="900.0" y="2571.4287"/>
+        <viz:color r="235" g="104" b="52"/>
+      </node>
+      <node id="SUB::Cromo (compuestos)" label="Chromium (compounds)">
+        <attvalues>
+          <attvalue for="0" value="substance"/>
+          <attvalue for="1" value="39.82468344999999"/>
+          <attvalue for="eccentricity" value="4.0"/>
+          <attvalue for="closnesscentrality" value="0.5084745762711864"/>
+          <attvalue for="harmonicclosnesscentrality" value="0.575"/>
+          <attvalue for="betweenesscentrality" value="13.451468917904368"/>
+          <attvalue for="pageranks" value="0.0334242365029498"/>
+        </attvalues>
+        <viz:size value="9.530722"/>
+        <viz:position x="900.0" y="1428.5714"/>
+        <viz:color r="235" g="104" b="52"/>
+      </node>
+      <node id="SUB::Plomo (compuestos)" label="Lead (compounds)">
+        <attvalues>
+          <attvalue for="0" value="substance"/>
+          <attvalue for="1" value="30.705891951399998"/>
+          <attvalue for="eccentricity" value="4.0"/>
+          <attvalue for="closnesscentrality" value="0.5084745762711864"/>
+          <attvalue for="harmonicclosnesscentrality" value="0.575"/>
+          <attvalue for="betweenesscentrality" value="13.451468917904368"/>
+          <attvalue for="pageranks" value="0.0334242365029498"/>
+        </attvalues>
+        <viz:size value="9.530722"/>
+        <viz:position x="900.0" y="1714.2858"/>
+        <viz:color r="235" g="104" b="52"/>
+      </node>
+      <node id="SUB::Mercurio (polvos, respirables, vapores o humos)" label="Mercury (respirable dust, vapors or fumes)">
+        <attvalues>
+          <attvalue for="0" value="substance"/>
+          <attvalue for="1" value="0.00193936"/>
+          <attvalue for="eccentricity" value="6.0"/>
+          <attvalue for="closnesscentrality" value="0.33707865168539325"/>
+          <attvalue for="harmonicclosnesscentrality" value="0.40388888888888885"/>
+          <attvalue for="betweenesscentrality" value="0.4029581529581529"/>
+          <attvalue for="pageranks" value="0.01433178312796677"/>
+        </attvalues>
+        <viz:size value="6.1057677"/>
+        <viz:position x="900.0" y="5142.8574"/>
+        <viz:color r="235" g="104" b="52"/>
+      </node>
+      <node id="SUB::Níquel (compuestos)" label="Nickel (compounds)">
+        <attvalues>
+          <attvalue for="0" value="substance"/>
+          <attvalue for="1" value="5.925464499999999"/>
+          <attvalue for="eccentricity" value="4.0"/>
+          <attvalue for="closnesscentrality" value="0.5084745762711864"/>
+          <attvalue for="harmonicclosnesscentrality" value="0.575"/>
+          <attvalue for="betweenesscentrality" value="13.451468917904368"/>
+          <attvalue for="pageranks" value="0.0334242365029498"/>
+        </attvalues>
+        <viz:size value="9.530722"/>
+        <viz:position x="900.0" y="2000.0"/>
+        <viz:color r="235" g="104" b="52"/>
+      </node>
+      <node id="SUB::Arsénico (Compuestos solubles)" label="Arsenic (soluble compounds)">
+        <attvalues>
+          <attvalue for="0" value="substance"/>
+          <attvalue for="1" value="29955.9981"/>
+          <attvalue for="eccentricity" value="4.0"/>
+          <attvalue for="closnesscentrality" value="0.44776119402985076"/>
+          <attvalue for="harmonicclosnesscentrality" value="0.5138888888888888"/>
+          <attvalue for="betweenesscentrality" value="27.64423206352997"/>
+          <attvalue for="pageranks" value="0.028589554579320015"/>
+        </attvalues>
+        <viz:size value="13.256017"/>
+        <viz:position x="900.0" y="285.7143"/>
+        <viz:color r="235" g="104" b="52"/>
+      </node>
+      <node id="SUB::Cadmio (Compuestos solubles)" label="Cadmium (soluble compounds)">
+        <attvalues>
+          <attvalue for="0" value="substance"/>
+          <attvalue for="1" value="288.25530000000003"/>
+          <attvalue for="eccentricity" value="4.0"/>
+          <attvalue for="closnesscentrality" value="0.4225352112676056"/>
+          <attvalue for="harmonicclosnesscentrality" value="0.48333333333333334"/>
+          <attvalue for="betweenesscentrality" value="3.28209581268405"/>
+          <attvalue for="pageranks" value="0.020591426794034466"/>
+        </attvalues>
+        <viz:size value="6.8614798"/>
+        <viz:position x="900.0" y="3714.286"/>
+        <viz:color r="235" g="104" b="52"/>
+      </node>
+      <node id="SUB::Mercurio (compuestos)" label="Mercury (compounds)">
+        <attvalues>
+          <attvalue for="0" value="substance"/>
+          <attvalue for="1" value="0.47411202161999993"/>
+          <attvalue for="eccentricity" value="4.0"/>
+          <attvalue for="closnesscentrality" value="0.5084745762711864"/>
+          <attvalue for="harmonicclosnesscentrality" value="0.575"/>
+          <attvalue for="betweenesscentrality" value="13.451468917904368"/>
+          <attvalue for="pageranks" value="0.0334242365029498"/>
+        </attvalues>
+        <viz:size value="9.530722"/>
+        <viz:position x="900.0" y="2285.7144"/>
+        <viz:color r="235" g="104" b="52"/>
+      </node>
+      <node id="SUB::Bióxido de carbono" label="Carbon dioxide">
+        <attvalues>
+          <attvalue for="0" value="substance"/>
+          <attvalue for="1" value="8.76640328E7"/>
+          <attvalue for="eccentricity" value="4.0"/>
+          <attvalue for="closnesscentrality" value="0.46153846153846156"/>
+          <attvalue for="harmonicclosnesscentrality" value="0.5083333333333333"/>
+          <attvalue for="betweenesscentrality" value="31.039341941464187"/>
+          <attvalue for="pageranks" value="0.02260767392583396"/>
+        </attvalues>
+        <viz:size value="14.147161"/>
+        <viz:position x="900.0" y="0.0"/>
+        <viz:color r="235" g="104" b="52"/>
+      </node>
+      <node id="SUB::Formaldehido" label="Formaldehyde">
+        <attvalues>
+          <attvalue for="0" value="substance"/>
+          <attvalue for="1" value="260.40269357603455"/>
+          <attvalue for="eccentricity" value="4.0"/>
+          <attvalue for="closnesscentrality" value="0.410958904109589"/>
+          <attvalue for="harmonicclosnesscentrality" value="0.4611111111111111"/>
+          <attvalue for="betweenesscentrality" value="1.7754320987654324"/>
+          <attvalue for="pageranks" value="0.015435894215325485"/>
+        </attvalues>
+        <viz:size value="6.466013"/>
+        <viz:position x="900.0" y="4000.0"/>
+        <viz:color r="235" g="104" b="52"/>
+      </node>
+      <node id="SUB::Benceno" label="Benzene">
+        <attvalues>
+          <attvalue for="0" value="substance"/>
+          <attvalue for="1" value="53.05483248886786"/>
+          <attvalue for="eccentricity" value="4.0"/>
+          <attvalue for="closnesscentrality" value="0.410958904109589"/>
+          <attvalue for="harmonicclosnesscentrality" value="0.4611111111111111"/>
+          <attvalue for="betweenesscentrality" value="1.2415861513687603"/>
+          <attvalue for="pageranks" value="0.014590984502749354"/>
+        </attvalues>
+        <viz:size value="6.3258896"/>
+        <viz:position x="900.0" y="4285.7144"/>
+        <viz:color r="235" g="104" b="52"/>
+      </node>
+      <node id="SUB::Acetaldehido" label="Acetaldehyde">
+        <attvalues>
+          <attvalue for="0" value="substance"/>
+          <attvalue for="1" value="0.0528901053313"/>
+          <attvalue for="eccentricity" value="4.0"/>
+          <attvalue for="closnesscentrality" value="0.4"/>
+          <attvalue for="harmonicclosnesscentrality" value="0.43888888888888894"/>
+          <attvalue for="betweenesscentrality" value="0.0"/>
+          <attvalue for="pageranks" value="0.009889537172374483"/>
+        </attvalues>
+        <viz:size value="6.0"/>
+        <viz:position x="900.0" y="5428.5713"/>
+        <viz:color r="235" g="104" b="52"/>
+      </node>
+      <node id="SUB::Acroleina" label="Acrolein">
+        <attvalues>
+          <attvalue for="0" value="substance"/>
+          <attvalue for="1" value="0.006372894710749999"/>
+          <attvalue for="eccentricity" value="4.0"/>
+          <attvalue for="closnesscentrality" value="0.4"/>
+          <attvalue for="harmonicclosnesscentrality" value="0.43888888888888894"/>
+          <attvalue for="betweenesscentrality" value="0.0"/>
+          <attvalue for="pageranks" value="0.009889537172374483"/>
+        </attvalues>
+        <viz:size value="6.0"/>
+        <viz:position x="900.0" y="5714.2856"/>
+        <viz:color r="235" g="104" b="52"/>
+      </node>
+      <node id="SUB::Acido sulfhídrico" label="Hydrogen sulfide">
+        <attvalues>
+          <attvalue for="0" value="substance"/>
+          <attvalue for="1" value="5278100.0"/>
+          <attvalue for="eccentricity" value="6.0"/>
+          <attvalue for="closnesscentrality" value="0.2608695652173913"/>
+          <attvalue for="harmonicclosnesscentrality" value="0.29333333333333333"/>
+          <attvalue for="betweenesscentrality" value="0.0"/>
+          <attvalue for="pageranks" value="0.012836837462704906"/>
+        </attvalues>
+        <viz:size value="6.0"/>
+        <viz:position x="900.0" y="6000.0"/>
+        <viz:color r="235" g="104" b="52"/>
+      </node>
+      <node id="SUB::Cadmio (compuestos)" label="Cadmium (compounds)">
+        <attvalues>
+          <attvalue for="0" value="substance"/>
+          <attvalue for="1" value="0.4343137"/>
+          <attvalue for="eccentricity" value="4.0"/>
+          <attvalue for="closnesscentrality" value="0.379746835443038"/>
+          <attvalue for="harmonicclosnesscentrality" value="0.4361111111111111"/>
+          <attvalue for="betweenesscentrality" value="0.770467909806145"/>
+          <attvalue for="pageranks" value="0.014426997584442967"/>
+        </attvalues>
+        <viz:size value="6.2022314"/>
+        <viz:position x="900.0" y="4571.4287"/>
+        <viz:color r="235" g="104" b="52"/>
+      </node>
+      <node id="SUB::Arsénico (compuestos)" label="Arsenic (compounds)">
+        <attvalues>
+          <attvalue for="0" value="substance"/>
+          <attvalue for="1" value="0.15105893599999998"/>
+          <attvalue for="eccentricity" value="4.0"/>
+          <attvalue for="closnesscentrality" value="0.379746835443038"/>
+          <attvalue for="harmonicclosnesscentrality" value="0.4361111111111111"/>
+          <attvalue for="betweenesscentrality" value="0.770467909806145"/>
+          <attvalue for="pageranks" value="0.014426997584442967"/>
+        </attvalues>
+        <viz:size value="6.2022314"/>
+        <viz:position x="900.0" y="4857.143"/>
+        <viz:color r="235" g="104" b="52"/>
+      </node>
+    </nodes>
+    <edges>
+      <edge id="0" source="LOC::Nayarit.Xalisco" target="SUB::Cromo (Compuestos solubles)" weight="1.6824899911880493">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+        <attvalues>
+          <attvalue for="2" value="1"/>
+        </attvalues>
+      </edge>
+      <edge id="1" source="LOC::Nayarit.Xalisco" target="SUB::Mercurio (Compuestos solubles)" weight="0.006729959975928068">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+        <attvalues>
+          <attvalue for="2" value="1"/>
+        </attvalues>
+      </edge>
+      <edge id="2" source="LOC::Nayarit.Xalisco" target="SUB::Níquel (Compuestos solubles)" weight="0.6729959845542908">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+        <attvalues>
+          <attvalue for="2" value="1"/>
+        </attvalues>
+      </edge>
+      <edge id="3" source="LOC::Nayarit.Xalisco" target="SUB::Plomo (Compuestos solubles)" weight="0.6729959845542908">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+        <attvalues>
+          <attvalue for="2" value="1"/>
+        </attvalues>
+      </edge>
+      <edge id="4" source="LOC::Nayarit.Xalisco" target="SUB::Cianuro inorgánico/orgánico" weight="0.3563086688518524">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+        <attvalues>
+          <attvalue for="2" value="6"/>
+        </attvalues>
+      </edge>
+      <edge id="5" source="LOC::Nayarit.Xalisco" target="SUB::Arsénico (polvos, respirables, vapores o humos)" weight="0.038263868540525436">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+        <attvalues>
+          <attvalue for="2" value="3"/>
+        </attvalues>
+      </edge>
+      <edge id="6" source="LOC::Nayarit.Xalisco" target="SUB::Cadmio (polvos, respirables, vapores o humos)" weight="0.4891979992389679">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+        <attvalues>
+          <attvalue for="2" value="2"/>
+        </attvalues>
+      </edge>
+      <edge id="7" source="LOC::Nayarit.Xalisco" target="SUB::Plomo (compuestos)" weight="0.9850754141807556">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+        <attvalues>
+          <attvalue for="2" value="3"/>
+        </attvalues>
+      </edge>
+      <edge id="8" source="LOC::Nayarit.Xalisco" target="SUB::Níquel (compuestos)" weight="0.9450753927230835">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+        <attvalues>
+          <attvalue for="2" value="3"/>
+        </attvalues>
+      </edge>
+      <edge id="9" source="LOC::Nayarit.Xalisco" target="SUB::Mercurio (compuestos)" weight="0.009450754150748253">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+        <attvalues>
+          <attvalue for="2" value="3"/>
+        </attvalues>
+      </edge>
+      <edge id="10" source="LOC::Nayarit.Xalisco" target="SUB::Cromo (compuestos)" weight="2.7597084045410156">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+        <attvalues>
+          <attvalue for="2" value="3"/>
+        </attvalues>
+      </edge>
+      <edge id="11" source="LOC::Nayarit.Xalisco" target="SUB::Bióxido de carbono" weight="484443.8125">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+        <attvalues>
+          <attvalue for="2" value="1"/>
+        </attvalues>
+      </edge>
+      <edge id="12" source="LOC::Nayarit.Xalisco" target="SUB::Cadmio (compuestos)" weight="0.31983768939971924">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+        <attvalues>
+          <attvalue for="2" value="2"/>
+        </attvalues>
+      </edge>
+      <edge id="13" source="LOC::Nayarit.Xalisco" target="SUB::Arsénico (compuestos)" weight="0.04209045693278313">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+        <attvalues>
+          <attvalue for="2" value="4"/>
+        </attvalues>
+      </edge>
+      <edge id="14" source="LOC::Nayarit.Tepic" target="SUB::Cromo (Compuestos solubles)" weight="167.7572021484375">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+        <attvalues>
+          <attvalue for="2" value="5"/>
+        </attvalues>
+      </edge>
+      <edge id="15" source="LOC::Nayarit.Tepic" target="SUB::Mercurio (Compuestos solubles)" weight="1.1088000535964966">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+        <attvalues>
+          <attvalue for="2" value="2"/>
+        </attvalues>
+      </edge>
+      <edge id="16" source="LOC::Nayarit.Tepic" target="SUB::Níquel (Compuestos solubles)" weight="561.5189819335938">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+        <attvalues>
+          <attvalue for="2" value="4"/>
+        </attvalues>
+      </edge>
+      <edge id="17" source="LOC::Nayarit.Tepic" target="SUB::Plomo (Compuestos solubles)" weight="224.31680297851562">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+        <attvalues>
+          <attvalue for="2" value="3"/>
+        </attvalues>
+      </edge>
+      <edge id="18" source="LOC::Nayarit.Tepic" target="SUB::Cianuro inorgánico/orgánico" weight="1.3018000117881456E-6">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+        <attvalues>
+          <attvalue for="2" value="3"/>
+        </attvalues>
+      </edge>
+      <edge id="19" source="LOC::Nayarit.Tepic" target="SUB::Mercurio (compuestos)" weight="4.394600182422437E-6">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+        <attvalues>
+          <attvalue for="2" value="2"/>
+        </attvalues>
+      </edge>
+      <edge id="20" source="LOC::Nayarit.Tepic" target="SUB::Arsénico (polvos, respirables, vapores o humos)" weight="4.112749099731445">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+        <attvalues>
+          <attvalue for="2" value="4"/>
+        </attvalues>
+      </edge>
+      <edge id="21" source="LOC::Nayarit.Tepic" target="SUB::Cadmio (polvos, respirables, vapores o humos)" weight="7.300000106624793E-7">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+        <attvalues>
+          <attvalue for="2" value="1"/>
+        </attvalues>
+      </edge>
+      <edge id="22" source="LOC::Nayarit.Tepic" target="SUB::Cromo (compuestos)" weight="3.6500000533123966E-6">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+        <attvalues>
+          <attvalue for="2" value="1"/>
+        </attvalues>
+      </edge>
+      <edge id="23" source="LOC::Nayarit.Tepic" target="SUB::Níquel (compuestos)" weight="1.4600000213249587E-6">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+        <attvalues>
+          <attvalue for="2" value="1"/>
+        </attvalues>
+      </edge>
+      <edge id="24" source="LOC::Nayarit.Tepic" target="SUB::Plomo (compuestos)" weight="7.592000201839255E-7">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+        <attvalues>
+          <attvalue for="2" value="1"/>
+        </attvalues>
+      </edge>
+      <edge id="25" source="LOC::Nayarit.Tepic" target="SUB::Bióxido de carbono" weight="15554.0">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+        <attvalues>
+          <attvalue for="2" value="7"/>
+        </attvalues>
+      </edge>
+      <edge id="26" source="LOC::Nayarit.Tepic" target="SUB::Formaldehido" weight="0.0026935760397464037">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+        <attvalues>
+          <attvalue for="2" value="5"/>
+        </attvalues>
+      </edge>
+      <edge id="27" source="LOC::Nayarit.Tepic" target="SUB::Benceno" weight="0.05483248829841614">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+        <attvalues>
+          <attvalue for="2" value="5"/>
+        </attvalues>
+      </edge>
+      <edge id="28" source="LOC::Nayarit.Tepic" target="SUB::Acetaldehido" weight="0.0528901070356369">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+        <attvalues>
+          <attvalue for="2" value="5"/>
+        </attvalues>
+      </edge>
+      <edge id="29" source="LOC::Nayarit.Tepic" target="SUB::Acroleina" weight="0.006372894626110792">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+        <attvalues>
+          <attvalue for="2" value="5"/>
+        </attvalues>
+      </edge>
+      <edge id="30" source="LOC::Nayarit.Tepic" target="SUB::Arsénico (Compuestos solubles)" weight="17.94969940185547">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+        <attvalues>
+          <attvalue for="2" value="4"/>
+        </attvalues>
+      </edge>
+      <edge id="31" source="LOC::Nayarit.Tepic" target="SUB::Cadmio (Compuestos solubles)" weight="55.442901611328125">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+        <attvalues>
+          <attvalue for="2" value="1"/>
+        </attvalues>
+      </edge>
+      <edge id="32" source="LOC::Nayarit.Del Nayar" target="SUB::Mercurio (Compuestos solubles)" weight="4.270000033557153E-7">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+        <attvalues>
+          <attvalue for="2" value="2"/>
+        </attvalues>
+      </edge>
+      <edge id="33" source="LOC::Nayarit.Del Nayar" target="SUB::Plomo (Compuestos solubles)" weight="2.2496000383398496E-5">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+        <attvalues>
+          <attvalue for="2" value="2"/>
+        </attvalues>
+      </edge>
+      <edge id="34" source="LOC::Nayarit.Del Nayar" target="SUB::Cianuro inorgánico/orgánico" weight="7.03824101947248E-4">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+        <attvalues>
+          <attvalue for="2" value="6"/>
+        </attvalues>
+      </edge>
+      <edge id="35" source="LOC::Nayarit.Del Nayar" target="SUB::Cadmio (polvos, respirables, vapores o humos)" weight="0.0012074485421180725">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+        <attvalues>
+          <attvalue for="2" value="3"/>
+        </attvalues>
+      </edge>
+      <edge id="36" source="LOC::Nayarit.Del Nayar" target="SUB::Arsénico (polvos, respirables, vapores o humos)" weight="0.003694081911817193">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+        <attvalues>
+          <attvalue for="2" value="5"/>
+        </attvalues>
+      </edge>
+      <edge id="37" source="LOC::Nayarit.Del Nayar" target="SUB::Cromo (compuestos)" weight="0.006029800046235323">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+        <attvalues>
+          <attvalue for="2" value="3"/>
+        </attvalues>
+      </edge>
+      <edge id="38" source="LOC::Nayarit.Del Nayar" target="SUB::Plomo (compuestos)" weight="0.0058968523517251015">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+        <attvalues>
+          <attvalue for="2" value="3"/>
+        </attvalues>
+      </edge>
+      <edge id="39" source="LOC::Nayarit.Del Nayar" target="SUB::Mercurio (polvos, respirables, vapores o humos)" weight="1.1680000170599669E-4">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+        <attvalues>
+          <attvalue for="2" value="1"/>
+        </attvalues>
+      </edge>
+      <edge id="40" source="LOC::Nayarit.Del Nayar" target="SUB::Níquel (compuestos)" weight="0.03494071960449219">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+        <attvalues>
+          <attvalue for="2" value="3"/>
+        </attvalues>
+      </edge>
+      <edge id="41" source="LOC::Nayarit.Del Nayar" target="SUB::Mercurio (compuestos)" weight="8.730199851925136E-7">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+        <attvalues>
+          <attvalue for="2" value="3"/>
+        </attvalues>
+      </edge>
+      <edge id="42" source="LOC::Nayarit.Bahía de Banderas" target="SUB::Arsénico (Compuestos solubles)" weight="26.237199783325195">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+        <attvalues>
+          <attvalue for="2" value="18"/>
+        </attvalues>
+      </edge>
+      <edge id="43" source="LOC::Nayarit.Bahía de Banderas" target="SUB::Plomo (Compuestos solubles)" weight="257.3367004394531">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+        <attvalues>
+          <attvalue for="2" value="25"/>
+        </attvalues>
+      </edge>
+      <edge id="44" source="LOC::Nayarit.Bahía de Banderas" target="SUB::Cromo (Compuestos solubles)" weight="49.13669967651367">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+        <attvalues>
+          <attvalue for="2" value="20"/>
+        </attvalues>
+      </edge>
+      <edge id="45" source="LOC::Nayarit.Bahía de Banderas" target="SUB::Níquel (Compuestos solubles)" weight="220.7996063232422">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+        <attvalues>
+          <attvalue for="2" value="15"/>
+        </attvalues>
+      </edge>
+      <edge id="46" source="LOC::Nayarit.Bahía de Banderas" target="SUB::Cadmio (Compuestos solubles)" weight="54.42020034790039">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+        <attvalues>
+          <attvalue for="2" value="12"/>
+        </attvalues>
+      </edge>
+      <edge id="47" source="LOC::Nayarit.Bahía de Banderas" target="SUB::Formaldehido" weight="260.3999938964844">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+        <attvalues>
+          <attvalue for="2" value="1"/>
+        </attvalues>
+      </edge>
+      <edge id="48" source="LOC::Nayarit.San Blas" target="SUB::Arsénico (Compuestos solubles)" weight="189.2427978515625">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+        <attvalues>
+          <attvalue for="2" value="5"/>
+        </attvalues>
+      </edge>
+      <edge id="49" source="LOC::Nayarit.San Blas" target="SUB::Cadmio (Compuestos solubles)" weight="178.39219665527344">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+        <attvalues>
+          <attvalue for="2" value="5"/>
+        </attvalues>
+      </edge>
+      <edge id="50" source="LOC::Nayarit.San Blas" target="SUB::Cromo (Compuestos solubles)" weight="184.60150146484375">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+        <attvalues>
+          <attvalue for="2" value="5"/>
+        </attvalues>
+      </edge>
+      <edge id="51" source="LOC::Nayarit.San Blas" target="SUB::Níquel (Compuestos solubles)" weight="238.79159545898438">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+        <attvalues>
+          <attvalue for="2" value="5"/>
+        </attvalues>
+      </edge>
+      <edge id="52" source="LOC::Nayarit.San Blas" target="SUB::Plomo (Compuestos solubles)" weight="178.39219665527344">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+        <attvalues>
+          <attvalue for="2" value="5"/>
+        </attvalues>
+      </edge>
+      <edge id="53" source="LOC::Nayarit.San Blas" target="SUB::Cianuro inorgánico/orgánico" weight="114.4561996459961">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+        <attvalues>
+          <attvalue for="2" value="1"/>
+        </attvalues>
+      </edge>
+      <edge id="54" source="LOC::Nayarit.San Blas" target="SUB::Mercurio (Compuestos solubles)" weight="7.038000106811523">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+        <attvalues>
+          <attvalue for="2" value="2"/>
+        </attvalues>
+      </edge>
+      <edge id="55" source="LOC::Nayarit.San Pedro Lagunillas" target="SUB::Arsénico (Compuestos solubles)" weight="29722.568359375">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+        <attvalues>
+          <attvalue for="2" value="4"/>
+        </attvalues>
+      </edge>
+      <edge id="56" source="LOC::Nayarit.San Pedro Lagunillas" target="SUB::Acido sulfhídrico" weight="5278100.0">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+        <attvalues>
+          <attvalue for="2" value="7"/>
+        </attvalues>
+      </edge>
+      <edge id="57" source="LOC::Nayarit.San Pedro Lagunillas" target="SUB::Bióxido de carbono" weight="8.7164032E7">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+        <attvalues>
+          <attvalue for="2" value="8"/>
+        </attvalues>
+      </edge>
+      <edge id="58" source="LOC::Nayarit.Acaponeta" target="SUB::Mercurio (compuestos)" weight="5.000000237487257E-4">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+        <attvalues>
+          <attvalue for="2" value="2"/>
+        </attvalues>
+      </edge>
+      <edge id="59" source="LOC::Nayarit.Acaponeta" target="SUB::Arsénico (polvos, respirables, vapores o humos)" weight="0.07500000298023224">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+        <attvalues>
+          <attvalue for="2" value="2"/>
+        </attvalues>
+      </edge>
+      <edge id="60" source="LOC::Nayarit.Acaponeta" target="SUB::Cianuro inorgánico/orgánico" weight="0.125">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+        <attvalues>
+          <attvalue for="2" value="2"/>
+        </attvalues>
+      </edge>
+      <edge id="61" source="LOC::Nayarit.Acaponeta" target="SUB::Cadmio (polvos, respirables, vapores o humos)" weight="2.2499999613501132E-4">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+        <attvalues>
+          <attvalue for="2" value="1"/>
+        </attvalues>
+      </edge>
+      <edge id="62" source="LOC::Nayarit.Acaponeta" target="SUB::Cromo (compuestos)" weight="0.0024999999441206455">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+        <attvalues>
+          <attvalue for="2" value="1"/>
+        </attvalues>
+      </edge>
+      <edge id="63" source="LOC::Nayarit.Acaponeta" target="SUB::Níquel (compuestos)" weight="0.0024999999441206455">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+        <attvalues>
+          <attvalue for="2" value="1"/>
+        </attvalues>
+      </edge>
+      <edge id="64" source="LOC::Nayarit.Acaponeta" target="SUB::Plomo (compuestos)" weight="0.016750000417232513">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+        <attvalues>
+          <attvalue for="2" value="1"/>
+        </attvalues>
+      </edge>
+      <edge id="65" source="LOC::Nayarit.Acaponeta" target="SUB::Benceno" weight="53.0">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+        <attvalues>
+          <attvalue for="2" value="1"/>
+        </attvalues>
+      </edge>
+      <edge id="66" source="LOC::Nayarit.La Yesca" target="SUB::Mercurio (compuestos)" weight="0.46185240149497986">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+        <attvalues>
+          <attvalue for="2" value="3"/>
+        </attvalues>
+      </edge>
+      <edge id="67" source="LOC::Nayarit.La Yesca" target="SUB::Cromo (compuestos)" weight="36.48185729980469">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+        <attvalues>
+          <attvalue for="2" value="3"/>
+        </attvalues>
+      </edge>
+      <edge id="68" source="LOC::Nayarit.La Yesca" target="SUB::Níquel (compuestos)" weight="4.711228370666504">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+        <attvalues>
+          <attvalue for="2" value="3"/>
+        </attvalues>
+      </edge>
+      <edge id="69" source="LOC::Nayarit.La Yesca" target="SUB::Plomo (compuestos)" weight="29.465482711791992">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+        <attvalues>
+          <attvalue for="2" value="3"/>
+        </attvalues>
+      </edge>
+      <edge id="70" source="LOC::Nayarit.La Yesca" target="SUB::Arsénico (polvos, respirables, vapores o humos)" weight="0.5372014045715332">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+        <attvalues>
+          <attvalue for="2" value="3"/>
+        </attvalues>
+      </edge>
+      <edge id="71" source="LOC::Nayarit.La Yesca" target="SUB::Cianuro inorgánico/orgánico" weight="4.937305450439453">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+        <attvalues>
+          <attvalue for="2" value="3"/>
+        </attvalues>
+      </edge>
+      <edge id="72" source="LOC::Nayarit.La Yesca" target="SUB::Cadmio (polvos, respirables, vapores o humos)" weight="0.9064570069313049">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+        <attvalues>
+          <attvalue for="2" value="2"/>
+        </attvalues>
+      </edge>
+      <edge id="73" source="LOC::Nayarit.Santa María del Oro" target="SUB::Níquel (compuestos)" weight="0.23171840608119965">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+        <attvalues>
+          <attvalue for="2" value="3"/>
+        </attvalues>
+      </edge>
+      <edge id="74" source="LOC::Nayarit.Santa María del Oro" target="SUB::Mercurio (compuestos)" weight="0.0023036000784486532">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+        <attvalues>
+          <attvalue for="2" value="2"/>
+        </attvalues>
+      </edge>
+      <edge id="75" source="LOC::Nayarit.Santa María del Oro" target="SUB::Cromo (compuestos)" weight="0.5745831727981567">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+        <attvalues>
+          <attvalue for="2" value="3"/>
+        </attvalues>
+      </edge>
+      <edge id="76" source="LOC::Nayarit.Santa María del Oro" target="SUB::Cadmio (compuestos)" weight="0.11447600275278091">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+        <attvalues>
+          <attvalue for="2" value="2"/>
+        </attvalues>
+      </edge>
+      <edge id="77" source="LOC::Nayarit.Santa María del Oro" target="SUB::Arsénico (compuestos)" weight="0.10896848142147064">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+        <attvalues>
+          <attvalue for="2" value="2"/>
+        </attvalues>
+      </edge>
+      <edge id="78" source="LOC::Nayarit.Santa María del Oro" target="SUB::Cianuro inorgánico/orgánico" weight="164.21292114257812">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+        <attvalues>
+          <attvalue for="2" value="3"/>
+        </attvalues>
+      </edge>
+      <edge id="79" source="LOC::Nayarit.Santa María del Oro" target="SUB::Plomo (compuestos)" weight="0.23268544673919678">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+        <attvalues>
+          <attvalue for="2" value="3"/>
+        </attvalues>
+      </edge>
+      <edge id="80" source="LOC::Nayarit.Santa María del Oro" target="SUB::Arsénico (polvos, respirables, vapores o humos)" weight="0.9006734490394592">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+        <attvalues>
+          <attvalue for="2" value="2"/>
+        </attvalues>
+      </edge>
+      <edge id="81" source="LOC::Nayarit.Santa María del Oro" target="SUB::Mercurio (polvos, respirables, vapores o humos)" weight="0.0018225599778816104">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+        <attvalues>
+          <attvalue for="2" value="1"/>
+        </attvalues>
+      </edge>
+    </edges>
+  </graph>
+</gexf>

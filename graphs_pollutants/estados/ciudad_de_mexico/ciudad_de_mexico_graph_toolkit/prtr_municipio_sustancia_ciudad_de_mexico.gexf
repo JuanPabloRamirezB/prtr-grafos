@@ -1,0 +1,2955 @@
+<?xml version='1.0' encoding='utf-8'?>
+<gexf xmlns="http://www.gexf.net/1.2draft" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.gexf.net/1.2draft http://www.gexf.net/1.2draft/gexf.xsd" version="1.2">
+  <meta lastmodifieddate="2026-10-16">
+    <creator>NetworkX 3.7</creator>
+  </meta>
+  <graph defaultedgetype="undirected" mode="static" name="">
+    <attributes mode="static" class="edge">
+      <attribute id="2" title="count" type="long" />
+    </attributes>
+    <attributes mode="static" class="node">
+      <attribute id="0" title="type" type="string" />
+      <attribute id="1" title="total_kg" type="double" />
+    </attributes>
+    <nodes>
+      <node id="LOC::Ciudad de México.Coyoacán" label="Ciudad de México.Coyoacán">
+        <attvalues>
+          <attvalue for="0" value="location" />
+          <attvalue for="1" value="334357716.5630567" />
+        </attvalues>
+      </node>
+      <node id="LOC::Ciudad de México.Álvaro Obregón" label="Ciudad de México.Álvaro Obregón">
+        <attvalues>
+          <attvalue for="0" value="location" />
+          <attvalue for="1" value="110502615.51895104" />
+        </attvalues>
+      </node>
+      <node id="LOC::Ciudad de México.Cuajimalpa de Morelos" label="Ciudad de México.Cuajimalpa de Morelos">
+        <attvalues>
+          <attvalue for="0" value="location" />
+          <attvalue for="1" value="9947069.95646481" />
+        </attvalues>
+      </node>
+      <node id="LOC::Ciudad de México.Benito Juárez" label="Ciudad de México.Benito Juárez">
+        <attvalues>
+          <attvalue for="0" value="location" />
+          <attvalue for="1" value="1181441936.286636" />
+        </attvalues>
+      </node>
+      <node id="LOC::Ciudad de México.Iztapalapa" label="Ciudad de México.Iztapalapa">
+        <attvalues>
+          <attvalue for="0" value="location" />
+          <attvalue for="1" value="3435246495.689923" />
+        </attvalues>
+      </node>
+      <node id="LOC::Ciudad de México.Gustavo A" label="Ciudad de México.Gustavo A">
+        <attvalues>
+          <attvalue for="0" value="location" />
+          <attvalue for="1" value="1546097136.7682133" />
+        </attvalues>
+      </node>
+      <node id="LOC::Ciudad de México.Xochimilco" label="Ciudad de México.Xochimilco">
+        <attvalues>
+          <attvalue for="0" value="location" />
+          <attvalue for="1" value="1138912115.4764597" />
+        </attvalues>
+      </node>
+      <node id="LOC::Ciudad de México.Cuauhtémoc" label="Ciudad de México.Cuauhtémoc">
+        <attvalues>
+          <attvalue for="0" value="location" />
+          <attvalue for="1" value="321711611.4387529" />
+        </attvalues>
+      </node>
+      <node id="LOC::Ciudad de México.Azcapotzalco" label="Ciudad de México.Azcapotzalco">
+        <attvalues>
+          <attvalue for="0" value="location" />
+          <attvalue for="1" value="3874012437.910154" />
+        </attvalues>
+      </node>
+      <node id="LOC::Ciudad de México.Tlalpan" label="Ciudad de México.Tlalpan">
+        <attvalues>
+          <attvalue for="0" value="location" />
+          <attvalue for="1" value="55185411.16432218" />
+        </attvalues>
+      </node>
+      <node id="LOC::Ciudad de México.Venustiano Carranza" label="Ciudad de México.Venustiano Carranza">
+        <attvalues>
+          <attvalue for="0" value="location" />
+          <attvalue for="1" value="30245467.868996225" />
+        </attvalues>
+      </node>
+      <node id="LOC::Ciudad de México.Iztacalco" label="Ciudad de México.Iztacalco">
+        <attvalues>
+          <attvalue for="0" value="location" />
+          <attvalue for="1" value="139531377.16492742" />
+        </attvalues>
+      </node>
+      <node id="LOC::Ciudad de México.Miguel Hidalgo" label="Ciudad de México.Miguel Hidalgo">
+        <attvalues>
+          <attvalue for="0" value="location" />
+          <attvalue for="1" value="4857836906.991668" />
+        </attvalues>
+      </node>
+      <node id="LOC::Ciudad de México.Tláhuac" label="Ciudad de México.Tláhuac">
+        <attvalues>
+          <attvalue for="0" value="location" />
+          <attvalue for="1" value="901544325.1469486" />
+        </attvalues>
+      </node>
+      <node id="LOC::Ciudad de México.La Magdalena Contreras" label="Ciudad de México.La Magdalena Contreras">
+        <attvalues>
+          <attvalue for="0" value="location" />
+          <attvalue for="1" value="1926625.6677857118" />
+        </attvalues>
+      </node>
+      <node id="SUB::Cromo (Compuestos solubles)" label="Chromium (soluble compounds)">
+        <attvalues>
+          <attvalue for="0" value="substance" />
+          <attvalue for="1" value="29357.68146192509" />
+        </attvalues>
+      </node>
+      <node id="SUB::Mercurio (Compuestos solubles)" label="Mercury (soluble compounds)">
+        <attvalues>
+          <attvalue for="0" value="substance" />
+          <attvalue for="1" value="804.9345107955165" />
+        </attvalues>
+      </node>
+      <node id="SUB::Níquel (Compuestos solubles)" label="Nickel (soluble compounds)">
+        <attvalues>
+          <attvalue for="0" value="substance" />
+          <attvalue for="1" value="31201.803839655673" />
+        </attvalues>
+      </node>
+      <node id="SUB::Plomo (Compuestos solubles)" label="Lead (soluble compounds)">
+        <attvalues>
+          <attvalue for="0" value="substance" />
+          <attvalue for="1" value="1233747.5389960613" />
+        </attvalues>
+      </node>
+      <node id="SUB::Cianuro inorgánico/orgánico" label="Inorganic/organic cyanide">
+        <attvalues>
+          <attvalue for="0" value="substance" />
+          <attvalue for="1" value="23081.19175685287" />
+        </attvalues>
+      </node>
+      <node id="SUB::Arsénico (polvos, respirables, vapores o humos)" label="Arsenic (respirable dust, vapors or fumes)">
+        <attvalues>
+          <attvalue for="0" value="substance" />
+          <attvalue for="1" value="178.9414320552134" />
+        </attvalues>
+      </node>
+      <node id="SUB::Cadmio (polvos, respirables, vapores o humos)" label="Cadmium (respirable dust, vapors or fumes)">
+        <attvalues>
+          <attvalue for="0" value="substance" />
+          <attvalue for="1" value="7821544.128128568" />
+        </attvalues>
+      </node>
+      <node id="SUB::Mercurio (polvos, respirables, vapores o humos)" label="Mercury (respirable dust, vapors or fumes)">
+        <attvalues>
+          <attvalue for="0" value="substance" />
+          <attvalue for="1" value="6901.5314568565345" />
+        </attvalues>
+      </node>
+      <node id="SUB::Arsénico (Compuestos solubles)" label="Arsenic (soluble compounds)">
+        <attvalues>
+          <attvalue for="0" value="substance" />
+          <attvalue for="1" value="143867.15957019996" />
+        </attvalues>
+      </node>
+      <node id="SUB::Cadmio (Compuestos solubles)" label="Cadmium (soluble compounds)">
+        <attvalues>
+          <attvalue for="0" value="substance" />
+          <attvalue for="1" value="1362.9827883999992" />
+        </attvalues>
+      </node>
+      <node id="SUB::Cromo (compuestos)" label="Chromium (compounds)">
+        <attvalues>
+          <attvalue for="0" value="substance" />
+          <attvalue for="1" value="173365.4735086585" />
+        </attvalues>
+      </node>
+      <node id="SUB::Plomo (compuestos)" label="Lead (compounds)">
+        <attvalues>
+          <attvalue for="0" value="substance" />
+          <attvalue for="1" value="2333881.3485636595" />
+        </attvalues>
+      </node>
+      <node id="SUB::Mercurio (compuestos)" label="Mercury (compounds)">
+        <attvalues>
+          <attvalue for="0" value="substance" />
+          <attvalue for="1" value="78335.90939878201" />
+        </attvalues>
+      </node>
+      <node id="SUB::Níquel (compuestos)" label="Nickel (compounds)">
+        <attvalues>
+          <attvalue for="0" value="substance" />
+          <attvalue for="1" value="163124.70333799956" />
+        </attvalues>
+      </node>
+      <node id="SUB::Arsénico (compuestos)" label="Arsenic (compounds)">
+        <attvalues>
+          <attvalue for="0" value="substance" />
+          <attvalue for="1" value="1182492.833132525" />
+        </attvalues>
+      </node>
+      <node id="SUB::Cadmio (compuestos)" label="Cadmium (compounds)">
+        <attvalues>
+          <attvalue for="0" value="substance" />
+          <attvalue for="1" value="9691.336823944235" />
+        </attvalues>
+      </node>
+      <node id="SUB::Fenol" label="Phenol">
+        <attvalues>
+          <attvalue for="0" value="substance" />
+          <attvalue for="1" value="316573.6120179501" />
+        </attvalues>
+      </node>
+      <node id="SUB::Anilina" label="Aniline">
+        <attvalues>
+          <attvalue for="0" value="substance" />
+          <attvalue for="1" value="0.37949999999999995" />
+        </attvalues>
+      </node>
+      <node id="SUB::Cloroformo" label="Chloroform">
+        <attvalues>
+          <attvalue for="0" value="substance" />
+          <attvalue for="1" value="11214.641684" />
+        </attvalues>
+      </node>
+      <node id="SUB::Formaldehido" label="Formaldehyde">
+        <attvalues>
+          <attvalue for="0" value="substance" />
+          <attvalue for="1" value="147771.83677169992" />
+        </attvalues>
+      </node>
+      <node id="SUB::Tolueno" label="Toluene">
+        <attvalues>
+          <attvalue for="0" value="substance" />
+          <attvalue for="1" value="2467412.8428461202" />
+        </attvalues>
+      </node>
+      <node id="SUB::Bióxido de carbono" label="Carbon dioxide">
+        <attvalues>
+          <attvalue for="0" value="substance" />
+          <attvalue for="1" value="17553313489.544044" />
+        </attvalues>
+      </node>
+      <node id="SUB::Asbesto y sus formas (En forma de polvo, fibras o productos desmenuzables con la presión de la mano)" label="Asbestos and its forms (as dust, fibers or friable products that crumble under hand pressure)">
+        <attvalues>
+          <attvalue for="0" value="substance" />
+          <attvalue for="1" value="136218.28499999997" />
+        </attvalues>
+      </node>
+      <node id="SUB::Bióxido de nitrógeno" label="Nitrogen dioxide">
+        <attvalues>
+          <attvalue for="0" value="substance" />
+          <attvalue for="1" value="11966640.651099999" />
+        </attvalues>
+      </node>
+      <node id="SUB::Epiclorhidrina" label="Epichlorohydrin">
+        <attvalues>
+          <attvalue for="0" value="substance" />
+          <attvalue for="1" value="35197.374014" />
+        </attvalues>
+      </node>
+      <node id="SUB::Metano" label="Methane">
+        <attvalues>
+          <attvalue for="0" value="substance" />
+          <attvalue for="1" value="322847813.66803217" />
+        </attvalues>
+      </node>
+      <node id="SUB::Tolueno diisocianato" label="Toluene diisocyanate">
+        <attvalues>
+          <attvalue for="0" value="substance" />
+          <attvalue for="1" value="45198.12803908001" />
+        </attvalues>
+      </node>
+      <node id="SUB::Benceno" label="Benzene">
+        <attvalues>
+          <attvalue for="0" value="substance" />
+          <attvalue for="1" value="657370.791653373" />
+        </attvalues>
+      </node>
+      <node id="SUB::1,2-Diclorobenceno" label="1,2-Dichlorobenzene">
+        <attvalues>
+          <attvalue for="0" value="substance" />
+          <attvalue for="1" value="0.29243895999999997" />
+        </attvalues>
+      </node>
+      <node id="SUB::Oxido nitroso" label="Nitrous oxide">
+        <attvalues>
+          <attvalue for="0" value="substance" />
+          <attvalue for="1" value="28371600.4324" />
+        </attvalues>
+      </node>
+      <node id="SUB::1,4-Diclorobenceno" label="1,4-Dichlorobenzene">
+        <attvalues>
+          <attvalue for="0" value="substance" />
+          <attvalue for="1" value="66.5382572" />
+        </attvalues>
+      </node>
+      <node id="SUB::Acroleina" label="Acrolein">
+        <attvalues>
+          <attvalue for="0" value="substance" />
+          <attvalue for="1" value="46.60812169999999" />
+        </attvalues>
+      </node>
+      <node id="SUB::Acetaldehido" label="Acetaldehyde">
+        <attvalues>
+          <attvalue for="0" value="substance" />
+          <attvalue for="1" value="385.158697" />
+        </attvalues>
+      </node>
+      <node id="SUB::Dioxido de cloro" label="Chlorine dioxide">
+        <attvalues>
+          <attvalue for="0" value="substance" />
+          <attvalue for="1" value="3213900.0" />
+        </attvalues>
+      </node>
+      <node id="SUB::Cloruro de metileno" label="Methylene chloride">
+        <attvalues>
+          <attvalue for="0" value="substance" />
+          <attvalue for="1" value="116083.99361265003" />
+        </attvalues>
+      </node>
+      <node id="SUB::Piridina" label="Pyridine">
+        <attvalues>
+          <attvalue for="0" value="substance" />
+          <attvalue for="1" value="3258.795046200001" />
+        </attvalues>
+      </node>
+      <node id="SUB::Xileno (mezcla de isómeros)" label="Xylene (mixture of isomers)">
+        <attvalues>
+          <attvalue for="0" value="substance" />
+          <attvalue for="1" value="527505.0594461199" />
+        </attvalues>
+      </node>
+      <node id="SUB::Clorodifluorometano (HCFC-22)" label="Chlorodifluoromethane (HCFC-22)">
+        <attvalues>
+          <attvalue for="0" value="substance" />
+          <attvalue for="1" value="20084.55" />
+        </attvalues>
+      </node>
+      <node id="SUB::Dibutilftalato" label="Dibutyl phthalate">
+        <attvalues>
+          <attvalue for="0" value="substance" />
+          <attvalue for="1" value="42649.541" />
+        </attvalues>
+      </node>
+      <node id="SUB::Sulfato de cobre" label="Copper sulfate">
+        <attvalues>
+          <attvalue for="0" value="substance" />
+          <attvalue for="1" value="2126.5948" />
+        </attvalues>
+      </node>
+      <node id="SUB::Plomo (polvos respirables, humos o vapores)" label="Lead (respirable dust, fumes or vapors)">
+        <attvalues>
+          <attvalue for="0" value="substance" />
+          <attvalue for="1" value="416128.1591372016" />
+        </attvalues>
+      </node>
+      <node id="SUB::Estireno (fenil etileno)" label="Styrene (phenylethylene)">
+        <attvalues>
+          <attvalue for="0" value="substance" />
+          <attvalue for="1" value="342050.02499999997" />
+        </attvalues>
+      </node>
+      <node id="SUB::Dioxinas" label="Dioxins">
+        <attvalues>
+          <attvalue for="0" value="substance" />
+          <attvalue for="1" value="2.50443766729" />
+        </attvalues>
+      </node>
+      <node id="SUB::Furanos" label="Furans">
+        <attvalues>
+          <attvalue for="0" value="substance" />
+          <attvalue for="1" value="4.704552247805999" />
+        </attvalues>
+      </node>
+      <node id="SUB::Níquel (polvos respirables, humos o vapores)" label="Nickel (respirable dust, fumes or vapors)">
+        <attvalues>
+          <attvalue for="0" value="substance" />
+          <attvalue for="1" value="629.2588226" />
+        </attvalues>
+      </node>
+      <node id="SUB::Butadieno" label="1,3-Butadiene">
+        <attvalues>
+          <attvalue for="0" value="substance" />
+          <attvalue for="1" value="1728.0" />
+        </attvalues>
+      </node>
+      <node id="SUB::Cumeno" label="Cumene">
+        <attvalues>
+          <attvalue for="0" value="substance" />
+          <attvalue for="1" value="31662.300000000003" />
+        </attvalues>
+      </node>
+      <node id="SUB::Clorobenceno (monoclorobenceno)" label="Chlorobenzene (monochlorobenzene)">
+        <attvalues>
+          <attvalue for="0" value="substance" />
+          <attvalue for="1" value="196375.70218576002" />
+        </attvalues>
+      </node>
+      <node id="SUB::Tetracloruro de carbono" label="Carbon tetrachloride">
+        <attvalues>
+          <attvalue for="0" value="substance" />
+          <attvalue for="1" value="1297.6356229" />
+        </attvalues>
+      </node>
+      <node id="SUB::Beta-naftalina" label="beta-Naphthylamine">
+        <attvalues>
+          <attvalue for="0" value="substance" />
+          <attvalue for="1" value="2.54" />
+        </attvalues>
+      </node>
+      <node id="SUB::Acido sulfhídrico" label="Hydrogen sulfide">
+        <attvalues>
+          <attvalue for="0" value="substance" />
+          <attvalue for="1" value="1084.8002016" />
+        </attvalues>
+      </node>
+      <node id="SUB::Hexaclorobenceno" label="Hexachlorobenzene">
+        <attvalues>
+          <attvalue for="0" value="substance" />
+          <attvalue for="1" value="0.10708179999999999" />
+        </attvalues>
+      </node>
+      <node id="SUB::2,4-Dinitrotolueno" label="2,4-Dinitrotoluene">
+        <attvalues>
+          <attvalue for="0" value="substance" />
+          <attvalue for="1" value="0.0215931" />
+        </attvalues>
+      </node>
+      <node id="SUB::Clordano" label="Chlordane">
+        <attvalues>
+          <attvalue for="0" value="substance" />
+          <attvalue for="1" value="0.0151736" />
+        </attvalues>
+      </node>
+      <node id="SUB::Lindano (HCH)" label="Lindane (HCH)">
+        <attvalues>
+          <attvalue for="0" value="substance" />
+          <attvalue for="1" value="236.02332982000001" />
+        </attvalues>
+      </node>
+      <node id="SUB::2,3,4,6-Tetraclorofenol" label="2,3,4,6-Tetrachlorophenol">
+        <attvalues>
+          <attvalue for="0" value="substance" />
+          <attvalue for="1" value="0.00541624" />
+        </attvalues>
+      </node>
+      <node id="SUB::Hexacloroetano" label="Hexachloroethane">
+        <attvalues>
+          <attvalue for="0" value="substance" />
+          <attvalue for="1" value="0.037064599999999996" />
+        </attvalues>
+      </node>
+      <node id="SUB::1,1,1-Tricloroetano" label="1,1,1-Trichloroethane">
+        <attvalues>
+          <attvalue for="0" value="substance" />
+          <attvalue for="1" value="0.00355786" />
+        </attvalues>
+      </node>
+      <node id="SUB::Endrin" label="Endrin">
+        <attvalues>
+          <attvalue for="0" value="substance" />
+          <attvalue for="1" value="0.023578799999999997" />
+        </attvalues>
+      </node>
+      <node id="SUB::Metoxicloro" label="Methoxychlor">
+        <attvalues>
+          <attvalue for="0" value="substance" />
+          <attvalue for="1" value="0.0197609" />
+        </attvalues>
+      </node>
+      <node id="SUB::Cloruro de vinilo" label="Vinyl chloride">
+        <attvalues>
+          <attvalue for="0" value="substance" />
+          <attvalue for="1" value="0.01472594" />
+        </attvalues>
+      </node>
+      <node id="SUB::Heptacloro" label="Heptachlor">
+        <attvalues>
+          <attvalue for="0" value="substance" />
+          <attvalue for="1" value="0.013443799999999999" />
+        </attvalues>
+      </node>
+      <node id="SUB::1,1,2-Tricloroetano" label="1,1,2-Trichloroethane">
+        <attvalues>
+          <attvalue for="0" value="substance" />
+          <attvalue for="1" value="0.00355786" />
+        </attvalues>
+      </node>
+      <node id="SUB::Tricloroetileno" label="Trichloroethylene">
+        <attvalues>
+          <attvalue for="0" value="substance" />
+          <attvalue for="1" value="447.00226576000006" />
+        </attvalues>
+      </node>
+      <node id="SUB::1,1,2,2-Tetracloroetano" label="1,1,2,2-Tetrachloroethane">
+        <attvalues>
+          <attvalue for="0" value="substance" />
+          <attvalue for="1" value="0.00394144" />
+        </attvalues>
+      </node>
+      <node id="SUB::Toxafeno" label="Toxaphene">
+        <attvalues>
+          <attvalue for="0" value="substance" />
+          <attvalue for="1" value="0.14269759999999998" />
+        </attvalues>
+      </node>
+      <node id="SUB::Hexacloro-1,3-Butadieno" label="Hexachloro-1,3-butadiene">
+        <attvalues>
+          <attvalue for="0" value="substance" />
+          <attvalue for="1" value="0.0438338" />
+        </attvalues>
+      </node>
+      <node id="SUB::Pentaclorofenol" label="Pentachlorophenol">
+        <attvalues>
+          <attvalue for="0" value="substance" />
+          <attvalue for="1" value="0.01618864" />
+        </attvalues>
+      </node>
+      <node id="SUB::2,4,6-Triclorofenol" label="2,4,6-Trichlorophenol">
+        <attvalues>
+          <attvalue for="0" value="substance" />
+          <attvalue for="1" value="0.00794958" />
+        </attvalues>
+      </node>
+      <node id="SUB::2,4,5-Triclorofenol" label="2,4,5-Trichlorophenol">
+        <attvalues>
+          <attvalue for="0" value="substance" />
+          <attvalue for="1" value="0.00794958" />
+        </attvalues>
+      </node>
+      <node id="SUB::1,2,-Dicloroetano" label="1,2-Dichloroethane">
+        <attvalues>
+          <attvalue for="0" value="substance" />
+          <attvalue for="1" value="0.0032832399999999998" />
+        </attvalues>
+      </node>
+      <node id="SUB::Acrilonitrilo" label="Acrylonitrile">
+        <attvalues>
+          <attvalue for="0" value="substance" />
+          <attvalue for="1" value="0.0101495" />
+        </attvalues>
+      </node>
+      <node id="SUB::2-Etoxietanol (Termonoetilico de etilenglicol)" label="2-Ethoxyethanol (ethylene glycol monoethyl ether)">
+        <attvalues>
+          <attvalue for="0" value="substance" />
+          <attvalue for="1" value="18607.398000000005" />
+        </attvalues>
+      </node>
+      <node id="SUB::Bifenilos policlorados" label="Polychlorinated biphenyls (PCBs)">
+        <attvalues>
+          <attvalue for="0" value="substance" />
+          <attvalue for="1" value="9272.794120999999" />
+        </attvalues>
+      </node>
+      <node id="SUB::Acrilamina" label="Acrylamide">
+        <attvalues>
+          <attvalue for="0" value="substance" />
+          <attvalue for="1" value="56.827" />
+        </attvalues>
+      </node>
+      <node id="SUB::Cromo (polvos respirables, humos o vapores)" label="Chromium (respirable dust, fumes or vapors)">
+        <attvalues>
+          <attvalue for="0" value="substance" />
+          <attvalue for="1" value="1927.6034" />
+        </attvalues>
+      </node>
+      <node id="SUB::Nitrato de plata" label="Silver nitrate">
+        <attvalues>
+          <attvalue for="0" value="substance" />
+          <attvalue for="1" value="647.47" />
+        </attvalues>
+      </node>
+      <node id="SUB::Ácido (4-cloro-2-metilfenoxi) acético" label="(4-Chloro-2-methylphenoxy)acetic acid (MCPA)">
+        <attvalues>
+          <attvalue for="0" value="substance" />
+          <attvalue for="1" value="808.62" />
+        </attvalues>
+      </node>
+      <node id="SUB::Praletrina" label="Prallethrin">
+        <attvalues>
+          <attvalue for="0" value="substance" />
+          <attvalue for="1" value="190.0" />
+        </attvalues>
+      </node>
+      <node id="SUB::Hidrofluorocarbonos" label="Hydrofluorocarbons">
+        <attvalues>
+          <attvalue for="0" value="substance" />
+          <attvalue for="1" value="540.0" />
+        </attvalues>
+      </node>
+      <node id="SUB::Dioxano" label="1,4-Dioxane">
+        <attvalues>
+          <attvalue for="0" value="substance" />
+          <attvalue for="1" value="0.927" />
+        </attvalues>
+      </node>
+    </nodes>
+    <edges>
+      <edge source="LOC::Ciudad de México.Coyoacán" target="SUB::Cromo (Compuestos solubles)" id="0" weight="128.04316124000002">
+        <attvalues>
+          <attvalue for="2" value="26" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Ciudad de México.Coyoacán" target="SUB::Mercurio (Compuestos solubles)" id="1" weight="0.0283494364">
+        <attvalues>
+          <attvalue for="2" value="4" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Ciudad de México.Coyoacán" target="SUB::Níquel (Compuestos solubles)" id="2" weight="395.5369550479999">
+        <attvalues>
+          <attvalue for="2" value="44" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Ciudad de México.Coyoacán" target="SUB::Plomo (Compuestos solubles)" id="3" weight="275.90229728">
+        <attvalues>
+          <attvalue for="2" value="44" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Ciudad de México.Coyoacán" target="SUB::Cianuro inorgánico/orgánico" id="4" weight="20.71601810106">
+        <attvalues>
+          <attvalue for="2" value="96" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Ciudad de México.Coyoacán" target="SUB::Arsénico (polvos, respirables, vapores o humos)" id="5" weight="7.685616355875999">
+        <attvalues>
+          <attvalue for="2" value="68" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Ciudad de México.Coyoacán" target="SUB::Cadmio (polvos, respirables, vapores o humos)" id="6" weight="187.5701224916">
+        <attvalues>
+          <attvalue for="2" value="61" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Ciudad de México.Coyoacán" target="SUB::Mercurio (polvos, respirables, vapores o humos)" id="7" weight="239.3755965621">
+        <attvalues>
+          <attvalue for="2" value="26" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Ciudad de México.Coyoacán" target="SUB::Níquel (compuestos)" id="8" weight="591.2018320685582">
+        <attvalues>
+          <attvalue for="2" value="82" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Ciudad de México.Coyoacán" target="SUB::Cromo (compuestos)" id="9" weight="22.013976037499994">
+        <attvalues>
+          <attvalue for="2" value="79" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Ciudad de México.Coyoacán" target="SUB::Plomo (compuestos)" id="10" weight="7584.539485385524">
+        <attvalues>
+          <attvalue for="2" value="81" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Ciudad de México.Coyoacán" target="SUB::Mercurio (compuestos)" id="11" weight="2.0253515273480005">
+        <attvalues>
+          <attvalue for="2" value="87" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Ciudad de México.Coyoacán" target="SUB::Fenol" id="12" weight="2.5">
+        <attvalues>
+          <attvalue for="2" value="3" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Ciudad de México.Coyoacán" target="SUB::Bióxido de carbono" id="13" weight="334304878.4538983">
+        <attvalues>
+          <attvalue for="2" value="178" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Ciudad de México.Coyoacán" target="SUB::Bióxido de nitrógeno" id="14" weight="1083.76">
+        <attvalues>
+          <attvalue for="2" value="4" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Ciudad de México.Coyoacán" target="SUB::Tolueno" id="15" weight="17956.0">
+        <attvalues>
+          <attvalue for="2" value="1" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Ciudad de México.Coyoacán" target="SUB::Xileno (mezcla de isómeros)" id="16" weight="4489.0">
+        <attvalues>
+          <attvalue for="2" value="1" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Ciudad de México.Coyoacán" target="SUB::Formaldehido" id="17" weight="9534.943000000001">
+        <attvalues>
+          <attvalue for="2" value="5" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Ciudad de México.Coyoacán" target="SUB::Metano" id="18" weight="9.7703">
+        <attvalues>
+          <attvalue for="2" value="6" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Ciudad de México.Coyoacán" target="SUB::Tetracloruro de carbono" id="19" weight="6.7">
+        <attvalues>
+          <attvalue for="2" value="2" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Ciudad de México.Coyoacán" target="SUB::Cloroformo" id="20" weight="94.76000399999998">
+        <attvalues>
+          <attvalue for="2" value="5" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Ciudad de México.Coyoacán" target="SUB::Clorodifluorometano (HCFC-22)" id="21" weight="24.55">
+        <attvalues>
+          <attvalue for="2" value="1" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Ciudad de México.Coyoacán" target="SUB::Arsénico (compuestos)" id="22" weight="0.9727968994520001">
+        <attvalues>
+          <attvalue for="2" value="45" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Ciudad de México.Coyoacán" target="SUB::Cadmio (compuestos)" id="23" weight="14.704968590095998">
+        <attvalues>
+          <attvalue for="2" value="38" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Ciudad de México.Coyoacán" target="SUB::Cadmio (Compuestos solubles)" id="24" weight="43.381">
+        <attvalues>
+          <attvalue for="2" value="8" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Ciudad de México.Coyoacán" target="SUB::Arsénico (Compuestos solubles)" id="25" weight="12.1">
+        <attvalues>
+          <attvalue for="2" value="3" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Ciudad de México.Coyoacán" target="SUB::Bifenilos policlorados" id="26" weight="5960.0">
+        <attvalues>
+          <attvalue for="2" value="2" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Ciudad de México.Coyoacán" target="SUB::Asbesto y sus formas (En forma de polvo, fibras o productos desmenuzables con la presión de la mano)" id="27" weight="2936.0">
+        <attvalues>
+          <attvalue for="2" value="6" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Ciudad de México.Coyoacán" target="SUB::Plomo (polvos respirables, humos o vapores)" id="28" weight="12.0">
+        <attvalues>
+          <attvalue for="2" value="2" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Ciudad de México.Coyoacán" target="SUB::Furanos" id="29" weight="2.20032394">
+        <attvalues>
+          <attvalue for="2" value="3" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Ciudad de México.Coyoacán" target="SUB::Cloruro de metileno" id="30" weight="23.200002849999997">
+        <attvalues>
+          <attvalue for="2" value="3" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Ciudad de México.Coyoacán" target="SUB::Tricloroetileno" id="31" weight="7.0">
+        <attvalues>
+          <attvalue for="2" value="1" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Ciudad de México.Coyoacán" target="SUB::Níquel (polvos respirables, humos o vapores)" id="32" weight="291.128">
+        <attvalues>
+          <attvalue for="2" value="6" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Ciudad de México.Coyoacán" target="SUB::2-Etoxietanol (Termonoetilico de etilenglicol)" id="33" weight="878.8">
+        <attvalues>
+          <attvalue for="2" value="3" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Ciudad de México.Álvaro Obregón" target="SUB::Cromo (Compuestos solubles)" id="34" weight="8.475200086">
+        <attvalues>
+          <attvalue for="2" value="7" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Ciudad de México.Álvaro Obregón" target="SUB::Mercurio (Compuestos solubles)" id="35" weight="2e-09">
+        <attvalues>
+          <attvalue for="2" value="2" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Ciudad de México.Álvaro Obregón" target="SUB::Níquel (Compuestos solubles)" id="36" weight="8576.751600094007">
+        <attvalues>
+          <attvalue for="2" value="33" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Ciudad de México.Álvaro Obregón" target="SUB::Plomo (Compuestos solubles)" id="37" weight="42.02430187999999">
+        <attvalues>
+          <attvalue for="2" value="18" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Ciudad de México.Álvaro Obregón" target="SUB::Cianuro inorgánico/orgánico" id="38" weight="3437.2755158140994">
+        <attvalues>
+          <attvalue for="2" value="68" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Ciudad de México.Álvaro Obregón" target="SUB::Arsénico (polvos, respirables, vapores o humos)" id="39" weight="1.5617292614759994">
+        <attvalues>
+          <attvalue for="2" value="37" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Ciudad de México.Álvaro Obregón" target="SUB::Cadmio (polvos, respirables, vapores o humos)" id="40" weight="365.94762042499997">
+        <attvalues>
+          <attvalue for="2" value="40" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Ciudad de México.Álvaro Obregón" target="SUB::Cromo (compuestos)" id="41" weight="45.608062848959996">
+        <attvalues>
+          <attvalue for="2" value="67" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Ciudad de México.Álvaro Obregón" target="SUB::Plomo (compuestos)" id="42" weight="23811.6901952774">
+        <attvalues>
+          <attvalue for="2" value="72" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Ciudad de México.Álvaro Obregón" target="SUB::Mercurio (polvos, respirables, vapores o humos)" id="43" weight="638.1900749999999">
+        <attvalues>
+          <attvalue for="2" value="22" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Ciudad de México.Álvaro Obregón" target="SUB::Níquel (compuestos)" id="44" weight="365.2644570355001">
+        <attvalues>
+          <attvalue for="2" value="68" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Ciudad de México.Álvaro Obregón" target="SUB::Mercurio (compuestos)" id="45" weight="3.0249584402959986">
+        <attvalues>
+          <attvalue for="2" value="58" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Ciudad de México.Álvaro Obregón" target="SUB::Bióxido de carbono" id="46" weight="108896637.42699996">
+        <attvalues>
+          <attvalue for="2" value="67" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Ciudad de México.Álvaro Obregón" target="SUB::Formaldehido" id="47" weight="58233.5087967">
+        <attvalues>
+          <attvalue for="2" value="23" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Ciudad de México.Álvaro Obregón" target="SUB::Metano" id="48" weight="1499000.8511700002">
+        <attvalues>
+          <attvalue for="2" value="13" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Ciudad de México.Álvaro Obregón" target="SUB::Acroleina" id="49" weight="0.023536">
+        <attvalues>
+          <attvalue for="2" value="7" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Ciudad de México.Álvaro Obregón" target="SUB::Benceno" id="50" weight="0.224522">
+        <attvalues>
+          <attvalue for="2" value="7" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Ciudad de México.Álvaro Obregón" target="SUB::Acetaldehido" id="51" weight="0.25960300000000003">
+        <attvalues>
+          <attvalue for="2" value="7" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Ciudad de México.Álvaro Obregón" target="SUB::Bióxido de nitrógeno" id="52" weight="25.633">
+        <attvalues>
+          <attvalue for="2" value="4" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Ciudad de México.Álvaro Obregón" target="SUB::Arsénico (compuestos)" id="53" weight="0.3198653989759999">
+        <attvalues>
+          <attvalue for="2" value="27" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Ciudad de México.Álvaro Obregón" target="SUB::Cadmio (compuestos)" id="54" weight="12.7417417396">
+        <attvalues>
+          <attvalue for="2" value="27" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Ciudad de México.Álvaro Obregón" target="SUB::Cadmio (Compuestos solubles)" id="55" weight="1.296">
+        <attvalues>
+          <attvalue for="2" value="1" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Ciudad de México.Álvaro Obregón" target="SUB::Plomo (polvos respirables, humos o vapores)" id="56" weight="8749.500000000002">
+        <attvalues>
+          <attvalue for="2" value="10" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Ciudad de México.Álvaro Obregón" target="SUB::Níquel (polvos respirables, humos o vapores)" id="57" weight="71.5">
+        <attvalues>
+          <attvalue for="2" value="1" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Ciudad de México.Álvaro Obregón" target="SUB::Xileno (mezcla de isómeros)" id="58" weight="2467.62">
+        <attvalues>
+          <attvalue for="2" value="2" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Ciudad de México.Álvaro Obregón" target="SUB::2-Etoxietanol (Termonoetilico de etilenglicol)" id="59" weight="118.8">
+        <attvalues>
+          <attvalue for="2" value="1" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Ciudad de México.Cuajimalpa de Morelos" target="SUB::Cromo (Compuestos solubles)" id="60" weight="7.30585520833">
+        <attvalues>
+          <attvalue for="2" value="6" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Ciudad de México.Cuajimalpa de Morelos" target="SUB::Mercurio (Compuestos solubles)" id="61" weight="0.0011526666667">
+        <attvalues>
+          <attvalue for="2" value="2" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Ciudad de México.Cuajimalpa de Morelos" target="SUB::Níquel (Compuestos solubles)" id="62" weight="33.74686041667">
+        <attvalues>
+          <attvalue for="2" value="6" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Ciudad de México.Cuajimalpa de Morelos" target="SUB::Plomo (Compuestos solubles)" id="63" weight="4586.3196175">
+        <attvalues>
+          <attvalue for="2" value="7" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Ciudad de México.Cuajimalpa de Morelos" target="SUB::Cianuro inorgánico/orgánico" id="64" weight="2.5720206863299997">
+        <attvalues>
+          <attvalue for="2" value="25" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Ciudad de México.Cuajimalpa de Morelos" target="SUB::Arsénico (polvos, respirables, vapores o humos)" id="65" weight="5.240261605544001">
+        <attvalues>
+          <attvalue for="2" value="22" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Ciudad de México.Cuajimalpa de Morelos" target="SUB::Cadmio (polvos, respirables, vapores o humos)" id="66" weight="16.331876332662997">
+        <attvalues>
+          <attvalue for="2" value="22" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Ciudad de México.Cuajimalpa de Morelos" target="SUB::Cromo (compuestos)" id="67" weight="3.5811392580900003">
+        <attvalues>
+          <attvalue for="2" value="25" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Ciudad de México.Cuajimalpa de Morelos" target="SUB::Mercurio (compuestos)" id="68" weight="0.06743060900999999">
+        <attvalues>
+          <attvalue for="2" value="22" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Ciudad de México.Cuajimalpa de Morelos" target="SUB::Níquel (compuestos)" id="69" weight="10.02717464086">
+        <attvalues>
+          <attvalue for="2" value="24" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Ciudad de México.Cuajimalpa de Morelos" target="SUB::Plomo (compuestos)" id="70" weight="3568.7921183546796">
+        <attvalues>
+          <attvalue for="2" value="31" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Ciudad de México.Cuajimalpa de Morelos" target="SUB::Fenol" id="71" weight="1.1920962787">
+        <attvalues>
+          <attvalue for="2" value="6" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Ciudad de México.Cuajimalpa de Morelos" target="SUB::Bióxido de carbono" id="72" weight="9925939.009">
+        <attvalues>
+          <attvalue for="2" value="17" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Ciudad de México.Cuajimalpa de Morelos" target="SUB::Arsénico (compuestos)" id="73" weight="0.09823592776">
+        <attvalues>
+          <attvalue for="2" value="11" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Ciudad de México.Cuajimalpa de Morelos" target="SUB::Cadmio (compuestos)" id="74" weight="1.7295973246399998">
+        <attvalues>
+          <attvalue for="2" value="9" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Ciudad de México.Cuajimalpa de Morelos" target="SUB::Mercurio (polvos, respirables, vapores o humos)" id="75" weight="184.533428">
+        <attvalues>
+          <attvalue for="2" value="20" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Ciudad de México.Cuajimalpa de Morelos" target="SUB::Arsénico (Compuestos solubles)" id="76" weight="1.0922">
+        <attvalues>
+          <attvalue for="2" value="1" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Ciudad de México.Cuajimalpa de Morelos" target="SUB::Cadmio (Compuestos solubles)" id="77" weight="1.6164">
+        <attvalues>
+          <attvalue for="2" value="1" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Ciudad de México.Cuajimalpa de Morelos" target="SUB::Plomo (polvos respirables, humos o vapores)" id="78" weight="1592.5">
+        <attvalues>
+          <attvalue for="2" value="2" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Ciudad de México.Cuajimalpa de Morelos" target="SUB::Formaldehido" id="79" weight="10894.199999999999">
+        <attvalues>
+          <attvalue for="2" value="7" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Ciudad de México.Cuajimalpa de Morelos" target="SUB::2-Etoxietanol (Termonoetilico de etilenglicol)" id="80" weight="220.0">
+        <attvalues>
+          <attvalue for="2" value="1" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Ciudad de México.Benito Juárez" target="SUB::Cromo (Compuestos solubles)" id="81" weight="14.240879999999999">
+        <attvalues>
+          <attvalue for="2" value="11" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Ciudad de México.Benito Juárez" target="SUB::Mercurio (Compuestos solubles)" id="82" weight="262.8269724">
+        <attvalues>
+          <attvalue for="2" value="9" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Ciudad de México.Benito Juárez" target="SUB::Níquel (Compuestos solubles)" id="83" weight="423.61735">
+        <attvalues>
+          <attvalue for="2" value="35" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Ciudad de México.Benito Juárez" target="SUB::Plomo (Compuestos solubles)" id="84" weight="478.74017795199995">
+        <attvalues>
+          <attvalue for="2" value="30" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Ciudad de México.Benito Juárez" target="SUB::Cianuro inorgánico/orgánico" id="85" weight="16.143431073200006">
+        <attvalues>
+          <attvalue for="2" value="84" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Ciudad de México.Benito Juárez" target="SUB::Arsénico (polvos, respirables, vapores o humos)" id="86" weight="37.561370723022414">
+        <attvalues>
+          <attvalue for="2" value="40" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Ciudad de México.Benito Juárez" target="SUB::Cadmio (polvos, respirables, vapores o humos)" id="87" weight="216.88047469622">
+        <attvalues>
+          <attvalue for="2" value="33" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Ciudad de México.Benito Juárez" target="SUB::Arsénico (Compuestos solubles)" id="88" weight="263.7276">
+        <attvalues>
+          <attvalue for="2" value="6" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Ciudad de México.Benito Juárez" target="SUB::Cadmio (Compuestos solubles)" id="89" weight="20.3081">
+        <attvalues>
+          <attvalue for="2" value="3" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Ciudad de México.Benito Juárez" target="SUB::Arsénico (compuestos)" id="90" weight="0.9421496690900002">
+        <attvalues>
+          <attvalue for="2" value="47" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Ciudad de México.Benito Juárez" target="SUB::Cadmio (compuestos)" id="91" weight="49.76972477955999">
+        <attvalues>
+          <attvalue for="2" value="47" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Ciudad de México.Benito Juárez" target="SUB::Cromo (compuestos)" id="92" weight="23.12758880252999">
+        <attvalues>
+          <attvalue for="2" value="73" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Ciudad de México.Benito Juárez" target="SUB::Mercurio (compuestos)" id="93" weight="1038.1091352926323">
+        <attvalues>
+          <attvalue for="2" value="86" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Ciudad de México.Benito Juárez" target="SUB::Níquel (compuestos)" id="94" weight="166.37415496582003">
+        <attvalues>
+          <attvalue for="2" value="76" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Ciudad de México.Benito Juárez" target="SUB::Plomo (compuestos)" id="95" weight="10431.16909795885">
+        <attvalues>
+          <attvalue for="2" value="88" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Ciudad de México.Benito Juárez" target="SUB::Bióxido de carbono" id="96" weight="1179327263.7521017">
+        <attvalues>
+          <attvalue for="2" value="98" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Ciudad de México.Benito Juárez" target="SUB::Formaldehido" id="97" weight="634.3203000000001">
+        <attvalues>
+          <attvalue for="2" value="7" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Ciudad de México.Benito Juárez" target="SUB::Mercurio (polvos, respirables, vapores o humos)" id="98" weight="169.529186202">
+        <attvalues>
+          <attvalue for="2" value="9" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Ciudad de México.Benito Juárez" target="SUB::Bióxido de nitrógeno" id="99" weight="84.24">
+        <attvalues>
+          <attvalue for="2" value="2" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Ciudad de México.Benito Juárez" target="SUB::Benceno" id="100" weight="394324.90199800004">
+        <attvalues>
+          <attvalue for="2" value="9" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Ciudad de México.Benito Juárez" target="SUB::Sulfato de cobre" id="101" weight="2126.5948">
+        <attvalues>
+          <attvalue for="2" value="6" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Ciudad de México.Benito Juárez" target="SUB::Dioxinas" id="102" weight="7.387807e-06">
+        <attvalues>
+          <attvalue for="2" value="8" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Ciudad de México.Benito Juárez" target="SUB::Furanos" id="103" weight="7.387807e-06">
+        <attvalues>
+          <attvalue for="2" value="8" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Ciudad de México.Benito Juárez" target="SUB::Xileno (mezcla de isómeros)" id="104" weight="13569.338">
+        <attvalues>
+          <attvalue for="2" value="9" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Ciudad de México.Benito Juárez" target="SUB::Cumeno" id="105" weight="10287.3">
+        <attvalues>
+          <attvalue for="2" value="7" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Ciudad de México.Benito Juárez" target="SUB::Tolueno" id="106" weight="1170.0">
+        <attvalues>
+          <attvalue for="2" value="1" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Ciudad de México.Benito Juárez" target="SUB::Metano" id="107" weight="1677490.287628">
+        <attvalues>
+          <attvalue for="2" value="3" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Ciudad de México.Benito Juárez" target="SUB::Oxido nitroso" id="108" weight="0.0044">
+        <attvalues>
+          <attvalue for="2" value="1" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Ciudad de México.Benito Juárez" target="SUB::Praletrina" id="109" weight="190.0">
+        <attvalues>
+          <attvalue for="2" value="1" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Ciudad de México.Benito Juárez" target="SUB::2-Etoxietanol (Termonoetilico de etilenglicol)" id="110" weight="1182.4799999999998">
+        <attvalues>
+          <attvalue for="2" value="6" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Ciudad de México.Iztapalapa" target="SUB::Cromo (Compuestos solubles)" id="111" weight="295.98833436039996">
+        <attvalues>
+          <attvalue for="2" value="36" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Ciudad de México.Iztapalapa" target="SUB::Mercurio (Compuestos solubles)" id="112" weight="189.0120009674">
+        <attvalues>
+          <attvalue for="2" value="11" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Ciudad de México.Iztapalapa" target="SUB::Níquel (Compuestos solubles)" id="113" weight="526.230151665">
+        <attvalues>
+          <attvalue for="2" value="77" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Ciudad de México.Iztapalapa" target="SUB::Plomo (Compuestos solubles)" id="114" weight="1132115.761043867">
+        <attvalues>
+          <attvalue for="2" value="77" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Ciudad de México.Iztapalapa" target="SUB::Cianuro inorgánico/orgánico" id="115" weight="79.2924855207668">
+        <attvalues>
+          <attvalue for="2" value="156" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Ciudad de México.Iztapalapa" target="SUB::Arsénico (polvos, respirables, vapores o humos)" id="116" weight="5.689561703600001">
+        <attvalues>
+          <attvalue for="2" value="83" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Ciudad de México.Iztapalapa" target="SUB::Cadmio (polvos, respirables, vapores o humos)" id="117" weight="27.059759242111">
+        <attvalues>
+          <attvalue for="2" value="76" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Ciudad de México.Iztapalapa" target="SUB::Arsénico (Compuestos solubles)" id="118" weight="12.4880225">
+        <attvalues>
+          <attvalue for="2" value="9" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Ciudad de México.Iztapalapa" target="SUB::Níquel (compuestos)" id="119" weight="52959.502016221966">
+        <attvalues>
+          <attvalue for="2" value="150" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Ciudad de México.Iztapalapa" target="SUB::Arsénico (compuestos)" id="120" weight="68.6687897126209">
+        <attvalues>
+          <attvalue for="2" value="78" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Ciudad de México.Iztapalapa" target="SUB::Plomo (compuestos)" id="121" weight="2018467.503728641">
+        <attvalues>
+          <attvalue for="2" value="164" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Ciudad de México.Iztapalapa" target="SUB::Mercurio (compuestos)" id="122" weight="80.0326949098261">
+        <attvalues>
+          <attvalue for="2" value="141" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Ciudad de México.Iztapalapa" target="SUB::Cromo (compuestos)" id="123" weight="6194.605529460969">
+        <attvalues>
+          <attvalue for="2" value="147" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Ciudad de México.Iztapalapa" target="SUB::Cadmio (compuestos)" id="124" weight="3063.422595713874">
+        <attvalues>
+          <attvalue for="2" value="74" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Ciudad de México.Iztapalapa" target="SUB::Mercurio (polvos, respirables, vapores o humos)" id="125" weight="428.65299467508">
+        <attvalues>
+          <attvalue for="2" value="40" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Ciudad de México.Iztapalapa" target="SUB::Fenol" id="126" weight="107345.6951141245">
+        <attvalues>
+          <attvalue for="2" value="24" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Ciudad de México.Iztapalapa" target="SUB::Bióxido de carbono" id="127" weight="3230749389.6874356">
+        <attvalues>
+          <attvalue for="2" value="271" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Ciudad de México.Iztapalapa" target="SUB::Tolueno diisocianato" id="128" weight="39308.964900000006">
+        <attvalues>
+          <attvalue for="2" value="23" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Ciudad de México.Iztapalapa" target="SUB::Formaldehido" id="129" weight="812.6432090000002">
+        <attvalues>
+          <attvalue for="2" value="11" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Ciudad de México.Iztapalapa" target="SUB::Benceno" id="130" weight="5.642790000000001">
+        <attvalues>
+          <attvalue for="2" value="10" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Ciudad de México.Iztapalapa" target="SUB::Metano" id="131" weight="192455682.46462595">
+        <attvalues>
+          <attvalue for="2" value="31" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Ciudad de México.Iztapalapa" target="SUB::1,2-Diclorobenceno" id="132" weight="0.26856">
+        <attvalues>
+          <attvalue for="2" value="1" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Ciudad de México.Iztapalapa" target="SUB::Bióxido de nitrógeno" id="133" weight="1485554.34">
+        <attvalues>
+          <attvalue for="2" value="21" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Ciudad de México.Iztapalapa" target="SUB::1,4-Diclorobenceno" id="134" weight="66.5193191">
+        <attvalues>
+          <attvalue for="2" value="7" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Ciudad de México.Iztapalapa" target="SUB::Estireno (fenil etileno)" id="135" weight="62940.25">
+        <attvalues>
+          <attvalue for="2" value="3" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Ciudad de México.Iztapalapa" target="SUB::Tolueno" id="136" weight="1262125.121">
+        <attvalues>
+          <attvalue for="2" value="25" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Ciudad de México.Iztapalapa" target="SUB::Dioxinas" id="137" weight="2.50443">
+        <attvalues>
+          <attvalue for="2" value="4" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Ciudad de México.Iztapalapa" target="SUB::Furanos" id="138" weight="2.50422">
+        <attvalues>
+          <attvalue for="2" value="4" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Ciudad de México.Iztapalapa" target="SUB::Xileno (mezcla de isómeros)" id="139" weight="69582.11499999999">
+        <attvalues>
+          <attvalue for="2" value="8" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Ciudad de México.Iztapalapa" target="SUB::Cumeno" id="140" weight="21375.0">
+        <attvalues>
+          <attvalue for="2" value="5" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Ciudad de México.Iztapalapa" target="SUB::Oxido nitroso" id="141" weight="5329641.928">
+        <attvalues>
+          <attvalue for="2" value="5" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Ciudad de México.Iztapalapa" target="SUB::Asbesto y sus formas (En forma de polvo, fibras o productos desmenuzables con la presión de la mano)" id="142" weight="44974.7">
+        <attvalues>
+          <attvalue for="2" value="13" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Ciudad de México.Iztapalapa" target="SUB::Clorobenceno (monoclorobenceno)" id="143" weight="221.7">
+        <attvalues>
+          <attvalue for="2" value="1" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Ciudad de México.Iztapalapa" target="SUB::Cloroformo" id="144" weight="236.56">
+        <attvalues>
+          <attvalue for="2" value="1" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Ciudad de México.Iztapalapa" target="SUB::Beta-naftalina" id="145" weight="2.54">
+        <attvalues>
+          <attvalue for="2" value="1" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Ciudad de México.Iztapalapa" target="SUB::Cadmio (Compuestos solubles)" id="146" weight="105.7422884">
+        <attvalues>
+          <attvalue for="2" value="23" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Ciudad de México.Iztapalapa" target="SUB::Plomo (polvos respirables, humos o vapores)" id="147" weight="402106.3522226">
+        <attvalues>
+          <attvalue for="2" value="7" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Ciudad de México.Iztapalapa" target="SUB::Níquel (polvos respirables, humos o vapores)" id="148" weight="18.242222599999998">
+        <attvalues>
+          <attvalue for="2" value="6" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Ciudad de México.Iztapalapa" target="SUB::Piridina" id="149" weight="0.29488000000000003">
+        <attvalues>
+          <attvalue for="2" value="5" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Ciudad de México.Iztapalapa" target="SUB::Acido sulfhídrico" id="150" weight="480.0">
+        <attvalues>
+          <attvalue for="2" value="1" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Ciudad de México.Gustavo A" target="SUB::Cromo (Compuestos solubles)" id="151" weight="9449.377672808001">
+        <attvalues>
+          <attvalue for="2" value="32" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Ciudad de México.Gustavo A" target="SUB::Mercurio (Compuestos solubles)" id="152" weight="16.790295720000003">
+        <attvalues>
+          <attvalue for="2" value="6" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Ciudad de México.Gustavo A" target="SUB::Níquel (Compuestos solubles)" id="153" weight="319.410175565">
+        <attvalues>
+          <attvalue for="2" value="64" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Ciudad de México.Gustavo A" target="SUB::Plomo (Compuestos solubles)" id="154" weight="526.0630132440001">
+        <attvalues>
+          <attvalue for="2" value="61" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Ciudad de México.Gustavo A" target="SUB::Cianuro inorgánico/orgánico" id="155" weight="134.493120751644">
+        <attvalues>
+          <attvalue for="2" value="116" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Ciudad de México.Gustavo A" target="SUB::Arsénico (polvos, respirables, vapores o humos)" id="156" weight="80.58256638738399">
+        <attvalues>
+          <attvalue for="2" value="57" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Ciudad de México.Gustavo A" target="SUB::Cadmio (polvos, respirables, vapores o humos)" id="157" weight="1159.131755690632">
+        <attvalues>
+          <attvalue for="2" value="47" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Ciudad de México.Gustavo A" target="SUB::Níquel (compuestos)" id="158" weight="2562.4671665699657">
+        <attvalues>
+          <attvalue for="2" value="110" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Ciudad de México.Gustavo A" target="SUB::Arsénico (compuestos)" id="159" weight="0.537262302081">
+        <attvalues>
+          <attvalue for="2" value="48" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Ciudad de México.Gustavo A" target="SUB::Cadmio (compuestos)" id="160" weight="401.8686013674001">
+        <attvalues>
+          <attvalue for="2" value="54" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Ciudad de México.Gustavo A" target="SUB::Cromo (compuestos)" id="161" weight="20763.564659174426">
+        <attvalues>
+          <attvalue for="2" value="99" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Ciudad de México.Gustavo A" target="SUB::Mercurio (compuestos)" id="162" weight="15.097879171708003">
+        <attvalues>
+          <attvalue for="2" value="99" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Ciudad de México.Gustavo A" target="SUB::Plomo (compuestos)" id="163" weight="23091.37516852936">
+        <attvalues>
+          <attvalue for="2" value="116" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Ciudad de México.Gustavo A" target="SUB::Bióxido de carbono" id="164" weight="1487457121.3462558">
+        <attvalues>
+          <attvalue for="2" value="212" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Ciudad de México.Gustavo A" target="SUB::Cadmio (Compuestos solubles)" id="165" weight="162.0019">
+        <attvalues>
+          <attvalue for="2" value="28" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Ciudad de México.Gustavo A" target="SUB::Epiclorhidrina" id="166" weight="35191.91796">
+        <attvalues>
+          <attvalue for="2" value="12" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Ciudad de México.Gustavo A" target="SUB::Bióxido de nitrógeno" id="167" weight="1845.38">
+        <attvalues>
+          <attvalue for="2" value="4" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Ciudad de México.Gustavo A" target="SUB::Mercurio (polvos, respirables, vapores o humos)" id="168" weight="1241.4114634026562">
+        <attvalues>
+          <attvalue for="2" value="33" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Ciudad de México.Gustavo A" target="SUB::Metano" id="169" weight="57000032.21219999">
+        <attvalues>
+          <attvalue for="2" value="8" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Ciudad de México.Gustavo A" target="SUB::Tolueno" id="170" weight="769479.827">
+        <attvalues>
+          <attvalue for="2" value="9" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Ciudad de México.Gustavo A" target="SUB::Dibutilftalato" id="171" weight="40783.640999999996">
+        <attvalues>
+          <attvalue for="2" value="12" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Ciudad de México.Gustavo A" target="SUB::Estireno (fenil etileno)" id="172" weight="12142.775">
+        <attvalues>
+          <attvalue for="2" value="9" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Ciudad de México.Gustavo A" target="SUB::Oxido nitroso" id="173" weight="658454.5">
+        <attvalues>
+          <attvalue for="2" value="7" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Ciudad de México.Gustavo A" target="SUB::Cloruro de metileno" id="174" weight="11733.359999999999">
+        <attvalues>
+          <attvalue for="2" value="5" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Ciudad de México.Gustavo A" target="SUB::Arsénico (Compuestos solubles)" id="175" weight="8.0">
+        <attvalues>
+          <attvalue for="2" value="2" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Ciudad de México.Gustavo A" target="SUB::Piridina" id="176" weight="2600.0">
+        <attvalues>
+          <attvalue for="2" value="4" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Ciudad de México.Gustavo A" target="SUB::Bifenilos policlorados" id="177" weight="2018.0">
+        <attvalues>
+          <attvalue for="2" value="2" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Ciudad de México.Gustavo A" target="SUB::Formaldehido" id="178" weight="13525.728700000001">
+        <attvalues>
+          <attvalue for="2" value="14" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Ciudad de México.Gustavo A" target="SUB::Cloroformo" id="179" weight="387.72">
+        <attvalues>
+          <attvalue for="2" value="2" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Ciudad de México.Gustavo A" target="SUB::Fenol" id="180" weight="29910.722999999998">
+        <attvalues>
+          <attvalue for="2" value="9" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Ciudad de México.Gustavo A" target="SUB::Plomo (polvos respirables, humos o vapores)" id="181" weight="251.374395">
+        <attvalues>
+          <attvalue for="2" value="3" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Ciudad de México.Gustavo A" target="SUB::Nitrato de plata" id="182" weight="647.47">
+        <attvalues>
+          <attvalue for="2" value="1" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Ciudad de México.Gustavo A" target="SUB::Ácido (4-cloro-2-metilfenoxi) acético" id="183" weight="808.62">
+        <attvalues>
+          <attvalue for="2" value="1" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Ciudad de México.Gustavo A" target="SUB::2-Etoxietanol (Termonoetilico de etilenglicol)" id="184" weight="270.0">
+        <attvalues>
+          <attvalue for="2" value="2" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Ciudad de México.Xochimilco" target="SUB::Cromo (Compuestos solubles)" id="185" weight="99.924532">
+        <attvalues>
+          <attvalue for="2" value="17" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Ciudad de México.Xochimilco" target="SUB::Mercurio (Compuestos solubles)" id="186" weight="0.112454575">
+        <attvalues>
+          <attvalue for="2" value="2" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Ciudad de México.Xochimilco" target="SUB::Níquel (Compuestos solubles)" id="187" weight="117.04758374999999">
+        <attvalues>
+          <attvalue for="2" value="21" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Ciudad de México.Xochimilco" target="SUB::Plomo (Compuestos solubles)" id="188" weight="118.97361374999998">
+        <attvalues>
+          <attvalue for="2" value="24" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Ciudad de México.Xochimilco" target="SUB::Cianuro inorgánico/orgánico" id="189" weight="66.3423881792">
+        <attvalues>
+          <attvalue for="2" value="45" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Ciudad de México.Xochimilco" target="SUB::Arsénico (polvos, respirables, vapores o humos)" id="190" weight="5.252706053000001">
+        <attvalues>
+          <attvalue for="2" value="25" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Ciudad de México.Xochimilco" target="SUB::Cadmio (polvos, respirables, vapores o humos)" id="191" weight="216.45498256">
+        <attvalues>
+          <attvalue for="2" value="19" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Ciudad de México.Xochimilco" target="SUB::Arsénico (compuestos)" id="192" weight="1.3724798158400002">
+        <attvalues>
+          <attvalue for="2" value="24" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Ciudad de México.Xochimilco" target="SUB::Cadmio (compuestos)" id="193" weight="17.161473978">
+        <attvalues>
+          <attvalue for="2" value="19" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Ciudad de México.Xochimilco" target="SUB::Cromo (compuestos)" id="194" weight="31.685975776000006">
+        <attvalues>
+          <attvalue for="2" value="31" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Ciudad de México.Xochimilco" target="SUB::Mercurio (compuestos)" id="195" weight="1.1049440254799998">
+        <attvalues>
+          <attvalue for="2" value="33" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Ciudad de México.Xochimilco" target="SUB::Níquel (compuestos)" id="196" weight="254.54931077959998">
+        <attvalues>
+          <attvalue for="2" value="34" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Ciudad de México.Xochimilco" target="SUB::Plomo (compuestos)" id="197" weight="7915.550441982799">
+        <attvalues>
+          <attvalue for="2" value="37" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Ciudad de México.Xochimilco" target="SUB::Fenol" id="198" weight="1.9520246399999999">
+        <attvalues>
+          <attvalue for="2" value="3" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Ciudad de México.Xochimilco" target="SUB::Bióxido de carbono" id="199" weight="1071802688.4208001">
+        <attvalues>
+          <attvalue for="2" value="69" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Ciudad de México.Xochimilco" target="SUB::Bióxido de nitrógeno" id="200" weight="47331.3">
+        <attvalues>
+          <attvalue for="2" value="6" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Ciudad de México.Xochimilco" target="SUB::Tolueno diisocianato" id="201" weight="150.0">
+        <attvalues>
+          <attvalue for="2" value="1" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Ciudad de México.Xochimilco" target="SUB::Piridina" id="202" weight="638.5300000000001">
+        <attvalues>
+          <attvalue for="2" value="5" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Ciudad de México.Xochimilco" target="SUB::Metano" id="203" weight="66012913.981">
+        <attvalues>
+          <attvalue for="2" value="5" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Ciudad de México.Xochimilco" target="SUB::Benceno" id="204" weight="251167.0">
+        <attvalues>
+          <attvalue for="2" value="3" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Ciudad de México.Xochimilco" target="SUB::Clorobenceno (monoclorobenceno)" id="205" weight="196154.0">
+        <attvalues>
+          <attvalue for="2" value="1" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Ciudad de México.Xochimilco" target="SUB::Estireno (fenil etileno)" id="206" weight="189827.0">
+        <attvalues>
+          <attvalue for="2" value="1" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Ciudad de México.Xochimilco" target="SUB::Tolueno" id="207" weight="238672.0">
+        <attvalues>
+          <attvalue for="2" value="3" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Ciudad de México.Xochimilco" target="SUB::Xileno (mezcla de isómeros)" id="208" weight="163089.0">
+        <attvalues>
+          <attvalue for="2" value="2" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Ciudad de México.Xochimilco" target="SUB::Mercurio (polvos, respirables, vapores o humos)" id="209" weight="23.7381478">
+        <attvalues>
+          <attvalue for="2" value="13" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Ciudad de México.Xochimilco" target="SUB::Cadmio (Compuestos solubles)" id="210" weight="12.690200000000003">
+        <attvalues>
+          <attvalue for="2" value="6" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Ciudad de México.Xochimilco" target="SUB::Arsénico (Compuestos solubles)" id="211" weight="1.5154">
+        <attvalues>
+          <attvalue for="2" value="1" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Ciudad de México.Xochimilco" target="SUB::Bifenilos policlorados" id="212" weight="200.0">
+        <attvalues>
+          <attvalue for="2" value="1" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Ciudad de México.Xochimilco" target="SUB::Cloroformo" id="213" weight="280.7">
+        <attvalues>
+          <attvalue for="2" value="3" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Ciudad de México.Xochimilco" target="SUB::Asbesto y sus formas (En forma de polvo, fibras o productos desmenuzables con la presión de la mano)" id="214" weight="118.116">
+        <attvalues>
+          <attvalue for="2" value="1" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Ciudad de México.Cuauhtémoc" target="SUB::Cromo (Compuestos solubles)" id="215" weight="47.182058760000004">
+        <attvalues>
+          <attvalue for="2" value="20" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Ciudad de México.Cuauhtémoc" target="SUB::Mercurio (Compuestos solubles)" id="216" weight="140.06413623999998">
+        <attvalues>
+          <attvalue for="2" value="3" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Ciudad de México.Cuauhtémoc" target="SUB::Níquel (Compuestos solubles)" id="217" weight="152.52215460000002">
+        <attvalues>
+          <attvalue for="2" value="24" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Ciudad de México.Cuauhtémoc" target="SUB::Plomo (Compuestos solubles)" id="218" weight="132.35267800999998">
+        <attvalues>
+          <attvalue for="2" value="21" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Ciudad de México.Cuauhtémoc" target="SUB::Cianuro inorgánico/orgánico" id="219" weight="504.46005062933006">
+        <attvalues>
+          <attvalue for="2" value="31" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Ciudad de México.Cuauhtémoc" target="SUB::Cadmio (polvos, respirables, vapores o humos)" id="220" weight="268.61286805130004">
+        <attvalues>
+          <attvalue for="2" value="24" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Ciudad de México.Cuauhtémoc" target="SUB::Arsénico (compuestos)" id="221" weight="0.373981068806">
+        <attvalues>
+          <attvalue for="2" value="16" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Ciudad de México.Cuauhtémoc" target="SUB::Cadmio (compuestos)" id="222" weight="871.8001125558001">
+        <attvalues>
+          <attvalue for="2" value="14" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Ciudad de México.Cuauhtémoc" target="SUB::Mercurio (compuestos)" id="223" weight="0.45405375489200006">
+        <attvalues>
+          <attvalue for="2" value="29" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Ciudad de México.Cuauhtémoc" target="SUB::Níquel (compuestos)" id="224" weight="38.052047383470004">
+        <attvalues>
+          <attvalue for="2" value="29" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Ciudad de México.Cuauhtémoc" target="SUB::Plomo (compuestos)" id="225" weight="61.27613209504">
+        <attvalues>
+          <attvalue for="2" value="28" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Ciudad de México.Cuauhtémoc" target="SUB::Cromo (compuestos)" id="226" weight="12.3521486196">
+        <attvalues>
+          <attvalue for="2" value="26" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Ciudad de México.Cuauhtémoc" target="SUB::Cadmio (Compuestos solubles)" id="227" weight="69.78020000000001">
+        <attvalues>
+          <attvalue for="2" value="17" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Ciudad de México.Cuauhtémoc" target="SUB::Tolueno" id="228" weight="4678.791">
+        <attvalues>
+          <attvalue for="2" value="10" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Ciudad de México.Cuauhtémoc" target="SUB::Arsénico (polvos, respirables, vapores o humos)" id="229" weight="0.14554779865999998">
+        <attvalues>
+          <attvalue for="2" value="15" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Ciudad de México.Cuauhtémoc" target="SUB::Bióxido de carbono" id="230" weight="314385884.47717977">
+        <attvalues>
+          <attvalue for="2" value="56" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Ciudad de México.Cuauhtémoc" target="SUB::Bióxido de nitrógeno" id="231" weight="5032896.0">
+        <attvalues>
+          <attvalue for="2" value="2" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Ciudad de México.Cuauhtémoc" target="SUB::Formaldehido" id="232" weight="13879.05">
+        <attvalues>
+          <attvalue for="2" value="24" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Ciudad de México.Cuauhtémoc" target="SUB::Cloruro de metileno" id="233" weight="11200.2">
+        <attvalues>
+          <attvalue for="2" value="6" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Ciudad de México.Cuauhtémoc" target="SUB::Metano" id="234" weight="2213702.5822">
+        <attvalues>
+          <attvalue for="2" value="5" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Ciudad de México.Cuauhtémoc" target="SUB::Xileno (mezcla de isómeros)" id="235" weight="34112.1">
+        <attvalues>
+          <attvalue for="2" value="4" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Ciudad de México.Cuauhtémoc" target="SUB::Benceno" id="236" weight="10744.970000000001">
+        <attvalues>
+          <attvalue for="2" value="4" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Ciudad de México.Cuauhtémoc" target="SUB::Mercurio (polvos, respirables, vapores o humos)" id="237" weight="528.31620408">
+        <attvalues>
+          <attvalue for="2" value="27" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Ciudad de México.Cuauhtémoc" target="SUB::Arsénico (Compuestos solubles)" id="238" weight="1.5">
+        <attvalues>
+          <attvalue for="2" value="1" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Ciudad de México.Cuauhtémoc" target="SUB::Fenol" id="239" weight="24.96">
+        <attvalues>
+          <attvalue for="2" value="2" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Ciudad de México.Cuauhtémoc" target="SUB::Cloroformo" id="240" weight="14.84">
+        <attvalues>
+          <attvalue for="2" value="2" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Ciudad de México.Cuauhtémoc" target="SUB::Níquel (polvos respirables, humos o vapores)" id="241" weight="25.904">
+        <attvalues>
+          <attvalue for="2" value="4" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Ciudad de México.Cuauhtémoc" target="SUB::2-Etoxietanol (Termonoetilico de etilenglicol)" id="242" weight="1618.32">
+        <attvalues>
+          <attvalue for="2" value="8" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Ciudad de México.Azcapotzalco" target="SUB::Cromo (Compuestos solubles)" id="243" weight="3237.029544148055">
+        <attvalues>
+          <attvalue for="2" value="88" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Ciudad de México.Azcapotzalco" target="SUB::Mercurio (Compuestos solubles)" id="244" weight="0.0117035486">
+        <attvalues>
+          <attvalue for="2" value="6" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Ciudad de México.Azcapotzalco" target="SUB::Níquel (Compuestos solubles)" id="245" weight="6897.731764544004">
+        <attvalues>
+          <attvalue for="2" value="132" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Ciudad de México.Azcapotzalco" target="SUB::Plomo (Compuestos solubles)" id="246" weight="51820.1420938244">
+        <attvalues>
+          <attvalue for="2" value="100" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Ciudad de México.Azcapotzalco" target="SUB::Cianuro inorgánico/orgánico" id="247" weight="18100.404886744192">
+        <attvalues>
+          <attvalue for="2" value="144" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Ciudad de México.Azcapotzalco" target="SUB::Arsénico (polvos, respirables, vapores o humos)" id="248" weight="5.194487470447001">
+        <attvalues>
+          <attvalue for="2" value="79" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Ciudad de México.Azcapotzalco" target="SUB::Cadmio (polvos, respirables, vapores o humos)" id="249" weight="31.149177950799988">
+        <attvalues>
+          <attvalue for="2" value="65" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Ciudad de México.Azcapotzalco" target="SUB::Mercurio (polvos, respirables, vapores o humos)" id="250" weight="534.09593759">
+        <attvalues>
+          <attvalue for="2" value="50" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Ciudad de México.Azcapotzalco" target="SUB::Plomo (compuestos)" id="251" weight="181187.8325753687">
+        <attvalues>
+          <attvalue for="2" value="151" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Ciudad de México.Azcapotzalco" target="SUB::Níquel (compuestos)" id="252" weight="95391.77622691444">
+        <attvalues>
+          <attvalue for="2" value="149" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Ciudad de México.Azcapotzalco" target="SUB::Mercurio (compuestos)" id="253" weight="1730.8883372863368">
+        <attvalues>
+          <attvalue for="2" value="121" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Ciudad de México.Azcapotzalco" target="SUB::Cromo (compuestos)" id="254" weight="129516.72039509242">
+        <attvalues>
+          <attvalue for="2" value="136" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Ciudad de México.Azcapotzalco" target="SUB::Cadmio (compuestos)" id="255" weight="3826.596381351181">
+        <attvalues>
+          <attvalue for="2" value="64" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Ciudad de México.Azcapotzalco" target="SUB::Arsénico (compuestos)" id="256" weight="1178313.2256902508">
+        <attvalues>
+          <attvalue for="2" value="82" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Ciudad de México.Azcapotzalco" target="SUB::Bióxido de carbono" id="257" weight="3868287872.472199">
+        <attvalues>
+          <attvalue for="2" value="351" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Ciudad de México.Azcapotzalco" target="SUB::Bióxido de nitrógeno" id="258" weight="434368.2681">
+        <attvalues>
+          <attvalue for="2" value="26" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Ciudad de México.Azcapotzalco" target="SUB::Dioxido de cloro" id="259" weight="3213900.0">
+        <attvalues>
+          <attvalue for="2" value="1" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Ciudad de México.Azcapotzalco" target="SUB::Epiclorhidrina" id="260" weight="5.456054">
+        <attvalues>
+          <attvalue for="2" value="5" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Ciudad de México.Azcapotzalco" target="SUB::Formaldehido" id="261" weight="1248.0620076">
+        <attvalues>
+          <attvalue for="2" value="8" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Ciudad de México.Azcapotzalco" target="SUB::Cloruro de metileno" id="262" weight="19.4536098">
+        <attvalues>
+          <attvalue for="2" value="11" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Ciudad de México.Azcapotzalco" target="SUB::Clorodifluorometano (HCFC-22)" id="263" weight="20060.0">
+        <attvalues>
+          <attvalue for="2" value="2" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Ciudad de México.Azcapotzalco" target="SUB::Xileno (mezcla de isómeros)" id="264" weight="134379.47999999998">
+        <attvalues>
+          <attvalue for="2" value="16" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Ciudad de México.Azcapotzalco" target="SUB::Plomo (polvos respirables, humos o vapores)" id="265" weight="2948.0101276015885">
+        <attvalues>
+          <attvalue for="2" value="19" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Ciudad de México.Azcapotzalco" target="SUB::Tolueno" id="266" weight="16710.303">
+        <attvalues>
+          <attvalue for="2" value="9" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Ciudad de México.Azcapotzalco" target="SUB::Níquel (polvos respirables, humos o vapores)" id="267" weight="192.7646">
+        <attvalues>
+          <attvalue for="2" value="3" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Ciudad de México.Azcapotzalco" target="SUB::Cloroformo" id="268" weight="383.60481000000004">
+        <attvalues>
+          <attvalue for="2" value="6" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Ciudad de México.Azcapotzalco" target="SUB::Metano" id="269" weight="1873.6835">
+        <attvalues>
+          <attvalue for="2" value="14" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Ciudad de México.Azcapotzalco" target="SUB::Arsénico (Compuestos solubles)" id="270" weight="143546.18962499994">
+        <attvalues>
+          <attvalue for="2" value="15" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Ciudad de México.Azcapotzalco" target="SUB::Cadmio (Compuestos solubles)" id="271" weight="35.4338">
+        <attvalues>
+          <attvalue for="2" value="18" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Ciudad de México.Azcapotzalco" target="SUB::Piridina" id="272" weight="17.401276199999998">
+        <attvalues>
+          <attvalue for="2" value="4" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Ciudad de México.Azcapotzalco" target="SUB::Hexaclorobenceno" id="273" weight="0.10708179999999999">
+        <attvalues>
+          <attvalue for="2" value="5" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Ciudad de México.Azcapotzalco" target="SUB::2,4-Dinitrotolueno" id="274" weight="0.0215931">
+        <attvalues>
+          <attvalue for="2" value="4" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Ciudad de México.Azcapotzalco" target="SUB::Tetracloruro de carbono" id="275" weight="0.8181229">
+        <attvalues>
+          <attvalue for="2" value="4" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Ciudad de México.Azcapotzalco" target="SUB::Clordano" id="276" weight="0.0151736">
+        <attvalues>
+          <attvalue for="2" value="4" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Ciudad de México.Azcapotzalco" target="SUB::Lindano (HCH)" id="277" weight="0.02332982">
+        <attvalues>
+          <attvalue for="2" value="4" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Ciudad de México.Azcapotzalco" target="SUB::2,3,4,6-Tetraclorofenol" id="278" weight="0.00541624">
+        <attvalues>
+          <attvalue for="2" value="4" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Ciudad de México.Azcapotzalco" target="SUB::Hexacloroetano" id="279" weight="0.037064599999999996">
+        <attvalues>
+          <attvalue for="2" value="4" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Ciudad de México.Azcapotzalco" target="SUB::Benceno" id="280" weight="0.0012762">
+        <attvalues>
+          <attvalue for="2" value="3" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Ciudad de México.Azcapotzalco" target="SUB::1,1,1-Tricloroetano" id="281" weight="0.00355786">
+        <attvalues>
+          <attvalue for="2" value="4" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Ciudad de México.Azcapotzalco" target="SUB::Endrin" id="282" weight="0.023578799999999997">
+        <attvalues>
+          <attvalue for="2" value="4" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Ciudad de México.Azcapotzalco" target="SUB::Metoxicloro" id="283" weight="0.0197609">
+        <attvalues>
+          <attvalue for="2" value="4" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Ciudad de México.Azcapotzalco" target="SUB::Cloruro de vinilo" id="284" weight="0.01472594">
+        <attvalues>
+          <attvalue for="2" value="4" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Ciudad de México.Azcapotzalco" target="SUB::Heptacloro" id="285" weight="0.013443799999999999">
+        <attvalues>
+          <attvalue for="2" value="4" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Ciudad de México.Azcapotzalco" target="SUB::1,1,2-Tricloroetano" id="286" weight="0.00355786">
+        <attvalues>
+          <attvalue for="2" value="4" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Ciudad de México.Azcapotzalco" target="SUB::Tricloroetileno" id="287" weight="0.00218576">
+        <attvalues>
+          <attvalue for="2" value="4" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Ciudad de México.Azcapotzalco" target="SUB::1,1,2,2-Tetracloroetano" id="288" weight="0.00394144">
+        <attvalues>
+          <attvalue for="2" value="4" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Ciudad de México.Azcapotzalco" target="SUB::Toxafeno" id="289" weight="0.14269759999999998">
+        <attvalues>
+          <attvalue for="2" value="4" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Ciudad de México.Azcapotzalco" target="SUB::Hexacloro-1,3-Butadieno" id="290" weight="0.0438338">
+        <attvalues>
+          <attvalue for="2" value="4" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Ciudad de México.Azcapotzalco" target="SUB::Pentaclorofenol" id="291" weight="0.01618864">
+        <attvalues>
+          <attvalue for="2" value="4" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Ciudad de México.Azcapotzalco" target="SUB::2,4,6-Triclorofenol" id="292" weight="0.00794958">
+        <attvalues>
+          <attvalue for="2" value="4" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Ciudad de México.Azcapotzalco" target="SUB::1,2-Diclorobenceno" id="293" weight="0.023878960000000005">
+        <attvalues>
+          <attvalue for="2" value="4" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Ciudad de México.Azcapotzalco" target="SUB::2,4,5-Triclorofenol" id="294" weight="0.00794958">
+        <attvalues>
+          <attvalue for="2" value="4" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Ciudad de México.Azcapotzalco" target="SUB::1,4-Diclorobenceno" id="295" weight="0.0189381">
+        <attvalues>
+          <attvalue for="2" value="4" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Ciudad de México.Azcapotzalco" target="SUB::1,2,-Dicloroetano" id="296" weight="0.0032832399999999998">
+        <attvalues>
+          <attvalue for="2" value="4" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Ciudad de México.Azcapotzalco" target="SUB::Acrilonitrilo" id="297" weight="0.0101495">
+        <attvalues>
+          <attvalue for="2" value="4" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Ciudad de México.Azcapotzalco" target="SUB::Clorobenceno (monoclorobenceno)" id="298" weight="0.00218576">
+        <attvalues>
+          <attvalue for="2" value="4" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Ciudad de México.Azcapotzalco" target="SUB::Fenol" id="299" weight="20989.01412084">
+        <attvalues>
+          <attvalue for="2" value="9" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Ciudad de México.Azcapotzalco" target="SUB::Asbesto y sus formas (En forma de polvo, fibras o productos desmenuzables con la presión de la mano)" id="300" weight="49335.7">
+        <attvalues>
+          <attvalue for="2" value="9" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Ciudad de México.Azcapotzalco" target="SUB::Tolueno diisocianato" id="301" weight="0.00313908">
+        <attvalues>
+          <attvalue for="2" value="3" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Ciudad de México.Azcapotzalco" target="SUB::Hidrofluorocarbonos" id="302" weight="540.0">
+        <attvalues>
+          <attvalue for="2" value="3" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Ciudad de México.Azcapotzalco" target="SUB::Acetaldehido" id="303" weight="0.06">
+        <attvalues>
+          <attvalue for="2" value="2" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Ciudad de México.Azcapotzalco" target="SUB::Bifenilos policlorados" id="304" weight="1.394121">
+        <attvalues>
+          <attvalue for="2" value="1" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Ciudad de México.Azcapotzalco" target="SUB::2-Etoxietanol (Termonoetilico de etilenglicol)" id="305" weight="13416.966000000002">
+        <attvalues>
+          <attvalue for="2" value="13" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Ciudad de México.Tlalpan" target="SUB::Cromo (Compuestos solubles)" id="306" weight="191.8372668800001">
+        <attvalues>
+          <attvalue for="2" value="27" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Ciudad de México.Tlalpan" target="SUB::Mercurio (Compuestos solubles)" id="307" weight="1.0044089325499999">
+        <attvalues>
+          <attvalue for="2" value="3" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Ciudad de México.Tlalpan" target="SUB::Níquel (Compuestos solubles)" id="308" weight="1112.8286454600002">
+        <attvalues>
+          <attvalue for="2" value="31" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Ciudad de México.Tlalpan" target="SUB::Plomo (Compuestos solubles)" id="309" weight="964.4934169200004">
+        <attvalues>
+          <attvalue for="2" value="38" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Ciudad de México.Tlalpan" target="SUB::Cianuro inorgánico/orgánico" id="310" weight="1.3419486522519999">
+        <attvalues>
+          <attvalue for="2" value="29" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Ciudad de México.Tlalpan" target="SUB::Arsénico (polvos, respirables, vapores o humos)" id="311" weight="2.1527901623999997">
+        <attvalues>
+          <attvalue for="2" value="16" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Ciudad de México.Tlalpan" target="SUB::Cadmio (polvos, respirables, vapores o humos)" id="312" weight="164.394603059">
+        <attvalues>
+          <attvalue for="2" value="22" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Ciudad de México.Tlalpan" target="SUB::Mercurio (compuestos)" id="313" weight="0.20050573736800004">
+        <attvalues>
+          <attvalue for="2" value="27" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Ciudad de México.Tlalpan" target="SUB::Cromo (compuestos)" id="314" weight="6.514624172544">
+        <attvalues>
+          <attvalue for="2" value="27" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Ciudad de México.Tlalpan" target="SUB::Níquel (compuestos)" id="315" weight="31.940967365248003">
+        <attvalues>
+          <attvalue for="2" value="28" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Ciudad de México.Tlalpan" target="SUB::Plomo (compuestos)" id="316" weight="274.974774261152">
+        <attvalues>
+          <attvalue for="2" value="34" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Ciudad de México.Tlalpan" target="SUB::Bióxido de carbono" id="317" weight="32235956.810799997">
+        <attvalues>
+          <attvalue for="2" value="50" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Ciudad de México.Tlalpan" target="SUB::Bióxido de nitrógeno" id="318" weight="831579.0">
+        <attvalues>
+          <attvalue for="2" value="3" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Ciudad de México.Tlalpan" target="SUB::Mercurio (polvos, respirables, vapores o humos)" id="319" weight="321.01907744000005">
+        <attvalues>
+          <attvalue for="2" value="26" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Ciudad de México.Tlalpan" target="SUB::Formaldehido" id="320" weight="11933.14">
+        <attvalues>
+          <attvalue for="2" value="44" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Ciudad de México.Tlalpan" target="SUB::Fenol" id="321" weight="164.0835">
+        <attvalues>
+          <attvalue for="2" value="5" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Ciudad de México.Tlalpan" target="SUB::Cloroformo" id="322" weight="169.16000000000003">
+        <attvalues>
+          <attvalue for="2" value="5" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Ciudad de México.Tlalpan" target="SUB::Dibutilftalato" id="323" weight="1829.9">
+        <attvalues>
+          <attvalue for="2" value="2" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Ciudad de México.Tlalpan" target="SUB::Tolueno diisocianato" id="324" weight="5739.16">
+        <attvalues>
+          <attvalue for="2" value="2" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Ciudad de México.Tlalpan" target="SUB::Tolueno" id="325" weight="35205.54">
+        <attvalues>
+          <attvalue for="2" value="2" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Ciudad de México.Tlalpan" target="SUB::Oxido nitroso" id="326" weight="22058000.0">
+        <attvalues>
+          <attvalue for="2" value="1" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Ciudad de México.Tlalpan" target="SUB::Metano" id="327" weight="9.118e-05">
+        <attvalues>
+          <attvalue for="2" value="2" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Ciudad de México.Tlalpan" target="SUB::Cadmio (compuestos)" id="328" weight="5.535718260944001">
+        <attvalues>
+          <attvalue for="2" value="17" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Ciudad de México.Tlalpan" target="SUB::Arsénico (compuestos)" id="329" weight="0.106383672832">
+        <attvalues>
+          <attvalue for="2" value="17" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Ciudad de México.Tlalpan" target="SUB::Cadmio (Compuestos solubles)" id="330" weight="123.42280000000004">
+        <attvalues>
+          <attvalue for="2" value="16" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Ciudad de México.Tlalpan" target="SUB::Arsénico (Compuestos solubles)" id="331" weight="3.462">
+        <attvalues>
+          <attvalue for="2" value="2" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Ciudad de México.Tlalpan" target="SUB::Plomo (polvos respirables, humos o vapores)" id="332" weight="432.94">
+        <attvalues>
+          <attvalue for="2" value="4" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Ciudad de México.Tlalpan" target="SUB::Xileno (mezcla de isómeros)" id="333" weight="1192.2">
+        <attvalues>
+          <attvalue for="2" value="1" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Ciudad de México.Tlalpan" target="SUB::Acrilamina" id="334" weight="4.0">
+        <attvalues>
+          <attvalue for="2" value="2" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Ciudad de México.Venustiano Carranza" target="SUB::Cromo (Compuestos solubles)" id="335" weight="4.21735088">
+        <attvalues>
+          <attvalue for="2" value="1" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Ciudad de México.Venustiano Carranza" target="SUB::Mercurio (Compuestos solubles)" id="336" weight="29.35397568">
+        <attvalues>
+          <attvalue for="2" value="3" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Ciudad de México.Venustiano Carranza" target="SUB::Níquel (Compuestos solubles)" id="337" weight="48.03430979200001">
+        <attvalues>
+          <attvalue for="2" value="10" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Ciudad de México.Venustiano Carranza" target="SUB::Plomo (Compuestos solubles)" id="338" weight="48.431101599999984">
+        <attvalues>
+          <attvalue for="2" value="7" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Ciudad de México.Venustiano Carranza" target="SUB::Cianuro inorgánico/orgánico" id="339" weight="8.342820452000002">
+        <attvalues>
+          <attvalue for="2" value="28" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Ciudad de México.Venustiano Carranza" target="SUB::Arsénico (polvos, respirables, vapores o humos)" id="340" weight="0.8027300127899998">
+        <attvalues>
+          <attvalue for="2" value="11" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Ciudad de México.Venustiano Carranza" target="SUB::Cadmio (polvos, respirables, vapores o humos)" id="341" weight="7818505.131215996">
+        <attvalues>
+          <attvalue for="2" value="14" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Ciudad de México.Venustiano Carranza" target="SUB::Arsénico (compuestos)" id="342" weight="0.37614134168000013">
+        <attvalues>
+          <attvalue for="2" value="12" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Ciudad de México.Venustiano Carranza" target="SUB::Cadmio (compuestos)" id="343" weight="29.489266639680004">
+        <attvalues>
+          <attvalue for="2" value="12" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Ciudad de México.Venustiano Carranza" target="SUB::Cromo (compuestos)" id="344" weight="5414.492946162199">
+        <attvalues>
+          <attvalue for="2" value="21" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Ciudad de México.Venustiano Carranza" target="SUB::Mercurio (compuestos)" id="345" weight="0.66568482898">
+        <attvalues>
+          <attvalue for="2" value="15" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Ciudad de México.Venustiano Carranza" target="SUB::Níquel (compuestos)" id="346" weight="8123.91968278568">
+        <attvalues>
+          <attvalue for="2" value="24" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Ciudad de México.Venustiano Carranza" target="SUB::Plomo (compuestos)" id="347" weight="17827.75337548304">
+        <attvalues>
+          <attvalue for="2" value="17" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Ciudad de México.Venustiano Carranza" target="SUB::Mercurio (polvos, respirables, vapores o humos)" id="348" weight="110.209390064">
+        <attvalues>
+          <attvalue for="2" value="13" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Ciudad de México.Venustiano Carranza" target="SUB::Bióxido de carbono" id="349" weight="22376842.803012498">
+        <attvalues>
+          <attvalue for="2" value="17" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Ciudad de México.Venustiano Carranza" target="SUB::Tolueno" id="350" weight="5681.54">
+        <attvalues>
+          <attvalue for="2" value="1" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Ciudad de México.Venustiano Carranza" target="SUB::Cloruro de metileno" id="351" weight="9462.78">
+        <attvalues>
+          <attvalue for="2" value="2" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Ciudad de México.Venustiano Carranza" target="SUB::Cadmio (Compuestos solubles)" id="352" weight="1.0116">
+        <attvalues>
+          <attvalue for="2" value="1" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Ciudad de México.Venustiano Carranza" target="SUB::2-Etoxietanol (Termonoetilico de etilenglicol)" id="353" weight="830.0319999999999">
+        <attvalues>
+          <attvalue for="2" value="6" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Ciudad de México.Venustiano Carranza" target="SUB::Plomo (polvos respirables, humos o vapores)" id="354" weight="35.482392">
+        <attvalues>
+          <attvalue for="2" value="4" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Ciudad de México.Venustiano Carranza" target="SUB::Formaldehido" id="355" weight="2463.0">
+        <attvalues>
+          <attvalue for="2" value="1" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Ciudad de México.Iztacalco" target="SUB::Cromo (Compuestos solubles)" id="356" weight="38.9606292543">
+        <attvalues>
+          <attvalue for="2" value="18" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Ciudad de México.Iztacalco" target="SUB::Mercurio (Compuestos solubles)" id="357" weight="0.0156526269">
+        <attvalues>
+          <attvalue for="2" value="7" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Ciudad de México.Iztacalco" target="SUB::Níquel (Compuestos solubles)" id="358" weight="102.64222522099999">
+        <attvalues>
+          <attvalue for="2" value="22" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Ciudad de México.Iztacalco" target="SUB::Plomo (Compuestos solubles)" id="359" weight="78.9683770341">
+        <attvalues>
+          <attvalue for="2" value="18" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Ciudad de México.Iztacalco" target="SUB::Cianuro inorgánico/orgánico" id="360" weight="11.8190604416">
+        <attvalues>
+          <attvalue for="2" value="64" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Ciudad de México.Iztacalco" target="SUB::Arsénico (polvos, respirables, vapores o humos)" id="361" weight="0.5019417441999999">
+        <attvalues>
+          <attvalue for="2" value="51" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Ciudad de México.Iztacalco" target="SUB::Cadmio (polvos, respirables, vapores o humos)" id="362" weight="10.758465307260005">
+        <attvalues>
+          <attvalue for="2" value="41" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Ciudad de México.Iztacalco" target="SUB::Mercurio (compuestos)" id="363" weight="0.9948171309599998">
+        <attvalues>
+          <attvalue for="2" value="57" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Ciudad de México.Iztacalco" target="SUB::Mercurio (polvos, respirables, vapores o humos)" id="364" weight="4.8720447700000005">
+        <attvalues>
+          <attvalue for="2" value="11" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Ciudad de México.Iztacalco" target="SUB::Plomo (compuestos)" id="365" weight="186.04352143756003">
+        <attvalues>
+          <attvalue for="2" value="50" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Ciudad de México.Iztacalco" target="SUB::Níquel (compuestos)" id="366" weight="107.91824392552">
+        <attvalues>
+          <attvalue for="2" value="49" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Ciudad de México.Iztacalco" target="SUB::Cromo (compuestos)" id="367" weight="154.88857833459997">
+        <attvalues>
+          <attvalue for="2" value="51" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Ciudad de México.Iztacalco" target="SUB::Bióxido de carbono" id="368" weight="138964790.80529642">
+        <attvalues>
+          <attvalue for="2" value="76" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Ciudad de México.Iztacalco" target="SUB::Oxido nitroso" id="369" weight="325504.0">
+        <attvalues>
+          <attvalue for="2" value="5" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Ciudad de México.Iztacalco" target="SUB::Metano" id="370" weight="1618.2530000000002">
+        <attvalues>
+          <attvalue for="2" value="5" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Ciudad de México.Iztacalco" target="SUB::Bióxido de nitrógeno" id="371" weight="835.23">
+        <attvalues>
+          <attvalue for="2" value="3" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Ciudad de México.Iztacalco" target="SUB::Acroleina" id="372" weight="21.243659000000005">
+        <attvalues>
+          <attvalue for="2" value="7" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Ciudad de México.Iztacalco" target="SUB::Benceno" id="373" weight="875.1989239999999">
+        <attvalues>
+          <attvalue for="2" value="8" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Ciudad de México.Iztacalco" target="SUB::Formaldehido" id="374" weight="9.4464828">
+        <attvalues>
+          <attvalue for="2" value="8" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Ciudad de México.Iztacalco" target="SUB::Acetaldehido" id="375" weight="176.85285100000002">
+        <attvalues>
+          <attvalue for="2" value="8" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Ciudad de México.Iztacalco" target="SUB::Estireno (fenil etileno)" id="376" weight="77140.0">
+        <attvalues>
+          <attvalue for="2" value="5" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Ciudad de México.Iztacalco" target="SUB::Tolueno" id="377" weight="76932.90400000001">
+        <attvalues>
+          <attvalue for="2" value="13" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Ciudad de México.Iztacalco" target="SUB::Xileno (mezcla de isómeros)" id="378" weight="81687.52560000001">
+        <attvalues>
+          <attvalue for="2" value="16" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Ciudad de México.Iztacalco" target="SUB::Cadmio (compuestos)" id="379" weight="30.453909709376">
+        <attvalues>
+          <attvalue for="2" value="18" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Ciudad de México.Iztacalco" target="SUB::Acido sulfhídrico" id="380" weight="604.8">
+        <attvalues>
+          <attvalue for="2" value="2" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Ciudad de México.Iztacalco" target="SUB::Arsénico (compuestos)" id="381" weight="5.08744721728">
+        <attvalues>
+          <attvalue for="2" value="18" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Ciudad de México.Iztacalco" target="SUB::Cadmio (Compuestos solubles)" id="382" weight="6.980199999999999">
+        <attvalues>
+          <attvalue for="2" value="3" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Ciudad de México.Iztacalco" target="SUB::Tricloroetileno" id="383" weight="440.0">
+        <attvalues>
+          <attvalue for="2" value="2" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Ciudad de México.Miguel Hidalgo" target="SUB::Cianuro inorgánico/orgánico" id="384" weight="694.6379418973802">
+        <attvalues>
+          <attvalue for="2" value="66" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Ciudad de México.Miguel Hidalgo" target="SUB::Níquel (compuestos)" id="385" weight="2470.85190646232">
+        <attvalues>
+          <attvalue for="2" value="71" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Ciudad de México.Miguel Hidalgo" target="SUB::Fenol" id="386" weight="158133.49216206704">
+        <attvalues>
+          <attvalue for="2" value="17" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Ciudad de México.Miguel Hidalgo" target="SUB::Anilina" id="387" weight="0.37949999999999995">
+        <attvalues>
+          <attvalue for="2" value="2" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Ciudad de México.Miguel Hidalgo" target="SUB::Cloroformo" id="388" weight="9619.29687">
+        <attvalues>
+          <attvalue for="2" value="18" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Ciudad de México.Miguel Hidalgo" target="SUB::Formaldehido" id="389" weight="20002.600403599994">
+        <attvalues>
+          <attvalue for="2" value="51" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Ciudad de México.Miguel Hidalgo" target="SUB::Tolueno" id="390" weight="5609.1">
+        <attvalues>
+          <attvalue for="2" value="2" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Ciudad de México.Miguel Hidalgo" target="SUB::Cromo (Compuestos solubles)" id="391" weight="15731.2735763">
+        <attvalues>
+          <attvalue for="2" value="44" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Ciudad de México.Miguel Hidalgo" target="SUB::Níquel (Compuestos solubles)" id="392" weight="12285.151363499997">
+        <attvalues>
+          <attvalue for="2" value="64" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Ciudad de México.Miguel Hidalgo" target="SUB::Plomo (Compuestos solubles)" id="393" weight="42423.008563200005">
+        <attvalues>
+          <attvalue for="2" value="72" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Ciudad de México.Miguel Hidalgo" target="SUB::Plomo (compuestos)" id="394" weight="39401.78294246244">
+        <attvalues>
+          <attvalue for="2" value="90" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Ciudad de México.Miguel Hidalgo" target="SUB::Mercurio (compuestos)" id="395" weight="75462.83700617001">
+        <attvalues>
+          <attvalue for="2" value="65" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Ciudad de México.Miguel Hidalgo" target="SUB::Arsénico (polvos, respirables, vapores o humos)" id="396" weight="26.333371704813903">
+        <attvalues>
+          <attvalue for="2" value="35" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Ciudad de México.Miguel Hidalgo" target="SUB::Cromo (compuestos)" id="397" weight="11132.76246962054">
+        <attvalues>
+          <attvalue for="2" value="67" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Ciudad de México.Miguel Hidalgo" target="SUB::Cadmio (polvos, respirables, vapores o humos)" id="398" weight="360.163801619">
+        <attvalues>
+          <attvalue for="2" value="33" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Ciudad de México.Miguel Hidalgo" target="SUB::Mercurio (polvos, respirables, vapores o humos)" id="399" weight="2472.529741370701">
+        <attvalues>
+          <attvalue for="2" value="38" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Ciudad de México.Miguel Hidalgo" target="SUB::Bióxido de carbono" id="400" weight="4851853441.110647">
+        <attvalues>
+          <attvalue for="2" value="187" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Ciudad de México.Miguel Hidalgo" target="SUB::Bióxido de nitrógeno" id="401" weight="4131037.5">
+        <attvalues>
+          <attvalue for="2" value="3" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Ciudad de México.Miguel Hidalgo" target="SUB::Metano" id="402" weight="1392884.28">
+        <attvalues>
+          <attvalue for="2" value="4" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Ciudad de México.Miguel Hidalgo" target="SUB::Benceno" id="403" weight="252.852143173">
+        <attvalues>
+          <attvalue for="2" value="7" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Ciudad de México.Miguel Hidalgo" target="SUB::Acetaldehido" id="404" weight="207.98624299999997">
+        <attvalues>
+          <attvalue for="2" value="6" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Ciudad de México.Miguel Hidalgo" target="SUB::Acroleina" id="405" weight="25.340926699999997">
+        <attvalues>
+          <attvalue for="2" value="6" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Ciudad de México.Miguel Hidalgo" target="SUB::Dioxinas" id="406" weight="2.7937900000000003e-07">
+        <attvalues>
+          <attvalue for="2" value="12" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Ciudad de México.Miguel Hidalgo" target="SUB::Furanos" id="407" weight="9.19877e-07">
+        <attvalues>
+          <attvalue for="2" value="12" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Ciudad de México.Miguel Hidalgo" target="SUB::Butadieno" id="408" weight="1728.0">
+        <attvalues>
+          <attvalue for="2" value="1" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Ciudad de México.Miguel Hidalgo" target="SUB::Xileno (mezcla de isómeros)" id="409" weight="18009.0">
+        <attvalues>
+          <attvalue for="2" value="3" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Ciudad de México.Miguel Hidalgo" target="SUB::Níquel (polvos respirables, humos o vapores)" id="410" weight="29.72">
+        <attvalues>
+          <attvalue for="2" value="3" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Ciudad de México.Miguel Hidalgo" target="SUB::Arsénico (compuestos)" id="411" weight="4099.959263378249">
+        <attvalues>
+          <attvalue for="2" value="26" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Ciudad de México.Miguel Hidalgo" target="SUB::Cadmio (compuestos)" id="412" weight="1359.8747214736">
+        <attvalues>
+          <attvalue for="2" value="28" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Ciudad de México.Miguel Hidalgo" target="SUB::Cadmio (Compuestos solubles)" id="413" weight="754.8013">
+        <attvalues>
+          <attvalue for="2" value="25" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Ciudad de México.Miguel Hidalgo" target="SUB::Mercurio (Compuestos solubles)" id="414" weight="165.71340800000002">
+        <attvalues>
+          <attvalue for="2" value="11" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Ciudad de México.Miguel Hidalgo" target="SUB::Arsénico (Compuestos solubles)" id="415" weight="15.797322699999999">
+        <attvalues>
+          <attvalue for="2" value="10" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Ciudad de México.Miguel Hidalgo" target="SUB::Asbesto y sus formas (En forma de polvo, fibras o productos desmenuzables con la presión de la mano)" id="416" weight="33485.81">
+        <attvalues>
+          <attvalue for="2" value="15" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Ciudad de México.Miguel Hidalgo" target="SUB::Acrilamina" id="417" weight="52.827">
+        <attvalues>
+          <attvalue for="2" value="7" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Ciudad de México.Miguel Hidalgo" target="SUB::Cromo (polvos respirables, humos o vapores)" id="418" weight="1927.6034">
+        <attvalues>
+          <attvalue for="2" value="1" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Ciudad de México.Miguel Hidalgo" target="SUB::Tetracloruro de carbono" id="419" weight="1290.1175">
+        <attvalues>
+          <attvalue for="2" value="2" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Ciudad de México.Miguel Hidalgo" target="SUB::2-Etoxietanol (Termonoetilico de etilenglicol)" id="420" weight="72.0">
+        <attvalues>
+          <attvalue for="2" value="1" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Ciudad de México.Miguel Hidalgo" target="SUB::Piridina" id="421" weight="2.5688899999999997">
+        <attvalues>
+          <attvalue for="2" value="6" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Ciudad de México.Miguel Hidalgo" target="SUB::Dioxano" id="422" weight="0.927">
+        <attvalues>
+          <attvalue for="2" value="1" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Ciudad de México.Miguel Hidalgo" target="SUB::Tricloroetileno" id="423" weight="8e-05">
+        <attvalues>
+          <attvalue for="2" value="1" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Ciudad de México.Miguel Hidalgo" target="SUB::Lindano (HCH)" id="424" weight="236.0">
+        <attvalues>
+          <attvalue for="2" value="3" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Ciudad de México.Miguel Hidalgo" target="SUB::Acido sulfhídrico" id="425" weight="0.0002016">
+        <attvalues>
+          <attvalue for="2" value="1" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Ciudad de México.Miguel Hidalgo" target="SUB::Bifenilos policlorados" id="426" weight="1.0">
+        <attvalues>
+          <attvalue for="2" value="1" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Ciudad de México.Tláhuac" target="SUB::Mercurio (polvos, respirables, vapores o humos)" id="427" weight="0.021877">
+        <attvalues>
+          <attvalue for="2" value="1" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Ciudad de México.Tláhuac" target="SUB::Arsénico (polvos, respirables, vapores o humos)" id="428" weight="0.012633822000000001">
+        <attvalues>
+          <attvalue for="2" value="4" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Ciudad de México.Tláhuac" target="SUB::Cadmio (polvos, respirables, vapores o humos)" id="429" weight="1.09437015">
+        <attvalues>
+          <attvalue for="2" value="2" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Ciudad de México.Tláhuac" target="SUB::Mercurio (compuestos)" id="430" weight="0.008227549729600003">
+        <attvalues>
+          <attvalue for="2" value="10" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Ciudad de México.Tláhuac" target="SUB::Cianuro inorgánico/orgánico" id="431" weight="0.024039766823999997">
+        <attvalues>
+          <attvalue for="2" value="10" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Ciudad de México.Tláhuac" target="SUB::Cromo (compuestos)" id="432" weight="0.11828807824">
+        <attvalues>
+          <attvalue for="2" value="8" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Ciudad de México.Tláhuac" target="SUB::Níquel (compuestos)" id="433" weight="0.29572042060000003">
+        <attvalues>
+          <attvalue for="2" value="8" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Ciudad de México.Tláhuac" target="SUB::Plomo (compuestos)" id="434" weight="0.349998102832">
+        <attvalues>
+          <attvalue for="2" value="8" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Ciudad de México.Tláhuac" target="SUB::Asbesto y sus formas (En forma de polvo, fibras o productos desmenuzables con la presión de la mano)" id="435" weight="5367.959">
+        <attvalues>
+          <attvalue for="2" value="20" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Ciudad de México.Tláhuac" target="SUB::Bióxido de carbono" id="436" weight="900823778.2324301">
+        <attvalues>
+          <attvalue for="2" value="33" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Ciudad de México.Tláhuac" target="SUB::Formaldehido" id="437" weight="663.0">
+        <attvalues>
+          <attvalue for="2" value="12" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Ciudad de México.Tláhuac" target="SUB::Tolueno" id="438" weight="33191.71684612">
+        <attvalues>
+          <attvalue for="2" value="12" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Ciudad de México.Tláhuac" target="SUB::Metano" id="439" weight="592575.11">
+        <attvalues>
+          <attvalue for="2" value="2" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Ciudad de México.Tláhuac" target="SUB::Xileno (mezcla de isómeros)" id="440" weight="3923.13684612">
+        <attvalues>
+          <attvalue for="2" value="3" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Ciudad de México.Tláhuac" target="SUB::Dioxinas" id="441" weight="1.04e-10">
+        <attvalues>
+          <attvalue for="2" value="5" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Ciudad de México.Tláhuac" target="SUB::Furanos" id="442" weight="1.22e-10">
+        <attvalues>
+          <attvalue for="2" value="5" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Ciudad de México.Tláhuac" target="SUB::Cadmio (compuestos)" id="443" weight="0.21150063648000003">
+        <attvalues>
+          <attvalue for="2" value="7" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Ciudad de México.Tláhuac" target="SUB::Arsénico (compuestos)" id="444" weight="0.0023706213647999995">
+        <attvalues>
+          <attvalue for="2" value="7" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Ciudad de México.Tláhuac" target="SUB::Cromo (Compuestos solubles)" id="445" weight="16.8517">
+        <attvalues>
+          <attvalue for="2" value="6" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Ciudad de México.Tláhuac" target="SUB::Níquel (Compuestos solubles)" id="446" weight="15.7225">
+        <attvalues>
+          <attvalue for="2" value="7" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Ciudad de México.Tláhuac" target="SUB::Plomo (Compuestos solubles)" id="447" weight="14.1388">
+        <attvalues>
+          <attvalue for="2" value="8" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Ciudad de México.Tláhuac" target="SUB::Cadmio (Compuestos solubles)" id="448" weight="3.7398">
+        <attvalues>
+          <attvalue for="2" value="2" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Ciudad de México.Tláhuac" target="SUB::Cloruro de metileno" id="449" weight="83645.0">
+        <attvalues>
+          <attvalue for="2" value="15" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Ciudad de México.Tláhuac" target="SUB::Bifenilos policlorados" id="450" weight="1092.4">
+        <attvalues>
+          <attvalue for="2" value="2" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Ciudad de México.Tláhuac" target="SUB::Dibutilftalato" id="451" weight="36.0">
+        <attvalues>
+          <attvalue for="2" value="2" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Ciudad de México.La Magdalena Contreras" target="SUB::Níquel (compuestos)" id="452" weight="50.562430459999995">
+        <attvalues>
+          <attvalue for="2" value="4" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Ciudad de México.La Magdalena Contreras" target="SUB::Cromo (compuestos)" id="453" weight="43.43712722">
+        <attvalues>
+          <attvalue for="2" value="3" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Ciudad de México.La Magdalena Contreras" target="SUB::Cianuro inorgánico/orgánico" id="454" weight="3.326028143">
+        <attvalues>
+          <attvalue for="2" value="3" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Ciudad de México.La Magdalena Contreras" target="SUB::Plomo (compuestos)" id="455" weight="70.71500832">
+        <attvalues>
+          <attvalue for="2" value="4" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Ciudad de México.La Magdalena Contreras" target="SUB::Arsénico (polvos, respirables, vapores o humos)" id="456" weight="0.22411725">
+        <attvalues>
+          <attvalue for="2" value="1" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Ciudad de México.La Magdalena Contreras" target="SUB::Mercurio (polvos, respirables, vapores o humos)" id="457" weight="5.0362929">
+        <attvalues>
+          <attvalue for="2" value="2" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Ciudad de México.La Magdalena Contreras" target="SUB::Cadmio (polvos, respirables, vapores o humos)" id="458" weight="13.447035">
+        <attvalues>
+          <attvalue for="2" value="1" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Ciudad de México.La Magdalena Contreras" target="SUB::Cadmio (Compuestos solubles)" id="459" weight="20.777199999999997">
+        <attvalues>
+          <attvalue for="2" value="16" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Ciudad de México.La Magdalena Contreras" target="SUB::Cromo (Compuestos solubles)" id="460" weight="86.97370000000001">
+        <attvalues>
+          <attvalue for="2" value="16" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Ciudad de México.La Magdalena Contreras" target="SUB::Níquel (Compuestos solubles)" id="461" weight="194.8302">
+        <attvalues>
+          <attvalue for="2" value="16" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Ciudad de México.La Magdalena Contreras" target="SUB::Plomo (Compuestos solubles)" id="462" weight="122.2199">
+        <attvalues>
+          <attvalue for="2" value="16" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Ciudad de México.La Magdalena Contreras" target="SUB::Cloroformo" id="463" weight="28.0">
+        <attvalues>
+          <attvalue for="2" value="1" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Ciudad de México.La Magdalena Contreras" target="SUB::Formaldehido" id="464" weight="3938.193872">
+        <attvalues>
+          <attvalue for="2" value="7" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Ciudad de México.La Magdalena Contreras" target="SUB::Bióxido de carbono" id="465" weight="1921004.736">
+        <attvalues>
+          <attvalue for="2" value="1" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Ciudad de México.La Magdalena Contreras" target="SUB::Metano" id="466" weight="30.192317">
+        <attvalues>
+          <attvalue for="2" value="1" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Ciudad de México.La Magdalena Contreras" target="SUB::Arsénico (compuestos)" id="467" weight="0.790275248">
+        <attvalues>
+          <attvalue for="2" value="2" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Ciudad de México.La Magdalena Contreras" target="SUB::Cadmio (compuestos)" id="468" weight="5.976509824">
+        <attvalues>
+          <attvalue for="2" value="2" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Ciudad de México.La Magdalena Contreras" target="SUB::Mercurio (compuestos)" id="469" weight="0.3983723475">
+        <attvalues>
+          <attvalue for="2" value="2" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Ciudad de México.La Magdalena Contreras" target="SUB::Arsénico (Compuestos solubles)" id="470" weight="1.2874">
+        <attvalues>
+          <attvalue for="2" value="1" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Ciudad de México.La Magdalena Contreras" target="SUB::Xileno (mezcla de isómeros)" id="471" weight="1004.544">
+        <attvalues>
+          <attvalue for="2" value="1" />
+        </attvalues>
+      </edge>
+    </edges>
+  </graph>
+</gexf>

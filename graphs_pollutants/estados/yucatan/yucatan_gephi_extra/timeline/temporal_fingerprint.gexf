@@ -1,0 +1,907 @@
+<?xml version='1.0' encoding='utf-8'?>
+<gexf xmlns="http://www.gexf.net/1.2draft" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.gexf.net/1.2draft http://www.gexf.net/1.2draft/gexf.xsd" version="1.2">
+  <meta lastmodifieddate="2026-10-16">
+    <creator>NetworkX 3.7</creator>
+  </meta>
+  <graph defaultedgetype="undirected" mode="static" name="">
+    <attributes mode="static" class="node">
+      <attribute id="0" title="type" type="string" />
+      <attribute id="1" title="total_kg" type="double" />
+      <attribute id="2" title="first_year" type="long" />
+      <attribute id="3" title="n_years_active" type="long" />
+    </attributes>
+    <nodes>
+      <node id="LOC::Yucatán.Mérida" label="Yucatán.Mérida">
+        <attvalues>
+          <attvalue for="0" value="location" />
+          <attvalue for="1" value="27592596457.2173" />
+          <attvalue for="2" value="2004" />
+          <attvalue for="3" value="19" />
+        </attvalues>
+      </node>
+      <node id="LOC::Yucatán.Valladolid" label="Yucatán.Valladolid">
+        <attvalues>
+          <attvalue for="0" value="location" />
+          <attvalue for="1" value="17072843104.976843" />
+          <attvalue for="2" value="2004" />
+          <attvalue for="3" value="19" />
+        </attvalues>
+      </node>
+      <node id="LOC::Yucatán.Umán" label="Yucatán.Umán">
+        <attvalues>
+          <attvalue for="0" value="location" />
+          <attvalue for="1" value="116988344.90244107" />
+          <attvalue for="2" value="2005" />
+          <attvalue for="3" value="18" />
+        </attvalues>
+      </node>
+      <node id="LOC::Yucatán.Progreso" label="Yucatán.Progreso">
+        <attvalues>
+          <attvalue for="0" value="location" />
+          <attvalue for="1" value="52247.753803443265" />
+          <attvalue for="2" value="2004" />
+          <attvalue for="3" value="12" />
+        </attvalues>
+      </node>
+      <node id="LOC::Yucatán.Baca" label="Yucatán.Baca">
+        <attvalues>
+          <attvalue for="0" value="location" />
+          <attvalue for="1" value="420.29595295" />
+          <attvalue for="2" value="2012" />
+          <attvalue for="3" value="7" />
+        </attvalues>
+      </node>
+      <node id="LOC::Yucatán.Tizimín" label="Yucatán.Tizimín">
+        <attvalues>
+          <attvalue for="0" value="location" />
+          <attvalue for="1" value="227.454" />
+          <attvalue for="2" value="2015" />
+          <attvalue for="3" value="6" />
+        </attvalues>
+      </node>
+      <node id="LOC::Yucatán.Hunucmá" label="Yucatán.Hunucmá">
+        <attvalues>
+          <attvalue for="0" value="location" />
+          <attvalue for="1" value="169120349.67291707" />
+          <attvalue for="2" value="2017" />
+          <attvalue for="3" value="6" />
+        </attvalues>
+      </node>
+      <node id="LOC::Yucatán.Hoctún" label="Yucatán.Hoctún">
+        <attvalues>
+          <attvalue for="0" value="location" />
+          <attvalue for="1" value="49.69330000000001" />
+          <attvalue for="2" value="2017" />
+          <attvalue for="3" value="6" />
+        </attvalues>
+      </node>
+      <node id="LOC::Yucatán.Tixkokob" label="Yucatán.Tixkokob">
+        <attvalues>
+          <attvalue for="0" value="location" />
+          <attvalue for="1" value="53.413199999999996" />
+          <attvalue for="2" value="2017" />
+          <attvalue for="3" value="5" />
+        </attvalues>
+      </node>
+      <node id="LOC::Yucatán.Tahmek" label="Yucatán.Tahmek">
+        <attvalues>
+          <attvalue for="0" value="location" />
+          <attvalue for="1" value="28.725699999999993" />
+          <attvalue for="2" value="2017" />
+          <attvalue for="3" value="6" />
+        </attvalues>
+      </node>
+      <node id="LOC::Yucatán.Acanceh" label="Yucatán.Acanceh">
+        <attvalues>
+          <attvalue for="0" value="location" />
+          <attvalue for="1" value="187.934" />
+          <attvalue for="2" value="2017" />
+          <attvalue for="3" value="6" />
+        </attvalues>
+      </node>
+      <node id="LOC::Yucatán.Cacalchén" label="Yucatán.Cacalchén">
+        <attvalues>
+          <attvalue for="0" value="location" />
+          <attvalue for="1" value="17.0774" />
+          <attvalue for="2" value="2017" />
+          <attvalue for="3" value="6" />
+        </attvalues>
+      </node>
+      <node id="LOC::Yucatán.Tekantó" label="Yucatán.Tekantó">
+        <attvalues>
+          <attvalue for="0" value="location" />
+          <attvalue for="1" value="13.8747" />
+          <attvalue for="2" value="2017" />
+          <attvalue for="3" value="6" />
+        </attvalues>
+      </node>
+      <node id="LOC::Yucatán.Teabo" label="Yucatán.Teabo">
+        <attvalues>
+          <attvalue for="0" value="location" />
+          <attvalue for="1" value="145757.20020000008" />
+          <attvalue for="2" value="2017" />
+          <attvalue for="3" value="6" />
+        </attvalues>
+      </node>
+      <node id="LOC::Yucatán.Abalá" label="Yucatán.Abalá">
+        <attvalues>
+          <attvalue for="0" value="location" />
+          <attvalue for="1" value="7532597.701599987" />
+          <attvalue for="2" value="2017" />
+          <attvalue for="3" value="6" />
+        </attvalues>
+      </node>
+      <node id="LOC::Yucatán.Tixpéhual" label="Yucatán.Tixpéhual">
+        <attvalues>
+          <attvalue for="0" value="location" />
+          <attvalue for="1" value="754323.4341999998" />
+          <attvalue for="2" value="2018" />
+          <attvalue for="3" value="5" />
+        </attvalues>
+      </node>
+      <node id="LOC::Yucatán.Chumayel" label="Yucatán.Chumayel">
+        <attvalues>
+          <attvalue for="0" value="location" />
+          <attvalue for="1" value="384214.6461" />
+          <attvalue for="2" value="2017" />
+          <attvalue for="3" value="3" />
+        </attvalues>
+      </node>
+      <node id="LOC::Yucatán.Hocabá" label="Yucatán.Hocabá">
+        <attvalues>
+          <attvalue for="0" value="location" />
+          <attvalue for="1" value="236758.01459999994" />
+          <attvalue for="2" value="2017" />
+          <attvalue for="3" value="5" />
+        </attvalues>
+      </node>
+      <node id="LOC::Yucatán.Kopomá" label="Yucatán.Kopomá">
+        <attvalues>
+          <attvalue for="0" value="location" />
+          <attvalue for="1" value="304810.23910000036" />
+          <attvalue for="2" value="2017" />
+          <attvalue for="3" value="6" />
+        </attvalues>
+      </node>
+      <node id="LOC::Yucatán.Mama" label="Yucatán.Mama">
+        <attvalues>
+          <attvalue for="0" value="location" />
+          <attvalue for="1" value="187449.20829999994" />
+          <attvalue for="2" value="2017" />
+          <attvalue for="3" value="6" />
+        </attvalues>
+      </node>
+      <node id="LOC::Yucatán.Maxcanú" label="Yucatán.Maxcanú">
+        <attvalues>
+          <attvalue for="0" value="location" />
+          <attvalue for="1" value="2278728.3425999996" />
+          <attvalue for="2" value="2017" />
+          <attvalue for="3" value="6" />
+        </attvalues>
+      </node>
+      <node id="LOC::Yucatán.Opichén" label="Yucatán.Opichén">
+        <attvalues>
+          <attvalue for="0" value="location" />
+          <attvalue for="1" value="1163347.9393999996" />
+          <attvalue for="2" value="2017" />
+          <attvalue for="3" value="6" />
+        </attvalues>
+      </node>
+      <node id="LOC::Yucatán.Santa Elena" label="Yucatán.Santa Elena">
+        <attvalues>
+          <attvalue for="0" value="location" />
+          <attvalue for="1" value="107447.88400000003" />
+          <attvalue for="2" value="2017" />
+          <attvalue for="3" value="6" />
+        </attvalues>
+      </node>
+      <node id="LOC::Yucatán.Sotuta" label="Yucatán.Sotuta">
+        <attvalues>
+          <attvalue for="0" value="location" />
+          <attvalue for="1" value="1658537.0251999989" />
+          <attvalue for="2" value="2017" />
+          <attvalue for="3" value="6" />
+        </attvalues>
+      </node>
+      <node id="LOC::Yucatán.Kanasín" label="Yucatán.Kanasín">
+        <attvalues>
+          <attvalue for="0" value="location" />
+          <attvalue for="1" value="405402.25250279997" />
+          <attvalue for="2" value="2012" />
+          <attvalue for="3" value="6" />
+        </attvalues>
+      </node>
+      <node id="LOC::Yucatán.Muna" label="Yucatán.Muna">
+        <attvalues>
+          <attvalue for="0" value="location" />
+          <attvalue for="1" value="874572.4199" />
+          <attvalue for="2" value="2021" />
+          <attvalue for="3" value="2" />
+        </attvalues>
+      </node>
+      <node id="LOC::Yucatán.Chapab" label="Yucatán.Chapab">
+        <attvalues>
+          <attvalue for="0" value="location" />
+          <attvalue for="1" value="6533406.7262" />
+          <attvalue for="2" value="2022" />
+          <attvalue for="3" value="1" />
+        </attvalues>
+      </node>
+      <node id="LOC::Yucatán.Muxupip" label="Yucatán.Muxupip">
+        <attvalues>
+          <attvalue for="0" value="location" />
+          <attvalue for="1" value="239.49800000000005" />
+          <attvalue for="2" value="2014" />
+          <attvalue for="3" value="9" />
+        </attvalues>
+      </node>
+      <node id="LOC::Yucatán.Ticul" label="Yucatán.Ticul">
+        <attvalues>
+          <attvalue for="0" value="location" />
+          <attvalue for="1" value="55.134100000000004" />
+          <attvalue for="2" value="2018" />
+          <attvalue for="3" value="3" />
+        </attvalues>
+      </node>
+      <node id="LOC::Yucatán.Tekax" label="Yucatán.Tekax">
+        <attvalues>
+          <attvalue for="0" value="location" />
+          <attvalue for="1" value="82.4321" />
+          <attvalue for="2" value="2019" />
+          <attvalue for="3" value="4" />
+        </attvalues>
+      </node>
+      <node id="LOC::Yucatán.Tepakán" label="Yucatán.Tepakán">
+        <attvalues>
+          <attvalue for="0" value="location" />
+          <attvalue for="1" value="14.628499999999999" />
+          <attvalue for="2" value="2020" />
+          <attvalue for="3" value="3" />
+        </attvalues>
+      </node>
+      <node id="LOC::Yucatán.Tecoh" label="Yucatán.Tecoh">
+        <attvalues>
+          <attvalue for="0" value="location" />
+          <attvalue for="1" value="8.5768" />
+          <attvalue for="2" value="2021" />
+          <attvalue for="3" value="1" />
+        </attvalues>
+      </node>
+      <node id="LOC::Yucatán.Kinchil" label="Yucatán.Kinchil">
+        <attvalues>
+          <attvalue for="0" value="location" />
+          <attvalue for="1" value="77.7584" />
+          <attvalue for="2" value="2021" />
+          <attvalue for="3" value="2" />
+        </attvalues>
+      </node>
+      <node id="LOC::Yucatán.Chicxulub Pueblo" label="Yucatán.Chicxulub Pueblo">
+        <attvalues>
+          <attvalue for="0" value="location" />
+          <attvalue for="1" value="21.285899999999998" />
+          <attvalue for="2" value="2021" />
+          <attvalue for="3" value="1" />
+        </attvalues>
+      </node>
+      <node id="LOC::Yucatán.Seyé" label="Yucatán.Seyé">
+        <attvalues>
+          <attvalue for="0" value="location" />
+          <attvalue for="1" value="9.1075" />
+          <attvalue for="2" value="2021" />
+          <attvalue for="3" value="1" />
+        </attvalues>
+      </node>
+      <node id="LOC::Yucatán.Tekal de Venegas" label="Yucatán.Tekal de Venegas">
+        <attvalues>
+          <attvalue for="0" value="location" />
+          <attvalue for="1" value="46.9627" />
+          <attvalue for="2" value="2021" />
+          <attvalue for="3" value="1" />
+        </attvalues>
+      </node>
+      <node id="LOC::Yucatán.Cuzamá" label="Yucatán.Cuzamá">
+        <attvalues>
+          <attvalue for="0" value="location" />
+          <attvalue for="1" value="1.4102" />
+          <attvalue for="2" value="2021" />
+          <attvalue for="3" value="1" />
+        </attvalues>
+      </node>
+      <node id="LOC::Yucatán.Izamal" label="Yucatán.Izamal">
+        <attvalues>
+          <attvalue for="0" value="location" />
+          <attvalue for="1" value="171.6913" />
+          <attvalue for="2" value="2021" />
+          <attvalue for="3" value="2" />
+        </attvalues>
+      </node>
+      <node id="LOC::Yucatán.Conkal" label="Yucatán.Conkal">
+        <attvalues>
+          <attvalue for="0" value="location" />
+          <attvalue for="1" value="14.8308" />
+          <attvalue for="2" value="2021" />
+          <attvalue for="3" value="1" />
+        </attvalues>
+      </node>
+      <node id="LOC::Yucatán.Kantunil" label="Yucatán.Kantunil">
+        <attvalues>
+          <attvalue for="0" value="location" />
+          <attvalue for="1" value="70.6026" />
+          <attvalue for="2" value="2021" />
+          <attvalue for="3" value="2" />
+        </attvalues>
+      </node>
+      <node id="LOC::Yucatán.Tixmehuac" label="Yucatán.Tixmehuac">
+        <attvalues>
+          <attvalue for="0" value="location" />
+          <attvalue for="1" value="7.3517" />
+          <attvalue for="2" value="2022" />
+          <attvalue for="3" value="1" />
+        </attvalues>
+      </node>
+      <node id="SUB::Cromo (Compuestos solubles)" label="Chromium (soluble compounds)">
+        <attvalues>
+          <attvalue for="0" value="substance" />
+          <attvalue for="1" value="3860.8394963105993" />
+          <attvalue for="2" value="2008" />
+          <attvalue for="3" value="10" />
+        </attvalues>
+      </node>
+      <node id="SUB::Mercurio (Compuestos solubles)" label="Mercury (soluble compounds)">
+        <attvalues>
+          <attvalue for="0" value="substance" />
+          <attvalue for="1" value="60.547963212999996" />
+          <attvalue for="2" value="2008" />
+          <attvalue for="3" value="8" />
+        </attvalues>
+      </node>
+      <node id="SUB::Níquel (Compuestos solubles)" label="Nickel (soluble compounds)">
+        <attvalues>
+          <attvalue for="0" value="substance" />
+          <attvalue for="1" value="10720.384550835988" />
+          <attvalue for="2" value="2008" />
+          <attvalue for="3" value="10" />
+        </attvalues>
+      </node>
+      <node id="SUB::Cianuro inorgánico/orgánico" label="Inorganic/organic cyanide">
+        <attvalues>
+          <attvalue for="0" value="substance" />
+          <attvalue for="1" value="421.5149044137789" />
+          <attvalue for="2" value="2004" />
+          <attvalue for="3" value="11" />
+        </attvalues>
+      </node>
+      <node id="SUB::Arsénico (polvos, respirables, vapores o humos)" label="Arsenic (respirable dust, vapors or fumes)">
+        <attvalues>
+          <attvalue for="0" value="substance" />
+          <attvalue for="1" value="198.52837639934904" />
+          <attvalue for="2" value="2004" />
+          <attvalue for="3" value="19" />
+        </attvalues>
+      </node>
+      <node id="SUB::Plomo (Compuestos solubles)" label="Lead (soluble compounds)">
+        <attvalues>
+          <attvalue for="0" value="substance" />
+          <attvalue for="1" value="3354.099625320299" />
+          <attvalue for="2" value="2008" />
+          <attvalue for="3" value="10" />
+        </attvalues>
+      </node>
+      <node id="SUB::Cadmio (polvos, respirables, vapores o humos)" label="Cadmium (respirable dust, vapors or fumes)">
+        <attvalues>
+          <attvalue for="0" value="substance" />
+          <attvalue for="1" value="228.53218318481203" />
+          <attvalue for="2" value="2004" />
+          <attvalue for="3" value="18" />
+        </attvalues>
+      </node>
+      <node id="SUB::Mercurio (compuestos)" label="Mercury (compounds)">
+        <attvalues>
+          <attvalue for="0" value="substance" />
+          <attvalue for="1" value="835.1231279717541" />
+          <attvalue for="2" value="2004" />
+          <attvalue for="3" value="9" />
+        </attvalues>
+      </node>
+      <node id="SUB::Plomo (compuestos)" label="Lead (compounds)">
+        <attvalues>
+          <attvalue for="0" value="substance" />
+          <attvalue for="1" value="3821.7435394234985" />
+          <attvalue for="2" value="2004" />
+          <attvalue for="3" value="9" />
+        </attvalues>
+      </node>
+      <node id="SUB::Níquel (compuestos)" label="Nickel (compounds)">
+        <attvalues>
+          <attvalue for="0" value="substance" />
+          <attvalue for="1" value="8208.535855202565" />
+          <attvalue for="2" value="2005" />
+          <attvalue for="3" value="8" />
+        </attvalues>
+      </node>
+      <node id="SUB::Cromo (compuestos)" label="Chromium (compounds)">
+        <attvalues>
+          <attvalue for="0" value="substance" />
+          <attvalue for="1" value="391.19279548801086" />
+          <attvalue for="2" value="2004" />
+          <attvalue for="3" value="9" />
+        </attvalues>
+      </node>
+      <node id="SUB::Cadmio (compuestos)" label="Cadmium (compounds)">
+        <attvalues>
+          <attvalue for="0" value="substance" />
+          <attvalue for="1" value="72.08562670324501" />
+          <attvalue for="2" value="2005" />
+          <attvalue for="3" value="5" />
+        </attvalues>
+      </node>
+      <node id="SUB::Arsénico (compuestos)" label="Arsenic (compounds)">
+        <attvalues>
+          <attvalue for="0" value="substance" />
+          <attvalue for="1" value="2.112030912872" />
+          <attvalue for="2" value="2010" />
+          <attvalue for="3" value="4" />
+        </attvalues>
+      </node>
+      <node id="SUB::Mercurio (polvos, respirables, vapores o humos)" label="Mercury (respirable dust, vapors or fumes)">
+        <attvalues>
+          <attvalue for="0" value="substance" />
+          <attvalue for="1" value="466.9380128851101" />
+          <attvalue for="2" value="2005" />
+          <attvalue for="3" value="18" />
+        </attvalues>
+      </node>
+      <node id="SUB::Fenol" label="Phenol">
+        <attvalues>
+          <attvalue for="0" value="substance" />
+          <attvalue for="1" value="0.00024547085" />
+          <attvalue for="2" value="2012" />
+          <attvalue for="3" value="1" />
+        </attvalues>
+      </node>
+      <node id="SUB::Níquel (polvos respirables, humos o vapores)" label="Nickel (respirable dust, fumes or vapors)">
+        <attvalues>
+          <attvalue for="0" value="substance" />
+          <attvalue for="1" value="521.8927" />
+          <attvalue for="2" value="2014" />
+          <attvalue for="3" value="4" />
+        </attvalues>
+      </node>
+      <node id="SUB::Cromo (polvos respirables, humos o vapores)" label="Chromium (respirable dust, fumes or vapors)">
+        <attvalues>
+          <attvalue for="0" value="substance" />
+          <attvalue for="1" value="610.3205096830001" />
+          <attvalue for="2" value="2014" />
+          <attvalue for="3" value="8" />
+        </attvalues>
+      </node>
+      <node id="SUB::Arsénico (Compuestos solubles)" label="Arsenic (soluble compounds)">
+        <attvalues>
+          <attvalue for="0" value="substance" />
+          <attvalue for="1" value="1001.3612660599995" />
+          <attvalue for="2" value="2014" />
+          <attvalue for="3" value="9" />
+        </attvalues>
+      </node>
+      <node id="SUB::Cadmio (Compuestos solubles)" label="Cadmium (soluble compounds)">
+        <attvalues>
+          <attvalue for="0" value="substance" />
+          <attvalue for="1" value="1271.30628786" />
+          <attvalue for="2" value="2014" />
+          <attvalue for="3" value="9" />
+        </attvalues>
+      </node>
+      <node id="SUB::Plomo (polvos respirables, humos o vapores)" label="Lead (respirable dust, fumes or vapors)">
+        <attvalues>
+          <attvalue for="0" value="substance" />
+          <attvalue for="1" value="1671.4625591279998" />
+          <attvalue for="2" value="2014" />
+          <attvalue for="3" value="8" />
+        </attvalues>
+      </node>
+      <node id="SUB::Bióxido de nitrógeno" label="Nitrogen dioxide">
+        <attvalues>
+          <attvalue for="0" value="substance" />
+          <attvalue for="1" value="22697864.5807" />
+          <attvalue for="2" value="2004" />
+          <attvalue for="3" value="16" />
+        </attvalues>
+      </node>
+      <node id="SUB::Bióxido de carbono" label="Carbon dioxide">
+        <attvalues>
+          <attvalue for="0" value="substance" />
+          <attvalue for="1" value="44936092113.40609" />
+          <attvalue for="2" value="2004" />
+          <attvalue for="3" value="19" />
+        </attvalues>
+      </node>
+      <node id="SUB::Metano" label="Methane">
+        <attvalues>
+          <attvalue for="0" value="substance" />
+          <attvalue for="1" value="15103898.068400001" />
+          <attvalue for="2" value="2005" />
+          <attvalue for="3" value="13" />
+        </attvalues>
+      </node>
+      <node id="SUB::Dioxinas" label="Dioxins">
+        <attvalues>
+          <attvalue for="0" value="substance" />
+          <attvalue for="1" value="0.00066126333158" />
+          <attvalue for="2" value="2004" />
+          <attvalue for="3" value="16" />
+        </attvalues>
+      </node>
+      <node id="SUB::Furanos" label="Furans">
+        <attvalues>
+          <attvalue for="0" value="substance" />
+          <attvalue for="1" value="0.0006601100548800001" />
+          <attvalue for="2" value="2004" />
+          <attvalue for="3" value="16" />
+        </attvalues>
+      </node>
+      <node id="SUB::Benceno" label="Benzene">
+        <attvalues>
+          <attvalue for="0" value="substance" />
+          <attvalue for="1" value="67418.52149244995" />
+          <attvalue for="2" value="2004" />
+          <attvalue for="3" value="16" />
+        </attvalues>
+      </node>
+      <node id="SUB::Formaldehido" label="Formaldehyde">
+        <attvalues>
+          <attvalue for="0" value="substance" />
+          <attvalue for="1" value="61060.69726817625" />
+          <attvalue for="2" value="2004" />
+          <attvalue for="3" value="16" />
+        </attvalues>
+      </node>
+      <node id="SUB::Acetaldehido" label="Acetaldehyde">
+        <attvalues>
+          <attvalue for="0" value="substance" />
+          <attvalue for="1" value="4358.4394013695" />
+          <attvalue for="2" value="2005" />
+          <attvalue for="3" value="14" />
+        </attvalues>
+      </node>
+      <node id="SUB::Acroleina" label="Acrolein">
+        <attvalues>
+          <attvalue for="0" value="substance" />
+          <attvalue for="1" value="13.750183718750002" />
+          <attvalue for="2" value="2005" />
+          <attvalue for="3" value="6" />
+        </attvalues>
+      </node>
+      <node id="SUB::Hidrofluorocarbonos" label="Hydrofluorocarbons">
+        <attvalues>
+          <attvalue for="0" value="substance" />
+          <attvalue for="1" value="40720.86" />
+          <attvalue for="2" value="2016" />
+          <attvalue for="3" value="2" />
+        </attvalues>
+      </node>
+      <node id="SUB::Tolueno" label="Toluene">
+        <attvalues>
+          <attvalue for="0" value="substance" />
+          <attvalue for="1" value="5507.699568" />
+          <attvalue for="2" value="2020" />
+          <attvalue for="3" value="3" />
+        </attvalues>
+      </node>
+      <node id="SUB::Oxido nitroso" label="Nitrous oxide">
+        <attvalues>
+          <attvalue for="0" value="substance" />
+          <attvalue for="1" value="58720.0" />
+          <attvalue for="2" value="2009" />
+          <attvalue for="3" value="5" />
+        </attvalues>
+      </node>
+      <node id="SUB::Bifenilo" label="Biphenyl">
+        <attvalues>
+          <attvalue for="0" value="substance" />
+          <attvalue for="1" value="155.0" />
+          <attvalue for="2" value="2005" />
+          <attvalue for="3" value="1" />
+        </attvalues>
+      </node>
+      <node id="SUB::Bifenilos policlorados" label="Polychlorinated biphenyls (PCBs)">
+        <attvalues>
+          <attvalue for="0" value="substance" />
+          <attvalue for="1" value="127.75" />
+          <attvalue for="2" value="2006" />
+          <attvalue for="3" value="1" />
+        </attvalues>
+      </node>
+    </nodes>
+    <edges>
+      <edge source="LOC::Yucatán.Mérida" target="SUB::Cromo (Compuestos solubles)" id="0" weight="1033.8375604435998" />
+      <edge source="LOC::Yucatán.Mérida" target="SUB::Mercurio (Compuestos solubles)" id="1" weight="24.90098553" />
+      <edge source="LOC::Yucatán.Mérida" target="SUB::Níquel (Compuestos solubles)" id="2" weight="5937.545983439995" />
+      <edge source="LOC::Yucatán.Mérida" target="SUB::Cianuro inorgánico/orgánico" id="3" weight="236.31218008377843" />
+      <edge source="LOC::Yucatán.Mérida" target="SUB::Arsénico (polvos, respirables, vapores o humos)" id="4" weight="167.47727510434902" />
+      <edge source="LOC::Yucatán.Mérida" target="SUB::Plomo (Compuestos solubles)" id="5" weight="705.5339362883" />
+      <edge source="LOC::Yucatán.Mérida" target="SUB::Cadmio (polvos, respirables, vapores o humos)" id="6" weight="125.21137018481198" />
+      <edge source="LOC::Yucatán.Mérida" target="SUB::Mercurio (compuestos)" id="7" weight="834.8040770567542" />
+      <edge source="LOC::Yucatán.Mérida" target="SUB::Plomo (compuestos)" id="8" weight="1000.4866702394976" />
+      <edge source="LOC::Yucatán.Mérida" target="SUB::Níquel (compuestos)" id="9" weight="7537.2892180925655" />
+      <edge source="LOC::Yucatán.Mérida" target="SUB::Cromo (compuestos)" id="10" weight="342.1997256980109" />
+      <edge source="LOC::Yucatán.Mérida" target="SUB::Cadmio (compuestos)" id="11" weight="68.54496190324501" />
+      <edge source="LOC::Yucatán.Mérida" target="SUB::Arsénico (compuestos)" id="12" weight="0.9633223828719999" />
+      <edge source="LOC::Yucatán.Mérida" target="SUB::Mercurio (polvos, respirables, vapores o humos)" id="13" weight="442.8510885851101" />
+      <edge source="LOC::Yucatán.Mérida" target="SUB::Fenol" id="14" weight="0.00024547085" />
+      <edge source="LOC::Yucatán.Mérida" target="SUB::Níquel (polvos respirables, humos o vapores)" id="15" weight="414.86519999999996" />
+      <edge source="LOC::Yucatán.Mérida" target="SUB::Cromo (polvos respirables, humos o vapores)" id="16" weight="420.81816276300003" />
+      <edge source="LOC::Yucatán.Mérida" target="SUB::Arsénico (Compuestos solubles)" id="17" weight="384.9024999999999" />
+      <edge source="LOC::Yucatán.Mérida" target="SUB::Cadmio (Compuestos solubles)" id="18" weight="231.929056" />
+      <edge source="LOC::Yucatán.Mérida" target="SUB::Plomo (polvos respirables, humos o vapores)" id="19" weight="362.297352678" />
+      <edge source="LOC::Yucatán.Mérida" target="SUB::Bióxido de nitrógeno" id="20" weight="19024844.7707" />
+      <edge source="LOC::Yucatán.Mérida" target="SUB::Bióxido de carbono" id="21" weight="27561855089.252098" />
+      <edge source="LOC::Yucatán.Mérida" target="SUB::Metano" id="22" weight="11569600.6284" />
+      <edge source="LOC::Yucatán.Mérida" target="SUB::Dioxinas" id="23" weight="0.00066126333158" />
+      <edge source="LOC::Yucatán.Mérida" target="SUB::Furanos" id="24" weight="0.0006601100548800001" />
+      <edge source="LOC::Yucatán.Mérida" target="SUB::Benceno" id="25" weight="67077.26827997119" />
+      <edge source="LOC::Yucatán.Mérida" target="SUB::Hidrofluorocarbonos" id="26" weight="40720.86" />
+      <edge source="LOC::Yucatán.Mérida" target="SUB::Formaldehido" id="27" weight="16734.499799" />
+      <edge source="LOC::Yucatán.Mérida" target="SUB::Acetaldehido" id="28" weight="654.1289848" />
+      <edge source="LOC::Yucatán.Mérida" target="SUB::Tolueno" id="29" weight="1180.286568" />
+      <edge source="LOC::Yucatán.Mérida" target="SUB::Acroleina" id="30" weight="0.000305" />
+      <edge source="LOC::Yucatán.Mérida" target="SUB::Bifenilo" id="31" weight="155.0" />
+      <edge source="LOC::Yucatán.Mérida" target="SUB::Bifenilos policlorados" id="32" weight="127.75" />
+      <edge source="LOC::Yucatán.Valladolid" target="SUB::Cianuro inorgánico/orgánico" id="33" weight="162.62441018" />
+      <edge source="LOC::Yucatán.Valladolid" target="SUB::Arsénico (polvos, respirables, vapores o humos)" id="34" weight="30.310161795000003" />
+      <edge source="LOC::Yucatán.Valladolid" target="SUB::Arsénico (compuestos)" id="35" weight="0.312395" />
+      <edge source="LOC::Yucatán.Valladolid" target="SUB::Plomo (compuestos)" id="36" weight="602.3627667999999" />
+      <edge source="LOC::Yucatán.Valladolid" target="SUB::Níquel (compuestos)" id="37" weight="585.805625" />
+      <edge source="LOC::Yucatán.Valladolid" target="SUB::Mercurio (compuestos)" id="38" weight="0.125483625" />
+      <edge source="LOC::Yucatán.Valladolid" target="SUB::Cadmio (polvos, respirables, vapores o humos)" id="39" weight="93.18522050000003" />
+      <edge source="LOC::Yucatán.Valladolid" target="SUB::Plomo (Compuestos solubles)" id="40" weight="543.5959000000001" />
+      <edge source="LOC::Yucatán.Valladolid" target="SUB::Plomo (polvos respirables, humos o vapores)" id="41" weight="1279.66250645" />
+      <edge source="LOC::Yucatán.Valladolid" target="SUB::Arsénico (Compuestos solubles)" id="42" weight="57.052099999999996" />
+      <edge source="LOC::Yucatán.Valladolid" target="SUB::Cadmio (Compuestos solubles)" id="43" weight="143.69729999999998" />
+      <edge source="LOC::Yucatán.Valladolid" target="SUB::Cromo (Compuestos solubles)" id="44" weight="267.44960000000003" />
+      <edge source="LOC::Yucatán.Valladolid" target="SUB::Mercurio (Compuestos solubles)" id="45" weight="2.5088" />
+      <edge source="LOC::Yucatán.Valladolid" target="SUB::Níquel (Compuestos solubles)" id="46" weight="1016.6226999999999" />
+      <edge source="LOC::Yucatán.Valladolid" target="SUB::Cromo (compuestos)" id="47" weight="0.421875" />
+      <edge source="LOC::Yucatán.Valladolid" target="SUB::Bióxido de nitrógeno" id="48" weight="3673019.81" />
+      <edge source="LOC::Yucatán.Valladolid" target="SUB::Bióxido de carbono" id="49" weight="17068663475.214" />
+      <edge source="LOC::Yucatán.Valladolid" target="SUB::Formaldehido" id="50" weight="44150.35999999999" />
+      <edge source="LOC::Yucatán.Valladolid" target="SUB::Mercurio (polvos, respirables, vapores o humos)" id="51" weight="12.69" />
+      <edge source="LOC::Yucatán.Valladolid" target="SUB::Acetaldehido" id="52" weight="3587.7930000000006" />
+      <edge source="LOC::Yucatán.Valladolid" target="SUB::Níquel (polvos respirables, humos o vapores)" id="53" weight="67.52" />
+      <edge source="LOC::Yucatán.Valladolid" target="SUB::Cromo (polvos respirables, humos o vapores)" id="54" weight="44.99999999999999" />
+      <edge source="LOC::Yucatán.Valladolid" target="SUB::Metano" id="55" weight="390913.44" />
+      <edge source="LOC::Yucatán.Valladolid" target="SUB::Tolueno" id="56" weight="4327.4130000000005" />
+      <edge source="LOC::Yucatán.Valladolid" target="SUB::Oxido nitroso" id="57" weight="58720.0" />
+      <edge source="LOC::Yucatán.Umán" target="SUB::Cianuro inorgánico/orgánico" id="58" weight="1.91109265" />
+      <edge source="LOC::Yucatán.Umán" target="SUB::Arsénico (polvos, respirables, vapores o humos)" id="59" weight="0.3255395" />
+      <edge source="LOC::Yucatán.Umán" target="SUB::Níquel (compuestos)" id="60" weight="38.572803949999994" />
+      <edge source="LOC::Yucatán.Umán" target="SUB::Plomo (compuestos)" id="61" weight="2203.9999617040003" />
+      <edge source="LOC::Yucatán.Umán" target="SUB::Mercurio (compuestos)" id="62" weight="0.00928405" />
+      <edge source="LOC::Yucatán.Umán" target="SUB::Cromo (compuestos)" id="63" weight="33.237111049999996" />
+      <edge source="LOC::Yucatán.Umán" target="SUB::Cadmio (compuestos)" id="64" weight="0.188185" />
+      <edge source="LOC::Yucatán.Umán" target="SUB::Arsénico (compuestos)" id="65" weight="0.035946" />
+      <edge source="LOC::Yucatán.Umán" target="SUB::Mercurio (polvos, respirables, vapores o humos)" id="66" weight="11.3875137" />
+      <edge source="LOC::Yucatán.Umán" target="SUB::Cadmio (polvos, respirables, vapores o humos)" id="67" weight="0.6421034999999999" />
+      <edge source="LOC::Yucatán.Umán" target="SUB::Arsénico (Compuestos solubles)" id="68" weight="94.043" />
+      <edge source="LOC::Yucatán.Umán" target="SUB::Cromo (Compuestos solubles)" id="69" weight="230.3071" />
+      <edge source="LOC::Yucatán.Umán" target="SUB::Níquel (Compuestos solubles)" id="70" weight="370.1737" />
+      <edge source="LOC::Yucatán.Umán" target="SUB::Plomo (Compuestos solubles)" id="71" weight="220.2302" />
+      <edge source="LOC::Yucatán.Umán" target="SUB::Bióxido de carbono" id="72" weight="116984861.85" />
+      <edge source="LOC::Yucatán.Umán" target="SUB::Formaldehido" id="73" weight="169.43" />
+      <edge source="LOC::Yucatán.Umán" target="SUB::Cadmio (Compuestos solubles)" id="74" weight="108.55890000000001" />
+      <edge source="LOC::Yucatán.Progreso" target="SUB::Cromo (Compuestos solubles)" id="75" weight="18.355216" />
+      <edge source="LOC::Yucatán.Progreso" target="SUB::Mercurio (Compuestos solubles)" id="76" weight="0.009707" />
+      <edge source="LOC::Yucatán.Progreso" target="SUB::Níquel (Compuestos solubles)" id="77" weight="31.93256" />
+      <edge source="LOC::Yucatán.Progreso" target="SUB::Plomo (Compuestos solubles)" id="78" weight="11.930915" />
+      <edge source="LOC::Yucatán.Progreso" target="SUB::Cianuro inorgánico/orgánico" id="79" weight="0.31855300000000003" />
+      <edge source="LOC::Yucatán.Progreso" target="SUB::Arsénico (polvos, respirables, vapores o humos)" id="80" weight="0.00984" />
+      <edge source="LOC::Yucatán.Progreso" target="SUB::Cadmio (polvos, respirables, vapores o humos)" id="81" weight="1.4258289999999998" />
+      <edge source="LOC::Yucatán.Progreso" target="SUB::Mercurio (compuestos)" id="82" weight="0.043529500000000006" />
+      <edge source="LOC::Yucatán.Progreso" target="SUB::Cromo (compuestos)" id="83" weight="1.0774" />
+      <edge source="LOC::Yucatán.Progreso" target="SUB::Níquel (compuestos)" id="84" weight="33.633300999999996" />
+      <edge source="LOC::Yucatán.Progreso" target="SUB::Plomo (compuestos)" id="85" weight="1.940741" />
+      <edge source="LOC::Yucatán.Progreso" target="SUB::Bióxido de carbono" id="86" weight="51666.1" />
+      <edge source="LOC::Yucatán.Progreso" target="SUB::Formaldehido" id="87" weight="6.407469176249999" />
+      <edge source="LOC::Yucatán.Progreso" target="SUB::Benceno" id="88" weight="341.25321247875" />
+      <edge source="LOC::Yucatán.Progreso" target="SUB::Acetaldehido" id="89" weight="116.5174165695" />
+      <edge source="LOC::Yucatán.Progreso" target="SUB::Acroleina" id="90" weight="13.74987871875" />
+      <edge source="LOC::Yucatán.Progreso" target="SUB::Arsénico (compuestos)" id="91" weight="0.012975" />
+      <edge source="LOC::Yucatán.Progreso" target="SUB::Cadmio (compuestos)" id="92" weight="0.537405" />
+      <edge source="LOC::Yucatán.Progreso" target="SUB::Mercurio (polvos, respirables, vapores o humos)" id="93" weight="0.005355" />
+      <edge source="LOC::Yucatán.Progreso" target="SUB::Cadmio (Compuestos solubles)" id="94" weight="2.4925" />
+      <edge source="LOC::Yucatán.Baca" target="SUB::Cianuro inorgánico/orgánico" id="95" weight="19.943108499999997" />
+      <edge source="LOC::Yucatán.Baca" target="SUB::Arsénico (compuestos)" id="96" weight="0.78739253" />
+      <edge source="LOC::Yucatán.Baca" target="SUB::Cadmio (compuestos)" id="97" weight="2.8150747999999997" />
+      <edge source="LOC::Yucatán.Baca" target="SUB::Cromo (compuestos)" id="98" weight="14.216127740000001" />
+      <edge source="LOC::Yucatán.Baca" target="SUB::Mercurio (compuestos)" id="99" weight="0.14075374000000002" />
+      <edge source="LOC::Yucatán.Baca" target="SUB::Níquel (compuestos)" id="100" weight="13.23085156" />
+      <edge source="LOC::Yucatán.Baca" target="SUB::Plomo (compuestos)" id="101" weight="12.94934408" />
+      <edge source="LOC::Yucatán.Baca" target="SUB::Cadmio (Compuestos solubles)" id="102" weight="9.6363" />
+      <edge source="LOC::Yucatán.Baca" target="SUB::Cromo (Compuestos solubles)" id="103" weight="40.7181" />
+      <edge source="LOC::Yucatán.Baca" target="SUB::Níquel (Compuestos solubles)" id="104" weight="79.1932" />
+      <edge source="LOC::Yucatán.Baca" target="SUB::Plomo (Compuestos solubles)" id="105" weight="38.4517" />
+      <edge source="LOC::Yucatán.Baca" target="SUB::Cadmio (polvos, respirables, vapores o humos)" id="106" weight="7.662100000000001" />
+      <edge source="LOC::Yucatán.Baca" target="SUB::Cromo (polvos respirables, humos o vapores)" id="107" weight="111.5417" />
+      <edge source="LOC::Yucatán.Baca" target="SUB::Níquel (polvos respirables, humos o vapores)" id="108" weight="39.5075" />
+      <edge source="LOC::Yucatán.Baca" target="SUB::Plomo (polvos respirables, humos o vapores)" id="109" weight="29.5027" />
+      <edge source="LOC::Yucatán.Tizimín" target="SUB::Cadmio (Compuestos solubles)" id="110" weight="24.979" />
+      <edge source="LOC::Yucatán.Tizimín" target="SUB::Cromo (Compuestos solubles)" id="111" weight="64.786" />
+      <edge source="LOC::Yucatán.Tizimín" target="SUB::Níquel (Compuestos solubles)" id="112" weight="77.065" />
+      <edge source="LOC::Yucatán.Tizimín" target="SUB::Plomo (Compuestos solubles)" id="113" weight="60.623999999999995" />
+      <edge source="LOC::Yucatán.Hunucmá" target="SUB::Cromo (polvos respirables, humos o vapores)" id="114" weight="32.96064692" />
+      <edge source="LOC::Yucatán.Hunucmá" target="SUB::Arsénico (Compuestos solubles)" id="115" weight="46.744266059999994" />
+      <edge source="LOC::Yucatán.Hunucmá" target="SUB::Cadmio (Compuestos solubles)" id="116" weight="198.13723185999999" />
+      <edge source="LOC::Yucatán.Hunucmá" target="SUB::Cromo (Compuestos solubles)" id="117" weight="1575.8159198669998" />
+      <edge source="LOC::Yucatán.Hunucmá" target="SUB::Mercurio (Compuestos solubles)" id="118" weight="17.036470683" />
+      <edge source="LOC::Yucatán.Hunucmá" target="SUB::Níquel (Compuestos solubles)" id="119" weight="1927.4176073959998" />
+      <edge source="LOC::Yucatán.Hunucmá" target="SUB::Plomo (Compuestos solubles)" id="120" weight="1187.5607740320002" />
+      <edge source="LOC::Yucatán.Hunucmá" target="SUB::Bióxido de carbono" id="121" weight="167813420.0" />
+      <edge source="LOC::Yucatán.Hunucmá" target="SUB::Metano" id="122" weight="1301944.0" />
+      <edge source="LOC::Yucatán.Hoctún" target="SUB::Níquel (Compuestos solubles)" id="123" weight="20.5381" />
+      <edge source="LOC::Yucatán.Hoctún" target="SUB::Arsénico (Compuestos solubles)" id="124" weight="7.2888" />
+      <edge source="LOC::Yucatán.Hoctún" target="SUB::Cadmio (Compuestos solubles)" id="125" weight="7.2888" />
+      <edge source="LOC::Yucatán.Hoctún" target="SUB::Cromo (Compuestos solubles)" id="126" weight="7.2888" />
+      <edge source="LOC::Yucatán.Hoctún" target="SUB::Plomo (Compuestos solubles)" id="127" weight="7.2888" />
+      <edge source="LOC::Yucatán.Tixkokob" target="SUB::Arsénico (Compuestos solubles)" id="128" weight="4.7975" />
+      <edge source="LOC::Yucatán.Tixkokob" target="SUB::Cadmio (Compuestos solubles)" id="129" weight="5.8631" />
+      <edge source="LOC::Yucatán.Tixkokob" target="SUB::Cromo (Compuestos solubles)" id="130" weight="10.1255" />
+      <edge source="LOC::Yucatán.Tixkokob" target="SUB::Níquel (Compuestos solubles)" id="131" weight="23.0344" />
+      <edge source="LOC::Yucatán.Tixkokob" target="SUB::Plomo (Compuestos solubles)" id="132" weight="9.5927" />
+      <edge source="LOC::Yucatán.Tahmek" target="SUB::Níquel (Compuestos solubles)" id="133" weight="10.0929" />
+      <edge source="LOC::Yucatán.Tahmek" target="SUB::Arsénico (Compuestos solubles)" id="134" weight="4.6582" />
+      <edge source="LOC::Yucatán.Tahmek" target="SUB::Cadmio (Compuestos solubles)" id="135" weight="4.6582" />
+      <edge source="LOC::Yucatán.Tahmek" target="SUB::Cromo (Compuestos solubles)" id="136" weight="4.6582" />
+      <edge source="LOC::Yucatán.Tahmek" target="SUB::Plomo (Compuestos solubles)" id="137" weight="4.6582" />
+      <edge source="LOC::Yucatán.Acanceh" target="SUB::Cadmio (Compuestos solubles)" id="138" weight="134.148" />
+      <edge source="LOC::Yucatán.Acanceh" target="SUB::Arsénico (Compuestos solubles)" id="139" weight="4.1585" />
+      <edge source="LOC::Yucatán.Acanceh" target="SUB::Cromo (Compuestos solubles)" id="140" weight="10.3672" />
+      <edge source="LOC::Yucatán.Acanceh" target="SUB::Níquel (Compuestos solubles)" id="141" weight="29.675500000000003" />
+      <edge source="LOC::Yucatán.Acanceh" target="SUB::Plomo (Compuestos solubles)" id="142" weight="9.584800000000001" />
+      <edge source="LOC::Yucatán.Cacalchén" target="SUB::Níquel (Compuestos solubles)" id="143" weight="8.3878" />
+      <edge source="LOC::Yucatán.Cacalchén" target="SUB::Arsénico (Compuestos solubles)" id="144" weight="2.1724" />
+      <edge source="LOC::Yucatán.Cacalchén" target="SUB::Cadmio (Compuestos solubles)" id="145" weight="2.1724" />
+      <edge source="LOC::Yucatán.Cacalchén" target="SUB::Cromo (Compuestos solubles)" id="146" weight="2.1724" />
+      <edge source="LOC::Yucatán.Cacalchén" target="SUB::Plomo (Compuestos solubles)" id="147" weight="2.1724" />
+      <edge source="LOC::Yucatán.Tekantó" target="SUB::Níquel (Compuestos solubles)" id="148" weight="13.8747" />
+      <edge source="LOC::Yucatán.Teabo" target="SUB::Níquel (Compuestos solubles)" id="149" weight="32.024499999999996" />
+      <edge source="LOC::Yucatán.Teabo" target="SUB::Bióxido de carbono" id="150" weight="145670.0" />
+      <edge source="LOC::Yucatán.Teabo" target="SUB::Arsénico (Compuestos solubles)" id="151" weight="10.6126" />
+      <edge source="LOC::Yucatán.Teabo" target="SUB::Cadmio (Compuestos solubles)" id="152" weight="10.227100000000002" />
+      <edge source="LOC::Yucatán.Teabo" target="SUB::Cromo (Compuestos solubles)" id="153" weight="17.774" />
+      <edge source="LOC::Yucatán.Teabo" target="SUB::Plomo (Compuestos solubles)" id="154" weight="16.561999999999998" />
+      <edge source="LOC::Yucatán.Abalá" target="SUB::Arsénico (Compuestos solubles)" id="155" weight="83.69359999999998" />
+      <edge source="LOC::Yucatán.Abalá" target="SUB::Cadmio (Compuestos solubles)" id="156" weight="88.97559999999994" />
+      <edge source="LOC::Yucatán.Abalá" target="SUB::Cromo (Compuestos solubles)" id="157" weight="95.64079999999997" />
+      <edge source="LOC::Yucatán.Abalá" target="SUB::Níquel (Compuestos solubles)" id="158" weight="268.471" />
+      <edge source="LOC::Yucatán.Abalá" target="SUB::Plomo (Compuestos solubles)" id="159" weight="80.92059999999998" />
+      <edge source="LOC::Yucatán.Abalá" target="SUB::Bióxido de carbono" id="160" weight="7531980.0" />
+      <edge source="LOC::Yucatán.Tixpéhual" target="SUB::Níquel (Compuestos solubles)" id="161" weight="45.0714" />
+      <edge source="LOC::Yucatán.Tixpéhual" target="SUB::Arsénico (Compuestos solubles)" id="162" weight="37.7685" />
+      <edge source="LOC::Yucatán.Tixpéhual" target="SUB::Cadmio (Compuestos solubles)" id="163" weight="35.9208" />
+      <edge source="LOC::Yucatán.Tixpéhual" target="SUB::Cromo (Compuestos solubles)" id="164" weight="37.8674" />
+      <edge source="LOC::Yucatán.Tixpéhual" target="SUB::Plomo (Compuestos solubles)" id="165" weight="36.8061" />
+      <edge source="LOC::Yucatán.Tixpéhual" target="SUB::Bióxido de carbono" id="166" weight="754130.0" />
+      <edge source="LOC::Yucatán.Chumayel" target="SUB::Bióxido de carbono" id="167" weight="384200.0" />
+      <edge source="LOC::Yucatán.Chumayel" target="SUB::Arsénico (Compuestos solubles)" id="168" weight="2.4791" />
+      <edge source="LOC::Yucatán.Chumayel" target="SUB::Cadmio (Compuestos solubles)" id="169" weight="2.4791" />
+      <edge source="LOC::Yucatán.Chumayel" target="SUB::Cromo (Compuestos solubles)" id="170" weight="2.4791" />
+      <edge source="LOC::Yucatán.Chumayel" target="SUB::Níquel (Compuestos solubles)" id="171" weight="4.729699999999999" />
+      <edge source="LOC::Yucatán.Chumayel" target="SUB::Plomo (Compuestos solubles)" id="172" weight="2.4791" />
+      <edge source="LOC::Yucatán.Hocabá" target="SUB::Bióxido de carbono" id="173" weight="236740.0" />
+      <edge source="LOC::Yucatán.Hocabá" target="SUB::Níquel (Compuestos solubles)" id="174" weight="8.8073" />
+      <edge source="LOC::Yucatán.Hocabá" target="SUB::Arsénico (Compuestos solubles)" id="175" weight="2.9215" />
+      <edge source="LOC::Yucatán.Hocabá" target="SUB::Cadmio (Compuestos solubles)" id="176" weight="1.531" />
+      <edge source="LOC::Yucatán.Hocabá" target="SUB::Cromo (Compuestos solubles)" id="177" weight="1.531" />
+      <edge source="LOC::Yucatán.Hocabá" target="SUB::Plomo (Compuestos solubles)" id="178" weight="3.2237999999999998" />
+      <edge source="LOC::Yucatán.Kopomá" target="SUB::Bióxido de carbono" id="179" weight="304670.0" />
+      <edge source="LOC::Yucatán.Kopomá" target="SUB::Arsénico (Compuestos solubles)" id="180" weight="20.3088" />
+      <edge source="LOC::Yucatán.Kopomá" target="SUB::Cadmio (Compuestos solubles)" id="181" weight="18.495" />
+      <edge source="LOC::Yucatán.Kopomá" target="SUB::Cromo (Compuestos solubles)" id="182" weight="25.469800000000003" />
+      <edge source="LOC::Yucatán.Kopomá" target="SUB::Níquel (Compuestos solubles)" id="183" weight="49.78810000000001" />
+      <edge source="LOC::Yucatán.Kopomá" target="SUB::Plomo (Compuestos solubles)" id="184" weight="26.1774" />
+      <edge source="LOC::Yucatán.Mama" target="SUB::Bióxido de carbono" id="185" weight="187410.0" />
+      <edge source="LOC::Yucatán.Mama" target="SUB::Arsénico (Compuestos solubles)" id="186" weight="6.805399999999999" />
+      <edge source="LOC::Yucatán.Mama" target="SUB::Cadmio (Compuestos solubles)" id="187" weight="6.805399999999999" />
+      <edge source="LOC::Yucatán.Mama" target="SUB::Cromo (Compuestos solubles)" id="188" weight="7.160499999999999" />
+      <edge source="LOC::Yucatán.Mama" target="SUB::Níquel (Compuestos solubles)" id="189" weight="11.631599999999999" />
+      <edge source="LOC::Yucatán.Mama" target="SUB::Plomo (Compuestos solubles)" id="190" weight="6.805399999999999" />
+      <edge source="LOC::Yucatán.Maxcanú" target="SUB::Bióxido de carbono" id="191" weight="2278520.0" />
+      <edge source="LOC::Yucatán.Maxcanú" target="SUB::Arsénico (Compuestos solubles)" id="192" weight="33.952" />
+      <edge source="LOC::Yucatán.Maxcanú" target="SUB::Cadmio (Compuestos solubles)" id="193" weight="32.5354" />
+      <edge source="LOC::Yucatán.Maxcanú" target="SUB::Cromo (Compuestos solubles)" id="194" weight="40.35" />
+      <edge source="LOC::Yucatán.Maxcanú" target="SUB::Níquel (Compuestos solubles)" id="195" weight="60.7458" />
+      <edge source="LOC::Yucatán.Maxcanú" target="SUB::Plomo (Compuestos solubles)" id="196" weight="40.75940000000001" />
+      <edge source="LOC::Yucatán.Opichén" target="SUB::Bióxido de carbono" id="197" weight="1162960.0" />
+      <edge source="LOC::Yucatán.Opichén" target="SUB::Arsénico (Compuestos solubles)" id="198" weight="74.326" />
+      <edge source="LOC::Yucatán.Opichén" target="SUB::Cadmio (Compuestos solubles)" id="199" weight="76.9808" />
+      <edge source="LOC::Yucatán.Opichén" target="SUB::Cromo (Compuestos solubles)" id="200" weight="70.9199" />
+      <edge source="LOC::Yucatán.Opichén" target="SUB::Mercurio (Compuestos solubles)" id="201" weight="4.3695" />
+      <edge source="LOC::Yucatán.Opichén" target="SUB::Níquel (Compuestos solubles)" id="202" weight="88.3257" />
+      <edge source="LOC::Yucatán.Opichén" target="SUB::Plomo (Compuestos solubles)" id="203" weight="73.0175" />
+      <edge source="LOC::Yucatán.Santa Elena" target="SUB::Bióxido de carbono" id="204" weight="107390.0" />
+      <edge source="LOC::Yucatán.Santa Elena" target="SUB::Arsénico (Compuestos solubles)" id="205" weight="10.6298" />
+      <edge source="LOC::Yucatán.Santa Elena" target="SUB::Cadmio (Compuestos solubles)" id="206" weight="10.4156" />
+      <edge source="LOC::Yucatán.Santa Elena" target="SUB::Cromo (Compuestos solubles)" id="207" weight="10.4156" />
+      <edge source="LOC::Yucatán.Santa Elena" target="SUB::Níquel (Compuestos solubles)" id="208" weight="15.412799999999999" />
+      <edge source="LOC::Yucatán.Santa Elena" target="SUB::Plomo (Compuestos solubles)" id="209" weight="11.010200000000001" />
+      <edge source="LOC::Yucatán.Sotuta" target="SUB::Bióxido de carbono" id="210" weight="1658180.0" />
+      <edge source="LOC::Yucatán.Sotuta" target="SUB::Arsénico (Compuestos solubles)" id="211" weight="66.0282" />
+      <edge source="LOC::Yucatán.Sotuta" target="SUB::Cadmio (Compuestos solubles)" id="212" weight="62.833000000000006" />
+      <edge source="LOC::Yucatán.Sotuta" target="SUB::Cromo (Compuestos solubles)" id="213" weight="62.833000000000006" />
+      <edge source="LOC::Yucatán.Sotuta" target="SUB::Níquel (Compuestos solubles)" id="214" weight="100.3784" />
+      <edge source="LOC::Yucatán.Sotuta" target="SUB::Plomo (Compuestos solubles)" id="215" weight="64.9526" />
+      <edge source="LOC::Yucatán.Kanasín" target="SUB::Bióxido de carbono" id="216" weight="405350.99" />
+      <edge source="LOC::Yucatán.Kanasín" target="SUB::Cianuro inorgánico/orgánico" id="217" weight="0.40556" />
+      <edge source="LOC::Yucatán.Kanasín" target="SUB::Mercurio (polvos, respirables, vapores o humos)" id="218" weight="0.0040556" />
+      <edge source="LOC::Yucatán.Kanasín" target="SUB::Arsénico (polvos, respirables, vapores o humos)" id="219" weight="0.40556" />
+      <edge source="LOC::Yucatán.Kanasín" target="SUB::Cadmio (polvos, respirables, vapores o humos)" id="220" weight="0.40556" />
+      <edge source="LOC::Yucatán.Kanasín" target="SUB::Cromo (compuestos)" id="221" weight="0.040556" />
+      <edge source="LOC::Yucatán.Kanasín" target="SUB::Níquel (compuestos)" id="222" weight="0.0040556" />
+      <edge source="LOC::Yucatán.Kanasín" target="SUB::Plomo (compuestos)" id="223" weight="0.0040556" />
+      <edge source="LOC::Yucatán.Kanasín" target="SUB::Mercurio (Compuestos solubles)" id="224" weight="5.2227" />
+      <edge source="LOC::Yucatán.Kanasín" target="SUB::Cadmio (Compuestos solubles)" id="225" weight="1.2516" />
+      <edge source="LOC::Yucatán.Kanasín" target="SUB::Cromo (Compuestos solubles)" id="226" weight="9.2501" />
+      <edge source="LOC::Yucatán.Kanasín" target="SUB::Níquel (Compuestos solubles)" id="227" weight="23.614800000000002" />
+      <edge source="LOC::Yucatán.Kanasín" target="SUB::Plomo (Compuestos solubles)" id="228" weight="10.6539" />
+      <edge source="LOC::Yucatán.Muna" target="SUB::Metano" id="229" weight="874440.0" />
+      <edge source="LOC::Yucatán.Muna" target="SUB::Arsénico (Compuestos solubles)" id="230" weight="1.3863" />
+      <edge source="LOC::Yucatán.Muna" target="SUB::Cadmio (Compuestos solubles)" id="231" weight="5.5538" />
+      <edge source="LOC::Yucatán.Muna" target="SUB::Cromo (Compuestos solubles)" id="232" weight="27.7692" />
+      <edge source="LOC::Yucatán.Muna" target="SUB::Mercurio (Compuestos solubles)" id="233" weight="1.3863" />
+      <edge source="LOC::Yucatán.Muna" target="SUB::Níquel (Compuestos solubles)" id="234" weight="71.3321" />
+      <edge source="LOC::Yucatán.Muna" target="SUB::Plomo (Compuestos solubles)" id="235" weight="24.9922" />
+      <edge source="LOC::Yucatán.Chapab" target="SUB::Bióxido de carbono" id="236" weight="5566400.0" />
+      <edge source="LOC::Yucatán.Chapab" target="SUB::Metano" id="237" weight="967000.0" />
+      <edge source="LOC::Yucatán.Chapab" target="SUB::Níquel (Compuestos solubles)" id="238" weight="6.7262" />
+      <edge source="LOC::Yucatán.Muxupip" target="SUB::Arsénico (Compuestos solubles)" id="239" weight="31.3842" />
+      <edge source="LOC::Yucatán.Muxupip" target="SUB::Cadmio (Compuestos solubles)" id="240" weight="12.951899999999998" />
+      <edge source="LOC::Yucatán.Muxupip" target="SUB::Cromo (Compuestos solubles)" id="241" weight="64.73400000000001" />
+      <edge source="LOC::Yucatán.Muxupip" target="SUB::Mercurio (Compuestos solubles)" id="242" weight="5.1135" />
+      <edge source="LOC::Yucatán.Muxupip" target="SUB::Níquel (Compuestos solubles)" id="243" weight="73.84660000000001" />
+      <edge source="LOC::Yucatán.Muxupip" target="SUB::Plomo (Compuestos solubles)" id="244" weight="51.467800000000004" />
+      <edge source="LOC::Yucatán.Ticul" target="SUB::Cromo (Compuestos solubles)" id="245" weight="11.5537" />
+      <edge source="LOC::Yucatán.Ticul" target="SUB::Níquel (Compuestos solubles)" id="246" weight="37.27" />
+      <edge source="LOC::Yucatán.Ticul" target="SUB::Plomo (Compuestos solubles)" id="247" weight="3.727" />
+      <edge source="LOC::Yucatán.Ticul" target="SUB::Cadmio (Compuestos solubles)" id="248" weight="2.5834" />
+      <edge source="LOC::Yucatán.Tekax" target="SUB::Arsénico (Compuestos solubles)" id="249" weight="11.2294" />
+      <edge source="LOC::Yucatán.Tekax" target="SUB::Cadmio (Compuestos solubles)" id="250" weight="11.0123" />
+      <edge source="LOC::Yucatán.Tekax" target="SUB::Cromo (Compuestos solubles)" id="251" weight="14.9039" />
+      <edge source="LOC::Yucatán.Tekax" target="SUB::Níquel (Compuestos solubles)" id="252" weight="30.229100000000003" />
+      <edge source="LOC::Yucatán.Tekax" target="SUB::Plomo (Compuestos solubles)" id="253" weight="15.0574" />
+      <edge source="LOC::Yucatán.Tepakán" target="SUB::Arsénico (Compuestos solubles)" id="254" weight="2.0186" />
+      <edge source="LOC::Yucatán.Tepakán" target="SUB::Cadmio (Compuestos solubles)" id="255" weight="2.0186" />
+      <edge source="LOC::Yucatán.Tepakán" target="SUB::Cromo (Compuestos solubles)" id="256" weight="2.0186" />
+      <edge source="LOC::Yucatán.Tepakán" target="SUB::Níquel (Compuestos solubles)" id="257" weight="6.5541" />
+      <edge source="LOC::Yucatán.Tepakán" target="SUB::Plomo (Compuestos solubles)" id="258" weight="2.0186" />
+      <edge source="LOC::Yucatán.Tecoh" target="SUB::Cromo (Compuestos solubles)" id="259" weight="2.2944" />
+      <edge source="LOC::Yucatán.Tecoh" target="SUB::Níquel (Compuestos solubles)" id="260" weight="5.031899999999999" />
+      <edge source="LOC::Yucatán.Tecoh" target="SUB::Plomo (Compuestos solubles)" id="261" weight="1.2505" />
+      <edge source="LOC::Yucatán.Kinchil" target="SUB::Cadmio (Compuestos solubles)" id="262" weight="3.3808" />
+      <edge source="LOC::Yucatán.Kinchil" target="SUB::Cromo (Compuestos solubles)" id="263" weight="16.904" />
+      <edge source="LOC::Yucatán.Kinchil" target="SUB::Níquel (Compuestos solubles)" id="264" weight="42.26" />
+      <edge source="LOC::Yucatán.Kinchil" target="SUB::Plomo (Compuestos solubles)" id="265" weight="15.2136" />
+      <edge source="LOC::Yucatán.Chicxulub Pueblo" target="SUB::Cromo (Compuestos solubles)" id="266" weight="4.5888" />
+      <edge source="LOC::Yucatán.Chicxulub Pueblo" target="SUB::Níquel (Compuestos solubles)" id="267" weight="12.5671" />
+      <edge source="LOC::Yucatán.Chicxulub Pueblo" target="SUB::Plomo (Compuestos solubles)" id="268" weight="4.13" />
+      <edge source="LOC::Yucatán.Seyé" target="SUB::Cromo (Compuestos solubles)" id="269" weight="2.0699" />
+      <edge source="LOC::Yucatán.Seyé" target="SUB::Níquel (Compuestos solubles)" id="270" weight="5.1747" />
+      <edge source="LOC::Yucatán.Seyé" target="SUB::Plomo (Compuestos solubles)" id="271" weight="1.8629" />
+      <edge source="LOC::Yucatán.Tekal de Venegas" target="SUB::Cadmio (Compuestos solubles)" id="272" weight="1.2599" />
+      <edge source="LOC::Yucatán.Tekal de Venegas" target="SUB::Cromo (Compuestos solubles)" id="273" weight="10.387" />
+      <edge source="LOC::Yucatán.Tekal de Venegas" target="SUB::Níquel (Compuestos solubles)" id="274" weight="25.9675" />
+      <edge source="LOC::Yucatán.Tekal de Venegas" target="SUB::Plomo (Compuestos solubles)" id="275" weight="9.3483" />
+      <edge source="LOC::Yucatán.Cuzamá" target="SUB::Níquel (Compuestos solubles)" id="276" weight="1.4102" />
+      <edge source="LOC::Yucatán.Izamal" target="SUB::Cadmio (Compuestos solubles)" id="277" weight="7.4648" />
+      <edge source="LOC::Yucatán.Izamal" target="SUB::Cromo (Compuestos solubles)" id="278" weight="37.3242" />
+      <edge source="LOC::Yucatán.Izamal" target="SUB::Níquel (Compuestos solubles)" id="279" weight="93.31049999999999" />
+      <edge source="LOC::Yucatán.Izamal" target="SUB::Plomo (Compuestos solubles)" id="280" weight="33.5918" />
+      <edge source="LOC::Yucatán.Conkal" target="SUB::Cromo (Compuestos solubles)" id="281" weight="3.3706" />
+      <edge source="LOC::Yucatán.Conkal" target="SUB::Níquel (Compuestos solubles)" id="282" weight="8.4266" />
+      <edge source="LOC::Yucatán.Conkal" target="SUB::Plomo (Compuestos solubles)" id="283" weight="3.0336" />
+      <edge source="LOC::Yucatán.Kantunil" target="SUB::Cadmio (Compuestos solubles)" id="284" weight="3.0696" />
+      <edge source="LOC::Yucatán.Kantunil" target="SUB::Cromo (Compuestos solubles)" id="285" weight="15.3484" />
+      <edge source="LOC::Yucatán.Kantunil" target="SUB::Níquel (Compuestos solubles)" id="286" weight="38.371" />
+      <edge source="LOC::Yucatán.Kantunil" target="SUB::Plomo (Compuestos solubles)" id="287" weight="13.8136" />
+      <edge source="LOC::Yucatán.Tixmehuac" target="SUB::Níquel (Compuestos solubles)" id="288" weight="7.3517" />
+    </edges>
+  </graph>
+</gexf>

@@ -1,0 +1,612 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<gexf xmlns="http://gexf.net/1.3" version="1.3" xmlns:viz="http://gexf.net/1.3/viz" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://gexf.net/1.3 http://gexf.net/1.3/gexf.xsd">
+  <meta lastmodifieddate="2026-10-16">
+    <creator>Apache NetBeans Platform Dev (Build {0})</creator>
+    <title></title>
+    <description></description>
+  </meta>
+  <graph defaultedgetype="undirected" mode="static">
+    <attributes class="node" mode="static">
+      <attribute id="0" title="lat" type="double"/>
+      <attribute id="1" title="lon" type="double"/>
+      <attribute id="2" title="total_kg" type="double"/>
+      <attribute id="3" title="community" type="long"/>
+      <attribute id="4" title="color_hex" type="string"/>
+    </attributes>
+    <nodes>
+      <node id="Hidalgo.Acatlán" label="Acatlán">
+        <attvalues>
+          <attvalue for="0" value="20.0845251"/>
+          <attvalue for="1" value="-98.2618139"/>
+          <attvalue for="2" value="2296.3783"/>
+          <attvalue for="3" value="0"/>
+          <attvalue for="4" value="#2a78d6"/>
+        </attvalues>
+        <viz:size value="20.0"/>
+        <viz:position x="356.97525" y="49.883873"/>
+        <viz:color r="42" g="120" b="214"/>
+      </node>
+      <node id="Hidalgo.Actopan" label="Actopan">
+        <attvalues>
+          <attvalue for="0" value="20.1608709"/>
+          <attvalue for="1" value="-98.5634442"/>
+          <attvalue for="2" value="1.377891766076E8"/>
+          <attvalue for="3" value="0"/>
+          <attvalue for="4" value="#2a78d6"/>
+        </attvalues>
+        <viz:size value="20.053713"/>
+        <viz:position x="95.56539" y="122.5964"/>
+        <viz:color r="42" g="120" b="214"/>
+      </node>
+      <node id="Hidalgo.Apan" label="Apan">
+        <attvalues>
+          <attvalue for="0" value="19.4236"/>
+          <attvalue for="1" value="-98.2707"/>
+          <attvalue for="2" value="1.3932548163500002E8"/>
+          <attvalue for="3" value="0"/>
+          <attvalue for="4" value="#2a78d6"/>
+        </attvalues>
+        <viz:size value="20.054312"/>
+        <viz:position x="349.27405" y="-579.588"/>
+        <viz:color r="42" g="120" b="214"/>
+      </node>
+      <node id="Hidalgo.Atitalaquia" label="Atitalaquia">
+        <attvalues>
+          <attvalue for="0" value="20.0332957"/>
+          <attvalue for="1" value="-99.1316063"/>
+          <attvalue for="2" value="1.6837682200459003E10"/>
+          <attvalue for="3" value="1"/>
+          <attvalue for="4" value="#eb6834"/>
+        </attvalues>
+        <viz:size value="26.563753"/>
+        <viz:position x="-396.83597" y="1.092464"/>
+        <viz:color r="235" g="104" b="52"/>
+      </node>
+      <node id="Hidalgo.Atotonilco de Tula" label="Atotonilco de Tula">
+        <attvalues>
+          <attvalue for="0" value="20.002796"/>
+          <attvalue for="1" value="-99.1312687"/>
+          <attvalue for="2" value="1.5580788339504332E10"/>
+          <attvalue for="3" value="1"/>
+          <attvalue for="4" value="#eb6834"/>
+        </attvalues>
+        <viz:size value="26.073786"/>
+        <viz:position x="-396.5434" y="-27.955763"/>
+        <viz:color r="235" g="104" b="52"/>
+      </node>
+      <node id="Hidalgo.Emiliano Zapata" label="Emiliano Zapata">
+        <attvalues>
+          <attvalue for="0" value="19.392523"/>
+          <attvalue for="1" value="-98.3250698"/>
+          <attvalue for="2" value="5.0512561160710007E8"/>
+          <attvalue for="3" value="0"/>
+          <attvalue for="4" value="#2a78d6"/>
+        </attvalues>
+        <viz:size value="20.19691"/>
+        <viz:position x="302.1541" y="-609.18604"/>
+        <viz:color r="42" g="120" b="214"/>
+      </node>
+      <node id="Hidalgo.Huejutla de Reyes" label="Huejutla de Reyes">
+        <attvalues>
+          <attvalue for="0" value="21.0821163"/>
+          <attvalue for="1" value="-98.2514142"/>
+          <attvalue for="2" value="22.449364"/>
+          <attvalue for="3" value="3"/>
+          <attvalue for="4" value="#eda100"/>
+        </attvalues>
+        <viz:size value="20.0"/>
+        <viz:position x="365.98822" y="1000.0"/>
+        <viz:color r="237" g="161" b="0"/>
+      </node>
+      <node id="Hidalgo.Huichapan" label="Huichapan">
+        <attvalues>
+          <attvalue for="0" value="20.2231127"/>
+          <attvalue for="1" value="-99.390425"/>
+          <attvalue for="2" value="1.6868062074051641E10"/>
+          <attvalue for="3" value="1"/>
+          <attvalue for="4" value="#eb6834"/>
+        </attvalues>
+        <viz:size value="26.575598"/>
+        <viz:position x="-621.1429" y="181.87613"/>
+        <viz:color r="235" g="104" b="52"/>
+      </node>
+      <node id="Hidalgo.Lolotla" label="Lolotla">
+        <attvalues>
+          <attvalue for="0" value="20.5028192"/>
+          <attvalue for="1" value="-98.430224"/>
+          <attvalue for="2" value="3.3032528375035963E9"/>
+          <attvalue for="3" value="1"/>
+          <attvalue for="4" value="#eb6834"/>
+        </attvalues>
+        <viz:size value="21.287691"/>
+        <viz:position x="211.02155" y="448.27148"/>
+        <viz:color r="235" g="104" b="52"/>
+      </node>
+      <node id="Hidalgo.Metepec" label="Metepec">
+        <attvalues>
+          <attvalue for="0" value="20.1418277"/>
+          <attvalue for="1" value="-98.1919792"/>
+          <attvalue for="2" value="476800.0"/>
+          <attvalue for="3" value="0"/>
+          <attvalue for="4" value="#2a78d6"/>
+        </attvalues>
+        <viz:size value="20.000185"/>
+        <viz:position x="417.49792" y="104.45946"/>
+        <viz:color r="42" g="120" b="214"/>
+      </node>
+      <node id="Hidalgo.Mineral de la Reforma" label="Mineral de la Reforma">
+        <attvalues>
+          <attvalue for="0" value="20.0420537"/>
+          <attvalue for="1" value="-98.4145725"/>
+          <attvalue for="2" value="4040717.27703045"/>
+          <attvalue for="3" value="2"/>
+          <attvalue for="4" value="#1baf7a"/>
+        </attvalues>
+        <viz:size value="20.001575"/>
+        <viz:position x="224.58601" y="9.433673"/>
+        <viz:color r="27" g="175" b="122"/>
+      </node>
+      <node id="Hidalgo.Molango de Escamilla" label="Molango de Escamilla">
+        <attvalues>
+          <attvalue for="0" value="20.4711394"/>
+          <attvalue for="1" value="-98.4350929"/>
+          <attvalue for="2" value="2.369066541E7"/>
+          <attvalue for="3" value="0"/>
+          <attvalue for="4" value="#2a78d6"/>
+        </attvalues>
+        <viz:size value="20.009235"/>
+        <viz:position x="206.80188" y="418.0993"/>
+        <viz:color r="42" g="120" b="214"/>
+      </node>
+      <node id="Hidalgo.Nopala de Villagrán" label="Nopala de Villagrán">
+        <attvalues>
+          <attvalue for="0" value="20.1506805"/>
+          <attvalue for="1" value="-99.3839258"/>
+          <attvalue for="2" value="123.264"/>
+          <attvalue for="3" value="0"/>
+          <attvalue for="4" value="#2a78d6"/>
+        </attvalues>
+        <viz:size value="20.0"/>
+        <viz:position x="-615.5103" y="112.89095"/>
+        <viz:color r="42" g="120" b="214"/>
+      </node>
+      <node id="Hidalgo.Pachuca de Soto" label="Pachuca de Soto">
+        <attvalues>
+          <attvalue for="0" value="20.0720495"/>
+          <attvalue for="1" value="-98.4413202"/>
+          <attvalue for="2" value="347607.7119651549"/>
+          <attvalue for="3" value="1"/>
+          <attvalue for="4" value="#eb6834"/>
+        </attvalues>
+        <viz:size value="20.000135"/>
+        <viz:position x="201.40494" y="38.00198"/>
+        <viz:color r="235" g="104" b="52"/>
+      </node>
+      <node id="Hidalgo.Progreso de Obregón" label="Progreso de Obregón">
+        <attvalues>
+          <attvalue for="0" value="20.1453503"/>
+          <attvalue for="1" value="-99.1121692"/>
+          <attvalue for="2" value="1.7700623745673559E9"/>
+          <attvalue for="3" value="0"/>
+          <attvalue for="4" value="#2a78d6"/>
+        </attvalues>
+        <viz:size value="20.690016"/>
+        <viz:position x="-379.9907" y="107.814415"/>
+        <viz:color r="42" g="120" b="214"/>
+      </node>
+      <node id="Hidalgo.San Agustín Tlaxiaca" label="San Agustín Tlaxiaca">
+        <attvalues>
+          <attvalue for="0" value="20.0656379"/>
+          <attvalue for="1" value="-98.5312399"/>
+          <attvalue for="2" value="14308.643134"/>
+          <attvalue for="3" value="4"/>
+          <attvalue for="4" value="#e87ba4"/>
+        </attvalues>
+        <viz:size value="20.000006"/>
+        <viz:position x="123.47546" y="31.895508"/>
+        <viz:color r="232" g="123" b="164"/>
+      </node>
+      <node id="Hidalgo.Santiago de Anaya" label="Santiago de Anaya">
+        <attvalues>
+          <attvalue for="0" value="20.2257295"/>
+          <attvalue for="1" value="-98.5750229"/>
+          <attvalue for="2" value="7.923167300743963E8"/>
+          <attvalue for="3" value="1"/>
+          <attvalue for="4" value="#eb6834"/>
+        </attvalues>
+        <viz:size value="20.308865"/>
+        <viz:position x="85.53063" y="184.3684"/>
+        <viz:color r="235" g="104" b="52"/>
+      </node>
+      <node id="Hidalgo.Tepeapulco" label="Tepeapulco">
+        <attvalues>
+          <attvalue for="0" value="19.4708426"/>
+          <attvalue for="1" value="-98.3313182"/>
+          <attvalue for="2" value="1.9007513215772817E9"/>
+          <attvalue for="3" value="2"/>
+          <attvalue for="4" value="#1baf7a"/>
+        </attvalues>
+        <viz:size value="20.740961"/>
+        <viz:position x="296.7389" y="-534.5936"/>
+        <viz:color r="27" g="175" b="122"/>
+      </node>
+      <node id="Hidalgo.Tepeji del Río de Ocampo" label="Tepeji del Río de Ocampo">
+        <attvalues>
+          <attvalue for="0" value="19.5418782"/>
+          <attvalue for="1" value="-99.2030531"/>
+          <attvalue for="2" value="4.658142935675575E9"/>
+          <attvalue for="3" value="1"/>
+          <attvalue for="4" value="#eb6834"/>
+        </attvalues>
+        <viz:size value="21.81586"/>
+        <viz:position x="-458.7558" y="-466.93863"/>
+        <viz:color r="235" g="104" b="52"/>
+      </node>
+      <node id="Hidalgo.Tizayuca" label="Tizayuca">
+        <attvalues>
+          <attvalue for="0" value="19.502792"/>
+          <attvalue for="1" value="-98.5853703"/>
+          <attvalue for="2" value="3.9370607943755975E9"/>
+          <attvalue for="3" value="2"/>
+          <attvalue for="4" value="#1baf7a"/>
+        </attvalues>
+        <viz:size value="21.534765"/>
+        <viz:position x="76.562996" y="-504.1647"/>
+        <viz:color r="27" g="175" b="122"/>
+      </node>
+      <node id="Hidalgo.Tlaxcoapan" label="Tlaxcoapan">
+        <attvalues>
+          <attvalue for="0" value="20.0529812"/>
+          <attvalue for="1" value="-99.1317736"/>
+          <attvalue for="2" value="2.00208"/>
+          <attvalue for="3" value="5"/>
+          <attvalue for="4" value="#008300"/>
+        </attvalues>
+        <viz:size value="20.0"/>
+        <viz:position x="-396.98096" y="19.841137"/>
+        <viz:color r="0" g="131" b="0"/>
+      </node>
+      <node id="Hidalgo.Tolcayuca" label="Tolcayuca">
+        <attvalues>
+          <attvalue for="0" value="19.5723728"/>
+          <attvalue for="1" value="-98.551834"/>
+          <attvalue for="2" value="4.093071899831689E7"/>
+          <attvalue for="3" value="0"/>
+          <attvalue for="4" value="#2a78d6"/>
+        </attvalues>
+        <viz:size value="20.015955"/>
+        <viz:position x="105.62744" y="-437.89523"/>
+        <viz:color r="42" g="120" b="214"/>
+      </node>
+      <node id="Hidalgo.Tula de Allende" label="Tula de Allende">
+        <attvalues>
+          <attvalue for="0" value="20.0318791"/>
+          <attvalue for="1" value="-99.203548"/>
+          <attvalue for="2" value="1.2826259515348627E11"/>
+          <attvalue for="3" value="1"/>
+          <attvalue for="4" value="#eb6834"/>
+        </attvalues>
+        <viz:size value="70.0"/>
+        <viz:position x="-459.18472" y="-0.25672042"/>
+        <viz:color r="235" g="104" b="52"/>
+      </node>
+      <node id="Hidalgo.Tulancingo de Bravo" label="Tulancingo de Bravo">
+        <attvalues>
+          <attvalue for="0" value="20.0450178"/>
+          <attvalue for="1" value="-98.2205062"/>
+          <attvalue for="2" value="567767.2835303814"/>
+          <attvalue for="3" value="6"/>
+          <attvalue for="4" value="#4a3aa7"/>
+        </attvalues>
+        <viz:size value="20.000221"/>
+        <viz:position x="392.7748" y="12.256713"/>
+        <viz:color r="74" g="58" b="167"/>
+      </node>
+      <node id="Hidalgo.Villa de Tezontepec" label="Villa de Tezontepec">
+        <attvalues>
+          <attvalue for="0" value="19.5247499"/>
+          <attvalue for="1" value="-98.4909444"/>
+          <attvalue for="2" value="1.3780000000000001"/>
+          <attvalue for="3" value="7"/>
+          <attvalue for="4" value="#e34948"/>
+        </attvalues>
+        <viz:size value="20.0"/>
+        <viz:position x="158.39781" y="-483.25177"/>
+        <viz:color r="227" g="73" b="72"/>
+      </node>
+      <node id="Hidalgo.Xochicoatlán" label="Xochicoatlán">
+        <attvalues>
+          <attvalue for="0" value="20.4636677"/>
+          <attvalue for="1" value="-98.4047007"/>
+          <attvalue for="2" value="3.374958579168548E7"/>
+          <attvalue for="3" value="0"/>
+          <attvalue for="4" value="#2a78d6"/>
+        </attvalues>
+        <viz:size value="20.013157"/>
+        <viz:position x="233.14146" y="410.9832"/>
+        <viz:color r="42" g="120" b="214"/>
+      </node>
+      <node id="Hidalgo.Zimapán" label="Zimapán">
+        <attvalues>
+          <attvalue for="0" value="20.4417048"/>
+          <attvalue for="1" value="-99.2259207"/>
+          <attvalue for="2" value="8849196.42194387"/>
+          <attvalue for="3" value="8"/>
+          <attvalue for="4" value="#2a78d6"/>
+        </attvalues>
+        <viz:size value="20.00345"/>
+        <viz:position x="-478.57416" y="390.0655"/>
+        <viz:color r="42" g="120" b="214"/>
+      </node>
+    </nodes>
+    <edges>
+      <edge id="0" source="Hidalgo.Acatlán" target="Hidalgo.Actopan" weight="0.9590029120445251">
+        <viz:color r="137" g="135" b="129" a="0.50980395"/>
+      </edge>
+      <edge id="1" source="Hidalgo.Acatlán" target="Hidalgo.Apan" weight="0.8850591778755188">
+        <viz:color r="137" g="135" b="129" a="0.50980395"/>
+      </edge>
+      <edge id="2" source="Hidalgo.Acatlán" target="Hidalgo.Emiliano Zapata" weight="0.802497923374176">
+        <viz:color r="137" g="135" b="129" a="0.50980395"/>
+      </edge>
+      <edge id="3" source="Hidalgo.Acatlán" target="Hidalgo.Lolotla" weight="0.7065353393554688">
+        <viz:color r="137" g="135" b="129" a="0.50980395"/>
+      </edge>
+      <edge id="4" source="Hidalgo.Acatlán" target="Hidalgo.Metepec" weight="0.964874267578125">
+        <viz:color r="137" g="135" b="129" a="0.50980395"/>
+      </edge>
+      <edge id="5" source="Hidalgo.Acatlán" target="Hidalgo.Mineral de la Reforma" weight="0.8308080434799194">
+        <viz:color r="137" g="135" b="129" a="0.50980395"/>
+      </edge>
+      <edge id="6" source="Hidalgo.Acatlán" target="Hidalgo.Molango de Escamilla" weight="0.964874267578125">
+        <viz:color r="137" g="135" b="129" a="0.50980395"/>
+      </edge>
+      <edge id="7" source="Hidalgo.Acatlán" target="Hidalgo.Nopala de Villagrán" weight="0.964874267578125">
+        <viz:color r="137" g="135" b="129" a="0.50980395"/>
+      </edge>
+      <edge id="8" source="Hidalgo.Acatlán" target="Hidalgo.Progreso de Obregón" weight="0.828330397605896">
+        <viz:color r="137" g="135" b="129" a="0.50980395"/>
+      </edge>
+      <edge id="9" source="Hidalgo.Acatlán" target="Hidalgo.Tolcayuca" weight="0.9511764645576477">
+        <viz:color r="137" g="135" b="129" a="0.50980395"/>
+      </edge>
+      <edge id="10" source="Hidalgo.Acatlán" target="Hidalgo.Xochicoatlán" weight="0.8165817260742188">
+        <viz:color r="137" g="135" b="129" a="0.50980395"/>
+      </edge>
+      <edge id="11" source="Hidalgo.Actopan" target="Hidalgo.Apan" weight="0.9117108583450317">
+        <viz:color r="137" g="135" b="129" a="0.50980395"/>
+      </edge>
+      <edge id="12" source="Hidalgo.Actopan" target="Hidalgo.Emiliano Zapata" weight="0.8266507983207703">
+        <viz:color r="137" g="135" b="129" a="0.50980395"/>
+      </edge>
+      <edge id="13" source="Hidalgo.Actopan" target="Hidalgo.Huichapan" weight="0.7062769532203674">
+        <viz:color r="137" g="135" b="129" a="0.50980395"/>
+      </edge>
+      <edge id="14" source="Hidalgo.Actopan" target="Hidalgo.Lolotla" weight="0.7481978535652161">
+        <viz:color r="137" g="135" b="129" a="0.50980395"/>
+      </edge>
+      <edge id="15" source="Hidalgo.Actopan" target="Hidalgo.Metepec" weight="0.9939142465591431">
+        <viz:color r="137" g="135" b="129" a="0.50980395"/>
+      </edge>
+      <edge id="16" source="Hidalgo.Actopan" target="Hidalgo.Mineral de la Reforma" weight="0.7221711874008179">
+        <viz:color r="137" g="135" b="129" a="0.50980395"/>
+      </edge>
+      <edge id="17" source="Hidalgo.Actopan" target="Hidalgo.Molango de Escamilla" weight="0.9939142465591431">
+        <viz:color r="137" g="135" b="129" a="0.50980395"/>
+      </edge>
+      <edge id="18" source="Hidalgo.Actopan" target="Hidalgo.Nopala de Villagrán" weight="0.9939142465591431">
+        <viz:color r="137" g="135" b="129" a="0.50980395"/>
+      </edge>
+      <edge id="19" source="Hidalgo.Actopan" target="Hidalgo.Pachuca de Soto" weight="0.742246150970459">
+        <viz:color r="137" g="135" b="129" a="0.50980395"/>
+      </edge>
+      <edge id="20" source="Hidalgo.Actopan" target="Hidalgo.Progreso de Obregón" weight="0.8549387454986572">
+        <viz:color r="137" g="135" b="129" a="0.50980395"/>
+      </edge>
+      <edge id="21" source="Hidalgo.Actopan" target="Hidalgo.Tolcayuca" weight="0.9873464107513428">
+        <viz:color r="137" g="135" b="129" a="0.50980395"/>
+      </edge>
+      <edge id="22" source="Hidalgo.Actopan" target="Hidalgo.Xochicoatlán" weight="0.8513662815093994">
+        <viz:color r="137" g="135" b="129" a="0.50980395"/>
+      </edge>
+      <edge id="23" source="Hidalgo.Apan" target="Hidalgo.Emiliano Zapata" weight="0.8934125900268555">
+        <viz:color r="137" g="135" b="129" a="0.50980395"/>
+      </edge>
+      <edge id="24" source="Hidalgo.Apan" target="Hidalgo.Lolotla" weight="0.7092458009719849">
+        <viz:color r="137" g="135" b="129" a="0.50980395"/>
+      </edge>
+      <edge id="25" source="Hidalgo.Apan" target="Hidalgo.Metepec" weight="0.9172793030738831">
+        <viz:color r="137" g="135" b="129" a="0.50980395"/>
+      </edge>
+      <edge id="26" source="Hidalgo.Apan" target="Hidalgo.Mineral de la Reforma" weight="0.7144742608070374">
+        <viz:color r="137" g="135" b="129" a="0.50980395"/>
+      </edge>
+      <edge id="27" source="Hidalgo.Apan" target="Hidalgo.Molango de Escamilla" weight="0.9172793030738831">
+        <viz:color r="137" g="135" b="129" a="0.50980395"/>
+      </edge>
+      <edge id="28" source="Hidalgo.Apan" target="Hidalgo.Nopala de Villagrán" weight="0.9172793030738831">
+        <viz:color r="137" g="135" b="129" a="0.50980395"/>
+      </edge>
+      <edge id="29" source="Hidalgo.Apan" target="Hidalgo.Progreso de Obregón" weight="0.7875113487243652">
+        <viz:color r="137" g="135" b="129" a="0.50980395"/>
+      </edge>
+      <edge id="30" source="Hidalgo.Apan" target="Hidalgo.Tolcayuca" weight="0.9300653338432312">
+        <viz:color r="137" g="135" b="129" a="0.50980395"/>
+      </edge>
+      <edge id="31" source="Hidalgo.Apan" target="Hidalgo.Xochicoatlán" weight="0.7777360081672668">
+        <viz:color r="137" g="135" b="129" a="0.50980395"/>
+      </edge>
+      <edge id="32" source="Hidalgo.Atitalaquia" target="Hidalgo.Atotonilco de Tula" weight="0.7832180261611938">
+        <viz:color r="137" g="135" b="129" a="0.50980395"/>
+      </edge>
+      <edge id="33" source="Hidalgo.Atitalaquia" target="Hidalgo.Tepeapulco" weight="0.717086911201477">
+        <viz:color r="137" g="135" b="129" a="0.50980395"/>
+      </edge>
+      <edge id="34" source="Hidalgo.Atitalaquia" target="Hidalgo.Tepeji del Río de Ocampo" weight="0.771835446357727">
+        <viz:color r="137" g="135" b="129" a="0.50980395"/>
+      </edge>
+      <edge id="35" source="Hidalgo.Atitalaquia" target="Hidalgo.Tula de Allende" weight="0.8594995141029358">
+        <viz:color r="137" g="135" b="129" a="0.50980395"/>
+      </edge>
+      <edge id="36" source="Hidalgo.Atotonilco de Tula" target="Hidalgo.Huichapan" weight="0.7055860757827759">
+        <viz:color r="137" g="135" b="129" a="0.50980395"/>
+      </edge>
+      <edge id="37" source="Hidalgo.Atotonilco de Tula" target="Hidalgo.Santiago de Anaya" weight="0.7177463173866272">
+        <viz:color r="137" g="135" b="129" a="0.50980395"/>
+      </edge>
+      <edge id="38" source="Hidalgo.Atotonilco de Tula" target="Hidalgo.Tepeji del Río de Ocampo" weight="0.8614442348480225">
+        <viz:color r="137" g="135" b="129" a="0.50980395"/>
+      </edge>
+      <edge id="39" source="Hidalgo.Atotonilco de Tula" target="Hidalgo.Tula de Allende" weight="0.8186343312263489">
+        <viz:color r="137" g="135" b="129" a="0.50980395"/>
+      </edge>
+      <edge id="40" source="Hidalgo.Emiliano Zapata" target="Hidalgo.Lolotla" weight="0.7029169201850891">
+        <viz:color r="137" g="135" b="129" a="0.50980395"/>
+      </edge>
+      <edge id="41" source="Hidalgo.Emiliano Zapata" target="Hidalgo.Metepec" weight="0.8317124247550964">
+        <viz:color r="137" g="135" b="129" a="0.50980395"/>
+      </edge>
+      <edge id="42" source="Hidalgo.Emiliano Zapata" target="Hidalgo.Mineral de la Reforma" weight="0.7353469133377075">
+        <viz:color r="137" g="135" b="129" a="0.50980395"/>
+      </edge>
+      <edge id="43" source="Hidalgo.Emiliano Zapata" target="Hidalgo.Molango de Escamilla" weight="0.8317124247550964">
+        <viz:color r="137" g="135" b="129" a="0.50980395"/>
+      </edge>
+      <edge id="44" source="Hidalgo.Emiliano Zapata" target="Hidalgo.Nopala de Villagrán" weight="0.8317124247550964">
+        <viz:color r="137" g="135" b="129" a="0.50980395"/>
+      </edge>
+      <edge id="45" source="Hidalgo.Emiliano Zapata" target="Hidalgo.Progreso de Obregón" weight="0.7140129208564758">
+        <viz:color r="137" g="135" b="129" a="0.50980395"/>
+      </edge>
+      <edge id="46" source="Hidalgo.Emiliano Zapata" target="Hidalgo.Tolcayuca" weight="0.8704922199249268">
+        <viz:color r="137" g="135" b="129" a="0.50980395"/>
+      </edge>
+      <edge id="47" source="Hidalgo.Emiliano Zapata" target="Hidalgo.Xochicoatlán" weight="0.7069747447967529">
+        <viz:color r="137" g="135" b="129" a="0.50980395"/>
+      </edge>
+      <edge id="48" source="Hidalgo.Huichapan" target="Hidalgo.Lolotla" weight="0.8142625093460083">
+        <viz:color r="137" g="135" b="129" a="0.50980395"/>
+      </edge>
+      <edge id="49" source="Hidalgo.Huichapan" target="Hidalgo.Pachuca de Soto" weight="0.758519172668457">
+        <viz:color r="137" g="135" b="129" a="0.50980395"/>
+      </edge>
+      <edge id="50" source="Hidalgo.Huichapan" target="Hidalgo.Tepeji del Río de Ocampo" weight="0.7316062450408936">
+        <viz:color r="137" g="135" b="129" a="0.50980395"/>
+      </edge>
+      <edge id="51" source="Hidalgo.Huichapan" target="Hidalgo.Tula de Allende" weight="0.772495687007904">
+        <viz:color r="137" g="135" b="129" a="0.50980395"/>
+      </edge>
+      <edge id="52" source="Hidalgo.Huichapan" target="Hidalgo.Xochicoatlán" weight="0.7910183668136597">
+        <viz:color r="137" g="135" b="129" a="0.50980395"/>
+      </edge>
+      <edge id="53" source="Hidalgo.Lolotla" target="Hidalgo.Metepec" weight="0.7322563529014587">
+        <viz:color r="137" g="135" b="129" a="0.50980395"/>
+      </edge>
+      <edge id="54" source="Hidalgo.Lolotla" target="Hidalgo.Molango de Escamilla" weight="0.7322563529014587">
+        <viz:color r="137" g="135" b="129" a="0.50980395"/>
+      </edge>
+      <edge id="55" source="Hidalgo.Lolotla" target="Hidalgo.Nopala de Villagrán" weight="0.7322563529014587">
+        <viz:color r="137" g="135" b="129" a="0.50980395"/>
+      </edge>
+      <edge id="56" source="Hidalgo.Lolotla" target="Hidalgo.Pachuca de Soto" weight="0.7684789896011353">
+        <viz:color r="137" g="135" b="129" a="0.50980395"/>
+      </edge>
+      <edge id="57" source="Hidalgo.Lolotla" target="Hidalgo.Tepeji del Río de Ocampo" weight="0.7286038398742676">
+        <viz:color r="137" g="135" b="129" a="0.50980395"/>
+      </edge>
+      <edge id="58" source="Hidalgo.Lolotla" target="Hidalgo.Tolcayuca" weight="0.7517278790473938">
+        <viz:color r="137" g="135" b="129" a="0.50980395"/>
+      </edge>
+      <edge id="59" source="Hidalgo.Lolotla" target="Hidalgo.Tula de Allende" weight="0.7637354731559753">
+        <viz:color r="137" g="135" b="129" a="0.50980395"/>
+      </edge>
+      <edge id="60" source="Hidalgo.Lolotla" target="Hidalgo.Xochicoatlán" weight="0.8758170008659363">
+        <viz:color r="137" g="135" b="129" a="0.50980395"/>
+      </edge>
+      <edge id="61" source="Hidalgo.Metepec" target="Hidalgo.Mineral de la Reforma" weight="0.7246606349945068">
+        <viz:color r="137" g="135" b="129" a="0.50980395"/>
+      </edge>
+      <edge id="62" source="Hidalgo.Metepec" target="Hidalgo.Molango de Escamilla">
+        <viz:color r="137" g="135" b="129" a="0.50980395"/>
+      </edge>
+      <edge id="63" source="Hidalgo.Metepec" target="Hidalgo.Nopala de Villagrán">
+        <viz:color r="137" g="135" b="129" a="0.50980395"/>
+      </edge>
+      <edge id="64" source="Hidalgo.Metepec" target="Hidalgo.Pachuca de Soto" weight="0.7144506573677063">
+        <viz:color r="137" g="135" b="129" a="0.50980395"/>
+      </edge>
+      <edge id="65" source="Hidalgo.Metepec" target="Hidalgo.Progreso de Obregón" weight="0.8584853410720825">
+        <viz:color r="137" g="135" b="129" a="0.50980395"/>
+      </edge>
+      <edge id="66" source="Hidalgo.Metepec" target="Hidalgo.Tolcayuca" weight="0.9858035445213318">
+        <viz:color r="137" g="135" b="129" a="0.50980395"/>
+      </edge>
+      <edge id="67" source="Hidalgo.Metepec" target="Hidalgo.Xochicoatlán" weight="0.8463090062141418">
+        <viz:color r="137" g="135" b="129" a="0.50980395"/>
+      </edge>
+      <edge id="68" source="Hidalgo.Mineral de la Reforma" target="Hidalgo.Molango de Escamilla" weight="0.7246606349945068">
+        <viz:color r="137" g="135" b="129" a="0.50980395"/>
+      </edge>
+      <edge id="69" source="Hidalgo.Mineral de la Reforma" target="Hidalgo.Nopala de Villagrán" weight="0.7246606349945068">
+        <viz:color r="137" g="135" b="129" a="0.50980395"/>
+      </edge>
+      <edge id="70" source="Hidalgo.Mineral de la Reforma" target="Hidalgo.Tepeapulco" weight="0.8063473105430603">
+        <viz:color r="137" g="135" b="129" a="0.50980395"/>
+      </edge>
+      <edge id="71" source="Hidalgo.Mineral de la Reforma" target="Hidalgo.Tizayuca" weight="0.7175368666648865">
+        <viz:color r="137" g="135" b="129" a="0.50980395"/>
+      </edge>
+      <edge id="72" source="Hidalgo.Mineral de la Reforma" target="Hidalgo.Tolcayuca" weight="0.7417157888412476">
+        <viz:color r="137" g="135" b="129" a="0.50980395"/>
+      </edge>
+      <edge id="73" source="Hidalgo.Molango de Escamilla" target="Hidalgo.Nopala de Villagrán">
+        <viz:color r="137" g="135" b="129" a="0.50980395"/>
+      </edge>
+      <edge id="74" source="Hidalgo.Molango de Escamilla" target="Hidalgo.Pachuca de Soto" weight="0.7144506573677063">
+        <viz:color r="137" g="135" b="129" a="0.50980395"/>
+      </edge>
+      <edge id="75" source="Hidalgo.Molango de Escamilla" target="Hidalgo.Progreso de Obregón" weight="0.8584853410720825">
+        <viz:color r="137" g="135" b="129" a="0.50980395"/>
+      </edge>
+      <edge id="76" source="Hidalgo.Molango de Escamilla" target="Hidalgo.Tolcayuca" weight="0.9858035445213318">
+        <viz:color r="137" g="135" b="129" a="0.50980395"/>
+      </edge>
+      <edge id="77" source="Hidalgo.Molango de Escamilla" target="Hidalgo.Xochicoatlán" weight="0.8463090062141418">
+        <viz:color r="137" g="135" b="129" a="0.50980395"/>
+      </edge>
+      <edge id="78" source="Hidalgo.Nopala de Villagrán" target="Hidalgo.Pachuca de Soto" weight="0.7144506573677063">
+        <viz:color r="137" g="135" b="129" a="0.50980395"/>
+      </edge>
+      <edge id="79" source="Hidalgo.Nopala de Villagrán" target="Hidalgo.Progreso de Obregón" weight="0.8584853410720825">
+        <viz:color r="137" g="135" b="129" a="0.50980395"/>
+      </edge>
+      <edge id="80" source="Hidalgo.Nopala de Villagrán" target="Hidalgo.Tolcayuca" weight="0.9858035445213318">
+        <viz:color r="137" g="135" b="129" a="0.50980395"/>
+      </edge>
+      <edge id="81" source="Hidalgo.Nopala de Villagrán" target="Hidalgo.Xochicoatlán" weight="0.8463090062141418">
+        <viz:color r="137" g="135" b="129" a="0.50980395"/>
+      </edge>
+      <edge id="82" source="Hidalgo.Pachuca de Soto" target="Hidalgo.Tolcayuca" weight="0.7317917346954346">
+        <viz:color r="137" g="135" b="129" a="0.50980395"/>
+      </edge>
+      <edge id="83" source="Hidalgo.Progreso de Obregón" target="Hidalgo.Tolcayuca" weight="0.8475761413574219">
+        <viz:color r="137" g="135" b="129" a="0.50980395"/>
+      </edge>
+      <edge id="84" source="Hidalgo.Progreso de Obregón" target="Hidalgo.Xochicoatlán" weight="0.7281293272972107">
+        <viz:color r="137" g="135" b="129" a="0.50980395"/>
+      </edge>
+      <edge id="85" source="Hidalgo.Tepeapulco" target="Hidalgo.Tizayuca" weight="0.8295088410377502">
+        <viz:color r="137" g="135" b="129" a="0.50980395"/>
+      </edge>
+      <edge id="86" source="Hidalgo.Tepeji del Río de Ocampo" target="Hidalgo.Tula de Allende" weight="0.8599324226379395">
+        <viz:color r="137" g="135" b="129" a="0.50980395"/>
+      </edge>
+      <edge id="87" source="Hidalgo.Tepeji del Río de Ocampo" target="Hidalgo.Xochicoatlán" weight="0.7117946743965149">
+        <viz:color r="137" g="135" b="129" a="0.50980395"/>
+      </edge>
+      <edge id="88" source="Hidalgo.Tolcayuca" target="Hidalgo.Xochicoatlán" weight="0.8448041677474976">
+        <viz:color r="137" g="135" b="129" a="0.50980395"/>
+      </edge>
+    </edges>
+  </graph>
+</gexf>

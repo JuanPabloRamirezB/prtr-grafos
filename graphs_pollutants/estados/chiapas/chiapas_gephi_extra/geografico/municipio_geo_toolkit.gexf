@@ -1,0 +1,573 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<gexf xmlns="http://gexf.net/1.3" version="1.3" xmlns:viz="http://gexf.net/1.3/viz" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://gexf.net/1.3 http://gexf.net/1.3/gexf.xsd">
+  <meta lastmodifieddate="2026-10-16">
+    <creator>Apache NetBeans Platform Dev (Build {0})</creator>
+    <title></title>
+    <description></description>
+  </meta>
+  <graph defaultedgetype="undirected" mode="static">
+    <attributes class="node" mode="static">
+      <attribute id="0" title="lat" type="double"/>
+      <attribute id="1" title="lon" type="double"/>
+      <attribute id="2" title="total_kg" type="double"/>
+      <attribute id="3" title="community" type="long"/>
+      <attribute id="4" title="color_hex" type="string"/>
+    </attributes>
+    <nodes>
+      <node id="Chiapas.Arriaga" label="Arriaga">
+        <attvalues>
+          <attvalue for="0" value="16.1409834"/>
+          <attvalue for="1" value="-93.5358104"/>
+          <attvalue for="2" value="1105434.2603383"/>
+          <attvalue for="3" value="1"/>
+          <attvalue for="4" value="#eb6834"/>
+        </attvalues>
+        <viz:size value="20.005896"/>
+        <viz:position x="-388.65344" y="-60.216324"/>
+        <viz:color r="235" g="104" b="52"/>
+      </node>
+      <node id="Chiapas.Benemérito de las Américas" label="Benemérito de las Américas">
+        <attvalues>
+          <attvalue for="0" value="16.3056981"/>
+          <attvalue for="1" value="-90.3911887"/>
+          <attvalue for="2" value="2.359352348575E7"/>
+          <attvalue for="3" value="0"/>
+          <attvalue for="4" value="#2a78d6"/>
+        </attvalues>
+        <viz:size value="20.125835"/>
+        <viz:position x="1000.0" y="19.718296"/>
+        <viz:color r="42" g="120" b="214"/>
+      </node>
+      <node id="Chiapas.Chiapa de Corzo" label="Chiapa de Corzo">
+        <attvalues>
+          <attvalue for="0" value="16.4228649"/>
+          <attvalue for="1" value="-93.0057453"/>
+          <attvalue for="2" value="1.805662017592797E9"/>
+          <attvalue for="3" value="1"/>
+          <attvalue for="4" value="#eb6834"/>
+        </attvalues>
+        <viz:size value="29.630478"/>
+        <viz:position x="-154.57864" y="76.57833"/>
+        <viz:color r="235" g="104" b="52"/>
+      </node>
+      <node id="Chiapas.Chicoasén" label="Chicoasén">
+        <attvalues>
+          <attvalue for="0" value="16.5802118"/>
+          <attvalue for="1" value="-93.0618846"/>
+          <attvalue for="2" value="0.002127804"/>
+          <attvalue for="3" value="0"/>
+          <attvalue for="4" value="#2a78d6"/>
+        </attvalues>
+        <viz:size value="20.0"/>
+        <viz:position x="-179.36955" y="152.93742"/>
+        <viz:color r="42" g="120" b="214"/>
+      </node>
+      <node id="Chiapas.Frontera Comalapa" label="Frontera Comalapa">
+        <attvalues>
+          <attvalue for="0" value="15.393659"/>
+          <attvalue for="1" value="-92.082778"/>
+          <attvalue for="2" value="1574.37"/>
+          <attvalue for="3" value="0"/>
+          <attvalue for="4" value="#2a78d6"/>
+        </attvalues>
+        <viz:size value="20.000008"/>
+        <viz:position x="253.00034" y="-422.88638"/>
+        <viz:color r="42" g="120" b="214"/>
+      </node>
+      <node id="Chiapas.Huixtla" label="Huixtla">
+        <attvalues>
+          <attvalue for="0" value="15.0817839"/>
+          <attvalue for="1" value="-92.2756944"/>
+          <attvalue for="2" value="3.34756041944839E9"/>
+          <attvalue for="3" value="1"/>
+          <attvalue for="4" value="#eb6834"/>
+        </attvalues>
+        <viz:size value="37.854176"/>
+        <viz:position x="167.80916" y="-574.2367"/>
+        <viz:color r="235" g="104" b="52"/>
+      </node>
+      <node id="Chiapas.Jiquipilas" label="Jiquipilas">
+        <attvalues>
+          <attvalue for="0" value="16.4003797"/>
+          <attvalue for="1" value="-93.3901711"/>
+          <attvalue for="2" value="0.0027566966"/>
+          <attvalue for="3" value="3"/>
+          <attvalue for="4" value="#eda100"/>
+        </attvalues>
+        <viz:size value="20.0"/>
+        <viz:position x="-324.33966" y="65.66646"/>
+        <viz:color r="237" g="161" b="0"/>
+      </node>
+      <node id="Chiapas.Juárez" label="Juárez">
+        <attvalues>
+          <attvalue for="0" value="17.3629344"/>
+          <attvalue for="1" value="-93.1135991"/>
+          <attvalue for="2" value="5.1153977066357154E8"/>
+          <attvalue for="3" value="2"/>
+          <attvalue for="4" value="#1baf7a"/>
+        </attvalues>
+        <viz:size value="22.72829"/>
+        <viz:position x="-202.20648" y="532.78595"/>
+        <viz:color r="27" g="175" b="122"/>
+      </node>
+      <node id="Chiapas.Mapastepec" label="Mapastepec">
+        <attvalues>
+          <attvalue for="0" value="15.2628083"/>
+          <attvalue for="1" value="-92.5329781"/>
+          <attvalue for="2" value="1.03065583248276E8"/>
+          <attvalue for="3" value="0"/>
+          <attvalue for="4" value="#2a78d6"/>
+        </attvalues>
+        <viz:size value="20.5497"/>
+        <viz:position x="54.193626" y="-486.38712"/>
+        <viz:color r="42" g="120" b="214"/>
+      </node>
+      <node id="Chiapas.Metapa" label="Metapa">
+        <attvalues>
+          <attvalue for="0" value="14.5014331"/>
+          <attvalue for="1" value="-92.1127401"/>
+          <attvalue for="2" value="8.375042041661501E8"/>
+          <attvalue for="3" value="0"/>
+          <attvalue for="4" value="#2a78d6"/>
+        </attvalues>
+        <viz:size value="24.46682"/>
+        <viz:position x="239.76918" y="-855.8759"/>
+        <viz:color r="42" g="120" b="214"/>
+      </node>
+      <node id="Chiapas.Ocozocoautla de Espinosa" label="Ocozocoautla de Espinosa">
+        <attvalues>
+          <attvalue for="0" value="16.4541263"/>
+          <attvalue for="1" value="-93.2232349"/>
+          <attvalue for="2" value="140.99668799999998"/>
+          <attvalue for="3" value="4"/>
+          <attvalue for="4" value="#e87ba4"/>
+        </attvalues>
+        <viz:size value="20.0"/>
+        <viz:position x="-250.62125" y="91.749214"/>
+        <viz:color r="232" g="123" b="164"/>
+      </node>
+      <node id="Chiapas.Ostuacán" label="Ostuacán">
+        <attvalues>
+          <attvalue for="0" value="17.2420128"/>
+          <attvalue for="1" value="-93.2013691"/>
+          <attvalue for="2" value="5.457687102170715E8"/>
+          <attvalue for="3" value="2"/>
+          <attvalue for="4" value="#1baf7a"/>
+        </attvalues>
+        <viz:size value="22.91085"/>
+        <viz:position x="-240.9654" y="474.10373"/>
+        <viz:color r="27" g="175" b="122"/>
+      </node>
+      <node id="Chiapas.Palenque" label="Palenque">
+        <attvalues>
+          <attvalue for="0" value="17.303288"/>
+          <attvalue for="1" value="-91.585172"/>
+          <attvalue for="2" value="3.4000159566453755E7"/>
+          <attvalue for="3" value="0"/>
+          <attvalue for="4" value="#2a78d6"/>
+        </attvalues>
+        <viz:size value="20.18134"/>
+        <viz:position x="472.74133" y="503.84006"/>
+        <viz:color r="42" g="120" b="214"/>
+      </node>
+      <node id="Chiapas.Pichucalco" label="Pichucalco">
+        <attvalues>
+          <attvalue for="0" value="17.3030783"/>
+          <attvalue for="1" value="-93.0703963"/>
+          <attvalue for="2" value="3.27917568610136E9"/>
+          <attvalue for="3" value="2"/>
+          <attvalue for="4" value="#1baf7a"/>
+        </attvalues>
+        <viz:size value="37.489445"/>
+        <viz:position x="-183.12828" y="503.73828"/>
+        <viz:color r="27" g="175" b="122"/>
+      </node>
+      <node id="Chiapas.Reforma" label="Reforma">
+        <attvalues>
+          <attvalue for="0" value="17.5156923"/>
+          <attvalue for="1" value="-93.0849589"/>
+          <attvalue for="2" value="9.374726976303288E9"/>
+          <attvalue for="3" value="2"/>
+          <attvalue for="4" value="#1baf7a"/>
+        </attvalues>
+        <viz:size value="70.0"/>
+        <viz:position x="-189.55907" y="606.918"/>
+        <viz:color r="27" g="175" b="122"/>
+      </node>
+      <node id="Chiapas.San Cristóbal de las Casas" label="San Cristóbal de las Casas">
+        <attvalues>
+          <attvalue for="0" value="16.441328"/>
+          <attvalue for="1" value="-92.381523"/>
+          <attvalue for="2" value="0.222248"/>
+          <attvalue for="3" value="3"/>
+          <attvalue for="4" value="#eda100"/>
+        </attvalues>
+        <viz:size value="20.0"/>
+        <viz:position x="121.075645" y="85.538315"/>
+        <viz:color r="237" g="161" b="0"/>
+      </node>
+      <node id="Chiapas.Soyaló" label="Soyaló">
+        <attvalues>
+          <attvalue for="0" value="16.5327573"/>
+          <attvalue for="1" value="-92.5531044"/>
+          <attvalue for="2" value="4.016E-7"/>
+          <attvalue for="3" value="3"/>
+          <attvalue for="4" value="#eda100"/>
+        </attvalues>
+        <viz:size value="20.0"/>
+        <viz:position x="45.305927" y="129.90816"/>
+        <viz:color r="237" g="161" b="0"/>
+      </node>
+      <node id="Chiapas.Suchiate" label="Suchiate">
+        <attvalues>
+          <attvalue for="0" value="14.4046028"/>
+          <attvalue for="1" value="-92.0903392"/>
+          <attvalue for="2" value="1666.98"/>
+          <attvalue for="3" value="0"/>
+          <attvalue for="4" value="#2a78d6"/>
+        </attvalues>
+        <viz:size value="20.00001"/>
+        <viz:position x="249.66135" y="-902.8668"/>
+        <viz:color r="42" g="120" b="214"/>
+      </node>
+      <node id="Chiapas.Sunuapa" label="Sunuapa">
+        <attvalues>
+          <attvalue for="0" value="17.292176"/>
+          <attvalue for="1" value="-93.143541"/>
+          <attvalue for="2" value="7.04487277E7"/>
+          <attvalue for="3" value="0"/>
+          <attvalue for="4" value="#2a78d6"/>
+        </attvalues>
+        <viz:size value="20.375738"/>
+        <viz:position x="-215.42871" y="498.44748"/>
+        <viz:color r="42" g="120" b="214"/>
+      </node>
+      <node id="Chiapas.Tapachula" label="Tapachula">
+        <attvalues>
+          <attvalue for="0" value="14.5439857"/>
+          <attvalue for="1" value="-92.1551552"/>
+          <attvalue for="2" value="5.3383923189269714E7"/>
+          <attvalue for="3" value="1"/>
+          <attvalue for="4" value="#eb6834"/>
+        </attvalues>
+        <viz:size value="20.284723"/>
+        <viz:position x="221.03883" y="-835.2255"/>
+        <viz:color r="235" g="104" b="52"/>
+      </node>
+      <node id="Chiapas.Tecpatán" label="Tecpatán">
+        <attvalues>
+          <attvalue for="0" value="17.0813183"/>
+          <attvalue for="1" value="-93.1841284"/>
+          <attvalue for="2" value="15.30244686"/>
+          <attvalue for="3" value="4"/>
+          <attvalue for="4" value="#e87ba4"/>
+        </attvalues>
+        <viz:size value="20.0"/>
+        <viz:position x="-233.35196" y="396.12006"/>
+        <viz:color r="232" g="123" b="164"/>
+      </node>
+      <node id="Chiapas.Tuxtla Gutiérrez" label="Tuxtla Gutiérrez">
+        <attvalues>
+          <attvalue for="0" value="16.45143"/>
+          <attvalue for="1" value="-93.065469"/>
+          <attvalue for="2" value="640922.961070779"/>
+          <attvalue for="3" value="2"/>
+          <attvalue for="4" value="#1baf7a"/>
+        </attvalues>
+        <viz:size value="20.003418"/>
+        <viz:position x="-180.95241" y="90.44073"/>
+        <viz:color r="27" g="175" b="122"/>
+      </node>
+      <node id="Chiapas.Venustiano Carranza" label="Venustiano Carranza">
+        <attvalues>
+          <attvalue for="0" value="16.2022622"/>
+          <attvalue for="1" value="-92.3354487"/>
+          <attvalue for="2" value="2.258276070920475E9"/>
+          <attvalue for="3" value="1"/>
+          <attvalue for="4" value="#eb6834"/>
+        </attvalues>
+        <viz:size value="32.044487"/>
+        <viz:position x="141.42189" y="-30.478252"/>
+        <viz:color r="235" g="104" b="52"/>
+      </node>
+      <node id="Chiapas.Villaflores" label="Villaflores">
+        <attvalues>
+          <attvalue for="0" value="16.1407749"/>
+          <attvalue for="1" value="-93.1603747"/>
+          <attvalue for="2" value="8682073.62933758"/>
+          <attvalue for="3" value="1"/>
+          <attvalue for="4" value="#eb6834"/>
+        </attvalues>
+        <viz:size value="20.046307"/>
+        <viz:position x="-222.86241" y="-60.31751"/>
+        <viz:color r="235" g="104" b="52"/>
+      </node>
+    </nodes>
+    <edges>
+      <edge id="0" source="Chiapas.Arriaga" target="Chiapas.Chiapa de Corzo" weight="0.7187594175338745">
+        <viz:color r="137" g="135" b="129" a="0.50980395"/>
+      </edge>
+      <edge id="1" source="Chiapas.Arriaga" target="Chiapas.Chicoasén" weight="0.7847499251365662">
+        <viz:color r="137" g="135" b="129" a="0.50980395"/>
+      </edge>
+      <edge id="2" source="Chiapas.Arriaga" target="Chiapas.Frontera Comalapa" weight="0.7498577237129211">
+        <viz:color r="137" g="135" b="129" a="0.50980395"/>
+      </edge>
+      <edge id="3" source="Chiapas.Arriaga" target="Chiapas.Huixtla" weight="0.9399942755699158">
+        <viz:color r="137" g="135" b="129" a="0.50980395"/>
+      </edge>
+      <edge id="4" source="Chiapas.Arriaga" target="Chiapas.Metapa" weight="0.7645646929740906">
+        <viz:color r="137" g="135" b="129" a="0.50980395"/>
+      </edge>
+      <edge id="5" source="Chiapas.Arriaga" target="Chiapas.Palenque" weight="0.7138568162918091">
+        <viz:color r="137" g="135" b="129" a="0.50980395"/>
+      </edge>
+      <edge id="6" source="Chiapas.Arriaga" target="Chiapas.Suchiate" weight="0.7498577237129211">
+        <viz:color r="137" g="135" b="129" a="0.50980395"/>
+      </edge>
+      <edge id="7" source="Chiapas.Arriaga" target="Chiapas.Sunuapa" weight="0.7498577237129211">
+        <viz:color r="137" g="135" b="129" a="0.50980395"/>
+      </edge>
+      <edge id="8" source="Chiapas.Arriaga" target="Chiapas.Tapachula" weight="0.8831762075424194">
+        <viz:color r="137" g="135" b="129" a="0.50980395"/>
+      </edge>
+      <edge id="9" source="Chiapas.Arriaga" target="Chiapas.Venustiano Carranza" weight="0.9293174743652344">
+        <viz:color r="137" g="135" b="129" a="0.50980395"/>
+      </edge>
+      <edge id="10" source="Chiapas.Arriaga" target="Chiapas.Villaflores" weight="0.7890462279319763">
+        <viz:color r="137" g="135" b="129" a="0.50980395"/>
+      </edge>
+      <edge id="11" source="Chiapas.Benemérito de las Américas" target="Chiapas.Chicoasén" weight="0.7437015175819397">
+        <viz:color r="137" g="135" b="129" a="0.50980395"/>
+      </edge>
+      <edge id="12" source="Chiapas.Benemérito de las Américas" target="Chiapas.Frontera Comalapa" weight="0.745049238204956">
+        <viz:color r="137" g="135" b="129" a="0.50980395"/>
+      </edge>
+      <edge id="13" source="Chiapas.Benemérito de las Américas" target="Chiapas.Juárez" weight="0.71551513671875">
+        <viz:color r="137" g="135" b="129" a="0.50980395"/>
+      </edge>
+      <edge id="14" source="Chiapas.Benemérito de las Américas" target="Chiapas.Mapastepec" weight="0.9806103110313416">
+        <viz:color r="137" g="135" b="129" a="0.50980395"/>
+      </edge>
+      <edge id="15" source="Chiapas.Benemérito de las Américas" target="Chiapas.Metapa" weight="0.7444532513618469">
+        <viz:color r="137" g="135" b="129" a="0.50980395"/>
+      </edge>
+      <edge id="16" source="Chiapas.Benemérito de las Américas" target="Chiapas.Ostuacán" weight="0.7903449535369873">
+        <viz:color r="137" g="135" b="129" a="0.50980395"/>
+      </edge>
+      <edge id="17" source="Chiapas.Benemérito de las Américas" target="Chiapas.Palenque" weight="0.9671268463134766">
+        <viz:color r="137" g="135" b="129" a="0.50980395"/>
+      </edge>
+      <edge id="18" source="Chiapas.Benemérito de las Américas" target="Chiapas.Suchiate" weight="0.745049238204956">
+        <viz:color r="137" g="135" b="129" a="0.50980395"/>
+      </edge>
+      <edge id="19" source="Chiapas.Benemérito de las Américas" target="Chiapas.Sunuapa" weight="0.745049238204956">
+        <viz:color r="137" g="135" b="129" a="0.50980395"/>
+      </edge>
+      <edge id="20" source="Chiapas.Benemérito de las Américas" target="Chiapas.Villaflores" weight="0.908359944820404">
+        <viz:color r="137" g="135" b="129" a="0.50980395"/>
+      </edge>
+      <edge id="21" source="Chiapas.Chiapa de Corzo" target="Chiapas.Huixtla" weight="0.7183158993721008">
+        <viz:color r="137" g="135" b="129" a="0.50980395"/>
+      </edge>
+      <edge id="22" source="Chiapas.Chiapa de Corzo" target="Chiapas.Tapachula" weight="0.7030006051063538">
+        <viz:color r="137" g="135" b="129" a="0.50980395"/>
+      </edge>
+      <edge id="23" source="Chiapas.Chicoasén" target="Chiapas.Frontera Comalapa" weight="0.9953968524932861">
+        <viz:color r="137" g="135" b="129" a="0.50980395"/>
+      </edge>
+      <edge id="24" source="Chiapas.Chicoasén" target="Chiapas.Huixtla" weight="0.7510069012641907">
+        <viz:color r="137" g="135" b="129" a="0.50980395"/>
+      </edge>
+      <edge id="25" source="Chiapas.Chicoasén" target="Chiapas.Mapastepec" weight="0.8064684271812439">
+        <viz:color r="137" g="135" b="129" a="0.50980395"/>
+      </edge>
+      <edge id="26" source="Chiapas.Chicoasén" target="Chiapas.Metapa" weight="0.9980793595314026">
+        <viz:color r="137" g="135" b="129" a="0.50980395"/>
+      </edge>
+      <edge id="27" source="Chiapas.Chicoasén" target="Chiapas.Palenque" weight="0.7299941778182983">
+        <viz:color r="137" g="135" b="129" a="0.50980395"/>
+      </edge>
+      <edge id="28" source="Chiapas.Chicoasén" target="Chiapas.Suchiate" weight="0.9953968524932861">
+        <viz:color r="137" g="135" b="129" a="0.50980395"/>
+      </edge>
+      <edge id="29" source="Chiapas.Chicoasén" target="Chiapas.Sunuapa" weight="0.9953968524932861">
+        <viz:color r="137" g="135" b="129" a="0.50980395"/>
+      </edge>
+      <edge id="30" source="Chiapas.Chicoasén" target="Chiapas.Tapachula" weight="0.825895369052887">
+        <viz:color r="137" g="135" b="129" a="0.50980395"/>
+      </edge>
+      <edge id="31" source="Chiapas.Chicoasén" target="Chiapas.Venustiano Carranza" weight="0.7603230476379395">
+        <viz:color r="137" g="135" b="129" a="0.50980395"/>
+      </edge>
+      <edge id="32" source="Chiapas.Chicoasén" target="Chiapas.Villaflores" weight="0.7154586911201477">
+        <viz:color r="137" g="135" b="129" a="0.50980395"/>
+      </edge>
+      <edge id="33" source="Chiapas.Frontera Comalapa" target="Chiapas.Huixtla" weight="0.7166270613670349">
+        <viz:color r="137" g="135" b="129" a="0.50980395"/>
+      </edge>
+      <edge id="34" source="Chiapas.Frontera Comalapa" target="Chiapas.Mapastepec" weight="0.8101558685302734">
+        <viz:color r="137" g="135" b="129" a="0.50980395"/>
+      </edge>
+      <edge id="35" source="Chiapas.Frontera Comalapa" target="Chiapas.Metapa" weight="0.9992000460624695">
+        <viz:color r="137" g="135" b="129" a="0.50980395"/>
+      </edge>
+      <edge id="36" source="Chiapas.Frontera Comalapa" target="Chiapas.Palenque" weight="0.7274761199951172">
+        <viz:color r="137" g="135" b="129" a="0.50980395"/>
+      </edge>
+      <edge id="37" source="Chiapas.Frontera Comalapa" target="Chiapas.Suchiate">
+        <viz:color r="137" g="135" b="129" a="0.50980395"/>
+      </edge>
+      <edge id="38" source="Chiapas.Frontera Comalapa" target="Chiapas.Sunuapa">
+        <viz:color r="137" g="135" b="129" a="0.50980395"/>
+      </edge>
+      <edge id="39" source="Chiapas.Frontera Comalapa" target="Chiapas.Tapachula" weight="0.8132465481758118">
+        <viz:color r="137" g="135" b="129" a="0.50980395"/>
+      </edge>
+      <edge id="40" source="Chiapas.Frontera Comalapa" target="Chiapas.Venustiano Carranza" weight="0.7293850779533386">
+        <viz:color r="137" g="135" b="129" a="0.50980395"/>
+      </edge>
+      <edge id="41" source="Chiapas.Huixtla" target="Chiapas.Metapa" weight="0.7319353222846985">
+        <viz:color r="137" g="135" b="129" a="0.50980395"/>
+      </edge>
+      <edge id="42" source="Chiapas.Huixtla" target="Chiapas.Palenque" weight="0.7035094499588013">
+        <viz:color r="137" g="135" b="129" a="0.50980395"/>
+      </edge>
+      <edge id="43" source="Chiapas.Huixtla" target="Chiapas.Suchiate" weight="0.7166270613670349">
+        <viz:color r="137" g="135" b="129" a="0.50980395"/>
+      </edge>
+      <edge id="44" source="Chiapas.Huixtla" target="Chiapas.Sunuapa" weight="0.7166270613670349">
+        <viz:color r="137" g="135" b="129" a="0.50980395"/>
+      </edge>
+      <edge id="45" source="Chiapas.Huixtla" target="Chiapas.Tapachula" weight="0.8514946699142456">
+        <viz:color r="137" g="135" b="129" a="0.50980395"/>
+      </edge>
+      <edge id="46" source="Chiapas.Huixtla" target="Chiapas.Venustiano Carranza" weight="0.9478541016578674">
+        <viz:color r="137" g="135" b="129" a="0.50980395"/>
+      </edge>
+      <edge id="47" source="Chiapas.Huixtla" target="Chiapas.Villaflores" weight="0.7934909462928772">
+        <viz:color r="137" g="135" b="129" a="0.50980395"/>
+      </edge>
+      <edge id="48" source="Chiapas.Jiquipilas" target="Chiapas.San Cristóbal de las Casas" weight="0.8596330881118774">
+        <viz:color r="137" g="135" b="129" a="0.50980395"/>
+      </edge>
+      <edge id="49" source="Chiapas.Jiquipilas" target="Chiapas.Soyaló" weight="0.9151158928871155">
+        <viz:color r="137" g="135" b="129" a="0.50980395"/>
+      </edge>
+      <edge id="50" source="Chiapas.Juárez" target="Chiapas.Mapastepec" weight="0.7262973189353943">
+        <viz:color r="137" g="135" b="129" a="0.50980395"/>
+      </edge>
+      <edge id="51" source="Chiapas.Juárez" target="Chiapas.Ostuacán" weight="0.9633418917655945">
+        <viz:color r="137" g="135" b="129" a="0.50980395"/>
+      </edge>
+      <edge id="52" source="Chiapas.Juárez" target="Chiapas.Pichucalco" weight="0.9773998856544495">
+        <viz:color r="137" g="135" b="129" a="0.50980395"/>
+      </edge>
+      <edge id="53" source="Chiapas.Juárez" target="Chiapas.Reforma" weight="0.8640579581260681">
+        <viz:color r="137" g="135" b="129" a="0.50980395"/>
+      </edge>
+      <edge id="54" source="Chiapas.Mapastepec" target="Chiapas.Metapa" weight="0.8095077872276306">
+        <viz:color r="137" g="135" b="129" a="0.50980395"/>
+      </edge>
+      <edge id="55" source="Chiapas.Mapastepec" target="Chiapas.Ostuacán" weight="0.7742976546287537">
+        <viz:color r="137" g="135" b="129" a="0.50980395"/>
+      </edge>
+      <edge id="56" source="Chiapas.Mapastepec" target="Chiapas.Palenque" weight="0.9478203654289246">
+        <viz:color r="137" g="135" b="129" a="0.50980395"/>
+      </edge>
+      <edge id="57" source="Chiapas.Mapastepec" target="Chiapas.Suchiate" weight="0.8101558685302734">
+        <viz:color r="137" g="135" b="129" a="0.50980395"/>
+      </edge>
+      <edge id="58" source="Chiapas.Mapastepec" target="Chiapas.Sunuapa" weight="0.8101558685302734">
+        <viz:color r="137" g="135" b="129" a="0.50980395"/>
+      </edge>
+      <edge id="59" source="Chiapas.Mapastepec" target="Chiapas.Villaflores" weight="0.8935649394989014">
+        <viz:color r="137" g="135" b="129" a="0.50980395"/>
+      </edge>
+      <edge id="60" source="Chiapas.Metapa" target="Chiapas.Palenque" weight="0.7290827631950378">
+        <viz:color r="137" g="135" b="129" a="0.50980395"/>
+      </edge>
+      <edge id="61" source="Chiapas.Metapa" target="Chiapas.Suchiate" weight="0.9992000460624695">
+        <viz:color r="137" g="135" b="129" a="0.50980395"/>
+      </edge>
+      <edge id="62" source="Chiapas.Metapa" target="Chiapas.Sunuapa" weight="0.9992000460624695">
+        <viz:color r="137" g="135" b="129" a="0.50980395"/>
+      </edge>
+      <edge id="63" source="Chiapas.Metapa" target="Chiapas.Tapachula" weight="0.8191390037536621">
+        <viz:color r="137" g="135" b="129" a="0.50980395"/>
+      </edge>
+      <edge id="64" source="Chiapas.Metapa" target="Chiapas.Venustiano Carranza" weight="0.7436109781265259">
+        <viz:color r="137" g="135" b="129" a="0.50980395"/>
+      </edge>
+      <edge id="65" source="Chiapas.Metapa" target="Chiapas.Villaflores" weight="0.7029223442077637">
+        <viz:color r="137" g="135" b="129" a="0.50980395"/>
+      </edge>
+      <edge id="66" source="Chiapas.Ocozocoautla de Espinosa" target="Chiapas.Tecpatán" weight="0.7276324033737183">
+        <viz:color r="137" g="135" b="129" a="0.50980395"/>
+      </edge>
+      <edge id="67" source="Chiapas.Ostuacán" target="Chiapas.Palenque" weight="0.7765582203865051">
+        <viz:color r="137" g="135" b="129" a="0.50980395"/>
+      </edge>
+      <edge id="68" source="Chiapas.Ostuacán" target="Chiapas.Pichucalco" weight="0.941433310508728">
+        <viz:color r="137" g="135" b="129" a="0.50980395"/>
+      </edge>
+      <edge id="69" source="Chiapas.Ostuacán" target="Chiapas.Reforma" weight="0.8932905793190002">
+        <viz:color r="137" g="135" b="129" a="0.50980395"/>
+      </edge>
+      <edge id="70" source="Chiapas.Ostuacán" target="Chiapas.Villaflores" weight="0.7367299795150757">
+        <viz:color r="137" g="135" b="129" a="0.50980395"/>
+      </edge>
+      <edge id="71" source="Chiapas.Palenque" target="Chiapas.Suchiate" weight="0.7274761199951172">
+        <viz:color r="137" g="135" b="129" a="0.50980395"/>
+      </edge>
+      <edge id="72" source="Chiapas.Palenque" target="Chiapas.Sunuapa" weight="0.7274761199951172">
+        <viz:color r="137" g="135" b="129" a="0.50980395"/>
+      </edge>
+      <edge id="73" source="Chiapas.Palenque" target="Chiapas.Tapachula" weight="0.7196266651153564">
+        <viz:color r="137" g="135" b="129" a="0.50980395"/>
+      </edge>
+      <edge id="74" source="Chiapas.Palenque" target="Chiapas.Tuxtla Gutiérrez" weight="0.7937250733375549">
+        <viz:color r="137" g="135" b="129" a="0.50980395"/>
+      </edge>
+      <edge id="75" source="Chiapas.Palenque" target="Chiapas.Villaflores" weight="0.9572784304618835">
+        <viz:color r="137" g="135" b="129" a="0.50980395"/>
+      </edge>
+      <edge id="76" source="Chiapas.Pichucalco" target="Chiapas.Reforma" weight="0.8783776760101318">
+        <viz:color r="137" g="135" b="129" a="0.50980395"/>
+      </edge>
+      <edge id="77" source="Chiapas.Reforma" target="Chiapas.Tuxtla Gutiérrez" weight="0.7358927130699158">
+        <viz:color r="137" g="135" b="129" a="0.50980395"/>
+      </edge>
+      <edge id="78" source="Chiapas.San Cristóbal de las Casas" target="Chiapas.Soyaló" weight="0.9219930171966553">
+        <viz:color r="137" g="135" b="129" a="0.50980395"/>
+      </edge>
+      <edge id="79" source="Chiapas.Suchiate" target="Chiapas.Sunuapa">
+        <viz:color r="137" g="135" b="129" a="0.50980395"/>
+      </edge>
+      <edge id="80" source="Chiapas.Suchiate" target="Chiapas.Tapachula" weight="0.8132465481758118">
+        <viz:color r="137" g="135" b="129" a="0.50980395"/>
+      </edge>
+      <edge id="81" source="Chiapas.Suchiate" target="Chiapas.Venustiano Carranza" weight="0.7293850779533386">
+        <viz:color r="137" g="135" b="129" a="0.50980395"/>
+      </edge>
+      <edge id="82" source="Chiapas.Sunuapa" target="Chiapas.Tapachula" weight="0.8132465481758118">
+        <viz:color r="137" g="135" b="129" a="0.50980395"/>
+      </edge>
+      <edge id="83" source="Chiapas.Sunuapa" target="Chiapas.Venustiano Carranza" weight="0.7293850779533386">
+        <viz:color r="137" g="135" b="129" a="0.50980395"/>
+      </edge>
+      <edge id="84" source="Chiapas.Tapachula" target="Chiapas.Venustiano Carranza" weight="0.8475161790847778">
+        <viz:color r="137" g="135" b="129" a="0.50980395"/>
+      </edge>
+      <edge id="85" source="Chiapas.Tapachula" target="Chiapas.Villaflores" weight="0.7284509539604187">
+        <viz:color r="137" g="135" b="129" a="0.50980395"/>
+      </edge>
+      <edge id="86" source="Chiapas.Tuxtla Gutiérrez" target="Chiapas.Villaflores" weight="0.7868028283119202">
+        <viz:color r="137" g="135" b="129" a="0.50980395"/>
+      </edge>
+      <edge id="87" source="Chiapas.Venustiano Carranza" target="Chiapas.Villaflores" weight="0.7817004323005676">
+        <viz:color r="137" g="135" b="129" a="0.50980395"/>
+      </edge>
+    </edges>
+  </graph>
+</gexf>

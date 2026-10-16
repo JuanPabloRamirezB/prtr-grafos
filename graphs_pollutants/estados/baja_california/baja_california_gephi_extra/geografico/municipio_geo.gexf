@@ -1,0 +1,70 @@
+<?xml version='1.0' encoding='utf-8'?>
+<gexf xmlns="http://www.gexf.net/1.2draft" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.gexf.net/1.2draft http://www.gexf.net/1.2draft/gexf.xsd" version="1.2">
+  <meta lastmodifieddate="2026-10-16">
+    <creator>NetworkX 3.7</creator>
+  </meta>
+  <graph defaultedgetype="undirected" mode="static" name="">
+    <attributes mode="static" class="node">
+      <attribute id="0" title="lat" type="double" />
+      <attribute id="1" title="lon" type="double" />
+      <attribute id="2" title="total_kg" type="double" />
+      <attribute id="3" title="community" type="long" />
+      <attribute id="4" title="color_hex" type="string" />
+    </attributes>
+    <nodes>
+      <node id="Baja California.Ensenada" label="Ensenada">
+        <attvalues>
+          <attvalue for="0" value="31.4832198" />
+          <attvalue for="1" value="-116.3542482" />
+          <attvalue for="2" value="7023226643.028638" />
+          <attvalue for="3" value="1" />
+          <attvalue for="4" value="#eb6834" />
+        </attvalues>
+      </node>
+      <node id="Baja California.Mexicali" label="Mexicali">
+        <attvalues>
+          <attvalue for="0" value="32.3828233" />
+          <attvalue for="1" value="-115.2832084" />
+          <attvalue for="2" value="60793886572.50405" />
+          <attvalue for="3" value="0" />
+          <attvalue for="4" value="#2a78d6" />
+        </attvalues>
+      </node>
+      <node id="Baja California.Playas de Rosarito" label="Playas de Rosarito">
+        <attvalues>
+          <attvalue for="0" value="32.2149263" />
+          <attvalue for="1" value="-117.0316052" />
+          <attvalue for="2" value="19330640020.48014" />
+          <attvalue for="3" value="1" />
+          <attvalue for="4" value="#eb6834" />
+        </attvalues>
+      </node>
+      <node id="Baja California.Tecate" label="Tecate">
+        <attvalues>
+          <attvalue for="0" value="32.3421644" />
+          <attvalue for="1" value="-116.3735581" />
+          <attvalue for="2" value="561673677.0096923" />
+          <attvalue for="3" value="0" />
+          <attvalue for="4" value="#2a78d6" />
+        </attvalues>
+      </node>
+      <node id="Baja California.Tijuana" label="Tijuana">
+        <attvalues>
+          <attvalue for="0" value="32.3156859" />
+          <attvalue for="1" value="-117.0108088" />
+          <attvalue for="2" value="4666161050.676274" />
+          <attvalue for="3" value="0" />
+          <attvalue for="4" value="#2a78d6" />
+        </attvalues>
+      </node>
+    </nodes>
+    <edges>
+      <edge source="Baja California.Ensenada" target="Baja California.Mexicali" id="0" weight="0.7349516261198208" />
+      <edge source="Baja California.Ensenada" target="Baja California.Playas de Rosarito" id="1" weight="0.7653601795115855" />
+      <edge source="Baja California.Ensenada" target="Baja California.Tijuana" id="2" weight="0.7032476174036093" />
+      <edge source="Baja California.Mexicali" target="Baja California.Tecate" id="3" weight="0.7552050191759468" />
+      <edge source="Baja California.Mexicali" target="Baja California.Tijuana" id="4" weight="0.8403553365764996" />
+      <edge source="Baja California.Tecate" target="Baja California.Tijuana" id="5" weight="0.7033740660705179" />
+    </edges>
+  </graph>
+</gexf>

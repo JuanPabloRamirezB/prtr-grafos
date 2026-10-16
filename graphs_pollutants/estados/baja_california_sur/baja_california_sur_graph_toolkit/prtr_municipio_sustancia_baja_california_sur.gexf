@@ -1,0 +1,595 @@
+<?xml version='1.0' encoding='utf-8'?>
+<gexf xmlns="http://www.gexf.net/1.2draft" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.gexf.net/1.2draft http://www.gexf.net/1.2draft/gexf.xsd" version="1.2">
+  <meta lastmodifieddate="2026-10-16">
+    <creator>NetworkX 3.7</creator>
+  </meta>
+  <graph defaultedgetype="undirected" mode="static" name="">
+    <attributes mode="static" class="edge">
+      <attribute id="2" title="count" type="long" />
+    </attributes>
+    <attributes mode="static" class="node">
+      <attribute id="0" title="type" type="string" />
+      <attribute id="1" title="total_kg" type="double" />
+    </attributes>
+    <nodes>
+      <node id="LOC::Baja California Sur.La Paz" label="Baja California Sur.La Paz">
+        <attvalues>
+          <attvalue for="0" value="location" />
+          <attvalue for="1" value="14612785523.356792" />
+        </attvalues>
+      </node>
+      <node id="LOC::Baja California Sur.Comondú" label="Baja California Sur.Comondú">
+        <attvalues>
+          <attvalue for="0" value="location" />
+          <attvalue for="1" value="6446189580.483031" />
+        </attvalues>
+      </node>
+      <node id="LOC::Baja California Sur.Mulegé" label="Baja California Sur.Mulegé">
+        <attvalues>
+          <attvalue for="0" value="location" />
+          <attvalue for="1" value="3206975507.9629474" />
+        </attvalues>
+      </node>
+      <node id="LOC::Baja California Sur.Los Cabos" label="Baja California Sur.Los Cabos">
+        <attvalues>
+          <attvalue for="0" value="location" />
+          <attvalue for="1" value="2101592703.6372619" />
+        </attvalues>
+      </node>
+      <node id="SUB::Níquel (Compuestos solubles)" label="Nickel (soluble compounds)">
+        <attvalues>
+          <attvalue for="0" value="substance" />
+          <attvalue for="1" value="201223.29565771008" />
+        </attvalues>
+      </node>
+      <node id="SUB::Cromo (Compuestos solubles)" label="Chromium (soluble compounds)">
+        <attvalues>
+          <attvalue for="0" value="substance" />
+          <attvalue for="1" value="172758.85992216782" />
+        </attvalues>
+      </node>
+      <node id="SUB::Mercurio (Compuestos solubles)" label="Mercury (soluble compounds)">
+        <attvalues>
+          <attvalue for="0" value="substance" />
+          <attvalue for="1" value="1187.7733005212997" />
+        </attvalues>
+      </node>
+      <node id="SUB::Plomo (Compuestos solubles)" label="Lead (soluble compounds)">
+        <attvalues>
+          <attvalue for="0" value="substance" />
+          <attvalue for="1" value="214542.29394454" />
+        </attvalues>
+      </node>
+      <node id="SUB::Cianuro inorgánico/orgánico" label="Inorganic/organic cyanide">
+        <attvalues>
+          <attvalue for="0" value="substance" />
+          <attvalue for="1" value="50368.788638982856" />
+        </attvalues>
+      </node>
+      <node id="SUB::Arsénico (polvos, respirables, vapores o humos)" label="Arsenic (respirable dust, vapors or fumes)">
+        <attvalues>
+          <attvalue for="0" value="substance" />
+          <attvalue for="1" value="2834.051296013725" />
+        </attvalues>
+      </node>
+      <node id="SUB::Cadmio (polvos, respirables, vapores o humos)" label="Cadmium (respirable dust, vapors or fumes)">
+        <attvalues>
+          <attvalue for="0" value="substance" />
+          <attvalue for="1" value="306.08710070916004" />
+        </attvalues>
+      </node>
+      <node id="SUB::Mercurio (compuestos)" label="Mercury (compounds)">
+        <attvalues>
+          <attvalue for="0" value="substance" />
+          <attvalue for="1" value="211.83152359012996" />
+        </attvalues>
+      </node>
+      <node id="SUB::Cromo (compuestos)" label="Chromium (compounds)">
+        <attvalues>
+          <attvalue for="0" value="substance" />
+          <attvalue for="1" value="25974.746825028396" />
+        </attvalues>
+      </node>
+      <node id="SUB::Arsénico (compuestos)" label="Arsenic (compounds)">
+        <attvalues>
+          <attvalue for="0" value="substance" />
+          <attvalue for="1" value="2473.3979343905607" />
+        </attvalues>
+      </node>
+      <node id="SUB::Níquel (compuestos)" label="Nickel (compounds)">
+        <attvalues>
+          <attvalue for="0" value="substance" />
+          <attvalue for="1" value="53374.56371302157" />
+        </attvalues>
+      </node>
+      <node id="SUB::Plomo (compuestos)" label="Lead (compounds)">
+        <attvalues>
+          <attvalue for="0" value="substance" />
+          <attvalue for="1" value="41637.81362433719" />
+        </attvalues>
+      </node>
+      <node id="SUB::Cadmio (compuestos)" label="Cadmium (compounds)">
+        <attvalues>
+          <attvalue for="0" value="substance" />
+          <attvalue for="1" value="6721.8248129002595" />
+        </attvalues>
+      </node>
+      <node id="SUB::Mercurio (polvos, respirables, vapores o humos)" label="Mercury (respirable dust, vapors or fumes)">
+        <attvalues>
+          <attvalue for="0" value="substance" />
+          <attvalue for="1" value="2.206945" />
+        </attvalues>
+      </node>
+      <node id="SUB::Arsénico (Compuestos solubles)" label="Arsenic (soluble compounds)">
+        <attvalues>
+          <attvalue for="0" value="substance" />
+          <attvalue for="1" value="25422.353499999997" />
+        </attvalues>
+      </node>
+      <node id="SUB::Cadmio (Compuestos solubles)" label="Cadmium (soluble compounds)">
+        <attvalues>
+          <attvalue for="0" value="substance" />
+          <attvalue for="1" value="57457.12400000002" />
+        </attvalues>
+      </node>
+      <node id="SUB::Bifenilos policlorados" label="Polychlorinated biphenyls (PCBs)">
+        <attvalues>
+          <attvalue for="0" value="substance" />
+          <attvalue for="1" value="799.6243" />
+        </attvalues>
+      </node>
+      <node id="SUB::Bióxido de nitrógeno" label="Nitrogen dioxide">
+        <attvalues>
+          <attvalue for="0" value="substance" />
+          <attvalue for="1" value="179272970.9" />
+        </attvalues>
+      </node>
+      <node id="SUB::Bióxido de carbono" label="Carbon dioxide">
+        <attvalues>
+          <attvalue for="0" value="substance" />
+          <attvalue for="1" value="25934373925.0265" />
+        </attvalues>
+      </node>
+      <node id="SUB::Acido sulfhídrico" label="Hydrogen sulfide">
+        <attvalues>
+          <attvalue for="0" value="substance" />
+          <attvalue for="1" value="935297.0" />
+        </attvalues>
+      </node>
+      <node id="SUB::Acroleina" label="Acrolein">
+        <attvalues>
+          <attvalue for="0" value="substance" />
+          <attvalue for="1" value="1.86327204" />
+        </attvalues>
+      </node>
+      <node id="SUB::Acetaldehido" label="Acetaldehyde">
+        <attvalues>
+          <attvalue for="0" value="substance" />
+          <attvalue for="1" value="52.3313074" />
+        </attvalues>
+      </node>
+      <node id="SUB::Benceno" label="Benzene">
+        <attvalues>
+          <attvalue for="0" value="substance" />
+          <attvalue for="1" value="18.794446299999997" />
+        </attvalues>
+      </node>
+      <node id="SUB::Formaldehido" label="Formaldehyde">
+        <attvalues>
+          <attvalue for="0" value="substance" />
+          <attvalue for="1" value="0.787495783" />
+        </attvalues>
+      </node>
+      <node id="SUB::Oxido nitroso" label="Nitrous oxide">
+        <attvalues>
+          <attvalue for="0" value="substance" />
+          <attvalue for="1" value="252102553.0" />
+        </attvalues>
+      </node>
+      <node id="SUB::Plomo (polvos respirables, humos o vapores)" label="Lead (respirable dust, fumes or vapors)">
+        <attvalues>
+          <attvalue for="0" value="substance" />
+          <attvalue for="1" value="824.9" />
+        </attvalues>
+      </node>
+      <node id="SUB::Hidrofluorocarbonos" label="Hydrofluorocarbons">
+        <attvalues>
+          <attvalue for="0" value="substance" />
+          <attvalue for="1" value="374.2" />
+        </attvalues>
+      </node>
+    </nodes>
+    <edges>
+      <edge source="LOC::Baja California Sur.La Paz" target="SUB::Níquel (Compuestos solubles)" id="0" weight="197516.99675771015">
+        <attvalues>
+          <attvalue for="2" value="62" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Baja California Sur.La Paz" target="SUB::Cromo (Compuestos solubles)" id="1" weight="171093.76102216783">
+        <attvalues>
+          <attvalue for="2" value="59" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Baja California Sur.La Paz" target="SUB::Mercurio (Compuestos solubles)" id="2" weight="1050.1904005212998">
+        <attvalues>
+          <attvalue for="2" value="41" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Baja California Sur.La Paz" target="SUB::Plomo (Compuestos solubles)" id="3" weight="198206.85654454">
+        <attvalues>
+          <attvalue for="2" value="61" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Baja California Sur.La Paz" target="SUB::Cianuro inorgánico/orgánico" id="4" weight="50361.17282330186">
+        <attvalues>
+          <attvalue for="2" value="67" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Baja California Sur.La Paz" target="SUB::Arsénico (polvos, respirables, vapores o humos)" id="5" weight="1204.941494273725">
+        <attvalues>
+          <attvalue for="2" value="8" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Baja California Sur.La Paz" target="SUB::Cadmio (polvos, respirables, vapores o humos)" id="6" weight="0.06254001315999999">
+        <attvalues>
+          <attvalue for="2" value="8" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Baja California Sur.La Paz" target="SUB::Mercurio (compuestos)" id="7" weight="168.26486392923">
+        <attvalues>
+          <attvalue for="2" value="23" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Baja California Sur.La Paz" target="SUB::Cromo (compuestos)" id="8" weight="25903.5110726794">
+        <attvalues>
+          <attvalue for="2" value="25" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Baja California Sur.La Paz" target="SUB::Arsénico (compuestos)" id="9" weight="2473.38687399056">
+        <attvalues>
+          <attvalue for="2" value="18" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Baja California Sur.La Paz" target="SUB::Níquel (compuestos)" id="10" weight="52589.92170453959">
+        <attvalues>
+          <attvalue for="2" value="31" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Baja California Sur.La Paz" target="SUB::Plomo (compuestos)" id="11" weight="29440.543319117198">
+        <attvalues>
+          <attvalue for="2" value="24" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Baja California Sur.La Paz" target="SUB::Cadmio (compuestos)" id="12" weight="6721.686932900258">
+        <attvalues>
+          <attvalue for="2" value="19" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Baja California Sur.La Paz" target="SUB::Mercurio (polvos, respirables, vapores o humos)" id="13" weight="0.106945">
+        <attvalues>
+          <attvalue for="2" value="1" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Baja California Sur.La Paz" target="SUB::Arsénico (Compuestos solubles)" id="14" weight="25365.074500000002">
+        <attvalues>
+          <attvalue for="2" value="57" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Baja California Sur.La Paz" target="SUB::Cadmio (Compuestos solubles)" id="15" weight="56509.01090000003">
+        <attvalues>
+          <attvalue for="2" value="57" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Baja California Sur.La Paz" target="SUB::Bifenilos policlorados" id="16" weight="799.5916">
+        <attvalues>
+          <attvalue for="2" value="2" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Baja California Sur.La Paz" target="SUB::Bióxido de nitrógeno" id="17" weight="55288722.1">
+        <attvalues>
+          <attvalue for="2" value="18" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Baja California Sur.La Paz" target="SUB::Bióxido de carbono" id="18" weight="14555808242.4">
+        <attvalues>
+          <attvalue for="2" value="35" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Baja California Sur.La Paz" target="SUB::Acroleina" id="19" weight="1.86327204">
+        <attvalues>
+          <attvalue for="2" value="5" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Baja California Sur.La Paz" target="SUB::Acetaldehido" id="20" weight="52.3313074">
+        <attvalues>
+          <attvalue for="2" value="5" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Baja California Sur.La Paz" target="SUB::Benceno" id="21" weight="18.794446299999997">
+        <attvalues>
+          <attvalue for="2" value="5" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Baja California Sur.La Paz" target="SUB::Formaldehido" id="22" weight="0.787495783">
+        <attvalues>
+          <attvalue for="2" value="5" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Baja California Sur.La Paz" target="SUB::Oxido nitroso" id="23" weight="869080.0">
+        <attvalues>
+          <attvalue for="2" value="2" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Baja California Sur.Comondú" target="SUB::Cromo (compuestos)" id="24" weight="0.38075">
+        <attvalues>
+          <attvalue for="2" value="3" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Baja California Sur.Comondú" target="SUB::Plomo (compuestos)" id="25" weight="3.6415">
+        <attvalues>
+          <attvalue for="2" value="3" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Baja California Sur.Comondú" target="SUB::Mercurio (compuestos)" id="26" weight="0.01121">
+        <attvalues>
+          <attvalue for="2" value="3" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Baja California Sur.Comondú" target="SUB::Cromo (Compuestos solubles)" id="27" weight="9.0765">
+        <attvalues>
+          <attvalue for="2" value="4" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Baja California Sur.Comondú" target="SUB::Plomo (Compuestos solubles)" id="28" weight="42.385299999999994">
+        <attvalues>
+          <attvalue for="2" value="18" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Baja California Sur.Comondú" target="SUB::Níquel (Compuestos solubles)" id="29" weight="101.81710000000001">
+        <attvalues>
+          <attvalue for="2" value="13" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Baja California Sur.Comondú" target="SUB::Cadmio (polvos, respirables, vapores o humos)" id="30" weight="0.018">
+        <attvalues>
+          <attvalue for="2" value="1" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Baja California Sur.Comondú" target="SUB::Níquel (compuestos)" id="31" weight="712.4606764">
+        <attvalues>
+          <attvalue for="2" value="12" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Baja California Sur.Comondú" target="SUB::Arsénico (polvos, respirables, vapores o humos)" id="32" weight="0.045">
+        <attvalues>
+          <attvalue for="2" value="1" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Baja California Sur.Comondú" target="SUB::Cianuro inorgánico/orgánico" id="33" weight="0.06275">
+        <attvalues>
+          <attvalue for="2" value="2" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Baja California Sur.Comondú" target="SUB::Bióxido de nitrógeno" id="34" weight="102103794.69999999">
+        <attvalues>
+          <attvalue for="2" value="26" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Baja California Sur.Comondú" target="SUB::Bióxido de carbono" id="35" weight="6343328812.839999">
+        <attvalues>
+          <attvalue for="2" value="33" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Baja California Sur.Comondú" target="SUB::Oxido nitroso" id="36" weight="756103.0">
+        <attvalues>
+          <attvalue for="2" value="4" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Baja California Sur.Comondú" target="SUB::Cadmio (compuestos)" id="37" weight="0.011">
+        <attvalues>
+          <attvalue for="2" value="1" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Baja California Sur.Comondú" target="SUB::Arsénico (compuestos)" id="38" weight="0.00055">
+        <attvalues>
+          <attvalue for="2" value="1" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Baja California Sur.Comondú" target="SUB::Bifenilos policlorados" id="39" weight="0.0327">
+        <attvalues>
+          <attvalue for="2" value="3" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Baja California Sur.Mulegé" target="SUB::Arsénico (Compuestos solubles)" id="40" weight="40.2075">
+        <attvalues>
+          <attvalue for="2" value="7" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Baja California Sur.Mulegé" target="SUB::Cadmio (Compuestos solubles)" id="41" weight="161.04649999999998">
+        <attvalues>
+          <attvalue for="2" value="5" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Baja California Sur.Mulegé" target="SUB::Cromo (Compuestos solubles)" id="42" weight="181.442">
+        <attvalues>
+          <attvalue for="2" value="7" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Baja California Sur.Mulegé" target="SUB::Mercurio (Compuestos solubles)" id="43" weight="127.6523">
+        <attvalues>
+          <attvalue for="2" value="5" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Baja California Sur.Mulegé" target="SUB::Níquel (Compuestos solubles)" id="44" weight="541.3915999999999">
+        <attvalues>
+          <attvalue for="2" value="10" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Baja California Sur.Mulegé" target="SUB::Plomo (Compuestos solubles)" id="45" weight="12751.8575">
+        <attvalues>
+          <attvalue for="2" value="12" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Baja California Sur.Mulegé" target="SUB::Cianuro inorgánico/orgánico" id="46" weight="7.549768080999998">
+        <attvalues>
+          <attvalue for="2" value="8" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Baja California Sur.Mulegé" target="SUB::Plomo (compuestos)" id="47" weight="12193.614405220002">
+        <attvalues>
+          <attvalue for="2" value="10" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Baja California Sur.Mulegé" target="SUB::Níquel (compuestos)" id="48" weight="72.13398008200004">
+        <attvalues>
+          <attvalue for="2" value="14" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Baja California Sur.Mulegé" target="SUB::Mercurio (compuestos)" id="49" weight="43.5553680609">
+        <attvalues>
+          <attvalue for="2" value="8" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Baja California Sur.Mulegé" target="SUB::Cromo (compuestos)" id="50" weight="70.83988234899998">
+        <attvalues>
+          <attvalue for="2" value="10" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Baja California Sur.Mulegé" target="SUB::Cadmio (polvos, respirables, vapores o humos)" id="51" weight="70.006560696">
+        <attvalues>
+          <attvalue for="2" value="4" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Baja California Sur.Mulegé" target="SUB::Arsénico (polvos, respirables, vapores o humos)" id="52" weight="1629.06480174">
+        <attvalues>
+          <attvalue for="2" value="4" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Baja California Sur.Mulegé" target="SUB::Bióxido de nitrógeno" id="53" weight="10278891.2">
+        <attvalues>
+          <attvalue for="2" value="26" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Baja California Sur.Mulegé" target="SUB::Bióxido de carbono" id="54" weight="2945256059.2665">
+        <attvalues>
+          <attvalue for="2" value="72" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Baja California Sur.Mulegé" target="SUB::Acido sulfhídrico" id="55" weight="935297.0">
+        <attvalues>
+          <attvalue for="2" value="13" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Baja California Sur.Mulegé" target="SUB::Oxido nitroso" id="56" weight="250477370.0">
+        <attvalues>
+          <attvalue for="2" value="2" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Baja California Sur.Mulegé" target="SUB::Arsénico (compuestos)" id="57" weight="0.010280000000000001">
+        <attvalues>
+          <attvalue for="2" value="3" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Baja California Sur.Mulegé" target="SUB::Cadmio (compuestos)" id="58" weight="0.12400000000000001">
+        <attvalues>
+          <attvalue for="2" value="3" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Baja California Sur.Los Cabos" target="SUB::Cadmio (Compuestos solubles)" id="59" weight="787.0666000000001">
+        <attvalues>
+          <attvalue for="2" value="22" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Baja California Sur.Los Cabos" target="SUB::Níquel (Compuestos solubles)" id="60" weight="3063.0902">
+        <attvalues>
+          <attvalue for="2" value="27" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Baja California Sur.Los Cabos" target="SUB::Plomo (Compuestos solubles)" id="61" weight="3541.1946000000007">
+        <attvalues>
+          <attvalue for="2" value="26" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Baja California Sur.Los Cabos" target="SUB::Arsénico (Compuestos solubles)" id="62" weight="17.0715">
+        <attvalues>
+          <attvalue for="2" value="8" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Baja California Sur.Los Cabos" target="SUB::Cromo (Compuestos solubles)" id="63" weight="1474.5803999999998">
+        <attvalues>
+          <attvalue for="2" value="25" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Baja California Sur.Los Cabos" target="SUB::Mercurio (Compuestos solubles)" id="64" weight="9.9306">
+        <attvalues>
+          <attvalue for="2" value="3" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Baja California Sur.Los Cabos" target="SUB::Níquel (compuestos)" id="65" weight="0.047352">
+        <attvalues>
+          <attvalue for="2" value="5" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Baja California Sur.Los Cabos" target="SUB::Bióxido de nitrógeno" id="66" weight="11601562.899999999">
+        <attvalues>
+          <attvalue for="2" value="15" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Baja California Sur.Los Cabos" target="SUB::Bióxido de carbono" id="67" weight="2089980810.52">
+        <attvalues>
+          <attvalue for="2" value="15" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Baja California Sur.Los Cabos" target="SUB::Cianuro inorgánico/orgánico" id="68" weight="0.0032976">
+        <attvalues>
+          <attvalue for="2" value="2" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Baja California Sur.Los Cabos" target="SUB::Arsénico (compuestos)" id="69" weight="0.0002304">
+        <attvalues>
+          <attvalue for="2" value="2" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Baja California Sur.Los Cabos" target="SUB::Cadmio (compuestos)" id="70" weight="0.00288">
+        <attvalues>
+          <attvalue for="2" value="2" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Baja California Sur.Los Cabos" target="SUB::Cromo (compuestos)" id="71" weight="0.015120000000000001">
+        <attvalues>
+          <attvalue for="2" value="2" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Baja California Sur.Los Cabos" target="SUB::Mercurio (compuestos)" id="72" weight="8.16e-05">
+        <attvalues>
+          <attvalue for="2" value="2" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Baja California Sur.Los Cabos" target="SUB::Plomo (compuestos)" id="73" weight="0.0144">
+        <attvalues>
+          <attvalue for="2" value="2" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Baja California Sur.Los Cabos" target="SUB::Cadmio (polvos, respirables, vapores o humos)" id="74" weight="236.0">
+        <attvalues>
+          <attvalue for="2" value="2" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Baja California Sur.Los Cabos" target="SUB::Plomo (polvos respirables, humos o vapores)" id="75" weight="824.9">
+        <attvalues>
+          <attvalue for="2" value="4" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Baja California Sur.Los Cabos" target="SUB::Hidrofluorocarbonos" id="76" weight="374.2">
+        <attvalues>
+          <attvalue for="2" value="2" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Baja California Sur.Los Cabos" target="SUB::Mercurio (polvos, respirables, vapores o humos)" id="77" weight="2.1">
+        <attvalues>
+          <attvalue for="2" value="1" />
+        </attvalues>
+      </edge>
+    </edges>
+  </graph>
+</gexf>

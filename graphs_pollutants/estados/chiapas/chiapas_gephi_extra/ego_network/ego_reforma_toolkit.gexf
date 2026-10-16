@@ -1,0 +1,596 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<gexf xmlns="http://gexf.net/1.3" version="1.3" xmlns:viz="http://gexf.net/1.3/viz" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://gexf.net/1.3 http://gexf.net/1.3/gexf.xsd">
+  <meta lastmodifieddate="2026-10-16">
+    <creator>Apache NetBeans Platform Dev (Build {0})</creator>
+    <title></title>
+    <description></description>
+  </meta>
+  <graph defaultedgetype="undirected" mode="static">
+    <attributes class="node" mode="static">
+      <attribute id="0" title="role" type="string"/>
+      <attribute id="1" title="total_kg" type="double"/>
+    </attributes>
+    <nodes>
+      <node id="Chiapas.Reforma" label="Chiapas.Reforma">
+        <attvalues>
+          <attvalue for="0" value="focal"/>
+          <attvalue for="1" value="9.374726976303288E9"/>
+        </attvalues>
+        <viz:size value="40.0"/>
+        <viz:color r="227" g="73" b="72"/>
+      </node>
+      <node id="Bióxido de carbono" label="Carbon dioxide">
+        <attvalues>
+          <attvalue for="0" value="substance"/>
+          <attvalue for="1" value="9.321975189300732E9"/>
+        </attvalues>
+        <viz:size value="39.831192"/>
+        <viz:position x="500.0" y="0.0"/>
+        <viz:color r="235" g="104" b="52"/>
+      </node>
+      <node id="Metano" label="Methane">
+        <attvalues>
+          <attvalue for="0" value="substance"/>
+          <attvalue for="1" value="5.004039831000001E7"/>
+        </attvalues>
+        <viz:size value="10.160132"/>
+        <viz:position x="456.77274" y="203.36832"/>
+        <viz:color r="235" g="104" b="52"/>
+      </node>
+      <node id="Benceno" label="Benzene">
+        <attvalues>
+          <attvalue for="0" value="substance"/>
+          <attvalue for="1" value="1365647.52"/>
+        </attvalues>
+        <viz:size value="10.004369"/>
+        <viz:position x="334.5653" y="371.57242"/>
+        <viz:color r="235" g="104" b="52"/>
+      </node>
+      <node id="Fenol" label="Phenol">
+        <attvalues>
+          <attvalue for="0" value="substance"/>
+          <attvalue for="1" value="989022.76"/>
+        </attvalues>
+        <viz:size value="10.003163"/>
+        <viz:position x="154.5085" y="475.52826"/>
+        <viz:color r="235" g="104" b="52"/>
+      </node>
+      <node id="Bifenilo" label="Biphenyl">
+        <attvalues>
+          <attvalue for="0" value="substance"/>
+          <attvalue for="1" value="202469.92"/>
+        </attvalues>
+        <viz:size value="10.000646"/>
+        <viz:position x="-52.264233" y="497.26096"/>
+        <viz:color r="235" g="104" b="52"/>
+      </node>
+      <node id="Níquel (polvos respirables, humos o vapores)" label="Nickel (respirable dust, fumes or vapors)">
+        <attvalues>
+          <attvalue for="0" value="substance"/>
+          <attvalue for="1" value="81306.44"/>
+        </attvalues>
+        <viz:size value="10.000258"/>
+        <viz:position x="-250.0" y="433.0127"/>
+        <viz:color r="235" g="104" b="52"/>
+      </node>
+      <node id="Asbesto y sus formas (En forma de polvo, fibras o productos desmenuzables con la presión de la mano)" label="Asbestos and its forms (as dust, fibers or friable products that crumble under hand pressure)">
+        <attvalues>
+          <attvalue for="0" value="substance"/>
+          <attvalue for="1" value="26660.0"/>
+        </attvalues>
+        <viz:size value="10.000084"/>
+        <viz:position x="-404.50848" y="293.89264"/>
+        <viz:color r="235" g="104" b="52"/>
+      </node>
+      <node id="Plomo (compuestos)" label="Lead (compounds)">
+        <attvalues>
+          <attvalue for="0" value="substance"/>
+          <attvalue for="1" value="16848.8984540018"/>
+        </attvalues>
+        <viz:size value="10.000052"/>
+        <viz:position x="-489.0738" y="103.95585"/>
+        <viz:color r="235" g="104" b="52"/>
+      </node>
+      <node id="Mercurio (polvos, respirables, vapores o humos)" label="Mercury (respirable dust, vapors or fumes)">
+        <attvalues>
+          <attvalue for="0" value="substance"/>
+          <attvalue for="1" value="8869.8"/>
+        </attvalues>
+        <viz:size value="10.000027"/>
+        <viz:position x="-489.0738" y="-103.95585"/>
+        <viz:color r="235" g="104" b="52"/>
+      </node>
+      <node id="Plomo (Compuestos solubles)" label="Lead (soluble compounds)">
+        <attvalues>
+          <attvalue for="0" value="substance"/>
+          <attvalue for="1" value="6004.0354"/>
+        </attvalues>
+        <viz:size value="10.000017"/>
+        <viz:position x="-404.50848" y="-293.89264"/>
+        <viz:color r="235" g="104" b="52"/>
+      </node>
+      <node id="Níquel (Compuestos solubles)" label="Nickel (soluble compounds)">
+        <attvalues>
+          <attvalue for="0" value="substance"/>
+          <attvalue for="1" value="4233.2082"/>
+        </attvalues>
+        <viz:size value="10.000011"/>
+        <viz:position x="-250.0" y="-433.0127"/>
+        <viz:color r="235" g="104" b="52"/>
+      </node>
+      <node id="Cromo (Compuestos solubles)" label="Chromium (soluble compounds)">
+        <attvalues>
+          <attvalue for="0" value="substance"/>
+          <attvalue for="1" value="3124.1447"/>
+        </attvalues>
+        <viz:size value="10.000009"/>
+        <viz:position x="-52.264233" y="-497.26096"/>
+        <viz:color r="235" g="104" b="52"/>
+      </node>
+      <node id="Formaldehido" label="Formaldehyde">
+        <attvalues>
+          <attvalue for="0" value="substance"/>
+          <attvalue for="1" value="3078.68075621477"/>
+        </attvalues>
+        <viz:size value="10.000008"/>
+        <viz:position x="154.5085" y="-475.52826"/>
+        <viz:color r="235" g="104" b="52"/>
+      </node>
+      <node id="Arsénico (Compuestos solubles)" label="Arsenic (soluble compounds)">
+        <attvalues>
+          <attvalue for="0" value="substance"/>
+          <attvalue for="1" value="2526.0548"/>
+        </attvalues>
+        <viz:size value="10.000007"/>
+        <viz:position x="334.5653" y="-371.57242"/>
+        <viz:color r="235" g="104" b="52"/>
+      </node>
+      <node id="Cromo (polvos respirables, humos o vapores)" label="Chromium (respirable dust, fumes or vapors)">
+        <attvalues>
+          <attvalue for="0" value="substance"/>
+          <attvalue for="1" value="571.51"/>
+        </attvalues>
+        <viz:size value="10.0"/>
+        <viz:position x="456.77274" y="-203.36832"/>
+        <viz:color r="235" g="104" b="52"/>
+      </node>
+      <node id="Chiapas.Venustiano Carranza" label="Chiapas.Venustiano Carranza">
+        <attvalues>
+          <attvalue for="0" value="peer_municipio"/>
+          <attvalue for="1" value="2.258274828718906E9"/>
+        </attvalues>
+        <viz:size value="17.226688"/>
+        <viz:position x="142.31483" y="989.8215"/>
+        <viz:color r="42" g="120" b="214"/>
+      </node>
+      <node id="Chiapas.Tapachula" label="Chiapas.Tapachula">
+        <attvalues>
+          <attvalue for="0" value="peer_municipio"/>
+          <attvalue for="1" value="5.338310112929216E7"/>
+        </attvalues>
+        <viz:size value="10.170829"/>
+        <viz:position x="-841.25354" y="-540.6408"/>
+        <viz:color r="42" g="120" b="214"/>
+      </node>
+      <node id="Chiapas.Villaflores" label="Chiapas.Villaflores">
+        <attvalues>
+          <attvalue for="0" value="peer_municipio"/>
+          <attvalue for="1" value="8681934.1060205"/>
+        </attvalues>
+        <viz:size value="10.0277815"/>
+        <viz:position x="142.31483" y="-989.8215"/>
+        <viz:color r="42" g="120" b="214"/>
+      </node>
+      <node id="Chiapas.Arriaga" label="Chiapas.Arriaga">
+        <attvalues>
+          <attvalue for="0" value="peer_municipio"/>
+          <attvalue for="1" value="1105176.9896087"/>
+        </attvalues>
+        <viz:size value="10.003535"/>
+        <viz:position x="654.8607" y="-755.7496"/>
+        <viz:color r="42" g="120" b="214"/>
+      </node>
+      <node id="Chiapas.Huixtla" label="Chiapas.Huixtla">
+        <attvalues>
+          <attvalue for="0" value="peer_municipio"/>
+          <attvalue for="1" value="3.3475572680762696E9"/>
+        </attvalues>
+        <viz:size value="20.712494"/>
+        <viz:position x="959.493" y="281.73254"/>
+        <viz:color r="42" g="120" b="214"/>
+      </node>
+      <node id="Chiapas.Chiapa de Corzo" label="Chiapas.Chiapa de Corzo">
+        <attvalues>
+          <attvalue for="0" value="peer_municipio"/>
+          <attvalue for="1" value="1.8054249054212005E9"/>
+        </attvalues>
+        <viz:size value="15.777527"/>
+        <viz:position x="-415.415" y="909.632"/>
+        <viz:color r="42" g="120" b="214"/>
+      </node>
+      <node id="Chiapas.Tuxtla Gutiérrez" label="Chiapas.Tuxtla Gutiérrez">
+        <attvalues>
+          <attvalue for="0" value="peer_municipio"/>
+          <attvalue for="1" value="639151.8350177541"/>
+        </attvalues>
+        <viz:size value="10.002044"/>
+        <viz:position x="959.493" y="-281.73254"/>
+        <viz:color r="42" g="120" b="214"/>
+      </node>
+      <node id="Chiapas.Palenque" label="Chiapas.Palenque">
+        <attvalues>
+          <attvalue for="0" value="peer_municipio"/>
+          <attvalue for="1" value="3.4000132752120964E7"/>
+        </attvalues>
+        <viz:size value="10.108802"/>
+        <viz:position x="-415.415" y="-909.632"/>
+        <viz:color r="42" g="120" b="214"/>
+      </node>
+      <node id="Chiapas.Ostuacán" label="Chiapas.Ostuacán">
+        <attvalues>
+          <attvalue for="0" value="peer_municipio"/>
+          <attvalue for="1" value="5.457686997530701E8"/>
+        </attvalues>
+        <viz:size value="11.746509"/>
+        <viz:position x="-841.25354" y="540.6408"/>
+        <viz:color r="42" g="120" b="214"/>
+      </node>
+      <node id="Chiapas.Juárez" label="Chiapas.Juárez">
+        <attvalues>
+          <attvalue for="0" value="peer_municipio"/>
+          <attvalue for="1" value="5.11539718735411E8"/>
+        </attvalues>
+        <viz:size value="11.636973"/>
+        <viz:position x="-1000.0" y="1.2246467E-13"/>
+        <viz:color r="42" g="120" b="214"/>
+      </node>
+      <node id="Chiapas.Pichucalco" label="Chiapas.Pichucalco">
+        <attvalues>
+          <attvalue for="0" value="peer_municipio"/>
+          <attvalue for="1" value="3.279175603612497E9"/>
+        </attvalues>
+        <viz:size value="20.493668"/>
+        <viz:position x="654.8607" y="755.7496"/>
+        <viz:color r="42" g="120" b="214"/>
+      </node>
+    </nodes>
+    <edges>
+      <edge id="0" source="Chiapas.Reforma" target="Bióxido de carbono" weight="9.321974784E9">
+        <viz:color r="137" g="135" b="129" a="0.54901963"/>
+      </edge>
+      <edge id="1" source="Chiapas.Reforma" target="Metano" weight="5.00404E7">
+        <viz:color r="137" g="135" b="129" a="0.54901963"/>
+      </edge>
+      <edge id="2" source="Chiapas.Reforma" target="Benceno" weight="1365647.5">
+        <viz:color r="137" g="135" b="129" a="0.54901963"/>
+      </edge>
+      <edge id="3" source="Chiapas.Reforma" target="Fenol" weight="989022.75">
+        <viz:color r="137" g="135" b="129" a="0.54901963"/>
+      </edge>
+      <edge id="4" source="Chiapas.Reforma" target="Bifenilo" weight="202469.921875">
+        <viz:color r="137" g="135" b="129" a="0.54901963"/>
+      </edge>
+      <edge id="5" source="Chiapas.Reforma" target="Níquel (polvos respirables, humos o vapores)" weight="81306.4375">
+        <viz:color r="137" g="135" b="129" a="0.54901963"/>
+      </edge>
+      <edge id="6" source="Chiapas.Reforma" target="Asbesto y sus formas (En forma de polvo, fibras o productos desmenuzables con la presión de la mano)" weight="26660.0">
+        <viz:color r="137" g="135" b="129" a="0.54901963"/>
+      </edge>
+      <edge id="7" source="Chiapas.Reforma" target="Plomo (compuestos)" weight="16848.8984375">
+        <viz:color r="137" g="135" b="129" a="0.54901963"/>
+      </edge>
+      <edge id="8" source="Chiapas.Reforma" target="Mercurio (polvos, respirables, vapores o humos)" weight="8869.7998046875">
+        <viz:color r="137" g="135" b="129" a="0.54901963"/>
+      </edge>
+      <edge id="9" source="Chiapas.Reforma" target="Plomo (Compuestos solubles)" weight="6004.03515625">
+        <viz:color r="137" g="135" b="129" a="0.54901963"/>
+      </edge>
+      <edge id="10" source="Chiapas.Reforma" target="Níquel (Compuestos solubles)" weight="4233.2080078125">
+        <viz:color r="137" g="135" b="129" a="0.54901963"/>
+      </edge>
+      <edge id="11" source="Chiapas.Reforma" target="Cromo (Compuestos solubles)" weight="3124.144775390625">
+        <viz:color r="137" g="135" b="129" a="0.54901963"/>
+      </edge>
+      <edge id="12" source="Chiapas.Reforma" target="Formaldehido" weight="3078.6806640625">
+        <viz:color r="137" g="135" b="129" a="0.54901963"/>
+      </edge>
+      <edge id="13" source="Chiapas.Reforma" target="Arsénico (Compuestos solubles)" weight="2526.0546875">
+        <viz:color r="137" g="135" b="129" a="0.54901963"/>
+      </edge>
+      <edge id="14" source="Chiapas.Reforma" target="Cromo (polvos respirables, humos o vapores)" weight="571.510009765625">
+        <viz:color r="137" g="135" b="129" a="0.54901963"/>
+      </edge>
+      <edge id="15" source="Bióxido de carbono" target="Chiapas.Venustiano Carranza" weight="2.258272E9">
+        <viz:color r="137" g="135" b="129" a="0.54901963"/>
+      </edge>
+      <edge id="16" source="Bióxido de carbono" target="Chiapas.Tapachula" weight="5.3382772E7">
+        <viz:color r="137" g="135" b="129" a="0.54901963"/>
+      </edge>
+      <edge id="17" source="Bióxido de carbono" target="Chiapas.Villaflores" weight="8279555.0">
+        <viz:color r="137" g="135" b="129" a="0.54901963"/>
+      </edge>
+      <edge id="18" source="Bióxido de carbono" target="Chiapas.Arriaga" weight="1104844.75">
+        <viz:color r="137" g="135" b="129" a="0.54901963"/>
+      </edge>
+      <edge id="19" source="Bióxido de carbono" target="Chiapas.Huixtla" weight="3.347548928E9">
+        <viz:color r="137" g="135" b="129" a="0.54901963"/>
+      </edge>
+      <edge id="20" source="Bióxido de carbono" target="Chiapas.Chiapa de Corzo" weight="1.805402368E9">
+        <viz:color r="137" g="135" b="129" a="0.54901963"/>
+      </edge>
+      <edge id="21" source="Bióxido de carbono" target="Chiapas.Tuxtla Gutiérrez" weight="21358.0">
+        <viz:color r="137" g="135" b="129" a="0.54901963"/>
+      </edge>
+      <edge id="22" source="Bióxido de carbono" target="Chiapas.Palenque" weight="3.231103E7">
+        <viz:color r="137" g="135" b="129" a="0.54901963"/>
+      </edge>
+      <edge id="23" source="Bióxido de carbono" target="Chiapas.Ostuacán" weight="5.39248448E8">
+        <viz:color r="137" g="135" b="129" a="0.54901963"/>
+      </edge>
+      <edge id="24" source="Bióxido de carbono" target="Chiapas.Juárez" weight="5.03953504E8">
+        <viz:color r="137" g="135" b="129" a="0.54901963"/>
+      </edge>
+      <edge id="25" source="Bióxido de carbono" target="Chiapas.Pichucalco" weight="3.263038976E9">
+        <viz:color r="137" g="135" b="129" a="0.54901963"/>
+      </edge>
+      <edge id="26" source="Metano" target="Chiapas.Villaflores" weight="402176.0">
+        <viz:color r="137" g="135" b="129" a="0.54901963"/>
+      </edge>
+      <edge id="27" source="Metano" target="Chiapas.Tuxtla Gutiérrez" weight="601630.0">
+        <viz:color r="137" g="135" b="129" a="0.54901963"/>
+      </edge>
+      <edge id="28" source="Metano" target="Chiapas.Palenque" weight="1688968.625">
+        <viz:color r="137" g="135" b="129" a="0.54901963"/>
+      </edge>
+      <edge id="29" source="Metano" target="Chiapas.Ostuacán" weight="6455168.0">
+        <viz:color r="137" g="135" b="129" a="0.54901963"/>
+      </edge>
+      <edge id="30" source="Metano" target="Chiapas.Juárez" weight="7188638.0">
+        <viz:color r="137" g="135" b="129" a="0.54901963"/>
+      </edge>
+      <edge id="31" source="Metano" target="Chiapas.Pichucalco" weight="1.4621439E7">
+        <viz:color r="137" g="135" b="129" a="0.54901963"/>
+      </edge>
+      <edge id="32" source="Benceno" target="Chiapas.Tapachula" weight="0.004619999788701534">
+        <viz:color r="137" g="135" b="129" a="0.54901963"/>
+      </edge>
+      <edge id="33" source="Benceno" target="Chiapas.Tuxtla Gutiérrez" weight="0.08063384145498276">
+        <viz:color r="137" g="135" b="129" a="0.54901963"/>
+      </edge>
+      <edge id="34" source="Benceno" target="Chiapas.Ostuacán" weight="33119.19921875">
+        <viz:color r="137" g="135" b="129" a="0.54901963"/>
+      </edge>
+      <edge id="35" source="Benceno" target="Chiapas.Juárez" weight="207138.53125">
+        <viz:color r="137" g="135" b="129" a="0.54901963"/>
+      </edge>
+      <edge id="36" source="Benceno" target="Chiapas.Pichucalco" weight="794937.75">
+        <viz:color r="137" g="135" b="129" a="0.54901963"/>
+      </edge>
+      <edge id="37" source="Fenol" target="Chiapas.Ostuacán" weight="23985.4296875">
+        <viz:color r="137" g="135" b="129" a="0.54901963"/>
+      </edge>
+      <edge id="38" source="Fenol" target="Chiapas.Juárez" weight="150012.875">
+        <viz:color r="137" g="135" b="129" a="0.54901963"/>
+      </edge>
+      <edge id="39" source="Fenol" target="Chiapas.Pichucalco" weight="575706.0">
+        <viz:color r="137" g="135" b="129" a="0.54901963"/>
+      </edge>
+      <edge id="40" source="Bifenilo" target="Chiapas.Ostuacán" weight="4455.5">
+        <viz:color r="137" g="135" b="129" a="0.54901963"/>
+      </edge>
+      <edge id="41" source="Bifenilo" target="Chiapas.Juárez" weight="27866.169921875">
+        <viz:color r="137" g="135" b="129" a="0.54901963"/>
+      </edge>
+      <edge id="42" source="Bifenilo" target="Chiapas.Pichucalco" weight="106942.296875">
+        <viz:color r="137" g="135" b="129" a="0.54901963"/>
+      </edge>
+      <edge id="43" source="Níquel (polvos respirables, humos o vapores)" target="Chiapas.Venustiano Carranza" weight="73.05413055419922">
+        <viz:color r="137" g="135" b="129" a="0.54901963"/>
+      </edge>
+      <edge id="44" source="Níquel (polvos respirables, humos o vapores)" target="Chiapas.Tapachula" weight="98.65199279785156">
+        <viz:color r="137" g="135" b="129" a="0.54901963"/>
+      </edge>
+      <edge id="45" source="Níquel (polvos respirables, humos o vapores)" target="Chiapas.Arriaga" weight="15.42240047454834">
+        <viz:color r="137" g="135" b="129" a="0.54901963"/>
+      </edge>
+      <edge id="46" source="Níquel (polvos respirables, humos o vapores)" target="Chiapas.Tuxtla Gutiérrez" weight="21.89259910583496">
+        <viz:color r="137" g="135" b="129" a="0.54901963"/>
+      </edge>
+      <edge id="47" source="Níquel (polvos respirables, humos o vapores)" target="Chiapas.Ostuacán" weight="3033.18994140625">
+        <viz:color r="137" g="135" b="129" a="0.54901963"/>
+      </edge>
+      <edge id="48" source="Níquel (polvos respirables, humos o vapores)" target="Chiapas.Juárez" weight="11250.8603515625">
+        <viz:color r="137" g="135" b="129" a="0.54901963"/>
+      </edge>
+      <edge id="49" source="Níquel (polvos respirables, humos o vapores)" target="Chiapas.Pichucalco" weight="30531.830078125">
+        <viz:color r="137" g="135" b="129" a="0.54901963"/>
+      </edge>
+      <edge id="50" source="Asbesto y sus formas (En forma de polvo, fibras o productos desmenuzables con la presión de la mano)" target="Chiapas.Chiapa de Corzo" weight="3910.0">
+        <viz:color r="137" g="135" b="129" a="0.54901963"/>
+      </edge>
+      <edge id="51" source="Plomo (compuestos)" target="Chiapas.Venustiano Carranza" weight="424.6463317871094">
+        <viz:color r="137" g="135" b="129" a="0.54901963"/>
+      </edge>
+      <edge id="52" source="Plomo (compuestos)" target="Chiapas.Tapachula" weight="9.206197738647461">
+        <viz:color r="137" g="135" b="129" a="0.54901963"/>
+      </edge>
+      <edge id="53" source="Plomo (compuestos)" target="Chiapas.Villaflores" weight="106.98230743408203">
+        <viz:color r="137" g="135" b="129" a="0.54901963"/>
+      </edge>
+      <edge id="54" source="Plomo (compuestos)" target="Chiapas.Arriaga" weight="44.616390228271484">
+        <viz:color r="137" g="135" b="129" a="0.54901963"/>
+      </edge>
+      <edge id="55" source="Plomo (compuestos)" target="Chiapas.Huixtla" weight="780.1893920898438">
+        <viz:color r="137" g="135" b="129" a="0.54901963"/>
+      </edge>
+      <edge id="56" source="Plomo (compuestos)" target="Chiapas.Chiapa de Corzo" weight="3.9617156982421875">
+        <viz:color r="137" g="135" b="129" a="0.54901963"/>
+      </edge>
+      <edge id="57" source="Plomo (compuestos)" target="Chiapas.Tuxtla Gutiérrez" weight="1026.2330322265625">
+        <viz:color r="137" g="135" b="129" a="0.54901963"/>
+      </edge>
+      <edge id="58" source="Plomo (compuestos)" target="Chiapas.Palenque" weight="13.613783836364746">
+        <viz:color r="137" g="135" b="129" a="0.54901963"/>
+      </edge>
+      <edge id="59" source="Plomo (compuestos)" target="Chiapas.Ostuacán" weight="1.0000000116860974E-7">
+        <viz:color r="137" g="135" b="129" a="0.54901963"/>
+      </edge>
+      <edge id="60" source="Plomo (compuestos)" target="Chiapas.Juárez" weight="8.623673439025879">
+        <viz:color r="137" g="135" b="129" a="0.54901963"/>
+      </edge>
+      <edge id="61" source="Plomo (compuestos)" target="Chiapas.Pichucalco" weight="5.582127571105957">
+        <viz:color r="137" g="135" b="129" a="0.54901963"/>
+      </edge>
+      <edge id="62" source="Mercurio (polvos, respirables, vapores o humos)" target="Chiapas.Tapachula" weight="48.31582260131836">
+        <viz:color r="137" g="135" b="129" a="0.54901963"/>
+      </edge>
+      <edge id="63" source="Mercurio (polvos, respirables, vapores o humos)" target="Chiapas.Villaflores" weight="0.06290650367736816">
+        <viz:color r="137" g="135" b="129" a="0.54901963"/>
+      </edge>
+      <edge id="64" source="Mercurio (polvos, respirables, vapores o humos)" target="Chiapas.Arriaga" weight="0.036779601126909256">
+        <viz:color r="137" g="135" b="129" a="0.54901963"/>
+      </edge>
+      <edge id="65" source="Mercurio (polvos, respirables, vapores o humos)" target="Chiapas.Huixtla" weight="8.903510093688965">
+        <viz:color r="137" g="135" b="129" a="0.54901963"/>
+      </edge>
+      <edge id="66" source="Mercurio (polvos, respirables, vapores o humos)" target="Chiapas.Palenque" weight="0.054864224046468735">
+        <viz:color r="137" g="135" b="129" a="0.54901963"/>
+      </edge>
+      <edge id="67" source="Mercurio (polvos, respirables, vapores o humos)" target="Chiapas.Ostuacán" weight="330.9859924316406">
+        <viz:color r="137" g="135" b="129" a="0.54901963"/>
+      </edge>
+      <edge id="68" source="Mercurio (polvos, respirables, vapores o humos)" target="Chiapas.Juárez" weight="1227.3699951171875">
+        <viz:color r="137" g="135" b="129" a="0.54901963"/>
+      </edge>
+      <edge id="69" source="Mercurio (polvos, respirables, vapores o humos)" target="Chiapas.Pichucalco" weight="3330.746826171875">
+        <viz:color r="137" g="135" b="129" a="0.54901963"/>
+      </edge>
+      <edge id="70" source="Plomo (Compuestos solubles)" target="Chiapas.Venustiano Carranza" weight="818.428466796875">
+        <viz:color r="137" g="135" b="129" a="0.54901963"/>
+      </edge>
+      <edge id="71" source="Plomo (Compuestos solubles)" target="Chiapas.Tapachula" weight="62.388641357421875">
+        <viz:color r="137" g="135" b="129" a="0.54901963"/>
+      </edge>
+      <edge id="72" source="Plomo (Compuestos solubles)" target="Chiapas.Villaflores" weight="48.362300872802734">
+        <viz:color r="137" g="135" b="129" a="0.54901963"/>
+      </edge>
+      <edge id="73" source="Plomo (Compuestos solubles)" target="Chiapas.Arriaga" weight="108.78630065917969">
+        <viz:color r="137" g="135" b="129" a="0.54901963"/>
+      </edge>
+      <edge id="74" source="Plomo (Compuestos solubles)" target="Chiapas.Huixtla" weight="1624.3160400390625">
+        <viz:color r="137" g="135" b="129" a="0.54901963"/>
+      </edge>
+      <edge id="75" source="Plomo (Compuestos solubles)" target="Chiapas.Chiapa de Corzo" weight="707.2279052734375">
+        <viz:color r="137" g="135" b="129" a="0.54901963"/>
+      </edge>
+      <edge id="76" source="Plomo (Compuestos solubles)" target="Chiapas.Tuxtla Gutiérrez" weight="6488.943359375">
+        <viz:color r="137" g="135" b="129" a="0.54901963"/>
+      </edge>
+      <edge id="77" source="Plomo (Compuestos solubles)" target="Chiapas.Palenque" weight="53.408199310302734">
+        <viz:color r="137" g="135" b="129" a="0.54901963"/>
+      </edge>
+      <edge id="78" source="Plomo (Compuestos solubles)" target="Chiapas.Ostuacán" weight="4.786300182342529">
+        <viz:color r="137" g="135" b="129" a="0.54901963"/>
+      </edge>
+      <edge id="79" source="Níquel (Compuestos solubles)" target="Chiapas.Venustiano Carranza" weight="612.467529296875">
+        <viz:color r="137" g="135" b="129" a="0.54901963"/>
+      </edge>
+      <edge id="80" source="Níquel (Compuestos solubles)" target="Chiapas.Tapachula" weight="69.12532043457031">
+        <viz:color r="137" g="135" b="129" a="0.54901963"/>
+      </edge>
+      <edge id="81" source="Níquel (Compuestos solubles)" target="Chiapas.Villaflores" weight="38.34056091308594">
+        <viz:color r="137" g="135" b="129" a="0.54901963"/>
+      </edge>
+      <edge id="82" source="Níquel (Compuestos solubles)" target="Chiapas.Arriaga" weight="103.06259155273438">
+        <viz:color r="137" g="135" b="129" a="0.54901963"/>
+      </edge>
+      <edge id="83" source="Níquel (Compuestos solubles)" target="Chiapas.Huixtla" weight="5650.125">
+        <viz:color r="137" g="135" b="129" a="0.54901963"/>
+      </edge>
+      <edge id="84" source="Níquel (Compuestos solubles)" target="Chiapas.Chiapa de Corzo" weight="932.9569702148438">
+        <viz:color r="137" g="135" b="129" a="0.54901963"/>
+      </edge>
+      <edge id="85" source="Níquel (Compuestos solubles)" target="Chiapas.Tuxtla Gutiérrez" weight="4457.58837890625">
+        <viz:color r="137" g="135" b="129" a="0.54901963"/>
+      </edge>
+      <edge id="86" source="Níquel (Compuestos solubles)" target="Chiapas.Palenque" weight="38.67720031738281">
+        <viz:color r="137" g="135" b="129" a="0.54901963"/>
+      </edge>
+      <edge id="87" source="Níquel (Compuestos solubles)" target="Chiapas.Ostuacán" weight="70.28130340576172">
+        <viz:color r="137" g="135" b="129" a="0.54901963"/>
+      </edge>
+      <edge id="88" source="Cromo (Compuestos solubles)" target="Chiapas.Venustiano Carranza" weight="434.68719482421875">
+        <viz:color r="137" g="135" b="129" a="0.54901963"/>
+      </edge>
+      <edge id="89" source="Cromo (Compuestos solubles)" target="Chiapas.Tapachula" weight="42.93010330200195">
+        <viz:color r="137" g="135" b="129" a="0.54901963"/>
+      </edge>
+      <edge id="90" source="Cromo (Compuestos solubles)" target="Chiapas.Villaflores" weight="9.395400047302246">
+        <viz:color r="137" g="135" b="129" a="0.54901963"/>
+      </edge>
+      <edge id="91" source="Cromo (Compuestos solubles)" target="Chiapas.Arriaga" weight="59.20024871826172">
+        <viz:color r="137" g="135" b="129" a="0.54901963"/>
+      </edge>
+      <edge id="92" source="Cromo (Compuestos solubles)" target="Chiapas.Huixtla" weight="323.3716125488281">
+        <viz:color r="137" g="135" b="129" a="0.54901963"/>
+      </edge>
+      <edge id="93" source="Cromo (Compuestos solubles)" target="Chiapas.Chiapa de Corzo" weight="112.41314697265625">
+        <viz:color r="137" g="135" b="129" a="0.54901963"/>
+      </edge>
+      <edge id="94" source="Cromo (Compuestos solubles)" target="Chiapas.Tuxtla Gutiérrez" weight="4025.992431640625">
+        <viz:color r="137" g="135" b="129" a="0.54901963"/>
+      </edge>
+      <edge id="95" source="Cromo (Compuestos solubles)" target="Chiapas.Palenque" weight="28.869800567626953">
+        <viz:color r="137" g="135" b="129" a="0.54901963"/>
+      </edge>
+      <edge id="96" source="Cromo (Compuestos solubles)" target="Chiapas.Ostuacán" weight="37.37620162963867">
+        <viz:color r="137" g="135" b="129" a="0.54901963"/>
+      </edge>
+      <edge id="97" source="Formaldehido" target="Chiapas.Tapachula" weight="1.939999929163605E-4">
+        <viz:color r="137" g="135" b="129" a="0.54901963"/>
+      </edge>
+      <edge id="98" source="Formaldehido" target="Chiapas.Chiapa de Corzo" weight="16852.0">
+        <viz:color r="137" g="135" b="129" a="0.54901963"/>
+      </edge>
+      <edge id="99" source="Formaldehido" target="Chiapas.Tuxtla Gutiérrez" weight="0.003389893099665642">
+        <viz:color r="137" g="135" b="129" a="0.54901963"/>
+      </edge>
+      <edge id="100" source="Formaldehido" target="Chiapas.Pichucalco" weight="3520.0">
+        <viz:color r="137" g="135" b="129" a="0.54901963"/>
+      </edge>
+      <edge id="101" source="Arsénico (Compuestos solubles)" target="Chiapas.Venustiano Carranza" weight="8.30049991607666">
+        <viz:color r="137" g="135" b="129" a="0.54901963"/>
+      </edge>
+      <edge id="102" source="Arsénico (Compuestos solubles)" target="Chiapas.Arriaga" weight="1.1049000024795532">
+        <viz:color r="137" g="135" b="129" a="0.54901963"/>
+      </edge>
+      <edge id="103" source="Arsénico (Compuestos solubles)" target="Chiapas.Huixtla" weight="32.170501708984375">
+        <viz:color r="137" g="135" b="129" a="0.54901963"/>
+      </edge>
+      <edge id="104" source="Arsénico (Compuestos solubles)" target="Chiapas.Chiapa de Corzo" weight="22.007999420166016">
+        <viz:color r="137" g="135" b="129" a="0.54901963"/>
+      </edge>
+      <edge id="105" source="Arsénico (Compuestos solubles)" target="Chiapas.Tuxtla Gutiérrez" weight="125.02649688720703">
+        <viz:color r="137" g="135" b="129" a="0.54901963"/>
+      </edge>
+      <edge id="106" source="Arsénico (Compuestos solubles)" target="Chiapas.Ostuacán" weight="16.708999633789062">
+        <viz:color r="137" g="135" b="129" a="0.54901963"/>
+      </edge>
+      <edge id="107" source="Cromo (polvos respirables, humos o vapores)" target="Chiapas.Venustiano Carranza" weight="365.5875549316406">
+        <viz:color r="137" g="135" b="129" a="0.54901963"/>
+      </edge>
+      <edge id="108" source="Cromo (polvos respirables, humos o vapores)" target="Chiapas.Tuxtla Gutiérrez" weight="18.074800491333008">
+        <viz:color r="137" g="135" b="129" a="0.54901963"/>
+      </edge>
+      <edge id="109" source="Cromo (polvos respirables, humos o vapores)" target="Chiapas.Ostuacán" weight="19.09000015258789">
+        <viz:color r="137" g="135" b="129" a="0.54901963"/>
+      </edge>
+      <edge id="110" source="Cromo (polvos respirables, humos o vapores)" target="Chiapas.Juárez" weight="81.80999755859375">
+        <viz:color r="137" g="135" b="129" a="0.54901963"/>
+      </edge>
+      <edge id="111" source="Cromo (polvos respirables, humos o vapores)" target="Chiapas.Pichucalco" weight="150.7571258544922">
+        <viz:color r="137" g="135" b="129" a="0.54901963"/>
+      </edge>
+    </edges>
+  </graph>
+</gexf>

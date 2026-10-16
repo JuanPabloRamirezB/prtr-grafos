@@ -1,0 +1,2901 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<gexf xmlns="http://gexf.net/1.3" version="1.3" xmlns:viz="http://gexf.net/1.3/viz" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://gexf.net/1.3 http://gexf.net/1.3/gexf.xsd">
+  <meta lastmodifieddate="2026-10-16">
+    <creator>Apache NetBeans Platform Dev (Build {0})</creator>
+    <title></title>
+    <description></description>
+  </meta>
+  <graph defaultedgetype="undirected" mode="static">
+    <attributes class="node" mode="static">
+      <attribute id="0" title="type" type="string"/>
+      <attribute id="1" title="total_kg" type="double"/>
+    </attributes>
+    <attributes class="edge" mode="static">
+      <attribute id="2" title="count" type="long"/>
+    </attributes>
+    <nodes>
+      <node id="LOC::Chihuahua.Chihuahua" label="Chihuahua.Chihuahua">
+        <attvalues>
+          <attvalue for="0" value="location"/>
+          <attvalue for="1" value="4.8202885122692024E10"/>
+        </attvalues>
+        <viz:size value="23.585342"/>
+        <viz:position x="-900.0" y="230.76924"/>
+        <viz:color r="42" g="120" b="214"/>
+      </node>
+      <node id="LOC::Chihuahua.Juárez" label="Chihuahua.Juárez">
+        <attvalues>
+          <attvalue for="0" value="location"/>
+          <attvalue for="1" value="7.003225125781116E10"/>
+        </attvalues>
+        <viz:size value="31.549116"/>
+        <viz:position x="-900.0" y="0.0"/>
+        <viz:color r="42" g="120" b="214"/>
+      </node>
+      <node id="LOC::Chihuahua.Cuauhtémoc" label="Chihuahua.Cuauhtémoc">
+        <attvalues>
+          <attvalue for="0" value="location"/>
+          <attvalue for="1" value="3.808645812619468E9"/>
+        </attvalues>
+        <viz:size value="7.3894672"/>
+        <viz:position x="-900.0" y="692.3077"/>
+        <viz:color r="42" g="120" b="214"/>
+      </node>
+      <node id="LOC::Chihuahua.Praxedis G" label="Chihuahua.Praxedis G">
+        <attvalues>
+          <attvalue for="0" value="location"/>
+          <attvalue for="1" value="104287.9932862"/>
+        </attvalues>
+        <viz:size value="6.000038"/>
+        <viz:position x="-900.0" y="4615.385"/>
+        <viz:color r="42" g="120" b="214"/>
+      </node>
+      <node id="LOC::Chihuahua.Hidalgo del Parral" label="Chihuahua.Hidalgo del Parral">
+        <attvalues>
+          <attvalue for="0" value="location"/>
+          <attvalue for="1" value="1.2113566932856502E8"/>
+        </attvalues>
+        <viz:size value="6.044193"/>
+        <viz:position x="-900.0" y="2076.923"/>
+        <viz:color r="42" g="120" b="214"/>
+      </node>
+      <node id="LOC::Chihuahua.Aquiles Serdán" label="Chihuahua.Aquiles Serdán">
+        <attvalues>
+          <attvalue for="0" value="location"/>
+          <attvalue for="1" value="2.628351109886418E8"/>
+        </attvalues>
+        <viz:size value="6.095887"/>
+        <viz:position x="-900.0" y="1384.6154"/>
+        <viz:color r="42" g="120" b="214"/>
+      </node>
+      <node id="LOC::Chihuahua.Urique" label="Chihuahua.Urique">
+        <attvalues>
+          <attvalue for="0" value="location"/>
+          <attvalue for="1" value="9.3723445142792E8"/>
+        </attvalues>
+        <viz:size value="6.3419213"/>
+        <viz:position x="-900.0" y="923.07697"/>
+        <viz:color r="42" g="120" b="214"/>
+      </node>
+      <node id="LOC::Chihuahua.Madera" label="Chihuahua.Madera">
+        <attvalues>
+          <attvalue for="0" value="location"/>
+          <attvalue for="1" value="2.2632876218720314E8"/>
+        </attvalues>
+        <viz:size value="6.082569"/>
+        <viz:position x="-900.0" y="1615.3846"/>
+        <viz:color r="42" g="120" b="214"/>
+      </node>
+      <node id="LOC::Chihuahua.Moris" label="Chihuahua.Moris">
+        <attvalues>
+          <attvalue for="0" value="location"/>
+          <attvalue for="1" value="2073418.1101040998"/>
+        </attvalues>
+        <viz:size value="6.0007563"/>
+        <viz:position x="-900.0" y="3923.077"/>
+        <viz:color r="42" g="120" b="214"/>
+      </node>
+      <node id="LOC::Chihuahua.Ocampo" label="Chihuahua.Ocampo">
+        <attvalues>
+          <attvalue for="0" value="location"/>
+          <attvalue for="1" value="4.245805348589478E8"/>
+        </attvalues>
+        <viz:size value="6.1548953"/>
+        <viz:position x="-900.0" y="1153.8462"/>
+        <viz:color r="42" g="120" b="214"/>
+      </node>
+      <node id="LOC::Chihuahua.Delicias" label="Chihuahua.Delicias">
+        <attvalues>
+          <attvalue for="0" value="location"/>
+          <attvalue for="1" value="1.0056089783309998E10"/>
+        </attvalues>
+        <viz:size value="9.668655"/>
+        <viz:position x="-900.0" y="461.53848"/>
+        <viz:color r="42" g="120" b="214"/>
+      </node>
+      <node id="LOC::Chihuahua.Chínipas" label="Chihuahua.Chínipas">
+        <attvalues>
+          <attvalue for="0" value="location"/>
+          <attvalue for="1" value="4.2886843356130116E7"/>
+        </attvalues>
+        <viz:size value="6.015646"/>
+        <viz:position x="-900.0" y="2307.6924"/>
+        <viz:color r="42" g="120" b="214"/>
+      </node>
+      <node id="LOC::Chihuahua.Guerrero" label="Chihuahua.Guerrero">
+        <attvalues>
+          <attvalue for="0" value="location"/>
+          <attvalue for="1" value="27640.762265249963"/>
+        </attvalues>
+        <viz:size value="6.00001"/>
+        <viz:position x="-900.0" y="5076.9233"/>
+        <viz:color r="42" g="120" b="214"/>
+      </node>
+      <node id="LOC::Chihuahua.Cusihuiriachi" label="Chihuahua.Cusihuiriachi">
+        <attvalues>
+          <attvalue for="0" value="location"/>
+          <attvalue for="1" value="0.05218162970000001"/>
+        </attvalues>
+        <viz:size value="6.0"/>
+        <viz:position x="-900.0" y="6000.0"/>
+        <viz:color r="42" g="120" b="214"/>
+      </node>
+      <node id="LOC::Chihuahua.San Francisco del Oro" label="Chihuahua.San Francisco del Oro">
+        <attvalues>
+          <attvalue for="0" value="location"/>
+          <attvalue for="1" value="1.7115519012866178E8"/>
+        </attvalues>
+        <viz:size value="6.062441"/>
+        <viz:position x="-900.0" y="1846.1539"/>
+        <viz:color r="42" g="120" b="214"/>
+      </node>
+      <node id="LOC::Chihuahua.Meoqui" label="Chihuahua.Meoqui">
+        <attvalues>
+          <attvalue for="0" value="location"/>
+          <attvalue for="1" value="3.598931025066896E7"/>
+        </attvalues>
+        <viz:size value="6.0131297"/>
+        <viz:position x="-900.0" y="2769.2307"/>
+        <viz:color r="42" g="120" b="214"/>
+      </node>
+      <node id="LOC::Chihuahua.Nuevo Casas Grandes" label="Chihuahua.Nuevo Casas Grandes">
+        <attvalues>
+          <attvalue for="0" value="location"/>
+          <attvalue for="1" value="472825.0692908495"/>
+        </attvalues>
+        <viz:size value="6.0001726"/>
+        <viz:position x="-900.0" y="4153.846"/>
+        <viz:color r="42" g="120" b="214"/>
+      </node>
+      <node id="LOC::Chihuahua.Saucillo" label="Chihuahua.Saucillo">
+        <attvalues>
+          <attvalue for="0" value="location"/>
+          <attvalue for="1" value="3.67078657730713E7"/>
+        </attvalues>
+        <viz:size value="6.013392"/>
+        <viz:position x="-900.0" y="2538.4617"/>
+        <viz:color r="42" g="120" b="214"/>
+      </node>
+      <node id="LOC::Chihuahua.Ascensión" label="Chihuahua.Ascensión">
+        <attvalues>
+          <attvalue for="0" value="location"/>
+          <attvalue for="1" value="455906.98806616"/>
+        </attvalues>
+        <viz:size value="6.0001664"/>
+        <viz:position x="-900.0" y="4384.615"/>
+        <viz:color r="42" g="120" b="214"/>
+      </node>
+      <node id="LOC::Chihuahua.Guadalupe y Calvo" label="Chihuahua.Guadalupe y Calvo">
+        <attvalues>
+          <attvalue for="0" value="location"/>
+          <attvalue for="1" value="3191819.01156"/>
+        </attvalues>
+        <viz:size value="6.0011644"/>
+        <viz:position x="-900.0" y="3692.3079"/>
+        <viz:color r="42" g="120" b="214"/>
+      </node>
+      <node id="LOC::Chihuahua.Camargo" label="Chihuahua.Camargo">
+        <attvalues>
+          <attvalue for="0" value="location"/>
+          <attvalue for="1" value="6365728.0068"/>
+        </attvalues>
+        <viz:size value="6.002322"/>
+        <viz:position x="-900.0" y="3461.5383"/>
+        <viz:color r="42" g="120" b="214"/>
+      </node>
+      <node id="LOC::Chihuahua.Ojinaga" label="Chihuahua.Ojinaga">
+        <attvalues>
+          <attvalue for="0" value="location"/>
+          <attvalue for="1" value="1.8140295504E7"/>
+        </attvalues>
+        <viz:size value="6.006618"/>
+        <viz:position x="-900.0" y="3000.0"/>
+        <viz:color r="42" g="120" b="214"/>
+      </node>
+      <node id="LOC::Chihuahua.Satevó" label="Chihuahua.Satevó">
+        <attvalues>
+          <attvalue for="0" value="location"/>
+          <attvalue for="1" value="1.21519584E7"/>
+        </attvalues>
+        <viz:size value="6.004433"/>
+        <viz:position x="-900.0" y="3230.7693"/>
+        <viz:color r="42" g="120" b="214"/>
+      </node>
+      <node id="LOC::Chihuahua.Jiménez" label="Chihuahua.Jiménez">
+        <attvalues>
+          <attvalue for="0" value="location"/>
+          <attvalue for="1" value="26358.468483000004"/>
+        </attvalues>
+        <viz:size value="6.0000095"/>
+        <viz:position x="-900.0" y="5307.6924"/>
+        <viz:color r="42" g="120" b="214"/>
+      </node>
+      <node id="LOC::Chihuahua.Buenaventura" label="Chihuahua.Buenaventura">
+        <attvalues>
+          <attvalue for="0" value="location"/>
+          <attvalue for="1" value="13455.0076"/>
+        </attvalues>
+        <viz:size value="6.000005"/>
+        <viz:position x="-900.0" y="5538.4614"/>
+        <viz:color r="42" g="120" b="214"/>
+      </node>
+      <node id="LOC::Chihuahua.Ahumada" label="Chihuahua.Ahumada">
+        <attvalues>
+          <attvalue for="0" value="location"/>
+          <attvalue for="1" value="53098.413"/>
+        </attvalues>
+        <viz:size value="6.0000196"/>
+        <viz:position x="-900.0" y="4846.154"/>
+        <viz:color r="42" g="120" b="214"/>
+      </node>
+      <node id="LOC::Chihuahua.Guadalupe" label="Chihuahua.Guadalupe">
+        <attvalues>
+          <attvalue for="0" value="location"/>
+          <attvalue for="1" value="64.277"/>
+        </attvalues>
+        <viz:size value="6.0"/>
+        <viz:position x="-900.0" y="5769.2305"/>
+        <viz:color r="42" g="120" b="214"/>
+      </node>
+      <node id="SUB::Níquel (Compuestos solubles)" label="Nickel (soluble compounds)">
+        <attvalues>
+          <attvalue for="0" value="substance"/>
+          <attvalue for="1" value="84443.97452208631"/>
+        </attvalues>
+        <viz:size value="6.000031"/>
+        <viz:position x="900.0" y="2538.4617"/>
+        <viz:color r="235" g="104" b="52"/>
+      </node>
+      <node id="SUB::Plomo (Compuestos solubles)" label="Lead (soluble compounds)">
+        <attvalues>
+          <attvalue for="0" value="substance"/>
+          <attvalue for="1" value="330030.23163146863"/>
+        </attvalues>
+        <viz:size value="6.0001206"/>
+        <viz:position x="900.0" y="1038.4615"/>
+        <viz:color r="235" g="104" b="52"/>
+      </node>
+      <node id="SUB::Cianuro inorgánico/orgánico" label="Inorganic/organic cyanide">
+        <attvalues>
+          <attvalue for="0" value="substance"/>
+          <attvalue for="1" value="313424.5640205185"/>
+        </attvalues>
+        <viz:size value="6.0001144"/>
+        <viz:position x="900.0" y="1153.8462"/>
+        <viz:color r="235" g="104" b="52"/>
+      </node>
+      <node id="SUB::Arsénico (polvos, respirables, vapores o humos)" label="Arsenic (respirable dust, vapors or fumes)">
+        <attvalues>
+          <attvalue for="0" value="substance"/>
+          <attvalue for="1" value="175055.06256627457"/>
+        </attvalues>
+        <viz:size value="6.000064"/>
+        <viz:position x="900.0" y="1615.3846"/>
+        <viz:color r="235" g="104" b="52"/>
+      </node>
+      <node id="SUB::Cadmio (polvos, respirables, vapores o humos)" label="Cadmium (respirable dust, vapors or fumes)">
+        <attvalues>
+          <attvalue for="0" value="substance"/>
+          <attvalue for="1" value="22139.821315662015"/>
+        </attvalues>
+        <viz:size value="6.000008"/>
+        <viz:position x="900.0" y="3461.5383"/>
+        <viz:color r="235" g="104" b="52"/>
+      </node>
+      <node id="SUB::Mercurio (Compuestos solubles)" label="Mercury (soluble compounds)">
+        <attvalues>
+          <attvalue for="0" value="substance"/>
+          <attvalue for="1" value="119.21975087899997"/>
+        </attvalues>
+        <viz:size value="6.0"/>
+        <viz:position x="900.0" y="5423.0767"/>
+        <viz:color r="235" g="104" b="52"/>
+      </node>
+      <node id="SUB::Cromo (Compuestos solubles)" label="Chromium (soluble compounds)">
+        <attvalues>
+          <attvalue for="0" value="substance"/>
+          <attvalue for="1" value="427727.6492845599"/>
+        </attvalues>
+        <viz:size value="6.000156"/>
+        <viz:position x="900.0" y="807.6923"/>
+        <viz:color r="235" g="104" b="52"/>
+      </node>
+      <node id="SUB::Mercurio (compuestos)" label="Mercury (compounds)">
+        <attvalues>
+          <attvalue for="0" value="substance"/>
+          <attvalue for="1" value="2033.213436185844"/>
+        </attvalues>
+        <viz:size value="6.000001"/>
+        <viz:position x="900.0" y="4730.7695"/>
+        <viz:color r="235" g="104" b="52"/>
+      </node>
+      <node id="SUB::Plomo (compuestos)" label="Lead (compounds)">
+        <attvalues>
+          <attvalue for="0" value="substance"/>
+          <attvalue for="1" value="3.7940024733650416E7"/>
+        </attvalues>
+        <viz:size value="6.013841"/>
+        <viz:position x="900.0" y="115.38462"/>
+        <viz:color r="235" g="104" b="52"/>
+      </node>
+      <node id="SUB::Cromo (compuestos)" label="Chromium (compounds)">
+        <attvalues>
+          <attvalue for="0" value="substance"/>
+          <attvalue for="1" value="82191.98863604032"/>
+        </attvalues>
+        <viz:size value="6.00003"/>
+        <viz:position x="900.0" y="2769.2307"/>
+        <viz:color r="235" g="104" b="52"/>
+      </node>
+      <node id="SUB::Níquel (compuestos)" label="Nickel (compounds)">
+        <attvalues>
+          <attvalue for="0" value="substance"/>
+          <attvalue for="1" value="112706.99122169081"/>
+        </attvalues>
+        <viz:size value="6.000041"/>
+        <viz:position x="900.0" y="2307.6924"/>
+        <viz:color r="235" g="104" b="52"/>
+      </node>
+      <node id="SUB::Cadmio (compuestos)" label="Cadmium (compounds)">
+        <attvalues>
+          <attvalue for="0" value="substance"/>
+          <attvalue for="1" value="457.92259206117006"/>
+        </attvalues>
+        <viz:size value="6.0"/>
+        <viz:position x="900.0" y="5307.6924"/>
+        <viz:color r="235" g="104" b="52"/>
+      </node>
+      <node id="SUB::Arsénico (compuestos)" label="Arsenic (compounds)">
+        <attvalues>
+          <attvalue for="0" value="substance"/>
+          <attvalue for="1" value="1748345.4391487176"/>
+        </attvalues>
+        <viz:size value="6.000638"/>
+        <viz:position x="900.0" y="461.53848"/>
+        <viz:color r="235" g="104" b="52"/>
+      </node>
+      <node id="SUB::Mercurio (polvos, respirables, vapores o humos)" label="Mercury (respirable dust, vapors or fumes)">
+        <attvalues>
+          <attvalue for="0" value="substance"/>
+          <attvalue for="1" value="8277.31174216452"/>
+        </attvalues>
+        <viz:size value="6.000003"/>
+        <viz:position x="900.0" y="3923.077"/>
+        <viz:color r="235" g="104" b="52"/>
+      </node>
+      <node id="SUB::Benceno" label="Benzene">
+        <attvalues>
+          <attvalue for="0" value="substance"/>
+          <attvalue for="1" value="128519.83098094907"/>
+        </attvalues>
+        <viz:size value="6.0000467"/>
+        <viz:position x="900.0" y="2076.923"/>
+        <viz:color r="235" g="104" b="52"/>
+      </node>
+      <node id="SUB::Arsénico (Compuestos solubles)" label="Arsenic (soluble compounds)">
+        <attvalues>
+          <attvalue for="0" value="substance"/>
+          <attvalue for="1" value="235046.7700546"/>
+        </attvalues>
+        <viz:size value="6.000086"/>
+        <viz:position x="900.0" y="1384.6154"/>
+        <viz:color r="235" g="104" b="52"/>
+      </node>
+      <node id="SUB::Bióxido de carbono" label="Carbon dioxide">
+        <attvalues>
+          <attvalue for="0" value="substance"/>
+          <attvalue for="1" value="1.3431307448196506E11"/>
+        </attvalues>
+        <viz:size value="55.0"/>
+        <viz:position x="900.0" y="0.0"/>
+        <viz:color r="235" g="104" b="52"/>
+      </node>
+      <node id="SUB::Cadmio (Compuestos solubles)" label="Cadmium (soluble compounds)">
+        <attvalues>
+          <attvalue for="0" value="substance"/>
+          <attvalue for="1" value="6209.220713250001"/>
+        </attvalues>
+        <viz:size value="6.0000024"/>
+        <viz:position x="900.0" y="4269.2305"/>
+        <viz:color r="235" g="104" b="52"/>
+      </node>
+      <node id="SUB::Metano" label="Methane">
+        <attvalues>
+          <attvalue for="0" value="substance"/>
+          <attvalue for="1" value="2.8871191284882694E7"/>
+        </attvalues>
+        <viz:size value="6.010533"/>
+        <viz:position x="900.0" y="230.76924"/>
+        <viz:color r="235" g="104" b="52"/>
+      </node>
+      <node id="SUB::Cianuro de hidrógeno" label="Hydrogen cyanide">
+        <attvalues>
+          <attvalue for="0" value="substance"/>
+          <attvalue for="1" value="108.6607"/>
+        </attvalues>
+        <viz:size value="6.0"/>
+        <viz:position x="900.0" y="5538.4614"/>
+        <viz:color r="235" g="104" b="52"/>
+      </node>
+      <node id="SUB::Fenol" label="Phenol">
+        <attvalues>
+          <attvalue for="0" value="substance"/>
+          <attvalue for="1" value="38045.560712000006"/>
+        </attvalues>
+        <viz:size value="6.000014"/>
+        <viz:position x="900.0" y="3230.7693"/>
+        <viz:color r="235" g="104" b="52"/>
+      </node>
+      <node id="SUB::Tricloroetileno" label="Trichloroethylene">
+        <attvalues>
+          <attvalue for="0" value="substance"/>
+          <attvalue for="1" value="130360.5318"/>
+        </attvalues>
+        <viz:size value="6.0000477"/>
+        <viz:position x="900.0" y="1961.5385"/>
+        <viz:color r="235" g="104" b="52"/>
+      </node>
+      <node id="SUB::Hidrofluorocarbonos" label="Hydrofluorocarbons">
+        <attvalues>
+          <attvalue for="0" value="substance"/>
+          <attvalue for="1" value="29899.984000000008"/>
+        </attvalues>
+        <viz:size value="6.000011"/>
+        <viz:position x="900.0" y="3346.1538"/>
+        <viz:color r="235" g="104" b="52"/>
+      </node>
+      <node id="SUB::Estireno (fenil etileno)" label="Styrene (phenylethylene)">
+        <attvalues>
+          <attvalue for="0" value="substance"/>
+          <attvalue for="1" value="174367.86494499998"/>
+        </attvalues>
+        <viz:size value="6.0000634"/>
+        <viz:position x="900.0" y="1846.1539"/>
+        <viz:color r="235" g="104" b="52"/>
+      </node>
+      <node id="SUB::Formaldehido" label="Formaldehyde">
+        <attvalues>
+          <attvalue for="0" value="substance"/>
+          <attvalue for="1" value="297435.3490579661"/>
+        </attvalues>
+        <viz:size value="6.0001087"/>
+        <viz:position x="900.0" y="1269.2308"/>
+        <viz:color r="235" g="104" b="52"/>
+      </node>
+      <node id="SUB::Dioxinas" label="Dioxins">
+        <attvalues>
+          <attvalue for="0" value="substance"/>
+          <attvalue for="1" value="0.012405208248848"/>
+        </attvalues>
+        <viz:size value="6.0"/>
+        <viz:position x="900.0" y="5884.615"/>
+        <viz:color r="235" g="104" b="52"/>
+      </node>
+      <node id="SUB::Furanos" label="Furans">
+        <attvalues>
+          <attvalue for="0" value="substance"/>
+          <attvalue for="1" value="0.004902328240211"/>
+        </attvalues>
+        <viz:size value="6.0"/>
+        <viz:position x="900.0" y="6000.0"/>
+        <viz:color r="235" g="104" b="52"/>
+      </node>
+      <node id="SUB::Bióxido de nitrógeno" label="Nitrogen dioxide">
+        <attvalues>
+          <attvalue for="0" value="substance"/>
+          <attvalue for="1" value="1707720.17"/>
+        </attvalues>
+        <viz:size value="6.000623"/>
+        <viz:position x="900.0" y="576.9231"/>
+        <viz:color r="235" g="104" b="52"/>
+      </node>
+      <node id="SUB::Hexafluoruro de azufre" label="Sulfur hexafluoride">
+        <attvalues>
+          <attvalue for="0" value="substance"/>
+          <attvalue for="1" value="10524.01"/>
+        </attvalues>
+        <viz:size value="6.000004"/>
+        <viz:position x="900.0" y="3807.6921"/>
+        <viz:color r="235" g="104" b="52"/>
+      </node>
+      <node id="SUB::Asbesto y sus formas (En forma de polvo, fibras o productos desmenuzables con la presión de la mano)" label="Asbestos and its forms (as dust, fibers or friable products that crumble under hand pressure)">
+        <attvalues>
+          <attvalue for="0" value="substance"/>
+          <attvalue for="1" value="174771.0"/>
+        </attvalues>
+        <viz:size value="6.000064"/>
+        <viz:position x="900.0" y="1730.7692"/>
+        <viz:color r="235" g="104" b="52"/>
+      </node>
+      <node id="SUB::Acetaldehido" label="Acetaldehyde">
+        <attvalues>
+          <attvalue for="0" value="substance"/>
+          <attvalue for="1" value="17296.926085237454"/>
+        </attvalues>
+        <viz:size value="6.000006"/>
+        <viz:position x="900.0" y="3692.3079"/>
+        <viz:color r="235" g="104" b="52"/>
+      </node>
+      <node id="SUB::Acroleina" label="Acrolein">
+        <attvalues>
+          <attvalue for="0" value="substance"/>
+          <attvalue for="1" value="7015.824863904317"/>
+        </attvalues>
+        <viz:size value="6.0000024"/>
+        <viz:position x="900.0" y="4153.846"/>
+        <viz:color r="235" g="104" b="52"/>
+      </node>
+      <node id="SUB::2,2-Dicloro-1,1,1-Trifluoroetano (HCFC-123)" label="2,2-Dichloro-1,1,1-trifluoroethane (HCFC-123)">
+        <attvalues>
+          <attvalue for="0" value="substance"/>
+          <attvalue for="1" value="27.2511"/>
+        </attvalues>
+        <viz:size value="6.0"/>
+        <viz:position x="900.0" y="5653.846"/>
+        <viz:color r="235" g="104" b="52"/>
+      </node>
+      <node id="SUB::Plomo (polvos respirables, humos o vapores)" label="Lead (respirable dust, fumes or vapors)">
+        <attvalues>
+          <attvalue for="0" value="substance"/>
+          <attvalue for="1" value="359110.79579901986"/>
+        </attvalues>
+        <viz:size value="6.000131"/>
+        <viz:position x="900.0" y="923.07697"/>
+        <viz:color r="235" g="104" b="52"/>
+      </node>
+      <node id="SUB::Níquel (polvos respirables, humos o vapores)" label="Nickel (respirable dust, fumes or vapors)">
+        <attvalues>
+          <attvalue for="0" value="substance"/>
+          <attvalue for="1" value="63367.05042659198"/>
+        </attvalues>
+        <viz:size value="6.000023"/>
+        <viz:position x="900.0" y="3115.3848"/>
+        <viz:color r="235" g="104" b="52"/>
+      </node>
+      <node id="SUB::Cromo (polvos respirables, humos o vapores)" label="Chromium (respirable dust, fumes or vapors)">
+        <attvalues>
+          <attvalue for="0" value="substance"/>
+          <attvalue for="1" value="79612.80684922391"/>
+        </attvalues>
+        <viz:size value="6.000029"/>
+        <viz:position x="900.0" y="2884.6152"/>
+        <viz:color r="235" g="104" b="52"/>
+      </node>
+      <node id="SUB::Tolueno" label="Toluene">
+        <attvalues>
+          <attvalue for="0" value="substance"/>
+          <attvalue for="1" value="175538.0066489912"/>
+        </attvalues>
+        <viz:size value="6.000064"/>
+        <viz:position x="900.0" y="1500.0"/>
+        <viz:color r="235" g="104" b="52"/>
+      </node>
+      <node id="SUB::Metileno bis(fenilisocianato)" label="Methylene bis(phenyl isocyanate) (MDI)">
+        <attvalues>
+          <attvalue for="0" value="substance"/>
+          <attvalue for="1" value="63631.415000307534"/>
+        </attvalues>
+        <viz:size value="6.0000234"/>
+        <viz:position x="900.0" y="3000.0"/>
+        <viz:color r="235" g="104" b="52"/>
+      </node>
+      <node id="SUB::Diisocianato de difenilmetano polimérico" label="Polymeric diphenylmethane diisocyanate">
+        <attvalues>
+          <attvalue for="0" value="substance"/>
+          <attvalue for="1" value="83561.31000000001"/>
+        </attvalues>
+        <viz:size value="6.0000305"/>
+        <viz:position x="900.0" y="2653.8462"/>
+        <viz:color r="235" g="104" b="52"/>
+      </node>
+      <node id="SUB::Xileno (mezcla de isómeros)" label="Xylene (mixture of isomers)">
+        <attvalues>
+          <attvalue for="0" value="substance"/>
+          <attvalue for="1" value="115531.8941"/>
+        </attvalues>
+        <viz:size value="6.000042"/>
+        <viz:position x="900.0" y="2192.3076"/>
+        <viz:color r="235" g="104" b="52"/>
+      </node>
+      <node id="SUB::Oxido nitroso" label="Nitrous oxide">
+        <attvalues>
+          <attvalue for="0" value="substance"/>
+          <attvalue for="1" value="1.4098775508420998E7"/>
+        </attvalues>
+        <viz:size value="6.0051436"/>
+        <viz:position x="900.0" y="346.15384"/>
+        <viz:color r="235" g="104" b="52"/>
+      </node>
+      <node id="SUB::4,4'metileno-bis (2-cloroanilina) (MBOCA)" label="4,4'-Methylenebis(2-chloroaniline) (MBOCA)">
+        <attvalues>
+          <attvalue for="0" value="substance"/>
+          <attvalue for="1" value="5900.0"/>
+        </attvalues>
+        <viz:size value="6.0000024"/>
+        <viz:position x="900.0" y="4384.615"/>
+        <viz:color r="235" g="104" b="52"/>
+      </node>
+      <node id="SUB::Tolueno diisocianato" label="Toluene diisocyanate">
+        <attvalues>
+          <attvalue for="0" value="substance"/>
+          <attvalue for="1" value="477092.07999999996"/>
+        </attvalues>
+        <viz:size value="6.000174"/>
+        <viz:position x="900.0" y="692.3077"/>
+        <viz:color r="235" g="104" b="52"/>
+      </node>
+      <node id="SUB::2,4-Dinitrotolueno" label="2,4-Dinitrotoluene">
+        <attvalues>
+          <attvalue for="0" value="substance"/>
+          <attvalue for="1" value="1209.6"/>
+        </attvalues>
+        <viz:size value="6.0000005"/>
+        <viz:position x="900.0" y="4961.5386"/>
+        <viz:color r="235" g="104" b="52"/>
+      </node>
+      <node id="SUB::Benzo(b)fluoranteno" label="Benzo(b)fluoranthene">
+        <attvalues>
+          <attvalue for="0" value="substance"/>
+          <attvalue for="1" value="2155.89387"/>
+        </attvalues>
+        <viz:size value="6.000001"/>
+        <viz:position x="900.0" y="4615.385"/>
+        <viz:color r="235" g="104" b="52"/>
+      </node>
+      <node id="SUB::Butadieno" label="1,3-Butadiene">
+        <attvalues>
+          <attvalue for="0" value="substance"/>
+          <attvalue for="1" value="18647.442000000003"/>
+        </attvalues>
+        <viz:size value="6.0000067"/>
+        <viz:position x="900.0" y="3576.923"/>
+        <viz:color r="235" g="104" b="52"/>
+      </node>
+      <node id="SUB::Metilcarbamato de 3-isopropilfenilo" label="3-Isopropylphenyl methylcarbamate">
+        <attvalues>
+          <attvalue for="0" value="substance"/>
+          <attvalue for="1" value="92488.19"/>
+        </attvalues>
+        <viz:size value="6.000034"/>
+        <viz:position x="900.0" y="2423.077"/>
+        <viz:color r="235" g="104" b="52"/>
+      </node>
+      <node id="SUB::Cloruro de metileno" label="Methylene chloride">
+        <attvalues>
+          <attvalue for="0" value="substance"/>
+          <attvalue for="1" value="7706.0"/>
+        </attvalues>
+        <viz:size value="6.000003"/>
+        <viz:position x="900.0" y="4038.4617"/>
+        <viz:color r="235" g="104" b="52"/>
+      </node>
+      <node id="SUB::Clorodifluorometano (HCFC-22)" label="Chlorodifluoromethane (HCFC-22)">
+        <attvalues>
+          <attvalue for="0" value="substance"/>
+          <attvalue for="1" value="1831.0"/>
+        </attvalues>
+        <viz:size value="6.0000005"/>
+        <viz:position x="900.0" y="4846.154"/>
+        <viz:color r="235" g="104" b="52"/>
+      </node>
+      <node id="SUB::Bifenilos policlorados" label="Polychlorinated biphenyls (PCBs)">
+        <attvalues>
+          <attvalue for="0" value="substance"/>
+          <attvalue for="1" value="4803.4572"/>
+        </attvalues>
+        <viz:size value="6.000002"/>
+        <viz:position x="900.0" y="4500.0"/>
+        <viz:color r="235" g="104" b="52"/>
+      </node>
+      <node id="SUB::Bifenilo" label="Biphenyl">
+        <attvalues>
+          <attvalue for="0" value="substance"/>
+          <attvalue for="1" value="980.0"/>
+        </attvalues>
+        <viz:size value="6.0000005"/>
+        <viz:position x="900.0" y="5076.9233"/>
+        <viz:color r="235" g="104" b="52"/>
+      </node>
+      <node id="SUB::Ácido sulfónico de perfluorooctano y sus sales" label="Perfluorooctane sulfonic acid and its salts (PFOS)">
+        <attvalues>
+          <attvalue for="0" value="substance"/>
+          <attvalue for="1" value="11.0"/>
+        </attvalues>
+        <viz:size value="6.0"/>
+        <viz:position x="900.0" y="5769.2305"/>
+        <viz:color r="235" g="104" b="52"/>
+      </node>
+      <node id="SUB::2-Etoxietanol (Termonoetilico de etilenglicol)" label="2-Ethoxyethanol (ethylene glycol monoethyl ether)">
+        <attvalues>
+          <attvalue for="0" value="substance"/>
+          <attvalue for="1" value="617.0"/>
+        </attvalues>
+        <viz:size value="6.0"/>
+        <viz:position x="900.0" y="5192.3076"/>
+        <viz:color r="235" g="104" b="52"/>
+      </node>
+    </nodes>
+    <edges>
+      <edge id="0" source="LOC::Chihuahua.Chihuahua" target="SUB::Níquel (Compuestos solubles)" weight="33156.01953125">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+        <attvalues>
+          <attvalue for="2" value="89"/>
+        </attvalues>
+      </edge>
+      <edge id="1" source="LOC::Chihuahua.Chihuahua" target="SUB::Plomo (Compuestos solubles)" weight="65752.484375">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+        <attvalues>
+          <attvalue for="2" value="107"/>
+        </attvalues>
+      </edge>
+      <edge id="2" source="LOC::Chihuahua.Chihuahua" target="SUB::Cianuro inorgánico/orgánico" weight="6098.431640625">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+        <attvalues>
+          <attvalue for="2" value="63"/>
+        </attvalues>
+      </edge>
+      <edge id="3" source="LOC::Chihuahua.Chihuahua" target="SUB::Arsénico (polvos, respirables, vapores o humos)" weight="56.014244079589844">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+        <attvalues>
+          <attvalue for="2" value="51"/>
+        </attvalues>
+      </edge>
+      <edge id="4" source="LOC::Chihuahua.Chihuahua" target="SUB::Cadmio (polvos, respirables, vapores o humos)" weight="3135.0947265625">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+        <attvalues>
+          <attvalue for="2" value="60"/>
+        </attvalues>
+      </edge>
+      <edge id="5" source="LOC::Chihuahua.Chihuahua" target="SUB::Cromo (Compuestos solubles)" weight="97916.6953125">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+        <attvalues>
+          <attvalue for="2" value="100"/>
+        </attvalues>
+      </edge>
+      <edge id="6" source="LOC::Chihuahua.Chihuahua" target="SUB::Mercurio (Compuestos solubles)" weight="49.519248962402344">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+        <attvalues>
+          <attvalue for="2" value="12"/>
+        </attvalues>
+      </edge>
+      <edge id="7" source="LOC::Chihuahua.Chihuahua" target="SUB::Cromo (compuestos)" weight="84.0396728515625">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+        <attvalues>
+          <attvalue for="2" value="39"/>
+        </attvalues>
+      </edge>
+      <edge id="8" source="LOC::Chihuahua.Chihuahua" target="SUB::Plomo (compuestos)" weight="246925.734375">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+        <attvalues>
+          <attvalue for="2" value="133"/>
+        </attvalues>
+      </edge>
+      <edge id="9" source="LOC::Chihuahua.Chihuahua" target="SUB::Níquel (compuestos)" weight="5894.63623046875">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+        <attvalues>
+          <attvalue for="2" value="60"/>
+        </attvalues>
+      </edge>
+      <edge id="10" source="LOC::Chihuahua.Chihuahua" target="SUB::Mercurio (compuestos)" weight="10.429705619812012">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+        <attvalues>
+          <attvalue for="2" value="42"/>
+        </attvalues>
+      </edge>
+      <edge id="11" source="LOC::Chihuahua.Chihuahua" target="SUB::Cadmio (compuestos)" weight="141.87774658203125">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+        <attvalues>
+          <attvalue for="2" value="12"/>
+        </attvalues>
+      </edge>
+      <edge id="12" source="LOC::Chihuahua.Chihuahua" target="SUB::Arsénico (compuestos)" weight="6.443367004394531">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+        <attvalues>
+          <attvalue for="2" value="16"/>
+        </attvalues>
+      </edge>
+      <edge id="13" source="LOC::Chihuahua.Chihuahua" target="SUB::Mercurio (polvos, respirables, vapores o humos)" weight="2461.66162109375">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+        <attvalues>
+          <attvalue for="2" value="70"/>
+        </attvalues>
+      </edge>
+      <edge id="14" source="LOC::Chihuahua.Chihuahua" target="SUB::Arsénico (Compuestos solubles)" weight="543.6365356445312">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+        <attvalues>
+          <attvalue for="2" value="62"/>
+        </attvalues>
+      </edge>
+      <edge id="15" source="LOC::Chihuahua.Chihuahua" target="SUB::Cadmio (Compuestos solubles)" weight="4517.27197265625">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+        <attvalues>
+          <attvalue for="2" value="58"/>
+        </attvalues>
+      </edge>
+      <edge id="16" source="LOC::Chihuahua.Chihuahua" target="SUB::Metano" weight="1.1642205E7">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+        <attvalues>
+          <attvalue for="2" value="26"/>
+        </attvalues>
+      </edge>
+      <edge id="17" source="LOC::Chihuahua.Chihuahua" target="SUB::Cianuro de hidrógeno" weight="108.66069793701172">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+        <attvalues>
+          <attvalue for="2" value="1"/>
+        </attvalues>
+      </edge>
+      <edge id="18" source="LOC::Chihuahua.Chihuahua" target="SUB::Fenol" weight="0.016392000019550323">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+        <attvalues>
+          <attvalue for="2" value="1"/>
+        </attvalues>
+      </edge>
+      <edge id="19" source="LOC::Chihuahua.Chihuahua" target="SUB::Bióxido de carbono" weight="4.818999296E10">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+        <attvalues>
+          <attvalue for="2" value="433"/>
+        </attvalues>
+      </edge>
+      <edge id="20" source="LOC::Chihuahua.Chihuahua" target="SUB::Asbesto y sus formas (En forma de polvo, fibras o productos desmenuzables con la presión de la mano)" weight="174547.703125">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+        <attvalues>
+          <attvalue for="2" value="14"/>
+        </attvalues>
+      </edge>
+      <edge id="21" source="LOC::Chihuahua.Chihuahua" target="SUB::Acetaldehido" weight="0.22766882181167603">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+        <attvalues>
+          <attvalue for="2" value="5"/>
+        </attvalues>
+      </edge>
+      <edge id="22" source="LOC::Chihuahua.Chihuahua" target="SUB::Acroleina" weight="0.02741328999400139">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+        <attvalues>
+          <attvalue for="2" value="5"/>
+        </attvalues>
+      </edge>
+      <edge id="23" source="LOC::Chihuahua.Chihuahua" target="SUB::Benceno" weight="53004.19140625">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+        <attvalues>
+          <attvalue for="2" value="26"/>
+        </attvalues>
+      </edge>
+      <edge id="24" source="LOC::Chihuahua.Chihuahua" target="SUB::Formaldehido" weight="0.01153702475130558">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+        <attvalues>
+          <attvalue for="2" value="5"/>
+        </attvalues>
+      </edge>
+      <edge id="25" source="LOC::Chihuahua.Chihuahua" target="SUB::Metileno bis(fenilisocianato)" weight="30321.75">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+        <attvalues>
+          <attvalue for="2" value="8"/>
+        </attvalues>
+      </edge>
+      <edge id="26" source="LOC::Chihuahua.Chihuahua" target="SUB::Plomo (polvos respirables, humos o vapores)" weight="114874.46875">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+        <attvalues>
+          <attvalue for="2" value="65"/>
+        </attvalues>
+      </edge>
+      <edge id="27" source="LOC::Chihuahua.Chihuahua" target="SUB::Níquel (polvos respirables, humos o vapores)" weight="51105.66015625">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+        <attvalues>
+          <attvalue for="2" value="26"/>
+        </attvalues>
+      </edge>
+      <edge id="28" source="LOC::Chihuahua.Chihuahua" target="SUB::Cromo (polvos respirables, humos o vapores)" weight="71473.640625">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+        <attvalues>
+          <attvalue for="2" value="40"/>
+        </attvalues>
+      </edge>
+      <edge id="29" source="LOC::Chihuahua.Chihuahua" target="SUB::Diisocianato de difenilmetano polimérico" weight="57181.73046875">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+        <attvalues>
+          <attvalue for="2" value="10"/>
+        </attvalues>
+      </edge>
+      <edge id="30" source="LOC::Chihuahua.Chihuahua" target="SUB::Furanos" weight="3.650000144261867E-4">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+        <attvalues>
+          <attvalue for="2" value="5"/>
+        </attvalues>
+      </edge>
+      <edge id="31" source="LOC::Chihuahua.Chihuahua" target="SUB::Dioxinas" weight="0.004620502237230539">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+        <attvalues>
+          <attvalue for="2" value="14"/>
+        </attvalues>
+      </edge>
+      <edge id="32" source="LOC::Chihuahua.Chihuahua" target="SUB::Tolueno" weight="87734.953125">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+        <attvalues>
+          <attvalue for="2" value="16"/>
+        </attvalues>
+      </edge>
+      <edge id="33" source="LOC::Chihuahua.Chihuahua" target="SUB::4,4'metileno-bis (2-cloroanilina) (MBOCA)" weight="5900.0">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+        <attvalues>
+          <attvalue for="2" value="5"/>
+        </attvalues>
+      </edge>
+      <edge id="34" source="LOC::Chihuahua.Chihuahua" target="SUB::Tolueno diisocianato" weight="5591.33984375">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+        <attvalues>
+          <attvalue for="2" value="6"/>
+        </attvalues>
+      </edge>
+      <edge id="35" source="LOC::Chihuahua.Chihuahua" target="SUB::Benzo(b)fluoranteno" weight="2155.893798828125">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+        <attvalues>
+          <attvalue for="2" value="1"/>
+        </attvalues>
+      </edge>
+      <edge id="36" source="LOC::Chihuahua.Chihuahua" target="SUB::Xileno (mezcla de isómeros)" weight="27831.76953125">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+        <attvalues>
+          <attvalue for="2" value="3"/>
+        </attvalues>
+      </edge>
+      <edge id="37" source="LOC::Chihuahua.Chihuahua" target="SUB::Metilcarbamato de 3-isopropilfenilo" weight="92488.1875">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+        <attvalues>
+          <attvalue for="2" value="1"/>
+        </attvalues>
+      </edge>
+      <edge id="38" source="LOC::Chihuahua.Chihuahua" target="SUB::Hexafluoruro de azufre" weight="1872.0">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+        <attvalues>
+          <attvalue for="2" value="1"/>
+        </attvalues>
+      </edge>
+      <edge id="39" source="LOC::Chihuahua.Chihuahua" target="SUB::Oxido nitroso" weight="10.4399995803833">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+        <attvalues>
+          <attvalue for="2" value="1"/>
+        </attvalues>
+      </edge>
+      <edge id="40" source="LOC::Chihuahua.Chihuahua" target="SUB::Cloruro de metileno" weight="4381.0">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+        <attvalues>
+          <attvalue for="2" value="1"/>
+        </attvalues>
+      </edge>
+      <edge id="41" source="LOC::Chihuahua.Chihuahua" target="SUB::Bifenilo" weight="980.0">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+        <attvalues>
+          <attvalue for="2" value="1"/>
+        </attvalues>
+      </edge>
+      <edge id="42" source="LOC::Chihuahua.Juárez" target="SUB::Níquel (Compuestos solubles)" weight="1566.5948486328125">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+        <attvalues>
+          <attvalue for="2" value="57"/>
+        </attvalues>
+      </edge>
+      <edge id="43" source="LOC::Chihuahua.Juárez" target="SUB::Plomo (Compuestos solubles)" weight="199328.765625">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+        <attvalues>
+          <attvalue for="2" value="133"/>
+        </attvalues>
+      </edge>
+      <edge id="44" source="LOC::Chihuahua.Juárez" target="SUB::Mercurio (Compuestos solubles)" weight="57.58401870727539">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+        <attvalues>
+          <attvalue for="2" value="12"/>
+        </attvalues>
+      </edge>
+      <edge id="45" source="LOC::Chihuahua.Juárez" target="SUB::Arsénico (polvos, respirables, vapores o humos)" weight="4608.580078125">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+        <attvalues>
+          <attvalue for="2" value="43"/>
+        </attvalues>
+      </edge>
+      <edge id="46" source="LOC::Chihuahua.Juárez" target="SUB::Cadmio (polvos, respirables, vapores o humos)" weight="10268.576171875">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+        <attvalues>
+          <attvalue for="2" value="57"/>
+        </attvalues>
+      </edge>
+      <edge id="47" source="LOC::Chihuahua.Juárez" target="SUB::Cianuro inorgánico/orgánico" weight="20576.939453125">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+        <attvalues>
+          <attvalue for="2" value="25"/>
+        </attvalues>
+      </edge>
+      <edge id="48" source="LOC::Chihuahua.Juárez" target="SUB::Níquel (compuestos)" weight="54135.1640625">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+        <attvalues>
+          <attvalue for="2" value="85"/>
+        </attvalues>
+      </edge>
+      <edge id="49" source="LOC::Chihuahua.Juárez" target="SUB::Benceno" weight="52887.33984375">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+        <attvalues>
+          <attvalue for="2" value="31"/>
+        </attvalues>
+      </edge>
+      <edge id="50" source="LOC::Chihuahua.Juárez" target="SUB::Cromo (Compuestos solubles)" weight="269269.6875">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+        <attvalues>
+          <attvalue for="2" value="60"/>
+        </attvalues>
+      </edge>
+      <edge id="51" source="LOC::Chihuahua.Juárez" target="SUB::Mercurio (compuestos)" weight="2010.685546875">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+        <attvalues>
+          <attvalue for="2" value="64"/>
+        </attvalues>
+      </edge>
+      <edge id="52" source="LOC::Chihuahua.Juárez" target="SUB::Cromo (compuestos)" weight="21750.669921875">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+        <attvalues>
+          <attvalue for="2" value="97"/>
+        </attvalues>
+      </edge>
+      <edge id="53" source="LOC::Chihuahua.Juárez" target="SUB::Plomo (compuestos)" weight="1357302.875">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+        <attvalues>
+          <attvalue for="2" value="473"/>
+        </attvalues>
+      </edge>
+      <edge id="54" source="LOC::Chihuahua.Juárez" target="SUB::Tricloroetileno" weight="107907.53125">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+        <attvalues>
+          <attvalue for="2" value="52"/>
+        </attvalues>
+      </edge>
+      <edge id="55" source="LOC::Chihuahua.Juárez" target="SUB::Cadmio (compuestos)" weight="290.3416748046875">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+        <attvalues>
+          <attvalue for="2" value="15"/>
+        </attvalues>
+      </edge>
+      <edge id="56" source="LOC::Chihuahua.Juárez" target="SUB::Bióxido de carbono" weight="7.0017572864E10">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+        <attvalues>
+          <attvalue for="2" value="1749"/>
+        </attvalues>
+      </edge>
+      <edge id="57" source="LOC::Chihuahua.Juárez" target="SUB::Metano" weight="8222595.0">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+        <attvalues>
+          <attvalue for="2" value="28"/>
+        </attvalues>
+      </edge>
+      <edge id="58" source="LOC::Chihuahua.Juárez" target="SUB::Hidrofluorocarbonos" weight="23850.583984375">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+        <attvalues>
+          <attvalue for="2" value="36"/>
+        </attvalues>
+      </edge>
+      <edge id="59" source="LOC::Chihuahua.Juárez" target="SUB::Estireno (fenil etileno)" weight="174367.859375">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+        <attvalues>
+          <attvalue for="2" value="28"/>
+        </attvalues>
+      </edge>
+      <edge id="60" source="LOC::Chihuahua.Juárez" target="SUB::Formaldehido" weight="106915.890625">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+        <attvalues>
+          <attvalue for="2" value="31"/>
+        </attvalues>
+      </edge>
+      <edge id="61" source="LOC::Chihuahua.Juárez" target="SUB::Cadmio (Compuestos solubles)" weight="617.2211303710938">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+        <attvalues>
+          <attvalue for="2" value="11"/>
+        </attvalues>
+      </edge>
+      <edge id="62" source="LOC::Chihuahua.Juárez" target="SUB::Dioxinas" weight="0.00684021320194006">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+        <attvalues>
+          <attvalue for="2" value="47"/>
+        </attvalues>
+      </edge>
+      <edge id="63" source="LOC::Chihuahua.Juárez" target="SUB::Furanos" weight="0.004106964450329542">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+        <attvalues>
+          <attvalue for="2" value="33"/>
+        </attvalues>
+      </edge>
+      <edge id="64" source="LOC::Chihuahua.Juárez" target="SUB::Hexafluoruro de azufre" weight="8652.009765625">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+        <attvalues>
+          <attvalue for="2" value="5"/>
+        </attvalues>
+      </edge>
+      <edge id="65" source="LOC::Chihuahua.Juárez" target="SUB::Mercurio (polvos, respirables, vapores o humos)" weight="5175.48681640625">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+        <attvalues>
+          <attvalue for="2" value="151"/>
+        </attvalues>
+      </edge>
+      <edge id="66" source="LOC::Chihuahua.Juárez" target="SUB::Acroleina" weight="1.9975268840789795">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+        <attvalues>
+          <attvalue for="2" value="7"/>
+        </attvalues>
+      </edge>
+      <edge id="67" source="LOC::Chihuahua.Juárez" target="SUB::Acetaldehido" weight="5888.96435546875">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+        <attvalues>
+          <attvalue for="2" value="23"/>
+        </attvalues>
+      </edge>
+      <edge id="68" source="LOC::Chihuahua.Juárez" target="SUB::Fenol" weight="18565.544921875">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+        <attvalues>
+          <attvalue for="2" value="4"/>
+        </attvalues>
+      </edge>
+      <edge id="69" source="LOC::Chihuahua.Juárez" target="SUB::2,2-Dicloro-1,1,1-Trifluoroetano (HCFC-123)" weight="27.251100540161133">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+        <attvalues>
+          <attvalue for="2" value="2"/>
+        </attvalues>
+      </edge>
+      <edge id="70" source="LOC::Chihuahua.Juárez" target="SUB::Plomo (polvos respirables, humos o vapores)" weight="220008.34375">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+        <attvalues>
+          <attvalue for="2" value="207"/>
+        </attvalues>
+      </edge>
+      <edge id="71" source="LOC::Chihuahua.Juárez" target="SUB::Tolueno" weight="73405.9296875">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+        <attvalues>
+          <attvalue for="2" value="24"/>
+        </attvalues>
+      </edge>
+      <edge id="72" source="LOC::Chihuahua.Juárez" target="SUB::Níquel (polvos respirables, humos o vapores)" weight="327.2099914550781">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+        <attvalues>
+          <attvalue for="2" value="15"/>
+        </attvalues>
+      </edge>
+      <edge id="73" source="LOC::Chihuahua.Juárez" target="SUB::Cromo (polvos respirables, humos o vapores)" weight="1109.703125">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+        <attvalues>
+          <attvalue for="2" value="19"/>
+        </attvalues>
+      </edge>
+      <edge id="74" source="LOC::Chihuahua.Juárez" target="SUB::Xileno (mezcla de isómeros)" weight="87700.125">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+        <attvalues>
+          <attvalue for="2" value="13"/>
+        </attvalues>
+      </edge>
+      <edge id="75" source="LOC::Chihuahua.Juárez" target="SUB::2,4-Dinitrotolueno" weight="1209.5999755859375">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+        <attvalues>
+          <attvalue for="2" value="2"/>
+        </attvalues>
+      </edge>
+      <edge id="76" source="LOC::Chihuahua.Juárez" target="SUB::Metileno bis(fenilisocianato)" weight="33309.6640625">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+        <attvalues>
+          <attvalue for="2" value="9"/>
+        </attvalues>
+      </edge>
+      <edge id="77" source="LOC::Chihuahua.Juárez" target="SUB::Diisocianato de difenilmetano polimérico" weight="26379.580078125">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+        <attvalues>
+          <attvalue for="2" value="14"/>
+        </attvalues>
+      </edge>
+      <edge id="78" source="LOC::Chihuahua.Juárez" target="SUB::Oxido nitroso" weight="1109393.125">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+        <attvalues>
+          <attvalue for="2" value="1"/>
+        </attvalues>
+      </edge>
+      <edge id="79" source="LOC::Chihuahua.Juárez" target="SUB::Cloruro de metileno" weight="3325.0">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+        <attvalues>
+          <attvalue for="2" value="8"/>
+        </attvalues>
+      </edge>
+      <edge id="80" source="LOC::Chihuahua.Juárez" target="SUB::Bióxido de nitrógeno" weight="35.0">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+        <attvalues>
+          <attvalue for="2" value="1"/>
+        </attvalues>
+      </edge>
+      <edge id="81" source="LOC::Chihuahua.Juárez" target="SUB::Clorodifluorometano (HCFC-22)" weight="1831.0">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+        <attvalues>
+          <attvalue for="2" value="3"/>
+        </attvalues>
+      </edge>
+      <edge id="82" source="LOC::Chihuahua.Juárez" target="SUB::Tolueno diisocianato" weight="471500.75">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+        <attvalues>
+          <attvalue for="2" value="4"/>
+        </attvalues>
+      </edge>
+      <edge id="83" source="LOC::Chihuahua.Juárez" target="SUB::Arsénico (compuestos)" weight="1748053.25">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+        <attvalues>
+          <attvalue for="2" value="14"/>
+        </attvalues>
+      </edge>
+      <edge id="84" source="LOC::Chihuahua.Juárez" target="SUB::Arsénico (Compuestos solubles)" weight="231819.546875">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+        <attvalues>
+          <attvalue for="2" value="19"/>
+        </attvalues>
+      </edge>
+      <edge id="85" source="LOC::Chihuahua.Juárez" target="SUB::Asbesto y sus formas (En forma de polvo, fibras o productos desmenuzables con la presión de la mano)" weight="0.30000001192092896">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+        <attvalues>
+          <attvalue for="2" value="1"/>
+        </attvalues>
+      </edge>
+      <edge id="86" source="LOC::Chihuahua.Juárez" target="SUB::Bifenilos policlorados" weight="0.14900000393390656">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+        <attvalues>
+          <attvalue for="2" value="1"/>
+        </attvalues>
+      </edge>
+      <edge id="87" source="LOC::Chihuahua.Juárez" target="SUB::Ácido sulfónico de perfluorooctano y sus sales" weight="11.0">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+        <attvalues>
+          <attvalue for="2" value="1"/>
+        </attvalues>
+      </edge>
+      <edge id="88" source="LOC::Chihuahua.Juárez" target="SUB::2-Etoxietanol (Termonoetilico de etilenglicol)" weight="617.0">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+        <attvalues>
+          <attvalue for="2" value="2"/>
+        </attvalues>
+      </edge>
+      <edge id="89" source="LOC::Chihuahua.Cuauhtémoc" target="SUB::Cromo (Compuestos solubles)" weight="58808.34765625">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+        <attvalues>
+          <attvalue for="2" value="33"/>
+        </attvalues>
+      </edge>
+      <edge id="90" source="LOC::Chihuahua.Cuauhtémoc" target="SUB::Mercurio (Compuestos solubles)" weight="0.2001110017299652">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+        <attvalues>
+          <attvalue for="2" value="2"/>
+        </attvalues>
+      </edge>
+      <edge id="91" source="LOC::Chihuahua.Cuauhtémoc" target="SUB::Níquel (Compuestos solubles)" weight="46974.48046875">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+        <attvalues>
+          <attvalue for="2" value="28"/>
+        </attvalues>
+      </edge>
+      <edge id="92" source="LOC::Chihuahua.Cuauhtémoc" target="SUB::Plomo (Compuestos solubles)" weight="72.47789001464844">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+        <attvalues>
+          <attvalue for="2" value="7"/>
+        </attvalues>
+      </edge>
+      <edge id="93" source="LOC::Chihuahua.Cuauhtémoc" target="SUB::Cianuro inorgánico/orgánico" weight="267.57879638671875">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+        <attvalues>
+          <attvalue for="2" value="20"/>
+        </attvalues>
+      </edge>
+      <edge id="94" source="LOC::Chihuahua.Cuauhtémoc" target="SUB::Arsénico (polvos, respirables, vapores o humos)" weight="640.6220092773438">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+        <attvalues>
+          <attvalue for="2" value="20"/>
+        </attvalues>
+      </edge>
+      <edge id="95" source="LOC::Chihuahua.Cuauhtémoc" target="SUB::Cadmio (polvos, respirables, vapores o humos)" weight="39.059669494628906">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+        <attvalues>
+          <attvalue for="2" value="18"/>
+        </attvalues>
+      </edge>
+      <edge id="96" source="LOC::Chihuahua.Cuauhtémoc" target="SUB::Níquel (compuestos)" weight="52158.16796875">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+        <attvalues>
+          <attvalue for="2" value="36"/>
+        </attvalues>
+      </edge>
+      <edge id="97" source="LOC::Chihuahua.Cuauhtémoc" target="SUB::Arsénico (compuestos)" weight="184.6642608642578">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+        <attvalues>
+          <attvalue for="2" value="3"/>
+        </attvalues>
+      </edge>
+      <edge id="98" source="LOC::Chihuahua.Cuauhtémoc" target="SUB::Mercurio (compuestos)" weight="5.400051116943359">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+        <attvalues>
+          <attvalue for="2" value="17"/>
+        </attvalues>
+      </edge>
+      <edge id="99" source="LOC::Chihuahua.Cuauhtémoc" target="SUB::Cromo (compuestos)" weight="59825.3984375">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+        <attvalues>
+          <attvalue for="2" value="32"/>
+        </attvalues>
+      </edge>
+      <edge id="100" source="LOC::Chihuahua.Cuauhtémoc" target="SUB::Mercurio (polvos, respirables, vapores o humos)" weight="13.125077247619629">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+        <attvalues>
+          <attvalue for="2" value="3"/>
+        </attvalues>
+      </edge>
+      <edge id="101" source="LOC::Chihuahua.Cuauhtémoc" target="SUB::Arsénico (Compuestos solubles)" weight="496.0400390625">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+        <attvalues>
+          <attvalue for="2" value="11"/>
+        </attvalues>
+      </edge>
+      <edge id="102" source="LOC::Chihuahua.Cuauhtémoc" target="SUB::Cadmio (Compuestos solubles)" weight="3.6547131538391113">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+        <attvalues>
+          <attvalue for="2" value="2"/>
+        </attvalues>
+      </edge>
+      <edge id="103" source="LOC::Chihuahua.Cuauhtémoc" target="SUB::Plomo (compuestos)" weight="1229.4564208984375">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+        <attvalues>
+          <attvalue for="2" value="28"/>
+        </attvalues>
+      </edge>
+      <edge id="104" source="LOC::Chihuahua.Cuauhtémoc" target="SUB::Bióxido de carbono" weight="3.797321984E9">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+        <attvalues>
+          <attvalue for="2" value="75"/>
+        </attvalues>
+      </edge>
+      <edge id="105" source="LOC::Chihuahua.Cuauhtémoc" target="SUB::Bióxido de nitrógeno" weight="1707685.125">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+        <attvalues>
+          <attvalue for="2" value="5"/>
+        </attvalues>
+      </edge>
+      <edge id="106" source="LOC::Chihuahua.Cuauhtémoc" target="SUB::Dioxinas" weight="4.4389100366970524E-5">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+        <attvalues>
+          <attvalue for="2" value="7"/>
+        </attvalues>
+      </edge>
+      <edge id="107" source="LOC::Chihuahua.Cuauhtémoc" target="SUB::Furanos" weight="4.303639871068299E-4">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+        <attvalues>
+          <attvalue for="2" value="7"/>
+        </attvalues>
+      </edge>
+      <edge id="108" source="LOC::Chihuahua.Cuauhtémoc" target="SUB::Plomo (polvos respirables, humos o vapores)" weight="3.745300054550171">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+        <attvalues>
+          <attvalue for="2" value="3"/>
+        </attvalues>
+      </edge>
+      <edge id="109" source="LOC::Chihuahua.Cuauhtémoc" target="SUB::Níquel (polvos respirables, humos o vapores)" weight="2985.578369140625">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+        <attvalues>
+          <attvalue for="2" value="10"/>
+        </attvalues>
+      </edge>
+      <edge id="110" source="LOC::Chihuahua.Cuauhtémoc" target="SUB::Cromo (polvos respirables, humos o vapores)" weight="6916.30419921875">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+        <attvalues>
+          <attvalue for="2" value="10"/>
+        </attvalues>
+      </edge>
+      <edge id="111" source="LOC::Chihuahua.Cuauhtémoc" target="SUB::Metano" weight="6769717.5">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+        <attvalues>
+          <attvalue for="2" value="2"/>
+        </attvalues>
+      </edge>
+      <edge id="112" source="LOC::Chihuahua.Cuauhtémoc" target="SUB::Oxido nitroso" weight="2595462.0">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+        <attvalues>
+          <attvalue for="2" value="2"/>
+        </attvalues>
+      </edge>
+      <edge id="113" source="LOC::Chihuahua.Cuauhtémoc" target="SUB::Formaldehido" weight="102.33039855957031">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+        <attvalues>
+          <attvalue for="2" value="1"/>
+        </attvalues>
+      </edge>
+      <edge id="114" source="LOC::Chihuahua.Cuauhtémoc" target="SUB::Cadmio (compuestos)" weight="0.1865759938955307">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+        <attvalues>
+          <attvalue for="2" value="1"/>
+        </attvalues>
+      </edge>
+      <edge id="115" source="LOC::Chihuahua.Cuauhtémoc" target="SUB::Fenol" weight="19480.0">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+        <attvalues>
+          <attvalue for="2" value="24"/>
+        </attvalues>
+      </edge>
+      <edge id="116" source="LOC::Chihuahua.Cuauhtémoc" target="SUB::Bifenilos policlorados" weight="843.0">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+        <attvalues>
+          <attvalue for="2" value="1"/>
+        </attvalues>
+      </edge>
+      <edge id="117" source="LOC::Chihuahua.Praxedis G" target="SUB::Mercurio (Compuestos solubles)" weight="0.003282400080934167">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+        <attvalues>
+          <attvalue for="2" value="1"/>
+        </attvalues>
+      </edge>
+      <edge id="118" source="LOC::Chihuahua.Praxedis G" target="SUB::Níquel (Compuestos solubles)" weight="0.14920000731945038">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+        <attvalues>
+          <attvalue for="2" value="1"/>
+        </attvalues>
+      </edge>
+      <edge id="119" source="LOC::Chihuahua.Praxedis G" target="SUB::Plomo (Compuestos solubles)" weight="2.5483999252319336">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+        <attvalues>
+          <attvalue for="2" value="2"/>
+        </attvalues>
+      </edge>
+      <edge id="120" source="LOC::Chihuahua.Praxedis G" target="SUB::Arsénico (polvos, respirables, vapores o humos)" weight="0.008894000202417374">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+        <attvalues>
+          <attvalue for="2" value="2"/>
+        </attvalues>
+      </edge>
+      <edge id="121" source="LOC::Chihuahua.Praxedis G" target="SUB::Cadmio (polvos, respirables, vapores o humos)" weight="0.14920000731945038">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+        <attvalues>
+          <attvalue for="2" value="1"/>
+        </attvalues>
+      </edge>
+      <edge id="122" source="LOC::Chihuahua.Praxedis G" target="SUB::Bióxido de carbono" weight="104043.6015625">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+        <attvalues>
+          <attvalue for="2" value="4"/>
+        </attvalues>
+      </edge>
+      <edge id="123" source="LOC::Chihuahua.Praxedis G" target="SUB::Plomo (compuestos)" weight="241.53431701660156">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+        <attvalues>
+          <attvalue for="2" value="4"/>
+        </attvalues>
+      </edge>
+      <edge id="124" source="LOC::Chihuahua.Hidalgo del Parral" target="SUB::Cromo (Compuestos solubles)" weight="28.358428955078125">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+        <attvalues>
+          <attvalue for="2" value="3"/>
+        </attvalues>
+      </edge>
+      <edge id="125" source="LOC::Chihuahua.Hidalgo del Parral" target="SUB::Mercurio (Compuestos solubles)" weight="4.2145000770688057E-4">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+        <attvalues>
+          <attvalue for="2" value="1"/>
+        </attvalues>
+      </edge>
+      <edge id="126" source="LOC::Chihuahua.Hidalgo del Parral" target="SUB::Níquel (Compuestos solubles)" weight="0.08428999781608582">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+        <attvalues>
+          <attvalue for="2" value="1"/>
+        </attvalues>
+      </edge>
+      <edge id="127" source="LOC::Chihuahua.Hidalgo del Parral" target="SUB::Plomo (Compuestos solubles)" weight="0.28237149119377136">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+        <attvalues>
+          <attvalue for="2" value="1"/>
+        </attvalues>
+      </edge>
+      <edge id="128" source="LOC::Chihuahua.Hidalgo del Parral" target="SUB::Cianuro inorgánico/orgánico" weight="0.041576649993658066">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+        <attvalues>
+          <attvalue for="2" value="8"/>
+        </attvalues>
+      </edge>
+      <edge id="129" source="LOC::Chihuahua.Hidalgo del Parral" target="SUB::Arsénico (polvos, respirables, vapores o humos)" weight="0.014508499763906002">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+        <attvalues>
+          <attvalue for="2" value="3"/>
+        </attvalues>
+      </edge>
+      <edge id="130" source="LOC::Chihuahua.Hidalgo del Parral" target="SUB::Cadmio (polvos, respirables, vapores o humos)" weight="0.041570499539375305">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+        <attvalues>
+          <attvalue for="2" value="3"/>
+        </attvalues>
+      </edge>
+      <edge id="131" source="LOC::Chihuahua.Hidalgo del Parral" target="SUB::Plomo (compuestos)" weight="2628.69384765625">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+        <attvalues>
+          <attvalue for="2" value="13"/>
+        </attvalues>
+      </edge>
+      <edge id="132" source="LOC::Chihuahua.Hidalgo del Parral" target="SUB::Arsénico (compuestos)" weight="0.06897690892219543">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+        <attvalues>
+          <attvalue for="2" value="5"/>
+        </attvalues>
+      </edge>
+      <edge id="133" source="LOC::Chihuahua.Hidalgo del Parral" target="SUB::Níquel (compuestos)" weight="0.5178945064544678">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+        <attvalues>
+          <attvalue for="2" value="7"/>
+        </attvalues>
+      </edge>
+      <edge id="134" source="LOC::Chihuahua.Hidalgo del Parral" target="SUB::Mercurio (compuestos)" weight="0.0038280149456113577">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+        <attvalues>
+          <attvalue for="2" value="7"/>
+        </attvalues>
+      </edge>
+      <edge id="135" source="LOC::Chihuahua.Hidalgo del Parral" target="SUB::Cromo (compuestos)" weight="0.11725234985351562">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+        <attvalues>
+          <attvalue for="2" value="7"/>
+        </attvalues>
+      </edge>
+      <edge id="136" source="LOC::Chihuahua.Hidalgo del Parral" target="SUB::Cadmio (compuestos)" weight="0.10281109809875488">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+        <attvalues>
+          <attvalue for="2" value="5"/>
+        </attvalues>
+      </edge>
+      <edge id="137" source="LOC::Chihuahua.Hidalgo del Parral" target="SUB::Formaldehido" weight="112385.5">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+        <attvalues>
+          <attvalue for="2" value="21"/>
+        </attvalues>
+      </edge>
+      <edge id="138" source="LOC::Chihuahua.Hidalgo del Parral" target="SUB::Bióxido de carbono" weight="1.09530072E8">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+        <attvalues>
+          <attvalue for="2" value="17"/>
+        </attvalues>
+      </edge>
+      <edge id="139" source="LOC::Chihuahua.Hidalgo del Parral" target="SUB::Benceno" weight="0.10000040382146835">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+        <attvalues>
+          <attvalue for="2" value="6"/>
+        </attvalues>
+      </edge>
+      <edge id="140" source="LOC::Chihuahua.Hidalgo del Parral" target="SUB::Acetaldehido" weight="0.08416538685560226">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+        <attvalues>
+          <attvalue for="2" value="6"/>
+        </attvalues>
+      </edge>
+      <edge id="141" source="LOC::Chihuahua.Hidalgo del Parral" target="SUB::Acroleina" weight="0.009923726320266724">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+        <attvalues>
+          <attvalue for="2" value="6"/>
+        </attvalues>
+      </edge>
+      <edge id="142" source="LOC::Chihuahua.Hidalgo del Parral" target="SUB::Mercurio (polvos, respirables, vapores o humos)" weight="30.0">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+        <attvalues>
+          <attvalue for="2" value="2"/>
+        </attvalues>
+      </edge>
+      <edge id="143" source="LOC::Chihuahua.Hidalgo del Parral" target="SUB::Metano" weight="1097099.0">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+        <attvalues>
+          <attvalue for="2" value="2"/>
+        </attvalues>
+      </edge>
+      <edge id="144" source="LOC::Chihuahua.Hidalgo del Parral" target="SUB::Oxido nitroso" weight="1.039339E7">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+        <attvalues>
+          <attvalue for="2" value="1"/>
+        </attvalues>
+      </edge>
+      <edge id="145" source="LOC::Chihuahua.Hidalgo del Parral" target="SUB::Arsénico (Compuestos solubles)" weight="28.350000381469727">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+        <attvalues>
+          <attvalue for="2" value="2"/>
+        </attvalues>
+      </edge>
+      <edge id="146" source="LOC::Chihuahua.Hidalgo del Parral" target="SUB::Cadmio (Compuestos solubles)" weight="5.670000076293945">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+        <attvalues>
+          <attvalue for="2" value="2"/>
+        </attvalues>
+      </edge>
+      <edge id="147" source="LOC::Chihuahua.Aquiles Serdán" target="SUB::Cromo (Compuestos solubles)" weight="0.027300000190734863">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+        <attvalues>
+          <attvalue for="2" value="1"/>
+        </attvalues>
+      </edge>
+      <edge id="148" source="LOC::Chihuahua.Aquiles Serdán" target="SUB::Mercurio (Compuestos solubles)" weight="0.0013680000556632876">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+        <attvalues>
+          <attvalue for="2" value="1"/>
+        </attvalues>
+      </edge>
+      <edge id="149" source="LOC::Chihuahua.Aquiles Serdán" target="SUB::Níquel (Compuestos solubles)" weight="0.16380000114440918">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+        <attvalues>
+          <attvalue for="2" value="1"/>
+        </attvalues>
+      </edge>
+      <edge id="150" source="LOC::Chihuahua.Aquiles Serdán" target="SUB::Plomo (Compuestos solubles)" weight="0.06005999818444252">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+        <attvalues>
+          <attvalue for="2" value="1"/>
+        </attvalues>
+      </edge>
+      <edge id="151" source="LOC::Chihuahua.Aquiles Serdán" target="SUB::Cianuro inorgánico/orgánico" weight="0.6830219626426697">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+        <attvalues>
+          <attvalue for="2" value="8"/>
+        </attvalues>
+      </edge>
+      <edge id="152" source="LOC::Chihuahua.Aquiles Serdán" target="SUB::Arsénico (polvos, respirables, vapores o humos)" weight="0.4409559965133667">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+        <attvalues>
+          <attvalue for="2" value="7"/>
+        </attvalues>
+      </edge>
+      <edge id="153" source="LOC::Chihuahua.Aquiles Serdán" target="SUB::Cadmio (polvos, respirables, vapores o humos)" weight="0.527014970779419">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+        <attvalues>
+          <attvalue for="2" value="3"/>
+        </attvalues>
+      </edge>
+      <edge id="154" source="LOC::Chihuahua.Aquiles Serdán" target="SUB::Mercurio (compuestos)" weight="0.04046722501516342">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+        <attvalues>
+          <attvalue for="2" value="4"/>
+        </attvalues>
+      </edge>
+      <edge id="155" source="LOC::Chihuahua.Aquiles Serdán" target="SUB::Plomo (compuestos)" weight="30.795516967773438">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+        <attvalues>
+          <attvalue for="2" value="8"/>
+        </attvalues>
+      </edge>
+      <edge id="156" source="LOC::Chihuahua.Aquiles Serdán" target="SUB::Cromo (compuestos)" weight="2.7794747352600098">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+        <attvalues>
+          <attvalue for="2" value="5"/>
+        </attvalues>
+      </edge>
+      <edge id="157" source="LOC::Chihuahua.Aquiles Serdán" target="SUB::Níquel (compuestos)" weight="7.3618669509887695">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+        <attvalues>
+          <attvalue for="2" value="5"/>
+        </attvalues>
+      </edge>
+      <edge id="158" source="LOC::Chihuahua.Aquiles Serdán" target="SUB::Benceno" weight="705.3400268554688">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+        <attvalues>
+          <attvalue for="2" value="1"/>
+        </attvalues>
+      </edge>
+      <edge id="159" source="LOC::Chihuahua.Aquiles Serdán" target="SUB::Butadieno" weight="4644.43994140625">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+        <attvalues>
+          <attvalue for="2" value="3"/>
+        </attvalues>
+      </edge>
+      <edge id="160" source="LOC::Chihuahua.Aquiles Serdán" target="SUB::Bióxido de carbono" weight="2.62615376E8">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+        <attvalues>
+          <attvalue for="2" value="5"/>
+        </attvalues>
+      </edge>
+      <edge id="161" source="LOC::Chihuahua.Aquiles Serdán" target="SUB::Metano" weight="123873.2421875">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+        <attvalues>
+          <attvalue for="2" value="1"/>
+        </attvalues>
+      </edge>
+      <edge id="162" source="LOC::Chihuahua.Aquiles Serdán" target="SUB::Acroleina" weight="7013.7900390625">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+        <attvalues>
+          <attvalue for="2" value="2"/>
+        </attvalues>
+      </edge>
+      <edge id="163" source="LOC::Chihuahua.Aquiles Serdán" target="SUB::Formaldehido" weight="72048.3125">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+        <attvalues>
+          <attvalue for="2" value="2"/>
+        </attvalues>
+      </edge>
+      <edge id="164" source="LOC::Chihuahua.Aquiles Serdán" target="SUB::Acetaldehido" weight="11407.650390625">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+        <attvalues>
+          <attvalue for="2" value="2"/>
+        </attvalues>
+      </edge>
+      <edge id="165" source="LOC::Chihuahua.Aquiles Serdán" target="SUB::Arsénico (compuestos)" weight="0.4186731278896332">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+        <attvalues>
+          <attvalue for="2" value="3"/>
+        </attvalues>
+      </edge>
+      <edge id="166" source="LOC::Chihuahua.Aquiles Serdán" target="SUB::Cadmio (compuestos)" weight="0.6125903129577637">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+        <attvalues>
+          <attvalue for="2" value="3"/>
+        </attvalues>
+      </edge>
+      <edge id="167" source="LOC::Chihuahua.Aquiles Serdán" target="SUB::Mercurio (polvos, respirables, vapores o humos)" weight="0.019832270219922066">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+        <attvalues>
+          <attvalue for="2" value="2"/>
+        </attvalues>
+      </edge>
+      <edge id="168" source="LOC::Chihuahua.Aquiles Serdán" target="SUB::Arsénico (Compuestos solubles)" weight="2.3657000064849854">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+        <attvalues>
+          <attvalue for="2" value="1"/>
+        </attvalues>
+      </edge>
+      <edge id="169" source="LOC::Chihuahua.Urique" target="SUB::Níquel (Compuestos solubles)" weight="1135.3243408203125">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+        <attvalues>
+          <attvalue for="2" value="3"/>
+        </attvalues>
+      </edge>
+      <edge id="170" source="LOC::Chihuahua.Urique" target="SUB::Cromo (Compuestos solubles)" weight="5.28439998626709">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+        <attvalues>
+          <attvalue for="2" value="2"/>
+        </attvalues>
+      </edge>
+      <edge id="171" source="LOC::Chihuahua.Urique" target="SUB::Plomo (Compuestos solubles)" weight="5.28439998626709">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+        <attvalues>
+          <attvalue for="2" value="2"/>
+        </attvalues>
+      </edge>
+      <edge id="172" source="LOC::Chihuahua.Urique" target="SUB::Arsénico (polvos, respirables, vapores o humos)" weight="1.0897200107574463">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+        <attvalues>
+          <attvalue for="2" value="2"/>
+        </attvalues>
+      </edge>
+      <edge id="173" source="LOC::Chihuahua.Urique" target="SUB::Bióxido de carbono" weight="9.3723328E8">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+        <attvalues>
+          <attvalue for="2" value="10"/>
+        </attvalues>
+      </edge>
+      <edge id="174" source="LOC::Chihuahua.Madera" target="SUB::Cromo (Compuestos solubles)" weight="106.20036315917969">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+        <attvalues>
+          <attvalue for="2" value="12"/>
+        </attvalues>
+      </edge>
+      <edge id="175" source="LOC::Chihuahua.Madera" target="SUB::Mercurio (Compuestos solubles)" weight="0.11351750046014786">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+        <attvalues>
+          <attvalue for="2" value="1"/>
+        </attvalues>
+      </edge>
+      <edge id="176" source="LOC::Chihuahua.Madera" target="SUB::Níquel (Compuestos solubles)" weight="222.12989807128906">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+        <attvalues>
+          <attvalue for="2" value="12"/>
+        </attvalues>
+      </edge>
+      <edge id="177" source="LOC::Chihuahua.Madera" target="SUB::Plomo (Compuestos solubles)" weight="23750.169921875">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+        <attvalues>
+          <attvalue for="2" value="15"/>
+        </attvalues>
+      </edge>
+      <edge id="178" source="LOC::Chihuahua.Madera" target="SUB::Cianuro inorgánico/orgánico" weight="251432.625">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+        <attvalues>
+          <attvalue for="2" value="11"/>
+        </attvalues>
+      </edge>
+      <edge id="179" source="LOC::Chihuahua.Madera" target="SUB::Arsénico (polvos, respirables, vapores o humos)" weight="10.71060562133789">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+        <attvalues>
+          <attvalue for="2" value="5"/>
+        </attvalues>
+      </edge>
+      <edge id="180" source="LOC::Chihuahua.Madera" target="SUB::Cadmio (polvos, respirables, vapores o humos)" weight="23.4337215423584">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+        <attvalues>
+          <attvalue for="2" value="5"/>
+        </attvalues>
+      </edge>
+      <edge id="181" source="LOC::Chihuahua.Madera" target="SUB::Bióxido de carbono" weight="2.26049856E8">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+        <attvalues>
+          <attvalue for="2" value="25"/>
+        </attvalues>
+      </edge>
+      <edge id="182" source="LOC::Chihuahua.Madera" target="SUB::Plomo (compuestos)" weight="36.65329360961914">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+        <attvalues>
+          <attvalue for="2" value="4"/>
+        </attvalues>
+      </edge>
+      <edge id="183" source="LOC::Chihuahua.Madera" target="SUB::Mercurio (compuestos)" weight="0.06140385568141937">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+        <attvalues>
+          <attvalue for="2" value="2"/>
+        </attvalues>
+      </edge>
+      <edge id="184" source="LOC::Chihuahua.Madera" target="SUB::Cromo (compuestos)" weight="39.6585578918457">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+        <attvalues>
+          <attvalue for="2" value="3"/>
+        </attvalues>
+      </edge>
+      <edge id="185" source="LOC::Chihuahua.Madera" target="SUB::Mercurio (polvos, respirables, vapores o humos)" weight="5.956175327301025">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+        <attvalues>
+          <attvalue for="2" value="3"/>
+        </attvalues>
+      </edge>
+      <edge id="186" source="LOC::Chihuahua.Madera" target="SUB::Níquel (compuestos)" weight="72.25544738769531">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+        <attvalues>
+          <attvalue for="2" value="3"/>
+        </attvalues>
+      </edge>
+      <edge id="187" source="LOC::Chihuahua.Madera" target="SUB::Oxido nitroso" weight="520.0">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+        <attvalues>
+          <attvalue for="2" value="1"/>
+        </attvalues>
+      </edge>
+      <edge id="188" source="LOC::Chihuahua.Madera" target="SUB::Arsénico (compuestos)" weight="1.0505084991455078">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+        <attvalues>
+          <attvalue for="2" value="3"/>
+        </attvalues>
+      </edge>
+      <edge id="189" source="LOC::Chihuahua.Madera" target="SUB::Cadmio (compuestos)" weight="0.5812599658966064">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+        <attvalues>
+          <attvalue for="2" value="1"/>
+        </attvalues>
+      </edge>
+      <edge id="190" source="LOC::Chihuahua.Madera" target="SUB::Arsénico (Compuestos solubles)" weight="1861.862060546875">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+        <attvalues>
+          <attvalue for="2" value="10"/>
+        </attvalues>
+      </edge>
+      <edge id="191" source="LOC::Chihuahua.Madera" target="SUB::Cadmio (Compuestos solubles)" weight="815.0792236328125">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+        <attvalues>
+          <attvalue for="2" value="11"/>
+        </attvalues>
+      </edge>
+      <edge id="192" source="LOC::Chihuahua.Moris" target="SUB::Cromo (Compuestos solubles)" weight="0.04416000097990036">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+        <attvalues>
+          <attvalue for="2" value="1"/>
+        </attvalues>
+      </edge>
+      <edge id="193" source="LOC::Chihuahua.Moris" target="SUB::Mercurio (Compuestos solubles)" weight="8.831999730318785E-4">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+        <attvalues>
+          <attvalue for="2" value="1"/>
+        </attvalues>
+      </edge>
+      <edge id="194" source="LOC::Chihuahua.Moris" target="SUB::Níquel (Compuestos solubles)" weight="0.26495999097824097">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+        <attvalues>
+          <attvalue for="2" value="1"/>
+        </attvalues>
+      </edge>
+      <edge id="195" source="LOC::Chihuahua.Moris" target="SUB::Plomo (Compuestos solubles)" weight="0.08832000195980072">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+        <attvalues>
+          <attvalue for="2" value="1"/>
+        </attvalues>
+      </edge>
+      <edge id="196" source="LOC::Chihuahua.Moris" target="SUB::Cianuro inorgánico/orgánico" weight="38.209312438964844">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+        <attvalues>
+          <attvalue for="2" value="4"/>
+        </attvalues>
+      </edge>
+      <edge id="197" source="LOC::Chihuahua.Moris" target="SUB::Arsénico (polvos, respirables, vapores o humos)" weight="7.134470462799072">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+        <attvalues>
+          <attvalue for="2" value="4"/>
+        </attvalues>
+      </edge>
+      <edge id="198" source="LOC::Chihuahua.Moris" target="SUB::Cadmio (polvos, respirables, vapores o humos)" weight="5.073031902313232">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+        <attvalues>
+          <attvalue for="2" value="4"/>
+        </attvalues>
+      </edge>
+      <edge id="199" source="LOC::Chihuahua.Moris" target="SUB::Cromo (compuestos)" weight="8.364660263061523">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+        <attvalues>
+          <attvalue for="2" value="3"/>
+        </attvalues>
+      </edge>
+      <edge id="200" source="LOC::Chihuahua.Moris" target="SUB::Mercurio (compuestos)" weight="0.001700200024060905">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+        <attvalues>
+          <attvalue for="2" value="2"/>
+        </attvalues>
+      </edge>
+      <edge id="201" source="LOC::Chihuahua.Moris" target="SUB::Níquel (compuestos)" weight="16.930660247802734">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+        <attvalues>
+          <attvalue for="2" value="3"/>
+        </attvalues>
+      </edge>
+      <edge id="202" source="LOC::Chihuahua.Moris" target="SUB::Plomo (compuestos)" weight="18.385250091552734">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+        <attvalues>
+          <attvalue for="2" value="3"/>
+        </attvalues>
+      </edge>
+      <edge id="203" source="LOC::Chihuahua.Moris" target="SUB::Bióxido de carbono" weight="2073323.0">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+        <attvalues>
+          <attvalue for="2" value="2"/>
+        </attvalues>
+      </edge>
+      <edge id="204" source="LOC::Chihuahua.Moris" target="SUB::Mercurio (polvos, respirables, vapores o humos)" weight="0.6126940846443176">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+        <attvalues>
+          <attvalue for="2" value="1"/>
+        </attvalues>
+      </edge>
+      <edge id="205" source="LOC::Chihuahua.Ocampo" target="SUB::Cianuro inorgánico/orgánico" weight="45.39486312866211">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+        <attvalues>
+          <attvalue for="2" value="7"/>
+        </attvalues>
+      </edge>
+      <edge id="206" source="LOC::Chihuahua.Ocampo" target="SUB::Mercurio (compuestos)" weight="0.10108810663223267">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+        <attvalues>
+          <attvalue for="2" value="4"/>
+        </attvalues>
+      </edge>
+      <edge id="207" source="LOC::Chihuahua.Ocampo" target="SUB::Plomo (compuestos)" weight="0.3398561179637909">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+        <attvalues>
+          <attvalue for="2" value="2"/>
+        </attvalues>
+      </edge>
+      <edge id="208" source="LOC::Chihuahua.Ocampo" target="SUB::Mercurio (polvos, respirables, vapores o humos)" weight="94.25983428955078">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+        <attvalues>
+          <attvalue for="2" value="6"/>
+        </attvalues>
+      </edge>
+      <edge id="209" source="LOC::Chihuahua.Ocampo" target="SUB::Arsénico (polvos, respirables, vapores o humos)" weight="0.41774898767471313">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+        <attvalues>
+          <attvalue for="2" value="3"/>
+        </attvalues>
+      </edge>
+      <edge id="210" source="LOC::Chihuahua.Ocampo" target="SUB::Arsénico (compuestos)" weight="0.12209899723529816">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+        <attvalues>
+          <attvalue for="2" value="2"/>
+        </attvalues>
+      </edge>
+      <edge id="211" source="LOC::Chihuahua.Ocampo" target="SUB::Cadmio (polvos, respirables, vapores o humos)" weight="0.29565000534057617">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+        <attvalues>
+          <attvalue for="2" value="1"/>
+        </attvalues>
+      </edge>
+      <edge id="212" source="LOC::Chihuahua.Ocampo" target="SUB::Cromo (compuestos)" weight="0.8337330222129822">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+        <attvalues>
+          <attvalue for="2" value="2"/>
+        </attvalues>
+      </edge>
+      <edge id="213" source="LOC::Chihuahua.Ocampo" target="SUB::Níquel (compuestos)" weight="3.5439000129699707">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+        <attvalues>
+          <attvalue for="2" value="1"/>
+        </attvalues>
+      </edge>
+      <edge id="214" source="LOC::Chihuahua.Ocampo" target="SUB::Arsénico (Compuestos solubles)" weight="31.027099609375">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+        <attvalues>
+          <attvalue for="2" value="4"/>
+        </attvalues>
+      </edge>
+      <edge id="215" source="LOC::Chihuahua.Ocampo" target="SUB::Plomo (Compuestos solubles)" weight="308.91259765625">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+        <attvalues>
+          <attvalue for="2" value="16"/>
+        </attvalues>
+      </edge>
+      <edge id="216" source="LOC::Chihuahua.Ocampo" target="SUB::Cromo (Compuestos solubles)" weight="32.095001220703125">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+        <attvalues>
+          <attvalue for="2" value="8"/>
+        </attvalues>
+      </edge>
+      <edge id="217" source="LOC::Chihuahua.Ocampo" target="SUB::Níquel (Compuestos solubles)" weight="21.988500595092773">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+        <attvalues>
+          <attvalue for="2" value="7"/>
+        </attvalues>
+      </edge>
+      <edge id="218" source="LOC::Chihuahua.Ocampo" target="SUB::Cadmio (Compuestos solubles)" weight="1.0729999542236328">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+        <attvalues>
+          <attvalue for="2" value="1"/>
+        </attvalues>
+      </edge>
+      <edge id="219" source="LOC::Chihuahua.Ocampo" target="SUB::Bióxido de carbono" weight="4.24538912E8">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+        <attvalues>
+          <attvalue for="2" value="31"/>
+        </attvalues>
+      </edge>
+      <edge id="220" source="LOC::Chihuahua.Ocampo" target="SUB::Plomo (polvos respirables, humos o vapores)" weight="2425.16552734375">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+        <attvalues>
+          <attvalue for="2" value="13"/>
+        </attvalues>
+      </edge>
+      <edge id="221" source="LOC::Chihuahua.Ocampo" target="SUB::Formaldehido" weight="2746.691162109375">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+        <attvalues>
+          <attvalue for="2" value="4"/>
+        </attvalues>
+      </edge>
+      <edge id="222" source="LOC::Chihuahua.Ocampo" target="SUB::Benceno" weight="21922.859375">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+        <attvalues>
+          <attvalue for="2" value="8"/>
+        </attvalues>
+      </edge>
+      <edge id="223" source="LOC::Chihuahua.Ocampo" target="SUB::Dioxinas" weight="9.001040016300976E-4">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+        <attvalues>
+          <attvalue for="2" value="3"/>
+        </attvalues>
+      </edge>
+      <edge id="224" source="LOC::Chihuahua.Ocampo" target="SUB::Furanos" weight="1.100000014578155E-14">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+        <attvalues>
+          <attvalue for="2" value="2"/>
+        </attvalues>
+      </edge>
+      <edge id="225" source="LOC::Chihuahua.Ocampo" target="SUB::Butadieno" weight="14003.001953125">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+        <attvalues>
+          <attvalue for="2" value="2"/>
+        </attvalues>
+      </edge>
+      <edge id="226" source="LOC::Chihuahua.Delicias" target="SUB::Mercurio (compuestos)" weight="6.209940433502197">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+        <attvalues>
+          <attvalue for="2" value="7"/>
+        </attvalues>
+      </edge>
+      <edge id="227" source="LOC::Chihuahua.Delicias" target="SUB::Níquel (compuestos)" weight="295.2774963378906">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+        <attvalues>
+          <attvalue for="2" value="10"/>
+        </attvalues>
+      </edge>
+      <edge id="228" source="LOC::Chihuahua.Delicias" target="SUB::Arsénico (polvos, respirables, vapores o humos)" weight="600.9054565429688">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+        <attvalues>
+          <attvalue for="2" value="18"/>
+        </attvalues>
+      </edge>
+      <edge id="229" source="LOC::Chihuahua.Delicias" target="SUB::Cadmio (polvos, respirables, vapores o humos)" weight="173.24322509765625">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+        <attvalues>
+          <attvalue for="2" value="16"/>
+        </attvalues>
+      </edge>
+      <edge id="230" source="LOC::Chihuahua.Delicias" target="SUB::Cromo (compuestos)" weight="187.5749969482422">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+        <attvalues>
+          <attvalue for="2" value="13"/>
+        </attvalues>
+      </edge>
+      <edge id="231" source="LOC::Chihuahua.Delicias" target="SUB::Plomo (compuestos)" weight="4389.810546875">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+        <attvalues>
+          <attvalue for="2" value="15"/>
+        </attvalues>
+      </edge>
+      <edge id="232" source="LOC::Chihuahua.Delicias" target="SUB::Cianuro inorgánico/orgánico" weight="43.49396514892578">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+        <attvalues>
+          <attvalue for="2" value="7"/>
+        </attvalues>
+      </edge>
+      <edge id="233" source="LOC::Chihuahua.Delicias" target="SUB::Tricloroetileno" weight="22453.0">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+        <attvalues>
+          <attvalue for="2" value="11"/>
+        </attvalues>
+      </edge>
+      <edge id="234" source="LOC::Chihuahua.Delicias" target="SUB::Bióxido de carbono" weight="1.0056030208E10">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+        <attvalues>
+          <attvalue for="2" value="29"/>
+        </attvalues>
+      </edge>
+      <edge id="235" source="LOC::Chihuahua.Delicias" target="SUB::Cromo (Compuestos solubles)" weight="308.65380859375">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+        <attvalues>
+          <attvalue for="2" value="19"/>
+        </attvalues>
+      </edge>
+      <edge id="236" source="LOC::Chihuahua.Delicias" target="SUB::Plomo (polvos respirables, humos o vapores)" weight="6206.10009765625">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+        <attvalues>
+          <attvalue for="2" value="12"/>
+        </attvalues>
+      </edge>
+      <edge id="237" source="LOC::Chihuahua.Delicias" target="SUB::Mercurio (polvos, respirables, vapores o humos)" weight="29.239999771118164">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+        <attvalues>
+          <attvalue for="2" value="15"/>
+        </attvalues>
+      </edge>
+      <edge id="238" source="LOC::Chihuahua.Delicias" target="SUB::Níquel (polvos respirables, humos o vapores)" weight="8948.599609375">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+        <attvalues>
+          <attvalue for="2" value="8"/>
+        </attvalues>
+      </edge>
+      <edge id="239" source="LOC::Chihuahua.Delicias" target="SUB::Cromo (polvos respirables, humos o vapores)" weight="104.4000015258789">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+        <attvalues>
+          <attvalue for="2" value="9"/>
+        </attvalues>
+      </edge>
+      <edge id="240" source="LOC::Chihuahua.Delicias" target="SUB::Tolueno" weight="14397.1201171875">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+        <attvalues>
+          <attvalue for="2" value="4"/>
+        </attvalues>
+      </edge>
+      <edge id="241" source="LOC::Chihuahua.Delicias" target="SUB::Arsénico (Compuestos solubles)" weight="90.1978988647461">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+        <attvalues>
+          <attvalue for="2" value="10"/>
+        </attvalues>
+      </edge>
+      <edge id="242" source="LOC::Chihuahua.Delicias" target="SUB::Cadmio (Compuestos solubles)" weight="117.56430053710938">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+        <attvalues>
+          <attvalue for="2" value="10"/>
+        </attvalues>
+      </edge>
+      <edge id="243" source="LOC::Chihuahua.Delicias" target="SUB::Mercurio (Compuestos solubles)" weight="8.300000190734863">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+        <attvalues>
+          <attvalue for="2" value="4"/>
+        </attvalues>
+      </edge>
+      <edge id="244" source="LOC::Chihuahua.Delicias" target="SUB::Níquel (Compuestos solubles)" weight="813.781005859375">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+        <attvalues>
+          <attvalue for="2" value="13"/>
+        </attvalues>
+      </edge>
+      <edge id="245" source="LOC::Chihuahua.Delicias" target="SUB::Plomo (Compuestos solubles)" weight="592.0075073242188">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+        <attvalues>
+          <attvalue for="2" value="12"/>
+        </attvalues>
+      </edge>
+      <edge id="246" source="LOC::Chihuahua.Delicias" target="SUB::Asbesto y sus formas (En forma de polvo, fibras o productos desmenuzables con la presión de la mano)" weight="223.0">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+        <attvalues>
+          <attvalue for="2" value="3"/>
+        </attvalues>
+      </edge>
+      <edge id="247" source="LOC::Chihuahua.Chínipas" target="SUB::Plomo (compuestos)" weight="83233.1328125">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+        <attvalues>
+          <attvalue for="2" value="9"/>
+        </attvalues>
+      </edge>
+      <edge id="248" source="LOC::Chihuahua.Chínipas" target="SUB::Arsénico (polvos, respirables, vapores o humos)" weight="24.38005256652832">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+        <attvalues>
+          <attvalue for="2" value="5"/>
+        </attvalues>
+      </edge>
+      <edge id="249" source="LOC::Chihuahua.Chínipas" target="SUB::Cromo (compuestos)" weight="181.73507690429688">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+        <attvalues>
+          <attvalue for="2" value="3"/>
+        </attvalues>
+      </edge>
+      <edge id="250" source="LOC::Chihuahua.Chínipas" target="SUB::Mercurio (polvos, respirables, vapores o humos)" weight="14.040048599243164">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+        <attvalues>
+          <attvalue for="2" value="6"/>
+        </attvalues>
+      </edge>
+      <edge id="251" source="LOC::Chihuahua.Chínipas" target="SUB::Cadmio (polvos, respirables, vapores o humos)" weight="72.63007354736328">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+        <attvalues>
+          <attvalue for="2" value="3"/>
+        </attvalues>
+      </edge>
+      <edge id="252" source="LOC::Chihuahua.Chínipas" target="SUB::Níquel (compuestos)" weight="45.000221252441406">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+        <attvalues>
+          <attvalue for="2" value="2"/>
+        </attvalues>
+      </edge>
+      <edge id="253" source="LOC::Chihuahua.Chínipas" target="SUB::Cianuro inorgánico/orgánico" weight="18652.537109375">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+        <attvalues>
+          <attvalue for="2" value="6"/>
+        </attvalues>
+      </edge>
+      <edge id="254" source="LOC::Chihuahua.Chínipas" target="SUB::Arsénico (Compuestos solubles)" weight="97.96060180664062">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+        <attvalues>
+          <attvalue for="2" value="4"/>
+        </attvalues>
+      </edge>
+      <edge id="255" source="LOC::Chihuahua.Chínipas" target="SUB::Plomo (Compuestos solubles)" weight="491.15478515625">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+        <attvalues>
+          <attvalue for="2" value="8"/>
+        </attvalues>
+      </edge>
+      <edge id="256" source="LOC::Chihuahua.Chínipas" target="SUB::Cadmio (Compuestos solubles)" weight="115.88739776611328">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+        <attvalues>
+          <attvalue for="2" value="6"/>
+        </attvalues>
+      </edge>
+      <edge id="257" source="LOC::Chihuahua.Chínipas" target="SUB::Cromo (Compuestos solubles)" weight="1195.145263671875">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+        <attvalues>
+          <attvalue for="2" value="7"/>
+        </attvalues>
+      </edge>
+      <edge id="258" source="LOC::Chihuahua.Chínipas" target="SUB::Níquel (Compuestos solubles)" weight="464.48419189453125">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+        <attvalues>
+          <attvalue for="2" value="8"/>
+        </attvalues>
+      </edge>
+      <edge id="259" source="LOC::Chihuahua.Chínipas" target="SUB::Mercurio (Compuestos solubles)" weight="2.4500999450683594">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+        <attvalues>
+          <attvalue for="2" value="2"/>
+        </attvalues>
+      </edge>
+      <edge id="260" source="LOC::Chihuahua.Chínipas" target="SUB::Plomo (polvos respirables, humos o vapores)" weight="74.9106216430664">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+        <attvalues>
+          <attvalue for="2" value="3"/>
+        </attvalues>
+      </edge>
+      <edge id="261" source="LOC::Chihuahua.Chínipas" target="SUB::Bióxido de carbono" weight="4.2782176E7">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+        <attvalues>
+          <attvalue for="2" value="5"/>
+        </attvalues>
+      </edge>
+      <edge id="262" source="LOC::Chihuahua.Guerrero" target="SUB::Plomo (compuestos)" weight="4866.3818359375">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+        <attvalues>
+          <attvalue for="2" value="10"/>
+        </attvalues>
+      </edge>
+      <edge id="263" source="LOC::Chihuahua.Guerrero" target="SUB::Cadmio (Compuestos solubles)" weight="11.45479965209961">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+        <attvalues>
+          <attvalue for="2" value="10"/>
+        </attvalues>
+      </edge>
+      <edge id="264" source="LOC::Chihuahua.Guerrero" target="SUB::Cromo (Compuestos solubles)" weight="29.547500610351562">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+        <attvalues>
+          <attvalue for="2" value="12"/>
+        </attvalues>
+      </edge>
+      <edge id="265" source="LOC::Chihuahua.Guerrero" target="SUB::Níquel (Compuestos solubles)" weight="29.407400131225586">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+        <attvalues>
+          <attvalue for="2" value="12"/>
+        </attvalues>
+      </edge>
+      <edge id="266" source="LOC::Chihuahua.Guerrero" target="SUB::Plomo (Compuestos solubles)" weight="53.4463005065918">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+        <attvalues>
+          <attvalue for="2" value="12"/>
+        </attvalues>
+      </edge>
+      <edge id="267" source="LOC::Chihuahua.Guerrero" target="SUB::Arsénico (Compuestos solubles)" weight="3.464200019836426">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+        <attvalues>
+          <attvalue for="2" value="4"/>
+        </attvalues>
+      </edge>
+      <edge id="268" source="LOC::Chihuahua.Guerrero" target="SUB::Bióxido de carbono" weight="21364.2890625">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+        <attvalues>
+          <attvalue for="2" value="1"/>
+        </attvalues>
+      </edge>
+      <edge id="269" source="LOC::Chihuahua.Guerrero" target="SUB::Cianuro inorgánico/orgánico" weight="1058.37841796875">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+        <attvalues>
+          <attvalue for="2" value="4"/>
+        </attvalues>
+      </edge>
+      <edge id="270" source="LOC::Chihuahua.Guerrero" target="SUB::Arsénico (polvos, respirables, vapores o humos)" weight="12.403549194335938">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+        <attvalues>
+          <attvalue for="2" value="4"/>
+        </attvalues>
+      </edge>
+      <edge id="271" source="LOC::Chihuahua.Guerrero" target="SUB::Cadmio (compuestos)" weight="24.137554168701172">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+        <attvalues>
+          <attvalue for="2" value="3"/>
+        </attvalues>
+      </edge>
+      <edge id="272" source="LOC::Chihuahua.Guerrero" target="SUB::Níquel (compuestos)" weight="46.94737243652344">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+        <attvalues>
+          <attvalue for="2" value="2"/>
+        </attvalues>
+      </edge>
+      <edge id="273" source="LOC::Chihuahua.Guerrero" target="SUB::Mercurio (compuestos)" weight="0.20466910302639008">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+        <attvalues>
+          <attvalue for="2" value="2"/>
+        </attvalues>
+      </edge>
+      <edge id="274" source="LOC::Chihuahua.Guerrero" target="SUB::Arsénico (compuestos)" weight="98.98722839355469">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+        <attvalues>
+          <attvalue for="2" value="2"/>
+        </attvalues>
+      </edge>
+      <edge id="275" source="LOC::Chihuahua.Guerrero" target="SUB::Cromo (compuestos)" weight="41.71136474609375">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+        <attvalues>
+          <attvalue for="2" value="1"/>
+        </attvalues>
+      </edge>
+      <edge id="276" source="LOC::Chihuahua.Cusihuiriachi" target="SUB::Cadmio (compuestos)" weight="0.004521804861724377">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+        <attvalues>
+          <attvalue for="2" value="1"/>
+        </attvalues>
+      </edge>
+      <edge id="277" source="LOC::Chihuahua.Cusihuiriachi" target="SUB::Plomo (compuestos)" weight="0.018087219446897507">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+        <attvalues>
+          <attvalue for="2" value="1"/>
+        </attvalues>
+      </edge>
+      <edge id="278" source="LOC::Chihuahua.Cusihuiriachi" target="SUB::Arsénico (compuestos)" weight="9.043610043590888E-5">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+        <attvalues>
+          <attvalue for="2" value="1"/>
+        </attvalues>
+      </edge>
+      <edge id="279" source="LOC::Chihuahua.Cusihuiriachi" target="SUB::Mercurio (compuestos)" weight="9.043610043590888E-5">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+        <attvalues>
+          <attvalue for="2" value="1"/>
+        </attvalues>
+      </edge>
+      <edge id="280" source="LOC::Chihuahua.Cusihuiriachi" target="SUB::Níquel (compuestos)" weight="0.018087219446897507">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+        <attvalues>
+          <attvalue for="2" value="1"/>
+        </attvalues>
+      </edge>
+      <edge id="281" source="LOC::Chihuahua.Cusihuiriachi" target="SUB::Cianuro inorgánico/orgánico" weight="0.011304512619972229">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+        <attvalues>
+          <attvalue for="2" value="1"/>
+        </attvalues>
+      </edge>
+      <edge id="282" source="LOC::Chihuahua.San Francisco del Oro" target="SUB::Plomo (Compuestos solubles)" weight="2338.213134765625">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+        <attvalues>
+          <attvalue for="2" value="10"/>
+        </attvalues>
+      </edge>
+      <edge id="283" source="LOC::Chihuahua.San Francisco del Oro" target="SUB::Bióxido de carbono" weight="1.71143712E8">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+        <attvalues>
+          <attvalue for="2" value="7"/>
+        </attvalues>
+      </edge>
+      <edge id="284" source="LOC::Chihuahua.San Francisco del Oro" target="SUB::Formaldehido" weight="3236.609375">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+        <attvalues>
+          <attvalue for="2" value="5"/>
+        </attvalues>
+      </edge>
+      <edge id="285" source="LOC::Chihuahua.San Francisco del Oro" target="SUB::Cianuro inorgánico/orgánico" weight="0.4054186940193176">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+        <attvalues>
+          <attvalue for="2" value="3"/>
+        </attvalues>
+      </edge>
+      <edge id="286" source="LOC::Chihuahua.San Francisco del Oro" target="SUB::Cromo (compuestos)" weight="0.7583299875259399">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+        <attvalues>
+          <attvalue for="2" value="3"/>
+        </attvalues>
+      </edge>
+      <edge id="287" source="LOC::Chihuahua.San Francisco del Oro" target="SUB::Cadmio (polvos, respirables, vapores o humos)" weight="4.82480001449585">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+        <attvalues>
+          <attvalue for="2" value="2"/>
+        </attvalues>
+      </edge>
+      <edge id="288" source="LOC::Chihuahua.San Francisco del Oro" target="SUB::Arsénico (compuestos)" weight="0.450975239276886">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+        <attvalues>
+          <attvalue for="2" value="2"/>
+        </attvalues>
+      </edge>
+      <edge id="289" source="LOC::Chihuahua.San Francisco del Oro" target="SUB::Mercurio (compuestos)" weight="0.03202715143561363">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+        <attvalues>
+          <attvalue for="2" value="2"/>
+        </attvalues>
+      </edge>
+      <edge id="290" source="LOC::Chihuahua.San Francisco del Oro" target="SUB::Plomo (compuestos)" weight="75.3630142211914">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+        <attvalues>
+          <attvalue for="2" value="2"/>
+        </attvalues>
+      </edge>
+      <edge id="291" source="LOC::Chihuahua.San Francisco del Oro" target="SUB::Níquel (compuestos)" weight="0.2595149874687195">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+        <attvalues>
+          <attvalue for="2" value="1"/>
+        </attvalues>
+      </edge>
+      <edge id="292" source="LOC::Chihuahua.San Francisco del Oro" target="SUB::Cadmio (compuestos)" weight="0.07785449922084808">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+        <attvalues>
+          <attvalue for="2" value="1"/>
+        </attvalues>
+      </edge>
+      <edge id="293" source="LOC::Chihuahua.San Francisco del Oro" target="SUB::Mercurio (polvos, respirables, vapores o humos)" weight="400.0">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+        <attvalues>
+          <attvalue for="2" value="2"/>
+        </attvalues>
+      </edge>
+      <edge id="294" source="LOC::Chihuahua.San Francisco del Oro" target="SUB::Plomo (polvos respirables, humos o vapores)" weight="5427.22607421875">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+        <attvalues>
+          <attvalue for="2" value="6"/>
+        </attvalues>
+      </edge>
+      <edge id="295" source="LOC::Chihuahua.San Francisco del Oro" target="SUB::Bifenilos policlorados" weight="0.30820000171661377">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+        <attvalues>
+          <attvalue for="2" value="1"/>
+        </attvalues>
+      </edge>
+      <edge id="296" source="LOC::Chihuahua.Meoqui" target="SUB::Arsénico (polvos, respirables, vapores o humos)" weight="33.002933502197266">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+        <attvalues>
+          <attvalue for="2" value="3"/>
+        </attvalues>
+      </edge>
+      <edge id="297" source="LOC::Chihuahua.Meoqui" target="SUB::Cadmio (polvos, respirables, vapores o humos)" weight="0.5868158936500549">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+        <attvalues>
+          <attvalue for="2" value="3"/>
+        </attvalues>
+      </edge>
+      <edge id="298" source="LOC::Chihuahua.Meoqui" target="SUB::Cromo (compuestos)" weight="7.59535551071167">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+        <attvalues>
+          <attvalue for="2" value="3"/>
+        </attvalues>
+      </edge>
+      <edge id="299" source="LOC::Chihuahua.Meoqui" target="SUB::Mercurio (compuestos)" weight="0.02280782349407673">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+        <attvalues>
+          <attvalue for="2" value="2"/>
+        </attvalues>
+      </edge>
+      <edge id="300" source="LOC::Chihuahua.Meoqui" target="SUB::Níquel (compuestos)" weight="27.252975463867188">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+        <attvalues>
+          <attvalue for="2" value="3"/>
+        </attvalues>
+      </edge>
+      <edge id="301" source="LOC::Chihuahua.Meoqui" target="SUB::Plomo (compuestos)" weight="4363.5048828125">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+        <attvalues>
+          <attvalue for="2" value="11"/>
+        </attvalues>
+      </edge>
+      <edge id="302" source="LOC::Chihuahua.Meoqui" target="SUB::Cianuro inorgánico/orgánico" weight="5.537578105926514">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+        <attvalues>
+          <attvalue for="2" value="3"/>
+        </attvalues>
+      </edge>
+      <edge id="303" source="LOC::Chihuahua.Meoqui" target="SUB::Bióxido de carbono" weight="3.5984716E7">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+        <attvalues>
+          <attvalue for="2" value="8"/>
+        </attvalues>
+      </edge>
+      <edge id="304" source="LOC::Chihuahua.Meoqui" target="SUB::Cromo (polvos respirables, humos o vapores)" weight="8.760000228881836">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+        <attvalues>
+          <attvalue for="2" value="2"/>
+        </attvalues>
+      </edge>
+      <edge id="305" source="LOC::Chihuahua.Meoqui" target="SUB::Mercurio (polvos, respirables, vapores o humos)" weight="0.21238000690937042">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+        <attvalues>
+          <attvalue for="2" value="1"/>
+        </attvalues>
+      </edge>
+      <edge id="306" source="LOC::Chihuahua.Meoqui" target="SUB::Arsénico (Compuestos solubles)" weight="72.318603515625">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+        <attvalues>
+          <attvalue for="2" value="2"/>
+        </attvalues>
+      </edge>
+      <edge id="307" source="LOC::Chihuahua.Meoqui" target="SUB::Cadmio (Compuestos solubles)" weight="4.344399929046631">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+        <attvalues>
+          <attvalue for="2" value="2"/>
+        </attvalues>
+      </edge>
+      <edge id="308" source="LOC::Chihuahua.Meoqui" target="SUB::Cromo (Compuestos solubles)" weight="13.367600440979004">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+        <attvalues>
+          <attvalue for="2" value="2"/>
+        </attvalues>
+      </edge>
+      <edge id="309" source="LOC::Chihuahua.Meoqui" target="SUB::Níquel (Compuestos solubles)" weight="53.470401763916016">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+        <attvalues>
+          <attvalue for="2" value="2"/>
+        </attvalues>
+      </edge>
+      <edge id="310" source="LOC::Chihuahua.Meoqui" target="SUB::Plomo (Compuestos solubles)" weight="3.3417999744415283">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+        <attvalues>
+          <attvalue for="2" value="2"/>
+        </attvalues>
+      </edge>
+      <edge id="311" source="LOC::Chihuahua.Nuevo Casas Grandes" target="SUB::Plomo (compuestos)" weight="996.4528198242188">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+        <attvalues>
+          <attvalue for="2" value="10"/>
+        </attvalues>
+      </edge>
+      <edge id="312" source="LOC::Chihuahua.Nuevo Casas Grandes" target="SUB::Níquel (compuestos)" weight="3.657942056655884">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+        <attvalues>
+          <attvalue for="2" value="4"/>
+        </attvalues>
+      </edge>
+      <edge id="313" source="LOC::Chihuahua.Nuevo Casas Grandes" target="SUB::Mercurio (compuestos)" weight="0.010279249399900436">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+        <attvalues>
+          <attvalue for="2" value="2"/>
+        </attvalues>
+      </edge>
+      <edge id="314" source="LOC::Chihuahua.Nuevo Casas Grandes" target="SUB::Cromo (compuestos)" weight="0.7529420256614685">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+        <attvalues>
+          <attvalue for="2" value="2"/>
+        </attvalues>
+      </edge>
+      <edge id="315" source="LOC::Chihuahua.Nuevo Casas Grandes" target="SUB::Cadmio (polvos, respirables, vapores o humos)" weight="0.17089100182056427">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+        <attvalues>
+          <attvalue for="2" value="2"/>
+        </attvalues>
+      </edge>
+      <edge id="316" source="LOC::Chihuahua.Nuevo Casas Grandes" target="SUB::Arsénico (polvos, respirables, vapores o humos)" weight="0.6501520276069641">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+        <attvalues>
+          <attvalue for="2" value="2"/>
+        </attvalues>
+      </edge>
+      <edge id="317" source="LOC::Chihuahua.Nuevo Casas Grandes" target="SUB::Cianuro inorgánico/orgánico" weight="0.22228729724884033">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+        <attvalues>
+          <attvalue for="2" value="2"/>
+        </attvalues>
+      </edge>
+      <edge id="318" source="LOC::Chihuahua.Nuevo Casas Grandes" target="SUB::Bióxido de carbono" weight="471823.15625">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+        <attvalues>
+          <attvalue for="2" value="3"/>
+        </attvalues>
+      </edge>
+      <edge id="319" source="LOC::Chihuahua.Saucillo" target="SUB::Arsénico (polvos, respirables, vapores o humos)" weight="0.5934600234031677">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+        <attvalues>
+          <attvalue for="2" value="1"/>
+        </attvalues>
+      </edge>
+      <edge id="320" source="LOC::Chihuahua.Saucillo" target="SUB::Plomo (compuestos)" weight="3.622672E7">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+        <attvalues>
+          <attvalue for="2" value="4"/>
+        </attvalues>
+      </edge>
+      <edge id="321" source="LOC::Chihuahua.Saucillo" target="SUB::Mercurio (compuestos)" weight="0.009890999644994736">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+        <attvalues>
+          <attvalue for="2" value="1"/>
+        </attvalues>
+      </edge>
+      <edge id="322" source="LOC::Chihuahua.Saucillo" target="SUB::Cadmio (polvos, respirables, vapores o humos)" weight="0.09890999644994736">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+        <attvalues>
+          <attvalue for="2" value="1"/>
+        </attvalues>
+      </edge>
+      <edge id="323" source="LOC::Chihuahua.Saucillo" target="SUB::Bióxido de carbono" weight="458741.9375">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+        <attvalues>
+          <attvalue for="2" value="3"/>
+        </attvalues>
+      </edge>
+      <edge id="324" source="LOC::Chihuahua.Saucillo" target="SUB::Mercurio (polvos, respirables, vapores o humos)" weight="0.03125640004873276">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+        <attvalues>
+          <attvalue for="2" value="2"/>
+        </attvalues>
+      </edge>
+      <edge id="325" source="LOC::Chihuahua.Saucillo" target="SUB::Cianuro inorgánico/orgánico" weight="15204.0">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+        <attvalues>
+          <attvalue for="2" value="1"/>
+        </attvalues>
+      </edge>
+      <edge id="326" source="LOC::Chihuahua.Saucillo" target="SUB::Plomo (polvos respirables, humos o vapores)" weight="5671.35009765625">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+        <attvalues>
+          <attvalue for="2" value="4"/>
+        </attvalues>
+      </edge>
+      <edge id="327" source="LOC::Chihuahua.Saucillo" target="SUB::Plomo (Compuestos solubles)" weight="1527.5">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+        <attvalues>
+          <attvalue for="2" value="3"/>
+        </attvalues>
+      </edge>
+      <edge id="328" source="LOC::Chihuahua.Ascensión" target="SUB::Bióxido de carbono" weight="257622.265625">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+        <attvalues>
+          <attvalue for="2" value="7"/>
+        </attvalues>
+      </edge>
+      <edge id="329" source="LOC::Chihuahua.Ascensión" target="SUB::Plomo (compuestos)" weight="4221.70166015625">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+        <attvalues>
+          <attvalue for="2" value="3"/>
+        </attvalues>
+      </edge>
+      <edge id="330" source="LOC::Chihuahua.Ascensión" target="SUB::Mercurio (polvos, respirables, vapores o humos)" weight="0.006039230152964592">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+        <attvalues>
+          <attvalue for="2" value="2"/>
+        </attvalues>
+      </edge>
+      <edge id="331" source="LOC::Chihuahua.Ascensión" target="SUB::Metano" weight="1.5710999965667725">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+        <attvalues>
+          <attvalue for="2" value="1"/>
+        </attvalues>
+      </edge>
+      <edge id="332" source="LOC::Chihuahua.Ascensión" target="SUB::Cianuro inorgánico/orgánico" weight="0.07259999960660934">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+        <attvalues>
+          <attvalue for="2" value="1"/>
+        </attvalues>
+      </edge>
+      <edge id="333" source="LOC::Chihuahua.Ascensión" target="SUB::Arsénico (polvos, respirables, vapores o humos)" weight="169058.078125">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+        <attvalues>
+          <attvalue for="2" value="3"/>
+        </attvalues>
+      </edge>
+      <edge id="334" source="LOC::Chihuahua.Ascensión" target="SUB::Cadmio (polvos, respirables, vapores o humos)" weight="8416.0">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+        <attvalues>
+          <attvalue for="2" value="1"/>
+        </attvalues>
+      </edge>
+      <edge id="335" source="LOC::Chihuahua.Ascensión" target="SUB::Plomo (Compuestos solubles)" weight="12167.7998046875">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+        <attvalues>
+          <attvalue for="2" value="5"/>
+        </attvalues>
+      </edge>
+      <edge id="336" source="LOC::Chihuahua.Ascensión" target="SUB::Plomo (polvos respirables, humos o vapores)" weight="4419.47998046875">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+        <attvalues>
+          <attvalue for="2" value="4"/>
+        </attvalues>
+      </edge>
+      <edge id="337" source="LOC::Chihuahua.Guadalupe y Calvo" target="SUB::Bióxido de carbono" weight="3168183.25">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+        <attvalues>
+          <attvalue for="2" value="7"/>
+        </attvalues>
+      </edge>
+      <edge id="338" source="LOC::Chihuahua.Guadalupe y Calvo" target="SUB::Plomo (Compuestos solubles)" weight="23635.701171875">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+        <attvalues>
+          <attvalue for="2" value="5"/>
+        </attvalues>
+      </edge>
+      <edge id="339" source="LOC::Chihuahua.Camargo" target="SUB::Bióxido de carbono" weight="6361694.5">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+        <attvalues>
+          <attvalue for="2" value="4"/>
+        </attvalues>
+      </edge>
+      <edge id="340" source="LOC::Chihuahua.Camargo" target="SUB::Cromo (Compuestos solubles)" weight="14.182900428771973">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+        <attvalues>
+          <attvalue for="2" value="3"/>
+        </attvalues>
+      </edge>
+      <edge id="341" source="LOC::Chihuahua.Camargo" target="SUB::Níquel (Compuestos solubles)" weight="5.6321001052856445">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+        <attvalues>
+          <attvalue for="2" value="2"/>
+        </attvalues>
+      </edge>
+      <edge id="342" source="LOC::Chihuahua.Camargo" target="SUB::Mercurio (polvos, respirables, vapores o humos)" weight="52.65999984741211">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+        <attvalues>
+          <attvalue for="2" value="4"/>
+        </attvalues>
+      </edge>
+      <edge id="343" source="LOC::Chihuahua.Camargo" target="SUB::Bifenilos policlorados" weight="3960.0">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+        <attvalues>
+          <attvalue for="2" value="1"/>
+        </attvalues>
+      </edge>
+      <edge id="344" source="LOC::Chihuahua.Camargo" target="SUB::Mercurio (Compuestos solubles)" weight="1.0468000173568726">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+        <attvalues>
+          <attvalue for="2" value="1"/>
+        </attvalues>
+      </edge>
+      <edge id="345" source="LOC::Chihuahua.Ojinaga" target="SUB::Bióxido de carbono" weight="1.7124596E7">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+        <attvalues>
+          <attvalue for="2" value="8"/>
+        </attvalues>
+      </edge>
+      <edge id="346" source="LOC::Chihuahua.Ojinaga" target="SUB::Metano" weight="1015700.0">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+        <attvalues>
+          <attvalue for="2" value="3"/>
+        </attvalues>
+      </edge>
+      <edge id="347" source="LOC::Chihuahua.Satevó" target="SUB::Hidrofluorocarbonos" weight="6049.39990234375">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+        <attvalues>
+          <attvalue for="2" value="1"/>
+        </attvalues>
+      </edge>
+      <edge id="348" source="LOC::Chihuahua.Satevó" target="SUB::Bióxido de carbono" weight="1.2145909E7">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+        <attvalues>
+          <attvalue for="2" value="1"/>
+        </attvalues>
+      </edge>
+      <edge id="349" source="LOC::Chihuahua.Jiménez" target="SUB::Bióxido de carbono" weight="26052.83203125">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+        <attvalues>
+          <attvalue for="2" value="4"/>
+        </attvalues>
+      </edge>
+      <edge id="350" source="LOC::Chihuahua.Jiménez" target="SUB::Plomo (compuestos)" weight="245.60409545898438">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+        <attvalues>
+          <attvalue for="2" value="4"/>
+        </attvalues>
+      </edge>
+      <edge id="351" source="LOC::Chihuahua.Jiménez" target="SUB::Cadmio (polvos, respirables, vapores o humos)" weight="0.016016000881791115">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+        <attvalues>
+          <attvalue for="2" value="1"/>
+        </attvalues>
+      </edge>
+      <edge id="352" source="LOC::Chihuahua.Jiménez" target="SUB::Arsénico (polvos, respirables, vapores o humos)" weight="0.00800000037997961">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+        <attvalues>
+          <attvalue for="2" value="1"/>
+        </attvalues>
+      </edge>
+      <edge id="353" source="LOC::Chihuahua.Jiménez" target="SUB::Cianuro inorgánico/orgánico" weight="0.00800000037997961">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+        <attvalues>
+          <attvalue for="2" value="1"/>
+        </attvalues>
+      </edge>
+      <edge id="354" source="LOC::Chihuahua.Jiménez" target="SUB::Cromo (compuestos)" weight="60.0">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+        <attvalues>
+          <attvalue for="2" value="1"/>
+        </attvalues>
+      </edge>
+      <edge id="355" source="LOC::Chihuahua.Buenaventura" target="SUB::Plomo (compuestos)" weight="495.0075988769531">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+        <attvalues>
+          <attvalue for="2" value="2"/>
+        </attvalues>
+      </edge>
+      <edge id="356" source="LOC::Chihuahua.Buenaventura" target="SUB::Bióxido de carbono" weight="12960.0">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+        <attvalues>
+          <attvalue for="2" value="3"/>
+        </attvalues>
+      </edge>
+      <edge id="357" source="LOC::Chihuahua.Ahumada" target="SUB::Bióxido de carbono" weight="51095.3984375">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+        <attvalues>
+          <attvalue for="2" value="3"/>
+        </attvalues>
+      </edge>
+      <edge id="358" source="LOC::Chihuahua.Ahumada" target="SUB::Plomo (compuestos)" weight="2003.012939453125">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+        <attvalues>
+          <attvalue for="2" value="4"/>
+        </attvalues>
+      </edge>
+      <edge id="359" source="LOC::Chihuahua.Guadalupe" target="SUB::Bióxido de carbono" weight="64.2770004272461">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+        <attvalues>
+          <attvalue for="2" value="2"/>
+        </attvalues>
+      </edge>
+    </edges>
+  </graph>
+</gexf>

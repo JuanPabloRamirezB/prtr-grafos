@@ -1,0 +1,408 @@
+<?xml version='1.0' encoding='utf-8'?>
+<gexf xmlns="http://www.gexf.net/1.2draft" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.gexf.net/1.2draft http://www.gexf.net/1.2draft/gexf.xsd" version="1.2">
+  <meta lastmodifieddate="2026-10-16">
+    <creator>NetworkX 3.7</creator>
+  </meta>
+  <graph defaultedgetype="undirected" mode="static" name="">
+    <attributes mode="static" class="node">
+      <attribute id="0" title="type" type="string" />
+      <attribute id="1" title="total_kg" type="double" />
+      <attribute id="2" title="first_year" type="long" />
+      <attribute id="3" title="n_years_active" type="long" />
+    </attributes>
+    <nodes>
+      <node id="LOC::Quintana Roo.Benito Juárez" label="Quintana Roo.Benito Juárez">
+        <attvalues>
+          <attvalue for="0" value="location" />
+          <attvalue for="1" value="5671045826.47528" />
+          <attvalue for="2" value="2005" />
+          <attvalue for="3" value="18" />
+        </attvalues>
+      </node>
+      <node id="LOC::Quintana Roo.Othón P" label="Quintana Roo.Othón P">
+        <attvalues>
+          <attvalue for="0" value="location" />
+          <attvalue for="1" value="302525016.60448647" />
+          <attvalue for="2" value="2004" />
+          <attvalue for="3" value="19" />
+        </attvalues>
+      </node>
+      <node id="LOC::Quintana Roo.Cozumel" label="Quintana Roo.Cozumel">
+        <attvalues>
+          <attvalue for="0" value="location" />
+          <attvalue for="1" value="941849408.1594734" />
+          <attvalue for="2" value="2004" />
+          <attvalue for="3" value="19" />
+        </attvalues>
+      </node>
+      <node id="LOC::Quintana Roo.Solidaridad" label="Quintana Roo.Solidaridad">
+        <attvalues>
+          <attvalue for="0" value="location" />
+          <attvalue for="1" value="10346275621.928034" />
+          <attvalue for="2" value="2008" />
+          <attvalue for="3" value="15" />
+        </attvalues>
+      </node>
+      <node id="LOC::Quintana Roo.Isla Mujeres" label="Quintana Roo.Isla Mujeres">
+        <attvalues>
+          <attvalue for="0" value="location" />
+          <attvalue for="1" value="266.7839652709601" />
+          <attvalue for="2" value="2008" />
+          <attvalue for="3" value="14" />
+        </attvalues>
+      </node>
+      <node id="LOC::Quintana Roo.Lázaro Cárdenas" label="Quintana Roo.Lázaro Cárdenas">
+        <attvalues>
+          <attvalue for="0" value="location" />
+          <attvalue for="1" value="38045581.646400005" />
+          <attvalue for="2" value="2005" />
+          <attvalue for="3" value="15" />
+        </attvalues>
+      </node>
+      <node id="LOC::Quintana Roo.Tulum" label="Quintana Roo.Tulum">
+        <attvalues>
+          <attvalue for="0" value="location" />
+          <attvalue for="1" value="5820.910779999998" />
+          <attvalue for="2" value="2012" />
+          <attvalue for="3" value="11" />
+        </attvalues>
+      </node>
+      <node id="SUB::Cromo (Compuestos solubles)" label="Chromium (soluble compounds)">
+        <attvalues>
+          <attvalue for="0" value="substance" />
+          <attvalue for="1" value="99409.38801174704" />
+          <attvalue for="2" value="2008" />
+          <attvalue for="3" value="10" />
+        </attvalues>
+      </node>
+      <node id="SUB::Níquel (Compuestos solubles)" label="Nickel (soluble compounds)">
+        <attvalues>
+          <attvalue for="0" value="substance" />
+          <attvalue for="1" value="137967.798696689" />
+          <attvalue for="2" value="2008" />
+          <attvalue for="3" value="10" />
+        </attvalues>
+      </node>
+      <node id="SUB::Cianuro inorgánico/orgánico" label="Inorganic/organic cyanide">
+        <attvalues>
+          <attvalue for="0" value="substance" />
+          <attvalue for="1" value="102729.73443388249" />
+          <attvalue for="2" value="2005" />
+          <attvalue for="3" value="18" />
+        </attvalues>
+      </node>
+      <node id="SUB::Plomo (Compuestos solubles)" label="Lead (soluble compounds)">
+        <attvalues>
+          <attvalue for="0" value="substance" />
+          <attvalue for="1" value="62236.842413800994" />
+          <attvalue for="2" value="2008" />
+          <attvalue for="3" value="10" />
+        </attvalues>
+      </node>
+      <node id="SUB::Arsénico (polvos, respirables, vapores o humos)" label="Arsenic (respirable dust, vapors or fumes)">
+        <attvalues>
+          <attvalue for="0" value="substance" />
+          <attvalue for="1" value="2537.74359653849" />
+          <attvalue for="2" value="2005" />
+          <attvalue for="3" value="12" />
+        </attvalues>
+      </node>
+      <node id="SUB::Cadmio (polvos, respirables, vapores o humos)" label="Cadmium (respirable dust, vapors or fumes)">
+        <attvalues>
+          <attvalue for="0" value="substance" />
+          <attvalue for="1" value="2229.6981089807796" />
+          <attvalue for="2" value="2005" />
+          <attvalue for="3" value="10" />
+        </attvalues>
+      </node>
+      <node id="SUB::Mercurio (Compuestos solubles)" label="Mercury (soluble compounds)">
+        <attvalues>
+          <attvalue for="0" value="substance" />
+          <attvalue for="1" value="8947.009267677999" />
+          <attvalue for="2" value="2008" />
+          <attvalue for="3" value="10" />
+        </attvalues>
+      </node>
+      <node id="SUB::Mercurio (polvos, respirables, vapores o humos)" label="Mercury (respirable dust, vapors or fumes)">
+        <attvalues>
+          <attvalue for="0" value="substance" />
+          <attvalue for="1" value="1817.1124797135894" />
+          <attvalue for="2" value="2006" />
+          <attvalue for="3" value="11" />
+        </attvalues>
+      </node>
+      <node id="SUB::Arsénico (compuestos)" label="Arsenic (compounds)">
+        <attvalues>
+          <attvalue for="0" value="substance" />
+          <attvalue for="1" value="48.9465212143145" />
+          <attvalue for="2" value="2010" />
+          <attvalue for="3" value="4" />
+        </attvalues>
+      </node>
+      <node id="SUB::Cadmio (compuestos)" label="Cadmium (compounds)">
+        <attvalues>
+          <attvalue for="0" value="substance" />
+          <attvalue for="1" value="770.783049889169" />
+          <attvalue for="2" value="2010" />
+          <attvalue for="3" value="4" />
+        </attvalues>
+      </node>
+      <node id="SUB::Cromo (compuestos)" label="Chromium (compounds)">
+        <attvalues>
+          <attvalue for="0" value="substance" />
+          <attvalue for="1" value="4504.8421434132615" />
+          <attvalue for="2" value="2005" />
+          <attvalue for="3" value="8" />
+        </attvalues>
+      </node>
+      <node id="SUB::Mercurio (compuestos)" label="Mercury (compounds)">
+        <attvalues>
+          <attvalue for="0" value="substance" />
+          <attvalue for="1" value="222.7400411865615" />
+          <attvalue for="2" value="2005" />
+          <attvalue for="3" value="8" />
+        </attvalues>
+      </node>
+      <node id="SUB::Níquel (compuestos)" label="Nickel (compounds)">
+        <attvalues>
+          <attvalue for="0" value="substance" />
+          <attvalue for="1" value="11392.494072626798" />
+          <attvalue for="2" value="2005" />
+          <attvalue for="3" value="8" />
+        </attvalues>
+      </node>
+      <node id="SUB::Plomo (compuestos)" label="Lead (compounds)">
+        <attvalues>
+          <attvalue for="0" value="substance" />
+          <attvalue for="1" value="11480.027246873966" />
+          <attvalue for="2" value="2005" />
+          <attvalue for="3" value="8" />
+        </attvalues>
+      </node>
+      <node id="SUB::Cadmio (Compuestos solubles)" label="Cadmium (soluble compounds)">
+        <attvalues>
+          <attvalue for="0" value="substance" />
+          <attvalue for="1" value="13210.215657852003" />
+          <attvalue for="2" value="2014" />
+          <attvalue for="3" value="9" />
+        </attvalues>
+      </node>
+      <node id="SUB::Arsénico (Compuestos solubles)" label="Arsenic (soluble compounds)">
+        <attvalues>
+          <attvalue for="0" value="substance" />
+          <attvalue for="1" value="3122.8964719" />
+          <attvalue for="2" value="2014" />
+          <attvalue for="3" value="9" />
+        </attvalues>
+      </node>
+      <node id="SUB::Cianuro de hidrógeno" label="Hydrogen cyanide">
+        <attvalues>
+          <attvalue for="0" value="substance" />
+          <attvalue for="1" value="214.31" />
+          <attvalue for="2" value="2018" />
+          <attvalue for="3" value="1" />
+        </attvalues>
+      </node>
+      <node id="SUB::Bióxido de carbono" label="Carbon dioxide">
+        <attvalues>
+          <attvalue for="0" value="substance" />
+          <attvalue for="1" value="17290258873.485905" />
+          <attvalue for="2" value="2004" />
+          <attvalue for="3" value="19" />
+        </attvalues>
+      </node>
+      <node id="SUB::Benceno" label="Benzene">
+        <attvalues>
+          <attvalue for="0" value="substance" />
+          <attvalue for="1" value="0.159" />
+          <attvalue for="2" value="2013" />
+          <attvalue for="3" value="1" />
+        </attvalues>
+      </node>
+      <node id="SUB::1,1,1-Tricloroetano" label="1,1,1-Trichloroethane">
+        <attvalues>
+          <attvalue for="0" value="substance" />
+          <attvalue for="1" value="0.1753" />
+          <attvalue for="2" value="2013" />
+          <attvalue for="3" value="1" />
+        </attvalues>
+      </node>
+      <node id="SUB::Metano" label="Methane">
+        <attvalues>
+          <attvalue for="0" value="substance" />
+          <attvalue for="1" value="8608608.686" />
+          <attvalue for="2" value="2013" />
+          <attvalue for="3" value="10" />
+        </attvalues>
+      </node>
+      <node id="SUB::Oxido nitroso" label="Nitrous oxide">
+        <attvalues>
+          <attvalue for="0" value="substance" />
+          <attvalue for="1" value="379866.60000000003" />
+          <attvalue for="2" value="2013" />
+          <attvalue for="3" value="4" />
+        </attvalues>
+      </node>
+      <node id="SUB::Formaldehido" label="Formaldehyde">
+        <attvalues>
+          <attvalue for="0" value="substance" />
+          <attvalue for="1" value="6828.12" />
+          <attvalue for="2" value="2018" />
+          <attvalue for="3" value="5" />
+        </attvalues>
+      </node>
+      <node id="SUB::Hexafluoruro de azufre" label="Sulfur hexafluoride">
+        <attvalues>
+          <attvalue for="0" value="substance" />
+          <attvalue for="1" value="3750.0" />
+          <attvalue for="2" value="2016" />
+          <attvalue for="3" value="3" />
+        </attvalues>
+      </node>
+      <node id="SUB::Plomo (polvos respirables, humos o vapores)" label="Lead (respirable dust, fumes or vapors)">
+        <attvalues>
+          <attvalue for="0" value="substance" />
+          <attvalue for="1" value="18121.0" />
+          <attvalue for="2" value="2016" />
+          <attvalue for="3" value="3" />
+        </attvalues>
+      </node>
+      <node id="SUB::Níquel (polvos respirables, humos o vapores)" label="Nickel (respirable dust, fumes or vapors)">
+        <attvalues>
+          <attvalue for="0" value="substance" />
+          <attvalue for="1" value="311.0" />
+          <attvalue for="2" value="2016" />
+          <attvalue for="3" value="2" />
+        </attvalues>
+      </node>
+      <node id="SUB::Butadieno" label="1,3-Butadiene">
+        <attvalues>
+          <attvalue for="0" value="substance" />
+          <attvalue for="1" value="7213.5" />
+          <attvalue for="2" value="2019" />
+          <attvalue for="3" value="4" />
+        </attvalues>
+      </node>
+      <node id="SUB::Hidrofluorocarbonos" label="Hydrofluorocarbons">
+        <attvalues>
+          <attvalue for="0" value="substance" />
+          <attvalue for="1" value="1127.2" />
+          <attvalue for="2" value="2019" />
+          <attvalue for="3" value="4" />
+        </attvalues>
+      </node>
+    </nodes>
+    <edges>
+      <edge source="LOC::Quintana Roo.Benito Juárez" target="SUB::Cromo (Compuestos solubles)" id="0" weight="49475.367760447014" />
+      <edge source="LOC::Quintana Roo.Benito Juárez" target="SUB::Níquel (Compuestos solubles)" id="1" weight="106416.37240026904" />
+      <edge source="LOC::Quintana Roo.Benito Juárez" target="SUB::Cianuro inorgánico/orgánico" id="2" weight="98819.49135424584" />
+      <edge source="LOC::Quintana Roo.Benito Juárez" target="SUB::Plomo (Compuestos solubles)" id="3" weight="42495.859316681" />
+      <edge source="LOC::Quintana Roo.Benito Juárez" target="SUB::Arsénico (polvos, respirables, vapores o humos)" id="4" weight="2370.37721446929" />
+      <edge source="LOC::Quintana Roo.Benito Juárez" target="SUB::Cadmio (polvos, respirables, vapores o humos)" id="5" weight="825.581045684779" />
+      <edge source="LOC::Quintana Roo.Benito Juárez" target="SUB::Mercurio (Compuestos solubles)" id="6" weight="8210.659958758" />
+      <edge source="LOC::Quintana Roo.Benito Juárez" target="SUB::Arsénico (compuestos)" id="7" weight="26.0793385773895" />
+      <edge source="LOC::Quintana Roo.Benito Juárez" target="SUB::Cadmio (compuestos)" id="8" weight="504.091913217294" />
+      <edge source="LOC::Quintana Roo.Benito Juárez" target="SUB::Cromo (compuestos)" id="9" weight="3341.3651262095414" />
+      <edge source="LOC::Quintana Roo.Benito Juárez" target="SUB::Mercurio (compuestos)" id="10" weight="61.56585571299651" />
+      <edge source="LOC::Quintana Roo.Benito Juárez" target="SUB::Níquel (compuestos)" id="11" weight="8630.865445540761" />
+      <edge source="LOC::Quintana Roo.Benito Juárez" target="SUB::Plomo (compuestos)" id="12" weight="2682.5186925787903" />
+      <edge source="LOC::Quintana Roo.Benito Juárez" target="SUB::Mercurio (polvos, respirables, vapores o humos)" id="13" weight="1016.5420686025894" />
+      <edge source="LOC::Quintana Roo.Benito Juárez" target="SUB::Cadmio (Compuestos solubles)" id="14" weight="9538.072157852008" />
+      <edge source="LOC::Quintana Roo.Benito Juárez" target="SUB::Arsénico (Compuestos solubles)" id="15" weight="2137.0403378999995" />
+      <edge source="LOC::Quintana Roo.Benito Juárez" target="SUB::Bióxido de carbono" id="16" weight="5670679595.305285" />
+      <edge source="LOC::Quintana Roo.Benito Juárez" target="SUB::Formaldehido" id="17" weight="6828.12" />
+      <edge source="LOC::Quintana Roo.Benito Juárez" target="SUB::Hexafluoruro de azufre" id="18" weight="3378.0" />
+      <edge source="LOC::Quintana Roo.Benito Juárez" target="SUB::Plomo (polvos respirables, humos o vapores)" id="19" weight="11836.0" />
+      <edge source="LOC::Quintana Roo.Benito Juárez" target="SUB::Níquel (polvos respirables, humos o vapores)" id="20" weight="246.0" />
+      <edge source="LOC::Quintana Roo.Benito Juárez" target="SUB::Butadieno" id="21" weight="6264.0" />
+      <edge source="LOC::Quintana Roo.Benito Juárez" target="SUB::Hidrofluorocarbonos" id="22" weight="1127.2" />
+      <edge source="LOC::Quintana Roo.Othón P" target="SUB::Cromo (Compuestos solubles)" id="23" weight="503.63245376" />
+      <edge source="LOC::Quintana Roo.Othón P" target="SUB::Mercurio (Compuestos solubles)" id="24" weight="24.62159212" />
+      <edge source="LOC::Quintana Roo.Othón P" target="SUB::Níquel (Compuestos solubles)" id="25" weight="819.5271744999999" />
+      <edge source="LOC::Quintana Roo.Othón P" target="SUB::Plomo (Compuestos solubles)" id="26" weight="749.6633260000001" />
+      <edge source="LOC::Quintana Roo.Othón P" target="SUB::Cianuro inorgánico/orgánico" id="27" weight="311.54882357" />
+      <edge source="LOC::Quintana Roo.Othón P" target="SUB::Arsénico (polvos, respirables, vapores o humos)" id="28" weight="8.311340171200001" />
+      <edge source="LOC::Quintana Roo.Othón P" target="SUB::Cadmio (polvos, respirables, vapores o humos)" id="29" weight="215.47622834" />
+      <edge source="LOC::Quintana Roo.Othón P" target="SUB::Plomo (compuestos)" id="30" weight="6817.729488229999" />
+      <edge source="LOC::Quintana Roo.Othón P" target="SUB::Níquel (compuestos)" id="31" weight="432.20413414" />
+      <edge source="LOC::Quintana Roo.Othón P" target="SUB::Mercurio (compuestos)" id="32" weight="27.461925584999996" />
+      <edge source="LOC::Quintana Roo.Othón P" target="SUB::Cromo (compuestos)" id="33" weight="168.38198367500004" />
+      <edge source="LOC::Quintana Roo.Othón P" target="SUB::Cadmio (compuestos)" id="34" weight="115.5880765625" />
+      <edge source="LOC::Quintana Roo.Othón P" target="SUB::Arsénico (compuestos)" id="35" weight="3.418739925" />
+      <edge source="LOC::Quintana Roo.Othón P" target="SUB::Bióxido de carbono" id="36" weight="302514671.74" />
+      <edge source="LOC::Quintana Roo.Othón P" target="SUB::Arsénico (Compuestos solubles)" id="37" weight="21.1378" />
+      <edge source="LOC::Quintana Roo.Othón P" target="SUB::Cadmio (Compuestos solubles)" id="38" weight="126.1614" />
+      <edge source="LOC::Quintana Roo.Cozumel" target="SUB::Cromo (Compuestos solubles)" id="39" weight="225.72895000000003" />
+      <edge source="LOC::Quintana Roo.Cozumel" target="SUB::Mercurio (Compuestos solubles)" id="40" weight="16.8384958" />
+      <edge source="LOC::Quintana Roo.Cozumel" target="SUB::Níquel (Compuestos solubles)" id="41" weight="357.22292000000004" />
+      <edge source="LOC::Quintana Roo.Cozumel" target="SUB::Plomo (Compuestos solubles)" id="42" weight="231.89128800000003" />
+      <edge source="LOC::Quintana Roo.Cozumel" target="SUB::Arsénico (polvos, respirables, vapores o humos)" id="43" weight="11.93491533" />
+      <edge source="LOC::Quintana Roo.Cozumel" target="SUB::Cadmio (polvos, respirables, vapores o humos)" id="44" weight="290.2341475460001" />
+      <edge source="LOC::Quintana Roo.Cozumel" target="SUB::Cianuro inorgánico/orgánico" id="45" weight="108.40547907999998" />
+      <edge source="LOC::Quintana Roo.Cozumel" target="SUB::Mercurio (polvos, respirables, vapores o humos)" id="46" weight="2.402751" />
+      <edge source="LOC::Quintana Roo.Cozumel" target="SUB::Cromo (compuestos)" id="47" weight="244.16119320500005" />
+      <edge source="LOC::Quintana Roo.Cozumel" target="SUB::Cadmio (compuestos)" id="48" weight="24.904331775" />
+      <edge source="LOC::Quintana Roo.Cozumel" target="SUB::Plomo (compuestos)" id="49" weight="518.3376274" />
+      <edge source="LOC::Quintana Roo.Cozumel" target="SUB::Níquel (compuestos)" id="50" weight="551.6561914580001" />
+      <edge source="LOC::Quintana Roo.Cozumel" target="SUB::Mercurio (compuestos)" id="51" weight="53.082532737" />
+      <edge source="LOC::Quintana Roo.Cozumel" target="SUB::Arsénico (compuestos)" id="52" weight="1.1157497899999997" />
+      <edge source="LOC::Quintana Roo.Cozumel" target="SUB::Cadmio (Compuestos solubles)" id="53" weight="96.83230000000002" />
+      <edge source="LOC::Quintana Roo.Cozumel" target="SUB::Bióxido de carbono" id="54" weight="941081393.53" />
+      <edge source="LOC::Quintana Roo.Cozumel" target="SUB::Benceno" id="55" weight="0.159" />
+      <edge source="LOC::Quintana Roo.Cozumel" target="SUB::1,1,1-Tricloroetano" id="56" weight="0.1753" />
+      <edge source="LOC::Quintana Roo.Cozumel" target="SUB::Oxido nitroso" id="57" weight="69570.7" />
+      <edge source="LOC::Quintana Roo.Cozumel" target="SUB::Metano" id="58" weight="695707.5" />
+      <edge source="LOC::Quintana Roo.Cozumel" target="SUB::Arsénico (Compuestos solubles)" id="59" weight="1.3463" />
+      <edge source="LOC::Quintana Roo.Solidaridad" target="SUB::Cromo (Compuestos solubles)" id="60" weight="47145.02149516" />
+      <edge source="LOC::Quintana Roo.Solidaridad" target="SUB::Mercurio (Compuestos solubles)" id="61" weight="566.004821" />
+      <edge source="LOC::Quintana Roo.Solidaridad" target="SUB::Níquel (Compuestos solubles)" id="62" weight="27844.90496592" />
+      <edge source="LOC::Quintana Roo.Solidaridad" target="SUB::Plomo (Compuestos solubles)" id="63" weight="17796.819504119998" />
+      <edge source="LOC::Quintana Roo.Solidaridad" target="SUB::Cianuro inorgánico/orgánico" id="64" weight="3414.4688369074497" />
+      <edge source="LOC::Quintana Roo.Solidaridad" target="SUB::Arsénico (polvos, respirables, vapores o humos)" id="65" weight="146.570868568" />
+      <edge source="LOC::Quintana Roo.Solidaridad" target="SUB::Cadmio (polvos, respirables, vapores o humos)" id="66" weight="891.1293724100001" />
+      <edge source="LOC::Quintana Roo.Solidaridad" target="SUB::Arsénico (compuestos)" id="67" weight="18.332692921925" />
+      <edge source="LOC::Quintana Roo.Solidaridad" target="SUB::Cromo (compuestos)" id="68" weight="709.2164557154" />
+      <edge source="LOC::Quintana Roo.Solidaridad" target="SUB::Mercurio (compuestos)" id="69" weight="77.715508052525" />
+      <edge source="LOC::Quintana Roo.Solidaridad" target="SUB::Níquel (compuestos)" id="70" weight="1743.4347383836" />
+      <edge source="LOC::Quintana Roo.Solidaridad" target="SUB::Plomo (compuestos)" id="71" weight="1442.3197376651744" />
+      <edge source="LOC::Quintana Roo.Solidaridad" target="SUB::Cadmio (compuestos)" id="72" weight="126.198728334375" />
+      <edge source="LOC::Quintana Roo.Solidaridad" target="SUB::Cadmio (Compuestos solubles)" id="73" weight="3243.490799999999" />
+      <edge source="LOC::Quintana Roo.Solidaridad" target="SUB::Arsénico (Compuestos solubles)" id="74" weight="914.7760999999999" />
+      <edge source="LOC::Quintana Roo.Solidaridad" target="SUB::Mercurio (polvos, respirables, vapores o humos)" id="75" weight="797.856797111" />
+      <edge source="LOC::Quintana Roo.Solidaridad" target="SUB::Cianuro de hidrógeno" id="76" weight="214.31" />
+      <edge source="LOC::Quintana Roo.Solidaridad" target="SUB::Bióxido de carbono" id="77" weight="10337937660.770617" />
+      <edge source="LOC::Quintana Roo.Solidaridad" target="SUB::Metano" id="78" weight="7912901.186000001" />
+      <edge source="LOC::Quintana Roo.Solidaridad" target="SUB::Oxido nitroso" id="79" weight="310295.9" />
+      <edge source="LOC::Quintana Roo.Solidaridad" target="SUB::Plomo (polvos respirables, humos o vapores)" id="80" weight="6285.0" />
+      <edge source="LOC::Quintana Roo.Solidaridad" target="SUB::Hexafluoruro de azufre" id="81" weight="372.0" />
+      <edge source="LOC::Quintana Roo.Solidaridad" target="SUB::Níquel (polvos respirables, humos o vapores)" id="82" weight="65.0" />
+      <edge source="LOC::Quintana Roo.Solidaridad" target="SUB::Butadieno" id="83" weight="949.5" />
+      <edge source="LOC::Quintana Roo.Isla Mujeres" target="SUB::Cromo (Compuestos solubles)" id="84" weight="58.46465238" />
+      <edge source="LOC::Quintana Roo.Isla Mujeres" target="SUB::Cianuro inorgánico/orgánico" id="85" weight="70.90475757916" />
+      <edge source="LOC::Quintana Roo.Isla Mujeres" target="SUB::Cromo (compuestos)" id="86" weight="24.01363960832" />
+      <edge source="LOC::Quintana Roo.Isla Mujeres" target="SUB::Níquel (compuestos)" id="87" weight="17.071487604439998" />
+      <edge source="LOC::Quintana Roo.Isla Mujeres" target="SUB::Mercurio (compuestos)" id="88" weight="2.9142190990400003" />
+      <edge source="LOC::Quintana Roo.Isla Mujeres" target="SUB::Mercurio (polvos, respirables, vapores o humos)" id="89" weight="0.10406" />
+      <edge source="LOC::Quintana Roo.Isla Mujeres" target="SUB::Arsénico (Compuestos solubles)" id="90" weight="12.481834000000001" />
+      <edge source="LOC::Quintana Roo.Isla Mujeres" target="SUB::Plomo (Compuestos solubles)" id="91" weight="11.077679" />
+      <edge source="LOC::Quintana Roo.Isla Mujeres" target="SUB::Níquel (Compuestos solubles)" id="92" weight="68.285636" />
+      <edge source="LOC::Quintana Roo.Isla Mujeres" target="SUB::Cadmio (Compuestos solubles)" id="93" weight="1.466" />
+      <edge source="LOC::Quintana Roo.Lázaro Cárdenas" target="SUB::Cromo (Compuestos solubles)" id="94" weight="8.4304" />
+      <edge source="LOC::Quintana Roo.Lázaro Cárdenas" target="SUB::Níquel (Compuestos solubles)" id="95" weight="21.075999999999997" />
+      <edge source="LOC::Quintana Roo.Lázaro Cárdenas" target="SUB::Bióxido de carbono" id="96" weight="38045552.14" />
+      <edge source="LOC::Quintana Roo.Tulum" target="SUB::Cianuro inorgánico/orgánico" id="97" weight="4.9151825" />
+      <edge source="LOC::Quintana Roo.Tulum" target="SUB::Mercurio (polvos, respirables, vapores o humos)" id="98" weight="0.20680300000000001" />
+      <edge source="LOC::Quintana Roo.Tulum" target="SUB::Arsénico (polvos, respirables, vapores o humos)" id="99" weight="0.549258" />
+      <edge source="LOC::Quintana Roo.Tulum" target="SUB::Cadmio (polvos, respirables, vapores o humos)" id="100" weight="7.277315" />
+      <edge source="LOC::Quintana Roo.Tulum" target="SUB::Cromo (compuestos)" id="101" weight="17.703745" />
+      <edge source="LOC::Quintana Roo.Tulum" target="SUB::Níquel (compuestos)" id="102" weight="17.2620755" />
+      <edge source="LOC::Quintana Roo.Tulum" target="SUB::Plomo (compuestos)" id="103" weight="19.121701" />
+      <edge source="LOC::Quintana Roo.Tulum" target="SUB::Arsénico (Compuestos solubles)" id="104" weight="36.1141" />
+      <edge source="LOC::Quintana Roo.Tulum" target="SUB::Cadmio (Compuestos solubles)" id="105" weight="204.19299999999998" />
+      <edge source="LOC::Quintana Roo.Tulum" target="SUB::Cromo (Compuestos solubles)" id="106" weight="1992.7423000000001" />
+      <edge source="LOC::Quintana Roo.Tulum" target="SUB::Níquel (Compuestos solubles)" id="107" weight="2440.4096" />
+      <edge source="LOC::Quintana Roo.Tulum" target="SUB::Plomo (Compuestos solubles)" id="108" weight="951.5313" />
+      <edge source="LOC::Quintana Roo.Tulum" target="SUB::Mercurio (Compuestos solubles)" id="109" weight="128.8844" />
+    </edges>
+  </graph>
+</gexf>

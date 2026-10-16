@@ -1,0 +1,96 @@
+<?xml version='1.0' encoding='utf-8'?>
+<gexf xmlns="http://www.gexf.net/1.2draft" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.gexf.net/1.2draft http://www.gexf.net/1.2draft/gexf.xsd" version="1.2">
+  <meta lastmodifieddate="2026-10-16">
+    <creator>NetworkX 3.7</creator>
+  </meta>
+  <graph defaultedgetype="undirected" mode="static" name="">
+    <attributes mode="static" class="node">
+      <attribute id="0" title="lat" type="double" />
+      <attribute id="1" title="lon" type="double" />
+      <attribute id="2" title="total_kg" type="double" />
+      <attribute id="3" title="community" type="long" />
+      <attribute id="4" title="color_hex" type="string" />
+    </attributes>
+    <nodes>
+      <node id="Colima.Colima" label="Colima">
+        <attvalues>
+          <attvalue for="0" value="19.143452" />
+          <attvalue for="1" value="-103.4341228" />
+          <attvalue for="2" value="28439227.18951994" />
+          <attvalue for="3" value="1" />
+          <attvalue for="4" value="#eb6834" />
+        </attvalues>
+      </node>
+      <node id="Colima.Coquimatlán" label="Coquimatlán">
+        <attvalues>
+          <attvalue for="0" value="19.1205076" />
+          <attvalue for="1" value="-103.4839301" />
+          <attvalue for="2" value="31825.04" />
+          <attvalue for="3" value="2" />
+          <attvalue for="4" value="#1baf7a" />
+        </attvalues>
+      </node>
+      <node id="Colima.Cuauhtémoc" label="Cuauhtémoc">
+        <attvalues>
+          <attvalue for="0" value="19.1943588" />
+          <attvalue for="1" value="-103.3606698" />
+          <attvalue for="2" value="1573070873.6425664" />
+          <attvalue for="3" value="0" />
+          <attvalue for="4" value="#2a78d6" />
+        </attvalues>
+      </node>
+      <node id="Colima.Ixtlahuacán" label="Ixtlahuacán">
+        <attvalues>
+          <attvalue for="0" value="19.0004261" />
+          <attvalue for="1" value="-103.4418936" />
+          <attvalue for="2" value="8214004.1454346" />
+          <attvalue for="3" value="3" />
+          <attvalue for="4" value="#eda100" />
+        </attvalues>
+      </node>
+      <node id="Colima.Manzanillo" label="Manzanillo">
+        <attvalues>
+          <attvalue for="0" value="19.0311541" />
+          <attvalue for="1" value="-104.185897" />
+          <attvalue for="2" value="36995699861.3927" />
+          <attvalue for="3" value="1" />
+          <attvalue for="4" value="#eb6834" />
+        </attvalues>
+      </node>
+      <node id="Colima.Minatitlán" label="Minatitlán">
+        <attvalues>
+          <attvalue for="0" value="19.2309996" />
+          <attvalue for="1" value="-104.0258693" />
+          <attvalue for="2" value="265706733.2698" />
+          <attvalue for="3" value="0" />
+          <attvalue for="4" value="#2a78d6" />
+        </attvalues>
+      </node>
+      <node id="Colima.Tecomán" label="Tecomán">
+        <attvalues>
+          <attvalue for="0" value="18.5438175" />
+          <attvalue for="1" value="-103.522564" />
+          <attvalue for="2" value="9048559030.675657" />
+          <attvalue for="3" value="0" />
+          <attvalue for="4" value="#2a78d6" />
+        </attvalues>
+      </node>
+      <node id="Colima.Villa de Álvarez" label="Villa de Álvarez">
+        <attvalues>
+          <attvalue for="0" value="19.1553195" />
+          <attvalue for="1" value="-103.4412331" />
+          <attvalue for="2" value="0.04702672" />
+          <attvalue for="3" value="4" />
+          <attvalue for="4" value="#e87ba4" />
+        </attvalues>
+      </node>
+    </nodes>
+    <edges>
+      <edge source="Colima.Colima" target="Colima.Manzanillo" id="0" weight="0.8441290869215867" />
+      <edge source="Colima.Cuauhtémoc" target="Colima.Manzanillo" id="1" weight="0.8597401169640735" />
+      <edge source="Colima.Cuauhtémoc" target="Colima.Minatitlán" id="2" weight="0.8150042810366065" />
+      <edge source="Colima.Cuauhtémoc" target="Colima.Tecomán" id="3" weight="0.8011490408180759" />
+      <edge source="Colima.Manzanillo" target="Colima.Tecomán" id="4" weight="0.7728708743917859" />
+    </edges>
+  </graph>
+</gexf>

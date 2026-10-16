@@ -13,7 +13,9 @@ import plotly.graph_objects as go
 
 HERE = os.path.dirname(os.path.abspath(__file__))
 SRC = os.path.join(HERE, "..", "..", "..", "prtr_raw_for_stori_stori.csv")
-STATE_FILTER = "Tamaulipas"
+STATE_FILTER = sys.argv[1] if len(sys.argv) > 1 else "Tamaulipas"
+OUT_DIR = sys.argv[2] if len(sys.argv) > 2 else HERE
+H.configure(STATE_FILTER, "municipio")
 
 COLOR_LOCATION = "#2a78d6"
 COLOR_MEDIO = "#eb6834"
@@ -90,12 +92,12 @@ for names, color, label in ((locs_sorted, COLOR_LOCATION, "Municipality"), (medi
 traces.append(H.edge_midpoints(list(edges), lambda u, v: H.edge_hover(u, v), pos))
 fig = go.Figure(data=traces)
 fig.update_layout(
-    title=dict(text="Tamaulipas — Municipality ↔ Release medium", font=dict(color=INK_PRIMARY, size=18)),
+    title=dict(text=f"{STATE_FILTER} — Municipality ↔ Release medium", font=dict(color=INK_PRIMARY, size=18)),
     plot_bgcolor=SURFACE, paper_bgcolor=SURFACE,
     xaxis=dict(visible=False, range=[-0.6, 1.6]), yaxis=dict(visible=False, range=[-0.05, 1.1]),
     margin=dict(l=20, r=20, t=60, b=20), height=1000,
     hoverlabel=H.HOVERLABEL,
 )
-out = os.path.join(HERE, "municipio_medio.html")
+out = os.path.join(OUT_DIR, "municipio_medio.html")
 U.write(fig, out)
 print(f"Written {out}")

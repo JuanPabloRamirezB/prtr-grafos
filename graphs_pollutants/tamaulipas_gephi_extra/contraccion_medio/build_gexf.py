@@ -12,7 +12,8 @@ import networkx as nx
 
 HERE = os.path.dirname(os.path.abspath(__file__))
 SRC = os.path.join(HERE, "..", "..", "..", "prtr_raw_for_stori_stori.csv")
-STATE_FILTER = "Tamaulipas"
+STATE_FILTER = sys.argv[1] if len(sys.argv) > 1 else "Tamaulipas"
+OUT_DIR = sys.argv[2] if len(sys.argv) > 2 else HERE
 
 edges = {}
 loc_totals = {}
@@ -50,6 +51,6 @@ for (loc, medio), kg in edges.items():
 print(f"Nodes: {G.number_of_nodes()} (locations: {len(loc_totals)}, medios: {len(medio_totals)})")
 print(f"Edges: {G.number_of_edges()}")
 
-out_path = os.path.join(HERE, "municipio_medio.gexf")
+out_path = os.path.join(OUT_DIR, "municipio_medio.gexf")
 nx.write_gexf(G, out_path)
 print(f"Written {out_path}")

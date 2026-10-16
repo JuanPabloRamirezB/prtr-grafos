@@ -1,0 +1,100 @@
+<?xml version='1.0' encoding='utf-8'?>
+<gexf xmlns="http://www.gexf.net/1.2draft" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.gexf.net/1.2draft http://www.gexf.net/1.2draft/gexf.xsd" version="1.2">
+  <meta lastmodifieddate="2026-10-16">
+    <creator>NetworkX 3.7</creator>
+  </meta>
+  <graph defaultedgetype="undirected" mode="static" name="">
+    <attributes mode="static" class="node">
+      <attribute id="0" title="total_kg" type="double" />
+    </attributes>
+    <nodes>
+      <node id="Morelos.Atlatlahucan" label="Morelos.Atlatlahucan">
+        <attvalues>
+          <attvalue for="0" value="2718432.7" />
+        </attvalues>
+      </node>
+      <node id="Morelos.Cuautla" label="Morelos.Cuautla">
+        <attvalues>
+          <attvalue for="0" value="282588.98843391" />
+        </attvalues>
+      </node>
+      <node id="Morelos.Puente de Ixtla" label="Morelos.Puente de Ixtla">
+        <attvalues>
+          <attvalue for="0" value="279.85998431999997" />
+        </attvalues>
+      </node>
+      <node id="Morelos.Tlaltizapán de Zapata" label="Morelos.Tlaltizapán de Zapata">
+        <attvalues>
+          <attvalue for="0" value="1676685.44" />
+        </attvalues>
+      </node>
+      <node id="Morelos.Xochitepec" label="Morelos.Xochitepec">
+        <attvalues>
+          <attvalue for="0" value="6489221.720785681" />
+        </attvalues>
+      </node>
+      <node id="Morelos.Yautepec" label="Morelos.Yautepec">
+        <attvalues>
+          <attvalue for="0" value="7365252.614504" />
+        </attvalues>
+      </node>
+      <node id="Morelos.Yecapixtla" label="Morelos.Yecapixtla">
+        <attvalues>
+          <attvalue for="0" value="2102497519.9259853" />
+        </attvalues>
+      </node>
+      <node id="Morelos.Ayala" label="Morelos.Ayala">
+        <attvalues>
+          <attvalue for="0" value="2945283786.725983" />
+        </attvalues>
+      </node>
+      <node id="Morelos.Cuernavaca" label="Morelos.Cuernavaca">
+        <attvalues>
+          <attvalue for="0" value="866119439.9682971" />
+        </attvalues>
+      </node>
+      <node id="Morelos.Emiliano Zapata" label="Morelos.Emiliano Zapata">
+        <attvalues>
+          <attvalue for="0" value="24772449384.374897" />
+        </attvalues>
+      </node>
+      <node id="Morelos.Jiutepec" label="Morelos.Jiutepec">
+        <attvalues>
+          <attvalue for="0" value="2116654772.522132" />
+        </attvalues>
+      </node>
+    </nodes>
+    <edges>
+      <edge source="Morelos.Atlatlahucan" target="Morelos.Cuautla" id="0" weight="0.8515793713533679" />
+      <edge source="Morelos.Atlatlahucan" target="Morelos.Puente de Ixtla" id="1" weight="0.8636752625679539" />
+      <edge source="Morelos.Atlatlahucan" target="Morelos.Tlaltizapán de Zapata" id="2" weight="0.9900851828465126" />
+      <edge source="Morelos.Atlatlahucan" target="Morelos.Xochitepec" id="3" weight="0.9546948644843837" />
+      <edge source="Morelos.Atlatlahucan" target="Morelos.Yautepec" id="4" weight="0.7421206766051349" />
+      <edge source="Morelos.Atlatlahucan" target="Morelos.Yecapixtla" id="5" weight="0.7340865146502918" />
+      <edge source="Morelos.Cuautla" target="Morelos.Emiliano Zapata" id="6" weight="0.7183334370616721" />
+      <edge source="Morelos.Cuautla" target="Morelos.Puente de Ixtla" id="7" weight="0.7972890507399369" />
+      <edge source="Morelos.Cuautla" target="Morelos.Tlaltizapán de Zapata" id="8" weight="0.857826028013976" />
+      <edge source="Morelos.Cuautla" target="Morelos.Xochitepec" id="9" weight="0.8254306307798417" />
+      <edge source="Morelos.Cuautla" target="Morelos.Yautepec" id="10" weight="0.7069261811534281" />
+      <edge source="Morelos.Cuautla" target="Morelos.Yecapixtla" id="11" weight="0.7136898881113692" />
+      <edge source="Morelos.Puente de Ixtla" target="Morelos.Ayala" id="12" weight="0.7317567545333371" />
+      <edge source="Morelos.Puente de Ixtla" target="Morelos.Tlaltizapán de Zapata" id="13" weight="0.8551120802596024" />
+      <edge source="Morelos.Puente de Ixtla" target="Morelos.Xochitepec" id="14" weight="0.844358404946895" />
+      <edge source="Morelos.Puente de Ixtla" target="Morelos.Yautepec" id="15" weight="0.7963520159717902" />
+      <edge source="Morelos.Puente de Ixtla" target="Morelos.Yecapixtla" id="16" weight="0.8294029352195612" />
+      <edge source="Morelos.Tlaltizapán de Zapata" target="Morelos.Xochitepec" id="17" weight="0.9452292394656474" />
+      <edge source="Morelos.Tlaltizapán de Zapata" target="Morelos.Yautepec" id="18" weight="0.7347626857907725" />
+      <edge source="Morelos.Tlaltizapán de Zapata" target="Morelos.Yecapixtla" id="19" weight="0.7268081810826933" />
+      <edge source="Morelos.Xochitepec" target="Morelos.Yautepec" id="20" weight="0.7277646833907612" />
+      <edge source="Morelos.Xochitepec" target="Morelos.Yecapixtla" id="21" weight="0.7223398281953832" />
+      <edge source="Morelos.Yautepec" target="Morelos.Ayala" id="22" weight="0.7332732791111175" />
+      <edge source="Morelos.Yautepec" target="Morelos.Yecapixtla" id="23" weight="0.7808861830283024" />
+      <edge source="Morelos.Yecapixtla" target="Morelos.Ayala" id="24" weight="0.8525193956143615" />
+      <edge source="Morelos.Yecapixtla" target="Morelos.Cuernavaca" id="25" weight="0.8530359852060503" />
+      <edge source="Morelos.Yecapixtla" target="Morelos.Emiliano Zapata" id="26" weight="0.726612634717173" />
+      <edge source="Morelos.Ayala" target="Morelos.Cuernavaca" id="27" weight="0.7845203285644479" />
+      <edge source="Morelos.Ayala" target="Morelos.Emiliano Zapata" id="28" weight="0.7318982517500847" />
+      <edge source="Morelos.Cuernavaca" target="Morelos.Jiutepec" id="29" weight="0.7083418594493578" />
+    </edges>
+  </graph>
+</gexf>

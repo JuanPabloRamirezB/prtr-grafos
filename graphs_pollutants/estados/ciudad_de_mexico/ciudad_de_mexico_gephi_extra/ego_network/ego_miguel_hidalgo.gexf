@@ -1,0 +1,387 @@
+<?xml version='1.0' encoding='utf-8'?>
+<gexf xmlns="http://www.gexf.net/1.2draft" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.gexf.net/1.2draft http://www.gexf.net/1.2draft/gexf.xsd" version="1.2">
+  <meta lastmodifieddate="2026-10-16">
+    <creator>NetworkX 3.7</creator>
+  </meta>
+  <graph defaultedgetype="undirected" mode="static" name="">
+    <attributes mode="static" class="node">
+      <attribute id="0" title="role" type="string" />
+      <attribute id="1" title="total_kg" type="double" />
+    </attributes>
+    <nodes>
+      <node id="Ciudad de México.Miguel Hidalgo" label="Ciudad de México.Miguel Hidalgo">
+        <attvalues>
+          <attvalue for="0" value="focal" />
+          <attvalue for="1" value="4857836906.991669" />
+        </attvalues>
+      </node>
+      <node id="Bióxido de carbono" label="Carbon dioxide">
+        <attvalues>
+          <attvalue for="0" value="substance" />
+          <attvalue for="1" value="4851853441.110647" />
+        </attvalues>
+      </node>
+      <node id="Bióxido de nitrógeno" label="Nitrogen dioxide">
+        <attvalues>
+          <attvalue for="0" value="substance" />
+          <attvalue for="1" value="4131037.5" />
+        </attvalues>
+      </node>
+      <node id="Metano" label="Methane">
+        <attvalues>
+          <attvalue for="0" value="substance" />
+          <attvalue for="1" value="1392884.28" />
+        </attvalues>
+      </node>
+      <node id="Fenol" label="Phenol">
+        <attvalues>
+          <attvalue for="0" value="substance" />
+          <attvalue for="1" value="158133.49216206704" />
+        </attvalues>
+      </node>
+      <node id="Mercurio (compuestos)" label="Mercury (compounds)">
+        <attvalues>
+          <attvalue for="0" value="substance" />
+          <attvalue for="1" value="75462.83700617001" />
+        </attvalues>
+      </node>
+      <node id="Plomo (Compuestos solubles)" label="Lead (soluble compounds)">
+        <attvalues>
+          <attvalue for="0" value="substance" />
+          <attvalue for="1" value="42423.008563200005" />
+        </attvalues>
+      </node>
+      <node id="Plomo (compuestos)" label="Lead (compounds)">
+        <attvalues>
+          <attvalue for="0" value="substance" />
+          <attvalue for="1" value="39401.78294246244" />
+        </attvalues>
+      </node>
+      <node id="Asbesto y sus formas (En forma de polvo, fibras o productos desmenuzables con la presión de la mano)" label="Asbestos and its forms (as dust, fibers or friable products that crumble under hand pressure)">
+        <attvalues>
+          <attvalue for="0" value="substance" />
+          <attvalue for="1" value="33485.81" />
+        </attvalues>
+      </node>
+      <node id="Formaldehido" label="Formaldehyde">
+        <attvalues>
+          <attvalue for="0" value="substance" />
+          <attvalue for="1" value="20002.600403599994" />
+        </attvalues>
+      </node>
+      <node id="Xileno (mezcla de isómeros)" label="Xylene (mixture of isomers)">
+        <attvalues>
+          <attvalue for="0" value="substance" />
+          <attvalue for="1" value="18009.0" />
+        </attvalues>
+      </node>
+      <node id="Cromo (Compuestos solubles)" label="Chromium (soluble compounds)">
+        <attvalues>
+          <attvalue for="0" value="substance" />
+          <attvalue for="1" value="15731.2735763" />
+        </attvalues>
+      </node>
+      <node id="Níquel (Compuestos solubles)" label="Nickel (soluble compounds)">
+        <attvalues>
+          <attvalue for="0" value="substance" />
+          <attvalue for="1" value="12285.151363499997" />
+        </attvalues>
+      </node>
+      <node id="Cromo (compuestos)" label="Chromium (compounds)">
+        <attvalues>
+          <attvalue for="0" value="substance" />
+          <attvalue for="1" value="11132.76246962054" />
+        </attvalues>
+      </node>
+      <node id="Cloroformo" label="Chloroform">
+        <attvalues>
+          <attvalue for="0" value="substance" />
+          <attvalue for="1" value="9619.29687" />
+        </attvalues>
+      </node>
+      <node id="Tolueno" label="Toluene">
+        <attvalues>
+          <attvalue for="0" value="substance" />
+          <attvalue for="1" value="5609.1" />
+        </attvalues>
+      </node>
+      <node id="Ciudad de México.Coyoacán" label="Ciudad de México.Coyoacán">
+        <attvalues>
+          <attvalue for="0" value="peer_municipio" />
+          <attvalue for="1" value="334349393.2484288" />
+        </attvalues>
+      </node>
+      <node id="Ciudad de México.Álvaro Obregón" label="Ciudad de México.Álvaro Obregón">
+        <attvalues>
+          <attvalue for="0" value="peer_municipio" />
+          <attvalue for="1" value="110488852.61428529" />
+        </attvalues>
+      </node>
+      <node id="Ciudad de México.Cuajimalpa de Morelos" label="Ciudad de México.Cuajimalpa de Morelos">
+        <attvalues>
+          <attvalue for="0" value="peer_municipio" />
+          <attvalue for="1" value="9945034.214117626" />
+        </attvalues>
+      </node>
+      <node id="Ciudad de México.Benito Juárez" label="Ciudad de México.Benito Juárez">
+        <attvalues>
+          <attvalue for="0" value="peer_municipio" />
+          <attvalue for="1" value="1181032620.9422596" />
+        </attvalues>
+      </node>
+      <node id="Ciudad de México.Iztapalapa" label="Ciudad de México.Iztapalapa">
+        <attvalues>
+          <attvalue for="0" value="peer_municipio" />
+          <attvalue for="1" value="3429333383.4478674" />
+        </attvalues>
+      </node>
+      <node id="Ciudad de México.Gustavo A" label="Ciudad de México.Gustavo A">
+        <attvalues>
+          <attvalue for="0" value="peer_municipio" />
+          <attvalue for="1" value="1545326467.8257244" />
+        </attvalues>
+      </node>
+      <node id="Ciudad de México.Xochimilco" label="Ciudad de México.Xochimilco">
+        <attvalues>
+          <attvalue for="0" value="peer_municipio" />
+          <attvalue for="1" value="1138273379.756916" />
+        </attvalues>
+      </node>
+      <node id="Ciudad de México.Cuauhtémoc" label="Ciudad de México.Cuauhtémoc">
+        <attvalues>
+          <attvalue for="0" value="peer_municipio" />
+          <attvalue for="1" value="321685598.9396056" />
+        </attvalues>
+      </node>
+      <node id="Ciudad de México.Azcapotzalco" label="Ciudad de México.Azcapotzalco">
+        <attvalues>
+          <attvalue for="0" value="peer_municipio" />
+          <attvalue for="1" value="3869321550.9324474" />
+        </attvalues>
+      </node>
+      <node id="Ciudad de México.Tlalpan" label="Ciudad de México.Tlalpan">
+        <attvalues>
+          <attvalue for="0" value="peer_municipio" />
+          <attvalue for="1" value="33118750.783624608" />
+        </attvalues>
+      </node>
+      <node id="Ciudad de México.Venustiano Carranza" label="Ciudad de México.Venustiano Carranza">
+        <attvalues>
+          <attvalue for="0" value="peer_municipio" />
+          <attvalue for="1" value="22408330.937781245" />
+        </attvalues>
+      </node>
+      <node id="Ciudad de México.Iztacalco" label="Ciudad de México.Iztacalco">
+        <attvalues>
+          <attvalue for="0" value="peer_municipio" />
+          <attvalue for="1" value="139126436.66252762" />
+        </attvalues>
+      </node>
+      <node id="Ciudad de México.Tláhuac" label="Ciudad de México.Tláhuac">
+        <attvalues>
+          <attvalue for="0" value="peer_municipio" />
+          <attvalue for="1" value="901459546.3446361" />
+        </attvalues>
+      </node>
+      <node id="Ciudad de México.La Magdalena Contreras" label="Ciudad de México.La Magdalena Contreras">
+        <attvalues>
+          <attvalue for="0" value="peer_municipio" />
+          <attvalue for="1" value="1926524.2404968876" />
+        </attvalues>
+      </node>
+    </nodes>
+    <edges>
+      <edge source="Ciudad de México.Miguel Hidalgo" target="Bióxido de carbono" id="0" weight="4851853441.110647" />
+      <edge source="Ciudad de México.Miguel Hidalgo" target="Bióxido de nitrógeno" id="1" weight="4131037.5" />
+      <edge source="Ciudad de México.Miguel Hidalgo" target="Metano" id="2" weight="1392884.28" />
+      <edge source="Ciudad de México.Miguel Hidalgo" target="Fenol" id="3" weight="158133.49216206704" />
+      <edge source="Ciudad de México.Miguel Hidalgo" target="Mercurio (compuestos)" id="4" weight="75462.83700617001" />
+      <edge source="Ciudad de México.Miguel Hidalgo" target="Plomo (Compuestos solubles)" id="5" weight="42423.008563200005" />
+      <edge source="Ciudad de México.Miguel Hidalgo" target="Plomo (compuestos)" id="6" weight="39401.78294246244" />
+      <edge source="Ciudad de México.Miguel Hidalgo" target="Asbesto y sus formas (En forma de polvo, fibras o productos desmenuzables con la presión de la mano)" id="7" weight="33485.81" />
+      <edge source="Ciudad de México.Miguel Hidalgo" target="Formaldehido" id="8" weight="20002.600403599994" />
+      <edge source="Ciudad de México.Miguel Hidalgo" target="Xileno (mezcla de isómeros)" id="9" weight="18009.0" />
+      <edge source="Ciudad de México.Miguel Hidalgo" target="Cromo (Compuestos solubles)" id="10" weight="15731.2735763" />
+      <edge source="Ciudad de México.Miguel Hidalgo" target="Níquel (Compuestos solubles)" id="11" weight="12285.151363499997" />
+      <edge source="Ciudad de México.Miguel Hidalgo" target="Cromo (compuestos)" id="12" weight="11132.76246962054" />
+      <edge source="Ciudad de México.Miguel Hidalgo" target="Cloroformo" id="13" weight="9619.29687" />
+      <edge source="Ciudad de México.Miguel Hidalgo" target="Tolueno" id="14" weight="5609.1" />
+      <edge source="Bióxido de carbono" target="Ciudad de México.Coyoacán" id="15" weight="334304878.4538983" />
+      <edge source="Bióxido de carbono" target="Ciudad de México.Álvaro Obregón" id="16" weight="108896637.42699996" />
+      <edge source="Bióxido de carbono" target="Ciudad de México.Cuajimalpa de Morelos" id="17" weight="9925939.009" />
+      <edge source="Bióxido de carbono" target="Ciudad de México.Benito Juárez" id="18" weight="1179327263.7521017" />
+      <edge source="Bióxido de carbono" target="Ciudad de México.Iztapalapa" id="19" weight="3230749389.6874356" />
+      <edge source="Bióxido de carbono" target="Ciudad de México.Gustavo A" id="20" weight="1487457121.3462558" />
+      <edge source="Bióxido de carbono" target="Ciudad de México.Xochimilco" id="21" weight="1071802688.4208001" />
+      <edge source="Bióxido de carbono" target="Ciudad de México.Cuauhtémoc" id="22" weight="314385884.47717977" />
+      <edge source="Bióxido de carbono" target="Ciudad de México.Azcapotzalco" id="23" weight="3868287872.472199" />
+      <edge source="Bióxido de carbono" target="Ciudad de México.Tlalpan" id="24" weight="32235956.810799997" />
+      <edge source="Bióxido de carbono" target="Ciudad de México.Venustiano Carranza" id="25" weight="22376842.803012498" />
+      <edge source="Bióxido de carbono" target="Ciudad de México.Iztacalco" id="26" weight="138964790.80529642" />
+      <edge source="Bióxido de carbono" target="Ciudad de México.Tláhuac" id="27" weight="900823778.2324301" />
+      <edge source="Bióxido de carbono" target="Ciudad de México.La Magdalena Contreras" id="28" weight="1921004.736" />
+      <edge source="Bióxido de nitrógeno" target="Ciudad de México.Coyoacán" id="29" weight="1083.76" />
+      <edge source="Bióxido de nitrógeno" target="Ciudad de México.Álvaro Obregón" id="30" weight="25.633" />
+      <edge source="Bióxido de nitrógeno" target="Ciudad de México.Benito Juárez" id="31" weight="84.24" />
+      <edge source="Bióxido de nitrógeno" target="Ciudad de México.Iztapalapa" id="32" weight="1485554.34" />
+      <edge source="Bióxido de nitrógeno" target="Ciudad de México.Gustavo A" id="33" weight="1845.38" />
+      <edge source="Bióxido de nitrógeno" target="Ciudad de México.Xochimilco" id="34" weight="47331.3" />
+      <edge source="Bióxido de nitrógeno" target="Ciudad de México.Cuauhtémoc" id="35" weight="5032896.0" />
+      <edge source="Bióxido de nitrógeno" target="Ciudad de México.Azcapotzalco" id="36" weight="434368.2681" />
+      <edge source="Bióxido de nitrógeno" target="Ciudad de México.Tlalpan" id="37" weight="831579.0" />
+      <edge source="Bióxido de nitrógeno" target="Ciudad de México.Iztacalco" id="38" weight="835.23" />
+      <edge source="Metano" target="Ciudad de México.Coyoacán" id="39" weight="9.7703" />
+      <edge source="Metano" target="Ciudad de México.Álvaro Obregón" id="40" weight="1499000.8511700002" />
+      <edge source="Metano" target="Ciudad de México.Benito Juárez" id="41" weight="1677490.287628" />
+      <edge source="Metano" target="Ciudad de México.Iztapalapa" id="42" weight="192455682.46462595" />
+      <edge source="Metano" target="Ciudad de México.Gustavo A" id="43" weight="57000032.21219999" />
+      <edge source="Metano" target="Ciudad de México.Xochimilco" id="44" weight="66012913.981" />
+      <edge source="Metano" target="Ciudad de México.Cuauhtémoc" id="45" weight="2213702.5822" />
+      <edge source="Metano" target="Ciudad de México.Azcapotzalco" id="46" weight="1873.6835" />
+      <edge source="Metano" target="Ciudad de México.Tlalpan" id="47" weight="9.118e-05" />
+      <edge source="Metano" target="Ciudad de México.Iztacalco" id="48" weight="1618.2530000000002" />
+      <edge source="Metano" target="Ciudad de México.Tláhuac" id="49" weight="592575.11" />
+      <edge source="Metano" target="Ciudad de México.La Magdalena Contreras" id="50" weight="30.192317" />
+      <edge source="Fenol" target="Ciudad de México.Coyoacán" id="51" weight="2.5" />
+      <edge source="Fenol" target="Ciudad de México.Cuajimalpa de Morelos" id="52" weight="1.1920962787" />
+      <edge source="Fenol" target="Ciudad de México.Iztapalapa" id="53" weight="107345.6951141245" />
+      <edge source="Fenol" target="Ciudad de México.Gustavo A" id="54" weight="29910.722999999998" />
+      <edge source="Fenol" target="Ciudad de México.Xochimilco" id="55" weight="1.9520246399999999" />
+      <edge source="Fenol" target="Ciudad de México.Cuauhtémoc" id="56" weight="24.96" />
+      <edge source="Fenol" target="Ciudad de México.Azcapotzalco" id="57" weight="20989.01412084" />
+      <edge source="Fenol" target="Ciudad de México.Tlalpan" id="58" weight="164.0835" />
+      <edge source="Mercurio (compuestos)" target="Ciudad de México.Coyoacán" id="59" weight="2.0253515273480005" />
+      <edge source="Mercurio (compuestos)" target="Ciudad de México.Álvaro Obregón" id="60" weight="3.0249584402959986" />
+      <edge source="Mercurio (compuestos)" target="Ciudad de México.Cuajimalpa de Morelos" id="61" weight="0.06743060900999999" />
+      <edge source="Mercurio (compuestos)" target="Ciudad de México.Benito Juárez" id="62" weight="1038.1091352926323" />
+      <edge source="Mercurio (compuestos)" target="Ciudad de México.Iztapalapa" id="63" weight="80.0326949098261" />
+      <edge source="Mercurio (compuestos)" target="Ciudad de México.Gustavo A" id="64" weight="15.097879171708003" />
+      <edge source="Mercurio (compuestos)" target="Ciudad de México.Xochimilco" id="65" weight="1.1049440254799998" />
+      <edge source="Mercurio (compuestos)" target="Ciudad de México.Cuauhtémoc" id="66" weight="0.45405375489200006" />
+      <edge source="Mercurio (compuestos)" target="Ciudad de México.Azcapotzalco" id="67" weight="1730.8883372863368" />
+      <edge source="Mercurio (compuestos)" target="Ciudad de México.Tlalpan" id="68" weight="0.20050573736800004" />
+      <edge source="Mercurio (compuestos)" target="Ciudad de México.Venustiano Carranza" id="69" weight="0.66568482898" />
+      <edge source="Mercurio (compuestos)" target="Ciudad de México.Iztacalco" id="70" weight="0.9948171309599998" />
+      <edge source="Mercurio (compuestos)" target="Ciudad de México.Tláhuac" id="71" weight="0.008227549729600003" />
+      <edge source="Mercurio (compuestos)" target="Ciudad de México.La Magdalena Contreras" id="72" weight="0.3983723475" />
+      <edge source="Plomo (Compuestos solubles)" target="Ciudad de México.Coyoacán" id="73" weight="275.90229728" />
+      <edge source="Plomo (Compuestos solubles)" target="Ciudad de México.Álvaro Obregón" id="74" weight="42.02430187999999" />
+      <edge source="Plomo (Compuestos solubles)" target="Ciudad de México.Cuajimalpa de Morelos" id="75" weight="4586.3196175" />
+      <edge source="Plomo (Compuestos solubles)" target="Ciudad de México.Benito Juárez" id="76" weight="478.74017795199995" />
+      <edge source="Plomo (Compuestos solubles)" target="Ciudad de México.Iztapalapa" id="77" weight="1132115.761043867" />
+      <edge source="Plomo (Compuestos solubles)" target="Ciudad de México.Gustavo A" id="78" weight="526.0630132440001" />
+      <edge source="Plomo (Compuestos solubles)" target="Ciudad de México.Xochimilco" id="79" weight="118.97361374999998" />
+      <edge source="Plomo (Compuestos solubles)" target="Ciudad de México.Cuauhtémoc" id="80" weight="132.35267800999998" />
+      <edge source="Plomo (Compuestos solubles)" target="Ciudad de México.Azcapotzalco" id="81" weight="51820.1420938244" />
+      <edge source="Plomo (Compuestos solubles)" target="Ciudad de México.Tlalpan" id="82" weight="964.4934169200004" />
+      <edge source="Plomo (Compuestos solubles)" target="Ciudad de México.Venustiano Carranza" id="83" weight="48.431101599999984" />
+      <edge source="Plomo (Compuestos solubles)" target="Ciudad de México.Iztacalco" id="84" weight="78.9683770341" />
+      <edge source="Plomo (Compuestos solubles)" target="Ciudad de México.Tláhuac" id="85" weight="14.1388" />
+      <edge source="Plomo (Compuestos solubles)" target="Ciudad de México.La Magdalena Contreras" id="86" weight="122.2199" />
+      <edge source="Plomo (compuestos)" target="Ciudad de México.Coyoacán" id="87" weight="7584.539485385524" />
+      <edge source="Plomo (compuestos)" target="Ciudad de México.Álvaro Obregón" id="88" weight="23811.6901952774" />
+      <edge source="Plomo (compuestos)" target="Ciudad de México.Cuajimalpa de Morelos" id="89" weight="3568.7921183546796" />
+      <edge source="Plomo (compuestos)" target="Ciudad de México.Benito Juárez" id="90" weight="10431.16909795885" />
+      <edge source="Plomo (compuestos)" target="Ciudad de México.Iztapalapa" id="91" weight="2018467.503728641" />
+      <edge source="Plomo (compuestos)" target="Ciudad de México.Gustavo A" id="92" weight="23091.37516852936" />
+      <edge source="Plomo (compuestos)" target="Ciudad de México.Xochimilco" id="93" weight="7915.550441982799" />
+      <edge source="Plomo (compuestos)" target="Ciudad de México.Cuauhtémoc" id="94" weight="61.27613209504" />
+      <edge source="Plomo (compuestos)" target="Ciudad de México.Azcapotzalco" id="95" weight="181187.8325753687" />
+      <edge source="Plomo (compuestos)" target="Ciudad de México.Tlalpan" id="96" weight="274.974774261152" />
+      <edge source="Plomo (compuestos)" target="Ciudad de México.Venustiano Carranza" id="97" weight="17827.75337548304" />
+      <edge source="Plomo (compuestos)" target="Ciudad de México.Iztacalco" id="98" weight="186.04352143756003" />
+      <edge source="Plomo (compuestos)" target="Ciudad de México.Tláhuac" id="99" weight="0.349998102832" />
+      <edge source="Plomo (compuestos)" target="Ciudad de México.La Magdalena Contreras" id="100" weight="70.71500832" />
+      <edge source="Asbesto y sus formas (En forma de polvo, fibras o productos desmenuzables con la presión de la mano)" target="Ciudad de México.Coyoacán" id="101" weight="2936.0" />
+      <edge source="Asbesto y sus formas (En forma de polvo, fibras o productos desmenuzables con la presión de la mano)" target="Ciudad de México.Iztapalapa" id="102" weight="44974.7" />
+      <edge source="Asbesto y sus formas (En forma de polvo, fibras o productos desmenuzables con la presión de la mano)" target="Ciudad de México.Xochimilco" id="103" weight="118.116" />
+      <edge source="Asbesto y sus formas (En forma de polvo, fibras o productos desmenuzables con la presión de la mano)" target="Ciudad de México.Azcapotzalco" id="104" weight="49335.7" />
+      <edge source="Asbesto y sus formas (En forma de polvo, fibras o productos desmenuzables con la presión de la mano)" target="Ciudad de México.Tláhuac" id="105" weight="5367.959" />
+      <edge source="Formaldehido" target="Ciudad de México.Coyoacán" id="106" weight="9534.943000000001" />
+      <edge source="Formaldehido" target="Ciudad de México.Álvaro Obregón" id="107" weight="58233.5087967" />
+      <edge source="Formaldehido" target="Ciudad de México.Cuajimalpa de Morelos" id="108" weight="10894.199999999999" />
+      <edge source="Formaldehido" target="Ciudad de México.Benito Juárez" id="109" weight="634.3203000000001" />
+      <edge source="Formaldehido" target="Ciudad de México.Iztapalapa" id="110" weight="812.6432090000002" />
+      <edge source="Formaldehido" target="Ciudad de México.Gustavo A" id="111" weight="13525.728700000001" />
+      <edge source="Formaldehido" target="Ciudad de México.Cuauhtémoc" id="112" weight="13879.05" />
+      <edge source="Formaldehido" target="Ciudad de México.Azcapotzalco" id="113" weight="1248.0620076" />
+      <edge source="Formaldehido" target="Ciudad de México.Tlalpan" id="114" weight="11933.14" />
+      <edge source="Formaldehido" target="Ciudad de México.Venustiano Carranza" id="115" weight="2463.0" />
+      <edge source="Formaldehido" target="Ciudad de México.Iztacalco" id="116" weight="9.4464828" />
+      <edge source="Formaldehido" target="Ciudad de México.Tláhuac" id="117" weight="663.0" />
+      <edge source="Formaldehido" target="Ciudad de México.La Magdalena Contreras" id="118" weight="3938.193872" />
+      <edge source="Xileno (mezcla de isómeros)" target="Ciudad de México.Coyoacán" id="119" weight="4489.0" />
+      <edge source="Xileno (mezcla de isómeros)" target="Ciudad de México.Álvaro Obregón" id="120" weight="2467.62" />
+      <edge source="Xileno (mezcla de isómeros)" target="Ciudad de México.Benito Juárez" id="121" weight="13569.338" />
+      <edge source="Xileno (mezcla de isómeros)" target="Ciudad de México.Iztapalapa" id="122" weight="69582.11499999999" />
+      <edge source="Xileno (mezcla de isómeros)" target="Ciudad de México.Xochimilco" id="123" weight="163089.0" />
+      <edge source="Xileno (mezcla de isómeros)" target="Ciudad de México.Cuauhtémoc" id="124" weight="34112.1" />
+      <edge source="Xileno (mezcla de isómeros)" target="Ciudad de México.Azcapotzalco" id="125" weight="134379.47999999998" />
+      <edge source="Xileno (mezcla de isómeros)" target="Ciudad de México.Tlalpan" id="126" weight="1192.2" />
+      <edge source="Xileno (mezcla de isómeros)" target="Ciudad de México.Iztacalco" id="127" weight="81687.52560000001" />
+      <edge source="Xileno (mezcla de isómeros)" target="Ciudad de México.Tláhuac" id="128" weight="3923.13684612" />
+      <edge source="Xileno (mezcla de isómeros)" target="Ciudad de México.La Magdalena Contreras" id="129" weight="1004.544" />
+      <edge source="Cromo (Compuestos solubles)" target="Ciudad de México.Coyoacán" id="130" weight="128.04316124000002" />
+      <edge source="Cromo (Compuestos solubles)" target="Ciudad de México.Álvaro Obregón" id="131" weight="8.475200086" />
+      <edge source="Cromo (Compuestos solubles)" target="Ciudad de México.Cuajimalpa de Morelos" id="132" weight="7.30585520833" />
+      <edge source="Cromo (Compuestos solubles)" target="Ciudad de México.Benito Juárez" id="133" weight="14.240879999999999" />
+      <edge source="Cromo (Compuestos solubles)" target="Ciudad de México.Iztapalapa" id="134" weight="295.98833436039996" />
+      <edge source="Cromo (Compuestos solubles)" target="Ciudad de México.Gustavo A" id="135" weight="9449.377672808001" />
+      <edge source="Cromo (Compuestos solubles)" target="Ciudad de México.Xochimilco" id="136" weight="99.924532" />
+      <edge source="Cromo (Compuestos solubles)" target="Ciudad de México.Cuauhtémoc" id="137" weight="47.182058760000004" />
+      <edge source="Cromo (Compuestos solubles)" target="Ciudad de México.Azcapotzalco" id="138" weight="3237.029544148055" />
+      <edge source="Cromo (Compuestos solubles)" target="Ciudad de México.Tlalpan" id="139" weight="191.8372668800001" />
+      <edge source="Cromo (Compuestos solubles)" target="Ciudad de México.Venustiano Carranza" id="140" weight="4.21735088" />
+      <edge source="Cromo (Compuestos solubles)" target="Ciudad de México.Iztacalco" id="141" weight="38.9606292543" />
+      <edge source="Cromo (Compuestos solubles)" target="Ciudad de México.Tláhuac" id="142" weight="16.8517" />
+      <edge source="Cromo (Compuestos solubles)" target="Ciudad de México.La Magdalena Contreras" id="143" weight="86.97370000000001" />
+      <edge source="Níquel (Compuestos solubles)" target="Ciudad de México.Coyoacán" id="144" weight="395.5369550479999" />
+      <edge source="Níquel (Compuestos solubles)" target="Ciudad de México.Álvaro Obregón" id="145" weight="8576.751600094007" />
+      <edge source="Níquel (Compuestos solubles)" target="Ciudad de México.Cuajimalpa de Morelos" id="146" weight="33.74686041667" />
+      <edge source="Níquel (Compuestos solubles)" target="Ciudad de México.Benito Juárez" id="147" weight="423.61735" />
+      <edge source="Níquel (Compuestos solubles)" target="Ciudad de México.Iztapalapa" id="148" weight="526.230151665" />
+      <edge source="Níquel (Compuestos solubles)" target="Ciudad de México.Gustavo A" id="149" weight="319.410175565" />
+      <edge source="Níquel (Compuestos solubles)" target="Ciudad de México.Xochimilco" id="150" weight="117.04758374999999" />
+      <edge source="Níquel (Compuestos solubles)" target="Ciudad de México.Cuauhtémoc" id="151" weight="152.52215460000002" />
+      <edge source="Níquel (Compuestos solubles)" target="Ciudad de México.Azcapotzalco" id="152" weight="6897.731764544004" />
+      <edge source="Níquel (Compuestos solubles)" target="Ciudad de México.Tlalpan" id="153" weight="1112.8286454600002" />
+      <edge source="Níquel (Compuestos solubles)" target="Ciudad de México.Venustiano Carranza" id="154" weight="48.03430979200001" />
+      <edge source="Níquel (Compuestos solubles)" target="Ciudad de México.Iztacalco" id="155" weight="102.64222522099999" />
+      <edge source="Níquel (Compuestos solubles)" target="Ciudad de México.Tláhuac" id="156" weight="15.7225" />
+      <edge source="Níquel (Compuestos solubles)" target="Ciudad de México.La Magdalena Contreras" id="157" weight="194.8302" />
+      <edge source="Cromo (compuestos)" target="Ciudad de México.Coyoacán" id="158" weight="22.013976037499994" />
+      <edge source="Cromo (compuestos)" target="Ciudad de México.Álvaro Obregón" id="159" weight="45.608062848959996" />
+      <edge source="Cromo (compuestos)" target="Ciudad de México.Cuajimalpa de Morelos" id="160" weight="3.5811392580900003" />
+      <edge source="Cromo (compuestos)" target="Ciudad de México.Benito Juárez" id="161" weight="23.12758880252999" />
+      <edge source="Cromo (compuestos)" target="Ciudad de México.Iztapalapa" id="162" weight="6194.605529460969" />
+      <edge source="Cromo (compuestos)" target="Ciudad de México.Gustavo A" id="163" weight="20763.564659174426" />
+      <edge source="Cromo (compuestos)" target="Ciudad de México.Xochimilco" id="164" weight="31.685975776000006" />
+      <edge source="Cromo (compuestos)" target="Ciudad de México.Cuauhtémoc" id="165" weight="12.3521486196" />
+      <edge source="Cromo (compuestos)" target="Ciudad de México.Azcapotzalco" id="166" weight="129516.72039509242" />
+      <edge source="Cromo (compuestos)" target="Ciudad de México.Tlalpan" id="167" weight="6.514624172544" />
+      <edge source="Cromo (compuestos)" target="Ciudad de México.Venustiano Carranza" id="168" weight="5414.492946162199" />
+      <edge source="Cromo (compuestos)" target="Ciudad de México.Iztacalco" id="169" weight="154.88857833459997" />
+      <edge source="Cromo (compuestos)" target="Ciudad de México.Tláhuac" id="170" weight="0.11828807824" />
+      <edge source="Cromo (compuestos)" target="Ciudad de México.La Magdalena Contreras" id="171" weight="43.43712722" />
+      <edge source="Cloroformo" target="Ciudad de México.Coyoacán" id="172" weight="94.76000399999998" />
+      <edge source="Cloroformo" target="Ciudad de México.Iztapalapa" id="173" weight="236.56" />
+      <edge source="Cloroformo" target="Ciudad de México.Gustavo A" id="174" weight="387.72" />
+      <edge source="Cloroformo" target="Ciudad de México.Xochimilco" id="175" weight="280.7" />
+      <edge source="Cloroformo" target="Ciudad de México.Cuauhtémoc" id="176" weight="14.84" />
+      <edge source="Cloroformo" target="Ciudad de México.Azcapotzalco" id="177" weight="383.60481000000004" />
+      <edge source="Cloroformo" target="Ciudad de México.Tlalpan" id="178" weight="169.16000000000003" />
+      <edge source="Cloroformo" target="Ciudad de México.La Magdalena Contreras" id="179" weight="28.0" />
+      <edge source="Tolueno" target="Ciudad de México.Coyoacán" id="180" weight="17956.0" />
+      <edge source="Tolueno" target="Ciudad de México.Benito Juárez" id="181" weight="1170.0" />
+      <edge source="Tolueno" target="Ciudad de México.Iztapalapa" id="182" weight="1262125.121" />
+      <edge source="Tolueno" target="Ciudad de México.Gustavo A" id="183" weight="769479.827" />
+      <edge source="Tolueno" target="Ciudad de México.Xochimilco" id="184" weight="238672.0" />
+      <edge source="Tolueno" target="Ciudad de México.Cuauhtémoc" id="185" weight="4678.791" />
+      <edge source="Tolueno" target="Ciudad de México.Azcapotzalco" id="186" weight="16710.303" />
+      <edge source="Tolueno" target="Ciudad de México.Tlalpan" id="187" weight="35205.54" />
+      <edge source="Tolueno" target="Ciudad de México.Venustiano Carranza" id="188" weight="5681.54" />
+      <edge source="Tolueno" target="Ciudad de México.Iztacalco" id="189" weight="76932.90400000001" />
+      <edge source="Tolueno" target="Ciudad de México.Tláhuac" id="190" weight="33191.71684612" />
+    </edges>
+  </graph>
+</gexf>

@@ -1,0 +1,218 @@
+<?xml version='1.0' encoding='utf-8'?>
+<gexf xmlns="http://www.gexf.net/1.2draft" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.gexf.net/1.2draft http://www.gexf.net/1.2draft/gexf.xsd" version="1.2">
+  <meta lastmodifieddate="2026-10-16">
+    <creator>NetworkX 3.7</creator>
+  </meta>
+  <graph defaultedgetype="undirected" mode="static" name="">
+    <attributes mode="static" class="node">
+      <attribute id="0" title="type" type="string" />
+      <attribute id="1" title="total_kg" type="double" />
+    </attributes>
+    <nodes>
+      <node id="LOC::Tabasco.Centro" label="Tabasco.Centro">
+        <attvalues>
+          <attvalue for="0" value="location" />
+          <attvalue for="1" value="25652647542.59651" />
+        </attvalues>
+      </node>
+      <node id="LOC::Tabasco.Macuspana" label="Tabasco.Macuspana">
+        <attvalues>
+          <attvalue for="0" value="location" />
+          <attvalue for="1" value="25110423966.864883" />
+        </attvalues>
+      </node>
+      <node id="LOC::Tabasco.Cárdenas" label="Tabasco.Cárdenas">
+        <attvalues>
+          <attvalue for="0" value="location" />
+          <attvalue for="1" value="6615173333.752966" />
+        </attvalues>
+      </node>
+      <node id="LOC::Tabasco.Tenosique" label="Tabasco.Tenosique">
+        <attvalues>
+          <attvalue for="0" value="location" />
+          <attvalue for="1" value="44.47600000000002" />
+        </attvalues>
+      </node>
+      <node id="LOC::Tabasco.Paraíso" label="Tabasco.Paraíso">
+        <attvalues>
+          <attvalue for="0" value="location" />
+          <attvalue for="1" value="10044696579.407093" />
+        </attvalues>
+      </node>
+      <node id="LOC::Tabasco.Jalpa de Méndez" label="Tabasco.Jalpa de Méndez">
+        <attvalues>
+          <attvalue for="0" value="location" />
+          <attvalue for="1" value="1960810642.9993224" />
+        </attvalues>
+      </node>
+      <node id="LOC::Tabasco.Huimanguillo" label="Tabasco.Huimanguillo">
+        <attvalues>
+          <attvalue for="0" value="location" />
+          <attvalue for="1" value="13847223018.080746" />
+        </attvalues>
+      </node>
+      <node id="LOC::Tabasco.Comalcalco" label="Tabasco.Comalcalco">
+        <attvalues>
+          <attvalue for="0" value="location" />
+          <attvalue for="1" value="690308398.151623" />
+        </attvalues>
+      </node>
+      <node id="LOC::Tabasco.Cunduacán" label="Tabasco.Cunduacán">
+        <attvalues>
+          <attvalue for="0" value="location" />
+          <attvalue for="1" value="9648378957.361599" />
+        </attvalues>
+      </node>
+      <node id="LOC::Tabasco.Teapa" label="Tabasco.Teapa">
+        <attvalues>
+          <attvalue for="0" value="location" />
+          <attvalue for="1" value="1255988.084119" />
+        </attvalues>
+      </node>
+      <node id="LOC::Tabasco.Centla" label="Tabasco.Centla">
+        <attvalues>
+          <attvalue for="0" value="location" />
+          <attvalue for="1" value="144001006.80686498" />
+        </attvalues>
+      </node>
+      <node id="LOC::Tabasco.Nacajuca" label="Tabasco.Nacajuca">
+        <attvalues>
+          <attvalue for="0" value="location" />
+          <attvalue for="1" value="96738712.144532" />
+        </attvalues>
+      </node>
+      <node id="LOC::Tabasco.Emiliano Zapata" label="Tabasco.Emiliano Zapata">
+        <attvalues>
+          <attvalue for="0" value="location" />
+          <attvalue for="1" value="0.0449948525" />
+        </attvalues>
+      </node>
+      <node id="LOC::Tabasco.Jalapa" label="Tabasco.Jalapa">
+        <attvalues>
+          <attvalue for="0" value="location" />
+          <attvalue for="1" value="388920684.4075361" />
+        </attvalues>
+      </node>
+      <node id="LOC::Tabasco.Jonuta" label="Tabasco.Jonuta">
+        <attvalues>
+          <attvalue for="0" value="location" />
+          <attvalue for="1" value="16450158.0" />
+        </attvalues>
+      </node>
+      <node id="MED::agua" label="water">
+        <attvalues>
+          <attvalue for="0" value="medio" />
+          <attvalue for="1" value="160990.70889462662" />
+        </attvalues>
+      </node>
+      <node id="MED::aire" label="air">
+        <attvalues>
+          <attvalue for="0" value="medio" />
+          <attvalue for="1" value="94216749521.18115" />
+        </attvalues>
+      </node>
+      <node id="MED::suelo" label="soil">
+        <attvalues>
+          <attvalue for="0" value="medio" />
+          <attvalue for="1" value="1586.0453923389998" />
+        </attvalues>
+      </node>
+      <node id="MED::alcantarillado" label="sewer system">
+        <attvalues>
+          <attvalue for="0" value="medio" />
+          <attvalue for="1" value="17.412354999999998" />
+        </attvalues>
+      </node>
+      <node id="MED::coprocesamiento" label="co-processing">
+        <attvalues>
+          <attvalue for="0" value="medio" />
+          <attvalue for="1" value="14.55" />
+        </attvalues>
+      </node>
+      <node id="MED::disposicion_final" label="final disposal">
+        <attvalues>
+          <attvalue for="0" value="medio" />
+          <attvalue for="1" value="39551.16" />
+        </attvalues>
+      </node>
+      <node id="MED::otros" label="other">
+        <attvalues>
+          <attvalue for="0" value="medio" />
+          <attvalue for="1" value="3637.930809999998" />
+        </attvalues>
+      </node>
+      <node id="MED::reciclado" label="recycling">
+        <attvalues>
+          <attvalue for="0" value="medio" />
+          <attvalue for="1" value="31635.445000000003" />
+        </attvalues>
+      </node>
+      <node id="MED::reutilizacion" label="reuse">
+        <attvalues>
+          <attvalue for="0" value="medio" />
+          <attvalue for="1" value="2035.3762000000002" />
+        </attvalues>
+      </node>
+      <node id="MED::tratamiento" label="treatment">
+        <attvalues>
+          <attvalue for="0" value="medio" />
+          <attvalue for="1" value="40043.36902" />
+        </attvalues>
+      </node>
+    </nodes>
+    <edges>
+      <edge source="LOC::Tabasco.Centro" target="MED::agua" id="0" weight="7962.101289700197" />
+      <edge source="LOC::Tabasco.Centro" target="MED::aire" id="1" weight="25652616641.911743" />
+      <edge source="LOC::Tabasco.Centro" target="MED::suelo" id="2" weight="100.28520773499999" />
+      <edge source="LOC::Tabasco.Centro" target="MED::alcantarillado" id="3" weight="3.26976" />
+      <edge source="LOC::Tabasco.Centro" target="MED::coprocesamiento" id="4" weight="14.55" />
+      <edge source="LOC::Tabasco.Centro" target="MED::disposicion_final" id="5" weight="6452.66" />
+      <edge source="LOC::Tabasco.Centro" target="MED::otros" id="6" weight="2516.3843099999985" />
+      <edge source="LOC::Tabasco.Centro" target="MED::reciclado" id="7" weight="11812.688999999998" />
+      <edge source="LOC::Tabasco.Centro" target="MED::reutilizacion" id="8" weight="2035.3762000000002" />
+      <edge source="LOC::Tabasco.Centro" target="MED::tratamiento" id="9" weight="3.36902" />
+      <edge source="LOC::Tabasco.Macuspana" target="MED::agua" id="10" weight="95.53118692410001" />
+      <edge source="LOC::Tabasco.Macuspana" target="MED::aire" id="11" weight="25110342852.96677" />
+      <edge source="LOC::Tabasco.Macuspana" target="MED::suelo" id="12" weight="87.36692735400001" />
+      <edge source="LOC::Tabasco.Macuspana" target="MED::disposicion_final" id="13" weight="23080.0" />
+      <edge source="LOC::Tabasco.Macuspana" target="MED::reciclado" id="14" weight="17811.0" />
+      <edge source="LOC::Tabasco.Macuspana" target="MED::tratamiento" id="15" weight="40040.0" />
+      <edge source="LOC::Tabasco.Cárdenas" target="MED::agua" id="16" weight="3549.0066421046427" />
+      <edge source="LOC::Tabasco.Cárdenas" target="MED::aire" id="17" weight="6615167252.12851" />
+      <edge source="LOC::Tabasco.Cárdenas" target="MED::suelo" id="18" weight="1357.8549150000001" />
+      <edge source="LOC::Tabasco.Cárdenas" target="MED::alcantarillado" id="19" weight="14.086799999999998" />
+      <edge source="LOC::Tabasco.Cárdenas" target="MED::disposicion_final" id="20" weight="80.0" />
+      <edge source="LOC::Tabasco.Cárdenas" target="MED::otros" id="21" weight="1080.6761" />
+      <edge source="LOC::Tabasco.Tenosique" target="MED::agua" id="22" weight="44.47600000000002" />
+      <edge source="LOC::Tabasco.Paraíso" target="MED::agua" id="23" weight="145631.3671485914" />
+      <edge source="LOC::Tabasco.Paraíso" target="MED::aire" id="24" weight="10044550931.729149" />
+      <edge source="LOC::Tabasco.Paraíso" target="MED::suelo" id="25" weight="8.738310249999998" />
+      <edge source="LOC::Tabasco.Paraíso" target="MED::alcantarillado" id="26" weight="0.055795000000000004" />
+      <edge source="LOC::Tabasco.Paraíso" target="MED::otros" id="27" weight="7.5167" />
+      <edge source="LOC::Tabasco.Jalpa de Méndez" target="MED::agua" id="28" weight="2894.049286496001" />
+      <edge source="LOC::Tabasco.Jalpa de Méndez" target="MED::aire" id="29" weight="1960807748.950036" />
+      <edge source="LOC::Tabasco.Huimanguillo" target="MED::agua" id="30" weight="143.670597757659" />
+      <edge source="LOC::Tabasco.Huimanguillo" target="MED::aire" id="31" weight="13847210933.154148" />
+      <edge source="LOC::Tabasco.Huimanguillo" target="MED::disposicion_final" id="32" weight="9929.5" />
+      <edge source="LOC::Tabasco.Huimanguillo" target="MED::reciclado" id="33" weight="2011.7559999999999" />
+      <edge source="LOC::Tabasco.Comalcalco" target="MED::agua" id="34" weight="165.85201600000002" />
+      <edge source="LOC::Tabasco.Comalcalco" target="MED::aire" id="35" weight="690308228.3576071" />
+      <edge source="LOC::Tabasco.Comalcalco" target="MED::suelo" id="36" weight="3.942" />
+      <edge source="LOC::Tabasco.Cunduacán" target="MED::agua" id="37" weight="362.69318319999996" />
+      <edge source="LOC::Tabasco.Cunduacán" target="MED::aire" id="38" weight="9648378561.314716" />
+      <edge source="LOC::Tabasco.Cunduacán" target="MED::otros" id="39" weight="33.3537" />
+      <edge source="LOC::Tabasco.Teapa" target="MED::agua" id="40" weight="48.32538400000001" />
+      <edge source="LOC::Tabasco.Teapa" target="MED::aire" id="41" weight="1255939.758735" />
+      <edge source="LOC::Tabasco.Centla" target="MED::agua" id="42" weight="26.445764999999998" />
+      <edge source="LOC::Tabasco.Centla" target="MED::aire" id="43" weight="144000980.36110002" />
+      <edge source="LOC::Tabasco.Nacajuca" target="MED::agua" id="44" weight="67.14540000000001" />
+      <edge source="LOC::Tabasco.Nacajuca" target="MED::aire" id="45" weight="96738627.88499999" />
+      <edge source="LOC::Tabasco.Nacajuca" target="MED::suelo" id="46" weight="8.114132" />
+      <edge source="LOC::Tabasco.Nacajuca" target="MED::disposicion_final" id="47" weight="9.0" />
+      <edge source="LOC::Tabasco.Emiliano Zapata" target="MED::agua" id="48" weight="0.0449948525" />
+      <edge source="LOC::Tabasco.Jalapa" target="MED::aire" id="49" weight="388920664.6636361" />
+      <edge source="LOC::Tabasco.Jalapa" target="MED::suelo" id="50" weight="19.7439" />
+      <edge source="LOC::Tabasco.Jonuta" target="MED::aire" id="51" weight="16450158.0" />
+    </edges>
+  </graph>
+</gexf>

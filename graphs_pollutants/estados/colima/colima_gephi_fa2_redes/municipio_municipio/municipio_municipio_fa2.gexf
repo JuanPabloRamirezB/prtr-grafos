@@ -1,0 +1,80 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<gexf xmlns="http://gexf.net/1.3" version="1.3" xmlns:viz="http://gexf.net/1.3/viz" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://gexf.net/1.3 http://gexf.net/1.3/gexf.xsd">
+  <meta lastmodifieddate="2026-10-16">
+    <creator>Apache NetBeans Platform Dev (Build {0})</creator>
+    <title></title>
+    <description></description>
+  </meta>
+  <graph defaultedgetype="undirected" mode="static">
+    <attributes class="node" mode="static">
+      <attribute id="0" title="total_kg" type="double"/>
+      <attribute id="modularity_class" title="Modularity Class" type="integer">
+        <default>0</default>
+      </attribute>
+    </attributes>
+    <nodes>
+      <node id="Colima.Colima" label="Colima.Colima">
+        <attvalues>
+          <attvalue for="0" value="2.843922718951994E7"/>
+          <attvalue for="modularity_class" value="0"/>
+        </attvalues>
+        <viz:size value="8.1"/>
+        <viz:position x="49.20679" y="0.0"/>
+        <viz:color r="42" g="120" b="214"/>
+      </node>
+      <node id="Colima.Manzanillo" label="Colima.Manzanillo">
+        <attvalues>
+          <attvalue for="0" value="3.69956998613927E10"/>
+          <attvalue for="modularity_class" value="0"/>
+        </attvalues>
+        <viz:size value="30.0"/>
+        <viz:position x="45.069878" y="28.051702"/>
+        <viz:color r="42" g="120" b="214"/>
+      </node>
+      <node id="Colima.Cuauhtémoc" label="Colima.Cuauhtémoc">
+        <attvalues>
+          <attvalue for="0" value="1.5730708736425664E9"/>
+          <attvalue for="modularity_class" value="0"/>
+        </attvalues>
+        <viz:size value="9.015065"/>
+        <viz:position x="26.234638" y="59.093132"/>
+        <viz:color r="42" g="120" b="214"/>
+      </node>
+      <node id="Colima.Minatitlán" label="Colima.Minatitlán">
+        <attvalues>
+          <attvalue for="0" value="2.657067332698E8"/>
+          <attvalue for="modularity_class" value="0"/>
+        </attvalues>
+        <viz:size value="8.2405615"/>
+        <viz:position x="0.0" y="78.099106"/>
+        <viz:color r="42" g="120" b="214"/>
+      </node>
+      <node id="Colima.Tecomán" label="Colima.Tecomán">
+        <attvalues>
+          <attvalue for="0" value="9.048559030675657E9"/>
+          <attvalue for="modularity_class" value="0"/>
+        </attvalues>
+        <viz:size value="13.443665"/>
+        <viz:position x="60.288223" y="58.904587"/>
+        <viz:color r="42" g="120" b="214"/>
+      </node>
+    </nodes>
+    <edges>
+      <edge id="0" source="Colima.Colima" target="Colima.Manzanillo" weight="0.8441290855407715">
+        <viz:color r="137" g="135" b="129" a="0.47058824"/>
+      </edge>
+      <edge id="1" source="Colima.Manzanillo" target="Colima.Cuauhtémoc" weight="0.859740138053894">
+        <viz:color r="137" g="135" b="129" a="0.47058824"/>
+      </edge>
+      <edge id="2" source="Colima.Manzanillo" target="Colima.Tecomán" weight="0.7728708982467651">
+        <viz:color r="137" g="135" b="129" a="0.47058824"/>
+      </edge>
+      <edge id="3" source="Colima.Cuauhtémoc" target="Colima.Minatitlán" weight="0.815004289150238">
+        <viz:color r="137" g="135" b="129" a="0.47058824"/>
+      </edge>
+      <edge id="4" source="Colima.Cuauhtémoc" target="Colima.Tecomán" weight="0.8011490702629089">
+        <viz:color r="137" g="135" b="129" a="0.47058824"/>
+      </edge>
+    </edges>
+  </graph>
+</gexf>

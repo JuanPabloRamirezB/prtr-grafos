@@ -1,0 +1,110 @@
+<?xml version='1.0' encoding='utf-8'?>
+<gexf xmlns="http://www.gexf.net/1.2draft" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.gexf.net/1.2draft http://www.gexf.net/1.2draft/gexf.xsd" version="1.2">
+  <meta lastmodifieddate="2026-10-16">
+    <creator>NetworkX 3.7</creator>
+  </meta>
+  <graph defaultedgetype="undirected" mode="static" name="">
+    <attributes mode="static" class="node">
+      <attribute id="0" title="total_kg" type="double" />
+    </attributes>
+    <nodes>
+      <node id="Oaxaca.Acatlán de Pérez Figueroa" label="Oaxaca.Acatlán de Pérez Figueroa">
+        <attvalues>
+          <attvalue for="0" value="26074.265747074318" />
+        </attvalues>
+      </node>
+      <node id="Oaxaca.Juchitán de Zaragoza" label="Oaxaca.Juchitán de Zaragoza">
+        <attvalues>
+          <attvalue for="0" value="14.0159669015" />
+        </attvalues>
+      </node>
+      <node id="Oaxaca.San Pedro Mixtepec" label="Oaxaca.San Pedro Mixtepec">
+        <attvalues>
+          <attvalue for="0" value="1.59930225" />
+        </attvalues>
+      </node>
+      <node id="Oaxaca.Santa Cruz Xoxocotlán" label="Oaxaca.Santa Cruz Xoxocotlán">
+        <attvalues>
+          <attvalue for="0" value="47.3573492683" />
+        </attvalues>
+      </node>
+      <node id="Oaxaca.Cosolapa" label="Oaxaca.Cosolapa">
+        <attvalues>
+          <attvalue for="0" value="182.23836308000003" />
+        </attvalues>
+      </node>
+      <node id="Oaxaca.San Lorenzo Cacaotepec" label="Oaxaca.San Lorenzo Cacaotepec">
+        <attvalues>
+          <attvalue for="0" value="7.6663" />
+        </attvalues>
+      </node>
+      <node id="Oaxaca.Tlalixtac de Cabrera" label="Oaxaca.Tlalixtac de Cabrera">
+        <attvalues>
+          <attvalue for="0" value="17.637988" />
+        </attvalues>
+      </node>
+      <node id="Oaxaca.El Barrio de la Soledad" label="Oaxaca.El Barrio de la Soledad">
+        <attvalues>
+          <attvalue for="0" value="13044712029.026802" />
+        </attvalues>
+      </node>
+      <node id="Oaxaca.San Juan Bautista Tuxtepec" label="Oaxaca.San Juan Bautista Tuxtepec">
+        <attvalues>
+          <attvalue for="0" value="3516075021.112264" />
+        </attvalues>
+      </node>
+      <node id="Oaxaca.Santa María Huatulco" label="Oaxaca.Santa María Huatulco">
+        <attvalues>
+          <attvalue for="0" value="100718.8236013" />
+        </attvalues>
+      </node>
+      <node id="Oaxaca.Santa María del Tule" label="Oaxaca.Santa María del Tule">
+        <attvalues>
+          <attvalue for="0" value="11693.452613" />
+        </attvalues>
+      </node>
+      <node id="Oaxaca.Guadalupe Etla" label="Oaxaca.Guadalupe Etla">
+        <attvalues>
+          <attvalue for="0" value="301551.071744" />
+        </attvalues>
+      </node>
+      <node id="Oaxaca.San Pedro y San Pablo Teposcolula" label="Oaxaca.San Pedro y San Pablo Teposcolula">
+        <attvalues>
+          <attvalue for="0" value="560000.0" />
+        </attvalues>
+      </node>
+      <node id="Oaxaca.Salina Cruz" label="Oaxaca.Salina Cruz">
+        <attvalues>
+          <attvalue for="0" value="28006418443.18244" />
+        </attvalues>
+      </node>
+      <node id="Oaxaca.San Pedro Totolápam" label="Oaxaca.San Pedro Totolápam">
+        <attvalues>
+          <attvalue for="0" value="36552698.270642996" />
+        </attvalues>
+      </node>
+    </nodes>
+    <edges>
+      <edge source="Oaxaca.Acatlán de Pérez Figueroa" target="Oaxaca.Juchitán de Zaragoza" id="0" weight="0.8097987866112613" />
+      <edge source="Oaxaca.Acatlán de Pérez Figueroa" target="Oaxaca.San Pedro Mixtepec" id="1" weight="0.8746825134456867" />
+      <edge source="Oaxaca.Acatlán de Pérez Figueroa" target="Oaxaca.Santa Cruz Xoxocotlán" id="2" weight="0.7560529205055293" />
+      <edge source="Oaxaca.Juchitán de Zaragoza" target="Oaxaca.San Pedro Mixtepec" id="3" weight="0.8164110070210342" />
+      <edge source="Oaxaca.San Pedro Mixtepec" target="Oaxaca.Santa Cruz Xoxocotlán" id="4" weight="0.7661579435890078" />
+      <edge source="Oaxaca.Cosolapa" target="Oaxaca.San Lorenzo Cacaotepec" id="5" weight="0.908660375952231" />
+      <edge source="Oaxaca.Cosolapa" target="Oaxaca.Tlalixtac de Cabrera" id="6" weight="0.8963379558444226" />
+      <edge source="Oaxaca.San Lorenzo Cacaotepec" target="Oaxaca.Tlalixtac de Cabrera" id="7" weight="0.9610844458063477" />
+      <edge source="Oaxaca.El Barrio de la Soledad" target="Oaxaca.San Juan Bautista Tuxtepec" id="8" weight="0.7651554169964322" />
+      <edge source="Oaxaca.El Barrio de la Soledad" target="Oaxaca.Santa María Huatulco" id="9" weight="0.7912087373694768" />
+      <edge source="Oaxaca.El Barrio de la Soledad" target="Oaxaca.Santa María del Tule" id="10" weight="0.7649483162419238" />
+      <edge source="Oaxaca.San Juan Bautista Tuxtepec" target="Oaxaca.Salina Cruz" id="11" weight="0.7952246766391978" />
+      <edge source="Oaxaca.San Juan Bautista Tuxtepec" target="Oaxaca.Santa María Huatulco" id="12" weight="0.7077413792741749" />
+      <edge source="Oaxaca.Santa María Huatulco" target="Oaxaca.Guadalupe Etla" id="13" weight="0.9469441162211926" />
+      <edge source="Oaxaca.Santa María Huatulco" target="Oaxaca.San Pedro y San Pablo Teposcolula" id="14" weight="0.9469430483685326" />
+      <edge source="Oaxaca.Santa María Huatulco" target="Oaxaca.Santa María del Tule" id="15" weight="0.9734596057197079" />
+      <edge source="Oaxaca.Santa María del Tule" target="Oaxaca.Guadalupe Etla" id="16" weight="0.9661360828807296" />
+      <edge source="Oaxaca.Santa María del Tule" target="Oaxaca.San Pedro y San Pablo Teposcolula" id="17" weight="0.9660794262430149" />
+      <edge source="Oaxaca.Guadalupe Etla" target="Oaxaca.San Pedro y San Pablo Teposcolula" id="18" weight="0.9999995718116691" />
+      <edge source="Oaxaca.Salina Cruz" target="Oaxaca.San Pedro Totolápam" id="19" weight="0.7166153548997296" />
+    </edges>
+  </graph>
+</gexf>

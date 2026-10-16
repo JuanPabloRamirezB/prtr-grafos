@@ -1,0 +1,101 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<gexf xmlns="http://gexf.net/1.3" version="1.3" xmlns:viz="http://gexf.net/1.3/viz" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://gexf.net/1.3 http://gexf.net/1.3/gexf.xsd">
+  <meta lastmodifieddate="2026-10-16">
+    <creator>Apache NetBeans Platform Dev (Build {0})</creator>
+    <title></title>
+    <description></description>
+  </meta>
+  <graph defaultedgetype="undirected" mode="static">
+    <attributes class="node" mode="static">
+      <attribute id="0" title="total_kg" type="double"/>
+      <attribute id="modularity_class" title="Modularity Class" type="integer">
+        <default>0</default>
+      </attribute>
+    </attributes>
+    <nodes>
+      <node id="Aguascalientes.Asientos" label="Aguascalientes.Asientos">
+        <attvalues>
+          <attvalue for="0" value="5.15227144023751E9"/>
+          <attvalue for="modularity_class" value="0"/>
+        </attvalues>
+        <viz:size value="17.790405"/>
+        <viz:position x="5.263899" y="99.35181"/>
+        <viz:color r="42" g="120" b="214"/>
+      </node>
+      <node id="Aguascalientes.El Llano" label="Aguascalientes.El Llano">
+        <attvalues>
+          <attvalue for="0" value="395359.586486"/>
+          <attvalue for="modularity_class" value="0"/>
+        </attvalues>
+        <viz:size value="8.1"/>
+        <viz:position x="35.743736" y="92.581894"/>
+        <viz:color r="42" g="120" b="214"/>
+      </node>
+      <node id="Aguascalientes.Rincón de Romos" label="Aguascalientes.Rincón de Romos">
+        <attvalues>
+          <attvalue for="0" value="2.20019289452786E7"/>
+          <attvalue for="modularity_class" value="0"/>
+        </attvalues>
+        <viz:size value="8.140641"/>
+        <viz:position x="0.0" y="66.80643"/>
+        <viz:color r="42" g="120" b="214"/>
+      </node>
+      <node id="Aguascalientes.Tepezalá" label="Aguascalientes.Tepezalá">
+        <attvalues>
+          <attvalue for="0" value="1.1643467321469534E10"/>
+          <attvalue for="modularity_class" value="0"/>
+        </attvalues>
+        <viz:size value="30.0"/>
+        <viz:position x="32.769382" y="59.931637"/>
+        <viz:color r="42" g="120" b="214"/>
+      </node>
+      <node id="Aguascalientes.Jesús María" label="Aguascalientes.Jesús María">
+        <attvalues>
+          <attvalue for="0" value="1.3159931289960408E9"/>
+          <attvalue for="modularity_class" value="1"/>
+        </attvalues>
+        <viz:size value="10.57457"/>
+        <viz:position x="5.717963" y="0.0"/>
+        <viz:color r="235" g="104" b="52"/>
+      </node>
+      <node id="Aguascalientes.San Francisco de los Romo" label="Aguascalientes.San Francisco de los Romo">
+        <attvalues>
+          <attvalue for="0" value="1.6111686581099784E9"/>
+          <attvalue for="modularity_class" value="1"/>
+        </attvalues>
+        <viz:size value="11.12978"/>
+        <viz:position x="10.521123" y="27.564898"/>
+        <viz:color r="235" g="104" b="52"/>
+      </node>
+    </nodes>
+    <edges>
+      <edge id="0" source="Aguascalientes.Asientos" target="Aguascalientes.El Llano" weight="0.7139649391174316">
+        <viz:color r="137" g="135" b="129" a="0.47058824"/>
+      </edge>
+      <edge id="1" source="Aguascalientes.Asientos" target="Aguascalientes.Rincón de Romos" weight="0.7514752149581909">
+        <viz:color r="137" g="135" b="129" a="0.47058824"/>
+      </edge>
+      <edge id="2" source="Aguascalientes.Asientos" target="Aguascalientes.Tepezalá" weight="0.7540081143379211">
+        <viz:color r="137" g="135" b="129" a="0.47058824"/>
+      </edge>
+      <edge id="3" source="Aguascalientes.El Llano" target="Aguascalientes.Rincón de Romos" weight="0.8480703830718994">
+        <viz:color r="137" g="135" b="129" a="0.47058824"/>
+      </edge>
+      <edge id="4" source="Aguascalientes.El Llano" target="Aguascalientes.Tepezalá" weight="0.7786180377006531">
+        <viz:color r="137" g="135" b="129" a="0.47058824"/>
+      </edge>
+      <edge id="5" source="Aguascalientes.Rincón de Romos" target="Aguascalientes.San Francisco de los Romo" weight="0.7756704092025757">
+        <viz:color r="137" g="135" b="129" a="0.47058824"/>
+      </edge>
+      <edge id="6" source="Aguascalientes.Rincón de Romos" target="Aguascalientes.Tepezalá" weight="0.8808273673057556">
+        <viz:color r="137" g="135" b="129" a="0.47058824"/>
+      </edge>
+      <edge id="7" source="Aguascalientes.Tepezalá" target="Aguascalientes.San Francisco de los Romo" weight="0.8659424781799316">
+        <viz:color r="137" g="135" b="129" a="0.47058824"/>
+      </edge>
+      <edge id="8" source="Aguascalientes.Jesús María" target="Aguascalientes.San Francisco de los Romo" weight="0.7443066835403442">
+        <viz:color r="137" g="135" b="129" a="0.47058824"/>
+      </edge>
+    </edges>
+  </graph>
+</gexf>

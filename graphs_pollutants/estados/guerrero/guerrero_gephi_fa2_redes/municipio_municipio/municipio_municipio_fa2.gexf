@@ -1,0 +1,155 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<gexf xmlns="http://gexf.net/1.3" version="1.3" xmlns:viz="http://gexf.net/1.3/viz" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://gexf.net/1.3 http://gexf.net/1.3/gexf.xsd">
+  <meta lastmodifieddate="2026-10-16">
+    <creator>Apache NetBeans Platform Dev (Build {0})</creator>
+    <title></title>
+    <description></description>
+  </meta>
+  <graph defaultedgetype="undirected" mode="static">
+    <attributes class="node" mode="static">
+      <attribute id="0" title="total_kg" type="double"/>
+      <attribute id="modularity_class" title="Modularity Class" type="integer">
+        <default>0</default>
+      </attribute>
+    </attributes>
+    <nodes>
+      <node id="Guerrero.Acapulco de Juárez" label="Guerrero.Acapulco de Juárez">
+        <attvalues>
+          <attvalue for="0" value="1.3965031179349093E9"/>
+          <attvalue for="modularity_class" value="0"/>
+        </attvalues>
+        <viz:size value="8.515237"/>
+        <viz:position x="118.7587" y="42.60295"/>
+        <viz:color r="42" g="120" b="214"/>
+      </node>
+      <node id="Guerrero.Arcelia" label="Guerrero.Arcelia">
+        <attvalues>
+          <attvalue for="0" value="523.014142500155"/>
+          <attvalue for="modularity_class" value="0"/>
+        </attvalues>
+        <viz:size value="8.1"/>
+        <viz:position x="112.65758" y="11.285545"/>
+        <viz:color r="42" g="120" b="214"/>
+      </node>
+      <node id="Guerrero.Chilpancingo de los Bravo" label="Guerrero.Chilpancingo de los Bravo">
+        <attvalues>
+          <attvalue for="0" value="115755.035552"/>
+          <attvalue for="modularity_class" value="0"/>
+        </attvalues>
+        <viz:size value="8.100035"/>
+        <viz:position x="79.94868" y="5.399143"/>
+        <viz:color r="42" g="120" b="214"/>
+      </node>
+      <node id="Guerrero.Iguala de la Independencia" label="Guerrero.Iguala de la Independencia">
+        <attvalues>
+          <attvalue for="0" value="24605.561969086"/>
+          <attvalue for="modularity_class" value="0"/>
+        </attvalues>
+        <viz:size value="8.100008"/>
+        <viz:position x="58.334084" y="32.816753"/>
+        <viz:color r="42" g="120" b="214"/>
+      </node>
+      <node id="Guerrero.Taxco de Alarcón" label="Guerrero.Taxco de Alarcón">
+        <attvalues>
+          <attvalue for="0" value="35027.880000000005"/>
+          <attvalue for="modularity_class" value="0"/>
+        </attvalues>
+        <viz:size value="8.100011"/>
+        <viz:position x="86.132675" y="52.079872"/>
+        <viz:color r="42" g="120" b="214"/>
+      </node>
+      <node id="Guerrero.Cocula" label="Guerrero.Cocula">
+        <attvalues>
+          <attvalue for="0" value="6.1254812394E8"/>
+          <attvalue for="modularity_class" value="1"/>
+        </attvalues>
+        <viz:size value="8.282135"/>
+        <viz:position x="37.340363" y="71.19684"/>
+        <viz:color r="235" g="104" b="52"/>
+      </node>
+      <node id="Guerrero.Teloloapan" label="Guerrero.Teloloapan">
+        <attvalues>
+          <attvalue for="0" value="5693838.2"/>
+          <attvalue for="modularity_class" value="0"/>
+        </attvalues>
+        <viz:size value="8.101693"/>
+        <viz:position x="41.19763" y="0.0"/>
+        <viz:color r="42" g="120" b="214"/>
+      </node>
+      <node id="Guerrero.Eduardo Neri" label="Guerrero.Eduardo Neri">
+        <attvalues>
+          <attvalue for="0" value="4.459459825509718E8"/>
+          <attvalue for="modularity_class" value="1"/>
+        </attvalues>
+        <viz:size value="8.232597"/>
+        <viz:position x="0.0" y="81.29839"/>
+        <viz:color r="235" g="104" b="52"/>
+      </node>
+      <node id="Guerrero.La Unión de Isidoro Montes de Oca" label="Guerrero.La Unión de Isidoro Montes de Oca">
+        <attvalues>
+          <attvalue for="0" value="7.365306066549957E10"/>
+          <attvalue for="modularity_class" value="1"/>
+        </attvalues>
+        <viz:size value="30.0"/>
+        <viz:position x="29.17106" y="109.613266"/>
+        <viz:color r="235" g="104" b="52"/>
+      </node>
+    </nodes>
+    <edges>
+      <edge id="0" source="Guerrero.Acapulco de Juárez" target="Guerrero.Arcelia" weight="0.723444402217865">
+        <viz:color r="137" g="135" b="129" a="0.47058824"/>
+      </edge>
+      <edge id="1" source="Guerrero.Acapulco de Juárez" target="Guerrero.Chilpancingo de los Bravo" weight="0.7127265930175781">
+        <viz:color r="137" g="135" b="129" a="0.47058824"/>
+      </edge>
+      <edge id="2" source="Guerrero.Acapulco de Juárez" target="Guerrero.Iguala de la Independencia" weight="0.7341026067733765">
+        <viz:color r="137" g="135" b="129" a="0.47058824"/>
+      </edge>
+      <edge id="3" source="Guerrero.Acapulco de Juárez" target="Guerrero.Taxco de Alarcón" weight="0.7122617363929749">
+        <viz:color r="137" g="135" b="129" a="0.47058824"/>
+      </edge>
+      <edge id="4" source="Guerrero.Arcelia" target="Guerrero.Chilpancingo de los Bravo" weight="0.7901538014411926">
+        <viz:color r="137" g="135" b="129" a="0.47058824"/>
+      </edge>
+      <edge id="5" source="Guerrero.Arcelia" target="Guerrero.Iguala de la Independencia" weight="0.7862509489059448">
+        <viz:color r="137" g="135" b="129" a="0.47058824"/>
+      </edge>
+      <edge id="6" source="Guerrero.Arcelia" target="Guerrero.Taxco de Alarcón" weight="0.7901546955108643">
+        <viz:color r="137" g="135" b="129" a="0.47058824"/>
+      </edge>
+      <edge id="7" source="Guerrero.Chilpancingo de los Bravo" target="Guerrero.Cocula" weight="0.7231820821762085">
+        <viz:color r="137" g="135" b="129" a="0.47058824"/>
+      </edge>
+      <edge id="8" source="Guerrero.Chilpancingo de los Bravo" target="Guerrero.Iguala de la Independencia" weight="0.9951575994491577">
+        <viz:color r="137" g="135" b="129" a="0.47058824"/>
+      </edge>
+      <edge id="9" source="Guerrero.Chilpancingo de los Bravo" target="Guerrero.Taxco de Alarcón" weight="0.9999988675117493">
+        <viz:color r="137" g="135" b="129" a="0.47058824"/>
+      </edge>
+      <edge id="10" source="Guerrero.Chilpancingo de los Bravo" target="Guerrero.Teloloapan" weight="0.7829453349113464">
+        <viz:color r="137" g="135" b="129" a="0.47058824"/>
+      </edge>
+      <edge id="11" source="Guerrero.Iguala de la Independencia" target="Guerrero.Cocula" weight="0.7455004453659058">
+        <viz:color r="137" g="135" b="129" a="0.47058824"/>
+      </edge>
+      <edge id="12" source="Guerrero.Iguala de la Independencia" target="Guerrero.Taxco de Alarcón" weight="0.9950594902038574">
+        <viz:color r="137" g="135" b="129" a="0.47058824"/>
+      </edge>
+      <edge id="13" source="Guerrero.Iguala de la Independencia" target="Guerrero.Teloloapan" weight="0.7790780663490295">
+        <viz:color r="137" g="135" b="129" a="0.47058824"/>
+      </edge>
+      <edge id="14" source="Guerrero.Taxco de Alarcón" target="Guerrero.Cocula" weight="0.7231178283691406">
+        <viz:color r="137" g="135" b="129" a="0.47058824"/>
+      </edge>
+      <edge id="15" source="Guerrero.Taxco de Alarcón" target="Guerrero.Teloloapan" weight="0.7829462289810181">
+        <viz:color r="137" g="135" b="129" a="0.47058824"/>
+      </edge>
+      <edge id="16" source="Guerrero.Cocula" target="Guerrero.Eduardo Neri" weight="0.736260712146759">
+        <viz:color r="137" g="135" b="129" a="0.47058824"/>
+      </edge>
+      <edge id="17" source="Guerrero.Cocula" target="Guerrero.La Unión de Isidoro Montes de Oca" weight="0.7042666077613831">
+        <viz:color r="137" g="135" b="129" a="0.47058824"/>
+      </edge>
+    </edges>
+  </graph>
+</gexf>

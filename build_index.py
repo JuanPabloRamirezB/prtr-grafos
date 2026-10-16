@@ -11,6 +11,7 @@ import datetime
 import html
 import os
 import sys
+import unicodedata
 
 from PIL import Image
 
@@ -18,9 +19,8 @@ HERE = os.path.dirname(os.path.abspath(__file__))
 CSV = os.path.join(HERE, "prtr_raw_for_stori_stori.csv")
 
 GP = "graphs_pollutants"
-N, T = f"{GP}/nacional_gephi", f"{GP}/tamaulipas_gephi_extra"
-R, G, P, TT, TK = (f"{GP}/tamaulipas_gephi_fa2_redes", f"{GP}/tamaulipas_graph", f"{GP}/tamaulipas_projected_networks",
-                    f"{GP}/tamaulipas_temporal_graph", f"{GP}/tamaulipas_graph_toolkit")
+N = f"{GP}/nacional_gephi"
+ES = f"{GP}/estados"
 
 GM = "graphs_mortality"
 MN = f"{GM}/nacional_gephi"
@@ -56,73 +56,6 @@ CARDS = [
          thumb=f"{N}/geografico/estado_geo_toolkit.png",
          variants=[v("Real coordinates · Gephi Toolkit", f"{N}/geografico/estado_geo.html", f"{N}/geografico/estado_geo_toolkit.png",
                      f"{N}/geografico/estado_geo_toolkit.pdf", f"{N}/geografico/estado_geo_toolkit.gexf")]),
-    # ------------------------------------------------------------------ Tamaulipas
-    dict(id="t-bipartito", scope="Tamaulipas", type="Bipartite", title="Municipality ↔ Substance",
-         desc="Tamaulipas' 20 municipalities and the 71 substances they report, in two columns ranked by cumulative emissions. "
-              "The Gephi Toolkit version uses the same layout with size and color driven by an attribute.",
-         thumb=f"{G}/tamaulipas_graph.png",
-         variants=[v("Two columns · Plotly", f"{G}/tamaulipas_graph.html", f"{G}/tamaulipas_graph.png"),
-                   v("Two columns · Gephi Toolkit", None, f"{TK}/tamaulipas_graph_toolkit.png", f"{TK}/tamaulipas_graph_toolkit.pdf",
-                     f"{TK}/tamaulipas_graph_toolkit_layout.gexf")]),
-    dict(id="t-sustancias", scope="Tamaulipas", type="Similarity", title="Substances reported together",
-         desc="Two substances are linked if their municipalities overlap (Jaccard ≥ 0.7). The chemical families show up: "
-              "chlorinated solvents, polycyclic aromatic hydrocarbons, heavy metals, aldehydes and refrigerant gases.",
-         thumb=f"{R}/sustancia_sustancia/sustancia_sustancia_fa2.png",
-         variants=[v("ForceAtlas2 · Gephi + Modularity", f"{R}/sustancia_sustancia/sustancia_sustancia_fa2.html", f"{R}/sustancia_sustancia/sustancia_sustancia_fa2.png",
-                     f"{R}/sustancia_sustancia/sustancia_sustancia_fa2.pdf", f"{R}/sustancia_sustancia/sustancia_sustancia_fa2.gexf"),
-                   v("Hierarchical layout · Plotly + Louvain", f"{P}/sustancia_sustancia.html", f"{P}/sustancia_sustancia.png")]),
-    dict(id="t-municipios", scope="Tamaulipas", type="Similarity", title="Municipalities with a similar profile",
-         desc="Municipalities are linked by the cosine similarity of their emissions profile (≥ 0.7). Three groups emerge: the "
-              "industrial corridor (Altamira, Reynosa…), an intermediate group and the rural municipalities.",
-         thumb=f"{R}/municipio_municipio/municipio_municipio_fa2.png",
-         variants=[v("ForceAtlas2 · Gephi + Modularity", f"{R}/municipio_municipio/municipio_municipio_fa2.html", f"{R}/municipio_municipio/municipio_municipio_fa2.png",
-                     f"{R}/municipio_municipio/municipio_municipio_fa2.pdf", f"{R}/municipio_municipio/municipio_municipio_fa2.gexf"),
-                   v("Hierarchical layout · Plotly + Louvain", f"{P}/municipio_municipio.html", f"{P}/municipio_municipio.png")]),
-    dict(id="t-temporal", scope="Tamaulipas", type="Temporal", title="Evolution by year, 2004–2022",
-         desc="The municipality ↔ substance bipartite graph year by year, with a play button and slider. Positions are fixed, "
-              "so nodes never jump; size is that year's kg (common log scale) and gray marks no report.",
-         thumb=f"{R}/temporal/temporal_snapshots_fa2.png",
-         variants=[v("ForceAtlas2 · Gephi Toolkit", f"{R}/temporal/temporal_fa2.html", f"{R}/temporal/temporal_snapshots_fa2.png",
-                     extra=[(f"PDF {y}", f"{R}/temporal/temporal_{y}_fa2.pdf") for y in (2004, 2010, 2016, 2022)]),
-                   v("Two columns · Plotly", f"{TT}/tamaulipas_temporal.html", f"{TT}/tamaulipas_temporal_snapshots.png")]),
-    dict(id="t-centralidad", scope="Tamaulipas", type="Centrality", title="Centrality: who connects the most",
-         desc="Betweenness and PageRank computed by Gephi. Altamira, Matamoros and Reynosa are the biggest bridges; carbon "
-              "dioxide holds most of the PageRank. In the HTML, node size follows centrality.",
-         thumb=f"{T}/centralidad/centralidad_toolkit_fa2.png",
-         variants=[v("ForceAtlas2 · Gephi Toolkit", f"{T}/centralidad/centralidad_fa2.html", f"{T}/centralidad/centralidad_toolkit_fa2.png",
-                     f"{T}/centralidad/centralidad_toolkit_fa2.pdf", f"{T}/centralidad/centralidad_toolkit_fa2.gexf"),
-                   v("Two columns · Gephi Toolkit", f"{T}/centralidad/centralidad.html", f"{T}/centralidad/centralidad_toolkit.png",
-                     f"{T}/centralidad/centralidad_toolkit.pdf", f"{T}/centralidad/centralidad_toolkit.gexf")]),
-    dict(id="t-huella", scope="Tamaulipas", type="Temporal", title="Temporal fingerprint of each node",
-         desc="Color: the year a municipality or substance first appears (dark blue = since 2004). Size: how many years it "
-              "has reported. Shows who is a steady reporter and who joined later.",
-         thumb=f"{T}/timeline/timeline_toolkit_fa2.png",
-         variants=[v("ForceAtlas2 · Gephi Toolkit", f"{T}/timeline/timeline_fa2.html", f"{T}/timeline/timeline_toolkit_fa2.png",
-                     f"{T}/timeline/timeline_toolkit_fa2.pdf", f"{T}/timeline/timeline_toolkit_fa2.gexf"),
-                   v("Two columns · Gephi Toolkit", None, f"{T}/timeline/timeline_toolkit.png", f"{T}/timeline/timeline_toolkit.pdf",
-                     f"{T}/timeline/timeline_toolkit.gexf")]),
-    dict(id="t-mapa", scope="Tamaulipas", type="Map", title="Map: municipalities by emissions profile",
-         desc="The municipality-similarity network on the real map. The border industrial towns are far apart but linked by "
-              "profile; the rural group is geographically compact.",
-         thumb=f"{T}/geografico/municipio_geo_toolkit.png",
-         variants=[v("Real coordinates · Gephi Toolkit", f"{T}/geografico/municipio_geo.html", f"{T}/geografico/municipio_geo_toolkit.png",
-                     f"{T}/geografico/municipio_geo_toolkit.pdf", f"{T}/geografico/municipio_geo_toolkit.gexf")]),
-    dict(id="t-ego", scope="Tamaulipas", type="Ego-network", title="Ego-network of Altamira",
-         desc="The state's biggest emitter: its 15 main substances and the 8 municipalities that share that profile. Three "
-              "substances are exclusive to Altamira and hang off as leaves in the ForceAtlas2 version.",
-         thumb=f"{T}/ego_network/ego_altamira_toolkit_fa2.png",
-         variants=[v("ForceAtlas2 · Gephi Toolkit", f"{T}/ego_network/ego_altamira_fa2.html", f"{T}/ego_network/ego_altamira_toolkit_fa2.png",
-                     f"{T}/ego_network/ego_altamira_toolkit_fa2.pdf", f"{T}/ego_network/ego_altamira_toolkit_fa2.gexf"),
-                   v("Concentric · Gephi Toolkit", f"{T}/ego_network/ego_altamira.html", f"{T}/ego_network/ego_altamira_toolkit.png",
-                     f"{T}/ego_network/ego_altamira_toolkit.pdf", f"{T}/ego_network/ego_altamira_toolkit.gexf")]),
-    dict(id="t-medio", scope="Tamaulipas", type="Medium", title="Municipality ↔ Release medium",
-         desc="Substances collapsed into their release medium (air, water, soil, sewer system…): 31 nodes instead of 91. "
-              "“air” holds nearly all of the volume.",
-         thumb=f"{T}/contraccion_medio/municipio_medio_toolkit_fa2.png",
-         variants=[v("ForceAtlas2 · Gephi Toolkit", f"{T}/contraccion_medio/municipio_medio_fa2.html", f"{T}/contraccion_medio/municipio_medio_toolkit_fa2.png",
-                     f"{T}/contraccion_medio/municipio_medio_toolkit_fa2.pdf", f"{T}/contraccion_medio/municipio_medio_toolkit_fa2.gexf"),
-                   v("Two columns · Gephi Toolkit", f"{T}/contraccion_medio/municipio_medio.html", f"{T}/contraccion_medio/municipio_medio_toolkit.png",
-                     f"{T}/contraccion_medio/municipio_medio_toolkit.pdf", f"{T}/contraccion_medio/municipio_medio_toolkit.gexf")]),
     # ------------------------------------------------------------------ Mortality (national only, no state-level yet)
     dict(id="m-estado-estado", dataset="Mortality", scope="National", type="Similarity",
          title="States with a similar cause-of-death profile",
@@ -167,7 +100,133 @@ CARDS = [
 ]
 for c in CARDS:
     c.setdefault("dataset", "Pollutants")
-FRAMES = [(y, f"{R}/temporal/frames/temporal_{y}.png") for y in range(2004, 2023)]
+
+STATES = [
+    "Aguascalientes", "Baja California", "Baja California Sur", "Campeche", "Chiapas", "Chihuahua",
+    "Ciudad de México", "Coahuila de Zaragoza", "Colima", "Durango", "Guanajuato", "Guerrero", "Hidalgo",
+    "Jalisco", "México", "Michoacán de Ocampo", "Morelos", "Nayarit", "Nuevo León", "Oaxaca", "Puebla",
+    "Querétaro", "Quintana Roo", "San Luis Potosí", "Sinaloa", "Sonora", "Tabasco", "Tamaulipas", "Tlaxcala",
+    "Veracruz de Ignacio de la Llave", "Yucatán", "Zacatecas",
+]
+
+
+def slugify(name):
+    return unicodedata.normalize("NFKD", name).encode("ascii", "ignore").decode().lower().replace(" ", "_")
+
+
+def focal_of(slug):
+    path = os.path.join(HERE, ES, slug, f"{slug}_gephi_extra", "ego_network", "focal.txt")
+    with open(path, encoding="utf-8") as f:
+        return f.readline().strip(), f.readline().strip()
+
+
+# Each state's own output folder mirrors graphs_pollutants/estados/<slug>/<slug>_*/...,
+# every path below relative to that folder's parent (i.e. prefixed with f"{ES}/{slug}/").
+STATE_TYPES = [
+    dict(id="s-bipartito", type="Bipartite", title="Municipality ↔ Substance",
+         desc="Each state's municipalities and the substances they report, in two columns ranked by cumulative emissions. "
+              "Pick a state below to open its graph.",
+         variant_tpl=[("Two columns · Plotly", "{s}_graph/{s}_graph.html", "{s}_graph/{s}_graph.png", None, None),
+                      ("Two columns · Gephi Toolkit", None, "{s}_graph_toolkit/{s}_graph_toolkit.png",
+                       "{s}_graph_toolkit/{s}_graph_toolkit.pdf", "{s}_graph_toolkit/{s}_graph_toolkit_layout.gexf")]),
+    dict(id="s-sustancias", type="Similarity", title="Substances reported together",
+         desc="Two substances are linked if their municipalities overlap (Jaccard ≥ 0.7) — the chemical families usually "
+              "show up as separate clusters.",
+         variant_tpl=[("ForceAtlas2 · Gephi + Modularity", "{s}_gephi_fa2_redes/sustancia_sustancia/sustancia_sustancia_fa2.html",
+                       "{s}_gephi_fa2_redes/sustancia_sustancia/sustancia_sustancia_fa2.png",
+                       "{s}_gephi_fa2_redes/sustancia_sustancia/sustancia_sustancia_fa2.pdf",
+                       "{s}_gephi_fa2_redes/sustancia_sustancia/sustancia_sustancia_fa2.gexf"),
+                      ("Hierarchical layout · Plotly + Louvain", "{s}_projected_networks/sustancia_sustancia.html",
+                       "{s}_projected_networks/sustancia_sustancia.png", None, None)]),
+    dict(id="s-municipios", type="Similarity", title="Municipalities with a similar profile",
+         desc="Municipalities are linked by the cosine similarity of their emissions profile (≥ 0.7), grouping the state's "
+              "industrial corridor apart from its rural municipalities.",
+         variant_tpl=[("ForceAtlas2 · Gephi + Modularity", "{s}_gephi_fa2_redes/municipio_municipio/municipio_municipio_fa2.html",
+                       "{s}_gephi_fa2_redes/municipio_municipio/municipio_municipio_fa2.png",
+                       "{s}_gephi_fa2_redes/municipio_municipio/municipio_municipio_fa2.pdf",
+                       "{s}_gephi_fa2_redes/municipio_municipio/municipio_municipio_fa2.gexf"),
+                      ("Hierarchical layout · Plotly + Louvain", "{s}_projected_networks/municipio_municipio.html",
+                       "{s}_projected_networks/municipio_municipio.png", None, None)]),
+    dict(id="s-temporal", type="Temporal", title="Evolution by year, 2004–2022",
+         desc="The municipality ↔ substance bipartite graph year by year, with a play button and slider. Positions are "
+              "fixed, so nodes never jump.",
+         variant_tpl=[("ForceAtlas2 · Gephi Toolkit", "{s}_gephi_fa2_redes/temporal/temporal_fa2.html",
+                       "{s}_gephi_fa2_redes/temporal/temporal_snapshots_fa2.png", None, None),
+                      ("Two columns · Plotly", "{s}_temporal_graph/{s}_temporal.html",
+                       "{s}_temporal_graph/{s}_temporal_snapshots.png", None, None)]),
+    dict(id="s-centralidad", type="Centrality", title="Centrality: who connects the most",
+         desc="Betweenness and PageRank computed by Gephi. Node size follows centrality in the interactive version.",
+         variant_tpl=[("ForceAtlas2 · Gephi Toolkit", "{s}_gephi_extra/centralidad/centralidad_fa2.html",
+                       "{s}_gephi_extra/centralidad/centralidad_toolkit_fa2.png",
+                       "{s}_gephi_extra/centralidad/centralidad_toolkit_fa2.pdf",
+                       "{s}_gephi_extra/centralidad/centralidad_toolkit_fa2.gexf"),
+                      ("Two columns · Gephi Toolkit", "{s}_gephi_extra/centralidad/centralidad.html",
+                       "{s}_gephi_extra/centralidad/centralidad_toolkit.png",
+                       "{s}_gephi_extra/centralidad/centralidad_toolkit.pdf",
+                       "{s}_gephi_extra/centralidad/centralidad_toolkit.gexf")]),
+    dict(id="s-huella", type="Temporal", title="Temporal fingerprint of each node",
+         desc="Color: the year a municipality or substance first appears. Size: how many years it has reported — shows "
+              "who is a steady reporter and who joined later.",
+         variant_tpl=[("ForceAtlas2 · Gephi Toolkit", "{s}_gephi_extra/timeline/timeline_fa2.html",
+                       "{s}_gephi_extra/timeline/timeline_toolkit_fa2.png",
+                       "{s}_gephi_extra/timeline/timeline_toolkit_fa2.pdf",
+                       "{s}_gephi_extra/timeline/timeline_toolkit_fa2.gexf"),
+                      ("Two columns · Gephi Toolkit", None, "{s}_gephi_extra/timeline/timeline_toolkit.png",
+                       "{s}_gephi_extra/timeline/timeline_toolkit.pdf", "{s}_gephi_extra/timeline/timeline_toolkit.gexf")]),
+    dict(id="s-mapa", type="Map", title="Map: municipalities by emissions profile",
+         desc="The municipality-similarity network placed at each municipality's real coordinates.",
+         variant_tpl=[("Real coordinates · Gephi Toolkit", "{s}_gephi_extra/geografico/municipio_geo.html",
+                       "{s}_gephi_extra/geografico/municipio_geo_toolkit.png",
+                       "{s}_gephi_extra/geografico/municipio_geo_toolkit.pdf",
+                       "{s}_gephi_extra/geografico/municipio_geo_toolkit.gexf")]),
+    dict(id="s-ego", type="Ego-network", title="Ego-network of the top emitter", needs_focal=True,
+         desc="The state's biggest emitter, its main substances and the municipalities that share that profile — "
+              "auto-detected per state, not hand-picked.",
+         variant_tpl=[("ForceAtlas2 · Gephi Toolkit", "{s}_gephi_extra/ego_network/ego_{f}_fa2.html",
+                       "{s}_gephi_extra/ego_network/ego_{f}_toolkit_fa2.png",
+                       "{s}_gephi_extra/ego_network/ego_{f}_toolkit_fa2.pdf",
+                       "{s}_gephi_extra/ego_network/ego_{f}_toolkit_fa2.gexf"),
+                      ("Concentric · Gephi Toolkit", "{s}_gephi_extra/ego_network/ego_{f}.html",
+                       "{s}_gephi_extra/ego_network/ego_{f}_toolkit.png",
+                       "{s}_gephi_extra/ego_network/ego_{f}_toolkit.pdf",
+                       "{s}_gephi_extra/ego_network/ego_{f}_toolkit.gexf")]),
+    dict(id="s-medio", type="Medium", title="Municipality ↔ Release medium",
+         desc="Substances collapsed into their release medium (air, water, soil, sewer system…) — usually “air” "
+              "holds nearly all of the volume.",
+         variant_tpl=[("ForceAtlas2 · Gephi Toolkit", "{s}_gephi_extra/contraccion_medio/municipio_medio_fa2.html",
+                       "{s}_gephi_extra/contraccion_medio/municipio_medio_toolkit_fa2.png",
+                       "{s}_gephi_extra/contraccion_medio/municipio_medio_toolkit_fa2.pdf",
+                       "{s}_gephi_extra/contraccion_medio/municipio_medio_toolkit_fa2.gexf"),
+                      ("Two columns · Gephi Toolkit", "{s}_gephi_extra/contraccion_medio/municipio_medio.html",
+                       "{s}_gephi_extra/contraccion_medio/municipio_medio_toolkit.png",
+                       "{s}_gephi_extra/contraccion_medio/municipio_medio_toolkit.pdf",
+                       "{s}_gephi_extra/contraccion_medio/municipio_medio_toolkit.gexf")]),
+]
+
+
+def build_state_cards():
+    """One card per graph type (not per state): a <select> swaps which state's
+    links/thumbnail are shown. Thumbnails always show Tamaulipas (present for every
+    type, guaranteed to exist) regardless of the selected state."""
+    cards = []
+    for spec in STATE_TYPES:
+        states_data = {}
+        for name in STATES:
+            slug = slugify(name)
+            focal = focal_of(slug)[1] if spec.get("needs_focal") else None
+            base = f"{ES}/{slug}/"
+            variants = []
+            for label, htp, pngp, pdfp, gexfp in spec["variant_tpl"]:
+                fmt = lambda t: base + t.format(s=slug, f=focal) if t else None
+                variants.append(v(label, fmt(htp), fmt(pngp), fmt(pdfp), fmt(gexfp)))
+            states_data[name] = dict(slug=slug, focal=focal, variants=variants)
+        cards.append(dict(id=spec["id"], scope="State", dataset="Pollutants", type=spec["type"], title=spec["title"],
+                           desc=spec["desc"], thumb=f"{ES}/tamaulipas/" + spec["variant_tpl"][0][2].format(s="tamaulipas", f="altamira"),
+                           states=states_data))
+    return cards
+
+
+STATE_CARDS = build_state_cards()
 
 
 def stats():
@@ -193,7 +252,7 @@ def size_txt(path):
 def thumbs():
     os.makedirs(os.path.join(HERE, "assets", "thumbs"), exist_ok=True)
     W, H = 640, 400
-    for c in CARDS:
+    for c in CARDS + STATE_CARDS:
         im = Image.open(os.path.join(HERE, c["thumb"])).convert("RGB")
         im.thumbnail((W, H), Image.LANCZOS)
         canvas = Image.new("RGB", (W, H), (252, 252, 251))
@@ -205,11 +264,9 @@ def esc(s):
     return html.escape(s, quote=True)
 
 
-def card_html(c):
-    first_html = next((x["html"] for x in c["variants"] if x["html"]), None)
-    href = first_html or c["variants"][0]["png"]
+def variant_rows_html(variants):
     rows = []
-    for x in c["variants"]:
+    for x in variants:
         btns = []
         if x["html"]:
             weight = size_txt(x["html"]) if os.path.getsize(os.path.join(HERE, x["html"])) > 1e6 else ""
@@ -220,10 +277,12 @@ def card_html(c):
         for label, path in x["extra"]:
             btns.append(f'<a class="btn" href="{esc(path)}" title="{size_txt(path)}">{esc(label)}</a>')
         rows.append(f'<div class="variant"><span class="vlabel">{esc(x["label"])}</span><div class="btns">{"".join(btns)}</div></div>')
-    frames = ""
-    if c["id"] == "t-temporal":
-        links = "".join(f'<a href="{esc(p)}">{y}</a>' for y, p in FRAMES)
-        frames = f'<details class="frames"><summary>Frames by year (Gephi PNG)</summary><div class="yrs">{links}</div></details>'
+    return "".join(rows)
+
+
+def card_html(c):
+    first_html = next((x["html"] for x in c["variants"] if x["html"]), None)
+    href = first_html or c["variants"][0]["png"]
     text = f'{c["title"]} {c["desc"]} {c["type"]} {c["scope"]} {c["dataset"]} ' + " ".join(x["label"] for x in c["variants"])
     return f'''<article class="card" data-dataset="{esc(c["dataset"])}" data-scope="{esc(c["scope"])}" data-type="{esc(c["type"])}" data-text="{esc(text.lower())}">
   <a class="thumb" href="{esc(href)}" tabindex="-1" aria-hidden="true"><img src="assets/thumbs/{c["id"]}.jpg" alt="" width="640" height="400" loading="lazy"></a>
@@ -231,8 +290,31 @@ def card_html(c):
     <div class="tags"><span class="tag dataset-{esc(c["dataset"].lower())}">{esc(c["dataset"])}</span><span class="tag scope-{esc(c["scope"].lower())}">{esc(c["scope"])}</span><span class="tag">{esc(c["type"])}</span></div>
     <h3><a href="{esc(href)}">{esc(c["title"])}</a></h3>
     <p>{esc(c["desc"])}</p>
-    {"".join(rows)}
-    {frames}
+    {variant_rows_html(c["variants"])}
+  </div>
+</article>'''
+
+
+def state_card_html(c):
+    first_name = STATES[0]
+    first_slug = slugify(first_name)
+    opts = "".join(f'<option value="{esc(slugify(s))}">{esc(s)}</option>' for s in STATES)
+    blocks = []
+    for name in STATES:
+        slug = slugify(name)
+        variants = c["states"][name]["variants"]
+        hidden_attr = "" if slug == first_slug else " hidden"
+        blocks.append(f'<div class="svar" data-slug="{esc(slug)}"{hidden_attr}>{variant_rows_html(variants)}</div>')
+    first_href = next((x["html"] for x in c["states"][first_name]["variants"] if x["html"]), None)
+    text = f'{c["title"]} {c["desc"]} {c["type"]} State Pollutants ' + " ".join(STATES)
+    return f'''<article class="card" data-dataset="Pollutants" data-scope="State" data-type="{esc(c["type"])}" data-text="{esc(text.lower())}">
+  <a class="thumb" href="{esc(first_href)}" tabindex="-1" aria-hidden="true"><img src="assets/thumbs/{c["id"]}.jpg" alt="" width="640" height="400" loading="lazy"></a>
+  <div class="body">
+    <div class="tags"><span class="tag dataset-pollutants">Pollutants</span><span class="tag scope-state">State</span><span class="tag">{esc(c["type"])}</span></div>
+    <h3><a href="{esc(first_href)}">{esc(c["title"])}</a></h3>
+    <p>{esc(c["desc"])}</p>
+    <label class="statesel-lbl">State: <select class="statesel">{opts}</select></label>
+    {"".join(blocks)}
   </div>
 </article>'''
 
@@ -272,8 +354,10 @@ h2{font-size:1.35rem;margin:0 0 14px}
 .body{padding:14px 16px 16px;display:flex;flex-direction:column;gap:8px;flex:1}
 .tags{display:flex;gap:6px;flex-wrap:wrap}
 .tag{font-size:.74rem;text-transform:uppercase;letter-spacing:.04em;background:var(--chip);color:var(--ink2);border-radius:5px;padding:2px 7px}
-.tag.scope-national{background:var(--blue);color:#fff}.tag.scope-tamaulipas{background:var(--orange);color:#fff}
+.tag.scope-national{background:var(--blue);color:#fff}.tag.scope-state{background:var(--orange);color:#fff}
 .tag.dataset-pollutants{background:#1baf7a;color:#fff}.tag.dataset-mortality{background:#4a3aa7;color:#fff}
+.statesel-lbl{font-size:.85rem;color:var(--ink2);display:flex;align-items:center;gap:6px}
+.statesel{flex:1;padding:6px 8px;border:1px solid var(--line);border-radius:7px;background:var(--surface);color:var(--ink);font:inherit;font-size:.85rem}
 .card h3{margin:0;font-size:1.08rem;line-height:1.3}.card h3 a{color:var(--ink);text-decoration:none}.card h3 a:hover{text-decoration:underline}
 .card p{margin:0;color:var(--ink2);font-size:.92rem}
 .variant{border-top:1px dashed var(--line);padding-top:8px}
@@ -318,6 +402,16 @@ JS = """
     });
   });
   q.addEventListener('input',apply); apply();
+
+  [].forEach.call(document.querySelectorAll('.statesel'),function(sel){
+    sel.addEventListener('change',function(){
+      var card=sel.closest('.card');
+      [].forEach.call(card.querySelectorAll('.svar'),function(b){b.hidden=(b.dataset.slug!==sel.value);});
+      var shown=card.querySelector('.svar:not([hidden])');
+      var btn=shown.querySelector('.btn.primary')||shown.querySelector('.btn');
+      if(btn){var href=btn.getAttribute('href');card.querySelector('.thumb').setAttribute('href',href);card.querySelector('h3 a').setAttribute('href',href);}
+    });
+  });
 })();
 """
 
@@ -329,13 +423,17 @@ def main():
                  [p for x in c["variants"] for _, p in x["extra"]]:
             if not os.path.exists(os.path.join(HERE, f)):
                 missing.append(f)
-    missing += [p for _, p in FRAMES if not os.path.exists(os.path.join(HERE, p))]
+    for c in STATE_CARDS:
+        for st in c["states"].values():
+            for f in [p for x in st["variants"] for p in (x["html"], x["png"], x["pdf"], x["gexf"]) if p]:
+                if not os.path.exists(os.path.join(HERE, f)):
+                    missing.append(f)
     if missing:
         sys.exit("Missing files:\n  " + "\n  ".join(sorted(set(missing))))
     thumbs()
     s = stats()
     types = []
-    for c in CARDS:
+    for c in CARDS + STATE_CARDS:
         if c["type"] not in types:
             types.append(c["type"])
     key_label = {"dataset": "Dataset", "scope": "Scope", "type": "Type"}
@@ -358,9 +456,10 @@ def main():
   <h1>Mexico open data — interactive graphs</h1>
   <p class="lead">Two national datasets seen as networks. The <b>Registro de Emisiones y Transferencias Críticas</b> (RECT, {s["y0"]}–{s["y1"]}):
   which states and municipalities report which substances, which ones resemble each other, and how that changes year by year — at national
-  and Tamaulipas-state level. And Mexico's <b>official mortality records</b> (2000–2022, 53.7M entries): which states and municipalities
-  report which causes of death, by ICD chapter or specific code — national level only for now. Every graph opens as an interactive page
-  with a search box, or downloads as PNG, PDF and GEXF (for Gephi). Use the <b>Dataset</b> and <b>Scope</b> filters below to tell them apart.</p>
+  level, and at the level of each of the 32 states individually (pick one from the dropdown on each "State" card). And Mexico's
+  <b>official mortality records</b> (2000–2022, 53.7M entries): which states and municipalities report which causes of death, by ICD
+  chapter or specific code — national level only for now. Every graph opens as an interactive page with a search box, or downloads as
+  PNG, PDF and GEXF (for Gephi). Use the <b>Dataset</b> and <b>Scope</b> filters below to tell them apart.</p>
   <ul class="stats">
     <li><b>{s["estados"]}</b><span>RECT states</span></li>
     <li><b>{s["municipios"]:,}</b><span>RECT municipalities</span></li>
@@ -377,13 +476,14 @@ def main():
   <h2 id="h-graf">Graphs</h2>
   <div class="tools">
     {chips("dataset", ["Pollutants", "Mortality"])}
-    {chips("scope", ["National", "Tamaulipas"])}
+    {chips("scope", ["National", "State"])}
     {chips("type", types)}
-    <input id="q" type="search" placeholder="Search (e.g. temporal, metals, Altamira)…" aria-label="Search graphs">
+    <input id="q" type="search" placeholder="Search (e.g. temporal, metals, Jalisco)…" aria-label="Search graphs">
     <span id="count" aria-live="polite"></span>
   </div>
   <div class="grid">
 {chr(10).join(card_html(c) for c in CARDS)}
+{chr(10).join(state_card_html(c) for c in STATE_CARDS)}
   </div>
   <p id="empty" class="empty" hidden>No graph matches the filter.</p>
 </section>
@@ -435,10 +535,13 @@ def main():
     <p>Each folder holds the scripts and outputs for its graph. Shared modules live at the root: <code>prtr_hover.py</code> (tooltips), <code>prtr_i18n.py</code> (English translations for substances/media/sectors), <code>prtr_ui.py</code> and <code>ui_snippet.js</code> (search box and buttons), and <code>prtr_fa2_html.py</code>.
     The <code>prtr_raw_for_stori_stori.csv</code> dataset is not version-controlled: place it at the root to regenerate.</p>
 <pre>pip install networkx plotly matplotlib numpy scipy pillow
-python tamaulipas_graph/build_graph.py            # and the other build_*.py, fa2_html.py, assemble_temporal.py
 python nacional_gephi/nacional_html.py
+graphs_pollutants/build_state.sh "Jalisco"         # regenerates all 9 graph types for one state
 python build_index.py                             # this page</pre>
-    <p>The Gephi-rendered images (ForceAtlas2, Modularity, PDF/PNG) are produced by the Java programs in each folder together with <code>gephi-toolkit-0.10.1-all.jar</code>. See the project's <code>README.md</code> for details.</p>
+    <p><code>graphs_pollutants/build_state.sh</code> runs the full per-state pipeline (base GEXFs, ForceAtlas2/Modularity via the Gephi
+    Toolkit, HTML rendering) for any of the 32 states — it's what produced every graph under <code>graphs_pollutants/estados/</code>,
+    including Tamaulipas' own. The Gephi-rendered images (ForceAtlas2, Modularity, PDF/PNG) are produced by the Java programs in each
+    folder together with <code>gephi-toolkit-0.10.1-all.jar</code>. See the project's <code>README.md</code> for details.</p>
     <p>The mortality graphs live under <code>graphs_mortality/nacional_gephi/</code>, built by <code>build_mortality_national_gexf.py</code>
     and <code>mortality_national_html.py</code> from Mexico's raw mortality CSVs plus <code>inegi_catalogo_municipios.csv</code> (a name
     catalog fetched from INEGI's public geostatistics API), same Gephi Toolkit pipeline as RECT.</p></div></details>
@@ -451,7 +554,8 @@ python build_index.py                             # this page</pre>
 '''
     with open(os.path.join(HERE, "index.html"), "w", encoding="utf-8") as f:
         f.write(page)
-    print(f"Written index.html ({len(CARDS)} cards) and {len(CARDS)} thumbnails")
+    print(f"Written index.html ({len(CARDS)} cards + {len(STATE_CARDS)} state-selector cards covering {len(STATES)} states) "
+          f"and {len(CARDS) + len(STATE_CARDS)} thumbnails")
 
 
 if __name__ == "__main__":

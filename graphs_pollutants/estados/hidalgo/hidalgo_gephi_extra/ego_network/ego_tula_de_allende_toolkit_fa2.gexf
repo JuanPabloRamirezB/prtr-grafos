@@ -1,0 +1,870 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<gexf xmlns="http://gexf.net/1.3" version="1.3" xmlns:viz="http://gexf.net/1.3/viz" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://gexf.net/1.3 http://gexf.net/1.3/gexf.xsd">
+  <meta lastmodifieddate="2026-10-16">
+    <creator>Apache NetBeans Platform Dev (Build {0})</creator>
+    <title></title>
+    <description></description>
+  </meta>
+  <graph defaultedgetype="undirected" mode="static">
+    <attributes class="node" mode="static">
+      <attribute id="0" title="role" type="string"/>
+      <attribute id="1" title="total_kg" type="double"/>
+    </attributes>
+    <nodes>
+      <node id="Hidalgo.Tula de Allende" label="Hidalgo.Tula de Allende">
+        <attvalues>
+          <attvalue for="0" value="focal"/>
+          <attvalue for="1" value="1.2826259515348627E11"/>
+        </attvalues>
+        <viz:size value="40.0"/>
+        <viz:position x="69.532936" y="-74.25724"/>
+        <viz:color r="227" g="73" b="72"/>
+      </node>
+      <node id="Bióxido de carbono" label="Carbon dioxide">
+        <attvalues>
+          <attvalue for="0" value="substance"/>
+          <attvalue for="1" value="1.276351303329E11"/>
+        </attvalues>
+        <viz:size value="39.85324"/>
+        <viz:position x="147.94386" y="167.81891"/>
+        <viz:color r="235" g="104" b="52"/>
+      </node>
+      <node id="Metano" label="Methane">
+        <attvalues>
+          <attvalue for="0" value="substance"/>
+          <attvalue for="1" value="5.9734508103E8"/>
+        </attvalues>
+        <viz:size value="10.139716"/>
+        <viz:position x="335.68875" y="62.164093"/>
+        <viz:color r="235" g="104" b="52"/>
+      </node>
+      <node id="Bióxido de nitrógeno" label="Nitrogen dioxide">
+        <attvalues>
+          <attvalue for="0" value="substance"/>
+          <attvalue for="1" value="2.988525796E7"/>
+        </attvalues>
+        <viz:size value="10.0069895"/>
+        <viz:position x="142.75264" y="-173.66728"/>
+        <viz:color r="235" g="104" b="52"/>
+      </node>
+      <node id="Níquel (compuestos)" label="Nickel (compounds)">
+        <attvalues>
+          <attvalue for="0" value="substance"/>
+          <attvalue for="1" value="91306.78114958"/>
+        </attvalues>
+        <viz:size value="10.000021"/>
+        <viz:position x="-4.5784483" y="90.4682"/>
+        <viz:color r="235" g="104" b="52"/>
+      </node>
+      <node id="Formaldehido" label="Formaldehyde">
+        <attvalues>
+          <attvalue for="0" value="substance"/>
+          <attvalue for="1" value="41387.38966574999"/>
+        </attvalues>
+        <viz:size value="10.00001"/>
+        <viz:position x="305.5843" y="-193.61002"/>
+        <viz:color r="235" g="104" b="52"/>
+      </node>
+      <node id="Níquel (polvos respirables, humos o vapores)" label="Nickel (respirable dust, fumes or vapors)">
+        <attvalues>
+          <attvalue for="0" value="substance"/>
+          <attvalue for="1" value="34777.913"/>
+        </attvalues>
+        <viz:size value="10.000008"/>
+        <viz:position x="201.74855" y="-251.31975"/>
+        <viz:color r="235" g="104" b="52"/>
+      </node>
+      <node id="Bifenilos policlorados" label="Polychlorinated biphenyls (PCBs)">
+        <attvalues>
+          <attvalue for="0" value="substance"/>
+          <attvalue for="1" value="19370.0"/>
+        </attvalues>
+        <viz:size value="10.000004"/>
+        <viz:position x="54.646984" y="-344.97263"/>
+        <viz:color r="235" g="104" b="52"/>
+      </node>
+      <node id="Níquel (Compuestos solubles)" label="Nickel (soluble compounds)">
+        <attvalues>
+          <attvalue for="0" value="substance"/>
+          <attvalue for="1" value="11554.46649883"/>
+        </attvalues>
+        <viz:size value="10.000002"/>
+        <viz:position x="-231.43631" y="-151.08543"/>
+        <viz:color r="235" g="104" b="52"/>
+      </node>
+      <node id="Benceno" label="Benzene">
+        <attvalues>
+          <attvalue for="0" value="substance"/>
+          <attvalue for="1" value="11217.578435321631"/>
+        </attvalues>
+        <viz:size value="10.000002"/>
+        <viz:position x="285.57806" y="106.810455"/>
+        <viz:color r="235" g="104" b="52"/>
+      </node>
+      <node id="Arsénico (polvos, respirables, vapores o humos)" label="Arsenic (respirable dust, vapors or fumes)">
+        <attvalues>
+          <attvalue for="0" value="substance"/>
+          <attvalue for="1" value="7776.416827960001"/>
+        </attvalues>
+        <viz:size value="10.000002"/>
+        <viz:position x="23.765543" y="228.98326"/>
+        <viz:color r="235" g="104" b="52"/>
+      </node>
+      <node id="Cromo (compuestos)" label="Chromium (compounds)">
+        <attvalues>
+          <attvalue for="0" value="substance"/>
+          <attvalue for="1" value="6589.7239761870005"/>
+        </attvalues>
+        <viz:size value="10.000001"/>
+        <viz:position x="-99.16532" y="214.18298"/>
+        <viz:color r="235" g="104" b="52"/>
+      </node>
+      <node id="Plomo (compuestos)" label="Lead (compounds)">
+        <attvalues>
+          <attvalue for="0" value="substance"/>
+          <attvalue for="1" value="2114.6768299"/>
+        </attvalues>
+        <viz:size value="10.0"/>
+        <viz:position x="-205.24872" y="-10.188994"/>
+        <viz:color r="235" g="104" b="52"/>
+      </node>
+      <node id="Cianuro inorgánico/orgánico" label="Inorganic/organic cyanide">
+        <attvalues>
+          <attvalue for="0" value="substance"/>
+          <attvalue for="1" value="2108.19029420279"/>
+        </attvalues>
+        <viz:size value="10.0"/>
+        <viz:position x="-69.075386" y="-12.472442"/>
+        <viz:color r="235" g="104" b="52"/>
+      </node>
+      <node id="Cromo (Compuestos solubles)" label="Chromium (soluble compounds)">
+        <attvalues>
+          <attvalue for="0" value="substance"/>
+          <attvalue for="1" value="1918.0208386099998"/>
+        </attvalues>
+        <viz:size value="10.0"/>
+        <viz:position x="-78.940994" y="-270.17673"/>
+        <viz:color r="235" g="104" b="52"/>
+      </node>
+      <node id="Cadmio (polvos, respirables, vapores o humos)" label="Cadmium (respirable dust, vapors or fumes)">
+        <attvalues>
+          <attvalue for="0" value="substance"/>
+          <attvalue for="1" value="1583.0006118969998"/>
+        </attvalues>
+        <viz:size value="10.0"/>
+        <viz:position x="-163.20464" y="108.50367"/>
+        <viz:color r="235" g="104" b="52"/>
+      </node>
+      <node id="Hidalgo.Tepeapulco" label="Hidalgo.Tepeapulco">
+        <attvalues>
+          <attvalue for="0" value="peer_municipio"/>
+          <attvalue for="1" value="1.899130691926468E9"/>
+        </attvalues>
+        <viz:size value="10.444197"/>
+        <viz:position x="-131.07709" y="-125.92086"/>
+        <viz:color r="42" g="120" b="214"/>
+      </node>
+      <node id="Hidalgo.Atitalaquia" label="Hidalgo.Atitalaquia">
+        <attvalues>
+          <attvalue for="0" value="peer_municipio"/>
+          <attvalue for="1" value="1.6837649749504387E10"/>
+        </attvalues>
+        <viz:size value="13.938245"/>
+        <viz:position x="293.10422" y="-37.223164"/>
+        <viz:color r="42" g="120" b="214"/>
+      </node>
+      <node id="Hidalgo.Tizayuca" label="Hidalgo.Tizayuca">
+        <attvalues>
+          <attvalue for="0" value="peer_municipio"/>
+          <attvalue for="1" value="3.9369795224707065E9"/>
+        </attvalues>
+        <viz:size value="10.92084"/>
+        <viz:position x="110.08705" y="-270.09012"/>
+        <viz:color r="42" g="120" b="214"/>
+      </node>
+      <node id="Hidalgo.Atotonilco de Tula" label="Hidalgo.Atotonilco de Tula">
+        <attvalues>
+          <attvalue for="0" value="peer_municipio"/>
+          <attvalue for="1" value="1.5436097795662996E10"/>
+        </attvalues>
+        <viz:size value="13.610428"/>
+        <viz:position x="206.71584" y="28.264187"/>
+        <viz:color r="42" g="120" b="214"/>
+      </node>
+      <node id="Hidalgo.Xochicoatlán" label="Hidalgo.Xochicoatlán">
+        <attvalues>
+          <attvalue for="0" value="peer_municipio"/>
+          <attvalue for="1" value="3.374958502381096E7"/>
+        </attvalues>
+        <viz:size value="10.007894"/>
+        <viz:position x="-25.47316" y="-145.99136"/>
+        <viz:color r="42" g="120" b="214"/>
+      </node>
+      <node id="Hidalgo.Lolotla" label="Hidalgo.Lolotla">
+        <attvalues>
+          <attvalue for="0" value="peer_municipio"/>
+          <attvalue for="1" value="3.3032517506271973E9"/>
+        </attvalues>
+        <viz:size value="10.7726145"/>
+        <viz:position x="8.70653" y="-252.16644"/>
+        <viz:color r="42" g="120" b="214"/>
+      </node>
+      <node id="Hidalgo.Tepeji del Río de Ocampo" label="Hidalgo.Tepeji del Río de Ocampo">
+        <attvalues>
+          <attvalue for="0" value="peer_municipio"/>
+          <attvalue for="1" value="4.658124687102233E9"/>
+        </attvalues>
+        <viz:size value="11.089513"/>
+        <viz:position x="172.75719" y="-67.92355"/>
+        <viz:color r="42" g="120" b="214"/>
+      </node>
+      <node id="Hidalgo.Pachuca de Soto" label="Hidalgo.Pachuca de Soto">
+        <attvalues>
+          <attvalue for="0" value="peer_municipio"/>
+          <attvalue for="1" value="347439.2838348593"/>
+        </attvalues>
+        <viz:size value="10.000081"/>
+        <viz:position x="243.29568" y="-140.26537"/>
+        <viz:color r="42" g="120" b="214"/>
+      </node>
+      <node id="Hidalgo.San Agustín Tlaxiaca" label="Hidalgo.San Agustín Tlaxiaca">
+        <attvalues>
+          <attvalue for="0" value="peer_municipio"/>
+          <attvalue for="1" value="6809.5712815"/>
+        </attvalues>
+        <viz:size value="10.000001"/>
+        <viz:position x="108.34747" y="336.11932"/>
+        <viz:color r="42" g="120" b="214"/>
+      </node>
+      <node id="Hidalgo.Zimapán" label="Hidalgo.Zimapán">
+        <attvalues>
+          <attvalue for="0" value="peer_municipio"/>
+          <attvalue for="1" value="8665557.04111575"/>
+        </attvalues>
+        <viz:size value="10.002027"/>
+        <viz:position x="-184.95647" y="-247.27827"/>
+        <viz:color r="42" g="120" b="214"/>
+      </node>
+      <node id="Hidalgo.Tulancingo de Bravo" label="Hidalgo.Tulancingo de Bravo">
+        <attvalues>
+          <attvalue for="0" value="peer_municipio"/>
+          <attvalue for="1" value="567613.4682253088"/>
+        </attvalues>
+        <viz:size value="10.000133"/>
+        <viz:position x="-357.92535" y="-48.752136"/>
+        <viz:color r="42" g="120" b="214"/>
+      </node>
+      <node id="Hidalgo.Mineral de la Reforma" label="Hidalgo.Mineral de la Reforma">
+        <attvalues>
+          <attvalue for="0" value="peer_municipio"/>
+          <attvalue for="1" value="4003078.45347045"/>
+        </attvalues>
+        <viz:size value="10.000936"/>
+        <viz:position x="-323.15543" y="68.96757"/>
+        <viz:color r="42" g="120" b="214"/>
+      </node>
+      <node id="Hidalgo.Progreso de Obregón" label="Hidalgo.Progreso de Obregón">
+        <attvalues>
+          <attvalue for="0" value="peer_municipio"/>
+          <attvalue for="1" value="1.7700623745234377E9"/>
+        </attvalues>
+        <viz:size value="10.414009"/>
+        <viz:position x="219.55504" y="268.28146"/>
+        <viz:color r="42" g="120" b="214"/>
+      </node>
+      <node id="Hidalgo.Actopan" label="Hidalgo.Actopan">
+        <attvalues>
+          <attvalue for="0" value="peer_municipio"/>
+          <attvalue for="1" value="1.3778917660036E8"/>
+        </attvalues>
+        <viz:size value="10.0322275"/>
+        <viz:position x="-120.064514" y="374.03436"/>
+        <viz:color r="42" g="120" b="214"/>
+      </node>
+      <node id="Hidalgo.Tolcayuca" label="Hidalgo.Tolcayuca">
+        <attvalues>
+          <attvalue for="0" value="peer_municipio"/>
+          <attvalue for="1" value="4.093071733621642E7"/>
+        </attvalues>
+        <viz:size value="10.009573"/>
+        <viz:position x="-240.3715" y="275.34247"/>
+        <viz:color r="42" g="120" b="214"/>
+      </node>
+      <node id="Hidalgo.Huichapan" label="Hidalgo.Huichapan">
+        <attvalues>
+          <attvalue for="0" value="peer_municipio"/>
+          <attvalue for="1" value="1.68680593663199E10"/>
+        </attvalues>
+        <viz:size value="13.945357"/>
+        <viz:position x="115.25561" y="65.8705"/>
+        <viz:color r="42" g="120" b="214"/>
+      </node>
+      <node id="Hidalgo.Santiago de Anaya" label="Hidalgo.Santiago de Anaya">
+        <attvalues>
+          <attvalue for="0" value="peer_municipio"/>
+          <attvalue for="1" value="6.828524484582704E8"/>
+        </attvalues>
+        <viz:size value="10.159716"/>
+        <viz:position x="-307.11017" y="197.03989"/>
+        <viz:color r="42" g="120" b="214"/>
+      </node>
+    </nodes>
+    <edges>
+      <edge id="0" source="Hidalgo.Tula de Allende" target="Bióxido de carbono" weight="1.2763512832E11">
+        <viz:color r="137" g="135" b="129" a="0.54901963"/>
+      </edge>
+      <edge id="1" source="Hidalgo.Tula de Allende" target="Metano" weight="5.97345088E8">
+        <viz:color r="137" g="135" b="129" a="0.54901963"/>
+      </edge>
+      <edge id="2" source="Hidalgo.Tula de Allende" target="Bióxido de nitrógeno" weight="2.9885258E7">
+        <viz:color r="137" g="135" b="129" a="0.54901963"/>
+      </edge>
+      <edge id="3" source="Hidalgo.Tula de Allende" target="Níquel (compuestos)" weight="91306.78125">
+        <viz:color r="137" g="135" b="129" a="0.54901963"/>
+      </edge>
+      <edge id="4" source="Hidalgo.Tula de Allende" target="Formaldehido" weight="41387.390625">
+        <viz:color r="137" g="135" b="129" a="0.54901963"/>
+      </edge>
+      <edge id="5" source="Hidalgo.Tula de Allende" target="Níquel (polvos respirables, humos o vapores)" weight="34777.9140625">
+        <viz:color r="137" g="135" b="129" a="0.54901963"/>
+      </edge>
+      <edge id="6" source="Hidalgo.Tula de Allende" target="Bifenilos policlorados" weight="19370.0">
+        <viz:color r="137" g="135" b="129" a="0.54901963"/>
+      </edge>
+      <edge id="7" source="Hidalgo.Tula de Allende" target="Níquel (Compuestos solubles)" weight="11554.466796875">
+        <viz:color r="137" g="135" b="129" a="0.54901963"/>
+      </edge>
+      <edge id="8" source="Hidalgo.Tula de Allende" target="Benceno" weight="11217.578125">
+        <viz:color r="137" g="135" b="129" a="0.54901963"/>
+      </edge>
+      <edge id="9" source="Hidalgo.Tula de Allende" target="Arsénico (polvos, respirables, vapores o humos)" weight="7776.4169921875">
+        <viz:color r="137" g="135" b="129" a="0.54901963"/>
+      </edge>
+      <edge id="10" source="Hidalgo.Tula de Allende" target="Cromo (compuestos)" weight="6589.72412109375">
+        <viz:color r="137" g="135" b="129" a="0.54901963"/>
+      </edge>
+      <edge id="11" source="Hidalgo.Tula de Allende" target="Plomo (compuestos)" weight="2114.6767578125">
+        <viz:color r="137" g="135" b="129" a="0.54901963"/>
+      </edge>
+      <edge id="12" source="Hidalgo.Tula de Allende" target="Cianuro inorgánico/orgánico" weight="2108.190185546875">
+        <viz:color r="137" g="135" b="129" a="0.54901963"/>
+      </edge>
+      <edge id="13" source="Hidalgo.Tula de Allende" target="Cromo (Compuestos solubles)" weight="1918.0208740234375">
+        <viz:color r="137" g="135" b="129" a="0.54901963"/>
+      </edge>
+      <edge id="14" source="Hidalgo.Tula de Allende" target="Cadmio (polvos, respirables, vapores o humos)" weight="1583.0006103515625">
+        <viz:color r="137" g="135" b="129" a="0.54901963"/>
+      </edge>
+      <edge id="15" source="Bióxido de carbono" target="Hidalgo.Tepeapulco" weight="1.89908544E9">
+        <viz:color r="137" g="135" b="129" a="0.54901963"/>
+      </edge>
+      <edge id="16" source="Bióxido de carbono" target="Hidalgo.Atitalaquia" weight="1.6784933888E10">
+        <viz:color r="137" g="135" b="129" a="0.54901963"/>
+      </edge>
+      <edge id="17" source="Bióxido de carbono" target="Hidalgo.Tizayuca" weight="3.93697664E9">
+        <viz:color r="137" g="135" b="129" a="0.54901963"/>
+      </edge>
+      <edge id="18" source="Bióxido de carbono" target="Hidalgo.Atotonilco de Tula" weight="1.5407863808E10">
+        <viz:color r="137" g="135" b="129" a="0.54901963"/>
+      </edge>
+      <edge id="19" source="Bióxido de carbono" target="Hidalgo.Xochicoatlán" weight="3.3729364E7">
+        <viz:color r="137" g="135" b="129" a="0.54901963"/>
+      </edge>
+      <edge id="20" source="Bióxido de carbono" target="Hidalgo.Lolotla" weight="3.302168064E9">
+        <viz:color r="137" g="135" b="129" a="0.54901963"/>
+      </edge>
+      <edge id="21" source="Bióxido de carbono" target="Hidalgo.Tepeji del Río de Ocampo" weight="4.656338432E9">
+        <viz:color r="137" g="135" b="129" a="0.54901963"/>
+      </edge>
+      <edge id="22" source="Bióxido de carbono" target="Hidalgo.Pachuca de Soto" weight="347005.15625">
+        <viz:color r="137" g="135" b="129" a="0.54901963"/>
+      </edge>
+      <edge id="23" source="Bióxido de carbono" target="Hidalgo.San Agustín Tlaxiaca" weight="6241.31982421875">
+        <viz:color r="137" g="135" b="129" a="0.54901963"/>
+      </edge>
+      <edge id="24" source="Bióxido de carbono" target="Hidalgo.Zimapán" weight="1886868.0">
+        <viz:color r="137" g="135" b="129" a="0.54901963"/>
+      </edge>
+      <edge id="25" source="Bióxido de carbono" target="Hidalgo.Mineral de la Reforma" weight="4003064.0">
+        <viz:color r="137" g="135" b="129" a="0.54901963"/>
+      </edge>
+      <edge id="26" source="Bióxido de carbono" target="Hidalgo.Progreso de Obregón" weight="1.76972992E9">
+        <viz:color r="137" g="135" b="129" a="0.54901963"/>
+      </edge>
+      <edge id="27" source="Bióxido de carbono" target="Hidalgo.Actopan" weight="1.37789168E8">
+        <viz:color r="137" g="135" b="129" a="0.54901963"/>
+      </edge>
+      <edge id="28" source="Bióxido de carbono" target="Hidalgo.Tolcayuca" weight="4.0930704E7">
+        <viz:color r="137" g="135" b="129" a="0.54901963"/>
+      </edge>
+      <edge id="29" source="Bióxido de carbono" target="Hidalgo.Huichapan" weight="1.6867047424E10">
+        <viz:color r="137" g="135" b="129" a="0.54901963"/>
+      </edge>
+      <edge id="30" source="Bióxido de carbono" target="Hidalgo.Santiago de Anaya" weight="6.82850688E8">
+        <viz:color r="137" g="135" b="129" a="0.54901963"/>
+      </edge>
+      <edge id="31" source="Metano" target="Hidalgo.Atitalaquia" weight="5.2388532E7">
+        <viz:color r="137" g="135" b="129" a="0.54901963"/>
+      </edge>
+      <edge id="32" source="Metano" target="Hidalgo.Atotonilco de Tula" weight="2.7710228E7">
+        <viz:color r="137" g="135" b="129" a="0.54901963"/>
+      </edge>
+      <edge id="33" source="Metano" target="Hidalgo.Tepeji del Río de Ocampo" weight="637349.75">
+        <viz:color r="137" g="135" b="129" a="0.54901963"/>
+      </edge>
+      <edge id="34" source="Metano" target="Hidalgo.Progreso de Obregón" weight="332440.0">
+        <viz:color r="137" g="135" b="129" a="0.54901963"/>
+      </edge>
+      <edge id="35" source="Bióxido de nitrógeno" target="Hidalgo.Tizayuca" weight="79.19999694824219">
+        <viz:color r="137" g="135" b="129" a="0.54901963"/>
+      </edge>
+      <edge id="36" source="Bióxido de nitrógeno" target="Hidalgo.Atotonilco de Tula" weight="210196.96875">
+        <viz:color r="137" g="135" b="129" a="0.54901963"/>
+      </edge>
+      <edge id="37" source="Bióxido de nitrógeno" target="Hidalgo.Xochicoatlán" weight="20170.0">
+        <viz:color r="137" g="135" b="129" a="0.54901963"/>
+      </edge>
+      <edge id="38" source="Bióxido de nitrógeno" target="Hidalgo.Lolotla" weight="1056131.0">
+        <viz:color r="137" g="135" b="129" a="0.54901963"/>
+      </edge>
+      <edge id="39" source="Bióxido de nitrógeno" target="Hidalgo.Tepeji del Río de Ocampo" weight="1137923.0">
+        <viz:color r="137" g="135" b="129" a="0.54901963"/>
+      </edge>
+      <edge id="40" source="Bióxido de nitrógeno" target="Hidalgo.Huichapan" weight="826850.0">
+        <viz:color r="137" g="135" b="129" a="0.54901963"/>
+      </edge>
+      <edge id="41" source="Níquel (compuestos)" target="Hidalgo.Tepeapulco" weight="229.48594665527344">
+        <viz:color r="137" g="135" b="129" a="0.54901963"/>
+      </edge>
+      <edge id="42" source="Níquel (compuestos)" target="Hidalgo.Atitalaquia" weight="173556.171875">
+        <viz:color r="137" g="135" b="129" a="0.54901963"/>
+      </edge>
+      <edge id="43" source="Níquel (compuestos)" target="Hidalgo.Tizayuca" weight="272.22161865234375">
+        <viz:color r="137" g="135" b="129" a="0.54901963"/>
+      </edge>
+      <edge id="44" source="Níquel (compuestos)" target="Hidalgo.Atotonilco de Tula" weight="1.8872700929641724">
+        <viz:color r="137" g="135" b="129" a="0.54901963"/>
+      </edge>
+      <edge id="45" source="Níquel (compuestos)" target="Hidalgo.Xochicoatlán" weight="9.909344673156738">
+        <viz:color r="137" g="135" b="129" a="0.54901963"/>
+      </edge>
+      <edge id="46" source="Níquel (compuestos)" target="Hidalgo.Lolotla" weight="19.194978713989258">
+        <viz:color r="137" g="135" b="129" a="0.54901963"/>
+      </edge>
+      <edge id="47" source="Níquel (compuestos)" target="Hidalgo.Tepeji del Río de Ocampo" weight="188.7278289794922">
+        <viz:color r="137" g="135" b="129" a="0.54901963"/>
+      </edge>
+      <edge id="48" source="Níquel (compuestos)" target="Hidalgo.Pachuca de Soto" weight="13.654314994812012">
+        <viz:color r="137" g="135" b="129" a="0.54901963"/>
+      </edge>
+      <edge id="49" source="Níquel (compuestos)" target="Hidalgo.San Agustín Tlaxiaca" weight="0.14482200145721436">
+        <viz:color r="137" g="135" b="129" a="0.54901963"/>
+      </edge>
+      <edge id="50" source="Níquel (compuestos)" target="Hidalgo.Zimapán" weight="4.884796619415283">
+        <viz:color r="137" g="135" b="129" a="0.54901963"/>
+      </edge>
+      <edge id="51" source="Níquel (compuestos)" target="Hidalgo.Tulancingo de Bravo" weight="5.000300407409668">
+        <viz:color r="137" g="135" b="129" a="0.54901963"/>
+      </edge>
+      <edge id="52" source="Níquel (compuestos)" target="Hidalgo.Mineral de la Reforma" weight="0.16617000102996826">
+        <viz:color r="137" g="135" b="129" a="0.54901963"/>
+      </edge>
+      <edge id="53" source="Níquel (compuestos)" target="Hidalgo.Progreso de Obregón" weight="0.24508699774742126">
+        <viz:color r="137" g="135" b="129" a="0.54901963"/>
+      </edge>
+      <edge id="54" source="Níquel (compuestos)" target="Hidalgo.Actopan" weight="1.5839999914169312">
+        <viz:color r="137" g="135" b="129" a="0.54901963"/>
+      </edge>
+      <edge id="55" source="Níquel (compuestos)" target="Hidalgo.Tolcayuca" weight="2.2519009113311768">
+        <viz:color r="137" g="135" b="129" a="0.54901963"/>
+      </edge>
+      <edge id="56" source="Níquel (compuestos)" target="Hidalgo.Huichapan" weight="39.029998779296875">
+        <viz:color r="137" g="135" b="129" a="0.54901963"/>
+      </edge>
+      <edge id="57" source="Níquel (compuestos)" target="Hidalgo.Santiago de Anaya" weight="7.6505255699157715">
+        <viz:color r="137" g="135" b="129" a="0.54901963"/>
+      </edge>
+      <edge id="58" source="Formaldehido" target="Hidalgo.Atitalaquia" weight="50448.94921875">
+        <viz:color r="137" g="135" b="129" a="0.54901963"/>
+      </edge>
+      <edge id="59" source="Formaldehido" target="Hidalgo.Tizayuca" weight="510.7056579589844">
+        <viz:color r="137" g="135" b="129" a="0.54901963"/>
+      </edge>
+      <edge id="60" source="Formaldehido" target="Hidalgo.Tepeji del Río de Ocampo" weight="7400.0">
+        <viz:color r="137" g="135" b="129" a="0.54901963"/>
+      </edge>
+      <edge id="61" source="Formaldehido" target="Hidalgo.Pachuca de Soto" weight="2.2564001083374023">
+        <viz:color r="137" g="135" b="129" a="0.54901963"/>
+      </edge>
+      <edge id="62" source="Níquel (polvos respirables, humos o vapores)" target="Hidalgo.Tepeapulco" weight="43.03386306762695">
+        <viz:color r="137" g="135" b="129" a="0.54901963"/>
+      </edge>
+      <edge id="63" source="Níquel (polvos respirables, humos o vapores)" target="Hidalgo.Atitalaquia" weight="26301.5">
+        <viz:color r="137" g="135" b="129" a="0.54901963"/>
+      </edge>
+      <edge id="64" source="Níquel (polvos respirables, humos o vapores)" target="Hidalgo.Tizayuca" weight="34.3946647644043">
+        <viz:color r="137" g="135" b="129" a="0.54901963"/>
+      </edge>
+      <edge id="65" source="Níquel (polvos respirables, humos o vapores)" target="Hidalgo.Atotonilco de Tula" weight="1239.122802734375">
+        <viz:color r="137" g="135" b="129" a="0.54901963"/>
+      </edge>
+      <edge id="66" source="Níquel (polvos respirables, humos o vapores)" target="Hidalgo.Xochicoatlán" weight="40.423500061035156">
+        <viz:color r="137" g="135" b="129" a="0.54901963"/>
+      </edge>
+      <edge id="67" source="Níquel (polvos respirables, humos o vapores)" target="Hidalgo.Lolotla" weight="5.403500080108643">
+        <viz:color r="137" g="135" b="129" a="0.54901963"/>
+      </edge>
+      <edge id="68" source="Níquel (polvos respirables, humos o vapores)" target="Hidalgo.Pachuca de Soto" weight="43.49644088745117">
+        <viz:color r="137" g="135" b="129" a="0.54901963"/>
+      </edge>
+      <edge id="69" source="Bifenilos policlorados" target="Hidalgo.Tizayuca" weight="1.1346000064804684E-5">
+        <viz:color r="137" g="135" b="129" a="0.54901963"/>
+      </edge>
+      <edge id="70" source="Bifenilos policlorados" target="Hidalgo.Lolotla" weight="27328.0">
+        <viz:color r="137" g="135" b="129" a="0.54901963"/>
+      </edge>
+      <edge id="71" source="Bifenilos policlorados" target="Hidalgo.Pachuca de Soto" weight="160.0">
+        <viz:color r="137" g="135" b="129" a="0.54901963"/>
+      </edge>
+      <edge id="72" source="Bifenilos policlorados" target="Hidalgo.Zimapán" weight="3647.0">
+        <viz:color r="137" g="135" b="129" a="0.54901963"/>
+      </edge>
+      <edge id="73" source="Níquel (Compuestos solubles)" target="Hidalgo.Tepeapulco" weight="1600.3182373046875">
+        <viz:color r="137" g="135" b="129" a="0.54901963"/>
+      </edge>
+      <edge id="74" source="Níquel (Compuestos solubles)" target="Hidalgo.Atitalaquia" weight="49011.96875">
+        <viz:color r="137" g="135" b="129" a="0.54901963"/>
+      </edge>
+      <edge id="75" source="Níquel (Compuestos solubles)" target="Hidalgo.Tizayuca" weight="321.1307373046875">
+        <viz:color r="137" g="135" b="129" a="0.54901963"/>
+      </edge>
+      <edge id="76" source="Níquel (Compuestos solubles)" target="Hidalgo.Atotonilco de Tula" weight="63324.4296875">
+        <viz:color r="137" g="135" b="129" a="0.54901963"/>
+      </edge>
+      <edge id="77" source="Níquel (Compuestos solubles)" target="Hidalgo.Xochicoatlán" weight="0.06306788325309753">
+        <viz:color r="137" g="135" b="129" a="0.54901963"/>
+      </edge>
+      <edge id="78" source="Níquel (Compuestos solubles)" target="Hidalgo.Lolotla" weight="15.043225288391113">
+        <viz:color r="137" g="135" b="129" a="0.54901963"/>
+      </edge>
+      <edge id="79" source="Níquel (Compuestos solubles)" target="Hidalgo.Tepeji del Río de Ocampo" weight="376.8139953613281">
+        <viz:color r="137" g="135" b="129" a="0.54901963"/>
+      </edge>
+      <edge id="80" source="Níquel (Compuestos solubles)" target="Hidalgo.Zimapán" weight="87.16449737548828">
+        <viz:color r="137" g="135" b="129" a="0.54901963"/>
+      </edge>
+      <edge id="81" source="Níquel (Compuestos solubles)" target="Hidalgo.Tulancingo de Bravo" weight="75.89669799804688">
+        <viz:color r="137" g="135" b="129" a="0.54901963"/>
+      </edge>
+      <edge id="82" source="Níquel (Compuestos solubles)" target="Hidalgo.Mineral de la Reforma" weight="9.202199935913086">
+        <viz:color r="137" g="135" b="129" a="0.54901963"/>
+      </edge>
+      <edge id="83" source="Níquel (Compuestos solubles)" target="Hidalgo.Tolcayuca" weight="10.396200180053711">
+        <viz:color r="137" g="135" b="129" a="0.54901963"/>
+      </edge>
+      <edge id="84" source="Níquel (Compuestos solubles)" target="Hidalgo.Santiago de Anaya" weight="1555.53076171875">
+        <viz:color r="137" g="135" b="129" a="0.54901963"/>
+      </edge>
+      <edge id="85" source="Benceno" target="Hidalgo.Atitalaquia" weight="538.0">
+        <viz:color r="137" g="135" b="129" a="0.54901963"/>
+      </edge>
+      <edge id="86" source="Benceno" target="Hidalgo.Atotonilco de Tula" weight="122098.6171875">
+        <viz:color r="137" g="135" b="129" a="0.54901963"/>
+      </edge>
+      <edge id="87" source="Benceno" target="Hidalgo.Pachuca de Soto" weight="54.43600082397461">
+        <viz:color r="137" g="135" b="129" a="0.54901963"/>
+      </edge>
+      <edge id="88" source="Benceno" target="Hidalgo.San Agustín Tlaxiaca" weight="567.0">
+        <viz:color r="137" g="135" b="129" a="0.54901963"/>
+      </edge>
+      <edge id="89" source="Benceno" target="Hidalgo.Huichapan" weight="183564.65625">
+        <viz:color r="137" g="135" b="129" a="0.54901963"/>
+      </edge>
+      <edge id="90" source="Arsénico (polvos, respirables, vapores o humos)" target="Hidalgo.Tepeapulco" weight="50.758819580078125">
+        <viz:color r="137" g="135" b="129" a="0.54901963"/>
+      </edge>
+      <edge id="91" source="Arsénico (polvos, respirables, vapores o humos)" target="Hidalgo.Atitalaquia" weight="15767.5615234375">
+        <viz:color r="137" g="135" b="129" a="0.54901963"/>
+      </edge>
+      <edge id="92" source="Arsénico (polvos, respirables, vapores o humos)" target="Hidalgo.Tizayuca" weight="6.907573223114014">
+        <viz:color r="137" g="135" b="129" a="0.54901963"/>
+      </edge>
+      <edge id="93" source="Arsénico (polvos, respirables, vapores o humos)" target="Hidalgo.Atotonilco de Tula" weight="215.75341796875">
+        <viz:color r="137" g="135" b="129" a="0.54901963"/>
+      </edge>
+      <edge id="94" source="Arsénico (polvos, respirables, vapores o humos)" target="Hidalgo.Xochicoatlán" weight="0.002178290393203497">
+        <viz:color r="137" g="135" b="129" a="0.54901963"/>
+      </edge>
+      <edge id="95" source="Arsénico (polvos, respirables, vapores o humos)" target="Hidalgo.Lolotla" weight="0.9791736006736755">
+        <viz:color r="137" g="135" b="129" a="0.54901963"/>
+      </edge>
+      <edge id="96" source="Arsénico (polvos, respirables, vapores o humos)" target="Hidalgo.Tepeji del Río de Ocampo" weight="110.43177032470703">
+        <viz:color r="137" g="135" b="129" a="0.54901963"/>
+      </edge>
+      <edge id="97" source="Arsénico (polvos, respirables, vapores o humos)" target="Hidalgo.Pachuca de Soto" weight="1.014808177947998">
+        <viz:color r="137" g="135" b="129" a="0.54901963"/>
+      </edge>
+      <edge id="98" source="Arsénico (polvos, respirables, vapores o humos)" target="Hidalgo.San Agustín Tlaxiaca" weight="0.001152500044554472">
+        <viz:color r="137" g="135" b="129" a="0.54901963"/>
+      </edge>
+      <edge id="99" source="Arsénico (polvos, respirables, vapores o humos)" target="Hidalgo.Zimapán" weight="5932632.5">
+        <viz:color r="137" g="135" b="129" a="0.54901963"/>
+      </edge>
+      <edge id="100" source="Arsénico (polvos, respirables, vapores o humos)" target="Hidalgo.Tulancingo de Bravo" weight="9.999999747378752E-6">
+        <viz:color r="137" g="135" b="129" a="0.54901963"/>
+      </edge>
+      <edge id="101" source="Arsénico (polvos, respirables, vapores o humos)" target="Hidalgo.Mineral de la Reforma" weight="0.0014799999771639705">
+        <viz:color r="137" g="135" b="129" a="0.54901963"/>
+      </edge>
+      <edge id="102" source="Arsénico (polvos, respirables, vapores o humos)" target="Hidalgo.Progreso de Obregón" weight="0.0023361900821328163">
+        <viz:color r="137" g="135" b="129" a="0.54901963"/>
+      </edge>
+      <edge id="103" source="Arsénico (polvos, respirables, vapores o humos)" target="Hidalgo.Actopan" weight="0.00395999988541007">
+        <viz:color r="137" g="135" b="129" a="0.54901963"/>
+      </edge>
+      <edge id="104" source="Arsénico (polvos, respirables, vapores o humos)" target="Hidalgo.Tolcayuca" weight="0.007253279909491539">
+        <viz:color r="137" g="135" b="129" a="0.54901963"/>
+      </edge>
+      <edge id="105" source="Arsénico (polvos, respirables, vapores o humos)" target="Hidalgo.Huichapan" weight="160.34226989746094">
+        <viz:color r="137" g="135" b="129" a="0.54901963"/>
+      </edge>
+      <edge id="106" source="Arsénico (polvos, respirables, vapores o humos)" target="Hidalgo.Santiago de Anaya" weight="136.7755584716797">
+        <viz:color r="137" g="135" b="129" a="0.54901963"/>
+      </edge>
+      <edge id="107" source="Cromo (compuestos)" target="Hidalgo.Tepeapulco" weight="249.6532440185547">
+        <viz:color r="137" g="135" b="129" a="0.54901963"/>
+      </edge>
+      <edge id="108" source="Cromo (compuestos)" target="Hidalgo.Atitalaquia" weight="580.4341430664062">
+        <viz:color r="137" g="135" b="129" a="0.54901963"/>
+      </edge>
+      <edge id="109" source="Cromo (compuestos)" target="Hidalgo.Tizayuca" weight="159.44541931152344">
+        <viz:color r="137" g="135" b="129" a="0.54901963"/>
+      </edge>
+      <edge id="110" source="Cromo (compuestos)" target="Hidalgo.Atotonilco de Tula" weight="452.10260009765625">
+        <viz:color r="137" g="135" b="129" a="0.54901963"/>
+      </edge>
+      <edge id="111" source="Cromo (compuestos)" target="Hidalgo.Xochicoatlán" weight="1.0407562255859375">
+        <viz:color r="137" g="135" b="129" a="0.54901963"/>
+      </edge>
+      <edge id="112" source="Cromo (compuestos)" target="Hidalgo.Lolotla" weight="19.03520393371582">
+        <viz:color r="137" g="135" b="129" a="0.54901963"/>
+      </edge>
+      <edge id="113" source="Cromo (compuestos)" target="Hidalgo.Tepeji del Río de Ocampo" weight="57.04487609863281">
+        <viz:color r="137" g="135" b="129" a="0.54901963"/>
+      </edge>
+      <edge id="114" source="Cromo (compuestos)" target="Hidalgo.Pachuca de Soto" weight="0.03241420164704323">
+        <viz:color r="137" g="135" b="129" a="0.54901963"/>
+      </edge>
+      <edge id="115" source="Cromo (compuestos)" target="Hidalgo.San Agustín Tlaxiaca" weight="0.4603999853134155">
+        <viz:color r="137" g="135" b="129" a="0.54901963"/>
+      </edge>
+      <edge id="116" source="Cromo (compuestos)" target="Hidalgo.Zimapán" weight="0.743162989616394">
+        <viz:color r="137" g="135" b="129" a="0.54901963"/>
+      </edge>
+      <edge id="117" source="Cromo (compuestos)" target="Hidalgo.Tulancingo de Bravo" weight="2.000040054321289">
+        <viz:color r="137" g="135" b="129" a="0.54901963"/>
+      </edge>
+      <edge id="118" source="Cromo (compuestos)" target="Hidalgo.Mineral de la Reforma" weight="0.08771999925374985">
+        <viz:color r="137" g="135" b="129" a="0.54901963"/>
+      </edge>
+      <edge id="119" source="Cromo (compuestos)" target="Hidalgo.Progreso de Obregón" weight="0.08348905295133591">
+        <viz:color r="137" g="135" b="129" a="0.54901963"/>
+      </edge>
+      <edge id="120" source="Cromo (compuestos)" target="Hidalgo.Actopan" weight="1.3200000524520874">
+        <viz:color r="137" g="135" b="129" a="0.54901963"/>
+      </edge>
+      <edge id="121" source="Cromo (compuestos)" target="Hidalgo.Tolcayuca" weight="0.11546207964420319">
+        <viz:color r="137" g="135" b="129" a="0.54901963"/>
+      </edge>
+      <edge id="122" source="Cromo (compuestos)" target="Hidalgo.Huichapan" weight="636.7188110351562">
+        <viz:color r="137" g="135" b="129" a="0.54901963"/>
+      </edge>
+      <edge id="123" source="Cromo (compuestos)" target="Hidalgo.Santiago de Anaya" weight="7.884000078774989E-4">
+        <viz:color r="137" g="135" b="129" a="0.54901963"/>
+      </edge>
+      <edge id="124" source="Plomo (compuestos)" target="Hidalgo.Tepeapulco" weight="226.60511779785156">
+        <viz:color r="137" g="135" b="129" a="0.54901963"/>
+      </edge>
+      <edge id="125" source="Plomo (compuestos)" target="Hidalgo.Atitalaquia" weight="1434.740234375">
+        <viz:color r="137" g="135" b="129" a="0.54901963"/>
+      </edge>
+      <edge id="126" source="Plomo (compuestos)" target="Hidalgo.Tizayuca" weight="1296.4564208984375">
+        <viz:color r="137" g="135" b="129" a="0.54901963"/>
+      </edge>
+      <edge id="127" source="Plomo (compuestos)" target="Hidalgo.Atotonilco de Tula" weight="1368.065673828125">
+        <viz:color r="137" g="135" b="129" a="0.54901963"/>
+      </edge>
+      <edge id="128" source="Plomo (compuestos)" target="Hidalgo.Xochicoatlán" weight="0.878528892993927">
+        <viz:color r="137" g="135" b="129" a="0.54901963"/>
+      </edge>
+      <edge id="129" source="Plomo (compuestos)" target="Hidalgo.Lolotla" weight="28.7108154296875">
+        <viz:color r="137" g="135" b="129" a="0.54901963"/>
+      </edge>
+      <edge id="130" source="Plomo (compuestos)" target="Hidalgo.Tepeji del Río de Ocampo" weight="2402.7080078125">
+        <viz:color r="137" g="135" b="129" a="0.54901963"/>
+      </edge>
+      <edge id="131" source="Plomo (compuestos)" target="Hidalgo.Pachuca de Soto" weight="83.15097045898438">
+        <viz:color r="137" g="135" b="129" a="0.54901963"/>
+      </edge>
+      <edge id="132" source="Plomo (compuestos)" target="Hidalgo.San Agustín Tlaxiaca" weight="0.5505059957504272">
+        <viz:color r="137" g="135" b="129" a="0.54901963"/>
+      </edge>
+      <edge id="133" source="Plomo (compuestos)" target="Hidalgo.Zimapán" weight="842300.8125">
+        <viz:color r="137" g="135" b="129" a="0.54901963"/>
+      </edge>
+      <edge id="134" source="Plomo (compuestos)" target="Hidalgo.Tulancingo de Bravo" weight="567443.0">
+        <viz:color r="137" g="135" b="129" a="0.54901963"/>
+      </edge>
+      <edge id="135" source="Plomo (compuestos)" target="Hidalgo.Mineral de la Reforma" weight="0.3887999951839447">
+        <viz:color r="137" g="135" b="129" a="0.54901963"/>
+      </edge>
+      <edge id="136" source="Plomo (compuestos)" target="Hidalgo.Progreso de Obregón" weight="0.35001400113105774">
+        <viz:color r="137" g="135" b="129" a="0.54901963"/>
+      </edge>
+      <edge id="137" source="Plomo (compuestos)" target="Hidalgo.Actopan" weight="4.0920000076293945">
+        <viz:color r="137" g="135" b="129" a="0.54901963"/>
+      </edge>
+      <edge id="138" source="Plomo (compuestos)" target="Hidalgo.Tolcayuca" weight="1.2205584049224854">
+        <viz:color r="137" g="135" b="129" a="0.54901963"/>
+      </edge>
+      <edge id="139" source="Plomo (compuestos)" target="Hidalgo.Huichapan" weight="1057.5479736328125">
+        <viz:color r="137" g="135" b="129" a="0.54901963"/>
+      </edge>
+      <edge id="140" source="Plomo (compuestos)" target="Hidalgo.Santiago de Anaya" weight="5.255999858491123E-4">
+        <viz:color r="137" g="135" b="129" a="0.54901963"/>
+      </edge>
+      <edge id="141" source="Cianuro inorgánico/orgánico" target="Hidalgo.Tepeapulco" weight="23.8381404876709">
+        <viz:color r="137" g="135" b="129" a="0.54901963"/>
+      </edge>
+      <edge id="142" source="Cianuro inorgánico/orgánico" target="Hidalgo.Atitalaquia" weight="802.5765991210938">
+        <viz:color r="137" g="135" b="129" a="0.54901963"/>
+      </edge>
+      <edge id="143" source="Cianuro inorgánico/orgánico" target="Hidalgo.Tizayuca" weight="35.77473449707031">
+        <viz:color r="137" g="135" b="129" a="0.54901963"/>
+      </edge>
+      <edge id="144" source="Cianuro inorgánico/orgánico" target="Hidalgo.Atotonilco de Tula" weight="78320.640625">
+        <viz:color r="137" g="135" b="129" a="0.54901963"/>
+      </edge>
+      <edge id="145" source="Cianuro inorgánico/orgánico" target="Hidalgo.Xochicoatlán" weight="0.046013619750738144">
+        <viz:color r="137" g="135" b="129" a="0.54901963"/>
+      </edge>
+      <edge id="146" source="Cianuro inorgánico/orgánico" target="Hidalgo.Lolotla" weight="1.692512035369873">
+        <viz:color r="137" g="135" b="129" a="0.54901963"/>
+      </edge>
+      <edge id="147" source="Cianuro inorgánico/orgánico" target="Hidalgo.Tepeji del Río de Ocampo" weight="114.8696060180664">
+        <viz:color r="137" g="135" b="129" a="0.54901963"/>
+      </edge>
+      <edge id="148" source="Cianuro inorgánico/orgánico" target="Hidalgo.Pachuca de Soto" weight="0.08579780161380768">
+        <viz:color r="137" g="135" b="129" a="0.54901963"/>
+      </edge>
+      <edge id="149" source="Cianuro inorgánico/orgánico" target="Hidalgo.San Agustín Tlaxiaca" weight="0.034276001155376434">
+        <viz:color r="137" g="135" b="129" a="0.54901963"/>
+      </edge>
+      <edge id="150" source="Cianuro inorgánico/orgánico" target="Hidalgo.Zimapán" weight="1.1028823852539062">
+        <viz:color r="137" g="135" b="129" a="0.54901963"/>
+      </edge>
+      <edge id="151" source="Cianuro inorgánico/orgánico" target="Hidalgo.Tulancingo de Bravo" weight="2.4564800696680322E-5">
+        <viz:color r="137" g="135" b="129" a="0.54901963"/>
+      </edge>
+      <edge id="152" source="Cianuro inorgánico/orgánico" target="Hidalgo.Mineral de la Reforma" weight="0.002400000113993883">
+        <viz:color r="137" g="135" b="129" a="0.54901963"/>
+      </edge>
+      <edge id="153" source="Cianuro inorgánico/orgánico" target="Hidalgo.Progreso de Obregón" weight="0.10520199686288834">
+        <viz:color r="137" g="135" b="129" a="0.54901963"/>
+      </edge>
+      <edge id="154" source="Cianuro inorgánico/orgánico" target="Hidalgo.Actopan" weight="0.026399999856948853">
+        <viz:color r="137" g="135" b="129" a="0.54901963"/>
+      </edge>
+      <edge id="155" source="Cianuro inorgánico/orgánico" target="Hidalgo.Tolcayuca" weight="0.5433058738708496">
+        <viz:color r="137" g="135" b="129" a="0.54901963"/>
+      </edge>
+      <edge id="156" source="Cianuro inorgánico/orgánico" target="Hidalgo.Santiago de Anaya" weight="1.0514000314287841E-4">
+        <viz:color r="137" g="135" b="129" a="0.54901963"/>
+      </edge>
+      <edge id="157" source="Cromo (Compuestos solubles)" target="Hidalgo.Tepeapulco" weight="647.4721069335938">
+        <viz:color r="137" g="135" b="129" a="0.54901963"/>
+      </edge>
+      <edge id="158" source="Cromo (Compuestos solubles)" target="Hidalgo.Atitalaquia" weight="7784.9375">
+        <viz:color r="137" g="135" b="129" a="0.54901963"/>
+      </edge>
+      <edge id="159" source="Cromo (Compuestos solubles)" target="Hidalgo.Tizayuca" weight="56.79327392578125">
+        <viz:color r="137" g="135" b="129" a="0.54901963"/>
+      </edge>
+      <edge id="160" source="Cromo (Compuestos solubles)" target="Hidalgo.Atotonilco de Tula" weight="45852.56640625">
+        <viz:color r="137" g="135" b="129" a="0.54901963"/>
+      </edge>
+      <edge id="161" source="Cromo (Compuestos solubles)" target="Hidalgo.Xochicoatlán" weight="0.07384588569402695">
+        <viz:color r="137" g="135" b="129" a="0.54901963"/>
+      </edge>
+      <edge id="162" source="Cromo (Compuestos solubles)" target="Hidalgo.Lolotla" weight="15.306015014648438">
+        <viz:color r="137" g="135" b="129" a="0.54901963"/>
+      </edge>
+      <edge id="163" source="Cromo (Compuestos solubles)" target="Hidalgo.Tepeji del Río de Ocampo" weight="398.80828857421875">
+        <viz:color r="137" g="135" b="129" a="0.54901963"/>
+      </edge>
+      <edge id="164" source="Cromo (Compuestos solubles)" target="Hidalgo.Zimapán" weight="10.177900314331055">
+        <viz:color r="137" g="135" b="129" a="0.54901963"/>
+      </edge>
+      <edge id="165" source="Cromo (Compuestos solubles)" target="Hidalgo.Tulancingo de Bravo" weight="87.57060241699219">
+        <viz:color r="137" g="135" b="129" a="0.54901963"/>
+      </edge>
+      <edge id="166" source="Cromo (Compuestos solubles)" target="Hidalgo.Mineral de la Reforma" weight="4.601099967956543">
+        <viz:color r="137" g="135" b="129" a="0.54901963"/>
+      </edge>
+      <edge id="167" source="Cromo (Compuestos solubles)" target="Hidalgo.Huichapan" weight="19.700000762939453">
+        <viz:color r="137" g="135" b="129" a="0.54901963"/>
+      </edge>
+      <edge id="168" source="Cadmio (polvos, respirables, vapores o humos)" target="Hidalgo.Tepeapulco" weight="42152.609375">
+        <viz:color r="137" g="135" b="129" a="0.54901963"/>
+      </edge>
+      <edge id="169" source="Cadmio (polvos, respirables, vapores o humos)" target="Hidalgo.Atitalaquia" weight="904.5519409179688">
+        <viz:color r="137" g="135" b="129" a="0.54901963"/>
+      </edge>
+      <edge id="170" source="Cadmio (polvos, respirables, vapores o humos)" target="Hidalgo.Tizayuca" weight="86.02880096435547">
+        <viz:color r="137" g="135" b="129" a="0.54901963"/>
+      </edge>
+      <edge id="171" source="Cadmio (polvos, respirables, vapores o humos)" target="Hidalgo.Atotonilco de Tula" weight="692.6272583007812">
+        <viz:color r="137" g="135" b="129" a="0.54901963"/>
+      </edge>
+      <edge id="172" source="Cadmio (polvos, respirables, vapores o humos)" target="Hidalgo.Xochicoatlán" weight="0.21657556295394897">
+        <viz:color r="137" g="135" b="129" a="0.54901963"/>
+      </edge>
+      <edge id="173" source="Cadmio (polvos, respirables, vapores o humos)" target="Hidalgo.Lolotla" weight="11.261771202087402">
+        <viz:color r="137" g="135" b="129" a="0.54901963"/>
+      </edge>
+      <edge id="174" source="Cadmio (polvos, respirables, vapores o humos)" target="Hidalgo.Tepeji del Río de Ocampo" weight="24.81621551513672">
+        <viz:color r="137" g="135" b="129" a="0.54901963"/>
+      </edge>
+      <edge id="175" source="Cadmio (polvos, respirables, vapores o humos)" target="Hidalgo.Pachuca de Soto" weight="75.99419403076172">
+        <viz:color r="137" g="135" b="129" a="0.54901963"/>
+      </edge>
+      <edge id="176" source="Cadmio (polvos, respirables, vapores o humos)" target="Hidalgo.San Agustín Tlaxiaca" weight="0.06012500077486038">
+        <viz:color r="137" g="135" b="129" a="0.54901963"/>
+      </edge>
+      <edge id="177" source="Cadmio (polvos, respirables, vapores o humos)" target="Hidalgo.Zimapán" weight="4.630725860595703">
+        <viz:color r="137" g="135" b="129" a="0.54901963"/>
+      </edge>
+      <edge id="178" source="Cadmio (polvos, respirables, vapores o humos)" target="Hidalgo.Tulancingo de Bravo" weight="9.999999747378752E-5">
+        <viz:color r="137" g="135" b="129" a="0.54901963"/>
+      </edge>
+      <edge id="179" source="Cadmio (polvos, respirables, vapores o humos)" target="Hidalgo.Mineral de la Reforma" weight="0.003599999938160181">
+        <viz:color r="137" g="135" b="129" a="0.54901963"/>
+      </edge>
+      <edge id="180" source="Cadmio (polvos, respirables, vapores o humos)" target="Hidalgo.Progreso de Obregón" weight="0.08030950278043747">
+        <viz:color r="137" g="135" b="129" a="0.54901963"/>
+      </edge>
+      <edge id="181" source="Cadmio (polvos, respirables, vapores o humos)" target="Hidalgo.Actopan" weight="0.2639999985694885">
+        <viz:color r="137" g="135" b="129" a="0.54901963"/>
+      </edge>
+      <edge id="182" source="Cadmio (polvos, respirables, vapores o humos)" target="Hidalgo.Tolcayuca" weight="0.031536001712083817">
+        <viz:color r="137" g="135" b="129" a="0.54901963"/>
+      </edge>
+      <edge id="183" source="Cadmio (polvos, respirables, vapores o humos)" target="Hidalgo.Huichapan" weight="38.32200622558594">
+        <viz:color r="137" g="135" b="129" a="0.54901963"/>
+      </edge>
+      <edge id="184" source="Cadmio (polvos, respirables, vapores o humos)" target="Hidalgo.Santiago de Anaya" weight="32.5000114440918">
+        <viz:color r="137" g="135" b="129" a="0.54901963"/>
+      </edge>
+    </edges>
+  </graph>
+</gexf>

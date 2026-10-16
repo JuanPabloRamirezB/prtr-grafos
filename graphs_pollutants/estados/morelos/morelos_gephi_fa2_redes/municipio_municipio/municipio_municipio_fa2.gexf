@@ -1,0 +1,209 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<gexf xmlns="http://gexf.net/1.3" version="1.3" xmlns:viz="http://gexf.net/1.3/viz" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://gexf.net/1.3 http://gexf.net/1.3/gexf.xsd">
+  <meta lastmodifieddate="2026-10-16">
+    <creator>Apache NetBeans Platform Dev (Build {0})</creator>
+    <title></title>
+    <description></description>
+  </meta>
+  <graph defaultedgetype="undirected" mode="static">
+    <attributes class="node" mode="static">
+      <attribute id="0" title="total_kg" type="double"/>
+      <attribute id="modularity_class" title="Modularity Class" type="integer">
+        <default>0</default>
+      </attribute>
+    </attributes>
+    <nodes>
+      <node id="Morelos.Atlatlahucan" label="Morelos.Atlatlahucan">
+        <attvalues>
+          <attvalue for="0" value="2718432.7"/>
+          <attvalue for="modularity_class" value="0"/>
+        </attvalues>
+        <viz:size value="8.102404"/>
+        <viz:position x="19.82515" y="3.3138695"/>
+        <viz:color r="42" g="120" b="214"/>
+      </node>
+      <node id="Morelos.Cuautla" label="Morelos.Cuautla">
+        <attvalues>
+          <attvalue for="0" value="282588.98843391"/>
+          <attvalue for="modularity_class" value="0"/>
+        </attvalues>
+        <viz:size value="8.10025"/>
+        <viz:position x="14.069969" y="68.182175"/>
+        <viz:color r="42" g="120" b="214"/>
+      </node>
+      <node id="Morelos.Puente de Ixtla" label="Morelos.Puente de Ixtla">
+        <attvalues>
+          <attvalue for="0" value="279.85998431999997"/>
+          <attvalue for="modularity_class" value="0"/>
+        </attvalues>
+        <viz:size value="8.1"/>
+        <viz:position x="56.090714" y="0.0"/>
+        <viz:color r="42" g="120" b="214"/>
+      </node>
+      <node id="Morelos.Tlaltizapán de Zapata" label="Morelos.Tlaltizapán de Zapata">
+        <attvalues>
+          <attvalue for="0" value="1676685.44"/>
+          <attvalue for="modularity_class" value="0"/>
+        </attvalues>
+        <viz:size value="8.101482"/>
+        <viz:position x="0.0" y="31.384073"/>
+        <viz:color r="42" g="120" b="214"/>
+      </node>
+      <node id="Morelos.Xochitepec" label="Morelos.Xochitepec">
+        <attvalues>
+          <attvalue for="0" value="6489221.720785681"/>
+          <attvalue for="modularity_class" value="0"/>
+        </attvalues>
+        <viz:size value="8.105737"/>
+        <viz:position x="69.66381" y="30.543295"/>
+        <viz:color r="42" g="120" b="214"/>
+      </node>
+      <node id="Morelos.Yautepec" label="Morelos.Yautepec">
+        <attvalues>
+          <attvalue for="0" value="7365252.614504"/>
+          <attvalue for="modularity_class" value="0"/>
+        </attvalues>
+        <viz:size value="8.106511"/>
+        <viz:position x="36.398987" y="37.234386"/>
+        <viz:color r="42" g="120" b="214"/>
+      </node>
+      <node id="Morelos.Yecapixtla" label="Morelos.Yecapixtla">
+        <attvalues>
+          <attvalue for="0" value="2.1024975199259853E9"/>
+          <attvalue for="modularity_class" value="1"/>
+        </attvalues>
+        <viz:size value="9.958706"/>
+        <viz:position x="57.77398" y="70.02324"/>
+        <viz:color r="235" g="104" b="52"/>
+      </node>
+      <node id="Morelos.Ayala" label="Morelos.Ayala">
+        <attvalues>
+          <attvalue for="0" value="2.945283786725983E9"/>
+          <attvalue for="modularity_class" value="1"/>
+        </attvalues>
+        <viz:size value="10.703769"/>
+        <viz:position x="97.83611" y="73.51829"/>
+        <viz:color r="235" g="104" b="52"/>
+      </node>
+      <node id="Morelos.Cuernavaca" label="Morelos.Cuernavaca">
+        <attvalues>
+          <attvalue for="0" value="8.661194399682971E8"/>
+          <attvalue for="modularity_class" value="1"/>
+        </attvalues>
+        <viz:size value="8.86569"/>
+        <viz:position x="121.63645" y="104.49735"/>
+        <viz:color r="235" g="104" b="52"/>
+      </node>
+      <node id="Morelos.Emiliano Zapata" label="Morelos.Emiliano Zapata">
+        <attvalues>
+          <attvalue for="0" value="2.4772449384374897E10"/>
+          <attvalue for="modularity_class" value="1"/>
+        </attvalues>
+        <viz:size value="30.0"/>
+        <viz:position x="61.293484" y="110.920975"/>
+        <viz:color r="235" g="104" b="52"/>
+      </node>
+      <node id="Morelos.Jiutepec" label="Morelos.Jiutepec">
+        <attvalues>
+          <attvalue for="0" value="2.116654772522132E9"/>
+          <attvalue for="modularity_class" value="1"/>
+        </attvalues>
+        <viz:size value="9.971222"/>
+        <viz:position x="146.42369" y="122.67391"/>
+        <viz:color r="235" g="104" b="52"/>
+      </node>
+    </nodes>
+    <edges>
+      <edge id="0" source="Morelos.Atlatlahucan" target="Morelos.Cuautla" weight="0.8515793681144714">
+        <viz:color r="137" g="135" b="129" a="0.47058824"/>
+      </edge>
+      <edge id="1" source="Morelos.Atlatlahucan" target="Morelos.Puente de Ixtla" weight="0.8636752367019653">
+        <viz:color r="137" g="135" b="129" a="0.47058824"/>
+      </edge>
+      <edge id="2" source="Morelos.Atlatlahucan" target="Morelos.Tlaltizapán de Zapata" weight="0.9900851845741272">
+        <viz:color r="137" g="135" b="129" a="0.47058824"/>
+      </edge>
+      <edge id="3" source="Morelos.Atlatlahucan" target="Morelos.Xochitepec" weight="0.9546948671340942">
+        <viz:color r="137" g="135" b="129" a="0.47058824"/>
+      </edge>
+      <edge id="4" source="Morelos.Atlatlahucan" target="Morelos.Yautepec" weight="0.7421206831932068">
+        <viz:color r="137" g="135" b="129" a="0.47058824"/>
+      </edge>
+      <edge id="5" source="Morelos.Atlatlahucan" target="Morelos.Yecapixtla" weight="0.7340865135192871">
+        <viz:color r="137" g="135" b="129" a="0.47058824"/>
+      </edge>
+      <edge id="6" source="Morelos.Cuautla" target="Morelos.Emiliano Zapata" weight="0.7183334231376648">
+        <viz:color r="137" g="135" b="129" a="0.47058824"/>
+      </edge>
+      <edge id="7" source="Morelos.Cuautla" target="Morelos.Puente de Ixtla" weight="0.7972890734672546">
+        <viz:color r="137" g="135" b="129" a="0.47058824"/>
+      </edge>
+      <edge id="8" source="Morelos.Cuautla" target="Morelos.Tlaltizapán de Zapata" weight="0.8578260540962219">
+        <viz:color r="137" g="135" b="129" a="0.47058824"/>
+      </edge>
+      <edge id="9" source="Morelos.Cuautla" target="Morelos.Xochitepec" weight="0.8254306316375732">
+        <viz:color r="137" g="135" b="129" a="0.47058824"/>
+      </edge>
+      <edge id="10" source="Morelos.Cuautla" target="Morelos.Yautepec" weight="0.706926167011261">
+        <viz:color r="137" g="135" b="129" a="0.47058824"/>
+      </edge>
+      <edge id="11" source="Morelos.Cuautla" target="Morelos.Yecapixtla" weight="0.7136898636817932">
+        <viz:color r="137" g="135" b="129" a="0.47058824"/>
+      </edge>
+      <edge id="12" source="Morelos.Puente de Ixtla" target="Morelos.Ayala" weight="0.7317567467689514">
+        <viz:color r="137" g="135" b="129" a="0.47058824"/>
+      </edge>
+      <edge id="13" source="Morelos.Puente de Ixtla" target="Morelos.Tlaltizapán de Zapata" weight="0.8551120758056641">
+        <viz:color r="137" g="135" b="129" a="0.47058824"/>
+      </edge>
+      <edge id="14" source="Morelos.Puente de Ixtla" target="Morelos.Xochitepec" weight="0.8443583846092224">
+        <viz:color r="137" g="135" b="129" a="0.47058824"/>
+      </edge>
+      <edge id="15" source="Morelos.Puente de Ixtla" target="Morelos.Yautepec" weight="0.7963520288467407">
+        <viz:color r="137" g="135" b="129" a="0.47058824"/>
+      </edge>
+      <edge id="16" source="Morelos.Puente de Ixtla" target="Morelos.Yecapixtla" weight="0.8294029235839844">
+        <viz:color r="137" g="135" b="129" a="0.47058824"/>
+      </edge>
+      <edge id="17" source="Morelos.Tlaltizapán de Zapata" target="Morelos.Xochitepec" weight="0.9452292323112488">
+        <viz:color r="137" g="135" b="129" a="0.47058824"/>
+      </edge>
+      <edge id="18" source="Morelos.Tlaltizapán de Zapata" target="Morelos.Yautepec" weight="0.7347626686096191">
+        <viz:color r="137" g="135" b="129" a="0.47058824"/>
+      </edge>
+      <edge id="19" source="Morelos.Tlaltizapán de Zapata" target="Morelos.Yecapixtla" weight="0.7268081903457642">
+        <viz:color r="137" g="135" b="129" a="0.47058824"/>
+      </edge>
+      <edge id="20" source="Morelos.Xochitepec" target="Morelos.Yautepec" weight="0.7277646660804749">
+        <viz:color r="137" g="135" b="129" a="0.47058824"/>
+      </edge>
+      <edge id="21" source="Morelos.Xochitepec" target="Morelos.Yecapixtla" weight="0.7223398089408875">
+        <viz:color r="137" g="135" b="129" a="0.47058824"/>
+      </edge>
+      <edge id="22" source="Morelos.Yautepec" target="Morelos.Ayala" weight="0.7332732677459717">
+        <viz:color r="137" g="135" b="129" a="0.47058824"/>
+      </edge>
+      <edge id="23" source="Morelos.Yautepec" target="Morelos.Yecapixtla" weight="0.780886173248291">
+        <viz:color r="137" g="135" b="129" a="0.47058824"/>
+      </edge>
+      <edge id="24" source="Morelos.Yecapixtla" target="Morelos.Ayala" weight="0.8525193929672241">
+        <viz:color r="137" g="135" b="129" a="0.47058824"/>
+      </edge>
+      <edge id="25" source="Morelos.Yecapixtla" target="Morelos.Cuernavaca" weight="0.8530359864234924">
+        <viz:color r="137" g="135" b="129" a="0.47058824"/>
+      </edge>
+      <edge id="26" source="Morelos.Yecapixtla" target="Morelos.Emiliano Zapata" weight="0.7266126275062561">
+        <viz:color r="137" g="135" b="129" a="0.47058824"/>
+      </edge>
+      <edge id="27" source="Morelos.Ayala" target="Morelos.Cuernavaca" weight="0.7845203280448914">
+        <viz:color r="137" g="135" b="129" a="0.47058824"/>
+      </edge>
+      <edge id="28" source="Morelos.Ayala" target="Morelos.Emiliano Zapata" weight="0.7318982481956482">
+        <viz:color r="137" g="135" b="129" a="0.47058824"/>
+      </edge>
+      <edge id="29" source="Morelos.Cuernavaca" target="Morelos.Jiutepec" weight="0.7083418369293213">
+        <viz:color r="137" g="135" b="129" a="0.47058824"/>
+      </edge>
+    </edges>
+  </graph>
+</gexf>

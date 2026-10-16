@@ -1,0 +1,107 @@
+<?xml version='1.0' encoding='utf-8'?>
+<gexf xmlns="http://www.gexf.net/1.2draft" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.gexf.net/1.2draft http://www.gexf.net/1.2draft/gexf.xsd" version="1.2">
+  <meta lastmodifieddate="2026-10-16">
+    <creator>NetworkX 3.7</creator>
+  </meta>
+  <graph defaultedgetype="undirected" mode="static" name="">
+    <attributes mode="static" class="node">
+      <attribute id="0" title="total_kg" type="double" />
+    </attributes>
+    <nodes>
+      <node id="Durango.Cuencamé" label="Durango.Cuencamé">
+        <attvalues>
+          <attvalue for="0" value="1142419.244432878" />
+        </attvalues>
+      </node>
+      <node id="Durango.San Dimas" label="Durango.San Dimas">
+        <attvalues>
+          <attvalue for="0" value="22136412.290161733" />
+        </attvalues>
+      </node>
+      <node id="Durango.Santiago Papasquiaro" label="Durango.Santiago Papasquiaro">
+        <attvalues>
+          <attvalue for="0" value="26344187.97254125" />
+        </attvalues>
+      </node>
+      <node id="Durango.Tepehuanes" label="Durango.Tepehuanes">
+        <attvalues>
+          <attvalue for="0" value="500.367903" />
+        </attvalues>
+      </node>
+      <node id="Durango.Topia" label="Durango.Topia">
+        <attvalues>
+          <attvalue for="0" value="34892595.9994594" />
+        </attvalues>
+      </node>
+      <node id="Durango.Durango" label="Durango.Durango">
+        <attvalues>
+          <attvalue for="0" value="16645808194.669138" />
+        </attvalues>
+      </node>
+      <node id="Durango.Gómez Palacio" label="Durango.Gómez Palacio">
+        <attvalues>
+          <attvalue for="0" value="25361069053.065506" />
+        </attvalues>
+      </node>
+      <node id="Durango.Guanaceví" label="Durango.Guanaceví">
+        <attvalues>
+          <attvalue for="0" value="622553.1152895417" />
+        </attvalues>
+      </node>
+      <node id="Durango.Lerdo" label="Durango.Lerdo">
+        <attvalues>
+          <attvalue for="0" value="22692147227.077747" />
+        </attvalues>
+      </node>
+      <node id="Durango.Otáez" label="Durango.Otáez">
+        <attvalues>
+          <attvalue for="0" value="648963.9172578625" />
+        </attvalues>
+      </node>
+      <node id="Durango.Pánuco de Coronado" label="Durango.Pánuco de Coronado">
+        <attvalues>
+          <attvalue for="0" value="5175146.495000001" />
+        </attvalues>
+      </node>
+      <node id="Durango.Mapimí" label="Durango.Mapimí">
+        <attvalues>
+          <attvalue for="0" value="165902656.8153603" />
+        </attvalues>
+      </node>
+    </nodes>
+    <edges>
+      <edge source="Durango.Cuencamé" target="Durango.San Dimas" id="0" weight="0.7159269757123947" />
+      <edge source="Durango.Cuencamé" target="Durango.Santiago Papasquiaro" id="1" weight="0.9100757990657745" />
+      <edge source="Durango.Cuencamé" target="Durango.Tepehuanes" id="2" weight="0.7589099925147812" />
+      <edge source="Durango.Cuencamé" target="Durango.Topia" id="3" weight="0.7903023587709332" />
+      <edge source="Durango.San Dimas" target="Durango.Guanaceví" id="4" weight="0.7121962807340251" />
+      <edge source="Durango.San Dimas" target="Durango.Lerdo" id="5" weight="0.7948010358062573" />
+      <edge source="Durango.San Dimas" target="Durango.Santiago Papasquiaro" id="6" weight="0.8783728304678541" />
+      <edge source="Durango.San Dimas" target="Durango.Tepehuanes" id="7" weight="0.7203857767647691" />
+      <edge source="Durango.San Dimas" target="Durango.Topia" id="8" weight="0.7292436150700221" />
+      <edge source="Durango.Santiago Papasquiaro" target="Durango.Guanaceví" id="9" weight="0.7760909889062091" />
+      <edge source="Durango.Santiago Papasquiaro" target="Durango.Lerdo" id="10" weight="0.8281345068333777" />
+      <edge source="Durango.Santiago Papasquiaro" target="Durango.Mapimí" id="11" weight="0.7629721742041273" />
+      <edge source="Durango.Santiago Papasquiaro" target="Durango.Otáez" id="12" weight="0.7666212931638898" />
+      <edge source="Durango.Santiago Papasquiaro" target="Durango.Tepehuanes" id="13" weight="0.8328128619201575" />
+      <edge source="Durango.Santiago Papasquiaro" target="Durango.Topia" id="14" weight="0.8711025865974159" />
+      <edge source="Durango.Tepehuanes" target="Durango.Guanaceví" id="15" weight="0.7689058558605159" />
+      <edge source="Durango.Tepehuanes" target="Durango.Lerdo" id="16" weight="0.8221609646121554" />
+      <edge source="Durango.Tepehuanes" target="Durango.Otáez" id="17" weight="0.8180194746870769" />
+      <edge source="Durango.Tepehuanes" target="Durango.Pánuco de Coronado" id="18" weight="0.7279284482353686" />
+      <edge source="Durango.Tepehuanes" target="Durango.Topia" id="19" weight="0.8489175340557564" />
+      <edge source="Durango.Topia" target="Durango.Guanaceví" id="20" weight="0.8345803689400244" />
+      <edge source="Durango.Topia" target="Durango.Lerdo" id="21" weight="0.8445998441966072" />
+      <edge source="Durango.Topia" target="Durango.Mapimí" id="22" weight="0.7199865146588194" />
+      <edge source="Durango.Topia" target="Durango.Otáez" id="23" weight="0.8106359973017554" />
+      <edge source="Durango.Topia" target="Durango.Pánuco de Coronado" id="24" weight="0.8067653837874947" />
+      <edge source="Durango.Durango" target="Durango.Gómez Palacio" id="25" weight="0.7917288178537586" />
+      <edge source="Durango.Guanaceví" target="Durango.Lerdo" id="26" weight="0.7751209080284861" />
+      <edge source="Durango.Guanaceví" target="Durango.Otáez" id="27" weight="0.7601090679234932" />
+      <edge source="Durango.Guanaceví" target="Durango.Pánuco de Coronado" id="28" weight="0.9372635123825446" />
+      <edge source="Durango.Lerdo" target="Durango.Mapimí" id="29" weight="0.7873834602654155" />
+      <edge source="Durango.Lerdo" target="Durango.Otáez" id="30" weight="0.7702139403745661" />
+      <edge source="Durango.Lerdo" target="Durango.Pánuco de Coronado" id="31" weight="0.7082635176810129" />
+    </edges>
+  </graph>
+</gexf>

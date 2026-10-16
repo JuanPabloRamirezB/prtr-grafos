@@ -1,0 +1,2602 @@
+<?xml version='1.0' encoding='utf-8'?>
+<gexf xmlns="http://www.gexf.net/1.2draft" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.gexf.net/1.2draft http://www.gexf.net/1.2draft/gexf.xsd" version="1.2">
+  <meta lastmodifieddate="2026-10-16">
+    <creator>NetworkX 3.7</creator>
+  </meta>
+  <graph defaultedgetype="undirected" mode="static" name="">
+    <attributes mode="static" class="edge">
+      <attribute id="20" title="y_2004" type="double" />
+      <attribute id="21" title="y_2005" type="double" />
+      <attribute id="22" title="y_2006" type="double" />
+      <attribute id="23" title="y_2008" type="double" />
+      <attribute id="24" title="y_2009" type="double" />
+      <attribute id="25" title="y_2010" type="double" />
+      <attribute id="26" title="y_2011" type="double" />
+      <attribute id="27" title="y_2012" type="double" />
+      <attribute id="28" title="y_2013" type="double" />
+      <attribute id="29" title="y_2014" type="double" />
+      <attribute id="30" title="y_2015" type="double" />
+      <attribute id="31" title="y_2016" type="double" />
+      <attribute id="32" title="y_2017" type="double" />
+      <attribute id="33" title="y_2018" type="double" />
+      <attribute id="34" title="y_2019" type="double" />
+      <attribute id="35" title="y_2020" type="double" />
+      <attribute id="36" title="y_2021" type="double" />
+      <attribute id="37" title="y_2022" type="double" />
+    </attributes>
+    <attributes mode="static" class="node">
+      <attribute id="0" title="type" type="string" />
+      <attribute id="1" title="total_kg" type="double" />
+      <attribute id="2" title="kg_2004" type="double" />
+      <attribute id="3" title="kg_2005" type="double" />
+      <attribute id="4" title="kg_2006" type="double" />
+      <attribute id="5" title="kg_2008" type="double" />
+      <attribute id="6" title="kg_2009" type="double" />
+      <attribute id="7" title="kg_2010" type="double" />
+      <attribute id="8" title="kg_2011" type="double" />
+      <attribute id="9" title="kg_2012" type="double" />
+      <attribute id="10" title="kg_2013" type="double" />
+      <attribute id="11" title="kg_2014" type="double" />
+      <attribute id="12" title="kg_2015" type="double" />
+      <attribute id="13" title="kg_2016" type="double" />
+      <attribute id="14" title="kg_2017" type="double" />
+      <attribute id="15" title="kg_2018" type="double" />
+      <attribute id="16" title="kg_2019" type="double" />
+      <attribute id="17" title="kg_2020" type="double" />
+      <attribute id="18" title="kg_2021" type="double" />
+      <attribute id="19" title="kg_2022" type="double" />
+    </attributes>
+    <nodes>
+      <node id="LOC::Nayarit.Acaponeta" label="Nayarit.Acaponeta">
+        <attvalues>
+          <attvalue for="0" value="location" />
+          <attvalue for="1" value="53.222475" />
+          <attvalue for="2" value="53.10025" />
+          <attvalue for="3" value="0.12222500000000001" />
+          <attvalue for="4" value="0.0" />
+          <attvalue for="5" value="0.0" />
+          <attvalue for="6" value="0.0" />
+          <attvalue for="7" value="0.0" />
+          <attvalue for="8" value="0.0" />
+          <attvalue for="9" value="0.0" />
+          <attvalue for="10" value="0.0" />
+          <attvalue for="11" value="0.0" />
+          <attvalue for="12" value="0.0" />
+          <attvalue for="13" value="0.0" />
+          <attvalue for="14" value="0.0" />
+          <attvalue for="15" value="0.0" />
+          <attvalue for="16" value="0.0" />
+          <attvalue for="17" value="0.0" />
+          <attvalue for="18" value="0.0" />
+          <attvalue for="19" value="0.0" />
+        </attvalues>
+      </node>
+      <node id="LOC::Nayarit.Bahía de Banderas" label="Nayarit.Bahía de Banderas">
+        <attvalues>
+          <attvalue for="0" value="location" />
+          <attvalue for="1" value="868.3303999999999" />
+          <attvalue for="2" value="0.0" />
+          <attvalue for="3" value="0.0" />
+          <attvalue for="4" value="0.0" />
+          <attvalue for="5" value="0.0" />
+          <attvalue for="6" value="0.0" />
+          <attvalue for="7" value="0.0" />
+          <attvalue for="8" value="0.0" />
+          <attvalue for="9" value="0.0" />
+          <attvalue for="10" value="0.0" />
+          <attvalue for="11" value="13.548900000000001" />
+          <attvalue for="12" value="5.7158" />
+          <attvalue for="13" value="107.44819999999999" />
+          <attvalue for="14" value="96.6082" />
+          <attvalue for="15" value="78.6746" />
+          <attvalue for="16" value="74.34479999999999" />
+          <attvalue for="17" value="65.8524" />
+          <attvalue for="18" value="82.4801" />
+          <attvalue for="19" value="343.6574" />
+        </attvalues>
+      </node>
+      <node id="LOC::Nayarit.Del Nayar" label="Nayarit.Del Nayar">
+        <attvalues>
+          <attvalue for="0" value="location" />
+          <attvalue for="1" value="0.05261332274" />
+          <attvalue for="2" value="3.2316200000000002e-06" />
+          <attvalue for="3" value="0.00024688666" />
+          <attvalue for="4" value="0.00024688746" />
+          <attvalue for="5" value="2.3517e-05" />
+          <attvalue for="6" value="0.0" />
+          <attvalue for="7" value="0.0" />
+          <attvalue for="8" value="0.0" />
+          <attvalue for="9" value="0.0" />
+          <attvalue for="10" value="0.0520928" />
+          <attvalue for="11" value="0.0" />
+          <attvalue for="12" value="0.0" />
+          <attvalue for="13" value="0.0" />
+          <attvalue for="14" value="0.0" />
+          <attvalue for="15" value="0.0" />
+          <attvalue for="16" value="0.0" />
+          <attvalue for="17" value="0.0" />
+          <attvalue for="18" value="0.0" />
+          <attvalue for="19" value="0.0" />
+        </attvalues>
+      </node>
+      <node id="LOC::Nayarit.La Yesca" label="Nayarit.La Yesca">
+        <attvalues>
+          <attvalue for="0" value="location" />
+          <attvalue for="1" value="77.50138679" />
+          <attvalue for="2" value="61.031409000000004" />
+          <attvalue for="3" value="2.8372430900000003" />
+          <attvalue for="4" value="13.6327347" />
+          <attvalue for="5" value="0.0" />
+          <attvalue for="6" value="0.0" />
+          <attvalue for="7" value="0.0" />
+          <attvalue for="8" value="0.0" />
+          <attvalue for="9" value="0.0" />
+          <attvalue for="10" value="0.0" />
+          <attvalue for="11" value="0.0" />
+          <attvalue for="12" value="0.0" />
+          <attvalue for="13" value="0.0" />
+          <attvalue for="14" value="0.0" />
+          <attvalue for="15" value="0.0" />
+          <attvalue for="16" value="0.0" />
+          <attvalue for="17" value="0.0" />
+          <attvalue for="18" value="0.0" />
+          <attvalue for="19" value="0.0" />
+        </attvalues>
+      </node>
+      <node id="LOC::Nayarit.San Blas" label="Nayarit.San Blas">
+        <attvalues>
+          <attvalue for="0" value="location" />
+          <attvalue for="1" value="1090.9144999999999" />
+          <attvalue for="2" value="0.0" />
+          <attvalue for="3" value="0.0" />
+          <attvalue for="4" value="0.0" />
+          <attvalue for="5" value="0.0" />
+          <attvalue for="6" value="0.0" />
+          <attvalue for="7" value="0.0" />
+          <attvalue for="8" value="0.0" />
+          <attvalue for="9" value="0.0" />
+          <attvalue for="10" value="0.0" />
+          <attvalue for="11" value="0.0" />
+          <attvalue for="12" value="0.0" />
+          <attvalue for="13" value="0.0" />
+          <attvalue for="14" value="0.0" />
+          <attvalue for="15" value="755.1799999999998" />
+          <attvalue for="16" value="62.72" />
+          <attvalue for="17" value="273.0145" />
+          <attvalue for="18" value="0.0" />
+          <attvalue for="19" value="0.0" />
+        </attvalues>
+      </node>
+      <node id="LOC::Nayarit.San Pedro Lagunillas" label="Nayarit.San Pedro Lagunillas">
+        <attvalues>
+          <attvalue for="0" value="location" />
+          <attvalue for="1" value="92471857.5684" />
+          <attvalue for="2" value="0.0" />
+          <attvalue for="3" value="0.0" />
+          <attvalue for="4" value="0.0" />
+          <attvalue for="5" value="0.0" />
+          <attvalue for="6" value="0.0" />
+          <attvalue for="7" value="0.0" />
+          <attvalue for="8" value="0.0" />
+          <attvalue for="9" value="0.0" />
+          <attvalue for="10" value="0.0" />
+          <attvalue for="11" value="0.0" />
+          <attvalue for="12" value="3233630.0" />
+          <attvalue for="13" value="10591430.0" />
+          <attvalue for="14" value="16327050.0" />
+          <attvalue for="15" value="13080740.0" />
+          <attvalue for="16" value="14141051.284200002" />
+          <attvalue for="17" value="12293326.284200002" />
+          <attvalue for="18" value="10853475.0" />
+          <attvalue for="19" value="11951155.0" />
+        </attvalues>
+      </node>
+      <node id="LOC::Nayarit.Santa María del Oro" label="Nayarit.Santa María del Oro">
+        <attvalues>
+          <attvalue for="0" value="location" />
+          <attvalue for="1" value="166.3801455592" />
+          <attvalue for="2" value="0.0" />
+          <attvalue for="3" value="0.0" />
+          <attvalue for="4" value="0.0" />
+          <attvalue for="5" value="0.0" />
+          <attvalue for="6" value="0.0" />
+          <attvalue for="7" value="0.0029535792" />
+          <attvalue for="8" value="1.2766425" />
+          <attvalue for="9" value="0.53001728" />
+          <attvalue for="10" value="164.5705322" />
+          <attvalue for="11" value="0.0" />
+          <attvalue for="12" value="0.0" />
+          <attvalue for="13" value="0.0" />
+          <attvalue for="14" value="0.0" />
+          <attvalue for="15" value="0.0" />
+          <attvalue for="16" value="0.0" />
+          <attvalue for="17" value="0.0" />
+          <attvalue for="18" value="0.0" />
+          <attvalue for="19" value="0.0" />
+        </attvalues>
+      </node>
+      <node id="LOC::Nayarit.Tepic" label="Nayarit.Tepic">
+        <attvalues>
+          <attvalue for="0" value="location" />
+          <attvalue for="1" value="16586.323953395986" />
+          <attvalue for="2" value="4.42964e-06" />
+          <attvalue for="3" value="2062.0230099424" />
+          <attvalue for="4" value="2012.0" />
+          <attvalue for="5" value="2233.000002903" />
+          <attvalue for="6" value="0.0" />
+          <attvalue for="7" value="2220.024783" />
+          <attvalue for="8" value="1949.021761" />
+          <attvalue for="9" value="2482.0742715376246" />
+          <attvalue for="10" value="2600.08572058332" />
+          <attvalue for="11" value="8.5554" />
+          <attvalue for="12" value="0.0" />
+          <attvalue for="13" value="4.484" />
+          <attvalue for="14" value="3.9607" />
+          <attvalue for="15" value="3.9607" />
+          <attvalue for="16" value="0.0" />
+          <attvalue for="17" value="0.0" />
+          <attvalue for="18" value="990.7447999999999" />
+          <attvalue for="19" value="16.3888" />
+        </attvalues>
+      </node>
+      <node id="LOC::Nayarit.Xalisco" label="Nayarit.Xalisco">
+        <attvalues>
+          <attvalue for="0" value="location" />
+          <attvalue for="1" value="484452.7802207221" />
+          <attvalue for="2" value="0.0" />
+          <attvalue for="3" value="0.0" />
+          <attvalue for="4" value="0.0" />
+          <attvalue for="5" value="3.4591994400000003" />
+          <attvalue for="6" value="2.006776" />
+          <attvalue for="7" value="1.643965778" />
+          <attvalue for="8" value="1.6439657779999999" />
+          <attvalue for="9" value="0.1678818211" />
+          <attvalue for="10" value="0.058431905000000006" />
+          <attvalue for="11" value="0.0" />
+          <attvalue for="12" value="0.0" />
+          <attvalue for="13" value="0.0" />
+          <attvalue for="14" value="484443.8" />
+          <attvalue for="15" value="0.0" />
+          <attvalue for="16" value="0.0" />
+          <attvalue for="17" value="0.0" />
+          <attvalue for="18" value="0.0" />
+          <attvalue for="19" value="0.0" />
+        </attvalues>
+      </node>
+      <node id="SUB::Acetaldehido" label="Acetaldehyde">
+        <attvalues>
+          <attvalue for="0" value="substance" />
+          <attvalue for="1" value="0.0528901053313" />
+          <attvalue for="2" value="0.0" />
+          <attvalue for="3" value="0.00965" />
+          <attvalue for="4" value="0.0" />
+          <attvalue for="5" value="0.0" />
+          <attvalue for="6" value="0.0" />
+          <attvalue for="7" value="0.010379" />
+          <attvalue for="8" value="0.009114" />
+          <attvalue for="9" value="0.0115950685032" />
+          <attvalue for="10" value="0.0121520368281" />
+          <attvalue for="11" value="0.0" />
+          <attvalue for="12" value="0.0" />
+          <attvalue for="13" value="0.0" />
+          <attvalue for="14" value="0.0" />
+          <attvalue for="15" value="0.0" />
+          <attvalue for="16" value="0.0" />
+          <attvalue for="17" value="0.0" />
+          <attvalue for="18" value="0.0" />
+          <attvalue for="19" value="0.0" />
+        </attvalues>
+      </node>
+      <node id="SUB::Acido sulfhídrico" label="Hydrogen sulfide">
+        <attvalues>
+          <attvalue for="0" value="substance" />
+          <attvalue for="1" value="5278100.0" />
+          <attvalue for="2" value="0.0" />
+          <attvalue for="3" value="0.0" />
+          <attvalue for="4" value="0.0" />
+          <attvalue for="5" value="0.0" />
+          <attvalue for="6" value="0.0" />
+          <attvalue for="7" value="0.0" />
+          <attvalue for="8" value="0.0" />
+          <attvalue for="9" value="0.0" />
+          <attvalue for="10" value="0.0" />
+          <attvalue for="11" value="0.0" />
+          <attvalue for="12" value="218000.0" />
+          <attvalue for="13" value="711900.0" />
+          <attvalue for="14" value="956300.0" />
+          <attvalue for="15" value="0.0" />
+          <attvalue for="16" value="845190.0" />
+          <attvalue for="17" value="845190.0" />
+          <attvalue for="18" value="845190.0" />
+          <attvalue for="19" value="856330.0" />
+        </attvalues>
+      </node>
+      <node id="SUB::Acroleina" label="Acrolein">
+        <attvalues>
+          <attvalue for="0" value="substance" />
+          <attvalue for="1" value="0.00637289471075" />
+          <attvalue for="2" value="0.0" />
+          <attvalue for="3" value="0.00116" />
+          <attvalue for="4" value="0.0" />
+          <attvalue for="5" value="0.0" />
+          <attvalue for="6" value="0.0" />
+          <attvalue for="7" value="0.001251" />
+          <attvalue for="8" value="0.001098" />
+          <attvalue for="9" value="0.001398362238" />
+          <attvalue for="10" value="0.00146553247275" />
+          <attvalue for="11" value="0.0" />
+          <attvalue for="12" value="0.0" />
+          <attvalue for="13" value="0.0" />
+          <attvalue for="14" value="0.0" />
+          <attvalue for="15" value="0.0" />
+          <attvalue for="16" value="0.0" />
+          <attvalue for="17" value="0.0" />
+          <attvalue for="18" value="0.0" />
+          <attvalue for="19" value="0.0" />
+        </attvalues>
+      </node>
+      <node id="SUB::Arsénico (Compuestos solubles)" label="Arsenic (soluble compounds)">
+        <attvalues>
+          <attvalue for="0" value="substance" />
+          <attvalue for="1" value="29955.9981" />
+          <attvalue for="2" value="0.0" />
+          <attvalue for="3" value="0.0" />
+          <attvalue for="4" value="0.0" />
+          <attvalue for="5" value="0.0" />
+          <attvalue for="6" value="0.0" />
+          <attvalue for="7" value="0.0" />
+          <attvalue for="8" value="0.0" />
+          <attvalue for="9" value="0.0" />
+          <attvalue for="10" value="0.0" />
+          <attvalue for="11" value="2.7593" />
+          <attvalue for="12" value="2.7593" />
+          <attvalue for="13" value="8.8738" />
+          <attvalue for="14" value="7.0473" />
+          <attvalue for="15" value="135.4145" />
+          <attvalue for="16" value="14878.2225" />
+          <attvalue for="17" value="14915.377100000002" />
+          <attvalue for="18" value="5.5443" />
+          <attvalue for="19" value="0.0" />
+        </attvalues>
+      </node>
+      <node id="SUB::Arsénico (compuestos)" label="Arsenic (compounds)">
+        <attvalues>
+          <attvalue for="0" value="substance" />
+          <attvalue for="1" value="0.151058936" />
+          <attvalue for="2" value="0.0" />
+          <attvalue for="3" value="0.0" />
+          <attvalue for="4" value="0.0" />
+          <attvalue for="5" value="0.0" />
+          <attvalue for="6" value="0.0" />
+          <attvalue for="7" value="0.0100671102" />
+          <attvalue for="8" value="0.118091631" />
+          <attvalue for="9" value="0.0089119898" />
+          <attvalue for="10" value="0.013988205" />
+          <attvalue for="11" value="0.0" />
+          <attvalue for="12" value="0.0" />
+          <attvalue for="13" value="0.0" />
+          <attvalue for="14" value="0.0" />
+          <attvalue for="15" value="0.0" />
+          <attvalue for="16" value="0.0" />
+          <attvalue for="17" value="0.0" />
+          <attvalue for="18" value="0.0" />
+          <attvalue for="19" value="0.0" />
+        </attvalues>
+      </node>
+      <node id="SUB::Arsénico (polvos, respirables, vapores o humos)" label="Arsenic (respirable dust, vapors or fumes)">
+        <attvalues>
+          <attvalue for="0" value="substance" />
+          <attvalue for="1" value="5.66758194106" />
+          <attvalue for="2" value="0.29328248934" />
+          <attvalue for="3" value="0.11926327946" />
+          <attvalue for="4" value="0.19967060645999998" />
+          <attvalue for="5" value="0.02018988" />
+          <attvalue for="6" value="0.009162" />
+          <attvalue for="7" value="0.0" />
+          <attvalue for="8" value="0.0" />
+          <attvalue for="9" value="2.5949768698" />
+          <attvalue for="10" value="2.4310368159999998" />
+          <attvalue for="11" value="0.0" />
+          <attvalue for="12" value="0.0" />
+          <attvalue for="13" value="0.0" />
+          <attvalue for="14" value="0.0" />
+          <attvalue for="15" value="0.0" />
+          <attvalue for="16" value="0.0" />
+          <attvalue for="17" value="0.0" />
+          <attvalue for="18" value="0.0" />
+          <attvalue for="19" value="0.0" />
+        </attvalues>
+      </node>
+      <node id="SUB::Benceno" label="Benzene">
+        <attvalues>
+          <attvalue for="0" value="substance" />
+          <attvalue for="1" value="53.05483248886786" />
+          <attvalue for="2" value="53.0" />
+          <attvalue for="3" value="0.0117" />
+          <attvalue for="4" value="0.0" />
+          <attvalue for="5" value="0.0" />
+          <attvalue for="6" value="0.0" />
+          <attvalue for="7" value="0.012625" />
+          <attvalue for="8" value="0.011086" />
+          <attvalue for="9" value="0.00463941538596" />
+          <attvalue for="10" value="0.0147820734819" />
+          <attvalue for="11" value="0.0" />
+          <attvalue for="12" value="0.0" />
+          <attvalue for="13" value="0.0" />
+          <attvalue for="14" value="0.0" />
+          <attvalue for="15" value="0.0" />
+          <attvalue for="16" value="0.0" />
+          <attvalue for="17" value="0.0" />
+          <attvalue for="18" value="0.0" />
+          <attvalue for="19" value="0.0" />
+        </attvalues>
+      </node>
+      <node id="SUB::Bióxido de carbono" label="Carbon dioxide">
+        <attvalues>
+          <attvalue for="0" value="substance" />
+          <attvalue for="1" value="87664032.8" />
+          <attvalue for="2" value="0.0" />
+          <attvalue for="3" value="2062.0" />
+          <attvalue for="4" value="2012.0" />
+          <attvalue for="5" value="2233.0" />
+          <attvalue for="6" value="0.0" />
+          <attvalue for="7" value="2220.0" />
+          <attvalue for="8" value="1949.0" />
+          <attvalue for="9" value="2480.0" />
+          <attvalue for="10" value="2598.0" />
+          <attvalue for="11" value="0.0" />
+          <attvalue for="12" value="3015630.0" />
+          <attvalue for="13" value="9879530.0" />
+          <attvalue for="14" value="15855193.8" />
+          <attvalue for="15" value="13080740.0" />
+          <attvalue for="16" value="13281000.0" />
+          <attvalue for="17" value="11433275.0" />
+          <attvalue for="18" value="10008285.0" />
+          <attvalue for="19" value="11094825.0" />
+        </attvalues>
+      </node>
+      <node id="SUB::Cadmio (Compuestos solubles)" label="Cadmium (soluble compounds)">
+        <attvalues>
+          <attvalue for="0" value="substance" />
+          <attvalue for="1" value="288.2553" />
+          <attvalue for="2" value="0.0" />
+          <attvalue for="3" value="0.0" />
+          <attvalue for="4" value="0.0" />
+          <attvalue for="5" value="0.0" />
+          <attvalue for="6" value="0.0" />
+          <attvalue for="7" value="0.0" />
+          <attvalue for="8" value="0.0" />
+          <attvalue for="9" value="0.0" />
+          <attvalue for="10" value="0.0" />
+          <attvalue for="11" value="0.0" />
+          <attvalue for="12" value="0.0" />
+          <attvalue for="13" value="8.482800000000001" />
+          <attvalue for="14" value="6.4512" />
+          <attvalue for="15" value="134.00379999999998" />
+          <attvalue for="16" value="19.1216" />
+          <attvalue for="17" value="44.6536" />
+          <attvalue for="18" value="64.0554" />
+          <attvalue for="19" value="11.4869" />
+        </attvalues>
+      </node>
+      <node id="SUB::Cadmio (compuestos)" label="Cadmium (compounds)">
+        <attvalues>
+          <attvalue for="0" value="substance" />
+          <attvalue for="1" value="0.4343137" />
+          <attvalue for="2" value="0.0" />
+          <attvalue for="3" value="0.0" />
+          <attvalue for="4" value="0.0" />
+          <attvalue for="5" value="0.0" />
+          <attvalue for="6" value="0.0" />
+          <attvalue for="7" value="0.16009485" />
+          <attvalue for="8" value="0.27421885" />
+          <attvalue for="9" value="0.0" />
+          <attvalue for="10" value="0.0" />
+          <attvalue for="11" value="0.0" />
+          <attvalue for="12" value="0.0" />
+          <attvalue for="13" value="0.0" />
+          <attvalue for="14" value="0.0" />
+          <attvalue for="15" value="0.0" />
+          <attvalue for="16" value="0.0" />
+          <attvalue for="17" value="0.0" />
+          <attvalue for="18" value="0.0" />
+          <attvalue for="19" value="0.0" />
+        </attvalues>
+      </node>
+      <node id="SUB::Cadmio (polvos, respirables, vapores o humos)" label="Cadmium (respirable dust, vapors or fumes)">
+        <attvalues>
+          <attvalue for="0" value="substance" />
+          <attvalue for="1" value="1.3970881786" />
+          <attvalue for="2" value="0.0" />
+          <attvalue for="3" value="0.149665454" />
+          <attvalue for="4" value="0.7570567246" />
+          <attvalue for="5" value="0.336498" />
+          <attvalue for="6" value="0.1527" />
+          <attvalue for="7" value="0.0" />
+          <attvalue for="8" value="0.0" />
+          <attvalue for="9" value="0.0" />
+          <attvalue for="10" value="0.001168" />
+          <attvalue for="11" value="0.0" />
+          <attvalue for="12" value="0.0" />
+          <attvalue for="13" value="0.0" />
+          <attvalue for="14" value="0.0" />
+          <attvalue for="15" value="0.0" />
+          <attvalue for="16" value="0.0" />
+          <attvalue for="17" value="0.0" />
+          <attvalue for="18" value="0.0" />
+          <attvalue for="19" value="0.0" />
+        </attvalues>
+      </node>
+      <node id="SUB::Cianuro inorgánico/orgánico" label="Inorganic/organic cyanide">
+        <attvalues>
+          <attvalue for="0" value="substance" />
+          <attvalue for="1" value="284.0884339174" />
+          <attvalue for="2" value="0.7991906781" />
+          <attvalue for="3" value="0.23626901620000001" />
+          <attvalue for="4" value="4.0269664906000004" />
+          <attvalue for="5" value="0.06730021100000001" />
+          <attvalue for="6" value="0.03054" />
+          <attvalue for="7" value="0.03207177" />
+          <attvalue for="8" value="0.05484377" />
+          <attvalue for="9" value="0.1500578415" />
+          <attvalue for="10" value="164.23499414" />
+          <attvalue for="11" value="0.0" />
+          <attvalue for="12" value="0.0" />
+          <attvalue for="13" value="0.0" />
+          <attvalue for="14" value="0.0" />
+          <attvalue for="15" value="114.4562" />
+          <attvalue for="16" value="0.0" />
+          <attvalue for="17" value="0.0" />
+          <attvalue for="18" value="0.0" />
+          <attvalue for="19" value="0.0" />
+        </attvalues>
+      </node>
+      <node id="SUB::Cromo (Compuestos solubles)" label="Chromium (soluble compounds)">
+        <attvalues>
+          <attvalue for="0" value="substance" />
+          <attvalue for="1" value="403.177890078" />
+          <attvalue for="2" value="0.0" />
+          <attvalue for="3" value="0.0" />
+          <attvalue for="4" value="0.0" />
+          <attvalue for="5" value="1.682490078" />
+          <attvalue for="6" value="0.0" />
+          <attvalue for="7" value="0.0" />
+          <attvalue for="8" value="0.0" />
+          <attvalue for="9" value="0.0" />
+          <attvalue for="10" value="0.0" />
+          <attvalue for="11" value="8.4681" />
+          <attvalue for="12" value="0.0" />
+          <attvalue for="13" value="13.9463" />
+          <attvalue for="14" value="14.6008" />
+          <attvalue for="15" value="131.80710000000002" />
+          <attvalue for="16" value="17.291600000000003" />
+          <attvalue for="17" value="49.8049" />
+          <attvalue for="18" value="154.5456" />
+          <attvalue for="19" value="11.030999999999999" />
+        </attvalues>
+      </node>
+      <node id="SUB::Cromo (compuestos)" label="Chromium (compounds)">
+        <attvalues>
+          <attvalue for="0" value="substance" />
+          <attvalue for="1" value="39.82468345" />
+          <attvalue for="2" value="32.0" />
+          <attvalue for="3" value="0.8991485499999999" />
+          <attvalue for="4" value="3.5854032" />
+          <attvalue for="5" value="0.0" />
+          <attvalue for="6" value="1.16052" />
+          <attvalue for="7" value="0.8004742499999999" />
+          <attvalue for="8" value="1.37109425" />
+          <attvalue for="9" value="0.0" />
+          <attvalue for="10" value="0.0080432" />
+          <attvalue for="11" value="0.0" />
+          <attvalue for="12" value="0.0" />
+          <attvalue for="13" value="0.0" />
+          <attvalue for="14" value="0.0" />
+          <attvalue for="15" value="0.0" />
+          <attvalue for="16" value="0.0" />
+          <attvalue for="17" value="0.0" />
+          <attvalue for="18" value="0.0" />
+          <attvalue for="19" value="0.0" />
+        </attvalues>
+      </node>
+      <node id="SUB::Formaldehido" label="Formaldehyde">
+        <attvalues>
+          <attvalue for="0" value="substance" />
+          <attvalue for="1" value="260.40269357603455" />
+          <attvalue for="2" value="0.0" />
+          <attvalue for="3" value="0.000492" />
+          <attvalue for="4" value="0.0" />
+          <attvalue for="5" value="0.0" />
+          <attvalue for="6" value="0.0" />
+          <attvalue for="7" value="0.000528" />
+          <attvalue for="8" value="0.000463" />
+          <attvalue for="9" value="0.00059109149736" />
+          <attvalue for="10" value="0.00061948453719" />
+          <attvalue for="11" value="0.0" />
+          <attvalue for="12" value="0.0" />
+          <attvalue for="13" value="0.0" />
+          <attvalue for="14" value="0.0" />
+          <attvalue for="15" value="0.0" />
+          <attvalue for="16" value="0.0" />
+          <attvalue for="17" value="0.0" />
+          <attvalue for="18" value="0.0" />
+          <attvalue for="19" value="260.4" />
+        </attvalues>
+      </node>
+      <node id="SUB::Mercurio (Compuestos solubles)" label="Mercury (soluble compounds)">
+        <attvalues>
+          <attvalue for="0" value="substance" />
+          <attvalue for="1" value="8.153530397" />
+          <attvalue for="2" value="0.0" />
+          <attvalue for="3" value="0.0" />
+          <attvalue for="4" value="0.0" />
+          <attvalue for="5" value="0.006730397" />
+          <attvalue for="6" value="0.0" />
+          <attvalue for="7" value="0.0" />
+          <attvalue for="8" value="0.0" />
+          <attvalue for="9" value="0.0" />
+          <attvalue for="10" value="0.0" />
+          <attvalue for="11" value="0.0" />
+          <attvalue for="12" value="0.0" />
+          <attvalue for="13" value="0.0" />
+          <attvalue for="14" value="0.0" />
+          <attvalue for="15" value="5.7228" />
+          <attvalue for="16" value="0.0" />
+          <attvalue for="17" value="1.3152" />
+          <attvalue for="18" value="1.1088" />
+          <attvalue for="19" value="0.0" />
+        </attvalues>
+      </node>
+      <node id="SUB::Mercurio (compuestos)" label="Mercury (compounds)">
+        <attvalues>
+          <attvalue for="0" value="substance" />
+          <attvalue for="1" value="0.47411202162" />
+          <attvalue for="2" value="0.03919349382" />
+          <attvalue for="3" value="0.2611129942" />
+          <attvalue for="4" value="0.16205117959999998" />
+          <attvalue for="5" value="0.0" />
+          <attvalue for="6" value="0.003054" />
+          <attvalue for="7" value="0.003215977" />
+          <attvalue for="8" value="0.005484377" />
+          <attvalue for="9" value="0.0" />
+          <attvalue for="10" value="0.0" />
+          <attvalue for="11" value="0.0" />
+          <attvalue for="12" value="0.0" />
+          <attvalue for="13" value="0.0" />
+          <attvalue for="14" value="0.0" />
+          <attvalue for="15" value="0.0" />
+          <attvalue for="16" value="0.0" />
+          <attvalue for="17" value="0.0" />
+          <attvalue for="18" value="0.0" />
+          <attvalue for="19" value="0.0" />
+        </attvalues>
+      </node>
+      <node id="SUB::Mercurio (polvos, respirables, vapores o humos)" label="Mercury (respirable dust, vapors or fumes)">
+        <attvalues>
+          <attvalue for="0" value="substance" />
+          <attvalue for="1" value="0.00193936" />
+          <attvalue for="2" value="0.0" />
+          <attvalue for="3" value="0.0" />
+          <attvalue for="4" value="0.0" />
+          <attvalue for="5" value="0.0" />
+          <attvalue for="6" value="0.0" />
+          <attvalue for="7" value="0.0" />
+          <attvalue for="8" value="0.0" />
+          <attvalue for="9" value="0.0" />
+          <attvalue for="10" value="0.00193936" />
+          <attvalue for="11" value="0.0" />
+          <attvalue for="12" value="0.0" />
+          <attvalue for="13" value="0.0" />
+          <attvalue for="14" value="0.0" />
+          <attvalue for="15" value="0.0" />
+          <attvalue for="16" value="0.0" />
+          <attvalue for="17" value="0.0" />
+          <attvalue for="18" value="0.0" />
+          <attvalue for="19" value="0.0" />
+        </attvalues>
+      </node>
+      <node id="SUB::Níquel (Compuestos solubles)" label="Nickel (soluble compounds)">
+        <attvalues>
+          <attvalue for="0" value="substance" />
+          <attvalue for="1" value="1021.7831961080001" />
+          <attvalue for="2" value="0.0" />
+          <attvalue for="3" value="0.0" />
+          <attvalue for="4" value="0.0" />
+          <attvalue for="5" value="0.6729961080000001" />
+          <attvalue for="6" value="0.0" />
+          <attvalue for="7" value="0.0" />
+          <attvalue for="8" value="0.0" />
+          <attvalue for="9" value="0.0" />
+          <attvalue for="10" value="0.0" />
+          <attvalue for="11" value="7.920400000000001" />
+          <attvalue for="12" value="0.0" />
+          <attvalue for="13" value="41.8328" />
+          <attvalue for="14" value="36.9031" />
+          <attvalue for="15" value="156.5502" />
+          <attvalue for="16" value="40.2014" />
+          <attvalue for="17" value="123.0446" />
+          <attvalue for="18" value="583.1370000000001" />
+          <attvalue for="19" value="31.5207" />
+        </attvalues>
+      </node>
+      <node id="SUB::Níquel (compuestos)" label="Nickel (compounds)">
+        <attvalues>
+          <attvalue for="0" value="substance" />
+          <attvalue for="1" value="5.9254645" />
+          <attvalue for="2" value="3.0" />
+          <attvalue for="3" value="0.30621444000000003" />
+          <attvalue for="4" value="1.40759146" />
+          <attvalue for="5" value="0.0" />
+          <attvalue for="6" value="0.3054" />
+          <attvalue for="7" value="0.3202777" />
+          <attvalue for="8" value="0.5484377" />
+          <attvalue for="9" value="0.0" />
+          <attvalue for="10" value="0.0375432" />
+          <attvalue for="11" value="0.0" />
+          <attvalue for="12" value="0.0" />
+          <attvalue for="13" value="0.0" />
+          <attvalue for="14" value="0.0" />
+          <attvalue for="15" value="0.0" />
+          <attvalue for="16" value="0.0" />
+          <attvalue for="17" value="0.0" />
+          <attvalue for="18" value="0.0" />
+          <attvalue for="19" value="0.0" />
+        </attvalues>
+      </node>
+      <node id="SUB::Plomo (Compuestos solubles)" label="Lead (soluble compounds)">
+        <attvalues>
+          <attvalue for="0" value="substance" />
+          <attvalue for="1" value="660.7187211859999" />
+          <attvalue for="2" value="0.0" />
+          <attvalue for="3" value="0.0" />
+          <attvalue for="4" value="0.0" />
+          <attvalue for="5" value="0.673021186" />
+          <attvalue for="6" value="0.0" />
+          <attvalue for="7" value="0.0" />
+          <attvalue for="8" value="0.0" />
+          <attvalue for="9" value="0.0" />
+          <attvalue for="10" value="0.0" />
+          <attvalue for="11" value="2.9565" />
+          <attvalue for="12" value="2.9565" />
+          <attvalue for="13" value="38.7965" />
+          <attvalue for="14" value="35.5665" />
+          <attvalue for="15" value="159.86069999999998" />
+          <attvalue for="16" value="43.5119" />
+          <attvalue for="17" value="65.95570000000001" />
+          <attvalue for="18" value="264.8338" />
+          <attvalue for="19" value="45.6076" />
+        </attvalues>
+      </node>
+      <node id="SUB::Plomo (compuestos)" label="Lead (compounds)">
+        <attvalues>
+          <attvalue for="0" value="substance" />
+          <attvalue for="1" value="30.705891951399998" />
+          <attvalue for="2" value="25.0" />
+          <attvalue for="3" value="0.9880491852" />
+          <attvalue for="4" value="3.4942419262" />
+          <attvalue for="5" value="0.0" />
+          <attvalue for="6" value="0.3454" />
+          <attvalue for="7" value="0.3207177" />
+          <attvalue for="8" value="0.5484377" />
+          <attvalue for="9" value="0.0" />
+          <attvalue for="10" value="0.00904544" />
+          <attvalue for="11" value="0.0" />
+          <attvalue for="12" value="0.0" />
+          <attvalue for="13" value="0.0" />
+          <attvalue for="14" value="0.0" />
+          <attvalue for="15" value="0.0" />
+          <attvalue for="16" value="0.0" />
+          <attvalue for="17" value="0.0" />
+          <attvalue for="18" value="0.0" />
+          <attvalue for="19" value="0.0" />
+        </attvalues>
+      </node>
+    </nodes>
+    <edges>
+      <edge source="LOC::Nayarit.Acaponeta" target="SUB::Arsénico (polvos, respirables, vapores o humos)" id="0" weight="0.075">
+        <attvalues>
+          <attvalue for="20" value="0.0375" />
+          <attvalue for="21" value="0.0375" />
+          <attvalue for="22" value="0.0" />
+          <attvalue for="23" value="0.0" />
+          <attvalue for="24" value="0.0" />
+          <attvalue for="25" value="0.0" />
+          <attvalue for="26" value="0.0" />
+          <attvalue for="27" value="0.0" />
+          <attvalue for="28" value="0.0" />
+          <attvalue for="29" value="0.0" />
+          <attvalue for="30" value="0.0" />
+          <attvalue for="31" value="0.0" />
+          <attvalue for="32" value="0.0" />
+          <attvalue for="33" value="0.0" />
+          <attvalue for="34" value="0.0" />
+          <attvalue for="35" value="0.0" />
+          <attvalue for="36" value="0.0" />
+          <attvalue for="37" value="0.0" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Nayarit.Acaponeta" target="SUB::Cadmio (polvos, respirables, vapores o humos)" id="1" weight="0.000225">
+        <attvalues>
+          <attvalue for="20" value="0.0" />
+          <attvalue for="21" value="0.000225" />
+          <attvalue for="22" value="0.0" />
+          <attvalue for="23" value="0.0" />
+          <attvalue for="24" value="0.0" />
+          <attvalue for="25" value="0.0" />
+          <attvalue for="26" value="0.0" />
+          <attvalue for="27" value="0.0" />
+          <attvalue for="28" value="0.0" />
+          <attvalue for="29" value="0.0" />
+          <attvalue for="30" value="0.0" />
+          <attvalue for="31" value="0.0" />
+          <attvalue for="32" value="0.0" />
+          <attvalue for="33" value="0.0" />
+          <attvalue for="34" value="0.0" />
+          <attvalue for="35" value="0.0" />
+          <attvalue for="36" value="0.0" />
+          <attvalue for="37" value="0.0" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Nayarit.Acaponeta" target="SUB::Cianuro inorgánico/orgánico" id="2" weight="0.125">
+        <attvalues>
+          <attvalue for="20" value="0.0625" />
+          <attvalue for="21" value="0.0625" />
+          <attvalue for="22" value="0.0" />
+          <attvalue for="23" value="0.0" />
+          <attvalue for="24" value="0.0" />
+          <attvalue for="25" value="0.0" />
+          <attvalue for="26" value="0.0" />
+          <attvalue for="27" value="0.0" />
+          <attvalue for="28" value="0.0" />
+          <attvalue for="29" value="0.0" />
+          <attvalue for="30" value="0.0" />
+          <attvalue for="31" value="0.0" />
+          <attvalue for="32" value="0.0" />
+          <attvalue for="33" value="0.0" />
+          <attvalue for="34" value="0.0" />
+          <attvalue for="35" value="0.0" />
+          <attvalue for="36" value="0.0" />
+          <attvalue for="37" value="0.0" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Nayarit.Acaponeta" target="SUB::Plomo (compuestos)" id="3" weight="0.01675">
+        <attvalues>
+          <attvalue for="20" value="0.0" />
+          <attvalue for="21" value="0.01675" />
+          <attvalue for="22" value="0.0" />
+          <attvalue for="23" value="0.0" />
+          <attvalue for="24" value="0.0" />
+          <attvalue for="25" value="0.0" />
+          <attvalue for="26" value="0.0" />
+          <attvalue for="27" value="0.0" />
+          <attvalue for="28" value="0.0" />
+          <attvalue for="29" value="0.0" />
+          <attvalue for="30" value="0.0" />
+          <attvalue for="31" value="0.0" />
+          <attvalue for="32" value="0.0" />
+          <attvalue for="33" value="0.0" />
+          <attvalue for="34" value="0.0" />
+          <attvalue for="35" value="0.0" />
+          <attvalue for="36" value="0.0" />
+          <attvalue for="37" value="0.0" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Nayarit.Acaponeta" target="SUB::Níquel (compuestos)" id="4" weight="0.0025">
+        <attvalues>
+          <attvalue for="20" value="0.0" />
+          <attvalue for="21" value="0.0025" />
+          <attvalue for="22" value="0.0" />
+          <attvalue for="23" value="0.0" />
+          <attvalue for="24" value="0.0" />
+          <attvalue for="25" value="0.0" />
+          <attvalue for="26" value="0.0" />
+          <attvalue for="27" value="0.0" />
+          <attvalue for="28" value="0.0" />
+          <attvalue for="29" value="0.0" />
+          <attvalue for="30" value="0.0" />
+          <attvalue for="31" value="0.0" />
+          <attvalue for="32" value="0.0" />
+          <attvalue for="33" value="0.0" />
+          <attvalue for="34" value="0.0" />
+          <attvalue for="35" value="0.0" />
+          <attvalue for="36" value="0.0" />
+          <attvalue for="37" value="0.0" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Nayarit.Acaponeta" target="SUB::Cromo (compuestos)" id="5" weight="0.0025">
+        <attvalues>
+          <attvalue for="20" value="0.0" />
+          <attvalue for="21" value="0.0025" />
+          <attvalue for="22" value="0.0" />
+          <attvalue for="23" value="0.0" />
+          <attvalue for="24" value="0.0" />
+          <attvalue for="25" value="0.0" />
+          <attvalue for="26" value="0.0" />
+          <attvalue for="27" value="0.0" />
+          <attvalue for="28" value="0.0" />
+          <attvalue for="29" value="0.0" />
+          <attvalue for="30" value="0.0" />
+          <attvalue for="31" value="0.0" />
+          <attvalue for="32" value="0.0" />
+          <attvalue for="33" value="0.0" />
+          <attvalue for="34" value="0.0" />
+          <attvalue for="35" value="0.0" />
+          <attvalue for="36" value="0.0" />
+          <attvalue for="37" value="0.0" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Nayarit.Acaponeta" target="SUB::Benceno" id="6" weight="53.0">
+        <attvalues>
+          <attvalue for="20" value="53.0" />
+          <attvalue for="21" value="0.0" />
+          <attvalue for="22" value="0.0" />
+          <attvalue for="23" value="0.0" />
+          <attvalue for="24" value="0.0" />
+          <attvalue for="25" value="0.0" />
+          <attvalue for="26" value="0.0" />
+          <attvalue for="27" value="0.0" />
+          <attvalue for="28" value="0.0" />
+          <attvalue for="29" value="0.0" />
+          <attvalue for="30" value="0.0" />
+          <attvalue for="31" value="0.0" />
+          <attvalue for="32" value="0.0" />
+          <attvalue for="33" value="0.0" />
+          <attvalue for="34" value="0.0" />
+          <attvalue for="35" value="0.0" />
+          <attvalue for="36" value="0.0" />
+          <attvalue for="37" value="0.0" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Nayarit.Acaponeta" target="SUB::Mercurio (compuestos)" id="7" weight="0.0005">
+        <attvalues>
+          <attvalue for="20" value="0.00025" />
+          <attvalue for="21" value="0.00025" />
+          <attvalue for="22" value="0.0" />
+          <attvalue for="23" value="0.0" />
+          <attvalue for="24" value="0.0" />
+          <attvalue for="25" value="0.0" />
+          <attvalue for="26" value="0.0" />
+          <attvalue for="27" value="0.0" />
+          <attvalue for="28" value="0.0" />
+          <attvalue for="29" value="0.0" />
+          <attvalue for="30" value="0.0" />
+          <attvalue for="31" value="0.0" />
+          <attvalue for="32" value="0.0" />
+          <attvalue for="33" value="0.0" />
+          <attvalue for="34" value="0.0" />
+          <attvalue for="35" value="0.0" />
+          <attvalue for="36" value="0.0" />
+          <attvalue for="37" value="0.0" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Nayarit.Bahía de Banderas" target="SUB::Arsénico (Compuestos solubles)" id="8" weight="26.2372">
+        <attvalues>
+          <attvalue for="20" value="0.0" />
+          <attvalue for="21" value="0.0" />
+          <attvalue for="22" value="0.0" />
+          <attvalue for="23" value="0.0" />
+          <attvalue for="24" value="0.0" />
+          <attvalue for="25" value="0.0" />
+          <attvalue for="26" value="0.0" />
+          <attvalue for="27" value="0.0" />
+          <attvalue for="28" value="0.0" />
+          <attvalue for="29" value="2.7593" />
+          <attvalue for="30" value="2.7593" />
+          <attvalue for="31" value="4.3898" />
+          <attvalue for="32" value="3.0866" />
+          <attvalue for="33" value="4.4536" />
+          <attvalue for="34" value="4.3943" />
+          <attvalue for="35" value="4.3943" />
+          <attvalue for="36" value="0.0" />
+          <attvalue for="37" value="0.0" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Nayarit.Bahía de Banderas" target="SUB::Cromo (Compuestos solubles)" id="9" weight="49.136700000000005">
+        <attvalues>
+          <attvalue for="20" value="0.0" />
+          <attvalue for="21" value="0.0" />
+          <attvalue for="22" value="0.0" />
+          <attvalue for="23" value="0.0" />
+          <attvalue for="24" value="0.0" />
+          <attvalue for="25" value="0.0" />
+          <attvalue for="26" value="0.0" />
+          <attvalue for="27" value="0.0" />
+          <attvalue for="28" value="0.0" />
+          <attvalue for="29" value="4.1904" />
+          <attvalue for="30" value="0.0" />
+          <attvalue for="31" value="13.9463" />
+          <attvalue for="32" value="14.6008" />
+          <attvalue for="33" value="4.8069" />
+          <attvalue for="34" value="4.7476" />
+          <attvalue for="35" value="4.7476" />
+          <attvalue for="36" value="2.0971" />
+          <attvalue for="37" value="0.0" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Nayarit.Bahía de Banderas" target="SUB::Níquel (Compuestos solubles)" id="10" weight="220.7996">
+        <attvalues>
+          <attvalue for="20" value="0.0" />
+          <attvalue for="21" value="0.0" />
+          <attvalue for="22" value="0.0" />
+          <attvalue for="23" value="0.0" />
+          <attvalue for="24" value="0.0" />
+          <attvalue for="25" value="0.0" />
+          <attvalue for="26" value="0.0" />
+          <attvalue for="27" value="0.0" />
+          <attvalue for="28" value="0.0" />
+          <attvalue for="29" value="3.6427" />
+          <attvalue for="30" value="0.0" />
+          <attvalue for="31" value="41.8328" />
+          <attvalue for="32" value="36.9031" />
+          <attvalue for="33" value="29.55" />
+          <attvalue for="34" value="27.6574" />
+          <attvalue for="35" value="23.7972" />
+          <attvalue for="36" value="28.7082" />
+          <attvalue for="37" value="28.7082" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Nayarit.Bahía de Banderas" target="SUB::Formaldehido" id="11" weight="260.4">
+        <attvalues>
+          <attvalue for="20" value="0.0" />
+          <attvalue for="21" value="0.0" />
+          <attvalue for="22" value="0.0" />
+          <attvalue for="23" value="0.0" />
+          <attvalue for="24" value="0.0" />
+          <attvalue for="25" value="0.0" />
+          <attvalue for="26" value="0.0" />
+          <attvalue for="27" value="0.0" />
+          <attvalue for="28" value="0.0" />
+          <attvalue for="29" value="0.0" />
+          <attvalue for="30" value="0.0" />
+          <attvalue for="31" value="0.0" />
+          <attvalue for="32" value="0.0" />
+          <attvalue for="33" value="0.0" />
+          <attvalue for="34" value="0.0" />
+          <attvalue for="35" value="0.0" />
+          <attvalue for="36" value="0.0" />
+          <attvalue for="37" value="260.4" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Nayarit.Bahía de Banderas" target="SUB::Plomo (Compuestos solubles)" id="12" weight="257.3367">
+        <attvalues>
+          <attvalue for="20" value="0.0" />
+          <attvalue for="21" value="0.0" />
+          <attvalue for="22" value="0.0" />
+          <attvalue for="23" value="0.0" />
+          <attvalue for="24" value="0.0" />
+          <attvalue for="25" value="0.0" />
+          <attvalue for="26" value="0.0" />
+          <attvalue for="27" value="0.0" />
+          <attvalue for="28" value="0.0" />
+          <attvalue for="29" value="2.9565" />
+          <attvalue for="30" value="2.9565" />
+          <attvalue for="31" value="38.7965" />
+          <attvalue for="32" value="35.5665" />
+          <attvalue for="33" value="32.8605" />
+          <attvalue for="34" value="30.9679" />
+          <attvalue for="35" value="27.1077" />
+          <attvalue for="36" value="43.0623" />
+          <attvalue for="37" value="43.0623" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Nayarit.Bahía de Banderas" target="SUB::Cadmio (Compuestos solubles)" id="13" weight="54.4202">
+        <attvalues>
+          <attvalue for="20" value="0.0" />
+          <attvalue for="21" value="0.0" />
+          <attvalue for="22" value="0.0" />
+          <attvalue for="23" value="0.0" />
+          <attvalue for="24" value="0.0" />
+          <attvalue for="25" value="0.0" />
+          <attvalue for="26" value="0.0" />
+          <attvalue for="27" value="0.0" />
+          <attvalue for="28" value="0.0" />
+          <attvalue for="29" value="0.0" />
+          <attvalue for="30" value="0.0" />
+          <attvalue for="31" value="8.482800000000001" />
+          <attvalue for="32" value="6.4512" />
+          <attvalue for="33" value="7.0036" />
+          <attvalue for="34" value="6.5776" />
+          <attvalue for="35" value="5.8056" />
+          <attvalue for="36" value="8.6125" />
+          <attvalue for="37" value="11.4869" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Nayarit.Del Nayar" target="SUB::Mercurio (Compuestos solubles)" id="14" weight="4.27e-07">
+        <attvalues>
+          <attvalue for="20" value="0.0" />
+          <attvalue for="21" value="0.0" />
+          <attvalue for="22" value="0.0" />
+          <attvalue for="23" value="4.27e-07" />
+          <attvalue for="24" value="0.0" />
+          <attvalue for="25" value="0.0" />
+          <attvalue for="26" value="0.0" />
+          <attvalue for="27" value="0.0" />
+          <attvalue for="28" value="0.0" />
+          <attvalue for="29" value="0.0" />
+          <attvalue for="30" value="0.0" />
+          <attvalue for="31" value="0.0" />
+          <attvalue for="32" value="0.0" />
+          <attvalue for="33" value="0.0" />
+          <attvalue for="34" value="0.0" />
+          <attvalue for="35" value="0.0" />
+          <attvalue for="36" value="0.0" />
+          <attvalue for="37" value="0.0" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Nayarit.Del Nayar" target="SUB::Mercurio (polvos, respirables, vapores o humos)" id="15" weight="0.0001168">
+        <attvalues>
+          <attvalue for="20" value="0.0" />
+          <attvalue for="21" value="0.0" />
+          <attvalue for="22" value="0.0" />
+          <attvalue for="23" value="0.0" />
+          <attvalue for="24" value="0.0" />
+          <attvalue for="25" value="0.0" />
+          <attvalue for="26" value="0.0" />
+          <attvalue for="27" value="0.0" />
+          <attvalue for="28" value="0.0001168" />
+          <attvalue for="29" value="0.0" />
+          <attvalue for="30" value="0.0" />
+          <attvalue for="31" value="0.0" />
+          <attvalue for="32" value="0.0" />
+          <attvalue for="33" value="0.0" />
+          <attvalue for="34" value="0.0" />
+          <attvalue for="35" value="0.0" />
+          <attvalue for="36" value="0.0" />
+          <attvalue for="37" value="0.0" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Nayarit.Del Nayar" target="SUB::Mercurio (compuestos)" id="16" weight="8.7302e-07">
+        <attvalues>
+          <attvalue for="20" value="1.1382e-07" />
+          <attvalue for="21" value="3.796e-07" />
+          <attvalue for="22" value="3.796e-07" />
+          <attvalue for="23" value="0.0" />
+          <attvalue for="24" value="0.0" />
+          <attvalue for="25" value="0.0" />
+          <attvalue for="26" value="0.0" />
+          <attvalue for="27" value="0.0" />
+          <attvalue for="28" value="0.0" />
+          <attvalue for="29" value="0.0" />
+          <attvalue for="30" value="0.0" />
+          <attvalue for="31" value="0.0" />
+          <attvalue for="32" value="0.0" />
+          <attvalue for="33" value="0.0" />
+          <attvalue for="34" value="0.0" />
+          <attvalue for="35" value="0.0" />
+          <attvalue for="36" value="0.0" />
+          <attvalue for="37" value="0.0" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Nayarit.Del Nayar" target="SUB::Arsénico (polvos, respirables, vapores o humos)" id="17" weight="0.00369408182">
+        <attvalues>
+          <attvalue for="20" value="2.4689e-06" />
+          <attvalue for="21" value="6.20646e-06" />
+          <attvalue for="22" value="6.20646e-06" />
+          <attvalue for="23" value="0.0" />
+          <attvalue for="24" value="0.0" />
+          <attvalue for="25" value="0.0" />
+          <attvalue for="26" value="0.0" />
+          <attvalue for="27" value="0.0" />
+          <attvalue for="28" value="0.0036791999999999997" />
+          <attvalue for="29" value="0.0" />
+          <attvalue for="30" value="0.0" />
+          <attvalue for="31" value="0.0" />
+          <attvalue for="32" value="0.0" />
+          <attvalue for="33" value="0.0" />
+          <attvalue for="34" value="0.0" />
+          <attvalue for="35" value="0.0" />
+          <attvalue for="36" value="0.0" />
+          <attvalue for="37" value="0.0" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Nayarit.Del Nayar" target="SUB::Cadmio (polvos, respirables, vapores o humos)" id="18" weight="0.0012074486">
+        <attvalues>
+          <attvalue for="20" value="0.0" />
+          <attvalue for="21" value="1.9724e-05" />
+          <attvalue for="22" value="1.97246e-05" />
+          <attvalue for="23" value="0.0" />
+          <attvalue for="24" value="0.0" />
+          <attvalue for="25" value="0.0" />
+          <attvalue for="26" value="0.0" />
+          <attvalue for="27" value="0.0" />
+          <attvalue for="28" value="0.001168" />
+          <attvalue for="29" value="0.0" />
+          <attvalue for="30" value="0.0" />
+          <attvalue for="31" value="0.0" />
+          <attvalue for="32" value="0.0" />
+          <attvalue for="33" value="0.0" />
+          <attvalue for="34" value="0.0" />
+          <attvalue for="35" value="0.0" />
+          <attvalue for="36" value="0.0" />
+          <attvalue for="37" value="0.0" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Nayarit.Del Nayar" target="SUB::Níquel (compuestos)" id="19" weight="0.03494072">
+        <attvalues>
+          <attvalue for="20" value="0.0" />
+          <attvalue for="21" value="3.796e-05" />
+          <attvalue for="22" value="3.796e-05" />
+          <attvalue for="23" value="0.0" />
+          <attvalue for="24" value="0.0" />
+          <attvalue for="25" value="0.0" />
+          <attvalue for="26" value="0.0" />
+          <attvalue for="27" value="0.0" />
+          <attvalue for="28" value="0.0348648" />
+          <attvalue for="29" value="0.0" />
+          <attvalue for="30" value="0.0" />
+          <attvalue for="31" value="0.0" />
+          <attvalue for="32" value="0.0" />
+          <attvalue for="33" value="0.0" />
+          <attvalue for="34" value="0.0" />
+          <attvalue for="35" value="0.0" />
+          <attvalue for="36" value="0.0" />
+          <attvalue for="37" value="0.0" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Nayarit.Del Nayar" target="SUB::Plomo (Compuestos solubles)" id="20" weight="2.2496e-05">
+        <attvalues>
+          <attvalue for="20" value="0.0" />
+          <attvalue for="21" value="0.0" />
+          <attvalue for="22" value="0.0" />
+          <attvalue for="23" value="2.2496e-05" />
+          <attvalue for="24" value="0.0" />
+          <attvalue for="25" value="0.0" />
+          <attvalue for="26" value="0.0" />
+          <attvalue for="27" value="0.0" />
+          <attvalue for="28" value="0.0" />
+          <attvalue for="29" value="0.0" />
+          <attvalue for="30" value="0.0" />
+          <attvalue for="31" value="0.0" />
+          <attvalue for="32" value="0.0" />
+          <attvalue for="33" value="0.0" />
+          <attvalue for="34" value="0.0" />
+          <attvalue for="35" value="0.0" />
+          <attvalue for="36" value="0.0" />
+          <attvalue for="37" value="0.0" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Nayarit.Del Nayar" target="SUB::Cromo (compuestos)" id="21" weight="0.0060298">
+        <attvalues>
+          <attvalue for="20" value="0.0" />
+          <attvalue for="21" value="9.49e-05" />
+          <attvalue for="22" value="9.49e-05" />
+          <attvalue for="23" value="0.0" />
+          <attvalue for="24" value="0.0" />
+          <attvalue for="25" value="0.0" />
+          <attvalue for="26" value="0.0" />
+          <attvalue for="27" value="0.0" />
+          <attvalue for="28" value="0.00584" />
+          <attvalue for="29" value="0.0" />
+          <attvalue for="30" value="0.0" />
+          <attvalue for="31" value="0.0" />
+          <attvalue for="32" value="0.0" />
+          <attvalue for="33" value="0.0" />
+          <attvalue for="34" value="0.0" />
+          <attvalue for="35" value="0.0" />
+          <attvalue for="36" value="0.0" />
+          <attvalue for="37" value="0.0" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Nayarit.Del Nayar" target="SUB::Cianuro inorgánico/orgánico" id="22" weight="0.0007038241">
+        <attvalues>
+          <attvalue for="20" value="6.489e-07" />
+          <attvalue for="21" value="5.92906e-05" />
+          <attvalue for="22" value="5.92906e-05" />
+          <attvalue for="23" value="5.939999999999999e-07" />
+          <attvalue for="24" value="0.0" />
+          <attvalue for="25" value="0.0" />
+          <attvalue for="26" value="0.0" />
+          <attvalue for="27" value="0.0" />
+          <attvalue for="28" value="0.000584" />
+          <attvalue for="29" value="0.0" />
+          <attvalue for="30" value="0.0" />
+          <attvalue for="31" value="0.0" />
+          <attvalue for="32" value="0.0" />
+          <attvalue for="33" value="0.0" />
+          <attvalue for="34" value="0.0" />
+          <attvalue for="35" value="0.0" />
+          <attvalue for="36" value="0.0" />
+          <attvalue for="37" value="0.0" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Nayarit.Del Nayar" target="SUB::Plomo (compuestos)" id="23" weight="0.005896852199999999">
+        <attvalues>
+          <attvalue for="20" value="0.0" />
+          <attvalue for="21" value="2.8426e-05" />
+          <attvalue for="22" value="2.84262e-05" />
+          <attvalue for="23" value="0.0" />
+          <attvalue for="24" value="0.0" />
+          <attvalue for="25" value="0.0" />
+          <attvalue for="26" value="0.0" />
+          <attvalue for="27" value="0.0" />
+          <attvalue for="28" value="0.00584" />
+          <attvalue for="29" value="0.0" />
+          <attvalue for="30" value="0.0" />
+          <attvalue for="31" value="0.0" />
+          <attvalue for="32" value="0.0" />
+          <attvalue for="33" value="0.0" />
+          <attvalue for="34" value="0.0" />
+          <attvalue for="35" value="0.0" />
+          <attvalue for="36" value="0.0" />
+          <attvalue for="37" value="0.0" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Nayarit.La Yesca" target="SUB::Mercurio (compuestos)" id="24" weight="0.4618524">
+        <attvalues>
+          <attvalue for="20" value="0.038939" />
+          <attvalue for="21" value="0.2608626" />
+          <attvalue for="22" value="0.1620508" />
+          <attvalue for="23" value="0.0" />
+          <attvalue for="24" value="0.0" />
+          <attvalue for="25" value="0.0" />
+          <attvalue for="26" value="0.0" />
+          <attvalue for="27" value="0.0" />
+          <attvalue for="28" value="0.0" />
+          <attvalue for="29" value="0.0" />
+          <attvalue for="30" value="0.0" />
+          <attvalue for="31" value="0.0" />
+          <attvalue for="32" value="0.0" />
+          <attvalue for="33" value="0.0" />
+          <attvalue for="34" value="0.0" />
+          <attvalue for="35" value="0.0" />
+          <attvalue for="36" value="0.0" />
+          <attvalue for="37" value="0.0" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Nayarit.La Yesca" target="SUB::Arsénico (polvos, respirables, vapores o humos)" id="25" weight="0.5372014">
+        <attvalues>
+          <attvalue for="20" value="0.25578" />
+          <attvalue for="21" value="0.081757" />
+          <attvalue for="22" value="0.1996644" />
+          <attvalue for="23" value="0.0" />
+          <attvalue for="24" value="0.0" />
+          <attvalue for="25" value="0.0" />
+          <attvalue for="26" value="0.0" />
+          <attvalue for="27" value="0.0" />
+          <attvalue for="28" value="0.0" />
+          <attvalue for="29" value="0.0" />
+          <attvalue for="30" value="0.0" />
+          <attvalue for="31" value="0.0" />
+          <attvalue for="32" value="0.0" />
+          <attvalue for="33" value="0.0" />
+          <attvalue for="34" value="0.0" />
+          <attvalue for="35" value="0.0" />
+          <attvalue for="36" value="0.0" />
+          <attvalue for="37" value="0.0" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Nayarit.La Yesca" target="SUB::Cadmio (polvos, respirables, vapores o humos)" id="26" weight="0.906457">
+        <attvalues>
+          <attvalue for="20" value="0.0" />
+          <attvalue for="21" value="0.14942" />
+          <attvalue for="22" value="0.757037" />
+          <attvalue for="23" value="0.0" />
+          <attvalue for="24" value="0.0" />
+          <attvalue for="25" value="0.0" />
+          <attvalue for="26" value="0.0" />
+          <attvalue for="27" value="0.0" />
+          <attvalue for="28" value="0.0" />
+          <attvalue for="29" value="0.0" />
+          <attvalue for="30" value="0.0" />
+          <attvalue for="31" value="0.0" />
+          <attvalue for="32" value="0.0" />
+          <attvalue for="33" value="0.0" />
+          <attvalue for="34" value="0.0" />
+          <attvalue for="35" value="0.0" />
+          <attvalue for="36" value="0.0" />
+          <attvalue for="37" value="0.0" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Nayarit.La Yesca" target="SUB::Cianuro inorgánico/orgánico" id="27" weight="4.93730567">
+        <attvalues>
+          <attvalue for="20" value="0.73669" />
+          <attvalue for="21" value="0.17370847" />
+          <attvalue for="22" value="4.0269072" />
+          <attvalue for="23" value="0.0" />
+          <attvalue for="24" value="0.0" />
+          <attvalue for="25" value="0.0" />
+          <attvalue for="26" value="0.0" />
+          <attvalue for="27" value="0.0" />
+          <attvalue for="28" value="0.0" />
+          <attvalue for="29" value="0.0" />
+          <attvalue for="30" value="0.0" />
+          <attvalue for="31" value="0.0" />
+          <attvalue for="32" value="0.0" />
+          <attvalue for="33" value="0.0" />
+          <attvalue for="34" value="0.0" />
+          <attvalue for="35" value="0.0" />
+          <attvalue for="36" value="0.0" />
+          <attvalue for="37" value="0.0" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Nayarit.La Yesca" target="SUB::Plomo (compuestos)" id="28" weight="29.4654835">
+        <attvalues>
+          <attvalue for="20" value="25.0" />
+          <attvalue for="21" value="0.97127" />
+          <attvalue for="22" value="3.4942135" />
+          <attvalue for="23" value="0.0" />
+          <attvalue for="24" value="0.0" />
+          <attvalue for="25" value="0.0" />
+          <attvalue for="26" value="0.0" />
+          <attvalue for="27" value="0.0" />
+          <attvalue for="28" value="0.0" />
+          <attvalue for="29" value="0.0" />
+          <attvalue for="30" value="0.0" />
+          <attvalue for="31" value="0.0" />
+          <attvalue for="32" value="0.0" />
+          <attvalue for="33" value="0.0" />
+          <attvalue for="34" value="0.0" />
+          <attvalue for="35" value="0.0" />
+          <attvalue for="36" value="0.0" />
+          <attvalue for="37" value="0.0" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Nayarit.La Yesca" target="SUB::Níquel (compuestos)" id="29" weight="4.71122852">
+        <attvalues>
+          <attvalue for="20" value="3.0" />
+          <attvalue for="21" value="0.30367502" />
+          <attvalue for="22" value="1.4075535" />
+          <attvalue for="23" value="0.0" />
+          <attvalue for="24" value="0.0" />
+          <attvalue for="25" value="0.0" />
+          <attvalue for="26" value="0.0" />
+          <attvalue for="27" value="0.0" />
+          <attvalue for="28" value="0.0" />
+          <attvalue for="29" value="0.0" />
+          <attvalue for="30" value="0.0" />
+          <attvalue for="31" value="0.0" />
+          <attvalue for="32" value="0.0" />
+          <attvalue for="33" value="0.0" />
+          <attvalue for="34" value="0.0" />
+          <attvalue for="35" value="0.0" />
+          <attvalue for="36" value="0.0" />
+          <attvalue for="37" value="0.0" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Nayarit.La Yesca" target="SUB::Cromo (compuestos)" id="30" weight="36.4818583">
+        <attvalues>
+          <attvalue for="20" value="32.0" />
+          <attvalue for="21" value="0.89655" />
+          <attvalue for="22" value="3.5853083" />
+          <attvalue for="23" value="0.0" />
+          <attvalue for="24" value="0.0" />
+          <attvalue for="25" value="0.0" />
+          <attvalue for="26" value="0.0" />
+          <attvalue for="27" value="0.0" />
+          <attvalue for="28" value="0.0" />
+          <attvalue for="29" value="0.0" />
+          <attvalue for="30" value="0.0" />
+          <attvalue for="31" value="0.0" />
+          <attvalue for="32" value="0.0" />
+          <attvalue for="33" value="0.0" />
+          <attvalue for="34" value="0.0" />
+          <attvalue for="35" value="0.0" />
+          <attvalue for="36" value="0.0" />
+          <attvalue for="37" value="0.0" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Nayarit.San Blas" target="SUB::Níquel (Compuestos solubles)" id="31" weight="238.7916">
+        <attvalues>
+          <attvalue for="20" value="0.0" />
+          <attvalue for="21" value="0.0" />
+          <attvalue for="22" value="0.0" />
+          <attvalue for="23" value="0.0" />
+          <attvalue for="24" value="0.0" />
+          <attvalue for="25" value="0.0" />
+          <attvalue for="26" value="0.0" />
+          <attvalue for="27" value="0.0" />
+          <attvalue for="28" value="0.0" />
+          <attvalue for="29" value="0.0" />
+          <attvalue for="30" value="0.0" />
+          <attvalue for="31" value="0.0" />
+          <attvalue for="32" value="0.0" />
+          <attvalue for="33" value="127.00019999999999" />
+          <attvalue for="34" value="12.544" />
+          <attvalue for="35" value="99.2474" />
+          <attvalue for="36" value="0.0" />
+          <attvalue for="37" value="0.0" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Nayarit.San Blas" target="SUB::Plomo (Compuestos solubles)" id="32" weight="178.3922">
+        <attvalues>
+          <attvalue for="20" value="0.0" />
+          <attvalue for="21" value="0.0" />
+          <attvalue for="22" value="0.0" />
+          <attvalue for="23" value="0.0" />
+          <attvalue for="24" value="0.0" />
+          <attvalue for="25" value="0.0" />
+          <attvalue for="26" value="0.0" />
+          <attvalue for="27" value="0.0" />
+          <attvalue for="28" value="0.0" />
+          <attvalue for="29" value="0.0" />
+          <attvalue for="30" value="0.0" />
+          <attvalue for="31" value="0.0" />
+          <attvalue for="32" value="0.0" />
+          <attvalue for="33" value="127.00019999999999" />
+          <attvalue for="34" value="12.544" />
+          <attvalue for="35" value="38.848" />
+          <attvalue for="36" value="0.0" />
+          <attvalue for="37" value="0.0" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Nayarit.San Blas" target="SUB::Cianuro inorgánico/orgánico" id="33" weight="114.4562">
+        <attvalues>
+          <attvalue for="20" value="0.0" />
+          <attvalue for="21" value="0.0" />
+          <attvalue for="22" value="0.0" />
+          <attvalue for="23" value="0.0" />
+          <attvalue for="24" value="0.0" />
+          <attvalue for="25" value="0.0" />
+          <attvalue for="26" value="0.0" />
+          <attvalue for="27" value="0.0" />
+          <attvalue for="28" value="0.0" />
+          <attvalue for="29" value="0.0" />
+          <attvalue for="30" value="0.0" />
+          <attvalue for="31" value="0.0" />
+          <attvalue for="32" value="0.0" />
+          <attvalue for="33" value="114.4562" />
+          <attvalue for="34" value="0.0" />
+          <attvalue for="35" value="0.0" />
+          <attvalue for="36" value="0.0" />
+          <attvalue for="37" value="0.0" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Nayarit.San Blas" target="SUB::Cadmio (Compuestos solubles)" id="34" weight="178.3922">
+        <attvalues>
+          <attvalue for="20" value="0.0" />
+          <attvalue for="21" value="0.0" />
+          <attvalue for="22" value="0.0" />
+          <attvalue for="23" value="0.0" />
+          <attvalue for="24" value="0.0" />
+          <attvalue for="25" value="0.0" />
+          <attvalue for="26" value="0.0" />
+          <attvalue for="27" value="0.0" />
+          <attvalue for="28" value="0.0" />
+          <attvalue for="29" value="0.0" />
+          <attvalue for="30" value="0.0" />
+          <attvalue for="31" value="0.0" />
+          <attvalue for="32" value="0.0" />
+          <attvalue for="33" value="127.00019999999999" />
+          <attvalue for="34" value="12.544" />
+          <attvalue for="35" value="38.848" />
+          <attvalue for="36" value="0.0" />
+          <attvalue for="37" value="0.0" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Nayarit.San Blas" target="SUB::Arsénico (Compuestos solubles)" id="35" weight="189.2428">
+        <attvalues>
+          <attvalue for="20" value="0.0" />
+          <attvalue for="21" value="0.0" />
+          <attvalue for="22" value="0.0" />
+          <attvalue for="23" value="0.0" />
+          <attvalue for="24" value="0.0" />
+          <attvalue for="25" value="0.0" />
+          <attvalue for="26" value="0.0" />
+          <attvalue for="27" value="0.0" />
+          <attvalue for="28" value="0.0" />
+          <attvalue for="29" value="0.0" />
+          <attvalue for="30" value="0.0" />
+          <attvalue for="31" value="0.0" />
+          <attvalue for="32" value="0.0" />
+          <attvalue for="33" value="127.00019999999999" />
+          <attvalue for="34" value="12.544" />
+          <attvalue for="35" value="49.6986" />
+          <attvalue for="36" value="0.0" />
+          <attvalue for="37" value="0.0" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Nayarit.San Blas" target="SUB::Cromo (Compuestos solubles)" id="36" weight="184.6015">
+        <attvalues>
+          <attvalue for="20" value="0.0" />
+          <attvalue for="21" value="0.0" />
+          <attvalue for="22" value="0.0" />
+          <attvalue for="23" value="0.0" />
+          <attvalue for="24" value="0.0" />
+          <attvalue for="25" value="0.0" />
+          <attvalue for="26" value="0.0" />
+          <attvalue for="27" value="0.0" />
+          <attvalue for="28" value="0.0" />
+          <attvalue for="29" value="0.0" />
+          <attvalue for="30" value="0.0" />
+          <attvalue for="31" value="0.0" />
+          <attvalue for="32" value="0.0" />
+          <attvalue for="33" value="127.00019999999999" />
+          <attvalue for="34" value="12.544" />
+          <attvalue for="35" value="45.0573" />
+          <attvalue for="36" value="0.0" />
+          <attvalue for="37" value="0.0" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Nayarit.San Blas" target="SUB::Mercurio (Compuestos solubles)" id="37" weight="7.038">
+        <attvalues>
+          <attvalue for="20" value="0.0" />
+          <attvalue for="21" value="0.0" />
+          <attvalue for="22" value="0.0" />
+          <attvalue for="23" value="0.0" />
+          <attvalue for="24" value="0.0" />
+          <attvalue for="25" value="0.0" />
+          <attvalue for="26" value="0.0" />
+          <attvalue for="27" value="0.0" />
+          <attvalue for="28" value="0.0" />
+          <attvalue for="29" value="0.0" />
+          <attvalue for="30" value="0.0" />
+          <attvalue for="31" value="0.0" />
+          <attvalue for="32" value="0.0" />
+          <attvalue for="33" value="5.7228" />
+          <attvalue for="34" value="0.0" />
+          <attvalue for="35" value="1.3152" />
+          <attvalue for="36" value="0.0" />
+          <attvalue for="37" value="0.0" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Nayarit.San Pedro Lagunillas" target="SUB::Bióxido de carbono" id="38" weight="87164035.0">
+        <attvalues>
+          <attvalue for="20" value="0.0" />
+          <attvalue for="21" value="0.0" />
+          <attvalue for="22" value="0.0" />
+          <attvalue for="23" value="0.0" />
+          <attvalue for="24" value="0.0" />
+          <attvalue for="25" value="0.0" />
+          <attvalue for="26" value="0.0" />
+          <attvalue for="27" value="0.0" />
+          <attvalue for="28" value="0.0" />
+          <attvalue for="29" value="0.0" />
+          <attvalue for="30" value="3015630.0" />
+          <attvalue for="31" value="9879530.0" />
+          <attvalue for="32" value="15370750.0" />
+          <attvalue for="33" value="13080740.0" />
+          <attvalue for="34" value="13281000.0" />
+          <attvalue for="35" value="11433275.0" />
+          <attvalue for="36" value="10008285.0" />
+          <attvalue for="37" value="11094825.0" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Nayarit.San Pedro Lagunillas" target="SUB::Acido sulfhídrico" id="39" weight="5278100.0">
+        <attvalues>
+          <attvalue for="20" value="0.0" />
+          <attvalue for="21" value="0.0" />
+          <attvalue for="22" value="0.0" />
+          <attvalue for="23" value="0.0" />
+          <attvalue for="24" value="0.0" />
+          <attvalue for="25" value="0.0" />
+          <attvalue for="26" value="0.0" />
+          <attvalue for="27" value="0.0" />
+          <attvalue for="28" value="0.0" />
+          <attvalue for="29" value="0.0" />
+          <attvalue for="30" value="218000.0" />
+          <attvalue for="31" value="711900.0" />
+          <attvalue for="32" value="956300.0" />
+          <attvalue for="33" value="0.0" />
+          <attvalue for="34" value="845190.0" />
+          <attvalue for="35" value="845190.0" />
+          <attvalue for="36" value="845190.0" />
+          <attvalue for="37" value="856330.0" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Nayarit.San Pedro Lagunillas" target="SUB::Arsénico (Compuestos solubles)" id="40" weight="29722.5684">
+        <attvalues>
+          <attvalue for="20" value="0.0" />
+          <attvalue for="21" value="0.0" />
+          <attvalue for="22" value="0.0" />
+          <attvalue for="23" value="0.0" />
+          <attvalue for="24" value="0.0" />
+          <attvalue for="25" value="0.0" />
+          <attvalue for="26" value="0.0" />
+          <attvalue for="27" value="0.0" />
+          <attvalue for="28" value="0.0" />
+          <attvalue for="29" value="0.0" />
+          <attvalue for="30" value="0.0" />
+          <attvalue for="31" value="0.0" />
+          <attvalue for="32" value="0.0" />
+          <attvalue for="33" value="0.0" />
+          <attvalue for="34" value="14861.2842" />
+          <attvalue for="35" value="14861.2842" />
+          <attvalue for="36" value="0.0" />
+          <attvalue for="37" value="0.0" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Nayarit.Santa María del Oro" target="SUB::Arsénico (compuestos)" id="41" weight="0.1089684792">
+        <attvalues>
+          <attvalue for="20" value="0.0" />
+          <attvalue for="21" value="0.0" />
+          <attvalue for="22" value="0.0" />
+          <attvalue for="23" value="0.0" />
+          <attvalue for="24" value="0.0" />
+          <attvalue for="25" value="0.0004719792" />
+          <attvalue for="26" value="0.1084965" />
+          <attvalue for="27" value="0.0" />
+          <attvalue for="28" value="0.0" />
+          <attvalue for="29" value="0.0" />
+          <attvalue for="30" value="0.0" />
+          <attvalue for="31" value="0.0" />
+          <attvalue for="32" value="0.0" />
+          <attvalue for="33" value="0.0" />
+          <attvalue for="34" value="0.0" />
+          <attvalue for="35" value="0.0" />
+          <attvalue for="36" value="0.0" />
+          <attvalue for="37" value="0.0" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Nayarit.Santa María del Oro" target="SUB::Mercurio (polvos, respirables, vapores o humos)" id="42" weight="0.00182256">
+        <attvalues>
+          <attvalue for="20" value="0.0" />
+          <attvalue for="21" value="0.0" />
+          <attvalue for="22" value="0.0" />
+          <attvalue for="23" value="0.0" />
+          <attvalue for="24" value="0.0" />
+          <attvalue for="25" value="0.0" />
+          <attvalue for="26" value="0.0" />
+          <attvalue for="27" value="0.0" />
+          <attvalue for="28" value="0.00182256" />
+          <attvalue for="29" value="0.0" />
+          <attvalue for="30" value="0.0" />
+          <attvalue for="31" value="0.0" />
+          <attvalue for="32" value="0.0" />
+          <attvalue for="33" value="0.0" />
+          <attvalue for="34" value="0.0" />
+          <attvalue for="35" value="0.0" />
+          <attvalue for="36" value="0.0" />
+          <attvalue for="37" value="0.0" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Nayarit.Santa María del Oro" target="SUB::Arsénico (polvos, respirables, vapores o humos)" id="43" weight="0.90067344">
+        <attvalues>
+          <attvalue for="20" value="0.0" />
+          <attvalue for="21" value="0.0" />
+          <attvalue for="22" value="0.0" />
+          <attvalue for="23" value="0.0" />
+          <attvalue for="24" value="0.0" />
+          <attvalue for="25" value="0.0" />
+          <attvalue for="26" value="0.0" />
+          <attvalue for="27" value="0.53001728" />
+          <attvalue for="28" value="0.37065616" />
+          <attvalue for="29" value="0.0" />
+          <attvalue for="30" value="0.0" />
+          <attvalue for="31" value="0.0" />
+          <attvalue for="32" value="0.0" />
+          <attvalue for="33" value="0.0" />
+          <attvalue for="34" value="0.0" />
+          <attvalue for="35" value="0.0" />
+          <attvalue for="36" value="0.0" />
+          <attvalue for="37" value="0.0" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Nayarit.Santa María del Oro" target="SUB::Cianuro inorgánico/orgánico" id="44" weight="164.21291444000002">
+        <attvalues>
+          <attvalue for="20" value="0.0" />
+          <attvalue for="21" value="0.0" />
+          <attvalue for="22" value="0.0" />
+          <attvalue for="23" value="0.0" />
+          <attvalue for="24" value="0.0" />
+          <attvalue for="25" value="8.8e-05" />
+          <attvalue for="26" value="0.02286" />
+          <attvalue for="27" value="0.0" />
+          <attvalue for="28" value="164.18996644" />
+          <attvalue for="29" value="0.0" />
+          <attvalue for="30" value="0.0" />
+          <attvalue for="31" value="0.0" />
+          <attvalue for="32" value="0.0" />
+          <attvalue for="33" value="0.0" />
+          <attvalue for="34" value="0.0" />
+          <attvalue for="35" value="0.0" />
+          <attvalue for="36" value="0.0" />
+          <attvalue for="37" value="0.0" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Nayarit.Santa María del Oro" target="SUB::Plomo (compuestos)" id="45" weight="0.23268544">
+        <attvalues>
+          <attvalue for="20" value="0.0" />
+          <attvalue for="21" value="0.0" />
+          <attvalue for="22" value="0.0" />
+          <attvalue for="23" value="0.0" />
+          <attvalue for="24" value="0.0" />
+          <attvalue for="25" value="0.00088" />
+          <attvalue for="26" value="0.2286" />
+          <attvalue for="27" value="0.0" />
+          <attvalue for="28" value="0.00320544" />
+          <attvalue for="29" value="0.0" />
+          <attvalue for="30" value="0.0" />
+          <attvalue for="31" value="0.0" />
+          <attvalue for="32" value="0.0" />
+          <attvalue for="33" value="0.0" />
+          <attvalue for="34" value="0.0" />
+          <attvalue for="35" value="0.0" />
+          <attvalue for="36" value="0.0" />
+          <attvalue for="37" value="0.0" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Nayarit.Santa María del Oro" target="SUB::Níquel (compuestos)" id="46" weight="0.2317184">
+        <attvalues>
+          <attvalue for="20" value="0.0" />
+          <attvalue for="21" value="0.0" />
+          <attvalue for="22" value="0.0" />
+          <attvalue for="23" value="0.0" />
+          <attvalue for="24" value="0.0" />
+          <attvalue for="25" value="0.00044" />
+          <attvalue for="26" value="0.2286" />
+          <attvalue for="27" value="0.0" />
+          <attvalue for="28" value="0.0026784" />
+          <attvalue for="29" value="0.0" />
+          <attvalue for="30" value="0.0" />
+          <attvalue for="31" value="0.0" />
+          <attvalue for="32" value="0.0" />
+          <attvalue for="33" value="0.0" />
+          <attvalue for="34" value="0.0" />
+          <attvalue for="35" value="0.0" />
+          <attvalue for="36" value="0.0" />
+          <attvalue for="37" value="0.0" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Nayarit.Santa María del Oro" target="SUB::Cadmio (compuestos)" id="47" weight="0.114476">
+        <attvalues>
+          <attvalue for="20" value="0.0" />
+          <attvalue for="21" value="0.0" />
+          <attvalue for="22" value="0.0" />
+          <attvalue for="23" value="0.0" />
+          <attvalue for="24" value="0.0" />
+          <attvalue for="25" value="0.000176" />
+          <attvalue for="26" value="0.1143" />
+          <attvalue for="27" value="0.0" />
+          <attvalue for="28" value="0.0" />
+          <attvalue for="29" value="0.0" />
+          <attvalue for="30" value="0.0" />
+          <attvalue for="31" value="0.0" />
+          <attvalue for="32" value="0.0" />
+          <attvalue for="33" value="0.0" />
+          <attvalue for="34" value="0.0" />
+          <attvalue for="35" value="0.0" />
+          <attvalue for="36" value="0.0" />
+          <attvalue for="37" value="0.0" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Nayarit.Santa María del Oro" target="SUB::Cromo (compuestos)" id="48" weight="0.5745832">
+        <attvalues>
+          <attvalue for="20" value="0.0" />
+          <attvalue for="21" value="0.0" />
+          <attvalue for="22" value="0.0" />
+          <attvalue for="23" value="0.0" />
+          <attvalue for="24" value="0.0" />
+          <attvalue for="25" value="0.00088" />
+          <attvalue for="26" value="0.5715" />
+          <attvalue for="27" value="0.0" />
+          <attvalue for="28" value="0.0022032" />
+          <attvalue for="29" value="0.0" />
+          <attvalue for="30" value="0.0" />
+          <attvalue for="31" value="0.0" />
+          <attvalue for="32" value="0.0" />
+          <attvalue for="33" value="0.0" />
+          <attvalue for="34" value="0.0" />
+          <attvalue for="35" value="0.0" />
+          <attvalue for="36" value="0.0" />
+          <attvalue for="37" value="0.0" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Nayarit.Santa María del Oro" target="SUB::Mercurio (compuestos)" id="49" weight="0.0023036">
+        <attvalues>
+          <attvalue for="20" value="0.0" />
+          <attvalue for="21" value="0.0" />
+          <attvalue for="22" value="0.0" />
+          <attvalue for="23" value="0.0" />
+          <attvalue for="24" value="0.0" />
+          <attvalue for="25" value="1.76e-05" />
+          <attvalue for="26" value="0.002286" />
+          <attvalue for="27" value="0.0" />
+          <attvalue for="28" value="0.0" />
+          <attvalue for="29" value="0.0" />
+          <attvalue for="30" value="0.0" />
+          <attvalue for="31" value="0.0" />
+          <attvalue for="32" value="0.0" />
+          <attvalue for="33" value="0.0" />
+          <attvalue for="34" value="0.0" />
+          <attvalue for="35" value="0.0" />
+          <attvalue for="36" value="0.0" />
+          <attvalue for="37" value="0.0" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Nayarit.Tepic" target="SUB::Cromo (Compuestos solubles)" id="50" weight="167.75720007799998">
+        <attvalues>
+          <attvalue for="20" value="0.0" />
+          <attvalue for="21" value="0.0" />
+          <attvalue for="22" value="0.0" />
+          <attvalue for="23" value="7.8e-08" />
+          <attvalue for="24" value="0.0" />
+          <attvalue for="25" value="0.0" />
+          <attvalue for="26" value="0.0" />
+          <attvalue for="27" value="0.0" />
+          <attvalue for="28" value="0.0" />
+          <attvalue for="29" value="4.2777" />
+          <attvalue for="30" value="0.0" />
+          <attvalue for="31" value="0.0" />
+          <attvalue for="32" value="0.0" />
+          <attvalue for="33" value="0.0" />
+          <attvalue for="34" value="0.0" />
+          <attvalue for="35" value="0.0" />
+          <attvalue for="36" value="152.4485" />
+          <attvalue for="37" value="11.030999999999999" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Nayarit.Tepic" target="SUB::Mercurio (compuestos)" id="51" weight="4.3946e-06">
+        <attvalues>
+          <attvalue for="20" value="4.38e-06" />
+          <attvalue for="21" value="1.46e-08" />
+          <attvalue for="22" value="0.0" />
+          <attvalue for="23" value="0.0" />
+          <attvalue for="24" value="0.0" />
+          <attvalue for="25" value="0.0" />
+          <attvalue for="26" value="0.0" />
+          <attvalue for="27" value="0.0" />
+          <attvalue for="28" value="0.0" />
+          <attvalue for="29" value="0.0" />
+          <attvalue for="30" value="0.0" />
+          <attvalue for="31" value="0.0" />
+          <attvalue for="32" value="0.0" />
+          <attvalue for="33" value="0.0" />
+          <attvalue for="34" value="0.0" />
+          <attvalue for="35" value="0.0" />
+          <attvalue for="36" value="0.0" />
+          <attvalue for="37" value="0.0" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Nayarit.Tepic" target="SUB::Níquel (Compuestos solubles)" id="52" weight="561.519000108">
+        <attvalues>
+          <attvalue for="20" value="0.0" />
+          <attvalue for="21" value="0.0" />
+          <attvalue for="22" value="0.0" />
+          <attvalue for="23" value="1.08e-07" />
+          <attvalue for="24" value="0.0" />
+          <attvalue for="25" value="0.0" />
+          <attvalue for="26" value="0.0" />
+          <attvalue for="27" value="0.0" />
+          <attvalue for="28" value="0.0" />
+          <attvalue for="29" value="4.2777" />
+          <attvalue for="30" value="0.0" />
+          <attvalue for="31" value="0.0" />
+          <attvalue for="32" value="0.0" />
+          <attvalue for="33" value="0.0" />
+          <attvalue for="34" value="0.0" />
+          <attvalue for="35" value="0.0" />
+          <attvalue for="36" value="554.4288" />
+          <attvalue for="37" value="2.8125" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Nayarit.Tepic" target="SUB::Acetaldehido" id="53" weight="0.0528901053313">
+        <attvalues>
+          <attvalue for="20" value="0.0" />
+          <attvalue for="21" value="0.00965" />
+          <attvalue for="22" value="0.0" />
+          <attvalue for="23" value="0.0" />
+          <attvalue for="24" value="0.0" />
+          <attvalue for="25" value="0.010379" />
+          <attvalue for="26" value="0.009114" />
+          <attvalue for="27" value="0.0115950685032" />
+          <attvalue for="28" value="0.0121520368281" />
+          <attvalue for="29" value="0.0" />
+          <attvalue for="30" value="0.0" />
+          <attvalue for="31" value="0.0" />
+          <attvalue for="32" value="0.0" />
+          <attvalue for="33" value="0.0" />
+          <attvalue for="34" value="0.0" />
+          <attvalue for="35" value="0.0" />
+          <attvalue for="36" value="0.0" />
+          <attvalue for="37" value="0.0" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Nayarit.Tepic" target="SUB::Acroleina" id="54" weight="0.00637289471075">
+        <attvalues>
+          <attvalue for="20" value="0.0" />
+          <attvalue for="21" value="0.00116" />
+          <attvalue for="22" value="0.0" />
+          <attvalue for="23" value="0.0" />
+          <attvalue for="24" value="0.0" />
+          <attvalue for="25" value="0.001251" />
+          <attvalue for="26" value="0.001098" />
+          <attvalue for="27" value="0.001398362238" />
+          <attvalue for="28" value="0.00146553247275" />
+          <attvalue for="29" value="0.0" />
+          <attvalue for="30" value="0.0" />
+          <attvalue for="31" value="0.0" />
+          <attvalue for="32" value="0.0" />
+          <attvalue for="33" value="0.0" />
+          <attvalue for="34" value="0.0" />
+          <attvalue for="35" value="0.0" />
+          <attvalue for="36" value="0.0" />
+          <attvalue for="37" value="0.0" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Nayarit.Tepic" target="SUB::Arsénico (polvos, respirables, vapores o humos)" id="55" weight="4.11274914944">
+        <attvalues>
+          <attvalue for="20" value="2.044e-08" />
+          <attvalue for="21" value="7.3e-08" />
+          <attvalue for="22" value="0.0" />
+          <attvalue for="23" value="0.0" />
+          <attvalue for="24" value="0.0" />
+          <attvalue for="25" value="0.0" />
+          <attvalue for="26" value="0.0" />
+          <attvalue for="27" value="2.0560476" />
+          <attvalue for="28" value="2.056701456" />
+          <attvalue for="29" value="0.0" />
+          <attvalue for="30" value="0.0" />
+          <attvalue for="31" value="0.0" />
+          <attvalue for="32" value="0.0" />
+          <attvalue for="33" value="0.0" />
+          <attvalue for="34" value="0.0" />
+          <attvalue for="35" value="0.0" />
+          <attvalue for="36" value="0.0" />
+          <attvalue for="37" value="0.0" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Nayarit.Tepic" target="SUB::Formaldehido" id="56" weight="0.00269357603455">
+        <attvalues>
+          <attvalue for="20" value="0.0" />
+          <attvalue for="21" value="0.000492" />
+          <attvalue for="22" value="0.0" />
+          <attvalue for="23" value="0.0" />
+          <attvalue for="24" value="0.0" />
+          <attvalue for="25" value="0.000528" />
+          <attvalue for="26" value="0.000463" />
+          <attvalue for="27" value="0.00059109149736" />
+          <attvalue for="28" value="0.00061948453719" />
+          <attvalue for="29" value="0.0" />
+          <attvalue for="30" value="0.0" />
+          <attvalue for="31" value="0.0" />
+          <attvalue for="32" value="0.0" />
+          <attvalue for="33" value="0.0" />
+          <attvalue for="34" value="0.0" />
+          <attvalue for="35" value="0.0" />
+          <attvalue for="36" value="0.0" />
+          <attvalue for="37" value="0.0" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Nayarit.Tepic" target="SUB::Plomo (Compuestos solubles)" id="57" weight="224.31680269">
+        <attvalues>
+          <attvalue for="20" value="0.0" />
+          <attvalue for="21" value="0.0" />
+          <attvalue for="22" value="0.0" />
+          <attvalue for="23" value="2.69e-06" />
+          <attvalue for="24" value="0.0" />
+          <attvalue for="25" value="0.0" />
+          <attvalue for="26" value="0.0" />
+          <attvalue for="27" value="0.0" />
+          <attvalue for="28" value="0.0" />
+          <attvalue for="29" value="0.0" />
+          <attvalue for="30" value="0.0" />
+          <attvalue for="31" value="0.0" />
+          <attvalue for="32" value="0.0" />
+          <attvalue for="33" value="0.0" />
+          <attvalue for="34" value="0.0" />
+          <attvalue for="35" value="0.0" />
+          <attvalue for="36" value="221.7715" />
+          <attvalue for="37" value="2.5453" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Nayarit.Tepic" target="SUB::Cromo (compuestos)" id="58" weight="3.65e-06">
+        <attvalues>
+          <attvalue for="20" value="0.0" />
+          <attvalue for="21" value="3.65e-06" />
+          <attvalue for="22" value="0.0" />
+          <attvalue for="23" value="0.0" />
+          <attvalue for="24" value="0.0" />
+          <attvalue for="25" value="0.0" />
+          <attvalue for="26" value="0.0" />
+          <attvalue for="27" value="0.0" />
+          <attvalue for="28" value="0.0" />
+          <attvalue for="29" value="0.0" />
+          <attvalue for="30" value="0.0" />
+          <attvalue for="31" value="0.0" />
+          <attvalue for="32" value="0.0" />
+          <attvalue for="33" value="0.0" />
+          <attvalue for="34" value="0.0" />
+          <attvalue for="35" value="0.0" />
+          <attvalue for="36" value="0.0" />
+          <attvalue for="37" value="0.0" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Nayarit.Tepic" target="SUB::Cadmio (polvos, respirables, vapores o humos)" id="59" weight="7.3e-07">
+        <attvalues>
+          <attvalue for="20" value="0.0" />
+          <attvalue for="21" value="7.3e-07" />
+          <attvalue for="22" value="0.0" />
+          <attvalue for="23" value="0.0" />
+          <attvalue for="24" value="0.0" />
+          <attvalue for="25" value="0.0" />
+          <attvalue for="26" value="0.0" />
+          <attvalue for="27" value="0.0" />
+          <attvalue for="28" value="0.0" />
+          <attvalue for="29" value="0.0" />
+          <attvalue for="30" value="0.0" />
+          <attvalue for="31" value="0.0" />
+          <attvalue for="32" value="0.0" />
+          <attvalue for="33" value="0.0" />
+          <attvalue for="34" value="0.0" />
+          <attvalue for="35" value="0.0" />
+          <attvalue for="36" value="0.0" />
+          <attvalue for="37" value="0.0" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Nayarit.Tepic" target="SUB::Bióxido de carbono" id="60" weight="15554.0">
+        <attvalues>
+          <attvalue for="20" value="0.0" />
+          <attvalue for="21" value="2062.0" />
+          <attvalue for="22" value="2012.0" />
+          <attvalue for="23" value="2233.0" />
+          <attvalue for="24" value="0.0" />
+          <attvalue for="25" value="2220.0" />
+          <attvalue for="26" value="1949.0" />
+          <attvalue for="27" value="2480.0" />
+          <attvalue for="28" value="2598.0" />
+          <attvalue for="29" value="0.0" />
+          <attvalue for="30" value="0.0" />
+          <attvalue for="31" value="0.0" />
+          <attvalue for="32" value="0.0" />
+          <attvalue for="33" value="0.0" />
+          <attvalue for="34" value="0.0" />
+          <attvalue for="35" value="0.0" />
+          <attvalue for="36" value="0.0" />
+          <attvalue for="37" value="0.0" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Nayarit.Tepic" target="SUB::Cianuro inorgánico/orgánico" id="61" weight="1.3018000000000002e-06">
+        <attvalues>
+          <attvalue for="20" value="2.92e-08" />
+          <attvalue for="21" value="1.2556e-06" />
+          <attvalue for="22" value="0.0" />
+          <attvalue for="23" value="1.7e-08" />
+          <attvalue for="24" value="0.0" />
+          <attvalue for="25" value="0.0" />
+          <attvalue for="26" value="0.0" />
+          <attvalue for="27" value="0.0" />
+          <attvalue for="28" value="0.0" />
+          <attvalue for="29" value="0.0" />
+          <attvalue for="30" value="0.0" />
+          <attvalue for="31" value="0.0" />
+          <attvalue for="32" value="0.0" />
+          <attvalue for="33" value="0.0" />
+          <attvalue for="34" value="0.0" />
+          <attvalue for="35" value="0.0" />
+          <attvalue for="36" value="0.0" />
+          <attvalue for="37" value="0.0" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Nayarit.Tepic" target="SUB::Cadmio (Compuestos solubles)" id="62" weight="55.4429">
+        <attvalues>
+          <attvalue for="20" value="0.0" />
+          <attvalue for="21" value="0.0" />
+          <attvalue for="22" value="0.0" />
+          <attvalue for="23" value="0.0" />
+          <attvalue for="24" value="0.0" />
+          <attvalue for="25" value="0.0" />
+          <attvalue for="26" value="0.0" />
+          <attvalue for="27" value="0.0" />
+          <attvalue for="28" value="0.0" />
+          <attvalue for="29" value="0.0" />
+          <attvalue for="30" value="0.0" />
+          <attvalue for="31" value="0.0" />
+          <attvalue for="32" value="0.0" />
+          <attvalue for="33" value="0.0" />
+          <attvalue for="34" value="0.0" />
+          <attvalue for="35" value="0.0" />
+          <attvalue for="36" value="55.4429" />
+          <attvalue for="37" value="0.0" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Nayarit.Tepic" target="SUB::Plomo (compuestos)" id="63" weight="7.592e-07">
+        <attvalues>
+          <attvalue for="20" value="0.0" />
+          <attvalue for="21" value="7.592e-07" />
+          <attvalue for="22" value="0.0" />
+          <attvalue for="23" value="0.0" />
+          <attvalue for="24" value="0.0" />
+          <attvalue for="25" value="0.0" />
+          <attvalue for="26" value="0.0" />
+          <attvalue for="27" value="0.0" />
+          <attvalue for="28" value="0.0" />
+          <attvalue for="29" value="0.0" />
+          <attvalue for="30" value="0.0" />
+          <attvalue for="31" value="0.0" />
+          <attvalue for="32" value="0.0" />
+          <attvalue for="33" value="0.0" />
+          <attvalue for="34" value="0.0" />
+          <attvalue for="35" value="0.0" />
+          <attvalue for="36" value="0.0" />
+          <attvalue for="37" value="0.0" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Nayarit.Tepic" target="SUB::Arsénico (Compuestos solubles)" id="64" weight="17.9497">
+        <attvalues>
+          <attvalue for="20" value="0.0" />
+          <attvalue for="21" value="0.0" />
+          <attvalue for="22" value="0.0" />
+          <attvalue for="23" value="0.0" />
+          <attvalue for="24" value="0.0" />
+          <attvalue for="25" value="0.0" />
+          <attvalue for="26" value="0.0" />
+          <attvalue for="27" value="0.0" />
+          <attvalue for="28" value="0.0" />
+          <attvalue for="29" value="0.0" />
+          <attvalue for="30" value="0.0" />
+          <attvalue for="31" value="4.484" />
+          <attvalue for="32" value="3.9607" />
+          <attvalue for="33" value="3.9607" />
+          <attvalue for="34" value="0.0" />
+          <attvalue for="35" value="0.0" />
+          <attvalue for="36" value="5.5443" />
+          <attvalue for="37" value="0.0" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Nayarit.Tepic" target="SUB::Benceno" id="65" weight="0.054832488867860005">
+        <attvalues>
+          <attvalue for="20" value="0.0" />
+          <attvalue for="21" value="0.0117" />
+          <attvalue for="22" value="0.0" />
+          <attvalue for="23" value="0.0" />
+          <attvalue for="24" value="0.0" />
+          <attvalue for="25" value="0.012625" />
+          <attvalue for="26" value="0.011086" />
+          <attvalue for="27" value="0.00463941538596" />
+          <attvalue for="28" value="0.0147820734819" />
+          <attvalue for="29" value="0.0" />
+          <attvalue for="30" value="0.0" />
+          <attvalue for="31" value="0.0" />
+          <attvalue for="32" value="0.0" />
+          <attvalue for="33" value="0.0" />
+          <attvalue for="34" value="0.0" />
+          <attvalue for="35" value="0.0" />
+          <attvalue for="36" value="0.0" />
+          <attvalue for="37" value="0.0" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Nayarit.Tepic" target="SUB::Níquel (compuestos)" id="66" weight="1.46e-06">
+        <attvalues>
+          <attvalue for="20" value="0.0" />
+          <attvalue for="21" value="1.46e-06" />
+          <attvalue for="22" value="0.0" />
+          <attvalue for="23" value="0.0" />
+          <attvalue for="24" value="0.0" />
+          <attvalue for="25" value="0.0" />
+          <attvalue for="26" value="0.0" />
+          <attvalue for="27" value="0.0" />
+          <attvalue for="28" value="0.0" />
+          <attvalue for="29" value="0.0" />
+          <attvalue for="30" value="0.0" />
+          <attvalue for="31" value="0.0" />
+          <attvalue for="32" value="0.0" />
+          <attvalue for="33" value="0.0" />
+          <attvalue for="34" value="0.0" />
+          <attvalue for="35" value="0.0" />
+          <attvalue for="36" value="0.0" />
+          <attvalue for="37" value="0.0" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Nayarit.Tepic" target="SUB::Mercurio (Compuestos solubles)" id="67" weight="1.10880001">
+        <attvalues>
+          <attvalue for="20" value="0.0" />
+          <attvalue for="21" value="0.0" />
+          <attvalue for="22" value="0.0" />
+          <attvalue for="23" value="1e-08" />
+          <attvalue for="24" value="0.0" />
+          <attvalue for="25" value="0.0" />
+          <attvalue for="26" value="0.0" />
+          <attvalue for="27" value="0.0" />
+          <attvalue for="28" value="0.0" />
+          <attvalue for="29" value="0.0" />
+          <attvalue for="30" value="0.0" />
+          <attvalue for="31" value="0.0" />
+          <attvalue for="32" value="0.0" />
+          <attvalue for="33" value="0.0" />
+          <attvalue for="34" value="0.0" />
+          <attvalue for="35" value="0.0" />
+          <attvalue for="36" value="1.1088" />
+          <attvalue for="37" value="0.0" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Nayarit.Xalisco" target="SUB::Cromo (Compuestos solubles)" id="68" weight="1.68249">
+        <attvalues>
+          <attvalue for="20" value="0.0" />
+          <attvalue for="21" value="0.0" />
+          <attvalue for="22" value="0.0" />
+          <attvalue for="23" value="1.68249" />
+          <attvalue for="24" value="0.0" />
+          <attvalue for="25" value="0.0" />
+          <attvalue for="26" value="0.0" />
+          <attvalue for="27" value="0.0" />
+          <attvalue for="28" value="0.0" />
+          <attvalue for="29" value="0.0" />
+          <attvalue for="30" value="0.0" />
+          <attvalue for="31" value="0.0" />
+          <attvalue for="32" value="0.0" />
+          <attvalue for="33" value="0.0" />
+          <attvalue for="34" value="0.0" />
+          <attvalue for="35" value="0.0" />
+          <attvalue for="36" value="0.0" />
+          <attvalue for="37" value="0.0" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Nayarit.Xalisco" target="SUB::Mercurio (Compuestos solubles)" id="69" weight="0.00672996">
+        <attvalues>
+          <attvalue for="20" value="0.0" />
+          <attvalue for="21" value="0.0" />
+          <attvalue for="22" value="0.0" />
+          <attvalue for="23" value="0.00672996" />
+          <attvalue for="24" value="0.0" />
+          <attvalue for="25" value="0.0" />
+          <attvalue for="26" value="0.0" />
+          <attvalue for="27" value="0.0" />
+          <attvalue for="28" value="0.0" />
+          <attvalue for="29" value="0.0" />
+          <attvalue for="30" value="0.0" />
+          <attvalue for="31" value="0.0" />
+          <attvalue for="32" value="0.0" />
+          <attvalue for="33" value="0.0" />
+          <attvalue for="34" value="0.0" />
+          <attvalue for="35" value="0.0" />
+          <attvalue for="36" value="0.0" />
+          <attvalue for="37" value="0.0" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Nayarit.Xalisco" target="SUB::Mercurio (compuestos)" id="70" weight="0.009450754">
+        <attvalues>
+          <attvalue for="20" value="0.0" />
+          <attvalue for="21" value="0.0" />
+          <attvalue for="22" value="0.0" />
+          <attvalue for="23" value="0.0" />
+          <attvalue for="24" value="0.003054" />
+          <attvalue for="25" value="0.003198377" />
+          <attvalue for="26" value="0.003198377" />
+          <attvalue for="27" value="0.0" />
+          <attvalue for="28" value="0.0" />
+          <attvalue for="29" value="0.0" />
+          <attvalue for="30" value="0.0" />
+          <attvalue for="31" value="0.0" />
+          <attvalue for="32" value="0.0" />
+          <attvalue for="33" value="0.0" />
+          <attvalue for="34" value="0.0" />
+          <attvalue for="35" value="0.0" />
+          <attvalue for="36" value="0.0" />
+          <attvalue for="37" value="0.0" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Nayarit.Xalisco" target="SUB::Arsénico (compuestos)" id="71" weight="0.0420904568">
+        <attvalues>
+          <attvalue for="20" value="0.0" />
+          <attvalue for="21" value="0.0" />
+          <attvalue for="22" value="0.0" />
+          <attvalue for="23" value="0.0" />
+          <attvalue for="24" value="0.0" />
+          <attvalue for="25" value="0.009595131" />
+          <attvalue for="26" value="0.009595131" />
+          <attvalue for="27" value="0.0089119898" />
+          <attvalue for="28" value="0.013988205" />
+          <attvalue for="29" value="0.0" />
+          <attvalue for="30" value="0.0" />
+          <attvalue for="31" value="0.0" />
+          <attvalue for="32" value="0.0" />
+          <attvalue for="33" value="0.0" />
+          <attvalue for="34" value="0.0" />
+          <attvalue for="35" value="0.0" />
+          <attvalue for="36" value="0.0" />
+          <attvalue for="37" value="0.0" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Nayarit.Xalisco" target="SUB::Níquel (Compuestos solubles)" id="72" weight="0.672996">
+        <attvalues>
+          <attvalue for="20" value="0.0" />
+          <attvalue for="21" value="0.0" />
+          <attvalue for="22" value="0.0" />
+          <attvalue for="23" value="0.672996" />
+          <attvalue for="24" value="0.0" />
+          <attvalue for="25" value="0.0" />
+          <attvalue for="26" value="0.0" />
+          <attvalue for="27" value="0.0" />
+          <attvalue for="28" value="0.0" />
+          <attvalue for="29" value="0.0" />
+          <attvalue for="30" value="0.0" />
+          <attvalue for="31" value="0.0" />
+          <attvalue for="32" value="0.0" />
+          <attvalue for="33" value="0.0" />
+          <attvalue for="34" value="0.0" />
+          <attvalue for="35" value="0.0" />
+          <attvalue for="36" value="0.0" />
+          <attvalue for="37" value="0.0" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Nayarit.Xalisco" target="SUB::Arsénico (polvos, respirables, vapores o humos)" id="73" weight="0.0382638698">
+        <attvalues>
+          <attvalue for="20" value="0.0" />
+          <attvalue for="21" value="0.0" />
+          <attvalue for="22" value="0.0" />
+          <attvalue for="23" value="0.02018988" />
+          <attvalue for="24" value="0.009162" />
+          <attvalue for="25" value="0.0" />
+          <attvalue for="26" value="0.0" />
+          <attvalue for="27" value="0.0089119898" />
+          <attvalue for="28" value="0.0" />
+          <attvalue for="29" value="0.0" />
+          <attvalue for="30" value="0.0" />
+          <attvalue for="31" value="0.0" />
+          <attvalue for="32" value="0.0" />
+          <attvalue for="33" value="0.0" />
+          <attvalue for="34" value="0.0" />
+          <attvalue for="35" value="0.0" />
+          <attvalue for="36" value="0.0" />
+          <attvalue for="37" value="0.0" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Nayarit.Xalisco" target="SUB::Plomo (Compuestos solubles)" id="74" weight="0.672996">
+        <attvalues>
+          <attvalue for="20" value="0.0" />
+          <attvalue for="21" value="0.0" />
+          <attvalue for="22" value="0.0" />
+          <attvalue for="23" value="0.672996" />
+          <attvalue for="24" value="0.0" />
+          <attvalue for="25" value="0.0" />
+          <attvalue for="26" value="0.0" />
+          <attvalue for="27" value="0.0" />
+          <attvalue for="28" value="0.0" />
+          <attvalue for="29" value="0.0" />
+          <attvalue for="30" value="0.0" />
+          <attvalue for="31" value="0.0" />
+          <attvalue for="32" value="0.0" />
+          <attvalue for="33" value="0.0" />
+          <attvalue for="34" value="0.0" />
+          <attvalue for="35" value="0.0" />
+          <attvalue for="36" value="0.0" />
+          <attvalue for="37" value="0.0" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Nayarit.Xalisco" target="SUB::Cadmio (polvos, respirables, vapores o humos)" id="75" weight="0.489198">
+        <attvalues>
+          <attvalue for="20" value="0.0" />
+          <attvalue for="21" value="0.0" />
+          <attvalue for="22" value="0.0" />
+          <attvalue for="23" value="0.336498" />
+          <attvalue for="24" value="0.1527" />
+          <attvalue for="25" value="0.0" />
+          <attvalue for="26" value="0.0" />
+          <attvalue for="27" value="0.0" />
+          <attvalue for="28" value="0.0" />
+          <attvalue for="29" value="0.0" />
+          <attvalue for="30" value="0.0" />
+          <attvalue for="31" value="0.0" />
+          <attvalue for="32" value="0.0" />
+          <attvalue for="33" value="0.0" />
+          <attvalue for="34" value="0.0" />
+          <attvalue for="35" value="0.0" />
+          <attvalue for="36" value="0.0" />
+          <attvalue for="37" value="0.0" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Nayarit.Xalisco" target="SUB::Bióxido de carbono" id="76" weight="484443.8">
+        <attvalues>
+          <attvalue for="20" value="0.0" />
+          <attvalue for="21" value="0.0" />
+          <attvalue for="22" value="0.0" />
+          <attvalue for="23" value="0.0" />
+          <attvalue for="24" value="0.0" />
+          <attvalue for="25" value="0.0" />
+          <attvalue for="26" value="0.0" />
+          <attvalue for="27" value="0.0" />
+          <attvalue for="28" value="0.0" />
+          <attvalue for="29" value="0.0" />
+          <attvalue for="30" value="0.0" />
+          <attvalue for="31" value="0.0" />
+          <attvalue for="32" value="484443.8" />
+          <attvalue for="33" value="0.0" />
+          <attvalue for="34" value="0.0" />
+          <attvalue for="35" value="0.0" />
+          <attvalue for="36" value="0.0" />
+          <attvalue for="37" value="0.0" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Nayarit.Xalisco" target="SUB::Cianuro inorgánico/orgánico" id="77" weight="0.3563086815">
+        <attvalues>
+          <attvalue for="20" value="0.0" />
+          <attvalue for="21" value="0.0" />
+          <attvalue for="22" value="0.0" />
+          <attvalue for="23" value="0.0672996" />
+          <attvalue for="24" value="0.03054" />
+          <attvalue for="25" value="0.03198377" />
+          <attvalue for="26" value="0.03198377" />
+          <attvalue for="27" value="0.1500578415" />
+          <attvalue for="28" value="0.0444437" />
+          <attvalue for="29" value="0.0" />
+          <attvalue for="30" value="0.0" />
+          <attvalue for="31" value="0.0" />
+          <attvalue for="32" value="0.0" />
+          <attvalue for="33" value="0.0" />
+          <attvalue for="34" value="0.0" />
+          <attvalue for="35" value="0.0" />
+          <attvalue for="36" value="0.0" />
+          <attvalue for="37" value="0.0" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Nayarit.Xalisco" target="SUB::Plomo (compuestos)" id="78" weight="0.9850753999999999">
+        <attvalues>
+          <attvalue for="20" value="0.0" />
+          <attvalue for="21" value="0.0" />
+          <attvalue for="22" value="0.0" />
+          <attvalue for="23" value="0.0" />
+          <attvalue for="24" value="0.3454" />
+          <attvalue for="25" value="0.3198377" />
+          <attvalue for="26" value="0.3198377" />
+          <attvalue for="27" value="0.0" />
+          <attvalue for="28" value="0.0" />
+          <attvalue for="29" value="0.0" />
+          <attvalue for="30" value="0.0" />
+          <attvalue for="31" value="0.0" />
+          <attvalue for="32" value="0.0" />
+          <attvalue for="33" value="0.0" />
+          <attvalue for="34" value="0.0" />
+          <attvalue for="35" value="0.0" />
+          <attvalue for="36" value="0.0" />
+          <attvalue for="37" value="0.0" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Nayarit.Xalisco" target="SUB::Níquel (compuestos)" id="79" weight="0.9450754">
+        <attvalues>
+          <attvalue for="20" value="0.0" />
+          <attvalue for="21" value="0.0" />
+          <attvalue for="22" value="0.0" />
+          <attvalue for="23" value="0.0" />
+          <attvalue for="24" value="0.3054" />
+          <attvalue for="25" value="0.3198377" />
+          <attvalue for="26" value="0.3198377" />
+          <attvalue for="27" value="0.0" />
+          <attvalue for="28" value="0.0" />
+          <attvalue for="29" value="0.0" />
+          <attvalue for="30" value="0.0" />
+          <attvalue for="31" value="0.0" />
+          <attvalue for="32" value="0.0" />
+          <attvalue for="33" value="0.0" />
+          <attvalue for="34" value="0.0" />
+          <attvalue for="35" value="0.0" />
+          <attvalue for="36" value="0.0" />
+          <attvalue for="37" value="0.0" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Nayarit.Xalisco" target="SUB::Cadmio (compuestos)" id="80" weight="0.3198377">
+        <attvalues>
+          <attvalue for="20" value="0.0" />
+          <attvalue for="21" value="0.0" />
+          <attvalue for="22" value="0.0" />
+          <attvalue for="23" value="0.0" />
+          <attvalue for="24" value="0.0" />
+          <attvalue for="25" value="0.15991885" />
+          <attvalue for="26" value="0.15991885" />
+          <attvalue for="27" value="0.0" />
+          <attvalue for="28" value="0.0" />
+          <attvalue for="29" value="0.0" />
+          <attvalue for="30" value="0.0" />
+          <attvalue for="31" value="0.0" />
+          <attvalue for="32" value="0.0" />
+          <attvalue for="33" value="0.0" />
+          <attvalue for="34" value="0.0" />
+          <attvalue for="35" value="0.0" />
+          <attvalue for="36" value="0.0" />
+          <attvalue for="37" value="0.0" />
+        </attvalues>
+      </edge>
+      <edge source="LOC::Nayarit.Xalisco" target="SUB::Cromo (compuestos)" id="81" weight="2.7597085">
+        <attvalues>
+          <attvalue for="20" value="0.0" />
+          <attvalue for="21" value="0.0" />
+          <attvalue for="22" value="0.0" />
+          <attvalue for="23" value="0.0" />
+          <attvalue for="24" value="1.16052" />
+          <attvalue for="25" value="0.79959425" />
+          <attvalue for="26" value="0.79959425" />
+          <attvalue for="27" value="0.0" />
+          <attvalue for="28" value="0.0" />
+          <attvalue for="29" value="0.0" />
+          <attvalue for="30" value="0.0" />
+          <attvalue for="31" value="0.0" />
+          <attvalue for="32" value="0.0" />
+          <attvalue for="33" value="0.0" />
+          <attvalue for="34" value="0.0" />
+          <attvalue for="35" value="0.0" />
+          <attvalue for="36" value="0.0" />
+          <attvalue for="37" value="0.0" />
+        </attvalues>
+      </edge>
+    </edges>
+  </graph>
+</gexf>

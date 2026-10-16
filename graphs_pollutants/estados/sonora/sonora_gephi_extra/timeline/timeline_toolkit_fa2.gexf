@@ -1,0 +1,2210 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<gexf xmlns="http://gexf.net/1.3" version="1.3" xmlns:viz="http://gexf.net/1.3/viz" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://gexf.net/1.3 http://gexf.net/1.3/gexf.xsd">
+  <meta lastmodifieddate="2026-10-16">
+    <creator>Apache NetBeans Platform Dev (Build {0})</creator>
+    <title></title>
+    <description></description>
+  </meta>
+  <graph defaultedgetype="undirected" mode="static">
+    <attributes class="node" mode="static">
+      <attribute id="0" title="type" type="string"/>
+      <attribute id="1" title="total_kg" type="double"/>
+      <attribute id="2" title="first_year" type="long"/>
+      <attribute id="3" title="n_years_active" type="long"/>
+    </attributes>
+    <nodes>
+      <node id="LOC::Sonora.La Colorada" label="Sonora.La Colorada">
+        <attvalues>
+          <attvalue for="0" value="location"/>
+          <attvalue for="1" value="1.0309661447456055E10"/>
+          <attvalue for="2" value="2004"/>
+          <attvalue for="3" value="16"/>
+        </attvalues>
+        <viz:size value="42.666664"/>
+        <viz:position x="222.7055" y="134.70436"/>
+        <viz:color r="205" g="226" b="251"/>
+      </node>
+      <node id="LOC::Sonora.Cajeme" label="Sonora.Cajeme">
+        <attvalues>
+          <attvalue for="0" value="location"/>
+          <attvalue for="1" value="9.829545353193384E8"/>
+          <attvalue for="2" value="2004"/>
+          <attvalue for="3" value="19"/>
+        </attvalues>
+        <viz:size value="50.0"/>
+        <viz:position x="172.2781" y="-503.89554"/>
+        <viz:color r="205" g="226" b="251"/>
+      </node>
+      <node id="LOC::Sonora.Navojoa" label="Sonora.Navojoa">
+        <attvalues>
+          <attvalue for="0" value="location"/>
+          <attvalue for="1" value="8.559341773371301E8"/>
+          <attvalue for="2" value="2004"/>
+          <attvalue for="3" value="19"/>
+        </attvalues>
+        <viz:size value="50.0"/>
+        <viz:position x="-75.76304" y="527.35736"/>
+        <viz:color r="205" g="226" b="251"/>
+      </node>
+      <node id="LOC::Sonora.Hermosillo" label="Sonora.Hermosillo">
+        <attvalues>
+          <attvalue for="0" value="location"/>
+          <attvalue for="1" value="3.4417372948552925E10"/>
+          <attvalue for="2" value="2004"/>
+          <attvalue for="3" value="19"/>
+        </attvalues>
+        <viz:size value="50.0"/>
+        <viz:position x="819.1517" y="-480.78287"/>
+        <viz:color r="205" g="226" b="251"/>
+      </node>
+      <node id="LOC::Sonora.Agua Prieta" label="Sonora.Agua Prieta">
+        <attvalues>
+          <attvalue for="0" value="location"/>
+          <attvalue for="1" value="2.2219986728460133E10"/>
+          <attvalue for="2" value="2004"/>
+          <attvalue for="3" value="19"/>
+        </attvalues>
+        <viz:size value="50.0"/>
+        <viz:position x="-40.58692" y="328.10764"/>
+        <viz:color r="205" g="226" b="251"/>
+      </node>
+      <node id="LOC::Sonora.Alamos" label="Sonora.Alamos">
+        <attvalues>
+          <attvalue for="0" value="location"/>
+          <attvalue for="1" value="4.470100409417004E9"/>
+          <attvalue for="2" value="2004"/>
+          <attvalue for="3" value="19"/>
+        </attvalues>
+        <viz:size value="50.0"/>
+        <viz:position x="24.98524" y="213.9872"/>
+        <viz:color r="205" g="226" b="251"/>
+      </node>
+      <node id="LOC::Sonora.Guaymas" label="Sonora.Guaymas">
+        <attvalues>
+          <attvalue for="0" value="location"/>
+          <attvalue for="1" value="2.387764909681127E10"/>
+          <attvalue for="2" value="2004"/>
+          <attvalue for="3" value="19"/>
+        </attvalues>
+        <viz:size value="50.0"/>
+        <viz:position x="461.65005" y="-23.787926"/>
+        <viz:color r="205" g="226" b="251"/>
+      </node>
+      <node id="LOC::Sonora.Nacozari de García" label="Sonora.Nacozari de García">
+        <attvalues>
+          <attvalue for="0" value="location"/>
+          <attvalue for="1" value="1.4485910442528934E10"/>
+          <attvalue for="2" value="2005"/>
+          <attvalue for="3" value="18"/>
+        </attvalues>
+        <viz:size value="47.555553"/>
+        <viz:position x="-64.8191" y="-424.5537"/>
+        <viz:color r="191" g="217" b="248"/>
+      </node>
+      <node id="LOC::Sonora.Cumpas" label="Sonora.Cumpas">
+        <attvalues>
+          <attvalue for="0" value="location"/>
+          <attvalue for="1" value="4.7235279729763485E7"/>
+          <attvalue for="2" value="2005"/>
+          <attvalue for="3" value="16"/>
+        </attvalues>
+        <viz:size value="42.666664"/>
+        <viz:position x="35.1111" y="34.499584"/>
+        <viz:color r="191" g="217" b="248"/>
+      </node>
+      <node id="LOC::Sonora.Santa Cruz" label="Sonora.Santa Cruz">
+        <attvalues>
+          <attvalue for="0" value="location"/>
+          <attvalue for="1" value="7.711705468032263E7"/>
+          <attvalue for="2" value="2008"/>
+          <attvalue for="3" value="15"/>
+        </attvalues>
+        <viz:size value="40.22222"/>
+        <viz:position x="-230.76482" y="-30.120176"/>
+        <viz:color r="151" g="193" b="242"/>
+      </node>
+      <node id="LOC::Sonora.Caborca" label="Sonora.Caborca">
+        <attvalues>
+          <attvalue for="0" value="location"/>
+          <attvalue for="1" value="3.6344725506060004E8"/>
+          <attvalue for="2" value="2004"/>
+          <attvalue for="3" value="19"/>
+        </attvalues>
+        <viz:size value="50.0"/>
+        <viz:position x="-107.279686" y="29.881287"/>
+        <viz:color r="205" g="226" b="251"/>
+      </node>
+      <node id="LOC::Sonora.Nogales" label="Sonora.Nogales">
+        <attvalues>
+          <attvalue for="0" value="location"/>
+          <attvalue for="1" value="1.1126542341366106E8"/>
+          <attvalue for="2" value="2004"/>
+          <attvalue for="3" value="19"/>
+        </attvalues>
+        <viz:size value="50.0"/>
+        <viz:position x="378.48328" y="404.28815"/>
+        <viz:color r="205" g="226" b="251"/>
+      </node>
+      <node id="LOC::Sonora.Santa Ana" label="Sonora.Santa Ana">
+        <attvalues>
+          <attvalue for="0" value="location"/>
+          <attvalue for="1" value="3830986.123531261"/>
+          <attvalue for="2" value="2004"/>
+          <attvalue for="3" value="17"/>
+        </attvalues>
+        <viz:size value="45.11111"/>
+        <viz:position x="-405.17484" y="245.66089"/>
+        <viz:color r="205" g="226" b="251"/>
+      </node>
+      <node id="LOC::Sonora.Puerto Peñasco" label="Sonora.Puerto Peñasco">
+        <attvalues>
+          <attvalue for="0" value="location"/>
+          <attvalue for="1" value="7158.105169605999"/>
+          <attvalue for="2" value="2006"/>
+          <attvalue for="3" value="15"/>
+        </attvalues>
+        <viz:size value="40.22222"/>
+        <viz:position x="-554.2305" y="308.67935"/>
+        <viz:color r="178" g="209" b="246"/>
+      </node>
+      <node id="LOC::Sonora.San Luis Río Colorado" label="Sonora.San Luis Río Colorado">
+        <attvalues>
+          <attvalue for="0" value="location"/>
+          <attvalue for="1" value="10374.1983245"/>
+          <attvalue for="2" value="2005"/>
+          <attvalue for="3" value="8"/>
+        </attvalues>
+        <viz:size value="23.11111"/>
+        <viz:position x="-210.3954" y="-172.10188"/>
+        <viz:color r="191" g="217" b="248"/>
+      </node>
+      <node id="LOC::Sonora.Sahuaripa" label="Sonora.Sahuaripa">
+        <attvalues>
+          <attvalue for="0" value="location"/>
+          <attvalue for="1" value="2.2704457717495432E8"/>
+          <attvalue for="2" value="2010"/>
+          <attvalue for="3" value="13"/>
+        </attvalues>
+        <viz:size value="35.333336"/>
+        <viz:position x="-322.5517" y="304.0021"/>
+        <viz:color r="125" g="176" b="237"/>
+      </node>
+      <node id="LOC::Sonora.Empalme" label="Sonora.Empalme">
+        <attvalues>
+          <attvalue for="0" value="location"/>
+          <attvalue for="1" value="3.543338747434157E9"/>
+          <attvalue for="2" value="2004"/>
+          <attvalue for="3" value="19"/>
+        </attvalues>
+        <viz:size value="50.0"/>
+        <viz:position x="-684.29767" y="140.01506"/>
+        <viz:color r="205" g="226" b="251"/>
+      </node>
+      <node id="LOC::Sonora.Huatabampo" label="Sonora.Huatabampo">
+        <attvalues>
+          <attvalue for="0" value="location"/>
+          <attvalue for="1" value="1.683053450528225E8"/>
+          <attvalue for="2" value="2004"/>
+          <attvalue for="3" value="18"/>
+        </attvalues>
+        <viz:size value="47.555553"/>
+        <viz:position x="-568.1803" y="-5.657953"/>
+        <viz:color r="205" g="226" b="251"/>
+      </node>
+      <node id="LOC::Sonora.Banámichi" label="Sonora.Banámichi">
+        <attvalues>
+          <attvalue for="0" value="location"/>
+          <attvalue for="1" value="3.32483204101188E7"/>
+          <attvalue for="2" value="2013"/>
+          <attvalue for="3" value="1"/>
+        </attvalues>
+        <viz:size value="6.0"/>
+        <viz:position x="-302.22064" y="194.07791"/>
+        <viz:color r="85" g="152" b="231"/>
+      </node>
+      <node id="LOC::Sonora.Cucurpe" label="Sonora.Cucurpe">
+        <attvalues>
+          <attvalue for="0" value="location"/>
+          <attvalue for="1" value="2.450026086015408E7"/>
+          <attvalue for="2" value="2012"/>
+          <attvalue for="3" value="10"/>
+        </attvalues>
+        <viz:size value="28.0"/>
+        <viz:position x="-526.43634" y="172.8362"/>
+        <viz:color r="98" g="160" b="233"/>
+      </node>
+      <node id="LOC::Sonora.Pitiquito" label="Sonora.Pitiquito">
+        <attvalues>
+          <attvalue for="0" value="location"/>
+          <attvalue for="1" value="2.805703728653696E10"/>
+          <attvalue for="2" value="2004"/>
+          <attvalue for="3" value="19"/>
+        </attvalues>
+        <viz:size value="50.0"/>
+        <viz:position x="-436.4681" y="-269.6316"/>
+        <viz:color r="205" g="226" b="251"/>
+      </node>
+      <node id="LOC::Sonora.Soyopa" label="Sonora.Soyopa">
+        <attvalues>
+          <attvalue for="0" value="location"/>
+          <attvalue for="1" value="80.15549999999999"/>
+          <attvalue for="2" value="2016"/>
+          <attvalue for="3" value="7"/>
+        </attvalues>
+        <viz:size value="20.666668"/>
+        <viz:position x="-633.6274" y="-288.51865"/>
+        <viz:color r="64" g="127" b="203"/>
+      </node>
+      <node id="LOC::Sonora.Yécora" label="Sonora.Yécora">
+        <attvalues>
+          <attvalue for="0" value="location"/>
+          <attvalue for="1" value="6.1725402E7"/>
+          <attvalue for="2" value="2005"/>
+          <attvalue for="3" value="9"/>
+        </attvalues>
+        <viz:size value="25.555555"/>
+        <viz:position x="71.90249" y="-247.6995"/>
+        <viz:color r="191" g="217" b="248"/>
+      </node>
+      <node id="LOC::Sonora.Cananea" label="Sonora.Cananea">
+        <attvalues>
+          <attvalue for="0" value="location"/>
+          <attvalue for="1" value="4.973359282601428E8"/>
+          <attvalue for="2" value="2005"/>
+          <attvalue for="3" value="18"/>
+        </attvalues>
+        <viz:size value="47.555553"/>
+        <viz:position x="-309.75073" y="-11.755504"/>
+        <viz:color r="191" g="217" b="248"/>
+      </node>
+      <node id="LOC::Sonora.Rosario" label="Sonora.Rosario">
+        <attvalues>
+          <attvalue for="0" value="location"/>
+          <attvalue for="1" value="9424864.27"/>
+          <attvalue for="2" value="2008"/>
+          <attvalue for="3" value="12"/>
+        </attvalues>
+        <viz:size value="32.88889"/>
+        <viz:position x="-341.8182" y="-388.82245"/>
+        <viz:color r="151" g="193" b="242"/>
+      </node>
+      <node id="LOC::Sonora.Altar" label="Sonora.Altar">
+        <attvalues>
+          <attvalue for="0" value="location"/>
+          <attvalue for="1" value="1.0495361002651371E8"/>
+          <attvalue for="2" value="2008"/>
+          <attvalue for="3" value="11"/>
+        </attvalues>
+        <viz:size value="30.444447"/>
+        <viz:position x="103.76818" y="174.8661"/>
+        <viz:color r="151" g="193" b="242"/>
+      </node>
+      <node id="LOC::Sonora.Naco" label="Sonora.Naco">
+        <attvalues>
+          <attvalue for="0" value="location"/>
+          <attvalue for="1" value="3.4076609482649493E8"/>
+          <attvalue for="2" value="2006"/>
+          <attvalue for="3" value="16"/>
+        </attvalues>
+        <viz:size value="42.666664"/>
+        <viz:position x="205.80937" y="-165.41827"/>
+        <viz:color r="178" g="209" b="246"/>
+      </node>
+      <node id="LOC::Sonora.Magdalena" label="Sonora.Magdalena">
+        <attvalues>
+          <attvalue for="0" value="location"/>
+          <attvalue for="1" value="6.652957937099772E7"/>
+          <attvalue for="2" value="2005"/>
+          <attvalue for="3" value="18"/>
+        </attvalues>
+        <viz:size value="47.555553"/>
+        <viz:position x="218.54076" y="559.6025"/>
+        <viz:color r="191" g="217" b="248"/>
+      </node>
+      <node id="LOC::Sonora.Suaqui Grande" label="Sonora.Suaqui Grande">
+        <attvalues>
+          <attvalue for="0" value="location"/>
+          <attvalue for="1" value="242457.6"/>
+          <attvalue for="2" value="2019"/>
+          <attvalue for="3" value="1"/>
+        </attvalues>
+        <viz:size value="6.0"/>
+        <viz:position x="80.454926" y="-154.73228"/>
+        <viz:color r="44" g="103" b="176"/>
+      </node>
+      <node id="SUB::Cromo (Compuestos solubles)" label="Chromium (soluble compounds)">
+        <attvalues>
+          <attvalue for="0" value="substance"/>
+          <attvalue for="1" value="2022749.8707382593"/>
+          <attvalue for="2" value="2008"/>
+          <attvalue for="3" value="10"/>
+        </attvalues>
+        <viz:size value="28.0"/>
+        <viz:position x="-552.93536" y="-246.40869"/>
+        <viz:color r="151" g="193" b="242"/>
+      </node>
+      <node id="SUB::Mercurio (Compuestos solubles)" label="Mercury (soluble compounds)">
+        <attvalues>
+          <attvalue for="0" value="substance"/>
+          <attvalue for="1" value="13056.520581240002"/>
+          <attvalue for="2" value="2008"/>
+          <attvalue for="3" value="10"/>
+        </attvalues>
+        <viz:size value="28.0"/>
+        <viz:position x="-235.5598" y="-305.9704"/>
+        <viz:color r="151" g="193" b="242"/>
+      </node>
+      <node id="SUB::Níquel (Compuestos solubles)" label="Nickel (soluble compounds)">
+        <attvalues>
+          <attvalue for="0" value="substance"/>
+          <attvalue for="1" value="4914500.890605823"/>
+          <attvalue for="2" value="2008"/>
+          <attvalue for="3" value="10"/>
+        </attvalues>
+        <viz:size value="28.0"/>
+        <viz:position x="-474.5677" y="-111.900536"/>
+        <viz:color r="151" g="193" b="242"/>
+      </node>
+      <node id="SUB::Plomo (Compuestos solubles)" label="Lead (soluble compounds)">
+        <attvalues>
+          <attvalue for="0" value="substance"/>
+          <attvalue for="1" value="1585730.7108442008"/>
+          <attvalue for="2" value="2008"/>
+          <attvalue for="3" value="10"/>
+        </attvalues>
+        <viz:size value="28.0"/>
+        <viz:position x="-353.79895" y="-152.83185"/>
+        <viz:color r="151" g="193" b="242"/>
+      </node>
+      <node id="SUB::Cianuro inorgánico/orgánico" label="Inorganic/organic cyanide">
+        <attvalues>
+          <attvalue for="0" value="substance"/>
+          <attvalue for="1" value="5269624.779060422"/>
+          <attvalue for="2" value="2004"/>
+          <attvalue for="3" value="19"/>
+        </attvalues>
+        <viz:size value="50.0"/>
+        <viz:position x="-97.14723" y="147.93451"/>
+        <viz:color r="205" g="226" b="251"/>
+      </node>
+      <node id="SUB::Arsénico (polvos, respirables, vapores o humos)" label="Arsenic (respirable dust, vapors or fumes)">
+        <attvalues>
+          <attvalue for="0" value="substance"/>
+          <attvalue for="1" value="1376854.0891372284"/>
+          <attvalue for="2" value="2004"/>
+          <attvalue for="3" value="19"/>
+        </attvalues>
+        <viz:size value="50.0"/>
+        <viz:position x="-232.37976" y="114.64249"/>
+        <viz:color r="205" g="226" b="251"/>
+      </node>
+      <node id="SUB::Cadmio (polvos, respirables, vapores o humos)" label="Cadmium (respirable dust, vapors or fumes)">
+        <attvalues>
+          <attvalue for="0" value="substance"/>
+          <attvalue for="1" value="11258.206197579999"/>
+          <attvalue for="2" value="2004"/>
+          <attvalue for="3" value="19"/>
+        </attvalues>
+        <viz:size value="50.0"/>
+        <viz:position x="-118.2557" y="-73.79662"/>
+        <viz:color r="205" g="226" b="251"/>
+      </node>
+      <node id="SUB::Plomo (compuestos)" label="Lead (compounds)">
+        <attvalues>
+          <attvalue for="0" value="substance"/>
+          <attvalue for="1" value="467767.03013762535"/>
+          <attvalue for="2" value="2004"/>
+          <attvalue for="3" value="9"/>
+        </attvalues>
+        <viz:size value="25.555555"/>
+        <viz:position x="-204.48145" y="274.9616"/>
+        <viz:color r="205" g="226" b="251"/>
+      </node>
+      <node id="SUB::Níquel (compuestos)" label="Nickel (compounds)">
+        <attvalues>
+          <attvalue for="0" value="substance"/>
+          <attvalue for="1" value="140457.73314175266"/>
+          <attvalue for="2" value="2004"/>
+          <attvalue for="3" value="9"/>
+        </attvalues>
+        <viz:size value="25.555555"/>
+        <viz:position x="-422.3997" y="397.32388"/>
+        <viz:color r="205" g="226" b="251"/>
+      </node>
+      <node id="SUB::Mercurio (compuestos)" label="Mercury (compounds)">
+        <attvalues>
+          <attvalue for="0" value="substance"/>
+          <attvalue for="1" value="187.65774017865598"/>
+          <attvalue for="2" value="2004"/>
+          <attvalue for="3" value="9"/>
+        </attvalues>
+        <viz:size value="25.555555"/>
+        <viz:position x="102.028786" y="337.61642"/>
+        <viz:color r="205" g="226" b="251"/>
+      </node>
+      <node id="SUB::Cromo (compuestos)" label="Chromium (compounds)">
+        <attvalues>
+          <attvalue for="0" value="substance"/>
+          <attvalue for="1" value="10316.1005543228"/>
+          <attvalue for="2" value="2004"/>
+          <attvalue for="3" value="9"/>
+        </attvalues>
+        <viz:size value="25.555555"/>
+        <viz:position x="-288.96432" y="431.03796"/>
+        <viz:color r="205" g="226" b="251"/>
+      </node>
+      <node id="SUB::Cadmio (compuestos)" label="Cadmium (compounds)">
+        <attvalues>
+          <attvalue for="0" value="substance"/>
+          <attvalue for="1" value="68.41195440400003"/>
+          <attvalue for="2" value="2004"/>
+          <attvalue for="3" value="6"/>
+        </attvalues>
+        <viz:size value="18.222223"/>
+        <viz:position x="-188.38422" y="620.70886"/>
+        <viz:color r="205" g="226" b="251"/>
+      </node>
+      <node id="SUB::Arsénico (compuestos)" label="Arsenic (compounds)">
+        <attvalues>
+          <attvalue for="0" value="substance"/>
+          <attvalue for="1" value="391.69904034200005"/>
+          <attvalue for="2" value="2004"/>
+          <attvalue for="3" value="9"/>
+        </attvalues>
+        <viz:size value="25.555555"/>
+        <viz:position x="40.551983" y="457.37424"/>
+        <viz:color r="205" g="226" b="251"/>
+      </node>
+      <node id="SUB::Mercurio (polvos, respirables, vapores o humos)" label="Mercury (respirable dust, vapors or fumes)">
+        <attvalues>
+          <attvalue for="0" value="substance"/>
+          <attvalue for="1" value="2404.0813570706505"/>
+          <attvalue for="2" value="2004"/>
+          <attvalue for="3" value="19"/>
+        </attvalues>
+        <viz:size value="50.0"/>
+        <viz:position x="-390.11838" y="96.36871"/>
+        <viz:color r="205" g="226" b="251"/>
+      </node>
+      <node id="SUB::Arsénico (Compuestos solubles)" label="Arsenic (soluble compounds)">
+        <attvalues>
+          <attvalue for="0" value="substance"/>
+          <attvalue for="1" value="13547.629775300002"/>
+          <attvalue for="2" value="2008"/>
+          <attvalue for="3" value="10"/>
+        </attvalues>
+        <viz:size value="28.0"/>
+        <viz:position x="-655.7145" y="-89.103775"/>
+        <viz:color r="151" g="193" b="242"/>
+      </node>
+      <node id="SUB::Cadmio (Compuestos solubles)" label="Cadmium (soluble compounds)">
+        <attvalues>
+          <attvalue for="0" value="substance"/>
+          <attvalue for="1" value="263712.27543999953"/>
+          <attvalue for="2" value="2008"/>
+          <attvalue for="3" value="10"/>
+        </attvalues>
+        <viz:size value="28.0"/>
+        <viz:position x="-477.37662" y="-419.92203"/>
+        <viz:color r="151" g="193" b="242"/>
+      </node>
+      <node id="SUB::Plomo (polvos respirables, humos o vapores)" label="Lead (respirable dust, fumes or vapors)">
+        <attvalues>
+          <attvalue for="0" value="substance"/>
+          <attvalue for="1" value="4250732.538156426"/>
+          <attvalue for="2" value="2014"/>
+          <attvalue for="3" value="9"/>
+        </attvalues>
+        <viz:size value="25.555555"/>
+        <viz:position x="240.53473" y="2.3715138"/>
+        <viz:color r="78" g="143" b="221"/>
+      </node>
+      <node id="SUB::Níquel (polvos respirables, humos o vapores)" label="Nickel (respirable dust, fumes or vapors)">
+        <attvalues>
+          <attvalue for="0" value="substance"/>
+          <attvalue for="1" value="48713.851482"/>
+          <attvalue for="2" value="2014"/>
+          <attvalue for="3" value="9"/>
+        </attvalues>
+        <viz:size value="25.555555"/>
+        <viz:position x="420.15778" y="-231.86136"/>
+        <viz:color r="78" g="143" b="221"/>
+      </node>
+      <node id="SUB::Cromo (polvos respirables, humos o vapores)" label="Chromium (respirable dust, fumes or vapors)">
+        <attvalues>
+          <attvalue for="0" value="substance"/>
+          <attvalue for="1" value="17419.76029545"/>
+          <attvalue for="2" value="2014"/>
+          <attvalue for="3" value="9"/>
+        </attvalues>
+        <viz:size value="25.555555"/>
+        <viz:position x="421.20978" y="-344.13272"/>
+        <viz:color r="78" g="143" b="221"/>
+      </node>
+      <node id="SUB::Bióxido de carbono" label="Carbon dioxide">
+        <attvalues>
+          <attvalue for="0" value="substance"/>
+          <attvalue for="1" value="1.4452607798216226E11"/>
+          <attvalue for="2" value="2004"/>
+          <attvalue for="3" value="19"/>
+        </attvalues>
+        <viz:size value="50.0"/>
+        <viz:position x="25.37347" y="-106.1775"/>
+        <viz:color r="205" g="226" b="251"/>
+      </node>
+      <node id="SUB::Bióxido de nitrógeno" label="Nitrogen dioxide">
+        <attvalues>
+          <attvalue for="0" value="substance"/>
+          <attvalue for="1" value="1.1463742244549999E8"/>
+          <attvalue for="2" value="2004"/>
+          <attvalue for="3" value="19"/>
+        </attvalues>
+        <viz:size value="50.0"/>
+        <viz:position x="31.20019" y="-309.74026"/>
+        <viz:color r="205" g="226" b="251"/>
+      </node>
+      <node id="SUB::Oxido nitroso" label="Nitrous oxide">
+        <attvalues>
+          <attvalue for="0" value="substance"/>
+          <attvalue for="1" value="6.774926948676E8"/>
+          <attvalue for="2" value="2008"/>
+          <attvalue for="3" value="15"/>
+        </attvalues>
+        <viz:size value="40.22222"/>
+        <viz:position x="-66.99926" y="-233.1239"/>
+        <viz:color r="151" g="193" b="242"/>
+      </node>
+      <node id="SUB::Dioxinas" label="Dioxins">
+        <attvalues>
+          <attvalue for="0" value="substance"/>
+          <attvalue for="1" value="0.0056145135741"/>
+          <attvalue for="2" value="2004"/>
+          <attvalue for="3" value="18"/>
+        </attvalues>
+        <viz:size value="47.555553"/>
+        <viz:position x="853.9507" y="-99.699814"/>
+        <viz:color r="205" g="226" b="251"/>
+      </node>
+      <node id="SUB::Furanos" label="Furans">
+        <attvalues>
+          <attvalue for="0" value="substance"/>
+          <attvalue for="1" value="1732.761563486094"/>
+          <attvalue for="2" value="2004"/>
+          <attvalue for="3" value="18"/>
+        </attvalues>
+        <viz:size value="47.555553"/>
+        <viz:position x="870.6851" y="-6.683988"/>
+        <viz:color r="205" g="226" b="251"/>
+      </node>
+      <node id="SUB::Benceno" label="Benzene">
+        <attvalues>
+          <attvalue for="0" value="substance"/>
+          <attvalue for="1" value="180265.30828718643"/>
+          <attvalue for="2" value="2004"/>
+          <attvalue for="3" value="18"/>
+        </attvalues>
+        <viz:size value="47.555553"/>
+        <viz:position x="562.85583" y="191.13512"/>
+        <viz:color r="205" g="226" b="251"/>
+      </node>
+      <node id="SUB::Formaldehido" label="Formaldehyde">
+        <attvalues>
+          <attvalue for="0" value="substance"/>
+          <attvalue for="1" value="368752.7570964992"/>
+          <attvalue for="2" value="2004"/>
+          <attvalue for="3" value="17"/>
+        </attvalues>
+        <viz:size value="45.11111"/>
+        <viz:position x="382.42395" y="194.16792"/>
+        <viz:color r="205" g="226" b="251"/>
+      </node>
+      <node id="SUB::Acetaldehido" label="Acetaldehyde">
+        <attvalues>
+          <attvalue for="0" value="substance"/>
+          <attvalue for="1" value="7254.673637470478"/>
+          <attvalue for="2" value="2004"/>
+          <attvalue for="3" value="16"/>
+        </attvalues>
+        <viz:size value="42.666664"/>
+        <viz:position x="550.84485" y="305.63007"/>
+        <viz:color r="205" g="226" b="251"/>
+      </node>
+      <node id="SUB::Hidrofluorocarbonos" label="Hydrofluorocarbons">
+        <attvalues>
+          <attvalue for="0" value="substance"/>
+          <attvalue for="1" value="767441.5"/>
+          <attvalue for="2" value="2005"/>
+          <attvalue for="3" value="10"/>
+        </attvalues>
+        <viz:size value="28.0"/>
+        <viz:position x="1324.1737" y="-786.6423"/>
+        <viz:color r="191" g="217" b="248"/>
+      </node>
+      <node id="SUB::1,1,1-Tricloroetano" label="1,1,1-Trichloroethane">
+        <attvalues>
+          <attvalue for="0" value="substance"/>
+          <attvalue for="1" value="13374.9"/>
+          <attvalue for="2" value="2005"/>
+          <attvalue for="3" value="9"/>
+        </attvalues>
+        <viz:size value="25.555555"/>
+        <viz:position x="1084.6952" y="2.0898159"/>
+        <viz:color r="191" g="217" b="248"/>
+      </node>
+      <node id="SUB::Endosulfan" label="Endosulfan">
+        <attvalues>
+          <attvalue for="0" value="substance"/>
+          <attvalue for="1" value="8278.185127558001"/>
+          <attvalue for="2" value="2005"/>
+          <attvalue for="3" value="8"/>
+        </attvalues>
+        <viz:size value="23.11111"/>
+        <viz:position x="275.0499" y="-1081.7731"/>
+        <viz:color r="191" g="217" b="248"/>
+      </node>
+      <node id="SUB::Metil paration" label="Methyl parathion">
+        <attvalues>
+          <attvalue for="0" value="substance"/>
+          <attvalue for="1" value="19663.0584542514"/>
+          <attvalue for="2" value="2005"/>
+          <attvalue for="3" value="9"/>
+        </attvalues>
+        <viz:size value="25.555555"/>
+        <viz:position x="199.16548" y="-1092.1051"/>
+        <viz:color r="191" g="217" b="248"/>
+      </node>
+      <node id="SUB::Tolueno diisocianato" label="Toluene diisocyanate">
+        <attvalues>
+          <attvalue for="0" value="substance"/>
+          <attvalue for="1" value="221342.503"/>
+          <attvalue for="2" value="2004"/>
+          <attvalue for="3" value="7"/>
+        </attvalues>
+        <viz:size value="20.666668"/>
+        <viz:position x="1095.5784" y="164.40063"/>
+        <viz:color r="205" g="226" b="251"/>
+      </node>
+      <node id="SUB::Metano" label="Methane">
+        <attvalues>
+          <attvalue for="0" value="substance"/>
+          <attvalue for="1" value="1.63224397310733E7"/>
+          <attvalue for="2" value="2005"/>
+          <attvalue for="3" value="15"/>
+        </attvalues>
+        <viz:size value="40.22222"/>
+        <viz:position x="305.24286" y="-152.07567"/>
+        <viz:color r="191" g="217" b="248"/>
+      </node>
+      <node id="SUB::Acroleina" label="Acrolein">
+        <attvalues>
+          <attvalue for="0" value="substance"/>
+          <attvalue for="1" value="5.482454566368499"/>
+          <attvalue for="2" value="2004"/>
+          <attvalue for="3" value="8"/>
+        </attvalues>
+        <viz:size value="23.11111"/>
+        <viz:position x="649.9412" y="424.38748"/>
+        <viz:color r="205" g="226" b="251"/>
+      </node>
+      <node id="SUB::Acido sulfhídrico" label="Hydrogen sulfide">
+        <attvalues>
+          <attvalue for="0" value="substance"/>
+          <attvalue for="1" value="21.00584"/>
+          <attvalue for="2" value="2007"/>
+          <attvalue for="3" value="3"/>
+        </attvalues>
+        <viz:size value="10.888889"/>
+        <viz:position x="284.32672" y="752.0816"/>
+        <viz:color r="164" g="201" b="244" a="0.99607843"/>
+      </node>
+      <node id="SUB::Tricloroetileno" label="Trichloroethylene">
+        <attvalues>
+          <attvalue for="0" value="substance"/>
+          <attvalue for="1" value="1521.0"/>
+          <attvalue for="2" value="2012"/>
+          <attvalue for="3" value="1"/>
+        </attvalues>
+        <viz:size value="6.0"/>
+        <viz:position x="836.4354" y="805.3011"/>
+        <viz:color r="98" g="160" b="233"/>
+      </node>
+      <node id="SUB::Clorodifluorometano (HCFC-22)" label="Chlorodifluoromethane (HCFC-22)">
+        <attvalues>
+          <attvalue for="0" value="substance"/>
+          <attvalue for="1" value="19841.0"/>
+          <attvalue for="2" value="2012"/>
+          <attvalue for="3" value="5"/>
+        </attvalues>
+        <viz:size value="15.777778"/>
+        <viz:position x="1280.4624" y="-901.1997"/>
+        <viz:color r="98" g="160" b="233"/>
+      </node>
+      <node id="SUB::Acrilonitrilo" label="Acrylonitrile">
+        <attvalues>
+          <attvalue for="0" value="substance"/>
+          <attvalue for="1" value="528.2"/>
+          <attvalue for="2" value="2014"/>
+          <attvalue for="3" value="2"/>
+        </attvalues>
+        <viz:size value="8.444445"/>
+        <viz:position x="1418.3989" y="-754.7324"/>
+        <viz:color r="78" g="143" b="221"/>
+      </node>
+      <node id="SUB::Cumeno" label="Cumene">
+        <attvalues>
+          <attvalue for="0" value="substance"/>
+          <attvalue for="1" value="1388.43"/>
+          <attvalue for="2" value="2016"/>
+          <attvalue for="3" value="1"/>
+        </attvalues>
+        <viz:size value="6.0"/>
+        <viz:position x="1501.8204" y="-613.2335"/>
+        <viz:color r="64" g="127" b="203"/>
+      </node>
+      <node id="SUB::Tolueno" label="Toluene">
+        <attvalues>
+          <attvalue for="0" value="substance"/>
+          <attvalue for="1" value="9373.45"/>
+          <attvalue for="2" value="2017"/>
+          <attvalue for="3" value="6"/>
+        </attvalues>
+        <viz:size value="18.222223"/>
+        <viz:position x="398.25473" y="-882.76636"/>
+        <viz:color r="57" g="119" b="194"/>
+      </node>
+      <node id="SUB::Xileno (mezcla de isómeros)" label="Xylene (mixture of isomers)">
+        <attvalues>
+          <attvalue for="0" value="substance"/>
+          <attvalue for="1" value="22636.32"/>
+          <attvalue for="2" value="2017"/>
+          <attvalue for="3" value="3"/>
+        </attvalues>
+        <viz:size value="10.888889"/>
+        <viz:position x="1244.7688" y="-1007.2832"/>
+        <viz:color r="57" g="119" b="194"/>
+      </node>
+      <node id="SUB::Diisocianato de difenilmetano polimérico" label="Polymeric diphenylmethane diisocyanate">
+        <attvalues>
+          <attvalue for="0" value="substance"/>
+          <attvalue for="1" value="10649.34"/>
+          <attvalue for="2" value="2020"/>
+          <attvalue for="3" value="1"/>
+        </attvalues>
+        <viz:size value="6.0"/>
+        <viz:position x="1339.2147" y="-989.3792"/>
+        <viz:color r="37" g="95" b="167"/>
+      </node>
+      <node id="SUB::1,1-Dicloro-1-Fluoroetano (HCFC-141b)" label="1,1-Dichloro-1-fluoroethane (HCFC-141b)">
+        <attvalues>
+          <attvalue for="0" value="substance"/>
+          <attvalue for="1" value="3830.0"/>
+          <attvalue for="2" value="2022"/>
+          <attvalue for="3" value="1"/>
+        </attvalues>
+        <viz:size value="6.0"/>
+        <viz:position x="1423.8491" y="-934.33844"/>
+        <viz:color r="24" g="79" b="149"/>
+      </node>
+      <node id="SUB::Cloruro de metileno" label="Methylene chloride">
+        <attvalues>
+          <attvalue for="0" value="substance"/>
+          <attvalue for="1" value="1261.3066"/>
+          <attvalue for="2" value="2004"/>
+          <attvalue for="3" value="2"/>
+        </attvalues>
+        <viz:size value="8.444445"/>
+        <viz:position x="-1139.1329" y="226.68166"/>
+        <viz:color r="205" g="226" b="251"/>
+      </node>
+      <node id="SUB::Epiclorhidrina" label="Epichlorohydrin">
+        <attvalues>
+          <attvalue for="0" value="substance"/>
+          <attvalue for="1" value="467.52007012999997"/>
+          <attvalue for="2" value="2005"/>
+          <attvalue for="3" value="8"/>
+        </attvalues>
+        <viz:size value="23.11111"/>
+        <viz:position x="353.21765" y="-1065.4431"/>
+        <viz:color r="191" g="217" b="248"/>
+      </node>
+      <node id="SUB::Bifenilos policlorados" label="Polychlorinated biphenyls (PCBs)">
+        <attvalues>
+          <attvalue for="0" value="substance"/>
+          <attvalue for="1" value="0.7625"/>
+          <attvalue for="2" value="2006"/>
+          <attvalue for="3" value="2"/>
+        </attvalues>
+        <viz:size value="8.444445"/>
+        <viz:position x="732.65656" y="-913.48944"/>
+        <viz:color r="178" g="209" b="246"/>
+      </node>
+      <node id="SUB::Estireno (fenil etileno)" label="Styrene (phenylethylene)">
+        <attvalues>
+          <attvalue for="0" value="substance"/>
+          <attvalue for="1" value="0.15"/>
+          <attvalue for="2" value="2006"/>
+          <attvalue for="3" value="1"/>
+        </attvalues>
+        <viz:size value="6.0"/>
+        <viz:position x="1378.3374" y="-859.05255"/>
+        <viz:color r="178" g="209" b="246"/>
+      </node>
+      <node id="SUB::Fenol" label="Phenol">
+        <attvalues>
+          <attvalue for="0" value="substance"/>
+          <attvalue for="1" value="1.87"/>
+          <attvalue for="2" value="2006"/>
+          <attvalue for="3" value="1"/>
+        </attvalues>
+        <viz:size value="6.0"/>
+        <viz:position x="1415.4329" y="-661.69006"/>
+        <viz:color r="178" g="209" b="246"/>
+      </node>
+      <node id="SUB::1,2,-Dicloroetano" label="1,2-Dichloroethane">
+        <attvalues>
+          <attvalue for="0" value="substance"/>
+          <attvalue for="1" value="9.24"/>
+          <attvalue for="2" value="2007"/>
+          <attvalue for="3" value="1"/>
+        </attvalues>
+        <viz:size value="6.0"/>
+        <viz:position x="767.6714" y="874.35126"/>
+        <viz:color r="164" g="201" b="244" a="0.99607843"/>
+      </node>
+      <node id="SUB::Cloruro de vinilo" label="Vinyl chloride">
+        <attvalues>
+          <attvalue for="0" value="substance"/>
+          <attvalue for="1" value="23628.0000425"/>
+          <attvalue for="2" value="2004"/>
+          <attvalue for="3" value="2"/>
+        </attvalues>
+        <viz:size value="8.444445"/>
+        <viz:position x="1517.2493" y="-721.7352"/>
+        <viz:color r="205" g="226" b="251"/>
+      </node>
+      <node id="SUB::Nitrato de plata" label="Silver nitrate">
+        <attvalues>
+          <attvalue for="0" value="substance"/>
+          <attvalue for="1" value="99132.0"/>
+          <attvalue for="2" value="2014"/>
+          <attvalue for="3" value="4"/>
+        </attvalues>
+        <viz:size value="13.333334"/>
+        <viz:position x="1484.6405" y="-831.02936"/>
+        <viz:color r="78" g="143" b="221"/>
+      </node>
+      <node id="SUB::Asbesto y sus formas (En forma de polvo, fibras o productos desmenuzables con la presión de la mano)" label="Asbestos and its forms (as dust, fibers or friable products that crumble under hand pressure)">
+        <attvalues>
+          <attvalue for="0" value="substance"/>
+          <attvalue for="1" value="213437.4"/>
+          <attvalue for="2" value="2005"/>
+          <attvalue for="3" value="2"/>
+        </attvalues>
+        <viz:size value="8.444445"/>
+        <viz:position x="650.0621" y="-961.77936"/>
+        <viz:color r="191" g="217" b="248"/>
+      </node>
+    </nodes>
+    <edges>
+      <edge id="0" source="LOC::Sonora.La Colorada" target="SUB::Cromo (Compuestos solubles)" weight="73.20439910888672">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+      </edge>
+      <edge id="1" source="LOC::Sonora.La Colorada" target="SUB::Mercurio (Compuestos solubles)" weight="7.665000157430768E-4">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+      </edge>
+      <edge id="2" source="LOC::Sonora.La Colorada" target="SUB::Níquel (Compuestos solubles)" weight="0.2938250005245209">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+      </edge>
+      <edge id="3" source="LOC::Sonora.La Colorada" target="SUB::Plomo (Compuestos solubles)" weight="39.944923400878906">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+      </edge>
+      <edge id="4" source="LOC::Sonora.La Colorada" target="SUB::Cianuro inorgánico/orgánico" weight="0.07408300042152405">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+      </edge>
+      <edge id="5" source="LOC::Sonora.La Colorada" target="SUB::Arsénico (polvos, respirables, vapores o humos)" weight="119.03480529785156">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+      </edge>
+      <edge id="6" source="LOC::Sonora.La Colorada" target="SUB::Cadmio (polvos, respirables, vapores o humos)" weight="52.05916213989258">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+      </edge>
+      <edge id="7" source="LOC::Sonora.La Colorada" target="SUB::Plomo (compuestos)" weight="1297.7620849609375">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+      </edge>
+      <edge id="8" source="LOC::Sonora.La Colorada" target="SUB::Níquel (compuestos)" weight="1.673164963722229">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+      </edge>
+      <edge id="9" source="LOC::Sonora.La Colorada" target="SUB::Mercurio (compuestos)" weight="0.0022994999308139086">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+      </edge>
+      <edge id="10" source="LOC::Sonora.La Colorada" target="SUB::Cromo (compuestos)" weight="581.3699951171875">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+      </edge>
+      <edge id="11" source="LOC::Sonora.La Colorada" target="SUB::Cadmio (compuestos)" weight="0.051100000739097595">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+      </edge>
+      <edge id="12" source="LOC::Sonora.La Colorada" target="SUB::Arsénico (compuestos)" weight="0.015329999849200249">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+      </edge>
+      <edge id="13" source="LOC::Sonora.La Colorada" target="SUB::Mercurio (polvos, respirables, vapores o humos)" weight="526.7754516601562">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+      </edge>
+      <edge id="14" source="LOC::Sonora.La Colorada" target="SUB::Dioxinas" weight="0.00329741183668375">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+      </edge>
+      <edge id="15" source="LOC::Sonora.La Colorada" target="SUB::Furanos" weight="0.0014664118643850088">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+      </edge>
+      <edge id="16" source="LOC::Sonora.La Colorada" target="SUB::Bióxido de carbono" weight="1.03095296E10">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+      </edge>
+      <edge id="17" source="LOC::Sonora.La Colorada" target="SUB::Benceno" weight="127752.6328125">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+      </edge>
+      <edge id="18" source="LOC::Sonora.La Colorada" target="SUB::Plomo (polvos respirables, humos o vapores)" weight="1260.9593505859375">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+      </edge>
+      <edge id="19" source="LOC::Sonora.La Colorada" target="SUB::Cromo (polvos respirables, humos o vapores)" weight="441.5997009277344">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+      </edge>
+      <edge id="20" source="LOC::Sonora.Cajeme" target="SUB::Cromo (Compuestos solubles)" weight="689.6830444335938">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+      </edge>
+      <edge id="21" source="LOC::Sonora.Cajeme" target="SUB::Níquel (Compuestos solubles)" weight="3739.83740234375">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+      </edge>
+      <edge id="22" source="LOC::Sonora.Cajeme" target="SUB::Plomo (Compuestos solubles)" weight="1000.7196655273438">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+      </edge>
+      <edge id="23" source="LOC::Sonora.Cajeme" target="SUB::Cianuro inorgánico/orgánico" weight="196.28172302246094">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+      </edge>
+      <edge id="24" source="LOC::Sonora.Cajeme" target="SUB::Níquel (compuestos)" weight="8177.50341796875">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+      </edge>
+      <edge id="25" source="LOC::Sonora.Cajeme" target="SUB::Arsénico (compuestos)" weight="182.9276123046875">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+      </edge>
+      <edge id="26" source="LOC::Sonora.Cajeme" target="SUB::Cromo (compuestos)" weight="672.608642578125">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+      </edge>
+      <edge id="27" source="LOC::Sonora.Cajeme" target="SUB::Plomo (compuestos)" weight="3227.972900390625">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+      </edge>
+      <edge id="28" source="LOC::Sonora.Cajeme" target="SUB::Mercurio (compuestos)" weight="3.56325626373291">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+      </edge>
+      <edge id="29" source="LOC::Sonora.Cajeme" target="SUB::Cadmio (compuestos)" weight="21.67740821838379">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+      </edge>
+      <edge id="30" source="LOC::Sonora.Cajeme" target="SUB::Arsénico (polvos, respirables, vapores o humos)" weight="118.0309829711914">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+      </edge>
+      <edge id="31" source="LOC::Sonora.Cajeme" target="SUB::Mercurio (polvos, respirables, vapores o humos)" weight="0.4846278131008148">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+      </edge>
+      <edge id="32" source="LOC::Sonora.Cajeme" target="SUB::Cadmio (polvos, respirables, vapores o humos)" weight="7685.5849609375">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+      </edge>
+      <edge id="33" source="LOC::Sonora.Cajeme" target="SUB::Arsénico (Compuestos solubles)" weight="139.49630737304688">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+      </edge>
+      <edge id="34" source="LOC::Sonora.Cajeme" target="SUB::Mercurio (Compuestos solubles)" weight="3.119999885559082">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+      </edge>
+      <edge id="35" source="LOC::Sonora.Cajeme" target="SUB::Cadmio (Compuestos solubles)" weight="71.9698486328125">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+      </edge>
+      <edge id="36" source="LOC::Sonora.Cajeme" target="SUB::Bióxido de nitrógeno" weight="3100.0">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+      </edge>
+      <edge id="37" source="LOC::Sonora.Cajeme" target="SUB::Bióxido de carbono" weight="9.78472832E8">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+      </edge>
+      <edge id="38" source="LOC::Sonora.Cajeme" target="SUB::Endosulfan" weight="8278.185546875">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+      </edge>
+      <edge id="39" source="LOC::Sonora.Cajeme" target="SUB::Metil paration" weight="19663.05859375">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+      </edge>
+      <edge id="40" source="LOC::Sonora.Cajeme" target="SUB::Acetaldehido" weight="0.13042256236076355">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+      </edge>
+      <edge id="41" source="LOC::Sonora.Cajeme" target="SUB::Benceno" weight="0.38861334323883057">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+      </edge>
+      <edge id="42" source="LOC::Sonora.Cajeme" target="SUB::Formaldehido" weight="0.006653911434113979">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+      </edge>
+      <edge id="43" source="LOC::Sonora.Cajeme" target="SUB::Acroleina" weight="0.015736807137727737">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+      </edge>
+      <edge id="44" source="LOC::Sonora.Cajeme" target="SUB::Oxido nitroso" weight="4219260.0">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+      </edge>
+      <edge id="45" source="LOC::Sonora.Cajeme" target="SUB::Epiclorhidrina" weight="467.52008056640625">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+      </edge>
+      <edge id="46" source="LOC::Sonora.Cajeme" target="SUB::Asbesto y sus formas (En forma de polvo, fibras o productos desmenuzables con la presión de la mano)" weight="204640.0">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+      </edge>
+      <edge id="47" source="LOC::Sonora.Cajeme" target="SUB::Plomo (polvos respirables, humos o vapores)" weight="344.760009765625">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+      </edge>
+      <edge id="48" source="LOC::Sonora.Cajeme" target="SUB::Bifenilos policlorados" weight="0.012500000186264515">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+      </edge>
+      <edge id="49" source="LOC::Sonora.Navojoa" target="SUB::Cromo (Compuestos solubles)" weight="7420.73681640625">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+      </edge>
+      <edge id="50" source="LOC::Sonora.Navojoa" target="SUB::Mercurio (Compuestos solubles)" weight="2603.053955078125">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+      </edge>
+      <edge id="51" source="LOC::Sonora.Navojoa" target="SUB::Níquel (Compuestos solubles)" weight="1817.7659912109375">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+      </edge>
+      <edge id="52" source="LOC::Sonora.Navojoa" target="SUB::Plomo (Compuestos solubles)" weight="22528.16796875">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+      </edge>
+      <edge id="53" source="LOC::Sonora.Navojoa" target="SUB::Cianuro inorgánico/orgánico" weight="4137.67041015625">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+      </edge>
+      <edge id="54" source="LOC::Sonora.Navojoa" target="SUB::Arsénico (polvos, respirables, vapores o humos)" weight="83.78068542480469">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+      </edge>
+      <edge id="55" source="LOC::Sonora.Navojoa" target="SUB::Cadmio (polvos, respirables, vapores o humos)" weight="36.69886779785156">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+      </edge>
+      <edge id="56" source="LOC::Sonora.Navojoa" target="SUB::Mercurio (compuestos)" weight="0.08188112825155258">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+      </edge>
+      <edge id="57" source="LOC::Sonora.Navojoa" target="SUB::Níquel (compuestos)" weight="784.00537109375">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+      </edge>
+      <edge id="58" source="LOC::Sonora.Navojoa" target="SUB::Plomo (compuestos)" weight="46825.078125">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+      </edge>
+      <edge id="59" source="LOC::Sonora.Navojoa" target="SUB::Cromo (compuestos)" weight="210.22662353515625">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+      </edge>
+      <edge id="60" source="LOC::Sonora.Navojoa" target="SUB::Cadmio (compuestos)" weight="0.13246139883995056">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+      </edge>
+      <edge id="61" source="LOC::Sonora.Navojoa" target="SUB::Arsénico (compuestos)" weight="1.6745866537094116">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+      </edge>
+      <edge id="62" source="LOC::Sonora.Navojoa" target="SUB::Mercurio (polvos, respirables, vapores o humos)" weight="258.49481201171875">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+      </edge>
+      <edge id="63" source="LOC::Sonora.Navojoa" target="SUB::Arsénico (Compuestos solubles)" weight="612.9713745117188">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+      </edge>
+      <edge id="64" source="LOC::Sonora.Navojoa" target="SUB::Cadmio (Compuestos solubles)" weight="108.86209869384766">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+      </edge>
+      <edge id="65" source="LOC::Sonora.Navojoa" target="SUB::Bióxido de carbono" weight="8.5554336E8">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+      </edge>
+      <edge id="66" source="LOC::Sonora.Navojoa" target="SUB::Acroleina" weight="0.4589900076389313">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+      </edge>
+      <edge id="67" source="LOC::Sonora.Navojoa" target="SUB::Formaldehido" weight="0.0010720000136643648">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+      </edge>
+      <edge id="68" source="LOC::Sonora.Navojoa" target="SUB::Acetaldehido" weight="10.013250350952148">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+      </edge>
+      <edge id="69" source="LOC::Sonora.Navojoa" target="SUB::Benceno" weight="9.564040184020996">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+      </edge>
+      <edge id="70" source="LOC::Sonora.Navojoa" target="SUB::Plomo (polvos respirables, humos o vapores)" weight="70212.625">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+      </edge>
+      <edge id="71" source="LOC::Sonora.Navojoa" target="SUB::Oxido nitroso" weight="233080.0">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+      </edge>
+      <edge id="72" source="LOC::Sonora.Navojoa" target="SUB::Níquel (polvos respirables, humos o vapores)" weight="100.22100067138672">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+      </edge>
+      <edge id="73" source="LOC::Sonora.Hermosillo" target="SUB::Arsénico (polvos, respirables, vapores o humos)" weight="697.0234375">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+      </edge>
+      <edge id="74" source="LOC::Sonora.Hermosillo" target="SUB::Cianuro inorgánico/orgánico" weight="5019671.5">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+      </edge>
+      <edge id="75" source="LOC::Sonora.Hermosillo" target="SUB::Arsénico (compuestos)" weight="69.84932708740234">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+      </edge>
+      <edge id="76" source="LOC::Sonora.Hermosillo" target="SUB::Mercurio (compuestos)" weight="0.9684708714485168">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+      </edge>
+      <edge id="77" source="LOC::Sonora.Hermosillo" target="SUB::Cromo (compuestos)" weight="233.33291625976562">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+      </edge>
+      <edge id="78" source="LOC::Sonora.Hermosillo" target="SUB::Cadmio (compuestos)" weight="0.04104539006948471">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+      </edge>
+      <edge id="79" source="LOC::Sonora.Hermosillo" target="SUB::Níquel (compuestos)" weight="2124.815673828125">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+      </edge>
+      <edge id="80" source="LOC::Sonora.Hermosillo" target="SUB::Arsénico (Compuestos solubles)" weight="108.91954040527344">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+      </edge>
+      <edge id="81" source="LOC::Sonora.Hermosillo" target="SUB::Cadmio (Compuestos solubles)" weight="266.0819091796875">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+      </edge>
+      <edge id="82" source="LOC::Sonora.Hermosillo" target="SUB::Cromo (Compuestos solubles)" weight="482.4255676269531">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+      </edge>
+      <edge id="83" source="LOC::Sonora.Hermosillo" target="SUB::Níquel (Compuestos solubles)" weight="116235.578125">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+      </edge>
+      <edge id="84" source="LOC::Sonora.Hermosillo" target="SUB::Plomo (Compuestos solubles)" weight="325052.3125">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+      </edge>
+      <edge id="85" source="LOC::Sonora.Hermosillo" target="SUB::Cadmio (polvos, respirables, vapores o humos)" weight="1611.2279052734375">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+      </edge>
+      <edge id="86" source="LOC::Sonora.Hermosillo" target="SUB::Bióxido de carbono" weight="3.4372100096E10">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+      </edge>
+      <edge id="87" source="LOC::Sonora.Hermosillo" target="SUB::Bióxido de nitrógeno" weight="3.0057898E7">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+      </edge>
+      <edge id="88" source="LOC::Sonora.Hermosillo" target="SUB::Dioxinas" weight="0.0021715040784329176">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+      </edge>
+      <edge id="89" source="LOC::Sonora.Hermosillo" target="SUB::Furanos" weight="0.002132970606908202">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+      </edge>
+      <edge id="90" source="LOC::Sonora.Hermosillo" target="SUB::Benceno" weight="46312.3671875">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+      </edge>
+      <edge id="91" source="LOC::Sonora.Hermosillo" target="SUB::Mercurio (polvos, respirables, vapores o humos)" weight="291.674560546875">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+      </edge>
+      <edge id="92" source="LOC::Sonora.Hermosillo" target="SUB::Oxido nitroso" weight="7443950.0">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+      </edge>
+      <edge id="93" source="LOC::Sonora.Hermosillo" target="SUB::Formaldehido" weight="158936.0">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+      </edge>
+      <edge id="94" source="LOC::Sonora.Hermosillo" target="SUB::Acetaldehido" weight="1920.22216796875">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+      </edge>
+      <edge id="95" source="LOC::Sonora.Hermosillo" target="SUB::Hidrofluorocarbonos" weight="767441.5">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+      </edge>
+      <edge id="96" source="LOC::Sonora.Hermosillo" target="SUB::Tolueno diisocianato" weight="210516.203125">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+      </edge>
+      <edge id="97" source="LOC::Sonora.Hermosillo" target="SUB::Acroleina" weight="0.01843078061938286">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+      </edge>
+      <edge id="98" source="LOC::Sonora.Hermosillo" target="SUB::Plomo (compuestos)" weight="191475.375">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+      </edge>
+      <edge id="99" source="LOC::Sonora.Hermosillo" target="SUB::Clorodifluorometano (HCFC-22)" weight="19841.0">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+      </edge>
+      <edge id="100" source="LOC::Sonora.Hermosillo" target="SUB::Plomo (polvos respirables, humos o vapores)" weight="689514.5">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+      </edge>
+      <edge id="101" source="LOC::Sonora.Hermosillo" target="SUB::Cromo (polvos respirables, humos o vapores)" weight="467.3141784667969">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+      </edge>
+      <edge id="102" source="LOC::Sonora.Hermosillo" target="SUB::Níquel (polvos respirables, humos o vapores)" weight="9110.623046875">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+      </edge>
+      <edge id="103" source="LOC::Sonora.Hermosillo" target="SUB::Acrilonitrilo" weight="528.2000122070312">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+      </edge>
+      <edge id="104" source="LOC::Sonora.Hermosillo" target="SUB::Cumeno" weight="1388.4300537109375">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+      </edge>
+      <edge id="105" source="LOC::Sonora.Hermosillo" target="SUB::Tolueno" weight="2234.760009765625">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+      </edge>
+      <edge id="106" source="LOC::Sonora.Hermosillo" target="SUB::Xileno (mezcla de isómeros)" weight="22636.3203125">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+      </edge>
+      <edge id="107" source="LOC::Sonora.Hermosillo" target="SUB::Diisocianato de difenilmetano polimérico" weight="10649.33984375">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+      </edge>
+      <edge id="108" source="LOC::Sonora.Hermosillo" target="SUB::1,1-Dicloro-1-Fluoroetano (HCFC-141b)" weight="3830.0">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+      </edge>
+      <edge id="109" source="LOC::Sonora.Hermosillo" target="SUB::Metano" weight="36840.0">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+      </edge>
+      <edge id="110" source="LOC::Sonora.Hermosillo" target="SUB::Bifenilos policlorados" weight="0.75">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+      </edge>
+      <edge id="111" source="LOC::Sonora.Hermosillo" target="SUB::Estireno (fenil etileno)" weight="0.15000000596046448">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+      </edge>
+      <edge id="112" source="LOC::Sonora.Hermosillo" target="SUB::Fenol" weight="1.8700000047683716">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+      </edge>
+      <edge id="113" source="LOC::Sonora.Hermosillo" target="SUB::Cloruro de vinilo" weight="23628.0">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+      </edge>
+      <edge id="114" source="LOC::Sonora.Hermosillo" target="SUB::Mercurio (Compuestos solubles)" weight="4.385826110839844">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+      </edge>
+      <edge id="115" source="LOC::Sonora.Hermosillo" target="SUB::Nitrato de plata" weight="99132.0">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+      </edge>
+      <edge id="116" source="LOC::Sonora.Hermosillo" target="SUB::Asbesto y sus formas (En forma de polvo, fibras o productos desmenuzables con la presión de la mano)" weight="8797.400390625">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+      </edge>
+      <edge id="117" source="LOC::Sonora.Agua Prieta" target="SUB::Níquel (Compuestos solubles)" weight="2.4570019245147705">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+      </edge>
+      <edge id="118" source="LOC::Sonora.Agua Prieta" target="SUB::Cianuro inorgánico/orgánico" weight="75.9909439086914">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+      </edge>
+      <edge id="119" source="LOC::Sonora.Agua Prieta" target="SUB::Arsénico (polvos, respirables, vapores o humos)" weight="362.4368591308594">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+      </edge>
+      <edge id="120" source="LOC::Sonora.Agua Prieta" target="SUB::Plomo (Compuestos solubles)" weight="3.052000045776367">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+      </edge>
+      <edge id="121" source="LOC::Sonora.Agua Prieta" target="SUB::Arsénico (compuestos)" weight="117.61448669433594">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+      </edge>
+      <edge id="122" source="LOC::Sonora.Agua Prieta" target="SUB::Mercurio (polvos, respirables, vapores o humos)" weight="304.293701171875">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+      </edge>
+      <edge id="123" source="LOC::Sonora.Agua Prieta" target="SUB::Arsénico (Compuestos solubles)" weight="31.568700790405273">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+      </edge>
+      <edge id="124" source="LOC::Sonora.Agua Prieta" target="SUB::Cadmio (polvos, respirables, vapores o humos)" weight="38.32577133178711">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+      </edge>
+      <edge id="125" source="LOC::Sonora.Agua Prieta" target="SUB::Mercurio (compuestos)" weight="3.001128673553467">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+      </edge>
+      <edge id="126" source="LOC::Sonora.Agua Prieta" target="SUB::Níquel (compuestos)" weight="1082.1048583984375">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+      </edge>
+      <edge id="127" source="LOC::Sonora.Agua Prieta" target="SUB::Plomo (compuestos)" weight="2001.6044921875">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+      </edge>
+      <edge id="128" source="LOC::Sonora.Agua Prieta" target="SUB::Bióxido de carbono" weight="2.2214916096E10">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+      </edge>
+      <edge id="129" source="LOC::Sonora.Agua Prieta" target="SUB::Formaldehido" weight="167696.40625">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+      </edge>
+      <edge id="130" source="LOC::Sonora.Agua Prieta" target="SUB::Acetaldehido" weight="2416.139892578125">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+      </edge>
+      <edge id="131" source="LOC::Sonora.Agua Prieta" target="SUB::Bióxido de nitrógeno" weight="693180.0">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+      </edge>
+      <edge id="132" source="LOC::Sonora.Agua Prieta" target="SUB::Benceno" weight="0.4124450087547302">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+      </edge>
+      <edge id="133" source="LOC::Sonora.Agua Prieta" target="SUB::Cromo (compuestos)" weight="0.47844499349594116">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+      </edge>
+      <edge id="134" source="LOC::Sonora.Agua Prieta" target="SUB::Metano" weight="4202868.0">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+      </edge>
+      <edge id="135" source="LOC::Sonora.Agua Prieta" target="SUB::Oxido nitroso" weight="384.7633056640625">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+      </edge>
+      <edge id="136" source="LOC::Sonora.Alamos" target="SUB::Mercurio (Compuestos solubles)" weight="0.006044969893991947">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+      </edge>
+      <edge id="137" source="LOC::Sonora.Alamos" target="SUB::Níquel (Compuestos solubles)" weight="3.0479989051818848">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+      </edge>
+      <edge id="138" source="LOC::Sonora.Alamos" target="SUB::Plomo (Compuestos solubles)" weight="0.882095992565155">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+      </edge>
+      <edge id="139" source="LOC::Sonora.Alamos" target="SUB::Cianuro inorgánico/orgánico" weight="0.7517602443695068">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+      </edge>
+      <edge id="140" source="LOC::Sonora.Alamos" target="SUB::Arsénico (polvos, respirables, vapores o humos)" weight="237.71600341796875">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+      </edge>
+      <edge id="141" source="LOC::Sonora.Alamos" target="SUB::Cadmio (polvos, respirables, vapores o humos)" weight="43.8903923034668">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+      </edge>
+      <edge id="142" source="LOC::Sonora.Alamos" target="SUB::Níquel (compuestos)" weight="0.2392805814743042">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+      </edge>
+      <edge id="143" source="LOC::Sonora.Alamos" target="SUB::Cromo (compuestos)" weight="0.4132876694202423">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+      </edge>
+      <edge id="144" source="LOC::Sonora.Alamos" target="SUB::Mercurio (compuestos)" weight="0.06276696920394897">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+      </edge>
+      <edge id="145" source="LOC::Sonora.Alamos" target="SUB::Plomo (compuestos)" weight="65614.3671875">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+      </edge>
+      <edge id="146" source="LOC::Sonora.Alamos" target="SUB::Oxido nitroso" weight="4.65054112E8">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+      </edge>
+      <edge id="147" source="LOC::Sonora.Alamos" target="SUB::Bióxido de carbono" weight="3.991994624E9">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+      </edge>
+      <edge id="148" source="LOC::Sonora.Alamos" target="SUB::Metano" weight="1.2056944E7">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+      </edge>
+      <edge id="149" source="LOC::Sonora.Alamos" target="SUB::Acido sulfhídrico" weight="20.005840301513672">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+      </edge>
+      <edge id="150" source="LOC::Sonora.Alamos" target="SUB::Bióxido de nitrógeno" weight="910769.0">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+      </edge>
+      <edge id="151" source="LOC::Sonora.Alamos" target="SUB::Mercurio (polvos, respirables, vapores o humos)" weight="11.869999885559082">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+      </edge>
+      <edge id="152" source="LOC::Sonora.Alamos" target="SUB::Cadmio (compuestos)" weight="0.00951468013226986">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+      </edge>
+      <edge id="153" source="LOC::Sonora.Alamos" target="SUB::Arsénico (compuestos)" weight="0.020607275888323784">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+      </edge>
+      <edge id="154" source="LOC::Sonora.Alamos" target="SUB::Plomo (polvos respirables, humos o vapores)" weight="18115.740234375">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+      </edge>
+      <edge id="155" source="LOC::Sonora.Guaymas" target="SUB::Cromo (Compuestos solubles)" weight="4012.80859375">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+      </edge>
+      <edge id="156" source="LOC::Sonora.Guaymas" target="SUB::Níquel (Compuestos solubles)" weight="44732.2578125">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+      </edge>
+      <edge id="157" source="LOC::Sonora.Guaymas" target="SUB::Plomo (Compuestos solubles)" weight="1695.58642578125">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+      </edge>
+      <edge id="158" source="LOC::Sonora.Guaymas" target="SUB::Cianuro inorgánico/orgánico" weight="60373.18359375">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+      </edge>
+      <edge id="159" source="LOC::Sonora.Guaymas" target="SUB::Arsénico (polvos, respirables, vapores o humos)" weight="1.2417961359024048">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+      </edge>
+      <edge id="160" source="LOC::Sonora.Guaymas" target="SUB::Cadmio (polvos, respirables, vapores o humos)" weight="59.19408416748047">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+      </edge>
+      <edge id="161" source="LOC::Sonora.Guaymas" target="SUB::Mercurio (Compuestos solubles)" weight="238.98715209960938">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+      </edge>
+      <edge id="162" source="LOC::Sonora.Guaymas" target="SUB::Arsénico (compuestos)" weight="7.344080924987793">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+      </edge>
+      <edge id="163" source="LOC::Sonora.Guaymas" target="SUB::Cadmio (compuestos)" weight="37.70158004760742">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+      </edge>
+      <edge id="164" source="LOC::Sonora.Guaymas" target="SUB::Cromo (compuestos)" weight="1485.675537109375">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+      </edge>
+      <edge id="165" source="LOC::Sonora.Guaymas" target="SUB::Mercurio (compuestos)" weight="0.1363219916820526">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+      </edge>
+      <edge id="166" source="LOC::Sonora.Guaymas" target="SUB::Níquel (compuestos)" weight="75702.5">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+      </edge>
+      <edge id="167" source="LOC::Sonora.Guaymas" target="SUB::Plomo (compuestos)" weight="272.641357421875">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+      </edge>
+      <edge id="168" source="LOC::Sonora.Guaymas" target="SUB::Mercurio (polvos, respirables, vapores o humos)" weight="447.6784362792969">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+      </edge>
+      <edge id="169" source="LOC::Sonora.Guaymas" target="SUB::Plomo (polvos respirables, humos o vapores)" weight="124.69860076904297">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+      </edge>
+      <edge id="170" source="LOC::Sonora.Guaymas" target="SUB::Arsénico (Compuestos solubles)" weight="530.26611328125">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+      </edge>
+      <edge id="171" source="LOC::Sonora.Guaymas" target="SUB::Cadmio (Compuestos solubles)" weight="832.1088256835938">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+      </edge>
+      <edge id="172" source="LOC::Sonora.Guaymas" target="SUB::Bióxido de nitrógeno" weight="3.58748E7">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+      </edge>
+      <edge id="173" source="LOC::Sonora.Guaymas" target="SUB::Bióxido de carbono" weight="2.3841560576E10">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+      </edge>
+      <edge id="174" source="LOC::Sonora.Guaymas" target="SUB::Benceno" weight="4943.5615234375">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+      </edge>
+      <edge id="175" source="LOC::Sonora.Guaymas" target="SUB::1,1,1-Tricloroetano" weight="13374.900390625">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+      </edge>
+      <edge id="176" source="LOC::Sonora.Guaymas" target="SUB::Acetaldehido" weight="0.05998000130057335">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+      </edge>
+      <edge id="177" source="LOC::Sonora.Guaymas" target="SUB::Acroleina" weight="0.008077000267803669">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+      </edge>
+      <edge id="178" source="LOC::Sonora.Guaymas" target="SUB::Formaldehido" weight="2330.92919921875">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+      </edge>
+      <edge id="179" source="LOC::Sonora.Guaymas" target="SUB::Dioxinas" weight="1.4559774717781693E-4">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+      </edge>
+      <edge id="180" source="LOC::Sonora.Guaymas" target="SUB::Furanos" weight="1732.7579345703125">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+      </edge>
+      <edge id="181" source="LOC::Sonora.Guaymas" target="SUB::Níquel (polvos respirables, humos o vapores)" weight="9.34000015258789">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+      </edge>
+      <edge id="182" source="LOC::Sonora.Guaymas" target="SUB::Cromo (polvos respirables, humos o vapores)" weight="59.6617317199707">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+      </edge>
+      <edge id="183" source="LOC::Sonora.Guaymas" target="SUB::Metano">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+      </edge>
+      <edge id="184" source="LOC::Sonora.Nacozari de García" target="SUB::Níquel (Compuestos solubles)" weight="628550.625">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+      </edge>
+      <edge id="185" source="LOC::Sonora.Nacozari de García" target="SUB::Plomo (Compuestos solubles)" weight="316740.4375">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+      </edge>
+      <edge id="186" source="LOC::Sonora.Nacozari de García" target="SUB::Arsénico (polvos, respirables, vapores o humos)" weight="1127.168212890625">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+      </edge>
+      <edge id="187" source="LOC::Sonora.Nacozari de García" target="SUB::Cadmio (polvos, respirables, vapores o humos)" weight="807.2313232421875">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+      </edge>
+      <edge id="188" source="LOC::Sonora.Nacozari de García" target="SUB::Cromo (compuestos)" weight="676.5054931640625">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+      </edge>
+      <edge id="189" source="LOC::Sonora.Nacozari de García" target="SUB::Níquel (compuestos)" weight="334.1029968261719">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+      </edge>
+      <edge id="190" source="LOC::Sonora.Nacozari de García" target="SUB::Cianuro inorgánico/orgánico" weight="24773.34765625">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+      </edge>
+      <edge id="191" source="LOC::Sonora.Nacozari de García" target="SUB::Plomo (compuestos)" weight="727.9219970703125">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+      </edge>
+      <edge id="192" source="LOC::Sonora.Nacozari de García" target="SUB::Plomo (polvos respirables, humos o vapores)" weight="12201.146484375">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+      </edge>
+      <edge id="193" source="LOC::Sonora.Nacozari de García" target="SUB::Níquel (polvos respirables, humos o vapores)" weight="149.0312042236328">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+      </edge>
+      <edge id="194" source="LOC::Sonora.Nacozari de García" target="SUB::Cromo (polvos respirables, humos o vapores)" weight="50.066200256347656">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+      </edge>
+      <edge id="195" source="LOC::Sonora.Nacozari de García" target="SUB::Arsénico (Compuestos solubles)" weight="1245.12158203125">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+      </edge>
+      <edge id="196" source="LOC::Sonora.Nacozari de García" target="SUB::Cadmio (Compuestos solubles)" weight="61582.55859375">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+      </edge>
+      <edge id="197" source="LOC::Sonora.Nacozari de García" target="SUB::Cromo (Compuestos solubles)" weight="60.38410186767578">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+      </edge>
+      <edge id="198" source="LOC::Sonora.Nacozari de García" target="SUB::Mercurio (Compuestos solubles)" weight="2459.107421875">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+      </edge>
+      <edge id="199" source="LOC::Sonora.Nacozari de García" target="SUB::Oxido nitroso" weight="1.9835272E8">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+      </edge>
+      <edge id="200" source="LOC::Sonora.Nacozari de García" target="SUB::Bióxido de carbono" weight="1.4286455808E10">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+      </edge>
+      <edge id="201" source="LOC::Sonora.Nacozari de García" target="SUB::Acetaldehido" weight="2716.280029296875">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+      </edge>
+      <edge id="202" source="LOC::Sonora.Nacozari de García" target="SUB::Benceno" weight="1190.0">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+      </edge>
+      <edge id="203" source="LOC::Sonora.Nacozari de García" target="SUB::Formaldehido" weight="38990.359375">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+      </edge>
+      <edge id="204" source="LOC::Sonora.Nacozari de García" target="SUB::Mercurio (polvos, respirables, vapores o humos)" weight="53.560001373291016">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+      </edge>
+      <edge id="205" source="LOC::Sonora.Nacozari de García" target="SUB::Tolueno" weight="7138.68994140625">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+      </edge>
+      <edge id="206" source="LOC::Sonora.Cumpas" target="SUB::Mercurio (Compuestos solubles)" weight="0.0013536900514736772">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+      </edge>
+      <edge id="207" source="LOC::Sonora.Cumpas" target="SUB::Plomo (Compuestos solubles)" weight="3629.944580078125">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+      </edge>
+      <edge id="208" source="LOC::Sonora.Cumpas" target="SUB::Cianuro inorgánico/orgánico" weight="0.10338957607746124">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+      </edge>
+      <edge id="209" source="LOC::Sonora.Cumpas" target="SUB::Arsénico (polvos, respirables, vapores o humos)" weight="1216.350830078125">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+      </edge>
+      <edge id="210" source="LOC::Sonora.Cumpas" target="SUB::Mercurio (compuestos)" weight="149.61781311035156">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+      </edge>
+      <edge id="211" source="LOC::Sonora.Cumpas" target="SUB::Plomo (compuestos)" weight="2476.3916015625">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+      </edge>
+      <edge id="212" source="LOC::Sonora.Cumpas" target="SUB::Bióxido de carbono" weight="4.7225572E7">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+      </edge>
+      <edge id="213" source="LOC::Sonora.Cumpas" target="SUB::Cadmio (polvos, respirables, vapores o humos)" weight="828.3554077148438">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+      </edge>
+      <edge id="214" source="LOC::Sonora.Cumpas" target="SUB::Metano" weight="76.15799713134766">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+      </edge>
+      <edge id="215" source="LOC::Sonora.Cumpas" target="SUB::Plomo (polvos respirables, humos o vapores)" weight="1330.3499755859375">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+      </edge>
+      <edge id="216" source="LOC::Sonora.Cumpas" target="SUB::Arsénico (compuestos)" weight="0.11479242146015167">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+      </edge>
+      <edge id="217" source="LOC::Sonora.Cumpas" target="SUB::Mercurio (polvos, respirables, vapores o humos)" weight="0.0018593299901112914">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+      </edge>
+      <edge id="218" source="LOC::Sonora.Santa Cruz" target="SUB::Níquel (Compuestos solubles)" weight="0.40880000591278076">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+      </edge>
+      <edge id="219" source="LOC::Sonora.Santa Cruz" target="SUB::Plomo (Compuestos solubles)" weight="1175.3165283203125">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+      </edge>
+      <edge id="220" source="LOC::Sonora.Santa Cruz" target="SUB::Cianuro inorgánico/orgánico" weight="0.7358400225639343">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+      </edge>
+      <edge id="221" source="LOC::Sonora.Santa Cruz" target="SUB::Arsénico (polvos, respirables, vapores o humos)" weight="6.904009819030762">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+      </edge>
+      <edge id="222" source="LOC::Sonora.Santa Cruz" target="SUB::Cadmio (polvos, respirables, vapores o humos)" weight="0.14691250026226044">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+      </edge>
+      <edge id="223" source="LOC::Sonora.Santa Cruz" target="SUB::Plomo (compuestos)" weight="5363.0107421875">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+      </edge>
+      <edge id="224" source="LOC::Sonora.Santa Cruz" target="SUB::Bióxido de carbono" weight="7.7110512E7">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+      </edge>
+      <edge id="225" source="LOC::Sonora.Caborca" target="SUB::Mercurio (Compuestos solubles)" weight="5.050000036135316E-4">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+      </edge>
+      <edge id="226" source="LOC::Sonora.Caborca" target="SUB::Arsénico (polvos, respirables, vapores o humos)" weight="74.17498779296875">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+      </edge>
+      <edge id="227" source="LOC::Sonora.Caborca" target="SUB::Mercurio (compuestos)" weight="25.129901885986328">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+      </edge>
+      <edge id="228" source="LOC::Sonora.Caborca" target="SUB::Cianuro inorgánico/orgánico" weight="75300.2265625">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+      </edge>
+      <edge id="229" source="LOC::Sonora.Caborca" target="SUB::Plomo (compuestos)" weight="34187.5390625">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+      </edge>
+      <edge id="230" source="LOC::Sonora.Caborca" target="SUB::Bióxido de carbono" weight="3.61405312E8">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+      </edge>
+      <edge id="231" source="LOC::Sonora.Caborca" target="SUB::Bióxido de nitrógeno" weight="1814700.0">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+      </edge>
+      <edge id="232" source="LOC::Sonora.Caborca" target="SUB::Arsénico (compuestos)" weight="0.12366200238466263">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+      </edge>
+      <edge id="233" source="LOC::Sonora.Caborca" target="SUB::Mercurio (polvos, respirables, vapores o humos)" weight="0.017217500135302544">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+      </edge>
+      <edge id="234" source="LOC::Sonora.Caborca" target="SUB::Plomo (Compuestos solubles)" weight="117657.1875">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+      </edge>
+      <edge id="235" source="LOC::Sonora.Nogales" target="SUB::Cromo (Compuestos solubles)" weight="4152.056640625">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+      </edge>
+      <edge id="236" source="LOC::Sonora.Nogales" target="SUB::Mercurio (Compuestos solubles)" weight="6.722799777984619">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+      </edge>
+      <edge id="237" source="LOC::Sonora.Nogales" target="SUB::Níquel (Compuestos solubles)" weight="9298.1181640625">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+      </edge>
+      <edge id="238" source="LOC::Sonora.Nogales" target="SUB::Plomo (Compuestos solubles)" weight="193.49830627441406">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+      </edge>
+      <edge id="239" source="LOC::Sonora.Nogales" target="SUB::Cianuro inorgánico/orgánico" weight="6821.0595703125">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+      </edge>
+      <edge id="240" source="LOC::Sonora.Nogales" target="SUB::Arsénico (polvos, respirables, vapores o humos)" weight="1875.1259765625">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+      </edge>
+      <edge id="241" source="LOC::Sonora.Nogales" target="SUB::Cadmio (polvos, respirables, vapores o humos)" weight="2.9046101570129395">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+      </edge>
+      <edge id="242" source="LOC::Sonora.Nogales" target="SUB::Níquel (compuestos)" weight="2254.736328125">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+      </edge>
+      <edge id="243" source="LOC::Sonora.Nogales" target="SUB::Cromo (compuestos)" weight="1356.147705078125">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+      </edge>
+      <edge id="244" source="LOC::Sonora.Nogales" target="SUB::Mercurio (compuestos)" weight="4.497717380523682">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+      </edge>
+      <edge id="245" source="LOC::Sonora.Nogales" target="SUB::Plomo (compuestos)" weight="67048.1015625">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+      </edge>
+      <edge id="246" source="LOC::Sonora.Nogales" target="SUB::Bióxido de carbono" weight="1.108922E8">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+      </edge>
+      <edge id="247" source="LOC::Sonora.Nogales" target="SUB::Formaldehido" weight="2.3439314365386963">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+      </edge>
+      <edge id="248" source="LOC::Sonora.Nogales" target="SUB::Benceno" weight="56.317955017089844">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+      </edge>
+      <edge id="249" source="LOC::Sonora.Nogales" target="SUB::Acetaldehido" weight="46.57470703125">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+      </edge>
+      <edge id="250" source="LOC::Sonora.Nogales" target="SUB::Acroleina" weight="4.97483491897583">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+      </edge>
+      <edge id="251" source="LOC::Sonora.Nogales" target="SUB::Tricloroetileno" weight="1521.0">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+      </edge>
+      <edge id="252" source="LOC::Sonora.Nogales" target="SUB::Cromo (polvos respirables, humos o vapores)" weight="16382.7587890625">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+      </edge>
+      <edge id="253" source="LOC::Sonora.Nogales" target="SUB::Mercurio (polvos, respirables, vapores o humos)" weight="23.35871696472168">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+      </edge>
+      <edge id="254" source="LOC::Sonora.Nogales" target="SUB::Tolueno diisocianato" weight="10826.2998046875">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+      </edge>
+      <edge id="255" source="LOC::Sonora.Nogales" target="SUB::Bióxido de nitrógeno" weight="210980.0">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+      </edge>
+      <edge id="256" source="LOC::Sonora.Nogales" target="SUB::1,2,-Dicloroetano" weight="9.239999771118164">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+      </edge>
+      <edge id="257" source="LOC::Sonora.Nogales" target="SUB::Oxido nitroso" weight="556.2000122070312">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+      </edge>
+      <edge id="258" source="LOC::Sonora.Nogales" target="SUB::Plomo (polvos respirables, humos o vapores)" weight="604.7000122070312">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+      </edge>
+      <edge id="259" source="LOC::Sonora.Nogales" target="SUB::Cadmio (compuestos)" weight="7.1806440353393555">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+      </edge>
+      <edge id="260" source="LOC::Sonora.Nogales" target="SUB::Arsénico (compuestos)" weight="8.155458450317383">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+      </edge>
+      <edge id="261" source="LOC::Sonora.Nogales" target="SUB::Arsénico (Compuestos solubles)" weight="80.97599792480469">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+      </edge>
+      <edge id="262" source="LOC::Sonora.Nogales" target="SUB::Cadmio (Compuestos solubles)" weight="81.82830047607422">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+      </edge>
+      <edge id="263" source="LOC::Sonora.Nogales" target="SUB::Níquel (polvos respirables, humos o vapores)" weight="39020.63671875">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+      </edge>
+      <edge id="264" source="LOC::Sonora.Santa Ana" target="SUB::Plomo (Compuestos solubles)" weight="4.902500152587891">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+      </edge>
+      <edge id="265" source="LOC::Sonora.Santa Ana" target="SUB::Plomo (compuestos)" weight="110.91265106201172">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+      </edge>
+      <edge id="266" source="LOC::Sonora.Santa Ana" target="SUB::Níquel (compuestos)" weight="17.75750732421875">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+      </edge>
+      <edge id="267" source="LOC::Sonora.Santa Ana" target="SUB::Mercurio (compuestos)" weight="0.09225098043680191">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+      </edge>
+      <edge id="268" source="LOC::Sonora.Santa Ana" target="SUB::Arsénico (polvos, respirables, vapores o humos)" weight="0.8687999844551086">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+      </edge>
+      <edge id="269" source="LOC::Sonora.Santa Ana" target="SUB::Cianuro inorgánico/orgánico" weight="0.326994389295578">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+      </edge>
+      <edge id="270" source="LOC::Sonora.Santa Ana" target="SUB::Cadmio (polvos, respirables, vapores o humos)" weight="0.4343999922275543">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+      </edge>
+      <edge id="271" source="LOC::Sonora.Santa Ana" target="SUB::Cromo (compuestos)" weight="0.7029489874839783">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+      </edge>
+      <edge id="272" source="LOC::Sonora.Santa Ana" target="SUB::Oxido nitroso" weight="225.0500030517578">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+      </edge>
+      <edge id="273" source="LOC::Sonora.Santa Ana" target="SUB::Bióxido de carbono" weight="3830610.25">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+      </edge>
+      <edge id="274" source="LOC::Sonora.Santa Ana" target="SUB::Arsénico (compuestos)" weight="0.1611294001340866">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+      </edge>
+      <edge id="275" source="LOC::Sonora.Santa Ana" target="SUB::Cadmio (compuestos)" weight="0.005370980128645897">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+      </edge>
+      <edge id="276" source="LOC::Sonora.Santa Ana" target="SUB::Cromo (Compuestos solubles)" weight="8.850299835205078">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+      </edge>
+      <edge id="277" source="LOC::Sonora.Santa Ana" target="SUB::Níquel (Compuestos solubles)" weight="5.874899864196777">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+      </edge>
+      <edge id="278" source="LOC::Sonora.Puerto Peñasco" target="SUB::Mercurio (Compuestos solubles)" weight="0.31969600915908813">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+      </edge>
+      <edge id="279" source="LOC::Sonora.Puerto Peñasco" target="SUB::Níquel (Compuestos solubles)" weight="27.227846145629883">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+      </edge>
+      <edge id="280" source="LOC::Sonora.Puerto Peñasco" target="SUB::Plomo (Compuestos solubles)" weight="71.3725357055664">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+      </edge>
+      <edge id="281" source="LOC::Sonora.Puerto Peñasco" target="SUB::Cianuro inorgánico/orgánico" weight="14.148282051086426">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+      </edge>
+      <edge id="282" source="LOC::Sonora.Puerto Peñasco" target="SUB::Arsénico (polvos, respirables, vapores o humos)" weight="45.678199768066406">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+      </edge>
+      <edge id="283" source="LOC::Sonora.Puerto Peñasco" target="SUB::Cadmio (polvos, respirables, vapores o humos)" weight="24.323989868164062">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+      </edge>
+      <edge id="284" source="LOC::Sonora.Puerto Peñasco" target="SUB::Mercurio (compuestos)" weight="0.13322266936302185">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+      </edge>
+      <edge id="285" source="LOC::Sonora.Puerto Peñasco" target="SUB::Plomo (compuestos)" weight="20.074190139770508">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+      </edge>
+      <edge id="286" source="LOC::Sonora.Puerto Peñasco" target="SUB::Níquel (compuestos)" weight="23.883419036865234">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+      </edge>
+      <edge id="287" source="LOC::Sonora.Puerto Peñasco" target="SUB::Arsénico (compuestos)" weight="0.6755720973014832">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+      </edge>
+      <edge id="288" source="LOC::Sonora.Puerto Peñasco" target="SUB::Cadmio (compuestos)" weight="0.6373875737190247">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+      </edge>
+      <edge id="289" source="LOC::Sonora.Puerto Peñasco" target="SUB::Mercurio (polvos, respirables, vapores o humos)" weight="0.0948672667145729">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+      </edge>
+      <edge id="290" source="LOC::Sonora.Puerto Peñasco" target="SUB::Cromo (compuestos)" weight="5.179863929748535">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+      </edge>
+      <edge id="291" source="LOC::Sonora.Puerto Peñasco" target="SUB::Arsénico (Compuestos solubles)" weight="6915.98828125">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+      </edge>
+      <edge id="292" source="LOC::Sonora.Puerto Peñasco" target="SUB::Cromo (Compuestos solubles)" weight="8.367799758911133">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+      </edge>
+      <edge id="293" source="LOC::Sonora.San Luis Río Colorado" target="SUB::Cromo (Compuestos solubles)" weight="495.0197448730469">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+      </edge>
+      <edge id="294" source="LOC::Sonora.San Luis Río Colorado" target="SUB::Mercurio (Compuestos solubles)" weight="0.016309000551700592">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+      </edge>
+      <edge id="295" source="LOC::Sonora.San Luis Río Colorado" target="SUB::Níquel (Compuestos solubles)" weight="917.6815185546875">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+      </edge>
+      <edge id="296" source="LOC::Sonora.San Luis Río Colorado" target="SUB::Plomo (Compuestos solubles)" weight="10.975253105163574">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+      </edge>
+      <edge id="297" source="LOC::Sonora.San Luis Río Colorado" target="SUB::Cianuro inorgánico/orgánico" weight="60.930870056152344">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+      </edge>
+      <edge id="298" source="LOC::Sonora.San Luis Río Colorado" target="SUB::Arsénico (polvos, respirables, vapores o humos)" weight="0.922716498374939">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+      </edge>
+      <edge id="299" source="LOC::Sonora.San Luis Río Colorado" target="SUB::Cadmio (polvos, respirables, vapores o humos)" weight="1.0070840120315552">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+      </edge>
+      <edge id="300" source="LOC::Sonora.San Luis Río Colorado" target="SUB::Plomo (compuestos)" weight="3191.305908203125">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+      </edge>
+      <edge id="301" source="LOC::Sonora.San Luis Río Colorado" target="SUB::Mercurio (compuestos)" weight="0.031050000339746475">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+      </edge>
+      <edge id="302" source="LOC::Sonora.San Luis Río Colorado" target="SUB::Níquel (compuestos)" weight="5347.43896484375">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+      </edge>
+      <edge id="303" source="LOC::Sonora.San Luis Río Colorado" target="SUB::Cromo (compuestos)" weight="4.208980083465576">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+      </edge>
+      <edge id="304" source="LOC::Sonora.San Luis Río Colorado" target="SUB::Cadmio (Compuestos solubles)" weight="2.299999952316284">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+      </edge>
+      <edge id="305" source="LOC::Sonora.San Luis Río Colorado" target="SUB::Cromo (polvos respirables, humos o vapores)" weight="18.360000610351562">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+      </edge>
+      <edge id="306" source="LOC::Sonora.San Luis Río Colorado" target="SUB::Níquel (polvos respirables, humos o vapores)" weight="324.0">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+      </edge>
+      <edge id="307" source="LOC::Sonora.Sahuaripa" target="SUB::Mercurio (compuestos)" weight="0.013545341789722443">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+      </edge>
+      <edge id="308" source="LOC::Sonora.Sahuaripa" target="SUB::Cianuro inorgánico/orgánico" weight="163.60772705078125">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+      </edge>
+      <edge id="309" source="LOC::Sonora.Sahuaripa" target="SUB::Arsénico (compuestos)" weight="0.008911443874239922">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+      </edge>
+      <edge id="310" source="LOC::Sonora.Sahuaripa" target="SUB::Arsénico (polvos, respirables, vapores o humos)" weight="0.6342357397079468">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+      </edge>
+      <edge id="311" source="LOC::Sonora.Sahuaripa" target="SUB::Cromo (compuestos)" weight="0.9249205589294434">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+      </edge>
+      <edge id="312" source="LOC::Sonora.Sahuaripa" target="SUB::Níquel (compuestos)" weight="0.6029558181762695">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+      </edge>
+      <edge id="313" source="LOC::Sonora.Sahuaripa" target="SUB::Plomo (compuestos)" weight="13344.5029296875">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+      </edge>
+      <edge id="314" source="LOC::Sonora.Sahuaripa" target="SUB::Arsénico (Compuestos solubles)" weight="6.799300193786621">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+      </edge>
+      <edge id="315" source="LOC::Sonora.Sahuaripa" target="SUB::Níquel (Compuestos solubles)" weight="330.52398681640625">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+      </edge>
+      <edge id="316" source="LOC::Sonora.Sahuaripa" target="SUB::Mercurio (polvos, respirables, vapores o humos)" weight="482.1850891113281">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+      </edge>
+      <edge id="317" source="LOC::Sonora.Sahuaripa" target="SUB::Bióxido de carbono" weight="2.27003008E8">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+      </edge>
+      <edge id="318" source="LOC::Sonora.Sahuaripa" target="SUB::Plomo (polvos respirables, humos o vapores)" weight="24580.55078125">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+      </edge>
+      <edge id="319" source="LOC::Sonora.Sahuaripa" target="SUB::Plomo (Compuestos solubles)" weight="2658.946533203125">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+      </edge>
+      <edge id="320" source="LOC::Sonora.Empalme" target="SUB::Cromo (compuestos)" weight="3856.581298828125">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+      </edge>
+      <edge id="321" source="LOC::Sonora.Empalme" target="SUB::Cadmio (compuestos)" weight="0.0977599173784256">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+      </edge>
+      <edge id="322" source="LOC::Sonora.Empalme" target="SUB::Mercurio (compuestos)" weight="0.29852908849716187">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+      </edge>
+      <edge id="323" source="LOC::Sonora.Empalme" target="SUB::Níquel (compuestos)" weight="91.47764587402344">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+      </edge>
+      <edge id="324" source="LOC::Sonora.Empalme" target="SUB::Plomo (compuestos)" weight="1007.5938110351562">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+      </edge>
+      <edge id="325" source="LOC::Sonora.Empalme" target="SUB::Cianuro inorgánico/orgánico" weight="4875.814453125">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+      </edge>
+      <edge id="326" source="LOC::Sonora.Empalme" target="SUB::Arsénico (compuestos)" weight="0.019551975652575493">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+      </edge>
+      <edge id="327" source="LOC::Sonora.Empalme" target="SUB::Arsénico (Compuestos solubles)" weight="245.24159240722656">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+      </edge>
+      <edge id="328" source="LOC::Sonora.Empalme" target="SUB::Cadmio (Compuestos solubles)" weight="19582.240234375">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+      </edge>
+      <edge id="329" source="LOC::Sonora.Empalme" target="SUB::Cromo (Compuestos solubles)" weight="195916.6875">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+      </edge>
+      <edge id="330" source="LOC::Sonora.Empalme" target="SUB::Mercurio (Compuestos solubles)" weight="487.1864013671875">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+      </edge>
+      <edge id="331" source="LOC::Sonora.Empalme" target="SUB::Níquel (Compuestos solubles)" weight="484320.1875">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+      </edge>
+      <edge id="332" source="LOC::Sonora.Empalme" target="SUB::Plomo (Compuestos solubles)" weight="68585.2265625">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+      </edge>
+      <edge id="333" source="LOC::Sonora.Empalme" target="SUB::Arsénico (polvos, respirables, vapores o humos)" weight="0.48730799555778503">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+      </edge>
+      <edge id="334" source="LOC::Sonora.Empalme" target="SUB::Cadmio (polvos, respirables, vapores o humos)" weight="7.351550102233887">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+      </edge>
+      <edge id="335" source="LOC::Sonora.Empalme" target="SUB::Mercurio (polvos, respirables, vapores o humos)" weight="0.042660001665353775">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+      </edge>
+      <edge id="336" source="LOC::Sonora.Empalme" target="SUB::Bióxido de carbono" weight="3.540534528E9">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+      </edge>
+      <edge id="337" source="LOC::Sonora.Empalme" target="SUB::Bióxido de nitrógeno" weight="2023902.0">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+      </edge>
+      <edge id="338" source="LOC::Sonora.Empalme" target="SUB::Cloruro de metileno" weight="1261.306640625">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+      </edge>
+      <edge id="339" source="LOC::Sonora.Huatabampo" target="SUB::Cianuro inorgánico/orgánico" weight="23.788000106811523">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+      </edge>
+      <edge id="340" source="LOC::Sonora.Huatabampo" target="SUB::Mercurio (polvos, respirables, vapores o humos)" weight="0.5946999788284302">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+      </edge>
+      <edge id="341" source="LOC::Sonora.Huatabampo" target="SUB::Arsénico (polvos, respirables, vapores o humos)" weight="11.895506858825684">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+      </edge>
+      <edge id="342" source="LOC::Sonora.Huatabampo" target="SUB::Cadmio (polvos, respirables, vapores o humos)" weight="59.470001220703125">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+      </edge>
+      <edge id="343" source="LOC::Sonora.Huatabampo" target="SUB::Cromo (compuestos)" weight="594.7178955078125">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+      </edge>
+      <edge id="344" source="LOC::Sonora.Huatabampo" target="SUB::Níquel (compuestos)" weight="1189.42138671875">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+      </edge>
+      <edge id="345" source="LOC::Sonora.Huatabampo" target="SUB::Plomo (compuestos)" weight="237.8800048828125">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+      </edge>
+      <edge id="346" source="LOC::Sonora.Huatabampo" target="SUB::Cadmio (Compuestos solubles)" weight="271.64471435546875">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+      </edge>
+      <edge id="347" source="LOC::Sonora.Huatabampo" target="SUB::Cromo (Compuestos solubles)" weight="492.6090087890625">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+      </edge>
+      <edge id="348" source="LOC::Sonora.Huatabampo" target="SUB::Níquel (Compuestos solubles)" weight="6775.79296875">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+      </edge>
+      <edge id="349" source="LOC::Sonora.Huatabampo" target="SUB::Plomo (Compuestos solubles)" weight="1011.0784301757812">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+      </edge>
+      <edge id="350" source="LOC::Sonora.Huatabampo" target="SUB::Arsénico (Compuestos solubles)" weight="4.53000020980835">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+      </edge>
+      <edge id="351" source="LOC::Sonora.Huatabampo" target="SUB::Mercurio (Compuestos solubles)" weight="9.0600004196167">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+      </edge>
+      <edge id="352" source="LOC::Sonora.Huatabampo" target="SUB::Bióxido de carbono" weight="1.68294656E8">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+      </edge>
+      <edge id="353" source="LOC::Sonora.Banámichi" target="SUB::Plomo (compuestos)" weight="3.9639599323272705">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+      </edge>
+      <edge id="354" source="LOC::Sonora.Banámichi" target="SUB::Bióxido de carbono" weight="3.3248316E7">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+      </edge>
+      <edge id="355" source="LOC::Sonora.Banámichi" target="SUB::Níquel (compuestos)" weight="0.06552000343799591">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+      </edge>
+      <edge id="356" source="LOC::Sonora.Banámichi" target="SUB::Arsénico (polvos, respirables, vapores o humos)" weight="0.020201999694108963">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+      </edge>
+      <edge id="357" source="LOC::Sonora.Banámichi" target="SUB::Mercurio (polvos, respirables, vapores o humos)" weight="4.3680000817403197E-4">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+      </edge>
+      <edge id="358" source="LOC::Sonora.Cucurpe" target="SUB::Cadmio (Compuestos solubles)" weight="13.612299919128418">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+      </edge>
+      <edge id="359" source="LOC::Sonora.Cucurpe" target="SUB::Cromo (Compuestos solubles)" weight="46.69260025024414">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+      </edge>
+      <edge id="360" source="LOC::Sonora.Cucurpe" target="SUB::Plomo (Compuestos solubles)" weight="102.37660217285156">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+      </edge>
+      <edge id="361" source="LOC::Sonora.Cucurpe" target="SUB::Plomo (compuestos)" weight="4.614999771118164">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+      </edge>
+      <edge id="362" source="LOC::Sonora.Cucurpe" target="SUB::Cromo (compuestos)" weight="3.5820000171661377">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+      </edge>
+      <edge id="363" source="LOC::Sonora.Cucurpe" target="SUB::Níquel (compuestos)" weight="5.334000110626221">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+      </edge>
+      <edge id="364" source="LOC::Sonora.Cucurpe" target="SUB::Bióxido de carbono" weight="2.4499284E7">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+      </edge>
+      <edge id="365" source="LOC::Sonora.Cucurpe" target="SUB::Mercurio (polvos, respirables, vapores o humos)" weight="1.168000017059967E-5">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+      </edge>
+      <edge id="366" source="LOC::Sonora.Cucurpe" target="SUB::Arsénico (polvos, respirables, vapores o humos)" weight="6.424000021070242E-4">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+      </edge>
+      <edge id="367" source="LOC::Sonora.Cucurpe" target="SUB::Arsénico (compuestos)" weight="2.784219980239868">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+      </edge>
+      <edge id="368" source="LOC::Sonora.Cucurpe" target="SUB::Cadmio (compuestos)" weight="0.8759999871253967">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+      </edge>
+      <edge id="369" source="LOC::Sonora.Cucurpe" target="SUB::Cianuro inorgánico/orgánico" weight="792.315185546875">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+      </edge>
+      <edge id="370" source="LOC::Sonora.Cucurpe" target="SUB::Mercurio (compuestos)" weight="0.026280000805854797">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+      </edge>
+      <edge id="371" source="LOC::Sonora.Cucurpe" target="SUB::Mercurio (Compuestos solubles)" weight="1.4459999799728394">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+      </edge>
+      <edge id="372" source="LOC::Sonora.Cucurpe" target="SUB::Arsénico (Compuestos solubles)" weight="4.1992998123168945">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+      </edge>
+      <edge id="373" source="LOC::Sonora.Pitiquito" target="SUB::Arsénico (Compuestos solubles)" weight="3617.15234375">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+      </edge>
+      <edge id="374" source="LOC::Sonora.Pitiquito" target="SUB::Cadmio (Compuestos solubles)" weight="180857.578125">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+      </edge>
+      <edge id="375" source="LOC::Sonora.Pitiquito" target="SUB::Cromo (Compuestos solubles)" weight="1808576.625">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+      </edge>
+      <edge id="376" source="LOC::Sonora.Pitiquito" target="SUB::Mercurio (Compuestos solubles)" weight="7234.306640625">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+      </edge>
+      <edge id="377" source="LOC::Sonora.Pitiquito" target="SUB::Níquel (Compuestos solubles)" weight="3617153.25">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+      </edge>
+      <edge id="378" source="LOC::Sonora.Pitiquito" target="SUB::Plomo (Compuestos solubles)" weight="723430.6875">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+      </edge>
+      <edge id="379" source="LOC::Sonora.Pitiquito" target="SUB::Cianuro inorgánico/orgánico" weight="72342.7578125">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+      </edge>
+      <edge id="380" source="LOC::Sonora.Pitiquito" target="SUB::Bióxido de carbono" weight="2.801301504E10">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+      </edge>
+      <edge id="381" source="LOC::Sonora.Pitiquito" target="SUB::Bióxido de nitrógeno" weight="3.5801896E7">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+      </edge>
+      <edge id="382" source="LOC::Sonora.Pitiquito" target="SUB::Oxido nitroso" weight="1763408.125">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+      </edge>
+      <edge id="383" source="LOC::Sonora.Pitiquito" target="SUB::Cromo (compuestos)" weight="627.4000244140625">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+      </edge>
+      <edge id="384" source="LOC::Sonora.Pitiquito" target="SUB::Níquel (compuestos)" weight="43320.0">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+      </edge>
+      <edge id="385" source="LOC::Sonora.Pitiquito" target="SUB::Mercurio (polvos, respirables, vapores o humos)" weight="1.6066900491714478">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+      </edge>
+      <edge id="386" source="LOC::Sonora.Soyopa" target="SUB::Arsénico (Compuestos solubles)" weight="1.6591999530792236">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+      </edge>
+      <edge id="387" source="LOC::Sonora.Soyopa" target="SUB::Níquel (Compuestos solubles)" weight="18.88279914855957">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+      </edge>
+      <edge id="388" source="LOC::Sonora.Soyopa" target="SUB::Cadmio (Compuestos solubles)" weight="13.498299598693848">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+      </edge>
+      <edge id="389" source="LOC::Sonora.Soyopa" target="SUB::Cromo (Compuestos solubles)" weight="19.986400604248047">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+      </edge>
+      <edge id="390" source="LOC::Sonora.Soyopa" target="SUB::Plomo (Compuestos solubles)" weight="26.128799438476562">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+      </edge>
+      <edge id="391" source="LOC::Sonora.Yécora" target="SUB::Bióxido de nitrógeno" weight="12480.0">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+      </edge>
+      <edge id="392" source="LOC::Sonora.Yécora" target="SUB::Bióxido de carbono" weight="6.171292E7">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+      </edge>
+      <edge id="393" source="LOC::Sonora.Cananea" target="SUB::Bióxido de carbono" weight="4.9208272E8">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+      </edge>
+      <edge id="394" source="LOC::Sonora.Cananea" target="SUB::Mercurio (polvos, respirables, vapores o humos)" weight="1.3475067615509033">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+      </edge>
+      <edge id="395" source="LOC::Sonora.Cananea" target="SUB::Plomo (compuestos)" weight="29326.904296875">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+      </edge>
+      <edge id="396" source="LOC::Sonora.Cananea" target="SUB::Formaldehido" weight="796.7039794921875">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+      </edge>
+      <edge id="397" source="LOC::Sonora.Cananea" target="SUB::Oxido nitroso" weight="424978.90625">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+      </edge>
+      <edge id="398" source="LOC::Sonora.Cananea" target="SUB::Cromo (compuestos)" weight="5.960000038146973">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+      </edge>
+      <edge id="399" source="LOC::Sonora.Cananea" target="SUB::Arsénico (Compuestos solubles)" weight="2.740000009536743">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+      </edge>
+      <edge id="400" source="LOC::Sonora.Cananea" target="SUB::Cromo (Compuestos solubles)" weight="13.699999809265137">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+      </edge>
+      <edge id="401" source="LOC::Sonora.Cananea" target="SUB::Níquel (Compuestos solubles)" weight="10.960000038146973">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+      </edge>
+      <edge id="402" source="LOC::Sonora.Cananea" target="SUB::Plomo (polvos respirables, humos o vapores)" weight="3427196.0">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+      </edge>
+      <edge id="403" source="LOC::Sonora.Cananea" target="SUB::Arsénico (polvos, respirables, vapores o humos)" weight="1370874.375">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+      </edge>
+      <edge id="404" source="LOC::Sonora.Rosario" target="SUB::Bióxido de carbono" weight="2190155.5">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+      </edge>
+      <edge id="405" source="LOC::Sonora.Rosario" target="SUB::Bióxido de nitrógeno" weight="7233720.0">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+      </edge>
+      <edge id="406" source="LOC::Sonora.Rosario" target="SUB::Cadmio (Compuestos solubles)" weight="28.0">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+      </edge>
+      <edge id="407" source="LOC::Sonora.Rosario" target="SUB::Cromo (Compuestos solubles)" weight="280.0">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+      </edge>
+      <edge id="408" source="LOC::Sonora.Rosario" target="SUB::Níquel (Compuestos solubles)" weight="560.0">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+      </edge>
+      <edge id="409" source="LOC::Sonora.Rosario" target="SUB::Plomo (Compuestos solubles)" weight="112.0">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+      </edge>
+      <edge id="410" source="LOC::Sonora.Rosario" target="SUB::Mercurio (Compuestos solubles)" weight="8.800000190734863">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+      </edge>
+      <edge id="411" source="LOC::Sonora.Altar" target="SUB::Bióxido de carbono" weight="1.0494836E8">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+      </edge>
+      <edge id="412" source="LOC::Sonora.Altar" target="SUB::Cianuro inorgánico/orgánico" weight="0.1102529987692833">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+      </edge>
+      <edge id="413" source="LOC::Sonora.Altar" target="SUB::Arsénico (polvos, respirables, vapores o humos)" weight="0.1928980052471161">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+      </edge>
+      <edge id="414" source="LOC::Sonora.Altar" target="SUB::Arsénico (compuestos)" weight="0.1928980052471161">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+      </edge>
+      <edge id="415" source="LOC::Sonora.Altar" target="SUB::Mercurio (compuestos)" weight="4.6469998778775334E-4">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+      </edge>
+      <edge id="416" source="LOC::Sonora.Altar" target="SUB::Plomo (polvos respirables, humos o vapores)" weight="5246.39990234375">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+      </edge>
+      <edge id="417" source="LOC::Sonora.Naco" target="SUB::Bióxido de carbono" weight="3.40740384E8">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+      </edge>
+      <edge id="418" source="LOC::Sonora.Naco" target="SUB::Metano" weight="25710.052734375">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+      </edge>
+      <edge id="419" source="LOC::Sonora.Magdalena" target="SUB::Bióxido de carbono" weight="6.6529432E7">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+      </edge>
+      <edge id="420" source="LOC::Sonora.Magdalena" target="SUB::Formaldehido" weight="0.0025309999473392963">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+      </edge>
+      <edge id="421" source="LOC::Sonora.Magdalena" target="SUB::Acroleina" weight="0.006384999956935644">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+      </edge>
+      <edge id="422" source="LOC::Sonora.Magdalena" target="SUB::Benceno" weight="0.0657849982380867">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+      </edge>
+      <edge id="423" source="LOC::Sonora.Magdalena" target="SUB::Acetaldehido" weight="145.25311279296875">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+      </edge>
+      <edge id="424" source="LOC::Sonora.Magdalena" target="SUB::Plomo (compuestos)" weight="1.5160105228424072">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+      </edge>
+      <edge id="425" source="LOC::Sonora.Magdalena" target="SUB::Acido sulfhídrico">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+      </edge>
+      <edge id="426" source="LOC::Sonora.Magdalena" target="SUB::Mercurio (compuestos)" weight="8.40228982269764E-4">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+      </edge>
+      <edge id="427" source="LOC::Sonora.Magdalena" target="SUB::Cadmio (compuestos)" weight="0.001680457964539528">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+      </edge>
+      <edge id="428" source="LOC::Sonora.Magdalena" target="SUB::Arsénico (compuestos)" weight="0.01680457964539528">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+      </edge>
+      <edge id="429" source="LOC::Sonora.Magdalena" target="SUB::Níquel (compuestos)" weight="0.06721831858158112">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+      </edge>
+      <edge id="430" source="LOC::Sonora.Magdalena" target="SUB::Cianuro inorgánico/orgánico" weight="0.021005725488066673">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+      </edge>
+      <edge id="431" source="LOC::Sonora.Magdalena" target="SUB::Cromo (compuestos)" weight="0.0840229019522667">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+      </edge>
+      <edge id="432" source="LOC::Sonora.Suaqui Grande" target="SUB::Bióxido de carbono" weight="242457.59375">
+        <viz:color r="137" g="135" b="129" a="0.3529412"/>
+      </edge>
+    </edges>
+  </graph>
+</gexf>

@@ -1,0 +1,77 @@
+<?xml version='1.0' encoding='utf-8'?>
+<gexf xmlns="http://www.gexf.net/1.2draft" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.gexf.net/1.2draft http://www.gexf.net/1.2draft/gexf.xsd" version="1.2">
+  <meta lastmodifieddate="2026-10-16">
+    <creator>NetworkX 3.7</creator>
+  </meta>
+  <graph defaultedgetype="undirected" mode="static" name="">
+    <attributes mode="static" class="node">
+      <attribute id="0" title="lat" type="double" />
+      <attribute id="1" title="lon" type="double" />
+      <attribute id="2" title="total_kg" type="double" />
+      <attribute id="3" title="community" type="long" />
+      <attribute id="4" title="color_hex" type="string" />
+    </attributes>
+    <nodes>
+      <node id="Quintana Roo.Benito Juárez" label="Benito Juárez">
+        <attvalues>
+          <attvalue for="0" value="21.0941098" />
+          <attvalue for="1" value="-86.492932" />
+          <attvalue for="2" value="5671045826.475272" />
+          <attvalue for="3" value="0" />
+          <attvalue for="4" value="#2a78d6" />
+        </attvalues>
+      </node>
+      <node id="Quintana Roo.Cozumel" label="Cozumel">
+        <attvalues>
+          <attvalue for="0" value="20.3013623" />
+          <attvalue for="1" value="-86.5727318" />
+          <attvalue for="2" value="941849408.1594731" />
+          <attvalue for="3" value="0" />
+          <attvalue for="4" value="#2a78d6" />
+        </attvalues>
+      </node>
+      <node id="Quintana Roo.Isla Mujeres" label="Isla Mujeres">
+        <attvalues>
+          <attvalue for="0" value="21.1523649" />
+          <attvalue for="1" value="-86.444593" />
+          <attvalue for="2" value="266.78396527096" />
+          <attvalue for="3" value="1" />
+          <attvalue for="4" value="#eb6834" />
+        </attvalues>
+      </node>
+      <node id="Quintana Roo.Lázaro Cárdenas" label="Lázaro Cárdenas">
+        <attvalues>
+          <attvalue for="0" value="21.0605036" />
+          <attvalue for="1" value="-87.2914001" />
+          <attvalue for="2" value="38045581.6464" />
+          <attvalue for="3" value="2" />
+          <attvalue for="4" value="#1baf7a" />
+        </attvalues>
+      </node>
+      <node id="Quintana Roo.Solidaridad" label="Solidaridad">
+        <attvalues>
+          <attvalue for="0" value="20.3741313" />
+          <attvalue for="1" value="-87.04318" />
+          <attvalue for="2" value="10346275621.92804" />
+          <attvalue for="3" value="0" />
+          <attvalue for="4" value="#2a78d6" />
+        </attvalues>
+      </node>
+      <node id="Quintana Roo.Tulum" label="Tulum">
+        <attvalues>
+          <attvalue for="0" value="20.1238796" />
+          <attvalue for="1" value="-87.2747537" />
+          <attvalue for="2" value="5820.91078" />
+          <attvalue for="3" value="1" />
+          <attvalue for="4" value="#eb6834" />
+        </attvalues>
+      </node>
+    </nodes>
+    <edges>
+      <edge source="Quintana Roo.Benito Juárez" target="Quintana Roo.Cozumel" id="0" weight="0.7045113180505276" />
+      <edge source="Quintana Roo.Benito Juárez" target="Quintana Roo.Solidaridad" id="1" weight="0.8474456347685969" />
+      <edge source="Quintana Roo.Cozumel" target="Quintana Roo.Solidaridad" id="2" weight="0.9125105499563253" />
+      <edge source="Quintana Roo.Isla Mujeres" target="Quintana Roo.Tulum" id="3" weight="0.7949989867251416" />
+    </edges>
+  </graph>
+</gexf>

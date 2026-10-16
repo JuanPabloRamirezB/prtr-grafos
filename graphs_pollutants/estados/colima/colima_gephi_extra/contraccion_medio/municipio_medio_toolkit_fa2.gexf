@@ -1,0 +1,303 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<gexf xmlns="http://gexf.net/1.3" version="1.3" xmlns:viz="http://gexf.net/1.3/viz" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://gexf.net/1.3 http://gexf.net/1.3/gexf.xsd">
+  <meta lastmodifieddate="2026-10-16">
+    <creator>Apache NetBeans Platform Dev (Build {0})</creator>
+    <title></title>
+    <description></description>
+  </meta>
+  <graph defaultedgetype="undirected" mode="static">
+    <attributes class="node" mode="static">
+      <attribute id="0" title="type" type="string"/>
+      <attribute id="1" title="total_kg" type="double"/>
+    </attributes>
+    <nodes>
+      <node id="LOC::Colima.Manzanillo" label="Colima.Manzanillo">
+        <attvalues>
+          <attvalue for="0" value="location"/>
+          <attvalue for="1" value="3.699569986139266E10"/>
+        </attvalues>
+        <viz:size value="56.32566"/>
+        <viz:position x="-98.8814" y="167.11575"/>
+        <viz:color r="42" g="120" b="214"/>
+      </node>
+      <node id="LOC::Colima.Colima" label="Colima.Colima">
+        <attvalues>
+          <attvalue for="0" value="location"/>
+          <attvalue for="1" value="2.8439227189519946E7"/>
+        </attvalues>
+        <viz:size value="10.035611"/>
+        <viz:position x="19.054596" y="55.907368"/>
+        <viz:color r="42" g="120" b="214"/>
+      </node>
+      <node id="LOC::Colima.Tecomán" label="Colima.Tecomán">
+        <attvalues>
+          <attvalue for="0" value="location"/>
+          <attvalue for="1" value="9.04855903067566E9"/>
+        </attvalues>
+        <viz:size value="21.330519"/>
+        <viz:position x="61.564457" y="-118.670364"/>
+        <viz:color r="42" g="120" b="214"/>
+      </node>
+      <node id="LOC::Colima.Cuauhtémoc" label="Colima.Cuauhtémoc">
+        <attvalues>
+          <attvalue for="0" value="location"/>
+          <attvalue for="1" value="1.5730708736425662E9"/>
+        </attvalues>
+        <viz:size value="11.969785"/>
+        <viz:position x="-29.614382" y="-105.22547"/>
+        <viz:color r="42" g="120" b="214"/>
+      </node>
+      <node id="LOC::Colima.Minatitlán" label="Colima.Minatitlán">
+        <attvalues>
+          <attvalue for="0" value="location"/>
+          <attvalue for="1" value="2.6570673326979998E8"/>
+        </attvalues>
+        <viz:size value="10.332715"/>
+        <viz:position x="149.17728" y="17.452806"/>
+        <viz:color r="42" g="120" b="214"/>
+      </node>
+      <node id="LOC::Colima.Ixtlahuacán" label="Colima.Ixtlahuacán">
+        <attvalues>
+          <attvalue for="0" value="location"/>
+          <attvalue for="1" value="8214004.145434602"/>
+        </attvalues>
+        <viz:size value="10.010285"/>
+        <viz:position x="241.11494" y="-93.87957"/>
+        <viz:color r="42" g="120" b="214"/>
+      </node>
+      <node id="LOC::Colima.Villa de Álvarez" label="Colima.Villa de Álvarez">
+        <attvalues>
+          <attvalue for="0" value="location"/>
+          <attvalue for="1" value="0.04702672"/>
+        </attvalues>
+        <viz:size value="10.0"/>
+        <viz:position x="-230.95433" y="13.198388"/>
+        <viz:color r="42" g="120" b="214"/>
+      </node>
+      <node id="LOC::Colima.Coquimatlán" label="Colima.Coquimatlán">
+        <attvalues>
+          <attvalue for="0" value="location"/>
+          <attvalue for="1" value="31825.04"/>
+        </attvalues>
+        <viz:size value="10.00004"/>
+        <viz:position x="-160.6619" y="-94.4605"/>
+        <viz:color r="42" g="120" b="214"/>
+      </node>
+      <node id="MED::agua" label="water">
+        <attvalues>
+          <attvalue for="0" value="medio"/>
+          <attvalue for="1" value="3130511.976057993"/>
+        </attvalues>
+        <viz:size value="10.00392"/>
+        <viz:position x="69.61781" y="-12.306191"/>
+        <viz:color r="235" g="104" b="52"/>
+      </node>
+      <node id="MED::aire" label="air">
+        <attvalues>
+          <attvalue for="0" value="medio"/>
+          <attvalue for="1" value="4.791603036626387E10"/>
+        </attvalues>
+        <viz:size value="70.0"/>
+        <viz:position x="180.05183" y="-69.46943"/>
+        <viz:color r="235" g="104" b="52"/>
+      </node>
+      <node id="MED::suelo" label="soil">
+        <attvalues>
+          <attvalue for="0" value="medio"/>
+          <attvalue for="1" value="11299.330351157278"/>
+        </attvalues>
+        <viz:size value="10.000014"/>
+        <viz:position x="-168.63641" y="8.522719"/>
+        <viz:color r="235" g="104" b="52"/>
+      </node>
+      <node id="MED::alcantarillado" label="sewer system">
+        <attvalues>
+          <attvalue for="0" value="medio"/>
+          <attvalue for="1" value="28.510907566199997"/>
+        </attvalues>
+        <viz:size value="10.0"/>
+        <viz:position x="-20.909552" y="-208.1751"/>
+        <viz:color r="235" g="104" b="52"/>
+      </node>
+      <node id="MED::coprocesamiento" label="co-processing">
+        <attvalues>
+          <attvalue for="0" value="medio"/>
+          <attvalue for="1" value="1861.9660000506"/>
+        </attvalues>
+        <viz:size value="10.000002"/>
+        <viz:position x="43.559296" y="153.31978"/>
+        <viz:color r="235" g="104" b="52"/>
+      </node>
+      <node id="MED::disposicion_final" label="final disposal">
+        <attvalues>
+          <attvalue for="0" value="medio"/>
+          <attvalue for="1" value="39794.71334208912"/>
+        </attvalues>
+        <viz:size value="10.00005"/>
+        <viz:position x="-115.809" y="-127.22694"/>
+        <viz:color r="235" g="104" b="52"/>
+      </node>
+      <node id="MED::incineracion" label="incineration">
+        <attvalues>
+          <attvalue for="0" value="medio"/>
+          <attvalue for="1" value="0.0660000506"/>
+        </attvalues>
+        <viz:size value="10.0"/>
+        <viz:position x="-106.630005" y="362.84546"/>
+        <viz:color r="235" g="104" b="52"/>
+      </node>
+      <node id="MED::otros" label="other">
+        <attvalues>
+          <attvalue for="0" value="medio"/>
+          <attvalue for="1" value="414150.5271684507"/>
+        </attvalues>
+        <viz:size value="10.000519"/>
+        <viz:position x="140.421" y="104.56283"/>
+        <viz:color r="235" g="104" b="52"/>
+      </node>
+      <node id="MED::reciclado" label="recycling">
+        <attvalues>
+          <attvalue for="0" value="medio"/>
+          <attvalue for="1" value="70040.3570000506"/>
+        </attvalues>
+        <viz:size value="10.000088"/>
+        <viz:position x="-65.835754" y="-36.82736"/>
+        <viz:color r="235" g="104" b="52"/>
+      </node>
+      <node id="MED::reutilizacion" label="reuse">
+        <attvalues>
+          <attvalue for="0" value="medio"/>
+          <attvalue for="1" value="5368.0660000506"/>
+        </attvalues>
+        <viz:size value="10.000007"/>
+        <viz:position x="-192.08717" y="342.14673"/>
+        <viz:color r="235" g="104" b="52"/>
+      </node>
+      <node id="MED::tratamiento" label="treatment">
+        <attvalues>
+          <attvalue for="0" value="medio"/>
+          <attvalue for="1" value="18133.6260000506"/>
+        </attvalues>
+        <viz:size value="10.000023"/>
+        <viz:position x="-256.8703" y="282.89505"/>
+        <viz:color r="235" g="104" b="52"/>
+      </node>
+    </nodes>
+    <edges>
+      <edge id="0" source="LOC::Colima.Manzanillo" target="MED::agua" weight="3092472.0">
+        <viz:color r="137" g="135" b="129" a="0.43137255"/>
+      </edge>
+      <edge id="1" source="LOC::Colima.Manzanillo" target="MED::aire" weight="3.6992126976E10">
+        <viz:color r="137" g="135" b="129" a="0.43137255"/>
+      </edge>
+      <edge id="2" source="LOC::Colima.Manzanillo" target="MED::suelo" weight="9901.6240234375">
+        <viz:color r="137" g="135" b="129" a="0.43137255"/>
+      </edge>
+      <edge id="3" source="LOC::Colima.Manzanillo" target="MED::alcantarillado" weight="28.334306716918945">
+        <viz:color r="137" g="135" b="129" a="0.43137255"/>
+      </edge>
+      <edge id="4" source="LOC::Colima.Manzanillo" target="MED::coprocesamiento" weight="0.06600005179643631">
+        <viz:color r="137" g="135" b="129" a="0.43137255"/>
+      </edge>
+      <edge id="5" source="LOC::Colima.Manzanillo" target="MED::disposicion_final" weight="5931.75">
+        <viz:color r="137" g="135" b="129" a="0.43137255"/>
+      </edge>
+      <edge id="6" source="LOC::Colima.Manzanillo" target="MED::incineracion" weight="0.06600005179643631">
+        <viz:color r="137" g="135" b="129" a="0.43137255"/>
+      </edge>
+      <edge id="7" source="LOC::Colima.Manzanillo" target="MED::otros" weight="394282.6875">
+        <viz:color r="137" g="135" b="129" a="0.43137255"/>
+      </edge>
+      <edge id="8" source="LOC::Colima.Manzanillo" target="MED::reciclado" weight="46517.88671875">
+        <viz:color r="137" g="135" b="129" a="0.43137255"/>
+      </edge>
+      <edge id="9" source="LOC::Colima.Manzanillo" target="MED::reutilizacion" weight="5368.06591796875">
+        <viz:color r="137" g="135" b="129" a="0.43137255"/>
+      </edge>
+      <edge id="10" source="LOC::Colima.Manzanillo" target="MED::tratamiento" weight="18133.626953125">
+        <viz:color r="137" g="135" b="129" a="0.43137255"/>
+      </edge>
+      <edge id="11" source="LOC::Colima.Colima" target="MED::agua" weight="37531.82421875">
+        <viz:color r="137" g="135" b="129" a="0.43137255"/>
+      </edge>
+      <edge id="12" source="LOC::Colima.Colima" target="MED::aire" weight="2.8383558E7">
+        <viz:color r="137" g="135" b="129" a="0.43137255"/>
+      </edge>
+      <edge id="13" source="LOC::Colima.Colima" target="MED::suelo" weight="32.2554931640625">
+        <viz:color r="137" g="135" b="129" a="0.43137255"/>
+      </edge>
+      <edge id="14" source="LOC::Colima.Colima" target="MED::coprocesamiento" weight="1823.0">
+        <viz:color r="137" g="135" b="129" a="0.43137255"/>
+      </edge>
+      <edge id="15" source="LOC::Colima.Colima" target="MED::disposicion_final" weight="7.699999809265137">
+        <viz:color r="137" g="135" b="129" a="0.43137255"/>
+      </edge>
+      <edge id="16" source="LOC::Colima.Colima" target="MED::otros" weight="16274.30859375">
+        <viz:color r="137" g="135" b="129" a="0.43137255"/>
+      </edge>
+      <edge id="17" source="LOC::Colima.Tecomán" target="MED::agua" weight="294.0799560546875">
+        <viz:color r="137" g="135" b="129" a="0.43137255"/>
+      </edge>
+      <edge id="18" source="LOC::Colima.Tecomán" target="MED::aire" weight="9.048544256E9">
+        <viz:color r="137" g="135" b="129" a="0.43137255"/>
+      </edge>
+      <edge id="19" source="LOC::Colima.Tecomán" target="MED::suelo" weight="1182.2279052734375">
+        <viz:color r="137" g="135" b="129" a="0.43137255"/>
+      </edge>
+      <edge id="20" source="LOC::Colima.Tecomán" target="MED::alcantarillado" weight="0.17659999430179596">
+        <viz:color r="137" g="135" b="129" a="0.43137255"/>
+      </edge>
+      <edge id="21" source="LOC::Colima.Tecomán" target="MED::coprocesamiento" weight="38.900001525878906">
+        <viz:color r="137" g="135" b="129" a="0.43137255"/>
+      </edge>
+      <edge id="22" source="LOC::Colima.Tecomán" target="MED::disposicion_final" weight="680.09326171875">
+        <viz:color r="137" g="135" b="129" a="0.43137255"/>
+      </edge>
+      <edge id="23" source="LOC::Colima.Tecomán" target="MED::otros" weight="3251.524658203125">
+        <viz:color r="137" g="135" b="129" a="0.43137255"/>
+      </edge>
+      <edge id="24" source="LOC::Colima.Tecomán" target="MED::reciclado" weight="9776.8896484375">
+        <viz:color r="137" g="135" b="129" a="0.43137255"/>
+      </edge>
+      <edge id="25" source="LOC::Colima.Cuauhtémoc" target="MED::agua" weight="197.20367431640625">
+        <viz:color r="137" g="135" b="129" a="0.43137255"/>
+      </edge>
+      <edge id="26" source="LOC::Colima.Cuauhtémoc" target="MED::aire" weight="1.573065472E9">
+        <viz:color r="137" g="135" b="129" a="0.43137255"/>
+      </edge>
+      <edge id="27" source="LOC::Colima.Cuauhtémoc" target="MED::suelo" weight="183.1761932373047">
+        <viz:color r="137" g="135" b="129" a="0.43137255"/>
+      </edge>
+      <edge id="28" source="LOC::Colima.Cuauhtémoc" target="MED::disposicion_final" weight="1653.169921875">
+        <viz:color r="137" g="135" b="129" a="0.43137255"/>
+      </edge>
+      <edge id="29" source="LOC::Colima.Cuauhtémoc" target="MED::reciclado" weight="3314.85009765625">
+        <viz:color r="137" g="135" b="129" a="0.43137255"/>
+      </edge>
+      <edge id="30" source="LOC::Colima.Minatitlán" target="MED::agua" weight="16.821800231933594">
+        <viz:color r="137" g="135" b="129" a="0.43137255"/>
+      </edge>
+      <edge id="31" source="LOC::Colima.Minatitlán" target="MED::aire" weight="2.6569624E8">
+        <viz:color r="137" g="135" b="129" a="0.43137255"/>
+      </edge>
+      <edge id="32" source="LOC::Colima.Minatitlán" target="MED::otros" weight="342.0">
+        <viz:color r="137" g="135" b="129" a="0.43137255"/>
+      </edge>
+      <edge id="33" source="LOC::Colima.Minatitlán" target="MED::reciclado" weight="10127.6904296875">
+        <viz:color r="137" g="135" b="129" a="0.43137255"/>
+      </edge>
+      <edge id="34" source="LOC::Colima.Ixtlahuacán" target="MED::aire" weight="8214004.0">
+        <viz:color r="137" g="135" b="129" a="0.43137255"/>
+      </edge>
+      <edge id="35" source="LOC::Colima.Villa de Álvarez" target="MED::suelo" weight="0.04702671989798546">
+        <viz:color r="137" g="135" b="129" a="0.43137255"/>
+      </edge>
+      <edge id="36" source="LOC::Colima.Coquimatlán" target="MED::disposicion_final" weight="31522.0">
+        <viz:color r="137" g="135" b="129" a="0.43137255"/>
+      </edge>
+      <edge id="37" source="LOC::Colima.Coquimatlán" target="MED::reciclado" weight="303.0400085449219">
+        <viz:color r="137" g="135" b="129" a="0.43137255"/>
+      </edge>
+    </edges>
+  </graph>
+</gexf>

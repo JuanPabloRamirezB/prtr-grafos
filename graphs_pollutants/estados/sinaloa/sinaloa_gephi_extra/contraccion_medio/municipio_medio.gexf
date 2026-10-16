@@ -1,0 +1,204 @@
+<?xml version='1.0' encoding='utf-8'?>
+<gexf xmlns="http://www.gexf.net/1.2draft" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.gexf.net/1.2draft http://www.gexf.net/1.2draft/gexf.xsd" version="1.2">
+  <meta lastmodifieddate="2026-10-16">
+    <creator>NetworkX 3.7</creator>
+  </meta>
+  <graph defaultedgetype="undirected" mode="static" name="">
+    <attributes mode="static" class="node">
+      <attribute id="0" title="type" type="string" />
+      <attribute id="1" title="total_kg" type="double" />
+    </attributes>
+    <nodes>
+      <node id="LOC::Sinaloa.Ahome" label="Sinaloa.Ahome">
+        <attvalues>
+          <attvalue for="0" value="location" />
+          <attvalue for="1" value="15911744667.995882" />
+        </attvalues>
+      </node>
+      <node id="LOC::Sinaloa.Choix" label="Sinaloa.Choix">
+        <attvalues>
+          <attvalue for="0" value="location" />
+          <attvalue for="1" value="6.7218463325" />
+        </attvalues>
+      </node>
+      <node id="LOC::Sinaloa.El Fuerte" label="Sinaloa.El Fuerte">
+        <attvalues>
+          <attvalue for="0" value="location" />
+          <attvalue for="1" value="4586.48882675" />
+        </attvalues>
+      </node>
+      <node id="LOC::Sinaloa.Mazatlán" label="Sinaloa.Mazatlán">
+        <attvalues>
+          <attvalue for="0" value="location" />
+          <attvalue for="1" value="25828970680.603775" />
+        </attvalues>
+      </node>
+      <node id="LOC::Sinaloa.Salvador Alvarado" label="Sinaloa.Salvador Alvarado">
+        <attvalues>
+          <attvalue for="0" value="location" />
+          <attvalue for="1" value="26792.14617416242" />
+        </attvalues>
+      </node>
+      <node id="LOC::Sinaloa.Badiraguato" label="Sinaloa.Badiraguato">
+        <attvalues>
+          <attvalue for="0" value="location" />
+          <attvalue for="1" value="3043.1884714999997" />
+        </attvalues>
+      </node>
+      <node id="LOC::Sinaloa.Culiacán" label="Sinaloa.Culiacán">
+        <attvalues>
+          <attvalue for="0" value="location" />
+          <attvalue for="1" value="455721332.1032091" />
+        </attvalues>
+      </node>
+      <node id="LOC::Sinaloa.Sinaloa" label="Sinaloa.Sinaloa">
+        <attvalues>
+          <attvalue for="0" value="location" />
+          <attvalue for="1" value="13304.5131216" />
+        </attvalues>
+      </node>
+      <node id="LOC::Sinaloa.Cosalá" label="Sinaloa.Cosalá">
+        <attvalues>
+          <attvalue for="0" value="location" />
+          <attvalue for="1" value="5659.464853349999" />
+        </attvalues>
+      </node>
+      <node id="LOC::Sinaloa.Navolato" label="Sinaloa.Navolato">
+        <attvalues>
+          <attvalue for="0" value="location" />
+          <attvalue for="1" value="0.0616398" />
+        </attvalues>
+      </node>
+      <node id="LOC::Sinaloa.Mocorito" label="Sinaloa.Mocorito">
+        <attvalues>
+          <attvalue for="0" value="location" />
+          <attvalue for="1" value="1853792.88257" />
+        </attvalues>
+      </node>
+      <node id="LOC::Sinaloa.Rosario" label="Sinaloa.Rosario">
+        <attvalues>
+          <attvalue for="0" value="location" />
+          <attvalue for="1" value="5642878.664705499" />
+        </attvalues>
+      </node>
+      <node id="MED::agua" label="water">
+        <attvalues>
+          <attvalue for="0" value="medio" />
+          <attvalue for="1" value="1531365.1970509812" />
+        </attvalues>
+      </node>
+      <node id="MED::aire" label="air">
+        <attvalues>
+          <attvalue for="0" value="medio" />
+          <attvalue for="1" value="42200596049.35593" />
+        </attvalues>
+      </node>
+      <node id="MED::suelo" label="soil">
+        <attvalues>
+          <attvalue for="0" value="medio" />
+          <attvalue for="1" value="802471.0081517058" />
+        </attvalues>
+      </node>
+      <node id="MED::alcantarillado" label="sewer system">
+        <attvalues>
+          <attvalue for="0" value="medio" />
+          <attvalue for="1" value="463.99308406200004" />
+        </attvalues>
+      </node>
+      <node id="MED::coprocesamiento" label="co-processing">
+        <attvalues>
+          <attvalue for="0" value="medio" />
+          <attvalue for="1" value="0.00908852" />
+        </attvalues>
+      </node>
+      <node id="MED::disposicion_final" label="final disposal">
+        <attvalues>
+          <attvalue for="0" value="medio" />
+          <attvalue for="1" value="997507.8540723902" />
+        </attvalues>
+      </node>
+      <node id="MED::incineracion" label="incineration">
+        <attvalues>
+          <attvalue for="0" value="medio" />
+          <attvalue for="1" value="4200.0" />
+        </attvalues>
+      </node>
+      <node id="MED::otros" label="other">
+        <attvalues>
+          <attvalue for="0" value="medio" />
+          <attvalue for="1" value="7801.473259999999" />
+        </attvalues>
+      </node>
+      <node id="MED::reciclado" label="recycling">
+        <attvalues>
+          <attvalue for="0" value="medio" />
+          <attvalue for="1" value="42793.213" />
+        </attvalues>
+      </node>
+      <node id="MED::reutilizacion" label="reuse">
+        <attvalues>
+          <attvalue for="0" value="medio" />
+          <attvalue for="1" value="3449.7" />
+        </attvalues>
+      </node>
+      <node id="MED::tratamiento" label="treatment">
+        <attvalues>
+          <attvalue for="0" value="medio" />
+          <attvalue for="1" value="643.03144223" />
+        </attvalues>
+      </node>
+    </nodes>
+    <edges>
+      <edge source="LOC::Sinaloa.Ahome" target="MED::agua" id="0" weight="1025514.2603374558" />
+      <edge source="LOC::Sinaloa.Ahome" target="MED::aire" id="1" weight="15910641847.532578" />
+      <edge source="LOC::Sinaloa.Ahome" target="MED::suelo" id="2" weight="66458.181611278" />
+      <edge source="LOC::Sinaloa.Ahome" target="MED::alcantarillado" id="3" weight="36.08735359" />
+      <edge source="LOC::Sinaloa.Ahome" target="MED::disposicion_final" id="4" weight="1867.8161400000001" />
+      <edge source="LOC::Sinaloa.Ahome" target="MED::otros" id="5" weight="1704.0128599999998" />
+      <edge source="LOC::Sinaloa.Ahome" target="MED::reciclado" id="6" weight="7240.105" />
+      <edge source="LOC::Sinaloa.Choix" target="MED::agua" id="7" weight="1.5101271965" />
+      <edge source="LOC::Sinaloa.Choix" target="MED::suelo" id="8" weight="5.211719136" />
+      <edge source="LOC::Sinaloa.El Fuerte" target="MED::agua" id="9" weight="155.08882675000007" />
+      <edge source="LOC::Sinaloa.El Fuerte" target="MED::aire" id="10" weight="1083.4" />
+      <edge source="LOC::Sinaloa.El Fuerte" target="MED::reutilizacion" id="11" weight="3348.0" />
+      <edge source="LOC::Sinaloa.Mazatlán" target="MED::agua" id="12" weight="434959.809512122" />
+      <edge source="LOC::Sinaloa.Mazatlán" target="MED::aire" id="13" weight="25826803950.048325" />
+      <edge source="LOC::Sinaloa.Mazatlán" target="MED::suelo" id="14" weight="727469.2616906068" />
+      <edge source="LOC::Sinaloa.Mazatlán" target="MED::alcantarillado" id="15" weight="372.740830472" />
+      <edge source="LOC::Sinaloa.Mazatlán" target="MED::coprocesamiento" id="16" weight="0.00908852" />
+      <edge source="LOC::Sinaloa.Mazatlán" target="MED::disposicion_final" id="17" weight="993331.83793239" />
+      <edge source="LOC::Sinaloa.Mazatlán" target="MED::incineracion" id="18" weight="4200.0" />
+      <edge source="LOC::Sinaloa.Mazatlán" target="MED::reciclado" id="19" weight="6396.879999999999" />
+      <edge source="LOC::Sinaloa.Mazatlán" target="MED::tratamiento" id="20" weight="0.01639223" />
+      <edge source="LOC::Sinaloa.Salvador Alvarado" target="MED::agua" id="21" weight="0.000367558" />
+      <edge source="LOC::Sinaloa.Salvador Alvarado" target="MED::aire" id="22" weight="26792.145095604417" />
+      <edge source="LOC::Sinaloa.Salvador Alvarado" target="MED::suelo" id="23" weight="0.000711" />
+      <edge source="LOC::Sinaloa.Badiraguato" target="MED::agua" id="24" weight="0.31098285000000003" />
+      <edge source="LOC::Sinaloa.Badiraguato" target="MED::suelo" id="25" weight="567.33398865" />
+      <edge source="LOC::Sinaloa.Badiraguato" target="MED::reciclado" id="26" weight="1769.54" />
+      <edge source="LOC::Sinaloa.Badiraguato" target="MED::reutilizacion" id="27" weight="63.0" />
+      <edge source="LOC::Sinaloa.Badiraguato" target="MED::tratamiento" id="28" weight="643.0035" />
+      <edge source="LOC::Sinaloa.Culiacán" target="MED::agua" id="29" weight="70733.1820937466" />
+      <edge source="LOC::Sinaloa.Culiacán" target="MED::aire" id="30" weight="455633390.1135458" />
+      <edge source="LOC::Sinaloa.Culiacán" target="MED::suelo" id="31" weight="7800.930869586316" />
+      <edge source="LOC::Sinaloa.Culiacán" target="MED::alcantarillado" id="32" weight="55.1649" />
+      <edge source="LOC::Sinaloa.Culiacán" target="MED::disposicion_final" id="33" weight="2308.2000000000003" />
+      <edge source="LOC::Sinaloa.Culiacán" target="MED::otros" id="34" weight="6097.460400000001" />
+      <edge source="LOC::Sinaloa.Culiacán" target="MED::reciclado" id="35" weight="908.35" />
+      <edge source="LOC::Sinaloa.Culiacán" target="MED::reutilizacion" id="36" weight="38.7" />
+      <edge source="LOC::Sinaloa.Culiacán" target="MED::tratamiento" id="37" weight="0.0014" />
+      <edge source="LOC::Sinaloa.Sinaloa" target="MED::agua" id="38" weight="0.4999716" />
+      <edge source="LOC::Sinaloa.Sinaloa" target="MED::reciclado" id="39" weight="13304.01" />
+      <edge source="LOC::Sinaloa.Sinaloa" target="MED::tratamiento" id="40" weight="0.00315" />
+      <edge source="LOC::Sinaloa.Cosalá" target="MED::agua" id="41" weight="0.47319190000000005" />
+      <edge source="LOC::Sinaloa.Cosalá" target="MED::suelo" id="42" weight="0.19466144999999999" />
+      <edge source="LOC::Sinaloa.Cosalá" target="MED::reciclado" id="43" weight="5658.79" />
+      <edge source="LOC::Sinaloa.Cosalá" target="MED::tratamiento" id="44" weight="0.007" />
+      <edge source="LOC::Sinaloa.Navolato" target="MED::agua" id="45" weight="0.0616398" />
+      <edge source="LOC::Sinaloa.Mocorito" target="MED::aire" id="46" weight="1846277.34457" />
+      <edge source="LOC::Sinaloa.Mocorito" target="MED::reciclado" id="47" weight="7515.5380000000005" />
+      <edge source="LOC::Sinaloa.Rosario" target="MED::aire" id="48" weight="5642708.7718055" />
+      <edge source="LOC::Sinaloa.Rosario" target="MED::suelo" id="49" weight="169.89289999999994" />
+    </edges>
+  </graph>
+</gexf>

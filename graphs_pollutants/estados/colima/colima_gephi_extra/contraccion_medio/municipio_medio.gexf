@@ -1,0 +1,168 @@
+<?xml version='1.0' encoding='utf-8'?>
+<gexf xmlns="http://www.gexf.net/1.2draft" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.gexf.net/1.2draft http://www.gexf.net/1.2draft/gexf.xsd" version="1.2">
+  <meta lastmodifieddate="2026-10-16">
+    <creator>NetworkX 3.7</creator>
+  </meta>
+  <graph defaultedgetype="undirected" mode="static" name="">
+    <attributes mode="static" class="node">
+      <attribute id="0" title="type" type="string" />
+      <attribute id="1" title="total_kg" type="double" />
+    </attributes>
+    <nodes>
+      <node id="LOC::Colima.Manzanillo" label="Colima.Manzanillo">
+        <attvalues>
+          <attvalue for="0" value="location" />
+          <attvalue for="1" value="36995699861.39266" />
+        </attvalues>
+      </node>
+      <node id="LOC::Colima.Colima" label="Colima.Colima">
+        <attvalues>
+          <attvalue for="0" value="location" />
+          <attvalue for="1" value="28439227.189519946" />
+        </attvalues>
+      </node>
+      <node id="LOC::Colima.Tecomán" label="Colima.Tecomán">
+        <attvalues>
+          <attvalue for="0" value="location" />
+          <attvalue for="1" value="9048559030.67566" />
+        </attvalues>
+      </node>
+      <node id="LOC::Colima.Cuauhtémoc" label="Colima.Cuauhtémoc">
+        <attvalues>
+          <attvalue for="0" value="location" />
+          <attvalue for="1" value="1573070873.6425662" />
+        </attvalues>
+      </node>
+      <node id="LOC::Colima.Minatitlán" label="Colima.Minatitlán">
+        <attvalues>
+          <attvalue for="0" value="location" />
+          <attvalue for="1" value="265706733.26979998" />
+        </attvalues>
+      </node>
+      <node id="LOC::Colima.Ixtlahuacán" label="Colima.Ixtlahuacán">
+        <attvalues>
+          <attvalue for="0" value="location" />
+          <attvalue for="1" value="8214004.145434602" />
+        </attvalues>
+      </node>
+      <node id="LOC::Colima.Villa de Álvarez" label="Colima.Villa de Álvarez">
+        <attvalues>
+          <attvalue for="0" value="location" />
+          <attvalue for="1" value="0.04702672" />
+        </attvalues>
+      </node>
+      <node id="LOC::Colima.Coquimatlán" label="Colima.Coquimatlán">
+        <attvalues>
+          <attvalue for="0" value="location" />
+          <attvalue for="1" value="31825.04" />
+        </attvalues>
+      </node>
+      <node id="MED::agua" label="water">
+        <attvalues>
+          <attvalue for="0" value="medio" />
+          <attvalue for="1" value="3130511.976057993" />
+        </attvalues>
+      </node>
+      <node id="MED::aire" label="air">
+        <attvalues>
+          <attvalue for="0" value="medio" />
+          <attvalue for="1" value="47916030366.26387" />
+        </attvalues>
+      </node>
+      <node id="MED::suelo" label="soil">
+        <attvalues>
+          <attvalue for="0" value="medio" />
+          <attvalue for="1" value="11299.330351157278" />
+        </attvalues>
+      </node>
+      <node id="MED::alcantarillado" label="sewer system">
+        <attvalues>
+          <attvalue for="0" value="medio" />
+          <attvalue for="1" value="28.510907566199997" />
+        </attvalues>
+      </node>
+      <node id="MED::coprocesamiento" label="co-processing">
+        <attvalues>
+          <attvalue for="0" value="medio" />
+          <attvalue for="1" value="1861.9660000506" />
+        </attvalues>
+      </node>
+      <node id="MED::disposicion_final" label="final disposal">
+        <attvalues>
+          <attvalue for="0" value="medio" />
+          <attvalue for="1" value="39794.71334208912" />
+        </attvalues>
+      </node>
+      <node id="MED::incineracion" label="incineration">
+        <attvalues>
+          <attvalue for="0" value="medio" />
+          <attvalue for="1" value="0.0660000506" />
+        </attvalues>
+      </node>
+      <node id="MED::otros" label="other">
+        <attvalues>
+          <attvalue for="0" value="medio" />
+          <attvalue for="1" value="414150.5271684507" />
+        </attvalues>
+      </node>
+      <node id="MED::reciclado" label="recycling">
+        <attvalues>
+          <attvalue for="0" value="medio" />
+          <attvalue for="1" value="70040.3570000506" />
+        </attvalues>
+      </node>
+      <node id="MED::reutilizacion" label="reuse">
+        <attvalues>
+          <attvalue for="0" value="medio" />
+          <attvalue for="1" value="5368.0660000506" />
+        </attvalues>
+      </node>
+      <node id="MED::tratamiento" label="treatment">
+        <attvalues>
+          <attvalue for="0" value="medio" />
+          <attvalue for="1" value="18133.6260000506" />
+        </attvalues>
+      </node>
+    </nodes>
+    <edges>
+      <edge source="LOC::Colima.Manzanillo" target="MED::agua" id="0" weight="3092472.0467006117" />
+      <edge source="LOC::Colima.Manzanillo" target="MED::aire" id="1" weight="36992127225.2325" />
+      <edge source="LOC::Colima.Manzanillo" target="MED::suelo" id="2" weight="9901.623685751994" />
+      <edge source="LOC::Colima.Manzanillo" target="MED::alcantarillado" id="3" weight="28.334307566199996" />
+      <edge source="LOC::Colima.Manzanillo" target="MED::coprocesamiento" id="4" weight="0.0660000506" />
+      <edge source="LOC::Colima.Manzanillo" target="MED::disposicion_final" id="5" weight="5931.750200089101" />
+      <edge source="LOC::Colima.Manzanillo" target="MED::incineracion" id="6" weight="0.0660000506" />
+      <edge source="LOC::Colima.Manzanillo" target="MED::otros" id="7" weight="394282.6943000509" />
+      <edge source="LOC::Colima.Manzanillo" target="MED::reciclado" id="8" weight="46517.88700005059" />
+      <edge source="LOC::Colima.Manzanillo" target="MED::reutilizacion" id="9" weight="5368.0660000506" />
+      <edge source="LOC::Colima.Manzanillo" target="MED::tratamiento" id="10" weight="18133.6260000506" />
+      <edge source="LOC::Colima.Colima" target="MED::agua" id="11" weight="37531.82391534402" />
+      <edge source="LOC::Colima.Colima" target="MED::aire" id="12" weight="28383558.101811096" />
+      <edge source="LOC::Colima.Colima" target="MED::suelo" id="13" weight="32.25549349999999" />
+      <edge source="LOC::Colima.Colima" target="MED::coprocesamiento" id="14" weight="1823.0" />
+      <edge source="LOC::Colima.Colima" target="MED::disposicion_final" id="15" weight="7.7" />
+      <edge source="LOC::Colima.Colima" target="MED::otros" id="16" weight="16274.308299999997" />
+      <edge source="LOC::Colima.Tecomán" target="MED::agua" id="17" weight="294.0799675164999" />
+      <edge source="LOC::Colima.Tecomán" target="MED::aire" id="18" weight="9048543806.783323" />
+      <edge source="LOC::Colima.Tecomán" target="MED::suelo" id="19" weight="1182.227945185279" />
+      <edge source="LOC::Colima.Tecomán" target="MED::alcantarillado" id="20" weight="0.1766" />
+      <edge source="LOC::Colima.Tecomán" target="MED::coprocesamiento" id="21" weight="38.9" />
+      <edge source="LOC::Colima.Tecomán" target="MED::disposicion_final" id="22" weight="680.09325" />
+      <edge source="LOC::Colima.Tecomán" target="MED::otros" id="23" weight="3251.5245684000006" />
+      <edge source="LOC::Colima.Tecomán" target="MED::reciclado" id="24" weight="9776.890000000001" />
+      <edge source="LOC::Colima.Cuauhtémoc" target="MED::agua" id="25" weight="197.20367452000002" />
+      <edge source="LOC::Colima.Cuauhtémoc" target="MED::aire" id="26" weight="1573065525.2428" />
+      <edge source="LOC::Colima.Cuauhtémoc" target="MED::suelo" id="27" weight="183.17620000000002" />
+      <edge source="LOC::Colima.Cuauhtémoc" target="MED::disposicion_final" id="28" weight="1653.1698919999997" />
+      <edge source="LOC::Colima.Cuauhtémoc" target="MED::reciclado" id="29" weight="3314.85" />
+      <edge source="LOC::Colima.Minatitlán" target="MED::agua" id="30" weight="16.821800000000003" />
+      <edge source="LOC::Colima.Minatitlán" target="MED::aire" id="31" weight="265696246.758" />
+      <edge source="LOC::Colima.Minatitlán" target="MED::otros" id="32" weight="342.0" />
+      <edge source="LOC::Colima.Minatitlán" target="MED::reciclado" id="33" weight="10127.689999999999" />
+      <edge source="LOC::Colima.Ixtlahuacán" target="MED::aire" id="34" weight="8214004.145434602" />
+      <edge source="LOC::Colima.Villa de Álvarez" target="MED::suelo" id="35" weight="0.04702672" />
+      <edge source="LOC::Colima.Coquimatlán" target="MED::disposicion_final" id="36" weight="31522.0" />
+      <edge source="LOC::Colima.Coquimatlán" target="MED::reciclado" id="37" weight="303.04" />
+    </edges>
+  </graph>
+</gexf>
